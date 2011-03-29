@@ -1,3 +1,5 @@
 * text=auto !eol
 /README -text
 /apertium-tr-ky.tr-ky.dix -text
+/tr-ky.prob -text svneol=unset#unset
+/tr-ky.sh -text
