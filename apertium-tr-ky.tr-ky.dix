@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-   <alphabet>ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZabcçdefgğhıijklmnoöprsştuüvyzАБВГДЕЁЖЗИЙКЛМНӉОӨПРСТУҮФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнӊоөпрстуүфхцчшщъыьэюя</alphabet>
    <sdefs>
      <sdef n="n"/>
      <sdef n="sg"/>
      <sdef n="pl"/>
+     <sdef n="vblex"/>
+     <sdef n="p1"/>
+     <sdef n="pri"/>
    </sdefs>
-
+   
    <section id="main" type="standard">
 	<e><p><l>anne<s n="n"/></l><r>апа<s n="n"/></r></p></e>
 	<e><p><l>baba<s n="n"/></l><r>ата<s n="n"/></r></p></e>
 	<e><p><l>okul<s n="n"/></l><r>мектеп<s n="n"/></r></p></e>
+	<e><p><l>git<s n="vblex"/></l><r>кет<s n="vblex"/></r></p></e>
    </section>
 </dictionary>
 
