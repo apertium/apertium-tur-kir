@@ -1,1 +1,16 @@
-Placeholder for the Turkish--Kyrgyz module.
+
+==Installation==
+
+You will need:
+
+ http://wiki.apertium.org/wiki/Trmorph
+
+Use the instructions on the Wiki to download and compile. To make 
+tr-mor.ol, run the following in the trmorph directory:
+
+ hfst-invert -i trmorph.a | hfst-fst2fst -O -o tr-mor.ol
+
+You need to make a symlink from the Turkish analyser:
+
+ ln -s /path/to/tr-mor.ol tr-ky.automorf.hfst
+
