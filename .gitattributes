@@ -2,5 +2,6 @@
 /Makefile -text
 /README -text
 /apertium-tr-ky.tr-ky.dix -text
+/modes.xml -text
 /tr-ky.prob -text svneol=unset#unset
 /tr-ky.sh -text

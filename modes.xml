@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+ 
+  <mode name="tr-ky-morph" install="no">
+    <pipeline>
+      <program name="hfst-proc">
+        <file name="tr-ky.automorf.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="tr-ky-tagger" install="no">
+    <pipeline>
+      <program name="hfst-proc">
+        <file name="tr-ky.automorf.hfst"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="tr-ky.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
+  <mode name="tr-ky-bil" install="no">
+    <pipeline>
+      <program name="hfst-proc">
+        <file name="tr-ky.automorf.hfst"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="tr-ky.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="tr-ky.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+<!--
+  <mode name="tr-ky-transfer" install="no">
+    <pipeline>
+      <program name="hfst-proc">
+        <file name="tr-ky.automorf.hfst"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="tr-ky.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-tr-ky.tr-ky.t1x"/>
+        <file name="tr-ky.t1x.bin"/>
+        <file name="tr-ky.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="tr-ky" install="yes">
+    <pipeline>
+      <program name="hfst-proc">
+        <file name="tr-ky.automorf.hfst"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="tr-ky.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-tr-ky.tr-ky.t1x"/>
+        <file name="tr-ky.t1x.bin"/>
+        <file name="tr-ky.autobil.bin"/>
+      </program>
+      <program name="hfst-proc $1">
+        <file name="tr-ky.autogen.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+--> 
+</modes>
