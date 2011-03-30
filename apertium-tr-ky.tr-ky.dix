@@ -2,8 +2,12 @@
 <dictionary>
    <sdefs>
      <sdef n="n"         c="Noun"/>
+     <sdef n="num"       c="Numeral"/>
+     <sdef n="post"      c="Postposition"/>
      <sdef n="np"        c="Proper noun"/>
      <sdef n="v"         c="Verb"/>
+     <sdef n="cnj"       c="Conjunction"/>
+     <sdef n="cnjcoo"    c="Coordinating conjunction"/>
      <sdef n="ant"       c="Anthroponym"/>
      <sdef n="m"         c="Masculine"/>
    </sdefs>
@@ -11,18 +15,56 @@
    <section id="main" type="standard">
 
         <!-- SECTION: Conjunctions -->
-	<e><p><l>ve<s n="cnj"/></l><r>жана<s n="cnjcoo"/></r></p></e>
+
+	<e c="  0"><p><l>ve<s n="cnj"/></l><r>жана<s n="cnjcoo"/></r></p></e>
+ 
+        <!-- SECTION: Postpositions -->
+
+        <!-- SECTION: Pronouns -->
+
+	<e c="  0"><p><l>ben<s n="prn"/></l><r>мен<s n="prn"/><s n="p1"/><s n="sg"/></r></p></e>
+	<e c="  0"><p><l>sen<s n="prn"/></l><r>cен<s n="prn"/><s n="p2"/><s n="sg"/></r></p></e>
+	<e c="  0"><p><l>o<s n="prn"/></l><r>ал<s n="prn"/><s n="p3"/><s n="sg"/></r></p></e>
+	<e c="  0"><p><l>biz<s n="prn"/></l><r>биз<s n="prn"/><s n="p1"/><s n="pl"/></r></p></e>
+	<e c="  0"><p><l>siz<s n="prn"/></l><r>сиз<s n="prn"/><s n="p2"/><s n="pl"/></r></p></e>
+	<e c="  0"><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/><s n="p3"/><s n="pl"/></r></p></e>
+
+        <!-- SECTION: Determiners -->
+
+        <!-- SECTION: Numerals -->
+
+	<e c="  0"><p><l>bir<s n="num"/></l><r>бир<s n="num"/></r></p></e>
+	<e c="  0"><p><l>iki<s n="num"/></l><r>эки<s n="num"/></r></p></e>
+	<e c="  0"><p><l>üç<s n="num"/></l><r>үч<s n="num"/></r></p></e>
+	<e c="  0"><p><l>dört<s n="num"/></l><r>төрт<s n="num"/></r></p></e>
+	<e c="  0"><p><l>beş<s n="num"/></l><r>беш<s n="num"/></r></p></e>
  
         <!-- SECTION: Nouns -->
-	<e><p><l>anne<s n="n"/></l><r>апа<s n="n"/></r></p></e>
-	<e><p><l>baba<s n="n"/></l><r>ата<s n="n"/></r></p></e>
-	<e><p><l>okul<s n="n"/></l><r>мектеп<s n="n"/></r></p></e>
+
+	<e c="  0"><p><l>anne<s n="n"/></l><r>апа<s n="n"/></r></p></e>
+	<e c="  0"><p><l>baba<s n="n"/></l><r>ата<s n="n"/></r></p></e>
+	<e c="  0"><p><l>okul<s n="n"/></l><r>мектеп<s n="n"/></r></p></e>
+        <e c="  0"><p><l>ahval<s n="n"/></l><r>акыбал<s n="n"/></r></p></e>
+        <e slr="1"><p><l>ahval<s n="n"/></l><r>абал<s n="n"/></r></p></e>
+        <e c="  0"><p><l>ağaç<s n="n"/></l><r>жыгач<s n="n"/></r></p></e>
+        <e slr="1"><p><l>ağaç<s n="n"/></l><r>дарак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>orman<s n="n"/></l><r>токой<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çiçek<s n="n"/></l><r>гүл<s n="n"/></r></p></e>
 
         <!-- SECTION: Proper nouns -->
-	<e><p><l>Ahmet<s n="np"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
+	<e c="  0"><p><l>Ahmet<s n="np"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
+        <!-- SECTION: Adjectives -->
+
+        <!-- SECTION: Adverbs -->
 
         <!-- SECTION: Verbs -->
-	<e><p><l>git<s n="v"/></l><r>кет<s n="v"/></r></p></e>
+
+	<e c="  0"><p><l>git<s n="v"/></l><r>кет<s n="v"/></r></p></e>
+
+        <!-- SECTION: Punctuation -->
+
    </section>
 </dictionary>
 
