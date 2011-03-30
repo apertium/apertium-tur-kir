@@ -4,12 +4,22 @@
      <sdef n="n"         c="Noun"/>
      <sdef n="num"       c="Numeral"/>
      <sdef n="post"      c="Postposition"/>
+     <sdef n="prn"       c="Pronouns"/>
      <sdef n="np"        c="Proper noun"/>
      <sdef n="v"         c="Verb"/>
      <sdef n="cnj"       c="Conjunction"/>
      <sdef n="cnjcoo"    c="Coordinating conjunction"/>
      <sdef n="ant"       c="Anthroponym"/>
+
+     <sdef n="p1"        c="First person"/>
+     <sdef n="p2"        c="Second person"/>
+     <sdef n="p3"        c="Third person"/>
+
      <sdef n="m"         c="Masculine"/>
+     <sdef n="f"         c="Feminine"/>
+
+     <sdef n="sg"        c="Singular"/>
+     <sdef n="pl"        c="Plural"/>
    </sdefs>
    
    <section id="main" type="standard">
