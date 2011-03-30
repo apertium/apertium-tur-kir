@@ -14,3 +14,12 @@ You need to make a symlink from the Turkish analyser:
 
  ln -s /path/to/tr-mor.ol tr-ky.automorf.hfst
 
+Now run make:
+
+ make
+
+And test:
+
+ echo "Ahmet okula gitti." | apertium -d . tr-ky-bil
+^Ahmet<np>/Ахмет<np><ant><m>$ ^okul<n><dat>/мектеп<n><dat>$ ^git<v><t_past><3s>/кет<v><t_past><3s>$.
+
