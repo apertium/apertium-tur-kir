@@ -9,10 +9,19 @@
    </sdefs>
    
    <section id="main" type="standard">
-	<e><p><l>ahmet<s n="np"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
+        <!-- SECTION: Conjunctions -->
+	<e><p><l>ve<s n="cnj"/></l><r>жана<s n="cnjcoo"/></r></p></e>
+ 
+        <!-- SECTION: Nouns -->
 	<e><p><l>anne<s n="n"/></l><r>апа<s n="n"/></r></p></e>
 	<e><p><l>baba<s n="n"/></l><r>ата<s n="n"/></r></p></e>
 	<e><p><l>okul<s n="n"/></l><r>мектеп<s n="n"/></r></p></e>
+
+        <!-- SECTION: Proper nouns -->
+	<e><p><l>Ahmet<s n="np"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
+        <!-- SECTION: Verbs -->
 	<e><p><l>git<s n="v"/></l><r>кет<s n="v"/></r></p></e>
    </section>
 </dictionary>
