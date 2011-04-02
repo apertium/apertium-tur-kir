@@ -1,6 +1,8 @@
 * text=auto !eol
 /Makefile -text
 /README -text
+/apertium-tr-ky.ky.lexc -text
+/apertium-tr-ky.ky.twol -text
 /apertium-tr-ky.tr-ky.dix -text
 /modes.xml -text
 /tr-ky.prob -text svneol=unset#unset

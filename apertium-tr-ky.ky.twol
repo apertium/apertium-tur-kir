@@ -1,0 +1,29 @@
+Alphabet
+А Б В Г Д Е Ё Ж З И И К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
+а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ь ы ъ э ю я
+%{B%}:д %{A%}:а %>:0;
+
+Sets
+
+Consonant = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ 
+	    б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ь ъ;
+Vowel =     А Е Ё И О Ө У Ү Ы Э Ю Я
+	    а е ё и о ө у ү ы э ю я;
+FrontVowel = И Ө Е Ү Э и ө ү э е;
+BackVowel = А О У Ы а о у ы;
+FrontConsonant = К П С Т Ф Х Ц Ч Ш Щ к п с т ф х ц ч ш щ;
+BackConsonant = Б В Г Д Ж З Й Л М Н Ң Р б в г д ж з й л м н ң р;
+
+NonBack = Consonant FrontVowel %> ;
+NonFront = Consonant BackVowel %> ;
+NonBackC = FrontVowel Vowel FrontConsonant %>;
+NonFrontC = BackVowel Vowel BackConsonant %>;
+
+ 
+Rules
+
+"Front harmony in suffixes"
+%{A%}:е <=> FrontVowel: NonBack:* %>: NonBack:* _ ;
+
+"Katkalan harmony in consonants"
+%{B%}:т <=> FrontConsonant: NonBackC:* %>: NonBackC:* _ ;
