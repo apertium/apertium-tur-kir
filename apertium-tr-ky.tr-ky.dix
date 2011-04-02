@@ -60,19 +60,21 @@
         <e slr="1"><p><l>ağaç<s n="n"/></l><r>дарак<s n="n"/></r></p></e>
 	<e c="  0"><p><l>orman<s n="n"/></l><r>токой<s n="n"/></r></p></e>
 	<e c="  0"><p><l>çiçek<s n="n"/></l><r>гүл<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ahir<s n="n"/></l><r>акыркы<s n="n"/></r></p></e>
 
         <!-- SECTION: Proper nouns -->
 
 	<e c="  0"><p><l>Ahmet<s n="np"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
         <!-- SECTION: Adjectives -->
-
+	
         <!-- SECTION: Adverbs -->
 
         <!-- SECTION: Verbs -->
 
 	<e c="  0"><p><l>git<s n="v"/></l><r>кет<s n="v"/></r></p></e>
-
+	<e c="  0"><p><l>ol<s n="v"/></l><r>бол<s n="v"/></r></p></e>
+	
         <!-- SECTION: Punctuation -->
 
    </section>
