@@ -6,5 +6,8 @@
 /apertium-tr-ky.tr-ky.dix -text
 /apertium-tr-ky.tr-ky.t1x -text
 /modes.xml -text
+/pending-tests.sh -text
+/regression-tests.sh -text
 /tr-ky.prob -text svneol=unset#unset
 /tr-ky.sh -text
+/wiki-tests.sh -text
