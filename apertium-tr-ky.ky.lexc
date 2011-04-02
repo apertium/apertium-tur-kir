@@ -4,7 +4,7 @@ Multichar_Symbols
 %<nom%> ! Nominative
 %<pl%>  ! Plural
 %{A%}	! Archivowel а or е
-%{B%}   ! Archiconsonant т д
+%{D%}   ! Archiconsonant т д
  
 
 LEXICON Root
@@ -17,11 +17,15 @@ LEXICON NounStems
 апа  Ninfl ; !"mother"
 аскер Ninfl ; ! "soldier" 
 жан Nonfl ; ! "jan"
-китеп Nonfl ;
+китеп Nonfl ; ! "book"
+мектеп Nonfl ; ! "school"
+
 LEXICON Ninfl
 
+%<n%>: # ;
 %<n%>%<pl%>:%>л%{A%}р # ;
 
 LEXICON Nonfl
 
-%<n%>%<pl%>:%>%{B%}%{A%}р # ;
+%<n%>: # ;
+%<n%>%<pl%>:%>%{D%}%{A%}р # ;
