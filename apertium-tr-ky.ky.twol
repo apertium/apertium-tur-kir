@@ -1,7 +1,7 @@
 Alphabet
 А Б В Г Д Е Ё Ж З И И К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
 а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ь ы ъ э ю я
-%{B%}:д %{A%}:а %>:0;
+%{D%}:д %{A%}:а %>:0;
 
 Sets
 
@@ -26,4 +26,4 @@ Rules
 %{A%}:е <=> FrontVowel: NonBack:* %>: NonBack:* _ ;
 
 "Katkalan harmony in consonants"
-%{B%}:т <=> FrontConsonant: NonBackC:* %>: NonBackC:* _ ;
+%{D%}:т <=> FrontConsonant: NonBackC:* %>: NonBackC:* _ ;

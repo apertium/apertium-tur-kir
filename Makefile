@@ -11,6 +11,9 @@ all:
 	apertium-validate-dictionary apertium-tr-ky.tr-ky.dix
 	lt-comp lr apertium-tr-ky.tr-ky.dix tr-ky.autobil.bin
 
+	apertium-validate-transfer apertium-tr-ky.tr-ky.t1x
+	apertium-preprocess-transfer apertium-tr-ky.tr-ky.t1x tr-ky.t1x.bin
+
 	apertium-validate-modes modes.xml
 	apertium-gen-modes modes.xml
-	#cp *.mode modes/
+	cp *.mode modes/

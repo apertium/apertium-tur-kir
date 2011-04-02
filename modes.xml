@@ -36,8 +36,6 @@
     </pipeline>
   </mode>
 
-
-<!--
   <mode name="tr-ky-transfer" install="no">
     <pipeline>
       <program name="hfst-proc">
@@ -74,5 +72,4 @@
       </program>
     </pipeline>
   </mode>
---> 
 </modes>
