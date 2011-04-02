@@ -1,0 +1,27 @@
+Multichar_Symbols
+
+%<n%>   ! Noun
+%<nom%> ! Nominative
+%<pl%>  ! Plural
+%{A%}	! Archivowel а or е
+%{B%}   ! Archiconsonant т д
+ 
+
+LEXICON Root
+
+NounStems ;
+
+
+LEXICON NounStems
+
+апа  Ninfl ; !"mother"
+аскер Ninfl ; ! "soldier" 
+жан Nonfl ; ! "jan"
+китеп Nonfl ;
+LEXICON Ninfl
+
+%<n%>%<pl%>:%>л%{A%}р # ;
+
+LEXICON Nonfl
+
+%<n%>%<pl%>:%>%{B%}%{A%}р # ;
