@@ -5,6 +5,7 @@
 /apertium-tr-ky.ky.twol -text
 /apertium-tr-ky.tr-ky.dix -text
 /apertium-tr-ky.tr-ky.t1x -text
+/lexchoicebil.xsl -text
 /modes.xml -text
 /pending-tests.sh -text
 /regression-tests.sh -text
