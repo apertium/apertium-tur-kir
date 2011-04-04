@@ -16,16 +16,16 @@ LEXICON NounStems
 
 апа  Ninfl ; !"mother"
 аскер Ninfl ; ! "soldier" 
-жан Nonfl ; ! "jan"
-китеп Nonfl ; ! "book"
-мектеп Nonfl ; ! "school"
+жан Ninfl1 ; ! "jan"
+китеп Nonfl1 ; ! "book"
+мектеп Nonfl1 ; ! "school"
 
 LEXICON Ninfl
 
 %<n%>: # ;
 %<n%>%<pl%>:%>л%{A%}р # ;
 
-LEXICON Nonfl
+LEXICON Ninfl1
 
 %<n%>: # ;
 %<n%>%<pl%>:%>%{D%}%{A%}р # ;
