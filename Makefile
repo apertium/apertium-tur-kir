@@ -8,6 +8,7 @@ all:
 	hfst-fst2fst -O -i .deps/ky-tr.automorf.hfst -o ky-tr.automorf.hfst
 	hfst-fst2fst -O -i .deps/tr-ky.autogen.hfst -o tr-ky.autogen.hfst
 
+	cg-comp apertium-tr-ky.tr-ky.rlx tr-ky.rlx.bin
 
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	xsltproc lexchoicebil.xsl apertium-tr-ky.tr-ky.dix > .deps/apertium-tr-ky.tr-ky.dix
