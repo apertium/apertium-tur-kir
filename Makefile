@@ -8,8 +8,11 @@ all:
 	hfst-fst2fst -O -i .deps/ky-tr.automorf.hfst -o ky-tr.automorf.hfst
 	hfst-fst2fst -O -i .deps/tr-ky.autogen.hfst -o tr-ky.autogen.hfst
 
-	apertium-validate-dictionary apertium-tr-ky.tr-ky.dix
-	lt-comp lr apertium-tr-ky.tr-ky.dix tr-ky.autobil.bin
+
+	if [ ! -d .deps ]; then mkdir .deps; fi
+	xsltproc lexchoicebil.xsl apertium-tr-ky.tr-ky.dix > .deps/apertium-tr-ky.tr-ky.dix
+	apertium-validate-dictionary .deps/apertium-tr-ky.tr-ky.dix
+	lt-comp lr .deps/apertium-tr-ky.tr-ky.dix tr-ky.autobil.bin
 
 	apertium-validate-transfer apertium-tr-ky.tr-ky.t1x
 	apertium-preprocess-transfer apertium-tr-ky.tr-ky.t1x tr-ky.t1x.bin
