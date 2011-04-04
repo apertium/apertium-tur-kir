@@ -1,15 +1,19 @@
 Multichar_Symbols
 
 %<n%>     ! Noun
+%<np%>    ! Proper noun
 %<adv%>   ! Adverb
 %<nom%>   ! Nominative
 %<pl%>    ! Plural
+%<ant%>   ! Anthroponym (name of person)
+%<m%>     ! Masculine
 %{A%}     ! Archivowel а or е
 %{D%}     ! Archiconsonant т д
  
 
 LEXICON Root
 
+PropernounStems ;
 NounStems ;
 AdvStems ;
 
@@ -33,6 +37,10 @@ LEXICON Ninfl1
 %<n%>: # ;
 %<n%>%<pl%>:%>%{D%}%{A%}р # ;
 
+LEXICON NpAntMInfl1
+
+%<np%>%<ant%>%<m%>: # ;
+
 LEXICON NounStems
 
 апа  Ninfl ; !"mother"
@@ -41,7 +49,10 @@ LEXICON NounStems
 китеп Nonfl ; ! "book"
 мектеп Nonfl ; ! "school"
 
+LEXICON PropernounStems
+
+Ахмет NpAntMInfl1 ; ! "Axmet"
+
 LEXICON AdvStems
 
 эртең Adv ; ! "tomorrow"
-эртең:Эртең Adv ; ! "tomorrow"
