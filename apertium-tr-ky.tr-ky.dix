@@ -61,8 +61,25 @@
 	<e c="  0"><p><l>orman<s n="n"/></l><r>токой<s n="n"/></r></p></e>
 	<e c="  0"><p><l>çiçek<s n="n"/></l><r>гүл<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ahir<s n="n"/></l><r>акыркы<s n="n"/></r></p></e>
-
-        <!-- SECTION: Proper nouns -->
+	<e c="  0"><p><l>adaş<s n="n"/></l><r>адаш<s n="n"/></r></p></e>
+	<e c="  0"><p><l>adres<s n="n"/></l><r>адрес<s n="n"/></r></p></e>
+        <e slr="1"><p><l>adres<s n="n"/></l><r>дарек<s n="n"/></r></p></e>
+        <e c="  0"><p><l>ad<s n="n"/></l><r>ысым<s n="n"/></r></p></e>
+        <e slr="1"><p><l>ad<s n="n"/></l><r>ат<s n="n"/></r></p></e>
+        <e slr="2"><p><l>ad<s n="n"/></l><r>атак-даңк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>aferist<s n="n"/></l><r>аферист<s n="n"/></r></p></e>
+	<e c="  0"><p><l>aheste<s n="n"/></l><r>аста<s n="n"/></r></p></e>
+	<e slr="1"><p><l>aheste<s n="n"/></l><r>акырын<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ahir<s n="n"/></l><r>акыркы<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ahiret<s n="n"/></l><r>акырет<s n="n"/></r></p></e>
+	<e slr="1"><p><l>ahiret<s n="n"/></l><r>тиги дүйнө<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ahmak<s n="n"/></l><r>акмак<s n="n"/></r></p></e>
+	<e slr="1"><p><l>ahmak<s n="n"/></l><r>эси жок<s n="n"/></r></p></e>
+	<e slr="2"><p><l>ahmak<s n="n"/></l><r>келесоо<s n="n"/></r></p></e>
+	<e c="  0"><p><l>fabrika<s n="n"/></l><r>фабрика<s n="n"/></r></p></e>
+	<e slr="1"><p><l>fabrika<s n="n"/></l><r>завод<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ders<s n="n"/></l><r>сабак<s n="n"/></r></p></e>
+<!-- SECTION: Proper nouns -->
 
 	<e c="  0"><p><l>Ahmet<s n="np"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
@@ -74,7 +91,9 @@
 
 	<e c="  0"><p><l>git<s n="v"/></l><r>кет<s n="v"/></r></p></e>
 	<e c="  0"><p><l>ol<s n="v"/></l><r>бол<s n="v"/></r></p></e>
-	
+	<e c="  0"><p><l>çalış<s n="v"/></l><r>иште<s n="v"/></r></p></e>
+	<e slr="1"><p><l>çalış<s n="v"/></l><r>аракет кыл<s n="v"/></r></p></e>
+	<e slr="2"><p><l>çalış<s n="v"/></l><r>оку<s n="v"/></r></p></e>
         <!-- SECTION: Punctuation -->
 
    </section>
