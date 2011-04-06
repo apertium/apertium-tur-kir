@@ -9,6 +9,8 @@
      <sdef n="adv"       c="Adverb"/>
      <sdef n="v"         c="Verb"/>
      <sdef n="cnjcoo"    c="Coordinating conjunction"/>
+     <sdef n="cnjsub"    c="Subordinating conjunction"/>
+     <sdef n="cnjadv"    c="Adverbial conjunction"/>
 
      <sdef n="ant"       c="Anthroponym"/>
      <sdef n="top"       c="Toponym"/>
@@ -29,6 +31,9 @@
         <!-- SECTION: Conjunctions -->
 
 	<e c="  0"><p><l>ve<s n="cnjcoo"/></l><r>жана<s n="cnjcoo"/></r></p></e>
+	<e c="  0"><p><l>ama<s n="cnjcoo"/></l><r>бирок<s n="cnjcoo"/></r></p></e>
+
+	<e c="  0"><p><l>ama<s n="cnjadv"/></l><r>бирок<s n="cnjadv"/></r></p></e>
  
         <!-- SECTION: Postpositions -->
 
