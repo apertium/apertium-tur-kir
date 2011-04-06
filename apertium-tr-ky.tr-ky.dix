@@ -8,7 +8,6 @@
      <sdef n="np"        c="Proper noun"/>
      <sdef n="adv"       c="Adverb"/>
      <sdef n="v"         c="Verb"/>
-     <sdef n="cnj"       c="Conjunction"/>
      <sdef n="cnjcoo"    c="Coordinating conjunction"/>
      <sdef n="ant"       c="Anthroponym"/>
 
@@ -27,7 +26,7 @@
 
         <!-- SECTION: Conjunctions -->
 
-	<e c="  0"><p><l>ve<s n="cnj"/></l><r>жана<s n="cnjcoo"/></r></p></e>
+	<e c="  0"><p><l>ve<s n="cnjcoo"/></l><r>жана<s n="cnjcoo"/></r></p></e>
  
         <!-- SECTION: Postpositions -->
 
