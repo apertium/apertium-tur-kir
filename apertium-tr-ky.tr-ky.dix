@@ -127,7 +127,31 @@
     <e><p><l>Budapeşte<s n="np"/></l><r>Будапешт<s n="np"/></r></p></e> <!-- Top -->
     <e><p><l>Bükreş<s n="np"/></l><r>Бухарест<s n="np"/></r></p></e> <!-- Top -->
     <e><p><l>Bulgaristan<s n="np"/></l><r>Болгария<s n="np"/></r></p></e> <!-- Top -->
-	<e c="  0"><p><l>Ahmet<s n="np"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Çeçenistan<s n="np"/></l><r>Чеченистан<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Çekoslovakya<s n="np"/></l><r>Чехословакия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Danimarka<s n="np"/></l><r>Дания<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Dubai<s n="np"/></l><r>Дубай<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Düsseldorf<s n="np"/></l><r>Дусселъдорф<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Ekvador<s n="np"/></l><r>Экватор<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Endonezya<s n="np"/></l><r>Индонезия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Erbil<s n="np"/></l><r>Эрбил<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Erivan<s n="np"/></l><r>Ереван<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Ermenistan<s n="np"/></l><r>Армения<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Etiyopya<s n="np"/></l><r>Эфиопия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Habeşistan<s n="np"/></l><r>Эфиопия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Finlandiya<s n="np"/></l><r>Финландия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Frankfurt<s n="np"/></l><r>Франкфурт<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Fransa<s n="np"/></l><r>Франция<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Gabon<s n="np"/></l><r>Габон<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Gana<s n="np"/></l><r>Гана<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Guatemala<s n="np"/></l><r>Гватемала<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Hamburg<s n="np"/></l><r>Гамбург<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Helsinki<s n="np"/></l><r>Хелсинки<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Hindistan<s n="np"/></l><r>Индия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Hırvatistan<s n="np"/></l><r>Хорватия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Hollanda<s n="np"/></l><r>Голландия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Honduras<s n="np"/></l><r>Гондурас<s n="np"/></r></p></e> <!-- Top -->
+   <e c="  0"><p><l>Ahmet<s n="np"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
         <!-- SECTION: Adjectives -->
 	<e c="  0"><p><l>arık<s n="v"/></l><r>кет<s n="v"/></r></p></e>
