@@ -103,7 +103,7 @@
 	<e c="  0"><p><l>arık<s n="n"/></l><r>арык<s n="n"/></r></p></e>
 	
 <!-- SECTION: Proper nouns -->
-	<e><p><l>Abhazya<s n="np"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e> 
+    <e><p><l>Abhazya<s n="np"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e> 
     <e><p><l>Afganistan<s n="np"/></l><r>Афганистан<s n="np"/><s n="top"/></r></p></e> 
     <e><p><l>Afrika<s n="np"/></l><r>Африка<s n="np"/><s n="top"/></r></p></e> 
     <e><p><l>Amerika<s n="np"/></l><r>Америка<s n="np"/><s n="top"/></r></p></e> 
@@ -176,6 +176,7 @@
 	<e slr="1"><p><l>çalış<s n="v"/></l><r>аракет<b/>кыл<s n="v"/></r></p></e>
 	<e slr="2"><p><l>çalış<s n="v"/></l><r>оку<s n="v"/></r></p></e>
 	<e c="  0"><p><l>gel<s n="v"/></l><r>кел<s n="v"/></r></p></e>
+	<e c="  0"><p><l>bil<s n="v"/></l><r>бил<s n="v"/></r></p></e>
         <!-- SECTION: Punctuation -->
 
    </section>
