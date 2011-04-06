@@ -76,17 +76,61 @@
 	<e c="  0"><p><l>ahmak<s n="n"/></l><r>акмак<s n="n"/></r></p></e>
 	<e slr="1"><p><l>ahmak<s n="n"/></l><r>эси<b/>жок<s n="n"/></r></p></e>
 	<e slr="2"><p><l>ahmak<s n="n"/></l><r>келесоо<s n="n"/></r></p></e>
+	<e c="  0"><p><l>akademi<s n="n"/></l><r>академия<s n="n"/></r></p></e>
+	<e c="  0"><p><l>akçe<s n="n"/></l><r>акча<s n="n"/></r></p></e>
+	<e slr="1"><p><l>akçe<s n="n"/></l><r>пул<s n="n"/></r></p></e>
+	<e c="  0"><p><l>alem<s n="n"/></l><r>аалам<s n="n"/></r></p></e>
+	<e slr="1"><p><l>alem<s n="n"/></l><r>дүйнө<s n="n"/></r></p></e>
+	<e c="  0"><p><l>alkış<s n="n"/></l><r>алкыш<s n="n"/></r></p></e>
+	<e slr="1"><p><l>alkış<s n="n"/></l><r>кол<b/>чабуу<s n="n"/></r></p></e>
+	<e c="  0"><p><l>amin<s n="n"/></l><r>омийин<s n="n"/></r></p></e>
+	<e c="  0"><p><l>arz<s n="n"/></l><r>арыз<s n="n"/></r></p></e>
+	<e slr="1"><p><l>arz<s n="n"/></l><r>өтүнүч<s n="n"/></r></p></e>
+	<e slr="2"><p><l>arz<s n="n"/></l><r>билдирүү<s n="n"/></r></p></e>
+	<e slr="3"><p><l>arz<s n="n"/></l><r>көрсөтүү<s n="n"/></r></p></e>
 	<e c="  0"><p><l>fabrika<s n="n"/></l><r>фабрика<s n="n"/></r></p></e>
 	<e slr="1"><p><l>fabrika<s n="n"/></l><r>завод<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ders<s n="n"/></l><r>сабак<s n="n"/></r></p></e>
 	<e c="  0"><p><l>kova<s n="n"/></l><r>чака<s n="n"/></r></p></e>
 	<e c="  0"><p><l>bira<s n="n"/></l><r>сыра<s n="n"/></r></p></e>
+	<e c="  0"><p><l>arık<s n="n"/></l><r>арык<s n="n"/></r></p></e>
+	
 <!-- SECTION: Proper nouns -->
-
+	<e><p><l>Abhazya<s n="np"/></l><r>Абхазия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Afganistan<s n="np"/></l><r>Афганистан<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Afrika<s n="np"/></l><r>Африка<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Amerika<s n="np"/></l><r>Америка<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Amsterdam<s n="np"/></l><r>Амстердам<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Angola<s n="np"/></l><r>Ангола<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Ankara<s n="np"/></l><r>Анкара<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Antarktika<s n="np"/></l><r>Антарктика<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Antartika<s n="np"/></l><r>Антарктида<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Arabistan<s n="np"/></l><r>Арабистан<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Atlanta<s n="np"/></l><r>Атланта<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Avrupa<s n="np"/></l><r>Европа<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Avustralya<s n="np"/></l><r>Австралия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Avusturya<s n="np"/></l><r>Австрия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Azerbaycan<s n="np"/></l><r>Азербайжан<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Bağdat<s n="np"/></l><r>Багдад<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Bakü<s n="np"/></l><r>Баку<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Bangladeş<s n="np"/></l><r>Бангладеш<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Barcelona<s n="np"/></l><r>Барселона<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Basra<s n="np"/></l><r>Басра<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Belçika<s n="np"/></l><r>Белгия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Belgrad<s n="np"/></l><r>Белград<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Berlin<s n="np"/></l><r>Берлин<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Beyrut<s n="np"/></l><r>Бейрут<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Bişkek<s n="np"/></l><r>Бишкек<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Bolivya<s n="np"/></l><r>Боливия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Brezilya<s n="np"/></l><r>Бразилия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Brüksel<s n="np"/></l><r>Брюселъ<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Budapeşte<s n="np"/></l><r>Будапешт<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Bükreş<s n="np"/></l><r>Бухарест<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Bulgaristan<s n="np"/></l><r>Болгария<s n="np"/></r></p></e> <!-- Top -->
 	<e c="  0"><p><l>Ahmet<s n="np"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
         <!-- SECTION: Adjectives -->
-	
+	<e c="  0"><p><l>arık<s n="v"/></l><r>кет<s n="v"/></r></p></e>
         <!-- SECTION: Adverbs -->
 
 	<e c="  0"><p><l>yarın<s n="adv"/></l><r>эртең<s n="adv"/></r></p></e>
