@@ -4,11 +4,17 @@ Multichar_Symbols
 %<np%>    ! Proper noun
 %<adv%>   ! Adverb
 %<nom%>   ! Nominative
+%<acc%>   ! Accusative
+%<dat%>   ! Dative
+%<gen%>   ! Genitive
+%<loc%>   ! Locative
+%<abl%>   ! Ablative
 %<pl%>    ! Plural
 %<ant%>   ! Anthroponym (name of person)
 %<m%>     ! Masculine
 %{A%}     ! Archivowel а or е
 %{D%}     ! Archiconsonant т д
+%{G%}     ! Archiconsonant г к
  
 
 LEXICON Root
@@ -21,22 +27,24 @@ LEXICON Adv
 
 %<adv%>: # ;
 
-апа  Ninfl ; !"mother"
-аскер Ninfl ; ! "soldier" 
-жан Ninfl1 ; ! "jan"
-китеп Nonfl1 ; ! "book"
-мектеп Nonfl1 ; ! "school"
-сыра Ninfl ; ! "beer"
+LEXICON Ncases 
+
+%<dat%>:%>%{G%}%{A%} # ;   
+%<ins%>:%>л%{A%}п # ;               ! is instrumental a case ? 
 
 LEXICON Ninfl
 
 %<n%>: # ;
+%<n%>: Ncases ;
 %<n%>%<pl%>:%>л%{A%}р # ;
+%<n%>%<pl%>:%>л%{A%}р Ncases ;
 
 LEXICON Ninfl1
 
 %<n%>: # ;
+%<n%>: Ncases ;
 %<n%>%<pl%>:%>%{D%}%{A%}р # ;
+%<n%>%<pl%>:%>%{D%}%{A%}р Ncases ;
 
 LEXICON NpAntMInfl1
 
@@ -46,11 +54,12 @@ LEXICON NounStems
 
 апа  Ninfl ; !"mother"
 аскер Ninfl ; ! "soldier" 
-жан Nonfl ; ! "jan"
-китеп Nonfl ; ! "book"
-мектеп Nonfl ; ! "school"
 сыра Ninfl ; ! "beer"
 чака Ninfl ; ! "bucket"
+жан Ninfl1 ; ! "jan"
+китеп Ninfl1 ; ! "book"
+мектеп Ninfl1 ; ! "school"
+
 LEXICON PropernounStems
 
 Ахмет NpAntMInfl1 ; ! "Axmet"
