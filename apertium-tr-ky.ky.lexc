@@ -3,6 +3,7 @@ Multichar_Symbols
 %<n%>     ! Noun
 %<np%>    ! Proper noun
 %<adv%>   ! Adverb
+%<post%>  ! Postposition
 %<nom%>   ! Nominative
 %<acc%>   ! Accusative
 %<dat%>   ! Dative
@@ -12,29 +13,25 @@ Multichar_Symbols
 %<pl%>    ! Plural
 %<ant%>   ! Anthroponym (name of person)
 %<m%>     ! Masculine
-%{A%} ! Realised as 'а' 'е' о ө  
-%{I%} ! Realised as 'ы' or 'и' ,у,ү
-%{G%} ! Realised as 'г','к',ң,н
-%{D%} ! Realised as 'д' or 'т',н
-%{M%} ! Realised as 'м', 'б' or 'п'
-%{N%} ! Realised as 'н', 'д' or 'т'
+
+%{A%}     ! Realised as 'а' 'е' о ө  
+%{I%}     ! Realised as 'ы' or 'и' ,у,ү
+%{G%}     ! Realised as 'г','к',ң,н
+%{D%}     ! Realised as 'д' or 'т',н
+%{M%}     ! Realised as 'м', 'б' or 'п'
+%{N%}     ! Realised as 'н', 'д' or 'т'
 
 
 LEXICON Root
 
-NounRoot ;
-ProperNounRoot ;
-ConjRoot ;
-AdverbRoot;
-AbbreviationRoot;
-PronounRoot ;
-PostpositionRoot ;
-PunctuationRoot ;
-NumeralRoot ;
+NounStems ;
+PropernounStems ;
+AdvStems ;
+Postpositions ;
 
 LEXICON NCases
 %<nom%>:%> # ;            !  -         -            -
-%<gen%> :%>%{N%}%{I%}н # ;! нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
+%<gen%>:%>%{N%}%{I%}н # ;! нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
 %<dat%>:%>%{G%}%{A%} # ;  ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
 %<acc%>:%>%{N%}%{I%} # ;  ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
 %<loc%>:%>%{D%}%{A%} # ;  ! -да, -де, -та, -те, -до, -дө, -то, -тө
@@ -45,6 +42,10 @@ LEXICON NCases
 LEXICON Adv
 
 %<adv%>: # ;
+
+LEXICON Post 
+
+%<post%>: # ;
 
 LEXICON Ninfl
 
@@ -81,3 +82,7 @@ LEXICON PropernounStems
 LEXICON AdvStems
 
 эртең Adv ; ! "tomorrow"	
+
+LEXICON Postpositions
+
+менен Post ; ! ""
