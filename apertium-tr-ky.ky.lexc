@@ -1,4 +1,11 @@
 Multichar_Symbols
++N +Pron +V +A +Adv +CC +CS +Num +Po +Punct +Abbr
++Pers +Dem +Indef +Prop +Top
++Sg +Pl
++Nom +Gen +Dat +Acc +Abl +Loc +Ins
++Sg1 +Sg2 +Sg3 +Pl1 +Pl2 +Pl3
++PxSg1 +PxSg2 +PxSg3 +PxPl1 +PxPl2 +PxPl3
++Der/Dimin
 
 %<n%>     ! Noun
 %<np%>    ! Proper noun
@@ -12,40 +19,54 @@ Multichar_Symbols
 %<pl%>    ! Plural
 %<ant%>   ! Anthroponym (name of person)
 %<m%>     ! Masculine
-%{A%}     ! Archivowel а or е 
-%{D%}     ! Archiconsonant т д
-%{G%}     ! Archiconsonant г к
- 
+%{а%} ! Realised as 'а' or 'е'
+%{ы%} ! Realised as 'ы' or 'и' ,у,ү
+%{г%} ! Realised as 'г','к',ң,н
+%{д%} ! Realised as 'д' or 'т',н
+%{м%} ! Realised as 'м', 'б' or 'п'
+%{н%} ! Realised as 'н', 'д' or 'т'
+
 
 LEXICON Root
 
-PropernounStems ;
-NounStems ;
-AdvStems ;
+NounRoot ;
+ProperNounRoot ;
+ConjRoot ;
+AdverbRoot;
+AbbreviationRoot;
+PronounRoot ;
+PostpositionRoot ;
+PunctuationRoot ;
+NumeralRoot ;
+
+LEXICON NCases
++Nom:%> # ;            !  -         -            -
++Gen:%>%{н%}%{ы%}н # ; ! нин/нын   дын/дин	тын/тин
++Dat:%>%{г%}%{а%} # ;  ! га/ге		        ка/ке
++Acc:%>%{н%}%{ы%} # ;  ! ны/ни	   ды/ди	ты/ти
++Abl:%>%{д%}%{а%}н # ; ! нан/нен   дан/ден	тан/тен
++Loc:%>%{д%}%{а%} # ;  ! да/де		        та/те
++Ins:%>%{м%}ен # ;     ! мен	   бен	        пен
+
+
 
 LEXICON Adv
 
 %<adv%>: # ;
 
-LEXICON Ncases 
-
-%<dat%>:%>%{G%}%{A%} # ;   
-%<loc%>:%>%{D%}%{A%} # ;   
-%<abl%>:%>%{D%}%{A%}н # ;   
-
 LEXICON Ninfl
 
 %<n%>: # ;
 %<n%>: Ncases ;
-%<n%>%<pl%>:%>л%{A%}р # ;
-%<n%>%<pl%>:%>л%{A%}р Ncases ;
+%<n%>%<pl%>:%>л%{а%}р # ;
+%<n%>%<pl%>:%>л%{а%}р Ncases ;
 
 LEXICON Ninfl1
 
 %<n%>: # ;
 %<n%>: Ncases ;
-%<n%>%<pl%>:%>%{D%}%{A%}р # ;
-%<n%>%<pl%>:%>%{D%}%{A%}р Ncases ;
+%<n%>%<pl%>:%>%{д%}%{A%}р # ;
+%<n%>%<pl%>:%>%{д%}%{A%}р Ncases ;
 
 LEXICON NpAntMInfl1
 
