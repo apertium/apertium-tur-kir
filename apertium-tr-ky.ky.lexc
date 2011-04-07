@@ -12,7 +12,7 @@ Multichar_Symbols
 %<pl%>    ! Plural
 %<ant%>   ! Anthroponym (name of person)
 %<m%>     ! Masculine
-%{A%}     ! Archivowel а or е
+%{A%}     ! Archivowel а or е 
 %{D%}     ! Archiconsonant т д
 %{G%}     ! Archiconsonant г к
  
@@ -30,6 +30,8 @@ LEXICON Adv
 LEXICON Ncases 
 
 %<dat%>:%>%{G%}%{A%} # ;   
+%<loc%>:%>%{D%}%{A%} # ;   
+%<abl%>:%>%{D%}%{A%}н # ;   
 
 LEXICON Ninfl
 
