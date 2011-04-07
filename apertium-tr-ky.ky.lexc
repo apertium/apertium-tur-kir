@@ -30,7 +30,6 @@ LEXICON Adv
 LEXICON Ncases 
 
 %<dat%>:%>%{G%}%{A%} # ;   
-%<ins%>:%>л%{A%}п # ;               ! is instrumental a case ? 
 
 LEXICON Ninfl
 
