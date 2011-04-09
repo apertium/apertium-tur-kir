@@ -136,6 +136,36 @@
 	<e c="  0"><p><l>azık<s n="n"/></l><r>азык<b/>түлүк<s n="n"/></r></p></e>
 	<e slr="1"><p><l>azık<s n="n"/></l><r>азык<s n="n"/></r></p></e>
 	<e c="  0"><p><l>bacanak<s n="n"/></l><r>бажа<s n="n"/></r></p></e>
+	<e c="  0"><p><l>av<s n="n"/></l><r>аң<s n="n"/></r></p></e>
+	<e slr="1"><p><l>av<s n="n"/></l><r>уу<s n="n"/></r></p></e>
+	<e c="  0"><p><l>baht<s n="n"/></l><r>бакыт<s n="n"/></r></p></e>
+	<e slr="1"><p><l>baht<s n="n"/></l><r>тагдыр<s n="n"/></r></p></e>
+	<e c="  0"><p><l>baldıran<s n="n"/></l><r>балтыркан<s n="n"/></r></p></e>
+	<e c="  0"><p><l>baldız<s n="n"/></l><r>балдыз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>balta<s n="n"/></l><r>балта<s n="n"/></r></p></e>
+	<e c="  0"><p><l>balçık<s n="n"/></l><r>балчык<s n="n"/></r></p></e>
+	<e slr="1"><p><l>balçık<s n="n"/></l><r>ылай<s n="n"/></r></p></e>
+	<e c="  0"><p><l>batak<s n="n"/></l><r>саз<s n="n"/></r></p></e>
+	<e slr="1"><p><l>batak<s n="n"/></l><r>сормо<b/>саз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bayağı<s n="n"/></l><r>баягы<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bayrak<s n="n"/></l><r>желек<s n="n"/></r></p></e>	
+	<e slr="1"><p><l>bayrak<s n="n"/></l><r>байрак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>baş<s n="n"/></l><r>баш<s n="n"/></r></p></e>	
+	<e c="  0"><p><l>başlangıç<s n="n"/></l><r>башталгыч<s n="n"/></r></p></e>
+	<e c="  0"><p><l>başmak<s n="n"/></l><r>башмак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bebek<s n="n"/></l><r>бөбөк<s n="n"/></r></p></e>
+	<e slr="1"><p><l>bebek<s n="n"/></l><r>наристе<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bedbaht<s n="n"/></l><r>бетпак<s n="n"/></r></p></e>
+	<e slr="1"><p><l>bedbaht<s n="n"/></l><r>жүзү<b/>кара<s n="n"/></r></p></e>
+	<e slr="2"><p><l>bedbaht<s n="n"/></l><r>шерменде<s n="n"/></r></p></e>
+	<e c="  0"><p><l>beden<s n="n"/></l><r>дене<s n="n"/></r></p></e>
+	<e slr="1"><p><l>beden<s n="n"/></l><r>бадан<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bel<s n="n"/></l><r>бел<s n="n"/></r></p></e>
+	<e c="  0"><p><l>belgi<s n="n"/></l><r>белги<s n="n"/></r></p></e>
+	<e c="  0"><p><l>besmele<s n="n"/></l><r>бысмылда<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bet<s n="n"/></l><r>бет<s n="n"/></r></p></e>
+	<e slr="1"><p><l>bet<s n="n"/></l><r>жүз<s n="n"/></r></p></e>	
+	<e c="  0"><p><l>beter<s n="n"/></l><r>бетер<s n="n"/></r></p></e>
 
 
         <!-- SECTION: Proper nouns -->
@@ -194,42 +224,41 @@
         <e><p><l>Hırvatistan<s n="np"/></l><r>Хорватия<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Hollanda<s n="np"/></l><r>Голландия<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Honduras<s n="np"/></l><r>Гондурас<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Ingiltere<s n="np"/></l><r>Англия<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Irak<s n="np"/></l><r>Ирак<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Iran<s n="np"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Ispanya<s n="n"/></l><r>Испания<s n="n"/><s n="top"/></r></p></e> 
-        <e><p><l>Israil<s n="np"/></l><r>Израил<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Istanbul<s n="np"/></l><r>Истанбул<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Jakarta<s n="np"/></l><r>Жакарта<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Japonya<s n="np"/></l><r>Япония<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Kamerun<s n="np"/></l><r>Камерун<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Kanada<s n="np"/></l><r>Канада<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Karadağ<s n="np"/></l><r>Черногория<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Kazakistan<s n="np"/></l><r>Казакстан<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Kenya<s n="np"/></l><r>Кеня<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Kerkük<s n="np"/></l><r>Керкүк<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Kıbrıs<s n="np"/></l><r>Кипр<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Kırgızistan<s n="np"/></l><r>Кыргызстан<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Köln<s n="np"/></l><r>Колън<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Kongo<s n="np"/></l><r>Конго<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Kopenhag<s n="np"/></l><r>Копенгаген<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Küba<s n="np"/></l><r>Куба<s n="np"/><s n="top"/></r></p></e> 
-     <!--<e><p><l>Lefkoşa<s n="np"/></l><r>Nikosiya<s n="np"/><s n="top"/></r></p></e> -->
-        <e><p><l>Letonya<s n="np"/></l><r>Латвия<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Libya<s n="np"/></l><r>Либия<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Litvanya<s n="np"/></l><r>Литва<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Lizbon<s n="np"/></l><r>Лиссабон<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Londra<s n="np"/></l><r>Лондон<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Lüksemburg<s n="np"/></l><r>Люксембург<s n="np"/><s n="top"/></r></p></e> 
-    <!--<e><p><l>Macaristan<s n="np"/></l><r>Macarıstan<s n="np"/><s n="top"/></r></p></e>  -->
-        <e><p><l>Madagaskar<s n="np"/></l><r>Мадагаскар<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Madrid<s n="np"/></l><r>Мадрид<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Malezya<s n="np"/></l><r>Малазия<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Malta<s n="np"/></l><r>Малъта<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Manhattan<s n="np"/></l><r>Манхеттен<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Meksika<s n="np"/></l><r>Мексика<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Mezopotamya<s n="np"/></l><r>Мезопотоия<s n="np"/><s n="top"/></r></p></e> 
-
+    <e><p><l>Ingiltere<s n="np"/></l><r>Англия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Irak<s n="np"/></l><r>Ирак<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Iran<s n="np"/></l><r>Иран<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Ispanya<s n="n"/></l><r>Испания<s n="n"/></r></p></e> <!-- Top -->
+    <e><p><l>Israil<s n="np"/></l><r>Израил<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Istanbul<s n="np"/></l><r>Истанбул<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Jakarta<s n="np"/></l><r>Жакарта<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Japonya<s n="np"/></l><r>Япония<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Kamerun<s n="np"/></l><r>Камерун<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Kanada<s n="np"/></l><r>Канада<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Karadağ<s n="np"/></l><r>Черногория<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Kazakistan<s n="np"/></l><r>Казакстан<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Kenya<s n="np"/></l><r>Кеня<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Kerkük<s n="np"/></l><r>Керкүк<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Kıbrıs<s n="np"/></l><r>Кипр<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Kırgızistan<s n="np"/></l><r>Кыргызстан<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Köln<s n="np"/></l><r>Колън<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Kongo<s n="np"/></l><r>Конго<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Kopenhag<s n="np"/></l><r>Копенгаген<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Küba<s n="np"/></l><r>Куба<s n="np"/></r></p></e> <!-- Top -->
+     <!--<e><p><l>Lefkoşa<s n="np"/></l><r>Nikosiya<s n="np"/></r></p></e> Top -->
+    <e><p><l>Letonya<s n="np"/></l><r>Латвия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Libya<s n="np"/></l><r>Либия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Litvanya<s n="np"/></l><r>Литва<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Lizbon<s n="np"/></l><r>Лиссабон<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Londra<s n="np"/></l><r>Лондон<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Lüksemburg<s n="np"/></l><r>Люксембург<s n="np"/></r></p></e> <!-- Top -->
+    <!--<e><p><l>Macaristan<s n="np"/></l><r>Macarıstan<s n="np"/></r></p></e>  Top -->
+    <e><p><l>Madagaskar<s n="np"/></l><r>Мадагаскар<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Madrid<s n="np"/></l><r>Мадрид<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Malezya<s n="np"/></l><r>Малазия<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Malta<s n="np"/></l><r>Малъта<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Manhattan<s n="np"/></l><r>Манхеттен<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Meksika<s n="np"/></l><r>Мексика<s n="np"/></r></p></e> <!-- Top -->
+    <e><p><l>Mezopotamya<s n="np"/></l><r>Мезопотамия<s n="np"/></r></p></e> <!-- Top -->
         <e><p><l>Ahmet<s n="np"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     
         <!-- SECTION: Adjectives -->
