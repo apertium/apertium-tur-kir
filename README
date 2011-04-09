@@ -21,5 +21,34 @@ Now run make:
 And test:
 
  echo "Ahmet okula gitti." | apertium -d . tr-ky-bil
-^Ahmet<np>/Ахмет<np><ant><m>$ ^okul<n><dat>/мектеп<n><dat>$ ^git<v><t_past><3s>/кет<v><t_past><3s>$.
+^Ahmet<np>/Ахмет<np><ant><m>$ ^okul<n><dat>/мектеп<n><dat>$ 
+ ^git<v><t_past><3s>/кет<v><t_past><3s>$.
 
+===============================================================================
+
+Here are the tagsets of Trmorph, the Turkish morphological analyser and Kymorph
+the Kyrgyz morphological analyser compared:
+
+-------------------------------------------------------------------------------
+Trmorph		Kymorph		Description
+-------------------------------------------------------------------------------
+<n>		<n>		Noun
+<v>		<v>		Verb
+
+<pl>		<pl>		Plural
+
+<1s>		<sg1>		First person singular
+<2s>		<sg2>		Second person singular
+
+<p1s>		<px1sg>		Possessive, first person singular
+<p2s>		<px2sg>		Possessive, second person singular
+
+-		<nom>		Nominative / absolutive
+<acc>		<acc>
+<dat>		<dat>
+<loc>		<loc>
+<abl>		<abl>
+<ins>		-
+	
+
+===============================================================================
