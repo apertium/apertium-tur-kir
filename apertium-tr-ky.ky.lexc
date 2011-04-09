@@ -13,6 +13,12 @@ Multichar_Symbols
 %<pl%>    ! Plural
 %<ant%>   ! Anthroponym (name of person)
 %<m%>     ! Masculine
+%<px1sg%> !
+%<px2sg%> !
+%<px3sg%> !
+%<px1pl%> !
+%<px2pl%> !
+%<px3pl%> !
 
 %{A%}     ! Realised as 'а' 'е' о ө  
 %{I%}     ! Realised as 'ы' or 'и' ,у,ү
@@ -36,6 +42,15 @@ LEXICON Ncases
 %<acc%>:%>%{N%}%{I%} # ;  ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
 %<loc%>:%>%{D%}%{A%} # ;  ! -да, -де, -та, -те, -до, -дө, -то, -тө
 %<abl%>:%>%{D%}%{A%}н # ; ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
+
+LEXICON Posses
+%<px1sg%>:%>%<I%>м Ncases;
+%<px2sg%>:%>%<I%>ң Ncases; 
+%<px3sg%>:%>%<I%> Ncases;
+%<px1pl%>:%>б%<I%>з Ncases; 
+%<px2pl%>:%>ң%<I%>з Ncases; 
+%<px3pl%>:%>%<D%>%<A%>%<I%> Ncases;
+
 
 LEXICON Adv
 
