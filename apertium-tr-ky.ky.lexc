@@ -13,7 +13,7 @@ Multichar_Symbols
 %<pl%>    ! Plural
 %<ant%>   ! Anthroponym (name of person)
 %<m%>     ! Masculine
-%<px1sg%> !
+%<px1sg%> ! Possessive, first person singular
 %<px2sg%> !
 %<px3sg%> !
 %<px1pl%> !
@@ -44,13 +44,12 @@ LEXICON Ncases
 %<abl%>:%>%{D%}%{A%}н # ; ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
 
 LEXICON Posses
-%<px1sg%>:%>%<I%>м Ncases;
-%<px2sg%>:%>%<I%>ң Ncases; 
-%<px3sg%>:%>%<I%> Ncases;
-%<px1pl%>:%>б%<I%>з Ncases; 
-%<px2pl%>:%>ң%<I%>з Ncases; 
-%<px3pl%>:%>%<D%>%<A%>%<I%> Ncases;
-
+%<px1sg%>:%>%{I%}м Ncases;
+%<px2sg%>:%>%{I%}ң Ncases; 
+%<px3sg%>:%>%{I%} Ncases;
+%<px1pl%>:%>б%{I%}з Ncases; 
+%<px2pl%>:%>ң%{I%}з Ncases; 
+%<px3pl%>:%>%{D%}%{A%}%{I%} Ncases;
 
 LEXICON Adv
 
@@ -71,8 +70,10 @@ LEXICON Ninfl1
 
 %<n%>: # ;
 %<n%>: Ncases ;
+%<n%>: Posses ;
 %<n%>%<pl%>:%>%{D%}%{A%}р # ;
 %<n%>%<pl%>:%>%{D%}%{A%}р Ncases ;
+%<n%>%<pl%>:%>%{D%}%{A%}р Posses ;
 
 LEXICON NpAntMInfl1
 
