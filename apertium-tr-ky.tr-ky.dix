@@ -166,8 +166,33 @@
 	<e c="  0"><p><l>bet<s n="n"/></l><r>бет<s n="n"/></r></p></e>
 	<e slr="1"><p><l>bet<s n="n"/></l><r>жүз<s n="n"/></r></p></e>	
 	<e c="  0"><p><l>beter<s n="n"/></l><r>бетер<s n="n"/></r></p></e>
-
-
+	<e c="  0"><p><l>beyan<s n="n"/></l><r>баян<s n="n"/></r></p></e>
+	<e slr="1"><p><l>beyan<s n="n"/></l><r>билдирүү<s n="n"/></r></p></e>
+	<e c="  0"><p><l>beyit<s n="n"/></l><r>бейт<s n="n"/></r></p></e>
+	<e c="  0"><p><l>beyzade<s n="n"/></l><r>бекзаада<s n="n"/></r></p></e>
+	<e slr="1"><p><l>beyzade<s n="n"/></l><r>ак сөөк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bez<s n="n"/></l><r>без<s n="n"/></r></p></e>
+	<e slr="1"><p><l>bez<s n="n"/></l><r>бөз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>beşik<s n="n"/></l><r>бешик<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bilek<s n="n"/></l><r>билек<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bilezik<s n="n"/></l><r>билерик<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bileği<s n="n"/></l><r>бүлөө<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bilim<s n="n"/></l><r>илим<s n="n"/></r></p></e>
+	<e slr="1"><p><l>bilim<s n="n"/></l><r>билим<s n="n"/></r></p></e>
+	<e c="  0"><p><l>binbaşı<s n="n"/></l><r>миң<b/>башы<s n="n"/></r></p></e>
+	<e slr="1"><p><l>binbaşı<s n="n"/></l><r>майор<s n="n"/></r></p></e>
+	<e c="  0"><p><l>biri<s n="n"/></l><r>бирөө<s n="n"/></r></p></e>
+	<e slr="1"><p><l>biri<s n="n"/></l><r>кимдир<b/>бирөө<s n="n"/></r></p></e>
+	<e c="  0"><p><l>birisi<s n="n"/></l><r>бирөөсү<s n="n"/></r></p></e>
+	<e slr="1"><p><l>birisi<s n="n"/></l><r>кимдир<b/>бирөөсү<s n="n"/></r></p></e>
+	<e c="  0"><p><l>birkaç<s n="n"/></l><r>бир<b/>канча<s n="n"/></r></p></e>
+	<e c="  0"><p><l>birlik<s n="n"/></l><r>бирдик<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bismillah<s n="n"/></l><r>бысмылда<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bit<s n="n"/></l><r>бит<s n="n"/></r></p></e>
+	<e c="  0"><p><l>biçim<s n="n"/></l><r>бычым<s n="n"/></r></p></e>
+	<e slr="1"><p><l>biçim<s n="n"/></l><r>шекил<s n="n"/></r></p></e>
+	<e slr="2"><p><l>biçim<s n="n"/></l><r>форма<s n="n"/></r></p></e>
+		
         <!-- SECTION: Proper nouns -->
         <e><p><l>Abhazya<s n="np"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Afganistan<s n="np"/></l><r>Афганистан<s n="np"/><s n="top"/></r></p></e> 
@@ -279,6 +304,21 @@
 	<e slr="2"><p><l>çalış<s n="v"/></l><r>оку<s n="v"/></r></p></e>
 	<e c="  0"><p><l>gel<s n="v"/></l><r>кел<s n="v"/></r></p></e>
 	<e c="  0"><p><l>bil<s n="v"/></l><r>бил<s n="v"/></r></p></e>
+	<e c="  0"><p><l>bildir<s n="v"/></l><r>билдир<s n="v"/></r></p></e>
+	<e c="  0"><p><l>bilin<s n="v"/></l><r>билин<s n="v"/></r></p></e>
+	<e slr="1"><p><l>bilin<s n="v"/></l><r>тааныл<s n="v"/></r></p></e>
+	<e c="  0"><p><l>bin<s n="v"/></l><r>мин<s n="v"/></r></p></e>
+	<e slr="1"><p><l>bin<s n="v"/></l><r>түш<s n="v"/></r></p></e>
+	<e c="  0"><p><l>birik<s n="v"/></l><r>топтол<s n="v"/></r></p></e>
+	<e slr="1"><p><l>birik<s n="v"/></l><r>жыйнал<s n="v"/></r></p></e>
+	<e c="  0"><p><l>bit<s n="v"/></l><r>бүт<s n="v"/></r></p></e>
+	<e slr="1"><p><l>bit<s n="v"/></l><r>аякта<s n="v"/></r></p></e>
+	<e slr="2"><p><l>bit<s n="v"/></l><r>түгөн<s n="v"/></r></p></e>
+	<e c="  0"><p><l>biç<s n="v"/></l><r>быч<s n="v"/></r></p></e>
+	<e slr="1"><p><l>bit<s n="v"/></l><r>кес<s n="v"/></r></p></e>
+	<e slr="2"><p><l>bit<s n="v"/></l><r>ор<s n="v"/></r></p></e>
+	
+
 
         <!-- SECTION: Punctuation -->
 
