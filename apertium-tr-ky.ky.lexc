@@ -1,18 +1,18 @@
 Multichar_Symbols
 
-%<n%>     ! Noun
-%<np%>    ! Proper noun
-%<adv%>   ! Adverb
-%<post%>  ! Postposition
-%<nom%>   ! Nominative
-%<acc%>   ! Accusative
-%<dat%>   ! Dative
-%<gen%>   ! Genitive
-%<loc%>   ! Locative
-%<abl%>   ! Ablative
-%<pl%>    ! Plural
-%<ant%>   ! Anthroponym (name of person)
-%<m%>     ! Masculine
+%<n%>   ! Noun
+%<np%>  ! Proper noun
+%<adv%>  ! Adverb
+%<post%> ! Postposition
+%<nom%>  ! Nominative
+%<acc%>  ! Accusative
+%<dat%>  ! Dative
+%<gen%>  ! Genitive
+%<loc%>  ! Locative
+%<abl%>  ! Ablative
+%<pl%>  ! Plural
+%<ant%>  ! Anthroponym (name of person)
+%<m%>   ! Masculine
 %<px1sg%> ! Possessive, first person singular
 %<px2sg%> !
 %<px3sg%> !
@@ -20,12 +20,13 @@ Multichar_Symbols
 %<px2pl%> !
 %<px3pl%> !
 
-%{A%}     ! Realised as 'а' 'е' о ө  
-%{I%}     ! Realised as 'ы' or 'и' ,у,ү
-%{G%}     ! Realised as 'г','к',ң,н
-%{D%}     ! Realised as 'д' or 'т',н
-%{M%}     ! Realised as 'м', 'б' or 'п'
-%{N%}     ! Realised as 'н', 'д' or 'т'
+%{A%}   ! Realised as 'а', 'е', 'о', 'ө' 
+%{I%}   ! Realised as 'ы', 'и', 'у', 'ү'
+%{G%}   ! Realised as 'г', 'к', 'ң', 'н'
+%{D%}   ! Realised as 'д', 'т', 'н'
+%{M%}   ! Realised as 'м', 'б', 'п'
+%{N%}   ! Realised as 'н', 'д', 'т'
+%{L%}   ! Realised as 'л', 'д', 'т'
 
 
 LEXICON Root
@@ -36,20 +37,21 @@ AdvStems ;
 Postpositions ;
 
 LEXICON Ncases
-%<nom%>:%> # ;            !  -         -            -
+%<nom%>:%> # ;      ! -     -      -
 %<gen%>:%>%{N%}%{I%}н # ; ! нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
-%<dat%>:%>%{G%}%{A%} # ;  ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
-%<acc%>:%>%{N%}%{I%} # ;  ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
-%<loc%>:%>%{D%}%{A%} # ;  ! -да, -де, -та, -те, -до, -дө, -то, -тө
+%<dat%>:%>%{G%}%{A%} # ; ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
+%<acc%>:%>%{N%}%{I%} # ; ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
+%<loc%>:%>%{D%}%{A%} # ; ! -да, -де, -та, -те, -до, -дө, -то, -тө
 %<abl%>:%>%{D%}%{A%}н # ; ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
 
 LEXICON Posses
-%<px1sg%>:%>%{I%}м Ncases;
-%<px2sg%>:%>%{I%}ң Ncases; 
-%<px3sg%>:%>%{I%} Ncases;
-%<px1pl%>:%>б%{I%}з Ncases; 
-%<px2pl%>:%>ң%{I%}з Ncases; 
-%<px3pl%>:%>%{D%}%{A%}%{I%} Ncases;
+Ncases ;
+%<px1sg%>:%>%{I%}м Ncases ;
+%<px2sg%>:%>%{I%}ң Ncases ; 
+%<px3sg%>:%>%{I%} Ncases ;
+%<px1pl%>:%>б%{I%}з Ncases ; 
+%<px2pl%>:%>ң%{I%}з Ncases ; 
+%<px3pl%>:%>%{D%}%{A%}%{I%} Ncases ;
 
 LEXICON Adv
 
@@ -61,19 +63,9 @@ LEXICON Post
 
 LEXICON Ninfl
 
-%<n%>: # ;
-%<n%>: Ncases ;
-%<n%>%<pl%>:%>л%{A%}р # ;
-%<n%>%<pl%>:%>л%{A%}р Ncases ;
-
-LEXICON Ninfl1
-
-%<n%>: # ;
-%<n%>: Ncases ;
 %<n%>: Posses ;
-%<n%>%<pl%>:%>%{D%}%{A%}р # ;
-%<n%>%<pl%>:%>%{D%}%{A%}р Ncases ;
-%<n%>%<pl%>:%>%{D%}%{A%}р Posses ;
+%<n%>%<pl%>:%>%{L%}%{A%}р Posses ;
+
 
 LEXICON NpAntMInfl1
 
@@ -81,13 +73,25 @@ LEXICON NpAntMInfl1
 
 LEXICON NounStems
 
-апа  Ninfl ; !"mother"
+аба Ninfl ; ! "air"
+ай Ninfl ; ! "month"
+апа Ninfl ; ! "mother"
 аскер Ninfl ; ! "soldier" 
+баш Ninfl ; ! "head"
+жан Ninfl ; ! "jan"
+кеме Ninfl ; ! "boat"
+китеп Ninfl ; ! "book"
+кол Ninfl ; ! "hand"
+көз Ninfl ; ! "eye"
+мектеп Ninfl ; ! "school"
 сыра Ninfl ; ! "beer"
+таң Ninfl ; ! "dawn"
+тор Ninfl ; ! "net"
+туз Ninfl ; ! "salt"
 чака Ninfl ; ! "bucket"
-жан Ninfl1 ; ! "jan"
-китеп Ninfl1 ; ! "book"
-мектеп Ninfl1 ; ! "school"
+челек Ninfl ; ! "bucket"
+
+
 
 LEXICON PropernounStems
 
