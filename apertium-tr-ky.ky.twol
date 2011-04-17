@@ -43,9 +43,6 @@ NonFrontC = BackVowel Vowel BackConsonant %>;
  
 Rules
 
-!"Katkalan harmony in consonants"
-!%{D%}:т <=> FrontConsonant: NonBackC:* %>: NonBackC:* _ ;
-
 "Katkalan harmony in consonants 2"
 %{G%}:к <=> FrontConsonant: NonBackC:* %>: NonBackC:* _ ;
 
@@ -64,7 +61,6 @@ Vx:Vy <=> FrontUnroundedVowel: ConsOrFrontUnrounded:* Consonant %>: ConsOrFrontU
 "Front Round harmony in suffixes"
 Vx:Vy <=> FrontRoundVowel: ConsOrFrontRounded:* Consonant %>: ConsOrFrontRoundedV:* _ ; ! C>*V*, C>C*V*
           FrontRoundVowel: ConsOrFrontRounded:* %>: Consonant ConsOrFrontRoundedV:* _ ; ! V>C*V*
-!Vx:Vy <=> FrontRoundVowel: ConsOrFrontRounded:* %>: ConsOrFrontRounded:* _ ;
 	where Vx in ( %{A%} %{I%} )
 	      Vy in (   ө     ү   )
 	      matched ;
@@ -72,16 +68,9 @@ Vx:Vy <=> FrontRoundVowel: ConsOrFrontRounded:* Consonant %>: ConsOrFrontRounded
 "Back Round harmony in suffixes"
 Vx:Vy <=> BackRoundVowel: ConsOrBackRounded:* Consonant %>: ConsOrBackRoundedV:* _ ; ! C>*V*, C>C*V*
           BackRoundVowel: ConsOrBackRounded:* %>: Consonant ConsOrBackRoundedV:* _ ; ! V>C*V*
-!Vx:Vy <=> BackRoundVowel: ConsOrBackRounded:* %>: ConsOrBackRounded:* _ ;
 	where Vx in ( %{A%} %{I%} )
 	      Vy in (   о     у   )
 	      matched ;
-
-! "L Desonorisation"
-! %{L%}:д <=> VoicedNonSonorantConsonant %>:  _ ;
-! 
-! "L Desonorisation and Devoicing"
-! %{L%}:т <=> UnvoicedNonSonorantConsonant %>: _ ;
 
 "L Desonorisation"
 %{L%}:д <=> VoicedNonSonorantConsonant %>:  _ ;
