@@ -15,6 +15,8 @@
      <sdef n="ant"       c="Anthroponym"/>
      <sdef n="top"       c="Toponym"/>
 
+     <sdef n="pers"      c="Personal"/>
+
      <sdef n="p1"        c="First person"/>
      <sdef n="p2"        c="Second person"/>
      <sdef n="p3"        c="Third person"/>
@@ -39,12 +41,12 @@
 
         <!-- SECTION: Pronouns -->
 
-	<e c="  0"><p><l>ben<s n="prn"/></l><r>мен<s n="prn"/><s n="p1"/><s n="sg"/></r></p></e>
-	<e c="  0"><p><l>sen<s n="prn"/></l><r>cен<s n="prn"/><s n="p2"/><s n="sg"/></r></p></e>
-	<e c="  0"><p><l>o<s n="prn"/></l><r>ал<s n="prn"/><s n="p3"/><s n="sg"/></r></p></e>
-	<e c="  0"><p><l>biz<s n="prn"/></l><r>биз<s n="prn"/><s n="p1"/><s n="pl"/></r></p></e>
-	<e c="  0"><p><l>siz<s n="prn"/></l><r>сиз<s n="prn"/><s n="p2"/><s n="pl"/></r></p></e>
-	<e c="  0"><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/><s n="p3"/><s n="pl"/></r></p></e>
+	<e c="  0"><p><l>ben<s n="prn"/></l><r>мен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
+	<e c="  0"><p><l>sen<s n="prn"/></l><r>cен<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
+	<e c="  0"><p><l>o<s n="prn"/></l><r>ал<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
+	<e c="  0"><p><l>biz<s n="prn"/></l><r>биз<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
+	<e c="  0"><p><l>siz<s n="prn"/></l><r>сиз<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
+	<e c="  0"><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
 
         <!-- SECTION: Determiners -->
 
