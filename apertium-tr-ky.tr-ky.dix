@@ -3,6 +3,7 @@
    <sdefs>
      <sdef n="n"         c="Noun"/>
      <sdef n="num"       c="Numeral"/>
+     <sdef n="adj"       c="Adjective"/>
      <sdef n="post"      c="Postposition"/>
      <sdef n="prn"       c="Pronouns"/>
      <sdef n="np"        c="Proper noun"/>
@@ -194,7 +195,10 @@
 	<e c="  0"><p><l>biçim<s n="n"/></l><r>бычым<s n="n"/></r></p></e>
 	<e slr="1"><p><l>biçim<s n="n"/></l><r>шекил<s n="n"/></r></p></e>
 	<e slr="2"><p><l>biçim<s n="n"/></l><r>форма<s n="n"/></r></p></e>
-	<e c="  0"><p><l>kız<s n="n"/></l><r>кыз<s n="n"/></r></p></e>
+
+        <e c="  0"><p><l>kız<s n="n"/></l><r>кыз<s n="n"/></r></p></e>
+
+	<e c="  0"><p><l>ev<s n="n"/></l><r>үй<s n="n"/></r></p></e>
 		
         <!-- SECTION: Proper nouns -->
         <e><p><l>Abhazya<s n="np"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e> 
@@ -292,9 +296,12 @@
     
         <!-- SECTION: Adjectives -->
 
+	<e c="  0"><p><l>güzel<s n="adj"/></l><r>сулуу<s n="adj"/></r></p></e>
+
         <!-- SECTION: Adverbs -->
 
 	<e c="  0"><p><l>yarın<s n="adv"/></l><r>эртең<s n="adv"/></r></p></e>
+	<e c="  0"><p><l>en<s n="adv"/></l><r>эң<s n="adv"/></r></p></e>
 
         <!-- SECTION: Verbs -->
 
