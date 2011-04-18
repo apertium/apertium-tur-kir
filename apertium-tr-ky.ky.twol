@@ -71,8 +71,8 @@ Vx:Vy <=> FrontRndVow: CnsOrFrontRnd:* Cns %>: CnsOrFrontRndV:* _ ; ! C>*V*, C>C
 	      matched ;
 
 "Back Low Rnd harmony in suffixes"
- %{A%}:о <=> BackLowRndVow: CnsOrBackLowRnd:* Cns %>: CnsOrBackRndV:*     _ ; ! C>*V*, C>C*V*
-             BackRndVow:    CnsOrBackRnd:*        %>: Cns CnsOrBackRndV:* _ ; ! V>C*V*
+ %{A%}:о <=> BackLowRndVow: CnsOrBackLowRnd:* Cns %>:     CnsOrBackLowRndV:* _ ; ! C>*V*, C>C*V*
+             BackLowRndVow: CnsOrBackLowRnd:*     %>: Cns CnsOrBackLowRndV:* _ ; ! V>C*V*
 
 
 "Back High Rnd harmony in suffixes"
