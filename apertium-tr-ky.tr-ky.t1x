@@ -7,6 +7,11 @@
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
     </def-cat>
+    
+    <def-cat n="v_aor">
+      <cat-item tags="v.t_aor.*"/>
+      <cat-item tags="v.neg.t_aor.*"/>
+    </def-cat>
 
      <def-cat n="nom">
       <cat-item tags="n"/>
@@ -17,6 +22,11 @@
   </section-def-cats>
   
   <section-def-attrs>
+    <def-attr n="a_verb">
+      <attr-item tags="v"/>
+      <attr-item tags="v.neg"/>
+    </def-attr>
+       
     <def-attr n="a_num">
       <attr-item tags="num"/>
     </def-attr>
@@ -78,6 +88,7 @@
     <def-var n="c_num"/>
     <def-var n="c_case"/>
     <def-var n="c_poss"/>
+    <def-var n="c_pers"/>
     <def-var n="c_post"/>
   </section-def-vars>  
  
@@ -103,6 +114,7 @@
         </otherwise>
       </choose>
     </def-macro>  
+
     <def-macro n="f_conv_poss1" npar="1">
       <choose>
         <when>
@@ -116,6 +128,33 @@
         </otherwise>
       </choose>
     </def-macro>  
+
+    <def-macro n="f_conv_pers1" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="1s"/></equal>
+          </test>
+          <let><var n="c_pers"/><lit-tag v="p1.sg"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="2s"/></equal>
+          </test>
+          <let><var n="c_pers"/><lit-tag v="p2.sg"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="3s"/></equal>
+          </test>
+          <let><var n="c_pers"/><lit-tag v="p3.sg"/></let>
+        </when>
+        <otherwise>
+          <let><var n="c_pers"/><lit v=""/></let>
+        </otherwise>
+      </choose>
+    </def-macro>  
+
 
   </section-def-macros>
 
@@ -168,6 +207,26 @@
         </out>
       </action>
     </rule>
-    
+
+    <rule comment="regla: v_aor">
+      <pattern>
+        <pattern-item n="v_aor"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <lit-tag v="pres"/>
+            <var n="c_pers"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+     
   </section-rules>
 </transfer>

@@ -156,10 +156,20 @@ LEXICON V-CLIT
 %<qst%>:%>%{B%}%{I%} # ;
 # ;
 
+LEXICON V-PERS-PRON
+
+%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
+%<p3%>%<sg%>: V-CLIT ; 
+%<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
+!%<p2%>%<pl%>:%> V-CLIT ;  
+!%<p3%>%<pl%>:%>ш V-CLIT ; 
+
+
 LEXICON V-PERS-POSS
 
-%<p1%>%<sg%>:%>%м V-CLIT ; 
-%<p2%>%<sg%>:%>%ң V-CLIT ; 
+%<p1%>%<sg%>:%>м V-CLIT ; 
+%<p2%>%<sg%>:%>ң V-CLIT ; 
 %<p3%>%<sg%>: V-CLIT ; 
 %<p1%>%<pl%>:%>к V-CLIT ; 
 !%<p2%>%<pl%>:%> V-CLIT ;  
@@ -168,7 +178,7 @@ LEXICON V-PERS-POSS
 LEXICON Vinfl
 
 %<v%>: # ;
-%<v%>%<neg%>:%>%{B%}%{A%} # ;
+%<v%>%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRON ;
 %<v%>%<pres%>:%>%{A%} V-PERS-POSS ;
 %<v%>%<past%>:%>%{D%}%{I%} V-PERS-POSS ;
 
@@ -551,7 +561,7 @@ LEXICON PropernounStems
 LEXICON AdvStems
 
 эртең Adv ; ! "tomorrow"	
-еми Adv ; ! "now"	
+эми Adv ; ! "now"	
 бат Adv ; ! "fast"	
 
 LEXICON VerbStems
