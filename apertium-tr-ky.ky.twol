@@ -15,8 +15,9 @@ FrontVow = И Ө Е Ү Э и ө ү э е;
 BackVow = А О У Ы а о у ы;
 FrontUnrndVow = И Е Э и э е;
 BackUnrndVow = А Ы а ы;
-FrontRoundVow = Ө Ү ө ү ;
-BackRoundVow =  О У о у ;
+FrontRndVow = Ө Ү ө ү ;
+BackRndVow =  О У о у ;
+BackLowRndVow = О о ;
 FrontCns = К П С Т Ф Х Ц Ч Ш Щ к п с т ф х ц ч ш щ;
 BackCns =  Б В Г Д Ж З Й Л М Н Ң Р б в г д ж з й л м н ң р;
 
@@ -28,12 +29,13 @@ VoicedNonSonCns = Б В Г Д Ж З Л М Н Ң
                              б в г д ж з л м н ң ;
 
 CnsOrFrontUnrnd = Cns FrontUnrndVow %> ;
-CnsOrFrontRnd = Cns FrontRoundVow %> ;
-CnsOrBackRnd = Cns BackRoundVow %> ;
+CnsOrFrontRnd = Cns FrontRndVow %> ;
+CnsOrBackRnd = Cns BackRndVow %> ;
 
 CnsOrFrontUnrndV = Cns FrontUnrndVow ;
-CnsOrFrontRndV = Cns FrontRoundVow ;
-CnsOrBackRndV = Cns BackRoundVow ;
+CnsOrFrontRndV = Cns FrontRndVow ;
+CnsOrBackRndV = Cns BackRndVow ;
+CnsOrBackLowRndVow = Cns BackLowRndVow ;
 	   
 NonBack = Cns FrontVow %> ;
 NonFront = Cns BackVow %> ;
@@ -58,19 +60,21 @@ Vx:Vy <=> FrontUnrndVow: CnsOrFrontUnrnd:* Cns %>: CnsOrFrontUnrndV:* _ ; ! C>*V
 	      Vy in (   е     и   )
 	      matched ;
 
-"Front Round harmony in suffixes"
-Vx:Vy <=> FrontRoundVow: CnsOrFrontRnd:* Cns %>: CnsOrFrontRndV:* _ ; ! C>*V*, C>C*V*
-          FrontRoundVow: CnsOrFrontRnd:* %>: Cns CnsOrFrontRndV:* _ ; ! V>C*V*
+"Front Rnd harmony in suffixes"
+Vx:Vy <=> FrontRndVow: CnsOrFrontRnd:* Cns %>: CnsOrFrontRndV:* _ ; ! C>*V*, C>C*V*
+          FrontRndVow: CnsOrFrontRnd:* %>: Cns CnsOrFrontRndV:* _ ; ! V>C*V*
 	where Vx in ( %{A%} %{I%} )
 	      Vy in (   ө     ү   )
 	      matched ;
 
-"Back Round harmony in suffixes"
-Vx:Vy <=> BackRoundVow: CnsOrBackRnd:* Cns %>: CnsOrBackRndV:* _ ; ! C>*V*, C>C*V*
-          BackRoundVow: CnsOrBackRnd:* %>: Cns CnsOrBackRndV:* _ ; ! V>C*V*
-	where Vx in ( %{A%} %{I%} )
-	      Vy in (   о     у   )
-	      matched ;
+"Back Low Rnd harmony in suffixes"
+ %{A%}:о <=> BackLowRndVow: CnsOrBackLowRnd:* Cns %>: CnsOrBackRndV:*     _ ; ! C>*V*, C>C*V*
+             BackRndVow:    CnsOrBackRnd:*        %>: Cns CnsOrBackRndV:* _ ; ! V>C*V*
+
+
+"Back High Rnd harmony in suffixes"
+%{I%}:у <=> BackRndVow: CnsOrBackRnd:* Cns %>: CnsOrBackRndV:* _ ; ! C>*V*, C>C*V*
+            BackRndVow: CnsOrBackRnd:* %>: Cns CnsOrBackRndV:* _ ; ! V>C*V*
 
 "L Desonorisation"
 %{L%}:д <=> VoicedNonSonCns %>:  _ ;
