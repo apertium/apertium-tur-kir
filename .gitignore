@@ -10,6 +10,8 @@
 /config
 /config.in
 /config.log
+dev/Pending_tests.html
+dev/Regression_tests.html
 /install.sh
 /missing
 /modes
