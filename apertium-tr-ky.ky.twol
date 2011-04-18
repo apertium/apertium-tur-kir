@@ -18,8 +18,6 @@ BackUnrndVow = А Ы а ы;
 FrontRndVow = Ө Ү ө ү ;
 BackRndVow =  О У о у ;
 BackLowRndVow = О о ;
-FrontCns = К П С Т Ф Х Ц Ч Ш Щ к п с т ф х ц ч ш щ;
-BackCns =  Б В Г Д Ж З Й Л М Н Ң Р б в г д ж з й л м н ң р;
 
 SonCns = й р Й Р ;
 UnvoicedNonSonCns = К П С Т Ф Х Ц Ч Ш Щ  
@@ -39,17 +37,11 @@ CnsOrBackLowRndVow = Cns BackLowRndVow ;
 	   
 NonBack = Cns FrontVow %> ;
 NonFront = Cns BackVow %> ;
-NonBackC = FrontVow Vow FrontCns %>;
-NonFrontC = BackVow Vow BackCns %>;
-
  
 Rules
 
 "Katkalan harmony in consonants 2"
 %{G%}:к <=> UnvoicedNonSonCns %>: _ ;
-
-! "Katkalan harmony in consonants 2"
-! %{G%}:к <=> FrontCns: NonBackC:* %>: NonBackC:* _ ;
 
 ! Trond
 
