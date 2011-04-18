@@ -194,6 +194,7 @@
 	<e c="  0"><p><l>biçim<s n="n"/></l><r>бычым<s n="n"/></r></p></e>
 	<e slr="1"><p><l>biçim<s n="n"/></l><r>шекил<s n="n"/></r></p></e>
 	<e slr="2"><p><l>biçim<s n="n"/></l><r>форма<s n="n"/></r></p></e>
+	<e c="  0"><p><l>kız<s n="n"/></l><r>кыз<s n="n"/></r></p></e>
 		
         <!-- SECTION: Proper nouns -->
         <e><p><l>Abhazya<s n="np"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e> 
