@@ -29,7 +29,7 @@ TSTLIST=`mktemp -t tmp.$SRCLANG-tst.XXXXXXXXXX`;
 ECHOE="echo -e"
 SED=sed
 if test x$(uname -s) = xDarwin; then 
-	ECHOE="builtin echo"
+#	ECHOE="builtin echo"
 	SED=gsed
 fi
 
