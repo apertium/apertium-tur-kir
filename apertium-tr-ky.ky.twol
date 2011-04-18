@@ -5,81 +5,81 @@ Alphabet
 
 Sets
 
-Consonant = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ 
+Cns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ 
 	        б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ь ъ 
 	        %{D%} %{G%} %{N%} %{L%} %{B%} ;
-Vowel =     А Е Ё И О Ө У Ү Ы Э Ю Я
+Vow =     А Е Ё И О Ө У Ү Ы Э Ю Я
             а е ё и о ө у ү ы э ю я 
             %{A%} %{I%} ;
-FrontVowel = И Ө Е Ү Э и ө ү э е;
-BackVowel = А О У Ы а о у ы;
-FrontUnroundedVowel = И Е Э и э е;
-BackUnroundedVowel = А Ы а ы;
-FrontRoundVowel = Ө Ү ө ү ;
-BackRoundVowel =  О У о у ;
-FrontConsonant = К П С Т Ф Х Ц Ч Ш Щ к п с т ф х ц ч ш щ;
-BackConsonant =  Б В Г Д Ж З Й Л М Н Ң Р б в г д ж з й л м н ң р;
+FrontVow = И Ө Е Ү Э и ө ү э е;
+BackVow = А О У Ы а о у ы;
+FrontUnrndVow = И Е Э и э е;
+BackUnrndVow = А Ы а ы;
+FrontRoundVow = Ө Ү ө ү ;
+BackRoundVow =  О У о у ;
+FrontCns = К П С Т Ф Х Ц Ч Ш Щ к п с т ф х ц ч ш щ;
+BackCns =  Б В Г Д Ж З Й Л М Н Ң Р б в г д ж з й л м н ң р;
 
-SonorantConsonant = й р Й Р ;
-UnvoicedNonSonorantConsonant = К П С Т Ф Х Ц Ч Ш Щ  
+SonCns = й р Й Р ;
+UnvoicedNonSonCns = К П С Т Ф Х Ц Ч Ш Щ  
 	                           к п с т ф х ц ч ш щ ;
 
-VoicedNonSonorantConsonant = Б В Г Д Ж З Л М Н Ң 
+VoicedNonSonCns = Б В Г Д Ж З Л М Н Ң 
                              б в г д ж з л м н ң ;
 
-ConsOrFrontUnrounded = Consonant FrontUnroundedVowel %> ;
-ConsOrFrontRounded = Consonant FrontRoundVowel %> ;
-ConsOrBackRounded = Consonant BackRoundVowel %> ;
+CnsOrFrontUnrnd = Cns FrontUnrndVow %> ;
+CnsOrFrontRnd = Cns FrontRoundVow %> ;
+CnsOrBackRnd = Cns BackRoundVow %> ;
 
-ConsOrFrontUnroundedV = Consonant FrontUnroundedVowel ;
-ConsOrFrontRoundedV = Consonant FrontRoundVowel ;
-ConsOrBackRoundedV = Consonant BackRoundVowel ;
+CnsOrFrontUnrndV = Cns FrontUnrndVow ;
+CnsOrFrontRndV = Cns FrontRoundVow ;
+CnsOrBackRndV = Cns BackRoundVow ;
 	   
-NonBack = Consonant FrontVowel %> ;
-NonFront = Consonant BackVowel %> ;
-NonBackC = FrontVowel Vowel FrontConsonant %>;
-NonFrontC = BackVowel Vowel BackConsonant %>;
+NonBack = Cns FrontVow %> ;
+NonFront = Cns BackVow %> ;
+NonBackC = FrontVow Vow FrontCns %>;
+NonFrontC = BackVow Vow BackCns %>;
 
  
 Rules
 
 "Katkalan harmony in consonants 2"
-%{G%}:к <=> FrontConsonant: NonBackC:* %>: NonBackC:* _ ;
+%{G%}:к <=> FrontCns: NonBackC:* %>: NonBackC:* _ ;
 
 ! Trond
 
-"Suffix Vowel deletion in V-stems"
-%{I%}:0 <=> Vowel %>: _ ;
+"Suffix Vow deletion in V-stems"
+%{I%}:0 <=> Vow %>: _ ;
 
-"Front unrounded harmony in suffixes"
-Vx:Vy <=> FrontUnroundedVowel: ConsOrFrontUnrounded:* Consonant %>: ConsOrFrontUnroundedV:* _ ; ! C>*V*, C>C*V*
-          FrontUnroundedVowel: ConsOrFrontUnrounded:* %>: Consonant ConsOrFrontUnroundedV:* _ ; ! V>C*V*
+"Front unrnd harmony in suffixes"
+Vx:Vy <=> FrontUnrndVow: CnsOrFrontUnrnd:* Cns %>: CnsOrFrontUnrndV:* _ ; ! C>*V*, C>C*V*
+          FrontUnrndVow: CnsOrFrontUnrnd:* %>: Cns CnsOrFrontUnrndV:* _ ; ! V>C*V*
 	where Vx in ( %{A%} %{I%} )
 	      Vy in (   е     и   )
 	      matched ;
 
 "Front Round harmony in suffixes"
-Vx:Vy <=> FrontRoundVowel: ConsOrFrontRounded:* Consonant %>: ConsOrFrontRoundedV:* _ ; ! C>*V*, C>C*V*
-          FrontRoundVowel: ConsOrFrontRounded:* %>: Consonant ConsOrFrontRoundedV:* _ ; ! V>C*V*
+Vx:Vy <=> FrontRoundVow: CnsOrFrontRnd:* Cns %>: CnsOrFrontRndV:* _ ; ! C>*V*, C>C*V*
+          FrontRoundVow: CnsOrFrontRnd:* %>: Cns CnsOrFrontRndV:* _ ; ! V>C*V*
 	where Vx in ( %{A%} %{I%} )
 	      Vy in (   ө     ү   )
 	      matched ;
 
 "Back Round harmony in suffixes"
-Vx:Vy <=> BackRoundVowel: ConsOrBackRounded:* Consonant %>: ConsOrBackRoundedV:* _ ; ! C>*V*, C>C*V*
-          BackRoundVowel: ConsOrBackRounded:* %>: Consonant ConsOrBackRoundedV:* _ ; ! V>C*V*
+Vx:Vy <=> BackRoundVow: CnsOrBackRnd:* Cns %>: CnsOrBackRndV:* _ ; ! C>*V*, C>C*V*
+          BackRoundVow: CnsOrBackRnd:* %>: Cns CnsOrBackRndV:* _ ; ! V>C*V*
 	where Vx in ( %{A%} %{I%} )
 	      Vy in (   о     у   )
 	      matched ;
 
 "L Desonorisation"
-%{L%}:д <=> VoicedNonSonorantConsonant %>:  _ ;
+%{L%}:д <=> VoicedNonSonCns %>:  _ ;
 
 "N Desonorisation"
-%{N%}:д <=> [ SonorantConsonant | VoicedNonSonorantConsonant ] %>:  _ ;
+%{N%}:д <=> [ SonCns | VoicedNonSonCns ] %>:  _ ;
 
 "L Desonorisation and Devoicing"
-Cx:т <=> UnvoicedNonSonorantConsonant %>: _ ;
+Cx:т <=> UnvoicedNonSonCns %>: _ ;
 	where Cx in ( %{L%} %{N%} ) ;
 
 
