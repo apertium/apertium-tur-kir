@@ -1,48 +1,91 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!  M O R P H O L O G I C A L    T R A N S D U C E R    F O R    K Y R G Y Z !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 Multichar_Symbols
 
-%<n%>   ! Noun
-%<np%>  ! Proper noun
-%<adv%>  ! Adverb
-%<post%> ! Postposition
-%<nom%>  ! Nominative
-%<acc%>  ! Accusative
-%<dat%>  ! Dative
-%<gen%>  ! Genitive
-%<loc%>  ! Locative
-%<abl%>  ! Ablative
-%<pl%>  ! Plural
-%<ant%>  ! Anthroponym (name of person)
-%<m%>   ! Masculine
-%<px1sg%> ! Possessive, first person singular
-%<px2sg%> !
-%<px3sg%> !
-%<px1pl%> !
-%<px2pl%> !
-%<px3pl%> !
+%<n%>      ! Noun
+%<np%>     ! Proper noun
+%<adv%>    ! Adverb
+%<v%>      ! Verb
+%<prn%>    ! Pronoun
+%<post%>   ! Postposition
+%<part%>   ! Particle
+%<cnjcoo%> ! Coordinating conjunction
+%<cnjadv%> ! Adverbial conjunction
+%<cnjsub%> ! Subordinating conjunction
 
-%{A%}   ! Realised as 'а', 'е', 'о', 'ө' 
-%{I%}   ! Realised as 'ы', 'и', 'у', 'ү'
-%{G%}   ! Realised as 'г', 'к', 'ң', 'н'
-%{D%}   ! Realised as 'д', 'т', 'н'
-%{M%}   ! Realised as 'м', 'б', 'п'
-%{N%}   ! Realised as 'н', 'д', 'т'
-%{L%}   ! Realised as 'л', 'д', 'т'
+%<nom%>    ! Nominative
+%<acc%>    ! Accusative
+%<dat%>    ! Dative
+%<gen%>    ! Genitive
+%<loc%>    ! Locative
+%<abl%>    ! Ablative
 
+%<m%>      ! Masculine
+
+%<pers%>   ! Personal 
+%<dem%>    ! Demonstrative
+
+%<sg%>     ! Singular
+%<pl%>     ! Plural
+
+%<p1%>     ! First person
+%<p2%>     ! Second person
+%<p3%>     ! Third person
+
+%<px1sg%>  ! Possessive, first person singular
+%<px2sg%>  !
+%<px3sg%>  !
+%<px1pl%>  !
+%<px2pl%>  !
+%<px3pl%>  !
+
+%<ant%>    ! Anthroponym (name of person)
+
+%<neg%>    ! Negative
+%<qst%>    ! Question
+
+%<pres%>   ! Present tense
+%<past%>   ! Past tense
+
+%<sent%>   ! Sentence marker
+%<cm%>     ! Comma
+
+
+%{A%}      ! Realised as 'а', 'е', 'о', 'ө' 
+%{I%}      ! Realised as 'ы', 'и', 'у', 'ү'
+%{G%}      ! Realised as 'г', 'к', 'ң', 'н'
+%{D%}      ! Realised as 'д', 'т', 'н'
+%{M%}      ! Realised as 'м', 'б', 'п'
+%{N%}      ! Realised as 'н', 'д', 'т'
+%{L%}      ! Realised as 'л', 'д', 'т'
+%{B%}      ! Realised as 'б', 'в' **CHECK**
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                  C O N T I N U A T I O N      L E X I C A               !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Root
 
+Particles ;
+Postpositions ;
+Conjunctions ;
+Pronouns ;
 NounStems ;
 PropernounStems ;
 AdvStems ;
-Postpositions ;
+VerbStems ;
+Punctuation ;
 
 LEXICON Ncases
-%<nom%>:%> # ;      ! -     -      -
-%<gen%>:%>%{N%}%{I%}н # ; ! нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
-%<dat%>:%>%{G%}%{A%} # ; ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
-%<acc%>:%>%{N%}%{I%} # ; ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
-%<loc%>:%>%{D%}%{A%} # ; ! -да, -де, -та, -те, -до, -дө, -то, -тө
-%<abl%>:%>%{D%}%{A%}н # ; ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
+%<nom%>:%> # ;             ! -     -      -
+%<gen%>:%>%{N%}%{I%}н # ;  ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
+%<dat%>:%>%{G%}%{A%} # ;   ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
+%<acc%>:%>%{N%}%{I%} # ;   ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
+%<loc%>:%>%{D%}%{A%} # ;   ! -да, -де, -та, -те, -до, -дө, -то, -тө
+%<abl%>:%>%{D%}%{A%}н # ;  ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
 
 LEXICON Posses
 Ncases ;
@@ -61,15 +104,83 @@ LEXICON Post
 
 %<post%>: # ;
 
+LEXICON CA
+
+%<cnjadv%>: # ;
+
+LEXICON CC
+
+%<cnjcoo%>: # ;
+
+LEXICON Part
+
+%<part%>: # ;
+
+LEXICON PRON-SEN
+
+%<nom%>:ен # ;
+%<gen%>:енин # ;
+%<acc%>:и # ;
+!%<dat%>: # ;
+%<loc%>:енде # ;
+%<abl%>:енден # ;
+
 LEXICON Ninfl
 
 %<n%>: Posses ;
 %<n%>%<pl%>:%>%{L%}%{A%}р Posses ;
 
+LEXICON V-CLIT 
 
-LEXICON NpAntMInfl1
+%<qst%>:%>%{B%}%{I%} # ;
+# ;
+
+LEXICON V-PERS-POSS
+
+%<p1%>%<sg%>:%>%м V-CLIT ; 
+%<p2%>%<sg%>:%>%ң V-CLIT ; 
+%<p3%>%<sg%>: V-CLIT ; 
+%<p1%>%<pl%>:%>к V-CLIT ; 
+!%<p2%>%<pl%>:%> V-CLIT ;  
+%<p3%>%<pl%>:%>ш V-CLIT ; 
+
+LEXICON Vinfl
+
+%<v%>: # ;
+%<v%>%<neg%>:%>%{B%}%{A%} # ;
+%<v%>%<pres%>:%>%{A%} V-PERS-POSS ;
+%<v%>%<past%>:%>%{D%}%{I%} V-PERS-POSS ;
+
+LEXICON NpAntMInfl
 
 %<np%>%<ant%>%<m%>: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                  L E X I C O N    E N T R I E S                         !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Particles 
+
+да Part ; ! "also, too"
+го Part ; ! "also, too"
+еле Part ; ! "only"
+
+LEXICON Conjunctions 
+
+жана CC ; ! "and"
+ал CA ; ! "but"
+бирок CA ; ! "but"
+
+LEXICON Postpositions
+
+менен Post ; ! "with"
+дейре Post ; ! "up to, until"
+чейин Post ; ! "up to, until"
+кийин Post ; ! "with"
+
+LEXICON Pronouns
+
+сен%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-SEN ; 
 
 LEXICON NounStems
 
@@ -90,17 +201,39 @@ LEXICON NounStems
 туз Ninfl ; ! "salt"
 чака Ninfl ; ! "bucket"
 челек Ninfl ; ! "bucket"
+борбор Ninfl ; ! "capital"
+жай Ninfl ; ! "summer"
+жол Ninfl ; ! "way"
 
-
+антрополог Ninfl ; ! "anthropologist"
+индустрия Ninfl ; ! "industry"
+пиво Ninfl ; ! "industry"
 
 LEXICON PropernounStems
 
-Ахмет NpAntMInfl1 ; ! "Axmet"
+Ахмет NpAntMInfl ; ! "Axmet"
+Мирлан NpAntMInfl ; ! "Mirlan"
+Болот NpAntMInfl ; ! "Bolot"
+
+!LEXICON AdjStems
 
 LEXICON AdvStems
 
 эртең Adv ; ! "tomorrow"	
+еми Adv ; ! "now"	
+бат Adv ; ! "fast"	
 
-LEXICON Postpositions
+LEXICON VerbStems
 
-менен Post ; ! ""
+кет Vinfl ; ! "go"
+кел Vinfl ; ! "come"
+жат Vinfl ; ! "come"
+ич Vinfl ; ! "drink"
+тур Vinfl ; ! "stand, live"
+отур Vinfl ; ! "sit"
+бил Vinfl ; ! "know"
+
+LEXICON Punctuation
+
+.%<sent%>:. # ;
+,%<cm%>:, # ;

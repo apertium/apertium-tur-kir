@@ -1,13 +1,13 @@
 Alphabet
 А Б В Г Д Е Ё Ж З И И К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
 а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ь ы ъ э ю я
-%{G%}:г %{D%}:д %{A%}:а %{I%}:ы %{N%}:н %{L%}:л %>:0 ;
+%{G%}:г %{D%}:д %{A%}:а %{I%}:ы %{N%}:н %{L%}:л %{B%}:б %>:0 ;
 
 Sets
 
 Consonant = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ 
 	        б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ь ъ 
-	        %{D%} %{G%} %{N%} %{L%} ;
+	        %{D%} %{G%} %{N%} %{L%} %{B%} ;
 Vowel =     А Е Ё И О Ө У Ү Ы Э Ю Я
             а е ё и о ө у ү ы э ю я 
             %{A%} %{I%} ;
@@ -77,7 +77,6 @@ Vx:Vy <=> BackRoundVowel: ConsOrBackRounded:* Consonant %>: ConsOrBackRoundedV:*
 
 "N Desonorisation"
 %{N%}:д <=> [ SonorantConsonant | VoicedNonSonorantConsonant ] %>:  _ ;
-
 
 "L Desonorisation and Devoicing"
 Cx:т <=> UnvoicedNonSonorantConsonant %>: _ ;
