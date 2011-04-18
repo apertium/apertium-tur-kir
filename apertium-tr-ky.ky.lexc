@@ -407,6 +407,19 @@ LEXICON NounStems
 абал Ninfl ; 
 аба Ninfl ; 
 
+азык% түлүк Ninfl ; 
+бир% канча Ninfl ; 
+жүзү% кара Ninfl ; 
+кимдир% бирөө Ninfl ; 
+кимдир% бирөөсү Ninfl ; 
+кол% чабуу Ninfl ; 
+миң% башы Ninfl ; 
+сормо% саз Ninfl ; 
+тиги% дүйнө Ninfl ; 
+эси% жок Ninfl ; 
+ак% сөөк Ninfl ; 
+
+
 LEXICON PropernounStems
 
 Кыргызстан NpTop ; ! "Kyrgyzstan"
