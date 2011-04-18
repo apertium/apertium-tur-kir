@@ -4,10 +4,7 @@
 /apertium-tr-ky.ky.lexc -text
 /apertium-tr-ky.ky.twol -text
 /apertium-tr-ky.tr-ky.dix -text
-/apertium-tr-ky.tr-ky.rlx -text
 /apertium-tr-ky.tr-ky.t1x -text
-dev/Pending_tests.html -text
-dev/Regression_tests.html -text
 dev/ky-nouns.txt -text svneol=unset#application/octet-stream
 /lexchoicebil.xsl -text
 /modes.xml -text

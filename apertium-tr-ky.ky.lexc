@@ -7,6 +7,7 @@ Multichar_Symbols
 %<n%>      ! Noun
 %<np%>     ! Proper noun
 %<adv%>    ! Adverb
+%<num%>    ! Numeral
 %<v%>      ! Verb
 %<prn%>    ! Pronoun
 %<post%>   ! Postposition
@@ -23,6 +24,7 @@ Multichar_Symbols
 %<abl%>    ! Ablative
 
 %<m%>      ! Masculine
+%<f%>      ! Feminine
 
 %<pers%>   ! Personal 
 %<dem%>    ! Demonstrative
@@ -42,6 +44,7 @@ Multichar_Symbols
 %<px3pl%>  !
 
 %<ant%>    ! Anthroponym (name of person)
+%<top%>    ! Toponym
 
 %<neg%>    ! Negative
 %<qst%>    ! Question
@@ -73,6 +76,7 @@ Particles ;
 Postpositions ;
 Conjunctions ;
 Pronouns ;
+Numerals ;
 NounStems ;
 PropernounStems ;
 AdvStems ;
@@ -116,6 +120,10 @@ LEXICON Part
 
 %<part%>: # ;
 
+LEXICON Num
+
+%<num%>: # ;
+
 LEXICON PRON-SEN
 
 %<nom%>:ен # ;
@@ -129,6 +137,19 @@ LEXICON Ninfl
 
 %<n%>: Posses ;
 %<n%>%<pl%>:%>%{L%}%{A%}р Posses ;
+
+LEXICON NpAntMInfl
+
+%<np%>%<ant%>%<m%>: # ;
+
+LEXICON NpAntFInfl
+
+%<np%>%<ant%>%<f%>: # ;
+
+
+LEXICON NpTop
+
+%<np%>%<top%>: Ncases ;
 
 LEXICON V-CLIT 
 
@@ -151,10 +172,6 @@ LEXICON Vinfl
 %<v%>%<pres%>:%>%{A%} V-PERS-POSS ;
 %<v%>%<past%>:%>%{D%}%{I%} V-PERS-POSS ;
 
-LEXICON NpAntMInfl
-
-%<np%>%<ant%>%<m%>: # ;
-
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -163,7 +180,7 @@ LEXICON Particles
 
 да Part ; ! "also, too"
 го Part ; ! "also, too"
-еле Part ; ! "only"
+эле Part ; ! "only"
 
 LEXICON Conjunctions 
 
@@ -181,6 +198,10 @@ LEXICON Postpositions
 LEXICON Pronouns
 
 сен%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-SEN ; 
+
+LEXICON Numerals 
+
+бир Num ; 
 
 LEXICON NounStems
 
@@ -204,16 +225,28 @@ LEXICON NounStems
 борбор Ninfl ; ! "capital"
 жай Ninfl ; ! "summer"
 жол Ninfl ; ! "way"
+жыл Ninfl ; ! "year"
 
 антрополог Ninfl ; ! "anthropologist"
 индустрия Ninfl ; ! "industry"
+экология Ninfl ; ! "ecology"
+философия Ninfl ; ! "philosophy"
 пиво Ninfl ; ! "industry"
 
 LEXICON PropernounStems
 
+Кыргызстан NpTop ; ! "Kyrgyzstan"
+Татарстан NpTop ; ! "Tatarstan"
+Өзбекстан NpTop ; ! "Uzbekistan"
+Казакстан NpTop ; ! "Kazakhstan"
+
+Бишкек NpTop ; ! "Bishkek"
+
 Ахмет NpAntMInfl ; ! "Axmet"
 Мирлан NpAntMInfl ; ! "Mirlan"
 Болот NpAntMInfl ; ! "Bolot"
+
+Элеонора NpAntFInfl ; ! "Eleanora"
 
 !LEXICON AdjStems
 
