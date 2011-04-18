@@ -88,3 +88,12 @@ Cx:т <=> UnvoicedNonSonorantConsonant %>: _ ;
 ! gk	G
 ! dt	D
 ! mbp	M
+
+! The error in our analys is that VH is treated as symmetric wrt. triggers.
+! It is not, there is a front/back distinction, more vowels trigger а:
+! root -≥ suffix:
+! а,ы,у -≥ а
+! о -≥ о
+! е,и -≥ е
+! ү,ө -≥ ө
+
