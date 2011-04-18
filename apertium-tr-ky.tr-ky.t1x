@@ -3,7 +3,12 @@
 <transfer>
   <section-def-cats>
     
-    <def-cat n="nom">
+    <def-cat n="num">
+      <cat-item tags="num"/>
+      <cat-item tags="num.*"/>
+    </def-cat>
+
+     <def-cat n="nom">
       <cat-item tags="n"/>
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
@@ -12,6 +17,9 @@
   </section-def-cats>
   
   <section-def-attrs>
+    <def-attr n="a_num">
+      <attr-item tags="num"/>
+    </def-attr>
        
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -112,6 +120,28 @@
   </section-def-macros>
 
   <section-rules>
+    
+    <rule comment="regla: num">
+      <pattern>
+        <pattern-item n="num"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_num"/>
+            <var n="c_case"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+    
+
     
     <rule comment="regla: nom">
       <pattern>

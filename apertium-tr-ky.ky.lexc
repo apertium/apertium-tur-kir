@@ -1,5 +1,5 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!  M O R P H O L O G I C A L    T R A N S D U C E R    F O R    K Y R G Y Z !!
+!!   M O R P H O L O G I C A L · T R A N S D U C E R · F O R · K Y R G Y Z   !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Multichar_Symbols
@@ -37,11 +37,11 @@ Multichar_Symbols
 %<p3%>     ! Third person
 
 %<px1sg%>  ! Possessive, first person singular
-%<px2sg%>  !
-%<px3sg%>  !
-%<px1pl%>  !
-%<px2pl%>  !
-%<px3pl%>  !
+%<px2sg%>  ! Possessive, second person singular
+%<px3sg%>  ! Possessive, third person singular
+%<px1pl%>  ! Possessive, first person plural
+%<px2pl%>  ! Possessive, second person plural
+%<px3pl%>  ! Possessive, third person plural
 
 %<ant%>    ! Anthroponym (name of person)
 %<top%>    ! Toponym
@@ -122,7 +122,7 @@ LEXICON Part
 
 LEXICON Num
 
-%<num%>: # ;
+%<num%>: Ncases ;
 
 LEXICON PRON-SEN
 
@@ -140,11 +140,11 @@ LEXICON Ninfl
 
 LEXICON NpAntMInfl
 
-%<np%>%<ant%>%<m%>: # ;
+%<np%>%<ant%>%<m%>: Ncases  ;
 
 LEXICON NpAntFInfl
 
-%<np%>%<ant%>%<f%>: # ;
+%<np%>%<ant%>%<f%>: Ncases ;
 
 
 LEXICON NpTop
@@ -201,7 +201,29 @@ LEXICON Pronouns
 
 LEXICON Numerals 
 
-бир Num ; 
+бир Num ; ! "one"
+эки Num ; ! "two"
+үч Num ; ! ""
+төрт Num ; ! ""
+беш Num ; ! ""
+алты Num ; ! ""
+жети Num ; ! ""
+сегиз Num ; ! ""
+тогуз Num ; ! ""
+он Num ; ! ""
+жыйырма Num ; ! ""
+отуз Num ; ! ""
+кырк Num ; ! ""
+элүү Num ; ! ""
+алтымыш Num ; ! ""
+жетимиш Num ; ! ""
+сексен Num ; ! ""
+токсон Num ; ! ""
+жүз Num ; ! ""
+миң Num ; ! ""
+миллион Num ; ! ""
+миллиард Num ; ! ""
+
 
 LEXICON NounStems
 
@@ -239,6 +261,7 @@ LEXICON NounStems
 өзүмчүлдүк Ninfl ; ! "egoism, selfishness"
 өлкө Ninfl ; ! "country, land"
 өсүмдүк Ninfl ; ! "plant"
+мамлекет Ninfl ; ! "state"
 
 беш Ninfl ; ! "" 
 таш Ninfl ; ! "" 
@@ -422,13 +445,100 @@ LEXICON NounStems
 
 LEXICON PropernounStems
 
-Кыргызстан NpTop ; ! "Kyrgyzstan"
-Татарстан NpTop ; ! "Tatarstan"
-Өзбекстан NpTop ; ! "Uzbekistan"
+Абхазия NpTop ; ! ""
+Австралия NpTop ; ! ""
+Австрия NpTop ; ! ""
+Азербайжан NpTop ; ! ""
+Америка NpTop ; ! ""
+Амстердам NpTop ; ! ""
+Англия NpTop ; ! ""
+Ангола NpTop ; ! ""
+Анкара NpTop ; ! ""
+Антарктида NpTop ; ! ""
+Антарктика NpTop ; ! ""
+Арабистан NpTop ; ! ""
+Армения NpTop ; ! ""
+Атланта NpTop ; ! ""
+Афганистан NpTop ; ! ""
+Африка NpTop ; ! ""
+Багдад NpTop ; ! ""
+Баку NpTop ; ! ""
+Бангладеш NpTop ; ! ""
+Барселона NpTop ; ! ""
+Басра NpTop ; ! ""
+Бейрут NpTop ; ! ""
+Белгия NpTop ; ! ""
+Белград NpTop ; ! ""
+Берлин NpTop ; ! ""
+Бишкек NpTop ; ! ""
+Болгария NpTop ; ! ""
+Боливия NpTop ; ! ""
+Бразилия NpTop ; ! ""
+Брюселъ NpTop ; ! ""
+Будапешт NpTop ; ! ""
+Бухарест NpTop ; ! ""
+Габон NpTop ; ! ""
+Гамбург NpTop ; ! ""
+Гана NpTop ; ! ""
+Гватемала NpTop ; ! ""
+Голландия NpTop ; ! ""
+Гондурас NpTop ; ! ""
+Дания NpTop ; ! ""
+Дубай NpTop ; ! ""
+Дусселъдорф NpTop ; ! ""
+Европа NpTop ; ! ""
+Ереван NpTop ; ! ""
+Жакарта NpTop ; ! ""
+Израил NpTop ; ! ""
+Индия NpTop ; ! ""
+Индонезия NpTop ; ! ""
+Ирак NpTop ; ! ""
+Иран NpTop ; ! ""
+Истанбул NpTop ; ! ""
+Казакстан NpTop ; ! ""
 Казакстан NpTop ; ! "Kazakhstan"
+Камерун NpTop ; ! ""
+Канада NpTop ; ! ""
+Кеня NpTop ; ! ""
+Керкүк NpTop ; ! ""
+Кипр NpTop ; ! ""
+Колън NpTop ; ! ""
+Конго NpTop ; ! ""
+Копенгаген NpTop ; ! ""
+Куба NpTop ; ! ""
+Кыргызстан NpTop ; ! ""
+Кыргызстан NpTop ; ! "Kyrgyzstan"
+Латвия NpTop ; ! ""
+Либия NpTop ; ! ""
+Лиссабон NpTop ; ! ""
+Литва NpTop ; ! ""
+Люксембург NpTop ; ! ""
+Мадагаскар NpTop ; ! ""
 Мадагаскар NpTop ; ! "Madagascar"
+Мадрид NpTop ; ! ""
+Малазия NpTop ; ! ""
+Малъта NpTop ; ! ""
+Манхеттен NpTop ; ! ""
+Мезопотамия NpTop ; ! ""
+Мексика NpTop ; ! ""
+Татарстан NpTop ; ! "Tatarstan"
+Финландия NpTop ; ! ""
+Франкфурт NpTop ; ! ""
+Франция NpTop ; ! ""
+Хелсинки NpTop ; ! ""
+Хорватия NpTop ; ! ""
+Черногория NpTop ; ! ""
+Чехословакия NpTop ; ! ""
+Чеченистан NpTop ; ! ""
+Экватор NpTop ; ! ""
+Эрбил NpTop ; ! ""
+Эфиопия NpTop ; ! ""
+Эфиопия NpTop ; ! ""
+Япония NpTop ; ! ""
+Өзбекстан NpTop ; ! "Uzbekistan"
 
 Бишкек NpTop ; ! "Bishkek"
+Лондон NpTop ; ! ""
 
 Ахмет NpAntMInfl ; ! "Axmet"
 Мирлан NpAntMInfl ; ! "Mirlan"
