@@ -6,7 +6,7 @@ Alphabet
 Sets
 
 Cns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ 
-	        б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ь ъ 
+	  б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ь ъ 
 	        %{D%} %{G%} %{N%} %{L%} %{B%} ;
 Vow =     А Е Ё И О Ө У Ү Ы Э Ю Я
             а е ё и о ө у ү ы э ю я 
@@ -23,10 +23,10 @@ BackCns =  Б В Г Д Ж З Й Л М Н Ң Р б в г д ж з й л м н ң 
 
 SonCns = й р Й Р ;
 UnvoicedNonSonCns = К П С Т Ф Х Ц Ч Ш Щ  
-	                           к п с т ф х ц ч ш щ ;
+	                к п с т ф х ц ч ш щ ;
 
 VoicedNonSonCns = Б В Г Д Ж З Л М Н Ң 
-                             б в г д ж з л м н ң ;
+                  б в г д ж з л м н ң ;
 
 CnsOrFrontUnrnd = Cns FrontUnrndVow %> ;
 CnsOrFrontRnd = Cns FrontRndVow %> ;
@@ -46,7 +46,10 @@ NonFrontC = BackVow Vow BackCns %>;
 Rules
 
 "Katkalan harmony in consonants 2"
-%{G%}:к <=> FrontCns: NonBackC:* %>: NonBackC:* _ ;
+%{G%}:к <=> UnvoicedNonSonCns %>: _ ;
+
+! "Katkalan harmony in consonants 2"
+! %{G%}:к <=> FrontCns: NonBackC:* %>: NonBackC:* _ ;
 
 ! Trond
 
