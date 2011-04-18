@@ -6,6 +6,7 @@ Multichar_Symbols
 
 %<n%>      ! Noun
 %<np%>     ! Proper noun
+%<adj%>    ! Adjective
 %<adv%>    ! Adverb
 %<num%>    ! Numeral
 %<v%>      ! Verb
@@ -79,6 +80,7 @@ Pronouns ;
 Numerals ;
 NounStems ;
 PropernounStems ;
+AdjecStems ;
 AdvStems ;
 VerbStems ;
 Punctuation ;
@@ -99,6 +101,10 @@ Ncases ;
 %<px1pl%>:%>б%{I%}з Ncases ; 
 %<px2pl%>:%>ң%{I%}з Ncases ; 
 %<px3pl%>:%>%{D%}%{A%}%{I%} Ncases ;
+
+LEXICON Adj
+
+%<adj%>: # ;
 
 LEXICON Adv
 
@@ -295,6 +301,8 @@ LEXICON NounStems
 экология Ninfl ; ! "ecology"
 философия Ninfl ; ! "philosophy"
 пиво Ninfl ; ! "industry"
+редактор Ninfl ; ! "editor"
+район Ninfl ; ! "rajon"
 
 өтүнүч Ninfl ; 
 өсүмдүк Ninfl ; 
@@ -556,7 +564,9 @@ LEXICON PropernounStems
 
 Элеонора NpAntFInfl ; ! "Eleanora"
 
-!LEXICON AdjStems
+LEXICON AdjecStems
+
+кыргыз Adj ; ! "Kyrgyz"
 
 LEXICON AdvStems
 
