@@ -567,12 +567,15 @@ LEXICON PropernounStems
 LEXICON AdjecStems
 
 кыргыз Adj ; ! "Kyrgyz"
+сулуу Adj ; ! "beautiful"
+!эң Adj ; ! "most"	
 
 LEXICON AdvStems
 
-эртең Adv ; ! "tomorrow"	
-эми Adv ; ! "now"	
-бат Adv ; ! "fast"	
+эртең Adv ; ! "tomorrow"
+эми Adv ; ! "now"
+бат Adv ; ! "fast"
+эң Adv ; ! "most"
 
 LEXICON VerbStems
 
