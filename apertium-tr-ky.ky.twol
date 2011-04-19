@@ -42,9 +42,6 @@ NonFront = Cns BackVow %> ;
  
 Rules
 
-"Katkalan harmony in consonants 2"
-%{G%}:к <=> UnvoicedNonSonCns %>: _ ;
-
 
 "Suffix Vow deletion in V-stems"
 %{I%}:0 <=> Vow %>: _ ;
@@ -84,6 +81,12 @@ Vx:Vy <=> FrontRndVow: CnsFrontRndVowSB:* Cns %>:     CnsFrontRndVow:* _ ; ! ?C>
 "L Desonorisation and Devoicing"
 Cx:т <=> UnvoicedNonSonCns %>: _ ;
 	where Cx in ( %{L%} %{N%} ) ;
+
+"Katkalan harmony in consonants 2"
+%{G%}:к <=> UnvoicedNonSonCns %>: _ ;
+
+"Katkalan harmony in consonants 1"
+%{D%}:т <=> UnvoicedNonSonCns %>: _ ;
 
 "Мягкий знак deletion before suffix"
 ь:0 <=> _ %>: ; 
