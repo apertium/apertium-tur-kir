@@ -50,13 +50,20 @@ Multichar_Symbols
 %<neg%>    ! Negative
 %<qst%>    ! Question
 
+%<cnvi%>    ! Converb imperfect
+%<cnvp%>    ! Converb perfect
 %<pres%>   ! Present tense
 %<past%>   ! Past tense
+%<pp%>     ! Past participle
+%<plist%>  ! Listing participle
+%<inf%>    ! Verbal noun in -үү
+%<inf2%>   ! Verbal noun in -иш
 
 %<sent%>   ! Sentence marker
 %<cm%>     ! Comma
 
 
+%{AJ%}     ! Realised as 'а', 'й' 
 %{A%}      ! Realised as 'а', 'е', 'о', 'ө' 
 %{I%}      ! Realised as 'ы', 'и', 'у', 'ү'
 %{G%}      ! Realised as 'г', 'к', 'ң', 'н'
@@ -73,6 +80,7 @@ Multichar_Symbols
 
 LEXICON Root
 
+!NumeralList ;
 Particles ;
 Postpositions ;
 Conjunctions ;
@@ -126,6 +134,26 @@ LEXICON Part
 
 %<part%>: # ;
 
+LEXICON NumeralList
+
+%0 NumeralLoop ;
+1 NumeralLoop ;
+2 NumeralLoop ;
+3 NumeralLoop ;
+4 NumeralLoop ;
+5 NumeralLoop ;
+6 NumeralLoop ;
+7 NumeralLoop ;
+8 NumeralLoop ;
+9 NumeralLoop ;
+
+LEXICON NumeralLoop
+NumeralList ;
+%. NumeralList  ;
+%, NumeralList  ;
+%%%<num%>:%% Ncases ;
+Num ;
+
 LEXICON Num
 
 %<num%>: Ncases ;
@@ -134,10 +162,37 @@ LEXICON PRON-SEN
 
 %<nom%>:ен # ;
 %<gen%>:енин # ;
-%<acc%>:и # ;
-!%<dat%>: # ;
+%<acc%>:ени # ;
+%<dat%>:ага # ;
 %<loc%>:енде # ;
 %<abl%>:енден # ;
+
+LEXICON PRON-SIZ
+
+%<nom%>:из # ;
+%<gen%>:изди # ;
+%<acc%>:издин # ;
+%<dat%>:изге # ;
+%<loc%>:изде # ;
+%<abl%>:изден # ;
+
+LEXICON PRON-AL
+
+%<nom%>:л # ;
+%<gen%>:ны # ;
+%<acc%>:нын # ;
+%<dat%>:га # ;
+%<loc%>:нда # ;
+%<abl%>:ндан # ;
+
+LEXICON PRON-SILER
+
+%<nom%>: # ;
+%<gen%>:%>д%{I%} # ;
+%<acc%>:%>д%{I%}н # ;
+%<dat%>:%>г%{A%} # ;
+%<loc%>:%>д%{A%} # ;
+%<abl%>:%>д%{A%}н # ;
 
 LEXICON Ninfl
 
@@ -181,12 +236,28 @@ LEXICON V-PERS-POSS
 !%<p2%>%<pl%>:%> V-CLIT ;  
 %<p3%>%<pl%>:%>ш V-CLIT ; 
 
-LEXICON Vinfl
+LEXICON Vinfl-COMMON
 
 %<v%>: # ;
+%<v%>%<cnvi%>:%>%{AJ%} # ;
+%<v%>%<cnvp%>:%>%{I%}п # ;
+%<v%>%<pp%>:%>%{G%}%{A%}н Ncases ;
+%<v%>%<plist%>:%>м%{A%}й # ;
 %<v%>%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRON ;
 %<v%>%<pres%>:%>%{A%} V-PERS-POSS ;
 %<v%>%<past%>:%>%{D%}%{I%} V-PERS-POSS ;
+
+LEXICON Vinfl
+
+Vinfl-COMMON ;
+%<v%>%<inf%>:%>үү # ;
+%<v%>%<inf2%>:%>%{I%}ш # ;
+
+LEXICON VinflShort
+
+Vinfl-COMMON ;
+%<v%>%<inf2%>:%>%{I%}ш # ;
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!
@@ -196,11 +267,16 @@ LEXICON Particles
 
 да Part ; ! "also, too"
 го Part ; ! "also, too"
+гана Part ; ! "only"
 эле Part ; ! "only"
 
 LEXICON Conjunctions 
 
 жана CC ; ! "and"
+да CC ; ! "and"
+же CC ; ! "or"
+менен CC ; ! "and"
+не CC ; ! "neither... nor..."
 ал CA ; ! "but"
 бирок CA ; ! "but"
 
@@ -213,7 +289,14 @@ LEXICON Postpositions
 
 LEXICON Pronouns
 
+мен%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-SEN ; 
 сен%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-SEN ; 
+син%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-SIZ ; 
+ал%<prn%>%<pers%>%<p3%>%<sg%>:а PRON-AL ; 
+биз%<prn%>%<pers%>%<p1%>%<pl%>:б PRON-SIZ ; 
+силер%<prn%>%<pers%>%<p2%>%<pl%>:силер PRON-SILER ; 
+сиздер%<prn%>%<pers%>%<p2%>%<pl%>:сиздер PRON-SILER ; 
+алар%<prn%>%<pers%>%<p3%>%<pl%>:алар PRON-SILER ; 
 
 LEXICON Numerals 
 
@@ -239,7 +322,6 @@ LEXICON Numerals
 миң Num ; ! ""
 миллион Num ; ! ""
 миллиард Num ; ! ""
-
 
 LEXICON NounStems
 
@@ -292,6 +374,7 @@ LEXICON NounStems
 унаа Ninfl ; ! "" 
 бээ Ninfl ; ! ""
 
+банк Ninfl ; ! "bank"
 секретар Ninfl ; ! "secretary (man)"
 секретарша Ninfl ; ! "secretary (woman)"
 антрополог Ninfl ; ! "anthropologist"
@@ -299,6 +382,7 @@ LEXICON NounStems
 индустрия Ninfl ; ! "industry"
 физиология Ninfl ; ! "physiology"
 экология Ninfl ; ! "ecology"
+география Ninfl ; ! "geography"
 философия Ninfl ; ! "philosophy"
 пиво Ninfl ; ! "industry"
 редактор Ninfl ; ! "editor"
@@ -579,13 +663,18 @@ LEXICON AdvStems
 
 LEXICON VerbStems
 
-кет Vinfl ; ! "go"
-кел Vinfl ; ! "come"
-жат Vinfl ; ! "come"
-ич Vinfl ; ! "drink"
-тур Vinfl ; ! "stand, live"
-отур Vinfl ; ! "sit"
+ачу Vinfl ; ! "open"
+бар Vinfl ; ! "go"
 бил Vinfl ; ! "know"
+бол Vinfl ; ! "be"
+де VinflShort ; ! "say"
+жат Vinfl ; ! "come"
+же VinflShort ; ! "eat"
+ич Vinfl ; ! "drink"
+кел Vinfl ; ! "come"
+кет Vinfl ; ! "go"
+отур Vinfl ; ! "sit"
+тур Vinfl ; ! "stand, live"
 
 LEXICON Punctuation
 

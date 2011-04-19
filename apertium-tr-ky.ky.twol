@@ -1,7 +1,7 @@
 Alphabet
 А Б В Г Д Е Ё Ж З И И К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
 а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ь ы ъ э ю я
-%{G%}:г %{D%}:д %{A%}:а %{I%}:ы %{N%}:н %{L%}:л %{B%}:б %>:0 ;
+%{G%}:г %{D%}:д %{A%}:а %{I%}:ы %{N%}:н %{L%}:л %{B%}:б %{AJ%}:а %>:0 ;
 
 Sets
 
@@ -87,6 +87,9 @@ Cx:т <=> UnvoicedNonSonCns %>: _ ;
 
 "Мягкий знак deletion before suffix"
 ь:0 <=> _ %>: ; 
+
+"Realisation of converb marker after vowels"
+%{AJ%}:й <=> Vow %>: _ ;
 
 ! ndt	N
 ! ldt	L
