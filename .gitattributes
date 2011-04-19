@@ -11,6 +11,7 @@ dev/ky-nouns.txt -text svneol=unset#application/octet-stream
 /pending-tests.sh -text
 /regression-tests.sh -text
 tests/HfstTester.py -text
+tests/README -text
 tests/ky-nouns.yaml -text
 /tr-ky.prob -text svneol=unset#unset
 /tr-ky.sh -text
