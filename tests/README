@@ -1,0 +1,10 @@
+
+This catalogue is for regression testing.
+
+Usage:
+
+./HfstTester.py -c ky-nouns.yaml
+
+Documentation:
+
+http://giellatekno.uit.no/doc/tools/HfstTester.html
