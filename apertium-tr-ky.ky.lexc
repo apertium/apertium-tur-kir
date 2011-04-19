@@ -286,6 +286,11 @@ LEXICON Postpositions
 дейре Post ; ! "up to, until"
 чейин Post ; ! "up to, until"
 кийин Post ; ! "with"
+керек Post ; ! ""
+сайын Post ; ! "every"
+үчүн Post ; ! "for"
+жакка Post ; ! "toward"
+чакты Post ; ! "about, around"
 
 LEXICON Pronouns
 
@@ -632,10 +637,10 @@ LEXICON PropernounStems
 Черногория NpTop ; ! ""
 Чехословакия NpTop ; ! ""
 Чеченистан NpTop ; ! ""
-Экватор NpTop ; ! ""
-Эрбил NpTop ; ! ""
-Эфиопия NpTop ; ! ""
-Эфиопия NpTop ; ! ""
+!Экватор NpTop ; ! ""
+!Эрбил NpTop ; ! ""
+!Эфиопия NpTop ; ! ""
+!Эфиопия NpTop ; ! ""
 Япония NpTop ; ! ""
 Өзбекстан NpTop ; ! "Uzbekistan"
 
@@ -646,12 +651,13 @@ LEXICON PropernounStems
 Мирлан NpAntMInfl ; ! "Mirlan"
 Болот NpAntMInfl ; ! "Bolot"
 
-Элеонора NpAntFInfl ; ! "Eleanora"
+!Элеонора NpAntFInfl ; ! "Eleanora"
 
 LEXICON AdjecStems
 
 кыргыз Adj ; ! "Kyrgyz"
 сулуу Adj ; ! "beautiful"
+кыз Adj ; ! ""
 !эң Adj ; ! "most"	
 
 LEXICON AdvStems
