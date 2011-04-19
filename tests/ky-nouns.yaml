@@ -1,0 +1,11 @@
+Config:
+  hfst:
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+  <twol> Мягкий знак deletion before suffix:
+    июль<n><dat> : июлга
+
+  <twol> L Desonorisation:
+    адам<n><pl><nom> : адамдар
