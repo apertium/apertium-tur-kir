@@ -19,6 +19,15 @@ Tests:
     туз<n><gen> : туздун
     челек<n><gen> : челектин
 
+  "[lexc] Singular dative (-{G}{A})": 
+    кеме<n><dat> : кемеге
+    аба<n><dat> : абага
+    кол<n><dat> : колго
+    көз<n><dat> : көзгө
+    баш<n><dat> : башка
+    туз<n><dat> : тузга
+    челек<n><dat> : челекке
+
   "[lexc] Singular accusative (-{N}{I})": 
     кеме<n><acc> : кемени
     ай<n><acc> : айды
@@ -29,6 +38,24 @@ Tests:
     таң<n><acc> : таңды
     туз<n><acc> : тузду
     челек<n><acc> : челекти
+
+  "[lexc] Singular locative (-{D}{A})": 
+    кеме<n><loc> : кемеде
+    аба<n><loc> : абада
+    челек<n><loc> : челекте
+    кол<n><loc> : колдо
+    баш<n><loc> : башта
+    туз<n><loc> : тузда
+    көз<n><loc> : көздө
+
+  "[lexc] Singular ablative (-{D}{A}n)": 
+    кеме<n><abl> : кемеден
+    аба<n><abl> : абадан
+    челек<n><abl> : челектен
+    кол<n><abl> : колдон
+    баш<n><abl> : баштан
+    туз<n><abl> : туздан
+    көз<n><abl> : көздөн
 
   "[lexc] Plural suffix": 
     кеме<n><pl><nom> : кемелер
