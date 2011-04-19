@@ -85,6 +85,8 @@ Vx:Vy <=> FrontRndVow: CnsFrontRndVowSB:* Cns %>:     CnsFrontRndVow:* _ ; ! ?C>
 Cx:т <=> UnvoicedNonSonCns %>: _ ;
 	where Cx in ( %{L%} %{N%} ) ;
 
+"Мягкий знак deletion before suffix"
+ь:0 <=> _ %>: ; 
 
 ! ndt	N
 ! ldt	L
