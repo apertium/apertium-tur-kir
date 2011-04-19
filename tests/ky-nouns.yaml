@@ -9,3 +9,32 @@ Tests:
 
   "[twol] L Desonorisation":
     адам<n><pl><nom> : адамдар
+
+  "[lexc] Singular genitive (-{N}{I}n)": 
+    кеме<n><gen> : кеменин
+    кол<n><gen> : колдун
+    көз<n><gen> : көздүн
+    баш<n><gen> : баштын
+    аба<n><gen> : абанын
+    туз<n><gen> : туздун
+    челек<n><gen> : челектин
+
+  "[lexc] Singular accusative (-{N}{I})": 
+    кеме<n><acc> : кемени
+    ай<n><acc> : айды
+    тор<n><acc> : торду
+    кол<n><acc> : колду
+    көз<n><acc> : көздү
+    баш<n><acc> : башты
+    таң<n><acc> : таңды
+    туз<n><acc> : тузду
+    челек<n><acc> : челекти
+
+  "[lexc] Plural suffix": 
+    кеме<n><pl><nom> : кемелер
+    ай<n><pl><nom> : айлар
+    тор<n><pl><nom> : торлор
+    кол<n><pl><nom> : колдор
+    таң<n><pl><nom> : таңдар
+    көз<n><pl><nom> : көздөр
+    баш<n><pl><nom> : баштар
