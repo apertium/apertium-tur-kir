@@ -55,6 +55,9 @@
       <program name="hfst-proc">
         <file name="tr-ky.automorf.hfst"/>
       </program>
+      <program name="cg-proc">
+        <file name="tr-ky.rlx.bin"/>
+      </program>
       <program name="apertium-tagger -g $2">
         <file name="tr-ky.prob"/>
       </program>
@@ -71,6 +74,9 @@
     <pipeline>
       <program name="hfst-proc">
         <file name="tr-ky.automorf.hfst"/>
+      </program>
+      <program name="cg-proc">
+        <file name="tr-ky.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
         <file name="tr-ky.prob"/>
