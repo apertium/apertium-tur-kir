@@ -1,4 +1,3 @@
-
 This catalogue is for regression testing.
 
 Usage:
@@ -7,7 +6,7 @@ Usage:
 
 Flags:
 -i = tolerate homonym input
--c = coulored output
+-c = coloured output
 -C = add a compact test summary at the end
 
 Documentation:
