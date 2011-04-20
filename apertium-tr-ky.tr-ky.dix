@@ -14,11 +14,14 @@
      <sdef n="cnjadv"    c="Adverbial conjunction"/>
      <sdef n="q"         c="Question particle"/>
      <sdef n="qst"       c="Question particle"/>
+     <sdef n="exist"     c="Existential"/>
+     <sdef n="exi"       c="Existential"/>
 
      <sdef n="ant"       c="Anthroponym"/>
      <sdef n="top"       c="Toponym"/>
 
      <sdef n="pers"      c="Personal"/>
+     <sdef n="dem"       c="Demonstrative"/>
 
      <sdef n="p1"        c="First person"/>
      <sdef n="p2"        c="Second person"/>
@@ -53,6 +56,8 @@
 	<e c="  0"><p><l>biz<s n="prn"/></l><r>биз<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
 	<e c="  0"><p><l>siz<s n="prn"/></l><r>сиз<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
 	<e c="  0"><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+
+	<e c="  0"><p><l>bu<s n="prn"/></l><r>бул<s n="prn"/><s n="dem"/></r></p></e>
 
         <!-- SECTION: Determiners -->
 
@@ -311,6 +316,8 @@
 	<e c="  0"><p><l>en<s n="adv"/></l><r>эң<s n="adv"/></r></p></e>
 
         <!-- SECTION: Verbs -->
+
+	<e c="  0"><p><l>var<s n="exist"/></l><r>бар<s n="v"/><s n="exi"/></r></p></e>
 
 	<e c="  0"><p><l>git<s n="v"/></l><r>кет<s n="v"/></r></p></e>
 	<e c="  0"><p><l>arık<s n="v"/></l><r>кет<s n="v"/></r></p></e>

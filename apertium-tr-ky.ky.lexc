@@ -50,6 +50,7 @@ Multichar_Symbols
 
 %<dem%>    ! Demonstrative
 %<neg%>    ! Negative
+%<exi%>    ! Existential
 %<qst%>    ! Question
 
 %<cnvi%>   ! Converb imperfect
@@ -96,7 +97,7 @@ AdvStems ;
 VerbStems ;
 Punctuation ;
 
-LEXICON Ncases
+LEXICON CASES
 %<nom%>:%> # ;             ! -     -      -
 %<gen%>:%>%{N%}%{I%}н # ;  ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
 %<dat%>:%>%{G%}%{A%} # ;   ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
@@ -104,29 +105,24 @@ LEXICON Ncases
 %<loc%>:%>%{D%}%{A%} # ;   ! -да, -де, -та, -те, -до, -дө, -то, -тө
 %<abl%>:%>%{D%}%{A%}н # ;  ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
 
-LEXICON Posses
-Ncases ;
-%<px1sg%>:%>%{I%}м Ncases ;
-%<px2sg%>:%>%{I%}ң Ncases ; 
-%<px3sg%>:%>%{I%} Ncases ;
-%<px1pl%>:%>б%{I%}з Ncases ; 
-%<px2pl%>:%>ң%{I%}з Ncases ; 
-%<px3pl%>:%>%{D%}%{A%}%{I%} Ncases ;
+LEXICON POSSESSION
+CASES ;
+%<px1sg%>:%>%{I%}м CASES ;
+%<px2sg%>:%>%{I%}ң CASES ; 
+%<px3sg%>:%>%{I%} CASES ;
+%<px1pl%>:%>б%{I%}з CASES ; 
+%<px2pl%>:%>ң%{I%}з CASES ; 
+%<px3pl%>:%>%{D%}%{A%}%{I%} CASES ;
 
-LEXICON Adj
+LEXICON ADV
 
 %<adj%>: # ;
 
-LEXICON DET-DEM
-
-%<det%>%<dem%>: # ;
-
-
-LEXICON Adv
+LEXICON ADV
 
 %<adv%>: # ;
 
-LEXICON Post 
+LEXICON POST
 
 %<post%>: # ;
 
@@ -138,9 +134,13 @@ LEXICON CC
 
 %<cnjcoo%>: # ;
 
-LEXICON Part
+LEXICON PART 
 
 %<part%>: # ;
+
+LEXICON DET-DEM
+
+%<det%>%<dem%>: # ;
 
 LEXICON NumeralList
 
@@ -159,12 +159,12 @@ LEXICON NumeralLoop
 NumeralList ;
 %. NumeralList  ;
 %, NumeralList  ;
-%%%<num%>:%% Ncases ;
+%%%<num%>:%% CASES ;
 Num ;
 
-LEXICON Num
+LEXICON NUM
 
-%<num%>: Ncases ;
+%<num%>: CASES ;
 
 LEXICON PRON-DEM-BUL
 
@@ -175,7 +175,7 @@ LEXICON PRON-DEM-BUL
 %<prn%>%<dem%>%<sg%>%<loc%>:мында # ;
 %<prn%>%<dem%>%<sg%>%<abl%>:мындан # ;
 
-%<prn%>%<dem%>%<pl%>:бул%>л%{A%}р Ncases ;
+%<prn%>%<dem%>%<pl%>:бул%>л%{A%}р CASES ;
 
 LEXICON PRON-DEM-OSOL
 
@@ -186,7 +186,7 @@ LEXICON PRON-DEM-OSOL
 %<prn%>%<dem%>%<sg%>%<loc%>:ндо # ;
 %<prn%>%<dem%>%<sg%>%<abl%>:ндон # ;
 
-%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р Ncases ;
+%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
 LEXICON PRON-DEM-AL
 
@@ -197,7 +197,7 @@ LEXICON PRON-DEM-AL
 %<prn%>%<dem%>%<sg%>%<loc%>:нда # ;
 %<prn%>%<dem%>%<sg%>%<abl%>:ндан # ;
 
-%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р Ncases ;
+%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
 LEXICON PRON-DEM-TIGIL
 
@@ -208,7 +208,7 @@ LEXICON PRON-DEM-TIGIL
 %<prn%>%<dem%>%<sg%>%<loc%>:нде # ;
 %<prn%>%<dem%>%<sg%>%<abl%>:нден # ;
 
-%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р Ncases ;
+%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
 LEXICON PRON-PERS-SEN
 
@@ -246,23 +246,23 @@ LEXICON PRON-PERS-SILER
 %<loc%>:%>д%{A%} # ;
 %<abl%>:%>д%{A%}н # ;
 
-LEXICON Ninfl
+LEXICON N-INFL
 
-%<n%>: Posses ;
-%<n%>%<pl%>:%>%{L%}%{A%}р Posses ;
+%<n%>: POSSESSION ;
+%<n%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
-LEXICON NpAntMInfl
+LEXICON NP-ANT-M
 
-%<np%>%<ant%>%<m%>: Ncases  ;
+%<np%>%<ant%>%<m%>: CASES  ;
 
-LEXICON NpAntFInfl
+LEXICON NP-ANT-F
 
-%<np%>%<ant%>%<f%>: Ncases ;
+%<np%>%<ant%>%<f%>: CASES ;
 
 
-LEXICON NpTop
+LEXICON NP-TOP
 
-%<np%>%<top%>: Ncases ;
+%<np%>%<top%>: CASES ;
 
 LEXICON V-CLIT 
 
@@ -288,26 +288,26 @@ LEXICON V-PERS-POSS
 !%<p2%>%<pl%>:%> V-CLIT ;  
 %<p3%>%<pl%>:%>ш V-CLIT ; 
 
-LEXICON Vinfl-COMMON
+LEXICON V-INFL-COMMON
 
 %<v%>: # ;
 %<v%>%<cnvi%>:%>%{AJ%} # ;
 %<v%>%<cnvp%>:%>%{I%}п # ;
-%<v%>%<pp%>:%>%{G%}%{A%}н Ncases ;
+%<v%>%<pp%>:%>%{G%}%{A%}н CASES ;
 %<v%>%<plist%>:%>м%{A%}й # ;
 %<v%>%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRON ;
 %<v%>%<pres%>:%>%{A%} V-PERS-POSS ;
 %<v%>%<past%>:%>%{D%}%{I%} V-PERS-POSS ;
 
-LEXICON Vinfl
+LEXICON V-INFL
 
-Vinfl-COMMON ;
+V-INFL-COMMON ;
 %<v%>%<inf%>:%>үү # ;
 %<v%>%<inf2%>:%>%{I%}ш # ;
 
-LEXICON VinflShort
+LEXICON V-INFL-SHORT
 
-Vinfl-COMMON ;
+V-INFL-COMMON ;
 %<v%>%<inf2%>:%>%{I%}ш # ;
 
 
@@ -317,10 +317,11 @@ Vinfl-COMMON ;
 
 LEXICON Particles 
 
-да Part ; ! "also, too"
-го Part ; ! "also, too"
-гана Part ; ! "only"
-эле Part ; ! "only"
+да PART ; ! "also, too"
+го PART ; ! "also, too"
+гана PART ; ! "only"
+эле PART ; ! "only"
+мына PART ; ! "here is"
 
 LEXICON Conjunctions 
 
@@ -334,15 +335,15 @@ LEXICON Conjunctions
 
 LEXICON Postpositions
 
-менен Post ; ! "with"
-дейре Post ; ! "up to, until"
-чейин Post ; ! "up to, until"
-кийин Post ; ! "with"
-керек Post ; ! ""
-сайын Post ; ! "every"
-үчүн Post ; ! "for"
-жакка Post ; ! "toward"
-чакты Post ; ! "about, around"
+менен POST ; ! "with"
+дейре POST ; ! "up to, until"
+чейин POST ; ! "up to, until"
+кийин POST ; ! "with"
+керек POST ; ! ""
+сайын POST ; ! "every"
+үчүн POST ; ! "for"
+жакка POST ; ! "toward"
+чакты POST ; ! "about, around"
 
 LEXICON Determiners
 
@@ -369,382 +370,336 @@ LEXICON Pronouns
 
 LEXICON Numerals 
 
-бир Num ; ! "one"
-эки Num ; ! "two"
-үч Num ; ! ""
-төрт Num ; ! ""
-беш Num ; ! ""
-алты Num ; ! ""
-жети Num ; ! ""
-сегиз Num ; ! ""
-тогуз Num ; ! ""
-он Num ; ! ""
-жыйырма Num ; ! ""
-отуз Num ; ! ""
-кырк Num ; ! ""
-элүү Num ; ! ""
-алтымыш Num ; ! ""
-жетимиш Num ; ! ""
-сексен Num ; ! ""
-токсон Num ; ! ""
-жүз Num ; ! ""
-миң Num ; ! ""
-миллион Num ; ! ""
-миллиард Num ; ! ""
+бир NUM ; ! "one"
+эки NUM ; ! "two"
+үч NUM ; ! ""
+төрт NUM ; ! ""
+беш NUM ; ! ""
+алты NUM ; ! ""
+жети NUM ; ! ""
+сегиз NUM ; ! ""
+тогуз NUM ; ! ""
+он NUM ; ! ""
+жыйырма NUM ; ! ""
+отуз NUM ; ! ""
+кырк NUM ; ! ""
+элүү NUM ; ! ""
+алтымыш NUM ; ! ""
+жетимиш NUM ; ! ""
+сексен NUM ; ! ""
+токсон NUM ; ! ""
+жүз NUM ; ! ""
+миң NUM ; ! ""
+миллион NUM ; ! ""
+миллиард NUM ; ! ""
 
 LEXICON NounStems
 
-аалам Ninfl ; ! "universe"
-аба Ninfl ; ! "air"
-адабият Ninfl ; ! "literature"
-адам Ninfl ; ! "man, human, person"
-ай Ninfl ; ! "month"
-апа Ninfl ; ! "mother"
-аскер Ninfl ; ! "soldier" 
-баш Ninfl ; ! "head"
-борбор Ninfl ; ! "capital"
-жай Ninfl ; ! "summer"
-жан Ninfl ; ! "jan"
-жол Ninfl ; ! "way"
-жыл Ninfl ; ! "year"
-жылдыз Ninfl ; ! "star"
-заң Ninfl ; ! "law"
-кап Ninfl ; ! "sack"
-кеме Ninfl ; ! "boat"
-китеп Ninfl ; ! "book"
-кол Ninfl ; ! "hand"
-кыз Ninfl ; ! "girl"
-көз Ninfl ; ! "eye"
-мектеп Ninfl ; ! "school"
-мурун Ninfl ; ! "nose"
-сыра Ninfl ; ! "beer"
-таң Ninfl ; ! "dawn"
-тор Ninfl ; ! "net"
-туз Ninfl ; ! "salt"
-чака Ninfl ; ! "bucket"
-челек Ninfl ; ! "bucket"
-ыр Ninfl ; ! "song"
-үй Ninfl ; ! "house, home"
-өзүмчүлдүк Ninfl ; ! "egoism, selfishness"
-өлкө Ninfl ; ! "country, land"
-өсүмдүк Ninfl ; ! "plant"
-мамлекет Ninfl ; ! "state"
-дүнүйө Ninfl ; ! "world"
+аалам N-INFL ; ! "universe"
+аба N-INFL ; ! "air"
+абал N-INFL ; 
+адабият N-INFL ; ! "literature"
+адам N-INFL ; ! "man, human, person"
+адаш N-INFL ; 
+адрес N-INFL ; 
+азап N-INFL ; 
+азат N-INFL ; 
+азык N-INFL ; 
+ай N-INFL ; ! "month"
+айгыр N-INFL ; 
+академия N-INFL ; 
+акмак N-INFL ; 
+акча N-INFL ; 
+акыбал N-INFL ; 
+акырет N-INFL ; 
+акыркы N-INFL ; 
+акырын N-INFL ; 
+алакан N-INFL ; 
+алкыш N-INFL ; 
+апа N-INFL ; ! "mother"
+арыз N-INFL ; 
+арык N-INFL ; 
+аскер N-INFL ; ! "soldier" 
+аста N-INFL ; 
+ат N-INFL ; 
+ата N-INFL ; 
+атак-даңк N-INFL ; 
+аферист N-INFL ; 
+аяк N-INFL ; 
+аял N-INFL ; 
+аят N-INFL ; 
+аң N-INFL ; 
+бадан N-INFL ; 
+бажа N-INFL ; 
+байрак N-INFL ; 
+бакыт N-INFL ; 
+балдыз N-INFL ; 
+балта N-INFL ; 
+балтыркан N-INFL ; 
+балчык N-INFL ; 
+баш N-INFL ; ! "head"
+башмак N-INFL ; 
+башталгыч N-INFL ; 
+баягы N-INFL ; 
+баян N-INFL ; 
+без N-INFL ; 
+бейт N-INFL ; 
+бекзаада N-INFL ; 
+бел N-INFL ; 
+белги N-INFL ; 
+бет N-INFL ; 
+бетер N-INFL ; 
+бетпак N-INFL ; 
+беш N-INFL ; 
+беш N-INFL ; ! "" 
+бешик N-INFL ; 
+билдирүү N-INFL ; 
+билек N-INFL ; 
+билерик N-INFL ; 
+билим N-INFL ; 
+бирдик N-INFL ; 
+бирөө N-INFL ; 
+бирөөсү N-INFL ; 
+бит N-INFL ; 
+борбор N-INFL ; ! "capital"
+бут N-INFL ; 
+бысмылда N-INFL ; 
+бычым N-INFL ; 
+бээ N-INFL ; ! ""
+бүлөө N-INFL ; 
+бөбөк N-INFL ; 
+бөз N-INFL ; 
+гүл N-INFL ; 
+дарак N-INFL ; 
+дарек N-INFL ; 
+дене N-INFL ; 
+дос N-INFL ; ! "" 
+дүйнө N-INFL ;  ! "world" (?)
+дүнүйө N-INFL ; ! "world" (?)
+жай N-INFL ; ! "summer"
+жан N-INFL ; ! "jan"
+желек N-INFL ; 
+жол N-INFL ; ! "way"
+жыгач N-INFL ; 
+жыл N-INFL ; ! "year"
+жылдыз N-INFL ; ! "star"
+жүз N-INFL ; 
+зайып N-INFL ; 
+заң N-INFL ; ! "law"
+илим N-INFL ; 
+индустрия N-INFL ; 
+июль N-INFL ; ! "" 
+каз N-INFL ; ! "" 
+кап N-INFL ; ! "sack"
+келесоо N-INFL ; 
+кеме N-INFL ; ! "boat"
+китеп N-INFL ; ! "book"
+кол N-INFL ; ! "hand"
+кыз N-INFL ; ! "girl"
+кыйноо N-INFL ; 
+көз N-INFL ; ! "eye"
+көрсөтүү N-INFL ; 
+көрүү N-INFL ; ! "" 
+майор N-INFL ; 
+мамлекет N-INFL ; ! "state"
+мектеп N-INFL ; ! "school"
+мурун N-INFL ; ! "nose"
+наристе N-INFL ; 
+омийин N-INFL ; 
+пул N-INFL ; 
+сабак N-INFL ; 
+саз N-INFL ; 
+сулуу N-INFL ; ! "" 
+сыра N-INFL ; ! "beer"
+тагдыр N-INFL ; 
+таш N-INFL ; ! "" 
+таң N-INFL ; ! "dawn"
+токой N-INFL ; 
+тоо N-INFL ; ! "" 
+тор N-INFL ; ! "net"
+туз N-INFL ; ! "salt"
+төө N-INFL ; ! "" 
+унаа N-INFL ; ! "" 
+уу N-INFL ; 
+ууч N-INFL ; 
+форма N-INFL ; 
+чака N-INFL ; ! "bucket"
+чалап N-INFL ; 
+челек N-INFL ; ! "bucket"
+шекил N-INFL ; 
+шерменде N-INFL ; 
+шилекей N-INFL ; ! "" 
+ылай N-INFL ; 
+ыр N-INFL ; ! "song"
+ысым N-INFL ; 
+эркин N-INFL ; 
+үй N-INFL ; ! "house, home"
+өзүмчүлдүк N-INFL ; ! "egoism, selfishness"
+өлкө N-INFL ; ! "country, land"
+өсүмдүк N-INFL ; ! "plant"
+өтүнүч N-INFL ; 
 
-беш Ninfl ; ! "" 
-таш Ninfl ; ! "" 
-каз Ninfl ; ! "" 
-дос Ninfl ; ! "" 
-шилекей Ninfl ; ! "" 
-июль Ninfl ; ! "" 
-тоо Ninfl ; ! "" 
-төө Ninfl ; ! "" 
-көрүү Ninfl ; ! "" 
-сулуу Ninfl ; ! "" 
-унаа Ninfl ; ! "" 
-бээ Ninfl ; ! ""
+ручка N-INFL ; ! "pen"
+банк N-INFL ; ! "bank"
+секретар N-INFL ; ! "secretary (man)"
+секретарша N-INFL ; ! "secretary (woman)"
+антрополог N-INFL ; ! "anthropologist"
+литература N-INFL ; ! "literature"
+индустрия N-INFL ; ! "industry"
+физиология N-INFL ; ! "physiology"
+экология N-INFL ; ! "ecology"
+география N-INFL ; ! "geography"
+философия N-INFL ; ! "philosophy"
+пиво N-INFL ; ! "industry"
+редактор N-INFL ; ! "editor"
+район N-INFL ; ! "rajon"
 
-банк Ninfl ; ! "bank"
-секретар Ninfl ; ! "secretary (man)"
-секретарша Ninfl ; ! "secretary (woman)"
-антрополог Ninfl ; ! "anthropologist"
-литература Ninfl ; ! "literature"
-индустрия Ninfl ; ! "industry"
-физиология Ninfl ; ! "physiology"
-экология Ninfl ; ! "ecology"
-география Ninfl ; ! "geography"
-философия Ninfl ; ! "philosophy"
-пиво Ninfl ; ! "industry"
-редактор Ninfl ; ! "editor"
-район Ninfl ; ! "rajon"
-
-өтүнүч Ninfl ; 
-өсүмдүк Ninfl ; 
-өлкө Ninfl ; 
-өзүмчүлдүк Ninfl ; 
-үй Ninfl ; 
-эркин Ninfl ; 
-экология Ninfl ; 
-ысым Ninfl ; 
-ыр Ninfl ; 
-ылай Ninfl ; 
-шилекей Ninfl ; 
-шерменде Ninfl ; 
-шекил Ninfl ; 
-челек Ninfl ; 
-чалап Ninfl ; 
-форма Ninfl ; 
-философия Ninfl ; 
-физиология Ninfl ; 
-фабрика Ninfl ; 
-ууч Ninfl ; 
-уу Ninfl ; 
-унаа Ninfl ; 
-төө Ninfl ; 
-туз Ninfl ; 
-тор Ninfl ; 
-тоо Ninfl ; 
-токой Ninfl ; 
-таң Ninfl ; 
-таш Ninfl ; 
-тагдыр Ninfl ; 
-сулуу Ninfl ; 
-секретарша Ninfl ; 
-секретар Ninfl ; 
-саз Ninfl ; 
-сабак Ninfl ; 
-пул Ninfl ; 
-омийин Ninfl ; 
-наристе Ninfl ; 
-мурун Ninfl ; 
-майор Ninfl ; 
-литература Ninfl ; 
-көрүү Ninfl ; 
-көрсөтүү Ninfl ; 
-көз Ninfl ; 
-кыйноо Ninfl ; 
-кол Ninfl ; 
-китеп Ninfl ; 
-кеме Ninfl ; 
-келесоо Ninfl ; 
-кап Ninfl ; 
-каз Ninfl ; 
-июль Ninfl ; 
-индустрия Ninfl ; 
-илим Ninfl ; 
-заң Ninfl ; 
-зайып Ninfl ; 
-завод Ninfl ; 
-жүз Ninfl ; 
-жылдыз Ninfl ; 
-жыл Ninfl ; 
-жыгач Ninfl ; 
-жол Ninfl ; 
-желек Ninfl ; 
-жан Ninfl ; 
-жай Ninfl ; 
-дүйнө Ninfl ; 
-дос Ninfl ; 
-дене Ninfl ; 
-дарек Ninfl ; 
-дарак Ninfl ; 
-гүл Ninfl ; 
-бөз Ninfl ; 
-бөбөк Ninfl ; 
-бүлөө Ninfl ; 
-бээ Ninfl ; 
-бычым Ninfl ; 
-бысмылда Ninfl ; 
-бут Ninfl ; 
-борбор Ninfl ; 
-бит Ninfl ; 
-бирөөсү Ninfl ; 
-бирөө Ninfl ; 
-бирдик Ninfl ; 
-билим Ninfl ; 
-билерик Ninfl ; 
-билек Ninfl ; 
-билдирүү Ninfl ; 
-бешик Ninfl ; 
-беш Ninfl ; 
-бетпак Ninfl ; 
-бетер Ninfl ; 
-бет Ninfl ; 
-белги Ninfl ; 
-бел Ninfl ; 
-бекзаада Ninfl ; 
-бейт Ninfl ; 
-без Ninfl ; 
-баян Ninfl ; 
-баягы Ninfl ; 
-башталгыч Ninfl ; 
-башмак Ninfl ; 
-балчык Ninfl ; 
-балтыркан Ninfl ; 
-балта Ninfl ; 
-балдыз Ninfl ; 
-бакыт Ninfl ; 
-байрак Ninfl ; 
-бажа Ninfl ; 
-бадан Ninfl ; 
-аң Ninfl ; 
-аят Ninfl ; 
-аял Ninfl ; 
-аяк Ninfl ; 
-аферист Ninfl ; 
-атак-даңк Ninfl ; 
-ата Ninfl ; 
-ат Ninfl ; 
-аста Ninfl ; 
-аскер Ninfl ; 
-арык Ninfl ; 
-арыз Ninfl ; 
-антрополог Ninfl ; 
-алкыш Ninfl ; 
-алакан Ninfl ; 
-акырын Ninfl ; 
-акыркы Ninfl ; 
-акырет Ninfl ; 
-акыбал Ninfl ; 
-акча Ninfl ; 
-акмак Ninfl ; 
-академия Ninfl ; 
-айгыр Ninfl ; 
-ай Ninfl ; 
-азык Ninfl ; 
-азат Ninfl ; 
-азап Ninfl ; 
-адрес Ninfl ; 
-адаш Ninfl ; 
-адам Ninfl ; 
-адабият Ninfl ; 
-абал Ninfl ; 
-аба Ninfl ; 
-
-азык% түлүк Ninfl ; 
-бир% канча Ninfl ; 
-жүзү% кара Ninfl ; 
-кимдир% бирөө Ninfl ; 
-кимдир% бирөөсү Ninfl ; 
-кол% чабуу Ninfl ; 
-миң% башы Ninfl ; 
-сормо% саз Ninfl ; 
-тиги% дүйнө Ninfl ; 
-эси% жок Ninfl ; 
-ак% сөөк Ninfl ; 
-
+азык% түлүк N-INFL ; 
+бир% канча N-INFL ; 
+жүзү% кара N-INFL ; 
+кимдир% бирөө N-INFL ; 
+кимдир% бирөөсү N-INFL ; 
+кол% чабуу N-INFL ; 
+миң% башы N-INFL ; 
+сормо% саз N-INFL ; 
+тиги% дүйнө N-INFL ; 
+эси% жок N-INFL ; 
+ак% сөөк N-INFL ; 
 
 LEXICON PropernounStems
 
-Абхазия NpTop ; ! ""
-Австралия NpTop ; ! ""
-Австрия NpTop ; ! ""
-Азербайжан NpTop ; ! ""
-Америка NpTop ; ! ""
-Амстердам NpTop ; ! ""
-Англия NpTop ; ! ""
-Ангола NpTop ; ! ""
-Анкара NpTop ; ! ""
-Антарктида NpTop ; ! ""
-Антарктика NpTop ; ! ""
-Арабистан NpTop ; ! ""
-Армения NpTop ; ! ""
-Атланта NpTop ; ! ""
-Афганистан NpTop ; ! ""
-Африка NpTop ; ! ""
-Багдад NpTop ; ! ""
-Баку NpTop ; ! ""
-Бангладеш NpTop ; ! ""
-Барселона NpTop ; ! ""
-Басра NpTop ; ! ""
-Бейрут NpTop ; ! ""
-Белгия NpTop ; ! ""
-Белград NpTop ; ! ""
-Берлин NpTop ; ! ""
-Бишкек NpTop ; ! ""
-Болгария NpTop ; ! ""
-Боливия NpTop ; ! ""
-Бразилия NpTop ; ! ""
-Брюселъ NpTop ; ! ""
-Будапешт NpTop ; ! ""
-Бухарест NpTop ; ! ""
-Габон NpTop ; ! ""
-Гамбург NpTop ; ! ""
-Гана NpTop ; ! ""
-Гватемала NpTop ; ! ""
-Голландия NpTop ; ! ""
-Гондурас NpTop ; ! ""
-Дания NpTop ; ! ""
-Дубай NpTop ; ! ""
-Дусселъдорф NpTop ; ! ""
-Европа NpTop ; ! ""
-Ереван NpTop ; ! ""
-Жакарта NpTop ; ! ""
-Израил NpTop ; ! ""
-Индия NpTop ; ! ""
-Индонезия NpTop ; ! ""
-Ирак NpTop ; ! ""
-Иран NpTop ; ! ""
-Истанбул NpTop ; ! ""
-Казакстан NpTop ; ! ""
-Казакстан NpTop ; ! "Kazakhstan"
-Камерун NpTop ; ! ""
-Канада NpTop ; ! ""
-Кеня NpTop ; ! ""
-Керкүк NpTop ; ! ""
-Кипр NpTop ; ! ""
-Колън NpTop ; ! ""
-Конго NpTop ; ! ""
-Копенгаген NpTop ; ! ""
-Куба NpTop ; ! ""
-Кыргызстан NpTop ; ! ""
-Кыргызстан NpTop ; ! "Kyrgyzstan"
-Латвия NpTop ; ! ""
-Либия NpTop ; ! ""
-Лиссабон NpTop ; ! ""
-Литва NpTop ; ! ""
-Люксембург NpTop ; ! ""
-Мадагаскар NpTop ; ! ""
-Мадагаскар NpTop ; ! "Madagascar"
-Мадрид NpTop ; ! ""
-Малазия NpTop ; ! ""
-Малъта NpTop ; ! ""
-Манхеттен NpTop ; ! ""
-Мезопотамия NpTop ; ! ""
-Мексика NpTop ; ! ""
-Татарстан NpTop ; ! "Tatarstan"
-Финландия NpTop ; ! ""
-Франкфурт NpTop ; ! ""
-Франция NpTop ; ! ""
-Хелсинки NpTop ; ! ""
-Хорватия NpTop ; ! ""
-Черногория NpTop ; ! ""
-Чехословакия NpTop ; ! ""
-Чеченистан NpTop ; ! ""
-!Экватор NpTop ; ! ""
-!Эрбил NpTop ; ! ""
-!Эфиопия NpTop ; ! ""
-!Эфиопия NpTop ; ! ""
-Япония NpTop ; ! ""
-Өзбекстан NpTop ; ! "Uzbekistan"
+Абхазия NP-TOP ; ! ""
+Австралия NP-TOP ; ! ""
+Австрия NP-TOP ; ! ""
+Азербайжан NP-TOP ; ! ""
+Америка NP-TOP ; ! ""
+Амстердам NP-TOP ; ! ""
+Англия NP-TOP ; ! ""
+Ангола NP-TOP ; ! ""
+Анкара NP-TOP ; ! ""
+Антарктида NP-TOP ; ! ""
+Антарктика NP-TOP ; ! ""
+Арабистан NP-TOP ; ! ""
+Армения NP-TOP ; ! ""
+Атланта NP-TOP ; ! ""
+Афганистан NP-TOP ; ! ""
+Африка NP-TOP ; ! ""
+Багдад NP-TOP ; ! ""
+Баку NP-TOP ; ! ""
+Бангладеш NP-TOP ; ! ""
+Барселона NP-TOP ; ! ""
+Басра NP-TOP ; ! ""
+Бейрут NP-TOP ; ! ""
+Белгия NP-TOP ; ! ""
+Белград NP-TOP ; ! ""
+Берлин NP-TOP ; ! ""
+Бишкек NP-TOP ; ! ""
+Болгария NP-TOP ; ! ""
+Боливия NP-TOP ; ! ""
+Бразилия NP-TOP ; ! ""
+Брюселъ NP-TOP ; ! ""
+Будапешт NP-TOP ; ! ""
+Бухарест NP-TOP ; ! ""
+Габон NP-TOP ; ! ""
+Гамбург NP-TOP ; ! ""
+Гана NP-TOP ; ! ""
+Гватемала NP-TOP ; ! ""
+Голландия NP-TOP ; ! ""
+Гондурас NP-TOP ; ! ""
+Дания NP-TOP ; ! ""
+Дубай NP-TOP ; ! ""
+Дусселъдорф NP-TOP ; ! ""
+Европа NP-TOP ; ! ""
+Ереван NP-TOP ; ! ""
+Жакарта NP-TOP ; ! ""
+Израил NP-TOP ; ! ""
+Индия NP-TOP ; ! ""
+Индонезия NP-TOP ; ! ""
+Ирак NP-TOP ; ! ""
+Иран NP-TOP ; ! ""
+Истанбул NP-TOP ; ! ""
+Казакстан NP-TOP ; ! ""
+Казакстан NP-TOP ; ! "Kazakhstan"
+Камерун NP-TOP ; ! ""
+Канада NP-TOP ; ! ""
+Кеня NP-TOP ; ! ""
+Керкүк NP-TOP ; ! ""
+Кипр NP-TOP ; ! ""
+Колън NP-TOP ; ! ""
+Конго NP-TOP ; ! ""
+Копенгаген NP-TOP ; ! ""
+Куба NP-TOP ; ! ""
+Кыргызстан NP-TOP ; ! ""
+Кыргызстан NP-TOP ; ! "Kyrgyzstan"
+Латвия NP-TOP ; ! ""
+Либия NP-TOP ; ! ""
+Лиссабон NP-TOP ; ! ""
+Литва NP-TOP ; ! ""
+Люксембург NP-TOP ; ! ""
+Мадагаскар NP-TOP ; ! ""
+Мадагаскар NP-TOP ; ! "Madagascar"
+Мадрид NP-TOP ; ! ""
+Малазия NP-TOP ; ! ""
+Малъта NP-TOP ; ! ""
+Манхеттен NP-TOP ; ! ""
+Мезопотамия NP-TOP ; ! ""
+Мексика NP-TOP ; ! ""
+Татарстан NP-TOP ; ! "Tatarstan"
+Финландия NP-TOP ; ! ""
+Франкфурт NP-TOP ; ! ""
+Франция NP-TOP ; ! ""
+Хелсинки NP-TOP ; ! ""
+Хорватия NP-TOP ; ! ""
+Черногория NP-TOP ; ! ""
+Чехословакия NP-TOP ; ! ""
+Чеченистан NP-TOP ; ! ""
+!Экватор NP-TOP ; ! ""
+!Эрбил NP-TOP ; ! ""
+!Эфиопия NP-TOP ; ! ""
+!Эфиопия NP-TOP ; ! ""
+Япония NP-TOP ; ! ""
+Өзбекстан NP-TOP ; ! "Uzbekistan"
 
-Бишкек NpTop ; ! "Bishkek"
-Лондон NpTop ; ! ""
+Бишкек NP-TOP ; ! "Bishkek"
+Лондон NP-TOP ; ! ""
 
-Ахмет NpAntMInfl ; ! "Axmet"
-Мирлан NpAntMInfl ; ! "Mirlan"
-Болот NpAntMInfl ; ! "Bolot"
+Ахмет NP-ANT-M ; ! "Axmet"
+Мирлан NP-ANT-M ; ! "Mirlan"
+Болот NP-ANT-M ; ! "Bolot"
 
-!Элеонора NpAntFInfl ; ! "Eleanora"
+!Элеонора NP-ANT-F ; ! "Eleanora"
 
 LEXICON AdjecStems
 
-кыргыз Adj ; ! "Kyrgyz"
-сулуу Adj ; ! "beautiful"
-кыз Adj ; ! ""
-!эң Adj ; ! "most"	
+кыргыз ADJ ; ! "Kyrgyz"
+сулуу ADJ ; ! "beautiful"
+кыз ADJ ; ! ""
+!эң ADJ ; ! "most"	
 
 LEXICON AdvStems
-
-эртең Adv ; ! "tomorrow"
-эми Adv ; ! "now"
-бат Adv ; ! "fast"
-эң Adv ; ! "most"
+ 
+эртең ADV ; ! "tomorrow"
+эми ADV ; ! "now"
+бат ADV ; ! "fast"
+эң ADV ; ! "most"
 
 LEXICON VerbStems
 
-ачу Vinfl ; ! "open"
-бар Vinfl ; ! "go"
-бил Vinfl ; ! "know"
-бол Vinfl ; ! "be"
-де VinflShort ; ! "say"
-жат Vinfl ; ! "come"
-же VinflShort ; ! "eat"
-ич Vinfl ; ! "drink"
-кел Vinfl ; ! "come"
-кет Vinfl ; ! "go"
-отур Vinfl ; ! "sit"
-тур Vinfl ; ! "stand, live"
+бар%<v%>%<exi%>:бар # ;
+жок%<v%>%<neg%>%<exi%>:жок # ;
+
+ачу V-INFL ; ! "open"
+бар V-INFL ; ! "go"
+бил V-INFL ; ! "know"
+бол V-INFL ; ! "be"
+де V-INFL-SHORT ; ! "say"
+жат V-INFL ; ! "come"
+же V-INFL-SHORT ; ! "eat"
+ич V-INFL ; ! "drink"
+кел V-INFL ; ! "come"
+кет V-INFL ; ! "go"
+отур V-INFL ; ! "sit"
+тур V-INFL ; ! "stand, live"
 
 LEXICON Punctuation
 
