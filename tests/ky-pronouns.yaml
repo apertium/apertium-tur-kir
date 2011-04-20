@@ -1,0 +1,56 @@
+Config:
+  hfst:
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+  "[lexc] Personal pronouns":
+    мен<prn><pers><p1><sg><nom>  : мен 
+    сен<prn><pers><p2><sg><nom>  : сен 
+    син<prn><pers><p2><sg><nom>  : сиз 
+    ал<prn><pers><p3><sg><nom>  : ал 
+    биз<prn><pers><p1><pl><nom>  : биз 
+    силер<prn><pers><p2><pl><nom>  : силер 
+    сиздер<prn><pers><p2><pl><nom>  : сиздер 
+    алар<prn><pers><p3><pl><nom> : алар 
+    мен<prn><pers><p1><sg><acc>  : мени 
+    сен<prn><pers><p2><sg><acc>  : сени 
+    син<prn><pers><p2><sg><gen>  : сизди 
+    ал<prn><pers><p3><sg><gen>  : аны 
+    биз<prn><pers><p1><pl><gen>  : бизди 
+    силер<prn><pers><p2><pl><gen>  : силерди 
+    сиздер<prn><pers><p2><pl><gen>  : сиздерди 
+    алар<prn><pers><p3><pl><gen> : аларды 
+    мен<prn><pers><p1><sg><gen>  : менин 
+    сен<prn><pers><p2><sg><gen>  : сенин 
+    син<prn><pers><p2><sg><acc>  : сиздин 
+    ал<prn><pers><p3><sg><acc>  : анын 
+    биз<prn><pers><p1><pl><acc>  : биздин 
+    силер<prn><pers><p2><pl><acc>  : силердин 
+    сиздер<prn><pers><p2><pl><acc>  : сиздердин 
+    алар<prn><pers><p3><pl><acc> : алардын 
+    мен<prn><pers><p1><sg><dat>  : мага 
+    сен<prn><pers><p2><sg><dat>  : сага 
+    син<prn><pers><p2><sg><dat>  : сизге 
+    ал<prn><pers><p3><sg><dat>  : ага 
+    биз<prn><pers><p1><pl><dat>  : бизге 
+    силер<prn><pers><p2><pl><dat>  : силерге 
+    сиздер<prn><pers><p2><pl><dat>  : сиздерге 
+    алар<prn><pers><p3><pl><dat> : аларга 
+    мен<prn><pers><p1><sg><loc>  : менде 
+    сен<prn><pers><p2><sg><loc>  : сенде 
+    син<prn><pers><p2><sg><loc>  : сизде 
+    ал<prn><pers><p3><sg><loc>  : анда 
+    биз<prn><pers><p1><pl><loc>  : бизде 
+    силер<prn><pers><p2><pl><loc>  : силерде 
+    сиздер<prn><pers><p2><pl><loc>  : сиздерде 
+    алар<prn><pers><p3><pl><loc> : аларда 
+    мен<prn><pers><p1><sg><abl>  : менден 
+    сен<prn><pers><p2><sg><abl>  : сенден 
+    син<prn><pers><p2><sg><abl>  : сизден 
+    ал<prn><pers><p3><sg><abl>  : андан 
+    биз<prn><pers><p1><pl><abl>  : бизден 
+    силер<prn><pers><p2><pl><abl>  : силерден 
+    сиздер<prn><pers><p2><pl><abl>  : сиздерден 
+    алар<prn><pers><p3><pl><abl> : алардан 
+
