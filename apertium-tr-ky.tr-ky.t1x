@@ -2,6 +2,16 @@
 
 <transfer>
   <section-def-cats>
+     
+    <def-cat n="qst">
+      <cat-item lemma="mi" tags="q"/>
+      <cat-item lemma="mi" tags="q.*"/>
+    </def-cat>
+      
+    <def-cat n="pron">
+      <cat-item tags="prn"/>
+      <cat-item tags="prn.*"/>
+    </def-cat>
     
     <def-cat n="num">
       <cat-item tags="num"/>
@@ -12,7 +22,6 @@
       <cat-item tags="v.t_past.*"/>
       <cat-item tags="v.neg.t_past.*"/>
     </def-cat>
-
    
     <def-cat n="v_aor">
       <cat-item tags="v.t_aor.*"/>
@@ -31,6 +40,11 @@
     <def-attr n="a_verb">
       <attr-item tags="v"/>
       <attr-item tags="v.neg"/>
+    </def-attr>
+        
+    <def-attr n="a_prn">
+      <attr-item tags="prn"/>
+      <attr-item tags="prn.pers"/>
     </def-attr>
        
     <def-attr n="a_num">
@@ -186,8 +200,6 @@
       </action>
     </rule>
     
-
-    
     <rule comment="regla: nom">
       <pattern>
         <pattern-item n="nom"/>
@@ -210,6 +222,56 @@
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
           <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+ 
+    <rule comment="regla: pron">
+      <pattern>
+        <pattern-item n="pron"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_prn"/>
+            <clip pos="1" side="tl" part="pers"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <var n="c_case"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: v_aor qst">
+      <pattern>
+        <pattern-item n="v_aor"/>
+        <pattern-item n="qst"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <mlu>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <lit-tag v="pres"/>
+              <var n="c_pers"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <lit-tag v="qst"/>
+            </lu>
+          </mlu>
         </out>
       </action>
     </rule>

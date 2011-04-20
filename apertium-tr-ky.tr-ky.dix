@@ -12,6 +12,8 @@
      <sdef n="cnjcoo"    c="Coordinating conjunction"/>
      <sdef n="cnjsub"    c="Subordinating conjunction"/>
      <sdef n="cnjadv"    c="Adverbial conjunction"/>
+     <sdef n="q"         c="Question particle"/>
+     <sdef n="qst"       c="Question particle"/>
 
      <sdef n="ant"       c="Anthroponym"/>
      <sdef n="top"       c="Toponym"/>
@@ -30,6 +32,9 @@
    </sdefs>
    
    <section id="main" type="standard">
+        <!-- SECTION: Particles -->
+
+	<e c="  0"><p><l>mi<s n="q"/></l><r>би<s n="qst"/></r></p></e>
 
         <!-- SECTION: Conjunctions -->
 
@@ -43,7 +48,7 @@
         <!-- SECTION: Pronouns -->
 
 	<e c="  0"><p><l>ben<s n="prn"/></l><r>мен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
-	<e c="  0"><p><l>sen<s n="prn"/></l><r>cен<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
+	<e c="  0"><p><l>sen<s n="prn"/></l><r>сен<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
 	<e c="  0"><p><l>o<s n="prn"/></l><r>ал<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
 	<e c="  0"><p><l>biz<s n="prn"/></l><r>биз<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
 	<e c="  0"><p><l>siz<s n="prn"/></l><r>сиз<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -197,6 +202,7 @@
 	<e slr="2"><p><l>biçim<s n="n"/></l><r>форма<s n="n"/></r></p></e>
 
         <e c="  0"><p><l>kız<s n="n"/></l><r>кыз<s n="n"/></r></p></e>
+        <e c="  0"><p><l>dünya<s n="n"/></l><r>дүнүйө<s n="n"/></r></p></e>
 
 	<e c="  0"><p><l>ev<s n="n"/></l><r>үй<s n="n"/></r></p></e>
 		
