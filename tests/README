@@ -3,7 +3,11 @@ This catalogue is for regression testing.
 
 Usage:
 
-./HfstTester.py -c ky-nouns.yaml
+./HfstTester.py -i -c ky-nouns.yaml
+
+Flags:
+-i = tolerate homonym input
+-c = coulored output
 
 Documentation:
 
