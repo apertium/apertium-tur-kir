@@ -13,6 +13,7 @@ dev/ky-nouns.txt -text svneol=unset#application/octet-stream
 tests/HfstTester.py -text
 tests/README -text
 tests/ky-nouns.yaml -text
+tests/run-tests.sh -text
 /tr-ky.prob -text svneol=unset#unset
 /tr-ky.sh -text
 /wiki-tests.sh -text
