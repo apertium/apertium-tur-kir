@@ -45,6 +45,7 @@
     <def-attr n="a_prn">
       <attr-item tags="prn"/>
       <attr-item tags="prn.pers"/>
+      <attr-item tags="prn.dem"/>
     </def-attr>
        
     <def-attr n="a_num">
@@ -71,6 +72,10 @@
       <attr-item tags="1s"/>
       <attr-item tags="2s"/>
       <attr-item tags="3s"/>
+
+      <attr-item tags="p1s"/>
+      <attr-item tags="p2s"/>
+      <attr-item tags="p3s"/>
  
       <attr-item tags="px1sg"/>
       <attr-item tags="px2sg"/>
@@ -139,7 +144,10 @@
       <choose>
         <when>
           <test>
-            <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="1s"/></equal>
+            <or>
+              <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="1s"/></equal>
+              <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="1s"/></equal>
+            </or>
           </test>
           <let><var n="c_poss"/><lit-tag v="px1sg"/></let>
         </when>
