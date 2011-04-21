@@ -416,6 +416,7 @@ LEXICON NounStems
 акырын N-INFL ; 
 алакан N-INFL ; 
 алкыш N-INFL ; 
+алма N-INFL ; ! "apple"
 апа N-INFL ; ! "mother"
 арыз N-INFL ; 
 арык N-INFL ; 
@@ -522,7 +523,6 @@ LEXICON NounStems
 унаа N-INFL ; ! "" 
 уу N-INFL ; 
 ууч N-INFL ; 
-форма N-INFL ; 
 чака N-INFL ; ! "bucket"
 чалап N-INFL ; 
 челек N-INFL ; ! "bucket"
@@ -553,6 +553,8 @@ LEXICON NounStems
 пиво N-INFL ; ! "industry"
 редактор N-INFL ; ! "editor"
 район N-INFL ; ! "rajon"
+доктор N-INFL ; ! "doctor"
+форма N-INFL ; ! "form"
 
 азык% түлүк N-INFL ; 
 бир% канча N-INFL ; 
@@ -673,6 +675,8 @@ LEXICON AdjecStems
 
 кыргыз ADJ ; ! "Kyrgyz"
 сулуу ADJ ; ! "beautiful"
+жаман ADJ ; ! "bad"
+сом ADJ ; ! "pure"
 кыз ADJ ; ! ""
 !эң ADJ ; ! "most"	
 
