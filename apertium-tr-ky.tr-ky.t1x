@@ -31,6 +31,7 @@
      <def-cat n="nom">
       <cat-item tags="n"/>
       <cat-item tags="n.*"/>
+      <cat-item tags="np"/>
       <cat-item tags="np.*"/>
     </def-cat>
    
@@ -146,7 +147,7 @@
           <test>
             <or>
               <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="1s"/></equal>
-              <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="1s"/></equal>
+              <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="p1s"/></equal>
             </or>
           </test>
           <let><var n="c_poss"/><lit-tag v="px1sg"/></let>
