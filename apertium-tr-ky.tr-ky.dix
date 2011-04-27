@@ -16,7 +16,8 @@
      <sdef n="qst"       c="Question particle"/>
      <sdef n="exist"     c="Existential"/>
      <sdef n="exi"       c="Existential"/>
-
+     <sdef n="nexist"   c="Not Exist"/>
+     <sdef n="not"      c="IS NOT"/>
      <sdef n="ant"       c="Anthroponym"/>
      <sdef n="top"       c="Toponym"/>
 
@@ -38,6 +39,12 @@
         <!-- SECTION: Particles -->
 
 	<e c="  0"><p><l>mi<s n="q"/></l><r>би<s n="qst"/></r></p></e>
+
+    <!-- SECTION: Miscellaneous -->
+    <e><p><l>var<s n="exist"/></l><r>бар<s n="exist"/></r></p></e> 
+    <e><p><l>değil<s n="not"/></l><r>емес<s n="not"/></r></p></e>
+    <e><p><l>yok<s n="nexist"/></l><r> жок<s n="nexist"/></r></p></e>
+    <e><p><l><s n="q"/></l><r><s n="q"/></r></p></e>
 
         <!-- SECTION: Conjunctions -->
 
@@ -62,7 +69,6 @@
         <!-- SECTION: Determiners -->
 
         <!-- SECTION: Numerals -->
-
 	<e c="  0"><p><l>bir<s n="num"/></l><r>бир<s n="num"/></r></p></e>
 	<e c="  0"><p><l>iki<s n="num"/></l><r>эки<s n="num"/></r></p></e>
 	<e c="  0"><p><l>üç<s n="num"/></l><r>үч<s n="num"/></r></p></e>
