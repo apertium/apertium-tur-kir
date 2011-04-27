@@ -43,8 +43,7 @@
 
 	<e c="  0"><p><l>ve<s n="cnjcoo"/></l><r>жана<s n="cnjcoo"/></r></p></e>
 	<e c="  0"><p><l>ama<s n="cnjcoo"/></l><r>бирок<s n="cnjcoo"/></r></p></e>
-
-	<e c="  0"><p><l>ama<s n="cnjadv"/></l><r>бирок<s n="cnjadv"/></r></p></e>
+	<e c="  0"><p><l>ile<s n="cnjcoo"/></l><r>менен<s n="cnjcoo"/></r></p></e>
  
         <!-- SECTION: Postpositions -->
 
@@ -58,7 +57,8 @@
 	<e c="  0"><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
 
 	<e c="  0"><p><l>bu<s n="prn"/></l><r>бул<s n="prn"/><s n="dem"/></r></p></e>
-
+	<e c="  0"><p><l>şol<s n="prn"/></l><r>ошол<s n="prn"/><s n="dem"/></r></p></e>
+	
         <!-- SECTION: Determiners -->
 
         <!-- SECTION: Numerals -->
@@ -205,6 +205,22 @@
 	<e c="  0"><p><l>biçim<s n="n"/></l><r>бычым<s n="n"/></r></p></e>
 	<e slr="1"><p><l>biçim<s n="n"/></l><r>шекил<s n="n"/></r></p></e>
 	<e slr="2"><p><l>biçim<s n="n"/></l><r>форма<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bohça<s n="n"/></l><r>түйүнчөк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bok<s n="n"/></l><r>бок<s n="n"/></r></p></e>
+	<e c="  0"><p><l>boncuk<s n="n"/></l><r>мончок<s n="n"/></r></p></e>	
+	<e c="  0"><p><l>boran<s n="n"/></l><r>бороон<s n="n"/></r></p></e>
+	<e c="  0"><p><l>boy<s n="n"/></l><r>бой<s n="n"/></r></p></e>
+	<e slr="1"><p><l>boy<s n="n"/></l><r>уруу<s n="n"/></r></p></e>
+	<e slr="2"><p><l>boy<s n="n"/></l><r>урук<s n="n"/></r></p></e>
+	<e slr="3"><p><l>boy<s n="n"/></l><r>жамаат<s n="n"/></r></p></e>
+	<e c="  0"><p><l>boya<s n="n"/></l><r>боёк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>boyun<s n="n"/></l><r>моюн<s n="n"/></r></p></e>
+	<e c="  0"><p><l>boyunduruk<s n="n"/></l><r>моюнтурук<s n="n"/></r></p></e>
+	<e c="  0"><p><l>boz<s n="n"/></l><r>боз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>boza<s n="n"/></l><r>бозо<s n="n"/></r></p></e>
+	<e c="  0"><p><l>boğa<s n="n"/></l><r>бука<s n="n"/></r></p></e>
+	<e slr="1"><p><l>boğa<s n="n"/></l><r>ноопаз<s n="n"/></r></p></e>
+
 
         <e c="  0"><p><l>kız<s n="n"/></l><r>кыз<s n="n"/></r></p></e>
         <e c="  0"><p><l>dünya<s n="n"/></l><r>дүнүйө<s n="n"/></r></p></e>
@@ -311,7 +327,14 @@
 
 	<e c="  0"><p><l>güzel<s n="adj"/></l><r>сулуу<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>kız<s n="adj"/></l><r>кыз<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>bol<s n="adj"/></l><r>кеңири<s n="adj"/></r></p></e>
+	<e slr="1"><p><l>bol<s n="adj"/></l><r>мол<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>bomboş<s n="adj"/></l><r>бопбош<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>boş<s n="adj"/></l><r>бош<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>bozuk<s n="adj"/></l><r>бузук<s n="adj"/></r></p></e>
+	
 
+	
         <!-- SECTION: Adverbs -->
 
 	<e c="  0"><p><l>yarın<s n="adv"/></l><r>эртең<s n="adv"/></r></p></e>
@@ -341,9 +364,15 @@
 	<e slr="1"><p><l>bit<s n="v"/></l><r>аякта<s n="v"/></r></p></e>
 	<e slr="2"><p><l>bit<s n="v"/></l><r>түгөн<s n="v"/></r></p></e>
 	<e c="  0"><p><l>biç<s n="v"/></l><r>быч<s n="v"/></r></p></e>
-	<e slr="1"><p><l>bit<s n="v"/></l><r>кес<s n="v"/></r></p></e>
-	<e slr="2"><p><l>bit<s n="v"/></l><r>ор<s n="v"/></r></p></e>
-	
+	<e slr="1"><p><l>biç<s n="v"/></l><r>кес<s n="v"/></r></p></e>
+	<e slr="2"><p><l>biç<s n="v"/></l><r>ор<s n="v"/></r></p></e>
+	<e c="  0"><p><l>boya<s n="v"/></l><r>боё<s n="v"/></r></p></e>
+	<e c="  0"><p><l>bozul<s n="v"/></l><r>бузул<s n="v"/></r></p></e>
+	<e c="  0"><p><l>boğ<s n="v"/></l><r>муунт<s n="v"/></r></p></e>
+	<e slr="1"><p><l>boğ<s n="v"/></l><r>буу<s n="v"/></r></p></e>
+	<e c="  0"><p><l>boz<s n="v"/></l><r>буз<s n="v"/></r></p></e>
+	<e slr="1"><p><l>boz<s n="v"/></l><r>талкала<s n="v"/></r></p></e>
+
 
 
         <!-- SECTION: Punctuation -->
