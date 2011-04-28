@@ -691,15 +691,16 @@ LEXICON VerbStems
 
 бар%<v%>%<exi%>:бар # ;
 жок%<v%>%<neg%>%<exi%>:жок # ;
+
 оку Vinfl ; ! "read"
 укта Vinfl ; ! "sleep"
 сүй Vinfl ; ! "love"
-күл Vinfl ; ! "smile, lough"
-сүйлө Vinfl ; ! "speek"
+күл Vinfl ; ! "smile, laugh"
+сүйлө Vinfl ; ! "speak"
 ук Vinfl ; ! "listen"
 айда Vinfl ; ! "drive"
 түздө Vinfl ; ! ""
-чий Vinfl ; ! "drow a line"
+чий Vinfl ; ! "draw a line"
 токто Vinfl ; ! "stop" 
 
 ачу V-INFL ; ! "open"
