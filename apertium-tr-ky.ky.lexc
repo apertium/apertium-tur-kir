@@ -250,6 +250,7 @@ LEXICON N-INFL
 
 %<n%>: POSSESSION ;
 %<n%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+%<n%>%<pl%>:%>%{D%}%{A%}р POSSESSION ;
 
 LEXICON NP-ANT-M
 
