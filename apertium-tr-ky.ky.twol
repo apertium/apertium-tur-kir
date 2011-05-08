@@ -63,14 +63,13 @@ Vx:Vy <=> FrontRndVow: CnsFrontRndVowSB:* Cns %>:     CnsFrontRndVow:* _ ; ! ?C>
 
 
 "Back Low Rnd harmony in suffixes"
- %{A%}:о <=> BackLowRndVow: CnsBackLowRndVow:* Cns %>:     CnsBackLowRndVow:* _ ; ! ?C>?_
+%{A%}:о <=> BackLowRndVow: CnsBackLowRndVow:* Cns %>:     CnsBackLowRndVow:* _ ; ! ?C>?_
              BackLowRndVow: CnsBackLowRndVow:*     %>: Cns CnsBackLowRndVow:* _ ; !  ?>C_
 
 
 "Back High Rnd harmony in suffixes"
 %{I%}:у <=> BackRndVow: CnsBackRndVowSB:* Cns %>:     CnsBackRndVow:* _ ; ! ?C>?_
             BackRndVow: CnsBackRndVowSB:*     %>: Cns CnsBackRndVow:* _ ; !  ?>C_
-
 
 "L Desonorisation"
 %{L%}:д <=> VoicedNonSonCns %>:  _ ;
@@ -93,6 +92,10 @@ Cx:т <=> UnvoicedNonSonCns %>: _ ;
 
 "Realisation of converb marker after vowels"
 %{AJ%}:й <=> Vow %>: _ ;
+
+"'с' deletion in possessive after consonant"
+с:0 <=> Cns %>: _ %{I%}: ; 
+
 
 ! ndt	N
 ! ldt	L
