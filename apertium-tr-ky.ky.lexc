@@ -114,7 +114,7 @@ CASES ;
 %<px3sg%>:%>%{I%} CASES ;
 %<px1pl%>:%>ыб%{I%}з CASES ; 
 %<px2pl%>:%>ң%{I%}з CASES ; 
-%<px2pl%><%frm%>:%>ың%{A%}р CASES;
+%<px2pl%>%<frm%>:%>ың%{A%}р CASES;
 %<px3pl%>:%>%{D%}%{A%}%{I%} CASES ;
 
 LEXICON ADV
