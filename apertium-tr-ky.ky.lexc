@@ -435,6 +435,7 @@ LEXICON NounStems
 бажа N-INFL ; 
 байрак N-INFL ; 
 бакыт N-INFL ; 
+бала N-INFL ;
 балдыз N-INFL ; 
 балта N-INFL ; 
 балтыркан N-INFL ; 
@@ -478,6 +479,7 @@ LEXICON NounStems
 дос N-INFL ; ! "" 
 дүйнө N-INFL ;  ! "world" (?)
 дүнүйө N-INFL ; ! "world" (?)
+жаз N-INFL ; ! "spring"
 жай N-INFL ; ! "summer"
 жан N-INFL ; ! "jan"
 желек N-INFL ; 
@@ -493,22 +495,28 @@ LEXICON NounStems
 июль N-INFL ; ! "" 
 каз N-INFL ; ! "" 
 кап N-INFL ; ! "sack"
+кат N-INFL ; ! "mail"
 келесоо N-INFL ; 
 кеме N-INFL ; ! "boat"
 китеп N-INFL ; ! "book"
 кол N-INFL ; ! "hand"
+короо N-INFL ; ""
+коом N-INFL ; ! "community"
 кыз N-INFL ; ! "girl"
 кыйноо N-INFL ; 
 көз N-INFL ; ! "eye"
 көрсөтүү N-INFL ; 
 көрүү N-INFL ; ! "" 
 майор N-INFL ; 
+мал N-INFL ; ! ""
 мамлекет N-INFL ; ! "state"
 мектеп N-INFL ; ! "school"
 мурун N-INFL ; ! "nose"
 наристе N-INFL ; 
+ини N-INFL ; ! "younger brother"
 омийин N-INFL ; 
 пул N-INFL ; 
+саат N-INFL ; !"watch"
 сабак N-INFL ; 
 саз N-INFL ; 
 сулуу N-INFL ; ! "" 
@@ -518,12 +526,15 @@ LEXICON NounStems
 таң N-INFL ; ! "dawn"
 токой N-INFL ; 
 тоо N-INFL ; ! "" 
+топ N-INFL ; ! "ball"
 тор N-INFL ; ! "net"
+төө N-INFL ;
 туз N-INFL ; ! "salt"
 төө N-INFL ; ! "" 
 унаа N-INFL ; ! "" 
 уу N-INFL ; 
 ууч N-INFL ; 
+үй N-INFL ; ! "house"
 чака N-INFL ; ! "bucket"
 чалап N-INFL ; 
 челек N-INFL ; ! "bucket"
@@ -533,13 +544,14 @@ LEXICON NounStems
 ылай N-INFL ; 
 ыр N-INFL ; ! "song"
 ысым N-INFL ; 
+эне N-INFL ;
 эркин N-INFL ; 
 үй N-INFL ; ! "house, home"
 өзүмчүлдүк N-INFL ; ! "egoism, selfishness"
 өлкө N-INFL ; ! "country, land"
 өсүмдүк N-INFL ; ! "plant"
 өтүнүч N-INFL ; 
-
+өтүк N-INFL ; ! "shoe"
 ручка N-INFL ; ! "pen"
 банк N-INFL ; ! "bank"
 секретар N-INFL ; ! "secretary (man)"
