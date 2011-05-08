@@ -110,8 +110,9 @@ CASES ;
 %<px1sg%>:%>%{I%}м CASES ;
 %<px2sg%>:%>%{I%}ң CASES ; 
 %<px3sg%>:%>%{I%} CASES ;
-%<px1pl%>:%>б%{I%}з CASES ; 
+%<px1pl%>:%>ыб%{I%}з CASES ; 
 %<px2pl%>:%>ң%{I%}з CASES ; 
+%<px2pl%>:%>ың%{A%}р CASES;
 %<px3pl%>:%>%{D%}%{A%}%{I%} CASES ;
 
 LEXICON ADV
