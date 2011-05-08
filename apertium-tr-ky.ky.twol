@@ -23,8 +23,8 @@ SonCns = й р Й Р ;
 UnvoicedNonSonCns = К П С Т Ф Х Ц Ч Ш Щ  
 	                к п с т ф х ц ч ш щ ;
 
-VoicedNonSonCns = Б В Г Д Ж З Л М Н Ң 
-                  б в г д ж з л м н ң ;
+VoicedNonSonCns = Б В Г Д Ж З Л М Н Ң Й Р 
+                  б в г д ж з л м н ң й р;
 
 ! These three sets include the suffix border, and accounts for long-distance VH
 CnsFrontUnrndVowSB = Cns FrontUnrndVow %> ;
