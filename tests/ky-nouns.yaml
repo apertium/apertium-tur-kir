@@ -21,14 +21,14 @@ Tests:
   "[lexc] 2nd Person Singular Possessive":
     ат<n><px2sg><nom> : атың
     бала<n><px2sg><nom> : балаң
-    ат<n><px2sg><nom> : атыңыз
-    бала<n><px2sg><nom> : балаңыз
+    ат<n><px2sg><frm><nom> : атыңыз
+    бала<n><px2sg><frm><nom> : балаңыз
 
   "[lexc] 2nd Person Plural Possessive":
     ат<n><px2pl><nom> : атыңар
     бала<n><px2pl><nom> : балаңар
-    ат<n><px2pl><nom> : атыңыздар
-    бала<n><px2pl><nom> : балаңыздар
+    ат<n><px2pl><frm><nom> : атыңыздар
+    бала<n><px2pl><frm><nom> : балаңыздар
 
   "[lexc] 3rd Person Possessive":
     ат<n><px3pl><nom> : аты
