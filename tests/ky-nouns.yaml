@@ -7,32 +7,54 @@ Tests:
   "[twol] Мягкий знак deletion before suffix":
     июль<n><dat> : июлга
 
-  "[twol] L Desonorisation":
+  "[twol] L desonorisation":
     адам<n><pl><nom> : адамдар
 
-  "[lexc] 1st Person Singular Possessive":
+  "[lexc] 1st person singular possessive":
     ат<n><px1sg><nom> : атым
     бала<n><px1sg><nom> : балам
   
-  "[lexc] 1st Person Plural Possessive":
+  "[lexc] 1st person plural possessive":
     ат<n><px1pl><nom> : атыбыз
     бала<n><px1pl><nom> : балабыз
 
-  "[lexc] 2nd Person Singular Possessive":
+  "[lexc] 2nd person singular possessive":
     ат<n><px2sg><nom> : атың
     бала<n><px2sg><nom> : балаң
     ат<n><px2sg><frm><nom> : атыңыз
     бала<n><px2sg><frm><nom> : балаңыз
 
-  "[lexc] 2nd Person Plural Possessive":
+  "[lexc] 2nd person plural possessive":
     ат<n><px2pl><nom> : атыңар
     бала<n><px2pl><nom> : балаңар
     ат<n><px2pl><frm><nom> : атыңыздар
     бала<n><px2pl><frm><nom> : балаңыздар
 
-  "[lexc] 3rd Person Possessive":
+  "[lexc] 3rd person possessive":
     ат<n><px3pl><nom> : аты
     бала<n><px3pl><nom> : баласы
+
+  "[lexc] Miscellaneous possessives": 
+    ат<n><px1sg><nom> : атым
+    бала<n><px1sg><nom> : балам
+    ат<n><px1pl><nom> : атыбыз
+    бала<n><px1pl><nom> : балабыз
+    ат<n><px2sg><nom> : атың
+    бала<n><px2sg><nom> : балаң
+    ат<n><px2sg><frm><nom> : атыңыз
+    бала<n><px2sg><frm><nom> : балаңыз
+    ат<n><px2pl><nom> : атыңар
+    бала<n><px2pl><nom> : балаңар
+    ат<n><px2pl><frm><nom> : атыңыздар
+    бала<n><px2pl><frm><nom> : балаңыздар
+    ат<n><px3pl><nom> : аты
+    бала<n><px3pl><nom> : баласы
+    эл<n><px3pl><nom> : элдики
+    мал<n><px><nom> : малдыкы
+    бала<n><px2sg><px><nom> : балаңдыкы
+    тоо<n><px3pl><nom> : тоонуку
+    төө<n><px3pl><nom> : төөнүкү
+
     
   "[lexc] Singular genitive (-{N}{I}n)": 
     кеме<n><gen> : кеменин
