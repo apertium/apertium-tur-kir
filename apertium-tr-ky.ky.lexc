@@ -44,6 +44,7 @@ Multichar_Symbols
 %<px1pl%>  ! Possessive, first person plural
 %<px2pl%>  ! Possessive, second person plural
 %<px3pl%>  ! Possessive, third person plural
+%<px%>     ! General possessive -ныкы
 
 %<ant%>    ! Anthroponym (name of person)
 %<top%>    ! Toponym
@@ -107,15 +108,20 @@ LEXICON CASES
 %<loc%>:%>%{D%}%{A%} # ;   ! -да, -де, -та, -те, -до, -дө, -то, -тө
 %<abl%>:%>%{D%}%{A%}н # ;  ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
 
-LEXICON POSSESSION
+LEXICON GEN-POS
 CASES ;
-%<px1sg%>:%>%{I%}м CASES ;
-%<px2sg%>:%>%{I%}ң CASES ; 
-%<px3sg%>:%>%{I%} CASES ;
-%<px1pl%>:%>ыб%{I%}з CASES ; 
-%<px2pl%>:%>ң%{I%}з CASES ; 
-%<px2pl%>%<frm%>:%>ың%{A%}р CASES;
-%<px3pl%>:%>%{D%}%{A%}%{I%} CASES ;
+%<px%>:%>%{N%}%{I%}к%{I%} CASES ; 
+
+LEXICON POSSESSION
+GEN-POS ;
+%<px1sg%>:%>%{I%}м GEN-POS ;
+%<px2sg%>:%>%{I%}ң GEN-POS ; 
+%<px2sg%>%<frm%>:%>%{I%}ң%{I%}з GEN-POS ; 
+%<px3sg%>:%>с%{I%} GEN-POS ;
+%<px1pl%>:%>%{I%}б%{I%}з GEN-POS ; 
+%<px2pl%>:%>%{I%}ң%{A%}р GEN-POS ; 
+%<px2pl%>%<frm%>:%>%{I%}ң%{I%}зд%{A%}р GEN-POS;
+%<px3pl%>:%>с%{I%} GEN-POS ;
 
 LEXICON ADV
 
@@ -438,7 +444,7 @@ LEXICON NounStems
 бажа N-INFL ; 
 байрак N-INFL ; 
 бакыт N-INFL ; 
-бала N-INFL ;
+бала N-INFL ; ! "child"
 балдыз N-INFL ; 
 балта N-INFL ; 
 балтыркан N-INFL ; 
@@ -531,7 +537,6 @@ LEXICON NounStems
 тоо N-INFL ; ! "" 
 топ N-INFL ; ! "ball"
 тор N-INFL ; ! "net"
-төө N-INFL ;
 туз N-INFL ; ! "salt"
 төө N-INFL ; ! "" 
 унаа N-INFL ; ! "" 
@@ -549,6 +554,7 @@ LEXICON NounStems
 ысым N-INFL ; 
 эне N-INFL ;
 эркин N-INFL ; 
+эл N-INFL ;  ! "nation"
 үй N-INFL ; ! "house, home"
 өзүмчүлдүк N-INFL ; ! "egoism, selfishness"
 өлкө N-INFL ; ! "country, land"
