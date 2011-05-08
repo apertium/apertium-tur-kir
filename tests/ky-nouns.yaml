@@ -10,6 +10,30 @@ Tests:
   "[twol] L Desonorisation":
     адам<n><pl><nom> : адамдар
 
+  "[lexc] 1st Person Singular Possessive":
+    ат<n><px1sg><nom> : атым
+    бала<n><px1sg><nom> : балам
+  
+  "[lexc] 1st Person Plural Possessive":
+    ат<n><px1pl><nom> : атыбыз
+    бала<n><px1pl><nom> : балабыз
+
+  "[lexc] 2nd Person Singular Possessive":
+    ат<n><px2sg><nom> : атың
+    бала<n><px2sg><nom> : балаң
+    ат<n><px2sg><nom> : атыңыз
+    бала<n><px2sg><nom> : балаңыз
+
+  "[lexc] 2nd Person Plural Possessive":
+    ат<n><px2pl><nom> : атыңар
+    бала<n><px2pl><nom> : балаңар
+    ат<n><px2pl><nom> : атыңыздар
+    бала<n><px2pl><nom> : балаңыздар
+
+  "[lexc] 3rd Person Possessive":
+    ат<n><px3pl><nom> : аты
+    бала<n><px3pl><nom> : баласы
+    
   "[lexc] Singular genitive (-{N}{I}n)": 
     кеме<n><gen> : кеменин
     кол<n><gen> : колдун
@@ -18,6 +42,7 @@ Tests:
     аба<n><gen> : абанын
     туз<n><gen> : туздун
     челек<n><gen> : челектин
+    
 
   "[lexc] Singular dative (-{G}{A})": 
     кеме<n><dat> : кемеге
