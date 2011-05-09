@@ -25,6 +25,8 @@ Multichar_Symbols
 %<loc%>    ! Locative
 %<abl%>    ! Ablative
 
+%<rloc%>   ! Relativised locative -DAGI
+
 %<m%>      ! Masculine
 %<f%>      ! Feminine
 
@@ -107,6 +109,7 @@ LEXICON CASES
 %<acc%>:%>%{N%}%{I%} # ;   ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
 %<loc%>:%>%{D%}%{A%} # ;   ! -да, -де, -та, -те, -до, -дө, -то, -тө
 %<abl%>:%>%{D%}%{A%}н # ;  ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
+%<rloc%>:%>%{D%}%{A%}г%{I%} # ;
 
 LEXICON GEN-POS
 CASES ;
