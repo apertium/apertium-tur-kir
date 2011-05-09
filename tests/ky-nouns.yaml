@@ -10,6 +10,9 @@ Tests:
   "[twol] L desonorisation":
     адам<n><pl><nom> : адамдар
 
+  "[twol] Double vowel harmony in suffix"
+    дүйнө<n><rloc> : дүйнөдөгү
+
   "[lexc] 1st person singular possessive":
     ат<n><px1sg><nom> : атым
     бала<n><px1sg><nom> : балам
@@ -54,7 +57,6 @@ Tests:
     бала<n><px2sg><px><nom> : балаңдыкы
     тоо<n><px3pl><nom> : тоонуку
     төө<n><px3pl><nom> : төөнүкү
-
     
   "[lexc] Singular genitive (-{N}{I}n)": 
     кеме<n><gen> : кеменин
@@ -112,3 +114,6 @@ Tests:
     таң<n><pl><nom> : таңдар
     көз<n><pl><nom> : көздөр
     баш<n><pl><nom> : баштар
+
+  "[lexc] Relativised locative"
+    дүйнө<n><rloc> : дүйнөдөгү
