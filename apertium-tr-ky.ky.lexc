@@ -123,7 +123,7 @@ GEN-POS ;
 %<px2pl%>%<frm%>:%>%{I%}ң%{I%}зд%{A%}р GEN-POS;
 %<px3pl%>:%>с%{I%} GEN-POS ;
 
-LEXICON ADV
+LEXICON ADJ
 
 %<adj%>: # ;
 
