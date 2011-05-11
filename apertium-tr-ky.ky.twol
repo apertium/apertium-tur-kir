@@ -11,10 +11,10 @@ Cns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ
 Vow =     А Е Ё И О Ө У Ү Ы Э Ю Я
           а е ё и о ө у ү ы э ю я 
           %{A%} %{I%} ;
-FrontVow = И Ө Е Ү Э и ө ү э е;
-BackVow = А О У Ы а о у ы;
-FrontUnrndVow = И Е Э и э е;
-BackUnrndVow = А Ы а ы;
+FrontVow = И Ө Е Ү Э и ө ү э е ;
+BackVow = А О У Ы а о у ы ;
+FrontUnrndVow = И Е Э и э е ; 
+BackUnrndVow = А Ы а ы ;
 FrontRndVow = Ө Ү ө ү ;
 BackRndVow =  О У о у ;
 BackLowRndVow = О о ;
@@ -32,10 +32,10 @@ CnsFrontRndVowSB = Cns FrontRndVow %> ;
 CnsBackRndVowSB = Cns BackRndVow %> ;
 
 ! These sets do not continue suffix borders.
-CnsFrontUnrndVow = Cns FrontUnrndVow ;
-CnsFrontRndVow = Cns FrontRndVow ;
-CnsBackRndVow = Cns BackRndVow ;
-CnsBackLowRndVow = Cns BackLowRndVow ;
+CnsFrontUnrndVow = Cns FrontUnrndVow %{I%} %{A%};
+CnsFrontRndVow = Cns FrontRndVow  %{I%} %{A%};
+CnsBackRndVow = Cns BackRndVow  %{I%} %{A%};
+CnsBackLowRndVow = Cns BackLowRndVow  %{I%} %{A%};
 	   
 NonBack = Cns FrontVow %> ;
 NonFront = Cns BackVow %> ;

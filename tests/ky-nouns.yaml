@@ -4,13 +4,14 @@ Config:
     Morph: ../ky-tr.automorf.hfst
 
 Tests:
+
   "[twol] Мягкий знак deletion before suffix":
     июль<n><dat> : июлга
 
   "[twol] L desonorisation":
     адам<n><pl><nom> : адамдар
 
-  "[twol] Double vowel harmony in suffix"
+  "[twol] Double vowel harmony in suffix":
     дүйнө<n><rloc> : дүйнөдөгү
 
   "[lexc] 1st person singular possessive":
@@ -115,5 +116,5 @@ Tests:
     көз<n><pl><nom> : көздөр
     баш<n><pl><nom> : баштар
 
-  "[lexc] Relativised locative"
+  "[lexc] Relativised locative":
     дүйнө<n><rloc> : дүйнөдөгү
