@@ -407,7 +407,173 @@ LEXICON Numerals
 миллиард NUM ; ! ""
 
 LEXICON NounStems
-
+аалым N-INFL ; 
+аары N-INFL ; 
+аба N-INFL ; 
+абажур N-INFL ; 
+абал N-INFL ; 
+аванс N-INFL ; 
+авто N-INFL ; 
+автобиография N-INFL ; 
+автобус N-INFL ; 
+автожол N-INFL ; 
+автомат N-INFL ; 
+автомобиль N-INFL ; 
+автоном N-INFL ; 
+автономия N-INFL ; 
+автопарк N-INFL ; 
+авторитет N-INFL ; 
+ага N-INFL ; 
+агым N-INFL ; 
+агын N-INFL ; 
+адабият N-INFL ; 
+адам N-INFL ; 
+адат N-INFL ; 
+адаш N-INFL ; 
+адеп N-INFL ; 
+адилет N-INFL ; 
+адмирал N-INFL ; 
+адрес N-INFL ; 
+адым N-INFL ; 
+ажал N-INFL ; 
+ажар N-INFL ; 
+ажы N-INFL ; 
+аза N-INFL ; 
+азан N-INFL ; 
+азап N-INFL ; 
+азат N-INFL ; 
+азиз N-INFL ; 
+азирети N-INFL ; 
+азот N-INFL ; 
+азуу N-INFL ; 
+азуу% тиш N-INFL ; 
+азык N-INFL ; 
+ай N-INFL ; 
+айбан N-INFL ; 
+айбанат N-INFL ; 
+айбат N-INFL ; 
+айгыр N-INFL ; 
+айкел N-INFL ; 
+айлык N-INFL ; 
+айран N-INFL ; 
+айтыш N-INFL ; 
+айып N-INFL ; 
+академик N-INFL ; 
+академия N-INFL ; 
+акарат N-INFL ; 
+акварель N-INFL ; 
+аквариум N-INFL ; 
+аким N-INFL ; 
+аккорд N-INFL ; 
+аккордеон N-INFL ; 
+аккумулятор N-INFL ; 
+акмак N-INFL ; 
+акробат N-INFL ; 
+аксакал N-INFL ; 
+аксессуар N-INFL ; 
+актриса N-INFL ; 
+актёр N-INFL ; 
+акустика N-INFL ; 
+акушер N-INFL ; 
+акча N-INFL ; 
+акы N-INFL ; 
+акыбал N-INFL ; 
+акыбет N-INFL ; 
+акыйкат N-INFL ; 
+акыл N-INFL ; 
+акыр N-INFL ; 
+акырет N-INFL ; 
+ала N-INFL ; 
+алака N-INFL ; 
+алгоритм N-INFL ; 
+алды N-INFL ; 
+алкоголь N-INFL ; 
+алкыш N-INFL ; 
+аллегория N-INFL ; 
+аллергия N-INFL ; 
+алмаз N-INFL ; 
+алоо N-INFL ; 
+алтын N-INFL ; 
+алфавит N-INFL ; 
+альбом N-INFL ; 
+альпинист N-INFL ; 
+альтернатива N-INFL ; 
+алюминий N-INFL ; 
+аманат N-INFL ; 
+ананас N-INFL ; 
+анар N-INFL ; 
+англис N-INFL ; 
+анекдот N-INFL ; 
+анжыр N-INFL ; 
+анкет N-INFL ; 
+анонс N-INFL ; 
+антибиотик N-INFL ; 
+антология N-INFL ; 
+антракт N-INFL ; 
+антрополог N-INFL ; 
+апаат N-INFL ; 
+апостроф N-INFL ; 
+аппендицит N-INFL ; 
+апта N-INFL ; 
+ар N-INFL ; 
+ара N-INFL ; 
+араба N-INFL ; 
+арак N-INFL ; 
+аракет N-INFL ; 
+аралык N-INFL ; 
+арап N-INFL ;  
+арапа N-INFL ; 
+арачы N-INFL ; 
+арена N-INFL ; 
+арзуу N-INFL ; 
+арип N-INFL ; 
+аристократ N-INFL ; 
+арифметика N-INFL ; 
+арка N-INFL ; 
+арматура N-INFL ; 
+арпа N-INFL ; 
+арстан N-INFL ; 
+арт N-INFL ; 
+артист N-INFL ; 
+археолог N-INFL ; 
+архив N-INFL ; 
+арыз N-INFL ; 
+арык N-INFL ; 
+аскер N-INFL ; 
+асма N-INFL ; 
+асма% көпүрө N-INFL ; 
+асма% селкинчек N-INFL ; 
+аспирин N-INFL ; 
+ассистент N-INFL ; 
+астар N-INFL ; 
+астма N-INFL ; 
+астролог N-INFL ; 
+астронавт N-INFL ; 
+астрономия N-INFL ; 
+асфальт N-INFL ; 
+ат N-INFL ; 
+атак N-INFL ; 
+атеизм N-INFL ; 
+атеист N-INFL ; 
+ателье N-INFL ; 
+атлас N-INFL ; 
+атлет N-INFL ; 
+атмосфера N-INFL ; 
+атом N-INFL ; 
+аттракцион N-INFL ; 
+атыр N-INFL ; 
+аудитория N-INFL ; 
+аферист N-INFL ; 
+афоризм N-INFL ; 
+ахлак N-INFL ; 
+ацетон N-INFL ; 
+аш N-INFL ; 
+аюу N-INFL ; 
+аяз N-INFL ; 
+аяк N-INFL ; 
+аял N-INFL ; 
+аят N-INFL ; 
+аң N-INFL ; 
 аалам N-INFL ; ! "universe"
 аба N-INFL ; ! "air"
 абал N-INFL ; 
@@ -432,17 +598,11 @@ LEXICON NounStems
 алма N-INFL ; ! "apple"
 апа N-INFL ; ! "mother"
 арыз N-INFL ; 
-арык N-INFL ; 
 аскер N-INFL ; ! "soldier" 
 аста N-INFL ; 
-ат N-INFL ; 
 ата N-INFL ; 
 атак-даңк N-INFL ; 
 аферист N-INFL ; 
-аяк N-INFL ; 
-аял N-INFL ; 
-аят N-INFL ; 
-аң N-INFL ; 
 бадан N-INFL ; 
 бажа N-INFL ; 
 байрак N-INFL ; 
@@ -594,7 +754,20 @@ LEXICON NounStems
 ак% сөөк N-INFL ; 
 
 LEXICON PropernounStems
-
+Aзирейил NP-TOP ; ! ""
+Tеңир NP-TOP ; ! ""
+Адам NP-TOP ; ! ""
+Алла NP-TOP ; ! ""
+Арктика NP-TOP ; ! ""
+Кудай NP-TOP ; ! ""
+Кызыл% Ай NP-TOP ; ! ""
+Кызыр NP-TOP ; ! ""
+Марс NP-TOP ; ! ""
+Нептун NP-TOP ; ! ""
+Сатурн NP-TOP ; ! ""
+Тоорат NP-TOP ; ! ""
+Уран NP-TOP ; ! ""
+Юпитер NP-TOP ; ! ""
 Абхазия NP-TOP ; ! ""
 Австралия NP-TOP ; ! ""
 Австрия NP-TOP ; ! ""
