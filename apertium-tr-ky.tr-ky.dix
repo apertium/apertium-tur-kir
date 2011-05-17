@@ -1251,8 +1251,131 @@
 	<e slr="1"><p><l>oydaş<s n="n"/></l><r>санаалаш<s n="n"/></r></p></e>
 	<e c="  0"><p><l>oğlan<s n="n"/></l><r>улан<s n="n"/></r></p></e>
 	<e c="  0"><p><l>oğul<s n="n"/></l><r>уул<s n="n"/></r></p></e>
+	<e c="  0"><p><l>paganizm<s n="n"/></l><r>паганизм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>paket<s n="n"/></l><r>пакет<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pakt<s n="n"/></l><r>пакт<s n="n"/></r></p></e>
+	<e c="  0"><p><l>palas<s n="n"/></l><r>палас<s n="n"/></r></p></e>
+	<e c="  0"><p><l>paleograf<s n="n"/></l><r>палеограф<s n="n"/></r></p></e>
+	<e c="  0"><p><l>paleografi<s n="n"/></l><r>палеография<s n="n"/></r></p></e>
+	<e c="  0"><p><l>paleontoloji<s n="n"/></l><r>палеонтология<s n="n"/></r></p></e>
+	<e c="  0"><p><l>palladyum<s n="n"/></l><r>палладий<s n="n"/></r></p></e>
+	<e c="  0"><p><l>palto<s n="n"/></l><r>пальто<s n="n"/></r></p></e>
+	<e c="  0"><p><l>panda<s n="n"/></l><r>панда<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pandomima<s n="n"/></l><r>пантомима<s n="n"/></r></p></e>
+	<e c="  0"><p><l>panel<s n="n"/></l><r>панель<s n="n"/></r></p></e>
+	<e slr="1"><p><l>panel<s n="n"/></l><r>талкуу<s n="n"/></r></p></e>
+	<e c="  0"><p><l>panik<s n="n"/></l><r>паника<s n="n"/></r></p></e>
+	<e c="  0"><p><l>panorama<s n="n"/></l><r>панорама<s n="n"/></r></p></e>
+	<e c="  0"><p><l>panteist<s n="n"/></l><r>пантеист<s n="n"/></r></p></e>
+	<e c="  0"><p><l>panteizm<s n="n"/></l><r>пантеизм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pantograf<s n="n"/></l><r>пантограф<s n="n"/></r></p></e>
+	<e c="  0"><p><l>papa<s n="n"/></l><r>папа<s n="n"/></r></p></e>
+	<e c="  0"><p><l>papaz<s n="n"/></l><r>поп<s n="n"/></r></p></e>
+	<e c="  0"><p><l>papirüs<s n="n"/></l><r>папирус<s n="n"/></r></p></e>
+	<e c="  0"><p><l>paradoks<s n="n"/></l><r>парадокс<s n="n"/></r></p></e>
+	<e c="  0"><p><l>paragraf<s n="n"/></l><r>параграф<s n="n"/></r></p></e>
+	<e c="  0"><p><l>paralel<s n="n"/></l><r>параллель<s n="n"/></r></p></e>
+	<e c="  0"><p><l>paraşüt<s n="n"/></l><r>парашют<s n="n"/></r></p></e>
+	<e c="  0"><p><l>park<s n="n"/></l><r>парк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>parlamentarizm<s n="n"/></l><r>парламентаризм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>parlamenter<s n="n"/></l><r>парламентарий<s n="n"/></r></p></e>
+	<e c="  0"><p><l>parlamento<s n="n"/></l><r>парламент<s n="n"/></r></p></e>
+	<e c="  0"><p><l>parmak<s n="n"/></l><r>бармак<s n="n"/></r></p></e>
+	<e slr="1"><p><l>parmak<s n="n"/></l><r>манжа<s n="n"/></r></p></e>
+	<e c="  0"><p><l>parola<s n="n"/></l><r>пароль<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pars<s n="n"/></l><r>барс<s n="n"/></r></p></e>
+	<e c="  0"><p><l>parti<s n="n"/></l><r>партия<s n="n"/></r></p></e>
+	<e c="  0"><p><l>partizan<s n="n"/></l><r>партизан<s n="n"/></r></p></e>
+	<e c="  0"><p><l>partner<s n="n"/></l><r>партнёр<s n="n"/></r></p></e>
+	<e slr="1"><p><l>partner<s n="n"/></l><r>өнөк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>parça<s n="n"/></l><r>барча<s n="n"/></r></p></e>
+	<e slr="1"><p><l>parça<s n="n"/></l><r>бөлүк<s n="n"/></r></p></e>
+	<e slr="2"><p><l>parça<s n="n"/></l><r>кесим<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pasaj<s n="n"/></l><r>пассаж<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pasaport<s n="n"/></l><r>паспорт<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pastörizasyon<s n="n"/></l><r>пастеризация<s n="n"/></r></p></e>
+	<e c="  0"><p><l>patent<s n="n"/></l><r>патент<s n="n"/></r></p></e>
+	<e c="  0"><p><l>patoloji<s n="n"/></l><r>патология<s n="n"/></r></p></e>
+	<e c="  0"><p><l>patrik<s n="n"/></l><r>патриарх<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pay<s n="n"/></l><r>пай<s n="n"/></r></p></e>
+	<e slr="1"><p><l>pay<s n="n"/></l><r>үлүш<s n="n"/></r></p></e>
+	<e c="  0"><p><l>payitaht<s n="n"/></l><r>байтакты<s n="n"/></r></p></e>
+	<e slr="1"><p><l>payitaht<s n="n"/></l><r>борбор<s n="n"/></r></p></e>
+	<e c="  0"><p><l>paça<s n="n"/></l><r>багалек<s n="n"/></r></p></e>
+	<e slr="1"><p><l>paça<s n="n"/></l><r>пайча<s n="n"/></r></p></e>
+	<e c="  0"><p><l>paşazade<s n="n"/></l><r>пашазаада<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pedagog<s n="n"/></l><r>педагог<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pedagoji<s n="n"/></l><r>педагогика<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pedal<s n="n"/></l><r>педаль<s n="n"/></r></p></e>
+	<e c="  0"><p><l>peder<s n="n"/></l><r>ата<s n="n"/></r></p></e>
+	<e slr="1"><p><l>peder<s n="n"/></l><r>падар<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pedikür<s n="n"/></l><r>педикюр<s n="n"/></r></p></e>
+	<e c="  0"><p><l>penisilin<s n="n"/></l><r>пенициллин<s n="n"/></r></p></e>
+	<e c="  0"><p><l>periyot<s n="n"/></l><r>период<s n="n"/></r></p></e>
+	<e c="  0"><p><l>personel<s n="n"/></l><r>персонал<s n="n"/></r></p></e>
+	<e c="  0"><p><l>perspektif<s n="n"/></l><r>перспектива<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pervane<s n="n"/></l><r>жетим<b/>көпөлөк<s n="n"/></r></p></e>
+	<e slr="1"><p><l>pervane<s n="n"/></l><r>парвана<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pesimizm<s n="n"/></l><r>пессимизм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>petrol<s n="n"/></l><r>петроль<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pijama<s n="n"/></l><r>пижама<s n="n"/></r></p></e>
+	<e c="  0"><p><l>piket<s n="n"/></l><r>пикет<s n="n"/></r></p></e>
+	<e c="  0"><p><l>piknik<s n="n"/></l><r>пикник<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pilot<s n="n"/></l><r>пилот<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pir<s n="n"/></l><r>пир<s n="n"/></r></p></e>
+	<e c="  0"><p><l>piramit<s n="n"/></l><r>пирамида<s n="n"/></r></p></e>
+	<e c="  0"><p><l>piskopos<s n="n"/></l><r>епископ<s n="n"/></r></p></e>
+	<e c="  0"><p><l>piyade<s n="n"/></l><r>жөө<s n="n"/></r></p></e>
+	<e slr="1"><p><l>piyade<s n="n"/></l><r>пияда<s n="n"/></r></p></e>
+	<e c="  0"><p><l>piyano<s n="n"/></l><r>пианино<s n="n"/></r></p></e>
+	<e c="  0"><p><l>piyaz<s n="n"/></l><r>пияз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>piyes<s n="n"/></l><r>пьеса<s n="n"/></r></p></e>
+	<e c="  0"><p><l>plaj<s n="n"/></l><r>пляж<s n="n"/></r></p></e>
+	<e c="  0"><p><l>plan<s n="n"/></l><r>план<s n="n"/></r></p></e>
+	<e c="  0"><p><l>plantasyon<s n="n"/></l><r>плантация<s n="n"/></r></p></e>
+	<e c="  0"><p><l>plaster<s n="n"/></l><r>пластырь<s n="n"/></r></p></e>
+	<e c="  0"><p><l>platform<s n="n"/></l><r>платформа<s n="n"/></r></p></e>
+	<e c="  0"><p><l>plüralizm<s n="n"/></l><r>плюрализм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>politeist<s n="n"/></l><r>политеист<s n="n"/></r></p></e>
+	<e c="  0"><p><l>politeizm<s n="n"/></l><r>политеизм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>polka<s n="n"/></l><r>полька<s n="n"/></r></p></e>
+	<e c="  0"><p><l>portre<s n="n"/></l><r>портрет<s n="n"/></r></p></e>
+	<e c="  0"><p><l>potansiyel<s n="n"/></l><r>потенциал<s n="n"/></r></p></e>
+	<e c="  0"><p><l>poz<s n="n"/></l><r>поза<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pozitif<s n="n"/></l><r>позитив<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pozitivizm<s n="n"/></l><r>позитивизм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pragmatik<s n="n"/></l><r>прагматика<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pragmatizm<s n="n"/></l><r>прагматизм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>prens<s n="n"/></l><r>принц<s n="n"/></r></p></e>
+	<e c="  0"><p><l>prenses<s n="n"/></l><r>принцесса<s n="n"/></r></p></e>
+	<e c="  0"><p><l>prensip<s n="n"/></l><r>принцип<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pres<s n="n"/></l><r>пресса<s n="n"/></r></p></e>
+	<e slr="1"><p><l>pres<s n="n"/></l><r>басма<b/>сөз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>prestij<s n="n"/></l><r>престиж<s n="n"/></r></p></e>
+	<e c="  0"><p><l>printer<s n="n"/></l><r>принтер<s n="n"/></r></p></e>
+	<e c="  0"><p><l>problem<s n="n"/></l><r>проблема<s n="n"/></r></p></e>
+	<e c="  0"><p><l>program<s n="n"/></l><r>программа<s n="n"/></r></p></e>
+	<e c="  0"><p><l>proletarya<s n="n"/></l><r>пролетариат<s n="n"/></r></p></e>
+	<e c="  0"><p><l>propaganda<s n="n"/></l><r>пропаганда<s n="n"/></r></p></e>
+	<e c="  0"><p><l>propagandist<s n="n"/></l><r>пропагандист<s n="n"/></r></p></e>
+	<e c="  0"><p><l>protein<s n="n"/></l><r>протеин<s n="n"/></r></p></e>
+	<e c="  0"><p><l>protesto<s n="n"/></l><r>нааразылык<s n="n"/></r></p></e>
+	<e slr="1"><p><l>protesto<s n="n"/></l><r>протест<s n="n"/></r></p></e>
+	<e c="  0"><p><l>protez<s n="n"/></l><r>протез<s n="n"/></r></p></e>
+	<e c="  0"><p><l>protokol<s n="n"/></l><r>протокол<s n="n"/></r></p></e>
+	<e c="  0"><p><l>psikiyatri<s n="n"/></l><r>психиатрия<s n="n"/></r></p></e>
+	<e c="  0"><p><l>psikolog<s n="n"/></l><r>психолог<s n="n"/></r></p></e>
+	<e c="  0"><p><l>psikoloji<s n="n"/></l><r>психология<s n="n"/></r></p></e>
+	<e c="  0"><p><l>psikopat<s n="n"/></l><r>психопат<s n="n"/></r></p></e>
+	<e c="  0"><p><l>psikoz<s n="n"/></l><r>психоз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>puding<s n="n"/></l><r>пудинг<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pudra<s n="n"/></l><r>пудра<s n="n"/></r></p></e>
+	<e c="  0"><p><l>put<s n="n"/></l><r>бут<s n="n"/></r></p></e>
+	<e slr="1"><p><l>put<s n="n"/></l><r>идол<s n="n"/></r></p></e>
+	<e c="  0"><p><l>putperest<s n="n"/></l><r>бутпарас<s n="n"/></r></p></e>
 	<e c="  0"><p><l> <s n="n"/></l><r> <s n="n"/></r></p></e>
-	
+
+
 
 	<e c="  0"><p><l>kız<s n="n"/></l><r>кыз<s n="n"/></r></p></e>
         <e c="  0"><p><l>dünya<s n="n"/></l><r>дүйнө<s n="n"/></r></p></e>
@@ -1398,7 +1521,13 @@
 	<e c="  0"><p><l>otoriter<s n="adj"/></l><r>авторитардык<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>oynak<s n="adj"/></l><r>ойноок<s n="adj"/></r></p></e>
 	<e slr="1"><p><l>oynak<s n="adj"/></l><r>оюнкарак<s n="adj"/></r></p></e>
-	<e c="  0"><p><l> <s n="adj"/></l><r> <s n="adj"/></r></p></e>
+	<e c="  0"><p><l>pak<s n="adj"/></l><r>пакиза<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>pasif<s n="adj"/></l><r>пассивдүү<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>patolojik<s n="adj"/></l><r>патологиялык<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>pişman<s n="adj"/></l><r>бушайман<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>politeknik<s n="adj"/></l><r>политехникалык<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>popüler<s n="adj"/></l><r>популярдуу<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>psikolojik<s n="adj"/></l><r>психологиялык<s n="adj"/></r></p></e>
 	
         <!-- SECTION: Adverbs -->
 
