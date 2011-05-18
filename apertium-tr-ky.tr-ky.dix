@@ -1373,10 +1373,83 @@
 	<e c="  0"><p><l>put<s n="n"/></l><r>бут<s n="n"/></r></p></e>
 	<e slr="1"><p><l>put<s n="n"/></l><r>идол<s n="n"/></r></p></e>
 	<e c="  0"><p><l>putperest<s n="n"/></l><r>бутпарас<s n="n"/></r></p></e>
-	<e c="  0"><p><l> <s n="n"/></l><r> <s n="n"/></r></p></e>
-
-
-
+	<e c="  0"><p><l>radar<s n="n"/></l><r>радар<s n="n"/></r></p></e>
+	<e c="  0"><p><l>radikalizm<s n="n"/></l><r>радикализм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>radyasyon<s n="n"/></l><r>радиация<s n="n"/></r></p></e>
+	<e c="  0"><p><l>radyatör<s n="n"/></l><r>радиатор<s n="n"/></r></p></e>
+	<e c="  0"><p><l>radyo<s n="n"/></l><r>радио<s n="n"/></r></p></e>
+	<e c="  0"><p><l>radyoelektrik<s n="n"/></l><r>радиоэлектрик<s n="n"/></r></p></e>
+	<e c="  0"><p><l>radyogram<s n="n"/></l><r>радиограмма<s n="n"/></r></p></e>
+	<e c="  0"><p><l>radyum<s n="n"/></l><r>радий<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rakı<s n="n"/></l><r>арак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rapor<s n="n"/></l><r>рапорт<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rasyonalist<s n="n"/></l><r>рационалист<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rasyonalizm<s n="n"/></l><r>рационализм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>reaktör<s n="n"/></l><r>реактор<s n="n"/></r></p></e>
+	<e c="  0"><p><l>realizm<s n="n"/></l><r>реализм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>redaksiyon<s n="n"/></l><r>редакция<s n="n"/></r></p></e>
+	<e c="  0"><p><l>redaktör<s n="n"/></l><r>редактор<s n="n"/></r></p></e>
+	<e c="  0"><p><l>referans<s n="n"/></l><r>реферанс<s n="n"/></r></p></e>
+	<e c="  0"><p><l>refleks<s n="n"/></l><r>рефлекс<s n="n"/></r></p></e>
+	<e c="  0"><p><l>reform<s n="n"/></l><r>реформа<s n="n"/></r></p></e>
+	<e c="  0"><p><l>regülator<s n="n"/></l><r>регулятор<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rejisör<s n="n"/></l><r>режиссёр<s n="n"/></r></p></e>
+	<e c="  0"><p><l>reklam<s n="n"/></l><r>реклама<s n="n"/></r></p></e>
+	<e slr="1"><p><l>reklam<s n="n"/></l><r>жарнама<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rektör<s n="n"/></l><r>ректор<s n="n"/></r></p></e>
+	<e c="  0"><p><l>renk<s n="n"/></l><r>ирең<s n="n"/></r></p></e>
+	<e slr="1"><p><l>renk<s n="n"/></l><r>ыраң<s n="n"/></r></p></e>
+	<e c="  0"><p><l>repertuar<s n="n"/></l><r>репертуар<s n="n"/></r></p></e>
+	<e c="  0"><p><l>reprodüksiyon<s n="n"/></l><r>репродукция<s n="n"/></r></p></e>
+	<e c="  0"><p><l>restoran<s n="n"/></l><r>ресторан<s n="n"/></r></p></e>
+	<e c="  0"><p><l>restorasyon<s n="n"/></l><r>реставрация<s n="n"/></r></p></e>
+	<e c="  0"><p><l>restore<s n="n"/></l><r>реставрация<s n="n"/></r></p></e>
+	<e c="  0"><p><l>revizyon<s n="n"/></l><r>ревизия<s n="n"/></r></p></e>
+	<e c="  0"><p><l>revizyonizm<s n="n"/></l><r>ревизионизм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>revolver<s n="n"/></l><r>револьвер<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rezerv<s n="n"/></l><r>резерв<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rezonans<s n="n"/></l><r>резонанс<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ring<s n="n"/></l><r>ринг<s n="n"/></r></p></e>
+	<e c="  0"><p><l>risk<s n="n"/></l><r>риск<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ritim<s n="n"/></l><r>ритм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rivayet<s n="n"/></l><r>рабаят<s n="n"/></r></p></e>
+	<e c="  0"><p><l>robot<s n="n"/></l><r>робот<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rodyum<s n="n"/></l><r>родий<s n="n"/></r></p></e>
+	<e c="  0"><p><l>roket<s n="n"/></l><r>ракета<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rol<s n="n"/></l><r>роль<s n="n"/></r></p></e>
+	<e c="  0"><p><l>roman<s n="n"/></l><r>роман<s n="n"/></r></p></e>
+	<e c="  0"><p><l>romans<s n="n"/></l><r>романс<s n="n"/></r></p></e>
+	<e c="  0"><p><l>romantik<s n="n"/></l><r>романтика<s n="n"/></r></p></e>
+	<e c="  0"><p><l>romantizm<s n="n"/></l><r>романтизм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>romatizma<s n="n"/></l><r>ревматизм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rubidyum<s n="n"/></l><r>рубидий<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ruh<s n="n"/></l><r>рух<s n="n"/></r></p></e>
+	<e slr="1"><p><l>ruh<s n="n"/></l><r>жан<s n="n"/></r></p></e>
+	<e slr="2"><p><l>ruh<s n="n"/></l><r>арбак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ruhaniyet<s n="n"/></l><r>руханият<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rulet<s n="n"/></l><r>рулет<s n="n"/></r></p></e>
+	<e c="  0"><p><l>röportaj<s n="n"/></l><r>репортаж<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rövanş<s n="n"/></l><r>реванш<s n="n"/></r></p></e>
+	<e c="  0"><p><l>rızk<s n="n"/></l><r>ырыскы<s n="n"/></r></p></e>
+	<e c="  0"><p><l>saat<s n="n"/></l><r>саат<s n="n"/></r></p></e>
+	<e c="  0"><p><l>sabun<s n="n"/></l><r>самын<s n="n"/></r></p></e>
+	<e c="  0"><p><l>sabır<s n="n"/></l><r>сабыр<s n="n"/></r></p></e>
+	<e c="  0"><p><l>sadaka<s n="n"/></l><r>садага<s n="n"/></r></p></e>
+	<e c="  0"><p><l>sahne<s n="n"/></l><r>сахна<s n="n"/></r></p></e>
+	<e c="  0"><p><l>sak<s n="n"/></l><r>сак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>sakal<s n="n"/></l><r>сакал<s n="n"/></r></p></e>
+	<e c="  0"><p><l>saksağan<s n="n"/></l><r>сагызган<s n="n"/></r></p></e>
+	<e c="  0"><p><l>salon<s n="n"/></l><r>салон<s n="n"/></r></p></e>
+	<e c="  0"><p><l>saltanat<s n="n"/></l><r>салтанат<s n="n"/></r></p></e>
+	<e slr="1"><p><l>saltanat<s n="n"/></l><r>башкаруу<s n="n"/></r></p></e>
+	<e c="  0"><p><l>sandviç<s n="n"/></l><r>сандвич<s n="n"/></r></p></e>
+	<e c="  0"><p><l>sansasyon<s n="n"/></l><r>сенсация<s n="n"/></r></p></e>
+	<e c="  0"><p><l>sansür<s n="n"/></l><r>цензура<s n="n"/></r></p></e>
+	<e c="  0"><p><l>sarf<s n="n"/></l><r>чыгым<s n="n"/></r></p></e>
+	<e slr="1"><p><l>sarf<s n="n"/></l><r>сарп<s n="n"/></r></p></e>
+	<e c="  0"><p><l>saz<s n="n"/></l><r>саз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>sağmal<s n="n"/></l><r>сакмал<s n="n"/></r></p></e>
+  
 	<e c="  0"><p><l>kız<s n="n"/></l><r>кыз<s n="n"/></r></p></e>
         <e c="  0"><p><l>dünya<s n="n"/></l><r>дүйнө<s n="n"/></r></p></e>
         <e c="  0"><p><l>elma<s n="n"/></l><r>алма<s n="n"/></r></p></e>
@@ -1528,6 +1601,11 @@
 	<e c="  0"><p><l>politeknik<s n="adj"/></l><r>политехникалык<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>popüler<s n="adj"/></l><r>популярдуу<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>psikolojik<s n="adj"/></l><r>психологиялык<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>radyoaktif<s n="adj"/></l><r>радиоактивдүү<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>rasyonel<s n="adj"/></l><r>рационалдуу<s n="adj"/></r></p></e>
+	<e c="  0"><p><l> <s n="adj"/></l><r> <s n="adj"/></r></p></e>
+	<e c="  0"><p><l> <s n="adj"/></l><r> <s n="adj"/></r></p></e>
+	<e c="  0"><p><l> <s n="adj"/></l><r> <s n="adj"/></r></p></e>
 	
         <!-- SECTION: Adverbs -->
 
