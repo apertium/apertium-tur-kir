@@ -2081,6 +2081,36 @@
 	<e c="  0"><p><l>yarın<s n="adv"/></l><r>эртең<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>en<s n="adv"/></l><r>эң<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>ertesi<s n="adv"/></l><r>эртеси<s n="adv"/></r></p></e>
+	<!-- added from apertium-tr-az -->
+	<e c="  0"><p><l>yarın<s n="adv"/></l><r>эртең<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>çok<s n="adv"/></l><r>көп<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>en<s n="adv"/></l><r>эң<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>yok<s n="adv"/></l><r>жок<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>hep<s n="adv"/></l><r>ар<b/>дайым<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>sonra<s n="adv"/></l><r>кийин<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>aslında<s n="adv"/></l><r>негизи<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>daha<s n="adv"/></l><r>дагы<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>ancak<s n="adv"/></l><r>бирок<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>önce<s n="adv"/></l><r>мурда<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>birlikte<s n="adv"/></l><r>бирдикте<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>karşı<s n="adv"/></l><r>каршы<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>ilk<s n="adv"/></l><r>биринчи<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>ayrıca<s n="adv"/></l><r>сырткары<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>yeniden<s n="adv"/></l><r>жаңыдан<s n="adv"/></r></p></e> <!-- not sure it is an adv -->
+    <e c="  0"><p><l>geri<s n="adv"/></l><r>артка<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>fazla<s n="adv"/></l><r>ашыкча<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>öte<s n="adv"/></l><r>ары<s n="adv"/></r></p></e>
+    <!--<e><p><l>ne<s n="adv"/></l><r>nə<s n="adv"/></r></p></e>-->
+    <e c="  0"><p><l>yalnızca<s n="adv"/></l><r>жалгызча<s n="adv"/></r></p></e> <!-- not sure -->
+    <e c="  0"><p><l>yine<s n="adv"/></l><r>жана<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>az<s n="adv"/></l><r>аз<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>hem<s n="adv"/></l><r>дагы<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>ileri<s n="adv"/></l><r>илгери<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>erken<s n="adv"/></l><r>эрте<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>sonunda<s n="adv"/></l><r>соңунда<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>pek<s n="adv"/></l><r>бек<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>tekrar<s n="adv"/></l><r>кайрадан<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>başlıca<s n="adv"/></l><r>башы<b/>башына<s n="adv"/></r></p></e>
 		
         <!-- SECTION: Verbs -->
 
