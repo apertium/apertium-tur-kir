@@ -2144,7 +2144,15 @@
 	<e><p><l>genelde<s n="adv"/></l><r>көбүнчө<s n="adv"/></r></p></e>
 	<e><p><l>nerede<s n="adv"/></l><r>кайакта<s n="adv"/></r></p></e>
 	<e><p><l>şimdilik<s n="adv"/></l><r>азырынча<s n="adv"/></r></p></e>
-		    
+	<e><p><l>birden<s n="adv"/></l><r>кокустан<s n="adv"/></r></p></e>  <!-- check -->
+	<e><p><l>hayır<s n="adv"/></l><r>жок<s n="adv"/></r></p></e>  
+	<e><p><l>böylece<s n="adv"/></l><r>ушундайча<s n="adv"/></r></p></e>  
+	<e><p><l>nispeten<s n="adv"/></l><r>аз да болсо<s n="adv"/></r></p></e>
+	<e><p><l>muhtemelen<s n="adv"/></l><r>ыктымал<s n="adv"/></r></p></e>  
+	<e><p><l>belki<s n="adv"/></l><r>балким<s n="adv"/></r></p></e>
+	<e><p><l>evet<s n="adv"/></l><r>ооба<s n="adv"/></r></p></e>  
+	<e><p><l>aksine<s n="adv"/></l><r>терсине<s n="adv"/></r></p></e>
+	    
         <!-- SECTION: Verbs -->
 
 	<e c="  0"><p><l>var<s n="exist"/></l><r>бар<s n="v"/><s n="exi"/></r></p></e>
@@ -2374,7 +2382,7 @@
 	<e c="  0"><p><l>zıpla<s n="v"/></l><r>секир<s n="v"/></r></p></e>
 	<!--<e><p><l>zırla<s n="v"/></l><r>zırılda<s n="v"/></r></p></e>-->
 	<e c="  0"><p><l>zorla<s n="v"/></l><r>кыйна<s n="v"/></r></p></e>
-
+	
         <!-- SECTION: Punctuation -->
 
    </section>
