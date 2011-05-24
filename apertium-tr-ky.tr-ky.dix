@@ -2153,6 +2153,22 @@
 	<e c="  0"><p><l>tamam<s n="adj"/></l><r>бүтүн<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>sanık<s n="adj"/></l><r>күмөндүү<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>erkek<s n="adj"/></l><r>еркек<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>milli<s n="adj"/></l><r>мамлекеттик<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>belirli<s n="adj"/></l><r>белгилүү<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>çok<s n="adj"/></l><r>көп<s n="adj"/></r></p></e>
+	<e slr="1"><p><l>çok<s n="adj"/></l><r>абдан<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>yeşil<s n="adj"/></l><r>жашыл<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>profesyonel<s n="adj"/></l><r>ишин<b/>билген<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>ölü<s n="adj"/></l><r>өлгүк<s n="adj"/></r></p></e>
+	<e c="  0"><p>sıkı<l> <s n="adj"/></l><r>бэк<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>yoğun<s n="adj"/></l><r>койуу<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>uzak<s n="adj"/></l><r>алыс<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>yanlış<s n="adj"/></l><r>туура<b/>эмес<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>sahte<s n="adj"/></l><r>жасалма<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>kapalı<s n="adj"/></l><r>жабык<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>hafif<s n="adj"/></l><r>жеңил<s n="adj"/></r></p></e>
+	<e c="  0"><p><l> <s n="adj"/></l><r> <s n="adj"/></r></p></e>
+	
     
         <!-- SECTION: Adverbs -->
 
