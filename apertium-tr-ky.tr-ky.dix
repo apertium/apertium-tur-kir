@@ -367,6 +367,99 @@
 	<e c="  0"><p><l>bıyık<s n="n"/></l><r>мыйык<s n="n"/></r></p></e>
 	<e slr="1"><p><l>bıyık<s n="n"/></l><r>мурут<s n="n"/></r></p></e>
 	<e c="  0"><p><l>bıçak<s n="n"/></l><r>бычак<s n="n"/></r></p></e>
+	<!-- from apertium-tr-az -->
+	<e c="  0"><p><l>baba<s n="n"/></l><r>ата<s n="n"/></r></p></e>
+	<e c="  0"><p><l>baca<s n="n"/></l><r>мор<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bacak<s n="n"/></l><r>бут<s n="n"/></r></p></e>
+	<e c="  0"><p><l>badana<s n="n"/></l><r>аки<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bağ<s n="n"/></l><r>боо<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bağlantı<s n="n"/></l><r>байланыш<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bahane<s n="n"/></l><r>шылтоо<s n="n"/></r></p></e>
+	<e c="  0"><p><l>baharat<s n="n"/></l><r>бахарат<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bahar<s n="n"/></l><r>жаз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bahçe<s n="n"/></l><r>бакча<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bahis<s n="n"/></l><r>мелдеш<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bahtiyar<s n="n"/></l><r>бактыяр<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bahtiyar<s n="n"/></l><r>бактылуу<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bakan<s n="n"/></l><r>министр<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bakır<s n="n"/></l><r>жез<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bakkal<s n="n"/></l><r>дүкөнчө<s n="n"/></r></p></e>
+	<e c="  0"><p><l>balık<s n="n"/></l><r>балык<s n="n"/></r></p></e>
+	<e c="  0"><p><l>balon<s n="n"/></l><r>шар<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bant<s n="n"/></l><r>лента<s n="n"/></r></p></e>
+	<e c="  0"><p><l>banyo<s n="n"/></l><r>баня<s n="n"/></r></p></e>
+	<e c="  0"><p><l>baraj<s n="n"/></l><r>бараж<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bardak<s n="n"/></l><r>стакан<s n="n"/></r></p></e>
+	<e c="  0"><p><l>barış<s n="n"/></l><r>тынчтык<s n="n"/></r></p></e>
+	<e c="  0"><p><l>başarı<s n="n"/></l><r>ийгилик<s n="n"/></r></p></e>
+	<e c="  0"><p><l>başbakan<s n="n"/></l><r>примиер<b/>министр<s n="n"/></r></p></e>
+	<e c="  0"><p><l>başınç<s n="n"/></l><r>басым<s n="n"/></r></p></e>
+	<e c="  0"><p><l>basın<s n="n"/></l><r>басма<b/>сөз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>başkan<s n="n"/></l><r>башчы<s n="n"/></r></p></e>
+	<e c="  0"><p><l>başkent<s n="n"/></l><r>баш<b/>калаа<s n="n"/></r></p></e>
+	<e c="  0"><p><l>başlık<s n="n"/></l><r>тема<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bati<s n="n"/></l><r>герб<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bavul<s n="n"/></l><r>түйүнчөк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bayan<s n="n"/></l><r>аял<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bay<s n="n"/></l><r>мырза<s n="n"/></r></p></e>
+	<e c="  0"><p><l>baykuş<s n="n"/></l><r>төө<b/>куш<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bekar<s n="n"/></l><r>бойдок<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bekçi<s n="n"/></l><r>кароолчу<s n="n"/></r></p></e>
+	<e c="  0"><p><l>belediye<s n="n"/></l><r>мерия<s n="n"/></r></p></e>
+	<e c="  0"><p><l>belge<s n="n"/></l><r>документ<s n="n"/></r></p></e>
+	<e c="  0"><p><l>belgesel<s n="n"/></l><r>документалдуу<b/>тасма<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bel<s n="n"/></l><r>бел<s n="n"/></r></p></e>
+	<e c="  0"><p><l>beraat<s n="n"/></l><r>боштондук<s n="n"/></r></p></e>
+	<e c="  0"><p><l>berber<s n="n"/></l><r>чач<b/>тарач<s n="n"/></r></p></e>
+	<e c="  0"><p><l>beşeriyet<s n="n"/></l><r>пендечилик<s n="n"/></r></p></e>
+	<e c="  0"><p><l>beşik<s n="n"/></l><r>бешик<s n="n"/></r></p></e>
+	<e c="  0"><p><l>besin<s n="n"/></l><r>тоют<s n="n"/></r></p></e>
+	<e c="  0"><p><l>beste<s n="n"/></l><r>обон<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bet<s n="n"/></l><r>бэт<s n="n"/></r></p></e>
+	<e c="  0"><p><l>beyin<s n="n"/></l><r>мээ<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bezeliye<s n="n"/></l><r>буурчак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>biber<s n="n"/></l><r>калемпир<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bıçak<s n="n"/></l><r>бычак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bilanço<s n="n"/></l><r>баланс<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bildiri<s n="n"/></l><r>билдирүү<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bilgi<s n="n"/></l><r>маалымат<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bilgin<s n="n"/></l><r>билерман<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bilgisayar<s n="n"/></l><r>компютер<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bilinç<s n="n"/></l><r>şüur<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bina<s n="n"/></l><r>имарат<s n="n"/></r></p></e>
+	<e c="  0"><p><l>birey<s n="n"/></l><r>мүчөө<s n="n"/></r></p></e>
+	<e c="  0"><p><l>birim<s n="n"/></l><r>бирикме<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bisiklet<s n="n"/></l><r>белосипед<s n="n"/></r></p></e>
+	<e slr="1"><p><l>bisiklet<s n="n"/></l><r>шайтан<b/>араба<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bit<s n="n"/></l><r>бит<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bitki<s n="n"/></l><r>өсүмдүк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>biyografi<s n="n"/></l><r>биография<s n="n"/></r></p></e>
+	<e c="  0"><p><l>böbrek<s n="n"/></l><r>бөйрөк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>böcek<s n="n"/></l><r>курт<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bodrum<s n="n"/></l><r>подвал<s n="n"/></r></p></e>
+	<e c="  0"><p><l>boğaz<s n="n"/></l><r>кекиртек<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bölge<s n="n"/></l><r>аймак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>borç<s n="n"/></l><r>карыз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bordro<s n="n"/></l><r>чот<b/>кара<s n="n"/></r></p></e>
+	<e c="  0"><p><l>boru<s n="n"/></l><r>түтүк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bostan<s n="n"/></l><r>таяк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>boya<s n="n"/></l><r>бойек<s n="n"/></r></p></e>
+	<e c="  0"><p><l>boy<s n="n"/></l><r>бой<s n="n"/></r></p></e>
+	<e c="  0"><p><l>boynyz<s n="n"/></l><r>мүйүз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>boyut<s n="n"/></l><r>өлчөм<s n="n"/></r></p></e>
+	<e c="  0"><p><l>branş<s n="n"/></l><r>тармак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bronz<s n="n"/></l><r>бронз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>broşür<s n="n"/></l><r>брошюра<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bura<s n="n"/>v</l><r>бул<b/>жак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>burç<s n="n"/></l><r>жылдыз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bürokrasi<s n="n"/></l><r>бюрократия<s n="n"/></r></p></e>
+	<e c="  0"><p><l>burs<s n="n"/></l><r>стипендия<s n="n"/></r></p></e>
+	<e c="  0"><p><l>burun<s n="n"/></l><r>мурун<s n="n"/></r></p></e>
+	<e c="  0"><p><l>buse<s n="n"/></l><r>шуру<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bütçe<s n="n"/></l><r>бюджет<s n="n"/></r></p></e>
+	<e c="  0"><p><l>büyü<s n="n"/></l><r>сыйкыр<s n="n"/></r></p></e>
+	<e c="  0"><p><l>büyüteç<s n="n"/></l><r>лупа<s n="n"/></r></p></e>
+	<!--apertium-tr-az b end -->
 	<e c="  0"><p><l>canavar<s n="n"/></l><r>жаныбар<s n="n"/></r></p></e>
 	<e slr="1"><p><l>canavar<s n="n"/></l><r>айбан<s n="n"/></r></p></e>
 	<e c="  0"><p><l>car<s n="n"/></l><r>жар<s n="n"/></r></p></e>
