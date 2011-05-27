@@ -488,6 +488,102 @@
 	<e c="  0"><p><l>coğrafya<s n="n"/></l><r>география<s n="n"/></r></p></e>
 	<e c="  0"><p><l>cumhuriyet<s n="n"/></l><r>республика<s n="n"/></r></p></e>
 	<e slr="1"><p><l>cumhuriyet<s n="n"/></l><r>жумуруят<s n="n"/></r></p></e>
+	
+	<!-- from apertium-tr-az c-ç-->
+	<e c="  0"><p><l>çaba<s n="n"/></l><r>чаба<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cadde<s n="n"/></l><r>көчө<s n="n"/></r></p></e> <!-- CHECK -->
+	<e c="  0"><p><l>çadı<s n="n"/></l><r>жескемпир<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çadır<s n="n"/></l><r>чатыр<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çağdaş<s n="n"/></l><r>заманбап<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çağ<s n="n"/></l><r>чак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çağrışım<s n="n"/></l><r>элес<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çakal<s n="n"/></l><r>шакал<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çamasır<s n="n"/></l><r>кир<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cam<s n="n"/></l><r>айнек<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çam<s n="n"/></l><r>карагай<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cami<s n="n"/></l><r>мечит<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çamur<s n="n"/></l><r>баткак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çanak<s n="n"/></l><r>кесе<s n="n"/></r></p></e>
+	<e c="  0"><p><l>canavar<s n="n"/></l><r>ажыдаар<s n="n"/></r></p></e>
+	<e c="  0"><p><l>can<s n="n"/></l><r>жан<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çan<s n="n"/></l><r>zəng<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cani<s n="n"/></l><r>желмогуз<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cankurtaran<s n="n"/></l><r>жан сакчы<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çanta<s n="n"/></l><r>сумка<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çap<s n="n"/></l><r>диаметр<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çare<s n="n"/></l><r>чара<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çark<s n="n"/></l><r>чарык<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çarşaf<s n="n"/></l><r>шейшеп<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çarsı<s n="n"/></l><r>базар<s n="n"/></r></p></e>
+	<e c="  0"><p><l>casus<s n="n"/></l><r>агент<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çatal<s n="n"/></l><r>вилка<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çay<s n="n"/></l><r>чай<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çayır<s n="n"/></l><r>чайыр<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çaylak<s n="n"/></l><r>чайлак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cazibe<s n="n"/></l><r>тартылуу<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cehalet<s n="n"/></l><r>сабатсыздык<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cehennem<s n="n"/></l><r>тозок<s n="n"/></r></p></e>
+        <e c="  0"><p><l>çekecek<s n="n"/></l><r>тартуу<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çekiç<s n="n"/></l><r>сууругуч<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çekim<s n="n"/></l><r>тартулуу күчү<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çekirdek<s n="n"/></l><r>данек<s n="n"/></r></p></e>
+        <e c="  0"><p><l>çelişki<s n="n"/></l><r>тууракелбестик<s n="n"/></r></p></e>
+        <e c="  0"><p><l>cemaat<s n="n"/></l><r>жамаат<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çember<s n="n"/></l><r>айлана<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çene<s n="n"/></l><r>жаак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cephe<s n="n"/></l><r>майдан<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cereyan<s n="n"/></l><r>сквозняк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çerez<s n="n"/></l><r>семичка<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cerrah<s n="n"/></l><r>хирург<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cesaret<s n="n"/></l><r>эрдик<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çeşit<s n="n"/></l><r>түр<s n="n"/></r></p></e>
+        <e c="  0"><p><l>cesur<s n="n"/></l><r>эр<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cetvel<s n="n"/></l><r>сызгыч<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cevap<s n="n"/></l><r>жооп<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cevher<s n="n"/></l><r>каухар<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çevik<s n="n"/></l><r>сталь<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ceviz<s n="n"/></l><r>жангак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çeviri<s n="n"/></l><r>котормо<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çeylan<s n="n"/></l><r>элик<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çeyrek<s n="n"/></l><r>чейрек<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ceza<s n="n"/></l><r>жаза<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çıban<s n="n"/></l><r>сыздоок<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çiçek<s n="n"/></l><r>гүл<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ciddi<s n="n"/></l><r>токтоо<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çiftçi<s n="n"/></l><r>фермер<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ciğer<s n="n"/></l><r>боор<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çiğ<s n="n"/></l><r>күрткү<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cihan<s n="n"/></l><r>дүйнө<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cihat<s n="n"/></l><r>жихад<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çıkış<s n="n"/></l><r>чыгуу<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cila<s n="n"/></l><r>лак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çilek<s n="n"/></l><r>кулпунай<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cilt<s n="n"/></l><r>том<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çimento<s n="n"/></l><r>цемент<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cin<s n="n"/></l><r>жин<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çini<s n="n"/></l><r>чыны<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çinko<s n="n"/></l><r>күкүрт<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cinnet<s n="n"/></l><r>жиндилик<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cinsiyet<s n="n"/></l><r>жыныс<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çıplak<s n="n"/></l><r>жыңалач<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çırak<s n="n"/></l><r>чырак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cisim<s n="n"/></l><r>нерсе<s n="n"/></r></p></e>
+	<e c="  0"><p><l>civar<s n="n"/></l><r>жак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çizgi<s n="n"/></l><r>чийин<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çocuk<s n="n"/></l><r>бала<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çoğul<s n="n"/></l><r>көптүк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çoğunluk<s n="n"/></l><r>көпчүлүк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çomak<s n="n"/></l><r>чыбык<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cömert<s n="n"/></l><r>жоомарт<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çorap<s n="n"/></l><r>байпак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çorba<s n="n"/></l><r>шорпо<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cüce<s n="n"/></l><r>эргежээл<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cuma<s n="n"/></l><r>жума<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cumartesi<s n="n"/></l><r>ишенби<s n="n"/></r></p></e>
+	<e c="  0"><p><l>çuval<s n="n"/></l><r>мүшөк<s n="n"/></r></p></e>  
+	<e c="  0"><p><l>cüzdan<s n="n"/></l><r>капчык<s n="n"/></r></p></e>  
+	<!-- aperium-tr-az c-ç end --> 
+	
 	<e c="  0"><p><l>dalalet<s n="n"/></l><r>жаңылыштык<s n="n"/></r></p></e>
 	<e c="  0"><p><l>dam<s n="n"/></l><r>там<s n="n"/></r></p></e>
 	<e c="  0"><p><l>damar<s n="n"/></l><r>тамыр<s n="n"/></r></p></e>
