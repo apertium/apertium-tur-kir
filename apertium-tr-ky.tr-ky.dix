@@ -1397,7 +1397,91 @@
 	<e c="  0"><p><l>ihanet<s n="n"/></l><r>саткындык<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>ihbar<s n="n"/></l><r>соз<b/>ташуу<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>ihlal<s n="n"/></l><r>бузуу<s n="n"/></r></p></e> 
-	<e c="  0"><p><l>ihmal<s n="n"/></l><r>шалаакылык<s n="n"/></r></p></e>   
+	<e c="  0"><p><l>ihmal<s n="n"/></l><r>шалаакылык<s n="n"/></r></p></e>  
+	<e c="  0"><p><l>ihracat<s n="n"/></l><r>експорт<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ihtar<s n="n"/></l><r>эскертүү<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ihtişam<s n="n"/></l><r>келбет<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ihtiyat<s n="n"/></l><r>этият<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ikame<s n="n"/></l><r>оорун<b/>элөө<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ikamet<s n="n"/></l><r>оорун<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ikaz<s n="n"/></l><r>кабар<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>iklim<s n="n"/></l><r>климат<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ikna<s n="n"/></l><r>көндүрүү<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ikramiye<s n="n"/></l><r>сый<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>iktidar<s n="n"/></l><r>бийлик<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ilaç<s n="n"/></l><r>даары<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ilah<s n="n"/></l><r>теңир<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ilahiyat<s n="n"/></l><r>теология<s n="n"/></r></p></e>        
+	<e c="  0"><p><l>ilan<s n="n"/></l><r>кулактандыруу<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ilave<s n="n"/></l><r>кошумча<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ilçe<s n="n"/></l><r>район<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>iletişim<s n="n"/></l><r>байланыш<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ilgi<s n="n"/></l><r>алака<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ilginç<s n="n"/></l><r>кызык<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ilham<s n="n"/></l><r>илхом<s n="n"/></r></p></e>
+	<e c="  0"><p><l>il<s n="n"/></l><r>облас<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ilişik<s n="n"/></l><r>жармашкан<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ilişki<s n="n"/></l><r>катнаш<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ilkbahar<s n="n"/></l><r>жаз<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ilke<s n="n"/></l><r>өлкө<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ilmek<s n="n"/></l><r>илмек<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>iltimas<s n="n"/></l><r>карамак<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>imam<s n="n"/></l><r>имам<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>imdat<s n="n"/></l><r>жардам<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>imkan<s n="n"/></l><r>мүмкүнчүлүк<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>inanç<s n="n"/></l><r>ишеним<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>inat<s n="n"/></l><r>өжөрлүк<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>incir<s n="n"/></l><r>анжир<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>indirim<s n="n"/></l><r>арзандатуу<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>inek<s n="n"/></l><r>уй<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>infaz<s n="n"/></l><r>өкүм<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>in<s n="n"/></l><r>иин<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>inkar<s n="n"/></l><r>тануу<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>inşaat<s n="n"/></l><r>курулуш<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>inşa<s n="n"/></l><r>куруу<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>insan<s n="n"/></l><r>инсан<s n="n"/></r></p></e> 
+	<e slr="1"><p><l>insan<s n="n"/></l><r>киши<s n="n"/></r></p></e>
+	<e c="  0"><p><l>intihar<s n="n"/></l><r>өзүн<b/>өлтүрүү<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>intikam<s n="n"/></l><r>өч<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ipek<s n="n"/></l><r>жибек<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ip<s n="n"/></l><r>жип<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ipotek<s n="n"/></l><r>ипотека<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>iptal<s n="n"/></l><r>жокко<b/>чыгаруу<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>irade<s n="n"/></l><r>эрк<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ırk<s n="n"/></l><r>улут<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>irtibat<s n="n"/></l><r>карым<b/>катнаш<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>irtifa<s n="n"/></l><r>бийиктик<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ırz<s n="n"/></l><r>ар<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>isabet<s n="n"/></l><r>дал<b/>кэлүү<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>işçi<s n="n"/></l><r>ишчи<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>işgal<s n="n"/></l><r>басып<b/>алуу<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>is<s n="n"/></l><r>сезим<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ışık<s n="n"/></l><r>жарык<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>isim<s n="n"/></l><r>ысым<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>iskan<s n="n"/></l><r>жайгаштыруу<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>iskelet<s n="n"/></l><r>скелет<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>işkence<s n="n"/></l><r>кыйноо<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ispat<s n="n"/></l><r>далил<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>israf<s n="n"/></l><r>ысрап<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>istek<s n="n"/></l><r>каало<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>istifa<s n="n"/></l><r>отставка<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>istiklal<s n="n"/></l><r>истиклал<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>istikrar<s n="n"/></l><r>туруктуулук<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>istirahat<s n="n"/></l><r>эс<b/>алуу<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>iştirak<s n="n"/></l><r>iştirak<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>istişare<s n="n"/></l><r>кеңеш<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>isyan<s n="n"/></l><r>баш<b/>көтөрүү<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>itaat<s n="n"/></l><r>баш<b/>ийүү<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>itfaiye<s n="n"/></l><r>өрт<b/>өчүргүч<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>itham<s n="n"/></l><r>сураныч<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>itibar<s n="n"/></l><r>етибар<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>itiraf<s n="n"/></l><r>мойнуна<b/>алуу<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ittifak<s n="n"/></l><r>биригүү<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>izin<s n="n"/></l><r>уруксаат<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>izlenim<s n="n"/></l><r>көрүнүш<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>izmarit<s n="n"/></l><r>пучок<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>jest<s n="n"/></l><r>жест<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>jet<s n="n"/></l><r>реактивдүү<s n="n"/></r></p></e> 
 	<!-- from apertium-tr-az i	end -->
 	<e c="  0"><p><l>jaguar<s n="n"/></l><r>ягуар<s n="n"/></r></p></e>
 	<e c="  0"><p><l>jaluzi<s n="n"/></l><r>жалюзи<s n="n"/></r></p></e>
@@ -2866,7 +2950,9 @@
 	<e c="  0"><p><l>kapalı<s n="adj"/></l><r>жабык<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>hafif<s n="adj"/></l><r>жеңил<s n="adj"/></r></p></e>
 	<e c="  0"><p><l> <s n="adj"/></l><r> <s n="adj"/></r></p></e>
-	
+	<!-- 	from apertium-tr-az i -->
+	<e c="  0"><p><l>insani<s n="adj"/></l><r>инсанча<s n="adj"/></r></p></e> 
+	<e slr="1"><p><l>insani<s n="adj"/></l><r>кишиче<s n="adj"/></r></p></e>
     
         <!-- SECTION: Adverbs -->
 
