@@ -74,6 +74,9 @@ Vx:Vy <=> FrontRndVow: CnsFrontRndVowSB:* Cns %>:     CnsFrontRndVow:* _ ; ! ?C>
 "L Desonorisation"
 %{L%}:д <=> VoicedNonSonCns %>:  _ ;
 
+"P Desonorisation"
+п:б <=> Vow _ %>: Vow ;
+
 "N Desonorisation"
 %{N%}:д <=> [ SonCns | VoicedNonSonCns ] %>:  _ ;
 
