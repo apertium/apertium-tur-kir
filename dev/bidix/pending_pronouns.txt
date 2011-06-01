@@ -1,16 +1,13 @@
-   8324 ^@başka<prn>$
-   2102 ^@kendi<prn>$
-   1370 ^@şu<prn>$
-    403 ^@şey<prn>$
-    234 ^@kim<prn>$
+   7691 ^@başka<prn>$
+   2022 ^@kendi<prn>$
+    203 ^@kim<prn>$
+    156 ^@şu<prn>$
      73 ^@böyle<prn>$
      34 ^@nere<prn>$
-     32 ^@ne<prn>$
-     18 ^@hangi<prn>$
+     30 ^@ne<prn>$
+     19 ^@hangi<prn>$
      15 ^@ne<prn>$?
-     10 ^@başka<prn>$.
-      7 ^@şey<prn>$.
-      4 ^@şey<prn>$."
+      9 ^@başka<prn>$.
       2 ^@şöyle<prn>$
       2 ^@öyle<prn>$
       2 ^@kendi<prn>$.
