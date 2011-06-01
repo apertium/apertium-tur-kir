@@ -134,3 +134,11 @@ Tests:
 
   "[lexc] Relativised locative":
     дүйнө<n><rloc> : дүйнөдөгү
+
+  "[lexc] p desonorization into b when Vow p Vow":
+    мектеп<n><px1sg><nom> : мектебим
+    китеп<n><px1sg><nom> : китебим
+    арип<n><px1sg><nom> : арибим
+    арап<n><px1sg><nom> : арабым
+    азап<n><px1sg><nom> : азабым
+    зайып<n><px1sg><nom> : зайыбым
