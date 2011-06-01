@@ -116,6 +116,7 @@ CASES ;
 %<px%>:%>%{N%}%{I%}к%{I%} CASES ; 
 
 
+
 LEXICON POSSESSION
 GEN-POS ;
 %<px1sg%>:%>%{I%}м GEN-POS ;
