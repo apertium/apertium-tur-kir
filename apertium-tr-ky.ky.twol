@@ -18,6 +18,7 @@ BackUnrndVow = А Ы а ы ;
 FrontRndVow = Ө Ү ө ү ;
 BackRndVow =  О У о у ;
 BackLowRndVow = О о ;
+UyanCons = м ң М Ң ;
 
 SonCns = й р Й Р ;
 UnvoicedNonSonCns = К П С Т Ф Х Ц Ч Ш Щ  
@@ -98,8 +99,6 @@ Cx:т <=> UnvoicedNonSonCns %>: _ ;
 
 "'с' deletion in possessive after consonant"
 с:0 <=> Cns %>: _ %{I%}: ; 
-
-	
 
 ! ndt	N
 ! ldt	L
