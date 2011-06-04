@@ -69,6 +69,9 @@ Multichar_Symbols
 
 %<sent%>   ! Sentence marker
 %<cm%>     ! Comma
+%<norm%>   ! Normal level of Adjectives
+%<comp%>   ! Comparative level of Adjectives
+%<sup%>	   ! Superlative level of Adjectives	
 
 
 %{AJ%}     ! Realised as 'а', 'й' 
@@ -130,7 +133,11 @@ GEN-POS ;
 
 LEXICON ADJ
 
-%<adj%>: # ;
+%<adj%>: ADJ-LEVELS ;
+
+LEXICON ADJ-LEVELS
+%<norm%>: # ;
+%<comp%>:%>%{I%}р%{A%}%{A%}к # ;
 
 LEXICON ADV
 
@@ -3703,6 +3710,16 @@ suyuk ADJ ;
 жасалма ADJ ;
 жабык ADJ ;
 жеңил ADJ ;
+кооз ADJ ;
+көк ADJ ;
+саздуу ADJ ;
+кызыл ADJ ;
+таттуу ADJ ;
+кең ADJ ;
+сары ADJ ;
+тоголок ADJ ;
+соо ADJ ;
+өзгөчө ADJ ;
 
 LEXICON AdvStems
  
