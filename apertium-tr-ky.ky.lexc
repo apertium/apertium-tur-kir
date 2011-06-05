@@ -3693,7 +3693,6 @@ suyuk ADJ ;
 мамлекеттик ADJ ;
 белгилүү ADJ ;
 көп ADJ ;
-абдан ADJ ;
 жашыл ADJ ;
 ишин% билген ADJ ;
 өлүк ADJ ;
@@ -3790,6 +3789,7 @@ LEXICON AdvStems
 балким ADV ;
 ооба ADV ;
 терсине ADV ;
+абдан ADV ;
 
 LEXICON VerbStems
 

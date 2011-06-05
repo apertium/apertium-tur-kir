@@ -1,112 +1,66 @@
-   1863 ^@ne<adv>$
-    729 ^@açık<adv>$
-    706 ^@henüz<adv>$
-    701 ^@çoğu<adv>$
+  
     499 ^@hitaben<adv>$
     491 ^@resmen<adv>$
     314 ^@neredeyse<adv>$
-    253 ^@bugün<adv>$
-    154 ^@biraz<adv>$
-    126 ^@böylelikle<adv>$
-    114 ^@zaten<adv>$
-    110 ^@salt<adv>$
-     98 ^@aylardır<adv>$
-     96 ^@gayrı<adv>$
-     85 ^@yıllarca<adv>$
      77 ^@gücün<adv>$
-     63 ^@aylarca<adv>$
-     57 ^@aşağı<adv>$
-     56 ^@gıyaben<adv>$
-     56 ^@eskiden<adv>$
-     52 ^@bizzat<adv>$
-     45 ^@yanısıra<adv>$
-     45 ^@bazen<adv>$
-     44 ^@sonradan<adv>$
-     38 ^@saatlerce<adv>$
-     37 ^@yukarı<adv>$
-     37 ^@yalnız<adv>$
-     37 ^@gayet<adv>$
-     36 ^@toptan<adv>$
      36 ^@temsilen<adv>$
-     34 ^@baştan<adv>$
      32 ^@istinaden<adv>$
-     31 ^@tersine<adv>$
-     31 ^@şahsen<adv>$
-     30 ^@beraber<adv>$
-     29 ^@kimi<adv>$
-     29 ^@genellikle<adv>$
-     27 ^@yazın<adv>$
-     27 ^@gerçekte<adv>$
-     27 ^@acele<adv>$
-     26 ^@acilen<adv>$
-     25 ^@fiilen<adv>$
-     25 ^@aniden<adv>$
-     24 ^@nice<adv>$
-     24 ^@cevaben<adv>$
-     23 ^@denli<adv>$
-     22 ^@dostane<adv>$
-     21 ^@kasten<adv>$
-     21 ^@bertaraf<adv>$
-     21 ^@acele<adv><dan0><n><dat>$
-     18 ^@peki<adv>$
-     18 ^@öyle<adv>$
-     18 ^@naklen<adv>$
-     17 ^@şüphesiz<adv>$
-     17 ^@önceleri<adv>$
-     17 ^@nazaran<adv>$
-     17 ^@günlerce<adv>$
-     17 ^@derinlemesine<adv>$
-     16 ^@ivedilikle<adv>$
-     16 ^@içeri<adv>$
-     16 ^@anca<adv>$
-     15 ^@bari<adv>$
-     14 ^@niçin<adv>$
-     14 ^@hepten<adv>$
-     13 ^@maalesef<adv>$
-     13 ^@evvel<adv>$
-     13 ^@dün<adv>$
-     13 ^@daima<adv>$
-     12 ^@nadiren<adv>$
-     12 ^@işte<adv>$
-     12 ^@günlerdir<adv>$
-     11 ^@kışın<adv>$
-     11 ^@kabaca<adv>$
-     11 ^@açık<adv>$.
-     10 ^@oysa<adv>$
-     10 ^@hayli<adv>$
-     10 ^@direkt<adv>$
-     10 ^@beraber<adv><dlik><n>$
+     18 ^@naklen<adv>$ 
+     17 ^@şüphesiz<adv>$ 
+     17 ^@önceleri<adv>$ мурда
+     17 ^@nazaran<adv>$ караганда
+     17 ^@günlerce<adv>$ күндөп
+     17 ^@derinlemesine<adv>$ тереңине
+     16 ^@ivedilikle<adv>$ тездик менен
+     16 ^@içeri<adv>$ ичкери
+     16 ^@anca<adv>$ 
+     15 ^@bari<adv>$ 
+     14 ^@niçin<adv>$ эмне үчүн
+     14 ^@hepten<adv>$ бардыгын
+     13 ^@maalesef<adv>$ тилеке каршы
+     13 ^@evvel<adv>$ алдында
+     13 ^@dün<adv>$ кечээ
+     13 ^@daima<adv>$ дайыма
+     12 ^@nadiren<adv>$ анда-санда
+     12 ^@işte<adv>$ мына
+     12 ^@günlerdir<adv>$ күндөрдөн бери
+     11 ^@kışın<adv>$ кышында
+     11 ^@kabaca<adv>$ орой
+     10 ^@oysa<adv>$ көрсө
+     10 ^@hayli<adv>$ дээри
+     10 ^@direkt<adv>$ 
+     10 ^@beraber<adv><dlik><n>$ чогуу
       9 ^@kazara<adv>$
-      9 ^@acele<adv><dan0><n><ins>$
-      8 ^@tahminen<adv>$
-      8 ^@mutlaka<adv>$
-      7 ^@sanki<adv>$
-      7 ^@kimi<adv><dan0><n><p3p>$
-      7 ^@ille<adv>$
-      7 ^@geceleri<adv>$
-      7 ^@epey<adv>$
+      8 ^@tahminen<adv>$ 
+      8 ^@mutlaka<adv>$ сөзсүз
+      7 ^@sanki<adv>$ как будто
+      7 ^@kimi<adv><dan0><n><p3p>$ кээбири
+      7 ^@ille<adv>$ 
+      7 ^@geceleri<adv>$ түндөсү
+      7 ^@epey<adv>$ абдан
       6 ^@kuşkusuz<adv>$
       6 ^@alenen<adv>$
       5 ^@velev<adv>$
-      5 ^@olduğunca<adv>$
+      5 ^@olduğunca<adv>$ болоорунча
       5 ^@neye<adv>$
       5 ^@mel<adv><dan0><n><3p>$
       5 ^@dikey<adv>$
-      5 ^@aynen<adv>$
-      4 ^@yayan<adv>$
-      4 ^@niye<adv>$
-      4 ^@lütfen<adv>$
+      5 ^@aynen<adv>$ өзүндөй
+      4 ^@yayan<adv>$ 
+      4 ^@niye<adv>$ эмнеге
+      4 ^@lütfen<adv>$ 
       4 ^@ilerde<adv>$
       4 ^@hop<adv>$
-      4 ^@gitgide<adv>$
-      4 ^@fazlaca<adv>$
-      4 ^@apaçık<adv>$
-      3 ^@tercihen<adv>$
-      3 ^@öyle<adv>$.
-      3 ^@nerdeyse<adv>$
-      3 ^@gündüzleri<adv>$
-      3 ^@gene<adv>$
-      3 ^@çokça<adv>$
+      4 ^@gitgide<adv>$ барган сайын
+      4 ^@fazlaca<adv>$ көбүрөөк
+      4 ^@apaçık<adv>$ апачык
+      3 ^@tercihen<adv>$ 
+      3 ^@öyle<adv>$.ошондой
+      3 ^@nerdeyse<adv>$ эсе 
+      3 ^@gündüzleri<adv>$ күндүзү
+      3 ^@gene<adv>$ кайра
+      3 ^@çokça<adv>$ көп-көп
+      3 ^@birdenbire<adv>$ туруптуруп
       3 ^@birdenbire<adv>$
       3 ^@beraber<adv><dlik><n><ins>$
       3 ^@beraber<adv><dlik><n><dat>$
