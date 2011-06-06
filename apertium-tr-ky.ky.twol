@@ -100,8 +100,8 @@ Cx:т <=> UnvoicedNonSonCns %>: _ ;
 "'с' deletion in possessive after consonant"
 с:0 <=> Cns %>: _ %{I%}: ; 
 
-"'г' deleteion after uyanconsonants"
-г:0 <=> UyanCons: %>: _ %{A%}: ;
+"'г' deletion after uyan consonants"
+%{G%}:0 <=> UyanCons: %>: _ %{A%}: ;
 
 ! ndt	N
 ! ldt	L
