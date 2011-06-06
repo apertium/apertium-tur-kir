@@ -142,3 +142,7 @@ Tests:
     арап<n><px1sg><nom> : арабым
     азап<n><px1sg><nom> : азабым
     зайып<n><px1sg><nom> : зайыбым
+
+  "[twol] {G} / г deletion after uyan consonant":
+    саат<n><px1sg><dat> : саатыма
+

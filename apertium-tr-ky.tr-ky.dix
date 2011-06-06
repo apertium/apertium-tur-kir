@@ -41,9 +41,9 @@
 	<e c="  0"><p><l>mi<s n="q"/></l><r>би<s n="qst"/></r></p></e>
 
     <!-- SECTION: Miscellaneous -->
-    <e><p><l>var<s n="exist"/></l><r>бар<s n="exist"/></r></p></e> 
+    <!--<e><p><l>var<s n="exist"/></l><r>бар<s n="exist"/></r></p></e> -->
     <e><p><l>değil<s n="not"/></l><r>емес<s n="not"/></r></p></e>
-    <e><p><l>yok<s n="nexist"/></l><r> жок<s n="nexist"/></r></p></e>
+    <e><p><l>yok<s n="nexist"/></l><r>жок<s n="nexist"/></r></p></e>
    
         <!-- SECTION: Conjunctions -->
 
