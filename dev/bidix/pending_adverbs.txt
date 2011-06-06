@@ -7,60 +7,29 @@
      32 ^@istinaden<adv>$
      18 ^@naklen<adv>$ 
      17 ^@şüphesiz<adv>$ 
-     17 ^@önceleri<adv>$ мурда
-     17 ^@nazaran<adv>$ караганда
-     17 ^@günlerce<adv>$ күндөп
-     17 ^@derinlemesine<adv>$ тереңине
-     16 ^@ivedilikle<adv>$ тездик менен
-     16 ^@içeri<adv>$ ичкери
      16 ^@anca<adv>$ 
      15 ^@bari<adv>$ 
-     14 ^@niçin<adv>$ эмне үчүн
-     14 ^@hepten<adv>$ бардыгын
-     13 ^@maalesef<adv>$ тилеке каршы
-     13 ^@evvel<adv>$ алдында
-     13 ^@dün<adv>$ кечээ
-     13 ^@daima<adv>$ дайыма
-     12 ^@nadiren<adv>$ анда-санда
-     12 ^@işte<adv>$ мына
-     12 ^@günlerdir<adv>$ күндөрдөн бери
-     11 ^@kışın<adv>$ кышында
-     11 ^@kabaca<adv>$ орой
-     10 ^@oysa<adv>$ көрсө
-     10 ^@hayli<adv>$ дээри
+     
      10 ^@direkt<adv>$ 
-     10 ^@beraber<adv><dlik><n>$ чогуу
       9 ^@kazara<adv>$
       8 ^@tahminen<adv>$ 
-      8 ^@mutlaka<adv>$ сөзсүз
-      7 ^@sanki<adv>$ как будто
-      7 ^@kimi<adv><dan0><n><p3p>$ кээбири
+      
       7 ^@ille<adv>$ 
-      7 ^@geceleri<adv>$ түндөсү
-      7 ^@epey<adv>$ абдан
+      
       6 ^@kuşkusuz<adv>$
       6 ^@alenen<adv>$
       5 ^@velev<adv>$
-      5 ^@olduğunca<adv>$ болоорунча
+      
       5 ^@neye<adv>$
       5 ^@mel<adv><dan0><n><3p>$
       5 ^@dikey<adv>$
-      5 ^@aynen<adv>$ өзүндөй
+      
       4 ^@yayan<adv>$ 
-      4 ^@niye<adv>$ эмнеге
+      
       4 ^@lütfen<adv>$ 
       4 ^@ilerde<adv>$
       4 ^@hop<adv>$
-      4 ^@gitgide<adv>$ барган сайын
-      4 ^@fazlaca<adv>$ көбүрөөк
-      4 ^@apaçık<adv>$ апачык
       3 ^@tercihen<adv>$ 
-      3 ^@öyle<adv>$.ошондой
-      3 ^@nerdeyse<adv>$ эсе 
-      3 ^@gündüzleri<adv>$ күндүзү
-      3 ^@gene<adv>$ кайра
-      3 ^@çokça<adv>$ көп-көп
-      3 ^@birdenbire<adv>$ туруптуруп
       3 ^@birdenbire<adv>$
       3 ^@beraber<adv><dlik><n><ins>$
       3 ^@beraber<adv><dlik><n><dat>$
