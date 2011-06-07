@@ -35,8 +35,8 @@ Tests:
     бала<n><px2pl><frm><nom> : балаңыздар
 
   "[lexc] 3rd person possessive":
-    ат<n><px3pl><nom> : аты
-    бала<n><px3pl><nom> : баласы
+    ат<n><px3pl><nom> : аттары
+    бала<n><px3pl><nom> : балдары
 
   "[lexc] Miscellaneous possessives": 
     ат<n><px1sg><nom> : атым
@@ -135,7 +135,7 @@ Tests:
   "[lexc] Relativised locative":
     дүйнө<n><rloc> : дүйнөдөгү
 
-  "[lexc] p desonorization into b when Vow p Vow":
+  "[twol] p desonorization into b when Vow p Vow":
     мектеп<n><px1sg><nom> : мектебим
     китеп<n><px1sg><nom> : китебим
     арип<n><px1sg><nom> : арибим
@@ -159,3 +159,14 @@ Tests:
     китеп<n><dat> : китепке
     аскер<n><dat> : аскерге
     кыз<n><dat> : кызга
+
+  "[twol] {G} / г desonorisation into н after between {I} and {A}":
+    апа<n><px1sg><px><dat> : апамдыкына
+    апа<n><px2sg><px><dat> : апаңдыкына
+    апа<n><px3sg><px><dat> : апасыныкына
+    кыз<n><px1pl><px><dat> : кызыбыздыкына
+    кыз<n><px2pl><px><dat> : кызыңардыкына
+    кыз<n><px3pl><px><dat> : кыздарыныкына
+    ата<n><px3pl><px><dat> : аталарыныкына
+    саат<n><px3pl><px><dat> : сааттарыныкына
+    мал<n><px3pl><px><dat> : малдарыныкына
