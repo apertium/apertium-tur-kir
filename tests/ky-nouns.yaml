@@ -37,7 +37,8 @@ Tests:
   "[lexc] 3rd person possessive":
     ат<n><px3pl><nom> : аттары
     бала<n><px3pl><nom> : балдары
-
+    аскер<n><px3pl><nom> : аскерлери
+    
   "[lexc] Miscellaneous possessives": 
     ат<n><px1sg><nom> : атым
     бала<n><px1sg><nom> : балам
