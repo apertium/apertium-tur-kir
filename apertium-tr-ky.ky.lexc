@@ -3417,6 +3417,8 @@ LEXICON NounStems
 терезе N-INFL ;
 жүзүм N-INFL ;
 кулун N-INFL ;
+кагаз N-INFL ;
+өрт N-INFL ;
 
 LEXICON PropernounStems
 Aзирейил NP-TOP ; ! ""
@@ -3531,7 +3533,7 @@ Tеңир NP-TOP ; ! ""
 Ахмет NP-ANT-M ; ! "Axmet"
 Мирлан NP-ANT-M ; ! "Mirlan"
 Болот NP-ANT-M ; ! "Bolot"
-
+Керим NP-ANT-M ;
 !Элеонора NP-ANT-F ; ! "Eleanora"
 
 LEXICON AdjecStems
