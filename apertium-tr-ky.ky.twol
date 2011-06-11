@@ -106,10 +106,11 @@ Cx:т <=> UnvoicedNonSonCns %>: _ ;
 "'г' deletion after uyan consonants"
 %{G%}:0 <=> UyanCons: %>: _ %{A%}: ;
 
-"'г' desonorisation"
+"'г' desonorisation after I"
 %{G%}:н <=> %{I%}: %>: _ %{A%}: ;
 
-
+"'д' desonorisation after I"
+%{D%}:н <=> %{I%}: %>: _ %{A%}: ;
 
 ! ndt	N
 ! ldt	L
