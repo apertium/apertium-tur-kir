@@ -109,8 +109,7 @@ Cx:т <=> UnvoicedNonSonCns %>: _ ;
 "'г' desonorisation after I"
 %{G%}:н <=> %{I%}: %>: _ %{A%}: ;
 
-"'д' desonorisation after I"
-%{D%}:н <=> %{I%}: %>: _ %{A%}: ;
+
 
 ! ndt	N
 ! ldt	L
