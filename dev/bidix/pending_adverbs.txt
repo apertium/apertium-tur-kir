@@ -9,13 +9,10 @@
      17 ^@şüphesiz<adv>$ 
      16 ^@anca<adv>$ 
      15 ^@bari<adv>$ 
-     
      10 ^@direkt<adv>$ 
       9 ^@kazara<adv>$
       8 ^@tahminen<adv>$ 
-      
       7 ^@ille<adv>$ 
-      
       6 ^@kuşkusuz<adv>$
       6 ^@alenen<adv>$
       5 ^@velev<adv>$
