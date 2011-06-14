@@ -170,3 +170,9 @@ Tests:
     ата<n><px3pl><px><dat> : аталарыныкына
     саат<n><px3pl><px><dat> : сааттарыныкына
     мал<n><px3pl><px><dat> : малдарыныкына
+
+  "[twol] {D} -> н in ablative": 
+    ата<n><px3sg><px><abl> : атасыныкыдан
+
+  "[twol] н insertion between {I} and {D} in locative":
+    ата<n><px3sg><px><loc> : атасыныкында
