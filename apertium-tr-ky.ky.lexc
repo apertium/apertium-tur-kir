@@ -70,9 +70,9 @@ Multichar_Symbols
 
 %<sent%>    ! Sentence marker
 %<cm%>      ! Comma
-%<norm%>    ! Normal level of Adjectives
-%<comp%>    ! Comparative level of Adjectives
-%<sup%>	    ! Superlative level of Adjectives	
+%<pst%>     ! Positive level of comparison
+%<comp%>    ! Comparative level of comparison 
+%<sup%>	    ! Superlative level of comparison 
 
 
 %{AJ%}      ! Realised as 'а', 'й' 
@@ -143,14 +143,14 @@ GEN-POS ;
 %<px2pl%>%<frm%>:%>%{I%}ң%{I%}зд%{A%}р GEN-POS;
 %<px3pl%>:%>%{L%}%{A%}р%{I%} GEN-POS-SHORT-ACC ;
 
+LEXICON ADJ-LEVELS
+
+%<pst%>: # ;
+%<comp%>:%>%{I%}р%{A%}%{A%}к # ;
+
 LEXICON ADJ
 
 %<adj%>: ADJ-LEVELS ;
-
-LEXICON ADJ-LEVELS
-
-%<norm%>: # ;
-%<comp%>:%>%{I%}р%{A%}%{A%}к # ;
 
 LEXICON ADV
 
