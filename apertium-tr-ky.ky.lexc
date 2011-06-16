@@ -128,18 +128,20 @@ LEXICON GEN-POS
 CASES ;
 %<px%>:%>%{N%}%{I%}к%{I%} CASES-SHORT-ACC ; 
 
-
+LEXICON GEN-POS-SHORT-ACC
+CASES-SHORT-ACC ;
+%<px%>:%>%{N%}%{I%}к%{I%} CASES-SHORT-ACC ; 
 
 LEXICON POSSESSION
 GEN-POS ;
 %<px1sg%>:%>%{I%}м GEN-POS ;
 %<px2sg%>:%>%{I%}ң GEN-POS ; 
 %<px2sg%>%<frm%>:%>%{I%}ң%{I%}з GEN-POS ; 
-%<px3sg%>:%>с%{I%} GEN-POS ;
+%<px3sg%>:%>с%{I%} GEN-POS-SHORT-ACC ;
 %<px1pl%>:%>%{I%}б%{I%}з GEN-POS ; 
 %<px2pl%>:%>%{I%}ң%{A%}р GEN-POS ; 
 %<px2pl%>%<frm%>:%>%{I%}ң%{I%}зд%{A%}р GEN-POS;
-%<px3pl%>:%>%{L%}%{A%}р%{I%} GEN-POS ;
+%<px3pl%>:%>%{L%}%{A%}р%{I%} GEN-POS-SHORT-ACC ;
 
 LEXICON ADJ
 
