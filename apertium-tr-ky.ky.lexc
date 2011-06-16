@@ -3,86 +3,87 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 Multichar_Symbols
+ 
+%<n%>       ! Noun
+%<np%>      ! Proper noun
+%<adj%>     ! Adjective
+%<det%>     ! Determiner
+%<adv%>     ! Adverb
+%<num%>     ! Numeral
+%<v%>       ! Verb
+%<prn%>     ! Pronoun
+%<post%>    ! Postposition
+%<postadv%> ! Postadverb
+%<part%>    ! Particle
+%<cnjcoo%>  ! Coordinating conjunction
+%<cnjadv%>  ! Adverbial conjunction
+%<cnjsub%>  ! Subordinating conjunction
 
-%<n%>      ! Noun
-%<np%>     ! Proper noun
-%<adj%>    ! Adjective
-%<det%>    ! Determiner
-%<adv%>    ! Adverb
-%<num%>    ! Numeral
-%<v%>      ! Verb
-%<prn%>    ! Pronoun
-%<post%>   ! Postposition
-%<part%>   ! Particle
-%<cnjcoo%> ! Coordinating conjunction
-%<cnjadv%> ! Adverbial conjunction
-%<cnjsub%> ! Subordinating conjunction
+%<nom%>     ! Nominative
+%<acc%>     ! Accusative
+%<dat%>     ! Dative
+%<gen%>     ! Genitive
+%<loc%>     ! Locative
+%<abl%>     ! Ablative
 
-%<nom%>    ! Nominative
-%<acc%>    ! Accusative
-%<dat%>    ! Dative
-%<gen%>    ! Genitive
-%<loc%>    ! Locative
-%<abl%>    ! Ablative
+%<rloc%>    ! Relativised locative -DAGI
 
-%<rloc%>   ! Relativised locative -DAGI
+%<m%>       ! Masculine
+%<f%>       ! Feminine
 
-%<m%>      ! Masculine
-%<f%>      ! Feminine
+%<pers%>    ! Personal 
+%<dem%>     ! Demonstrative
 
-%<pers%>   ! Personal 
-%<dem%>    ! Demonstrative
+%<sg%>      ! Singular
+%<pl%>      ! Plural
 
-%<sg%>     ! Singular
-%<pl%>     ! Plural
+%<p1%>      ! First person
+%<p2%>      ! Second person
+%<p3%>      ! Third person
 
-%<p1%>     ! First person
-%<p2%>     ! Second person
-%<p3%>     ! Third person
+%<px1sg%>   ! Possessive, first person singular
+%<px2sg%>   ! Possessive, second person singular
+%<px3sg%>   ! Possessive, third person singular
+%<px1pl%>   ! Possessive, first person plural
+%<px2pl%>   ! Possessive, second person plural
+%<px3pl%>   ! Possessive, third person plural
+%<px%>      ! General possessive -ныкы
 
-%<px1sg%>  ! Possessive, first person singular
-%<px2sg%>  ! Possessive, second person singular
-%<px3sg%>  ! Possessive, third person singular
-%<px1pl%>  ! Possessive, first person plural
-%<px2pl%>  ! Possessive, second person plural
-%<px3pl%>  ! Possessive, third person plural
-%<px%>     ! General possessive -ныкы
+%<ant%>     ! Anthroponym (name of person)
+%<top%>     ! Toponym
 
-%<ant%>    ! Anthroponym (name of person)
-%<top%>    ! Toponym
+%<frm%>     ! Formal
+ 
+%<dem%>     ! Demonstrative
+%<neg%>     ! Negative
+%<exi%>     ! Existential
+%<qst%>     ! Question
 
-%<frm%>    ! Formal
+%<cnvi%>    ! Converb imperfect
+%<cnvp%>    ! Converb perfect
+%<pres%>    ! Present tense
+%<past%>    ! Past tense
+%<pp%>      ! Past participle
+%<plist%>   ! Listing participle
+%<inf%>     ! Verbal noun in -үү
+%<inf2%>    ! Verbal noun in -иш
 
-%<dem%>    ! Demonstrative
-%<neg%>    ! Negative
-%<exi%>    ! Existential
-%<qst%>    ! Question
-
-%<cnvi%>   ! Converb imperfect
-%<cnvp%>   ! Converb perfect
-%<pres%>   ! Present tense
-%<past%>   ! Past tense
-%<pp%>     ! Past participle
-%<plist%>  ! Listing participle
-%<inf%>    ! Verbal noun in -үү
-%<inf2%>   ! Verbal noun in -иш
-
-%<sent%>   ! Sentence marker
-%<cm%>     ! Comma
-%<norm%>   ! Normal level of Adjectives
-%<comp%>   ! Comparative level of Adjectives
-%<sup%>	   ! Superlative level of Adjectives	
+%<sent%>    ! Sentence marker
+%<cm%>      ! Comma
+%<norm%>    ! Normal level of Adjectives
+%<comp%>    ! Comparative level of Adjectives
+%<sup%>	    ! Superlative level of Adjectives	
 
 
-%{AJ%}     ! Realised as 'а', 'й' 
-%{A%}      ! Realised as 'а', 'е', 'о', 'ө' 
-%{I%}      ! Realised as 'ы', 'и', 'у', 'ү'
-%{G%}      ! Realised as 'г', 'к', 'ң', 'н'
-%{D%}      ! Realised as 'д', 'т', 'н'
-%{M%}      ! Realised as 'м', 'б', 'п'
-%{N%}      ! Realised as 'н', 'д', 'т'
-%{L%}      ! Realised as 'л', 'д', 'т'
-%{B%}      ! Realised as 'б', 'в' **CHECK**
+%{AJ%}      ! Realised as 'а', 'й' 
+%{A%}       ! Realised as 'а', 'е', 'о', 'ө' 
+%{I%}       ! Realised as 'ы', 'и', 'у', 'ү'
+%{G%}       ! Realised as 'г', 'к', 'ң', 'н'
+%{D%}       ! Realised as 'д', 'т', 'н'
+%{M%}       ! Realised as 'м', 'б', 'п'
+%{N%}       ! Realised as 'н', 'д', 'т'
+%{L%}       ! Realised as 'л', 'д', 'т'
+%{B%}       ! Realised as 'б', 'в' **CHECK**
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -164,6 +165,10 @@ LEXICON CA
 LEXICON CC
 
 %<cnjcoo%>: # ;
+
+LEXICON POSTADV
+
+%<postadv%>: # ;
 
 LEXICON PART 
 
@@ -350,9 +355,12 @@ LEXICON Particles
 
 да PART ; ! "also, too"
 го PART ; ! "also, too"
-гана PART ; ! "only"
-эле PART ; ! "only"
 мына PART ; ! "here is"
+
+LEXICON Postadverbs 
+
+гана POSTADV ; ! "only"
+эле POSTADV ; ! "only"
 
 LEXICON Conjunctions 
 
@@ -370,7 +378,6 @@ LEXICON Postpositions
 дейре POST ; ! "up to, until"
 чейин POST ; ! "up to, until"
 кийин POST ; ! "with"
-керек POST ; ! ""
 сайын POST ; ! "every"
 үчүн POST ; ! "for"
 жакка POST ; ! "toward"
@@ -756,8 +763,7 @@ LEXICON NounStems
 бет N-INFL ; 
 бетер N-INFL ; 
 бетпак N-INFL ; 
-беш N-INFL ; 
-беш N-INFL ; ! "" 
+!беш N-INFL ; ! Not a noun --Numeral
 бешик N-INFL ; 
 билдирүү N-INFL ; 
 билек N-INFL ; 
@@ -790,7 +796,7 @@ LEXICON NounStems
 жыгач N-INFL ; 
 жыл N-INFL ; ! "year"
 жылдыз N-INFL ; ! "star"
-жүз N-INFL ; 
+!жүз N-INFL ;  Not a noun, -- Numeral
 зайып N-INFL ; 
 заң N-INFL ; ! "law"
 илим N-INFL ; 
@@ -2499,7 +2505,6 @@ LEXICON NounStems
 жүрөк N-INFL ; 
 жүзбашы N-INFL ; 
 кылым N-INFL ; 
-жүз N-INFL ; 
 шакек N-INFL ; 
 жүзүк N-INFL ; 
 жылкы% үйүрү N-INFL ; 
@@ -2775,7 +2780,7 @@ LEXICON NounStems
 март N-INFL ; 
 базар N-INFL ; 
 министирлик N-INFL ; 
-кийин N-INFL ; 
+!кийин N-INFL ;  ! This is not a noun -JNW
 кабыл N-INFL ; 
 тамак N-INFL ; 
 нерсе N-INFL ; 
@@ -3010,7 +3015,7 @@ LEXICON NounStems
 алмашуучу N-INFL ; 
 таяк N-INFL ; 
 коркунуч N-INFL ; 
-чейин N-INFL ; 
+!чейин N-INFL ;  ! This is not a noun -JNW
 далаалат N-INFL ; 
 делегат N-INFL ; 
 жинди N-INFL ; 
