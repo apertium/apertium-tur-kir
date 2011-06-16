@@ -12,7 +12,11 @@
       <cat-item tags="prn"/>
       <cat-item tags="prn.*"/>
     </def-cat>
-    
+     
+    <def-cat n="adj">
+      <cat-item tags="adj"/>
+    </def-cat>
+
     <def-cat n="num">
       <cat-item tags="num"/>
       <cat-item tags="num.*"/>
@@ -49,6 +53,10 @@
       <attr-item tags="prn.dem"/>
     </def-attr>
        
+    <def-attr n="a_adj">
+      <attr-item tags="adj"/>
+    </def-attr>
+
     <def-attr n="a_num">
       <attr-item tags="num"/>
     </def-attr>
@@ -209,6 +217,22 @@
       </action>
     </rule>
     
+    <rule comment="regla: adj">
+      <pattern>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_adj"/>
+            <lit-tag v="pst"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+ 
     <rule comment="regla: nom">
       <pattern>
         <pattern-item n="nom"/>
