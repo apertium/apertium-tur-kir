@@ -50,6 +50,7 @@ Multichar_Symbols
 %<px%>      ! General possessive -ныкы
 
 %<ant%>     ! Anthroponym (name of person)
+%<cog%>     ! Cognomen (second, or family name)
 %<top%>     ! Toponym
 
 %<frm%>     ! Formal
@@ -288,6 +289,10 @@ LEXICON N-INFL
 
 %<n%>: POSSESSION ;
 %<n%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+
+LEXICON NP-COG-MF
+
+%<np%>%<cog%>%<mf%>: CASES  ;
 
 LEXICON NP-ANT-M
 
@@ -3550,7 +3555,10 @@ Tеңир NP-TOP ; ! ""
 Мирлан NP-ANT-M ; ! "Mirlan"
 Болот NP-ANT-M ; ! "Bolot"
 Керим NP-ANT-M ;
+Мухаммед NP-ANT-M ;
 !Элеонора NP-ANT-F ; ! "Eleanora"
+
+Ленин NP-COG-MF ; ! "Lenin"
 
 LEXICON AdjecStems
 
