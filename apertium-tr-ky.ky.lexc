@@ -33,6 +33,7 @@ Multichar_Symbols
 
 %<pers%>    ! Personal 
 %<dem%>     ! Demonstrative
+%<itg%>     ! Interrogative
 
 %<sg%>      ! Singular
 %<pl%>      ! Plural
@@ -285,6 +286,10 @@ LEXICON PRON-PERS-SILER
 %<loc%>:%>д%{A%} # ;
 %<abl%>:%>д%{A%}н # ;
 
+LEXICON PRON-ITG
+
+%<prn%>%<itg%>: CASES  ;
+
 LEXICON N-INFL
 
 %<n%>: POSSESSION ;
@@ -412,6 +417,8 @@ LEXICON Pronouns
 ошол:ошо PRON-DEM-OSOL ; ! "that"
 ал:а PRON-DEM-AL ; ! "that"
 тигил:тиги PRON-DEM-TIGIL ; ! "that (yonder)
+
+эмне PRON-ITG ; ! "what?"
 
 LEXICON Numerals 
 
