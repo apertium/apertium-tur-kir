@@ -17,10 +17,18 @@ Tests:
   "[lexc] 1st person singular possessive":
     ат<n><px1sg><nom> : атым
     бала<n><px1sg><nom> : балам
-  
+
+  "[lexc] 1st person plural noun singular possessive":
+    ат<n><pl><px1sg><nom> : аттарым
+    бала<n><pl><px1sg><nom> : балдарым
+
   "[lexc] 1st person plural possessive":
     ат<n><px1pl><nom> : атыбыз
     бала<n><px1pl><nom> : балабыз
+  
+  "[lexc] 1st person plural noun plural possessive":
+    ат<n><pl><px1pl><nom> : аттарыбыз
+    бала<n><pl><px1pl><nom> : балдарыбыз
 
   "[lexc] 2nd person singular possessive":
     ат<n><px2sg><nom> : атың
@@ -28,16 +36,34 @@ Tests:
     ат<n><px2sg><frm><nom> : атыңыз
     бала<n><px2sg><frm><nom> : балаңыз
 
+  "[lexc] 2nd person plural noun singular possessive":
+    ат<n><pl><px2sg><nom> : аттарың
+    бала<n><pl><px2sg><nom> : балдарың
+    ат<n><pl><px2sg><frm><nom> : аттарыңыз
+    бала<n><pl><px2sg><frm><nom> : балдарыңыз
+
   "[lexc] 2nd person plural possessive":
     ат<n><px2pl><nom> : атыңар
     бала<n><px2pl><nom> : балаңар
     ат<n><px2pl><frm><nom> : атыңыздар
     бала<n><px2pl><frm><nom> : балаңыздар
 
-  "[lexc] 3rd person possessive":
+  "[lexc] 2nd person plural noun plural possessive":
+    ат<n><pl><px2pl><nom> : аттарыңар
+    бала<n><pl><px2pl><nom> : балдарыңар
+    ат<n><pl><px2pl><frm><nom> : аттарыңыздар
+    бала<n><pl><px2pl><frm><nom> : балдарыңыздар
+
+  "[lexc] 3rd person singular noun possessive":
     ат<n><px3pl><nom> : аты
     бала<n><px3pl><nom> : баласы
-        
+
+  "[lexc] 3rd person plurar noun possessive":
+    ат<n><pl><px3pl><nom> : аттары
+    бала<n><pl><px3pl><nom> : балдары
+    ат<n><pl><px3sg><nom> : аттары
+    бала<n><pl><px3sg><nom> : балдары  
+  
   "[lexc] Miscellaneous possessives": 
     ат<n><px1sg><nom> : атым
     бала<n><px1sg><nom> : балам
