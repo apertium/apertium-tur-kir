@@ -23,6 +23,7 @@
 
      <sdef n="pers"      c="Personal"/>
      <sdef n="dem"       c="Demonstrative"/>
+     <sdef n="itg"       c="Interrogative"/>
 
      <sdef n="p1"        c="First person"/>
      <sdef n="p2"        c="Second person"/>
@@ -2964,6 +2965,10 @@
 	<e c="  0"><p><l>yarın<s n="adv"/></l><r>эртең<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>en<s n="adv"/></l><r>эң<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>ertesi<s n="adv"/></l><r>эртеси<s n="adv"/></r></p></e>
+
+	<e c="  0"><p><l>neden<s n="adv"/></l><r>эмнеге<s n="adv"/><s n="itg"/></r></p></e>
+	<e c="  0"><p><l>niye<s n="adv"/></l><r>эмнеге<s n="adv"/><s n="itg"/></r></p></e>
+
 	<!-- added from apertium-tr-az -->
 	<e c="  0"><p><l>yarın<s n="adv"/></l><r>эртең<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>çok<s n="adv"/></l><r>абдан<s n="adv"/></r></p></e>
@@ -2998,7 +3003,6 @@
 	<e c="  0"><p><l>hala<s n="adv"/></l><r>дагы<b/>эле<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>artık<s n="adv"/></l><r>эми<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>beri<s n="adv"/></l><r>бери<s n="adv"/></r></p></e>
-	<e c="  0"><p><l>neden<s n="adv"/></l><r>эмнеге<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>şimdi<s n="adv"/></l><r>азыр<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>sürekli<s n="adv"/></l><r>дайыма<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>tamamen<s n="adv"/></l><r>толугу<b/>менен<s n="adv"/></r></p></e>
@@ -3099,7 +3103,6 @@
 	<e c="  0"><p><l>epey<s n="adv"/></l><r>далай<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>olduğunca<s n="adv"/></l><r>болоорунча<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>aynen<s n="adv"/></l><r>өзүндөй<s n="adv"/></r></p></e>	
-	<e c="  0"><p><l>niye<s n="adv"/></l><r>эмнеге<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>gitgide<s n="adv"/></l><r>барган<b/>сайын<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>fazlaca<s n="adv"/></l><r>көбүрөөк<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>apaçık<s n="adv"/></l><r>апачык<s n="adv"/></r></p></e>

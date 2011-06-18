@@ -154,6 +154,10 @@ LEXICON ADJ
 
 %<adj%>: ADJ-LEVELS ;
 
+LEXICON ADV-ITG
+
+%<adv%>%<itg%>: # ;
+
 LEXICON ADV
 
 %<adv%>: # ;
@@ -530,7 +534,7 @@ LEXICON NounStems
 аллегория N-INFL ; 
 аллергия N-INFL ; 
 алмаз N-INFL ; 
-алоо N-INFL ; 
+алоо N-INFL ; 
 алтын N-INFL ; 
 алфавит N-INFL ; 
 альбом N-INFL ; 
@@ -3823,6 +3827,8 @@ suyuk ADJ ;
 аз ADJ ; 
 
 LEXICON AdvStems
+
+эмнеге ADV-ITG ; ! "why"
  
 эртең ADV ; ! "tomorrow"
 эми ADV ; ! "now"
@@ -3862,7 +3868,6 @@ LEXICON AdvStems
 дагы% эле ADV ; 
 эми ADV ; 
 бери ADV ; 
-эмнеге ADV ; 
 азыр ADV ; 
 дайыма ADV ; 
 толугу% менен ADV ; 
@@ -3962,7 +3967,6 @@ LEXICON AdvStems
 далай ADV ; 
 болоорунча ADV ; 
 өзүндөй ADV ; 
-эмнеге ADV ; 
 барган% сайын ADV ; 
 көбүрөөк ADV ; 
 апачык ADV ; 
