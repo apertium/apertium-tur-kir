@@ -961,7 +961,6 @@ LEXICON NounStems
 сормо% саз N-INFL ; 
 желек N-INFL ; 
 байрак N-INFL ; 
-баш N-INFL ; 
 башталгыч N-INFL ; 
 башмак N-INFL ; 
 бөбөк N-INFL ; 
@@ -1902,7 +1901,7 @@ LEXICON NounStems
 мамиле N-INFL ; 
 байланыш N-INFL ; 
 соода N-INFL ; 
-мом N-INFL ; 
+момун N-INFL ; 
 мумия N-INFL ; 
 муссон N-INFL ; 
 мударис N-INFL ; 
@@ -3052,7 +3051,6 @@ LEXICON NounStems
 дарыя N-INFL ; 
 журнал N-INFL ; 
 тери N-INFL ; 
-коом N-INFL ; 
 класс N-INFL ; 
 дербиш N-INFL ; 
 оймо N-INFL ; 
@@ -3447,8 +3445,65 @@ LEXICON NounStems
 кулун N-INFL ; 
 кагаз N-INFL ; 
 өрт N-INFL ; 
+орус N-INFL ;
+повесть N-INFL ;
+айыл N-INFL ;
+союз N-INFL ;
+Жазуучу N-INFL ;
+поэма N-INFL ;
+мүчө N-INFL ;
+түрк N-INFL ;
+тарап N-INFL ;
+тил N-INFL ;
+ич N-INFL ;
+кыргыз N-INFL ;
+университет N-INFL ;
+орун N-INFL ;
+тоо N-INFL ;
+ардак N-INFL ;
+өз N-INFL ;
+гезит N-INFL ;
+казак N-INFL ;
+бөлүм N-INFL ;
+катар N-INFL ;
+негиз N-INFL ;
+район N-INFL ;
+маданият N-INFL ;
+эмгек N-INFL ;
+эл N-INFL ;
+мисал N-INFL ;
+тил N-INFL ;
+маани N-INFL ;
+Энциклопедия N-INFL ;
+кытай N-INFL ;
+жооптуу N-INFL ;
+сын N-INFL ;
+облус N-INFL ;
+бөлүм N-INFL ;
+институт N-INFL ;
+өнөр N-INFL ;
+интернет N-INFL ;
+өмүр N-INFL ;
+кабарчы N-INFL ;
+дан N-INFL ;
+чыгармачылык N-INFL ;
+кесип N-INFL ;
+катчы N-INFL ;
+илим N-INFL ;
+жетекчи N-INFL ;
+кыл N-INFL ;
+дан N-INFL ;
+
 
 LEXICON PropernounStems
+Кытай NP-TOP ;
+Токтогул NP-TOP ;
+Чүй NP-TOP ;
+Талас NP-TOP ;
+Ош NP-TOP ;
+Нарын NP-TOP ;
+Фрунзе NP-TOP ;
+СССР NP-TOP ;
 Aзирейил NP-TOP ; ! ""
 Tеңир NP-TOP ; ! ""
 Адам NP-TOP ; ! ""
@@ -3554,6 +3609,7 @@ Tеңир NP-TOP ; ! ""
 !Эфиопия NP-TOP ; ! ""
 Япония NP-TOP ; ! ""
 Өзбекстан NP-TOP ; ! "Uzbekistan"
+Кыргызмамбас NP-TOP ;
 
 Бишкек NP-TOP ; ! "Bishkek"
 Лондон NP-TOP ; ! ""
@@ -3564,6 +3620,7 @@ Tеңир NP-TOP ; ! ""
 Керим NP-ANT-M ;
 Мухаммед NP-ANT-M ;
 !Элеонора NP-ANT-F ; ! "Eleanora"
+Манас NP-ANT-M ;
 
 Ленин NP-COG-MF ; ! "Lenin"
 
@@ -3575,6 +3632,7 @@ LEXICON AdjecStems
 сом ADJ ; ! "pure"
 кыз ADJ ; ! ""
 !эң ADJ ; ! "most"	
+илимий ADJ ;
 инсанча ADJ ; 
 кишиче ADJ ; 
 сулуу ADJ ; 
@@ -3707,7 +3765,6 @@ suyuk ADJ ;
 сак ADJ ; 
 коңшу ADJ ; 
 либералдуу ADJ ; 
-аял ADJ ; 
 белгилүү ADJ ; 
 кошумча ADJ ; 
 катуу ADJ ; 

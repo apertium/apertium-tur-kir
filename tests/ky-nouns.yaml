@@ -57,6 +57,7 @@ Tests:
   "[lexc] 3rd person singular noun possessive":
     ат<n><px3pl><nom> : аты
     салт<n><px3pl><nom> : салты
+    китеп<n><px3pl><nom> : китеби
 
   "[lexc] 3rd person plurar noun possessive":
     ат<n><pl><px3pl><nom> : аттары
