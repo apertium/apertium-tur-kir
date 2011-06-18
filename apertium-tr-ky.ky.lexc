@@ -2129,7 +2129,6 @@ LEXICON NounStems
 принцесса N-INFL ; 
 принцип N-INFL ; 
 пресса N-INFL ; 
-басма% сөз N-INFL ; 
 престиж N-INFL ; 
 принтер N-INFL ; 
 проблема N-INFL ; 
@@ -2838,6 +2837,7 @@ LEXICON NounStems
 примиер% министр N-INFL ; 
 басым N-INFL ; 
 басма% сөз N-INFL ; 
+басма N-INFL ;
 башчы N-INFL ; 
 баш% калаа N-INFL ; 
 тема N-INFL ; 
@@ -3457,7 +3457,6 @@ LEXICON NounStems
 тил N-INFL ;
 ич N-INFL ;
 кыргыз N-INFL ;
-университет N-INFL ;
 орун N-INFL ;
 тоо N-INFL ;
 ардак N-INFL ;
@@ -3493,9 +3492,28 @@ LEXICON NounStems
 жетекчи N-INFL ;
 кыл N-INFL ;
 дан N-INFL ;
-
+калып N-INFL ;
+орто N-INFL ;
+салым N-INFL;
+орден N-INFL ;
+өзбек N-INFL ;
+жумушчу N-INFL ;
+аталыш N-INFL ;
+араб N-INFL ;
+журналист N-INFL ;
+грек N-INFL ;
+кан N-INFL ;
+мусулман N-INFL ;
+ислам N-INFL ;
+жомок N-INFL ;
+каза N-INFL ;
 
 LEXICON PropernounStems
+
+Баласагын NP-TOP ;
+Баткен NP-TOP ;
+Фергана NP-TOP ;
+Түркия NP-TOP ;
 Кытай NP-TOP ;
 Токтогул NP-TOP ;
 Чүй NP-TOP ;
@@ -3621,7 +3639,7 @@ Tеңир NP-TOP ; ! ""
 Мухаммед NP-ANT-M ;
 !Элеонора NP-ANT-F ; ! "Eleanora"
 Манас NP-ANT-M ;
-
+Айтматов NP-ANT-M ;
 Ленин NP-COG-MF ; ! "Lenin"
 
 LEXICON AdjecStems
