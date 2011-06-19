@@ -2524,7 +2524,6 @@ LEXICON NounStems
 шакек N-INFL ; 
 жүзүк N-INFL ; 
 жылкы% үйүрү N-INFL ; 
-ыр N-INFL ; 
 заман N-INFL ; 
 убакыт N-INFL ; 
 замандаш N-INFL ; 
@@ -3104,7 +3103,6 @@ LEXICON NounStems
 билдирүү N-INFL ; 
 өлчөм N-INFL ; 
 сонсуз N-INFL ; 
-адабий N-INFL ; 
 апенди N-INFL ; 
 миф N-INFL ; 
 егемендик N-INFL ; 
@@ -3282,7 +3280,6 @@ LEXICON NounStems
 сот N-INFL ; 
 акы N-INFL ; 
 акыйкат N-INFL ; 
-чыныгы N-INFL ; 
 дарыгер N-INFL ; 
 дарыгерчилик N-INFL ; 
 башчы N-INFL ; 
@@ -3511,6 +3508,7 @@ LEXICON NounStems
 ислам N-INFL ;
 жомок N-INFL ;
 каза N-INFL ;
+окуу N-INFL ;
 
 LEXICON PropernounStems
 
@@ -3648,6 +3646,7 @@ Tеңир NP-TOP ; ! ""
 
 LEXICON AdjecStems
 
+чыныгы ADJ ; 
 кыргыз ADJ ; ! "Kyrgyz"
 сулуу ADJ ; ! "beautiful"
 жаман ADJ ; ! "bad"
@@ -3825,6 +3824,7 @@ suyuk ADJ ;
 соо ADJ ; 
 өзгөчө ADJ ; 
 аз ADJ ; 
+адабий ADJ ;
 
 LEXICON AdvStems
 
