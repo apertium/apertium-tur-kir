@@ -208,3 +208,23 @@ Tests:
   "[twol] 'P' desonorisation before >c{I}":
     китеп<n><px3sg><nom> : китеби
     тарап<n><px3pl><nom> : тарабы
+
+  "[freq] unrecognized nouns from top150":
+   жыйнак<n><px3sg><nom> : жыйнагы
+   жыйнак<n><px3pl><nom> : жыйнагы
+   повесть<n><nom> : повесть
+   союз<n><px3sg><gen> : союзунун
+   тарап<n><px3sg><abl> : тарабынан
+   тил<n><px3sg><loc> : тилинде
+   университет<n><px3sg><gen> : университетинин
+   бала<n><pl><nom> : балдар
+   гезит<n><px3sg><loc> : гезитинде
+   жылдык<n><nom> : жылдык
+   гезит<n><px3sg><gen> : гезитинин
+   район<n><px3sg><gen> : районунун
+   эмгек<n><px3sg><nom> : эмгеги
+   эл<n><px3sg><gen> : элинин
+   китеп<n><px3sg><nom> : китеби
+   тил<n><px3sg><dat> : тилине
+   орунбасар<n><px3sg><nom> : орунбасары
+
