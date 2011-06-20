@@ -891,7 +891,6 @@ LEXICON NounStems
 ыр N-INFL ; ! "song"
 ысым N-INFL ; 
 эне N-INFL ; 
-эркин N-INFL ; 
 эл N-INFL ;  ! "nation"
 үй N-INFL ; ! "house, home"
 өзүмчүлдүк N-INFL ; ! "egoism, selfishness"
@@ -967,8 +966,7 @@ LEXICON NounStems
 чалап N-INFL ; 
 азап N-INFL ; 
 кыйноо N-INFL ; 
-азат N-INFL ; 
-эркин N-INFL ; 
+азат N-INFL ;  
 азык% түлүк N-INFL ; 
 азык N-INFL ; 
 бажа N-INFL ; 
@@ -3380,7 +3378,6 @@ LEXICON NounStems
 теология N-INFL ; 
 кулактандыруу N-INFL ; 
 кошумча N-INFL ; 
-район N-INFL ; 
 байланыш N-INFL ; 
 алака N-INFL ; 
 кызык N-INFL ; 
@@ -3487,16 +3484,13 @@ LEXICON NounStems
 бөлүм N-INFL ;
 катар N-INFL ;
 негиз N-INFL ;
-район N-INFL ;
 маданият N-INFL ;
-эмгек N-INFL ;
 эл N-INFL ;
 мисал N-INFL ;
 тил N-INFL ;
 маани N-INFL ;
 Энциклопедия N-INFL ;
 кытай N-INFL ;
-жооптуу N-INFL ;
 сын N-INFL ;
 облус N-INFL ;
 бөлүм N-INFL ;
@@ -3530,6 +3524,9 @@ LEXICON NounStems
 каза N-INFL ;
 окуу N-INFL ;
 совет N-INFL ; ! "Soviet"
+жыйнак N-INFL;
+жылдык N-INFL ;
+орунбасар N-INFL ;
 
 LEXICON PropernounStems
 
@@ -3670,8 +3667,10 @@ Tеңир NP-TOP ; ! ""
 Ардак NP-ANT-M ;
 
 Ленин NP-COG-MF ; ! "Lenin"
+Ашым NP-ANT-M ; 
 Фрунзе NP-COG-MF ; ! "Frunze"
 Айтматов NP-COG-MF ;
+
 
 LEXICON AdjecStems
 
@@ -3885,8 +3884,6 @@ suyuk ADJ ;
 өзгөчө ADJ ; 
 аз ADJ ; 
 адабий ADJ ;
-орус ADJ ;
-түрк ADJ ;
 
 LEXICON AdvStems
 
