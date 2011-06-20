@@ -204,3 +204,7 @@ Tests:
 
   "[twol] н insertion between {I} and {D} in locative":
     ата<n><px3sg><px><loc> : атасыныкында
+
+  "[twol] 'P' desonorisation before >c{I}":
+    китеп<n><px3sg><nom> : китеби
+    тарап<n><px3pl><nom> : тарабы
