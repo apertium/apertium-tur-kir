@@ -53,6 +53,7 @@ Multichar_Symbols
 %<ant%>     ! Anthroponym (name of person)
 %<cog%>     ! Cognomen (second, or family name)
 %<top%>     ! Toponym
+%<org%>     ! Organisation name
 
 %<frm%>     ! Formal
  
@@ -75,6 +76,7 @@ Multichar_Symbols
 %<pst%>     ! Positive level of comparison
 %<comp%>    ! Comparative level of comparison 
 %<sup%>	    ! Superlative level of comparison 
+%<ord%>     ! Ordinal
 
 
 %{AJ%}      ! Realised as 'а', 'й' 
@@ -154,6 +156,10 @@ LEXICON ADJ
 
 %<adj%>: ADJ-LEVELS ;
 
+LEXICON ADJ-ORD
+
+%<adj%>%<ord%>: # ;
+
 LEXICON ADV-ITG
 
 %<adv%>%<itg%>: # ;
@@ -208,7 +214,7 @@ Num ;
 
 LEXICON NUM
 
-%<num%>: CASES ;
+%<num%>: POSSESSION ;
 
 LEXICON PRON-DEM-BUL
 
@@ -311,6 +317,9 @@ LEXICON NP-ANT-F
 
 %<np%>%<ant%>%<f%>: CASES ;
 
+LEXICON NP-ORG
+
+%<np%>%<org%>: CASES ;
 
 LEXICON NP-TOP
 
@@ -371,7 +380,9 @@ LEXICON Particles
 
 да PART ; ! "also, too"
 го PART ; ! "also, too"
-мына PART ; ! "here is"
+мына PART ; ! "here is, вот"
+экен PART ; ! non-eyewitness modal particle
+сыяктуу PART ; ! modal particle; adjective, usually with dative "similar to"
 
 LEXICON Postadverbs 
 
@@ -398,11 +409,20 @@ LEXICON Postpositions
 үчүн POST ; ! "for"
 жакка POST ; ! "toward"
 чакты POST ; ! "about, around"
+катары POST ; ! "as a" +nom
+аркылуу POST ; ! "through" +nom
+тууралуу POST ; ! "through" +nom
+ичинде POST ; ! "inside of" +gen|+nom
+жараша POST ; ! "by, in accordance with" +dat
+боюнча POST ; ! "according to" +nom
+жөнүнд POST ; ! "about" +nom
+жөнүндө POST ; ! "about" +nom
 
 LEXICON Determiners
 
 бул DET-DEM ; ! "this"
 ошол DET-DEM ; ! "that"
+ушул DET-DEM ; ! "this (visible)"
 ал DET-DEM ; ! "that"
 тигил DET-DEM ; ! "that (yonder)"
 
@@ -3509,6 +3529,7 @@ LEXICON NounStems
 жомок N-INFL ;
 каза N-INFL ;
 окуу N-INFL ;
+совет N-INFL ; ! "Soviet"
 
 LEXICON PropernounStems
 
@@ -3629,10 +3650,15 @@ Tеңир NP-TOP ; ! ""
 !Эфиопия NP-TOP ; ! ""
 Япония NP-TOP ; ! ""
 Өзбекстан NP-TOP ; ! "Uzbekistan"
-Кыргызмамбас NP-TOP ;
+Азия NP-TOP ; ! "Asia"
+
+Кыргызмамбас NP-ORG ; ! ""
+Киргизгосиздат NP-ORG ; ! "" (ru)
+Кыргызокуупедмамбас NP-ORG ; ! "Kyrgyz Pedagogical State Press"
 
 Бишкек NP-TOP ; ! "Bishkek"
-Лондон NP-TOP ; ! ""
+Лондон NP-TOP ; ! "London"
+Ысык% Көл NP-TOP ; ! ""
 
 Ахмет NP-ANT-M ; ! "Axmet"
 Мирлан NP-ANT-M ; ! "Mirlan"
@@ -3641,12 +3667,45 @@ Tеңир NP-TOP ; ! ""
 Мухаммед NP-ANT-M ;
 !Элеонора NP-ANT-F ; ! "Eleanora"
 Манас NP-ANT-M ;
-Айтматов NP-ANT-M ;
+Ардак NP-ANT-M ;
+
 Ленин NP-COG-MF ; ! "Lenin"
+Фрунзе NP-COG-MF ; ! "Frunze"
+Айтматов NP-COG-MF ;
 
 LEXICON AdjecStems
 
+алгачкы ADJ-ORD ; ! "first"
+экинчи ADJ-ORD ; ! "second"
+
+азыркы ADJ ; ! "modern"
+элдик ADJ ; ! "people's"
+башкы ADJ ; ! "principle 
+ылайык ADJ ; ! "appropriate"
+борбордук ADJ ; ! "central"
+улуттук ADJ ; ! "national"
+жогорку ADJ ; ! "high" (as in жогорку кеңеш "high council")
+коомдук ADJ ; ! "societal" < коом "society" + лук noun>ADJ
+саясий ADJ ; ! "political"
+зарыл ADJ ; ! "mandatory"
+көркөм ADJ ; ! "fine" (as in "fine arts")
+тарыхый ADJ ; ! "historical"
+байыркы ADJ ; ! "ancient"
+социалдык ADJ ; ! "social"
+советтик ADJ ; ! "Soviet"
+педагогикалык ADJ ; ! pedagogical
+караштуу  ADJ ! ; with dative case "belonging to"
+маанилүү ADJ ; ! "meaningful 
+мекендик ADJ ; ! usually in "ата мекендик [e.g. согуш]" = "the fatherland [e.g. war]"
+облустук ADJ ; ! "oblast [e.g., hospital]"
+жеке ADJ ; ! "personal"
+туулган ADJ ; ! "native"
+райондук ADJ ; ! "regional" (not "regional")
+республикалык ADJ ; ! "republic [e.g., hospital]"
+
 чыныгы ADJ ; 
+совет ADJ ;  ! "Soviet"
+ысык ADJ ; ! "hot"
 кыргыз ADJ ; ! "Kyrgyz"
 сулуу ADJ ; ! "beautiful"
 жаман ADJ ; ! "bad"
@@ -3655,6 +3714,7 @@ LEXICON AdjecStems
 !эң ADJ ; ! "most"	
 илимий ADJ ;
 инсанча ADJ ; 
+казак ADJ ;  ! "Kazakh"
 кишиче ADJ ; 
 сулуу ADJ ; 
 кыз ADJ ; 
@@ -3825,19 +3885,26 @@ suyuk ADJ ;
 өзгөчө ADJ ; 
 аз ADJ ; 
 адабий ADJ ;
+орус ADJ ;
+түрк ADJ ;
 
 LEXICON AdvStems
 
 эмнеге ADV-ITG ; ! "why"
+
+өтө ADV ; ! "very"
+мисалы ADV ; ! "for example"
+улам ADV ; ! "???"
  
 эртең ADV ; ! "tomorrow"
 эми ADV ; ! "now"
 бат ADV ; ! "fast"
 эң ADV ; ! "most"
+кээде ADV ; ! "sometimes"
 
+негизинде ADV ; ! "basically, in general"
 эртеси ADV ; 
 көп ADV ; 
-эң ADV ; 
 жок ADV ; 
 ар% дайым ADV ; 
 кийин ADV ; 
