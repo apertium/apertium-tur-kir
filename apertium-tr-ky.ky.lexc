@@ -847,7 +847,7 @@ LEXICON NounStems
 кеме N-INFL ; ! "boat"
 китеп N-INFL ; ! "book"
 кол N-INFL ; ! "hand"
-короо N-INFL ; ""
+короо N-INFL ; ! ""
 коом N-INFL ; ! "community"
 кыз N-INFL ; ! "girl"
 кыйноо N-INFL ; 
@@ -1291,7 +1291,7 @@ LEXICON NounStems
 феодализм N-INFL ; 
 фестиваль N-INFL ; 
 фетиш N-INFL ; 
-фетишизм
+фетишизм N-INFL ; 
 фигура N-INFL ; 
 пикир N-INFL ; 
 ой N-INFL ; 
