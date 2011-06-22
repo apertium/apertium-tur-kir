@@ -34,6 +34,7 @@ Multichar_Symbols
 %<pers%>    ! Personal 
 %<dem%>     ! Demonstrative
 %<itg%>     ! Interrogative
+%<ref%>     ! Reflexive
 
 %<sg%>      ! Singular
 %<pl%>      ! Plural
@@ -300,6 +301,10 @@ LEXICON PRON-ITG
 
 %<prn%>%<itg%>: CASES  ;
 
+LEXICON PRON-REFL
+
+%<prn%>%<ref%>: CASES  ;
+
 LEXICON N-INFL
 
 %<n%>: POSSESSION ;
@@ -444,6 +449,8 @@ LEXICON Pronouns
 
 эмне PRON-ITG ; ! "what?"
 
+өз PRON-REFL ; ! "own/self"
+
 LEXICON Numerals 
 
 бир NUM ; ! "one"
@@ -540,7 +547,6 @@ LEXICON NounStems
 акушер N-INFL ; 
 акча N-INFL ; 
 акы N-INFL ; 
-
 акыбет N-INFL ; 
 акыйкат N-INFL ; 
 акыл N-INFL ; 
