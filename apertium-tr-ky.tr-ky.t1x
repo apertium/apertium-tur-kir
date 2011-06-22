@@ -107,6 +107,7 @@
       <attr-item tags="ins"/>
       <attr-item tags="abl"/>
       <attr-item tags="gen"/>
+      <attr-item tags="loc"/>
     </def-attr>
     
     <def-attr n="nbr">
