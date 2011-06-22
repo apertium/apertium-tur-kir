@@ -78,9 +78,6 @@ Vx:Vy <=> :FrontRndVow CnsFrontRndVowSB:* Cns %>:     CnsFrontRndVow:* _ ; ! ?C>
 "L Desonorisation"
 %{L%}:д <=> VoicedNonSonCnsNoRNoIj %>:  _ ;
 
-"P Desonorisation"
-п:б <=> Vow _ %>: Vow ;
-
 "N Desonorisation"
 %{N%}:д <=> [ SonCns | VoicedNonSonCns ] %>:  _ ;
 
@@ -117,6 +114,12 @@ Cx:т <=> UnvoicedNonSonCns %>: _ ;
 
 "{D} -> н after {I} and before {A} in ablative" 
 %{D%}:н <=> %{I%}: %>: _ %{A%}: н ;
+
+"P voicing"
+п:б <=> Vow _ %>: Vow ;
+
+"K voicing"
+к:г <=> Vow _ %>: Vow ;
 
 
 ! ndt	N
