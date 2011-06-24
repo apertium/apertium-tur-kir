@@ -3683,6 +3683,7 @@ LEXICON AdjecStems
 алгачкы ADJ-ORD ; ! "first"
 экинчи ADJ-ORD ; ! "second"
 
+начар ADJ ;
 азыркы ADJ ; ! "modern"
 элдик ADJ ; ! "people's"
 башкы ADJ ; ! "principle 
@@ -4046,6 +4047,7 @@ LEXICON AdvStems
 кайра ADV ; 
 көп-көп ADV ; 
 туруптуруп ADV ; 
+анан ADV ;
 
 LEXICON VerbStems
 
