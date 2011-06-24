@@ -71,12 +71,13 @@ Multichar_Symbols
 %<cv_perf%> ! Converb perfect
 
 %<pres%>    ! Present tense
-%<cond%>    ! Conditional
+%<cond%>    ! Conditional, -сA
 %<past%>    ! Past tense
-%<pp%>      ! Past participle
+%<pp%>      ! Past participle, -GAн
+%<pp2%>     ! Past participle, -GAнI
 %<plist%>   ! Listing participle
-%<inf%>     ! Verbal noun in -үү
-%<inf2%>    ! Verbal noun in -иш
+%<inf%>     ! Verbal noun, -үү
+%<inf2%>    ! Verbal noun, -иш
 
 %<sent%>    ! Sentence marker
 %<cm%>      ! Comma
@@ -374,44 +375,51 @@ LEXICON V-PERS-PAST
 %<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р V-CLIT ;
 %<p3%>%<pl%>: V-CLIT ;  
 
-
 !LEXICON V-PERS-IMPER
-
 
 LEXICON V-INFL-COMMON
 
-%<cv_impf%>:%>%{AJ%} # ;
-%<cv_perf%>:%>%{I%}п # ;
-%<pp%>:%>%{G%}%{A%}н CASES ;
-%<plist%>:%>м%{A%}й # ;
-%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;
-%<pres%>:%>%{A%} V-PERS-PRES ;
-%<past%>:%>%{D%}%{I%} V-PERS-PAST ;
-%<cond%>:%>с%{A%} V-PERS-PAST ;
-!# ;
+! Converbs 
+%<cv_impf%>:%>%{AJ%} # ;                                      !
+%<cv_perf%>:%>%{I%}п # ;                                      ! -ып, -ип, -уп, -үп
+%<cv_inf%>:%>м%{A%}к # ;                                      !
+%<cv_Et%>:%>%{AJ%}т # ;                                       !
+
+! Non-finite forms and participles
+%<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
+%<pp2%>:%>%{G%}%{A%}н%{I%} POSSESSION ;                       ! 
+%<inf2%>:%>%{I%}ш # ;                                         ! -ыш, -иш, -уш, -үш
+%<neg%>%<pp%>:%>%{B%}%{A%}%>%{G%}%{A%}н POSSESSION ;          !
+%<neg%>%<pp2%>:%>%{B%}%{A%}%>%{G%}%{A%}н%{I%} POSSESSION ;    ! 
+%<neg%>%<inf2%>:%>%{B%}%{A%}%>%{I%}ш # ;                      !
+%<plist%>:%>м%{A%}й # ;                                       !
+
+! Finite forms
+%<pres%>:%>%{A%} V-PERS-PRES ;                                !
+%<past%>:%>%{D%}%{I%} V-PERS-PAST ;                           ! 
+%<cond%>:%>с%{A%} V-PERS-PAST ;                               ! 
+%<neg%>%<past%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;        ! 
+%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! 
+%<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! 
 
 LEXICON V-INFL
 
 %<v%>%<TD%>: V-INFL-COMMON ;
 %<v%>%<TD%>%<inf%>:%>үү # ;
-%<v%>%<TD%>%<inf2%>:%>%{I%}ш # ;
 
 LEXICON V-INFL-SHORT
 
 %<v%>%<TD%>: V-INFL-COMMON ;
-%<v%>%<TD%>%<inf2%>:%>%{I%}ш # ;
 
 LEXICON V-INFL-TV
 
 %<v%>%<tv%>: V-INFL-COMMON ;
 %<v%>%<tv%>%<inf%>:%>үү # ;
-%<v%>%<tv%>%<inf2%>:%>%{I%}ш # ;
 
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
 %<v%>%<iv%>%<inf%>:%>үү # ;
-%<v%>%<iv%>%<inf2%>:%>%{I%}ш # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!
@@ -423,6 +431,8 @@ LEXICON Particles
 го PART ; ! "also, too"
 мына PART ; ! "here is, вот"
 экен PART ; ! non-eyewitness modal particle
+эгер PART ; ! conjunction like particle "if"
+эгерде PART ; ! conjunction like particle "if"
 сыяктуу PART ; ! modal particle; adjective, usually with dative "similar to"
 
 LEXICON Postadverbs 
@@ -896,6 +906,7 @@ LEXICON NounStems
 көз N-INFL ; ! "eye"
 көрсөтүү N-INFL ; 
 көрүү N-INFL ; ! "" 
+колдонуучу N-INFL ; ! "user" 
 майор N-INFL ; 
 мал N-INFL ; ! ""
 мамлекет N-INFL ; ! "state"
@@ -3697,6 +3708,7 @@ Tеңир NP-TOP ; ! ""
 Япония NP-TOP ; ! ""
 Өзбекстан NP-TOP ; ! "Uzbekistan"
 Азия NP-TOP ; ! "Asia"
+Чоң% Алай NP-TOP ; ! ""
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
@@ -4101,17 +4113,24 @@ LEXICON VerbStems
 чыгар V-INFL-TV ; ! "" 
 
 ач V-INFL-TV ; ! "open"
+бар V-INFL-IV ; ! "go"
+бил V-INFL-TV ; ! "know"
+жат V-INFL-IV ; ! "come"
 ич V-INFL-IV ; ! "drink"
 ич V-INFL-TV ; ! "drink"
+кел V-INFL-IV ; ! "come"
+кет V-INFL-IV ; ! "go"
 күл V-INFL-IV ; ! "smile, laugh"
 оку V-INFL-IV ; ! "read"
 оку V-INFL-TV ; ! "read"
 сүй V-INFL-TV ; ! "love"
+тур V-INFL-IV ; ! "stand, live"
 түздө V-INFL-TV ; ! ""
 ук V-INFL-IV ; ! "listen"
 ук V-INFL-TV ; ! "listen"
 укта V-INFL-IV ; ! "sleep"
 чий V-INFL-TV ; ! "draw a line"
+
 
 ! TODO: Categorise for transitivity, and remove duplicate entries
 агыт V-INFL ; 
@@ -4133,11 +4152,9 @@ LEXICON VerbStems
 аш V-INFL ; 
 аякта V-INFL ; 
 бак V-INFL ; 
-бар V-INFL ; ! "go"
 башта V-INFL ; 
 без V-INFL ; 
 бер V-INFL ; 
-бил V-INFL ; ! "know"
 билдир V-INFL ; 
 билин V-INFL ; 
 боё V-INFL ; 
@@ -4169,7 +4186,6 @@ LEXICON VerbStems
 жан V-INFL ; 
 жаркыра V-INFL ; 
 жарыл V-INFL ; 
-жат V-INFL ; ! "come"
 жаша V-INFL ; 
 же V-INFL-SHORT ; ! "eat"
 жет V-INFL ; 
@@ -4190,7 +4206,6 @@ LEXICON VerbStems
 жүктө V-INFL ; 
 илгериле V-INFL ; 
 иште V-INFL ; 
-иште V-INFL ; 
 кайнат V-INFL ; 
 кал V-INFL ; 
 кара V-INFL ; 
@@ -4198,16 +4213,8 @@ LEXICON VerbStems
 кары V-INFL ; 
 карышта V-INFL ; 
 кат V-INFL ; 
-кел V-INFL ; 
-кел V-INFL ; 
-кел V-INFL ; ! "come"
 керек V-INFL ; 
 кес V-INFL ; 
-кес V-INFL ; 
-кет V-INFL ; 
-кет V-INFL ; 
-кет V-INFL ; 
-кет V-INFL ; ! "go"
 кеч V-INFL ; 
 кир V-INFL ; 
 кооздо V-INFL ; 
@@ -4223,9 +4230,6 @@ LEXICON VerbStems
 кучакта V-INFL ; 
 кый% ет V-INFL ; 
 кыйна V-INFL ; 
-кыйна V-INFL ; 
-кыл V-INFL ; 
-кыл V-INFL ; 
 кыл V-INFL ; 
 кырк V-INFL ; 
 кыс V-INFL ; 
@@ -4269,8 +4273,6 @@ LEXICON VerbStems
 сыйла V-INFL ; 
 сыла V-INFL ; 
 сүз V-INFL ; 
-сүз V-INFL ; 
-сүйлө V-INFL ; 
 сүйлө V-INFL ; ! "speak"
 сүр V-INFL ; 
 тааныл V-INFL ; 
@@ -4288,10 +4290,8 @@ LEXICON VerbStems
 терде V-INFL ; 
 теш V-INFL ; 
 тиз V-INFL ; 
-тиз V-INFL ; 
 тик V-INFL ; 
 той V-INFL ; 
-токто V-INFL ; 
 токто V-INFL ; ! "stop" 
 тол V-INFL ; 
 толукта V-INFL ; 
@@ -4299,7 +4299,6 @@ LEXICON VerbStems
 топтол V-INFL ; 
 тосуп% ал V-INFL ; 
 тоң V-INFL ; 
-тур V-INFL ; ! "stand, live"
 тут V-INFL ; 
 түгөн V-INFL ; 
 түзүл V-INFL ; 
@@ -4310,7 +4309,6 @@ LEXICON VerbStems
 төлө V-INFL ; 
 узат V-INFL ; 
 уч V-INFL ; 
-ушала V-INFL ; 
 ушала V-INFL ; 
 чак V-INFL ; 
 чакыр V-INFL ; 
