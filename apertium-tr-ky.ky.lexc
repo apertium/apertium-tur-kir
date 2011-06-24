@@ -70,6 +70,7 @@ Multichar_Symbols
 %<cnvi%>    ! Converb imperfect
 %<cnvp%>    ! Converb perfect
 %<pres%>    ! Present tense
+%<cond%>    ! Conditional
 %<past%>    ! Past tense
 %<pp%>      ! Past participle
 %<plist%>   ! Listing participle
@@ -366,10 +367,11 @@ LEXICON V-PERS-PAST
 %<p1%>%<sg%>:%>%{I%}м V-CLIT ;
 %<p2%>%<sg%>:%>%{I%}ң V-CLIT ;
 %<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з V-CLIT ;
+%<p3%>%<sg%>: V-CLIT ;  
 %<p1%>%<pl%>:%>%{I%}%{K%} V-CLIT ;
 %<p2%>%<pl%>:%>%{I%}ң%{A%}р V-CLIT ;
 %<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р V-CLIT ;
-%<p3%>%<pl%>:%>с%{I%} V-CLIT ;  
+%<p3%>%<pl%>: V-CLIT ;  
 
 
 !LEXICON V-PERS-IMPER
@@ -384,6 +386,7 @@ LEXICON V-INFL-COMMON
 %<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;
 %<pres%>:%>%{A%} V-PERS-PRES ;
 %<past%>:%>%{D%}%{I%} V-PERS-PAST ;
+%<cond%>:%>с%{A%} V-PERS-PAST ;
 # ;
 
 LEXICON V-INFL
@@ -4094,6 +4097,9 @@ LEXICON VerbStems
 бар%<v%>%<exi%>:бар # ;
 жок%<v%>%<neg%>%<exi%>:жок # ;
 
+бол V-INFL-IV ; ! "be"
+чыгар V-INFL-TV ; ! "" 
+
 оку V-INFL ; ! "read"
 укта V-INFL ; ! "sleep"
 сүй V-INFL ; ! "love"
@@ -4108,7 +4114,6 @@ LEXICON VerbStems
 ачу V-INFL ; ! "open"
 бар V-INFL ; ! "go"
 бил V-INFL ; ! "know"
-бол V-INFL ; ! "be"
 де V-INFL-SHORT ; ! "say"
 жат V-INFL ; ! "come"
 же V-INFL-SHORT ; ! "eat"
@@ -4189,7 +4194,6 @@ LEXICON VerbStems
 жарыл V-INFL ; 
 тартын V-INFL ; 
 чык V-INFL ; 
-чыгар V-INFL-TV ;
 чөк V-INFL ; 
 dala V-INFL ; 
 чумку V-INFL ; 
