@@ -21,8 +21,12 @@
      <sdef n="ant"       c="Anthroponym"/>
      <sdef n="top"       c="Toponym"/>
 
+     <sdef n="iv"        c="Intransitive"/>
+     <sdef n="tv"        c="Transitive"/>
+
      <sdef n="pers"      c="Personal"/>
      <sdef n="dem"       c="Demonstrative"/>
+     <sdef n="neg"       c="Negative"/>
      <sdef n="itg"       c="Interrogative"/>
 
      <sdef n="p1"        c="First person"/>
@@ -40,15 +44,20 @@
      <sdef n="pnct"      c="Punctuation"/>
    </sdefs>
    
+   <pardefs>
+     <pardef n="(t|i)v">
+<!--
+       <e><p><l><s n="tv"/></l><r><s n="tv"/></r></p></e>
+       <e><p><l><s n="iv"/></l><r><s n="iv"/></r></p></e>
+-->
+       <e><p><l></l><r><s n="iv"/></r></p></e>
+     </pardef>
+   </pardefs>
    <section id="main" type="standard">
         <!-- SECTION: Particles -->
 
 	<e c="  0"><p><l>mi<s n="q"/></l><r>би<s n="qst"/></r></p></e>
 
-    <!-- SECTION: Miscellaneous -->
-    <!--<e><p><l>var<s n="exist"/></l><r>бар<s n="exist"/></r></p></e> -->
-    <e><p><l>değil<s n="not"/></l><r>емес<s n="not"/></r></p></e>
-    <e><p><l>yok<s n="nexist"/></l><r>жок<s n="nexist"/></r></p></e>
    
         <!-- SECTION: Conjunctions -->
 
@@ -2691,6 +2700,7 @@
         <e c="  0"><p><l>dünya<s n="n"/></l><r>дүйнө<s n="n"/></r></p></e>
         <e c="  0"><p><l>elma<s n="n"/></l><r>алма<s n="n"/></r></p></e>
         <e c="  0"><p><l>kitap<s n="n"/></l><r>китеп<s n="n"/></r></p></e>
+        <e c="  0"><p><l>internet<s n="n"/></l><r>интернет<s n="n"/></r></p></e>
 
 	<e c="  0"><p><l>ev<s n="n"/></l><r>үй<s n="n"/></r></p></e>
 		
@@ -3112,21 +3122,23 @@
 	<e c="  0"><p><l>gene<s n="adv"/></l><r>кайра<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>çokça<s n="adv"/></l><r>көп-көп<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>birdenbire<s n="adv"/></l><r>туруптуруп<s n="adv"/></r></p></e>
-	<e c="  0"><p><l> <s n="adv"/></l><r> <s n="adv"/></r></p></e>
-	<e c="  0"><p><l> <s n="adv"/></l><r> <s n="adv"/></r></p></e>
 	
         <!-- SECTION: Verbs -->
 
 	<e c="  0"><p><l>var<s n="exist"/></l><r>бар<s n="v"/><s n="exi"/></r></p></e>
+        <e c="  0"><p><l>değil<s n="not"/></l><r>емес<s n="v"/><s n="neg"/></r></p></e>
+        <e c="  0"><p><l>yok<s n="nexist"/></l><r>жок<s n="v"/><s n="neg"/><s n="exi"/></r></p></e>
+
+	<e c="  0"><p><l>gel<s n="v"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>ol<s n="v"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>iç<s n="v"/></l><r>ич<s n="v"/></r></p><par n="(t|i)v"/></e>
+	<e c="  0"><p><l>bil<s n="v"/></l><r>бил<s n="v"/><s n="tv"/></r></p></e>
+
 	<e c="  0"><p><l>git<s n="v"/></l><r>кет<s n="v"/></r></p></e>
 	<e c="  0"><p><l>arık<s n="v"/></l><r>кет<s n="v"/></r></p></e>
-	<e c="  0"><p><l>ol<s n="v"/></l><r>бол<s n="v"/></r></p></e>
-	<e c="  0"><p><l>iç<s n="v"/></l><r>ич<s n="v"/></r></p></e>
 	<e c="  0"><p><l>çalış<s n="v"/></l><r>иште<s n="v"/></r></p></e>
 	<e slr="1"><p><l>çalış<s n="v"/></l><r>аракет<b/>кыл<s n="v"/></r></p></e>
 	<e slr="2"><p><l>çalış<s n="v"/></l><r>оку<s n="v"/></r></p></e>
-	<e c="  0"><p><l>gel<s n="v"/></l><r>кел<s n="v"/></r></p></e>
-	<e c="  0"><p><l>bil<s n="v"/></l><r>бил<s n="v"/></r></p></e>
 	<e c="  0"><p><l>bildir<s n="v"/></l><r>билдир<s n="v"/></r></p></e>
 	<e c="  0"><p><l>bilin<s n="v"/></l><r>билин<s n="v"/></r></p></e>
 	<e slr="1"><p><l>bilin<s n="v"/></l><r>тааныл<s n="v"/></r></p></e>
@@ -3154,11 +3166,9 @@
         <e c="  0"><p><l>iç<s n="v"/></l><r>ич<s n="v"/></r></p></e>
 	<e c="  0"><p><l>al<s n="v"/></l><r>ал<s n="v"/></r></p></e>
 	<e c="  0"><p><l>ver<s n="v"/></l><r>бер<s n="v"/></r></p></e>
-	<e c="  0"><p><l>bil<s n="v"/></l><r>бил<s n="v"/></r></p></e>
 	<e c="  0"><p><l>gel<s n="v"/></l><r>кел<s n="v"/></r></p></e>
 	<e c="  0"><p><l>besle<s n="v"/></l><r>бак<s n="v"/></r></p></e>
 	<e c="  0"><p><l>hatırla<s n="v"/></l><r>эсте<s n="v"/></r></p></e>
-	<e c="  0"><p><l>ol<s n="v"/></l><r>бол<s n="v"/></r></p></e>
 	<e c="  0"><p><l>de<s n="v"/></l><r>де<s n="v"/></r></p></e>
 	<e c="  0"><p><l>şükret<s n="v"/></l><r>шүкүр<b/>кыл<s n="v"/></r></p></e>
 	<e c="  0"><p><l>planla<s n="v"/></l><r>планда<s n="v"/></r></p></e>

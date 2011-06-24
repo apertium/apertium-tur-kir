@@ -1,0 +1,9 @@
+Config:
+  hfst:
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+
+  "[lexc] Negative -б{A}":
+    бол<v><iv><neg><cond> : болбосо
