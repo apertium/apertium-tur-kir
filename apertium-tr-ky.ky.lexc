@@ -4310,3 +4310,4 @@ LEXICON Punctuation
 
 .%<sent%>:. # ;
 ,%<cm%>:, # ;
+%?%<sent%>:%? # ; 
