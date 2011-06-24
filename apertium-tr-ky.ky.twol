@@ -1,7 +1,9 @@
 Alphabet
 А Б В Г Д Е Ё Ж З И И К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
 а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ь ы ъ э ю я
-%{G%}:г %{D%}:д %{A%}:а %{I%}:ы %{N%}:н %{L%}:л %{B%}:б %{AJ%}:а %{P%}:п %>:0 ;
+%{G%}:г %{D%}:д %{N%}:н %{L%}:л %{B%}:б %{AJ%}:а %{P%}:п 
+%{A%}:а %{I%}:ы %{U%}:у 
+%>:0 ; 
 
 Sets
 
@@ -10,7 +12,7 @@ Cns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ
 	  %{D%} %{G%} %{N%} %{L%} %{B%} %{P%} ;
 Vow =     А Е Ё И О Ө У Ү Ы Э Ю Я
           а е ё и о ө у ү ы э ю я 
-          %{A%} %{I%} ;
+          %{A%} %{I%} %{U%} ;
 FrontVow = И Ө Е Ү Э и ө ү э е ;
 BackVow = А О У Ы а о у ы ;
 FrontUnrndVow = И Е Э и э е ; 
@@ -36,10 +38,10 @@ CnsFrontRndVowSB = Cns FrontRndVow %> ;
 CnsBackRndVowSB = Cns BackRndVow %> ;
 
 ! These sets do not continue suffix borders.
-CnsFrontUnrndVow = Cns FrontUnrndVow %{I%} %{A%} ;
-CnsFrontRndVow = Cns FrontRndVow  %{I%} %{A%};
-CnsBackRndVow = Cns BackRndVow  %{I%} %{A%};
-CnsBackLowRndVow = Cns BackLowRndVow  %{I%} %{A%};
+CnsFrontUnrndVow = Cns FrontUnrndVow %{I%} %{A%} %{U%};
+CnsFrontRndVow = Cns FrontRndVow  %{I%} %{A%} %{U%};
+CnsBackRndVow = Cns BackRndVow  %{I%} %{A%} %{U%};
+CnsBackLowRndVow = Cns BackLowRndVow  %{I%} %{A%} %{U%};
 	   
 NonBack = Cns FrontVow %> ;
 NonFront = Cns BackVow %> ;
@@ -55,25 +57,31 @@ Rules
 "Front Unrnd harmony in suffixes"
 Vx:Vy <=> :FrontUnrndVow CnsFrontUnrndVowSB:* Cns %>:     CnsFrontUnrndVow:* _ ; !  ?C>?_
           :FrontUnrndVow CnsFrontUnrndVowSB:*     %>: Cns CnsFrontUnrndVow:* _ ; !   ?>C_
-	where Vx in ( %{A%} %{I%} )
-	      Vy in (   е     и   )
+	where Vx in ( %{A%} %{I%} %{U%} )
+	      Vy in (   е     и     ү   )
 	      matched ;
 
 "Front Rnd harmony in suffixes"
 Vx:Vy <=> :FrontRndVow CnsFrontRndVowSB:* Cns %>:     CnsFrontRndVow:* _ ; ! ?C>?_
           :FrontRndVow CnsFrontRndVowSB:*     %>: Cns CnsFrontRndVow:* _ ; !  ?>C_
-	where Vx in ( %{A%} %{I%} )
-	      Vy in (   ө     ү   )
+	where Vx in ( %{A%} %{I%} %{U%} )
+	      Vy in (   ө     ү     ү   )
 	      matched ;
 
 "Back Low Rnd harmony in suffixes"
-%{A%}:о <=> :BackLowRndVow CnsBackLowRndVow:* Cns %>:     CnsBackLowRndVow:* _ ; ! ?C>?_
-             :BackLowRndVow CnsBackLowRndVow:*     %>: Cns CnsBackLowRndVow:* _ ; !  ?>C_
-
+Vx:Vy <=> :BackLowRndVow CnsBackLowRndVow:* Cns %>:     CnsBackLowRndVow:* _ ; ! ?C>?_
+          :BackLowRndVow CnsBackLowRndVow:*     %>: Cns CnsBackLowRndVow:* _ ; !  ?>C_
+        where Vx in ( %{A%} %{U%} ) 
+              Vy in (   о     у   )
+              matched ; 
 
 "Back High Rnd harmony in suffixes"
-%{I%}:у <=> :BackRndVow CnsBackRndVowSB:* Cns %>:     CnsBackRndVow:* _ ; ! ?C>?_
+Vx:Vy <=> :BackRndVow CnsBackRndVowSB:* Cns %>:     CnsBackRndVow:* _ ; ! ?C>?_
             :BackRndVow CnsBackRndVowSB:*     %>: Cns CnsBackRndVow:* _ ; !  ?>C_
+        where Vx in ( %{I%} %{U%} )
+              Vy in (   у     у   )
+              matched ; 
+
 
 "L Desonorisation"
 %{L%}:д <=> VoicedNonSonCnsNoRNoIj %>:  _ ;
