@@ -71,8 +71,12 @@ Multichar_Symbols
 %<cv_perf%> ! Converb perfect
 
 %<pres%>    ! Present tense
+%<aor%>     ! Aorist, -AJ
 %<cond%>    ! Conditional, -сA
+%<opt%>     ! Optative, -мAк>чI
 %<past%>    ! Past tense
+%<pih%>     ! Past habitual
+%<fut%>     ! Future tense, -AAр
 %<pp%>      ! Past participle, -GAн
 %<pp2%>     ! Past participle, -GAнI
 %<plist%>   ! Listing participle
@@ -90,6 +94,7 @@ Multichar_Symbols
 %{AJ%}      ! Realised as 'а', 'й' 
 %{A%}       ! Realised as 'а', 'е', 'о', 'ө' 
 %{I%}       ! Realised as 'ы', 'и', 'у', 'ү'
+%{U%}       ! Realised as 'у', 'ү'
 %{G%}       ! Realised as 'г', 'к', 'ң', 'н'
 %{D%}       ! Realised as 'д', 'т', 'н'
 %{M%}       ! Realised as 'м', 'б', 'п'
@@ -342,18 +347,7 @@ LEXICON V-CLIT
 %+би%<qst%>:%>%{B%}%{I%} # ;
 # ;
 
-LEXICON V-PERS-PRES
-
-%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
-%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
-%<p3%>%<sg%>:%>т V-CLIT ; 
-%<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
-%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
-%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
-%<p3%>%<pl%>:%>т V-CLIT ; 
-
-LEXICON V-PERS-POSS
+LEXICON V-PERS-POSS ! P_2
 
 %<p1%>%<sg%>:%>%{I%}м V-CLIT ; 
 %<p2%>%<sg%>:%>%{I%}ң V-CLIT ; 
@@ -364,7 +358,18 @@ LEXICON V-PERS-POSS
 %<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р V-CLIT ;  
 %<p3%>%<pl%>:%>с%{I%} V-CLIT ; 
 
-LEXICON V-PERS-PAST
+LEXICON V-PERS-COP ! P_3
+
+%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
+%<p3%>%<sg%>: V-CLIT ; 
+%<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
+%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
+%<p3%>%<pl%>: V-CLIT ; 
+
+LEXICON V-PERS-PAST ! P_4
 
 %<p1%>%<sg%>:%>%{I%}м V-CLIT ;
 %<p2%>%<sg%>:%>%{I%}ң V-CLIT ;
@@ -375,7 +380,18 @@ LEXICON V-PERS-PAST
 %<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р V-CLIT ;
 %<p3%>%<pl%>: V-CLIT ;  
 
-!LEXICON V-PERS-IMPER
+LEXICON V-PERS-PRES ! P_6
+
+%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
+%<p3%>%<sg%>:%>т V-CLIT ; 
+%<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
+%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
+%<p3%>%<pl%>:%>т V-CLIT ; 
+
+!LEXICON V-PERS-IMPER ! P_6
 
 LEXICON V-INFL-COMMON
 
@@ -388,16 +404,22 @@ LEXICON V-INFL-COMMON
 ! Non-finite forms and participles
 %<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
 %<pp2%>:%>%{G%}%{A%}н%{I%} POSSESSION ;                       ! 
+%<inf%>:%>%{I%}%{I%} # ;
 %<inf2%>:%>%{I%}ш # ;                                         ! -ыш, -иш, -уш, -үш
 %<neg%>%<pp%>:%>%{B%}%{A%}%>%{G%}%{A%}н POSSESSION ;          !
 %<neg%>%<pp2%>:%>%{B%}%{A%}%>%{G%}%{A%}н%{I%} POSSESSION ;    ! 
+%<neg%>%<inf%>:%>%{B%}%{A%}%>%{I%}%{I%} # ;                   !
 %<neg%>%<inf2%>:%>%{B%}%{A%}%>%{I%}ш # ;                      !
 %<plist%>:%>м%{A%}й # ;                                       !
 
 ! Finite forms
 %<pres%>:%>%{A%} V-PERS-PRES ;                                !
+%<aor%>:%>%{AJ%} V-PERS-PRES ;                                !
+%<fut%>:%>%{A%}%{A%}р V-PERS-COP ;                            !
 %<past%>:%>%{D%}%{I%} V-PERS-PAST ;                           ! 
 %<cond%>:%>с%{A%} V-PERS-PAST ;                               ! 
+%<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP ;                        !   
+%<pih%>:%>ч%{U%} V-PERS-COP ;                                 ! 
 %<neg%>%<past%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;        ! 
 %<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! 
 %<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! 
@@ -405,21 +427,14 @@ LEXICON V-INFL-COMMON
 LEXICON V-INFL
 
 %<v%>%<TD%>: V-INFL-COMMON ;
-%<v%>%<TD%>%<inf%>:%>үү # ;
-
-LEXICON V-INFL-SHORT
-
-%<v%>%<TD%>: V-INFL-COMMON ;
 
 LEXICON V-INFL-TV
 
 %<v%>%<tv%>: V-INFL-COMMON ;
-%<v%>%<tv%>%<inf%>:%>үү # ;
 
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
-%<v%>%<iv%>%<inf%>:%>үү # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!
@@ -4108,6 +4123,9 @@ LEXICON VerbStems
 
 бар%<v%>%<exi%>:бар # ;
 жок%<v%>%<neg%>%<exi%>:жок # ;
+жок%<v%>%<neg%>%<exi%>:жок V-PERS-COP ;
+эмес%<v%>%<neg%>:эмес # ;
+эмес%<v%>%<neg%>:эмес V-PERS-PAST ;
 
 бол V-INFL-IV ; ! "be"
 чыгар V-INFL-TV ; ! "" 
@@ -4177,8 +4195,7 @@ LEXICON VerbStems
 гэр V-INFL ; 
 дала V-INFL ; 
 даярда V-INFL ; 
-де V-INFL ; 
-де V-INFL-SHORT ; ! "say"
+де V-INFL ; ! "say"
 елестет V-INFL ; 
 жаа V-INFL ; 
 жаз V-INFL ; 
@@ -4187,7 +4204,7 @@ LEXICON VerbStems
 жаркыра V-INFL ; 
 жарыл V-INFL ; 
 жаша V-INFL ; 
-же V-INFL-SHORT ; ! "eat"
+же V-INFL ; ! "eat"
 жет V-INFL ; 
 жибер V-INFL ; 
 жинден V-INFL ; 
