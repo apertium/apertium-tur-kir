@@ -67,8 +67,9 @@ Multichar_Symbols
 %<exi%>     ! Existential
 %<qst%>     ! Question
 
-%<cnvi%>    ! Converb imperfect
-%<cnvp%>    ! Converb perfect
+%<cv_impf%> ! Converb imperfect
+%<cv_perf%> ! Converb perfect
+
 %<pres%>    ! Present tense
 %<cond%>    ! Conditional
 %<past%>    ! Past tense
@@ -117,21 +118,21 @@ VerbStems ;
 Punctuation ;
 
 LEXICON CASES-SHORT-ACC
-%<nom%>:%> # ;             ! -     -      -
-%<gen%>:%>%{N%}%{I%}н # ;  ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
-%<dat%>:%>%{G%}%{A%} # ;   ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
-%<acc%>:%>%{N%} # ;   ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
-%<loc%>:%>%{D%}%{A%} # ;   ! -да, -де, -та, -те, -до, -дө, -то, -тө
-%<abl%>:%>%{D%}%{A%}н # ;  ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
+%<nom%>:%> # ;                 ! -     -      -
+%<gen%>:%>%{N%}%{I%}н # ;      ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
+%<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
+%<acc%>:%>%{N%} # ;            ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
+%<loc%>:%>%{D%}%{A%} # ;       ! -да, -де, -та, -те, -до, -дө, -то, -тө
+%<abl%>:%>%{D%}%{A%}н # ;      ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
 %<rloc%>:%>%{D%}%{A%}г%{I%} # ;
 
 LEXICON CASES
-%<nom%>:%> # ;             ! -     -      -
-%<gen%>:%>%{N%}%{I%}н # ;  ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
-%<dat%>:%>%{G%}%{A%} # ;   ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
-%<acc%>:%>%{N%}%{I%} # ;   ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
-%<loc%>:%>%{D%}%{A%} # ;   ! -да, -де, -та, -те, -до, -дө, -то, -тө
-%<abl%>:%>%{D%}%{A%}н # ;  ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
+%<nom%>:%> # ;                 ! -     -      -
+%<gen%>:%>%{N%}%{I%}н # ;      ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
+%<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
+%<acc%>:%>%{N%}%{I%} # ;       ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
+%<loc%>:%>%{D%}%{A%} # ;       ! -да, -де, -та, -те, -до, -дө, -то, -тө
+%<abl%>:%>%{D%}%{A%}н # ;      ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
 %<rloc%>:%>%{D%}%{A%}г%{I%} # ;
 
 LEXICON GEN-POS
@@ -379,15 +380,15 @@ LEXICON V-PERS-PAST
 
 LEXICON V-INFL-COMMON
 
-%<cnvi%>:%>%{AJ%} # ;
-%<cnvp%>:%>%{I%}п # ;
+%<cv_impf%>:%>%{AJ%} # ;
+%<cv_perf%>:%>%{I%}п # ;
 %<pp%>:%>%{G%}%{A%}н CASES ;
 %<plist%>:%>м%{A%}й # ;
 %<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;
 %<pres%>:%>%{A%} V-PERS-PRES ;
 %<past%>:%>%{D%}%{I%} V-PERS-PAST ;
 %<cond%>:%>с%{A%} V-PERS-PAST ;
-# ;
+!# ;
 
 LEXICON V-INFL
 
@@ -399,7 +400,6 @@ LEXICON V-INFL-SHORT
 
 %<v%>%<TD%>: V-INFL-COMMON ;
 %<v%>%<TD%>%<inf2%>:%>%{I%}ш # ;
-
 
 LEXICON V-INFL-TV
 
@@ -4100,261 +4100,249 @@ LEXICON VerbStems
 бол V-INFL-IV ; ! "be"
 чыгар V-INFL-TV ; ! "" 
 
-оку V-INFL-TV ; ! "read"
-оку V-INFL-IV ; ! "read"
-укта V-INFL-IV ; ! "sleep"
-сүй V-INFL-TV ; ! "love"
+ач V-INFL-TV ; ! "open"
+ич V-INFL-IV ; ! "drink"
+ич V-INFL-TV ; ! "drink"
 күл V-INFL-IV ; ! "smile, laugh"
-сүйлө V-INFL ; ! "speak"
+оку V-INFL-IV ; ! "read"
+оку V-INFL-TV ; ! "read"
+сүй V-INFL-TV ; ! "love"
+түздө V-INFL-TV ; ! ""
 ук V-INFL-IV ; ! "listen"
 ук V-INFL-TV ; ! "listen"
-айда V-INFL ; ! "drive"
-түздө V-INFL-TV ; ! ""
+укта V-INFL-IV ; ! "sleep"
 чий V-INFL-TV ; ! "draw a line"
-токто V-INFL ; ! "stop" 
 
-ач V-INFL-TV ; ! "open"
-бар V-INFL ; ! "go"
-бил V-INFL ; ! "know"
-де V-INFL-SHORT ; ! "say"
-жат V-INFL ; ! "come"
-же V-INFL-SHORT ; ! "eat"
-ич V-INFL ; ! "drink"
-кел V-INFL ; ! "come"
-кет V-INFL ; ! "go"
-отур V-INFL ; ! "sit"
-тур V-INFL ; ! "stand, live"
-бар V-INFL ; 
-кет V-INFL ; 
-кет V-INFL ; 
-ич V-INFL ; 
-иште V-INFL ; 
+! TODO: Categorise for transitivity, and remove duplicate entries
+агыт V-INFL ; 
+азайт V-INFL ; 
+айда V-INFL ; ! "drive"
+айлант V-INFL ; 
+айт V-INFL ; 
+айыпта V-INFL ; 
+акса V-INFL ; 
+акырында V-INFL ; 
+ал V-INFL ; 
+алдан V-INFL ; 
+алкыш% кыл V-INFL ; 
+алып% кел V-INFL ; 
 аракет% кыл V-INFL ; 
-оку V-INFL ; 
-кел V-INFL ; 
-бил V-INFL ; 
+арна% ет V-INFL ; 
+ас V-INFL ; 
+ат V-INFL ; 
+аш V-INFL ; 
+аякта V-INFL ; 
+бак V-INFL ; 
+бар V-INFL ; ! "go"
+башта V-INFL ; 
+без V-INFL ; 
+бер V-INFL ; 
+бил V-INFL ; ! "know"
 билдир V-INFL ; 
 билин V-INFL ; 
-тааныл V-INFL ; 
-мин V-INFL ; 
-түш V-INFL ; 
-топтол V-INFL ; 
-жыйнал V-INFL ; 
-бүт V-INFL ; 
-аякта V-INFL ; 
-түгөн V-INFL ; 
-быч V-INFL ; 
-кес V-INFL ; 
-ор V-INFL ; 
 боё V-INFL ; 
-бузул V-INFL ; 
-муунт V-INFL ; 
-буу V-INFL ; 
 буз V-INFL ; 
-талкала V-INFL ; 
-бута V-INFL ; 
-сүй V-INFL ; 
-корго V-INFL ; 
-ич V-INFL ; 
-ал V-INFL ; 
-бер V-INFL ; 
-бил V-INFL ; 
-кел V-INFL ; 
-бак V-INFL ; 
-эсте V-INFL ; 
-де V-INFL ; 
-шүкүр% кыл V-INFL ; 
-планда V-INFL ; 
-кыл V-INFL ; 
-арна% ет V-INFL ; 
-ыйла V-INFL ; 
-алкыш% кыл V-INFL ; 
-елестет V-INFL ; 
-ас V-INFL ; 
-аш V-INFL ; 
-ат V-INFL ; 
-айыпта V-INFL ; 
-оз V-INFL ; 
-башта V-INFL ; 
-окшош V-INFL ; 
-без V-INFL ; 
-тажа V-INFL ; 
-быч V-INFL ; 
-мин V-INFL ; 
-муунт V-INFL ; 
-була V-INFL ; 
-буюр V-INFL ; 
+бузул V-INFL ; 
 буйрук% бер V-INFL ; 
-бөл V-INFL ; 
-бүк V-INFL ; 
-бырыштыр V-INFL ; 
-чак V-INFL ; 
-чал V-INFL ; 
-сүз V-INFL ; 
-жарыл V-INFL ; 
-тартын V-INFL ; 
-чык V-INFL ; 
-чөк V-INFL ; 
-dala V-INFL ; 
-чумку V-INFL ; 
-там V-INFL ; 
-теш V-INFL ; 
-топто V-INFL ; 
-айлант V-INFL ; 
-тик V-INFL ; 
-токто V-INFL ; 
-тиз V-INFL ; 
-оро V-INFL ; 
-тол V-INFL ; 
-тоң V-INFL ; 
-той V-INFL ; 
-төк V-INFL ; 
+була V-INFL ; 
 бурул V-INFL ; 
-саба V-INFL ; 
-ук V-INFL ; 
-жыгыл V-INFL ; 
-кула V-INFL ; 
-кош V-INFL ; 
-үйлө V-INFL ; 
-эш V-INFL ; 
-кеч V-INFL ; 
-гэр V-INFL ; 
-кир V-INFL ; 
-кет V-INFL ; 
-гий V-INFL ; 
-күл V-INFL ; 
-кайнат V-INFL ; 
-үр V-INFL ; 
-даярда V-INFL ; 
-жулмала V-INFL ; 
-секир V-INFL ; 
-коңурук% тарт V-INFL ; 
-тартуула V-INFL ; 
-ич V-INFL ; 
-кары V-INFL ; 
-онто V-INFL ; 
-түш V-INFL ; 
-сура V-INFL ; 
-ээрчи% ет V-INFL ; 
-алдан V-INFL ; 
-чиймеле V-INFL ; 
-карышта V-INFL ; 
-тосуп% ал V-INFL ; 
+бута V-INFL ; 
+буу V-INFL ; 
+буюр V-INFL ; 
+бырыштыр V-INFL ; 
+быч V-INFL ; 
+быш V-INFL ; 
+бүк V-INFL ; 
 бүктө V-INFL ; 
+бүт V-INFL ; 
+бөл V-INFL ; 
+гий V-INFL ; 
+гэр V-INFL ; 
+дала V-INFL ; 
+даярда V-INFL ; 
+де V-INFL ; 
+де V-INFL-SHORT ; ! "say"
+елестет V-INFL ; 
+жаа V-INFL ; 
+жаз V-INFL ; 
+жай V-INFL ; 
+жан V-INFL ; 
+жаркыра V-INFL ; 
+жарыл V-INFL ; 
+жат V-INFL ; ! "come"
+жаша V-INFL ; 
+же V-INFL-SHORT ; ! "eat"
+жет V-INFL ; 
+жибер V-INFL ; 
+жинден V-INFL ; 
+жон V-INFL ; 
+жулмала V-INFL ; 
+жум V-INFL ; 
+жыгыл V-INFL ; 
+жый V-INFL ; 
+жыйнал V-INFL ; 
+жыйынтыкта V-INFL ; 
+жык V-INFL ; 
+жырт V-INFL ; 
+жытта V-INFL ; 
+жэ V-INFL ; 
+жэң V-INFL ; 
+жүктө V-INFL ; 
+илгериле V-INFL ; 
+иште V-INFL ; 
+иште V-INFL ; 
+кайнат V-INFL ; 
+кал V-INFL ; 
+кара V-INFL ; 
+карма V-INFL ; 
+кары V-INFL ; 
+карышта V-INFL ; 
 кат V-INFL ; 
+кел V-INFL ; 
+кел V-INFL ; 
+кел V-INFL ; ! "come"
+керек V-INFL ; 
 кес V-INFL ; 
+кес V-INFL ; 
+кет V-INFL ; 
+кет V-INFL ; 
+кет V-INFL ; 
+кет V-INFL ; ! "go"
+кеч V-INFL ; 
+кир V-INFL ; 
+кооздо V-INFL ; 
+корго V-INFL ; 
+кош V-INFL ; 
+кошомат% кыл V-INFL ; 
+коңурук% тарт V-INFL ; 
+кубала V-INFL ; 
+кула V-INFL ; 
+кулат V-INFL ; 
+кура V-INFL ; 
+кургат V-INFL ; 
+кучакта V-INFL ; 
+кый% ет V-INFL ; 
+кыйна V-INFL ; 
+кыйна V-INFL ; 
+кыл V-INFL ; 
+кыл V-INFL ; 
 кыл V-INFL ; 
 кырк V-INFL ; 
 кыс V-INFL ; 
-азайт V-INFL ; 
-кый% ет V-INFL ; 
-жинден V-INFL ; 
-жытта V-INFL ; 
-кубала V-INFL ; 
-кучакта V-INFL ; 
-кура V-INFL ; 
-кургат V-INFL ; 
-таарын V-INFL ; 
-мыйооло V-INFL ; 
-отто V-INFL ; 
-ушала V-INFL ; 
-шайла V-INFL ; 
-ойно V-INFL ; 
-төлө V-INFL ; 
-өлчө V-INFL ; 
-өр V-INFL ; 
-сайра V-INFL ; 
-макта V-INFL ; 
-жыйынтыкта V-INFL ; 
-сагын V-INFL ; 
-парала V-INFL ; 
-жаркыра V-INFL ; 
-жарыл V-INFL ; 
-быш V-INFL ; 
-кошомат% кыл V-INFL ; 
-чач V-INFL ; 
-агыт V-INFL ; 
-салаңда V-INFL ; 
-сыла V-INFL ; 
-сыйла V-INFL ; 
-сана V-INFL ; 
-чеч V-INFL ; 
-акса V-INFL ; 
-салкында V-INFL ; 
-сүй V-INFL ; 
-сез V-INFL ; 
-ушала V-INFL ; 
-сыз V-INFL ; 
-сик V-INFL ; 
-өчүр V-INFL ; 
-сиң V-INFL ; 
-өч V-INFL ; 
+күй V-INFL ; 
 күнөөлө V-INFL ; 
+көбөйт V-INFL ; 
+көр V-INFL ; 
+көрсөт V-INFL ; 
+макта V-INFL ; 
+мин V-INFL ; 
+мин V-INFL ; 
+муунт V-INFL ; 
+муунт V-INFL ; 
+мыйооло V-INFL ; 
+оз V-INFL ; 
+ойно V-INFL ; 
+окшош V-INFL ; 
+онто V-INFL ; 
+ор V-INFL ; 
+оро V-INFL ; 
+отто V-INFL ; 
+отур V-INFL ; ! "sit"
+пайда% кыл V-INFL ; 
+парала V-INFL ; 
+планда V-INFL ; 
+саба V-INFL ; 
+сагын V-INFL ; 
+сайра V-INFL ; 
+салаңда V-INFL ; 
+салкында V-INFL ; 
+сана V-INFL ; 
+сез V-INFL ; 
+секир V-INFL ; 
+секир V-INFL ; 
+сик V-INFL ; 
+сиң V-INFL ; 
 сугар V-INFL ; 
-сүр V-INFL ; 
-айда V-INFL ; 
-кооздо V-INFL ; 
+сун V-INFL ; 
+сура V-INFL ; 
+сыз V-INFL ; 
+сыйла V-INFL ; 
+сыла V-INFL ; 
 сүз V-INFL ; 
-таң%кал V-INFL ; 
-шиши V-INFL ; 
-толукта V-INFL ; 
+сүз V-INFL ; 
+сүйлө V-INFL ; 
+сүйлө V-INFL ; ! "speak"
+сүр V-INFL ; 
+тааныл V-INFL ; 
+таарын V-INFL ; 
+тажа V-INFL ; 
+талкала V-INFL ; 
+там V-INFL ; 
+тан% кал V-INFL ; 
+тап V-INFL ; 
+тартуула V-INFL ; 
+тартын V-INFL ; 
 ташы V-INFL ; 
+таң%кал V-INFL ; 
 теп V-INFL ; 
 терде V-INFL ; 
-тут V-INFL ; 
-карма V-INFL ; 
-түтө V-INFL ; 
-уч V-INFL ; 
-узат V-INFL ; 
-үрк V-INFL ; 
-бер V-INFL ; 
-жаа V-INFL ; 
-өрттө V-INFL ; 
-жан V-INFL ; 
-күй V-INFL ; 
-акырында V-INFL ; 
-жай V-INFL ; 
-жэ V-INFL ; 
-жэң V-INFL ; 
-жый V-INFL ; 
-жык V-INFL ; 
-кулат V-INFL ; 
-жырт V-INFL ; 
-жон V-INFL ; 
-чарчат V-INFL ; 
-жум V-INFL ; 
-жүктө V-INFL ; 
-секир V-INFL ; 
-кыйна V-INFL ; 
-пайда% кыл V-INFL ; 
-кыл V-INFL ; 
-көр V-INFL ; 
-айт V-INFL ; 
-тап V-INFL ; 
-кара V-INFL ; 
-кыйна V-INFL ; 
+теш V-INFL ; 
 тиз V-INFL ; 
-иште V-INFL ; 
-аракет% кыл V-INFL ; 
-алып% кел V-INFL ; 
-ач V-INFL ; 
-кал V-INFL ; 
-көрсөт V-INFL ; 
-көбөйт V-INFL ; 
-сүйлө V-INFL ; 
-илгериле V-INFL ; 
-сун V-INFL ; 
-жаша V-INFL ; 
-жаз V-INFL ; 
+тиз V-INFL ; 
+тик V-INFL ; 
+той V-INFL ; 
+токто V-INFL ; 
+токто V-INFL ; ! "stop" 
+тол V-INFL ; 
+толукта V-INFL ; 
+топто V-INFL ; 
+топтол V-INFL ; 
+тосуп% ал V-INFL ; 
+тоң V-INFL ; 
+тур V-INFL ; ! "stand, live"
+тут V-INFL ; 
+түгөн V-INFL ; 
 түзүл V-INFL ; 
+түтө V-INFL ; 
+түш V-INFL ; 
+түш V-INFL ; 
+төк V-INFL ; 
+төлө V-INFL ; 
+узат V-INFL ; 
+уч V-INFL ; 
+ушала V-INFL ; 
+ушала V-INFL ; 
+чак V-INFL ; 
 чакыр V-INFL ; 
-керек V-INFL ; 
-жет V-INFL ; 
-жибер V-INFL ; 
-тан% кал V-INFL ; 
+чал V-INFL ; 
+чарчат V-INFL ; 
+чач V-INFL ; 
+чеч V-INFL ; 
+чиймеле V-INFL ; 
+чумку V-INFL ; 
+чык V-INFL ; 
+чөк V-INFL ; 
+шайла V-INFL ; 
+шиши V-INFL ; 
+шүкүр% кыл V-INFL ; 
+ыйла V-INFL ; 
+эсте V-INFL ; 
+эш V-INFL ; 
+ээрчи% ет V-INFL ; 
+үйлө V-INFL ; 
+үр V-INFL ; 
+үрк V-INFL ; 
+өлчө V-INFL ; 
+өр V-INFL ; 
+өрттө V-INFL ; 
+өч V-INFL ; 
+өчүр V-INFL ; 
+
 
 LEXICON Punctuation
 
 .%<sent%>:. # ;
+%;%<sent%>:%; # ;
+%:%<sent%>:%: # ;
 ,%<cm%>:, # ;
 %?%<sent%>:%? # ; 
