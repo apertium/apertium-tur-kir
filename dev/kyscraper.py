@@ -1,6 +1,3 @@
-reader.py:
-==========================================================================================================
-
 #!/usr/bin/python
 # coding=utf-8
 # -*- encoding: utf-8 -*-
@@ -67,7 +64,7 @@ def parse_page(buf): #{
 
 urls = [];
 
-for line in file('rss').read().split('\n'): #{
+for line in file('kyscraper_rss.dat').read().split('\n'): #{
 	urls.append(line);
 #}
 	
@@ -120,16 +117,3 @@ for url in urls: #{
 	#}
 #}
 
-
-
-==========================================================================================================
-rss
-==========================================================================================================
-http://www.trtkyrgyz.com/trtworld/rss/gundem.rss?dil=kr
-http://www.trtkyrgyz.com/trtworld/rss/bolgesel.rss?dil=kr
-http://www.trtkyrgyz.com/trtworld/rss/turkiye.rss?dil=kr
-http://www.trtkyrgyz.com/trtworld/rss/dunya.rss?dil=kr
-http://www.trtkyrgyz.com/trtworld/rss/spor.rss?dil=kr
-http://www.trtkyrgyz.com/trtworld/rss/ekonomi.rss?dil=kr
-http://www.trtkyrgyz.com/trtworld/rss/kultursanat.rss?dil=kr
-http://www.trtkyrgyz.com/trtworld/rss/program.rss?dil=kr
