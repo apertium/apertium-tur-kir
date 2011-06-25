@@ -440,17 +440,17 @@ LEXICON V-PERS-PRES ! P_6
 LEXICON V-INFL-COMMON
 
 ! Converbs 
-%<cv_impf%>:%>%{E%} # ;                                      !
-%<cv_perf%>:%>%{I%}п # ;                                     ! -ып, -ип, -уп, -үп
-%<cv_inf%>:%>м%{A%}к # ;                                     !
-%<cv_irre%>:%>%{E%}т # ;                                     !
-%<cv_fut%>:%>%{A%}р # ;                                      !
-%<cv_fut%>:%>%{A%}%{A%}р # ;                                 ! Dir/LR
+%<cv_impf%>:%>%{E%} # ;                                       !
+%<cv_perf%>:%>%{I%}п # ;                                      ! -ып, -ип, -уп, -үп
+%<cv_inf%>:%>м%{A%}к # ;                                      !
+%<cv_irre%>:%>%{E%}т # ;                                      !
+%<cv_fut%>:%>%{A%}р # ;                                       !
+%<cv_fut%>:%>%{A%}%{A%}р # ;                                  ! Dir/LR
 
 ! Non-finite forms and participles
 %<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
 %<pp2%>:%>%{G%}%{A%}н%{I%} POSSESSION ;                       ! 
-%<inf%>:%>%{I%}%{I%} # ;                                      ! 
+%<inf%>:%>%{U%}%{U%} # ;                                      ! 
 %<inf2%>:%>%{I%}ш # ;                                         ! -ыш, -иш, -уш, -үш
 %<neg%>%<pp%>:%>%{B%}%{A%}%>%{G%}%{A%}н POSSESSION ;          !
 %<neg%>%<pp2%>:%>%{B%}%{A%}%>%{G%}%{A%}н%{I%} POSSESSION ;    ! 
@@ -459,7 +459,7 @@ LEXICON V-INFL-COMMON
 %<plist%>:%>м%{A%}й # ;                                       !
 
 ! Finite forms
-%<pres%>:%>%{A%} V-PERS-PRES ;                                !
+%<pres%>:%>%{A%} V-PERS-PRES ;                                ! TODO: Check
 %<aor%>:%>%{E%} V-PERS-PRES ;                                 !
 %<fut%>:%>%{A%}р V-PERS-COP ;                                 !
 %<fut%>:%>%{A%}%{A%}р V-PERS-COP ;                            ! Dir/LR
@@ -469,8 +469,12 @@ LEXICON V-INFL-COMMON
 %<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP ;                        !   
 %<pih%>:%>ч%{U%} V-PERS-COP ;                                 ! 
 %<pcond%>:%>м%{A%}к V-PERS-COP ;          ! 
+
+%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! TODO: Check
+%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}р V-PERS-COP ;              !
+%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}%{A%}р V-PERS-COP ;         ! Dir/LR
 %<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;         ! 
-%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! 
+%<neg%>%<aor%>:%>%{B%}%{A%}%>%{E%} V-PERS-PRES ;              !
 %<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! 
 %<neg%>%<past%>:%>%{B%}%{A%}%>%{G%}%{A%}н V-PERS-COP ;        ! 
 %<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP ;           ! 
@@ -747,7 +751,6 @@ LEXICON NounStems
 астронавт N-INFL ; 
 астрономия N-INFL ; 
 асфальт N-INFL ; 
-ат N-INFL ; 
 атак N-INFL ; 
 атеизм N-INFL ; 
 атеист N-INFL ; 
@@ -1062,7 +1065,6 @@ LEXICON NounStems
 адрес N-INFL ; 
 дарек N-INFL ; 
 ысым N-INFL ; 
-ат N-INFL ; 
 атак-даңк N-INFL ; 
 аферист N-INFL ; 
 аста N-INFL ; 
@@ -2924,7 +2926,6 @@ LEXICON NounStems
 ата N-INFL ; 
 чабуул N-INFL ; 
 от N-INFL ; 
-ат N-INFL ; 
 атлас N-INFL ; 
 аң N-INFL ; 
 уу N-INFL ; 
@@ -4241,6 +4242,9 @@ LEXICON VerbStems
 аш V-INFL-IV ; 
 жет V-INFL-IV ; 
 иште V-INFL-IV ;  ! "work"
+аарчы V-INFL-IV ;  ! ""
+аарчы V-INFL-TV ;  ! ""
+саба V-INFL-TV ;  ! ""
 
 
 ! TODO: Categorise for transitivity, and remove duplicate entries

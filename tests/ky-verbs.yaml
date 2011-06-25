@@ -5,9 +5,14 @@ Config:
 
 Tests:
 
-  "[lexc] Infinitive -{I}{I}":
+  "[lexc] Infinitive -{U}{U}":
     бол<v><iv><inf> : болуу
     сүй<v><tv><inf> : сүйүү
+    окшо<v><iv><inf> : окшоо
+    иште<v><iv><inf> : иштөө
+    саба<v><iv><inf> : сабоо
+    аарчы<v><tv><inf> : аарчуу
+    ат<v><tv><inf> : атуу
 
   "[lexc] Negative -б{A}":
     бол<v><iv><neg><cond><p1><sg> : болбосом
