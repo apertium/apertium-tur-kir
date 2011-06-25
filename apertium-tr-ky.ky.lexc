@@ -43,6 +43,8 @@ Multichar_Symbols
 %<itg%>     ! Interrogative
 %<ref%>     ! Reflexive
 
+%<cmpd%>    ! Compound
+
 %<sg%>      ! Singular
 %<pl%>      ! Plural
 
@@ -95,6 +97,7 @@ Multichar_Symbols
 %<comp%>    ! Comparative level of comparison 
 %<sup%>	    ! Superlative level of comparison 
 %<ord%>     ! Ordinal
+%<apprx%>   ! Approximal
 
 
 %{E%}       ! Realised as 'а', 'е', 'о', 'ө', 'й' 
@@ -281,6 +284,8 @@ Num ;
 LEXICON NUM
 
 %<num%>: POSSESSION ;
+%<num%>%<ord%>:%>%{I%}нч%{I%} POSSESSION ;
+%<num%>%<apprx%>:%>%{D%}%{A%}й POSSESSION ;
 
 LEXICON PRON-DEM-BUL
 
@@ -445,7 +450,7 @@ LEXICON V-INFL-COMMON
 ! Non-finite forms and participles
 %<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
 %<pp2%>:%>%{G%}%{A%}н%{I%} POSSESSION ;                       ! 
-%<inf%>:%>%{I%}%{I%} # ;
+%<inf%>:%>%{I%}%{I%} # ;                                      ! 
 %<inf2%>:%>%{I%}ш # ;                                         ! -ыш, -иш, -уш, -үш
 %<neg%>%<pp%>:%>%{B%}%{A%}%>%{G%}%{A%}н POSSESSION ;          !
 %<neg%>%<pp2%>:%>%{B%}%{A%}%>%{G%}%{A%}н%{I%} POSSESSION ;    ! 
@@ -3658,6 +3663,8 @@ LEXICON NounStems
 жыйнак N-INFL;
 жылдык N-INFL ;
 орунбасар N-INFL ;
+орун% басар N-INFL ;
+орун%<n%>%<nom%>%<cmpd%>%+басар:орун% басар N-INFL ;
 
 LEXICON PropernounStems
 
@@ -4231,6 +4238,9 @@ LEXICON VerbStems
 ук V-INFL-TV ; ! "listen"
 укта V-INFL-IV ; ! "sleep"
 чий V-INFL-TV ; ! "draw a line"
+аш V-INFL-IV ; 
+жет V-INFL-IV ; 
+иште V-INFL-IV ;  ! "work"
 
 
 ! TODO: Categorise for transitivity, and remove duplicate entries
@@ -4245,7 +4255,6 @@ LEXICON VerbStems
 алып% кел V-INFL ; 
 аракет% кыл V-INFL ; 
 арна% ет V-INFL ; 
-аш V-INFL ; 
 аякта V-INFL ; 
 бак V-INFL ; 
 башта V-INFL ; 
@@ -4283,7 +4292,6 @@ LEXICON VerbStems
 жарыл V-INFL ; 
 жаша V-INFL ; 
 же V-INFL ; ! "eat"
-жет V-INFL ; 
 жибер V-INFL ; 
 жинден V-INFL ; 
 жон V-INFL ; 
@@ -4300,7 +4308,6 @@ LEXICON VerbStems
 жэң V-INFL ; 
 жүктө V-INFL ; 
 илгериле V-INFL ; 
-иште V-INFL ; 
 кайнат V-INFL ; 
 кал V-INFL ; 
 кара V-INFL ; 

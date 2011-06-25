@@ -69,15 +69,15 @@ Vx:Vy <=> :FrontRndVow CnsFrontRndVowSB:* Cns %>:     CnsFrontRndVow:* _ ; ! ?C>
 "Back Low Rnd harmony in suffixes"
 Vx:Vy <=> :BackLowRndVow CnsBackLowRndVow:* Cns %>:     CnsBackLowRndVow:* _ ; ! ?C>?_
           :BackLowRndVow CnsBackLowRndVow:*     %>: Cns CnsBackLowRndVow:* _ ; !  ?>C_
-        where Vx in ( %{A%} %{U%} %{E%} ) 
-              Vy in (   о     у     о   )
+        where Vx in ( %{A%} %{I%} %{U%} %{E%} ) 
+              Vy in (   о     у     у     о   )
               matched ; 
 
 "Back High Rnd harmony in suffixes"
 Vx:Vy <=> :BackRndVow CnsBackRndVowSB:* Cns %>:     CnsBackRndVow:* _ ; ! ?C>?_
             :BackRndVow CnsBackRndVowSB:*     %>: Cns CnsBackRndVow:* _ ; !  ?>C_
-        where Vx in ( %{I%} %{U%} %{E%} )
-              Vy in (   у     у     о   )
+        where Vx in (       %{I%} %{U%} %{E%} )
+              Vy in (         у     у     о   )
               matched ; 
 
 "L Desonorisation"
