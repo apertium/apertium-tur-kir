@@ -1,7 +1,7 @@
 Alphabet
 А Б В Г Д Е Ё Ж З И И К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
 а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ь ы ъ э ю я
-%{G%}:г %{D%}:д %{N%}:н %{L%}:л %{B%}:б %{AJ%}:а %{P%}:п 
+%{G%}:г %{D%}:д %{N%}:н %{L%}:л %{B%}:б %{E%}:а %{P%}:п 
 %{A%}:а %{I%}:ы %{U%}:у 
 %>:0 ; 
 
@@ -12,7 +12,7 @@ Cns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ
 	  %{D%} %{G%} %{N%} %{L%} %{B%} %{P%} ;
 Vow =     А Е Ё И О Ө У Ү Ы Э Ю Я
           а е ё и о ө у ү ы э ю я 
-          %{A%} %{I%} %{U%} ;
+          %{A%} %{I%} %{U%} %{E%};
 FrontVow = И Ө Е Ү Э и ө ү э е ;
 BackVow = А О У Ы а о у ы ;
 FrontUnrndVow = И Е Э и э е ; 
@@ -27,7 +27,7 @@ UnvoicedNonSonCns = К П С Т Ф Х Ц Ч Ш Щ
 	                к п с т ф х ц ч ш щ ;
 
 VoicedNonSonCns = Б В Г Д Ж З Л М Н Ң Й Р 
-                  б в г д ж з л м н ң й р;
+                  б в г д ж з л м н ң й р ;
 
 VoicedNonSonCnsNoRNoIj = Б В Г Д Ж З Л М Н Ң  
                   б в г д ж з л м н ң ;
@@ -38,13 +38,11 @@ CnsFrontRndVowSB = Cns FrontRndVow %> ;
 CnsBackRndVowSB = Cns BackRndVow %> ;
 
 ! These sets do not continue suffix borders.
-CnsFrontUnrndVow = Cns FrontUnrndVow %{I%} %{A%} %{U%};
-CnsFrontRndVow = Cns FrontRndVow  %{I%} %{A%} %{U%};
-CnsBackRndVow = Cns BackRndVow  %{I%} %{A%} %{U%};
-CnsBackLowRndVow = Cns BackLowRndVow  %{I%} %{A%} %{U%};
+CnsFrontUnrndVow = Cns FrontUnrndVow %{I%} %{A%} %{U%} %{E%};
+CnsFrontRndVow = Cns FrontRndVow  %{I%} %{A%} %{U%} %{E%};
+CnsBackRndVow = Cns BackRndVow  %{I%} %{A%} %{U%} %{E%} ;
+CnsBackLowRndVow = Cns BackLowRndVow  %{I%} %{A%} %{U%} %{E%};
 	   
-NonBack = Cns FrontVow %> ;
-NonFront = Cns BackVow %> ;
  
 Rules
 
@@ -57,31 +55,30 @@ Rules
 "Front Unrnd harmony in suffixes"
 Vx:Vy <=> :FrontUnrndVow CnsFrontUnrndVowSB:* Cns %>:     CnsFrontUnrndVow:* _ ; !  ?C>?_
           :FrontUnrndVow CnsFrontUnrndVowSB:*     %>: Cns CnsFrontUnrndVow:* _ ; !   ?>C_
-	where Vx in ( %{A%} %{I%} %{U%} )
-	      Vy in (   е     и     ү   )
+	where Vx in ( %{A%} %{I%} %{U%} %{E%} )
+	      Vy in (   е     и     ү     е   )
 	      matched ;
 
 "Front Rnd harmony in suffixes"
 Vx:Vy <=> :FrontRndVow CnsFrontRndVowSB:* Cns %>:     CnsFrontRndVow:* _ ; ! ?C>?_
           :FrontRndVow CnsFrontRndVowSB:*     %>: Cns CnsFrontRndVow:* _ ; !  ?>C_
-	where Vx in ( %{A%} %{I%} %{U%} )
-	      Vy in (   ө     ү     ү   )
+	where Vx in ( %{A%} %{I%} %{U%} %{E%} )
+	      Vy in (   ө     ү     ү     ө   )
 	      matched ;
 
 "Back Low Rnd harmony in suffixes"
 Vx:Vy <=> :BackLowRndVow CnsBackLowRndVow:* Cns %>:     CnsBackLowRndVow:* _ ; ! ?C>?_
           :BackLowRndVow CnsBackLowRndVow:*     %>: Cns CnsBackLowRndVow:* _ ; !  ?>C_
-        where Vx in ( %{A%} %{U%} ) 
-              Vy in (   о     у   )
+        where Vx in ( %{A%} %{U%} %{E%} ) 
+              Vy in (   о     у     о   )
               matched ; 
 
 "Back High Rnd harmony in suffixes"
 Vx:Vy <=> :BackRndVow CnsBackRndVowSB:* Cns %>:     CnsBackRndVow:* _ ; ! ?C>?_
             :BackRndVow CnsBackRndVowSB:*     %>: Cns CnsBackRndVow:* _ ; !  ?>C_
-        where Vx in ( %{I%} %{U%} )
-              Vy in (   у     у   )
+        where Vx in ( %{I%} %{U%} %{E%} )
+              Vy in (   у     у     о   )
               matched ; 
-
 
 "L Desonorisation"
 %{L%}:д <=> VoicedNonSonCnsNoRNoIj %>:  _ ;
@@ -89,8 +86,8 @@ Vx:Vy <=> :BackRndVow CnsBackRndVowSB:* Cns %>:     CnsBackRndVow:* _ ; ! ?C>?_
 "N Desonorisation"
 %{N%}:д <=> [ SonCns | VoicedNonSonCns ] %>:  _ ;
 
-"L Desonorisation and Devoicing"
-Cx:т <=> UnvoicedNonSonCns %>: _ ;
+"L Desonorisation and devoicing"
+Cx:т <=> [ UnvoicedNonSonCns | UnvoicedNonSonCns ь ] %>: _ ;
 	where Cx in ( %{L%} %{N%} ) ;
 
 "Katkalan harmony in consonants 2"
@@ -100,10 +97,10 @@ Cx:т <=> UnvoicedNonSonCns %>: _ ;
 %{D%}:т <=> UnvoicedNonSonCns %>: _ ;
 
 "Мягкий знак deletion before suffix"
-ь:0 <=> _ %>: ; 
+ь:0 <=> _ %>: ;
 
 "Realisation of converb marker after vowels"
-%{AJ%}:й <=> Vow %>: _ ;
+%{E%}:й <=> Vow %>: _ ;
 
 "'с' deletion in possessive after consonant"
 с:0 <=> Cns %>: _ %{I%}: ; 
@@ -128,6 +125,9 @@ Cx:т <=> UnvoicedNonSonCns %>: _ ;
 
 "K voicing"
 к:г <=> Vow _ %>: Vow ;
+
+"B -> п in negative"
+%{B%}:п <=> UnvoicedNonSonCns: %>: _  ;
 
 
 ! ndt	N

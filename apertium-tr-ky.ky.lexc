@@ -15,6 +15,7 @@ Multichar_Symbols
 %<post%>    ! Postposition
 %<postadv%> ! Postadverb
 %<part%>    ! Particle
+%<abbr%>    ! Abbreviation
 %<cnjcoo%>  ! Coordinating conjunction
 %<cnjadv%>  ! Adverbial conjunction
 %<cnjsub%>  ! Subordinating conjunction
@@ -37,6 +38,8 @@ Multichar_Symbols
 
 %<pers%>    ! Personal 
 %<dem%>     ! Demonstrative
+%<ind%>     ! Indefinite
+%<qnt%>     ! Quantifier
 %<itg%>     ! Interrogative
 %<ref%>     ! Reflexive
 
@@ -69,13 +72,15 @@ Multichar_Symbols
 
 %<cv_impf%> ! Converb imperfect
 %<cv_perf%> ! Converb perfect
+%<cv_irre%> ! Converb perfect
 
 %<pres%>    ! Present tense
-%<aor%>     ! Aorist, -AJ
+%<aor%>     ! Aorist, -E
 %<cond%>    ! Conditional, -сA
 %<opt%>     ! Optative, -мAк>чI
 %<past%>    ! Past tense
 %<pih%>     ! Past habitual
+%<ifi%>     ! Definite past 
 %<fut%>     ! Future tense, -AAр
 %<pp%>      ! Past participle, -GAн
 %<pp2%>     ! Past participle, -GAнI
@@ -91,7 +96,7 @@ Multichar_Symbols
 %<ord%>     ! Ordinal
 
 
-%{AJ%}      ! Realised as 'а', 'й' 
+%{E%}       ! Realised as 'а', 'е', 'о', 'ө', 'й' 
 %{A%}       ! Realised as 'а', 'е', 'о', 'ө' 
 %{I%}       ! Realised as 'ы', 'и', 'у', 'ү'
 %{U%}       ! Realised as 'у', 'ү'
@@ -122,9 +127,10 @@ AdjecStems ;
 AdvStems ;
 VerbStems ;
 Punctuation ;
+Abbreviations ;
 
 LEXICON CASES-SHORT-ACC
-%<nom%>:%> # ;                 ! -     -      -
+%<nom%>: # ;                   ! -     -      -
 %<gen%>:%>%{N%}%{I%}н # ;      ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
 %<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
 %<acc%>:%>%{N%} # ;            ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
@@ -133,7 +139,7 @@ LEXICON CASES-SHORT-ACC
 %<rloc%>:%>%{D%}%{A%}г%{I%} # ;
 
 LEXICON CASES
-%<nom%>:%> # ;                 ! -     -      -
+%<nom%>: # ;                 ! -     -      -
 %<gen%>:%>%{N%}%{I%}н # ;      ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
 %<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
 %<acc%>:%>%{N%}%{I%} # ;       ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
@@ -159,6 +165,32 @@ GEN-POS ;
 %<px2pl%>:%>%{I%}ң%{A%}р GEN-POS ; 
 %<px2pl%>%<frm%>:%>%{I%}ң%{I%}зд%{A%}р GEN-POS;
 %<px3pl%>:%>с%{I%} GEN-POS-SHORT-ACC ;
+
+LEXICON N-INFL
+
+%<n%>: POSSESSION ;
+%<n%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+
+LEXICON NP-COG-MF
+
+%<np%>%<cog%>%<mf%>: CASES  ;
+
+LEXICON NP-ANT-M
+
+%<np%>%<ant%>%<m%>: CASES  ;
+
+LEXICON NP-ANT-F
+
+%<np%>%<ant%>%<f%>: CASES ;
+
+LEXICON NP-ORG
+
+%<np%>%<org%>: CASES ;
+
+LEXICON NP-TOP
+
+%<np%>%<top%>: CASES ;
+
 
 LEXICON ADJ-LEVELS
 
@@ -201,9 +233,29 @@ LEXICON PART
 
 %<part%>: # ;
 
+LEXICON PART-PERS-COP
+
+%<part%>: V-PERS-COP ;
+
+LEXICON PART-PERS-PAST 
+
+%<part%>: V-PERS-PAST ;
+
+LEXICON ABBR
+
+%<abbr%>: # ;
+
 LEXICON DET-DEM
 
 %<det%>%<dem%>: # ;
+
+LEXICON DET-IND
+
+%<det%>%<ind%>: # ;
+
+LEXICON DET-QNT
+
+%<det%>%<qnt%>: # ;
 
 LEXICON NumeralList
 
@@ -317,30 +369,15 @@ LEXICON PRON-REFL
 
 %<prn%>%<ref%>: CASES  ;
 
-LEXICON N-INFL
+LEXICON PRON-IND
 
-%<n%>: POSSESSION ;
-%<n%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+%<prn%>%<ind%>: CASES ;
 
-LEXICON NP-COG-MF
+LEXICON PRON-QNT
 
-%<np%>%<cog%>%<mf%>: CASES  ;
+%<prn%>%<qnt%>: CASES ;
 
-LEXICON NP-ANT-M
 
-%<np%>%<ant%>%<m%>: CASES  ;
-
-LEXICON NP-ANT-F
-
-%<np%>%<ant%>%<f%>: CASES ;
-
-LEXICON NP-ORG
-
-%<np%>%<org%>: CASES ;
-
-LEXICON NP-TOP
-
-%<np%>%<top%>: CASES ;
 
 LEXICON V-CLIT 
 
@@ -382,7 +419,8 @@ LEXICON V-PERS-PAST ! P_4
 
 LEXICON V-PERS-PRES ! P_6
 
-%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
+%<p1%>%<sg%>:%>м V-CLIT ; 
+!%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
 %<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
 %<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
 %<p3%>%<sg%>:%>т V-CLIT ; 
@@ -396,10 +434,10 @@ LEXICON V-PERS-PRES ! P_6
 LEXICON V-INFL-COMMON
 
 ! Converbs 
-%<cv_impf%>:%>%{AJ%} # ;                                      !
-%<cv_perf%>:%>%{I%}п # ;                                      ! -ып, -ип, -уп, -үп
-%<cv_inf%>:%>м%{A%}к # ;                                      !
-%<cv_Et%>:%>%{AJ%}т # ;                                       !
+%<cv_impf%>:%>%{E%} # ;                                      !
+%<cv_perf%>:%>%{I%}п # ;                                     ! -ып, -ип, -уп, -үп
+%<cv_inf%>:%>м%{A%}к # ;                                     !
+%<cv_irre%>:%>%{E%}т # ;                                     !
 
 ! Non-finite forms and participles
 %<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
@@ -414,15 +452,20 @@ LEXICON V-INFL-COMMON
 
 ! Finite forms
 %<pres%>:%>%{A%} V-PERS-PRES ;                                !
-%<aor%>:%>%{AJ%} V-PERS-PRES ;                                !
+%<aor%>:%>%{E%} V-PERS-PRES ;                                 !
 %<fut%>:%>%{A%}%{A%}р V-PERS-COP ;                            !
-%<past%>:%>%{D%}%{I%} V-PERS-PAST ;                           ! 
+%<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                           ! 
+%<past%>:%>%{G%}%{A%}н V-PERS-COP ;                           ! 
 %<cond%>:%>с%{A%} V-PERS-PAST ;                               ! 
 %<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP ;                        !   
 %<pih%>:%>ч%{U%} V-PERS-COP ;                                 ! 
-%<neg%>%<past%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;        ! 
+%<pcond%>:%>м%{A%}к V-PERS-COP ;          ! 
+%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;        ! 
 %<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! 
 %<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! 
+%<neg%>%<past%>:%>%{B%}%{A%}%>%{G%}%{A%}н V-PERS-COP ;        ! 
+%<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP ;          ! 
+%<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP ;                                 ! 
 
 LEXICON V-INFL
 
@@ -445,10 +488,13 @@ LEXICON Particles
 да PART ; ! "also, too"
 го PART ; ! "also, too"
 мына PART ; ! "here is, вот"
-экен PART ; ! non-eyewitness modal particle
 эгер PART ; ! conjunction like particle "if"
 эгерде PART ; ! conjunction like particle "if"
 сыяктуу PART ; ! modal particle; adjective, usually with dative "similar to"
+экен PART ; ! non-eyewitness modal particle
+экен PART-PERS-COP ; ! non-eyewitness modal particle
+эле PART ; ! 
+эле PART-PERS-PAST ; ! 
 
 LEXICON Postadverbs 
 
@@ -492,6 +538,12 @@ LEXICON Determiners
 ал DET-DEM ; ! "that"
 тигил DET-DEM ; ! "that (yonder)"
 
+айрым DET-IND ; ! "other"
+
+кээ% бир DET-QNT ; ! "some"
+бир% нече DET-QNT ; ! "some, several"
+көптөгөн DET-QNT ; ! "many"
+
 LEXICON Pronouns
 
 мен%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-PERS-SEN ; 
@@ -511,6 +563,12 @@ LEXICON Pronouns
 эмне PRON-ITG ; ! "what?"
 
 өз PRON-REFL ; ! "own/self"
+
+айрым PRON-IND ; ! "other"
+
+кээ% бир PRON-QNT ; ! "some"
+бир% нече PRON-QNT ; ! "some, several"
+көптөгөн PRON-QNT ; ! "many"
 
 LEXICON Numerals 
 
@@ -983,7 +1041,7 @@ LEXICON NounStems
 доктор N-INFL ; ! "doctor"
 форма N-INFL ; ! "form"
 
-
+комитет N-INFL ;  ! "committee"
 абал N-INFL ; 
 жыгач N-INFL ; 
 дарак N-INFL ; 
@@ -3599,6 +3657,7 @@ LEXICON NounStems
 LEXICON PropernounStems
 
 Баласагын NP-TOP ;
+Москва NP-TOP ;
 Ирландия NP-TOP ;
 Италия NP-TOP ;
 Испания NP-TOP ;
@@ -3778,6 +3837,14 @@ LEXICON AdjecStems
 туулган ADJ ; ! "native"
 райондук ADJ ; ! "regional" (not "regional")
 республикалык ADJ ; ! "republic [e.g., hospital]"
+экономикалык ADJ ; ! ""
+макроэкономикалык ADJ ; ! ""
+техникалык ADJ ; ! "technical"
+политехникалык ADJ ; ! "polytechnic"
+материалдык ADJ ; ! ""
+радиотехникалык ADJ ; ! ""
+музыкалык ADJ ; ! ""
+хореографиялык ADJ ! ""
 
 чыныгы ADJ ; 
 совет ADJ ;  ! "Soviet"
@@ -4130,6 +4197,13 @@ LEXICON VerbStems
 бол V-INFL-IV ; ! "be"
 чыгар V-INFL-TV ; ! "" 
 
+
+айлант V-INFL-TV ; ! "give headache"
+айт V-INFL-IV ; ! "tell"
+айт V-INFL-TV ; ! "tell"
+акса V-INFL-IV ; ! "limp"
+ас V-INFL-TV ; ! "hang"
+ат V-INFL-TV ; ! "shoot"
 ач V-INFL-TV ; ! "open"
 бар V-INFL-IV ; ! "go"
 бил V-INFL-TV ; ! "know"
@@ -4141,7 +4215,9 @@ LEXICON VerbStems
 күл V-INFL-IV ; ! "smile, laugh"
 оку V-INFL-IV ; ! "read"
 оку V-INFL-TV ; ! "read"
+окшо V-INFL-IV ; ! "be similar to"
 сүй V-INFL-TV ; ! "love"
+таң% ат V-INFL-TV ; ! "dawn"
 тур V-INFL-IV ; ! "stand, live"
 түздө V-INFL-TV ; ! ""
 ук V-INFL-IV ; ! "listen"
@@ -4154,10 +4230,7 @@ LEXICON VerbStems
 агыт V-INFL ; 
 азайт V-INFL ; 
 айда V-INFL ; ! "drive"
-айлант V-INFL ; 
-айт V-INFL ; 
 айыпта V-INFL ; 
-акса V-INFL ; 
 акырында V-INFL ; 
 ал V-INFL ; 
 алдан V-INFL ; 
@@ -4165,8 +4238,6 @@ LEXICON VerbStems
 алып% кел V-INFL ; 
 аракет% кыл V-INFL ; 
 арна% ет V-INFL ; 
-ас V-INFL ; 
-ат V-INFL ; 
 аш V-INFL ; 
 аякта V-INFL ; 
 бак V-INFL ; 
@@ -4347,12 +4418,24 @@ LEXICON VerbStems
 үйлө V-INFL ; 
 үр V-INFL ; 
 үрк V-INFL ; 
+өл V-INFL-IV ; 
 өлчө V-INFL ; 
 өр V-INFL ; 
 өрттө V-INFL ; 
 өч V-INFL ; 
 өчүр V-INFL ; 
 
+LEXICON Abbreviations
+
+жж%. ABBR ;
+ж%. ABBR ;
+б%. ABBR ;
+ж%.б%. ABBR ; ! жана башка "etc."
+ж%.% б%. ABBR ; ! жана башка "etc."
+бб%. ABBR ; ! 
+б%.а%. ABBR ; ! башкача айтканда "in other words"
+б%.з%.ч%. ABBR ; ! биздин заманга чейинки "B.C.E."
+ж%.б%.у%.с%. ABBR ; ! жана башка ушул сыяктуу "and similar"
 
 LEXICON Punctuation
 
