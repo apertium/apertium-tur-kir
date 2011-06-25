@@ -34,6 +34,7 @@ Trmorph		Kymorph		Description
 -------------------------------------------------------------------------------
 <n>		<n>		Noun
 <v>		<v>		Verb
+<postp>		<post>		Postposition
 
 <pl>		<pl>		Plural
 
