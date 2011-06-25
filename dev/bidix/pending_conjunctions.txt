@@ -1,72 +1,52 @@
-  15833 ^@de<cnjadv>$
-  15409 ^@da<cnjadv>$
-   2203 ^@ya<cnjadv>$
-   1364 ^@ta<cnjadv>$
-    479 ^@gerek<cnjcoo>$
-    468 ^@bile<cnjadv>$
-    445 ^@ki<cnjadv>$
-    428 ^@ila<cnjcoo>$
-    384 ^@ya da<cnjadv>$
-    229 ^@zira<cnjadv>$
-    180 ^@yani<cnjadv>$
-    176 ^@olsun<cnjadv>$
-    167 ^@ne var ki<cnjadv>$
-    158 ^@ama<cnjadv>$
-    146 ^@örneğin<cnjadv>$
-    141 ^@çünkü<cnjadv>$
-    131 ^@hatta<cnjadv>$
-    112 ^@dolayısıyla<cnjadv>$
-    106 ^@dahası<cnjadv>$
-     61 ^@bile<cnjadv>$.
+  16566 ^@da<cnjadv>$
+  16334 ^@de<cnjadv>$
+   2981 ^@olarak<cnjsub>$
+   2380 ^@ya<cnjadv>$
+   1828 ^@ta<cnjadv>$
+    546 ^@bile<cnjadv>$
+    485 ^@gerek<cnjcoo>$
+    483 ^@ila<cnjcoo>$
+    437 ^@ki<cnjadv>$
+    386 ^@ya da<cnjadv>$
+    235 ^@zira<cnjadv>$
+    184 ^@yani<cnjadv>$
+    175 ^@olsun<cnjadv>$
+    171 ^@ne var ki<cnjadv>$
+    151 ^@diye<cnjsub>$
+    149 ^@örneğin<cnjadv>$
+    145 ^@çünkü<cnjadv>$
+    135 ^@hatta<cnjadv>$
+    128 ^@dolayısıyla<cnjadv>$
+    107 ^@dahası<cnjadv>$
      50 ^@ister<cnjadv>$
-     27 ^@olarak<cnjsub>$
-     25 ^@yok<cnjadv>$
+     28 ^@demek<cnjadv>$
      21 ^@bunun üzerine<cnjadv>$
-     19 ^@yok<cnjadv>$.
-     18 ^@demek<cnjadv>$
-     16 ^@ancak<cnjcoo>$
-     12 ^@ne<cnjcoo>$
      11 ^@başka bir deyişle<cnjadv>$
-     11 ^@aksine<cnjadv>$
      10 ^@zaten<cnjadv>$
-      9 ^@hem<cnjcoo>$
-      9 ^@demek<cnjadv>$.
-      7 ^@tersine<cnjadv>$
-      7 ^@gerek<cnjcoo>$.
+      9 ^@aksine<cnjadv>$
+      6 ^@yok<cnjadv>$
       5 ^@şayet<cnjsub>$
       5 ^@neyse<cnjadv>$
       4 ^@üstelik<cnjadv>$
-      4 ^@da<cnjadv>$.
+      4 ^@peki<cnjadv>$
+      4 ^@hem<cnjcoo>$
       4 ^@bundan dolayı<cnjadv>$
       3 ^@ne de olsa<cnjadv>$
-      3 ^@ki<cnjadv>$?"
       3 ^@ha<cnjcoo>$
+      3 ^@belki<cnjadv>$
       2 ^@oysa<cnjadv>$
-      2 ^@ki<cnjadv>$.
+      2 ^@ne<cnjcoo>$
       2 ^@keza<cnjadv>$
-      2 ^@hani<cnjadv>$
-      2 ^@de<cnjadv>$.
       2 ^@daha doğrusu<cnjadv>$
-      2 ^@belki<cnjadv>$
+      2 ^@ancak<cnjcoo>$
       2 ^@adeta<cnjadv>$
-      1 ^@yok mu<cnjadv>$?
-      1 ^@yok<cnjadv>$."
+      1 ^@yok mu<cnjadv>$
       1 ^@ta<cnjadv>$]
-      1 ^@peki<cnjadv>$
       1 ^@oysa ki<cnjadv>$
       1 ^@nitekim<cnjadv>$
-      1 ^@ne var ki<cnjadv>$.
+      1 ^@mesela<cnjadv>$
       1 ^@kısacası<cnjadv>$
-      1 ^@ki<cnjadv>$...
-      1 ^@ki<cnjadv>$?
-      1 ^@ister<cnjadv>$."
-      1 ^@işte<cnjadv>$
       1 ^@hiç olmazsa<cnjadv>$
+      1 ^@hani<cnjadv>$
       1 ^@halbuki<cnjadv>$
-      1 ^@demek<cnjadv>$."
-      1 ^@de<cnjadv>$."
       1 ^@de<cnjadv>$ 
-      1 ^@da<cnjadv>$."
-      1 ^@da<cnjadv>$...
-      1 ^@çünkü<cnjadv>$ ...
-      1 ^@aksine<cnjadv>$."

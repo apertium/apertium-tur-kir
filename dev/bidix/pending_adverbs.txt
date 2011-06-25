@@ -1,103 +1,132 @@
-  
-    499 ^@hitaben<adv>$
-    491 ^@resmen<adv>$
-    314 ^@neredeyse<adv>$
-     77 ^@gücün<adv>$
-     36 ^@temsilen<adv>$
-     32 ^@istinaden<adv>$
-     18 ^@naklen<adv>$ 
-     17 ^@şüphesiz<adv>$ 
-     16 ^@anca<adv>$ 
-     15 ^@bari<adv>$ 
-     10 ^@direkt<adv>$ 
+   3944 ^@bir<adv>$
+   1973 ^@ne<adv>$
+   1856 ^@iyi<adv>$
+   1582 ^@gün<adv><ki>$
+   1249 ^@fena<adv>$
+    877 ^@açık<adv>$
+    736 ^@kaçak<adv>$
+    597 ^@kötü<adv>$
+    556 ^@resmen<adv>$
+    517 ^@hitaben<adv>$
+    406 ^@yıl<adv><ki>$
+    342 ^@doğru<adv>$
+    337 ^@neredeyse<adv>$
+    307 ^@ağır<adv>$
+    111 ^@salt<adv>$
+     83 ^@boş<adv>$
+     79 ^@gücün<adv>$
+     63 ^@o zaman<adv><dan0><n><abl>$
+     59 ^@o zaman<adv>$
+     57 ^@güzel<adv>$
+     47 ^@ay<adv><ki>$
+     40 ^@dışarı<adv>$
+     37 ^@temsilen<adv>$
+     35 ^@ender<adv>$
+     33 ^@istinaden<adv>$
+     32 ^@yazın<adv>$
+     31 ^@açık<adv><dlik><n>$
+     28 ^@o zaman<adv><dan0><n><pl>$
+     25 ^@aniden<adv>$
+     19 ^@dar<adv>$
+     18 ^@naklen<adv>$
+     18 ^@anca<adv>$
+     17 ^@şüphesiz<adv>$
+     15 ^@o zaman<adv><dan0><n><dat>$
+     15 ^@bari<adv>$
+     15 ^@açık<adv><dlik><n><dat>$
+     10 ^@direkt<adv>$
+      9 ^@zaman<adv><ki>$
+      9 ^@tahminen<adv>$
       9 ^@kazara<adv>$
-      8 ^@tahminen<adv>$ 
-      7 ^@ille<adv>$ 
-      6 ^@kuşkusuz<adv>$
+      7 ^@sanki<adv>$
+      7 ^@kuşkusuz<adv>$
+      7 ^@ille<adv>$
+      7 ^@dikey<adv>$
+      6 ^@cup<adv>$
       6 ^@alenen<adv>$
+      5 ^@yayan<adv>$
       5 ^@velev<adv>$
-      
+      5 ^@o zaman<adv><dan0><n><loc>$
       5 ^@neye<adv>$
-      5 ^@mel<adv><dan0><n><3p>$
-      5 ^@dikey<adv>$
-      
-      4 ^@yayan<adv>$ 
-      
-      4 ^@lütfen<adv>$ 
+      5 ^@mel<adv><dan0><n><pl>$
+      5 ^@hop<adv>$
+      5 ^@akşamları<adv>$
+      4 ^@o zaman<adv><dan0><n><pl><loc>$
+      4 ^@lütfen<adv>$
       4 ^@ilerde<adv>$
-      4 ^@hop<adv>$
-      3 ^@tercihen<adv>$ 
-      3 ^@birdenbire<adv>$
-      3 ^@beraber<adv><dlik><n><ins>$
-      3 ^@beraber<adv><dlik><n><dat>$
+      4 ^@güzel<adv><dlik><n><p3s><acc>$
+      4 ^@biçimli<adv>$
+      4 ^@acaba<adv>$
+      3 ^@tercihen<adv>$
+      3 ^@sahi<adv><dlik><n><p3s>$
+      3 ^@günübirlik<adv>$
+      3 ^@doğru<adv><dlik><n><p3s><acc>$
+      3 ^@bir<adv><dicik><adv>$
       3 ^@aslen<adv>$
-      3 ^@akşamları<adv>$
       3 ^@adilane<adv>$
-      3 ^@acaba<adv>$
       2 ^@tıpatıp<adv>$
+      2 ^@tesadüfen<adv>$
       2 ^@tekçe<adv>$
       2 ^@takiben<adv>$
       2 ^@taammüden<adv>$
       2 ^@seyrek<adv>$
+      2 ^@sene<adv><ki>$
       2 ^@sabahları<adv>$
+      2 ^@resen<adv>$
       2 ^@öldüresiye<adv>$
-      2 ^@nerde<adv><dan0><n><p2s>$
-      2 ^@mesela<adv>$
       2 ^@layıkıyla<adv>$
-      2 ^@kimi<adv><dan0><n><p3p><dat>$
+      2 ^@iyi<adv><dlik><n><p3s><dat>$
+      2 ^@iğrenç<adv>$
       2 ^@harfiyen<adv>$
+      2 ^@hani<adv>$
+      2 ^@güzel<adv><dlik><n><pl>$
       2 ^@güya<adv>$
-      2 ^@günübirlik<adv>$
       2 ^@geceleyin<adv>$
       2 ^@cebren<adv>$
       2 ^@çabucak<adv>$
-      2 ^@beraber<adv><dlik><n><loc>$
       2 ^@azıcık<adv>$
       2 ^@atfen<adv>$
       2 ^@akabinde<adv>$
-      2 ^@açık<adv><dan0><n><dat>$
-      2 ^@acele<adv><dan0><n><p3s>$
       1 ^@zımnen<adv>$
       1 ^@zihnen<adv>$
-      1 ^@yukarı<adv><dan0><n><loc>$
       1 ^@uluorta<adv>$
       1 ^@tesadüfi<adv>$
-      1 ^@tesadüfen<adv>$
       1 ^@siyaseten<adv>$
       1 ^@şar<adv><dan0><n><dli><adj>$
-      1 ^@resen<adv>$
       1 ^@peyderpey<adv>$
       1 ^@peşinen<adv>$
+      1 ^@o zaman<adv><dan0><n><pl><gen>$
+      1 ^@o zaman<adv><dan0><n><p3s><loc>$
+      1 ^@o zaman<adv><dan0><n><gen>$
       1 ^@olabildiğince<adv>$
-      1 ^@nice<adv><dlik><n><acc>$
-      1 ^@ne<adv>$?
-      1 ^@<n><dnnsiz><adv><dan0><n><dnnsiz><adj>$
-      1 ^@nazaran<adv>$ ...
       1 ^@münhasıran<adv>$
       1 ^@münferiden<adv>$
       1 ^@meşruten<adv>$
-      1 ^@kuşkusuz<adv>$.
-      1 ^@kimi<adv><dan0><n><pl><p1p><gen>$
-      1 ^@kimi<adv><dan0><n><p3p><gen>$
+      1 ^@mesela<adv>$
+      1 ^@iyi<adv><dlik><n><p3s><gen>$
+      1 ^@iyi<adv><dlik><n><p3s><abl>$
       1 ^@ismen<adv>$
       1 ^@hergün<adv>$
-      1 ^@hani<adv>$
+      1 ^@güzel<adv><dlik><n><pl><p3s><acc>$
+      1 ^@güzel<adv><dlik><n><p3p><ins>$
+      1 ^@güzel<adv><dlik><n><p3p><gen>$
+      1 ^@güzel<adv><dlik><n><ins>$
+      1 ^@güzel<adv><dlik><n><acc>$
       1 ^@gerçi<adv>$
       1 ^@galiba<adv>$
-      1 ^@eskiden<adv><dan0><n><cpldi><3s>$.
+      1 ^@fena<adv><dlik><n>$
       1 ^@esasen<adv>$
       1 ^@elbet<adv>$
       1 ^@elan<adv>$
+      1 ^@eğreti<adv>$
       1 ^@düpedüz<adv>$
+      1 ^@doğru<adv><dlik><n><p3s><gen>$
+      1 ^@doğru<adv><dlik><n><p3s><dat>$
+      1 ^@doğru<adv><dlik><n><p3s><abl>$
+      1 ^@doğru<adv><dlik><n><acc>$
       1 ^@dimdik<adv>$
-      1 ^@denli<adv><dan0><n><p3s><acc>$."
       1 ^@büsbütün<adv>$
       1 ^@birazcık<adv>$
       1 ^@besbelli<adv>$
-      1 ^@beraber<adv><dlik><n><cpldi><3s>$.
-      1 ^@beraber<adv><dlik><n><acc>$
       1 ^@bari<adv><dan0><n><dca><adj>$
       1 ^@ansızın<adv>$
-      1 ^@açık<adv>$".
-      1 ^@açık<adv>$?
-      1 ^@acaba<adv>$?

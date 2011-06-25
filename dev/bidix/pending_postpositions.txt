@@ -1,98 +1,121 @@
-   4588 ^@kadar<postp>$
-   2374 ^@gibi<postp>$
-   1361 ^@rağmen<postp>$
-    975 ^@dair<postp>$
-    953 ^@ötürü<postp>$
-    654 ^@doğru<postp><abl>$
-    512 ^@ilgili<postp>$
-    228 ^@değin<postp>$
-    146 ^@dair<postp><dat>$
-     81 ^@üzerine<postp>$
-     60 ^@için<postp><cplsa><3s>$
-     40 ^@değin<postp><cpldi><3s>$.
-     40 ^@boyunca<postp>$
-     35 ^@anki<postp>$
-     25 ^@kadar<postp><acc>$
-     20 ^@kadar<postp><p2s><gen>$
-     15 ^@kadar<postp><p2s><acc>$
-     15 ^@göre<postp><cplsa><3s>$
-     14 ^@ilgili<postp><cpldi><3s>$.
-     14 ^@doğru<postp><3p>$
+   8874 ^@için<postp>$
+   7816 ^@göre<postp>$
+   5083 ^@kadar<postp>$
+   3179 ^@karşı<postp>$
+   2695 ^@için<postp><loc>$
+   2459 ^@gibi<postp>$
+   1550 ^@karşın<postp>$
+   1412 ^@rağmen<postp>$
+   1036 ^@ötürü<postp>$
+   1002 ^@dair<postp>$
+    706 ^@doğru<postp><abl>$
+    674 ^@boyunca<postp>$
+    533 ^@beri<postp>$
+    522 ^@üzerine<postp>$
+    488 ^@halinde<postp>$
+    283 ^@doğru<postp>$
+    274 ^@itibaren<postp>$
+    225 ^@için<postp><loc><ki>$
+    203 ^@yana<postp>$
+    199 ^@başka<postp>$
+    183 ^@dolayı<postp>$
+    156 ^@dair<postp><dat>$
+     89 ^@için<postp><dat>$
+     44 ^@için<postp><cplsa><3s>$
+     37 ^@anki<postp>$
+     28 ^@değin<postp><cpldi><3s>$
+     25 ^@karşı<postp><3p><cplken>$
+     25 ^@için<postp><abl>$
+     24 ^@kadar<postp><acc>$
+     24 ^@değin<postp>$
+     23 ^@kadar<postp><p3s><gen>$
+     19 ^@başka<postp><gen>$
+     17 ^@kadar<postp><p3s><acc>$
+     17 ^@göre<postp><cplsa><3s>$
+     17 ^@başka<postp><p3s>$
+     15 ^@ilgili<postp>$
+     15 ^@doğru<postp><3p>$
+     15 ^@başka<postp><pl><p3s><gen>$
+     13 ^@başka<postp><p3s><gen>$
+     12 ^@başka<postp><p3s><acc>$
+     10 ^@için<postp><loc><3p>$
+     10 ^@halinde<postp><3p>$
       9 ^@yukarı<postp><loc>$
-      8 ^@gibi<postp>$.
-      8 ^@değin<postp><cpldi><3s>$
+      9 ^@başka<postp><pl><p3s><dat>$
+      9 ^@başka<postp><p3p>$
+      8 ^@süresince<postp>$
+      7 ^@karşı<postp><1p>$
+      7 ^@başka<postp><pl><acc>$
       6 ^@kadar<postp><p3s><ins>$
-      5 ^@ilgili<postp><cpldi><3s>$
-      5 ^@ilgili<postp><3s><dir>$
-      5 ^@için<postp><loc><cplsa><3s>$
-      5 ^@halinde<postp><cpldi><3s>$.
       5 ^@doğru<postp><3s><dir>$
-      5 ^@başka<postp><p2s><acc><cpldi><3s>$.
-      5 ^@ait<postp><cpldi><3s>$.
-      4 ^@üzere<postp><3s><cplken>$
-      4 ^@kadar<postp>$.
-      4 ^@ilgili<postp><3s><dir>$.
-      4 ^@için<postp><loc><cpldi><3s>$.
+      4 ^@yana<postp><3p>$
+      4 ^@karşı<postp><3s><dir>$
+      4 ^@için<postp><p3s>$
+      4 ^@için<postp><loc><cplsa><3s>$
+      4 ^@için<postp><loc><cpldi><3s>$
+      4 ^@doğru<postp><3p><cplken>$
+      4 ^@başka<postp><pl><p3s><acc>$
+      4 ^@başka<postp><p3p><ins>$
+      4 ^@başka<postp><p3p><gen>$
       3 ^@yukarı<postp><p3s><loc>$
+      3 ^@yana<postp><1p>$
+      3 ^@kadar<postp><p3s>$
+      3 ^@kadar<postp><cpldi><3s>$
+      3 ^@ilgili<postp><pl><gen>$
       3 ^@için<postp><loc><3s><dir>$
-      3 ^@halinde<postp><3s><cplken>$
-      3 ^@halde<postp><cpldi><3s>$.
-      3 ^@halde<postp><3s><cplken>$
-      3 ^@gibi<postp>$."
-      3 ^@ait<postp><3s><dir>$
-      2 ^@karşı<postp><3s><dir>$."
-      2 ^@karşı<postp><3s><dir>$
-      2 ^@kadar<postp><p3s>$
-      2 ^@kadar<postp><p2s><dat>$
-      2 ^@kadar<postp><cpldi><3s>$.
-      2 ^@ilgili<postp><3s><dir>$."
-      2 ^@ilgili<postp>$.
+      3 ^@başka<postp><p3s><ins>$
+      3 ^@başka<postp><p3p><dat>$
+      3 ^@başka<postp><p3p><acc>$
+      2 ^@yana<postp><1s>$
+      2 ^@karşı<postp><p3s><loc>$
+      2 ^@karşı<postp><dat><3p>$
+      2 ^@karşı<postp><1s>$
+      2 ^@kadar<postp><p3s><dat>$
       2 ^@için<postp><loc><3s><cplken>$
-      2 ^@için<postp><cpldi><3s>$.
+      2 ^@için<postp><loc><1s>$
+      2 ^@için<postp><loc><1p>$
       2 ^@için<postp><3s><dir>$
       2 ^@halinde<postp><cplsa><3s>$
+      2 ^@gibi<postp><cpldi><3s>$
       2 ^@doğru<postp><p3s>$
       2 ^@doğru<postp><loc>$
-      2 ^@doğru<postp><3p><cplken>$
-      2 ^@değin<postp><cpldi><3p>$.
-      2 ^@başka<postp><p2s><acc><cpldi><3s>$
+      2 ^@değin<postp><cpldi><3p>$
+      2 ^@başka<postp><pl><p3s><abl>$
+      2 ^@başka<postp><p3s><dat>$
       1 ^@yukarı<postp><p3s><dat>$
       1 ^@yukarı<postp><p3s><acc>$
       1 ^@yukarı<postp><loc><ki>$
       1 ^@yana<postp><3s><cplken>$
-      1 ^@üzere<postp><cplsa><3s>$
-      1 ^@takdirde<postp><cplsa><3s>$
       1 ^@rağmen<postp><acc>$
-      1 ^@karşı<postp><dat><3s><dir>$.
-      1 ^@karşı<postp><dat><3s><dir>$
-      1 ^@kadar<postp><p2s><abl>$
+      1 ^@karşı<postp><pl><3p><cplsa>$
+      1 ^@karşı<postp><p2s>$
+      1 ^@karşı<postp><dat>$
+      1 ^@karşı<postp><3p>$
+      1 ^@kadar<postp><p3s><abl>$
       1 ^@kadar<postp><dat>$
       1 ^@kadar<postp><cplsa><3s>$
       1 ^@kadar<postp><3s><cplken>$
-      1 ^@ilgili<postp><cplmis><3s>$
-      1 ^@ilgili<postp><3s><cplken>$
+      1 ^@ilgili<postp><pl><dat>$
+      1 ^@ilgili<postp><pl><acc>$
+      1 ^@ilgili<postp><3p>$
+      1 ^@için<postp><loc><dir><3p>$
       1 ^@için<postp><loc><cplmis><3s>$
+      1 ^@için<postp><loc><cpldi><3p>$
+      1 ^@için<postp><cplmis><3s>$
       1 ^@için<postp><cpldi><3s>$
+      1 ^@halde<postp><3p>$
       1 ^@göre<postp><p3s><ins>$
       1 ^@göre<postp><abl>$
-      1 ^@gibi<postp><cplsa><3s>$ ...
-      1 ^@gibi<postp><cpldi><3s>$.
-      1 ^@gibi<postp><cpldi><3s>$
-      1 ^@gibi<postp><1p><dir>$.
+      1 ^@gibi<postp><cplsa><3s>$
+      1 ^@gibi<postp><1p><dir>$
+      1 ^@doğru<postp><pl><acc>$
+      1 ^@doğru<postp><pl><3p>$
       1 ^@doğru<postp><p3s><loc><ki>$
-      1 ^@doğru<postp><p3p>$
       1 ^@doğru<postp><loc><ki>$
       1 ^@doğru<postp><acc>$
       1 ^@doğru<postp><3p><cplsa>$
-      1 ^@değin<postp><cpldi><3p>$
-      1 ^@dair<postp><dat><cpldi><3s>$.
-      1 ^@dair<postp><dat>$.
-      1 ^@birlikte<postp><cpldi><3s>$
-      1 ^@başka<postp><p3p><cplsa><3s>$
-      1 ^@başka<postp><p2s><cpldi><3s>$.
-      1 ^@başka<postp><p2s><acc><3s><dir>$.
-      1 ^@başka<postp><p2s><acc><3s><cplken>$
-      1 ^@aşağı<postp><loc><cpldi><3s>$.
-      1 ^@ait<postp><3s><dir>$"
-      1 ^@ait<postp><3s><dir>$."
-      1 ^@ait<postp><3s><dir>$.
+      1 ^@dek<postp><acc><3p>$
+      1 ^@dair<postp><dat><cpldi><3s>$
+      1 ^@başka<postp><pl><acc><cplsa><3s>$
+      1 ^@başka<postp><p3s><loc>$
+      1 ^@başka<postp><p2s>$
