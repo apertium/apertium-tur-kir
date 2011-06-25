@@ -1,25 +1,37 @@
-  11345 ^@bu<det>$
-   5131 ^@Bu<det>$
-   2496 ^@her<det>$
-   1514 ^@tek<det>$
-    844 ^@şu<det>$
-    788 ^@herhangi bir<det>$
-    484 ^@Her<det>$
-    282 ^@Şu<det>$
-    175 ^@birçok<det>$
-    117 ^@bu kadar<det>$
-     82 ^@bir miktar<det>$
-     79 ^@o kadar<det>$
-     69 ^@Tek<det>$
+  54140 ^@bir<det>$
+   7157 ^@bu<det>$
+   3890 ^@Bu<det>$
+   2618 ^@her<det>$
+   1591 ^@tek<det>$
+   1153 ^@Bir<det>$
+    822 ^@hiçbir<det>$
+    808 ^@herhangi bir<det>$
+    695 ^@diğer<det>$
+    539 ^@Her<det>$
+    418 ^@bütün<det>$
+    183 ^@birçok<det>$
+    148 ^@birkaç<det>$
+    139 ^@tüm<det>$
+    122 ^@bu kadar<det>$
+     88 ^@bir miktar<det>$
+     80 ^@o kadar<det>$
+     72 ^@Tek<det>$
+     51 ^@herhangi<det>$
+     47 ^@Diğer<det>$
+     37 ^@Hiçbir<det>$
      29 ^@Herhangi bir<det>$
-     28 ^@Birçok<det>$
+     29 ^@Birçok<det>$
+     25 ^@Bütün<det>$
      15 ^@Bu kadar<det>$
      15 ^@birtakım<det>$
-     10 ^@bir kısım<det>$
+     12 ^@Tüm<det>$
+     11 ^@bir kısım<det>$
+     11 ^@Birkaç<det>$
       7 ^@Bir kısım<det>$
-      5 ^@bu<det>$.
-      4 ^@bu kadar<det>$.
+      5 ^@Herhangi<det>$
+      4 ^@bazı<det>$
       3 ^@birkaç tane<det>$
-      2 ^@BU<det>$
-      2 ^@bu<det>$."
+      2 ^@aynı<det>$
+      1 ^@öteki<det>$
       1 ^@O kadar<det>$
+      1 ^@BU<det>$
