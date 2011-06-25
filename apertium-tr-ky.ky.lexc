@@ -1166,7 +1166,6 @@ LEXICON NounStems
 бок N-INFL ; 
 мончок N-INFL ; 
 бороон N-INFL ; 
-бой N-INFL ; 
 уруу N-INFL ; 
 урук N-INFL ; 
 жамаат N-INFL ; 
@@ -1189,7 +1188,6 @@ LEXICON NounStems
 буудай N-INFL ; 
 буу N-INFL ; 
 бөйрөк N-INFL ; 
-бөлүк N-INFL ; 
 бөрк N-INFL ; 
 былтыр N-INFL ; 
 өткөн% жылы N-INFL ; 
@@ -1214,7 +1212,6 @@ LEXICON NounStems
 жасат N-INFL ; 
 дене N-INFL ; 
 тулку N-INFL ; 
-бой N-INFL ; 
 жооп N-INFL ; 
 жаза N-INFL ; 
 жихат N-INFL ; 
@@ -1935,6 +1932,8 @@ LEXICON NounStems
 лотерея N-INFL ; 
 лунапарк N-INFL ; 
 медаль N-INFL ; 
+комуз N-INFL ;
+медал N-INFL ;
 медальон N-INFL ; 
 мадам N-INFL ; 
 магнезий N-INFL ; 
@@ -2867,7 +2866,6 @@ LEXICON NounStems
 карыз N-INFL ; 
 катнаш N-INFL ; 
 алаамат N-INFL ; 
-майдан N-INFL ; 
 конгуроо N-INFL ; 
 шылдың N-INFL ; 
 гипс N-INFL ; 
@@ -3604,7 +3602,7 @@ LEXICON NounStems
 повесть N-INFL ;
 айыл N-INFL ;
 союз N-INFL ;
-Жазуучу N-INFL ;
+жазуучу N-INFL ;
 поэма N-INFL ;
 мүчө N-INFL ;
 түрк N-INFL ;
@@ -3618,7 +3616,6 @@ LEXICON NounStems
 өз N-INFL ;
 гезит N-INFL ;
 казак N-INFL ;
-бөлүм N-INFL ;
 катар N-INFL ;
 негиз N-INFL ;
 маданият N-INFL ;
@@ -3665,6 +3662,16 @@ LEXICON NounStems
 жылдык N-INFL ;
 орунбасар N-INFL ;
 орун% басар N-INFL ;
+таала N-INFL ;
+баатыр N-INFL ;
+май N-INFL ;
+грамота N-INFL ;
+манасчы N-INFL ;
+профессор N-INFL ;
+окумуштуу N-INFL ;
+ырчы N-INFL ;
+окуучу N-INFL ;
+окутуучу N-INFL ;
 орун%<n%>%<nom%>%<cmpd%>%+басар:орун% басар N-INFL ;
 
 LEXICON PropernounStems
@@ -3825,7 +3832,19 @@ LEXICON AdjecStems
 
 алгачкы ADJ-ORD ; ! "first"
 экинчи ADJ-ORD ; ! "second"
-
+ушундай ADJ ;
+зор ADJ ;
+түз ADJ ;
+чакан ADJ ;
+улук ADJ ;
+ири ADJ ;
+расмий ADJ ;
+таза ADJ ;
+майда ADJ ;
+ыйык ADJ ;
+жогору ADJ ;
+маданий ADJ ;
+чет ADJ ;
 начар ADJ ;
 азыркы ADJ ; ! "modern"
 элдик ADJ ; ! "people's"
@@ -4246,17 +4265,22 @@ LEXICON VerbStems
 аарчы V-INFL-TV ;  ! ""
 саба V-INFL-TV ;  ! ""
 
-
-! TODO: Categorise for transitivity, and remove duplicate entries
-агыт V-INFL ; 
-азайт V-INFL ; 
-айда V-INFL ; ! "drive"
-айыпта V-INFL ; 
-акырында V-INFL ; 
-ал V-INFL ; 
-алдан V-INFL ; 
-алкыш% кыл V-INFL ; 
-алып% кел V-INFL ; 
+ач V-INFL-TV ; ! "open"
+бар V-INFL-TV ; ! "go"
+бил V-INFL-IV ; ! "know"
+де V-INFL-SHORT ; ! "say"
+жат V-INFL ; ! "come"
+же V-INFL-SHORT ; ! "eat"
+ич V-INFL ; ! "drink"
+кел V-INFL ; ! "come"
+кет V-INFL ; ! "go"
+отур V-INFL ; ! "sit"
+тур V-INFL ; ! "stand, live"
+бар V-INFL ; 
+кет V-INFL ; 
+кет V-INFL ; 
+ич V-INFL ; 
+иште V-INFL ; 
 аракет% кыл V-INFL ; 
 арна% ет V-INFL ; 
 аякта V-INFL ; 
@@ -4442,7 +4466,8 @@ LEXICON VerbStems
 өрттө V-INFL ; 
 өч V-INFL ; 
 өчүр V-INFL ; 
-
+ал V-INFL-TV ;
+тарт V-INFL-IV ;
 LEXICON Abbreviations
 
 жж%. ABBR ;
