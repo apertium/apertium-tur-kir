@@ -20,6 +20,7 @@ dev/bilingual-summary.txt -text
 dev/disambiguation-notes.txt -text
 dev/generation-test.tr-ky.sh -text
 dev/ky-nouns.txt -text svneol=unset#application/octet-stream
+dev/kyscraper.py -text
 dev/missing-bidix-freq.sh -text
 /lexchoicebil.xsl -text
 /modes.xml -text
