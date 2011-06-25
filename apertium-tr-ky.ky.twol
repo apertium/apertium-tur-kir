@@ -129,6 +129,9 @@ Cx:т <=> [ UnvoicedNonSonCns | UnvoicedNonSonCns ь ] %>: _ ;
 "B -> п in negative"
 %{B%}:п <=> UnvoicedNonSonCns: %>: _  ;
 
+"Drop verb stem final vowel before inf"
+е:0 <=> _ %>: %{U%}: %{U%}: ; 
+
 
 ! ndt	N
 ! ldt	L
