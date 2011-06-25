@@ -440,6 +440,7 @@ LEXICON V-INFL-COMMON
 %<cv_inf%>:%>м%{A%}к # ;                                     !
 %<cv_irre%>:%>%{E%}т # ;                                     !
 %<cv_fut%>:%>%{A%}р # ;                                      !
+%<cv_fut%>:%>%{A%}%{A%}р # ;                                 ! Dir/LR
 
 ! Non-finite forms and participles
 %<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
@@ -455,19 +456,20 @@ LEXICON V-INFL-COMMON
 ! Finite forms
 %<pres%>:%>%{A%} V-PERS-PRES ;                                !
 %<aor%>:%>%{E%} V-PERS-PRES ;                                 !
-%<fut%>:%>%{A%}р V-PERS-COP ;                            !
-%<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                           ! 
+%<fut%>:%>%{A%}р V-PERS-COP ;                                 !
+%<fut%>:%>%{A%}%{A%}р V-PERS-COP ;                            ! Dir/LR
+%<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                            ! 
 %<past%>:%>%{G%}%{A%}н V-PERS-COP ;                           ! 
 %<cond%>:%>с%{A%} V-PERS-PAST ;                               ! 
 %<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP ;                        !   
 %<pih%>:%>ч%{U%} V-PERS-COP ;                                 ! 
 %<pcond%>:%>м%{A%}к V-PERS-COP ;          ! 
-%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;        ! 
+%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;         ! 
 %<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! 
 %<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! 
 %<neg%>%<past%>:%>%{B%}%{A%}%>%{G%}%{A%}н V-PERS-COP ;        ! 
-%<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP ;          ! 
-%<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP ;                                 ! 
+%<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP ;           ! 
+%<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP ;              ! 
 
 LEXICON V-INFL
 
@@ -4436,7 +4438,7 @@ LEXICON Abbreviations
 ж%. ABBR ;
 б%. ABBR ;
 ж%.б%. ABBR ; ! жана башка "etc."
-ж%.% б%. ABBR ; ! жана башка "etc."
+ж%.б%.:ж%.% б%. ABBR ; ! Dir/LR жана башка "etc."
 бб%. ABBR ; ! 
 б%.а%. ABBR ; ! башкача айтканда "in other words"
 б%.з%.ч%. ABBR ; ! биздин заманга чейинки "B.C.E."
