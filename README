@@ -45,11 +45,12 @@ Trmorph		Kymorph		Description
 <p2s>		<px2sg>		Possessive, second person singular
 
 -		<nom>		Nominative / absolutive
-<acc>		<acc>
-<dat>		<dat>
-<loc>		<loc>
-<abl>		<abl>
-<ins>		-
+<acc>		<acc>		Accusative
+<dat>		<dat>		Dative
+<loc>		<loc>		Locative
+<abl>		<abl>		Ablative
+<ins>		-		Instrumental
+
 	
 
 ===============================================================================
