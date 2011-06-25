@@ -70,9 +70,10 @@ Multichar_Symbols
 %<exi%>     ! Existential
 %<qst%>     ! Question
 
-%<cv_impf%> ! Converb imperfect
-%<cv_perf%> ! Converb perfect
-%<cv_irre%> ! Converb perfect
+%<cv_impf%> ! Converb imperfect, -E
+%<cv_perf%> ! Converb perfect, -Iп
+%<cv_irre%> ! Converb irrealis, -Eт
+%<cv_fut%>  ! Converb future, -Aр
 
 %<pres%>    ! Present tense
 %<aor%>     ! Aorist, -E
@@ -438,6 +439,7 @@ LEXICON V-INFL-COMMON
 %<cv_perf%>:%>%{I%}п # ;                                     ! -ып, -ип, -уп, -үп
 %<cv_inf%>:%>м%{A%}к # ;                                     !
 %<cv_irre%>:%>%{E%}т # ;                                     !
+%<cv_fut%>:%>%{A%}р # ;                                      !
 
 ! Non-finite forms and participles
 %<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
@@ -453,7 +455,7 @@ LEXICON V-INFL-COMMON
 ! Finite forms
 %<pres%>:%>%{A%} V-PERS-PRES ;                                !
 %<aor%>:%>%{E%} V-PERS-PRES ;                                 !
-%<fut%>:%>%{A%}%{A%}р V-PERS-COP ;                            !
+%<fut%>:%>%{A%}р V-PERS-COP ;                            !
 %<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                           ! 
 %<past%>:%>%{G%}%{A%}н V-PERS-COP ;                           ! 
 %<cond%>:%>с%{A%} V-PERS-PAST ;                               ! 
@@ -1043,6 +1045,7 @@ LEXICON NounStems
 
 комитет N-INFL ;  ! "committee"
 абал N-INFL ; 
+катар N-INFL ; 
 жыгач N-INFL ; 
 дарак N-INFL ; 
 токой N-INFL ; 
@@ -3658,6 +3661,7 @@ LEXICON PropernounStems
 
 Баласагын NP-TOP ;
 Москва NP-TOP ;
+Ташкент NP-TOP ;
 Ирландия NP-TOP ;
 Италия NP-TOP ;
 Испания NP-TOP ;
