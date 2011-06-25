@@ -1,6 +1,6 @@
 all:
 	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-lexc apertium-tr-ky.ky.lexc > .deps/ky.lexc.morf.hfst
+	cat apertium-tr-ky.ky.lexc | grep -v 'Dir/RL' | hfst-lexc > .deps/ky.lexc.morf.hfst
 	cat apertium-tr-ky.ky.lexc | grep -v 'Dir/LR' | hfst-lexc > .deps/ky.lexc.gen.hfst
 	hfst-twolc -R -i apertium-tr-ky.ky.twol -o .deps/ky.twol.hfst
 	hfst-compose-intersect -1 .deps/ky.lexc.gen.hfst -2 .deps/ky.twol.hfst -o .deps/tr-ky.autogen.hfst
