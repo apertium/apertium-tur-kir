@@ -1,5 +1,6 @@
 Config:
   hfst:
+    App: hfst-optimised-lookup
     Gen: ../tr-ky.autogen.hfst
     Morph: ../ky-tr.automorf.hfst
 
@@ -20,4 +21,5 @@ Tests:
   "[lexc] Conditional -с{A}":
     бол<v><iv><cond><p1><sg> : болсом
 
-
+  "[lexc] Perfect Converb -{I}п":
+    иште<v><iv><cv_perf> : иштеп
