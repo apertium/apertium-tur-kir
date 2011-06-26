@@ -93,6 +93,7 @@ Multichar_Symbols
 %<inf2%>    ! Verbal noun, -иш
 
 %<sent%>    ! Sentence marker
+%<guio%>    ! Hyphen
 %<cm%>      ! Comma
 %<pst%>     ! Positive level of comparison
 %<comp%>    ! Comparative level of comparison 
@@ -140,6 +141,14 @@ LEXICON CASES-SHORT-ACC
 %<gen%>:%>%{N%}%{I%}н # ;      ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
 %<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
 %<acc%>:%>%{N%} # ;            ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
+%<loc%>:%>%{D%}%{A%} # ;       ! -да, -де, -та, -те, -до, -дө, -то, -тө
+%<abl%>:%>%{D%}%{A%}н # ;      ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
+%<rloc%>:%>%{D%}%{A%}г%{I%} # ;
+
+LEXICON OBL-CASES
+%<gen%>:%>%{N%}%{I%}н # ;      ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
+%<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
+%<acc%>:%>%{N%}%{I%} # ;       ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
 %<loc%>:%>%{D%}%{A%} # ;       ! -да, -де, -та, -те, -до, -дө, -то, -тө
 %<abl%>:%>%{D%}%{A%}н # ;      ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
 %<rloc%>:%>%{D%}%{A%}г%{I%} # ;
@@ -197,10 +206,14 @@ LEXICON NP-ORG
 
 %<np%>%<org%>: CASES ;
 
+LEXICON NP-TOP-SSR
+
+%<np%>%<top%>: # ;
+%<np%>%<top%>:и OBL-CASES ;
+
 LEXICON NP-TOP
 
 %<np%>%<top%>: CASES ;
-
 
 LEXICON ADJ-LEVELS
 
@@ -3737,6 +3750,17 @@ LEXICON PropernounStems
 Нарын NP-TOP ;
 Фрунзе NP-TOP ;
 СССР NP-TOP ;
+
+Кыргыз% ССР NP-TOP-SSR ;
+Кыргыз% АССР NP-TOP-SSR ;
+Туркестан% АССР NP-TOP-SSR ; ! ""
+Казак% АССР NP-TOP-SSR ; ! ""
+Өзбек% ССР NP-TOP-SSR ; ! ""
+Украина% ССР NP-TOP-SSR ; ! ""
+Тажик% ССР NP-TOP-SSR ; ! ""
+Татар% АССР NP-TOP-SSR ; ! ""
+Каракалпак% АССР NP-TOP-SSR ; ! ""
+
 Aзирейил NP-TOP ; ! ""
 Tеңир NP-TOP ; ! ""
 Адам NP-TOP ; ! ""
@@ -4518,11 +4542,13 @@ LEXICON Abbreviations
 б%.а%. ABBR ; ! башкача айтканда "in other words"
 б%.з%.ч%. ABBR ; ! биздин заманга чейинки "B.C.E."
 ж%.б%.у%.с%. ABBR ; ! жана башка ушул сыяктуу "and similar"
+№ ABBR ; 
 
 LEXICON Punctuation
 
 .%<sent%>:. # ;
 %;%<sent%>:%; # ;
 %:%<sent%>:%: # ;
+%-%<guio%>:%- # ;
 ,%<cm%>:, # ;
 %?%<sent%>:%? # ; 
