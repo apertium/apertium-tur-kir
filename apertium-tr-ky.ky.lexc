@@ -76,6 +76,7 @@ Multichar_Symbols
 %<cv_perf%> ! Converb perfect, -Iп
 %<cv_irre%> ! Converb irrealis, -Eт
 %<cv_fut%>  ! Converb future, -Aр
+%<cv_pur%>  ! Converb purpose, -GAнI
 
 %<pres%>    ! Present tense
 %<aor%>     ! Aorist, -E
@@ -124,6 +125,7 @@ Postpositions ;
 Conjunctions ;
 Determiners ;
 Pronouns ;
+Postadverbs ;
 Numerals ;
 NounStems ;
 PropernounStems ;
@@ -169,6 +171,10 @@ GEN-POS ;
 %<px2pl%>:%>%{I%}ң%{A%}р GEN-POS ; 
 %<px2pl%>%<frm%>:%>%{I%}ң%{I%}зд%{A%}р GEN-POS;
 %<px3pl%>:%>с%{I%} GEN-POS-SHORT-ACC ;
+
+LEXICON N-INFL-SG
+
+%<n%>: POSSESSION ;
 
 LEXICON N-INFL
 
@@ -446,10 +452,10 @@ LEXICON V-INFL-COMMON
 %<cv_irre%>:%>%{E%}т # ;                                      !
 %<cv_fut%>:%>%{A%}р # ;                                       !
 %<cv_fut%>:%>%{A%}%{A%}р # ;                                  ! Dir/LR
+%<cv_pur%>:%>%{G%}%{A%}н%{I%} # ;                             ! 
 
 ! Non-finite forms and participles
 %<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
-%<pp2%>:%>%{G%}%{A%}н%{I%} POSSESSION ;                       ! 
 %<inf%>:%>%{U%}%{U%} # ;                                      ! 
 %<inf2%>:%>%{I%}ш # ;                                         ! -ыш, -иш, -уш, -үш
 %<neg%>%<pp%>:%>%{B%}%{A%}%>%{G%}%{A%}н POSSESSION ;          !
@@ -920,7 +926,8 @@ LEXICON NounStems
 бажа N-INFL ; 
 байрак N-INFL ; 
 бакыт N-INFL ; 
-бала N-INFL ; ! "child"
+бала N-INFL-SG ; ! "child"
+бала%<n%>%<pl%>:балдар POSSESSION ; ! "children"
 балдыз N-INFL ; 
 балта N-INFL ; 
 балтыркан N-INFL ; 
@@ -3140,7 +3147,6 @@ LEXICON NounStems
 нерсе N-INFL ; 
 жак N-INFL ; 
 чийин N-INFL ; 
-бала N-INFL ; 
 көптүк N-INFL ; 
 көпчүлүк N-INFL ; 
 чыбык N-INFL ; 
@@ -3600,6 +3606,7 @@ LEXICON NounStems
 өрт N-INFL ; 
 орус N-INFL ;
 повесть N-INFL ;
+писатель N-INFL ;
 айыл N-INFL ;
 союз N-INFL ;
 жазуучу N-INFL ;
@@ -3807,6 +3814,7 @@ Tеңир NP-TOP ; ! ""
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
+Ленинчил NP-ORG ; ! "" 
 Кыргызокуупедмамбас NP-ORG ; ! "Kyrgyz Pedagogical State Press"
 
 Бишкек NP-TOP ; ! "Bishkek"
@@ -3823,9 +3831,10 @@ Tеңир NP-TOP ; ! ""
 Ардак NP-ANT-M ;
 
 Ленин NP-COG-MF ; ! "Lenin"
-Ашым NP-ANT-M ; 
+Ашым NP-ANT-M ; ! ""
 Фрунзе NP-COG-MF ; ! "Frunze"
-Айтматов NP-COG-MF ;
+Айтматов NP-COG-MF ; ! ""
+Орокчиев NP-COG-MF ; ! ""
 
 
 LEXICON AdjecStems
@@ -4264,6 +4273,7 @@ LEXICON VerbStems
 аарчы V-INFL-IV ;  ! ""
 аарчы V-INFL-TV ;  ! ""
 саба V-INFL-TV ;  ! ""
+кой V-INFL-TV ; ! "put, place" 
 
 ач V-INFL-TV ; ! "open"
 бар V-INFL-TV ; ! "go"
@@ -4468,6 +4478,7 @@ LEXICON VerbStems
 өчүр V-INFL ; 
 ал V-INFL-TV ;
 тарт V-INFL-IV ;
+
 LEXICON Abbreviations
 
 жж%. ABBR ;

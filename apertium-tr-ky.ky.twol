@@ -14,12 +14,12 @@ Vow =     А Е Ё И О Ө У Ү Ы Э Ю Я
           а е ё и о ө у ү ы э ю я 
           %{A%} %{I%} %{U%} %{E%};
 FrontVow = И Ө Е Ү Э и ө ү э е ;
-BackVow = А О У Ы а о у ы ;
+BackVow = А О У Ы а о у ы Я я Ю ю;
 FrontUnrndVow = И Е Э и э е ; 
-BackUnrndVow = А Ы а ы ;
+BackUnrndVow = А Ы а ы Я я;
 FrontRndVow = Ө Ү ө ү ;
-BackRndVow =  О У о у ;
-BackLowRndVow = О о ;
+BackRndVow =  О У о у Ю ю;
+BackLowRndVow = О о Ё ё;
 UyanCons = м ң М Ң ;
 
 SonCns = й р Й Р ;
@@ -120,18 +120,17 @@ Cx:т <=> [ UnvoicedNonSonCns | UnvoicedNonSonCns ь ] %>: _ ;
 "{D} -> н after {I} and before {A} in ablative" 
 %{D%}:н <=> %{I%}: %>: _ %{A%}: н ;
 
-"P voicing"
-п:б <=> Vow _ %>: Vow ;
-
-"K voicing"
-к:г <=> Vow _ %>: Vow ;
-
 "B -> п in negative"
 %{B%}:п <=> UnvoicedNonSonCns: %>: _  ;
 
 "Drop verb stem final vowel before inf"
 е:0 <=> _ %>: %{U%}: %{U%}: ; 
 
+"Voiceless non-coronal stop voicing"
+Vx:Vy <=> Vow _ %>: Vow ; 
+        where Vx in (  п   к  )
+              Vy in (  б   г  )
+              matched ;
 
 ! ndt	N
 ! ldt	L
