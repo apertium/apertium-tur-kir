@@ -134,12 +134,12 @@ Vx:Vy <=> Vow _ %>: с: %{I%}: ;
 
 !"Harmonise stem ending before infinitive"
 !Vx:Vy <=> Cns _ %>: %{U%}: %{U%}: ; 
-!       where Vx in (  е    ө    а    о  ) 
-!             Vy in (  ө    ө    о    о  )
+!       where Vx in (  е   а   и   ы  ) 
+!             Vy in (  ө   о   ү   у  )
 !             matched;
 !
 !"{U} deletion in vowel final stem"
-!%{U%}:0 <=> Vow %>: %{U%}: _ ; 
+!%{U%}:0 <=> Vow %>: _ %{U%}: ; 
 !
 
 !иште<v><iv><inf>:иште>{U}{U}

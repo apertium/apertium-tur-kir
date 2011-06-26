@@ -206,14 +206,14 @@ LEXICON NP-ORG
 
 %<np%>%<org%>: CASES ;
 
-LEXICON NP-TOP-SSR
+LEXICON NP-TOP-ASSR
 
-%<np%>%<top%>: # ;
-%<np%>%<top%>:и OBL-CASES ;
+%<np%>%<top%>: POSSESSION ;
 
 LEXICON NP-TOP
 
-%<np%>%<top%>: CASES ;
+%<np%>%<top%>: POSSESSION ;
+
 
 LEXICON ADJ-LEVELS
 
@@ -473,10 +473,10 @@ LEXICON V-INFL-COMMON
 
 ! Non-finite forms and participles
 %<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
-%<inf2%>:%>%{I%}ш # ;                                         ! -ыш, -иш, -уш, -үш
+%<inf2%>:%>%{I%}ш POSSESSION ;                                ! -ыш, -иш, -уш, -үш
 %<neg%>%<pp%>:%>%{B%}%{A%}%>%{G%}%{A%}н POSSESSION ;          !
 %<neg%>%<pp2%>:%>%{B%}%{A%}%>%{G%}%{A%}н%{I%} POSSESSION ;    ! 
-%<neg%>%<inf2%>:%>%{B%}%{A%}%>%{I%}ш # ;                      !
+%<neg%>%<inf2%>:%>%{B%}%{A%}%>%{I%}ш POSSESSION ;             !
 %<plist%>:%>м%{A%}й # ;                                       !
 
 ! Finite forms
@@ -504,8 +504,8 @@ LEXICON V-INFL-COMMON
 LEXICON V-INFL
 
 %<v%>%<TD%>: V-INFL-COMMON ;
-%<v%>%<TD%>%<inf%>:%>%{U%}%{U%} # ;                                      ! 
-%<v%>%<TD%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} # ;                   !
+%<v%>%<TD%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                    ! 
+%<v%>%<TD%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
 
 LEXICON V-INFL-TV-SHORT
 
@@ -518,14 +518,14 @@ LEXICON V-INFL-IV-SHORT
 LEXICON V-INFL-TV
 
 %<v%>%<tv%>: V-INFL-COMMON ;
-%<v%>%<tv%>%<inf%>:%>%{U%}%{U%} # ;                                      ! 
-%<v%>%<tv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} # ;                   !
+%<v%>%<tv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                      ! 
+%<v%>%<tv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;                   !
 
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
-%<v%>%<iv%>%<inf%>:%>%{U%}%{U%} # ;                                      ! 
-%<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} # ;                   !
+%<v%>%<iv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                      ! 
+%<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;                   !
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!
@@ -3755,6 +3755,7 @@ LEXICON NounStems
 LEXICON PropernounStems
 
 Баласагын NP-TOP ;
+Киров NP-TOP ;
 Якутия NP-TOP ;
 Жапония NP-TOP ;
 Грузия NP-TOP ;
@@ -3786,15 +3787,15 @@ LEXICON PropernounStems
 Фрунзе NP-TOP ;
 СССР NP-TOP ;
 
-Кыргыз% ССР NP-TOP-SSR ;
-Кыргыз% АССР NP-TOP-SSR ;
-Туркестан% АССР NP-TOP-SSR ; ! ""
-Казак% АССР NP-TOP-SSR ; ! ""
-Өзбек% ССР NP-TOP-SSR ; ! ""
-Украина% ССР NP-TOP-SSR ; ! ""
-Тажик% ССР NP-TOP-SSR ; ! ""
-Татар% АССР NP-TOP-SSR ; ! ""
-Каракалпак% АССР NP-TOP-SSR ; ! ""
+Кыргыз% ССР NP-TOP-ASSR ;
+Кыргыз% АССР NP-TOP-ASSR ;
+Туркестан% АССР NP-TOP-ASSR ; ! ""
+Казак% АССР NP-TOP-ASSR ; ! ""
+Өзбек% ССР NP-TOP-ASSR ; ! ""
+Украина% ССР NP-TOP-ASSR ; ! ""
+Тажик% ССР NP-TOP-ASSR ; ! ""
+Татар% АССР NP-TOP-ASSR ; ! ""
+Каракалпак% АССР NP-TOP-ASSR ; ! ""
 
 Aзирейил NP-TOP ; ! ""
 Tеңир NP-TOP ; ! ""
@@ -3933,6 +3934,120 @@ Tеңир NP-TOP ; ! ""
 Фрунзе NP-COG-MF ; ! "Frunze"
 Айтматов NP-COG-MF ; ! ""
 Орокчиев NP-COG-MF ; ! ""
+Абдрахманов NP-COG-MF ; ! ""
+Абдумомунов NP-COG-MF ; ! ""
+Абдуразаков NP-COG-MF ; ! ""
+Абдыкадыров NP-COG-MF ; ! ""
+Абдыкалыков NP-COG-MF ; ! ""
+Абдырахманов NP-COG-MF ; ! ""
+Айдаров NP-COG-MF ; ! ""
+Айтматов NP-COG-MF ; ! ""
+Акматов NP-COG-MF ; ! ""
+Актанов NP-COG-MF ; ! ""
+Акунов NP-COG-MF ; ! ""
+Алагушов NP-COG-MF ; ! ""
+Алмамбетов NP-COG-MF ; ! ""
+Алымкулов NP-COG-MF ; ! ""
+Аристов NP-COG-MF ; ! ""
+Асанов NP-COG-MF ; ! ""
+Ауэзов NP-COG-MF ; ! ""
+Байжигитов NP-COG-MF ; ! ""
+Байзаков NP-COG-MF ; ! ""
+Байтемиров NP-COG-MF ; ! ""
+Бактыгулов NP-COG-MF ; ! ""
+Батырканов NP-COG-MF ; ! ""
+Баялинов NP-COG-MF ; ! ""
+Бектенов NP-COG-MF ; ! ""
+Белеков NP-COG-MF ; ! ""
+Валиханов NP-COG-MF ; ! ""
+Гамзатов NP-COG-MF ; ! ""
+Гилязетдинов NP-COG-MF ; ! ""
+Дооров NP-COG-MF ; ! ""
+Жакшылыков NP-COG-MF ; ! ""
+Жакыпбеков NP-COG-MF ; ! ""
+Жакыпов NP-COG-MF ; ! ""
+Жапаров NP-COG-MF ; ! ""
+Жигитов NP-COG-MF ; ! ""
+Жирков NP-COG-MF ; ! ""
+Жумагулов NP-COG-MF ; ! ""
+Жумакматов NP-COG-MF ; ! ""
+Жунусов NP-COG-MF ; ! ""
+Жусупов NP-COG-MF ; ! ""
+Жээнбеков NP-COG-MF ; ! ""
+Ибраимов NP-COG-MF ; ! ""
+Иванов NP-COG-MF ; ! ""
+Исаков NP-COG-MF ; ! ""
+Кадыров NP-COG-MF ; ! ""
+Каназаров NP-COG-MF ; ! ""
+Карагулов NP-COG-MF ; ! ""
+Каримов NP-COG-MF ; ! ""
+Касымбеков NP-COG-MF ; ! ""
+киргизов NP-COG-MF ; ! ""
+Киров NP-COG-MF ; ! ""
+Көбөнов NP-COG-MF ; ! ""
+Кожобеков NP-COG-MF ; ! ""
+Кудайбергенов NP-COG-MF ; ! ""
+Куров NP-COG-MF ; ! ""
+Күрүчбеков NP-COG-MF ; ! ""
+Лермонтов NP-COG-MF ; ! ""
+Ломоносов NP-COG-MF ; ! ""
+Макешов NP-COG-MF ; ! ""
+Маликов NP-COG-MF ; ! ""
+Мамбетов NP-COG-MF ; ! ""
+Мамытов NP-COG-MF ; ! ""
+Меньшиков NP-COG-MF ; ! ""
+Мифтаков NP-COG-MF ; ! ""
+Молдобасанов NP-COG-MF ; ! ""
+Молдокасымов NP-COG-MF ; ! ""
+Нааматов NP-COG-MF ; ! ""
+народов NP-COG-MF ; ! ""
+Ниязов NP-COG-MF ; ! ""
+Өмүрбеков NP-COG-MF ; ! ""
+Өмүрзаков NP-COG-MF ; ! ""
+Орозобеков NP-COG-MF ; ! ""
+Орозов NP-COG-MF ; ! ""
+Осмонкулов NP-COG-MF ; ! ""
+Осмонов NP-COG-MF ; ! ""
+Панфилов NP-COG-MF ; ! ""
+Петров NP-COG-MF ; ! ""
+Прозоров NP-COG-MF ; ! ""
+Радлов NP-COG-MF ; ! ""
+Раззаков NP-COG-MF ; ! ""
+Рыскулов NP-COG-MF ; ! ""
+Садыков NP-COG-MF ; ! ""
+Самаганов NP-COG-MF ; ! ""
+Сатылганов NP-COG-MF ; ! ""
+Сулайманов NP-COG-MF ; ! ""
+Султанов NP-COG-MF ; ! ""
+Сыдыкбеков NP-COG-MF ; ! ""
+Сыдыков NP-COG-MF ; ! ""
+Таштемиров NP-COG-MF ; ! ""
+Токтогулов NP-COG-MF ; ! ""
+Төрөбеков NP-COG-MF ; ! ""
+Турсунов NP-COG-MF ; ! ""
+Турусбеков NP-COG-MF ; ! ""
+Тыныбеков NP-COG-MF ; ! ""
+Тыныстанов NP-COG-MF ; ! ""
+Удалов NP-COG-MF ; ! ""
+Урмамбетов NP-COG-MF ; ! ""
+Урманбетов NP-COG-MF ; ! ""
+Урстанбеков NP-COG-MF ; ! ""
+Урустанбеков NP-COG-MF ; ! ""
+Усманов NP-COG-MF ; ! ""
+Усубакунов NP-COG-MF ; ! ""
+Халидов NP-COG-MF ; ! ""
+Хасанов NP-COG-MF ; ! ""
+Худяков NP-COG-MF ; ! ""
+Чехов NP-COG-MF ; ! ""
+Чокморов NP-COG-MF ; ! ""
+Шабданов NP-COG-MF ; ! ""
+Шайбеков NP-COG-MF ; ! ""
+Шеркулов NP-COG-MF ; ! ""
+Шүкүрбеков NP-COG-MF ; ! ""
+Шүкүров NP-COG-MF ; ! ""
+Эрматов NP-COG-MF ; ! ""
+Эшмамбетов NP-COG-MF ; ! ""
+Эшматов NP-COG-MF ; ! ""
 
 
 LEXICON AdjecStems
@@ -4176,6 +4291,39 @@ suyuk ADJ ;
 адабий ADJ ;
 жооптуу ADJ ;
 кыргызча ADJ ;
+
+азиялык ADJ ; ! ""
+академиялык ADJ ; ! ""
+антиколониялык ADJ ; ! ""
+археологиялык ADJ ; ! ""
+биологиялык ADJ ; ! ""
+географиялык ADJ ; ! ""
+дезинсекциялык ADJ ; ! ""
+демократиялык ADJ ; ! ""
+дипломатиялык ADJ ; ! ""
+диссертациялык ADJ ; ! ""
+индиялык ADJ ; ! ""
+италиялык ADJ ; ! ""
+конституциялык ADJ ; ! ""
+лабораториялык ADJ ; ! ""
+монархиялык ADJ ; ! ""
+орусиялык ADJ ; ! ""
+орфографиялык ADJ ; ! ""
+партиялык ADJ ; ! ""
+редакциялык ADJ ; ! ""
+россиялык ADJ ; ! ""
+симфониялык ADJ ; ! ""
+тарбиялык ADJ ; ! ""
+традициялык ADJ ; ! ""
+физиологиялык ADJ ; ! ""
+философиялык ADJ ; ! ""
+фиялык ADJ ; ! ""
+химиялык ADJ ; ! ""
+экологиялык ADJ ; ! ""
+энциклопедиялык ADJ ; ! ""
+этимологиялык ADJ ; ! ""
+этнографиялык ADJ ; ! ""
+
 
 LEXICON AdvStems
 
