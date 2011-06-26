@@ -861,7 +861,6 @@ LEXICON NounStems
 арыз N-INFL ; 
 аскер N-INFL ; ! "soldier" 
 аста N-INFL ; 
-ата N-INFL ; 
 атак-даңк N-INFL ; 
 аферист N-INFL ; 
 аалам N-INFL ; 
@@ -2304,7 +2303,6 @@ LEXICON NounStems
 педагог N-INFL ; 
 педагогика N-INFL ; 
 педаль N-INFL ; 
-ата N-INFL ; 
 падар N-INFL ; 
 педикюр N-INFL ; 
 пенициллин N-INFL ; 
@@ -3034,7 +3032,6 @@ LEXICON NounStems
 тема N-INFL ; 
 көрсөткүч N-INFL ; 
 кабар N-INFL ; 
-ата N-INFL ; 
 мор N-INFL ; 
 бут N-INFL ; 
 аки N-INFL ; 
@@ -3042,7 +3039,6 @@ LEXICON NounStems
 байланыш N-INFL ; 
 шылтоо N-INFL ; 
 бахарат N-INFL ; 
-жаз N-INFL ; 
 бакча N-INFL ; 
 мелдеш N-INFL ; 
 бактыяр N-INFL ; 
@@ -3177,7 +3173,6 @@ LEXICON NounStems
 түр N-INFL ; 
 эр N-INFL ; 
 сызгыч N-INFL ; 
-жооп N-INFL ; 
 каухар N-INFL ; 
 сталь N-INFL ; 
 жангак N-INFL ; 
@@ -3534,7 +3529,6 @@ LEXICON NounStems
 хатип N-INFL ; 
 көңүл N-INFL ; 
 абаа N-INFL ; 
-котор N-INFL ; 
 сабиз N-INFL ; 
 кыял N-INFL ; 
 жашоо N-INFL ; 
@@ -3587,7 +3581,6 @@ LEXICON NounStems
 облас N-INFL ; 
 жармашкан N-INFL ; 
 катнаш N-INFL ; 
-жаз N-INFL ; 
 өлкө N-INFL ; 
 илмек N-INFL ; 
 карамак N-INFL ; 
@@ -3744,6 +3737,19 @@ LEXICON NounStems
 антропология N-INFL ;
 фумигация N-INFL ;
 репрессия N-INFL ;
+кез N-INFL ;
+кыштак N-INFL ;
+котормочу N-INFL ;
+журналистика N-INFL ;
+маек N-INFL ;
+сөздүк N-INFL ;
+түр N-INFL ;
+уч N-INFL ;
+жооптуу N-INFL ;
+даярдоо N-INFL ;
+иштөө N-INFL ;
+жарыя N-INFL ;
+сактоо N-INFL ;
 орун%<n%>%<nom%>%<cmpd%>%+басар:орун% басар N-INFL ;
 
 LEXICON PropernounStems
@@ -3897,6 +3903,8 @@ Tеңир NP-TOP ; ! ""
 Өзбекстан NP-TOP ; ! "Uzbekistan"
 Азия NP-TOP ; ! "Asia"
 Чоң% Алай NP-TOP ; ! ""
+Ташкент NP-TOP ;
+Жалал% Абад NP-TOP ;
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
@@ -3945,6 +3953,11 @@ LEXICON AdjecStems
 маданий ADJ ;
 чет ADJ ;
 начар ADJ ;
+диний ADJ ;
+табигый ADJ ;
+орусча ADJ ;
+татыктуу ADJ ;
+кесиптик ADJ ;
 азыркы ADJ ; ! "modern"
 элдик ADJ ; ! "people's"
 башкы ADJ ; ! "principle 
@@ -4161,6 +4174,8 @@ suyuk ADJ ;
 өзгөчө ADJ ; 
 аз ADJ ; 
 адабий ADJ ;
+жооптуу ADJ ;
+кыргызча ADJ ;
 
 LEXICON AdvStems
 
@@ -4373,12 +4388,12 @@ LEXICON VerbStems
 отур V-INFL ; ! "sit"
 бар V-INFL ; 
 аракет% кыл V-INFL ; 
-арна% ет V-INFL ; 
+арна V-INFL ; 
 аякта V-INFL ; 
 бак V-INFL ; 
 башта V-INFL ; 
 без V-INFL ; 
-бер V-INFL ; 
+бер V-INFL-TV ; 
 билдир V-INFL ; 
 билин V-INFL ; 
 боё V-INFL ; 
@@ -4395,7 +4410,7 @@ LEXICON VerbStems
 быш V-INFL ; 
 бүк V-INFL ; 
 бүктө V-INFL ; 
-бүт V-INFL ; 
+бүт V-INFL-IV ; 
 бөл V-INFL ; 
 гий V-INFL ; 
 гэр V-INFL ; 
@@ -4404,7 +4419,7 @@ LEXICON VerbStems
 де V-INFL ; ! "say"
 елестет V-INFL ; 
 жаа V-INFL ; 
-жаз V-INFL ; 
+жаз V-INFL-TV ; 
 жай V-INFL ; 
 жан V-INFL ; 
 жаркыра V-INFL ; 
@@ -4429,11 +4444,12 @@ LEXICON VerbStems
 илгериле V-INFL ; 
 кайнат V-INFL ; 
 кал V-INFL ; 
-кара V-INFL ; 
+кара V-INFL-IV ; 
+кара V-INFL-TV ;
 карма V-INFL ; 
 кары V-INFL ; 
 карышта V-INFL ; 
-кат V-INFL ; 
+кат V-INFL-TV ; 
 керек V-INFL ; 
 кес V-INFL ; 
 кеч V-INFL ; 
@@ -4451,7 +4467,7 @@ LEXICON VerbStems
 кучакта V-INFL ; 
 кый% ет V-INFL ; 
 кыйна V-INFL ; 
-кыл V-INFL ; 
+кыл V-INFL-TV ; 
 кырк V-INFL ; 
 кыс V-INFL ; 
 күй V-INFL ; 
@@ -4481,7 +4497,7 @@ LEXICON VerbStems
 сайра V-INFL ; 
 салаңда V-INFL ; 
 салкында V-INFL ; 
-сана V-INFL ; 
+сана V-INFL-TV ; 
 сез V-INFL ; 
 секир V-INFL ; 
 секир V-INFL ; 
@@ -4491,7 +4507,7 @@ LEXICON VerbStems
 сун V-INFL ; 
 сура V-INFL ; 
 сыз V-INFL ; 
-сыйла V-INFL ; 
+сыйла V-INFL-TV ; 
 сыла V-INFL ; 
 сүз V-INFL ; 
 сүйлө V-INFL ; ! "speak"
@@ -4559,6 +4575,31 @@ LEXICON VerbStems
 өчүр V-INFL ; 
 ал V-INFL-TV ;
 тарт V-INFL-IV ;
+жайгаш V-INFL-IV ;
+сиңир V-INFL ;
+ата V-INFL-TV ;
+котор V-INFL-TV ;
+эсепте V-INFL-TV ;
+жүр V-INFL-TV ;
+тааны V-INFL-TV ;
+бас V-INFL-IV ;
+өт V-INFL-TV ;
+колдон V-INFL-TV ;
+сал V-INFL-TV ;
+маектеш V-INFL ;
+жаса V-INFL-IV ;
+жарыяла V-INFL-TV ;
+түз V-INFL-IV ;
+белгиле V-INFL-TV ;
+катыш V-INFL ;
+тий V-INFL-TV ;
+сакта V-INFL-TV ;
+тый V-INFL ;
+жүргүз V-INFL ;
+кач V-INFL-IV ;
+кач V-INFL-TV ;
+көч V-INFL-IV ;
+ыйгар V-INFL ;
 
 LEXICON Abbreviations
 
