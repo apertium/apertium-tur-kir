@@ -12,14 +12,14 @@ Cns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ
 	  %{D%} %{G%} %{N%} %{L%} %{B%} %{P%} ;
 Vow =     А Е Ё И О Ө У Ү Ы Э Ю Я
           а е ё и о ө у ү ы э ю я 
-          %{A%} %{I%} %{U%} %{E%};
+          %{A%} %{I%} %{U%} %{E%} ;
 FrontVow = И Ө Е Ү Э и ө ү э е ;
-BackVow = А О У Ы а о у ы Я я Ю ю;
+BackVow = А О У Ы а о у ы Я я Ю ю ;
 FrontUnrndVow = И Е Э и э е ; 
-BackUnrndVow = А Ы а ы Я я;
+BackUnrndVow = А Ы а ы Я я ;
 FrontRndVow = Ө Ү ө ү ;
-BackRndVow =  О У о у Ю ю;
-BackLowRndVow = О о Ё ё;
+BackRndVow =  О У о у Ю ю ;
+BackLowRndVow = О о Ё ё ;
 UyanCons = м ң М Ң ;
 
 SonCns = й р Й Р ;
@@ -38,10 +38,10 @@ CnsFrontRndVowSB = Cns FrontRndVow %> ;
 CnsBackRndVowSB = Cns BackRndVow %> ;
 
 ! These sets do not continue suffix borders.
-CnsFrontUnrndVow = Cns FrontUnrndVow %{I%} %{A%} %{U%} %{E%};
-CnsFrontRndVow = Cns FrontRndVow  %{I%} %{A%} %{U%} %{E%};
+CnsFrontUnrndVow = Cns FrontUnrndVow %{I%} %{A%} %{U%} %{E%} ;
+CnsFrontRndVow = Cns FrontRndVow  %{I%} %{A%} %{U%} %{E%} ;
 CnsBackRndVow = Cns BackRndVow  %{I%} %{A%} %{U%} %{E%} ;
-CnsBackLowRndVow = Cns BackLowRndVow  %{I%} %{A%} %{U%} %{E%};
+CnsBackLowRndVow = Cns BackLowRndVow  %{I%} %{A%} %{U%} %{E%} ;
 	   
  
 Rules
@@ -120,27 +120,30 @@ Cx:т <=> [ UnvoicedNonSonCns | UnvoicedNonSonCns ь ] %>: _ ;
 "B -> п in negative"
 %{B%}:п <=> UnvoicedNonSonCns: %>: _  ;
 
-"Drop verb stem final vowel before inf"
-е:0 <=> _ %>: %{U%}: %{U%}: ; 
-
 "Voiceless non-coronal stop voicing"
 Vx:Vy <=> Vow _ %>: Vow ; 
         where Vx in (  п   к  )
               Vy in (  б   г  )
               matched ;
+
 "Voiceless non-coronal stop voicing before possessive"
 Vx:Vy <=> Vow _ %>: с: %{I%}: ;
         where Vx in (  п   к  )
               Vy in (  б   г  )
               matched ;
 
+!"Harmonise stem ending before infinitive"
+!Vx:Vy <=> Cns _ %>: %{U%}: %{U%}: ; 
+!       where Vx in (  е    ө    а    о  ) 
+!             Vy in (  ө    ө    о    о  )
+!             matched;
 !
-!"'P' desonorisation before >c{I}"
-!п:б <=> Vow _ %>: с: %{I%}: ;
+!"{U} deletion in vowel final stem"
+!%{U%}:0 <=> Vow %>: %{U%}: _ ; 
 !
-!"'P' desonorisation before >c{I}"
-!к:г <=> Vow _ %>: с: %{I%}: ;
-!
+
+!иште<v><iv><inf>:иште>{U}{U}
+!                 иштө>{U}{U}
 
 ! ndt	N
 ! ldt	L
