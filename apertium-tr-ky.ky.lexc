@@ -300,6 +300,10 @@ NumeralList ;
 %%%<num%>:%% CASES ;
 Num ;
 
+LEXICON NUM-ROMAN
+
+%<num%>: CASES ;
+
 LEXICON NUM
 
 %<num%>: POSSESSION ;
@@ -638,6 +642,31 @@ LEXICON Numerals
 миң NUM ; ! "one thousand"
 миллион NUM ; ! "one million"
 миллиард NUM ; ! "one billion"
+
+
+I NUM-ROMAN ; ! ""
+II NUM-ROMAN ; ! ""
+III NUM-ROMAN ; ! ""
+IV NUM-ROMAN ; ! ""
+V NUM-ROMAN ; ! ""
+VI NUM-ROMAN ; ! ""
+VII NUM-ROMAN ; ! ""
+VIII NUM-ROMAN ; ! ""
+IX NUM-ROMAN ; ! ""
+X NUM-ROMAN ; ! ""
+XI NUM-ROMAN ; ! ""
+XI NUM-ROMAN ; ! ""
+XII NUM-ROMAN ; ! ""
+XIII NUM-ROMAN ; ! ""
+XIV NUM-ROMAN ; ! ""
+XV NUM-ROMAN ; ! ""
+XVI NUM-ROMAN ; ! ""
+XVII NUM-ROMAN ; ! ""
+XVIII NUM-ROMAN ; ! ""
+XX NUM-ROMAN ; ! ""
+XXI NUM-ROMAN ; ! ""
+XIX NUM-ROMAN ; ! ""
+
 
 LEXICON NounStems
 аалым N-INFL ; 
@@ -4543,6 +4572,7 @@ LEXICON Abbreviations
 б%.з%.ч%. ABBR ; ! биздин заманга чейинки "B.C.E."
 ж%.б%.у%.с%. ABBR ; ! жана башка ушул сыяктуу "and similar"
 № ABBR ; 
+ISBN ABBR ; 
 
 LEXICON Punctuation
 
