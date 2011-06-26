@@ -456,11 +456,9 @@ LEXICON V-INFL-COMMON
 
 ! Non-finite forms and participles
 %<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
-%<inf%>:%>%{U%}%{U%} # ;                                      ! 
 %<inf2%>:%>%{I%}ш # ;                                         ! -ыш, -иш, -уш, -үш
 %<neg%>%<pp%>:%>%{B%}%{A%}%>%{G%}%{A%}н POSSESSION ;          !
 %<neg%>%<pp2%>:%>%{B%}%{A%}%>%{G%}%{A%}н%{I%} POSSESSION ;    ! 
-%<neg%>%<inf%>:%>%{B%}%{A%}%>%{I%}%{I%} # ;                   !
 %<neg%>%<inf2%>:%>%{B%}%{A%}%>%{I%}ш # ;                      !
 %<plist%>:%>м%{A%}й # ;                                       !
 
@@ -489,14 +487,28 @@ LEXICON V-INFL-COMMON
 LEXICON V-INFL
 
 %<v%>%<TD%>: V-INFL-COMMON ;
+%<v%>%<TD%>%<inf%>:%>%{U%}%{U%} # ;                                      ! 
+%<v%>%<TD%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} # ;                   !
+
+LEXICON V-INFL-TV-SHORT
+
+%<v%>%<tv%>: V-INFL-COMMON ;
+
+LEXICON V-INFL-IV-SHORT
+
+%<v%>%<iv%>: V-INFL-COMMON ;
 
 LEXICON V-INFL-TV
 
 %<v%>%<tv%>: V-INFL-COMMON ;
+%<v%>%<tv%>%<inf%>:%>%{U%}%{U%} # ;                                      ! 
+%<v%>%<tv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} # ;                   !
 
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
+%<v%>%<iv%>%<inf%>:%>%{U%}%{U%} # ;                                      ! 
+%<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} # ;                   !
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!
@@ -616,6 +628,8 @@ LEXICON Numerals
 
 LEXICON NounStems
 аалым N-INFL ; 
+поэзия N-INFL ; 
+гвардия N-INFL ; 
 аары N-INFL ; 
 аба N-INFL ; 
 абажур N-INFL ; 
@@ -1422,7 +1436,6 @@ LEXICON NounStems
 фашизм N-INFL ; 
 федерализм N-INFL ; 
 федерация N-INFL ; 
-философия N-INFL ; 
 феминизм N-INFL ; 
 феномен N-INFL ; 
 феноменализм N-INFL ; 
@@ -2342,6 +2355,15 @@ LEXICON NounStems
 ыраң N-INFL ; 
 репертуар N-INFL ; 
 репродукция N-INFL ; 
+продукция N-INFL ; 
+диссертация N-INFL ; 
+экспозиция N-INFL ; 
+компания N-INFL ; 
+акредитация N-INFL ; 
+биология N-INFL ; 
+археология N-INFL ; 
+коммуникация N-INFL ; 
+империя N-INFL ; 
 ресторан N-INFL ; 
 реставрация N-INFL ; 
 реставрация N-INFL ; 
@@ -3626,7 +3648,6 @@ LEXICON NounStems
 мисал N-INFL ;
 тил N-INFL ;
 маани N-INFL ;
-Энциклопедия N-INFL ;
 кытай N-INFL ;
 сын N-INFL ;
 облус N-INFL ;
@@ -3675,12 +3696,28 @@ LEXICON NounStems
 ырчы N-INFL ;
 окуучу N-INFL ;
 окутуучу N-INFL ;
+энциклопедия N-INFL ;
+история N-INFL ;
+түркология N-INFL ;
+антропология N-INFL ;
+фумигация N-INFL ;
+репрессия N-INFL ;
 орун%<n%>%<nom%>%<cmpd%>%+басар:орун% басар N-INFL ;
 
 LEXICON PropernounStems
 
 Баласагын NP-TOP ;
+Якутия NP-TOP ;
+Жапония NP-TOP ;
+Грузия NP-TOP ;
+Византия NP-TOP ;
+София NP-TOP ;
+Евразия NP-TOP ;
+Орусия NP-TOP ;
+Орусия:Россия NP-TOP ; ! Dir/LR
 Москва NP-TOP ;
+Монголия NP-TOP ;
+Германия NP-TOP ;
 Ташкент NP-TOP ;
 Ирландия NP-TOP ;
 Италия NP-TOP ;
@@ -3825,6 +3862,10 @@ Tеңир NP-TOP ; ! ""
 !Элеонора NP-ANT-F ; ! "Eleanora"
 Манас NP-ANT-M ;
 Ардак NP-ANT-M ;
+
+Мария NP-ANT-F ; ! "Marija"
+Юлия NP-ANT-F ; ! "Julija"
+София NP-ANT-F ; ! "Sofija"
 
 Ленин NP-COG-MF ; ! "Lenin"
 Ашым NP-ANT-M ; ! ""
@@ -4236,7 +4277,8 @@ LEXICON VerbStems
 бол V-INFL-IV ; ! "be"
 чыгар V-INFL-TV ; ! "" 
 
-
+аарчы V-INFL-IV ;  ! ""
+аарчы V-INFL-TV ;  ! ""
 айлант V-INFL-TV ; ! "give headache"
 айт V-INFL-IV ; ! "tell"
 айт V-INFL-TV ; ! "tell"
@@ -4244,17 +4286,24 @@ LEXICON VerbStems
 ас V-INFL-TV ; ! "hang"
 ат V-INFL-TV ; ! "shoot"
 ач V-INFL-TV ; ! "open"
+аш V-INFL-IV ; 
 бар V-INFL-IV ; ! "go"
 бил V-INFL-TV ; ! "know"
+де V-INFL-TV-SHORT ; ! "say"
 жат V-INFL-IV ; ! "come"
+же V-INFL-TV-SHORT ; ! "eat"
+жет V-INFL-IV ; 
 ич V-INFL-IV ; ! "drink"
 ич V-INFL-TV ; ! "drink"
+иште V-INFL-IV ;  ! "work"
 кел V-INFL-IV ; ! "come"
 кет V-INFL-IV ; ! "go"
+кой V-INFL-TV ; ! "put, place" 
 күл V-INFL-IV ; ! "smile, laugh"
 оку V-INFL-IV ; ! "read"
 оку V-INFL-TV ; ! "read"
 окшо V-INFL-IV ; ! "be similar to"
+саба V-INFL-TV ;  ! ""
 сүй V-INFL-TV ; ! "love"
 таң% ат V-INFL-TV ; ! "dawn"
 тур V-INFL-IV ; ! "stand, live"
@@ -4263,30 +4312,13 @@ LEXICON VerbStems
 ук V-INFL-TV ; ! "listen"
 укта V-INFL-IV ; ! "sleep"
 чий V-INFL-TV ; ! "draw a line"
-аш V-INFL-IV ; 
-жет V-INFL-IV ; 
-иште V-INFL-IV ;  ! "work"
-аарчы V-INFL-IV ;  ! ""
-аарчы V-INFL-TV ;  ! ""
-саба V-INFL-TV ;  ! ""
-кой V-INFL-TV ; ! "put, place" 
-
 ач V-INFL-TV ; ! "open"
 бар V-INFL-TV ; ! "go"
 бил V-INFL-IV ; ! "know"
-де V-INFL-SHORT ; ! "say"
-жат V-INFL ; ! "come"
-же V-INFL-SHORT ; ! "eat"
-ич V-INFL ; ! "drink"
-кел V-INFL ; ! "come"
-кет V-INFL ; ! "go"
+
+
 отур V-INFL ; ! "sit"
-тур V-INFL ; ! "stand, live"
 бар V-INFL ; 
-кет V-INFL ; 
-кет V-INFL ; 
-ич V-INFL ; 
-иште V-INFL ; 
 аракет% кыл V-INFL ; 
 арна% ет V-INFL ; 
 аякта V-INFL ; 
