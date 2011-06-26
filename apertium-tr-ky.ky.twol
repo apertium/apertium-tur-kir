@@ -1,8 +1,8 @@
 Alphabet
 А Б В Г Д Е Ё Ж З И И К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
 а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ь ы ъ э ю я
-%{G%}:г %{D%}:д %{N%}:н %{L%}:л %{B%}:б %{E%}:а %{P%}:п 
-%{A%}:а %{I%}:ы %{U%}:у 
+%{G%}:г %{D%}:д %{N%}:н %{L%}:л %{B%}:б %{P%}:п 
+%{A%}:а %{I%}:ы %{U%}:у %{E%}:а 
 %>:0 ; 
 
 Sets
@@ -105,9 +105,6 @@ Cx:т <=> [ UnvoicedNonSonCns | UnvoicedNonSonCns ь ] %>: _ ;
 "'с' deletion in possessive after consonant"
 с:0 <=> Cns %>: _ %{I%}: ; 
 
-"'P' desonorisation before >c{I}"
-п:б <=> Vow _ %>: с: %{I%}: ;
-
 "'г' deletion after uyan consonants"
 %{G%}:0 <=> UyanCons: %>: _ %{A%}: ;
 
@@ -131,6 +128,19 @@ Vx:Vy <=> Vow _ %>: Vow ;
         where Vx in (  п   к  )
               Vy in (  б   г  )
               matched ;
+"Voiceless non-coronal stop voicing before possessive"
+Vx:Vy <=> Vow _ %>: с: %{I%}: ;
+        where Vx in (  п   к  )
+              Vy in (  б   г  )
+              matched ;
+
+!
+!"'P' desonorisation before >c{I}"
+!п:б <=> Vow _ %>: с: %{I%}: ;
+!
+!"'P' desonorisation before >c{I}"
+!к:г <=> Vow _ %>: с: %{I%}: ;
+!
 
 ! ndt	N
 ! ldt	L
