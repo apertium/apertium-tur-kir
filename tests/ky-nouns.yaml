@@ -56,12 +56,16 @@ Tests:
     салт<n><pl><px2pl><frm><nom> : салттарыңыздар
 
   "[lexc] 3rd person singular noun possessive":
+    ат<n><px3sg><nom> : аты
+    салт<n><px3sg><nom> : салты
+    китеп<n><px3sg><nom> : китеби
+    тарап<n><px3sg><nom> : тарабы
     ат<n><px3pl><nom> : аты
     салт<n><px3pl><nom> : салты
     китеп<n><px3pl><nom> : китеби
     тарап<n><px3pl><nom> : тарабы
 
-  "[lexc] 3rd person plurar noun possessive":
+  "[lexc] 3rd person noun possessive plural":
     ат<n><pl><px3pl><nom> : аттары
     салт<n><pl><px3pl><nom> : салттары
     ат<n><pl><px3sg><nom> : аттары
@@ -80,12 +84,17 @@ Tests:
     бала<n><px2pl><nom> : балаңар
     ат<n><px2pl><frm><nom> : атыңыздар
     бала<n><px2pl><frm><nom> : балаңыздар
+    ат<n><px3sg><nom> : аты
     ат<n><px3pl><nom> : аты
+    бала<n><px3sg><nom> : баласы
     бала<n><px3pl><nom> : баласы
+    эл<n><px3sg><nom> : элдики
     эл<n><px3pl><nom> : элдики
     мал<n><px><nom> : малдыкы
     бала<n><px2sg><px><nom> : балаңдыкы
+    тоо<n><px3sg><nom> : тоонуку
     тоо<n><px3pl><nom> : тоонуку
+    төө<n><px3sg><nom> : төөнүкү
     төө<n><px3pl><nom> : төөнүкү
     
   "[lexc] Singular genitive (-{N}{I}n)": 
@@ -103,7 +112,7 @@ Tests:
     аба<n><dat> : абага
     кол<n><dat> : колго
     көз<n><dat> : көзгө
-    баш<n><dat> : башка
+    #баш<n><dat> : башка
     туз<n><dat> : тузга
     челек<n><dat> : челекке
     таш<n><dat> : ташка
@@ -193,22 +202,33 @@ Tests:
     апа<n><px1sg><px><dat> : апамдыкына
     апа<n><px2sg><px><dat> : апаңдыкына
     апа<n><px3sg><px><dat> : апасыныкына
+    апа<n><px3pl><px><dat> : апасыныкына
     кыз<n><px1pl><px><dat> : кызыбыздыкына
     кыз<n><px2pl><px><dat> : кызыңардыкына
+    кыз<n><px3sg><px><dat> : кыздарыныкына
     кыз<n><px3pl><px><dat> : кыздарыныкына
+    ата<n><px3sg><px><dat> : аталарыныкына
     ата<n><px3pl><px><dat> : аталарыныкына
+    саат<n><px3sg><px><dat> : сааттарыныкына
     саат<n><px3pl><px><dat> : сааттарыныкына
+    мал<n><px3sg><px><dat> : малдарыныкына
     мал<n><px3pl><px><dat> : малдарыныкына
 
   "[twol] {D} -> н in ablative": 
     ата<n><px3sg><px><abl> : атасыныкынан
+    ата<n><px3pl><px><abl> : атасыныкынан
 
   "[twol] н insertion between {I} and {D} in locative":
     ата<n><px3sg><px><loc> : атасыныкында
+    ата<n><px3pl><px><loc> : атасыныкында
 
-  "[twol] 'P' desonorisation before >c{I}":
+  "[twol] Voiceless non-coronal stop voicing before possessive >c{I}":
     китеп<n><px3sg><nom> : китеби
+    китеп<n><px3pl><nom> : китеби
+    тарап<n><px3sg><nom> : тарабы
     тарап<n><px3pl><nom> : тарабы
+    эмгек<n><px3pl><nom> : эмгеги
+    эмгек<n><px3sg><nom> : эмгеги
 
   "[freq] unrecognised nouns from top 150":
     жыйнак<n><px3sg><nom> : жыйнагы
@@ -232,3 +252,4 @@ Tests:
 
   "[freq] unrecognised nouns from top 150":
     союз<n><px3sg><gen> : союзунун
+    союз<n><px3pl><gen> : союзунун

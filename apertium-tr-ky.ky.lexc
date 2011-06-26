@@ -1211,7 +1211,6 @@ LEXICON NounStems
 пиджак N-INFL ; 
 желдет N-INFL ; 
 жамаат N-INFL ; 
-эл N-INFL ; 
 журт N-INFL ; 
 жамаат N-INFL ; 
 жаназа N-INFL ; 
@@ -1351,7 +1350,6 @@ LEXICON NounStems
 экперт N-INFL ; 
 экспертиза N-INFL ; 
 экстра N-INFL ; 
-эл N-INFL ; 
 калк N-INFL ; 
 журт N-INFL ; 
 кол N-INFL ; 
@@ -1575,7 +1573,6 @@ LEXICON NounStems
 керек N-INFL ; 
 акарат N-INFL ; 
 калк N-INFL ; 
-эл N-INFL ; 
 канжар N-INFL ; 
 аракет N-INFL ; 
 тамга N-INFL ; 
@@ -1586,7 +1583,7 @@ LEXICON NounStems
 айбан N-INFL ; 
 азирети N-INFL ; 
 муун N-INFL ; 
-эже N-INFL ; 
+эже N-INFL ; ! ""
 гектар N-INFL ; 
 халва N-INFL ; 
 гепатит N-INFL ; 
@@ -3600,7 +3597,7 @@ LEXICON NounStems
 парта N-INFL ; 
 кино N-INFL ; 
 терезе N-INFL ; 
-жүзүм N-INFL ; 
+!жүзүм N-INFL ;  ! is this a numeral ? -FMT
 кулун N-INFL ; 
 кагаз N-INFL ; 
 өрт N-INFL ; 
@@ -3626,7 +3623,6 @@ LEXICON NounStems
 катар N-INFL ;
 негиз N-INFL ;
 маданият N-INFL ;
-эл N-INFL ;
 мисал N-INFL ;
 тил N-INFL ;
 маани N-INFL ;
