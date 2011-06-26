@@ -23,3 +23,6 @@ Tests:
 
   "[lexc] Perfect Converb -{I}п":
     иште<v><iv><cv_perf> : иштеп
+
+  "[twol] Yotification":
+    кой<v><tv><cv_perf> : коюп
