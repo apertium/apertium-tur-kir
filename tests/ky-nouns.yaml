@@ -253,3 +253,6 @@ Tests:
   "[freq] unrecognised nouns from top 150":
     союз<n><px3sg><gen> : союзунун
     союз<n><px3pl><gen> : союзунун
+    уч<n><px3sg><gen> : учун 
+    уч<n><px3pl><gen> : учун 
+

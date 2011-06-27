@@ -16,6 +16,7 @@ Multichar_Symbols
 %<postadv%> ! Postadverb
 %<part%>    ! Particle
 %<abbr%>    ! Abbreviation
+%<ij%>      ! Interjection 
 %<cnjcoo%>  ! Coordinating conjunction
 %<cnjadv%>  ! Adverbial conjunction
 %<cnjsub%>  ! Subordinating conjunction
@@ -84,6 +85,7 @@ Multichar_Symbols
 %<opt%>     ! Optative, -мAк>чI
 %<past%>    ! Past tense
 %<pih%>     ! Past habitual
+%<pot%>     ! Potential, -чUдAй
 %<ifi%>     ! Definite past 
 %<fut%>     ! Future tense, -AAр
 %<pp%>      ! Past participle, -GAн
@@ -134,6 +136,7 @@ AdjecStems ;
 AdvStems ;
 VerbStems ;
 Punctuation ;
+Interjections ;
 Abbreviations ;
 
 LEXICON CASES-SHORT-ACC
@@ -244,6 +247,10 @@ LEXICON CA
 
 %<cnjadv%>: # ;
 
+LEXICON CS
+
+%<cnjsub%>: # ;
+
 LEXICON CC
 
 %<cnjcoo%>: # ;
@@ -267,6 +274,11 @@ LEXICON PART-PERS-PAST
 LEXICON ABBR
 
 %<abbr%>: # ;
+
+LEXICON INTERJ
+
+%<ij%>: # ;
+
 
 LEXICON DET-DEM
 
@@ -489,7 +501,8 @@ LEXICON V-INFL-COMMON
 %<cond%>:%>с%{A%} V-PERS-PAST ;                               ! 
 %<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP ;                        !   
 %<pih%>:%>ч%{U%} V-PERS-COP ;                                 ! 
-%<pcond%>:%>м%{A%}к V-PERS-COP ;          ! 
+%<pot%>:%>ч%{U%}%>д%{A%}й V-PERS-COP ;                        ! 
+%<pcond%>:%>м%{A%}к V-PERS-COP ;                              ! 
 
 %<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! TODO: Check
 %<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}р V-PERS-COP ;              !
@@ -548,6 +561,7 @@ LEXICON Postadverbs
 
 гана POSTADV ; ! "only"
 эле POSTADV ; ! "only"
+деле POSTADV ; ! "even"
 
 LEXICON Conjunctions 
 
@@ -558,6 +572,8 @@ LEXICON Conjunctions
 не CC ; ! "neither... nor..."
 ал CA ; ! "but"
 бирок CA ; ! "but"
+анткени CS ; ! "because"
+себеби CS ; ! "because"
 
 LEXICON Postpositions
 
@@ -566,7 +582,7 @@ LEXICON Postpositions
 чейин POST ; ! "up to, until"
 кийин POST ; ! "with"
 сайын POST ; ! "every"
-үчүн POST ; ! "for"
+үчүн POST ; ! "for" +nom
 жакка POST ; ! "toward"
 чакты POST ; ! "about, around"
 катары POST ; ! "as a" +nom
@@ -577,6 +593,9 @@ LEXICON Postpositions
 боюнча POST ; ! "according to" +nom
 жөнүнд POST ; ! "about" +nom
 жөнүндө POST ; ! "about" +nom
+тиешелүү POST ; ! "belonging to" +dat
+карата POST ; ! "" +dat
+
 
 LEXICON Determiners
 
@@ -587,10 +606,13 @@ LEXICON Determiners
 тигил DET-DEM ; ! "that (yonder)"
 
 айрым DET-IND ; ! "other"
+ушундай DET-IND ; ! "this kind of"
 
 кээ% бир DET-QNT ; ! "some"
 бир% нече DET-QNT ; ! "some, several"
 көптөгөн DET-QNT ; ! "many"
+
+кайсы DET-ITG ; ! "which?"
 
 LEXICON Pronouns
 
@@ -609,10 +631,13 @@ LEXICON Pronouns
 тигил:тиги PRON-DEM-TIGIL ; ! "that (yonder)
 
 эмне PRON-ITG ; ! "what?"
+кайсыны PRON-ITG ; ! "which?"
+ким PRON-ITG ; ! "who?"
 
 өз PRON-REFL ; ! "own/self"
 
 айрым PRON-IND ; ! "other"
+баары PRON-IND ; ! "everyone"
 
 кээ% бир PRON-QNT ; ! "some"
 бир% нече PRON-QNT ; ! "some, several"
@@ -3744,13 +3769,14 @@ LEXICON NounStems
 маек N-INFL ;
 сөздүк N-INFL ;
 түр N-INFL ;
-уч N-INFL ;
+уч N-INFL ; ! "tip, point"
 жооптуу N-INFL ;
 даярдоо N-INFL ;
 иштөө N-INFL ;
 жарыя N-INFL ;
 сактоо N-INFL ;
 орун%<n%>%<nom%>%<cmpd%>%+басар:орун% басар N-INFL ;
+чейинки N-INFL ; 
 
 LEXICON PropernounStems
 
@@ -4055,7 +4081,9 @@ LEXICON AdjecStems
 алгачкы ADJ-ORD ; ! "first"
 экинчи ADJ-ORD ; ! "second"
 ушундай ADJ ;
+
 зор ADJ ;
+чейинки ADJ ;
 түз ADJ ;
 чакан ADJ ;
 улук ADJ ;
@@ -4341,6 +4369,8 @@ LEXICON AdvStems
 
 негизинде ADV ; ! "basically, in general"
 эртеси ADV ; 
+ошондуктан ADV ;  ! "that's why"
+өзүнчө ADV ;  ! "by oneself"
 көп ADV ; 
 жок ADV ; 
 ар% дайым ADV ; 
@@ -4348,6 +4378,7 @@ LEXICON AdvStems
 негизи ADV ; 
 дагы ADV ; 
 бирок ADV ; 
+кыскача ADV ; 
 мурда ADV ; 
 бирдикте ADV ; 
 каршы ADV ; 
@@ -4693,7 +4724,6 @@ LEXICON VerbStems
 төк V-INFL ; 
 төлө V-INFL ; 
 узат V-INFL ; 
-уч V-INFL ; 
 ушала V-INFL ; 
 чак V-INFL ; 
 чакыр V-INFL ; 
@@ -4762,6 +4792,10 @@ LEXICON Abbreviations
 ж%.б%.у%.с%. ABBR ; ! жана башка ушул сыяктуу "and similar"
 № ABBR ; 
 ISBN ABBR ; 
+
+LEXICON Interjections 
+
+aлбетте INTERJ ; ! "of course"
 
 LEXICON Punctuation
 
