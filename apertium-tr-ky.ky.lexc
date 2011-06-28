@@ -3781,6 +3781,9 @@ LEXICON NounStems
 LEXICON PropernounStems
 
 Баласагын NP-TOP ;
+Шанхай NP-TOP ;
+Астана NP-TOP ;
+Стамбул NP-TOP ;
 Киров NP-TOP ;
 Якутия NP-TOP ;
 Жапония NP-TOP ;
@@ -3927,6 +3930,9 @@ Tеңир NP-TOP ; ! ""
 !Эфиопия NP-TOP ; ! ""
 !Эфиопия NP-TOP ; ! ""
 Япония NP-TOP ; ! ""
+Ливия NP-TOP ; ! ""
+Пакистан NP-TOP ; ! ""
+Түркмөнстан NP-TOP ; ! ""
 Өзбекстан NP-TOP ; ! "Uzbekistan"
 Азия NP-TOP ; ! "Asia"
 Чоң% Алай NP-TOP ; ! ""
@@ -3950,11 +3956,14 @@ Tеңир NP-TOP ; ! ""
 !Элеонора NP-ANT-F ; ! "Eleanora"
 Манас NP-ANT-M ;
 Ардак NP-ANT-M ;
+Мустафа NP-ANT-M ;
+Мехмет NP-ANT-M ;
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
 София NP-ANT-F ; ! "Sofija"
 
+Аббас NP-COG-MF ; ! "Abbas"
 Ленин NP-COG-MF ; ! "Lenin"
 Ашым NP-ANT-M ; ! ""
 Фрунзе NP-COG-MF ; ! "Frunze"
@@ -4075,6 +4084,7 @@ Tеңир NP-TOP ; ! ""
 Эшмамбетов NP-COG-MF ; ! ""
 Эшматов NP-COG-MF ; ! ""
 
+Эрдоган NP-COG-MF ; ! ""
 
 LEXICON AdjecStems
 
