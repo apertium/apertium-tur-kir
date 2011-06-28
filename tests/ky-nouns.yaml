@@ -88,14 +88,14 @@ Tests:
     ат<n><px3pl><nom> : аты
     бала<n><px3sg><nom> : баласы
     бала<n><px3pl><nom> : баласы
-    эл<n><px3sg><nom> : элдики
-    эл<n><px3pl><nom> : элдики
+    эл<n><px><nom> : элдики
+    эл<n><px><nom> : элдики
     мал<n><px><nom> : малдыкы
     бала<n><px2sg><px><nom> : балаңдыкы
-    тоо<n><px3sg><nom> : тоонуку
-    тоо<n><px3pl><nom> : тоонуку
-    төө<n><px3sg><nom> : төөнүкү
-    төө<n><px3pl><nom> : төөнүкү
+    тоо<n><px><nom> : тоонуку
+    тоо<n><px><nom> : тоонуку
+    төө<n><px><nom> : төөнүкү
+    төө<n><px><nom> : төөнүкү
     
   "[lexc] Singular genitive (-{N}{I}n)": 
     кеме<n><gen> : кеменин
