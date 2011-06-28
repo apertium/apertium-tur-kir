@@ -2756,6 +2756,9 @@
 	<e c="  0"><p><l>kişilik<s n="n"/></l><r>адамгерчилик<s n="n"/></r></p></e>
 	<e c="  0"><p><l>gerginlik<s n="n"/></l><r>оор<b/>абал<s n="n"/></r></p></e>
 	<e c="  0"><p><l>tehlike<s n="n"/></l><r>коркунуч<s n="n"/></r></p></e>
+	<e c="  0"><p><l>yan<s n="n"/></l><r>жан<s n="n"/></r></p></e>
+	<e c="  0"><p><l>motivasyon<s n="n"/></l><r>мотиватсия<s n="n"/></r></p></e>
+
 	
 	
 	<e c="  0"><p><l>ev<s n="n"/></l><r>үй<s n="n"/></r></p></e>
@@ -3035,7 +3038,8 @@
 	<e c="  0"><p><l>harika<s n="adj"/></l><r>сонун<s n="adj"/></r></p></e>
 	<e slr="1"><p><l>harika<s n="adj"/></l><r>укмуш<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>akademik<s n="adj"/></l><r>академиялык<s n="adj"/></r></p></e>
-	
+	<e c="  0"><p><l>çalışkan<s n="adj"/></l><r>аракетчил<s n="adj"/></r></p></e>
+	 
     
         <!-- SECTION: Adverbs -->
 
