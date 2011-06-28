@@ -36,6 +36,7 @@ Multichar_Symbols
 
 %<m%>       ! Masculine
 %<f%>       ! Feminine
+%<mf%>      ! Masculine or feminine 
 
 %<pers%>    ! Personal 
 %<dem%>     ! Demonstrative
@@ -574,6 +575,8 @@ LEXICON Conjunctions
 бирок CA ; ! "but"
 анткени CS ; ! "because"
 себеби CS ; ! "because"
+
+жана CA ; ! Dir/RL "but" 
 
 LEXICON Postpositions
 
@@ -3965,6 +3968,7 @@ Tеңир NP-TOP ; ! ""
 Манас NP-ANT-M ;
 Ардак NP-ANT-M ;
 Мустафа NP-ANT-M ;
+Никола NP-ANT-M ;
 Мехмет NP-ANT-M ;
 
 Мария NP-ANT-F ; ! "Marija"
@@ -3972,7 +3976,7 @@ Tеңир NP-TOP ; ! ""
 София NP-ANT-F ; ! "Sofija"
 Сандра NP-ANT-F ;
 Анна NP-ANT-F ;
- 
+Аня NP-ANT-F ;
 
 Аббас NP-COG-MF ; ! "Abbas"
 Ленин NP-COG-MF ; ! "Lenin"
@@ -3981,7 +3985,9 @@ Tеңир NP-TOP ; ! ""
 Айтматов NP-COG-MF ; ! ""
 Орокчиев NP-COG-MF ; ! ""
 Абдрахманов NP-COG-MF ; ! ""
-Радованович NP-COG-MF ;
+Радованович NP-COG-MF ; ! ""
+Станкович NP-COG-MF ; ! ""
+Рузич NP-COG-MF ; ! ""
 Абдумомунов NP-COG-MF ; ! ""
 Абдуразаков NP-COG-MF ; ! ""
 Абдыкадыров NP-COG-MF ; ! ""
@@ -4104,6 +4110,7 @@ LEXICON AdjecStems
 алгачкы ADJ-ORD ; ! "first"
 экинчи ADJ-ORD ; ! "second"
 ушундай ADJ ;
+жаш ADJ ; 
 укмуш ADJ ;
 сонун ADJ ;
 зор ADJ ;
@@ -4787,6 +4794,7 @@ LEXICON VerbStems
 төк V-INFL ; 
 төлө V-INFL ; 
 узат V-INFL ; 
+уза V-INFL ; 
 ушала V-INFL ; 
 чак V-INFL ; 
 чакыр V-INFL ; 
