@@ -149,7 +149,7 @@ LEXICON CASES-SHORT-ACC
 %<rloc%>:%>%{D%}%{A%}г%{I%} # ;
 
 LEXICON OBL-CASES
-%<gen%>:%>%{N%}%{I%}н # ;      ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
+%<gen%>:%>%{N%}%{I%}н # ;      ! -нын, -нин, -дын, -дин, -тын, -тин, жыл-нун, -нүн, -дун, -дүн, -тун, -түн
 %<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
 %<acc%>:%>%{N%}%{I%} # ;       ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
 %<loc%>:%>%{D%}%{A%} # ;       ! -да, -де, -та, -те, -до, -дө, -то, -тө
@@ -826,7 +826,6 @@ LEXICON NounStems
 архив N-INFL ; 
 арыз N-INFL ; 
 арык N-INFL ; 
-аскер N-INFL ; 
 асма N-INFL ; 
 асма% көпүрө N-INFL ; 
 асма% селкинчек N-INFL ; 
@@ -857,7 +856,6 @@ LEXICON NounStems
 аюу N-INFL ; 
 аяз N-INFL ; 
 аяк N-INFL ; 
-аял N-INFL ; 
 аят N-INFL ; 
 аң N-INFL ; 
 аалам N-INFL ; ! "universe"
@@ -1184,7 +1182,6 @@ LEXICON NounStems
 алакан N-INFL ; 
 аяк N-INFL ; 
 бут N-INFL ; 
-аял N-INFL ; 
 зайып N-INFL ; 
 аят N-INFL ; 
 айгыр N-INFL ; 
@@ -1342,7 +1339,6 @@ LEXICON NounStems
 дарс N-INFL ; 
 лекция N-INFL ; 
 дарскана N-INFL ; 
-класс N-INFL ; 
 аудитория N-INFL ; 
 оору N-INFL ; 
 дарт N-INFL ; 
@@ -1947,7 +1943,6 @@ LEXICON NounStems
 кут N-INFL ; 
 кварц N-INFL ; 
 куйрук N-INFL ; 
-кезек N-INFL ; 
 куш N-INFL ; 
 көмүр N-INFL ; 
 көпүрө N-INFL ; 
@@ -3294,7 +3289,6 @@ LEXICON NounStems
 дарыя N-INFL ; 
 журнал N-INFL ; 
 тери N-INFL ; 
-класс N-INFL ; 
 дербиш N-INFL ; 
 оймо N-INFL ; 
 дастан N-INFL ; 
@@ -3401,7 +3395,6 @@ LEXICON NounStems
 фамилия N-INFL ; 
 чычкан N-INFL ; 
 доор N-INFL ; 
-жыл N-INFL ; 
 жеңүүчү N-INFL ; 
 эсеп N-INFL ; 
 пайда N-INFL ; 
@@ -3534,7 +3527,6 @@ LEXICON NounStems
 канжар N-INFL ; 
 хандык N-INFL ; 
 гараж N-INFL ; 
-аял N-INFL ; 
 даары N-INFL ; 
 абак% кана N-INFL ; 
 абак N-INFL ; 
@@ -3775,11 +3767,25 @@ LEXICON NounStems
 иштөө N-INFL ;
 жарыя N-INFL ;
 сактоо N-INFL ;
+тыш N-INFL ;
+теңтуш N-INFL ;
+үмүт N-INFL ;
+ылдамдык N-INFL ;
+баары N-INFL ;
+тик%учак N-INFL ;
+пист N-INFL ;
+торт N-INFL ;
+адамгерчилик N-INFL ;
+оор%абал N-INFL ;
+аталык N-INFL ; ! ""
+балалык N-INFL ; ! ""
+падышалык N-INFL ; ! ""
+такыбалык N-INFL ; ! ""
 орун%<n%>%<nom%>%<cmpd%>%+басар:орун% басар N-INFL ;
 чейинки N-INFL ; 
 
 LEXICON PropernounStems
-
+Сербия NP-TOP ;
 Баласагын NP-TOP ;
 Шанхай NP-TOP ;
 Астана NP-TOP ;
@@ -3937,6 +3943,7 @@ Tеңир NP-TOP ; ! ""
 Азия NP-TOP ; ! "Asia"
 Чоң% Алай NP-TOP ; ! ""
 Ташкент NP-TOP ;
+Кокон NP-TOP ;
 Жалал% Абад NP-TOP ;
 
 Кыргызмамбас NP-ORG ; ! ""
@@ -3962,6 +3969,9 @@ Tеңир NP-TOP ; ! ""
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
 София NP-ANT-F ; ! "Sofija"
+Сандра NP-ANT-F ;
+Анна NP-ANT-F ;
+ 
 
 Аббас NP-COG-MF ; ! "Abbas"
 Ленин NP-COG-MF ; ! "Lenin"
@@ -3970,6 +3980,7 @@ Tеңир NP-TOP ; ! ""
 Айтматов NP-COG-MF ; ! ""
 Орокчиев NP-COG-MF ; ! ""
 Абдрахманов NP-COG-MF ; ! ""
+Радованович NP-COG-MF ;
 Абдумомунов NP-COG-MF ; ! ""
 Абдуразаков NP-COG-MF ; ! ""
 Абдыкадыров NP-COG-MF ; ! ""
@@ -4083,6 +4094,7 @@ Tеңир NP-TOP ; ! ""
 Эрматов NP-COG-MF ; ! ""
 Эшмамбетов NP-COG-MF ; ! ""
 Эшматов NP-COG-MF ; ! ""
+Тадич NP-COG-MF ;
 
 Эрдоган NP-COG-MF ; ! ""
 
@@ -4091,7 +4103,8 @@ LEXICON AdjecStems
 алгачкы ADJ-ORD ; ! "first"
 экинчи ADJ-ORD ; ! "second"
 ушундай ADJ ;
-
+укмуш ADJ ;
+сонун ADJ ;
 зор ADJ ;
 чейинки ADJ ;
 түз ADJ ;
@@ -4111,6 +4124,7 @@ LEXICON AdjecStems
 орусча ADJ ;
 татыктуу ADJ ;
 кесиптик ADJ ;
+камсыз ADJ ;
 азыркы ADJ ; ! "modern"
 элдик ADJ ; ! "people's"
 башкы ADJ ; ! "principle 
@@ -4361,7 +4375,47 @@ suyuk ADJ ;
 энциклопедиялык ADJ ; ! ""
 этимологиялык ADJ ; ! ""
 этнографиялык ADJ ; ! ""
-
+америкалык ADJ ; ! ""
+апталык ADJ ; ! ""
+биоэнергетикалык ADJ ; ! ""
+грамматикалык ADJ ; ! ""
+диалектикалык ADJ ; ! ""
+дидактикалык ADJ ; ! ""
+европалык ADJ ; ! ""
+жапалак ADJ ; ! ""
+жарнамалык ADJ ; ! ""
+классикалык ADJ ; ! ""
+клиникалык ADJ ; ! ""
+курамалык ADJ ; ! ""
+лирикалык ADJ ; ! ""
+логикалык ADJ ; ! ""
+массалык ADJ ; ! ""
+математикалык ADJ ; ! ""
+медициналык ADJ ; ! ""
+механикалык ADJ ; ! ""
+нравалык ADJ ; ! ""
+поэтикалык ADJ ; ! ""
+практикалык ADJ ; ! "" 	
+программалык ADJ ; ! ""
+прозалык ADJ ; ! ""
+психикалык ADJ ; ! ""
+публицистикалык ADJ ; ! ""
+расалык ADJ ; ! ""
+сатиралык ADJ ; ! ""
+синтетикалык ADJ ; ! ""
+системалык ADJ ; ! ""
+суммалык ADJ ; ! ""  	
+суткалык ADJ ; ! ""
+температуралык ADJ ; ! "" 
+термикалык ADJ ; ! 
+ушунчалык ADJ ; ! ""
+ферганалык ADJ ; ! ""
+физикалык ADJ ; ! ""
+энергетикалык ADJ ; ! ""
+эстетикалык ADJ ; ! ""
+этикалык ADJ ; ! ""
+этногенетикалык ADJ ; ! ""
+юридикалык ADJ ; ! ""
 
 LEXICON AdvStems
 
@@ -4666,8 +4720,6 @@ LEXICON VerbStems
 көрсөт V-INFL ; 
 макта V-INFL ; 
 мин V-INFL ; 
-мин V-INFL ; 
-муунт V-INFL ; 
 муунт V-INFL ; 
 мыйооло V-INFL ; 
 оз V-INFL ; 
@@ -4688,8 +4740,8 @@ LEXICON VerbStems
 салкында V-INFL ; 
 сана V-INFL-TV ; 
 сез V-INFL ; 
-секир V-INFL ; 
-секир V-INFL ; 
+секир V-INFL-IV ; 
+атта V-INFL-TV ; 
 сик V-INFL ; 
 сиң V-INFL ; 
 сугар V-INFL ; 
@@ -4788,6 +4840,22 @@ LEXICON VerbStems
 кач V-INFL-TV ;
 көч V-INFL-IV ;
 ыйгар V-INFL ;
+улант V-INFL ;
+ишке%ашыр V-INFL ;
+бүтүр V-INFL ;
+аткар V-INFL ;
+үйрөн V-INFL-IV ;
+үйрөн V-INFL-TV ;
+ойлон V-INFL-TV ;
+унут V-INFL-TV ;
+майрамда V-INFL-TV ;
+майрамда V-INFL-IV ;
+жазыл V-INFL ;
+жоолук V-INFL ;
+жылмай V-INFL-IV ;
+сарсанаа%тарт V-INFL ;
+кайрыл V-INFL ;
+
 
 LEXICON Abbreviations
 
