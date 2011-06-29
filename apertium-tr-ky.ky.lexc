@@ -538,8 +538,8 @@ LEXICON V-INFL-COMMON
 LEXICON V-INFL
 
 %<v%>%<TD%>: V-INFL-COMMON ;
-%<v%>%<TD%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                    ! 
-%<v%>%<TD%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
+%<v%>%<TD%>%<inf%>:%>%{I%}%{U%} POSSESSION ;                    ! 
+%<v%>%<TD%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{I%}%{U%} POSSESSION ; !
 
 LEXICON V-INFL-TV-SHORT
 
@@ -552,14 +552,14 @@ LEXICON V-INFL-IV-SHORT
 LEXICON V-INFL-TV
 
 %<v%>%<tv%>: V-INFL-COMMON ;
-%<v%>%<tv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
-%<v%>%<tv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
+%<v%>%<tv%>%<inf%>:%>%{I%}%{U%} POSSESSION ;                                  ! 
+%<v%>%<tv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{I%}%{U%} POSSESSION ;               !
 
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
-%<v%>%<iv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
-%<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
+%<v%>%<iv%>%<inf%>:%>%{I%}%{U%} POSSESSION ;                                  ! 
+%<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{I%}%{U%} POSSESSION ;               !
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
