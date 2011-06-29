@@ -36,6 +36,7 @@ Multichar_Symbols
 
 %<m%>       ! Masculine
 %<f%>       ! Feminine
+%<mf%>      ! Masculine or feminine 
 
 %<pers%>    ! Personal 
 %<dem%>     ! Demonstrative
@@ -3105,7 +3106,6 @@ LEXICON NounStems
 тема N-INFL ; 
 герб N-INFL ; 
 түйүнчөк N-INFL ; 
-аял N-INFL ; 
 мырза N-INFL ; 
 төө% куш N-INFL ; 
 бойдок N-INFL ; 
@@ -3811,7 +3811,6 @@ LEXICON NounStems
 кезек N-INFL ; 
 класс N-INFL ; 
 жыл N-INFL ; 
-аял N-INFL ; 
 
 
 LEXICON PropernounStems
@@ -4136,6 +4135,7 @@ LEXICON AdjecStems
 алгачкы ADJ-ORD ; ! "first"
 экинчи ADJ-ORD ; ! "second"
 ушундай ADJ ;
+аял ADJ ;
 жаш ADJ ; 
 укмуш ADJ ;
 сонун ADJ ;
@@ -4628,38 +4628,80 @@ LEXICON VerbStems
 айт V-INFL-IV ; ! "tell"
 айт V-INFL-TV ; ! "tell"
 акса V-INFL-IV ; ! "limp"
+ал V-INFL-TV ;
 ас V-INFL-TV ; ! "hang"
 ат V-INFL-TV ; ! "shoot"
+ата V-INFL-TV ;
+атта V-INFL-TV ; 
+ач V-INFL-TV ; ! "open"
 ач V-INFL-TV ; ! "open"
 аш V-INFL-IV ; 
 бар V-INFL-IV ; ! "go"
+бар V-INFL-TV ; ! "go"
+бас V-INFL-IV ;
+белгиле V-INFL-TV ;
+бер V-INFL-TV ; 
+бил V-INFL-IV ; ! "know"
 бил V-INFL-TV ; ! "know"
+бүт V-INFL-IV ; 
 де V-INFL-TV-SHORT ; ! "say"
+жаз V-INFL-TV ; 
+жайгаш V-INFL-IV ;
+жарыяла V-INFL-TV ;
+жаса V-INFL-IV ;
 жат V-INFL-IV ; ! "come"
 же V-INFL-TV-SHORT ; ! "eat"
 жет V-INFL-IV ; 
+жүр V-INFL-TV ;
 ич V-INFL-IV ; ! "drink"
 ич V-INFL-TV ; ! "drink"
 иште V-INFL-IV ;  ! "work"
+кара V-INFL-IV ; 
+кара V-INFL-TV ;
+кат V-INFL-TV ; 
+кач V-INFL-IV ;
+кач V-INFL-TV ;
 кел V-INFL-IV ; ! "come"
 кет V-INFL-IV ; ! "go"
 кой V-INFL-TV ; ! "put, place" 
+колдон V-INFL-TV ;
+котор V-INFL-TV ;
+кыл V-INFL-TV ; 
 күл V-INFL-IV ; ! "smile, laugh"
+көч V-INFL-IV ;
+маектеш V-INFL ;
+майрамда V-INFL-IV ;
+майрамда V-INFL-TV ;
+ойлон V-INFL-TV ;
 оку V-INFL-IV ; ! "read"
 оку V-INFL-TV ; ! "read"
 окшо V-INFL-IV ; ! "be similar to"
 саба V-INFL-TV ;  ! ""
+сакта V-INFL-TV ;
+сал V-INFL-TV ;
+сана V-INFL-TV ; 
+секир V-INFL-IV ; 
+сыйла V-INFL-TV ; 
 сүй V-INFL-TV ; ! "love"
+тааны V-INFL-TV ;
+тарт V-INFL-IV ;
 таң% ат V-INFL-TV ; ! "dawn"
+тий V-INFL-TV ;
 тур V-INFL-IV ; ! "stand, live"
+түз V-INFL-IV ;
 түздө V-INFL-TV ; ! ""
 ук V-INFL-IV ; ! "listen"
 ук V-INFL-TV ; ! "listen"
 укта V-INFL-IV ; ! "sleep"
+унут V-INFL-TV ;
 чий V-INFL-TV ; ! "draw a line"
-ач V-INFL-TV ; ! "open"
-бар V-INFL-TV ; ! "go"
-бил V-INFL-IV ; ! "know"
+эсепте V-INFL-TV ;
+үйрөн V-INFL-IV ;
+үйрөн V-INFL-TV ;
+өл V-INFL-IV ; 
+өт V-INFL-TV ;
+
+
 
 
 отур V-INFL ; ! "sit"
@@ -4670,7 +4712,6 @@ LEXICON VerbStems
 бак V-INFL ; 
 башта V-INFL ; 
 без V-INFL ; 
-бер V-INFL-TV ; 
 билдир V-INFL ; 
 билин V-INFL ; 
 боё V-INFL ; 
@@ -4687,7 +4728,6 @@ LEXICON VerbStems
 быш V-INFL ; 
 бүк V-INFL ; 
 бүктө V-INFL ; 
-бүт V-INFL-IV ; 
 бөл V-INFL ; 
 гий V-INFL ; 
 гэр V-INFL ; 
@@ -4696,7 +4736,6 @@ LEXICON VerbStems
 де V-INFL ; ! "say"
 елестет V-INFL ; 
 жаа V-INFL ; 
-жаз V-INFL-TV ; 
 жай V-INFL ; 
 жан V-INFL ; 
 жаркыра V-INFL ; 
@@ -4721,12 +4760,9 @@ LEXICON VerbStems
 илгериле V-INFL ; 
 кайнат V-INFL ; 
 кал V-INFL ; 
-кара V-INFL-IV ; 
-кара V-INFL-TV ;
 карма V-INFL ; 
 кары V-INFL ; 
 карышта V-INFL ; 
-кат V-INFL-TV ; 
 керек V-INFL ; 
 кес V-INFL ; 
 кеч V-INFL ; 
@@ -4744,7 +4780,6 @@ LEXICON VerbStems
 кучакта V-INFL ; 
 кый% ет V-INFL ; 
 кыйна V-INFL ; 
-кыл V-INFL-TV ; 
 кырк V-INFL ; 
 кыс V-INFL ; 
 күй V-INFL ; 
@@ -4767,22 +4802,17 @@ LEXICON VerbStems
 пайда% кыл V-INFL ; 
 парала V-INFL ; 
 планда V-INFL ; 
-саба V-INFL ; 
 сагын V-INFL ; 
 сайра V-INFL ; 
 салаңда V-INFL ; 
 салкында V-INFL ; 
-сана V-INFL-TV ; 
 сез V-INFL ; 
-секир V-INFL-IV ; 
-атта V-INFL-TV ; 
 сик V-INFL ; 
 сиң V-INFL ; 
 сугар V-INFL ; 
 сун V-INFL ; 
 сура V-INFL ; 
 сыз V-INFL ; 
-сыйла V-INFL-TV ; 
 сыла V-INFL ; 
 сүз V-INFL ; 
 сүйлө V-INFL ; ! "speak"
@@ -4842,53 +4872,27 @@ LEXICON VerbStems
 үйлө V-INFL ; 
 үр V-INFL ; 
 үрк V-INFL ; 
-өл V-INFL-IV ; 
 өлчө V-INFL ; 
 өр V-INFL ; 
 өрттө V-INFL ; 
 өч V-INFL ; 
-өчүр V-INFL ; 
-ал V-INFL-TV ;
-тарт V-INFL-IV ;
-жайгаш V-INFL-IV ;
 сиңир V-INFL ;
-ата V-INFL-TV ;
-котор V-INFL-TV ;
-эсепте V-INFL-TV ;
-жүр V-INFL-TV ;
-тааны V-INFL-TV ;
-бас V-INFL-IV ;
-өт V-INFL-TV ;
-колдон V-INFL-TV ;
-сал V-INFL-TV ;
-маектеш V-INFL ;
-жаса V-INFL-IV ;
-жарыяла V-INFL-TV ;
-түз V-INFL-IV ;
-белгиле V-INFL-TV ;
+өчүр V-INFL ; 
+
 катыш V-INFL ;
-тий V-INFL-TV ;
-сакта V-INFL-TV ;
+сарсанаа% тарт V-INFL ;
+
+
 тый V-INFL ;
 жүргүз V-INFL ;
-кач V-INFL-IV ;
-кач V-INFL-TV ;
-көч V-INFL-IV ;
 ыйгар V-INFL ;
 улант V-INFL ;
 ишке% ашыр V-INFL ;
 бүтүр V-INFL ;
 аткар V-INFL ;
-үйрөн V-INFL-IV ;
-үйрөн V-INFL-TV ;
-ойлон V-INFL-TV ;
-унут V-INFL-TV ;
-майрамда V-INFL-TV ;
-майрамда V-INFL-IV ;
+
 жазыл V-INFL ;
 жоолук V-INFL ;
-жылмай V-INFL-IV ;
-сарсанаа% тарт V-INFL ;
 кайрыл V-INFL ;
 мин V-INFL ; 
 муунт V-INFL ; 
