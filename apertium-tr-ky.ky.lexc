@@ -74,6 +74,12 @@ Multichar_Symbols
 %<exi%>     ! Existential
 %<qst%>     ! Question
 
+%<pst%>     ! Positive level of comparison
+%<comp%>    ! Comparative level of comparison 
+%<sup%>	    ! Superlative level of comparison 
+%<ord%>     ! Ordinal
+%<apprx%>   ! Approximal
+
 %<cv_impf%> ! Converb imperfect, -E
 %<cv_perf%> ! Converb perfect, -Iп
 %<cv_irre%> ! Converb irrealis, -Eт
@@ -98,12 +104,7 @@ Multichar_Symbols
 %<sent%>    ! Sentence marker
 %<guio%>    ! Hyphen
 %<cm%>      ! Comma
-%<pst%>     ! Positive level of comparison
-%<comp%>    ! Comparative level of comparison 
-%<sup%>	    ! Superlative level of comparison 
-%<ord%>     ! Ordinal
-%<apprx%>   ! Approximal
-
+%<apos%>    ! Apostrophe
 
 %{E%}       ! Realised as 'а', 'е', 'о', 'ө', 'й' 
 %{A%}       ! Realised as 'а', 'е', 'о', 'ө' 
@@ -4923,6 +4924,8 @@ LEXICON Punctuation
 .%<sent%>:. # ;
 %;%<sent%>:%; # ;
 %:%<sent%>:%: # ;
+%!%<sent%>:%! # ;
 %-%<guio%>:%- # ;
 ,%<cm%>:, # ;
 %?%<sent%>:%? # ; 
+%'%<apos%>:%' # ;
