@@ -1,8 +1,8 @@
 Config:
   hfst:
     App: hfst-optimised-lookup
-    Gen: ../tr-ky.autogen.hfst
-    Morph: ../ky-tr.automorf.hfst
+    Gen: ../en-ky.autogen.hfst
+    Morph: ../ky-en.automorf.hfst
 
 Tests:
 
@@ -13,7 +13,7 @@ Tests:
     адам<n><pl><nom> : адамдар
 
   "[twol] Double vowel harmony in suffix":
-    дүйнө<n><rloc> : дүйнөдөгү
+    дүйнө<n><rloc><nom> : дүйнөдөгү
 
   "[lexc] 1st person singular possessive":
     ат<n><px1sg><nom> : атым
@@ -89,12 +89,9 @@ Tests:
     бала<n><px3sg><nom> : баласы
     бала<n><px3pl><nom> : баласы
     эл<n><px><nom> : элдики
-    эл<n><px><nom> : элдики
     мал<n><px><nom> : малдыкы
     бала<n><px2sg><px><nom> : балаңдыкы
     тоо<n><px><nom> : тоонуку
-    тоо<n><px><nom> : тоонуку
-    төө<n><px><nom> : төөнүкү
     төө<n><px><nom> : төөнүкү
     
   "[lexc] Singular genitive (-{N}{I}n)": 
@@ -137,7 +134,7 @@ Tests:
     кыз<n><acc> : кызды
     кулун<n><acc> : кулунду
     жер<n><acc> : жерди
-    жүзүм<n><acc> : жүзүмдү
+    #жүзүм<n><acc> : жүзүмдү
     бакыт<n><acc> : бакытты
     куш<n><acc> : кушту
     китеп<n><acc> : китепти
@@ -171,13 +168,14 @@ Tests:
     баш<n><pl><nom> : баштар
 
   "[lexc] Relativised locative":
-    дүйнө<n><rloc> : дүйнөдөгү
+    дүйнө<n><rloc><nom> : дүйнөдөгү
 
   "[twol] p desonorization into b when Vow p Vow":
     мектеп<n><px1sg><nom> : мектебим
     китеп<n><px1sg><nom> : китебим
     арип<n><px1sg><nom> : арибим
     арап<n><px1sg><nom> : арабым
+    араб<n><px1sg><nom> : арабым
     азап<n><px1sg><nom> : азабым
     зайып<n><px1sg><nom> : зайыбым
 
@@ -205,14 +203,14 @@ Tests:
     апа<n><px3pl><px><dat> : апасыныкына
     кыз<n><px1pl><px><dat> : кызыбыздыкына
     кыз<n><px2pl><px><dat> : кызыңардыкына
-    кыз<n><px3sg><px><dat> : кыздарыныкына
-    кыз<n><px3pl><px><dat> : кыздарыныкына
-    ата<n><px3sg><px><dat> : аталарыныкына
-    ата<n><px3pl><px><dat> : аталарыныкына
-    саат<n><px3sg><px><dat> : сааттарыныкына
-    саат<n><px3pl><px><dat> : сааттарыныкына
-    мал<n><px3sg><px><dat> : малдарыныкына
-    мал<n><px3pl><px><dat> : малдарыныкына
+    кыз<n><pl><px3sg><px><dat> : кыздарыныкына
+    кыз<n><pl><px3pl><px><dat> : кыздарыныкына
+    ата<n><pl><px3sg><px><dat> : аталарыныкына
+    ата<n><pl><px3pl><px><dat> : аталарыныкына
+    саат<n><pl><px3sg><px><dat> : сааттарыныкына
+    саат<n><pl><px3pl><px><dat> : сааттарыныкына
+    мал<n><pl><px3sg><px><dat> : малдарыныкына
+    мал<n><pl><px3pl><px><dat> : малдарыныкына
 
   "[twol] {D} -> н in ablative": 
     ата<n><px3sg><px><abl> : атасыныкынан
@@ -253,6 +251,6 @@ Tests:
   "[freq] unrecognised nouns from top 150":
     союз<n><px3sg><gen> : союзунун
     союз<n><px3pl><gen> : союзунун
-    уч<n><px3sg><gen> : учун 
-    уч<n><px3pl><gen> : учун 
+    уч<n><px3sg><gen> : учунун
+    уч<n><px3pl><gen> : учунун
 
