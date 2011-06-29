@@ -36,7 +36,6 @@ Multichar_Symbols
 
 %<m%>       ! Masculine
 %<f%>       ! Feminine
-%<mf%>      ! Masculine or feminine 
 
 %<pers%>    ! Personal 
 %<dem%>     ! Demonstrative
@@ -111,10 +110,12 @@ Multichar_Symbols
 %{U%}       ! Realised as 'у', 'ү'
 %{G%}       ! Realised as 'г', 'к', 'ң', 'н'
 %{D%}       ! Realised as 'д', 'т', 'н'
-%{M%}       ! Realised as 'м', 'б', 'п'
+%{B%}       ! Realised as 'б', 'п'
+%{M%}       ! Realised as 'м', 'б', 'п'  ! In Kyrgyz?  Where??
 %{N%}       ! Realised as 'н', 'д', 'т'
 %{L%}       ! Realised as 'л', 'д', 'т'
-%{B%}       ! Realised as 'б', 'в' **CHECK**
+%{S%}       ! Realised as 'с' or ''; only used in 3rd person morphology
+%{n%}       ! Realised as 'н' or ''; only used in 3rd person morphology and -NIKI
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -140,50 +141,66 @@ Punctuation ;
 Interjections ;
 Abbreviations ;
 
-LEXICON CASES-SHORT-ACC
-%<nom%>: # ;                   ! -     -      -
-%<gen%>:%>%{N%}%{I%}н # ;      ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
-%<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
-%<acc%>:%>%{N%} # ;            ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
-%<loc%>:%>%{D%}%{A%} # ;       ! -да, -де, -та, -те, -до, -дө, -то, -тө
-%<abl%>:%>%{D%}%{A%}н # ;      ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
-%<rloc%>:%>%{D%}%{A%}г%{I%} # ;
 
-LEXICON OBL-CASES
-%<gen%>:%>%{N%}%{I%}н # ;      ! -нын, -нин, -дын, -дин, -тын, -тин, жыл-нун, -нүн, -дун, -дүн, -тун, -түн
-%<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
-%<acc%>:%>%{N%}%{I%} # ;       ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
-%<loc%>:%>%{D%}%{A%} # ;       ! -да, -де, -та, -те, -до, -дө, -то, -тө
-%<abl%>:%>%{D%}%{A%}н # ;      ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
-%<rloc%>:%>%{D%}%{A%}г%{I%} # ;
-
-LEXICON CASES
+LEXICON CASES-DEFAULT
 %<nom%>: # ;                 ! -     -      -
 %<gen%>:%>%{N%}%{I%}н # ;      ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
 %<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
 %<acc%>:%>%{N%}%{I%} # ;       ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
 %<loc%>:%>%{D%}%{A%} # ;       ! -да, -де, -та, -те, -до, -дө, -то, -тө
-%<abl%>:%>%{D%}%{A%}н # ;      ! -дан, -ден, -тан, -тен, -дон, -дөн, -тон, -төн
-%<rloc%>:%>%{D%}%{A%}г%{I%} # ;
+
+LEXICON CASES
+CASES-DEFAULT ;
+%<abl%>:%>%{D%}%{A%}н # ;      ! 
+
+LEXICON CASES-PX12SG
+CASES-DEFAULT ;
+%<abl%>:%>%{D%}%{A%}н # ;      ! Dir/LR 
+%<abl%>:%>%{A%}н # ;      
+
+
+!LEXICON CASES-SINGULAR-PRONOUNS
+!! %<px1sg%>%<nom%>:      ! Is this necessary?
+!! %<px1sg%>%<gen%>:%>н%{I%}н  ! Is this necessary, since it looks normal?
+!%<px1sg%>%<acc%>:%>н
+!%<px1sg%>%<abl%>:%>н%{A%}н
+!%<px1sg%>%<loc%>:%>нд%{A%}
+!%<px1sg%>%<dat%>:%>н%{A%}
+!%<px1sg%>%<rloc%>:%>нд%{A%}г%{I%}
+!
+!! %<px3sp%>%<nom%>: # ;          ! Is this necessary?
+!! %<px3sp%>%<gen%>:%>н%{I%}н # ; ! Is this necessary, since it looks normal?
+!%<px3sp%>%<acc%>:%>н # ;
+!%<px3sp%>%<abl%>:%>н%{A%}н # ;
+!%<px3sp%>%<loc%>:%>нд%{A%} # ;
+!%<px3sp%>%<dat%>:%>н%{A%} # ;
+!%<px3sp%>%<rloc%>:%>нд%{A%}г%{I%} # ;
+
 
 LEXICON GEN-POS
 CASES ;
-%<px%>:%>%{N%}%{I%}к%{I%} CASES-SHORT-ACC ; 
+%<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
+%<rloc%>:%>%{D%}%{A%}г%{I%} CASES ;
 
-LEXICON GEN-POS-SHORT-ACC
-CASES-SHORT-ACC ;
-%<px%>:%>%{N%}%{I%}к%{I%} CASES-SHORT-ACC ; 
+LEXICON GEN-POS-PX12SG
+CASES-PX12SG ;
+%<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
+%<rloc%>:%>%{D%}%{A%}г%{I%} CASES ;
+
+!! LEXICON GEN-POS-SHORT-ACC
+!! CASES-SHORT-ACC ;
+!! %<px%>:%>%{N%}%{I%}к%{I%} CASES-SHORT-ACC ; 
 
 LEXICON POSSESSION
 GEN-POS ;
-%<px1sg%>:%>%{I%}м GEN-POS ;
-%<px2sg%>:%>%{I%}ң GEN-POS ; 
+%<px1sg%>:%>%{I%}м GEN-POS-PX12SG ;
+%<px2sg%>:%>%{I%}ң GEN-POS-PX12SG ; 
 %<px2sg%>%<frm%>:%>%{I%}ң%{I%}з GEN-POS ; 
-%<px3sg%>:%>с%{I%} GEN-POS-SHORT-ACC ;
+%<px3sg%>:%>%{S%}%{I%}%{n%} GEN-POS ;
 %<px1pl%>:%>%{I%}б%{I%}з GEN-POS ; 
 %<px2pl%>:%>%{I%}ң%{A%}р GEN-POS ; 
-%<px2pl%>%<frm%>:%>%{I%}ң%{I%}зд%{A%}р GEN-POS;
-%<px3pl%>:%>с%{I%} GEN-POS-SHORT-ACC ;
+%<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р GEN-POS;
+%<px3pl%>:%>%{S%}%{I%}%{n%} GEN-POS ;
 
 LEXICON N-INFL-SG
 
@@ -428,14 +445,14 @@ LEXICON V-CLIT
 
 LEXICON V-PERS-POSS ! P_2
 
-%<p1%>%<sg%>:%>%{I%}м V-CLIT ; 
-%<p2%>%<sg%>:%>%{I%}ң V-CLIT ; 
-%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з V-CLIT ; 
-%<p3%>%<sg%>:%>с%{I%} V-CLIT ; 
-%<p1%>%<pl%>:%>%{I%}б%{I%}з V-CLIT ; 
-%<p2%>%<pl%>:%>%{I%}ң%{A%}р V-CLIT ;  
-%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р V-CLIT ;  
-%<p3%>%<pl%>:%>с%{I%} V-CLIT ; 
+%<p1%>%<sg%>:%>м V-CLIT ; 
+%<p2%>%<sg%>:%>ң V-CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>ң%{I%}з V-CLIT ; 
+%<p3%>%<sg%>:%>%{S%}%{I%} V-CLIT ; 
+%<p1%>%<pl%>:%>%б%{I%}з V-CLIT ; 
+%<p2%>%<pl%>:%>%ң%{A%}р V-CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>%ң%{I%}зд%{A%}р V-CLIT ;  
+%<p3%>%<pl%>:%>%{S%}%{I%} V-CLIT ; 
 
 LEXICON V-PERS-COP ! P_3
 
@@ -477,7 +494,8 @@ LEXICON V-INFL-COMMON
 
 ! Converbs 
 %<cv_impf%>:%>%{E%} # ;                                       !
-%<cv_perf%>:%>%{I%}п # ;                                      ! -ып, -ип, -уп, -үп
+!%<cv_perf%>:%>%{I%}п # ;                                      ! -ып, -ип, -уп, -үп
+%<cv_perf%>:%>п # ;                                      ! -ып, -ип, -уп, -үп
 %<cv_inf%>:%>м%{A%}к # ;                                      !
 %<cv_irre%>:%>%{E%}т # ;                                      !
 %<cv_fut%>:%>%{A%}р # ;                                       !
@@ -532,14 +550,15 @@ LEXICON V-INFL-IV-SHORT
 LEXICON V-INFL-TV
 
 %<v%>%<tv%>: V-INFL-COMMON ;
-%<v%>%<tv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                      ! 
-%<v%>%<tv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;                   !
+%<v%>%<tv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
+%<v%>%<tv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
 
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
-%<v%>%<iv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                      ! 
-%<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;                   !
+%<v%>%<iv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
+%<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!
@@ -3674,7 +3693,7 @@ LEXICON NounStems
 парта N-INFL ; 
 кино N-INFL ; 
 терезе N-INFL ; 
-!жүзүм N-INFL ;  ! is this a numeral ? -FMT
+жүзүм N-INFL ; ! "grape"
 кулун N-INFL ; 
 кагаз N-INFL ; 
 өрт N-INFL ; 
@@ -3787,6 +3806,13 @@ LEXICON NounStems
 мотиватсия N-INFL ;
 орун%<n%>%<nom%>%<cmpd%>%+басар:орун% басар N-INFL ;
 чейинки N-INFL ; 
+аскер N-INFL ; 
+аял N-INFL ; 
+кезек N-INFL ; 
+класс N-INFL ; 
+жыл N-INFL ; 
+аял N-INFL ; 
+
 
 LEXICON PropernounStems
 Сербия NP-TOP ;
@@ -4850,7 +4876,7 @@ LEXICON VerbStems
 көч V-INFL-IV ;
 ыйгар V-INFL ;
 улант V-INFL ;
-ишке%ашыр V-INFL ;
+ишке% ашыр V-INFL ;
 бүтүр V-INFL ;
 аткар V-INFL ;
 үйрөн V-INFL-IV ;
@@ -4862,8 +4888,12 @@ LEXICON VerbStems
 жазыл V-INFL ;
 жоолук V-INFL ;
 жылмай V-INFL-IV ;
-сарсанаа%тарт V-INFL ;
+сарсанаа% тарт V-INFL ;
 кайрыл V-INFL ;
+мин V-INFL ; 
+муунт V-INFL ; 
+секир V-INFL ; 
+
 
 
 LEXICON Abbreviations
