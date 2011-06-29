@@ -222,29 +222,29 @@
         <when>
           <test>
             <or>
-              <equal><clip pos="1" side="sl" part="posp"/><lit-tag v="1p"/></equal>
-              <equal><clip pos="1" side="sl" part="posp"/><lit-tag v="p1p"/></equal>
+              <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="1p"/></equal>
+              <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="p1p"/></equal>
             </or>
           </test>
-          <let><var n="c_posp"/><lit-tag v="px1pl"/></let>
+          <let><var n="c_poss"/><lit-tag v="px1pl"/></let>
         </when>
         <when>
           <test>
             <or>
-              <equal><clip pos="1" side="sl" part="posp"/><lit-tag v="2p"/></equal>
-              <equal><clip pos="1" side="sl" part="posp"/><lit-tag v="p2p"/></equal>
+              <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="2p"/></equal>
+              <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="p2p"/></equal>
             </or>
           </test>
-          <let><var n="c_posp"/><lit-tag v="px2pl"/></let>
+          <let><var n="c_poss"/><lit-tag v="px2pl"/></let>
         </when>
         <when>
           <test>
             <or>
-              <equal><clip pos="1" side="sl" part="posp"/><lit-tag v="3p"/></equal>
-              <equal><clip pos="1" side="sl" part="posp"/><lit-tag v="p3p"/></equal>
+              <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="3p"/></equal>
+              <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="p3p"/></equal>
             </or>
           </test>
-          <let><var n="c_posp"/><lit-tag v="px3pl"/></let>
+          <let><var n="c_poss"/><lit-tag v="px3pl"/></let>
         </when>
 
 
