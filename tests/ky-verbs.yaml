@@ -1,19 +1,19 @@
 Config:
   hfst:
-    App: hfst-lookup
+    App: hfst-optimised-lookup
     Gen: ../tr-ky.autogen.hfst
     Morph: ../ky-tr.automorf.hfst
 
 Tests:
 
   "[lexc] Infinitive -{U}{U}":
-    бол<v><iv><inf> : болуу
-    сүй<v><tv><inf> : сүйүү
-    окшо<v><iv><inf> : окшоо
-    иште<v><iv><inf> : иштөө
-    саба<v><iv><inf> : сабоо
-    аарчы<v><tv><inf> : аарчуу
-    ат<v><tv><inf> : атуу
+    бол<v><iv><inf><nom> : болуу
+    сүй<v><tv><inf><nom> : сүйүү
+    окшо<v><iv><inf><nom> : окшоо
+    иште<v><iv><inf><nom> : иштөө
+    саба<v><iv><inf><nom> : сабоо
+    аарчы<v><tv><inf><nom> : аарчуу
+    ат<v><tv><inf><nom> : атуу
 
   "[lexc] Negative -б{A}":
     бол<v><iv><neg><cond><p1><sg> : болбосом

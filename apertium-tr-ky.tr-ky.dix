@@ -3214,8 +3214,12 @@
 
 	<e c="  0"><p><l>gel<s n="v"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ol<s n="v"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>iç<s n="v"/></l><r>ич<s n="v"/><s n="TD"/></r></p><par n="(t|i)v"/></e>
+	<e c="  0"><p><l>iç<s n="v"/></l><r>ич<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e c="  0"><p><l>bil<s n="v"/></l><r>бил<s n="v"/><s n="tv"/></r></p></e>
+
+	<e c="  0"><p><l>geç<s n="v"/></l><r>өт<s n="v"/><s n="tv"/></r></p></e>  
+	<e slr="1"><p><l>geç<s n="v"/></l><r>жазыл<s n="v"/><s n="TD"/></r></p></e> 
+	<e slr="2"><p><l>geç<s n="v"/></l><r>кеч<s n="v"/><s n="TD"/></r></p></e> 
 
 	<e c="  0"><p><l>git<s n="v"/></l><r>кет<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>arık<s n="v"/></l><r>кет<s n="v"/><s n="TD"/></r></p></e>
@@ -3311,9 +3315,8 @@
 	<e c="  0"><p><l>ekle<s n="v"/></l><r>кош<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>es<s n="v"/></l><r>үйлө<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>eş<s n="v"/></l><r>эш<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>geç<s n="v"/></l><r>өт<s n="v"/><s n="TD"/></r></p></e>  
-	<e slr="1"><p><l>geç<s n="v"/></l><r>жазыл<s n="v"/><s n="TD"/></r></p></e> 
-	<e slr="2"><p><l>geç<s n="v"/></l><r>кеч<s n="v"/><s n="TD"/></r></p></e> 
+
+
 	<e c="  0"><p><l>ger<s n="v"/></l><r>гэр<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>gir<s n="v"/></l><r>кир<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>git<s n="v"/></l><r>кет<s n="v"/><s n="TD"/></r></p></e>
