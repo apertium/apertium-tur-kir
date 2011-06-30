@@ -20,8 +20,13 @@
       <cat-item lemma="kendi" tags="prn.*"/>
     </def-cat>
 
+    <def-cat n="v_vn_mak">
+      <cat-item tags="v.vn_mak.*"/>
+    </def-cat>
+ 
     <def-cat n="v_part_dik">
       <cat-item tags="v.part_dik.*"/>
+      <cat-item tags="v.part_yan.*"/>
     </def-cat>
  
     <def-cat n="pron">
@@ -348,6 +353,32 @@
             <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="1" side="tl" part="gen"/>
             <clip pos="1" side="tl" part="nbr"/>
+            <var n="c_poss"/>
+            <var n="c_case"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+  
+    <rule comment="regla: v_vn_mak">
+      <pattern>
+        <pattern-item n="v_vn_mak"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <lit-tag v="inf"/>
             <var n="c_poss"/>
             <var n="c_case"/>
             <clip pos="1" side="tl" part="lemq"/>
