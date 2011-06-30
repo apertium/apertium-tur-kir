@@ -428,7 +428,7 @@ LEXICON PRON-ITG
 
 LEXICON PRON-REFL
 
-%<prn%>%<ref%>: CASES  ;
+%<prn%>%<ref%>: POSSESSION ;
 
 LEXICON PRON-IND
 
@@ -594,8 +594,9 @@ LEXICON Conjunctions
 не CC ; ! "neither... nor..."
 ал CA ; ! "but"
 бирок CA ; ! "but"
-анткени CS ; ! "because"
-себеби CS ; ! "because"
+анткени CA ; ! "because"
+себеби CA ; ! "because"
+ошондуктан CA ;  ! "that's why"
 
 жана CA ; ! Dir/RL "but" 
 
@@ -3547,6 +3548,7 @@ LEXICON NounStems
 штанга N-INFL ; 
 мончо N-INFL ; 
 атырылуу N-INFL ; 
+президент N-INFL ; 
 уранды N-INFL ; 
 камыр N-INFL ; 
 канжар N-INFL ; 
@@ -4472,7 +4474,6 @@ LEXICON AdvStems
 
 негизинде ADV ; ! "basically, in general"
 эртеси ADV ; 
-ошондуктан ADV ;  ! "that's why"
 өзүнчө ADV ;  ! "by oneself"
 көп ADV ; 
 жок ADV ; 
@@ -4705,6 +4706,9 @@ LEXICON VerbStems
 үйрөн V-INFL-TV ;
 өл V-INFL-IV ; 
 өт V-INFL-TV ;
+
+мойнуна% ал V-INFL-TV ; 
+кыйнал V-INFL-IV ; 
 
 
 

@@ -15,6 +15,15 @@
       <cat-item tags="nexist.*"/>
     </def-cat>
        
+    <def-cat n="pron_ref">
+      <cat-item lemma="kendi" tags="prn"/>
+      <cat-item lemma="kendi" tags="prn.*"/>
+    </def-cat>
+
+    <def-cat n="v_part_dik">
+      <cat-item tags="v.part_dik.*"/>
+    </def-cat>
+ 
     <def-cat n="pron">
       <cat-item tags="prn"/>
       <cat-item tags="prn.*"/>
@@ -62,6 +71,7 @@
     <def-attr n="a_prn">
       <attr-item tags="prn"/>
       <attr-item tags="prn.pers"/>
+      <attr-item tags="prn.ref"/>
       <attr-item tags="prn.dem"/>
     </def-attr>
        
@@ -346,7 +356,62 @@
         </out>
       </action>
     </rule>
+  
+    <rule comment="regla: v_part_dik">
+      <pattern>
+        <pattern-item n="v_part_dik"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <lit-tag v="pp"/>
+            <var n="c_poss"/>
+            <var n="c_case"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+  
  
+    <rule comment="regla: pron_ref">
+      <pattern>
+        <pattern-item n="pron_ref"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_num1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_prn"/>
+            <var n="c_poss"/>
+            <var n="c_case"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="regla: pron">
       <pattern>
         <pattern-item n="pron"/>
