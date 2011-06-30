@@ -62,7 +62,10 @@ CnsBackLowRndVow = Cns BackLowRndVow  %{I%} %{A%} %{U%} %{E%} ;
 
 NotVowel = Cns %> ; 
 
-	   
+Wild = Cns SurVowel %> 0 ;
+WildNoVow = Cns %> 0 ;
+
+
 Rules
 
 "Vowel deletion for archiphoneme {I}"
@@ -88,18 +91,56 @@ Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]*  [ :0 | %>: | :Cns ]* | [ :0 | 
               matched ; 
 
 "Vowel harmony for archiphoneme {I}"
-Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns ] _ ;
+!Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns ] _ [ :Cns | .#. ] ;
+!Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ( %>: :0 ) [ ? - %{U%}: ] ;
+!Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ~[ ( %>: :0 ) %{U%}: ] ;
+!Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ~[ [ %>: | :0 ]* %{U%}: ] ;
+Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
         where Vx         in ( %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} )
               Vy         in (   и     ү     и     и     ү     ы     ы     у     у     ы     у     у   )
               LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
               matched ;
 
-"Vowel harmony for archiphoneme {U}"
-Vx:Vy <=> :LastVowel NotVowel:* _ ; 
-        where Vx         in ( %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} )
-              Vy         in (   ү     ү     ү     ү     ү     у     у     у     у     у     у     у   )
-              LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
-              matched ; 
+!"Vowel harmony for archiphoneme {U}"
+!!Vx:Vy <=> :LastVowel NotVowel:* _ ; 
+!!Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]*  [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns | [ :0 | %>: | :Cns ]* :Cns [ :0 | %>: | :Cns ]* ] _ ; 
+!!Vx:Vy <=> :LastVowel [ %>: | :0 ]* _ ; 
+!!Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
+!%{U%}:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
+!!        where Vx         in ( %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} )
+!         where Vy         in (   ү     ү     ү     ү     ү     у     у     у     у     у     у     у   )
+!               LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
+!               matched ; 
+
+!"Assimilate {U} in infinitives"
+!!%{U%}:Vy <=> :LastVowel ( %>: :0 ) _ ; 
+!%{U%}:Vy <=> :LastVowel _ ; 
+!       where LastVowel in (  и    ү     е     э     ө     я     а     ё     о     ы     ю     у  ) 
+!                    Vy in (  ү    ү     ө     ө     ө     о     о     о     о     у     у     у  )
+!             matched;
+
+
+!"Assimilate vowel before {U} in infinitive"
+!!Vx:Vy <=> _ [ %>: | :0 ]* %{U%}: [ %>: | .#. ] ;
+!Vx:Vy <=> _ ( %>: :0 ) %{U%}: ;
+!       where Vx in (  и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
+!             Vy in (  ү     ү     ө     ө     ө     ё     о     ё     о     у     ю     у   ) 
+!             matched;
+
+!"Assimilate {I} before {U}"
+!%{I%}:Vy <=> _ ( %>: ) :SurfaceU ;
+!        where SurfaceU in (  ү  у  )
+!		              Vx in (  ү  у  )
+!              matched;
+
+
+"{U} deletion after vowel final stem"
+%{U%}:0 <=> Vow %>: _ %{U%}: ; 
+
+
+!"Digraph ю"
+!йу:ю <=> _ ;
+
 
 "{E} turns to й after a vowel"
 %{E%}:й <=> :SurVow %>: _ ;
@@ -148,6 +189,7 @@ Cx:Cy <=>  :UnvoicedNonSonCns %>: _ ;   !Cx:Cy <=>  UnvoicedNonSonCns %>: _ ;
               Cy in (   п      к      т      т      т)
               matched;
 
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -173,6 +215,9 @@ Cx:Cy <=>  :UnvoicedNonSonCns %>: _ ;   !Cx:Cy <=>  UnvoicedNonSonCns %>: _ ;
 !!%{E%}:й <=> SurVow %>: _ ;
 
 !!"(optional) deletion of {D} in ablative after px1sg, px2sg, px3"
+
+
+
 
 ! REWRITE
 !"Harmonise stem ending before infinitive"
