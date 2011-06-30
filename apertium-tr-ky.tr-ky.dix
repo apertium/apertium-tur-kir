@@ -22,6 +22,7 @@
      <sdef n="not"       c="IS NOT"/>
      <sdef n="ant"       c="Anthroponym"/>
      <sdef n="cog"       c="Cognomen"/>
+     <sdef n="pst"       c="Positive degree"/>
      <sdef n="top"       c="Toponym"/>
 
      <sdef n="iv"        c="Intransitive"/>
@@ -103,7 +104,7 @@
         <e c="  0"><p><l>bazı<s n="det"/></l><r>кээбир<s n="det"/></r></p></e> 
         <e c="  0"><p><l>bir<s n="det"/></l><r>бир<s n="det"/></r></p></e> <!-- Det -->
         <e c="  0"><p><l>her<s n="det"/></l><r>ар<s n="det"/></r></p></e> 
-        <e c="  0"><p><l>tek<s n="det"/></l><r>жалгыз<s n="det"/></r></p></e> 
+        <e c="  0"><p><l>tek<s n="det"/></l><r>жалгыз<s n="adj"/><s n="pst"/></r></p></e> 
         <e c="  0"><p><l>hiçbir<s n="det"/></l><r>эчбир<s n="det"/></r></p></e> 
 
 <!-- TODO: Check -->
@@ -743,6 +744,8 @@
 	<e c="  0"><p><l>düet<s n="n"/></l><r>дуэт<s n="n"/></r></p></e>
 	<e c="  0"><p><l>dürbün<s n="n"/></l><r>дүрбү<s n="n"/></r></p></e>
 	<e c="  0"><p><l>dürbün<s n="n"/></l><r>турнабай<s n="n"/></r></p></e>
+
+	<e c="  0"><p><l>elim<s n="n"/></l><r>кол<s n="n"/></r></p></e>
 	
 	<!-- from apertium-tr-az d	 -->
     <!--<e c="  0"><p><l>dadı<s n="n"/></l><r>daya<s n="n"/></r></p></e>-->  
@@ -2001,6 +2004,8 @@
 	<e c="  0"><p><l>nöron<s n="n"/></l><r>нейрон<s n="n"/></r></p></e>
 	<e c="  0"><p><l>nüans<s n="n"/></l><r>	нюанс<s n="n"/></r></p></e>
 	<e c="  0"><p><l>nüsha<s n="n"/></l><r>нуска<s n="n"/></r></p></e>
+
+	<e c="  0"><p><l>iyi<s n="n"/></l><r>жакшы<s n="n"/></r></p></e>
 	
 	<e c="  0"><p><l>objektivizm<s n="n"/></l><r>объективизм<s n="n"/></r></p></e>
 	<e c="  0"><p><l>obligasyon<s n="n"/></l><r>облигация<s n="n"/></r></p></e>

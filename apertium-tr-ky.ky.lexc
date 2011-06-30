@@ -246,6 +246,7 @@ LEXICON ADJ-LEVELS
 LEXICON ADJ
 
 %<adj%>: ADJ-LEVELS ;
+%<n%>: POSSESSION ;  ! all adjectives can be used as nouns
 
 LEXICON ADJ-ORD
 
