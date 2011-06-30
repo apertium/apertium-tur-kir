@@ -3482,7 +3482,7 @@
 	<e slr="1"><p><l>başar<s n="v"/></l><r>бүтүр<s n="v"/><s n="TD"/></r></p></e>
 	<e slr="2"><p><l>başar<s n="v"/></l><r>аткар<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>öğren<s n="v"/></l><r>үйрөн<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>düşün<s n="v"/></l><r>ойлон<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>düşün<s n="v"/></l><r>ойлон<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>var<s n="v"/></l><r>бар<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>unut<s n="v"/></l><r>унут<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>oku<s n="v"/></l><r>оку<s n="v"/><s n="TD"/></r></p></e>
