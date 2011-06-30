@@ -1063,6 +1063,7 @@ LEXICON NounStems
 бычым N-INFL ; 
 бээ N-INFL ; ! ""
 бүлөө N-INFL ; 
+үй% бүлөө N-INFL ; ! ""
 бөбөк N-INFL ; 
 бөз N-INFL ; 
 гүл N-INFL ; 
@@ -3818,6 +3819,7 @@ LEXICON NounStems
 LEXICON PropernounStems
 Сербия NP-TOP ;
 Баласагын NP-TOP ;
+Сирия NP-TOP ;
 Шанхай NP-TOP ;
 Астана NP-TOP ;
 Стамбул NP-TOP ;
@@ -4919,7 +4921,7 @@ ISBN ABBR ;
 
 LEXICON Interjections 
 
-aлбетте INTERJ ; ! "of course"
+албетте INTERJ ; ! "of course"
 
 LEXICON Punctuation
 
