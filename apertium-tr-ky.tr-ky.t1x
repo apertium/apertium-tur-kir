@@ -20,6 +20,11 @@
       <cat-item lemma="kendi" tags="prn.*"/>
     </def-cat>
 
+    <def-cat n="v_cv_erek">
+      <cat-item tags="v.cv_erek.*"/>
+      <cat-item tags="v.cv_erek"/>
+    </def-cat>
+ 
     <def-cat n="v_vn_mak">
       <cat-item tags="v.vn_mak.*"/>
     </def-cat>
@@ -361,7 +366,25 @@
         </out>
       </action>
     </rule>
+   
+    <rule comment="regla: v_cv_erek">
+      <pattern>
+        <pattern-item n="v_cv_erek"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <lit-tag v="cv_perf"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
   
+
     <rule comment="regla: v_vn_mak">
       <pattern>
         <pattern-item n="v_vn_mak"/>
