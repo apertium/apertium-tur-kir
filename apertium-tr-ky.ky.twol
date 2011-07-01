@@ -94,8 +94,8 @@ Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]*  [ :0 | %>: | :Cns ]* | [ :0 | 
 !Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns ] _ [ :Cns | .#. ] ;
 !Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ( %>: :0 ) [ ? - %{U%}: ] ;
 !Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ~[ ( %>: :0 ) %{U%}: ] ;
-Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ~[ [ %>: | :0 ]* %{U%}: ] ;
-!Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
+! Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ \[ [ %>: | :0 ]* %{U%}: ] ;
+Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
         where Vx         in ( %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} )
               Vy         in (   и     ү     и     и     ү     ы     ы     у     у     ы     у     у   )
               LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
@@ -120,8 +120,6 @@ Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ~[ [ %>: | :0 ]* %{U%}: ] ;
 
 "{U} deletion after vowel final stem"
 %{U%}:0 <=> Vow %>: _ %{U%}: ; 
-
-
 
 
 !"Assimilate {U} in infinitives"
@@ -149,7 +147,10 @@ Vx:Vy <=> _ ( %>: :0 ) %{U%}: ;
 
 
 !"Digraph ю"
-!йу:ю <=> _ ;
+!<[ йу ]> <=> ю ;
+!йу<->ю
+!й:0 <=> _ :у ;
+!у:0 
 
 
 "{E} turns to й after a vowel"
