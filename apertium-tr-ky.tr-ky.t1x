@@ -119,9 +119,17 @@
       <attr-item tags="2s"/>
       <attr-item tags="3s"/>
 
+      <attr-item tags="1p"/>
+      <attr-item tags="2p"/>
+      <attr-item tags="3p"/>
+
       <attr-item tags="p1s"/>
       <attr-item tags="p2s"/>
       <attr-item tags="p3s"/>
+ 
+      <attr-item tags="p1p"/>
+      <attr-item tags="p2p"/>
+      <attr-item tags="p3p"/>
  
       <attr-item tags="px1sg"/>
       <attr-item tags="px2sg"/>
@@ -294,6 +302,25 @@
           </test>
           <let><var n="c_pers"/><lit-tag v="p3.sg"/></let>
         </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="1p"/></equal>
+          </test>
+          <let><var n="c_pers"/><lit-tag v="p1.pl"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="2p"/></equal>
+          </test>
+          <let><var n="c_pers"/><lit-tag v="p2.pl"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="3p"/></equal>
+          </test>
+          <let><var n="c_pers"/><lit-tag v="p3.pl"/></let>
+        </when>
+
         <otherwise>
           <let><var n="c_pers"/><lit v=""/></let>
         </otherwise>
@@ -508,7 +535,7 @@
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="trans"/>
               <clip pos="1" side="tl" part="neg"/>
-              <lit-tag v="pres"/>
+              <lit-tag v="aor"/>
               <var n="c_pers"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -520,6 +547,29 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="regla: v_aor">
+      <pattern>
+        <pattern-item n="v_aor"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="neg"/>
+            <lit-tag v="aor"/>
+            <var n="c_pers"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="regla: v_cont">
       <pattern>
@@ -543,28 +593,6 @@
       </action>
     </rule>
 
-
-    <rule comment="regla: v_aor">
-      <pattern>
-        <pattern-item n="v_aor"/>
-      </pattern>
-      <action>
-        <call-macro n="f_conv_pers1">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="neg"/>
-            <lit-tag v="pres"/>
-            <var n="c_pers"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
 
     <rule comment="regla: v_past">
       <pattern>
