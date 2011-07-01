@@ -94,23 +94,35 @@ Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]*  [ :0 | %>: | :Cns ]* | [ :0 | 
 !Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns ] _ [ :Cns | .#. ] ;
 !Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ( %>: :0 ) [ ? - %{U%}: ] ;
 !Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ~[ ( %>: :0 ) %{U%}: ] ;
-!Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ~[ [ %>: | :0 ]* %{U%}: ] ;
-Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
+Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ~[ [ %>: | :0 ]* %{U%}: ] ;
+!Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
         where Vx         in ( %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} %{I%} )
               Vy         in (   и     ү     и     и     ү     ы     ы     у     у     ы     у     у   )
               LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
               matched ;
 
-!"Vowel harmony for archiphoneme {U}"
-!!Vx:Vy <=> :LastVowel NotVowel:* _ ; 
-!!Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]*  [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns | [ :0 | %>: | :Cns ]* :Cns [ :0 | %>: | :Cns ]* ] _ ; 
-!!Vx:Vy <=> :LastVowel [ %>: | :0 ]* _ ; 
-!!Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
-!%{U%}:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
-!!        where Vx         in ( %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} )
-!         where Vy         in (   ү     ү     ү     ү     ү     у     у     у     у     у     у     у   )
-!               LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
-!               matched ; 
+"Vowel harmony for archiphoneme {U} after consonant"
+!Vx:Vy <=> :LastVowel NotVowel:* _ ; 
+!Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]*  [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns | [ :0 | %>: | :Cns ]* :Cns [ :0 | %>: | :Cns ]* ] _ ; 
+!Vx:Vy <=> :LastVowel [ %>: | :0 ]* _ ; 
+!Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
+%{U%}:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
+!        where Vx         in ( %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} )
+         where Vy         in (   ү     ү     ү     ү     ү     у     у     у     у     у     у     у   )
+               LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
+               matched ; 
+
+"Vowel harmony for archiphoneme {U} after vowel"
+%{U%}:Vy <=> :LastVowel ( %>: :0 ) _ ;
+         where Vy         in (   ү     ө     о     о     у     у   )
+               LastVowel  in (   ү     ө     ё     о     ю     у   )
+               matched ; 
+
+"{U} deletion after vowel final stem"
+%{U%}:0 <=> Vow %>: _ %{U%}: ; 
+
+
+
 
 !"Assimilate {U} in infinitives"
 !!%{U%}:Vy <=> :LastVowel ( %>: :0 ) _ ; 
@@ -120,22 +132,20 @@ Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
 !             matched;
 
 
-!"Assimilate vowel before {U} in infinitive"
-!!Vx:Vy <=> _ [ %>: | :0 ]* %{U%}: [ %>: | .#. ] ;
-!Vx:Vy <=> _ ( %>: :0 ) %{U%}: ;
+"Assimilate vowel before {U} in infinitive"
+!Vx:Vy <=> _ [ %>: | :0 ]* %{U%}: [ %>: | .#. ] ;
+Vx:Vy <=> _ ( %>: :0 ) %{U%}: ;
+       where Vx in (  и     е     э     я     а     ы  )
+             Vy in (  ү     ө     ө     ё     о     у  ) 
 !       where Vx in (  и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
 !             Vy in (  ү     ү     ө     ө     ө     ё     о     ё     о     у     ю     у   ) 
-!             matched;
+             matched;
 
 !"Assimilate {I} before {U}"
 !%{I%}:Vy <=> _ ( %>: ) :SurfaceU ;
 !        where SurfaceU in (  ү  у  )
 !		              Vx in (  ү  у  )
 !              matched;
-
-
-"{U} deletion after vowel final stem"
-%{U%}:0 <=> Vow %>: _ %{U%}: ; 
 
 
 !"Digraph ю"
