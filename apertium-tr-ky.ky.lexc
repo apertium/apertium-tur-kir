@@ -80,6 +80,8 @@ Multichar_Symbols
 %<ord%>     ! Ordinal
 %<apprx%>   ! Approximal
 
+%<pass%>    ! Passive
+
 %<cv_impf%> ! Converb imperfect, -E
 %<cv_perf%> ! Converb perfect, -Iп
 %<cv_irre%> ! Converb irrealis, -Eт
@@ -555,6 +557,9 @@ LEXICON V-INFL-TV
 %<v%>%<tv%>: V-INFL-COMMON ;
 %<v%>%<tv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
 %<v%>%<tv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
+%<v%>%<pass%>:%>%{I%}%{L%} V-INFL-COMMON ;                                    !
+%<v%>%<pass%>%<inf%>:%>%{I%}%{L%}%>%{U%}%{U%} POSSESSION ;                    ! 
+%<v%>%<pass%>%<neg%>%<inf%>:%>%{I%}%{L%}%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
 
 LEXICON V-INFL-IV
 
