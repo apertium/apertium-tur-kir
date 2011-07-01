@@ -31,6 +31,7 @@
 
      <sdef n="pers"      c="Personal"/>
      <sdef n="dem"       c="Demonstrative"/>
+     <sdef n="ind"       c="Indefinite"/>
      <sdef n="neg"       c="Negative"/>
      <sdef n="itg"       c="Interrogative"/>
 
@@ -51,7 +52,7 @@
      <sdef n="apos"      c="Apostrophe"/>
      <sdef n="guio"      c="Hyphen"/>
      <sdef n="pnct"      c="Punctuation"/>
-     <sdef n="det"       c="Determinative"/>
+     <sdef n="det"       c="Determiner"/>
      <sdef n="ij"        c="Interjection"/>
    </sdefs>
    
@@ -100,12 +101,13 @@
 	<e c="  0"><p><l>da<s n="cnjadv"/></l><r>да<s n="part"/></r></p></e>
     
 	<!-- SECTION: Determinatives -->
-	<e c="  0"><p><l>bu<s n="det"/></l><r>бул<s n="det"/></r></p></e>
-        <e c="  0"><p><l>bazı<s n="det"/></l><r>кээбир<s n="det"/></r></p></e> 
-        <e c="  0"><p><l>bir<s n="det"/></l><r>бир<s n="det"/></r></p></e> <!-- Det -->
-        <e c="  0"><p><l>her<s n="det"/></l><r>ар<s n="det"/></r></p></e> 
+	<e c="  0"><p><l>bu<s n="det"/></l><r>бул<s n="det"/><s n="dem"/></r></p></e>
+        <e c="  0"><p><l>hiçbir<s n="det"/></l><r>эчбир<s n="det"/><s n="ind"/></r></p></e> 
+        <e c="  0"><p><l>her<s n="det"/></l><r>ар<s n="det"/><s n="ind"/></r></p></e> 
+        <e c="  0"><p><l>bazı<s n="det"/></l><r>кээбир<s n="det"/><s n="ind"/></r></p></e> 
+        <e c="  0"><p><l>bir<s n="det"/></l><r>бир<s n="det"/><s n="ind"/></r></p></e> 
+
         <e c="  0"><p><l>tek<s n="det"/></l><r>жалгыз<s n="adj"/><s n="pst"/></r></p></e> 
-        <e c="  0"><p><l>hiçbir<s n="det"/></l><r>эчбир<s n="det"/></r></p></e> 
 
 <!-- TODO: Check -->
 
@@ -3224,6 +3226,7 @@
 	<e c="  0"><p><l>gel<s n="v"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ol<s n="v"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>iç<s n="v"/></l><r>ич<s n="v"/></r></p><par n="(t|i)v"/></e>
+	<e c="  0"><p><l>söyle<s n="v"/></l><r>айт<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e c="  0"><p><l>bil<s n="v"/></l><r>бил<s n="v"/><s n="tv"/></r></p></e>
 
         <e c="  0"><p><l>itiraf<b/>et<s n="v"/></l><r>мойнуна<b/>ал<s n="v"/><s n="tv"/></r></p></e>
@@ -3236,6 +3239,8 @@
 	<e c="  0"><p><l>geç<s n="v"/></l><r>өт<s n="v"/><s n="tv"/></r></p></e>  
 	<e slr="1"><p><l>geç<s n="v"/></l><r>жазыл<s n="v"/><s n="TD"/></r></p></e> 
 	<e slr="2"><p><l>geç<s n="v"/></l><r>кеч<s n="v"/><s n="TD"/></r></p></e> 
+
+	<e c="  0"><p><l>gül<s n="v"/></l><r>күл<s n="v"/><s n="iv"/></r></p></e>
 
 	<e c="  0"><p><l>git<s n="v"/></l><r>кет<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>arık<s n="v"/></l><r>кет<s n="v"/><s n="TD"/></r></p></e>
@@ -3340,7 +3345,6 @@
 	<e c="  0"><p><l>gir<s n="v"/></l><r>кир<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>git<s n="v"/></l><r>кет<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>giy<s n="v"/></l><r>гий<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>gül<s n="v"/></l><r>күл<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>haşla<s n="v"/></l><r>кайнат<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>havla<s n="v"/></l><r>үр<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>hazırla<s n="v"/></l><r>даярда<s n="v"/><s n="TD"/></r></p></e>
@@ -3460,7 +3464,6 @@
 	<e c="  0"><p><l>zorla<s n="v"/></l><r>кыйна<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>üret<s n="v"/></l><r>пайда<b/>кыл<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>gör<s n="v"/></l><r>көр<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>söyle<s n="v"/></l><r>айт<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>bul<s n="v"/></l><r>тап<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>bak<s n="v"/></l><r>кара<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>belir<s n="v"/></l><r>кыйна<s n="v"/><s n="TD"/></r></p></e>

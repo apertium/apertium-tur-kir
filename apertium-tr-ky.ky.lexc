@@ -65,6 +65,7 @@ Multichar_Symbols
 %<ant%>     ! Anthroponym (name of person)
 %<cog%>     ! Cognomen (second, or family name)
 %<top%>     ! Toponym
+%<al%>      ! Other
 %<org%>     ! Organisation name
 
 %<frm%>     ! Formal
@@ -238,6 +239,11 @@ LEXICON NP-TOP-ASSR
 LEXICON NP-TOP
 
 %<np%>%<top%>: POSSESSION ;
+
+LEXICON NP-AL
+
+%<np%>%<al%>: POSSESSION ;
+
 
 
 LEXICON ADJ-LEVELS
@@ -597,6 +603,7 @@ LEXICON Conjunctions
 да CC ; ! "and"
 же CC ; ! "or"
 менен CC ; ! "and"
+үчүн CC ; ! ""
 не CC ; ! "neither... nor..."
 ал CA ; ! "but"
 бирок CA ; ! "but"
@@ -638,6 +645,10 @@ LEXICON Determiners
 
 айрым DET-IND ; ! "other"
 ушундай DET-IND ; ! "this kind of"
+ар DET-IND ; ! "every"
+эчбир DET-IND ; ! "no"
+кээбир DET-IND ; ! "some"
+бир DET-IND ; ! "a"
 
 кээ% бир DET-QNT ; ! "some"
 бир% нече DET-QNT ; ! "some, several"
@@ -1170,6 +1181,7 @@ LEXICON NounStems
 доктор N-INFL ; ! "doctor"
 форма N-INFL ; ! "form"
 
+студент N-INFL ;  ! "student"
 комитет N-INFL ;  ! "committee"
 абал N-INFL ; 
 катар N-INFL ; 
@@ -2070,6 +2082,7 @@ LEXICON NounStems
 мандолин N-INFL ; 
 манеж N-INFL ; 
 манёвр N-INFL ; 
+манёвр:манeвр N-INFL ;  ! Dir/LR
 мануфактура N-INFL ; 
 маникюр N-INFL ; 
 манекен N-INFL ; 
@@ -3660,7 +3673,6 @@ LEXICON NounStems
 улут N-INFL ; 
 карым% катнаш N-INFL ; 
 бийиктик N-INFL ; 
-ар N-INFL ; 
 дал% кэлүү N-INFL ; 
 ишчи N-INFL ; 
 басып% алуу N-INFL ; 
@@ -3816,13 +3828,23 @@ LEXICON NounStems
 падышалык N-INFL ; ! ""
 такыбалык N-INFL ; ! ""
 мотиватсия N-INFL ;
-орун%<n%>%<nom%>%<cmpd%>%+басар:орун% басар N-INFL ;
+орун%<n%>%<nom%>%<cmpd%>%+басар:орунбасар N-INFL ;
 чейинки N-INFL ; 
 аскер N-INFL ; 
 аял N-INFL ; 
 кезек N-INFL ; 
 класс N-INFL ; 
 жыл N-INFL ; 
+команда N-INFL ; ! "team"
+
+дүйшөмбү N-INFL ; ! "Sunday"
+шейшемби N-INFL ; ! ""
+шаршемби N-INFL ; ! ""
+бейшемби N-INFL ; ! ""
+жума N-INFL ; ! ""
+ишемби N-INFL ; ! ""
+жекшемби N-INFL ; ! "Saturday"
+
 
 
 LEXICON PropernounStems
@@ -3993,9 +4015,12 @@ Tеңир NP-TOP ; ! ""
 Ленинчил NP-ORG ; ! "" 
 Кыргызокуупедмамбас NP-ORG ; ! "Kyrgyz Pedagogical State Press"
 
+Нооруз NP-AL ; ! ""
+
 Бишкек NP-TOP ; ! "Bishkek"
 Лондон NP-TOP ; ! "London"
-Ысык% Көл NP-TOP ; ! ""
+Ысык%-Көл NP-TOP ; ! ""
+Ысык%-Көл:Ысык% Көл NP-TOP ; ! Dir/LR ""
 
 Ахмет NP-ANT-M ; ! "Axmet"
 Мирлан NP-ANT-M ; ! "Mirlan"
@@ -4006,8 +4031,10 @@ Tеңир NP-TOP ; ! ""
 Манас NP-ANT-M ;
 Ардак NP-ANT-M ;
 Мустафа NP-ANT-M ;
+Энвер NP-ANT-M ;
 Никола NP-ANT-M ;
 Мехмет NP-ANT-M ;
+Алмазбек NP-ANT-M ;
 Неманя NP-ANT-M ;
 
 Мария NP-ANT-F ; ! "Marija"
@@ -4017,6 +4044,7 @@ Tеңир NP-TOP ; ! ""
 Анна NP-ANT-F ;
 Аня NP-ANT-F ;
 
+Асанбаев NP-COG-MF ; ! ""
 Аббас NP-COG-MF ; ! "Abbas"
 Ленин NP-COG-MF ; ! "Lenin"
 Ашым NP-ANT-M ; ! ""
@@ -4477,6 +4505,7 @@ LEXICON AdvStems
 эми ADV ; ! "now"
 бат ADV ; ! "fast"
 эң ADV ; ! "most"
+эң:ең ADV ; ! Dir/LR "most"
 кээде ADV ; ! "sometimes"
 
 негизинде ADV ; ! "basically, in general"
@@ -4894,6 +4923,8 @@ LEXICON VerbStems
 өч V-INFL ; 
 сиңир V-INFL ;
 өчүр V-INFL ; 
+тир V-INFL ;
+уч V-INFL ;
 
 катыш V-INFL ;
 сарсанаа% тарт V-INFL ;
@@ -4913,6 +4944,8 @@ LEXICON VerbStems
 мин V-INFL ; 
 муунт V-INFL ; 
 секир V-INFL ; 
+
+кыйн V-INFL-TV ; 
 
 
 
