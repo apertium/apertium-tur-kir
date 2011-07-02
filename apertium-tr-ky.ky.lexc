@@ -919,7 +919,6 @@ LEXICON NounStems
 акча N-INFL ; 
 акыбал N-INFL ; 
 акырет N-INFL ; 
-акыркы N-INFL ; 
 акырын N-INFL ; 
 алакан N-INFL ; 
 алкыш N-INFL ; 
@@ -1190,7 +1189,6 @@ LEXICON NounStems
 дарак N-INFL ; 
 токой N-INFL ; 
 гүл N-INFL ; 
-акыркы N-INFL ; 
 адаш N-INFL ; 
 адрес N-INFL ; 
 дарек N-INFL ; 
@@ -1199,7 +1197,6 @@ LEXICON NounStems
 аферист N-INFL ; 
 аста N-INFL ; 
 акырын N-INFL ; 
-акыркы N-INFL ; 
 тиги% дүйнө N-INFL ; 
 акмак N-INFL ; 
 эси% жок N-INFL ; 
@@ -3848,6 +3845,7 @@ LEXICON NounStems
 сержант N-INFL ;
 парашут N-INFL ;
 үйрөнүу N-INFL ;
+окутуу N-INFL ;
 
 
 LEXICON PropernounStems
@@ -4012,6 +4010,7 @@ Tеңир NP-TOP ; ! ""
 Ташкент NP-TOP ;
 Кокон NP-TOP ;
 Жалал% Абад NP-TOP ;
+Нарын NP-TOP ;
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
@@ -4504,6 +4503,10 @@ suyuk ADJ ;
 мотиватсиялуу ADJ ;
 тик ADJ ;
 чечүүчү ADJ ;
+улуу ADJ ;
+улуттук ADJ ;
+дүйнөлүк ADJ ;
+акыркы ADJ ;
 
 LEXICON AdvStems
 
@@ -4966,6 +4969,7 @@ LEXICON VerbStems
 жылмай V-INFL-IV ;
 ойло V-INFL-TV ;
 салыштыр V-INFL;
+маневр% кыл V-INFL-TV ;
 
 LEXICON Abbreviations
 
