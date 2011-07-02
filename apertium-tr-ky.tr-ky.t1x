@@ -20,6 +20,11 @@
       <cat-item lemma="kendi" tags="prn.*"/>
     </def-cat>
 
+    <def-cat n="v_abil">
+      <cat-item tags="v.neg.abil.*"/>
+      <cat-item tags="v.abil.*"/>
+    </def-cat>
+ 
     <def-cat n="v_cv_erek">
       <cat-item tags="v.cv_erek.*"/>
       <cat-item tags="v.cv_erek"/>
@@ -28,7 +33,13 @@
     <def-cat n="v_vn_mak">
       <cat-item tags="v.vn_mak.*"/>
     </def-cat>
- 
+  
+    <def-cat n="v_pass_part_dik">
+      <cat-item tags="v.pass.part_dik.*"/>
+      <cat-item tags="v.pass.cv_dik.*"/>
+      <cat-item tags="v.pass.part_yan.*"/>
+    </def-cat>
+
     <def-cat n="v_part_dik">
       <cat-item tags="v.part_dik.*"/>
       <cat-item tags="v.part_yan.*"/>
@@ -146,6 +157,16 @@
     </def-attr>
  
 
+    <def-attr n="tens">
+      <attr-item tags="aor"/>
+      <attr-item tags="pres"/>
+      <attr-item tags="fut"/>
+
+      <attr-item tags="t_cont"/>
+      <attr-item tags="t_past"/>
+    </def-attr>
+ 
+
     <def-attr n="gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
@@ -178,6 +199,7 @@
     <def-var n="c_poss"/>
     <def-var n="c_pers"/>
     <def-var n="c_post"/>
+    <def-var n="c_tens"/>
   </section-def-vars>  
  
   <section-def-macros>
@@ -202,6 +224,28 @@
         </otherwise>
       </choose>
     </def-macro>  
+
+    <def-macro n="f_conv_tens1" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_past"/></equal>
+          </test>
+          <let><var n="c_tens"/><lit-tag v="past"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_aor"/></equal>
+          </test>
+          <let><var n="c_tens"/><lit-tag v="aor"/></let>
+        </when>
+
+        <otherwise>
+          <let><var n="c_tens"/><clip pos="1" side="tl" part="tens"/></let>
+        </otherwise>
+      </choose>
+    </def-macro>  
+
 
     <def-macro n="f_conv_num1" npar="1">
       <choose>
@@ -404,7 +448,7 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="trans"/>
-            <lit-tag v="cv_perf"/>
+            <lit-tag v="cv_impf"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
@@ -437,7 +481,32 @@
         </out>
       </action>
     </rule>
-  
+   
+    <rule comment="regla: v_pass_part_dik">
+      <pattern>
+        <pattern-item n="v_pass_part_dik"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <lit-tag v="pass.pp"/>
+            <var n="c_poss"/>
+            <var n="c_case"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="regla: v_part_dik">
       <pattern>
         <pattern-item n="v_part_dik"/>
@@ -515,6 +584,37 @@
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
           <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: v_abil">
+      <pattern>
+        <pattern-item n="v_abil"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_tens1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="trans"/>
+              <lit-tag v="cv_perf"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b/> 
+            <lu>
+              <lit v="ал"/>
+              <lit-tag v="v.tv"/>
+              <clip pos="1" side="tl" part="neg"/>
+              <var n="c_tens"/>
+              <var n="c_pers"/>
+            </lu>
         </out>
       </action>
     </rule>
