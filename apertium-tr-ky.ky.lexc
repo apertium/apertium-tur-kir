@@ -616,6 +616,7 @@ LEXICON Conjunctions
 LEXICON Postpositions
 
 менен POST ; ! "with"
+али POST ;
 дейре POST ; ! "up to, until"
 чейин POST ; ! "up to, until"
 кийин POST ; ! "with"
@@ -736,6 +737,7 @@ XIX NUM-ROMAN ; ! ""
 
 
 LEXICON NounStems
+сырт N-INFL ;
 аалым N-INFL ; 
 поэзия N-INFL ; 
 гвардия N-INFL ; 
@@ -1088,7 +1090,6 @@ LEXICON NounStems
 дарак N-INFL ; 
 дарек N-INFL ; 
 дене N-INFL ; 
-дос N-INFL ; ! "" 
 дүйнө N-INFL ;  ! "world" (?)
 дүнүйө N-INFL ; ! "world" (?)
 жаз N-INFL ; ! "spring"
@@ -3036,7 +3037,6 @@ LEXICON NounStems
 талаа N-INFL ; 
 четтик N-INFL ; 
 аары N-INFL ; 
-дос N-INFL ; 
 арноо N-INFL ; 
 жер N-INFL ; 
 арзуу N-INFL ; 
@@ -3430,7 +3430,6 @@ LEXICON NounStems
 этикетка N-INFL ; 
 айлана N-INFL ; 
 евалютсия N-INFL ; 
-иш N-INFL ; 
 кырсык N-INFL ; 
 сойку N-INFL ; 
 ардактуу N-INFL ; 
@@ -3638,7 +3637,6 @@ LEXICON NounStems
 кошумча N-INFL ; 
 байланыш N-INFL ; 
 алака N-INFL ; 
-кызык N-INFL ; 
 илхом N-INFL ; 
 облас N-INFL ; 
 жармашкан N-INFL ; 
@@ -3843,7 +3841,13 @@ LEXICON NounStems
 жума N-INFL ; ! ""
 ишемби N-INFL ; ! ""
 жекшемби N-INFL ; ! "Saturday"
-
+достук N-INFL ;
+өтпөй<b/>калуу N-INFL ;
+кызыгуу N-INFL ;
+машина N-INFL ;
+сержант N-INFL ;
+парашут N-INFL ;
+үйрөнүу N-INFL ;
 
 
 LEXICON PropernounStems
@@ -4493,6 +4497,13 @@ suyuk ADJ ;
 этикалык ADJ ; ! ""
 этногенетикалык ADJ ; ! ""
 юридикалык ADJ ; ! ""
+билимдүү ADJ ;
+даярдыктуу ADJ ;
+коркунучтуу ADJ ;
+кызык ADJ ;
+мотиватсиялуу ADJ ;
+тик ADJ ;
+чечүүчү ADJ ;
 
 LEXICON AdvStems
 
@@ -4743,6 +4754,7 @@ LEXICON VerbStems
 үйрөн V-INFL-TV ;
 өл V-INFL-IV ; 
 өт V-INFL-TV ;
+кон V-INFL-IV ;
 
 мойнуна% ал V-INFL-TV ; 
 кыйнал V-INFL-IV ; 
@@ -4827,6 +4839,7 @@ LEXICON VerbStems
 кучакта V-INFL ; 
 кый% ет V-INFL ; 
 кыйна V-INFL ; 
+кыйнал V-INFL ;
 кырк V-INFL ; 
 кыс V-INFL ; 
 күй V-INFL ; 
@@ -4925,7 +4938,8 @@ LEXICON VerbStems
 сиңир V-INFL ;
 өчүр V-INFL ; 
 тир V-INFL ;
-уч V-INFL ;
+уч V-INFL-IV ;
+алын V-INFL ;
 
 катыш V-INFL ;
 сарсанаа% тарт V-INFL ;
@@ -4947,8 +4961,11 @@ LEXICON VerbStems
 секир V-INFL ; 
 
 кыйн V-INFL-TV ; 
-
-
+айда V-INFL-TV ;
+айт V-INFL-TV ;
+жылмай V-INFL-IV ;
+ойло V-INFL-TV ;
+салыштыр V-INFL;
 
 LEXICON Abbreviations
 
