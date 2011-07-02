@@ -2776,6 +2776,8 @@
 	<e c="  0"><p><l>geçememe<s n="n"/></l><r>өтпөй<b/>калуу<s n="n"/></r></p></e>
 	<e c="  0"><p><l>çavuş<s n="n"/></l><r>сержант<s n="n"/></r></p></e>
 	<e c="  0"><p><l>havacılık<s n="n"/></l><r>абаачылык<s n="n"/></r></p></e>
+	<e c="  0"><p><l>belirleyici<s n="n"/></l><r>чечүүчү<s n="adj"/></r></p></e>
+	
 	
 	
 	
@@ -3066,6 +3068,7 @@
 	<e c="  0"><p><l>akademik<s n="adj"/></l><r>академиялык<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>çalışkan<s n="adj"/></l><r>аракетчил<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>hazırlıklı<s n="adj"/></l><r>даярдыктуу<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>son<s n="adj"/></l><r>акыркы<s n="adj"/></r></p></e>
 	 
     
         <!-- SECTION: Adverbs -->
@@ -3220,6 +3223,7 @@
 	<e c="  0"><p><l>gene<s n="adv"/></l><r>кайра<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>çokça<s n="adv"/></l><r>көп-көп<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>birdenbire<s n="adv"/></l><r>туруптуруп<s n="adv"/></r></p></e>
+	<e c="  0"><p><l>yeni<s n="adv"/></l><r>эми<s n="adv"/></r></p></e>
 	
         <!-- SECTION: Verbs -->
 
@@ -3506,7 +3510,8 @@
 	<e c="  0"><p><l>karşılaş<s n="v"/></l><r>жоолук<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>kalk<s n="v"/></l><r>тур<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>gülümse<s n="v"/></l><r>жылмай<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>endişelen<s n="v"/></l><r>сарсанаа<b/>тарт<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>endişelen<s n="v"/></l><r>сарсанаа<b/>тарт<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>manevra<b/>yap<s n="v"/></l><r>маневр<b/>кыл<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>başvur<s n="v"/></l><r>кайрыл<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>ayrıl<s n="v"/></l><r>уза<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>atla<s n="v"/></l><r>секир<s n="v"/><s n="TD"/></r></p></e>
