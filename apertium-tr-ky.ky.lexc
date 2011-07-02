@@ -1807,7 +1807,6 @@ LEXICON NounStems
 кабыр N-INFL ; 
 мүрзө N-INFL ; 
 кабык N-INFL ; 
-кабыл N-INFL ; 
 кабырга N-INFL ; 
 кадрлар N-INFL ; 
 штат N-INFL ; 
@@ -3818,11 +3817,11 @@ LEXICON NounStems
 үмүт N-INFL ;
 ылдамдык N-INFL ;
 баары N-INFL ;
-тик%учак N-INFL ;
+тик% учак N-INFL ;
 пист N-INFL ;
 торт N-INFL ;
 адамгерчилик N-INFL ;
-оор%абал N-INFL ;
+оор% абал N-INFL ;
 аталык N-INFL ; ! ""
 балалык N-INFL ; ! ""
 падышалык N-INFL ; ! ""
@@ -4176,6 +4175,8 @@ LEXICON AdjecStems
 
 алгачкы ADJ-ORD ; ! "first"
 экинчи ADJ-ORD ; ! "second"
+
+аракетчил ADJ ; ! ""
 ушундай ADJ ;
 аял ADJ ;
 жаш ADJ ; 
@@ -4745,6 +4746,7 @@ LEXICON VerbStems
 
 мойнуна% ал V-INFL-TV ; 
 кыйнал V-INFL-IV ; 
+кабыл% кыл V-INFL-TV ; ! "accept"
 
 
 
@@ -4890,7 +4892,6 @@ LEXICON VerbStems
 түгөн V-INFL ; 
 түзүл V-INFL ; 
 түтө V-INFL ; 
-түш V-INFL ; 
 түш V-INFL ; 
 төк V-INFL ; 
 төлө V-INFL ; 

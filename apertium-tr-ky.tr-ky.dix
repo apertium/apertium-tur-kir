@@ -3230,6 +3230,7 @@
 	<e c="  0"><p><l>bil<s n="v"/></l><r>бил<s n="v"/><s n="tv"/></r></p></e>
 
         <e c="  0"><p><l>itiraf<b/>et<s n="v"/></l><r>мойнуна<b/>ал<s n="v"/><s n="tv"/></r></p></e>
+        <e c="  0"><p><l>kabul<b/>et<s n="v"/></l><r>кабыл<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
 
 	<e c="  0"><p><l>geril<s n="v"/></l><r>кыйнал<s n="v"/><s n="iv"/></r></p></e>  
 	<e slr="1"><p><l>geril<s n="v"/></l><r>керил<s n="v"/><s n="iv"/></r></p></e>  
@@ -3244,9 +3245,11 @@
 
 	<e c="  0"><p><l>git<s n="v"/></l><r>кет<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>arık<s n="v"/></l><r>кет<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>çalış<s n="v"/></l><r>иште<s n="v"/><s n="TD"/></r></p></e>
+
+	<e c="  0"><p><l>çalış<s n="v"/></l><r>иште<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e slr="1"><p><l>çalış<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="TD"/></r></p></e>
 	<e slr="2"><p><l>çalış<s n="v"/></l><r>оку<s n="v"/><s n="TD"/></r></p></e>
+
 	<e c="  0"><p><l>bildir<s n="v"/></l><r>билдир<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>bilin<s n="v"/></l><r>билин<s n="v"/><s n="TD"/></r></p></e>
 	<e slr="1"><p><l>bilin<s n="v"/></l><r>тааныл<s n="v"/><s n="TD"/></r></p></e>
@@ -3254,7 +3257,7 @@
 	<e slr="1"><p><l>bin<s n="v"/></l><r>түш<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>birik<s n="v"/></l><r>топтол<s n="v"/><s n="TD"/></r></p></e>
 	<e slr="1"><p><l>birik<s n="v"/></l><r>жыйнал<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>bit<s n="v"/></l><r>бүт<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>bit<s n="v"/></l><r>бүт<s n="v"/><s n="iv"/></r></p></e>
 	<e slr="1"><p><l>bit<s n="v"/></l><r>аякта<s n="v"/><s n="TD"/></r></p></e>
 	<e slr="2"><p><l>bit<s n="v"/></l><r>түгөн<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>biç<s n="v"/></l><r>быч<s n="v"/><s n="TD"/></r></p></e>
@@ -3468,8 +3471,6 @@
 	<e c="  0"><p><l>bak<s n="v"/></l><r>кара<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>belir<s n="v"/></l><r>кыйна<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>düz<s n="v"/></l><r>тиз<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>çalış<s n="v"/></l><r>иште<s n="v"/><s n="TD"/></r></p></e>
-	<e slr="1"><p><l>çalış<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>getir<s n="v"/></l><r>алып<b/>кел<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>aç<s n="v"/></l><r>ач<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>kal<s n="v"/></l><r>кал<s n="v"/><s n="TD"/></r></p></e>
