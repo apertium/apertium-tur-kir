@@ -3849,6 +3849,7 @@ LEXICON NounStems
 парашут N-INFL ;
 үйрөнүу N-INFL ;
 окутуу N-INFL ;
+жылдык N-INFL ;
 
 тик% учак N-INFL ; 
 
@@ -4016,6 +4017,9 @@ Tеңир NP-TOP ; ! ""
 Кокон NP-TOP ;
 Жалал% Абад NP-TOP ;
 Нарын NP-TOP ;
+Супер% Галеб NP-TOP ;
+Серб% Аскери NP-TOP ;
+Г4 NP-TOP ;
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
