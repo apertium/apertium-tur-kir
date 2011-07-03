@@ -121,6 +121,7 @@ Multichar_Symbols
 %{L%}       ! Realised as 'л', 'д', 'т'
 %{S%}       ! Realised as 'с' or ''; only used in 3rd person morphology
 %{n%}       ! Realised as 'н' or ''; only used in 3rd person morphology and -NIKI
+%{l%}       ! Realised as 'л' or 'н'; only used in passive -{I}{l}
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -563,9 +564,9 @@ LEXICON V-INFL-TV
 %<v%>%<tv%>: V-INFL-COMMON ;
 %<v%>%<tv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
 %<v%>%<tv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
-%<v%>%<pass%>:%>%{I%}%{L%} V-INFL-COMMON ;                                    !
-%<v%>%<pass%>%<inf%>:%>%{I%}%{L%}%>%{U%}%{U%} POSSESSION ;                    ! 
-%<v%>%<pass%>%<neg%>%<inf%>:%>%{I%}%{L%}%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
+%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                                    !
+%<v%>%<tv%>%<pass%>%<inf%>:%>%{I%}%{l%}%>%{U%}%{U%} POSSESSION ;                    ! 
+%<v%>%<tv%>%<pass%>%<neg%>%<inf%>:%>%{I%}%{l%}%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
 
 LEXICON V-INFL-IV
 
@@ -4733,30 +4734,31 @@ LEXICON VerbStems
 оку V-INFL-IV ; ! "read"
 оку V-INFL-TV ; ! "read"
 окшо V-INFL-IV ; ! "be similar to"
-саба V-INFL-TV ;  ! ""
+саба V-INFL-TV ; ! ""
 сакта V-INFL-TV ;
 сал V-INFL-TV ;
-сана V-INFL-TV ; 
+сана V-INFL-TV ; ! "count/consider"
 секир V-INFL-IV ; 
+сий V-INFL-IV ; 
 сыйла V-INFL-TV ; 
 сүй V-INFL-TV ; ! "love"
 тааны V-INFL-TV ;
 тарт V-INFL-IV ;
 таң% ат V-INFL-TV ; ! "dawn"
-тий V-INFL-TV ;
+тий V-INFL-TV ; ! "touch" (takes dative)
 тур V-INFL-IV ; ! "stand, live"
-түз V-INFL-IV ;
+түз V-INFL-TV ; ! "fill in/out" (e.g., a list)
 түздө V-INFL-TV ; ! ""
 ук V-INFL-IV ; ! "listen"
 ук V-INFL-TV ; ! "listen"
 укта V-INFL-IV ; ! "sleep"
-унут V-INFL-TV ;
+унут V-INFL-TV ; ! "forget"
 чий V-INFL-TV ; ! "draw a line"
-эсепте V-INFL-TV ;
+эсепте V-INFL-TV ; ! "consider/count"
 үйрөн V-INFL-IV ;
 үйрөн V-INFL-TV ;
-өл V-INFL-IV ; 
-өт V-INFL-TV ;
+өл V-INFL-IV ; ! "die"
+өт V-INFL-TV ; ! "pass" should be IV?
 кон V-INFL-IV ;
 
 мойнуна% ал V-INFL-TV ; 
@@ -4766,18 +4768,18 @@ LEXICON VerbStems
 
 
 
-отур V-INFL ; ! "sit"
-бар V-INFL ; 
-аракет% кыл V-INFL ; 
+отур V-INFL-IV ; ! "sit"
+бар V-INFL-IV ; ! "go"
+аракет% кыл V-INFL ; ! "try"
 арна V-INFL ; 
 аякта V-INFL ; 
 бак V-INFL ; 
-башта V-INFL ; 
+башта V-INFL-TV ; 
 без V-INFL ; 
-билдир V-INFL ; 
-билин V-INFL ; 
-боё V-INFL ; 
-буз V-INFL ; 
+билдир V-INFL-TV ; 
+билин V-INFL-IV ; 
+боё V-INFL-TV ; 
+буз V-INFL-TV ; 
 бузул V-INFL ; 
 буйрук% бер V-INFL ; 
 була V-INFL ; 
@@ -4790,26 +4792,26 @@ LEXICON VerbStems
 быш V-INFL ; 
 бүк V-INFL ; 
 бүктө V-INFL ; 
-бөл V-INFL ; 
+бөл V-INFL-TV ; ! "divide"
 гий V-INFL ; 
 гэр V-INFL ; 
 дала V-INFL ; 
-даярда V-INFL ; 
+даярда V-INFL-TV ; 
 де V-INFL ; ! "say"
-елестет V-INFL ; 
+елестет V-INFL-TV ; ! "imagine"
 жаа V-INFL ; 
-жай V-INFL ; 
+жай V-INFL-TV ; ! "hang out to dry", "spread out"
 жан V-INFL ; 
 жаркыра V-INFL ; 
 жарыл V-INFL ; 
 жаша V-INFL ; 
 же V-INFL ; ! "eat"
-жибер V-INFL ; 
-жинден V-INFL ; 
+жибер V-INFL-TV ; ! "send"
+жинден V-INFL-IV ; ! "get angry"
 жон V-INFL ; 
 жулмала V-INFL ; 
 жум V-INFL ; 
-жыгыл V-INFL ; 
+жыгыл V-INFL ; ! "fall over"
 жый V-INFL ; 
 жыйнал V-INFL ; 
 жыйынтыкта V-INFL ; 
@@ -4820,23 +4822,24 @@ LEXICON VerbStems
 жэң V-INFL ; 
 жүктө V-INFL ; 
 илгериле V-INFL ; 
-кайнат V-INFL ; 
+кайна V-INFL-IV ; ! "boil"
+кайнат V-INFL-TV ; ! "boil"
 кал V-INFL ; 
-карма V-INFL ; 
+карма V-INFL-TV ; ! "hold"
 кары V-INFL ; 
 карышта V-INFL ; 
-керек V-INFL ; 
-кес V-INFL ; 
+керек V-INFL ; ! NOT A VERB!
+кес V-INFL-TV ; ! "cut"
 кеч V-INFL ; 
-кир V-INFL ; 
+кир V-INFL-IV ; ! "enter"
 кооздо V-INFL ; 
 корго V-INFL ; 
 кош V-INFL ; 
 кошомат% кыл V-INFL ; 
 коңурук% тарт V-INFL ; 
 кубала V-INFL ; 
-кула V-INFL ; 
-кулат V-INFL ; 
+кула V-INFL-IV ; ! "fall over"
+кулат V-INFL-TV ; ! "make fall over"
 кура V-INFL ; 
 кургат V-INFL ; 
 кучакта V-INFL ; 
@@ -4848,14 +4851,15 @@ LEXICON VerbStems
 күй V-INFL ; 
 күнөөлө V-INFL ; 
 көбөйт V-INFL ; 
-көр V-INFL ; 
-көрсөт V-INFL ; 
-макта V-INFL ; 
+көр V-INFL-TV ; ! "see"
+көрсөт V-INFL ; ! "show"
+макта V-INFL-TV ; ! "brag about"
+мактан V-INFL-IV ; ! "brag"
 мин V-INFL ; 
 муунт V-INFL ; 
-мыйооло V-INFL ; 
+мыйооло V-INFL-IV ; ! "meow"
 оз V-INFL ; 
-ойно V-INFL ; 
+ойно V-INFL-IV ; ! "play"
 окшош V-INFL ; 
 онто V-INFL ; 
 ор V-INFL ; 
@@ -4881,29 +4885,29 @@ LEXICON VerbStems
 сүйлө V-INFL ; ! "speak"
 сүр V-INFL ; 
 тааныл V-INFL ; 
-таарын V-INFL ; 
-тажа V-INFL ; 
-талкала V-INFL ; 
-там V-INFL ; 
-тан% кал V-INFL ; 
-тап V-INFL ; 
+таарын V-INFL-IV ; ! "be offended (at)"
+тажа V-INFL-IV ; ! "get fed up with"
+талкала V-INFL-TV ; ! "destroy"
+там V-INFL-IV ; ! "drip"
+таң% кал V-INFL-IV ; ! "be surprised"
+тап V-INFL-TV ; ! "find"
 тартуула V-INFL ; 
 тартын V-INFL ; 
-ташы V-INFL ; 
-таң%кал V-INFL ; 
-теп V-INFL ; 
-терде V-INFL ; 
-теш V-INFL ; 
+ташы V-INFL-TV ; ! "haul"
+теп V-INFL-TV ; ! "step on"
+терде V-INFL-IV ; ! "sweat"
+теш V-INFL-TV ; ! "put a hole in"
 тиз V-INFL ; 
 тик V-INFL ; 
 той V-INFL ; 
-токто V-INFL ; ! "stop" 
-тол V-INFL ; 
+токто V-INFL-IV ; ! "stop" 
+токтот V-INFL-TV ; ! "stop" 
+тол V-INFL-IV ; ! "be full"
 толукта V-INFL ; 
 топто V-INFL ; 
 топтол V-INFL ; 
 тосуп% ал V-INFL ; 
-тоң V-INFL ; 
+тоң V-INFL-IV ; ! "freeze"
 тут V-INFL ; 
 түгөн V-INFL ; 
 түзүл V-INFL ; 
