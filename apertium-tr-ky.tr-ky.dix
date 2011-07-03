@@ -2777,7 +2777,7 @@
 	<e c="  0"><p><l>çavuş<s n="n"/></l><r>сержант<s n="n"/></r></p></e>
 	<e c="  0"><p><l>havacılık<s n="n"/></l><r>абаачылык<s n="n"/></r></p></e>
 	<e c="  0"><p><l>belirleyici<s n="n"/></l><r>чечүүчү<s n="adj"/></r></p></e>
-	
+	<e c="  0"><p><l>taarruz<s n="n"/></l><r>чабуул<s n="adj"/></r></p></e>
 	
 	
 	
@@ -2893,6 +2893,8 @@
 	<e><p><l>Stankoviç<s n="np"/></l><r>Станкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 	<e><p><l>Ruziç<s n="np"/></l><r>Рузич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 	<e><p><l>Tadiç<s n="np"/></l><r>Тадич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+	<e><p><l>Gazela<s n="np"/></l><r>Газел<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+	<e><p><l>Galeb<s n="np"/></l><r>Галеб<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
     
         <!-- SECTION: Adjectives -->
