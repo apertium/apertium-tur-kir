@@ -5,6 +5,7 @@
      <sdef n="num"       c="Numeral"/>
      <sdef n="adj"       c="Adjective"/>
      <sdef n="post"      c="Postposition"/>
+     <sdef n="postp"     c="Postposition trmorph"/>
      <sdef n="part"      c="Particle"/>
      <sdef n="prn"       c="Pronouns"/>
      <sdef n="np"        c="Proper noun"/>
@@ -112,10 +113,14 @@
 <!-- TODO: Check -->
 
         <!-- SECTION: Postpositions -->
-	<e c="  0"><p><l>aşağı<s n="post"/></l><r>ылдый<s n="post"/></r></p></e>
-        <e c="  0"><p><l>boyunca<s n="post"/></l><r>боюнча<s n="post"/></r></p></e>
-	<e c="  0"><p><l>değin<s n="post"/></l><r>чейин<s n="post"/></r></p></e>
-	<e c="  0"><p><l>kadar<s n="post"/></l><r>чейин<s n="post"/></r></p></e>
+	<e c="  0"><p><l>aşağı<s n="postp"/></l><r>ылдый<s n="post"/></r></p></e>
+        <e c="  0"><p><l>boyunca<s n="postp"/></l><r>боюнча<s n="post"/></r></p></e>
+	<e c="  0"><p><l>değin<s n="postp"/></l><r>чейин<s n="post"/></r></p></e>
+	<e c="  0"><p><l>kadar<s n="postp"/></l><r>чейин<s n="post"/></r></p></e>
+	<e c="  0"><p><l>karşın<s n="postp"/></l><r>карабай<s n="post"/></r></p></e>
+	<e c="  0"><p><l>için<s n="postp"/></l><r>үчүн<s n="post"/></r></p></e>
+	<e c="  0"><p><l>bile<s n="postp"/></l><r>дагы<s n="post"/></r></p></e>
+
 	<!-- SECTION: Pronouns -->
 
 	<e c="  0"><p><l>ben<s n="prn"/></l><r>мен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>

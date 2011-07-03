@@ -635,6 +635,8 @@ LEXICON Postpositions
 жөнүндө POST ; ! "about" +nom
 тиешелүү POST ; ! "belonging to" +dat
 карата POST ; ! "" +dat
+карабай POST ;
+дагы POST ;
 
 
 LEXICON Determiners
