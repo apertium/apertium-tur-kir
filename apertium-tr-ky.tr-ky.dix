@@ -1222,7 +1222,6 @@
 	<e c="  0"><p><l>gebe<s n="n"/></l><r>бооз<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>gece<s n="n"/></l><r>түн<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>gecekondu<s n="n"/></l><r>уранды<s n="n"/></r></p></e>  
-	<e c="  0"><p><l>geçen<s n="n"/></l><r>өткөн<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>geçit<s n="n"/></l><r>өтмөк<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>gelecek<s n="n"/></l><r>келечек<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>gelenek<s n="n"/></l><r>салт<s n="n"/></r></p></e>  
@@ -1940,7 +1939,7 @@
 	<e c="  0"><p><l>morfoloji<s n="n"/></l><r>морфология<s n="n"/></r></p></e>
 	<e c="  0"><p><l>motif<s n="n"/></l><r>мотив<s n="n"/></r></p></e>
 	<e c="  0"><p><l>motor<s n="n"/></l><r>мотор<s n="n"/></r></p></e>
-	<e c="  0"><p><l>motivasyonlu<s n="n"/></l><r>мотиватсия<s n="n"/></r></p></e>
+	<e c="  0"><p><l>motivasyon<s n="n"/></l><r>мотиватсия<s n="n"/></r></p></e>
 	<e c="  0"><p><l>motosiklet<s n="n"/></l><r>мотоцикл<s n="n"/></r></p></e>
 	<e c="  0"><p><l>muamele<s n="n"/></l><r>мамиле<s n="n"/></r></p></e>
 	<e slr="1"><p><l>muamele<s n="n"/></l><r>байланыш<s n="n"/></r></p></e>
@@ -2783,6 +2782,8 @@
 	<e c="  0"><p><l>havacılık<s n="n"/></l><r>абаачылык<s n="n"/></r></p></e>
 	<e c="  0"><p><l>belirleyici<s n="n"/></l><r>чечүүчү<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>taarruz<s n="n"/></l><r>чабуул<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>arkadaşlık<s n="n"/></l><r>теңтуштук<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>yıllık<s n="n"/></l><r>жылдык<s n="adj"/></r></p></e>
 	
 	
 	
@@ -2885,7 +2886,10 @@
         <e><p><l>Mezopotamya<s n="np"/></l><r>Мезопотамия<s n="np"/><s n="top"/></r></p></e>
 	<e><p><l>Sırb<s n="np"/></l><r>Серп<s n="np"/><s n="top"/></r></p></e>
 	<e><p><l>Sırbistan<s n="np"/></l><r>Сербия<s n="np"/><s n="top"/></r></p></e>
-	
+	<e><p><l>Super<b/>Galeb<s n="np"/></l><r>Супер<b/>Галеб<s n="np"/><s n="top"/></r></p></e>
+	<e><p><l>G4<s n="np"/></l><r>Г4<s n="np"/><s n="top"/></r></p></e>
+
+	<e><p><l>Sırp<b/>Ordusu<s n="np"/></l><r>Серб<b/>Аскери<s n="np"/><s n="top"/></r></p></e>
         <e><p><l>Ahmet<s n="np"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
         <e><p><l>Nikola<s n="np"/></l><r>Никола<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
         <e><p><l>Nemanja<s n="np"/></l><r>Неманя<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -2899,7 +2903,7 @@
 	<e><p><l>Ruziç<s n="np"/></l><r>Рузич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 	<e><p><l>Tadiç<s n="np"/></l><r>Тадич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 	<e><p><l>Gazela<s n="np"/></l><r>Газел<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-	<e><p><l>Galeb<s n="np"/></l><r>Галеб<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+	
 
     
         <!-- SECTION: Adjectives -->
@@ -3080,7 +3084,8 @@
 	<e c="  0"><p><l>mutlu<s n="adj"/></l><r>кубанычтуу<s n="adj"/></r></p></e>
 	<e slr="1"><p><l>mutlu<s n="adj"/></l><r>бактылуу<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>eğitimli<s n="adj"/></l><r>билимдүү<s n="adj"/></r></p></e>
-	 
+	<e c="  0"><p><l>geçen<s n="adj"/></l><r>өткөн<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>motivasyonlu<s n="adj"/></l><r>мотиватсиялуу<s n="adj"/></r></p></e>
     
         <!-- SECTION: Adverbs -->
 
