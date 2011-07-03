@@ -1,0 +1,47 @@
+Config:
+  hfst:
+    App: hfst-lookup
+    Gen: ../tr-ky.autogen.hfst
+    Morph: ../ky-tr.automorf.hfst
+
+Tests:
+
+  "[twol] Yotification":
+    кой<v><tv><cv_perf> : коюп
+    кой<v><tv><inf><nom> : коюу
+    кой<v><tv><cv_impf> : коё
+    тий<v><iv><cv_impf> : тие
+    жай<v><tv><cv_impf> : жая
+    саба<v><tv><cv_impf> : сабай
+
+  "[twol] м and п stuff":
+    тап<v><tv><cv_perf> : таап
+    өп<v><tv><cv_perf> : өөп
+    теп<v><tv><cv_perf> : тээп
+    там<v><iv><cv_perf> : таамп
+    эм<v><iv><cv_perf> : ээмп
+
+  "[twol] {I}{l} passives":
+    тап<v><tv><pass><inf><nom> : табылуу
+    саба<v><tv><pass><inf><nom> : сабалуу
+    бил<v><tv><pass><inf><nom> : билинүү
+    талкала<v><tv><pass><inf><nom> : талкалануу
+
+  "[lexc] Infinitive -{U}{U}":
+    бол<v><iv><inf><nom> : болуу
+    сүй<v><tv><inf><nom> : сүйүү
+    окшо<v><iv><inf><nom> : окшоо
+    иште<v><iv><inf><nom> : иштөө
+    саба<v><tv><inf><nom> : сабоо
+    аарчы<v><tv><inf><nom> : аарчуу
+    шиши<v><iv><inf><nom> : шишүү
+    ат<v><tv><inf><nom> : атуу
+    кет<v><iv><inf><nom> : кетүү
+    боё<v><tv><inf><nom> : боёо
+
+  "[twol] {I} deletion":
+    бол<v><iv><cv_perf> : болуп
+    сүй<v><tv><cv_perf> : сүйүп
+    иште<v><iv><cv_perf> : иштеп
+
+
