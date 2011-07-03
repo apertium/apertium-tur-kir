@@ -4017,21 +4017,23 @@ Tеңир NP-TOP ; ! ""
 Кокон NP-TOP ;
 Жалал% Абад NP-TOP ;
 Нарын NP-TOP ;
-Супер% Галеб NP-TOP ;
-Серб% Аскери NP-TOP ;
-Г4 NP-TOP ;
+Бишкек NP-TOP ; ! "Bishkek"
+Лондон NP-TOP ; ! "London"
+Ысык%-Көл NP-TOP ; ! ""
+Ысык%-Көл:Ысык% Көл NP-TOP ; ! Dir/LR ""
+
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
 Ленинчил NP-ORG ; ! "" 
 Кыргызокуупедмамбас NP-ORG ; ! "Kyrgyz Pedagogical State Press"
+Серб% Аскери NP-ORG ;
 
 Нооруз NP-AL ; ! ""
-
-Бишкек NP-TOP ; ! "Bishkek"
-Лондон NP-TOP ; ! "London"
-Ысык%-Көл NP-TOP ; ! ""
-Ысык%-Көл:Ысык% Көл NP-TOP ; ! Dir/LR ""
+Супер% Галеб NP-AL ;
+Г4 NP-AL ; ! ""
+Газел NP-AL ; ! ""
+Супер% Г4 NP-AL ; ! "" 
 
 Ахмет NP-ANT-M ; ! "Axmet"
 Мирлан NP-ANT-M ; ! "Mirlan"
@@ -4180,6 +4182,7 @@ Tеңир NP-TOP ; ! ""
 Эшмамбетов NP-COG-MF ; ! ""
 Эшматов NP-COG-MF ; ! ""
 Тадич NP-COG-MF ;
+Крнета NP-COG-MF ;
 
 Эрдоган NP-COG-MF ; ! ""
 
