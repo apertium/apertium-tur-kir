@@ -3842,13 +3842,15 @@ LEXICON NounStems
 ишемби N-INFL ; ! ""
 жекшемби N-INFL ; ! "Saturday"
 достук N-INFL ;
-өтпөй<b/>калуу N-INFL ;
+өтпөй% калуу N-INFL ;
 кызыгуу N-INFL ;
 машина N-INFL ;
 сержант N-INFL ;
 парашут N-INFL ;
 үйрөнүу N-INFL ;
 окутуу N-INFL ;
+
+тик% учак N-INFL ; 
 
 
 LEXICON PropernounStems
