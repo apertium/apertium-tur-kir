@@ -601,6 +601,7 @@ LEXICON Postadverbs
 LEXICON Conjunctions 
 
 жана CC ; ! "and"
+болсо CC ;
 да CC ; ! "and"
 же CC ; ! "or"
 менен CC ; ! "and"
@@ -3850,7 +3851,7 @@ LEXICON NounStems
 үйрөнүу N-INFL ;
 окутуу N-INFL ;
 жылдык N-INFL ;
-
+кишилик N-INFL ;
 тик% учак N-INFL ; 
 сот N-INFL ;
 
@@ -4987,6 +4988,7 @@ LEXICON VerbStems
 ойло V-INFL-TV ;
 салыштыр V-INFL;
 маневр% кыл V-INFL-TV ;
+көтөрүл V-INFL ;
 
 LEXICON Abbreviations
 
