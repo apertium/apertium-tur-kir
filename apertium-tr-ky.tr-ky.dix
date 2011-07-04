@@ -87,7 +87,8 @@
    
         <!-- SECTION: Conjunctions -->
 
-	<e c="  0"><p><l>ve<s n="cnjcoo"/></l><r>жана<s n="cnjcoo"/></r></p></e>
+	<e c="  0"><p><l>ve<s n="cnjcoo"/></l><r>жана<s n="cnjcoo"/></r></p></e>	
+	<e c="  0"><p><l>ise<s n="cnjcoo"/></l><r>болсо<s n="cnjcoo"/></r></p></e>
 	<e c="  0"><p><l>ama<s n="cnjcoo"/></l><r>бирок<s n="cnjcoo"/></r></p></e>
 	<e c="  0"><p><l>ile<s n="cnjcoo"/></l><r>менен<s n="cnjcoo"/></r></p></e>
  	<e c="  0"><p><l>fakat<s n="cnjadv"/></l><r>бирок<s n="cnjadv"/></r></p></e> 
@@ -2774,7 +2775,8 @@
 	<e c="  0"><p><l>pist<s n="n"/></l><r>пист<s n="n"/></r></p></e>
 	<e c="  0"><p><l>pasta<s n="n"/></l><r>торт<s n="n"/></r></p></e>
 	<e c="  0"><p><l>kontenjan<s n="n"/></l><r>оорун<s n="n"/></r></p></e>
-	<e c="  0"><p><l>kişilik<s n="n"/></l><r>адамгерчилик<s n="n"/></r></p></e>
+	<e c="  0"><p><l>kişilik<s n="n"/></l><r>кишилик<s n="n"/></r></p></e>
+	<e slr="1"><p><l>kişilik<s n="n"/></l><r>адамгерчилик<s n="n"/></r></p></e>
 	<e c="  0"><p><l>gerginlik<s n="n"/></l><r>оор<b/>абал<s n="n"/></r></p></e>
 	<e c="  0"><p><l>tehlike<s n="n"/></l><r>коркунуч<s n="n"/></r></p></e>
 	<e c="  0"><p><l>yan<s n="n"/></l><r>жан<s n="n"/></r></p></e>
@@ -3533,6 +3535,7 @@
 	<e c="  0"><p><l>kaydol<s n="v"/></l><r>жазыл<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>karşılaş<s n="v"/></l><r>салыштыр<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>kalk<s n="v"/></l><r>тур<s n="v"/><s n="TD"/></r></p></e>
+	<e slr="1"><p><l>kalk<s n="v"/></l><r>көтөрүл<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>gülümse<s n="v"/></l><r>жылмай<s n="v"/><s n="TD"/></r></p></e>
 	<e c="  0"><p><l>endişelen<s n="v"/></l><r>сарсанаа<b/>тарт<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>manevra<b/>yap<s n="v"/></l><r>маневр<b/>кыл<s n="v"/><s n="TD"/></r></p></e>
