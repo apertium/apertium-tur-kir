@@ -18,6 +18,10 @@ Cns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ
       %{D%} %{G%} %{N%} %{L%} %{B%} %{S%} %{n%} %{l%} ;
       !%{D%} %{G%} %{N%} %{L%} %{B%} %{P%} %{S%} %{n%} ;
 
+SurCns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ 
+         б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ь ъ ;
+
+
 !CnsNoY = Б В Г Д Ж З К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ 
 !         б в г д ж з к л м н ң п р с т ф х ц ч ш щ ь ъ 
 !         %{D%} %{G%} %{N%} %{L%} %{B%} %{S%} %{n%} %{l%} ;
@@ -44,7 +48,7 @@ BackUnrndVow = А Ы а ы Я я ;
 FrontRndVow = Ө Ү ө ү ;
 BackRndVow =  О У о у Ю ю Ё ё ;
 BackLowRndVow = О о Ё ё ;
-LowVow = Е е Э э Ө ө А а Я я О о Ё ё ;
+LowVow = Е е Э э Ө ө А а Я я О о Ё ё АА аа ЭЭ ээ ӨӨ өө ОО оо ;
 YotVow = Я я Е е Ё ё Ю ю ;
 
 NasalCns = м н ң
@@ -83,8 +87,7 @@ WildNonPhon = %> 0 ;
 
 Rules
 
-"Vowel deletion for archiphoneme {I}"
-%{I%}:0 <=> :SurVow (%>:) _ ;
+!!!!!!!!!!!!!   Rules that work and don't bother anything !!!!!!!!!!!
 
 "Soft sign deletion before suffix"
 ь:0 <=> _ %>: ;
@@ -92,26 +95,79 @@ Rules
 "/n/ deletion in px3 nominative"
 %{n%}:0 <=> _ .#. ;
 
+"{E} turns to й after a vowel"
+%{E%}:й <=> :SurVow %>: _ ;
+
+"L Desonorisation"
+%{L%}:д <=> VoicedLowSonCns %>: _ ;
+
+"N Desonorisation"
+%{N%}:д <=> VoicedCns %>: _ ;
+!!%{N%}:д <=> [ SonCns | VoicedNonSonCns ] %>:  _ ;
+
+!!!!!!!!!!!!!   Rules that might be messing with me !!!!!!!!!!!!!
+
+"Devoicing of stops etc. across morpheme boundary after voiceless consonants" !!"Katkalan harmony in consonants"
+Cx:Cy <=>  :UnvoicedNonSonCns %>: _ ;   !Cx:Cy <=>  UnvoicedNonSonCns %>: _ ;
+        where Cx in ( %{B%}  %{G%}  %{D%}  %{L%}  %{N%} )
+              Cy in (   п      к      т      т      т)
+              matched;
+
+
+
+!!!!!!!!!!!!   Consonant stuff  !!!!!!!!!!!!!
+
+"Voiceless non-coronal stop voicing"
+!Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ; 
+!Cx:Cy <=> :SurVow _ WildNonPhon* :SurVow ;
+!Cx:Cy <=> :SurVow _ [ WildNonPhon: | :WildNonPhon ]* :SurVow ;
+Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ; 
+        where Cx in (  п   к  )
+              Cy in (  б   г  )
+              matched ;
+
+
+!!!!!!!!!!!!   Deletion   !!!!!!!!!!!!!!!!
+
+"Vowel deletion for archiphoneme {I}"
+!%{I%}:0 <=> :SurVow (%>:) _ \п ;
+!%{I%}:0 <=> :SurVow (%>:) _ ;
+!%{I%}:0 <=> :SurVow WildNonPhon* _ ;
+!%{I%}:0 <=> :SurVow [ WildNonPhon: | :WildNonPhon ]* _ ;
+%{I%}:0 <=> :SurVow (%>:) _ \п ;
+
+"Vowel deletion for archiphoneme {I} in <cv_perf>"
+!%{I%}:0 <=> [ :SurVow | :LowVow :LabialCns ]  (%>:) _ п ;
+!%{I%}:0 <=> :LowVow :LabialCns WildNonPhon* _ ;
+%{I%}:0 <=> :LowVow :LabialCns [ WildNonPhon: | :WildNonPhon ]* _ ;
+
 "Deletion of {S} after a consonant"
+!%{S%}:0 <=> :Cns :0* (%>:) _ ;
+!%{S%}:0 <=> :Cns WildNonPhon* _ ;
+!%{S%}:0 <=> :Cns [ WildNonPhon: | :WildNonPhon ]* _ ;
 %{S%}:0 <=> :Cns :0* (%>:) _ ;
 
 
-"Vowel harmony for archiphoneme {A}"
-!Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]*  [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns ] _ ; 
-!Vx:Vy <=> :LastVowel %>: :0 Cns %>: :0 _ ;
-!Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]*  [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns | [ :0 | %>: | :Cns ]* :Cns [ :0 | %>: | :Cns ]* ] _ ; 
-!Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
-Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
-        where Vx         in ( %{A%} %{A%} %{A%} %{A%} %{A%} %{A%} %{A%} %{A%} %{A%} %{A%} %{A%} %{A%} )
-              Vy         in (   е     ө     е     е     ө     а     а     о     о     а     а     а   )
-              LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
-              matched ; 
 
-"Yoticised vowel harmony for archiphoneme {A}"
-%{A%}:Vy <=> :LastVowel WildNoVow* й: WildNonPhon* _ ;
-        where Vy  in ( е  ө  е  е  ө  я  я  ё  ё  я  я  я )
-        LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
-               matched ;
+
+!!!!!!!!!!!!   Vowel harmony !!!!!!!!!!!!!
+
+!"Vowel harmony for archiphoneme {A}"
+!!Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]*  [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns ] _ ; 
+!!Vx:Vy <=> :LastVowel %>: :0 Cns %>: :0 _ ;
+!!Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]*  [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns | [ :0 | %>: | :Cns ]* :Cns [ :0 | %>: | :Cns ]* ] _ ; 
+!!Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
+!Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й: ] WildNonPhon* _ ;
+!        where Vx         in ( %{A%} %{A%} %{A%} %{A%} %{A%} %{A%} %{A%} %{A%} %{A%} %{A%} %{A%} %{A%} )
+!              Vy         in (   е     ө     е     е     ө     а     а     о     о     а     а     а   )
+!              LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
+!              matched ; 
+
+"Vowel harmony for archiphoneme {A}"
+%{A%}:Vy <=> :LastVowel [ WildNoVow: | :WildNoVow ]* :SurCns [ WildNonPhon: | :WildNonPhon ]* _ ;
+        where LastVowel in (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  )
+                     Vy in (  е  ө  е  е  ө  а  а  о  о  а  а  а  )
+							matched ;
 
 !"Vowel harmony for archiphoneme {I}"
 !!Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns ] _ [ :Cns | .#. ] ;
@@ -133,39 +189,77 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 !           matched ;
 
 "Vowel harmony for archiphoneme {I}"
-%{I%}:Vy <=> :LastVowel WildNoVow* [ Cns - [ й ] ] WildNonPhon* _ \п ;
+!%{I%}:Vy <=> :LastVowel WildNoVow* [ Cns - [ й: | :LabialCns ] ] WildNonPhon* _ \п ;
+!%{I%}:Vy <=> :LastVowel WildNoVow* [ Cns - й: ] [ WildNonPhon | [ Cns - й: ] ]* _ \п: ;
+%{I%}:Vy <=> :LastVowel WildNoVow* [ Cns - й: ] [ WildNonPhon: | :WildNonPhon | [ Cns - й: ] ]* _ \п: ;
   where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
 
-"Yoticised vowel harmony for archiphoneme {I}"
-%{I%}:Vy <=> :LastVowel WildNoVow* й: WildNonPhon* _ \п ;
-      where Vy  in ( ү  ү  ү  ү  ү  у  у  ю  ю  ы  ю  ю )
-      LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
-               matched ; 
-
-!"Deletion of й before yoticised vowels"
-!й:0 <=> _ ( WildNonPhon* ) :YotVow ;
-
-"Yoticised vowel harmony for archiphoneme {I} before п in <cv_perf>"
-%{I%}:Vy <=> :LastVowel WildNoVow* й: WildNonPhon* _ п ;
-      where Vy  in ( ү  ү  ү  ү  ү  у  у  ю  ю  ы  ю  ю )
-      LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
-               matched ; 
-
-"Vowel harmony for archiphoneme {I} before п in <cv_perf>"
-%{I%}:Vy <=> :LastVowel WildNoVow* [ Cns - [ й: | LabialCns ] ] WildNonPhon* _ п ;
-  where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
-  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
-           matched ;
+"Vowel harmony for archiphoneme {E}" ! should be just like {A}
+!Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns ] _ ; 
+Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ; 
+        where Vx         in ( %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} )
+              Vy         in (   е     ө     е     е     ө     а     а     о     о     а     а     а   )
+              LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
+              matched ; 
 
 
 
-!"Deletion of B at end of verb stem in <cv_perf>"
+!!!!!!!!!!!!   й vowel harmony  !!!!!!!!!!
+
+
+!"Vowel harmony for archiphoneme {A} after й"
+!%{A%}:Vy <=> :LastVowel WildNonPhon* й: WildNonPhon* _ ;
+!        where Vy  in ( е  ө  е  е  ө  я  я  ё  ё  я  я  я )
+!        LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
+!               matched ;
+
+"Vowel harmony for archiphoneme {E} after й" ! should be just like {A}
+%{E%}:Vy <=> :LastVowel WildNonPhon* й: WildNonPhon* _ ; 
+        where Vy  in ( е  ө  е  е  ө  я  я  ё  ё  я  я  я )
+        LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
+              matched ;
+
+!"Vowel harmony for archiphoneme {I} after й"
+!%{I%}:Vy <=> :LastVowel WildNonPhon* й: WildNonPhon* _ \п ;
+!      where Vy  in ( и  ү  и  и  ү  ы  ы  ю  ю  ы  ю  ю )
+!      LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
+!               matched ; 
+
+"Vowel harmony for archiphoneme {U} after й"
+%{U%}:Vy <=> :LastVowel WildNonPhon* й: WildNonPhon* _ ;
+        where Vy  in ( ү  ү  ү  ү  ү  у  у  ю  ю  у  ю  ю )
+        LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
+               matched ;
+
+"Deletion of й before yoticised vowels"
+й:0 <=> _ WildNonPhon* :YotVow ;
+
+
+!!!!!!!!!!!  {I}п crap !!!!!!!!!!!!!
+
+!"Vowel harmony for archiphoneme {I} after й before п in <cv_perf>"
+!%{I%}:Vy <=> :LastVowel WildNoVow* й: WildNonPhon* _ п ;
+!      where Vy  in ( и  ү  и  и  ү  ы  ы  ю  ю  ы  ю  ю )
+!      LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
+!               matched ; 
+
+!"Vowel harmony for archiphoneme {I} before п in <cv_perf>"
+!%{I%}:Vy <=> [ :LastVowel - :LowVow ] WildNoVow* [ Cns - [ й: | LabialCns ] ] WildNonPhon* _ п ;
+!  where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
+!  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
+!           matched ;
+
+
+!"Deletion of п at end of verb stem before {I}п <cv_perf>"
 !п:0 <=> :LowVow _ %>: %{I%}: п ;
 
-"Deletion of {I} after м at end of verb stem in <cv_perf>"
-%{I%}:0 <=> :LowVow :0 м %>: _ п ;
+!"Deletion of п at end of verb stem in <cv_perf>"
+!п:0 <=> _ %>: %{I%}:0 п ;
+
+!"Deletion of {I} after м at end of verb stem in <cv_perf>"
+!%{I%}:0 <=> :LowVow :0 м %>: _ п ;
 
 !"{I} to LowVow after LowVow in <cv_perf>"
 !%{I%}:Vy <=> :Vx LabialCns:0 %>: _ п ;
@@ -179,36 +273,14 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 !                    Vy in ( э ө а а о о )
 !            ShortVowel in ( е ө а я о ё ) ;
 
-!"Lengthening of /a/ at end of verb stem in <cv_perf>"
-!0:а <=> а _ :LabialCns %>: %{I%}:0 п ;
-
-!"Lengthening of /ө/ at end of verb stem in <cv_perf>"
-!0:ө <=> ө _ :LabialCns %>: %{I%}:0 п ;
-
-!"Lengthening of /е/ at end of verb stem in <cv_perf>"
-!0:э <=> е _ :LabialCns %>: %{I%}:0 п ;
-
-!"Making long е into ‹ээ›"
-!е:э <=> _ 0:э ;
-
-!а:аа <=> _ Labial %>: %{I%}:0 п ;
-!      where Labial in ( б м )
-!		matched ;
-
-!"Lenthening of /e/ at end of verb stem in <cv_perf>"
-!е:ээ <=> _ Labial %>: %{I%}:0 п ;
-!      where Labial in ( б м )
-!		matched ;
-
-!"Lenthening of /ө/ at end of verb stem in <cv_perf>"
-!ө:өө <=> _ Labial %>: %{I%}:0 п ;
-!      where Labial in ( б м )
-!		matched ;
+!"Lengthening of low vowels at end of verb stem in <cv_perf>"
+!Vx:Vy <=> _ LabialCns: %>: %{I%}:0 п ;
+!      where Vx in (  э  е  ө  а  я  о  ё  )
+!		      Vy in (  ээ ээ өө аа яа оо ёо )
+!				matched;
 
 
-
-
-
+!!!!!!!!!!!!   {U} stuff (harmony, etc)  !!!!!!!!!!!!!
 
 "Vowel harmony for archiphoneme {U} after consonant"
 !Vx:Vy <=> :LastVowel NotVowel:* _ ; 
@@ -227,20 +299,8 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
                LastVowel  in (   ү     ө     ё     о     ю     у   )
                matched ; 
 
-"Vowel harmony for archiphoneme {U} after й"
-%{U%}:Vy <=> :LastVowel WildNoVow* й: WildNonPhon* _ ;
-        where Vy  in ( ү  ү  ү  ү  ү  у  у  ю  ю  у  ю  ю )
-        LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
-               matched ;
-
-
-
 "{U} deletion after vowel final stem"
 %{U%}:0 <=> Vow %>: _ %{U%}: ; 
-
-"Passive {l} becomes n after verb stem ending in /l/"
-%{l%}:н <=> л [ %>: %{I%}: | :SurVow %>: %{I%}:0 ] _ ;
-
 
 !"Assimilate {U} in infinitives"
 !!%{U%}:Vy <=> :LastVowel ( %>: :0 ) _ ; 
@@ -266,6 +326,13 @@ Vx:Vy <=> _ ( %>: :0 ) %{U%}: ;
 !              matched;
 
 
+
+!!!!!!!!!!!!!!  MISC !!!!!!!!!!!!!!!!
+
+"Passive {l} becomes n after verb stem ending in /l/"
+%{l%}:н <=> л [ %>: %{I%}: | :SurVow %>: %{I%}:0 ] _ ;
+
+
 !"Digraph ю"
 !<[ йу ]> <=> ю ;
 !йу<->ю
@@ -273,30 +340,8 @@ Vx:Vy <=> _ ( %>: :0 ) %{U%}: ;
 !у:0 
 
 
-"{E} turns to й after a vowel"
-%{E%}:й <=> :SurVow %>: _ ;
 
-"Vowel harmony for archiphoneme {E}" ! should be just like {A}
-!Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns ] _ ; 
-Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ; 
-        where Vx         in ( %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} )
-              Vy         in (   е     ө     е     е     ө     а     а     о     о     а     а     а   )
-              LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
-              matched ; 
-
-"Yoticised vowel harmony for archiphoneme {E}" ! should be just like {A}
-%{E%}:Vy <=> :LastVowel WildNoVow* й: WildNonPhon* _ ; 
-        where Vy  in ( е  ө  е  е  ө  я  я  ё  ё  я  я  я )
-        LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
-              matched ; 
-
-
-
-"Voiceless non-coronal stop voicing"
-Cx:Cy <=> :SurVow _ %>: (:0) :SurVow ; 
-        where Cx in (  п   к  )
-              Cy in (  б   г  )
-              matched ;
+!!!!!!!!!!!!!  Possessive case stuff !!!!!!!!!!!!!!!
 
 "Deletion of case-initial consonants after {n} (except locative)"
 !Cx:0 <=> %{n%}: %>: _ ;
@@ -315,19 +360,6 @@ Cx:Cy <=> :SurVow _ %>: (:0) :SurVow ;
 !%{G%}:0 <=> :NasalCns* (%>:) _ ;
 !%{G%}:0 <=> :NasalCns %>: _ %{A%}: .#. ;
 %{G%}:0 <=>  %{I%}: :NasalCns %>: _ %{A%}: .#. ;
-
-"L Desonorisation"
-%{L%}:д <=> VoicedLowSonCns %>: _ ;
-
-"N Desonorisation"
-%{N%}:д <=> VoicedCns %>: _ ;
-!!%{N%}:д <=> [ SonCns | VoicedNonSonCns ] %>:  _ ;
-
-"Devoicing of stops etc. across morpheme boundary after voiceless consonants" !!"Katkalan harmony in consonants"
-Cx:Cy <=>  :UnvoicedNonSonCns %>: _ ;   !Cx:Cy <=>  UnvoicedNonSonCns %>: _ ;
-        where Cx in ( %{B%}  %{G%}  %{D%}  %{L%}  %{N%} )
-              Cy in (   п      к      т      т      т)
-              matched;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
