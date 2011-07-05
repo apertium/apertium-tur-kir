@@ -134,7 +134,8 @@ Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ;
 !%{I%}:0 <=> :SurVow (%>:) _ ;
 !%{I%}:0 <=> :SurVow WildNonPhon* _ ;
 !%{I%}:0 <=> :SurVow [ WildNonPhon: | :WildNonPhon ]* _ ;
-%{I%}:0 <=> :SurVow (%>:) _ \п ;
+!%{I%}:0 <=> :SurVow (%>:) _ \п ;
+%{I%}:0 <=> :SurVow (%>:) _ ;
 
 "Vowel deletion for archiphoneme {I} in <cv_perf>"
 !%{I%}:0 <=> [ :SurVow | :LowVow :LabialCns ]  (%>:) _ п ;
@@ -221,11 +222,11 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
         LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
               matched ;
 
-!"Vowel harmony for archiphoneme {I} after й"
-!%{I%}:Vy <=> :LastVowel WildNonPhon* й: WildNonPhon* _ \п ;
-!      where Vy  in ( и  ү  и  и  ү  ы  ы  ю  ю  ы  ю  ю )
-!      LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
-!               matched ; 
+"Vowel harmony for archiphoneme {I} after й"
+%{I%}:Vy <=> :LastVowel WildNonPhon* й: WildNonPhon* _ \п ;
+      where Vy  in ( и  ү  и  и  ү  ы  ы  ю  ю  ы  ю  ю )
+      LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
+               matched ; 
 
 "Vowel harmony for archiphoneme {U} after й"
 %{U%}:Vy <=> :LastVowel WildNonPhon* й: WildNonPhon* _ ;
