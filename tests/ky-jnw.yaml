@@ -10,9 +10,10 @@ Tests:
     кой<v><tv><cv_perf> : коюп
     кой<v><tv><inf><nom> : коюу
     кой<v><tv><cv_impf> : коё
-    тий<v><iv><cv_impf> : тие
+    тий<v><tv><cv_impf> : тие
     жай<v><tv><cv_impf> : жая
     саба<v><tv><cv_impf> : сабай
+    боё<v><tv><cv_impf> : боёй
 
   "[twol] м and п stuff":
     тап<v><tv><cv_perf> : таап
@@ -41,7 +42,8 @@ Tests:
 
   "[twol] {I} deletion":
     бол<v><iv><cv_perf> : болуп
+    айт<v><iv><cv_perf> : айтып
+    жет<v><iv><cv_perf> : жетип
     сүй<v><tv><cv_perf> : сүйүп
     иште<v><iv><cv_perf> : иштеп
-
-
+    саба<v><tv><cv_perf> : сабап

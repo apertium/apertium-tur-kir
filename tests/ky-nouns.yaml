@@ -254,3 +254,18 @@ Tests:
     уч<n><px3sg><gen> : учунун
     уч<n><px3pl><gen> : учунун
 
+  "[twol] possessive + cases":
+    бала<n><px3sg><nom> : баласы
+    бала<n><px3sg><acc> : баласын
+    бала<n><px3sg><gen> : баласынын
+    бала<n><px3sg><loc> : баласында
+    бала<n><px3sg><abl> : баласынан
+    бала<n><px3sg><dat> : баласына
+    бала<n><px3sg><px> : баласыныкы
+    ит<n><px3sg><nom> : ити
+    ит<n><px3sg><acc> : итин
+    ит<n><px3sg><gen> : итинин
+    ит<n><px3sg><loc> : итинде
+    ит<n><px3sg><abl> : итинен
+    ит<n><px3sg><dat> : итине
+    ит<n><px3sg><px> : итиники
