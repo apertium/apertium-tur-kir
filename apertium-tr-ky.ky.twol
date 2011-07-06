@@ -109,7 +109,7 @@ Rules
 
 "Devoicing of stops etc. across morpheme boundary after voiceless consonants" !!"Katkalan harmony in consonants"
 !Cx:Cy <=>  :UnvoicedNonSonCns %>: _ ;   !Cx:Cy <=>  UnvoicedNonSonCns %>: _ ;
-Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ :0 | %>: ] _ ;   !Cx:Cy <=>  UnvoicedNonSonCns %>: _ ;
+Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
         where Cx in ( %{B%}  %{G%}  %{D%}  %{L%}  %{N%} )
               Cy in (   п      к      т      т      т)
               matched;
@@ -137,7 +137,8 @@ Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ;
 !%{I%}:0 <=> :SurVow [ WildNonPhon: | :WildNonPhon ]* _ ;
 !%{I%}:0 <=> :SurVow (%>:) _ \п ;
 !%{I%}:0 <=> :SurVow (%>:) _ ;
-%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \п ;
+!%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \п ;
+%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \[ п | .#. ] ;
 
 !"Vowel deletion for archiphoneme {I} in <cv_perf>"
 !!%{I%}:0 <=> [ :SurVow | :LowVow :LabialCns ]  (%>:) _ п ;
@@ -149,7 +150,9 @@ Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ;
 !%{S%}:0 <=> :Cns :0* (%>:) _ ;
 !%{S%}:0 <=> :Cns WildNonPhon* _ ;
 !%{S%}:0 <=> :Cns [ WildNonPhon: | :WildNonPhon ]* _ ;
-%{S%}:0 <=> :Cns :0* (%>:) _ ;
+!%{S%}:0 <=> :Cns :0* (%>:) _ ;
+!%{S%}:0 <=> :Cns/[ :0 | %>: ]* _ ;
+%{S%}:0 <=> :Cns/[ %>: ]* _ ;
 
 
 
@@ -198,7 +201,12 @@ Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ;
 !%{I%}:Vy <=> :LastVowel WildNoVow* [ Cns - й: ] [ WildNonPhon | [ Cns - й: ] ]* _ \п: ;
 !%{I%}:Vy <=> :LastVowel WildNoVow* [ Cns - й: ] [ WildNonPhon: | :WildNonPhon | [ Cns - й: ] ]* _ \п: ;
 !%{I%}:Vy <=> [ :LastVowel Cns* [ Cns - [ й: | :LabialCns ] ] ]/[ :0 | %>:] _ \п: ;
-%{I%}:Vy <=> [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>:] _ \п: ;
+!%{I%}:Vy <=> [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>:] _ \п: ;
+!%{I%}:Vy <=> [ :LastVowel :Cns* [ :Cns - [ й: | %{n%}: | %{N%}: ] ] ]/[ :0 | %>: ] _ \п: ;
+!%{I%}:Vy <=> [ :LastVowel :Cns* [ :Cns - [ й: | %{n%}:0 ] ] ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \п: ;
+!%{I%}:Vy <=> [ :LastVowel :Cns/[ :0 ]* [ :Cns - й: ] ]/[ %>: ] _ \п: ;
+!%{I%}:Vy <=> :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns ] ]/[ :0 | %>: ] _ \п: ;
+%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | [ :0 - %{N%}: ] ] _ \п: ;
   where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
@@ -232,7 +240,7 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 
 "Vowel harmony for archiphoneme {I} after й"
 !%{I%}:Vy <=> :LastVowel WildNonPhon* й: WildNonPhon* _ \п ;
-%{I%}:Vy <=> [ :LastVowel й: ]/[ :0 | %>: ] _ \п ;
+%{I%}:Vy <=> [ :LastVowel й: ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \п ;
       where Vy  in ( и  ү  и  и  ү  ы  ы  ю  ю  ы  ю  ю )
       LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
                matched ; 
@@ -308,7 +316,7 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 !				matched;
 
 "Make е into э when it's part of a long vowel"
-е:э <=> _ [ :э ]/[ :0 | %>: ] ;
+е:э <=> _ [ :э ]/[ [ :0 - %{U%}: ] | %>: ] ;
 
 
 !!!!!!!!!!!!   {U} stuff (harmony, etc)  !!!!!!!!!!!!!
@@ -318,7 +326,8 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 !Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]*  [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns | [ :0 | %>: | :Cns ]* :Cns [ :0 | %>: | :Cns ]* ] _ ; 
 !Vx:Vy <=> :LastVowel [ %>: | :0 ]* _ ; 
 !Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
-%{U%}:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
+!%{U%}:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
+%{U%}:Vy <=> [ :LastVowel [ Cns - й ] ]/[ %>: ] _ ;
 !        where Vx         in ( %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} )
          where Vy         in (   ү     ү     ү     ү     ү     у     у     у     у     у     у     у   )
                LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
@@ -343,7 +352,8 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 
 "Assimilate vowel before {U} in infinitive"
 !Vx:Vy <=> _ [ %>: | :0 ]* %{U%}: [ %>: | .#. ] ;
-Vx:Vy <=> _ ( %>: :0 ) %{U%}: ;
+!Vx:Vy <=> _ ( %>: :0 ) %{U%}: ;
+Vx:Vy <=> _ [ %{U%}: ]/[ :0 | %>: ] ;
        where Vx in (  и     е     э     я     а     ы  )
              Vy in (  ү     ө     ө     ё     о     у  ) 
 !       where Vx in (  и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
@@ -361,7 +371,8 @@ Vx:Vy <=> _ ( %>: :0 ) %{U%}: ;
 !!!!!!!!!!!!!!  MISC !!!!!!!!!!!!!!!!
 
 "Passive {l} becomes n after verb stem ending in /l/"
-%{l%}:н <=> л [ %>: %{I%}: | :SurVow %>: %{I%}:0 ] _ ;
+!%{l%}:н <=> л [ %>: %{I%}: | :SurVow %>: %{I%}:0 ] _ ;
+%{l%}:н <=> [ л :SurVow ]/[ :0 | %>: ] _ ;
 
 
 !"Digraph ю"
@@ -374,23 +385,36 @@ Vx:Vy <=> _ ( %>: :0 ) %{U%}: ;
 
 !!!!!!!!!!!!!  Possessive case stuff !!!!!!!!!!!!!!!
 
-"Deletion of case-initial consonants after {n} (except locative)"
+!"Deletion of case-initial consonants after {n} (except locative)"
 !Cx:0 <=> %{n%}: %>: _ ;
 !        where Cx in ( %{N%} %{G%} )
 !		        matched;
-%{N%}:0 <=> %{n%}: %>: _ ;
+!%{N%}:0 <=> %{n%}: %>: _ ;
+
+"Deletion of accusative {I} after {n}>{N}"
+%{I%}:0 <=> %{n%}:н %>: %{N%}:0 _ .#. ;
+
+"Deletion of accusative {N} after {n}"
+%{N%}:0 <=> %{n%}:н %>: _ %{I%}:0 .#. ;
+
+"Deletion of {n} before genitive {N}s"
+%{n%}:0 <=> _ %>: [ %{N%}: - %{N%}:0 ] ;
 
 "Deletion of ablative-initial {D} after {n}"
 %{D%}:0 <=> %{n%}: %>: _ %{A%}: :н ;
 
-"Deletion of extra {I} for accusative after {n}"
-%{N%}%{I%}:0 <=> %{n%}: %>: _ .#. ;
-!%{I%}:0 <=> %{n%}: %>: %{N%}: _ .#. ;
+!"Deletion of extra {I} for accusative after {n}"
+!!%{N%}%{I%}:0 <=> %{n%}: %>: _ .#. ;
+!!%{I%}:0 <=> %{n%}: %>: %{N%}: _ .#. ;
+!%{I%}:0 <=> %{n%}: %>: %{N%}:0 _ .#. ;
+!!%{I%}:0 <=> %{n%}: %>: %{N%}:0 _ \п ;
+!!%{N%}%{I%}:0 <=> %{n%}: %>: _ .#. ;
 
 "Deletion of dative {G} after px1sg, px2sg"
 !%{G%}:0 <=> :NasalCns* (%>:) _ ;
 !%{G%}:0 <=> :NasalCns %>: _ %{A%}: .#. ;
-%{G%}:0 <=>  %{I%}: :NasalCns %>: _ %{A%}: .#. ;
+!%{G%}:0 <=>  %{I%}: :NasalCns %>: _ %{A%}: .#. ;
+%{G%}:0 <=>  :NasalCns %>: _ %{A%}: .#. ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

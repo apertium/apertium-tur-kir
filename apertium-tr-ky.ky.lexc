@@ -837,7 +837,7 @@ LEXICON NounStems
 акустика N-INFL ; 
 акушер N-INFL ; 
 акча N-INFL ; 
-акы N-INFL ; 
+акы N-INFL ; ! "fee "
 акыбет N-INFL ; 
 акыйкат N-INFL ; 
 акыл N-INFL ; 
@@ -846,20 +846,20 @@ LEXICON NounStems
 алака N-INFL ; 
 алгоритм N-INFL ; 
 алды N-INFL ; 
-алкоголь N-INFL ; 
+алкоголь N-INFL ; ! "alcohol"
 алкыш N-INFL ; 
-аллегория N-INFL ; 
-аллергия N-INFL ; 
-алмаз N-INFL ; 
+аллегория N-INFL ; ! "allegory"
+аллергия N-INFL ; ! "allergy"
+алмаз N-INFL ; ! "diamond"
 алоо N-INFL ; 
-алтын N-INFL ; 
-алфавит N-INFL ; 
-альбом N-INFL ; 
+алтын N-INFL ; ! "gold"
+алфавит N-INFL ; ! "alphabet"
+альбом N-INFL ; ! "album"
 альпинист N-INFL ; 
 альтернатива N-INFL ; 
-алюминий N-INFL ; 
+алюминий N-INFL ; ! "aluminum"
 аманат N-INFL ; 
-ананас N-INFL ; 
+ананас N-INFL ; ! "pineapple"
 анар N-INFL ; 
 англис N-INFL ; 
 анекдот N-INFL ; 
@@ -932,7 +932,7 @@ LEXICON NounStems
 аң N-INFL ; 
 аалам N-INFL ; ! "universe"
 аба N-INFL ; ! "air"
-абал N-INFL ; 
+абал N-INFL ; ! "condition, state"
 адабият N-INFL ; ! "literature"
 адам N-INFL ; ! "man, human, person"
 адаш N-INFL ; 
