@@ -272,7 +272,7 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 
 "Deletion of п at end of verb stem in <cv_perf>"
 !п:0 <=> _ %>: %{I%}:0 п ;
-п:0 <=> :LowVow _ %>: %{I%}:0 п ;
+п:0 <=> :LowVow _ %>: %{I%}: п ;
 
 !"Deletion of {I} after м at end of verb stem in <cv_perf>"
 !!%{I%}:0 <=> :LowVow :0 м %>: _ п ;
@@ -306,6 +306,9 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 !      where Vx in (  э  е  ө  а  я  о  ё  )
 !		      Vy in (  ээ ээ өө аа яа оо ёо )
 !				matched;
+
+"Make е into э when it's part of a long vowel"
+е:э <=> _ [ :э ]/[ :0 | %>: ] ;
 
 
 !!!!!!!!!!!!   {U} stuff (harmony, etc)  !!!!!!!!!!!!!
