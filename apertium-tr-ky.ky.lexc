@@ -1130,7 +1130,8 @@ LEXICON NounStems
 !жүз N-INFL ;  Not a noun, -- Numeral
 зайып N-INFL ; 
 заң N-INFL ; ! "law"
-илим N-INFL ; 
+илим N-INFL ; ! "science"
+илимпоз N-INFL ; ! "scientist"
 индустрия N-INFL ; 
 июль N-INFL ; ! "" 
 июнь N-INFL ;
@@ -1209,6 +1210,7 @@ LEXICON NounStems
 район N-INFL ; ! "rajon"
 доктор N-INFL ; ! "doctor"
 форма N-INFL ; ! "form"
+ит N-INFL ; ! "dog"
 
 студент N-INFL ;  ! "student"
 комитет N-INFL ;  ! "committee"
@@ -1226,9 +1228,9 @@ LEXICON NounStems
 аферист N-INFL ; 
 аста N-INFL ; 
 акырын N-INFL ; 
-тиги% дүйнө N-INFL ; 
-акмак N-INFL ; 
-эси% жок N-INFL ; 
+тиги% дүйнө N-INFL ; ! FIXME: What???
+акмак N-INFL ; ! FIXME: This is ambiguous between adj and noun, I suppose, but I'd go with adj
+эси% жок N-INFL ; ! FIXME: what?  This is more like and adjective.  I guess.
 келесоо N-INFL ; 
 академия N-INFL ; 
 акча N-INFL ; 
@@ -1236,74 +1238,74 @@ LEXICON NounStems
 аалам N-INFL ; 
 дүйнө N-INFL ; 
 алкыш N-INFL ; 
-кол% чабуу N-INFL ; 
+кол% чабуу N-INFL ; ! FIXME: errr....
 омийин N-INFL ; 
 арыз N-INFL ; 
 өтүнүч N-INFL ; 
 билдирүү N-INFL ; 
 көрсөтүү N-INFL ; 
 фабрика N-INFL ; 
-завод N-INFL ; 
-сабак N-INFL ; 
-чака N-INFL ; 
-сыра N-INFL ; 
-пиво N-INFL ; 
-арык N-INFL ; 
+завод N-INFL ; ! "plant" (like a factory)
+сабак N-INFL ; ! "class, lesson"
+чака N-INFL ; ! "bucket"
+сыра N-INFL ; ! "beer"
+пиво N-INFL ; ! "beer"
+арык N-INFL ; ! "ditch"
 ууч N-INFL ; 
 алакан N-INFL ; 
-аяк N-INFL ; 
-бут N-INFL ; 
+аяк N-INFL ; ! "foot"
+бут N-INFL ; ! "leg"
 зайып N-INFL ; 
 аят N-INFL ; 
-айгыр N-INFL ; 
+айгыр N-INFL ; ! "stallion"
 чалап N-INFL ; 
 азап N-INFL ; 
-кыйноо N-INFL ; 
+кыйноо N-INFL ; ! "hardship"
 азат N-INFL ;  
 азык% түлүк N-INFL ; 
 азык N-INFL ; 
-бажа N-INFL ; 
-аң N-INFL ; 
-уу N-INFL ; 
-бакыт N-INFL ; 
-тагдыр N-INFL ; 
+бажа N-INFL ; ! "brother-in-law (only husbands of female relatives)"
+аң N-INFL ; ! "beast"
+уу N-INFL ; ! "poison"
+бакыт N-INFL ; ! "happiness"
+тагдыр N-INFL ; ! "fate"
 балтыркан N-INFL ; 
 балдыз N-INFL ; 
-балта N-INFL ; 
+балта N-INFL ; ! "axe"
 балчык N-INFL ; 
-ылай N-INFL ; 
-саз N-INFL ; 
+ылай N-INFL ; ! "mud"
+саз N-INFL ; ! "swamp, marsh"
 сормо% саз N-INFL ; 
 желек N-INFL ; 
-байрак N-INFL ; 
+байрак N-INFL ; ! "flag"
 башталгыч N-INFL ; 
 башмак N-INFL ; 
 бөбөк N-INFL ; 
 наристе N-INFL ; 
 бетпак N-INFL ; 
-жүзү% кара N-INFL ; 
+жүзү% кара N-INFL ; ! FIXME
 шерменде N-INFL ; 
 дене N-INFL ; 
 бадан N-INFL ; 
-бел N-INFL ; 
-белги N-INFL ; 
+бел N-INFL ; ! "waist"
+белги N-INFL ; ! "symbol"
 бысмылда N-INFL ; 
-бет N-INFL ; 
-жүз N-INFL ; 
-бетер N-INFL ; 
+бет N-INFL ; ! "page, face"
+жүз N-INFL ; ! "face"
+бетер N-INFL ; ! FIXME
 баян N-INFL ; 
 билдирүү N-INFL ; 
 бейт N-INFL ; 
 бекзаада N-INFL ; 
-ак N-INFL ; 
+ак N-INFL ; ! FIXME
 без N-INFL ; 
 бөз N-INFL ; 
-бешик N-INFL ; 
-билек N-INFL ; 
-билерик N-INFL ; 
+бешик N-INFL ; ! "cradle"
+билек N-INFL ; ! "wrist"
+билерик N-INFL ; ! "bracelet"
 бүлөө N-INFL ; 
-илим N-INFL ; 
-билим N-INFL ; 
+илим N-INFL ; ! "science"
+билим N-INFL ; ! "knowledge"
 миң% башы N-INFL ; 
 майор N-INFL ; 
 бирөө N-INFL ; 
@@ -3446,14 +3448,14 @@ LEXICON NounStems
 түгөй N-INFL ; 
 ешик N-INFL ; 
 туткун N-INFL ; 
-тең N-INFL ; 
+тең N-INFL ; ! FIXME: should be adj
 көрүнүш N-INFL ; 
 каракчы N-INFL ; 
 ишмер N-INFL ; 
 анаша N-INFL ; 
-оокат N-INFL ; 
-эт N-INFL ; 
-этикетка N-INFL ; 
+оокат N-INFL ; ! "~chores"
+эт N-INFL ; ! "meat"
+этикетка N-INFL ; ! "label"
 айлана N-INFL ; 
 евалютсия N-INFL ; 
 кырсык N-INFL ; 
@@ -3463,7 +3465,7 @@ LEXICON NounStems
 үлүш N-INFL ; 
 фамилия N-INFL ; 
 чычкан N-INFL ; 
-доор N-INFL ; 
+доор N-INFL ; ! "era, epoch"
 жеңүүчү N-INFL ; 
 эсеп N-INFL ; 
 пайда N-INFL ; 
@@ -3781,7 +3783,7 @@ LEXICON NounStems
 чыгармачылык N-INFL ;
 кесип N-INFL ;
 катчы N-INFL ;
-илим N-INFL ;
+илим N-INFL ; ! "science"
 жетекчи N-INFL ;
 кыл N-INFL ;
 дан N-INFL ;
@@ -4365,7 +4367,7 @@ LEXICON AdjecStems
 сом ADJ ; ! "pure"
 кыз ADJ ; ! ""
 !эң ADJ ; ! "most"	
-илимий ADJ ;
+илимий ADJ ; ! "scientific"
 инсанча ADJ ; 
 казак ADJ ;  ! "Kazakh"
 кишиче ADJ ; 
@@ -4877,7 +4879,7 @@ LEXICON VerbStems
 үйрөн V-INFL-IV ;
 үйрөн V-INFL-TV ;
 өл V-INFL-IV ; ! "die"
-өт V-INFL-TV ; ! "pass" should be IV?
+өт V-INFL-TV ; ! "pass" FIXME: should be IV?
 кон V-INFL-IV ;
 
 мойнуна% ал V-INFL-TV ; 
