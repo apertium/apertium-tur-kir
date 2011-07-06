@@ -1,6 +1,6 @@
 Config:
   hfst:
-    App: hfst-lookup
+    App: hfst-optimised-lookup
     Gen: ../tr-ky.autogen.hfst
     Morph: ../ky-tr.automorf.hfst
 
@@ -33,8 +33,10 @@ Tests:
     сүй<v><tv><inf><nom> : сүйүү
     окшо<v><iv><inf><nom> : окшоо
     иште<v><iv><inf><nom> : иштөө
+    иштөө<n><nom> : иштөө
     саба<v><tv><inf><nom> : сабоо
     аарчы<v><tv><inf><nom> : аарчуу
+    аарчы<v><iv><inf><nom> : аарчуу
     шиши<v><iv><inf><nom> : шишүү
     ат<v><tv><inf><nom> : атуу
     кет<v><iv><inf><nom> : кетүү
@@ -43,6 +45,7 @@ Tests:
   "[twol] {I} deletion":
     бол<v><iv><cv_perf> : болуп
     айт<v><iv><cv_perf> : айтып
+    айт<v><tv><cv_perf> : айтып
     жет<v><iv><cv_perf> : жетип
     сүй<v><tv><cv_perf> : сүйүп
     иште<v><iv><cv_perf> : иштеп
