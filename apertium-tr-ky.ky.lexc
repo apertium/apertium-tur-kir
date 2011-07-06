@@ -1130,6 +1130,7 @@ LEXICON NounStems
 илим N-INFL ; 
 индустрия N-INFL ; 
 июль N-INFL ; ! "" 
+июнь N-INFL ;
 каз N-INFL ; ! "" 
 кап N-INFL ; ! "sack"
 кат N-INFL ; ! "mail"
@@ -2858,6 +2859,8 @@ LEXICON NounStems
 зээн N-INFL ; 
 зикир N-INFL ; 
 кеп% кылуу N-INFL ; 
+кеп N-INFL ;
+январ N-INFL ;
 чынжыр N-INFL ; 
 зындан N-INFL ; 
 зыяпат N-INFL ; 
@@ -3874,6 +3877,42 @@ LEXICON NounStems
 кишилик N-INFL ;
 тик% учак N-INFL ; 
 сот N-INFL ;
+изилдөө N-INFL ;
+түндүк N-INFL ;
+түштүк N-INFL ;
+искусство N-INFL ;
+төрага N-INFL ;
+лауреат N-INFL ;
+пионер N-INFL ;
+турмуш N-INFL ;
+маселе N-INFL ;
+каарман N-INFL ;
+элчи N-INFL ;
+уйгур N-INFL ;
+кафедра N-INFL ;
+кандидат N-INFL ;
+электрон N-INFL ;
+Хан N-INFL ;
+окуя N-INFL ;
+жигит N-INFL ;
+өндүрүш N-INFL ;
+депутат N-INFL ;
+болжол N-INFL ;
+үналгы N-INFL ;
+өкүл N-INFL ;
+мыйзам 
+январь N-INFL ;
+февраль N-INFL ; 
+март N-INFL ;
+апрель N-INFL ;
+май N-INFL ;
+август N-INFL ;
+сентябрь N-INFL ;
+октябрь N-INFL ;
+ноябрь N-INFL ;
+декабрь N-INFL ;
+
+
 
 
 LEXICON PropernounStems
@@ -3915,6 +3954,7 @@ LEXICON PropernounStems
 Фрунзе NP-TOP ;
 СССР NP-TOP ;
 
+
 Кыргыз% ССР NP-TOP-ASSR ;
 Кыргыз% АССР NP-TOP-ASSR ;
 Туркестан% АССР NP-TOP-ASSR ; ! ""
@@ -3927,8 +3967,10 @@ LEXICON PropernounStems
 
 Aзирейил NP-TOP ; ! ""
 Tеңир NP-TOP ; ! ""
+Таала NP-TOP ;
 Адам NP-TOP ; ! ""
 Алла NP-TOP ; ! ""
+Теңир NP-TOP ;
 Арктика NP-TOP ; ! ""
 Кудай NP-TOP ; ! ""
 Кызыл% Ай NP-TOP ; ! ""
@@ -4043,13 +4085,22 @@ Tеңир NP-TOP ; ! ""
 Лондон NP-TOP ; ! "London"
 Ысык%-Көл NP-TOP ; ! ""
 Ысык%-Көл:Ысык% Көл NP-TOP ; ! Dir/LR ""
-
+Алай NP-TOP ;
+Казань NP-TOP ;
+Кочкор NP-TOP ;
+Түркстан NP-TOP ;
+Алтай NP-TOP ;
+Тоң NP-TOP ;
+АКШ NP-TOP ;
+Жумгал NP-TOP ;
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
 Ленинчил NP-ORG ; ! "" 
 Кыргызокуупедмамбас NP-ORG ; ! "Kyrgyz Pedagogical State Press"
 Серб% Аскери NP-ORG ;
+КМУ NP-ORG ;
+Киргизучпедгиз NP-ORG ;
 
 Нооруз NP-AL ; ! ""
 Супер% Галеб NP-AL ;
@@ -4057,6 +4108,10 @@ Tеңир NP-TOP ; ! ""
 Газел NP-AL ; ! ""
 Супер% Г4 NP-AL ; ! "" 
 
+Семетей NP-ANT-M ;
+Сагымбай NP-ANT-M ;
+Кудаяр NP-ANT-M ;
+Султан NP-ANT-M ;
 Ахмет NP-ANT-M ; ! "Axmet"
 Мирлан NP-ANT-M ; ! "Mirlan"
 Болот NP-ANT-M ; ! "Bolot"
@@ -4070,7 +4125,10 @@ Tеңир NP-TOP ; ! ""
 Никола NP-ANT-M ;
 Мехмет NP-ANT-M ;
 Алмазбек NP-ANT-M ;
+Махмуд NP-ANT-M ;
 Неманя NP-ANT-M ;
+
+Полот NP-ANT-M ;
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
@@ -4080,6 +4138,7 @@ Tеңир NP-TOP ; ! ""
 Аня NP-ANT-F ;
 
 Асанбаев NP-COG-MF ; ! ""
+Горький NP-COG-MF ;
 Аббас NP-COG-MF ; ! "Abbas"
 Ленин NP-COG-MF ; ! "Lenin"
 Ашым NP-ANT-M ; ! ""
@@ -4205,6 +4264,7 @@ Tеңир NP-TOP ; ! ""
 Эшматов NP-COG-MF ; ! ""
 Тадич NP-COG-MF ;
 Крнета NP-COG-MF ;
+Орузбаева NP-COG-MF ;
 
 Эрдоган NP-COG-MF ; ! ""
 
@@ -4212,7 +4272,27 @@ LEXICON AdjecStems
 
 алгачкы ADJ-ORD ; ! "first"
 экинчи ADJ-ORD ; ! "second"
-
+эркин ADJ ;
+эски ADJ ;
+бекем ADJ ;
+өнүккөн ADJ ;
+туруктуу ADJ ;
+жазма ADJ ;
+керектүү ADJ ;
+көчмөн ADJ ;
+белгисиз ADJ ;
+өндүрүштүк ADJ ;
+кенже ADJ ;
+электрондук ADJ ;
+оңой ADJ ;
+кыска ADJ ;
+төмөн ADJ ;
+активдүү ADJ ;
+атактуу ADJ ;
+терең ADJ ;
+чыгаан ADJ ;
+шаардык ADJ ;
+тандалган ADJ ;
 аракетчил ADJ ; ! ""
 ушундай ADJ ;
 аял ADJ ;
