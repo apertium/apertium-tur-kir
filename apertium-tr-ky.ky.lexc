@@ -82,6 +82,7 @@ Multichar_Symbols
 %<apprx%>   ! Approximal
 
 %<pass%>    ! Passive
+%<caus%>    ! Causative
 
 %<cv_impf%> ! Converb imperfect, -E
 %<cv_perf%> ! Converb perfect, -Iп
@@ -567,12 +568,32 @@ LEXICON V-INFL-TV
 %<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                                    !
 %<v%>%<tv%>%<pass%>%<inf%>:%>%{I%}%{l%}%>%{U%}%{U%} POSSESSION ;                    ! 
 %<v%>%<tv%>%<pass%>%<neg%>%<inf%>:%>%{I%}%{l%}%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
+%<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                                    !
+%<v%>%<tv%>%<caus%>%<inf%>:%>%{D%}%{I%}р%>%{U%}%{U%} POSSESSION ;                    ! 
+%<v%>%<tv%>%<caus%>%<neg%>%<inf%>:%>%{D%}%{I%}р%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
 
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
 %<v%>%<iv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
 %<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
+%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                                    !
+%<v%>%<iv%>%<caus%>%<inf%>:%>%{D%}%{I%}р%>%{U%}%{U%} POSSESSION ;                    ! 
+%<v%>%<iv%>%<caus%>%<neg%>%<inf%>:%>%{D%}%{I%}р%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
+
+LEXICON V-INFL-IV-NO-CAUS
+
+%<v%>%<iv%>: V-INFL-COMMON ;
+%<v%>%<iv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
+%<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
+
+LEXICON V-INFL-IV-IRREG-CAUS
+
+%<v%>%<iv%>%<caus%>:%> V-INFL-COMMON ;                                    !
+%<v%>%<iv%>%<caus%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                    ! 
+%<v%>%<iv%>%<caus%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
+
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -2853,7 +2874,6 @@ LEXICON NounStems
 жираф N-INFL ; 
 чатыр N-INFL ; 
 идиш N-INFL ; 
-чабуул N-INFL ; 
 чара N-INFL ; 
 амал N-INFL ; 
 айла N-INFL ; 
@@ -3816,7 +3836,8 @@ LEXICON NounStems
 үмүт N-INFL ;
 ылдамдык N-INFL ;
 баары N-INFL ;
-тик% учак N-INFL ;
+тик% учак N-INFL ; ! "helicopter"
+вертолёт N-INFL ; ! "helicopter"
 пист N-INFL ;
 торт N-INFL ;
 адамгерчилик N-INFL ;
@@ -4926,7 +4947,8 @@ LEXICON VerbStems
 түгөн V-INFL ; 
 түзүл V-INFL ; 
 түтө V-INFL ; 
-түш V-INFL ; 
+түш V-INFL-IV-NO-CAUS ; ! "fall"
+түш:түшүр V-INFL-IV-IRREG-CAUS ; ! "to make fall"
 төк V-INFL ; 
 төлө V-INFL ; 
 узат V-INFL ; 
