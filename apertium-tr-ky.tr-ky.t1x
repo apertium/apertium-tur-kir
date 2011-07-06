@@ -31,7 +31,10 @@
     </def-cat>
  
     <def-cat n="v_vn_mak">
+      <cat-item tags="v.vn_mak"/>
+      <cat-item tags="v.*.vn_mak"/>
       <cat-item tags="v.vn_mak.*"/>
+      <cat-item tags="v.*.vn_mak.*"/>
     </def-cat>
   
     <def-cat n="v_pass_part_dik">
@@ -150,7 +153,15 @@
       <attr-item tags="px2pl"/>
       <attr-item tags="px3pl"/>
     </def-attr>
-   
+    
+    <def-attr n="subcat">
+      <attr-item tags="iv"/>
+      <attr-item tags="tv"/>
+      <attr-item tags="caus"/>
+      <attr-item tags="pass"/>
+      <attr-item tags="TD"/>
+    </def-attr>
+
     <def-attr n="trans">
       <attr-item tags="iv"/>
       <attr-item tags="TD"/>
@@ -498,7 +509,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <lit-tag v="pass.pp"/>
+            <clip pos="1" side="tl" part="subcat"/>
+            <lit-tag v="pp"/>
             <var n="c_poss"/>
             <var n="c_case"/>
             <clip pos="1" side="tl" part="lemq"/>

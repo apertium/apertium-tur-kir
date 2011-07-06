@@ -546,7 +546,7 @@ LEXICON V-INFL-COMMON
 %<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP ;           ! 
 %<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP ;              ! 
 
-LEXICON V-INFL
+LEXICON V-INFL ! to be deleted
 
 %<v%>%<TD%>: V-INFL-COMMON ;
 %<v%>%<TD%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                    ! 
@@ -612,6 +612,7 @@ LEXICON Particles
 экен PART-PERS-COP ; ! non-eyewitness modal particle
 эле PART ; ! 
 эле PART-PERS-PAST ; ! 
+дагы PART ; 
 
 LEXICON Postadverbs 
 
@@ -659,6 +660,7 @@ LEXICON Postpositions
 карата POST ; ! "" +dat
 карабай POST ;
 дагы POST ;
+керек POST ; 
 
 
 LEXICON Determiners
@@ -763,6 +765,7 @@ XIX NUM-ROMAN ; ! ""
 
 LEXICON NounStems
 сырт N-INFL ;
+абаачылык N-INFL ; 
 аалым N-INFL ; 
 поэзия N-INFL ; 
 гвардия N-INFL ; 
@@ -1381,6 +1384,7 @@ LEXICON NounStems
 доолбас N-INFL ; 
 таяк N-INFL ; 
 таяныч N-INFL ; 
+теңтуштук N-INFL ; 
 тай N-INFL ; 
 таяке N-INFL ; 
 таз N-INFL ; 
@@ -1714,7 +1718,6 @@ LEXICON NounStems
 кабар N-INFL ; 
 ажы N-INFL ; 
 кажет N-INFL ; 
-керек N-INFL ; 
 акарат N-INFL ; 
 калк N-INFL ; 
 канжар N-INFL ; 
@@ -1923,7 +1926,6 @@ LEXICON NounStems
 киловатт N-INFL ; 
 кимоно N-INFL ; 
 химия N-INFL ; 
-кир N-INFL ; 
 булганыч N-INFL ; 
 кире N-INFL ; 
 кирпи N-INFL ; 
@@ -4295,6 +4297,7 @@ LEXICON AdjecStems
 тандалган ADJ ;
 аракетчил ADJ ; ! ""
 ушундай ADJ ;
+өткөн ADJ ; 
 аял ADJ ;
 жаш ADJ ; 
 укмуш ADJ ;
@@ -4884,7 +4887,6 @@ LEXICON VerbStems
 ак V-INFL-IV-NO-CAUS ; ! "flow"
 ак:акыз V-INFL-IV-IRREG-CAUS ; ! "make flow"
 
-
 отур V-INFL-IV ; ! "sit"
 бар V-INFL-IV ; ! "go"
 аракет% кыл V-INFL ; ! "try"
@@ -4914,7 +4916,6 @@ LEXICON VerbStems
 гэр V-INFL ; 
 дала V-INFL ; 
 даярда V-INFL-TV ; 
-де V-INFL ; ! "say"
 елестет V-INFL-TV ; ! "imagine"
 жаа V-INFL ; 
 жай V-INFL-TV ; ! "hang out to dry", "spread out"
@@ -5069,7 +5070,7 @@ LEXICON VerbStems
 алын V-INFL ;
 
 катыш V-INFL ;
-сарсанаа% тарт V-INFL ;
+сарсанаа% тарт V-INFL-TV ;
 
 
 тый V-INFL ;
@@ -5089,11 +5090,10 @@ LEXICON VerbStems
 
 кыйн V-INFL-TV ; 
 айда V-INFL-TV ;
-айт V-INFL-TV ;
 жылмай V-INFL-IV ;
 ойло V-INFL-TV ;
 салыштыр V-INFL;
-маневр% кыл V-INFL-TV ;
+манёвр% кыл V-INFL-TV ;
 көтөрүл V-INFL ;
 
 LEXICON Abbreviations
