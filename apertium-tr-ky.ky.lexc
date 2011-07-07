@@ -232,7 +232,7 @@ LEXICON NP-ANT-F
 
 LEXICON NP-ORG
 
-%<np%>%<org%>: CASES ;
+%<np%>%<org%>: POSSESSION ;
 
 LEXICON NP-TOP-ASSR
 
@@ -636,6 +636,8 @@ LEXICON Conjunctions
 ошондуктан CA ;  ! "that's why"
 
 жана CA ; ! Dir/RL "but" 
+
+болуп CS ; ! Dir/RL ""
 
 LEXICON Postpositions
 
@@ -3801,7 +3803,6 @@ LEXICON NounStems
 окуу N-INFL ;
 совет N-INFL ; ! "Soviet"
 жыйнак N-INFL;
-жылдык N-INFL ;
 орунбасар N-INFL ;
 орун% басар N-INFL ;
 таала N-INFL ;
@@ -4855,7 +4856,6 @@ LEXICON VerbStems
 сакта V-INFL-TV ;
 сал V-INFL-TV ;
 сана V-INFL-TV ; ! "count/consider"
-секир V-INFL-IV ; 
 сий V-INFL-IV ; 
 сыйла V-INFL-TV ; 
 сүй V-INFL-TV ; ! "love"
