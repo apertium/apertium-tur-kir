@@ -949,7 +949,6 @@ LEXICON NounStems
 акырет N-INFL ; 
 акырын N-INFL ; 
 алакан N-INFL ; 
-алкыш N-INFL ; 
 алма N-INFL ; ! "apple"
 апа N-INFL ; ! "mother"
 арыз N-INFL ; 
@@ -1237,7 +1236,6 @@ LEXICON NounStems
 пул N-INFL ; 
 аалам N-INFL ; 
 дүйнө N-INFL ; 
-алкыш N-INFL ; 
 кол% чабуу N-INFL ; ! FIXME: errr....
 омийин N-INFL ; 
 арыз N-INFL ; 
@@ -1298,7 +1296,6 @@ LEXICON NounStems
 бейт N-INFL ; 
 бекзаада N-INFL ; 
 ак N-INFL ; ! FIXME
-без N-INFL ; 
 бөз N-INFL ; 
 бешик N-INFL ; ! "cradle"
 билек N-INFL ; ! "wrist"
@@ -1723,7 +1720,6 @@ LEXICON NounStems
 акарат N-INFL ; 
 калк N-INFL ; 
 канжар N-INFL ; 
-аракет N-INFL ; 
 тамга N-INFL ; 
 арип N-INFL ; 
 карта N-INFL ; 
@@ -4097,6 +4093,7 @@ Tеңир NP-TOP ; ! ""
 Тоң NP-TOP ;
 АКШ NP-TOP ;
 Жумгал NP-TOP ;
+ССР NP-TOP ;
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
@@ -4807,6 +4804,7 @@ LEXICON VerbStems
 ал V-INFL-TV ; ! "take"
 ас V-INFL-TV ; ! "hang"
 ат V-INFL-TV ; ! "shoot"
+айыпта V-INFL-TV ;
 ата V-INFL-TV ;
 атта V-INFL-TV ; 
 ач V-INFL-TV ; ! "open"
@@ -4829,7 +4827,6 @@ LEXICON VerbStems
 же V-INFL-TV-SHORT ; ! "eat"
 жет V-INFL-IV ; 
 жүр V-INFL-TV ;
-ич V-INFL-IV ; ! "drink"
 ич V-INFL-TV ; ! "drink"
 иште V-INFL-IV ;  ! "work"
 кара V-INFL-IV ; 
@@ -4891,27 +4888,27 @@ LEXICON VerbStems
 
 отур V-INFL-IV ; ! "sit"
 бар V-INFL-IV ; ! "go"
-аракет% кыл V-INFL ; ! "try"
-арна V-INFL ; 
+аракет% кыл V-INFL-TV ; ! "try"
+арна V-INFL-IV ; 
 аякта V-INFL ; 
 бак V-INFL ; 
 башта V-INFL-TV ; 
-без V-INFL ; 
+без V-INFL-IV ; 
 билдир V-INFL-TV ; 
 билин V-INFL-IV ; 
 боё V-INFL-TV ; 
 буз V-INFL-TV ; 
-бузул V-INFL ; 
+бузул V-INFL-IV ; 
 буйрук% бер V-INFL ; 
-була V-INFL ; 
+була V-INFL-TV ; 
 бурул V-INFL ; 
 бута V-INFL ; 
 буу V-INFL ; 
-буюр V-INFL ; 
+буйру V-INFL-IV ; 
 бырыштыр V-INFL ; 
-быч V-INFL ; 
+быч V-INFL-TV ; 
 быш V-INFL ; 
-бүк V-INFL ; 
+бүк V-INFL-TV ; 
 бүктө V-INFL ; 
 бөл V-INFL-TV ; ! "divide"
 гий V-INFL ; 
@@ -4950,7 +4947,7 @@ LEXICON VerbStems
 карышта V-INFL ; 
 керек V-INFL ; ! NOT A VERB!
 кес V-INFL-TV ; ! "cut"
-кеч V-INFL ; 
+кеч V-INFL-TV ; 
 кир V-INFL-IV ; ! "enter"
 кооздо V-INFL ; 
 корго V-INFL ; 
@@ -4976,11 +4973,11 @@ LEXICON VerbStems
 макта V-INFL-TV ; ! "brag about"
 мактан V-INFL-IV ; ! "brag"
 мин V-INFL ; 
-муунт V-INFL ; 
+муунт V-INFL-TV ; 
 мыйооло V-INFL-IV ; ! "meow"
-оз V-INFL ; 
+оз V-INFL-IV ; 
 ойно V-INFL-IV ; ! "play"
-окшош V-INFL ; 
+окшо V-INFL-TV ; 
 онто V-INFL ; 
 ор V-INFL ; 
 оро V-INFL ; 
@@ -4988,7 +4985,8 @@ LEXICON VerbStems
 отур V-INFL ; ! "sit"
 пайда% кыл V-INFL ; 
 парала V-INFL ; 
-планда V-INFL ; 
+планда V-INFL-TV ; 
+планда V-INFL-IV ;
 сагын V-INFL ; 
 сайра V-INFL ; 
 салаңда V-INFL ; 
@@ -5004,7 +5002,8 @@ LEXICON VerbStems
 сүз V-INFL ; 
 сүйлө V-INFL ; ! "speak"
 сүр V-INFL ; 
-тааныл V-INFL ; 
+тааны V-INFL-TV ;
+тааныл V-INFL-TV ; 
 таарын V-INFL-IV ; ! "be offended (at)"
 тажа V-INFL-IV ; ! "get fed up with"
 талкала V-INFL-TV ; ! "destroy"
@@ -5029,7 +5028,7 @@ LEXICON VerbStems
 тосуп% ал V-INFL ; 
 тоң V-INFL-IV ; ! "freeze"
 тут V-INFL ; 
-түгөн V-INFL ; 
+түгөн V-INFL-IV ; 
 түзүл V-INFL ; 
 түтө V-INFL ; 
 түш V-INFL-IV-NO-CAUS ; ! "fall"
@@ -5051,9 +5050,9 @@ LEXICON VerbStems
 чөк V-INFL ; 
 шайла V-INFL ; 
 шиши V-INFL-IV ; 
-шүкүр% кыл V-INFL ; 
-ыйла V-INFL ; 
-эсте V-INFL ; 
+шүкүр% кыл V-INFL-TV ; 
+ыйла V-INFL-IV ; 
+эсте V-INFL-TV ; 
 эш V-INFL ; 
 ээрчи% ет V-INFL ; 
 үйлө V-INFL ; 
@@ -5097,6 +5096,7 @@ LEXICON VerbStems
 салыштыр V-INFL;
 манёвр% кыл V-INFL-TV ;
 көтөрүл V-INFL ;
+алкыш% кыл V-INFL-TV ;
 
 LEXICON Abbreviations
 
