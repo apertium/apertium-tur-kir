@@ -3,7 +3,7 @@
  
   <mode name="tr-ky-morph" install="no">
     <pipeline>
-      <program name="hfst-proc">
+      <program name="hfst-proc -w">
         <file name="tr-ky.automorf.hfst"/>
       </program>
     </pipeline>
@@ -66,6 +66,29 @@
         <file name="apertium-tr-ky.tr-ky.t1x"/>
         <file name="tr-ky.t1x.bin"/>
         <file name="tr-ky.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="tr-ky-debug" install="no">
+    <pipeline>
+      <program name="hfst-proc">
+        <file name="tr-ky.automorf.hfst"/>
+      </program>
+      <program name="cg-proc">
+        <file name="tr-ky.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="tr-ky.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-tr-ky.tr-ky.t1x"/>
+        <file name="tr-ky.t1x.bin"/>
+        <file name="tr-ky.autobil.bin"/>
+      </program>
+      <program name="hfst-proc -d">
+        <file name="tr-ky.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>

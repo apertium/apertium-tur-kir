@@ -25,12 +25,46 @@
       <cat-item tags="v.abil.*"/>
     </def-cat>
  
-    <def-cat n="v_cv_erek">
+    <def-cat n="v_part_yan">
+      <cat-item tags="v.part_yan.*"/>
+      <cat-item tags="v.part_yan"/>
+      <cat-item tags="v.*.part_yan.*"/>
+      <cat-item tags="v.*.part_yan"/>
+    </def-cat>
+
+     <def-cat n="v_cv_erek">
       <cat-item tags="v.cv_erek.*"/>
       <cat-item tags="v.cv_erek"/>
+      <cat-item tags="v.*.cv_erek.*"/>
+      <cat-item tags="v.*.cv_erek"/>
     </def-cat>
  
-    <def-cat n="v_vn_mak">
+    <def-cat n="v_cv_iyor">
+      <cat-item tags="v.cv_iyor"/>
+      <cat-item tags="v.*.cv_iyor"/>
+      <cat-item tags="v.cv_iyor.*"/>
+      <cat-item tags="v.*.cv_iyor.*"/>
+    </def-cat>
+
+    <def-cat n="v_cv_ip">
+      <cat-item tags="v.cv_ip"/>
+      <cat-item tags="v.*.cv_ip"/>
+      <cat-item tags="v.cv_ip.*"/>
+      <cat-item tags="v.*.cv_ip.*"/>
+    </def-cat>
+
+    <def-cat n="v_cv_ma">
+      <cat-item tags="v.cv_ma"/>
+      <cat-item tags="v.*.cv_ma"/>
+      <cat-item tags="v.cv_ma.*"/>
+      <cat-item tags="v.*.cv_ma.*"/>
+    </def-cat>
+
+    <def-cat n="v_vn_mak_yis">
+      <cat-item tags="v.vn_yis"/>
+      <cat-item tags="v.*.vn_yis"/>
+      <cat-item tags="v.vn_yis.*"/>
+      <cat-item tags="v.*.vn_yis.*"/>
       <cat-item tags="v.vn_mak"/>
       <cat-item tags="v.*.vn_mak"/>
       <cat-item tags="v.vn_mak.*"/>
@@ -68,13 +102,24 @@
     </def-cat>
     
     <def-cat n="v_cont">
+      <cat-item tags="v.*.t_cont.*"/>
+      <cat-item tags="v.*.neg.t_cont.*"/>
       <cat-item tags="v.t_cont.*"/>
       <cat-item tags="v.neg.t_cont.*"/>
     </def-cat>
-   
+    
+    <def-cat n="v_fut">
+      <cat-item tags="v.t_fut.*"/>
+      <cat-item tags="v.neg.t_fut.*"/>
+      <cat-item tags="v.*.t_fut.*"/>
+      <cat-item tags="v.*.neg.t_fut.*"/>
+    </def-cat>
+
     <def-cat n="v_aor">
       <cat-item tags="v.t_aor.*"/>
       <cat-item tags="v.neg.t_aor.*"/>
+      <cat-item tags="v.*.t_aor.*"/>
+      <cat-item tags="v.*.neg.t_aor.*"/>
     </def-cat>
    
      <def-cat n="nom">
@@ -468,9 +513,59 @@
     </rule>
   
 
-    <rule comment="regla: v_vn_mak">
+    <rule comment="regla: v_cv_ip">
       <pattern>
-        <pattern-item n="v_vn_mak"/>
+        <pattern-item n="v_cv_ip"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <lit-tag v="cv_perf"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: v_cv_ma">
+      <pattern>
+        <pattern-item n="v_cv_ma"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <lit-tag v="inf"/>
+            <var n="c_poss"/>
+            <var n="c_case"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: v_vn_mak_yis">
+      <pattern>
+        <pattern-item n="v_vn_mak_yis"/>
       </pattern>
       <action>
         <call-macro n="f_conv_case1">
@@ -520,6 +615,32 @@
       </action>
     </rule>
 
+    <rule comment="regla: v_part_yan">
+      <pattern>
+        <pattern-item n="v_part_yan"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <lit-tag v="pp"/>
+            <var n="c_poss"/>
+            <var n="c_case"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+  
     <rule comment="regla: v_part_dik">
       <pattern>
         <pattern-item n="v_part_dik"/>
@@ -601,6 +722,40 @@
       </action>
     </rule>
 
+    <rule comment="regla: v_cv_iyor">
+      <pattern>
+        <pattern-item n="v_cv_iyor"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_tens1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="trans"/>
+              <lit-tag v="cv_perf"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b/> 
+            <lu>
+              <lit v="жат"/>
+              <lit-tag v="v.iv"/>
+              <clip pos="1" side="tl" part="neg"/>
+              <lit-tag v="inf"/> <!-- this is wrong -->
+              <var n="c_tens"/> 
+              <var n="c_pers"/>
+              <lit-tag v="nom"/> <!-- this is wrong -->
+            </lu>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="regla: v_abil">
       <pattern>
         <pattern-item n="v_abil"/>
@@ -657,6 +812,28 @@
               <lit-tag v="qst"/>
             </lu>
           </mlu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: v_fut">
+      <pattern>
+        <pattern-item n="v_fut"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="neg"/>
+            <lit-tag v="fut"/>
+            <var n="c_pers"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
         </out>
       </action>
     </rule>
