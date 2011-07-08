@@ -333,7 +333,7 @@
 	<e c="  0"><p><l>ayar<s n="n"/></l><r>аяр<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ayaz<s n="n"/></l><r>аяз<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ay<s n="n"/></l><r>ай<s n="n"/></r></p></e>
-	<e c="  0"><p><l>ayı<s n="n"/></l><r>аюу<s n="n"/></r></p></e>       
+	<e c="  0"><p><l>ayı<s n="n"/></l><r>айуу<s n="n"/></r></p></e>       
 	<e c="  0"><p><l>ayıp<s n="n"/></l><r>уят<s n="n"/></r></p></e>
 	<e c="  0"><p><l>aykırı<s n="n"/></l><r>туура<b/>келбеген<s n="n"/></r></p></e>
 	<e c="  0"><p><l>aylık<s n="n"/></l><r>маяна<s n="n"/></r></p></e>
@@ -2794,10 +2794,8 @@
 	<e c="  0"><p><l>üzer<s n="n"/></l><r>үстү<s n="n"/></r></p></e>
 	<e c="  0"><p><l>kadı<s n="n"/></l><r>сот<s n="n"/></r></p></e>	
 	<e c="  0"><p><l>çalışma<s n="n"/></l><r>иш<s n="n"/></r></p></e>
-	
-	
-	
-	
+	<e c="  0"><p><l>zorlanma<s n="n"/></l><r>кыйналуу<s n="n"/></r></p></e>
+	<e c="  0"><p><l>not<s n="n"/></l><r>эскертме<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ev<s n="n"/></l><r>үй<s n="n"/></r></p></e>
 		
         <!-- SECTION: Proper nouns -->
@@ -2911,8 +2909,9 @@
 	<e><p><l>Ruziç<s n="np"/></l><r>Рузич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 	<e><p><l>Tadiç<s n="np"/></l><r>Тадич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 	<e><p><l>Krneta<s n="np"/></l><r>Крнета<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-
+	<e><p><l>Super<s n="np"/></l><r>Супер<s n="np"/><s n="al"/></r></p></e>
 	<e><p><l>Super<b/>Galeb<s n="np"/></l><r>Супер<b/>Галеб<s n="np"/><s n="al"/></r></p></e>
+	<e><p><l>Galep<s n="np"/></l><r>Галеб<s n="np"/><s n="al"/></r></p></e>
 	<e><p><l>Super<b/>G4<s n="np"/></l><r>Супер<b/>Г4<s n="np"/><s n="al"/></r></p></e>
 	<e><p><l>G4<s n="np"/></l><r>Г4<s n="np"/><s n="al"/></r></p></e>
 	<e><p><l>Sırp<b/>Ordusu<s n="np"/></l><r>Серб<b/>Аскери<s n="np"/><s n="org"/></r></p></e>
@@ -3335,7 +3334,7 @@
 	<e c="  0"><p><l>ada<s n="v"/></l><r>арна<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ağla<s n="v"/></l><r>ыйла<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>alkışla<s n="v"/></l><r>алкыш<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>an<s n="v"/></l><r>элестет<s n="v"/></r></p><par n="(t|i)v"/></e>
+	<e c="  0"><p><l>an<s n="v"/></l><r>елестет<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e c="  0"><p><l>as<s n="v"/></l><r>ас<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>aş<s n="v"/></l><r>аш<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>at<s n="v"/></l><r>ат<s n="v"/><s n="tv"/></r></p></e>
@@ -3514,7 +3513,7 @@
 	<e c="  0"><p><l>belir<s n="v"/></l><r>көрүн<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>düz<s n="v"/></l><r>тиз<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>getir<s n="v"/></l><r>алып<b/>кел<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>aç<s n="v"/></l><r>ач<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>aç<s n="v"/></l><r>ач<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e c="  0"><p><l>kal<s n="v"/></l><r>кал<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>göster<s n="v"/></l><r>көрсөт<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>art<s n="v"/></l><r>көбөйт<s n="v"/><s n="tv"/></r></p></e>
@@ -3547,12 +3546,13 @@
 	<e c="  0"><p><l>başvur<s n="v"/></l><r>кайрыл<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>ayrıl<s n="v"/></l><r>уза<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>itiraf<b/>et<s n="v"/></l><r>мойнуңа<b/>ал<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>umut<b/>et<s n="v"/></l><r>үмүт<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
 
       <!-- SECTION: Punctuation -->
 
         <e><p><l>,<s n="pnct"/></l><r>,<s n="cm"/></r></p></e>
 
-        <e><re>[.\?;:!"]</re><p><l><s n="pnct"/></l><r><s n="sent"/></r></p></e>
+        <e><re>[.\?;:!]</re><p><l><s n="pnct"/></l><r><s n="sent"/></r></p></e>
         <e><p>    <l>-<s n="pnct"/></l>    <r>-<s n="guio"/></r>  </p>    </e>
         <e><p><l>'<s n="pnct"/></l><r>'<s n="apos"/></r></p></e>
         <e><re>%?[0-9]+([.,][0-9]+)?[.,]?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
