@@ -80,6 +80,10 @@
       <cat-item tags="v.*.vn_mak"/>
       <cat-item tags="v.vn_mak.*"/>
       <cat-item tags="v.*.vn_mak.*"/>
+      <cat-item tags="v.cv_mak"/>
+      <cat-item tags="v.*.cv_mak"/>
+      <cat-item tags="v.cv_mak.*"/>
+      <cat-item tags="v.*.cv_mak.*"/>
     </def-cat>
   
     <def-cat n="v_pass_part_dik">
@@ -91,6 +95,8 @@
     <def-cat n="v_part_dik">
       <cat-item tags="v.part_dik.*"/>
       <cat-item tags="v.part_yan.*"/>
+      <cat-item tags="v.cv_dik.*"/>
+      <cat-item tags="v.cv_dik.*"/>
     </def-cat>
  
     <def-cat n="pron">
