@@ -3901,7 +3901,7 @@ LEXICON NounStems
 болжол N-INFL ;
 үналгы N-INFL ;
 өкүл N-INFL ;
-мыйзам 
+мыйзам N-INFL ;
 январь N-INFL ;
 февраль N-INFL ; 
 март N-INFL ;
@@ -3912,6 +3912,8 @@ LEXICON NounStems
 октябрь N-INFL ;
 ноябрь N-INFL ;
 декабрь N-INFL ;
+эскертме N-INFL ;
+кыйналуу N-INFL ;
 
 
 
@@ -4106,6 +4108,8 @@ Tеңир NP-TOP ; ! ""
 
 Нооруз NP-AL ; ! ""
 Супер% Галеб NP-AL ;
+Галеб NP-AL ;
+Супер NP-AL ;
 Г4 NP-AL ; ! ""
 Газел NP-AL ; ! ""
 Супер% Г4 NP-AL ; ! "" 
@@ -5111,6 +5115,7 @@ LEXICON VerbStems
 манёвр% кыл V-INFL-TV ;
 көтөрүл V-INFL-IV ;
 алкыш% кыл V-INFL-TV ;
+үмүт% кыл V-INFL-TV ;
 
 LEXICON Abbreviations
 
