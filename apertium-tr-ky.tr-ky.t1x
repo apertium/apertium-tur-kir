@@ -38,7 +38,18 @@
       <cat-item tags="v.*.cv_erek.*"/>
       <cat-item tags="v.*.cv_erek"/>
     </def-cat>
- 
+  
+    <def-cat n="v_t_narr_cpl_di">
+      <cat-item tags="v.t_narr.cpl_di.*"/>
+      <cat-item tags="v.t_narr.*.cpl_di.*"/>
+      <cat-item tags="v.t_narr.*.cpl_di"/>
+      <cat-item tags="v.*.t_narr.cpl_di.*"/>
+      <cat-item tags="v.*.t_narr.*.cpl_di"/>
+      <cat-item tags="v.*.*.t_narr.cpl_di.*"/>
+      <cat-item tags="v.*.*.t_narr.*.cpl_di.*"/>
+    </def-cat>
+
+
     <def-cat n="v_cv_iyor">
       <cat-item tags="v.cv_iyor"/>
       <cat-item tags="v.*.cv_iyor"/>
@@ -853,6 +864,29 @@
             <clip pos="1" side="tl" part="trans"/>
             <clip pos="1" side="tl" part="neg"/>
             <lit-tag v="aor"/>
+            <var n="c_pers"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="regla: v_t_narr_cpl_di">
+      <pattern>
+        <pattern-item n="v_t_narr_cpl_di"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="neg"/>
+            <lit-tag v="ifi"/>
             <var n="c_pers"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
