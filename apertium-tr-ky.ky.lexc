@@ -3350,7 +3350,7 @@ LEXICON NounStems
 дэм N-INFL ; 
 темир N-INFL ; 
 текшерүүчү N-INFL ; 
-експеримент N-INFL ; 
+эксперимент N-INFL ; 
 тажрыйба N-INFL ; 
 тең% салмактуулук N-INFL ; 
 суунун% түбү N-INFL ; 
@@ -3420,13 +3420,13 @@ LEXICON NounStems
 уста N-INFL ; 
 ээгин N-INFL ; 
 екмек N-INFL ; 
-екран N-INFL ; 
+экран N-INFL ; 
 ок N-INFL ; 
 бөксө N-INFL ; 
 кем N-INFL ; 
 кийим N-INFL ; 
-елчи N-INFL ; 
-колкаб N-INFL ; 
+элчи N-INFL ; 
+колкап N-INFL ; 
 кызматчы N-INFL ; 
 кол N-INFL ; 
 алмаз N-INFL ; 
@@ -3447,7 +3447,7 @@ LEXICON NounStems
 эсен N-INFL ; 
 чыгарма N-INFL ; 
 түгөй N-INFL ; 
-ешик N-INFL ; 
+эшик N-INFL ; 
 туткун N-INFL ; 
 тең N-INFL ; ! FIXME: should be adj
 көрүнүш N-INFL ; 
@@ -3459,6 +3459,7 @@ LEXICON NounStems
 этикетка N-INFL ; ! "label"
 айлана N-INFL ; 
 евалютсия N-INFL ; 
+эволюция N-INFL ; 
 кырсык N-INFL ; 
 сойку N-INFL ; 
 ардактуу N-INFL ; 
@@ -3648,7 +3649,7 @@ LEXICON NounStems
 соз% ташуу N-INFL ; 
 бузуу N-INFL ; 
 шалаакылык N-INFL ; 
-експорт N-INFL ; 
+экспорт N-INFL ; 
 эскертүү N-INFL ; 
 келбет N-INFL ; 
 этият N-INFL ; 
@@ -3719,7 +3720,7 @@ LEXICON NounStems
 баш% ийүү N-INFL ; 
 өрт% өчүргүч N-INFL ; 
 сураныч N-INFL ; 
-етибар N-INFL ; 
+этибар N-INFL ; 
 мойнуна% алуу N-INFL ; 
 биригүү N-INFL ; 
 уруксаат N-INFL ; 
@@ -4446,7 +4447,7 @@ suyuk ADJ ;
 залим ADJ ; 
 жаңы ADJ ; 
 ачык ADJ ; 
-ески ADJ ; 
+эски ADJ ; 
 башка ADJ ; 
 бардыгы ADJ ; 
 чоң ADJ ; 
@@ -4476,7 +4477,7 @@ suyuk ADJ ;
 батыш ADJ ; 
 күчтүү ADJ ; 
 кичинекей ADJ ; 
-еч% бир ADJ ; 
+эч% бир DET-QNT ; 
 кээбир ADJ ; 
 орто ADJ ; 
 жат ADJ ; 
@@ -4520,14 +4521,14 @@ suyuk ADJ ;
 жаман ADJ ; 
 бүтүн ADJ ; 
 күмөндүү ADJ ; 
-еркек ADJ ; 
+эркек ADJ ; 
 мамлекеттик ADJ ; 
 белгилүү ADJ ; 
 көп ADJ ; 
 жашыл ADJ ; 
 ишин% билген ADJ ; 
 өлүк ADJ ; 
-бэк ADJ ; 
+бек ADJ ; 
 койуу ADJ ; 
 алыс ADJ ; 
 туура% эмес ADJ ; 
@@ -4945,16 +4946,16 @@ LEXICON VerbStems
 жык V-INFL-TV ; 
 жырт V-INFL-TV ; 
 жытта V-INFL-TV ; 
-жэ V-INFL-TV ; 
-жэң V-INFL-TV ; 
-жэң V-INFL-IV ;
+же V-INFL-TV ; 
+жең V-INFL-TV ; 
+жең V-INFL-IV ;
 жүктө V-INFL-TV ; 
 илгериле V-INFL-IV ; 
 кайна V-INFL-IV ; ! "boil"
 кайнат V-INFL-TV ; ! "boil"
 кал V-INFL-TV ; 
 карма V-INFL-TV ; ! "hold"
-карма V-INFL-IV ; ! "hold"
+! карма V-INFL-IV ; ! "hold"  ! HOW IV?
 кары V-INFL-IV ; 
 карышта V-INFL-TV ; 
 ишке% жара V-INFL-IV ; 
@@ -5108,7 +5109,7 @@ LEXICON VerbStems
 кайрыл V-INFL-TV ;
 мин V-INFL-TV ; 
 муунт V-INFL ; 
-секир V-INFL-TV ; 
+!секир V-INFL-TV ; ! HOW?!
 секир V-INFL-IV ; 
 
 кыйн V-INFL-TV ; 
