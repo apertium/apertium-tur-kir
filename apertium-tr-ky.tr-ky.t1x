@@ -116,6 +116,7 @@
     <def-cat n="v_past">
       <cat-item tags="v.t_past.*"/>
       <cat-item tags="v.neg.t_past.*"/>
+      <cat-item tags="v.*.t_past.*"/>
     </def-cat>
     
     <def-cat n="v_cont">
