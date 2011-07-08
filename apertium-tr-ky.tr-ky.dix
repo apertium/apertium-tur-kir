@@ -3472,81 +3472,81 @@
 	<e c="  0"><p><l>süsle<s n="v"/></l><r>кооздо<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>süz<s n="v"/></l><r>сүз<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<!--<e><p><l>şaşala<s n="v"/></l><r>mat<b/>qal<s n="v"/><s n="TD"/></r></p></e>-->
-	<e c="  0"><p><l>şaş<s n="v"/></l><r>таң<b/>кал<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>şiş<s n="v"/></l><r>шиши<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>tamamla<s n="v"/></l><r>толукта<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>şaş<s n="v"/></l><r>таң<b/>кал<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>şiş<s n="v"/></l><r>шиши<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>tamamla<s n="v"/></l><r>толукта<s n="v"/><s n="tv"/></r></p></e>
 	<!--<e><p><l>tasarla<s n="v"/></l><r>tasarla<s n="v"/><s n="TD"/></r></p></e>-->
-	<e c="  0"><p><l>taş<s n="v"/></l><r>ташы<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>taş<s n="v"/></l><r>ташы<s n="v"/><s n="tv"/></r></p></e>
 	<!--<e><p><l>tavla<s n="v"/></l><r>tovla<s n="v"/><s n="TD"/></r></p></e>-->
-	<e c="  0"><p><l>tep<s n="v"/></l><r>теп<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>terle<s n="v"/></l><r>терде<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>tut<s n="v"/></l><r>тут<b/>ol<s n="v"/><s n="TD"/></r></p></e>
-	<e slr="1"><p><l>tut<s n="v"/></l><r>карма<b/>ol<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>tüt<s n="v"/></l><r>түтө<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>tep<s n="v"/></l><r>теп<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>terle<s n="v"/></l><r>терде<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>tut<s n="v"/></l><r>тут<s n="v"/><s n="tv"/></r></p></e>
+	<e slr="1"><p><l>tut<s n="v"/></l><r>карма<s n="v"/></r></p><par n="(t|i)v"/></e>
+	<e c="  0"><p><l>tüt<s n="v"/></l><r>түтө<s n="v"/><s n="iv"/></r></p></e>
 	<!--<e><p><l>tüy<s n="v"/></l><r>yayın<s n="v"/><s n="TD"/></r></p></e>-->
-	<e c="  0"><p><l>uğurla<s n="v"/></l><r>узат<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>uğurla<s n="v"/></l><r>узат<s n="v"/><s n="tv"/></r></p></e>
 	<!--<e><p><l>um<s n="v"/></l><r>um<s n="v"/><s n="TD"/></r></p></e>-->
-	<e c="  0"><p><l>ürk<s n="v"/></l><r>үрк<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>ver<s n="v"/></l><r>бер<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yağ<s n="v"/></l><r>жаа<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yak<s n="v"/></l><r>өрттө<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yan<s n="v"/></l><r>жан<s n="v"/><s n="TD"/></r></p></e>
-	<e slr="1"><p><l>yan<s n="v"/></l><r>күй<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yavaşla<s n="v"/></l><r>акырында<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yay<s n="v"/></l><r>жай<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yaz<s n="v"/></l><r>жаз<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>ye<s n="v"/></l><r>жэ<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yen<s n="v"/></l><r>жэң<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yığ<s n="v"/></l><r>жый<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yık<s n="v"/></l><r>жык<s n="v"/><s n="TD"/></r></p></e>
-	<e slr="1"><p><l>yık<s n="v"/></l><r>кулат<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yırt<s n="v"/></l><r>жырт<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yont<s n="v"/></l><r>жон<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yor<s n="v"/></l><r>чарчат<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yum<s n="v"/></l><r>жум<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yükle<s n="v"/></l><r>жүктө<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>ürk<s n="v"/></l><r>үрк<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>ver<s n="v"/></l><r>бер<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>yağ<s n="v"/></l><r>жаа<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>yak<s n="v"/></l><r>өрттө<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>yan<s n="v"/></l><r>жан<s n="v"/><s n="iv"/></r></p></e>
+	<e slr="1"><p><l>yan<s n="v"/></l><r>күй<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>yavaşla<s n="v"/></l><r>акырында<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>yay<s n="v"/></l><r>жай<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>yaz<s n="v"/></l><r>жаз<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>ye<s n="v"/></l><r>жэ<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>yen<s n="v"/></l><r>жэң<s n="v"/></r></p><par n="(t|i)v"/></e>
+	<e c="  0"><p><l>yığ<s n="v"/></l><r>жый<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>yık<s n="v"/></l><r>жык<s n="v"/><s n="tv"/></r></p></e>
+	<e slr="1"><p><l>yık<s n="v"/></l><r>кулат<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>yırt<s n="v"/></l><r>жырт<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>yont<s n="v"/></l><r>жон<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>yor<s n="v"/></l><r>чарчат<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>yum<s n="v"/></l><r>жум<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>yükle<s n="v"/></l><r>жүктө<s n="v"/><s n="tv"/></r></p></e>
 	<!--<e><p><l>zırla<s n="v"/></l><r>zırılda<s n="v"/><s n="TD"/></r></p></e>-->
-	<e c="  0"><p><l>zorla<s n="v"/></l><r>кыйна<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>üret<s n="v"/></l><r>пайда<b/>кыл<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>zorla<s n="v"/></l><r>кыйна<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>üret<s n="v"/></l><r>пайда<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>gör<s n="v"/></l><r>көр<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>bul<s n="v"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>bak<s n="v"/></l><r>кара<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>belir<s n="v"/></l><r>кыйна<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>düz<s n="v"/></l><r>тиз<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>getir<s n="v"/></l><r>алып<b/>кел<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>aç<s n="v"/></l><r>ач<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>kal<s n="v"/></l><r>кал<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>göster<s n="v"/></l><r>көрсөт<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>art<s n="v"/></l><r>көбөйт<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>konuş<s n="v"/></l><r>сүйлө<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>ilerle<s n="v"/></l><r>илгериле<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>sun<s n="v"/></l><r>сун<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>yaşa<s n="v"/></l><r>жаша<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>kaydet<s n="v"/></l><r>жаз<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>oluş<s n="v"/></l><r>түзүл<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>çağır<s n="v"/></l><r>чакыр<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>gerek<s n="v"/></l><r>керек<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>ulaş<s n="v"/></l><r>жет<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>gönder<s n="v"/></l><r>жибер<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>reddet<s n="v"/></l><r>тан<b/>ет<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>devam<b/>et<s n="v"/></l><r>улант<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>başar<s n="v"/></l><r>ишке<b/>ашыр<s n="v"/><s n="TD"/></r></p></e>
-	<e slr="1"><p><l>başar<s n="v"/></l><r>бүтүр<s n="v"/><s n="TD"/></r></p></e>
-	<e slr="2"><p><l>başar<s n="v"/></l><r>аткар<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>bak<s n="v"/></l><r>кара<s n="v"/></r></p><par n="(t|i)v"/></e>
+	<e c="  0"><p><l>belir<s n="v"/></l><r>көрүн<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>düz<s n="v"/></l><r>тиз<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>getir<s n="v"/></l><r>алып<b/>кел<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>aç<s n="v"/></l><r>ач<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>kal<s n="v"/></l><r>кал<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>göster<s n="v"/></l><r>көрсөт<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>art<s n="v"/></l><r>көбөйт<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>konuş<s n="v"/></l><r>сүйлө<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>ilerle<s n="v"/></l><r>илгериле<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>sun<s n="v"/></l><r>сун<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>yaşa<s n="v"/></l><r>жаша<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>kaydet<s n="v"/></l><r>жаз<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>oluş<s n="v"/></l><r>түзүл<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>çağır<s n="v"/></l><r>чакыр<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>gerek<s n="v"/></l><r>ишке<b/>жара<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>ulaş<s n="v"/></l><r>жет<s n="v"/></r></p><par n="(t|i)v"/></e>
+	<e c="  0"><p><l>gönder<s n="v"/></l><r>жибер<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>reddet<s n="v"/></l><r>тан<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>devam<b/>et<s n="v"/></l><r>улант<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>başar<s n="v"/></l><r>ишке<b/>ашыр<s n="v"/><s n="iv"/></r></p></e>
+	<e slr="1"><p><l>başar<s n="v"/></l><r>бүтүр<s n="v"/><s n="iv"/></r></p></e>
+	<e slr="2"><p><l>başar<s n="v"/></l><r>аткар<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>düşün<s n="v"/></l><r>ойлон<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>var<s n="v"/></l><r>бар<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>var<s n="v"/></l><r>бар<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e c="  0"><p><l>unut<s n="v"/></l><r>унут<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>kullan<s n="v"/></l><r>колдон<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>kaydol<s n="v"/></l><r>жазыл<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>karşılaş<s n="v"/></l><r>салыштыр<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>kaydol<s n="v"/></l><r>жазыл<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>karşılaş<s n="v"/></l><r>салыштыр<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>kalk<s n="v"/></l><r>тур<s n="v"/><s n="iv"/></r></p></e>
-	<e slr="1"><p><l>kalk<s n="v"/></l><r>көтөрүл<s n="v"/><s n="TD"/></r></p></e>
+	<e slr="1"><p><l>kalk<s n="v"/></l><r>көтөрүл<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>gülümse<s n="v"/></l><r>жылмай<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>endişelen<s n="v"/></l><r>сарсанаа<b/>тарт<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>manevra<b/>yap<s n="v"/></l><r>манёвр<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>başvur<s n="v"/></l><r>кайрыл<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>ayrıl<s n="v"/></l><r>уза<s n="v"/><s n="TD"/></r></p></e>
-	<e c="  0"><p><l>itiraf<b/>et<s n="v"/></l><r>мойнуңа<b/>ал<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>başvur<s n="v"/></l><r>кайрыл<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>ayrıl<s n="v"/></l><r>уза<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>itiraf<b/>et<s n="v"/></l><r>мойнуңа<b/>ал<s n="v"/><s n="tv"/></r></p></e>
 
       <!-- SECTION: Punctuation -->
 

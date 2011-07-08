@@ -2518,7 +2518,6 @@ LEXICON NounStems
 ревматизм N-INFL ; 
 рубидий N-INFL ; 
 рух N-INFL ; 
-жан N-INFL ; 
 арбак N-INFL ; 
 руханият N-INFL ; 
 рулет N-INFL ; 
@@ -3230,9 +3229,7 @@ LEXICON NounStems
 баткак N-INFL ; 
 кесе N-INFL ; 
 ажыдаар N-INFL ; 
-жан N-INFL ; 
 желмогуз N-INFL ; 
-жан N-INFL ; 
 сумка N-INFL ; 
 диаметр N-INFL ; 
 чара N-INFL ; 
@@ -4809,7 +4806,6 @@ LEXICON VerbStems
 ата V-INFL-TV ;
 атта V-INFL-TV ; 
 ач V-INFL-TV ; ! "open"
-ач V-INFL-TV ; ! "open"
 аш V-INFL-IV ; 
 бар V-INFL-IV ; ! "go"
 бар V-INFL-TV ; ! "go"
@@ -4827,11 +4823,13 @@ LEXICON VerbStems
 жат V-INFL-IV ; ! "come"
 же V-INFL-TV-SHORT ; ! "eat"
 жет V-INFL-IV ; 
+жет V-INFL-TV ;
 жүр V-INFL-TV ;
 ич V-INFL-TV ; ! "drink"
 иште V-INFL-IV ;  ! "work"
 кара V-INFL-IV ; 
 кара V-INFL-TV ;
+көрүн V-INFL-TV ;
 кат V-INFL-TV ; 
 кач V-INFL-IV ;
 кач V-INFL-TV ;
@@ -4918,34 +4916,37 @@ LEXICON VerbStems
 елестет V-INFL-TV ; ! "imagine"
 жаа V-INFL ; 
 жай V-INFL-TV ; ! "hang out to dry", "spread out"
-жан V-INFL ; 
+жан V-INFL-IV ; 
 жаркыра V-INFL-IV ; 
 жарыл V-INFL-IV ; 
-жаша V-INFL ; 
+жаша V-INFL-IV ; 
 же V-INFL ; ! "eat"
 жибер V-INFL-TV ; ! "send"
+тан V-INFL-TV ;
 жинден V-INFL-IV ; ! "get angry"
-жон V-INFL ; 
+жон V-INFL-TV ; 
 жулмала V-INFL-TV ; 
-жум V-INFL ; 
+жум V-INFL-TV ; 
 жыгыл V-INFL-IV ; ! "fall over"
-жый V-INFL ; 
+жый V-INFL-TV ; 
 жыйнал V-INFL ; 
 жыйынтыкта V-INFL-TV ; 
-жык V-INFL ; 
-жырт V-INFL ; 
+жык V-INFL-TV ; 
+жырт V-INFL-TV ; 
 жытта V-INFL-TV ; 
-жэ V-INFL ; 
-жэң V-INFL ; 
-жүктө V-INFL ; 
-илгериле V-INFL ; 
+жэ V-INFL-TV ; 
+жэң V-INFL-TV ; 
+жэң V-INFL-IV ;
+жүктө V-INFL-TV ; 
+илгериле V-INFL-IV ; 
 кайна V-INFL-IV ; ! "boil"
 кайнат V-INFL-TV ; ! "boil"
 кал V-INFL ; 
 карма V-INFL-TV ; ! "hold"
+карма V-INFL-IV ; ! "hold"
 кары V-INFL-IV ; 
 карышта V-INFL-TV ; 
-керек V-INFL ; ! NOT A VERB!
+ишке% жара V-INFL ; 
 кес V-INFL-TV ; ! "cut"
 кеч V-INFL-TV ; 
 кир V-INFL-IV ; ! "enter"
@@ -4962,16 +4963,17 @@ LEXICON VerbStems
 кургат V-INFL-TV ; 
 кучакта V-INFL-TV ; 
 кый V-INFL-TV ; 
-кыйна V-INFL ; 
+кыйна V-INFL-TV ; 
 кыйнал V-INFL ;
 кырк V-INFL-TV ; 
 кыс V-INFL-TV ; 
 азайт V-INFL-TV ;
-күй V-INFL ; 
+акырында V-INFL-IV ;
+күй V-INFL-IV ; 
 күнөөлө V-INFL-TV ; 
-көбөйт V-INFL ; 
+көбөйт V-INFL-TV ; 
 көр V-INFL-TV ; ! "see"
-көрсөт V-INFL ; ! "show"
+көрсөт V-INFL-TV ; ! "show"
 макта V-INFL-TV ; ! "brag about"
 мактан V-INFL-IV ; ! "brag"
 мин V-INFL ; 
@@ -4985,7 +4987,7 @@ LEXICON VerbStems
 оро V-INFL-TV ; 
 отто V-INFL-IV ; 
 отур V-INFL ; ! "sit"
-пайда% кыл V-INFL ; 
+пайда% кыл V-INFL-TV ; 
 парала V-INFL-TV ; 
 планда V-INFL-TV ; 
 планда V-INFL-IV ;
@@ -4997,13 +4999,13 @@ LEXICON VerbStems
 сик V-INFL-TV ; 
 сиң V-INFL-TV ; 
 сугар V-INFL-TV ; 
-сун V-INFL ; 
+сун V-INFL-TV ; 
 сура V-INFL-TV ; 
 сыз V-INFL-IV ; 
 сыла V-INFL-TV ; 
 сүз V-INFL-TV ; 
 сүз V-INFL-IV ;
-сүйлө V-INFL ; ! "speak"
+сүйлө V-INFL-IV ; ! "speak"
 сүр V-INFL-TV ; 
 тааны V-INFL-TV ;
 тааныл V-INFL-TV ; 
@@ -5020,32 +5022,34 @@ LEXICON VerbStems
 терде V-INFL-IV ; ! "sweat"
 теш V-INFL-TV ; ! "put a hole in"
 тиз V-INFL-TV ; 
+алып% кел V-INFL-TV ;
 тик V-INFL-TV ; 
 той V-INFL-IV ; 
 токто V-INFL-IV ; ! "stop" 
 токтот V-INFL-TV ; ! "stop" 
 тол V-INFL-IV ; ! "be full"
-толукта V-INFL ; 
+толукта V-INFL-TV ; 
 топто V-INFL-TV ; 
 топтол V-INFL-IV ; 
 тосуп% ал V-INFL-TV ; 
 тоң V-INFL-IV ; ! "freeze"
-тут V-INFL ; 
+тут V-INFL-TV ; 
 түгөн V-INFL-IV ; 
-түзүл V-INFL ; 
-түтө V-INFL ; 
+түзүл V-INFL-TV ; 
+түтө V-INFL-IV ; 
 түш V-INFL-IV-NO-CAUS ; ! "fall"
 түш:түшүр V-INFL-IV-IRREG-CAUS ; ! "to make fall"
 төк V-INFL-TV ; 
 төк V-INFL-IV ; 
 төлө V-INFL-TV ; 
-узат V-INFL ; 
-уза V-INFL ; 
+узат V-INFL-TV ; 
+уза V-INFL-TV ; 
+мойнуңа% ал V-INFL-TV ; 
 ушала V-INFL-TV ; 
 чак V-INFL-TV ; 
-чакыр V-INFL ; 
+чакыр V-INFL-TV ; 
 чал V-INFL-TV ; 
-чарчат V-INFL ; 
+чарчат V-INFL-TV ; 
 чач V-INFL-TV ; 
 агыт V-INFL-TV ;
 чеч V-INFL-TV ; 
@@ -5063,10 +5067,10 @@ LEXICON VerbStems
 алдан V-INFL-TV ;
 үйлө V-INFL-TV ; 
 үр V-INFL-IV ; 
-үрк V-INFL ; 
+үрк V-INFL-IV ; 
 өлчө V-INFL-TV ; 
 өр V-INFL-TV ; 
-өрттө V-INFL ; 
+өрттө V-INFL-TV ; 
 өч V-INFL-IV-NO-CAUS ; ! "turn off"
 өч:өчүр V-INFL-IV-IRREG-CAUS ; ! "make turn off"
 сиңир V-INFL ;
@@ -5083,14 +5087,14 @@ LEXICON VerbStems
 тый V-INFL ;
 жүргүз V-INFL ;
 ыйгар V-INFL ;
-улант V-INFL ;
-ишке% ашыр V-INFL ;
-бүтүр V-INFL ;
-аткар V-INFL ;
+улант V-INFL-TV ;
+ишке% ашыр V-INFL-IV ;
+бүтүр V-INFL-IV ;
+аткар V-INFL-IV ;
 
-жазыл V-INFL ;
+жазыл V-INFL-TV ;
 жоолук V-INFL ;
-кайрыл V-INFL ;
+кайрыл V-INFL-TV ;
 мин V-INFL ; 
 муунт V-INFL ; 
 секир V-INFL-TV ; 
@@ -5100,9 +5104,9 @@ LEXICON VerbStems
 айда V-INFL-TV ;
 жылмай V-INFL-IV ;
 ойло V-INFL-TV ;
-салыштыр V-INFL;
+салыштыр V-INFL-IV;
 манёвр% кыл V-INFL-TV ;
-көтөрүл V-INFL ;
+көтөрүл V-INFL-IV ;
 алкыш% кыл V-INFL-TV ;
 
 LEXICON Abbreviations
