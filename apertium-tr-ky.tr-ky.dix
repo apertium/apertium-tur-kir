@@ -2798,6 +2798,9 @@
 	<e c="  0"><p><l>zorlanma<s n="n"/></l><r>кыйналуу<s n="n"/></r></p></e>
 	<e c="  0"><p><l>not<s n="n"/></l><r>эскертме<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ev<s n="n"/></l><r>үй<s n="n"/></r></p></e>
+	<e c="  0"><p><l>mutlu<s n="n"/></l><r>кубанычтуу<s n="n"/></r></p></e>
+	<e c="  0"><p><l>zor<s n="n"/></l><r>оор<s n="n"/></r></p></e>
+	<e c="  0"><p><l>eğitimli<s n="n"/></l><r>билимдүү<s n="n"/></r></p></e>
 		
         <!-- SECTION: Proper nouns -->
         <e><p><l>Abhazya<s n="np"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e> 
@@ -2911,8 +2914,8 @@
 	<e><p><l>Tadiç<s n="np"/></l><r>Тадич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 	<e><p><l>Krneta<s n="np"/></l><r>Крнета<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 	<e><p><l>Super<s n="np"/></l><r>Супер<s n="np"/><s n="al"/></r></p></e>
-	<e><p><l>Super<b/>Galeb<s n="np"/></l><r>Супер<b/>Галеб<s n="np"/><s n="al"/></r></p></e>
-	<e><p><l>Galep<s n="np"/></l><r>Галеб<s n="np"/><s n="al"/></r></p></e>
+	<e><p><l>Super<b/>Galep<s n="np"/></l><r>Супер<b/>Галеп<s n="np"/><s n="al"/></r></p></e>
+	<e><p><l>Galep<s n="np"/></l><r>Галеп<s n="np"/><s n="al"/></r></p></e>
 	<e><p><l>Super<b/>G4<s n="np"/></l><r>Супер<b/>Г4<s n="np"/><s n="al"/></r></p></e>
 	<e><p><l>G4<s n="np"/></l><r>Г4<s n="np"/><s n="al"/></r></p></e>
 	<e><p><l>Sırp<b/>Ordusu<s n="np"/></l><r>Серб<b/>Аскери<s n="np"/><s n="org"/></r></p></e>
