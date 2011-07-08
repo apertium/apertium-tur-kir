@@ -4888,7 +4888,7 @@ LEXICON VerbStems
 бар V-INFL-IV ; ! "go"
 аракет% кыл V-INFL-TV ; ! "try"
 арна V-INFL-IV ; 
-аякта V-INFL ; 
+аякта V-INFL-TV ; 
 бак V-INFL ; 
 башта V-INFL-TV ; 
 без V-INFL-IV ; 
@@ -4929,7 +4929,7 @@ LEXICON VerbStems
 жум V-INFL-TV ; 
 жыгыл V-INFL-IV ; ! "fall over"
 жый V-INFL-TV ; 
-жыйнал V-INFL ; 
+жыйнал V-INFL-IV ; 
 жыйынтыкта V-INFL-TV ; 
 жык V-INFL-TV ; 
 жырт V-INFL-TV ; 
@@ -4983,7 +4983,7 @@ LEXICON VerbStems
 ойно V-INFL-IV ; ! "play"
 окшо V-INFL-TV ; 
 онто V-INFL-IV ; 
-ор V-INFL ; 
+ор V-INFL-TV ; 
 оро V-INFL-TV ; 
 отто V-INFL-IV ; 
 отур V-INFL ; ! "sit"
@@ -5095,7 +5095,7 @@ LEXICON VerbStems
 жазыл V-INFL-TV ;
 жоолук V-INFL ;
 кайрыл V-INFL-TV ;
-мин V-INFL ; 
+мин V-INFL-TV ; 
 муунт V-INFL ; 
 секир V-INFL-TV ; 
 секир V-INFL-IV ; 
