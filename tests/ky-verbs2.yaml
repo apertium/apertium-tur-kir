@@ -25,3 +25,13 @@ Tests:
   "[twol] Yotification":
     кой<v><tv><cv_perf> : коюп
     кой<v><tv><inf><nom> : коюу
+
+  "[lexc] Complex tenses":
+    кой<v><tv><inf2> : коюш
+    кой<v><tv><neg><inf2> : койбош
+    кой<v><tv><fut><p1><sg> : коёрмун
+    кой<v><tv><neg><fut><p1><sg> : койбосмун
+    кой<v><tv><fut><p1><sg> : коёормун
+    кой<v><tv><neg><fut><p1><sg> : койбоосмун
+    кой<v><tv><ifi><p1><sg> : койдум
+    кой<v><tv><neg><ifi><p1><sg> : койгон жокмун

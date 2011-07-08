@@ -537,9 +537,12 @@ LEXICON V-INFL-COMMON
 %<pcond%>:%>м%{A%}к V-PERS-COP ;                              ! 
 
 %<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! TODO: Check
-%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}р V-PERS-COP ;              !
-%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}%{A%}р V-PERS-COP ;         ! Dir/LR
-%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;         ! 
+!%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}р V-PERS-COP ;              !
+!%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}%{A%}р V-PERS-COP ;         ! Dir/LR
+!%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;         ! 
+%<neg%>%<fut%>:%>%{B%}%{A%}%>%с V-PERS-COP ;              !
+%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}с V-PERS-COP ;         ! Dir/LR
+%<neg%>%<ifi%>:%>%{G%}%{A%}%н% жок V-PERS-COP ;         ! 
 %<neg%>%<aor%>:%>%{B%}%{A%}%>%{E%} V-PERS-PRES ;              !
 %<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! 
 %<neg%>%<past%>:%>%{B%}%{A%}%>%{G%}%{A%}н V-PERS-COP ;        ! 
