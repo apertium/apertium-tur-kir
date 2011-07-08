@@ -2801,6 +2801,7 @@
 	<e c="  0"><p><l>mutlu<s n="n"/></l><r>кубанычтуу<s n="n"/></r></p></e>
 	<e c="  0"><p><l>zor<s n="n"/></l><r>оор<s n="n"/></r></p></e>
 	<e c="  0"><p><l>eğitimli<s n="n"/></l><r>билимдүү<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pas<s n="n"/></l><r>дат<s n="n"/></r></p></e>
 		
         <!-- SECTION: Proper nouns -->
         <e><p><l>Abhazya<s n="np"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e> 
@@ -3103,6 +3104,7 @@
 	<e c="  0"><p><l>eğitimli<s n="adj"/></l><r>билимдүү<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>geçen<s n="adj"/></l><r>өткөн<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>motivasyonlu<s n="adj"/></l><r>мотиватсиялуу<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>ana<s n="adj"/></l><r>башкы<s n="adj"/></r></p></e>
     
         <!-- SECTION: Adverbs -->
 
