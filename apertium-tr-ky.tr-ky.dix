@@ -333,7 +333,7 @@
 	<e c="  0"><p><l>ayar<s n="n"/></l><r>аяр<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ayaz<s n="n"/></l><r>аяз<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ay<s n="n"/></l><r>ай<s n="n"/></r></p></e>
-	<e c="  0"><p><l>ayı<s n="n"/></l><r>айуу<s n="n"/></r></p></e>       
+	<e c="  0"><p><l>ayı<s n="n"/></l><r>аюу<s n="n"/></r></p></e>       
 	<e c="  0"><p><l>ayıp<s n="n"/></l><r>уят<s n="n"/></r></p></e>
 	<e c="  0"><p><l>aykırı<s n="n"/></l><r>туура<b/>келбеген<s n="n"/></r></p></e>
 	<e c="  0"><p><l>aylık<s n="n"/></l><r>маяна<s n="n"/></r></p></e>
@@ -3335,7 +3335,7 @@
 	<e c="  0"><p><l>ada<s n="v"/></l><r>арна<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ağla<s n="v"/></l><r>ыйла<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>alkışla<s n="v"/></l><r>алкыш<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>an<s n="v"/></l><r>елестет<s n="v"/></r></p><par n="(t|i)v"/></e>
+	<e c="  0"><p><l>an<s n="v"/></l><r>элестет<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e c="  0"><p><l>as<s n="v"/></l><r>ас<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>aş<s n="v"/></l><r>аш<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>at<s n="v"/></l><r>ат<s n="v"/><s n="tv"/></r></p></e>
