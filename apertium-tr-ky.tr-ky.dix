@@ -3400,9 +3400,9 @@
 	<e c="  0"><p><l>havla<s n="v"/></l><r>үр<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>hazırla<s n="v"/></l><r>даярда<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>hırpala<s n="v"/></l><r>жулмала<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>hopla<s n="v"/></l><r>секир<s n="v"/></r></p><par n="iv"/></e>
-	<e c="  0"><p><l>atla<s n="v"/></l><r>секир<s n="v"/></r></p><par n="iv"/></e>
-	<e c="  0"><p><l>zıpla<s n="v"/></l><r>секир<s n="v"/></r></p><par n="iv"/></e>
+	<e c="  0"><p><l>hopla<s n="v"/></l><r>секир<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>atla<s n="v"/></l><r>секир<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>zıpla<s n="v"/></l><r>секир<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>horla<s n="v"/></l><r>коңурук<b/>тарт<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ısmarla<s n="v"/></l><r>тартуула<s n="v"/><s n="tv"/></r></p></e>
 	<!--<e><p><l>ışınla<s n="v"/></l><r>şüala<s n="v"/><s n="TD"/></r></p></e>-->
@@ -3487,7 +3487,7 @@
 	<e c="  0"><p><l>tep<s n="v"/></l><r>теп<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>terle<s n="v"/></l><r>терде<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>tut<s n="v"/></l><r>тут<s n="v"/><s n="tv"/></r></p></e>
-	<e slr="1"><p><l>tut<s n="v"/></l><r>карма<s n="v"/></r></p><par n="tv"/></e>
+	<e slr="1"><p><l>tut<s n="v"/></l><r>карма<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>tüt<s n="v"/></l><r>түтө<s n="v"/><s n="iv"/></r></p></e>
 	<!--<e><p><l>tüy<s n="v"/></l><r>yayın<s n="v"/><s n="TD"/></r></p></e>-->
 	<e c="  0"><p><l>uğurla<s n="v"/></l><r>узат<s n="v"/><s n="tv"/></r></p></e>
