@@ -1158,8 +1158,9 @@ LEXICON NounStems
 көрсөтүү N-INFL ; 
 көрүү N-INFL ; ! "" 
 колдонуучу N-INFL ; ! "user" 
+күкүм N-INFL ; ! "crumb"
 майор N-INFL ; 
-мал N-INFL ; ! ""
+мал N-INFL ; ! "livestock / heard animal"
 мамлекет N-INFL ; ! "state"
 мектеп N-INFL ; ! "school"
 мурун N-INFL ; ! "nose"
@@ -1182,7 +1183,6 @@ LEXICON NounStems
 туз N-INFL ; ! "salt"
 төө N-INFL ; ! "" 
 унаа N-INFL ; ! "" 
-уу N-INFL ; 
 ууч N-INFL ; 
 үй N-INFL ; ! "house"
 чака N-INFL ; ! "bucket"
@@ -2145,6 +2145,7 @@ LEXICON NounStems
 жардам N-INFL ; 
 жөлөк N-INFL ; 
 медресе N-INFL ; 
+нан N-INFL ;
 махабат N-INFL ; 
 мекен N-INFL ; 
 ата% журт N-INFL ; 
@@ -2850,7 +2851,6 @@ LEXICON NounStems
 зарурат N-INFL ; 
 зат N-INFL ; 
 заар N-INFL ; 
-уу N-INFL ; 
 зекет N-INFL ; 
 зилзала N-INFL ; 
 жер% титирөө N-INFL ; 
@@ -3086,7 +3086,6 @@ LEXICON NounStems
 от N-INFL ; 
 атлас N-INFL ; 
 аң N-INFL ; 
-уу N-INFL ; 
 асма% чырак N-INFL ; 
 алакан N-INFL ; 
 аяк N-INFL ; 
@@ -4440,7 +4439,6 @@ LEXICON AdjecStems
 инсанча ADJ ; 
 казак ADJ ;  ! "Kazakh"
 кишиче ADJ ; 
-сулуу ADJ ; 
 кыз ADJ ; 
 кеңири ADJ ; 
 мол ADJ ; 
