@@ -1479,8 +1479,8 @@ LEXICON NounStems
 бата N-INFL ; 
 дубляж N-INFL ; 
 дублёр N-INFL ; 
-дуэт N-INFL ; 
-тыт N-INFL ; 
+дуэт N-INFL ; ! "duet" 
+тыт N-INFL ; ! "mulberry"
 дубал N-INFL ; 
 дуушар N-INFL ; 
 душ N-INFL ; 
@@ -2673,7 +2673,6 @@ LEXICON NounStems
 тайга N-INFL ; 
 таберик N-INFL ; 
 тажрыйба N-INFL ; 
-сунуш N-INFL ; 
 такилип N-INFL ; 
 техникум N-INFL ; 
 техник N-INFL ; 
@@ -2710,7 +2709,6 @@ LEXICON NounStems
 тартип N-INFL ; 
 аскердеги% система N-INFL ; 
 террор N-INFL ; 
-таасир N-INFL ; 
 теспе N-INFL ; 
 тест N-INFL ; 
 таеже N-INFL ; 
@@ -3361,7 +3359,6 @@ LEXICON NounStems
 даража N-INFL ; 
 дарыя N-INFL ; 
 журнал N-INFL ; 
-тери N-INFL ; 
 дербиш N-INFL ; 
 оймо N-INFL ; 
 дастан N-INFL ; 
@@ -3389,7 +3386,6 @@ LEXICON NounStems
 табият N-INFL ; 
 табийгый N-INFL ; 
 төрөт N-INFL ; 
-тери N-INFL ; 
 шкаф N-INFL ; 
 долма N-INFL ; 
 помидор N-INFL ; 
@@ -5092,7 +5088,7 @@ LEXICON VerbStems
 салкында V-INFL ; 
 сез V-INFL-TV ; 
 сик V-INFL-TV ; 
-сиң V-INFL-TV ; 
+сиң V-INFL-IV ; 
 сугар V-INFL-TV ; 
 сун V-INFL-TV ; 
 сура V-INFL-TV ; 
@@ -5104,6 +5100,7 @@ LEXICON VerbStems
 сүр V-INFL-TV ; 
 тааны V-INFL-TV ;
 тааныл V-INFL-TV ; 
+таасир% эт V-INFL-TV ;
 таарын V-INFL-IV ; ! "be offended (at)"
 тажа V-INFL-IV ; ! "get fed up with"
 талкала V-INFL-TV ; ! "destroy"
@@ -5143,6 +5140,7 @@ LEXICON VerbStems
 ушала V-INFL-TV ; 
 чак V-INFL-TV ; 
 чакыр V-INFL-TV ; 
+чыкыр V-INFL-TV ;
 чал V-INFL-TV ; 
 чарчат V-INFL-TV ; 
 чач V-INFL-TV ; 
