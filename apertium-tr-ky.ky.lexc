@@ -667,6 +667,7 @@ LEXICON Postpositions
 дагы POST ;
 керек POST ; 
 ушуга% чейин POST ;
+дайым POST ;
 
 
 LEXICON Determiners
@@ -1711,7 +1712,6 @@ LEXICON NounStems
 эт% ысуу N-INFL ; 
 көз N-INFL ; 
 күмүш N-INFL ; 
-күн N-INFL ; 
 күнөө N-INFL ; 
 күндөлүк N-INFL ; 
 көнүмүш N-INFL ; 
@@ -3919,8 +3919,18 @@ LEXICON NounStems
 эскертме N-INFL ;
 кыйналуу N-INFL ;
 дат N-INFL ;
-
-
+деңгээл N-INFL ;
+тандоо N-INFL ;
+отличник N-INFL ;
+агартуу N-INFL ;
+сол N-INFL ;
+чарба N-INFL ;
+коомчулук N-INFL ;
+очерк N-INFL ;
+жөн N-INFL ;
+багыт N-INFL ;
+ыкма N-INFL ;
+чүкө N-INFL ;
 
 
 LEXICON PropernounStems
@@ -4102,6 +4112,27 @@ Tеңир NP-TOP ; ! ""
 АКШ NP-TOP ;
 Жумгал NP-TOP ;
 ССР NP-TOP ;
+Ленинград NP-TOP ;
+Ош NP-TOP ;
+Ысык%-Ата NP-TOP ;
+Ат%-Башы NP-TOP ;
+Тянь%-Шань NP-TOP ;
+Эркин%-Тоо NP-TOP ;
+Токмок NP-TOP ;
+Ысыккөл NP-TOP ;
+Өзгөн NP-TOP ;
+Чолпон%-Ата NP-TOP ;
+Чолпон NP-TOP ;
+Пишпек NP-TOP ;
+Аксы NP-TOP ;
+КМУ NP-TOP ;
+Сары%-Таш NP-TOP ;
+Жайыл NP-TOP ;
+Кыргызстан NP-TOP ;
+ЛКЖС NP-TOP ;
+КТУ NP-TOP ;
+Каракол NP-TOP ;
+
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
@@ -4120,6 +4151,7 @@ Tеңир NP-TOP ; ! ""
 Супер% Г4 NP-AL ; ! "" 
 
 Семетей NP-ANT-M ;
+Каныбек NP-ANT-M ;
 Сагымбай NP-ANT-M ;
 Кудаяр NP-ANT-M ;
 Султан NP-ANT-M ;
@@ -4138,7 +4170,29 @@ Tеңир NP-TOP ; ! ""
 Алмазбек NP-ANT-M ;
 Махмуд NP-ANT-M ;
 Неманя NP-ANT-M ;
-
+Чыңгыз NP-ANT-M ;
+Касым NP-ANT-M ;
+Роза NP-ANT-M ;
+Ишенаалы NP-ANT-M ;
+Искак NP-ANT-M ;
+Үсөн NP-ANT-M ;
+Бакай NP-ANT-M ;
+Александр NP-ANT-M ;
+Жакып NP-ANT-M ;
+Азамат NP-ANT-M ;
+Махмуд NP-ANT-M ;
+Курманбек NP-ANT-M ;
+Белек NP-ANT-M ;
+Асан NP-ANT-M ;
+Муса NP-ANT-M ;
+Иса NP-ANT-M ;
+Осмон NP-ANT-M ;
+Ормон NP-ANT-M ;
+Алымкул NP-ANT-M ;
+Касым NP-ANT-M ;
+Балбай NP-ANT-M ;
+Мухаммед NP-ANT-M ;
+Жусуп NP-ANT-M ;
 Полот NP-ANT-M ;
 
 Мария NP-ANT-F ; ! "Marija"
@@ -4148,6 +4202,18 @@ Tеңир NP-TOP ; ! ""
 Анна NP-ANT-F ;
 Аня NP-ANT-F ;
 
+Чороев NP-COG-MF ;
+Баласагын NP-COG-MF ;
+Раззаков NP-COG-MF ;
+Айтматов NP-COG-MF ;
+Тыныстанов NP-COG-MF ;
+Отунбаева NP-COG-MF ;
+Токомбаев NP-COG-MF ;
+Арабаев NP-COG-MF ;
+Пушкин NP-COG-MF ;
+Кашгари NP-COG-MF ;
+Бөкөнбаев NP-COG-MF ;
+Шамшиев NP-COG-MF ;
 Асанбаев NP-COG-MF ; ! ""
 Горький NP-COG-MF ;
 Аббас NP-COG-MF ; ! "Abbas"
@@ -4280,7 +4346,7 @@ Tеңир NP-TOP ; ! ""
 Эрдоган NP-COG-MF ; ! ""
 
 LEXICON AdjecStems
-
+алдыңкы ADJ ;
 алгачкы ADJ-ORD ; ! "first"
 экинчи ADJ-ORD ; ! "second"
 эркин ADJ ;
@@ -4633,6 +4699,11 @@ suyuk ADJ ;
 улуттук ADJ ;
 дүйнөлүк ADJ ;
 акыркы ADJ ;
+ийгиликтүү ADJ ;
+бай ADJ ;
+узак ADJ ;
+татаал ADJ ;
+
 
 LEXICON AdvStems
 
@@ -4641,6 +4712,8 @@ LEXICON AdvStems
 өтө ADV ; ! "very"
 мисалы ADV ; ! "for example"
 улам ADV ; ! "???"
+айрыкча ADV ;
+кыйла ADV ;
  
 эртең ADV ; ! "tomorrow"
 эми ADV ; ! "now"
@@ -4656,6 +4729,7 @@ LEXICON AdvStems
 жок ADV ; 
 ар% дайым ADV ; 
 кийин ADV ; 
+төмөнкү ADV ;
 негизи ADV ; 
 дагы ADV ; 
 бирок ADV ; 
@@ -4802,9 +4876,18 @@ LEXICON VerbStems
 эмес%<v%>%<neg%>:эмес # ;
 эмес%<v%>%<neg%>:эмес V-PERS-PAST ;
 
+өс V-INFL-IV ;
+танда V-INFL-TV ;
+баала V-INFL-TV ;
+үйрөт V-INFL-TV ;
+үйрөн V-INFL-TV ;
+кайт V-INFL-IV ;
+сат V-INFL-TV ;
+агарт V-INFL-TV ;
+кур V-INFL-TV ;
 бол V-INFL-IV ; ! "be"
 чыгар V-INFL-TV ; ! "" 
-
+жарат V-INF-TV ;
 аарчы V-INFL-IV ;  ! ""
 аарчы V-INFL-TV ;  ! ""
 айлант V-INFL-TV ; ! "give headache"
@@ -5085,20 +5168,20 @@ LEXICON VerbStems
 өрттө V-INFL-TV ; 
 өч V-INFL-IV-NO-CAUS ; ! "turn off"
 өч:өчүр V-INFL-IV-IRREG-CAUS ; ! "make turn off"
-сиңир V-INFL ;
+сиңир V-INFL-TV ;
 өчүр V-INFL ; 
 тир V-INFL ;
 уч V-INFL-IV ;
 өп V-INFL-TV ; ! to kiss"
 алын V-INFL ;
 
-катыш V-INFL ;
+катыш V-INFL-TV ;
 сарсанаа% тарт V-INFL-TV ;
 
 
-тый V-INFL ;
-жүргүз V-INFL ;
-ыйгар V-INFL ;
+тый V-INFL-IV ;
+жүргүз V-INFL-TV ;
+ыйгар V-INFL-IV ;
 улант V-INFL-TV ;
 ишке% ашыр V-INFL-IV ;
 бүтүр V-INFL-IV ;
