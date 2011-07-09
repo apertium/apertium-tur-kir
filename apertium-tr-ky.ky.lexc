@@ -517,10 +517,10 @@ LEXICON V-INFL-COMMON
 
 ! Non-finite forms and participles
 %<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
-<inf2%>:%>%{I%}ш POSSESSION ;                                ! -ыш, -иш, -уш, -үш
-<neg%>%<pp%>:%>%{B%}%{A%}%>%{G%}%{A%}н POSSESSION ;          !
+%<inf2%>:%>%{I%}ш POSSESSION ;                                ! -ыш, -иш, -уш, -үш
+%<neg%>%<pp%>:%>%{B%}%{A%}%>%{G%}%{A%}н POSSESSION ;          !
 %<neg%>%<pp2%>:%>%{B%}%{A%}%>%{G%}%{A%}н%{I%} POSSESSION ;    ! This is wrong
-<neg%>%<inf2%>:%>%{B%}%{A%}%>%{I%}ш POSSESSION ;             !
+%<neg%>%<inf2%>:%>%{B%}%{A%}%>%{I%}ш POSSESSION ;             !
 %<plist%>:%>м%{A%}й # ;                                       ! huh?
 
 ! Finite forms
@@ -1160,7 +1160,7 @@ LEXICON NounStems
 колдонуучу N-INFL ; ! "user" 
 күкүм N-INFL ; ! "crumb"
 майор N-INFL ; 
-мал N-INFL ; ! "livestock / heard animal"
+мал N-INFL ; ! "livestock / herd animal"
 мамлекет N-INFL ; ! "state"
 мектеп N-INFL ; ! "school"
 мурун N-INFL ; ! "nose"
