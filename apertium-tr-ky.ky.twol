@@ -138,7 +138,8 @@ Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ;
 !%{I%}:0 <=> :SurVow (%>:) _ \п ;
 !%{I%}:0 <=> :SurVow (%>:) _ ;
 !%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \п ;
-%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \[ п | .#. ] ;
+!%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \[ п | .#. ] ;
+%{I%}:0 <=> [ :SurVow | %{n%}:н ]/[ [ :0 - й:0 ] | %>: ] _ \[ п ] ;
 
 !"Vowel deletion for archiphoneme {I} in <cv_perf>"
 !!%{I%}:0 <=> [ :SurVow | :LowVow :LabialCns ]  (%>:) _ п ;
@@ -206,7 +207,8 @@ Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ;
 !%{I%}:Vy <=> [ :LastVowel :Cns* [ :Cns - [ й: | %{n%}:0 ] ] ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \п: ;
 !%{I%}:Vy <=> [ :LastVowel :Cns/[ :0 ]* [ :Cns - й: ] ]/[ %>: ] _ \п: ;
 !%{I%}:Vy <=> :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns ] ]/[ :0 | %>: ] _ \п: ;
-%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | [ :0 - %{N%}: ] ] _ \п: ;
+!%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | [ :0 - %{N%}: ] ] _ \п: ;
+%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}:н ] ] ]/[ %>: | :0 ] _ \п: ;
   where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
@@ -327,7 +329,7 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 !Vx:Vy <=> :LastVowel [ %>: | :0 ]* _ ; 
 !Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
 !%{U%}:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
-%{U%}:Vy <=> [ :LastVowel [ Cns - й ] ]/[ %>: ] _ ;
+%{U%}:Vy <=> [ :LastVowel [ Cns - й ] ]/[ [ :0 - й:0 ] | %>: ] _ ;
 !        where Vx         in ( %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} )
          where Vy         in (   ү     ү     ү     ү     ү     у     у     у     у     у     у     у   )
                LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
@@ -341,6 +343,7 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 
 "{U} deletion after vowel final stem"
 %{U%}:0 <=> Vow %>: _ %{U%}: ; 
+!%{U%}:0 <=> [ :SurVow ]/[ :0 | %>: ] _ %{U%}: ; 
 
 !"Assimilate {U} in infinitives"
 !!%{U%}:Vy <=> :LastVowel ( %>: :0 ) _ ; 
@@ -373,6 +376,8 @@ Vx:Vy <=> _ [ %{U%}: ]/[ :0 | %>: ] ;
 "Passive {l} becomes n after verb stem ending in /l/"
 !%{l%}:н <=> л [ %>: %{I%}: | :SurVow %>: %{I%}:0 ] _ ;
 %{l%}:н <=> [ л :SurVow ]/[ :0 | %>: ] _ ;
+!%{l%}:н <=> [ :л :SurVow ]/[ :0 | %>: ] _ ;
+!%{l%}:н <=> [ л Vow ]/[ :0 | %>: ] _ ;
 
 
 !"Digraph ю"
@@ -391,8 +396,9 @@ Vx:Vy <=> _ [ %{U%}: ]/[ :0 | %>: ] ;
 !		        matched;
 !%{N%}:0 <=> %{n%}: %>: _ ;
 
-"Deletion of accusative {I} after {n}>{N}"
-%{I%}:0 <=> %{n%}:н %>: %{N%}:0 _ .#. ;
+!"Deletion of accusative {I} after {n}>{N}"
+!!%{I%}:0 <=> %{n%}:н %>: %{N%}:0 _ .#. ;
+!%{I%}:0 <=> [ %{n%}:н ]/[ :0 | %>: ] _ .#. ;
 
 "Deletion of accusative {N} after {n}"
 %{N%}:0 <=> %{n%}:н %>: _ %{I%}:0 .#. ;
