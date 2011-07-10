@@ -27,8 +27,8 @@ Tests:
     кой<v><tv><inf><nom> : коюу
 
   "[lexc] Complex tenses":
-    кой<v><tv><inf2> : коюш
-    кой<v><tv><neg><inf2> : койбош
+    кой<v><tv><inf2><nom> : коюш
+    кой<v><tv><neg><inf2><nom> : койбош
     кой<v><tv><fut><p1><sg> : коёрмун
     кой<v><tv><neg><fut><p1><sg> : койбосмун
     кой<v><tv><fut><p1><sg> : коёормун

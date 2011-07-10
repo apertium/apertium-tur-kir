@@ -1,6 +1,6 @@
 Config:
   hfst:
-    App: hfst-optimised-lookup
+    App: hfst-lookup
     Gen: ../tr-ky.autogen.hfst
     Morph: ../ky-tr.automorf.hfst
 
