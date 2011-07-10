@@ -3933,8 +3933,17 @@ LEXICON NounStems
 тарыхчы N-INFL ;
 ыйман N-INFL ;
 тек N-INFL ;
+тап N-INFL ;
+саясат N-INFL ;
+жаат N-INFL ;
+күү N-INFL ;
+кумурска N-INFL ;
+ирет N-INFL ;
+каражат N-INFL ;
+макал N-INFL ;
 
 LEXICON PropernounStems
+Алматы NP-TOP ;
 Сербия NP-TOP ;
 Баласагын NP-TOP ;
 Сирия NP-TOP ;
@@ -4133,6 +4142,7 @@ Tеңир NP-TOP ; ! ""
 ЛКЖС NP-TOP ;
 КТУ NP-TOP ;
 Каракол NP-TOP ;
+Учкун NP-TOP ;
 
 
 Кыргызмамбас NP-ORG ; ! ""
@@ -4203,6 +4213,7 @@ Tеңир NP-TOP ; ! ""
 Анна NP-ANT-F ;
 Аня NP-ANT-F ;
 
+Солтоноев NP-COG-MF ;
 Чороев NP-COG-MF ;
 Баласагын NP-COG-MF ;
 Раззаков NP-COG-MF ;
@@ -4718,6 +4729,15 @@ suyuk ADJ ;
 мүнөздүү ADJ ;
 түбөлүк ADJ ;
 сынчы ADJ ;
+келишкен ADJ ;
+тышкы ADJ ;
+булганган ADJ ;
+сырткы ADJ ;
+бирдиктүү ADJ ;
+саясый ADJ ;
+рухий ADJ ;
+олуттуу ADJ ;
+көшөгөлүү ADJ ;
 
 LEXICON AdvStems
 
@@ -4883,6 +4903,8 @@ LEXICON AdvStems
 анан ADV ;
 дээрлик ADV ;
 бүткүл ADV ;
+таптакыр ADV ;
+жалаң ADV ;
 
 LEXICON VerbStems
 
@@ -5225,6 +5247,8 @@ LEXICON VerbStems
 алкыш% кыл V-INFL-TV ;
 үмүт% кыл V-INFL-TV ;
 коп V-INFL-IV ;
+тапта V-INFL-TV ;
+
 LEXICON Abbreviations
 
 жж%. ABBR ;
