@@ -1142,6 +1142,7 @@ LEXICON NounStems
 индустрия N-INFL ; 
 июль N-INFL ; ! "" 
 июнь N-INFL ;
+жылкы N-INFL ;
 каз N-INFL ; ! "" 
 кап N-INFL ; ! "sack"
 кат N-INFL ; ! "mail"
@@ -2858,6 +2859,7 @@ LEXICON NounStems
 алтын N-INFL ; 
 зар N-INFL ; 
 оюн% зоок N-INFL ; 
+оюн N-INFL ;
 даам N-INFL ; 
 зайтун N-INFL ; 
 зээн N-INFL ; 
@@ -3854,7 +3856,6 @@ LEXICON NounStems
 аял N-INFL ; 
 кезек N-INFL ; 
 класс N-INFL ; 
-жыл N-INFL ; 
 команда N-INFL ; ! "team"
 
 дүйшөмбү N-INFL ; ! "Sunday"
@@ -3925,7 +3926,13 @@ LEXICON NounStems
 багыт N-INFL ;
 ыкма N-INFL ;
 чүкө N-INFL ;
-
+жараткан N-INFL ;
+министрлик N-INFL ;
+сыйлык N-INFL ; 
+кыпчак N-INFL ;
+тарыхчы N-INFL ;
+ыйман N-INFL ;
+тек N-INFL ;
 
 LEXICON PropernounStems
 Сербия NP-TOP ;
@@ -4340,6 +4347,7 @@ Tеңир NP-TOP ; ! ""
 Эрдоган NP-COG-MF ; ! ""
 
 LEXICON AdjecStems
+кош ADJ ;
 алдыңкы ADJ ;
 алгачкы ADJ-ORD ; ! "first"
 экинчи ADJ-ORD ; ! "second"
@@ -4424,7 +4432,8 @@ LEXICON AdjecStems
 музыкалык ADJ ; ! ""
 хореографиялык ADJ ! ""
 энциклопедиялык ADJ ! ""
-
+тилдүү ADJ ;
+оозеки ADJ ;
 чыныгы ADJ ; 
 совет ADJ ;  ! "Soviet"
 ысык ADJ ; ! "hot"
@@ -4696,7 +4705,19 @@ suyuk ADJ ;
 бай ADJ ;
 узак ADJ ;
 татаал ADJ ;
-
+томдук ADJ ;
+арналган ADJ ;
+таанымал ADJ ;
+түпкү ADJ ;
+аман ADJ ;
+кичине ADJ ;
+жөнөкөй ADJ ;
+чыгармачыл ADJ ;
+убактылуу ADJ ;
+туңгуч ADJ ;
+мүнөздүү ADJ ;
+түбөлүк ADJ ;
+сынчы ADJ ;
 
 LEXICON AdvStems
 
@@ -4707,7 +4728,7 @@ LEXICON AdvStems
 улам ADV ; ! "???"
 айрыкча ADV ;
 кыйла ADV ;
- 
+адегенде ADV ;
 эртең ADV ; ! "tomorrow"
 эми ADV ; ! "now"
 бат ADV ; ! "fast"
@@ -4860,6 +4881,8 @@ LEXICON AdvStems
 көп-көп ADV ; 
 туруптуруп ADV ; 
 анан ADV ;
+дээрлик ADV ;
+бүткүл ADV ;
 
 LEXICON VerbStems
 
@@ -5169,7 +5192,6 @@ LEXICON VerbStems
 уч V-INFL-IV ;
 өп V-INFL-TV ; ! to kiss"
 алын V-INFL ;
-
 катыш V-INFL-TV ;
 сарсанаа% тарт V-INFL-TV ;
 
@@ -5189,6 +5211,9 @@ LEXICON VerbStems
 муунт V-INFL ; 
 !секир V-INFL-TV ; ! HOW?!
 секир V-INFL-IV ; 
+уюштур V-INFL-TV ;
+каала V-INFL-IV ;
+тазала V-INFL-TV ;
 
 кыйн V-INFL-TV ; 
 айда V-INFL-TV ;
@@ -5199,7 +5224,7 @@ LEXICON VerbStems
 көтөрүл V-INFL-IV ;
 алкыш% кыл V-INFL-TV ;
 үмүт% кыл V-INFL-TV ;
-
+коп V-INFL-IV ;
 LEXICON Abbreviations
 
 жж%. ABBR ;
