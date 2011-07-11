@@ -4904,7 +4904,7 @@ LEXICON AdvStems
 дээрлик ADV ;
 бүткүл ADV ;
 таптакыр ADV ;
-жалаң ADV ;
+жалаң ADV ;			
 
 LEXICON VerbStems
 
@@ -5248,6 +5248,7 @@ LEXICON VerbStems
 үмүт% кыл V-INFL-TV ;
 коп V-INFL-IV ;
 тапта V-INFL-TV ;
+торт% жаса V-INFL-TV ;
 
 LEXICON Abbreviations
 
