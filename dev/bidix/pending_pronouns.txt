@@ -1,10 +1,9 @@
-   2028 ^@kendi<prn>$
    1376 ^@şu<prn><dem>$
    1316 ^@bura<prn>$
+    207 ^@kim<prn>$
     203 ^@ora<prn>$
-    201 ^@kim<prn>$
     183 ^@nere<prn>$
+    122 ^@ne<prn>$
     106 ^@hangi<prn>$
-     43 ^@ne<prn>$
      16 ^@şura<prn>$
       1 ^@öteki<prn>$
