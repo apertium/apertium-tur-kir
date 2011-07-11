@@ -1,44 +1,41 @@
-  16566 ^@da<cnjadv>$
-  16334 ^@de<cnjadv>$
-   2981 ^@olarak<cnjsub>$
-   2380 ^@ya<cnjadv>$
+   2373 ^@ya<cnjadv>$
    1828 ^@ta<cnjadv>$
-    546 ^@bile<cnjadv>$
-    485 ^@gerek<cnjcoo>$
+   1646 ^@gibi<cnjsub>$
+    487 ^@gerek<cnjcoo>$
     483 ^@ila<cnjcoo>$
     437 ^@ki<cnjadv>$
     386 ^@ya da<cnjadv>$
     235 ^@zira<cnjadv>$
     184 ^@yani<cnjadv>$
-    175 ^@olsun<cnjadv>$
+    178 ^@olsun<cnjadv>$
+    176 ^@değer<cnjcoo>$
     171 ^@ne var ki<cnjadv>$
-    151 ^@diye<cnjsub>$
     149 ^@örneğin<cnjadv>$
-    145 ^@çünkü<cnjadv>$
-    135 ^@hatta<cnjadv>$
+    148 ^@diye<cnjsub>$
     128 ^@dolayısıyla<cnjadv>$
+    120 ^@hatta<cnjadv>$
     107 ^@dahası<cnjadv>$
-     50 ^@ister<cnjadv>$
+     48 ^@ister<cnjadv>$
      28 ^@demek<cnjadv>$
      21 ^@bunun üzerine<cnjadv>$
      11 ^@başka bir deyişle<cnjadv>$
-     10 ^@zaten<cnjadv>$
-      9 ^@aksine<cnjadv>$
+      9 ^@zaten<cnjadv>$
+      8 ^@aksine<cnjadv>$
       6 ^@yok<cnjadv>$
       5 ^@şayet<cnjsub>$
       5 ^@neyse<cnjadv>$
+      5 ^@hem<cnjcoo>$
       4 ^@üstelik<cnjadv>$
       4 ^@peki<cnjadv>$
-      4 ^@hem<cnjcoo>$
       4 ^@bundan dolayı<cnjadv>$
+      4 ^@ancak<cnjcoo>$
+      3 ^@oysa<cnjadv>$
       3 ^@ne de olsa<cnjadv>$
       3 ^@ha<cnjcoo>$
-      3 ^@belki<cnjadv>$
-      2 ^@oysa<cnjadv>$
       2 ^@ne<cnjcoo>$
       2 ^@keza<cnjadv>$
       2 ^@daha doğrusu<cnjadv>$
-      2 ^@ancak<cnjcoo>$
+      2 ^@belki<cnjadv>$
       2 ^@adeta<cnjadv>$
       1 ^@yok mu<cnjadv>$
       1 ^@ta<cnjadv>$]
@@ -49,4 +46,3 @@
       1 ^@hiç olmazsa<cnjadv>$
       1 ^@hani<cnjadv>$
       1 ^@halbuki<cnjadv>$
-      1 ^@de<cnjadv>$ 
