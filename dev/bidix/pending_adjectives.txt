@@ -1,161 +1,88 @@
-   6378 ^@uluslararası<adj><pst>$
-   2790 ^@ulusal<adj><pst>$
-   1818 ^@aynı<adj><pst>$
-   1816 ^@ilişkin<adj><pst>$
-   1637 ^@bazı<adj><pst>$
-   1290 ^@kamu<adj><pst>$
-   1129 ^@mevcut<adj><pst>$
-   1094 ^@tüm<adj><pst>$
-    856 ^@gelecek<adj><pst>$
-    807 ^@sivil<adj><pst>$
-    743 ^@bağımsız<adj><pst>$
-    728 ^@birkaç<adj><pst>$
-    579 ^@uyuşturucu<adj><pst>$
-    567 ^@yeterli<adj><pst>$
-    502 ^@fazla<adj><pst>$
-    391 ^@somut<adj><pst>$
-    385 ^@böyle<adj><pst>$
-    356 ^@hızlı<adj><pst>$
-    329 ^@babacan<adj><pst>$
-    273 ^@adli<adj><pst>$
-    256 ^@olağanüstü<adj><pst>$
-    228 ^@alt<adj><pst>$
-    225 ^@sol<adj><pst>$
-    213 ^@belirgin<adj><pst>$
-    207 ^@sıkı<adj><pst>$
-    197 ^@ölümcül<adj><pst>$
-    190 ^@yaygın<adj><pst>$
-    180 ^@tıbbi<adj><pst>$
-    159 ^@iyimser<adj><pst>$
-    157 ^@mensup<adj><pst>$
-    150 ^@dolu<adj><pst>$
-    145 ^@yetersiz<adj><pst>$
-    142 ^@zorunlu<adj><pst>$
-    140 ^@normal<adj><pst>$
-    132 ^@zengin<adj><pst>$
-    132 ^@ilk<adj><pst>$
-    124 ^@sıcak<adj><pst>$
-    118 ^@derin<adj><pst>$
-    117 ^@öz<adj><pst>$
-    117 ^@olağan<adj><pst>$
-    117 ^@göçmen<adj><pst>$
-    116 ^@zayıf<adj><pst>$
-    112 ^@dev<adj><pst>$
-    110 ^@makroekonomik<adj><pst>$
-    106 ^@yaş<adj><pst>$
-    102 ^@yarı<adj><pst>$
-    100 ^@bir<adj><pst>$
-     97 ^@şeffaf<adj><pst>$
-     96 ^@yoksul<adj><pst>$
-     95 ^@muazzam<adj><pst>$
-     91 ^@mükemmel<adj><pst>$
-     88 ^@hassas<adj><pst>$
-     86 ^@sakin<adj><pst>$
-     86 ^@düzgün<adj><pst>$
-     85 ^@karışık<adj><pst>$
-     85 ^@geçmiş<adj><pst>$
-     85 ^@ara<adj><pst>$
-     84 ^@ufak<adj><pst>$
-     84 ^@modern<adj><pst>$
-     80 ^@hasta<adj><pst>$
-     79 ^@kırmızı<adj><pst>$
-     78 ^@meşru<adj><pst>$
-     73 ^@pratik<adj><pst>$
-     71 ^@patlak<adj><pst>$
-     70 ^@buçuk<adj><pst>$
-     69 ^@militan<adj><pst>$
-     68 ^@başlıca<adj><pst>$
-     67 ^@yasak<adj><pst>$
-     67 ^@kızıl<adj><pst>$
-     62 ^@köylü<adj><pst>$
-     61 ^@yedek<adj><pst>$
-     61 ^@sıradan<adj><pst>$
-     61 ^@çetin<adj><pst>$
-     60 ^@yahudi<adj><pst>$
-     58 ^@mavi<adj><pst>$
-     58 ^@gevşek<adj><pst>$
+    579 ^@uyuşturucu<adj><pst>$ 
+    159 ^@iyimser<adj><pst>$ 
+  
      57 ^@müstakbel<adj><pst>$
-     56 ^@saldırgan<adj><pst>$
-     55 ^@ucuz<adj><pst>$
-     55 ^@kısmi<adj><pst>$
-     54 ^@faal<adj><pst>$
-     53 ^@hayvan<adj><pst>$
-     53 ^@coğrafi<adj><pst>$
-     52 ^@müsteşar<adj><pst>$
-     52 ^@az<adj><pst>$
-     51 ^@cezai<adj><pst>$
-     51 ^@basit<adj><pst>$
-     50 ^@temiz<adj><pst>$
-     49 ^@pahalı<adj><pst>$
-     49 ^@dost<adj><pst>$
-     48 ^@esnek<adj><pst>$
-     47 ^@mutlak<adj><pst>$
-     46 ^@parlak<adj><pst>$
-     46 ^@gergin<adj><pst>$
-     46 ^@çalıntı<adj><pst>$
-     45 ^@lüks<adj><pst>$
-     43 ^@mücahit<adj><pst>$
-     42 ^@acı<adj><pst>$
-     41 ^@sarı<adj><pst>$
-     41 ^@ahlaki<adj><pst>$
-     40 ^@ziyade<adj><pst>$
-     40 ^@koyu<adj><pst>$
-     39 ^@korsan<adj><pst>$
-     39 ^@keskin<adj><pst>$
-     39 ^@gri<adj><pst>$
-     38 ^@sessiz<adj><pst>$
-     38 ^@kaçınılmaz<adj><pst>$
-     38 ^@al<adj><pst>$
-     37 ^@zıt<adj><pst>$
-     37 ^@ham<adj><pst>$
-     36 ^@metin<adj><pst>$
-     36 ^@masum<adj><pst>$
-     35 ^@yumuşak<adj><pst>$
-     35 ^@taze<adj><pst>$
-     34 ^@yapay<adj><pst>$
-     34 ^@seri<adj><pst>$
-     34 ^@rahat<adj><pst>$
-     34 ^@operasyonel<adj><pst>$
-     34 ^@karşı<adj><pst>$
-     34 ^@eksik<adj><pst>$
-     33 ^@sanal<adj><pst>$
-     33 ^@hümanist<adj><pst>$
-     33 ^@feci<adj><pst>$
+     56 ^@saldırgan<adj><pst>$ албуут
+     55 ^@ucuz<adj><pst>$ арзан
+     55 ^@kısmi<adj><pst>$ 
+     54 ^@faal<adj><pst>$ иштеп турган, ишке жараган
+     53 ^@hayvan<adj><pst>$ айбан
+     53 ^@coğrafi<adj><pst>$ географиялык
+     52 ^@müsteşar<adj><pst>$ оорун басаар
+     52 ^@az<adj><pst>$ аз
+     51 ^@cezai<adj><pst>$ 
+     51 ^@basit<adj><pst>$ жөнөкөй
+     50 ^@temiz<adj><pst>$ таза
+     49 ^@pahalı<adj><pst>$ кымбат
+     49 ^@dost<adj><pst>$ дос
+     48 ^@esnek<adj><pst>$ ийилчээк
+     47 ^@mutlak<adj><pst>$ чексиз
+     46 ^@parlak<adj><pst>$ жалтыраган
+     46 ^@gergin<adj><pst>$ керилген, тартылган
+     46 ^@çalıntı<adj><pst>$ уурдалган
+     45 ^@lüks<adj><pst>$ люкс
+     43 ^@mücahit<adj><pst>$ мужахит
+     42 ^@acı<adj><pst>$ ачуу
+     41 ^@sarı<adj><pst>$ сары
+     41 ^@ahlaki<adj><pst>$ ахлактык
+     40 ^@ziyade<adj><pst>$ ашык, көп
+     40 ^@koyu<adj><pst>$ коюу
+     39 ^@korsan<adj><pst>$ пираттык
+     39 ^@keskin<adj><pst>$ курч
+     39 ^@gri<adj><pst>$ бос
+     38 ^@sessiz<adj><pst>$ жоош, үнсүз
+     38 ^@kaçınılmaz<adj><pst>$ 
+     38 ^@al<adj><pst>$ кызыл-кырман
+     37 ^@zıt<adj><pst>$ терс
+     37 ^@ham<adj><pst>$ чийки
+     36 ^@metin<adj><pst>$ туруктуу, чыдамдуу
+     36 ^@masum<adj><pst>$ байкуш
+     35 ^@yumuşak<adj><pst>$ жумшак
+     35 ^@taze<adj><pst>$ жагы, жаш
+     34 ^@yapay<adj><pst>$ жасалма
+     34 ^@seri<adj><pst>$ 
+     34 ^@rahat<adj><pst>$ эркин
+     34 ^@operasyonel<adj><pst>$ 
+     34 ^@karşı<adj><pst>$ каршы
+     34 ^@eksik<adj><pst>$ жетишсиз
+     33 ^@sanal<adj><pst>$ 
+     33 ^@hümanist<adj><pst>$ гуманист
+     33 ^@feci<adj><pst>$ балакеттүү, апаат
      32 ^@usul<adj><pst>$
-     32 ^@tıpkı<adj><pst>$
-     32 ^@kızgın<adj><pst>$
-     31 ^@süper<adj><pst>$
-     31 ^@kaç<adj><pst>$
-     30 ^@finansal<adj><pst>$
-     29 ^@rutin<adj><pst>$
-     29 ^@katil<adj><pst>$
-     29 ^@asi<adj><pst>$
-     28 ^@has<adj><pst>$
-     28 ^@artı<adj><pst>$
-     27 ^@yalan<adj><pst>$
-     27 ^@kalite<adj><pst>$
-     26 ^@sözlü<adj><pst>$
+     32 ^@tıpkı<adj><pst>$ опокшош
+     32 ^@kızgın<adj><pst>$ ысык
+     31 ^@süper<adj><pst>$ супер
+     31 ^@kaç<adj><pst>$ 
+     30 ^@finansal<adj><pst>$ финансылык
+     29 ^@rutin<adj><pst>$ 
+     29 ^@katil<adj><pst>$ мыкаачы
+     29 ^@asi<adj><pst>$ козголоңчу
+     28 ^@has<adj><pst>$ таандык, тиешелүү
+     28 ^@artı<adj><pst>$ кошумча
+     27 ^@yalan<adj><pst>$ жалган
+     27 ^@kalite<adj><pst>$ сапаттуу
+     26 ^@sözlü<adj><pst>$ ооз эки
      26 ^@kışkır<v><caus><dvn_yici><adj>$
-     26 ^@ivedi<adj><pst>$
-     25 ^@muhtemel<adj><pst>$
-     25 ^@mecbur<adj><pst>$
-     25 ^@kuzeydoğu<adj><pst>$
-     25 ^@kırılgan<adj><pst>$
+     26 ^@ivedi<adj><pst>$ тез
+     25 ^@muhtemel<adj><pst>$ ыктымал, мүмкүн
+     25 ^@mecbur<adj><pst>$ мажбур, айласыз
+     25 ^@kuzeydoğu<adj><pst>$ түндүк чыгыш
+     25 ^@kırılgan<adj><pst>$ сынуучу, тааеынчаак
      25 ^@kart<adj><pst>$
-     25 ^@esas<adj><pst>$
-     25 ^@arka<adj><pst>$
-     24 ^@kronik<adj><pst>$
-     24 ^@dürüst<adj><pst>$
-     23 ^@evcil<adj><pst>$
-     22 ^@ters<adj><pst>$
+     25 ^@esas<adj><pst>$ негиз, пайдубал
+     25 ^@arka<adj><pst>$ арка
+     24 ^@kronik<adj><pst>$ хроникалык
+     24 ^@dürüst<adj><pst>$ дурус
+     23 ^@evcil<adj><pst>$ үйрөткү
+     22 ^@ters<adj><pst>$ тетири
      22 ^@izole<adj><pst>$
      21 ^@yurtiçi<adj><pst>$
-     21 ^@salgın<adj><pst>$
-     21 ^@öyle<adj><pst>$
-     21 ^@kuzeybatı<adj><pst>$
-     20 ^@muhteşem<adj><pst>$
+     21 ^@salgın<adj><pst>$ эпидемия
+     21 ^@öyle<adj><pst>$ ошондой
+     21 ^@kuzeybatı<adj><pst>$ түндүк батыш
+     20 ^@muhteşem<adj><pst>$ көркөмдүү, кооз
      20 ^@menkul<adj><pst>$
-     20 ^@karanlık<adj><pst>$
+     20 ^@karanlık<adj><pst>$ караңгы
      19 ^@üretken<adj><pst>$
      19 ^@tipik<adj><pst>$
      18 ^@yara<v><caus><dvn_yici><adj>$
