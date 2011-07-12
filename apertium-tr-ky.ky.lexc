@@ -4415,6 +4415,9 @@ LEXICON AdjecStems
 башкы ADJ ; ! "principle 
 ылайык ADJ ; ! "appropriate"
 борбордук ADJ ; ! "central"
+окшош ADJ ;
+бирдей ADJ ; 
+байланыштуу ADJ ;
 улуттук ADJ ; ! "national"
 жогорку ADJ ; ! "high" (as in жогорку кеңеш "high council")
 коомдук ADJ ; ! "societal" < коом "society" + лук noun>ADJ
@@ -4558,6 +4561,13 @@ suyuk ADJ ;
 кичинекей ADJ ; 
 эч% бир DET-QNT ; 
 кээбир ADJ ; 
+айрым ADJ ;
+коомчулуктуу ADJ ;
+камтылган ADJ ;
+баары ADJ ;
+келечек ADJ ;
+граждандык ADJ ;
+көз% карандысыз ADJ ;
 орто ADJ ; 
 жат ADJ ; 
 кийинки ADJ ; 
@@ -4628,6 +4638,56 @@ suyuk ADJ ;
 адабий ADJ ;
 жооптуу ADJ ;
 кыргызча ADJ ;
+бирканча ADJ ;
+жетиштүү ADJ ;
+ашыкча ADJ ;
+анык ADJ ;
+так ADJ ;
+ушундай ADJ ;
+ылдам ADJ ;
+жакын ADJ ;
+ишеничтүү ADJ ;
+адилетүү ADJ ;
+!--- below here should be checked for duplicates
+адаттан% тышкары ADJ ;
+асты ADJ ;
+сол ADJ ;
+белгилүү ADJ ;
+тыгыз ADJ ;
+бекем ADJ ;
+өлтүрүүчү ADJ ;
+өлө% турган ADJ ;
+таралган ADJ ;
+медициналык ADJ ;
+таандык ADJ ;
+тиешелүү ADJ ;
+толтура ADJ ;
+жетишсиз ADJ ;
+мажбур ADJ ;
+нормалдуу ADJ ;
+бай ADJ ;
+биринчи ADJ ;
+ысык ADJ ;
+терең ADJ ;
+өз ADJ ;
+маңыздуу ADJ ;
+маанилүү ADJ ;
+адаттагы ADJ ;
+көчмөн ADJ ;
+күчсүз ADJ ;
+арык ADJ ;
+дөөдөй ADJ ;
+макроэкономикалык ADJ ;
+нымдуу ADJ ;
+жарым ADJ ;
+бир ADJ ;
+тунук ADJ ;
+кедей ADJ ;
+улуу ADJ ;
+бийик ADJ ;
+зор ADJ ;
+кемчиликсиз ADJ ;
+кынтыксыз ADJ ;
 
 азиялык ADJ ; ! ""
 академиялык ADJ ; ! ""
@@ -4738,6 +4798,7 @@ suyuk ADJ ;
 рухий ADJ ;
 олуттуу ADJ ;
 көшөгөлүү ADJ ;
+эларалык ADJ ;
 
 LEXICON AdvStems
 
