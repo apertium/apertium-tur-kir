@@ -1,88 +1,35 @@
     579 ^@uyuşturucu<adj><pst>$ 
     159 ^@iyimser<adj><pst>$ 
-  
      57 ^@müstakbel<adj><pst>$
-     56 ^@saldırgan<adj><pst>$ албуут
-     55 ^@ucuz<adj><pst>$ арзан
+    
      55 ^@kısmi<adj><pst>$ 
-     54 ^@faal<adj><pst>$ иштеп турган, ишке жараган
-     53 ^@hayvan<adj><pst>$ айбан
-     53 ^@coğrafi<adj><pst>$ географиялык
-     52 ^@müsteşar<adj><pst>$ оорун басаар
+    
      52 ^@az<adj><pst>$ аз
      51 ^@cezai<adj><pst>$ 
-     51 ^@basit<adj><pst>$ жөнөкөй
-     50 ^@temiz<adj><pst>$ таза
-     49 ^@pahalı<adj><pst>$ кымбат
-     49 ^@dost<adj><pst>$ дос
-     48 ^@esnek<adj><pst>$ ийилчээк
-     47 ^@mutlak<adj><pst>$ чексиз
-     46 ^@parlak<adj><pst>$ жалтыраган
-     46 ^@gergin<adj><pst>$ керилген, тартылган
-     46 ^@çalıntı<adj><pst>$ уурдалган
-     45 ^@lüks<adj><pst>$ люкс
-     43 ^@mücahit<adj><pst>$ мужахит
-     42 ^@acı<adj><pst>$ ачуу
-     41 ^@sarı<adj><pst>$ сары
-     41 ^@ahlaki<adj><pst>$ ахлактык
-     40 ^@ziyade<adj><pst>$ ашык, көп
-     40 ^@koyu<adj><pst>$ коюу
-     39 ^@korsan<adj><pst>$ пираттык
-     39 ^@keskin<adj><pst>$ курч
-     39 ^@gri<adj><pst>$ бос
-     38 ^@sessiz<adj><pst>$ жоош, үнсүз
+    
      38 ^@kaçınılmaz<adj><pst>$ 
-     38 ^@al<adj><pst>$ кызыл-кырман
-     37 ^@zıt<adj><pst>$ терс
-     37 ^@ham<adj><pst>$ чийки
-     36 ^@metin<adj><pst>$ туруктуу, чыдамдуу
-     36 ^@masum<adj><pst>$ байкуш
-     35 ^@yumuşak<adj><pst>$ жумшак
-     35 ^@taze<adj><pst>$ жагы, жаш
-     34 ^@yapay<adj><pst>$ жасалма
      34 ^@seri<adj><pst>$ 
-     34 ^@rahat<adj><pst>$ эркин
+     
      34 ^@operasyonel<adj><pst>$ 
-     34 ^@karşı<adj><pst>$ каршы
-     34 ^@eksik<adj><pst>$ жетишсиз
+     
      33 ^@sanal<adj><pst>$ 
-     33 ^@hümanist<adj><pst>$ гуманист
-     33 ^@feci<adj><pst>$ балакеттүү, апаат
+    
      32 ^@usul<adj><pst>$
-     32 ^@tıpkı<adj><pst>$ опокшош
-     32 ^@kızgın<adj><pst>$ ысык
-     31 ^@süper<adj><pst>$ супер
+   
      31 ^@kaç<adj><pst>$ 
-     30 ^@finansal<adj><pst>$ финансылык
+   
      29 ^@rutin<adj><pst>$ 
-     29 ^@katil<adj><pst>$ мыкаачы
-     29 ^@asi<adj><pst>$ козголоңчу
-     28 ^@has<adj><pst>$ таандык, тиешелүү
-     28 ^@artı<adj><pst>$ кошумча
-     27 ^@yalan<adj><pst>$ жалган
-     27 ^@kalite<adj><pst>$ сапаттуу
-     26 ^@sözlü<adj><pst>$ ооз эки
+    
      26 ^@kışkır<v><caus><dvn_yici><adj>$
      26 ^@ivedi<adj><pst>$ тез
-     25 ^@muhtemel<adj><pst>$ ыктымал, мүмкүн
-     25 ^@mecbur<adj><pst>$ мажбур, айласыз
-     25 ^@kuzeydoğu<adj><pst>$ түндүк чыгыш
-     25 ^@kırılgan<adj><pst>$ сынуучу, тааеынчаак
+    
      25 ^@kart<adj><pst>$
-     25 ^@esas<adj><pst>$ негиз, пайдубал
-     25 ^@arka<adj><pst>$ арка
-     24 ^@kronik<adj><pst>$ хроникалык
-     24 ^@dürüst<adj><pst>$ дурус
-     23 ^@evcil<adj><pst>$ үйрөткү
-     22 ^@ters<adj><pst>$ тетири
+    
      22 ^@izole<adj><pst>$
      21 ^@yurtiçi<adj><pst>$
-     21 ^@salgın<adj><pst>$ эпидемия
-     21 ^@öyle<adj><pst>$ ошондой
-     21 ^@kuzeybatı<adj><pst>$ түндүк батыш
-     20 ^@muhteşem<adj><pst>$ көркөмдүү, кооз
+    
      20 ^@menkul<adj><pst>$
-     20 ^@karanlık<adj><pst>$ караңгы
+     
      19 ^@üretken<adj><pst>$
      19 ^@tipik<adj><pst>$
      18 ^@yara<v><caus><dvn_yici><adj>$
