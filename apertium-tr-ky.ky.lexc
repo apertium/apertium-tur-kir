@@ -439,7 +439,8 @@ LEXICON PRON-PERS-PLURALS
 
 LEXICON PRON-ITG
 
-%<prn%>%<itg%>: CASES  ;
+!%<prn%>%<itg%>: CASES  ;
+%<prn%>%<itg%>: POSSESSION ;
 
 LEXICON PRON-REFL
 
