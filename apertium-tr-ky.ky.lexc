@@ -254,7 +254,7 @@ LEXICON ADJ-LEVELS
 
 LEXICON ADJ
 
-%<adj%>: ADJ-LEVELS ;
+%<adj%>: ADJ-LEVELS ; ! FIXME: verbal adjectives (<vadj_*>) cannot take -ыраак
 %<n%>: POSSESSION ;  ! all adjectives can be used as nouns
 
 LEXICON ADJ-ORD
@@ -486,7 +486,20 @@ LEXICON V-PERS-PAST ! P_4
 %<p1%>%<pl%>:%>%{I%}%{K%} V-CLIT ;
 %<p2%>%<pl%>:%>%{I%}ң%{A%}р V-CLIT ;
 %<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р V-CLIT ;
-%<p3%>%<pl%>: V-CLIT ;  
+%<p3%>%<pl%>: V-CLIT ;
+
+LEXICON V-PERS-COND ! P_4
+! Really these should allow деле, да, дагы, etc. afterwards
+!  .. but maybe those are best allowed to be their own words :)
+
+%<p1%>%<sg%>:%>%{I%}м # ;
+%<p2%>%<sg%>:%>%{I%}ң # ;
+%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з # ;
+%<p3%>%<sg%>: # ;
+%<p1%>%<pl%>:%>%{I%}%{K%} # ;
+%<p2%>%<pl%>:%>%{I%}ң%{A%}р # ;
+%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р # ;
+%<p3%>%<pl%>: # ;  
 
 LEXICON V-PERS-PRES ! P_6
 
@@ -521,6 +534,35 @@ LEXICON V-INFL-COMMON
 %<neg%>%<pp2%>:%>%{B%}%{A%}%>%{G%}%{A%}н%{I%} POSSESSION ;    ! This is wrong
 %<neg%>%<inf2%>:%>%{B%}%{A%}%>%{I%}ш POSSESSION ;             !
 %<plist%>:%>м%{A%}й # ;                                       ! huh?
+
+!!!! New non-finite forms !!!!
+
+! Adverbial Participles
+%<prt_plan%>:%>%{G%}%{A%}н%{I%} # ;
+%<prt_cond%>:%>с%{A%} V-PERS-COND ;
+%<prt_perf%>:%>%{I%}п # ;
+%<neg%>%<prt_perf%>:%>%{B%}%{A%}%>%{E%} # ;  ! TODO: is this the right way to do this?
+%<prt_impf%>:%>%{E%} # ;
+!%<prt_????%>:%>м%{A%}й%{I%}нч%{A%} #;       ! TODO: find name
+
+! Gerunds
+%<ger_fut%>:%>%{A%}р POSSESSION ;
+%<ger_fut%>:%>%{A%}%{A%}р POSSESSION ;                        ! Dir/LR
+%<ger_past%>:%>%{G%}%{A%}н POSSESSION ;
+%<ger_pres%>:%>%{I%}ш POSSESSION ;
+%<ger_gnrl%>:%>%{U%}%{U%} POSSESSION ;
+
+! Verbal Adjectives
+%<vadj_fut%>:%>%{A%}р ADJ ;
+%<vadj_fut%>:%>%{A%}%{A%}р ADJ ;                              ! Dir/LR
+%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%с ADJ ;                    !
+%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%{A%}с ADJ ;                ! Dir/LR
+%<neg%>%<vadj_pot2%>:%>%{G%}%{U%}с ADJ ;
+%<vadj_perf%>:%>%{G%}%{A%}н ADJ ;
+%<vadj_pot%>:%>ч%{U%} ADJ ;
+%<vadj_impf%>:%>%{E%}% турган ADJ ;
+!%<vadj_????%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;                     ! TODO: find name
+
 
 ! Finite forms
 %<pres%>:%>%{A%} V-PERS-PRES ;                                ! TODO: Check
@@ -1510,7 +1552,7 @@ LEXICON NounStems
 калк N-INFL ; 
 журт N-INFL ; 
 кол N-INFL ; 
-элек N-INFL ; 
+элек N-INFL ; ! what?
 электролит N-INFL ; 
 электроника N-INFL ; 
 электроскоп N-INFL ; 
