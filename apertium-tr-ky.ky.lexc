@@ -753,7 +753,7 @@ LEXICON Pronouns
 сиздер%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>:сиздер PRON-PERS-PLURALS ; 
 алар%<prn%>%<pers%>%<p3%>%<pl%>:алар PRON-PERS-PLURALS ; 
 
-бул:бу PRON-DEM-BUL ; ! "this"
+бул: PRON-DEM-BUL ; ! "this"
 ошол:ошо PRON-DEM-OSOL ; ! "that"
 ал:а PRON-DEM-AL ; ! "that"
 тигил:тиги PRON-DEM-TIGIL ; ! "that (yonder)
