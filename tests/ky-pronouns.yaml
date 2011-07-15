@@ -8,51 +8,51 @@ Tests:
   "[lexc] Personal pronouns":
     мен<prn><pers><p1><sg><nom>  : мен 
     сен<prn><pers><p2><sg><nom>  : сен 
-    сиз<prn><pers><p2><sg><nom>  : сиз 
+    сиз<prn><pers><p2><frm><sg><nom>  : сиз 
     ал<prn><pers><p3><sg><nom>  : ал 
     биз<prn><pers><p1><pl><nom>  : биз 
     силер<prn><pers><p2><pl><nom>  : силер 
-    сиздер<prn><pers><p2><pl><nom>  : сиздер 
+    сиздер<prn><pers><p2><frm><pl><nom>  : сиздер 
     алар<prn><pers><p3><pl><nom> : алар 
     мен<prn><pers><p1><sg><acc>  : мени 
     сен<prn><pers><p2><sg><acc>  : сени 
-    сиз<prn><pers><p2><sg><gen>  : сизди 
+    сиз<prn><pers><p2><frm><sg><gen>  : сизди 
     ал<prn><pers><p3><sg><gen>  : аны 
     биз<prn><pers><p1><pl><gen>  : бизди 
     силер<prn><pers><p2><pl><gen>  : силерди 
-    сиздер<prn><pers><p2><pl><gen>  : сиздерди 
+    сиздер<prn><pers><p2><frm><pl><gen>  : сиздерди 
     алар<prn><pers><p3><pl><gen> : аларды 
     мен<prn><pers><p1><sg><gen>  : менин 
     сен<prn><pers><p2><sg><gen>  : сенин 
-    сиз<prn><pers><p2><sg><acc>  : сиздин 
+    сиз<prn><pers><p2><frm><sg><acc>  : сиздин 
     ал<prn><pers><p3><sg><acc>  : анын 
     биз<prn><pers><p1><pl><acc>  : биздин 
     силер<prn><pers><p2><pl><acc>  : силердин 
-    сиздер<prn><pers><p2><pl><acc>  : сиздердин 
+    сиздер<prn><pers><p2><frm><pl><acc>  : сиздердин 
     алар<prn><pers><p3><pl><acc> : алардын 
     мен<prn><pers><p1><sg><dat>  : мага 
     сен<prn><pers><p2><sg><dat>  : сага 
-    сиз<prn><pers><p2><sg><dat>  : сизге 
+    сиз<prn><pers><p2><frm><sg><dat>  : сизге 
     ал<prn><pers><p3><sg><dat>  : ага 
     биз<prn><pers><p1><pl><dat>  : бизге 
     силер<prn><pers><p2><pl><dat>  : силерге 
-    сиздер<prn><pers><p2><pl><dat>  : сиздерге 
+    сиздер<prn><pers><p2><frm><pl><dat>  : сиздерге 
     алар<prn><pers><p3><pl><dat> : аларга 
     мен<prn><pers><p1><sg><loc>  : менде 
     сен<prn><pers><p2><sg><loc>  : сенде 
-    сиз<prn><pers><p2><sg><loc>  : сизде 
+    сиз<prn><pers><p2><frm><sg><loc>  : сизде 
     ал<prn><pers><p3><sg><loc>  : анда 
     биз<prn><pers><p1><pl><loc>  : бизде 
     силер<prn><pers><p2><pl><loc>  : силерде 
-    сиздер<prn><pers><p2><pl><loc>  : сиздерде 
+    сиздер<prn><pers><p2><frm><pl><loc>  : сиздерде 
     алар<prn><pers><p3><pl><loc> : аларда 
     мен<prn><pers><p1><sg><abl>  : менден 
     сен<prn><pers><p2><sg><abl>  : сенден 
-    сиз<prn><pers><p2><sg><abl>  : сизден 
+    сиз<prn><pers><p2><sg><frm><abl>  : сизден 
     ал<prn><pers><p3><sg><abl>  : андан 
     биз<prn><pers><p1><pl><abl>  : бизден 
     силер<prn><pers><p2><pl><abl>  : силерден 
-    сиздер<prn><pers><p2><pl><abl>  : сиздерден 
+    сиздер<prn><pers><p2><frm><pl><abl>  : сиздерден 
     алар<prn><pers><p3><pl><abl> : алардан 
 
   "[lexc] Demonstrative pronoun 'бул'": 
