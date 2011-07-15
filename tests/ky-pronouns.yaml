@@ -1,6 +1,6 @@
 Config:
   hfst:
-    App: hfst-optimised-lookup
+    App: hfst-lookup
     Gen: ../tr-ky.autogen.hfst
     Morph: ../ky-tr.automorf.hfst
 
@@ -62,12 +62,12 @@ Tests:
     бул<prn><dem><sg><acc> : муну
     бул<prn><dem><sg><loc> : мында
     бул<prn><dem><sg><abl> : мындан
-    бул<prn><dem><pl><nom> : буллар
-    бул<prn><dem><pl><gen> : буллардын
-    бул<prn><dem><pl><dat> : булларга
-    бул<prn><dem><pl><acc> : булларды
-    бул<prn><dem><pl><loc> : булларда
-    бул<prn><dem><pl><abl> : буллардан
+    бул<prn><dem><pl><nom> : булар
+    бул<prn><dem><pl><gen> : булардын
+    бул<prn><dem><pl><dat> : буларга
+    бул<prn><dem><pl><acc> : буларды
+    бул<prn><dem><pl><loc> : буларда
+    бул<prn><dem><pl><abl> : булардан
 
   "[lexc] Demonstrative pronoun 'ал'":
     ал<prn><dem><sg><nom> : ал

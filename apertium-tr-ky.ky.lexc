@@ -361,7 +361,7 @@ LEXICON PRON-DEM-BUL
 %<prn%>%<dem%>%<sg%>%<loc%>:мында PRED ;
 %<prn%>%<dem%>%<sg%>%<abl%>:мындан PRED ;
 
-%<prn%>%<dem%>%<pl%>:бул%>л%{A%}р CASES ;
+%<prn%>%<dem%>%<pl%>:бу%>л%{A%}р CASES ;
 
 LEXICON PRON-DEM-OSOL
 
