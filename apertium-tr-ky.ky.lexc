@@ -149,7 +149,7 @@ Abbreviations ;
 
 
 LEXICON CASES-DEFAULT
-%<nom%>: # ;                 ! -     -      -
+%<nom%>: PRED ;                 ! -     -      -
 %<gen%>:%>%{N%}%{I%}н # ;      ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
 %<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
 %<acc%>:%>%{N%}%{I%} # ;       ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
@@ -354,7 +354,8 @@ LEXICON NUM
 
 LEXICON PRON-DEM-BUL
 
-%<prn%>%<dem%>%<sg%>%<nom%>:бул # ;
+%<prn%>%<dem%>%<sg%>%<nom%>:бул PRED ;
+%<prn%>%<dem%>%<sg%>%<nom%>:бу PRED ;   ! Dir/LR
 %<prn%>%<dem%>%<sg%>%<gen%>:мунун # ;
 %<prn%>%<dem%>%<sg%>%<acc%>:муну # ;
 %<prn%>%<dem%>%<sg%>%<dat%>:буга # ;
@@ -365,7 +366,8 @@ LEXICON PRON-DEM-BUL
 
 LEXICON PRON-DEM-OSOL
 
-%<prn%>%<dem%>%<sg%>%<nom%>:л # ;
+%<prn%>%<dem%>%<sg%>%<nom%>:л PRED ;
+%<prn%>%<dem%>%<sg%>%<nom%>: PRED ;  ! Dir/LR
 %<prn%>%<dem%>%<sg%>%<gen%>:нун # ;
 %<prn%>%<dem%>%<sg%>%<acc%>:ну # ;
 %<prn%>%<dem%>%<sg%>%<dat%>:го # ;
@@ -376,56 +378,59 @@ LEXICON PRON-DEM-OSOL
 
 LEXICON PRON-DEM-AL
 
-%<prn%>%<dem%>%<sg%>%<nom%>:л # ;
+%<prn%>%<dem%>%<sg%>%<nom%>:л PRED ;
 %<prn%>%<dem%>%<sg%>%<gen%>:нын # ;
 %<prn%>%<dem%>%<sg%>%<acc%>:ны # ;
 %<prn%>%<dem%>%<sg%>%<dat%>:га # ;
 %<prn%>%<dem%>%<sg%>%<loc%>:нда PRED ;
 %<prn%>%<dem%>%<sg%>%<abl%>:ндан PRED ;
 
-%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
+%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
 LEXICON PRON-DEM-TIGIL
 
-%<prn%>%<dem%>%<sg%>%<nom%>:л # ;
+%<prn%>%<dem%>%<sg%>%<nom%>:л PRED ;   ! Dir/LR
+%<prn%>%<dem%>%<sg%>%<nom%>: PRED ;
 %<prn%>%<dem%>%<sg%>%<gen%>:нин # ;
 %<prn%>%<dem%>%<sg%>%<acc%>:ни # ;
 %<prn%>%<dem%>%<sg%>%<dat%>:ге # ;
 %<prn%>%<dem%>%<sg%>%<loc%>:нде PRED ;
 %<prn%>%<dem%>%<sg%>%<abl%>:нден PRED ;
 
-%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
+%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
-LEXICON PRON-PERS-SEN
+LEXICON PRON-PERS-EN
 
-%<nom%>:ен # ;
+%<nom%>:ен PRED ;
 %<gen%>:енин # ;
 %<acc%>:ени # ;
 %<dat%>:ага # ;
+%<dat%>:аңа # ;   ! Dir/LR
+%<dat%>:аа # ;    ! Dir/LR
 %<loc%>:енде PRED ;
 %<abl%>:енден PRED ;
 
-LEXICON PRON-PERS-SIZ
+LEXICON PRON-PERS-IZ
 
-%<nom%>:из # ;
-%<gen%>:изди # ;
-%<acc%>:издин # ;
-%<dat%>:изге # ;
-%<loc%>:изде PRED ;
-%<abl%>:изден PRED ;
+%<nom%>: PRED ;
+%<gen%>:ди # ;
+%<acc%>:дин # ;
+%<dat%>:ге # ;
+%<loc%>:де PRED ;
+%<abl%>:ден PRED ;
 
 LEXICON PRON-PERS-AL
 
-%<nom%>:л # ;
+%<nom%>:л PRED ;
 %<gen%>:ны # ;
 %<acc%>:нын # ;
 %<dat%>:га # ;
 %<loc%>:нда PRED ;
 %<abl%>:ндан PRED ;
 
-LEXICON PRON-PERS-SILER
+LEXICON PRON-PERS-PLURALS
 
-%<nom%>: # ;
+%<nom%>: PRED ;
 %<gen%>:%>д%{I%} # ;
 %<acc%>:%>д%{I%}н # ;
 %<dat%>:%>г%{A%} # ;
@@ -735,26 +740,26 @@ LEXICON Determiners
 бир% нече DET-QNT ; ! "some, several"
 көптөгөн DET-QNT ; ! "many"
 
-кайсы DET-ITG ; ! "which?"
+кайсыл:кайсы DET-ITG ; ! "which?"
 
 LEXICON Pronouns
 
-мен%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-PERS-SEN ; 
-сен%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-PERS-SEN ; 
-сиз%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>:с PRON-PERS-SIZ ; 
+мен%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-PERS-EN ; 
+сен%<prn%>%<pers%>%<p2%>%<sg%>:с PRON-PERS-EN ; 
+сиз%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>:сиз PRON-PERS-IZ ; 
 ал%<prn%>%<pers%>%<p3%>%<sg%>:а PRON-PERS-AL ; 
-биз%<prn%>%<pers%>%<p1%>%<pl%>:б PRON-PERS-SIZ ; 
-силер%<prn%>%<pers%>%<p2%>%<pl%>:силер PRON-PERS-SILER ; 
-сиздер%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>:сиздер PRON-PERS-SILER ; 
-алар%<prn%>%<pers%>%<p3%>%<pl%>:алар PRON-PERS-SILER ; 
+биз%<prn%>%<pers%>%<p1%>%<pl%>:биз PRON-PERS-IZ ; 
+силер%<prn%>%<pers%>%<p2%>%<pl%>:силер PRON-PERS-PLURALS ; 
+сиздер%<prn%>%<pers%>%<p2%>%<frm%>%<pl%>:сиздер PRON-PERS-PLURALS ; 
+алар%<prn%>%<pers%>%<p3%>%<pl%>:алар PRON-PERS-PLURALS ; 
 
-бул: PRON-DEM-BUL ; ! "this"
+бул:бу PRON-DEM-BUL ; ! "this"
 ошол:ошо PRON-DEM-OSOL ; ! "that"
 ал:а PRON-DEM-AL ; ! "that"
 тигил:тиги PRON-DEM-TIGIL ; ! "that (yonder)
 
 эмне PRON-ITG ; ! "what?"
-кайсыны PRON-ITG ; ! "which?"
+кайсыны PRON-ITG ; ! "which one?"
 ким PRON-ITG ; ! "who?"
 
 өз PRON-REFL ; ! "own/self"
