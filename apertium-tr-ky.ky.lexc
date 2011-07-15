@@ -252,10 +252,19 @@ LEXICON ADJ-LEVELS
 %<pst%>: # ;
 %<comp%>:%>%{I%}р%{A%}%{A%}к # ;
 
+LEXICON ADJ-COMMON
+
+%<n%>: POSSESSION ;  ! all adjectives can be used as nouns
+
+LEXICON V-ADJ
+
+ADJ-COMMON ; 
+%<adj%>%<pst%>:  ; 
+
 LEXICON ADJ
 
-%<adj%>: ADJ-LEVELS ; ! FIXME: verbal adjectives (<vadj_*>) cannot take -ыраак
-%<n%>: POSSESSION ;  ! all adjectives can be used as nouns
+ADJ-COMMON ; 
+%<adj%>: ADJ-LEVELS ; 
 
 LEXICON ADJ-ORD
 
@@ -565,14 +574,14 @@ LEXICON V-INFL-COMMON
 %<ger_gnrl%>:%>%{U%}%{U%} POSSESSION ;
 
 ! Verbal Adjectives
-%<vadj_fut%>:%>%{A%}р ADJ ;
-%<vadj_fut%>:%>%{A%}%{A%}р ADJ ;                              ! Dir/LR
-%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%с ADJ ;                    !
-%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%{A%}с ADJ ;                ! Dir/LR
-%<neg%>%<vadj_pot2%>:%>%{G%}%{U%}с ADJ ;
-%<vadj_perf%>:%>%{G%}%{A%}н ADJ ;
-%<vadj_pot%>:%>ч%{U%} ADJ ;
-%<vadj_impf%>:%>%{E%}% турган ADJ ;
+%<vadj_fut%>:%>%{A%}р V-ADJ ;
+%<vadj_fut%>:%>%{A%}%{A%}р V-ADJ ;                              ! Dir/LR
+%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                    !
+%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;                ! Dir/LR
+%<neg%>%<vadj_pot2%>:%>%{G%}%{U%}с V-ADJ ;
+%<vadj_perf%>:%>%{G%}%{A%}н V-ADJ ;
+%<vadj_pot%>:%>ч%{U%} V-ADJ ;
+%<vadj_impf%>:%>%{E%}% турган V-ADJ ;
 !%<vadj_????%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;                     ! TODO: find name
 
 
