@@ -153,16 +153,16 @@ LEXICON CASES-DEFAULT
 %<gen%>:%>%{N%}%{I%}н # ;      ! -нын, -нин, -дын, -дин, -тын, -тин, -нун, -нүн, -дун, -дүн, -тун, -түн
 %<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
 %<acc%>:%>%{N%}%{I%} # ;       ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
-%<loc%>:%>%{D%}%{A%} # ;       ! -да, -де, -та, -те, -до, -дө, -то, -тө
+%<loc%>:%>%{D%}%{A%} PRED ;  ! -да, -де, -та, -те, -до, -дө, -то, -тө
 
 LEXICON CASES
 CASES-DEFAULT ;
-%<abl%>:%>%{D%}%{A%}н # ;      ! 
+%<abl%>:%>%{D%}%{A%}н PRED ; ! -DA and -DAn can be predicates
 
 LEXICON CASES-PX12SG
 CASES-DEFAULT ;
-%<abl%>:%>%{D%}%{A%}н # ;      ! Dir/LR 
-%<abl%>:%>%{A%}н # ;      
+%<abl%>:%>%{D%}%{A%}н PRED ;      ! Dir/LR 
+%<abl%>:%>%{A%}н PRED ;      
 
 
 !LEXICON CASES-SINGULAR-PRONOUNS
@@ -358,8 +358,8 @@ LEXICON PRON-DEM-BUL
 %<prn%>%<dem%>%<sg%>%<gen%>:мунун # ;
 %<prn%>%<dem%>%<sg%>%<acc%>:муну # ;
 %<prn%>%<dem%>%<sg%>%<dat%>:буга # ;
-%<prn%>%<dem%>%<sg%>%<loc%>:мында # ;
-%<prn%>%<dem%>%<sg%>%<abl%>:мындан # ;
+%<prn%>%<dem%>%<sg%>%<loc%>:мында PRED ;
+%<prn%>%<dem%>%<sg%>%<abl%>:мындан PRED ;
 
 %<prn%>%<dem%>%<pl%>:бул%>л%{A%}р CASES ;
 
@@ -369,8 +369,8 @@ LEXICON PRON-DEM-OSOL
 %<prn%>%<dem%>%<sg%>%<gen%>:нун # ;
 %<prn%>%<dem%>%<sg%>%<acc%>:ну # ;
 %<prn%>%<dem%>%<sg%>%<dat%>:го # ;
-%<prn%>%<dem%>%<sg%>%<loc%>:ндо # ;
-%<prn%>%<dem%>%<sg%>%<abl%>:ндон # ;
+%<prn%>%<dem%>%<sg%>%<loc%>:ндо PRED ;
+%<prn%>%<dem%>%<sg%>%<abl%>:ндон PRED ;
 
 %<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
@@ -380,8 +380,8 @@ LEXICON PRON-DEM-AL
 %<prn%>%<dem%>%<sg%>%<gen%>:нын # ;
 %<prn%>%<dem%>%<sg%>%<acc%>:ны # ;
 %<prn%>%<dem%>%<sg%>%<dat%>:га # ;
-%<prn%>%<dem%>%<sg%>%<loc%>:нда # ;
-%<prn%>%<dem%>%<sg%>%<abl%>:ндан # ;
+%<prn%>%<dem%>%<sg%>%<loc%>:нда PRED ;
+%<prn%>%<dem%>%<sg%>%<abl%>:ндан PRED ;
 
 %<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
@@ -391,8 +391,8 @@ LEXICON PRON-DEM-TIGIL
 %<prn%>%<dem%>%<sg%>%<gen%>:нин # ;
 %<prn%>%<dem%>%<sg%>%<acc%>:ни # ;
 %<prn%>%<dem%>%<sg%>%<dat%>:ге # ;
-%<prn%>%<dem%>%<sg%>%<loc%>:нде # ;
-%<prn%>%<dem%>%<sg%>%<abl%>:нден # ;
+%<prn%>%<dem%>%<sg%>%<loc%>:нде PRED ;
+%<prn%>%<dem%>%<sg%>%<abl%>:нден PRED ;
 
 %<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
@@ -402,8 +402,8 @@ LEXICON PRON-PERS-SEN
 %<gen%>:енин # ;
 %<acc%>:ени # ;
 %<dat%>:ага # ;
-%<loc%>:енде # ;
-%<abl%>:енден # ;
+%<loc%>:енде PRED ;
+%<abl%>:енден PRED ;
 
 LEXICON PRON-PERS-SIZ
 
@@ -411,8 +411,8 @@ LEXICON PRON-PERS-SIZ
 %<gen%>:изди # ;
 %<acc%>:издин # ;
 %<dat%>:изге # ;
-%<loc%>:изде # ;
-%<abl%>:изден # ;
+%<loc%>:изде PRED ;
+%<abl%>:изден PRED ;
 
 LEXICON PRON-PERS-AL
 
@@ -420,8 +420,8 @@ LEXICON PRON-PERS-AL
 %<gen%>:ны # ;
 %<acc%>:нын # ;
 %<dat%>:га # ;
-%<loc%>:нда # ;
-%<abl%>:ндан # ;
+%<loc%>:нда PRED ;
+%<abl%>:ндан PRED ;
 
 LEXICON PRON-PERS-SILER
 
@@ -429,8 +429,8 @@ LEXICON PRON-PERS-SILER
 %<gen%>:%>д%{I%} # ;
 %<acc%>:%>д%{I%}н # ;
 %<dat%>:%>г%{A%} # ;
-%<loc%>:%>д%{A%} # ;
-%<abl%>:%>д%{A%}н # ;
+%<loc%>:%>д%{A%} PRED ;
+%<abl%>:%>д%{A%}н PRED ;
 
 LEXICON PRON-ITG
 
@@ -448,23 +448,28 @@ LEXICON PRON-QNT
 
 %<prn%>%<qnt%>: CASES ;
 
-
+LEXICON PRED
+V-PERS-COP ;
+V-CLIT ;  ! TODO: I guess these aren't technically necessary?
+# ;       ! TODO: .. since they're included in V-PERS-COP
 
 LEXICON V-CLIT 
 
-%+би%<qst%>:%>%{B%}%{I%} # ;
+!%+би%<qst%>:%>%{B%}%{I%} # ;
+%<qst%>:%>%{B%}%{I%} # ;      ! TODO: see if previous form was wrong
+%<qst2%>:%>ч%{I%} # ;
 # ;
 
 LEXICON V-PERS-POSS ! P_2
 
-%<p1%>%<sg%>:%>м V-CLIT ; 
-%<p2%>%<sg%>:%>ң V-CLIT ; 
-%<p2%>%<frm%>%<sg%>:%>ң%{I%}з V-CLIT ; 
-%<p3%>%<sg%>:%>%{S%}%{I%} V-CLIT ; 
-%<p1%>%<pl%>:%>%б%{I%}з V-CLIT ; 
-%<p2%>%<pl%>:%>%ң%{A%}р V-CLIT ;  
-%<p2%>%<frm%>%<pl%>:%>%ң%{I%}зд%{A%}р V-CLIT ;  
-%<p3%>%<pl%>:%>%{S%}%{I%} V-CLIT ; 
+%<p1%>%<sg%>:%>м PRED ; 
+%<p2%>%<sg%>:%>ң PRED ; 
+%<p2%>%<frm%>%<sg%>:%>ң%{I%}з PRED ; 
+%<p3%>%<sg%>:%>%{S%}%{I%} PRED ; 
+%<p1%>%<pl%>:%>%б%{I%}з PRED ; 
+%<p2%>%<pl%>:%>%ң%{A%}р PRED ;  
+%<p2%>%<frm%>%<pl%>:%>%ң%{I%}зд%{A%}р PRED ;  
+%<p3%>%<pl%>:%>%{S%}%{I%} PRED ; 
 
 LEXICON V-PERS-COP ! P_3
 
