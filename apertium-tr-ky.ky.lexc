@@ -389,8 +389,8 @@ LEXICON PRON-DEM-AL
 
 LEXICON PRON-DEM-TIGIL
 
-%<prn%>%<dem%>%<sg%>%<nom%>:л PRED ;   ! Dir/LR
-%<prn%>%<dem%>%<sg%>%<nom%>: PRED ;
+%<prn%>%<dem%>%<sg%>%<nom%>:л PRED ;
+%<prn%>%<dem%>%<sg%>%<nom%>: PRED ;   ! Dir/LR
 %<prn%>%<dem%>%<sg%>%<gen%>:нин # ;
 %<prn%>%<dem%>%<sg%>%<acc%>:ни # ;
 %<prn%>%<dem%>%<sg%>%<dat%>:ге # ;
@@ -725,10 +725,14 @@ LEXICON Postpositions
 LEXICON Determiners
 
 бул DET-DEM ; ! "this"
+бу DET-DEM ; ! "this" ! Dir/LR
 ошол DET-DEM ; ! "that"
+ошо DET-DEM ; ! "that" ! Dir/LR
 ушул DET-DEM ; ! "this (visible)"
+ушу DET-DEM ; ! "this (visible)" ! Dir/LR
 ал DET-DEM ; ! "that"
-тигил DET-DEM ; ! "that (yonder)"
+тигил DET-DEM ; ! "that (yonder)" ! Dir/LR
+тиги DET-DEM ; ! "that (yonder)"
 
 айрым DET-IND ; ! "other"
 ушундай DET-IND ; ! "this kind of"
