@@ -260,6 +260,7 @@ LEXICON ADJ
 LEXICON ADJ-ORD
 
 %<adj%>%<ord%>: # ;
+%<adj%>%<ord%>%<n%>: POSSESSION ;
 
 LEXICON ADV-ITG
 
@@ -539,8 +540,8 @@ LEXICON V-INFL-COMMON
 %<cv_pur%>:%>%{G%}%{A%}н%{I%} # ;                             ! 
 
 ! Non-finite forms and participles
-%<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
-%<inf2%>:%>%{I%}ш POSSESSION ;                                ! -ыш, -иш, -уш, -үш
+!%<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
+!%<inf2%>:%>%{I%}ш POSSESSION ;                                ! -ыш, -иш, -уш, -үш
 %<neg%>%<pp%>:%>%{B%}%{A%}%>%{G%}%{A%}н POSSESSION ;          !
 %<neg%>%<pp2%>:%>%{B%}%{A%}%>%{G%}%{A%}н%{I%} POSSESSION ;    ! This is wrong
 %<neg%>%<inf2%>:%>%{B%}%{A%}%>%{I%}ш POSSESSION ;             !
@@ -4918,7 +4919,7 @@ suyuk ADJ ;
 мажбур ADJ ;
 нормалдуу ADJ ;
 бай ADJ ;
-биринчи ADJ ;
+биринчи ADJ-ORD ;
 ысык ADJ ;
 терең ADJ ;
 өз ADJ ;
