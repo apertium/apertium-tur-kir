@@ -4218,6 +4218,7 @@ LEXICON NounStems
 келишпестик N-INFL ;
 күч N-INFL ;
 жардам N-INFL ;
+шамал N-INFL ;
 
 LEXICON PropernounStems
 Алматы NP-TOP ;
@@ -4791,7 +4792,7 @@ LEXICON AdjecStems
 спецификалуу ADJ ; 
 стилистикалык ADJ ; 
 стратегиялык ADJ ; 
-suyuk ADJ ; 
+суюк ADJ ; 
 субъективдүү ADJ ; 
 тантал ADJ ; 
 технологиялык ADJ ; 
@@ -5331,6 +5332,7 @@ suyuk ADJ ;
 олуттуу ADJ ;
 көшөгөлүү ADJ ;
 эларалык ADJ ;
+ызгардуу ADJ ;
 
 LEXICON AdvStems
 
