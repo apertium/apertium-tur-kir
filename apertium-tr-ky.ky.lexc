@@ -494,6 +494,9 @@ LEXICON V-CLIT
 %+чы%<mod_foc%>:%>ч%{I%} # ;
 %+го%<mod_ass%>:% го # ;
 %+да%<mod_tru%>:% да # ;
+!%го%<mod_ass%>:го # ;
+!%да%<mod_tru%>:да # ;
+
 # ;
 
 LEXICON V-PERS-POSS ! P_2
@@ -687,17 +690,19 @@ LEXICON V-INFL-IV-IRREG-CAUS
 
 LEXICON Particles 
 
-да PART ; ! "also, too"
-го PART ; ! "also, too"
-мына PART ; ! "here is, вот"
-эгер PART ; ! conjunction like particle "if"
-эгерде PART ; ! conjunction like particle "if"
+!да PART ; ! "also, too"
+!го PART ; ! "also, too"
+!мына PART ; ! "here is, вот"
+!эгер PART ; ! conjunction like particle "if"
+!эгерде PART ; ! conjunction like particle "if"
+! FIXME: сыяктуу and экен have special grammar, but are ~modal particles
 сыяктуу PART ; ! modal particle; adjective, usually with dative "similar to"
 экен PART ; ! non-eyewitness modal particle
 экен PART-PERS-COP ; ! non-eyewitness modal particle
+! FIXME: find out what first эле is, and integrate second into tenses as appropriate
 эле PART ; ! 
-эле PART-PERS-PAST ; ! 
-дагы PART ; 
+!эле PART-PERS-PAST ; ! 
+!дагы PART ; 
 
 LEXICON Postadverbs 
 
@@ -709,9 +714,10 @@ LEXICON Conjunctions
 
 жана CC ; ! "and"
 болсо CC ;
-да CC ; ! "and"
+да CC ; ! <s>"and"</s> "also", "both ... and ..."
+дагы CC ; ! "and ... too"
 же CC ; ! "or"
-менен CC ; ! "and"
+менен CC ; ! "and" / "including"
 үчүн CC ; ! ""
 не CC ; ! "neither... nor..."
 ал CA ; ! "but"
@@ -719,6 +725,10 @@ LEXICON Conjunctions
 анткени CA ; ! "because"
 себеби CA ; ! "because"
 ошондуктан CA ;  ! "that's why"
+!FIXME: integrate these two correctly:
+!эгер PART ; ! conjunction like particle "if"
+!эгерде PART ; ! conjunction like particle "if"
+
 
 жана CA ; ! Dir/RL "but" 
 
@@ -5477,7 +5487,7 @@ LEXICON AdvStems
 кечээ ADV ; 
 дайыма ADV ; 
 анда-санда ADV ; 
-мына ADV ; 
+!мына ADV ; 
 күндөрдөн% бери ADV ; 
 кышында ADV ; 
 орой ADV ; 
@@ -5869,6 +5879,7 @@ ISBN ABBR ;
 LEXICON Interjections 
 
 албетте INTERJ ; ! "of course"
+мына INTERJ ; ! "here is, вот"
 
 LEXICON Punctuation
 
