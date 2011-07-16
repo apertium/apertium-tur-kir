@@ -73,8 +73,11 @@ Multichar_Symbols
 %<dem%>     ! Demonstrative
 %<neg%>     ! Negative
 %<exi%>     ! Existential
-%<qst%>     ! Question
-%<qst2%>    ! "what about ..." question particle
+
+%<mod_qst%> ! Question modal particle
+%<mod_foc%>! "what about ..." question particle
+%<mod_ass%> ! assumption-that-interlocutor-knows-something modal particle
+%<mod_tru%> ! assumption-that-statement-is-true modal particle
 
 %<pst%>     ! Positive level of comparison
 %<comp%>    ! Comparative level of comparison 
@@ -486,9 +489,12 @@ V-CLIT ;  ! TODO: I guess these aren't technically necessary?
 
 LEXICON V-CLIT 
 
-!%+би%<qst%>:%>%{B%}%{I%} # ;
-%<qst%>:%>%{B%}%{I%} # ;      ! TODO: see if previous form was wrong
-%<qst2%>:%>ч%{I%} # ;
+!! Modal/discourse particles
+%+бы%<mod_qst%>:%>%{B%}%{I%} # ;
+%+чы%<mod_foc%>:%>ч%{I%} # ;
+%+го%<mod_ass%>:% го # ;
+%+да%<mod_tru%>:% да # ;
+
 # ;
 
 LEXICON V-PERS-POSS ! P_2
@@ -504,14 +510,14 @@ LEXICON V-PERS-POSS ! P_2
 
 LEXICON V-PERS-COP ! P_3
 
-%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
-%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
-%<p3%>%<sg%>: V-CLIT ; 
-%<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
-%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
-%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
-%<p3%>%<pl%>: V-CLIT ; 
+%+мын%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
+%+сың%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
+%+сыз%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
+%+%<p3%>%<sg%>: V-CLIT ; 
+%+быз%<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
+%+сыңар%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
+%+сыздар%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
+%+%<p3%>%<pl%>: V-CLIT ; 
 
 LEXICON V-PERS-PAST ! P_4
 
@@ -557,18 +563,18 @@ LEXICON V-INFL-COMMON
 %<cv_impf%>:%>%{E%} # ;                                       !
 %<cv_perf%>:%>%{I%}п # ;                                      ! -ып, -ип, -уп, -үп
 !%<cv_perf%>:%>п # ;                                      ! -ып, -ип, -уп, -үп
-%<cv_inf%>:%>м%{A%}к # ;                                      !
+Q%<cv_inf%>:%>м%{A%}к # ;                                      ! TODO: This is a finite form
 %<cv_irre%>:%>%{E%}т # ;                                      !
 %<cv_fut%>:%>%{A%}р # ;                                       !
-%<cv_fut%>:%>%{A%}%{A%}р # ;                                  ! Dir/LR
-%<cv_pur%>:%>%{G%}%{A%}н%{I%} # ;                             ! 
+!%<cv_fut%>:%>%{A%}%{A%}р # ;                                  ! Dir/LR
+!%<cv_pur%>:%>%{G%}%{A%}н%{I%} # ;                             ! 
 
 ! Non-finite forms and participles
 !%<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
 !%<inf2%>:%>%{I%}ш POSSESSION ;                                ! -ыш, -иш, -уш, -үш
-%<neg%>%<pp%>:%>%{B%}%{A%}%>%{G%}%{A%}н POSSESSION ;          !
-%<neg%>%<pp2%>:%>%{B%}%{A%}%>%{G%}%{A%}н%{I%} POSSESSION ;    ! This is wrong
-%<neg%>%<inf2%>:%>%{B%}%{A%}%>%{I%}ш POSSESSION ;             !
+!%<neg%>%<pp%>:%>%{B%}%{A%}%>%{G%}%{A%}н POSSESSION ;          !
+!%<neg%>%<pp2%>:%>%{B%}%{A%}%>%{G%}%{A%}н%{I%} POSSESSION ;    ! This is wrong
+!%<neg%>%<inf2%>:%>%{B%}%{A%}%>%{I%}ш POSSESSION ;             !
 %<plist%>:%>м%{A%}й # ;                                       ! huh?
 
 !!!! New non-finite forms !!!!
