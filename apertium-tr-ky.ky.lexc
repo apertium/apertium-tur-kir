@@ -560,12 +560,12 @@ LEXICON V-PERS-PRES ! P_6
 LEXICON V-INFL-COMMON
 
 ! Converbs 
-%<cv_impf%>:%>%{E%} # ;                                       !
-%<cv_perf%>:%>%{I%}п # ;                                      ! -ып, -ип, -уп, -үп
+!%<cv_impf%>:%>%{E%} # ;                                       !
+!%<cv_perf%>:%>%{I%}п # ;                                      ! -ып, -ип, -уп, -үп
 !%<cv_perf%>:%>п # ;                                      ! -ып, -ип, -уп, -үп
-Q%<cv_inf%>:%>м%{A%}к # ;                                      ! TODO: This is a finite form
+!%<cv_inf%>:%>м%{A%}к # ;                                      ! TODO: This is a finite form
 %<cv_irre%>:%>%{E%}т # ;                                      !
-%<cv_fut%>:%>%{A%}р # ;                                       !
+!%<cv_fut%>:%>%{A%}р # ;                                       !
 !%<cv_fut%>:%>%{A%}%{A%}р # ;                                  ! Dir/LR
 !%<cv_pur%>:%>%{G%}%{A%}н%{I%} # ;                             ! 
 
