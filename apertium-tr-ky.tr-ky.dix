@@ -82,9 +82,6 @@
 	<e c="  0"><p><l>şöyle<s n="ij"/></l><r>ушундай<s n="ij"/></r></p></e>
 	
 	 <!-- SECTION: Miscellaneous -->
-    <e><p><l>var<s n="exist"/></l><r>бар<s n="exist"/></r></p></e> 
-    <e><p><l>değil<s n="not"/></l><r>эмес<s n="not"/></r></p></e>
-    <e><p><l>yok<s n="nexist"/></l><r>жок<s n="nexist"/></r></p></e>
     <e><p><l><s n="q"/></l><r><s n="q"/></r></p></e>
    
         <!-- SECTION: Conjunctions -->
@@ -3817,6 +3814,12 @@
 	<e c="  0"><p><l>var<s n="exist"/></l><r>бар<s n="v"/><s n="exi"/></r></p></e>
         <e c="  0"><p><l>değil<s n="not"/></l><r>эмес<s n="v"/><s n="neg"/></r></p></e>
         <e c="  0"><p><l>yok<s n="nexist"/></l><r>жок<s n="v"/><s n="neg"/><s n="exi"/></r></p></e>
+
+<!--
+    <e><p><l>var<s n="exist"/></l><r>бар<s n="exist"/></r></p></e> 
+    <e><p><l>değil<s n="not"/></l><r>эмес<s n="not"/></r></p></e>
+    <e><p><l>yok<s n="nexist"/></l><r>жок<s n="nexist"/></r></p></e>
+-->
 
 	<e c="  0"><p><l>gel<s n="v"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ol<s n="v"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
