@@ -20,7 +20,7 @@ all:
 	hfst-compose-intersect -1 .deps/ky.lexc.gen.hfst -2 .deps/ky.twol.hfst -o .deps/tr-ky.autogen.hfst
 	hfst-compose-intersect -1 .deps/ky.lexc.morf.hfst -2 .deps/ky.twol.hfst | hfst-invert -o .deps/ky-tr.automorf.hfst
 
-	hfst-fst2fst -O -i .deps/ky-tr.automorf.hfst -o ky-tr.automorf.hfst
-	hfst-fst2fst -O -i .deps/tr-ky.autogen.hfst -o tr-ky.autogen.hfst
+	hfst-fst2fst -w -i .deps/ky-tr.automorf.hfst -o ky-tr.automorf.hfst
+	hfst-fst2fst -w -i .deps/tr-ky.autogen.hfst -o tr-ky.autogen.hfst
 
 

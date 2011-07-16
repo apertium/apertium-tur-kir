@@ -74,6 +74,7 @@ Multichar_Symbols
 %<neg%>     ! Negative
 %<exi%>     ! Existential
 %<qst%>     ! Question
+%<qst2%>    ! "what about ..." question particle
 
 %<pst%>     ! Positive level of comparison
 %<comp%>    ! Comparative level of comparison 
@@ -89,6 +90,20 @@ Multichar_Symbols
 %<cv_irre%> ! Converb irrealis, -Eт
 %<cv_fut%>  ! Converb future, -Aр
 %<cv_pur%>  ! Converb purpose, -GAнI
+
+%<prt_plan%>
+%<prt_cond%>
+%<prt_perf%>
+%<prt_impf%>
+%<ger_fut%>
+%<ger_past%>
+%<ger_pres%>
+%<ger_gnrl%>
+%<vadj_fut%>
+%<vadj_pot2%>
+%<vadj_perf%>
+%<vadj_pot%>
+%<vadj_impf%>
 
 %<pres%>    ! Present tense
 %<aor%>     ! Aorist, -E
