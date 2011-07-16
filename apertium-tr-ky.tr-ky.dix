@@ -2995,6 +2995,8 @@
     <e c="  0"><p><l>şiddet<s n="n"/></l><r>күч<s n="n"/></r></p></e>
     <e c="  0"><p><l>yardım<s n="n"/></l><r>жардам<s n="n"/></r></p></e>
     <e c="  0"><p><l>rüzgar<s n="n"/></l><r>шамал<s n="n"/></r></p></e>	
+
+    <e c="  0"><p><l>yaka<s n="n"/></l><r>жака<s n="n"/></r></p></e>	
 		
         <!-- SECTION: Proper nouns -->
         <e><p><l>Abhazya<s n="np"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e> 
@@ -3833,6 +3835,8 @@
 
         <e c="  0"><p><l>itiraf<b/>et<s n="v"/></l><r>мойнуна<b/>ал<s n="v"/><s n="tv"/></r></p></e>
         <e c="  0"><p><l>kabul<b/>et<s n="v"/><s n="pass"/></l><r>кабыл<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
+
+	<e c="  0"><p><l>yasla<s n="v"/></l><r>сүйөн<s n="v"/><s n="tv"/></r></p></e>  
 
 	<e c="  0"><p><l>geril<s n="v"/></l><r>кыйнал<s n="v"/><s n="iv"/></r></p></e>  
 	<e slr="1"><p><l>geril<s n="v"/></l><r>керил<s n="v"/><s n="iv"/></r></p></e>  
