@@ -1,10 +1,8 @@
-    13724 ^@ab<n>$
-       7504 ^@abd<n>$
+   13724 ^@ab<n>$
+   7504 ^@abd<n>$
    1661 ^@dahil<n>$ 
    1139 ^@kabine<n>$
    1126 ^@etkinlik<n>$
-   <e c="  0"><p><l>arnavut<s n="n"/></l><r><s n="n"/></r></p></e>
-<e c="  0"><p><l>cumhurbaşkanlığı<s n="n"/></l><r><s n="n"/></r></p></e>
     991 ^@tasarı<n>$
     978 ^@salı<n>$
     951 ^@tören<n>$
