@@ -1815,7 +1815,6 @@ LEXICON NounStems
 көнүмүш N-INFL ; 
 күндүз N-INFL ; 
 күз N-INFL ; 
-күч N-INFL ; 
 кубат N-INFL ; 
 ал N-INFL ; 
 кытык N-INFL ; 
@@ -2011,8 +2010,8 @@ LEXICON NounStems
 кашык N-INFL ; 
 кепил N-INFL ; 
 кекс N-INFL ; 
-жаман N-INFL ; 
-кем N-INFL ; 
+!жаман N-INFL ; ! because from ADJ
+кем N-INFL ; ! FIXME: hmm
 сөөк N-INFL ; 
 кене N-INFL ; 
 кебек N-INFL ; 
@@ -4063,7 +4062,6 @@ LEXICON NounStems
 бет N-INFL ;
 кеңешме N-INFL ;
 жак N-INFL ;
-кайык N-INFL ;
 чогулуш N-INFL ;
 күнөө N-INFL ;
 жергиликтүү N-INFL ;
@@ -4276,12 +4274,10 @@ LEXICON NounStems
 мөрөй N-INFL ;
 укук N-INFL ;
 бийлик N-INFL ;
-күч N-INFL ;
 өсүү N-INFL ;
 өнүгүү N-INFL ;
 прогресс N-INFL ;
 интеграция N-INFL ;
-күч N-INFL ;
 кубат N-INFL ;
 даремет N-INFL ;
 электр% энергиясы N-INFL ;
@@ -5016,7 +5012,7 @@ LEXICON AdjecStems
 жакын ADJ ; 
 тыш ADJ ; 
 улуу ADJ ; 
-абдан% жаман ADJ ; 
+!абдан% жаман ADJ ; 
 кургак ADJ ; 
 түндүк ADJ ; 
 түштүк% чыгыш ADJ ; 
@@ -5045,7 +5041,6 @@ LEXICON AdjecStems
 немис ADJ ; 
 техникалуу ADJ ; 
 туура ADJ ; 
-жаман ADJ ; 
 оор ADJ ; 
 кыйын ADJ ; 
 кенен ADJ ; 
@@ -5071,7 +5066,6 @@ LEXICON AdjecStems
 конститутсиялык ADJ ; 
 таасирдүү ADJ ; 
 тартыш ADJ ; 
-жаман ADJ ; 
 бүтүн ADJ ; 
 күмөндүү ADJ ; 
 эркек ADJ ; 
@@ -5374,7 +5368,7 @@ LEXICON AdjecStems
 алдан% тайган ADJ ;
 жүдөмүш ADJ ;
 чүнчүгөн ADJ ;
-абдан% жаман ADJ ;
+!абдан% жаман ADJ ;
 каардуу ADJ ;
 ачулуу ADJ ;
 шашылыш ADJ ;
@@ -5590,7 +5584,6 @@ LEXICON AdvStems
 жылдардан% бери ADV ; 
 тез ADV ; 
 чынында ADV ; ! FIXME: not a lemma: "in truth"
-чогуу ADV ; 
 жай ADV ; 
 жартылай ADV ; 
 дагы% эле ADV ; ! FIXME: compositional
@@ -5618,7 +5611,7 @@ LEXICON AdvStems
 жогунда ADV ; ! FIXME: compositional
 илгери ADV ; 
 жалгыз ADV ; ! "alone"
-чогу ADV ; ! "together"
+чогуу ADV ; ! "together"
 кээде ADV ; 
 кийинчерээк ADV ; 
 сааттап ADV ; 
@@ -5628,12 +5621,10 @@ LEXICON AdvStems
 башынан ADV ; 
 тескерисинче ADV ; 
 өзү ADV ; 
-чогуу ADV ; 
-кээбирөө ADV ; 
+кээбирөө ADV ; ! FIXME: compositional
 көбүнчө ADV ; 
 чындыгында ADV ; 
 тезинен ADV ; 
-чынында ADV ; 
 канчалаган ADV ; 
 жооп% оордуна ADV ; 
 даражада ADV ; 
@@ -5661,7 +5652,6 @@ LEXICON AdvStems
 орой ADV ; 
 көрсө ADV ; 
 дээри ADV ; 
-чогуу ADV ; 
 сөзсүз ADV ; 
 кээбири ADV ; 
 түндөсү ADV ; 
@@ -5953,6 +5943,7 @@ LEXICON VerbStems
 түтө V-INFL-IV ; 
 түш V-INFL-IV-NO-CAUS ; ! "fall"
 түш:түшүр V-INFL-IV-IRREG-CAUS ; ! "to make fall"
+шаш V-INFL-IV ; ! "hurry"
 төк V-INFL-TV ; 
 төк V-INFL-IV ; 
 төлө V-INFL-TV ; 
@@ -5964,7 +5955,9 @@ LEXICON VerbStems
 чакыр V-INFL-TV ; 
 чыкыр V-INFL-TV ;
 чал V-INFL-TV ; 
+чалын V-INFL-IV ;
 чарчат V-INFL-TV ; 
+чарча V-INFL-IV ;
 чач V-INFL-TV ; 
 агыт V-INFL-TV ;
 чеч V-INFL-TV ; 
@@ -5989,7 +5982,6 @@ LEXICON VerbStems
 өч V-INFL-IV-NO-CAUS ; ! "turn off"
 өч:өчүр V-INFL-IV-IRREG-CAUS ; ! "make turn off"
 сиңир V-INFL-TV ;
-өчүр V-INFL ; 
 тир V-INFL ;
 уч V-INFL-IV ;
 өп V-INFL-TV ; ! to kiss"
@@ -6103,10 +6095,11 @@ LEXICON VerbStems
 жара V-INFL-TV ;
 ишке% жара V-INFL-TV ;
 күчтөн V-INFL-IV ;
+күчө V-INFL-IV ;
 чеч V-INFL-TV ;
 чечмеле V-INFL-TV ;
 соолу V-INFL-IV ;
-кечиктир V-INFL-TV ;
+!кечиктир V-INFL-TV ; ! this is a regularly derived form, doesn't need to be added separately
 кийинкиге% калтыр V-INFL-TV ;
 кас V-INFL-TV ;
 кач V-INFL-TV ;
@@ -6117,7 +6110,6 @@ LEXICON VerbStems
 карма V-INFL-IV ;
 жап V-INFL-TV ;
 бекит V-INFL-TV ;
-өчүр V-INFL-TV ;
 тоскоол% бол V-INFL-TV ;
 сотто V-INFL-TV ;
 тире V-INFL-TV ;
@@ -6208,7 +6200,7 @@ ver
 жаңырт V-INFL-TV ;
 балала V-INFL-TV ;
 айыр,ажырат V-INFL-TV ;
-кечик V-INFL-TV ;
+кечик V-INFL-TV ; ! "to be late"
 тиз,
 тиз V-INFL-TV ;
 катарга
@@ -6293,7 +6285,6 @@ ver
 иш% бүтүр V-INFL-TV ;
 кез V-INFL-IV ;
 саякатта V-INFL-IV ;
-көчүр V-INFL-TV ;
 ий V-INFL-TV ;
 көр V-INFL-TV ;
 кара V-INFL-TV ;
