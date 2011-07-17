@@ -709,13 +709,14 @@ LEXICON Postadverbs
 гана POSTADV ; ! "only"
 эле POSTADV ; ! "only"
 деле POSTADV ; ! "even"
+дагы POSTADV ; ! "... дагы" = "and ... too"
 
 LEXICON Conjunctions 
 
 жана CC ; ! "and"
 болсо CC ;
 да CC ; ! <s>"and"</s> "also", "both ... and ..."
-дагы CC ; ! "and ... too"
+дагы ADV ; ! "дагы ..." "another ..."
 же CC ; ! "or"
 менен CC ; ! "and" / "including"
 үчүн CC ; ! ""
@@ -5536,6 +5537,7 @@ LEXICON AdvStems
 эң ADV ; ! "most"
 эң:ең ADV ; ! Dir/LR "most"
 кээде ADV ; ! "sometimes"
+жакында ADV ; ! "soon"
 
 негизинде ADV ; ! "basically, in general"
 эртеси ADV ; 
@@ -5548,8 +5550,8 @@ LEXICON AdvStems
 негизи ADV ; 
 дагы ADV ; 
 бирок ADV ; 
-кыскача ADV ; 
-мурда ADV ; 
+кыскача ADV ; ! "in short"
+мурда ADV ; ! "long ago"
 бирдикте ADV ; 
 каршы ADV ; 
 биринчи ADV ; 
