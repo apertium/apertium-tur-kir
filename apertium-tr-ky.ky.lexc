@@ -5040,7 +5040,6 @@ LEXICON AdjecStems
 контрабанда ADJ ; 
 мурдагы ADJ ; 
 түрдүү ADJ ; 
-жалгыз ADJ ; 
 радикалдуу ADJ ; 
 мүмкүн ADJ ; 
 немис ADJ ; 
@@ -5563,71 +5562,68 @@ LEXICON AdvStems
 жалгызча ADV ; 
 жана ADV ; 
 аз ADV ; 
-дагы ADV ; 
+дагы ADV ; ! FIXME: oh?
 илгери ADV ; 
 эрте ADV ; 
 соңунда ADV ; 
 бек ADV ; 
-кайрадан ADV ; 
+кайрадан ADV ; ! "yet/once again"
 башы% башына ADV ; 
-азырынча ADV ; 
-болгону ADV ; 
-дагы% эле ADV ; 
+азырынча ADV ; ! "for now"
+болгону ADV ; ! FIXME: huh?
+дагы% эле ADV ; ! maybe this should be seen as compositional
 эми ADV ; 
-бери ADV ; 
+бери ADV ; ! FIXME: POSTPOS!
 азыр ADV ; 
 дайыма ADV ; 
 толугу% менен ADV ; 
-андай ADV ; 
-мындай ADV ; 
+андай ADV ; ! FIXME
+мындай ADV ; ! FIXME
 кеч ADV ; 
-дароо ADV ; 
+дароо ADV ; ! "immediately"
 мурдатан ADV ; 
-кандай ADV ; 
-бери ADV ; 
+кандай ADV ; ! FIXME: interrogative
+бери ADV ; ! FIXME: POSTPOS!
 бат ADV ; 
-дароо ADV ; 
-эч ADV ; 
+эч ADV ; ! FIXME
 такыр ADV ; 
 жылдардан% бери ADV ; 
 тез ADV ; 
-чынында ADV ; 
+чынында ADV ; ! FIXME: not a lemma: "in truth"
 чогуу ADV ; 
 жай ADV ; 
 жартылай ADV ; 
-дагы% эле ADV ; 
+дагы% эле ADV ; ! FIXME: compositional
 көбүнчө ADV ; 
-кайакта ADV ; 
-азырынча ADV ; 
-кокустан ADV ; 
+кайакта ADV ; ! FIXME: INTERROGATIVE
+кокустан ADV ; ! "suddenly"
 жок ADV ; 
 ушундайча ADV ; 
-аз% да% болсо ADV ; 
+аз% да% болсо ADV ; ! FIXME: compositional
 ыктымал ADV ; 
 балким ADV ; 
-ооба ADV ; 
+ооба ADV ; ! FIXME: interjection
 терсине ADV ; 
-абдан ADV ; 
+абдан ADV ; ! "really"
 бүгүн ADV ; ! from pending list
 бираз ADV ; 
-ошентип ADV ; 
+ошентип ADV ; ! FIXME: compositional
 баарыбир ADV ; 
-айлардан% бери ADV ; 
+айлардан% бери ADV ; ! FIXME: compositional
 башка ADV ; 
-жылдап ADV ; 
-айлап ADV ; 
+жылдап ADV ; ! FIXME: compositional
+айлап ADV ; ! FIXME: compositional
 ылдый ADV ; 
-алыстан ADV ; 
-жогунда ADV ; 
+алыстан ADV ; ! FIXME: compositional
+жогунда ADV ; ! FIXME: compositional
 илгери ADV ; 
-жалгыз ADV ; 
-чогу ADV ; 
+жалгыз ADV ; ! "alone"
+чогу ADV ; ! "together"
 кээде ADV ; 
 кийинчерээк ADV ; 
 сааттап ADV ; 
 өйдө ADV ; 
-жалгыз ADV ; 
-аябай ADV ; 
+аябай ADV ; ! "extremely"
 тобу% менен ADV ; 
 башынан ADV ; 
 тескерисинче ADV ; 
