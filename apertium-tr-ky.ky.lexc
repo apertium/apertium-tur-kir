@@ -950,7 +950,7 @@ LEXICON NounStems
 ала N-INFL ; 
 алака N-INFL ; 
 алгоритм N-INFL ; 
-алды N-INFL ; 
+алд N-INFL ; 
 алкоголь N-INFL ; ! "alcohol"
 алкыш N-INFL ; 
 аллегория N-INFL ; ! "allegory"
@@ -3019,7 +3019,6 @@ LEXICON NounStems
 өгүз N-INFL ; 
 өлчөм N-INFL ; 
 өлчөө N-INFL ; 
-алды N-INFL ; 
 асты N-INFL ; 
 өрдөк N-INFL ; 
 үрп% адат N-INFL ; 
@@ -4110,7 +4109,6 @@ LEXICON NounStems
 жеке% менчик N-INFL ;
 шаар N-INFL ;
 асты N-INFL ;
-алды N-INFL ;
 башмыйзам N-INFL ;
 булак N-INFL ;
 башат N-INFL ;
@@ -5483,7 +5481,7 @@ LEXICON AdvStems
 эмне% үчүн ADV ; 
 бардыгын ADV ; 
 тилеке% каршы ADV ; 
-алдында ADV ; 
+!алдында ADV ; 
 кечээ ADV ; 
 дайыма ADV ; 
 анда-санда ADV ; 
