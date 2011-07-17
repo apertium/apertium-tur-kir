@@ -5,25 +5,20 @@
 7504 abd<n>: 
     <e><p><l>abd<s n="n"/></l><r>@<s n="n"/></r></p></e>
 
-================================================================================
-1661 dahil<n>: Hükümetlerin kamu mallarının sağlanması söz konusu olduğunda ekonomik 
-yaşamda oynamaları gereken bir rol vardır -- bu role etkin düzenlemeler de 
->>dahildir<<.
-
-    <e><p><l>dahil<s n="n"/></l><r>@<s n="n"/></r></p></e>
+<e><p><l>dahil<s n="n"/></l><r>ичинде<s n="n"/></r></p></e>
 
 ================================================================================
 1139 kabine<n>: Bir Hükümet toplantısının ardından konuşan Başbakan, >>kabinesinin<< 
 Yugoslavya'nın da kabul edeceğini umduğu bir protokol taslağını 
 onayladığını belirtti.
 
-    <e><p><l>kabine<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>kabine<s n="n"/></l><r>кабинет<s n="n"/></r></p></e>
 
 ================================================================================
 1126 etkinlik<n>: Bilindik MKK >>etkinliklerine<< ek olarak 88 saat süren ve tüm Kosova'dan 
 dinlenebilen iki dilli bir radyo yayını da >>etkinliklerin<< cabası olmuş.
-
-    <e><p><l>etkinlik<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>etkinlik<s n="n"/></l><r>ишкердик<s n="n"/></r></p></e>
+    <e><p><l>etkinlik<s n="n"/></l><r>иш<b/>аракет<s n="n"/></r></p></e>
 
 ================================================================================
 991 tasarı<n>: Hükümet tarafından onaylanan, üçüncü bir devlet üniversitesinin 
@@ -31,11 +26,11 @@ kurulmasına ilişkin yasa >>tasarısının<<, parlamentoda da kabul edilerek,
 Tetovo Üniversitesi'nin yasallaştırma ve akreditasyon sürecine girmesi 
 bekleniyor. Marija Lazarova, Southeast European Times, Üsküp - 29/09/03
 
-    <e><p><l>tasarı<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>tasarı<s n="n"/></l><r>долбоор,эскиз, чийме<s n="n"/></r></p></e>
 
 ================================================================================
 978 salı<n>: 
-    <e><p><l>salı<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>salı<s n="n"/></l><r>шейшемби, вторник<s n="n"/></r></p></e>
 
 ================================================================================
 951 tören<n>: Orada yakılacak meşale, 13 Ağustos'ta yeniden Yunanistan'a getirilip Olimpik 
@@ -46,7 +41,7 @@ sağlayacağını ifade ederek, bunun "Aynı zamanda Oyunlar'ın kahramanları
 arasında yer alan bütün ülkelerden" 15 ila 20 bin dolayında insana 
 Oyunlar'a katılma olanağı tanıyacağını belirtti.
 
-    <e><p><l>tören<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>tören<s n="n"/></l><r>азем,салтанат,церемония<s n="n"/></r></p></e>
 
 ================================================================================
 937 sorumlu<n>: Bu ülke, Fransa, Avusturya ve Belçika'nın ardından 14. sırada yer alarak 
@@ -55,14 +50,14 @@ Bulgaristan'ın iki basamak ardından, 40. sırada geliyor.STG Avrupa
 >>sorumlusu<< Soria Blatmann "Avrupa Birliği'nde bile basın özgürlüğü 
 ihlallerine rastlıyoruz.
 
-    <e><p><l>sorumlu<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>sorumlu<s n="n"/></l><r>жоопкер, милдеткер<s n="n"/></r></p></e>
 
 ================================================================================
 937 liste<n>: Parti'den yapılan açıklamalarda seçmen >>listelerinde<< neredeyse 835.000 
 kişinin hayali olarak yer aldığı ve 8 Aralık'taki seçimlere "gerçek" 
 katılımın neredeyse yüzde 52 düzeyinde olduğu savlandı.
 
-    <e><p><l>liste<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>liste<s n="n"/></l><r>тизме<s n="n"/></r></p></e>
 
 ================================================================================
 936 gücü<n>: Ne var ki basın yayın organlarının kullandığı dile bakıldığında 
@@ -82,7 +77,7 @@ hızlı kararları engellemelidir, çünkü aceleyle alınan bu kararlar
 "prestij oyu" toplamaya yarasa da, gerçek adreslerini bulamadıkları 
 >>takdirde<< maliyetleri son derece yüksek olacaktır.
 
-    <e><p><l>takdir<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>takdir<s n="n"/></l><r>ыраазычылык,жактырыш<s n="n"/></r></p></e>
 
 ================================================================================
 934 temas<n>: Katsirdakis ayrıca, NATO'nun Yugoslav yetkililerle >>temaslarda<< bulunduğunu 
@@ -91,25 +86,25 @@ karşılamakta olduğunu da dile getirdi.Katsirdakis Yugoslavya'nın silahlı
 kuvvetler reformlarını sürdürmesi ve Bosna Hersek'teki demokratik 
 süreçleri olumlu bir biçimde etkilemesi gerektiğini de söyledi.
 
-    <e><p><l>temas<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>temas<s n="n"/></l><r>байланыш, мамиле,тийиш<s n="n"/></r></p></e>
 
 ================================================================================
 928 iade<n>: Güle güle." şeklinde ısrar ederek, Pullen'e pasaportunu >>iade<< etmiş ve 
 yoluna göndermiş.
 
-    <e><p><l>iade<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>iade<s n="n"/></l><r>кайтаруу<s n="n"/></r></p></e>
 
 ================================================================================
 906 kasaba<n>: Eğitim faaliyetleri, 2000 yılına kadar Mala Recica >>kasabasındaki<< 
 müstakil evlerde yürütüldü.
 
-    <e><p><l>kasaba<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>kasaba<s n="n"/></l><r>шаарча<s n="n"/></r></p></e>
 
 ================================================================================
 901 katılma<n>: Ayrıca, eski "Mobil kültür kentleri"nden gençler de, yeni ziyaretlere 
 >>katılmaları<< için davet ediliyor.
 
-    <e><p><l>katılma<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>katılma<s n="n"/></l><r>катышуу<s n="n"/></r></p></e>
 
 ================================================================================
 893 aleyh<n>: Koştunitza, yeni anayasa ile ilgili çalışmalara hemen başlanmaması 
@@ -119,13 +114,13 @@ yetkilileri, Koştunitza'nın tehditleri ile herhangi bir ilgisinin
 bulunmadığını iddia ederek, yeni bir anayasal çerçeveye gereksinim 
 olduğunu kabul ediyorlar.
 
-    <e><p><l>aleyh<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>aleyh<s n="n"/></l><r>каршы,тескери<s n="n"/></r></p></e>
 
 ================================================================================
 887 öncelik<n>: Ashdown Bosna'daki birincil >>önceliklerinin<< adalet, istihdam ve reform 
 olduğunu belirtmişti. [AFP]
 
-    <e><p><l>öncelik<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>öncelik<s n="n"/></l><r>артыкчылык,биринчилик <s n="n"/></r></p></e>
 
 ================================================================================
 885 nüfus<n>: ABD bu oluşumu desteklediğini açıklarken, bloğun yakında Adriyatik 
@@ -134,7 +129,7 @@ olduğunu belirtmişti. [AFP]
 hl erken de olsa, söz konusu rakamın NATO'nun genişlemesinde "kritik bir 
 büyüklük" olduğu da su götürmez bir gerçek.
 
-    <e><p><l>nüfus<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>nüfus<s n="n"/></l><r>калк,эл<s n="n"/></r></p></e>
 
 ================================================================================
 884 recep<n>: ATİNA, Yunanistan -- Türk Hava Yolları'na bağlı bir uçağı kaçıran 
@@ -142,7 +137,7 @@ hava korsanı, 29 Mart Cumartesi sabahı, Türkiye Başbakanı >>recep<< Tayip
 Erdoğan'la yaptığı bir telefon görüşmesinin ardından Atina'da polise 
 teslim oldu.
 
-    <e><p><l>recep<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>recep<s n="n"/></l><r>режеп<s n="n"/></r></p></e>
 
 ================================================================================
 879 çerçeve<n>: Büyük ölçüde WHO/UNICEF'in raporu ve bu raporun ardından hazırlanan 
@@ -150,7 +145,7 @@ teslim oldu.
 Madde Kurulu (BAPAM), Kosova'nın uyuşturucu sorununa çözüm getirmesi 
 amacıyla bir plan hazırlıyor.
 
-    <e><p><l>çerçeve<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>çerçeve<s n="n"/></l><r>алкак,жээк,кашек<s n="n"/></r></p></e>
 
 ================================================================================
 876 yasadış<n>: Sonuçta, uyuşturucu nedeni ile ölen kişilerin sayısına ilişkin net bir 
@@ -159,13 +154,13 @@ operasyon benzeri kimi kayda değer uyuşturucu operasyonlarına karşın,
 >>yasadışı<< uyuşturucu madde kaçakçılığı ve kullanımını 
 engellemek için var olan etkili yasaların sayısı oldukça az.
 
-    <e><p><l>yasadış<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>yasadış<s n="n"/></l><r>мыйзам<b/>тышы<s n="n"/></r></p></e>
 
 ================================================================================
 875 seçmen<n>: Reformcular, yeterli >>seçmen<< desteğine sahip olmadıklarından, herhangi 
 bir cumhurbaşkanının seçilememesi işlerine geliyor olabilir.
 
-    <e><p><l>seçmen<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>seçmen<s n="n"/></l><r>шайлоочу<s n="n"/></r></p></e>
 
 ================================================================================
 867 seviye<n>: Örneğin Hırvatistan daha iyi bir ekonomik performans yakaladığı takdirde, 
@@ -175,7 +170,7 @@ finansal destek almaya hak kazanır.Yukarda belirtilen nedenlerden dolayı, her
 ülkede bulunan politika yapıcılar, kaynak kullanma kapasitesine ilişkin 
 zorlukları, analitik ve eylemsel açıdan daha iyi belirlemelidir.
 
-    <e><p><l>seviye<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>seviye<s n="n"/></l><r>деңгээл,баскыч<s n="n"/></r></p></e>
 
 ================================================================================
 866 ödül<n>: Yedi üyeden oluşan jüri heyeti 36.700 Euro'luk Altın ve 22.000 Euro'luk 
@@ -189,7 +184,7 @@ izlenebilecek.Festivalde ayrıca İtalyan film yapımcısı Marco
 Bellocchio'nun 16 ve Macar yönetmen Bela Tarr'ın sekiz filmini kapsayacak iki 
 de retrospektif program yer alıyor.
 
-    <e><p><l>ödül<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>ödül<s n="n"/></l><r>сыйлык,мөрөй<s n="n"/></r></p></e>
 
 ================================================================================
 865 yetki<n>: Ayrıca Komisyon, Romanya ekonomisinin kendine özgü önemli zayıf noktaları 
@@ -201,12 +196,12 @@ için, ( >>yetkileri<< istismar etmemek kaydıyla) ekonomik politika oluşturma
 etkisiyle ekonomi politikalarının saptırılmaması gerektiğini de 
 yinelemelidir.
 
-    <e><p><l>yetki<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>yetki<s n="n"/></l><r>укук,бийлик,күч<s n="n"/></r></p></e>
 
 ================================================================================
 856 gelişme<n>: Olumlu >>gelişmeler<< Balkanlar'daki iyimserliği cesaretlendiriyor.
 
-    <e><p><l>gelişme<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>gelişme<s n="n"/></l><r>өсүү,өнүгүү,прогресс<s n="n"/></r></p></e>
 
 ================================================================================
 853 entegrasyon<n>: Uluslararası toplum, son on yıl içinde bölgeye yatırılmış kaynakların, 
@@ -215,7 +210,7 @@ akımına >>entegrasyonunu<< sağlayacak son fırsatın da kaçırılmasına
 izin veremez.SEE Times: Cumhurbaşkanı Boris Trajkovski BM'ye, Makedonya'nın 
 Irak'taki koalisyonun bir parçası olmaya devam edeceğini söyledi.
 
-    <e><p><l>entegrasyon<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>entegrasyon<s n="n"/></l><r>интеграция<s n="n"/></r></p></e>
 
 ================================================================================
 847 kuvvet<n>: Avrupa Komisyonu Sözcüsü Jean-Christophe Filori genişleme takviminin 
@@ -231,20 +226,20 @@ için kapımızı çalan bir ülkenin üye devletlerimizden birini tanımaması
 gibi garip bir durum ortaya çıkacaktır." dedi.Kıbrıslı Rumlar Türkler 
 olmaksızın AB'ye girerse, bir sorun daha da çetrefilli bir hl alacak.
 
-    <e><p><l>kuvvet<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>kuvvet<s n="n"/></l><r>күч,кубат,даремет<s n="n"/></r></p></e>
 
 ================================================================================
 843 elektrik<n>: Trnka'nın telefon ve >>elektrik<< faturalarını ödemesinin ardından elinde 
 kalan para yiyecek satın almaya kolaylıkla yetemiyor.
 
-    <e><p><l>elektrik<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>elektrik<s n="n"/></l><r>электр<b/>энергиясы,электр<s n="n"/></r></p></e>
 
 ================================================================================
 839 vergi<n>: Sırbistanlılar'ın işe o denli gereksinimi var ki (ülkede işsizlik oranı 
 yüzde 40 dolaylarında), >>vergi<< ödemeyen, sağlık ya da emeklilik 
 ödemesi yapmayan kayıt dışı şirketlerde çalışmaya razılar.
 
-    <e><p><l>vergi<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>vergi<s n="n"/></l><r>салык,алык,тубаса жөндөм<s n="n"/></r></p></e>
 
 ================================================================================
 838 alınma<n>: AB ekonomik durgunluk, korumacı eğilimleri korukluyor ve Doha ticaret 
@@ -256,7 +251,7 @@ surecinden başarılı sonuç >>alınmasını<< engelliyor.
 821 dolar<n>: Turizm Bakanlığı'ndan yapılan açıklamaya göre 2003 yılında turizm 
 gelirlerinin 4.5 milyar >>doların<< üzerine çıkması bekleniyor.
 
-    <e><p><l>dolar<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>dolar<s n="n"/></l><r>алынуу<s n="n"/></r></p></e>
 
 ================================================================================
 816 güve<n>: Bu nedenle, göstergelerin verdiği "iyi görünüm" ve bazılarının 
@@ -264,7 +259,8 @@ Romanya'nın yurtdışından gelecek işçi havaleleri ve turizm gelirlerine
 duyduğu >>güven<< tam garanti sağlamamakta; bu durum ise, AB üyeliği için 
 belirlenen 2007 takvimini gerçekleştirme hedefini de riske sokmaktadır.
 
-    <e><p><l>güve<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>güve<s n="n"/></l><r>күбө<s n="n"/></r></p></e>
+    <e><p><l>güven<s n="n"/></l><r>ишеним<s n="n"/></r></p></e>
 
 ================================================================================
 811 nihai<n>: Eski UNMIK şefi, bölgede görev yaptığı süre boyunca, Kosova'nın 
@@ -273,11 +269,11 @@ karşılanması ve düzgün bir şekilde işleyen kurumların oluşturulması
 gerektiğini savunmuştu.Kosova'daki ortamın tamamen değiştiğini söyleyen 
 Steiner, "Buraya ilk geldiğimde bu olumlu hava yoktu.
 
-    <e><p><l>nihai<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>nihai<s n="n"/></l><r>акыркы,соңку<s n="n"/></r></p></e>
 
 ================================================================================
 795 uygun<n>: 
-    <e><p><l>uygun<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>uygun<s n="n"/></l><r>ылайык,ыктуу<s n="n"/></r></p></e>
 
 ================================================================================
 792 tartışma<n>: Burada konserler, tiyatro oyunları, >>tartışmalar<<, atölyeler, sergiler, 
@@ -285,7 +281,7 @@ dans ve müzik eğlenceleri düzenliyor ya da sunuyorlar.Gittikleri her kentte
 bir lise gazetesi oluşturup, kentten ayrılırken gazeteyi basmak için 
 gerekli tüm donanım ve parayı o kentte bırakıyorlar.
 
-    <e><p><l>tartışma<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>tartışma<s n="n"/></l><r>талаш,талаш-тартыш<s n="n"/></r></p></e>
 
 ================================================================================
 785 memnuniyet<n>: Hays Bosna Hersek'in tüm silah ve silah donanımı ihracatını süresiz 
@@ -295,19 +291,19 @@ Hacıahmetoviç söz konusu yasaklamanın devlet düzeyinde etkin bir silah
 ticareti lisans denetim sistemi hazırlanana ve "tüm bu silah dış ticaret 
 işlemleri bütünü ile kontrol altına alınana değin" süreceğini belirtti.
 
-    <e><p><l>memnuniyet<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>memnuniyet<s n="n"/></l><r>ыраазычылык,курсанттык<s n="n"/></r></p></e>
 
 ================================================================================
 780 ısrar<n>: Güle güle." şeklinde >>ısrar<< ederek, Pullen'e pasaportunu iade etmiş ve 
 yoluna göndermiş.
 
-    <e><p><l>ısrar<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>ısrar<s n="n"/></l><r>кысым,көшөкөрдүк<s n="n"/></r></p></e>
 
 ================================================================================
 778 toprak<n>: Sivil toplum örgütleri aracılığıyla Irak >>topraklarında<< insani 
 yardım sağlayan ilk ülkelerden biri de Yunanistan oldu.
 
-    <e><p><l>toprak<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>toprak<s n="n"/></l><r>территория.топурак<s n="n"/></r></p></e>
 
 ================================================================================
 778 sorumluluk<n>: Benzer bir biçimde Batı Balkanlar'da >>sorumluluk<< sahibi yerel 
@@ -315,21 +311,21 @@ siyasetçilerin, demokratik süreçlere derinlik kazandırmak, etnik
 düşmanlıkları dindirmek ve aynı zamanda ekonomilerini geliştirmek için 
 vermekte oldukları çetin savaşımı mutlaka sürdürmeleri gerekmektedir.
 
-    <e><p><l>sorumluluk<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>sorumluluk<s n="n"/></l><r>жоопкерчилик<s n="n"/></r></p></e>
 
 ================================================================================
 777 ekip<n>: Geride bırakılan bir eşgüdüm >>ekibine<<, UNMIK ve bazı uluslararası 
 örgütlerin yardımıyla, KFOR güvenlik bölgesinde toplantıların 
 gerçekleşmesi için bir yer ve gazete için de bir oda tahsis edilmiş.
 
-    <e><p><l>ekip<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>ekip<s n="n"/></l><r>команда<s n="n"/></r></p></e>
 
 ================================================================================
 775 medya<n>: Hükümet başlangıçta, >>medyanın<< linç ortamının oluşmasına yönelik 
 katkılarını değerlendirmek üzere bir komite kurmayı planladı; fakat 
 yoğun eleştirilerden sonra bu fikirden vazgeçti.
 
-    <e><p><l>medya<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>medya<s n="n"/></l><r>медия<s n="n"/></r></p></e>
 
 ================================================================================
 771 yakı<n>: ABD bu oluşumu desteklediğini açıklarken, bloğun >>yakında<< Adriyatik 
@@ -338,7 +334,8 @@ sahip üç küçük Balkan ülkesinin şanslarını ölçmek için hl erken de
 olsa, söz konusu rakamın NATO'nun genişlemesinde "kritik bir büyüklük" 
 olduğu da su götürmez bir gerçek.
 
-    <e><p><l>yakı<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>yakın<s n="n"/></l><r>жакын<s n="n"/></r></p></e>
+    <e><p><l>yakın<s n="n"/></l><r>пластырь, күйдүргү<s n="n"/></r></p></e>    
 
 ================================================================================
 767 tan<n>: Kesinlikle her türlü grup ayrımcılığına karşı çalışarak bir 
@@ -348,24 +345,25 @@ mutfak, tuvaletler, yıkanma odaları ve bir de depo barındıran 16 yüzer
 konteynerden oluşuyor.MKK'nin çalışmalarını çoğu Güneydoğu Avrupalı 
 sekiz kişilik bir ekip yürütüyor.
 
-    <e><p><l>tan<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>tan<s n="n"/></l><r>таң<s n="n"/></r></p></e>
+    <e><p><l>tanım<s n="n"/></l><r>аныктама<s n="n"/></r></p></e>
 
 ================================================================================
 764 resmi<n>: 
-    <e><p><l>resmi<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>resmi<s n="n"/></l><r>расмий,мамлекеттик<s n="n"/></r></p></e>
 
 ================================================================================
 764 olumlu<n>: Burada son zamanlarda birçok >>olumlu<< gelişme yaşandı: Savaşlar ve etnik 
 çatışmalar durduruldu, demokratik seçimler gerçekleşti ve tüm bölgede 
 siyasi meşruiyet zemini inşa edilmiş oldu.
 
-    <e><p><l>olumlu<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>olumlu<s n="n"/></l><r>туура,жакшы,оң<s n="n"/></r></p></e>
 
 ================================================================================
 748 memur<n>: Ayrıca: Eski Sırbistan-Karadağ birliği tarih oldu, ama gel de bunu bazı 
 sınır denetim >>memurlarına<< anlatın.
 
-    <e><p><l>memur<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>memur<s n="n"/></l><r>кызматкер<s n="n"/></r></p></e>
 
 ================================================================================
 747 vize<n>: Prosper, Karadziç'i yakalama çabaları arttıkça bu kişilerin isimlerinin 
@@ -374,7 +372,7 @@ ekledi.Ashdown ve Saraybosna'daki diplomatik kaynaklara dayanan haber
 kaynakları söz konusu önlemlerin >>vize<< yasaklarını ve banka 
 hesaplarının dondurulmasını içermesinin önerilebileceğini belirtiyorlar.
 
-    <e><p><l>vize<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>vize<s n="n"/></l><r>виза<s n="n"/></r></p></e>
 
 ================================================================================
 745 olası<n>: Ne var ki basın yayın organlarının kullandığı dile bakıldığında 
@@ -386,7 +384,7 @@ faydalara, kümelenme etkilerine, çoklu (kötü) denklemlere, ekonomik
 coğrafyanın rolüne bakışı ve yaklaşımı açısından, daha farklı bir 
 biçimde ele alınabilir.
 
-    <e><p><l>olası<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>olası<s n="n"/></l><r>ыктымал,мүмкүн<s n="n"/></r></p></e>
 
 ================================================================================
 742 satı<n>: Soruşturmalar gümrük, belediye varlıkları, emlak alım >>satımı<<, hafif 
@@ -398,7 +396,8 @@ Saxe-Coburg'un suç ve yolsuzluğa açılan savaşı 2004'ün birincil
 ülke" imajından sıyrılarak AB katılım şartlarını yerine getirmek 
 için, yolsuzluk sorunuyla nasıl başa çıkacaklarını düşünüyor.
 
-    <e><p><l>satı<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>satı<s n="n"/></l><r>сатык<s n="n"/></r></p></e>
+    <e><p><l>satım<s n="n"/></l><r>сатым,соода<s n="n"/></r></p></e>
 
 ================================================================================
 737 katkı<n>: Arnavutluk, Hırvatistan ve Makedonya dışişleri bakanları 12 Şubat'ta 
@@ -408,14 +407,14 @@ mektupta ABD'nin Arnavutluğun koalisyonu destekleme istekliliğinin ve gerek
 bölgesel gerekse de küresel güvenliğe olan >>katkılarının<< değerinin 
 farkında olduğu belirtti.
 
-    <e><p><l>katkı<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>katkı<s n="n"/></l><r>салым,кошумча,жардам<s n="n"/></r></p></e>
 
 ================================================================================
 733 gündem<n>: Şimdiden Kosova'daki bakanlıkları olduğu gibi cafleri de saran uyuşturucu 
 sorunu, hiç şüphe yok ki önümüzdeki yıllarda da >>gündemdeki<< yerini 
 korumayı sürdürecek.
 
-    <e><p><l>gündem<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>gündem<s n="n"/></l><r>күндөм,күн тартиби<s n="n"/></r></p></e>
 
 ================================================================================
 730 uzlaşma<n>: Demokratik ve çoğulcu bir toplumda böyle bir >>uzlaşmanın<< meydana 
@@ -425,7 +424,7 @@ kamuoyunun büyük bir kısmının bir araya gelmesi Arnavutluk dışişleri
 politikası ve diplomasisinin barış ve istikrar doğrultusunda daha fazla rol 
 alma arzusunun da bir göstergesiydi.
 
-    <e><p><l>uzlaşma<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>uzlaşma<s n="n"/></l><r>макулдашма,келишме<s n="n"/></r></p></e>
 
 ================================================================================
 729 temsil<n>: Bu kotalara göre yüzde 15-20 bir kısım kadın üyelerden oluşmalı ve 
@@ -433,20 +432,20 @@ Komite, yerel toplumu etnik açıdan >>temsil<< etmeli.Bu aşamada normal
 olarak üç ya da dört teklif oluyor ve Komite bu tekliflerden birini, çoğu 
 kez oylama yaparak seçiyor.
 
-    <e><p><l>temsil<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>temsil<s n="n"/></l><r>өкүлчүлүк<s n="n"/></r></p></e>
 
 ================================================================================
 728 madde<n>: Araştırmada ayrıca, Kosova özerk bölgesinde görüşülen tüm gençlerin 
 yüzde 6,4'ünün bu >>maddeyi<< en az bir defa denediği ortaya çıktı.
 
-    <e><p><l>madde<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>madde<s n="n"/></l><r>зат,материал<s n="n"/></r></p></e>
 
 ================================================================================
 721 yanıt<n>: Bu oran, Kosova'yı Avrupa'da eroin kullanımının yaygın olduğu bölgeler 
 sıralamasında üst sıralara taşıyıverdi.Polisin bu duruma >>yanıtı<< 
 ise sembolik düzeyde kaldı.
 
-    <e><p><l>yanıt<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>yanıt<s n="n"/></l><r>жооп<s n="n"/></r></p></e>
 
 ================================================================================
 713 özgürlük<n>: Batılı bir devlet adamının dünyanın geri kalan kısmını, seçme 
@@ -456,19 +455,19 @@ toplum"da işlerlik kazanamayacağını; >>özgürlük<<, temizlik ve ahlakın
 dünya çapında daha fazla adalete ulaşma ülküsünden ayrı 
 tutulamayacağını söylemesi yüreklendiriciydi.
 
-    <e><p><l>özgürlük<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>özgürlük<s n="n"/></l><r>эркиндик,азаттык<s n="n"/></r></p></e>
 
 ================================================================================
 711 düşük<n>: Daha geniş bir uluslararası ölçekten bakıldığında da, Kosova'daki 
 uyuşturucu fiyatlarının >>düşük<< olduğu görülüyor.
 
-    <e><p><l>düşük<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>düşük<s n="n"/></l><r>төмөн<s n="n"/></r></p></e>
 
 ================================================================================
 709 cinayet<n>: Cinciç >>cinayetinin<<, bu toplum ve yerel politika üzerinde derin bir iz 
 bıraktığı açıkça görüluyor.
 
-    <e><p><l>cinayet<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>cinayet<s n="n"/></l><r>кылмыш<s n="n"/></r></p></e>
 
 ================================================================================
 699 çatışma<n>: Proje "çatışma yaşamış bölgelere yönelik, >>çatışmaların<< 
@@ -476,21 +475,22 @@ sonrasında yaşamayı sürdüren gençlere seslenen, bir deneme projesi"
 olarak niteleniyor.Duve "Bölgede ortaokul sıralarında başlayan nefret 
 edebiyatı konusunu ele almak istedik.
 
-    <e><p><l>çatışma<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>çatışma<s n="n"/></l><r>кагылыш,согуш,уруш<s n="n"/></r></p></e>
 
 ================================================================================
 698 hürriyet<n>: "Kadınlardan bazıları işin içinde ne olabileceği hakkında fikir sahibi 
 olmasına karşın, tam bir >>hürriyet<< kısıtlaması ve patronları zengin 
 etme amaçlı cinsel kölelik olduğunu bilmiyorlardı."
 
-    <e><p><l>hürriyet<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>hürriyet<s n="n"/></l><r>эркиндик,боштондук<s n="n"/></r></p></e>
 
 ================================================================================
 697 kes<n>: 2001 yılında Romanya tek taraflı olarak sermaye hareketlerini - >>kesin<< 
 üyelik müzakerelerinin başlangıç yılı olan - 2004 yılına kadar serbest 
 bırakacağını açıklamıştı.
 
-    <e><p><l>kes<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>kes<s n="n"/></l><r>спорт<b/>бут<b/>кийими<s n="n"/></r></p></e>
+    <e><p><l>kesin<s n="n"/></l><r>так,анык<s n="n"/></r></p></e>
 
 ================================================================================
 691 yaz<n>: Tanınmış ekonomist ve eski Romanya Maliye Bakanı Daniel Daianu bazı 
@@ -499,21 +499,21 @@ Bükreş'ten >>yazdı<< - 17/02/03Son yıllarda uluslararası tartışmalarda
 küreselleşmeden daha fazla gürültü koparttığı savlanabilecek bir 
 kavrama rastlamak oldukça zordur.
 
-    <e><p><l>yaz<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>yaz<s n="n"/></l><r>жай<s n="n"/></r></p></e>
 
 ================================================================================
 689 gözalt<n>: Söz konusu >>gözaltı<< süresi sona erip ilgili kişilerin üzerinde ele 
 geçirilen maddelere el konmasının ardından, >>gözaltına<< alınanlar 
 serbest bırakılıyor.
 
-    <e><p><l>gözalt<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>gözaltı<s n="n"/></l><r>камак, түтмө<s n="n"/></r></p></e>
 
 ================================================================================
 685 terörist<n>: Irak'ın baskıcı >>terörist<< rejimiyle, ABD arasındaki tercihi onbir yıl 
 önce Arnavutluğun komünist totaliter rejimden kurtuluşunu sağlayan 
 Batılı demokrasi ilkeleriyle uyum içindeydi.
 
-    <e><p><l>terörist<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>terörist<s n="n"/></l><r>терорист<s n="n"/></r></p></e>
 
 ================================================================================
 677 is<n>: Hırvatistan'dan manzaralar ve Hırvat sahillerini gösteren resimler, yıl 
@@ -522,19 +522,20 @@ Avrupa'nın dört bir yanından gelen turistler için değil, Adriyatik
 Denizi'nin Hırvatistan tarafını yeni keşfetmeye başlayan sayısız ünlü 
 >>isim<< için de popüler bir tatil noktası haline geldi.
 
-    <e><p><l>is<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>is<s n="n"/></l><r>көө<s n="n"/></r></p></e>
+    <e><p><l>isim<s n="n"/></l><r>ысым<s n="n"/></r></p></e>
 
 ================================================================================
 676 bölüm<n>: Komünizmin çöküşü dünyanın büyük bir >>bölümünde<< piyasa 
 güçleri ve demokrasinin varlık alanlarını çoğalttı.
 
-    <e><p><l>bölüm<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>bölüm<s n="n"/></l><r>бөлүм<s n="n"/></r></p></e>
 
 ================================================================================
 673 baskı<n>: Sermaye akışının uçarı >>baskısı<< altındaki mal piyasalar tehlikeli 
 bir biçimde çalışmakta ve sistem revizyona gereksinim duymaktadır.
 
-    <e><p><l>baskı<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>baskı<s n="n"/></l><r>басуу,пресс<s n="n"/></r></p></e>
 
 ================================================================================
 672 karşı<n>: Sonuçta, uyuşturucu nedeni ile ölen kişilerin sayısına ilişkin net bir 
@@ -543,7 +544,8 @@ operasyon benzeri kimi kayda değer uyuşturucu operasyonlarına >>karşın<<,
 yasadışı uyuşturucu madde kaçakçılığı ve kullanımını engellemek 
 için var olan etkili yasaların sayısı oldukça az.
 
-    <e><p><l>karşı<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>karşın<s n="n"/></l><r>карабастан<s n="n"/></r></p></e>
+    <e><p><l>karşı<s n="n"/></l><r>каршы<s n="n"/></r></p></e>
 
 ================================================================================
 663 yapı<n>: Konserler ve tiyatro oyunları düzenleyip gençlere modern teknolojiyi 
@@ -552,7 +554,7 @@ Belgrad'dan bildiriyor - 06/01/03Sırbistan'daki Müslüman azınlığın
 merkezi durumundaki Novi Pazar'ın orta yerinde, büyük, yuvarlak bir 
 >>yapı<< duruyor.
 
-    <e><p><l>yapı<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>yapı<s n="n"/></l><r>имарат,түзүлуш,конструкция<s n="n"/></r></p></e>
 
 ================================================================================
 659 yürürlük<n>: Bu hareket, Arnavutluk parlamento üyelerine sözleşmeyi onaylamama 
@@ -560,13 +562,13 @@ merkezi durumundaki Novi Pazar'ın orta yerinde, büyük, yuvarlak bir
 oldu.8 Mayıs'ta yaptığı bir açıklamada Udwin, "Bu sözleşmenin 
 >>yürürlüğe<< girmesini ve hatta imzalanmasını dahi istemezdik.
 
-    <e><p><l>yürürlük<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>yürürlük<s n="n"/></l><r>жарактуулук,иш<s n="n"/></r></p></e>
 
 ================================================================================
 659 varlık<n>: Komünizmin çöküşü dünyanın büyük bir bölümünde piyasa güçleri ve 
 demokrasinin >>varlık<< alanlarını çoğalttı.
 
-    <e><p><l>varlık<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>varlık<s n="n"/></l><r>бар<b/>болуш<s n="n"/></r></p></e>
 
 ================================================================================
 658 kısım<n>: Batılı bir devlet adamının dünyanın geri kalan >>kısmını<<, seçme 
@@ -576,7 +578,7 @@ toplum"da işlerlik kazanamayacağını; özgürlük, temizlik ve ahlakın
 dünya çapında daha fazla adalete ulaşma ülküsünden ayrı 
 tutulamayacağını söylemesi yüreklendiriciydi.
 
-    <e><p><l>kısım<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>kısım<s n="n"/></l><r>бөлүк,үлүш<s n="n"/></r></p></e>
 
 ================================================================================
 656 adım<n>: Savaşın getirdiği zorlukların üstesinden kayda değer bir başarıyla 
@@ -584,7 +586,7 @@ gelen Arnavutluk diplomasisinin, artık barış >>adımları<< ile meşgul
 olması bekleniyor.Ülkenin imajı iyi bir görünüm sergilemekten epey uzaksa 
 da, Tiran dinamik bir dış siyaset izliyor.
 
-    <e><p><l>adım<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>adım<s n="n"/></l><r>кадам<s n="n"/></r></p></e>
 
 ================================================================================
 655 çevre<n>: Mehiç, görev süreleri sona eren uluslararası kuruluşlar Bosna-Hersek'den 
@@ -599,7 +601,7 @@ diyor.Eyüpoviç de uzun süreliğine dönmüş olabilir; fakat bu
 düşüncenin aklına yerleşmesi, 2001 yılında Volkswagen firmasında 
 Yeniden Bağlanma Projesi çerçevesinde yaptığı staj sayesinde olmuş.
 
-    <e><p><l>çevre<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>çevre<s n="n"/></l><r>чөйрө,жаратылыш<s n="n"/></r></p></e>
 
 ================================================================================
 654 tutum<n>: Uluslararası bir konu olan Kıbrıs sorununun, uluslararası hukuk ve BM 
@@ -611,7 +613,7 @@ tehditlerinin ortadan kaldırılmasını öngöruyor.Bu bağlamda, Ege'de, hava
 faaliyeti aracılığıyla gerçekleştirilecek askeri baskı, hem 
 Yunanistan'ı hem de AB'yi yakından ilgilendiriyor.
 
-    <e><p><l>tutum<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>tutum<s n="n"/></l><r>мамиле,мүнөз<s n="n"/></r></p></e>
 
 ================================================================================
 651 tepki<n>: Mesele, anayasa ve Ohrid Anlaşması'nda bu şekilde yer aliyor ve bu anlaşma, 
@@ -623,7 +625,7 @@ istikrar üzerinde etkili oluyor mu?Popovski: Bu fikirler, ortaya
 atıldıkları ilk andan itibaren, kamuoyunun >>tepkisini<< çekti, bu nedenle 
 üzerlerinde durulmamasi gerekir.
 
-    <e><p><l>tepki<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>tepki<s n="n"/></l><r>реакция,каршылык<s n="n"/></r></p></e>
 
 ================================================================================
 643 genelkurmay<n>: Jugoimport başkanı General Jovan Cekovic ve federal Savunma Bakan 
@@ -634,7 +636,7 @@ Savunma Bakanı Slobodan Bilic ve >>genelkurmay<< başkanı Novica Simic de
 görevlerinden istifa ettiklerini duyurmuşlardı.Yugoslav Cumhurbaşkanı 
 Vojislav Kostunica ise olayı büyütmeme yönünde çaba harcıyor.
 
-    <e><p><l>genelkurmay<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>genelkurmay<s n="n"/></l><r>генералдык<b/>штаб<s n="n"/></r></p></e>
 
 ================================================================================
 640 mektup<n>: Arnavutluk, Hırvatistan ve Makedonya dışişleri bakanları 12 Şubat'ta 
@@ -644,7 +646,7 @@ George W Bush, Arnavutluk Başbakanı Fatos Nano'ya (solda) gönderdiği bir
 gerek bölgesel gerekse de küresel güvenliğe olan katkılarının değerinin 
 farkında olduğu belirtti.
 
-    <e><p><l>mektup<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>mektup<s n="n"/></l><r>кат<s n="n"/></r></p></e>
 
 ================================================================================
 640 bank<n>: "Yatmaya gitsem bile, cep telefonumu açıp küçük mavi i harfine basmak ve 
@@ -652,11 +654,11 @@ e-postalarıma, haberlere, bloguma, >>banka<< hesabıma -kesinlikle negatifteki
 hesap dengeme- göz atmam gerekiyor ... sanki son bir iki saat içinde veya son 
 bağlanmamdan bu yana önemli bir şey olmuş gibi."
 
-    <e><p><l>bank<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>bank<s n="n"/></l><r>банк<s n="n"/></r></p></e>
 
 ================================================================================
 627 nine<n>: 
-    <e><p><l>nine<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>nine<s n="n"/></l><r>чоң эне<s n="n"/></r></p></e>
 
 ================================================================================
 626 zanlı<n><: Suikast >>zanlısı<< bir özel operasyonlar biriminde komutan 
@@ -665,7 +667,7 @@ AFP, RFE/RL, Radyo B92 - 25/03/03)Sırbistanlı yetkililer 25 Mart Salı günü
 bir açıklama yaparak Başbakan Zoran Cinciç'i öldürdüğünden 
 şüphelenilen kişiyi yakaladıklarını belirttiler.
 
-    <e><p><l>zanlı<s n="n"/><</l><r>@<s n="n"/><</r></p></e>
+    <e><p><l>zanlı<s n="n"/><</l><r>шектүү,күмөндүү<s n="n"/><</r></p></e>
 
 ================================================================================
 626 önlem<n>: Çek Cumhuriyeti'nin KAL işleyişine geçtikten sonra karşılaştığı 
@@ -678,7 +680,7 @@ gereksinimini (kısa vadeli girişlerin serbestleştirilmesi yeterli
 farklılaştırılmamış ve tam sermaye girişlerini önlemeye yönelik 
 gereksinimi gözden geçirmeleri iyi olacaktır.
 
-    <e><p><l>önlem<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>önlem<s n="n"/></l><r>чара,арга<s n="n"/></r></p></e>
 
 ================================================================================
 623 kurum<n><: Çıkan dersler nettir: Piyasaların etkin bir biçimde düzenlenmesine duyulan 
@@ -687,7 +689,7 @@ gereksinim; kamu mallarını tedarik ederken devletin rolü; >>kurumların<<
 ekonomisinin iyi yönetilmesi; çeşitliliğin önemi ve siyaset yaparken 
 siyaseti sahiplenmek.
 
-    <e><p><l>kurum<s n="n"/><</l><r>@<s n="n"/><</r></p></e>
+    <e><p><l>kurum<s n="n"/><</l><r>курум,уюум<s n="n"/><</r></p></e>
 
 ================================================================================
 622 taslak<n>: Bu konuda bir açıklama yapan Adalet Bakanı Vladan Batiç, yeni bir anayasa 
@@ -695,7 +697,7 @@ siyaseti sahiplenmek.
 Sırbistan'da anayasal reform süreci gerçekten başlamak üzereyse, birçok 
 yeni sorunun gündeme gelmesi beklenebilir.
 
-    <e><p><l>taslak<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>taslak<s n="n"/></l><r>долбоор,алгачкы<b/>чийме<s n="n"/></r></p></e>
 
 ================================================================================
 621 kayıp<n>: Bosna Hersek'teki uluslararası toplum yetkilileri, ülkedeki siyasetçilerin 
@@ -714,7 +716,7 @@ yolsuzlukla kesinlikle daha iyi mücadele edilmesini sağlar" dedi.Tüm parti
 temsilcileri 13 Kasım günü gerçekleştirilen bir seminerde mevcut sistemin 
 bir reforma gereksinimi olduğu konusunda birleştiler.
 
-    <e><p><l>kayıp<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>kayıp<s n="n"/></l><r>жоготуу,кайып<s n="n"/></r></p></e>
 
 ================================================================================
 620 tatbikat<n>: Dönüşüme yönelik vizyonumuz, sorumluluk alanımız dahilinde yer alan 93 
@@ -726,7 +728,7 @@ kanadı olarak hazırlıklılığımızı artırmak ve birlikte çalışabilme
 yeteneğimizi güçlendirmek amacıyla bu yeni müttefikleri >>tatbikat<< ve 
 operasyonlarda daha yoğun bir şekilde görevlendirmemiz mantıklı.
 
-    <e><p><l>tatbikat<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>tatbikat<s n="n"/></l><r>сыноо,маневр<s n="n"/></r></p></e>
 
 ================================================================================
 618 strateji<n>: Fotoğraflar: Gent ShkullakuArnavutluk'un ana limanı Durres ile ülkenin en 
@@ -734,7 +736,7 @@ kuzeyinde yer alan Kukes şehrini birbirine bağlayacak bir karayolu inşaatı,
 2003-2005 döneminde ulusal karayolu ağının geliştirilmesine yönelik 
 hükümet >>stratejisinin<< en önemli ayaklarından biri.
 
-    <e><p><l>strateji<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>strateji<s n="n"/></l><r>стратегия<s n="n"/></r></p></e>
 
 ================================================================================
 617 yaşam<n>: Dr. Edona Deva, söz konusu şikayetle hastaneye getirilenlerin 
@@ -742,13 +744,13 @@ hükümet >>stratejisinin<< en önemli ayaklarından biri.
 'uyuşturucu kullanımı'nın gösterilmediğini ve bu ölümlerin yalnızca 
 "trajik" ölümler olarak kayda geçirildiğini belirtiyor.
 
-    <e><p><l>yaşam<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>yaşam<s n="n"/></l><r>жашоо,турмуш<s n="n"/></r></p></e>
 
 ================================================================================
 617 suçlu<n>: Ahmeti, >>suçlular<< ve radikal gruplarla mücadele için sürekli olarak 
 Makedon güvenlik güçlerine çağrıda bulunuyor.
 
-    <e><p><l>suçlu<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>suçlu<s n="n"/></l><r>кылмышкер,күнөөлү<s n="n"/></r></p></e>
 
 ================================================================================
 613 benzer<n>: Sonuçta, uyuşturucu nedeni ile ölen kişilerin sayısına ilişkin net bir 
@@ -757,7 +759,7 @@ operasyon >>benzeri<< kimi kayda değer uyuşturucu operasyonlarına karşın,
 yasadışı uyuşturucu madde kaçakçılığı ve kullanımını engellemek 
 için var olan etkili yasaların sayısı oldukça az.
 
-    <e><p><l>benzer<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>benzer<s n="n"/></l><r>окшош,бирдей<s n="n"/></r></p></e>
 
 ================================================================================
 611 gösteri<n>: Bölünmüş Kıbrıs'ın geleceği ve AB üyeliği konuları, 
@@ -775,19 +777,19 @@ yalıtılmış ve ekonomik durağanlık içine saplanmış Kıbrıslı
 Türkler, güneydeki komşularıyla birlikte AB'ye girmek için sabırsızlık 
 gösteriyor.
 
-    <e><p><l>gösteri<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>gösteri<s n="n"/></l><r>митиң,чогулуш,оюн<s n="n"/></r></p></e>
 
 ================================================================================
 609 rejim<n>: Arnavutluk Meclisi oy biriliğiyle Saddam Hüseyin >>rejimini<< devirmeyi 
 amaçlayan ABD öncülüğündeki koalisyona katılma yönünde oy kullandı.
 
-    <e><p><l>rejim<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>rejim<s n="n"/></l><r>режим<s n="n"/></r></p></e>
 
 ================================================================================
 608 güven<n>: Çevre Bakanlığı'ndan bir yetkili "Dünya Bankası projesinin etkisini 
 göstereceğine >>güvenimiz<< tam." diyor.
 
-    <e><p><l>güven<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>güven<s n="n"/></l><r>ишеним<s n="n"/></r></p></e>
 
 ================================================================================
 603 sanık<n>: Savaş Suçları Mahkemesi, Eski Cumhurbaşkanı ve bir zamanlar Slobodan 
@@ -801,14 +803,14 @@ siyasi sahnesinde yeniden rol alma şansı tanıyabilir.29 Eylül'de
 gerçekleştirilen ilk cumhurbaşkanlığı seçimleri ile bu seçimi izleyen 
 13 Ekim'deki ikinci tur oylama geçersiz sayıldı.
 
-    <e><p><l>sanık<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>sanık<s n="n"/></l><r>күнөөлөңөн,шектүү<s n="n"/></r></p></e>
 
 ================================================================================
 602 tutuklama<n>: Sırbistan Demokratik Muhalefet Partisi'nin (DOS), Kostunica'nın Sırbistan 
 Demokratik Partisi'ne (DSS) yönelik suçlamalarından yola çıkılarak yeni 
 >>tutuklamalar<< yapilmasi bekleniyor.
 
-    <e><p><l>tutuklama<s n="n"/></l><r>@<s n="n"/></r></p></e>
+    <e><p><l>tutuklama<s n="n"/></l><r>камоо,камак<s n="n"/></r></p></e>
 
 ================================================================================
 600 mülteci<n>: Federasyon Emekliler Derneği'nden Yozo Lilyaniç aynı radyoya yaptığı 
@@ -819,8 +821,7 @@ diyen Lilyaniç "...emeklilerin işe yaramazları muamelesi görmesini kabul
 edilemez bir davranış olarak" gördüklerini belirtiyor.Geri dönen 
 >>mültecilerle<< durum daha da karmaşık bir hl alıyor.
 
-    <e><p><l>mülteci<s n="n"/></l><r>@<s n="n"/></r></p></e>
-
+    <e><p><l>mülteci<s n="n"/></l><r>качкын, эмигрант<s n="n"/></r></p></e>
 ================================================================================
 591 sandalye<n>: Sonuçlarda herhangi bir değişiklik olmazsa AKP yüzde 34'ün üzerinde oy 
 oranı ve 550 üyeli parlamentodaki >>sandalyelerin<< 360'tan fazlasını elde 
