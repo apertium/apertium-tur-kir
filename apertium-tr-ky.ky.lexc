@@ -5788,6 +5788,8 @@ LEXICON VerbStems
 өл V-INFL-IV ; ! "die"
 өт V-INFL-TV ; ! "pass" FIXME: should be IV?
 кон V-INFL-IV ;
+ачы V-INFL-IV ; ! "ferment"
+ачыт V-INFL-TV ; ! "ferment"
 
 мойнуна% ал V-INFL-TV ; 
 кыйнал V-INFL-IV ; 
