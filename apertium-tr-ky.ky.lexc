@@ -491,6 +491,8 @@ LEXICON V-CLIT
 
 !! Modal/discourse particles
 %+бы%<mod_qst%>:%>%{B%}%{I%} # ;
+%+беле%<mod_qst%>:% беле # ;
+%+бекен%<mod_qst%>:% бекен # ;
 %+чы%<mod_foc%>:%>ч%{I%} # ;
 %+го%<mod_ass%>:% го # ;
 %+да%<mod_tru%>:% да # ;
@@ -690,19 +692,11 @@ LEXICON V-INFL-IV-IRREG-CAUS
 
 LEXICON Particles 
 
-!да PART ; ! "also, too"
-!го PART ; ! "also, too"
-!мына PART ; ! "here is, вот"
-!эгер PART ; ! conjunction like particle "if"
-!эгерде PART ; ! conjunction like particle "if"
 ! FIXME: сыяктуу and экен have special grammar, but are ~modal particles
 сыяктуу PART ; ! modal particle; adjective, usually with dative "similar to"
 экен PART ; ! non-eyewitness modal particle
 экен PART-PERS-COP ; ! non-eyewitness modal particle
-! FIXME: find out what first эле is, and integrate second into tenses as appropriate
-эле PART ; ! 
 !эле PART-PERS-PAST ; ! 
-!дагы PART ; 
 
 LEXICON Postadverbs 
 
@@ -721,7 +715,8 @@ LEXICON Conjunctions
 менен CC ; ! "and" / "including"
 үчүн CC ; ! ""
 не CC ; ! "neither... nor..."
-ал CA ; ! "but"
+ал% эми CA ; ! "and now"
+а CA ; ! "but/and"
 бирок CA ; ! "but"
 анткени CA ; ! "because"
 себеби CA ; ! "because"
@@ -1760,7 +1755,7 @@ LEXICON NounStems
 газета N-INFL ; 
 гезит N-INFL ; 
 казино N-INFL ; 
-кең N-INFL ; 
+кең N-INFL ; ! FIXME: really noun?
 ген N-INFL ; 
 генерал N-INFL ; 
 генетика N-INFL ; 
@@ -4076,7 +4071,6 @@ LEXICON NounStems
 чакырык N-INFL ;
 июнь N-INFL ;
 маселе N-INFL ;
-кеңеш N-INFL ;
 катар N-INFL ;
 кезек N-INFL ;
 парта N-INFL ;
@@ -4146,7 +4140,6 @@ LEXICON NounStems
 ортоктук N-INFL ;
 сунуш N-INFL ;
 комиссия N-INFL ;
-кеңеш N-INFL ;
 аракет N-INFL ;
 кыймыл N-INFL ;
 тоолуу% коргон N-INFL ;
@@ -4193,11 +4186,10 @@ LEXICON NounStems
 азчылык N-INFL ;
 бөлүк N-INFL ;
 ескертүү N-INFL ;
-кеңейүү N-INFL ;
+кеңейүү N-INFL ; ! FIXME: hmmm
 командир N-INFL ;
 жердеш N-INFL ;
 сүрөт N-INFL ;
-кеңешме N-INFL ;
 камтуу N-INFL ;
 даяр N-INFL ;
 курал N-INFL ;
@@ -4861,14 +4853,14 @@ LEXICON AdjecStems
 ири ADJ ;
 расмий ADJ ;
 таза ADJ ;
-майда ADJ ;
+майда ADJ ; ! "fine (i.e., small pieces)"
 ыйык ADJ ;
-жогору ADJ ;
+жогору ADJ ; ! "high"
 маданий ADJ ;
-чет ADJ ;
-начар ADJ ;
-диний ADJ ;
-табигый ADJ ;
+чет ADJ ; ! FIXME: really adj?
+начар ADJ ; ! "bad" (in quality)
+диний ADJ ; ! "religious"
+табигый ADJ ; ! "natural"
 орусча ADJ ;
 татыктуу ADJ ;
 кесиптик ADJ ;
@@ -5080,11 +5072,10 @@ LEXICON AdjecStems
 бек ADJ ; 
 койуу ADJ ; 
 алыс ADJ ; 
-туура% эмес ADJ ; 
-жасалма ADJ ; 
+туура% эмес ADJ ; ! FIXME: compositional!
+жасалма ADJ ; ! "artificial"
 жабык ADJ ; 
 жеңил ADJ ; 
-кооз ADJ ; 
 көк ADJ ; 
 саздуу ADJ ; 
 кызыл ADJ ; 
@@ -5186,8 +5177,6 @@ LEXICON AdjecStems
 күнөөсуз ADJ ;
 жумшак ADJ ;
 жаңы ADJ ;
-жаш ADJ ;
-жасалма ADJ ;
 эркин ADJ ;
 ырахаттуу ADJ ;
 каршы ADJ ;
@@ -5597,7 +5586,6 @@ LEXICON AdvStems
 аз% да% болсо ADV ; ! FIXME: compositional
 ыктымал ADV ; 
 балким ADV ; 
-ооба ADV ; ! FIXME: interjection
 терсине ADV ; 
 абдан ADV ; ! "really"
 бүгүн ADV ; ! from pending list
@@ -6297,7 +6285,6 @@ ver
 чык V-INFL-IV ;
 тара V-INFL-TV ;
 кат V-INFL-TV ;
-жашын V-INFL-IV ;
 ак V-INFL-IV ;
 тиле V-INFL-IV ;
 таанып% бил V-INFL-TV ;
@@ -6322,6 +6309,8 @@ LEXICON Interjections
 
 албетте INTERJ ; ! "of course"
 мына INTERJ ; ! "here is, вот"
+ооба INTERJ ; ! "yes"
+жок INTERJ ; ! "no"
 
 LEXICON Punctuation
 
