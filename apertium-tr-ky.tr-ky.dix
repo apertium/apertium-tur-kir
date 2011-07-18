@@ -787,7 +787,7 @@
     <e c="  0"><p><l>defa<s n="n"/></l><r>жолу<s n="n"/></r></p></e>  
     <e c="  0"><p><l>define<s n="n"/></l><r>казына<s n="n"/></r></p></e>  
     <e c="  0"><p><l>defter<s n="n"/></l><r>дептер<s n="n"/></r></p></e>  
-    <!--<e c="  0"><p><l>değer<s n="n"/></l><r>dəyər<s n="n"/></r></p></e>-->  
+    <e c="  0"><p><l>değer<s n="n"/></l><r>баалулук<s n="n"/></r></p></e> 
     <e c="  0"><p><l>değişik<s n="n"/></l><r>башкача<s n="n"/></r></p></e>  
     <e c="  0"><p><l>değişken<s n="n"/></l><r>алмашуучу<s n="n"/></r></p></e>  
     <e c="  0"><p><l>değnek<s n="n"/></l><r>таяк<s n="n"/></r></p></e>  
@@ -3048,7 +3048,7 @@
     <e c="  0"><p><l>vergi<s n="n"/></l><r>салык,алык,тубаса жөндөм<s n="n"/></r></p></e>
     <e c="  0"><p><l>vergi<s n="n"/></l><r>салык,алык,тубаса жөндөм<s n="n"/></r></p></e>
     <e c="  0"><p><l>alınma<s n="n"/></l><r>алынуу<s n="n"/></r></p></e>
-    <e c="  0"><p><l>dolar<s n="n"/></l><r>алынуу<s n="n"/></r></p></e>
+    <e c="  0"><p><l>dolar<s n="n"/></l><r>доллар<s n="n"/></r></p></e>
     <e c="  0"><p><l>güve<s n="n"/></l><r>күбө<s n="n"/></r></p></e>
     <e c="  0"><p><l>güven<s n="n"/></l><r>ишеним<s n="n"/></r></p></e>
     <e c="  0"><p><l>nihai<s n="n"/></l><r>акыркы<s n="n"/></r></p></e>
@@ -3155,7 +3155,7 @@
     <e slr="1"><p><l>suçlu<s n="n"/></l><r>күнөөлү<s n="n"/></r></p></e>
     <e c="  0"><p><l>benzer<s n="n"/></l><r>окшош<s n="n"/></r></p></e>
     <e slr="1"><p><l>benzer<s n="n"/></l><r>бирдей<s n="n"/></r></p></e>
-    <e c="  0"><p><l>gösteri<s n="n"/></l><r>митиң<s n="n"/></r></p></e>
+    <e c="  0"><p><l>gösteri<s n="n"/></l><r>митинг<s n="n"/></r></p></e>
     <e slr="1"><p><l>gösteri<s n="n"/></l><r>чогулуш<s n="n"/></r></p></e>
     <e slr="2"><p><l>gösteri<s n="n"/></l><r>оюн<s n="n"/></r></p></e>
     <e c="  0"><p><l>rejim<s n="n"/></l><r>режим<s n="n"/></r></p></e>
@@ -3167,7 +3167,113 @@
     <e c="  0"><p><l>mülteci<s n="n"/></l><r>качкын<s n="n"/></r></p></e>
     <e slr="1"><p><l>mülteci<s n="n"/></l><r>эмигрант<s n="n"/></r></p></e>
     <e c="  0"><p><l>yaka<s n="n"/></l><r>жака<s n="n"/></r></p></e>	
-		
+    <e c="  0"><p><l>sandalye<s n="n"/></l><r>орун<s n="n"/></r></p></e>
+    <e slr="1"><p><l>sandalye<s n="n"/></l><r>отургуч<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ortak<s n="n"/></l><r>партнер<s n="n"/></r></p></e>
+    <e slr="1"><p><l>ortak<s n="n"/></l><r>орток<s n="n"/></r></p></e>
+    <e c="  0"><p><l>etki<s n="n"/></l><r>таасир<s n="n"/></r></p></e>
+    <e c="  0"><p><l>büyüme<s n="n"/></l><r>чоңоюуу<s n="n"/></r></p></e>
+    <e slr="1"><p><l>büyüme<s n="n"/></l><r>өнүгүү<s n="n"/></r></p></e>
+    <e c="  0"><p><l>duruşma<s n="n"/></l><r>сот<b/>процесси<s n="n"/></r></p></e>
+    <e c="  0"><p><l>sergi<s n="n"/></l><r>көргөзмө<s n="n"/></r></p></e>
+    <e c="  0"><p><l>bugün<s n="n"/></l><r>бүгүн<s n="n"/></r></p></e>
+    <e c="  0"><p><l>başvuru<s n="n"/></l><r>кайрылуу<s n="n"/></r></p></e>
+    <e c="  0"><p><l>üs<s n="n"/></l><r>аскерлик<b/>база<s n="n"/></r></p></e>
+    <e c="  0"><p><l>tarım<s n="n"/></l><r>дыйканчылык<s n="n"/></r></p></e>
+    <e c="  0"><p><l>geçici<s n="n"/></l><r>убактылуу<s n="n"/></r></p></e>
+    <e c="  0"><p><l>blok<s n="n"/></l><r>блок<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ali<s n="n"/></l><r>жогорку<s n="n"/></r></p></e>
+    <e c="  0"><p><l>araştırma<s n="n"/></l><r>изилдөө<s n="n"/></r></p></e>
+    <e c="  0"><p><l>sağlam<s n="n"/></l><r>бекем<s n="n"/></r></p></e>
+    <e c="  0"><p><l>olanak<s n="n"/></l><r>мүмкүнчүлүк<s n="n"/></r></p></e>
+    <e c="  0"><p><l>acil<s n="n"/></l><r>шашылыш<s n="n"/></r></p></e>
+    <e c="  0"><p><l>yatırım<s n="n"/></l><r>жатырым<s n="n"/></r></p></e>
+    <e c="  0"><p><l>sivil<s n="n"/></l><r>жаран<s n="n"/></r></p></e>
+    <e c="  0"><p><l>takım<s n="n"/></l><r>команда<s n="n"/></r></p></e>
+    <e c="  0"><p><l>onay<s n="n"/></l><r>макулдук<s n="n"/></r></p></e>
+    <e c="  0"><p><l>dava<s n="n"/></l><r>доо<s n="n"/></r></p></e>
+    <e c="  0"><p><l>al<s n="n"/></l><r>амал<s n="n"/></r></p></e>
+    <e c="  0"><p><l>geçirme<s n="n"/></l><r>өткөрүү<s n="n"/></r></p></e>
+    <e c="  0"><p><l>kilise<s n="n"/></l><r>чиркөө<s n="n"/></r></p></e>
+    <e c="  0"><p><l>kurban<s n="n"/></l><r>курман<s n="n"/></r></p></e>
+    <e c="  0"><p><l>katliam<s n="n"/></l><r>кыргын<s n="n"/></r></p></e>
+    <e c="  0"><p><l>tanık<s n="n"/></l><r>күбө<s n="n"/></r></p></e>
+    <e c="  0"><p><l>kimlik<s n="n"/></l><r>кимдик<s n="n"/></r></p></e>
+    <e c="  0"><p><l>çıkma<s n="n"/></l><r>чыгуу<s n="n"/></r></p></e>
+    <e c="  0"><p><l>tesis<s n="n"/></l><r>комплекс<s n="n"/></r></p></e>
+    <e c="  0"><p><l>tavsiye<s n="n"/></l><r>кеңеш<s n="n"/></r></p></e>
+    <e c="  0"><p><l>liman<s n="n"/></l><r>порт<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ölüm<s n="n"/></l><r>өлүм<s n="n"/></r></p></e>
+    <e c="  0"><p><l>bomba<s n="n"/></l><r>бомба<s n="n"/></r></p></e>
+    <e c="  0"><p><l>üretim<s n="n"/></l><r>өндүрүш<s n="n"/></r></p></e>
+    <e c="  0"><p><l>suikast<s n="n"/></l><r>жанына<b/>кол<b/>салуу<s n="n"/></r></p></e>
+    <e c="  0"><p><l>siyaset<s n="n"/></l><r>саясат<s n="n"/></r></p></e>
+    <e c="  0"><p><l>açık<s n="n"/></l><r>даана<s n="n"/></r></p></e>
+    <e c="  0"><p><l>net<s n="n"/></l><r>так<s n="n"/></r></p></e>
+    <e c="  0"><p><l>sabah<s n="n"/></l><r>саар<s n="n"/></r></p></e>
+    <e c="  0"><p><l>kullanma<s n="n"/></l><r>колдонуу<s n="n"/></r></p></e>
+    <e c="  0"><p><l>soykırım<s n="n"/></l><r>геноцид<s n="n"/></r></p></e>
+    <e c="  0"><p><l>olay<s n="n"/></l><r>окуя<s n="n"/></r></p></e>
+    <e c="  0"><p><l>karşılık<s n="n"/></l><r>бедел<s n="n"/></r></p></e>
+    <e c="  0"><p><l>yasal<s n="n"/></l><r>мыйзамдуу<s n="n"/></r></p></e>
+    <e c="  0"><p><l>hazırlık<s n="n"/></l><r>даярдык<s n="n"/></r></p></e>
+    <e c="  0"><p><l>kar<s n="n"/></l><r>кара<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ölüm<s n="n"/></l><r>өлүм<s n="n"/></r></p></e>
+    <e c="  0"><p><l>aşırı<s n="n"/></l><r>ашыры<s n="n"/></r></p></e>
+    <e c="  0"><p><l>diplomatik<s n="n"/></l><r>дипломатиялык<s n="n"/></r></p></e>
+    <e c="  0"><p><l>sanayi<s n="n"/></l><r>өнөр<b/>жай<s n="n"/></r></p></e>
+    <e c="  0"><p><l>safha<s n="n"/></l><r>баскыч<s n="n"/></r></p></e>
+    <e c="  0"><p><l>oyun<s n="n"/></l><r>оюн<s n="n"/></r></p></e>
+    <e c="  0"><p><l>işlem<s n="n"/></l><r>процедура<s n="n"/></r></p></e>
+    <e c="  0"><p><l>çıkar<s n="n"/></l><r>кызыкчылык<s n="n"/></r></p></e>
+    <e c="  0"><p><l>santral<s n="n"/></l><r>станция<s n="n"/></r></p></e>
+    <e c="  0"><p><l>tahmin<s n="n"/></l><r>божомол<s n="n"/></r></p></e>
+    <e c="  0"><p><l>itiraz<s n="n"/></l><r>каршылык<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ihale<s n="n"/></l><r>тендер<s n="n"/></r></p></e>
+    <e c="  0"><p><l>binlerce<s n="n"/></l><r>миңдеген<s n="n"/></r></p></e>
+    <e c="  0"><p><l>nükleer<s n="n"/></l><r>атомдук<s n="n"/></r></p></e>
+    <e c="  0"><p><l>zafer<s n="n"/></l><r>жеңиш<s n="n"/></r></p></e>
+    <e c="  0"><p><l>kuzey<s n="n"/></l><r>түндүк<s n="n"/></r></p></e>
+    <e c="  0"><p><l>kriter<s n="n"/></l><r>критерия<s n="n"/></r></p></e>
+    <e c="  0"><p><l>grev<s n="n"/></l><r>иш<b/>таштоо<s n="n"/></r></p></e>
+    <e c="  0"><p><l>istihbarat<s n="n"/></l><r>маалымат<s n="n"/></r></p></e>
+    <e c="  0"><p><l>kullanım<s n="n"/></l><r>колдонмо<s n="n"/></r></p></e>
+    <e c="  0"><p><l>yarı<s n="n"/></l><r>жарым<s n="n"/></r></p></e>
+    <e c="  0"><p><l>teşvik<s n="n"/></l><r>шыктандырыш<s n="n"/></r></p></e>
+    <e c="  0"><p><l>miktar<s n="n"/></l><r>өлчөм<s n="n"/></r></p></e>
+    <e c="  0"><p><l>müdahale<s n="n"/></l><r>кийлигишүү<s n="n"/></r></p></e>
+    <e c="  0"><p><l>konum<s n="n"/></l><r>абал<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ticari<s n="n"/></l><r>соодага<b/>байланыштуу<s n="n"/></r></p></e>
+    <e c="  0"><p><l>piyasa<s n="n"/></l><r>базар<s n="n"/></r></p></e>
+    <e c="  0"><p><l>küresel<s n="n"/></l><r>глобалдык<s n="n"/></r></p></e>
+    <e c="  0"><p><l>köy<s n="n"/></l><r>айыл<s n="n"/></r></p></e>
+    <e c="  0"><p><l>stratejik<s n="n"/></l><r>стратегиялык<s n="n"/></r></p></e>
+    <e c="  0"><p><l>kamuoy<s n="n"/></l><r>коомдук<b/>пикир<s n="n"/></r></p></e>
+    <e c="  0"><p><l>rakam<s n="n"/></l><r>сан<s n="n"/></r></p></e>
+    <e c="  0"><p><l>yıldönüm<s n="n"/></l><r>юбилей<s n="n"/></r></p></e>
+    <e c="  0"><p><l>tarihi<s n="n"/></l><r>тарыхый<s n="n"/></r></p></e>
+    <e c="  0"><p><l>avukat<s n="n"/></l><r>адвокат<s n="n"/></r></p></e>
+    <e c="  0"><p><l>terk<s n="n"/></l><r>таштанды<s n="n"/></r></p></e>
+    <e c="  0"><p><l>saha<s n="n"/></l><r>майдан<s n="n"/></r></p></e>
+    <e c="  0"><p><l>yükümlülük<s n="n"/></l><r>жоопкерчилик<s n="n"/></r></p></e>
+    <e c="  0"><p><l>şüphe<s n="n"/></l><r>шек<s n="n"/></r></p></e>
+    <e c="  0"><p><l>trafik<s n="n"/></l><r>трафик<s n="n"/></r></p></e>
+    <e c="  0"><p><l>federal<s n="n"/></l><r>федералдык<s n="n"/></r></p></e>
+    <e c="  0"><p><l>kanıt<s n="n"/></l><r>далил<s n="n"/></r></p></e>
+    <e c="  0"><p><l>demokrat<s n="n"/></l><r>демократ<s n="n"/></r></p></e>
+    <e c="  0"><p><l>yargıç<s n="n"/></l><r>сот<s n="n"/></r></p></e>
+    <e c="  0"><p><l>teşkil<s n="n"/></l><r>түзмө<s n="n"/></r></p></e>
+    <e c="  0"><p><l>bor<s n="n"/></l><r>бор<s n="n"/></r></p></e>
+    <e c="  0"><p><l>borsa<s n="n"/></l><r>биржа<s n="n"/></r></p></e>
+    <e c="  0"><p><l>em<s n="n"/></l><r>ем<s n="n"/></r></p></e>
+    <e c="  0"><p><l>emin<s n="n"/></l><r>ишенимдүү<s n="n"/></r></p></e>
+    <e c="  0"><p><l>için<s n="n"/></l><r>себептүү<s n="n"/></r></p></e>
+    <e c="  0"><p><l>verdi<s n="n"/></l><r>ысырап<s n="n"/></r></p></e>
+    <e c="  0"><p><l>saygı<s n="n"/></l><r>урмат<s n="n"/></r></p></e>
+    <e c="  0"><p><l>yasa<s n="n"/></l><r>мыйзам<s n="n"/></r></p></e>
+    <e c="  0"><p><l>subay<s n="n"/></l><r>офицер<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ortam<s n="n"/></l><r>чөйрө<s n="n"/></r></p></e>
+    <e c="  0"><p><l>amerikan<s n="n"/></l><r>американ<b/>кездеме<s n="n"/></r></p></e>		
         <!-- SECTION: Proper nouns -->
         <e><p><l>Abhazya<s n="np"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Afganistan<s n="np"/></l><r>Афганистан<s n="np"/><s n="top"/></r></p></e> 
