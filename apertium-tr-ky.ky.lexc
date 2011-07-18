@@ -4402,6 +4402,8 @@ LEXICON NounStems
 камак N-INFL ;
 качкын N-INFL ;
 эмигрант N-INFL ;
+коён N-INFL ; ! "rabbit"
+коёнек N-INFL ; ! "bunny wabbit"
 
 LEXICON PropernounStems
 Алматы NP-TOP ;
