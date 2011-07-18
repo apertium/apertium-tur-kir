@@ -6074,7 +6074,7 @@ LEXICON VerbStems
 сын% пикир% айт V-INFL-TV ;
 жогот V-INFL-TV ;
 жеңил V-INFL-TV ;
-баалан,
+баалан V-INFL-IV ;
 өнүк V-INFL-TV ;
 кайтала V-INFL-TV ;
 азай V-INFL-IV ;
@@ -6178,18 +6178,18 @@ LEXICON VerbStems
 басV-INFL-TV ;
 басV-INFL-IV ;
 чоңой V-INFL-TV ;
-жолугуш,
-өзгөр,
+жолугуш V-INFL-TV ;
+өзгөр V-INFL-IV ;
 куткар V-INFL-TV ;
 жарыш V-INFL-TV ;
 кызыктыр V-INFL-TV ;
 ына V-INFL-TV ;
 бөлүш V-INFL-TV ;
-ver
 кайтала V-INFL-TV ;
 жаңырт V-INFL-TV ;
 балала V-INFL-TV ;
-айыр,ажырат V-INFL-TV ;
+айыр V-INFL-TV ;
+ажырат V-INFL-TV ;
 кечик V-INFL-TV ; ! "to be late"
 
 катарга% тиз V-INFL-TV ;
