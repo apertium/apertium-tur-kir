@@ -3273,7 +3273,12 @@
     <e c="  0"><p><l>yasa<s n="n"/></l><r>мыйзам<s n="n"/></r></p></e>
     <e c="  0"><p><l>subay<s n="n"/></l><r>офицер<s n="n"/></r></p></e>
     <e c="  0"><p><l>ortam<s n="n"/></l><r>чөйрө<s n="n"/></r></p></e>
-    <e c="  0"><p><l>amerikan<s n="n"/></l><r>американ<b/>кездеме<s n="n"/></r></p></e>		
+    <e c="  0"><p><l>amerikan<s n="n"/></l><r>американ<b/>кездеме<s n="n"/></r></p></e>    
+    <e c="  0"><p><l>tatil<s n="n"/></l><r>каникул<s n="n"/></r></p></e>
+    <e c="  0"><p><l>kart<s n="n"/></l><r>конверт<s n="n"/></r></p></e> 
+    <e c="  0"><p><l>birbir<s n="n"/></l><r>бирибир<s n="n"/></r></p></e>
+    <e c="  0"><p><l>saklı<s n="n"/></l><r>жашыруун<s n="n"/></r></p></e>
+		
         <!-- SECTION: Proper nouns -->
         <e><p><l>Abhazya<s n="np"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Afganistan<s n="np"/></l><r>Афганистан<s n="np"/><s n="top"/></r></p></e> 
@@ -4320,8 +4325,8 @@
 	<!--<e><p><l>tavla<s n="v"/></l><r>tovla<s n="v"/><s n="TD"/></r></p></e>-->
 	<e c="  0"><p><l>tep<s n="v"/></l><r>теп<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>terle<s n="v"/></l><r>терде<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>tut<s n="v"/></l><r>тут<s n="v"/><s n="tv"/></r></p></e>
-	<e slr="1"><p><l>tut<s n="v"/></l><r>карма<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>tut<s n="v"/></l><r>карма<s n="v"/><s n="tv"/></r></p></e>
+	<e slr="1"><p><l>tut<s n="v"/></l><r>тут<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>tüt<s n="v"/></l><r>түтө<s n="v"/><s n="iv"/></r></p></e>
 	<!--<e><p><l>tüy<s n="v"/></l><r>yayın<s n="v"/><s n="TD"/></r></p></e>-->
 	<e c="  0"><p><l>uğurla<s n="v"/></l><r>узат<s n="v"/><s n="tv"/></r></p></e>
