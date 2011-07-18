@@ -268,7 +268,8 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 
 "Vowel harmony for archiphoneme {I} before п in <cv_perf>"
 !%{I%}:Vy <=> [ :LastVowel - :LowVow ] WildNoVow* [ Cns - [ й: | LabialCns ] ] WildNonPhon* _ п ;
-%{I%}:Vy <=> [ [ :LastVowel ] Cns* [ Cns - [ й: | LabialCns ] ] ]/[ :0 | %>: ]  _ п ;
+!%{I%}:Vy <=> [ [ :LastVowel ] Cns* [ Cns - [ й: | LabialCns ] ] ]/[ :0 | %>: ]  _ п ;
+%{I%}:Vy <=> [ [ :LastVowel ] Cns* [ Cns - [ й: | LabialCns | %{n%}: ] ] ]/[ :0 | %>: ] _ п ;
   where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
@@ -408,18 +409,19 @@ Vx:Vy <=> _ [ %{U%}: ]/[ :0 | %>: ] ;
 "Deletion of ablative-initial {D} after {n}"
 %{D%}:0 <=> %{n%}: %>: _ %{A%}: :н ;
 
-!"Deletion of extra {I} for accusative after {n}"
+"Deletion of extra {I} for accusative after {n}"
 !!%{N%}%{I%}:0 <=> %{n%}: %>: _ .#. ;
 !!%{I%}:0 <=> %{n%}: %>: %{N%}: _ .#. ;
 !%{I%}:0 <=> %{n%}: %>: %{N%}:0 _ .#. ;
 !!%{I%}:0 <=> %{n%}: %>: %{N%}:0 _ \п ;
 !!%{N%}%{I%}:0 <=> %{n%}: %>: _ .#. ;
+%{I%}:0 <=> %{n%}: %>: %{N%}:0 _ .#. ;
 
 "Deletion of dative {G} after px1sg, px2sg"
 !%{G%}:0 <=> :NasalCns* (%>:) _ ;
 !%{G%}:0 <=> :NasalCns %>: _ %{A%}: .#. ;
-!%{G%}:0 <=>  %{I%}: :NasalCns %>: _ %{A%}: .#. ;
-%{G%}:0 <=>  :NasalCns %>: _ %{A%}: .#. ;
+%{G%}:0 <=>  %{I%}: :NasalCns %>: _ %{A%}: .#. ;
+!%{G%}:0 <=>  :NasalCns %>: _ %{A%}: .#. ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
