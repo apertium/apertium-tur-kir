@@ -8,7 +8,823 @@
 <e><p><l>dahil<s n="n"/></l><r>ичинде<s n="n"/></r></p></e>
 
 ================================================================================
+399 eleştiri<n>: Hükümet başlangıçta, medyanın linç ortamının oluşmasına yönelik 
+katkılarını değerlendirmek üzere bir komite kurmayı planladı; fakat 
+yoğun >>eleştirilerden<< sonra bu fikirden vazgeçti.
 
+    <e><p><l>eleştiri<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+397 maaş<n>: Tek devletin sorumluluk üstlenmesi iki yönetimin üstleneceği sorumluluğa 
+oranla daha masrafsız, daha saydam olacak ve primlerin denetimi daha kolay 
+olacak.Daha fazla prim ise her ay Şemsa Trnka gibi emeklilere ödenen 
+>>maaşın<< birkaç dönüştürülebilir Mark daha fazla olmasını 
+sağlayabilir belki de."Herkes 'daha iyi olacak, daha iyi olacak.' diyor.
+
+    <e><p><l>maaş<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+!!!!
+
+================================================================================
+397 enstitü<n>: 1906 yılında inşa edilen bina, Arkeoloji Enstitüsü'nü ve >>enstitünün<< 
+tarih öncesi, Yunan ve Roma devirlerinden kalma sarkofajlar, heykeller, 
+silahlar ve yazıtlardan oluşan koleksiyonuna ev sahipliği yapması için, 
+Elena Macca tarafından 1926 yılında devlete bağışlanmıştı.Macca 
+Malikanesi'ni restorasyon planı üzerindeki çalışmalar beş yıldır 
+sürüyor.
+
+    <e><p><l>enstitü<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+393 skandal<n>: Aynı zamanda dünyadaki refahın dağılımı bugün 20 yıl öncesine daha 
+adaletsizdir; "yeni ekonomi" efsanesi çökmüş, ve dünyanın varsıl 
+kesimindeki şirket >>skandalları<< ahbap-çavuş ilişkileri ile kötü 
+yönetim olgularının sanılandan ve bugüne değin bilinegelenden daha 
+karmaşık arka planlara sahip olduklarını ortaya koymuştur; mal krizler ve 
+döviz krizleri gelişmekte olan piyasaların ayrılmaz yol arkadaşı olmuş 
+ve çok sayıda ülkede ekonomik ve sosyal dalgalanmalara yol açmıştır; 
+ticari liberalleşme genellikle - genellikle söyledikleri gibi davranmayan - 
+zengin ülkelerin çıkarına olmuş; sosyal tabakalaşma ve sınıf 
+farklılaşmaları hem varsıl hem de yoksul ülkelerde artış eğilimi içine 
+girmiş; dünyanın birçok bölgesinde düzensizlik ile düş kırıklıkları 
+silsilesi ile hüsranlardaki artış olduğu izlenimi ortaya çıkmış; 
+alışılmadık tehditler, özellikle de kitle imha silahlarının 
+kullanılabileceği riski, kara kara bulutlar biçiminde ufukta gözükmeye 
+başlamıştır.Gerçeklerin ne anlama geldiğini bulabilmek için 
+küreselleşmenin kavramsal arka planına bakmakta yarar vardır.
+
+    <e><p><l>skandal<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+390 sendika<n>: Giderek yoğunlaşan rekabetin baskısı hükümetleri, >>sendikaları<< ve pek 
+çok vatandaşı büyük hayal kırıklığına uğratacak şekilde, kamu 
+sektörlerini modernleştirmeye zorluyor.
+
+    <e><p><l>sendika<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+390 kapasite<n>: Özerk bir ekonomi politikası, kötü şoklarla başa çıkabilme 
+>>kapasitesini<< önemli ölçüde düşürebilir.Genişlemeye yönelik 
+"ekonomi politikası" da göz önünde bulundurulması gereken bir konudur.
+
+    <e><p><l>kapasite<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+389 ücret<n>: Hepsi - bir zamanlar dolgun emeklilik >>ücretleri<< aldıkları - 
+Yugoslavya'nın kendilerini gözetmesini beklemiş.
+
+    <e><p><l>ücret<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+388 adil<n>: Sınırları belirlenmemiş böylesi bir küreselleşme yöneliminin ulusal 
+kamu politikalarında ve uluslararası politikalarda temel yansımalara yol 
+açması kaçınılmazdır.Bundan ötürü ulusal kamu politikaları >>adilce<< 
+pragmatik ve çeşitlendirilmiş (köktenci değil) ve ekonominin geleneksel 
+gelişme amaçlarına, fiyat istikrarına ve toplumsal adalete ulaşmayı hedef 
+edinmiş bir yol izleyebilir.
+
+    <e><p><l>adil<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+385 analist<n>: Ancak >>analistlerin<< de gözlemlediği gibi bu anlaşma vergi ve sübvansiyon 
+indirimleri ya da tarife dışı kısıtlamalara ilişkin hiçbir somut rakam 
+içermiyor.
+
+    <e><p><l>analist<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+384 mesaj<n>: Böylece ABD'nin bölgede doğan bu girişimi destekleyerek bütün ve özgür 
+bir Avrupa oluşturulması için tarihsel sürecin tamamlanmasına yandaş 
+olduğuna ilişkin açık bir >>mesaj<< veriliyor.SE Times: Resmleşen bu 
+ortaklığın amacı nedir?
+
+    <e><p><l>mesaj<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+384 doğu<n>: Romanya'nın diğer aday ülkeleri yakalama çabaları övgüye değer elbet, 
+fakat KAL kararının olası ve daha sevimsiz sonuçlarından ötürü ciddi 
+olarak yeniden ele alınması gerekiyor.Dünya çapında son on yıldır 
+sürmekte olan vahşi mal krizler ve döviz kuru krizlerinin ardından, 
+ekonomistler arasında, gelişmekte olan piyasaların açık sermaye hesabına 
+erken >>doğum<< yöntemi ile geçmemesi konusunda geniş bir fikirsel uzlaşı 
+ortaya çıktı.
+
+    <e><p><l>doğu<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+383 birleşme<n>: Bu da bir takım unsurların >>birleşmesinin<< bir sonucu, bunlarin en 
+onemlisi de, Dayton anlaşmasının aynen yerine getirilmesi konusunda ısrar 
+eden YTD ve uluslararası topluluğun tutumu."Ancak Kuznetzov, sonunda Ek 8'in 
+uygulanmasının yerel yetkililerin tek başlarına yapmaları gereken bir iş 
+olduğunu belirtti.Kuznetzov, "Bu gerçekten de onların sorumluluğu.
+
+    <e><p><l>birleşme<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+382 meslektaş<n>: Sırf bu bile, batıdaki >>meslektaşlarına<< seslerini duyurabilmek için, 
+daha kuvvetli ve ikna edici bir tavır takınmaları gerektiğini anlayan 
+siyasi aydinlarin uyanışını göstermek açısından yeterli.
+
+    <e><p><l>meslektaş<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+377 hasar<n>: Kamuoyu gozlemcileri; siyasilerin, politik entrikalarla uğraşmak yerine, hala 
+önemli ölçüde halkın desteğine sahipken, organize suçlarla mücadele ve 
+siyasi ortamın daha fazla >>hasar<< görmemesi konularına odaklanmaları 
+gerektiği görüşünde.Sırbistan, siyasi çekişmelerin yanında, önemli 
+sorunlarla karşı karşıya.
+
+    <e><p><l>hasar<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+376 kayıt<n>: Sırbistanlılar'ın işe o denli gereksinimi var ki (ülkede işsizlik oranı 
+yüzde 40 dolaylarında), vergi ödemeyen, sağlık ya da emeklilik ödemesi 
+yapmayan >>kayıt<< dışı şirketlerde çalışmaya razılar.
+
+    <e><p><l>kayıt<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+375 iddianame<n>: Söz konusu suçlamaya ilişkin >>iddianame<<, bugüne değin Kosova Kurtuluş 
+Ordusu'nun eski üyeleri aleyhinde hazırlanan ilk >>iddianame<< olma 
+özelliği taşıyor.
+
+    <e><p><l>iddianame<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+373 sanat<n>: Basında yer alan haberlere göre Robertson, Stefan'ı Makendonya açısından 
+büyük bir >>sanat<< elçisi ve itibar kaynağı olarak değerlendirdi.Stoby 
+Galerisi'nin Yöneticisi Zlatko Todosievski, "Bütün çocuklar resim yapar, 
+fakat Stefan gerçek bir ressam", diyor ve ekliyor "Hepimizin içinde bir 
+potansiyel vardır, ama bu küçük çocuk gerçek bir yetenek".
+
+    <e><p><l>sanat<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+373 günü<n>: 
+    <e><p><l>günü<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+370 güney<n>: Bu kentin kuzeyi Sırplar'ın >>güneyi<< ise Arnavutlar'ın denetiminde ve 
+kent İbar Nehri ile ikiye ayrılıyor.
+
+    <e><p><l>güney<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+369 tak<n>: Çağrıya daha şimdiden pek çok şirket, yabancı otel zincirleri ve 
+işadamından cevap gelmekle birlikte, hala bir >>takım<< idari engeller söz 
+konusu ve bu engeller, anlaşmaların hızlı bir şekilde sonuca 
+ulaştırılmasını zorlaştırıyor.
+
+    <e><p><l>tak<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+369 çek<n>: Mesele, anayasa ve Ohrid Anlaşması'nda bu şekilde yer aliyor ve bu anlaşma, 
+ülkedeki siyasi partiler ve uluslararası toplumun temsilcileri tarafından da 
+imzalanmıştır.SE Times: Muhalefet partilerinin son girisimleri, özellikle 
+de parlamentoyu boykot etme kararı ve etnik çizgilerin ayrılması 
+düşüncesi, Ohrid Anlaşması'nın uygulanması ve Makedonya'daki siyasi 
+istikrar üzerinde etkili oluyor mu?Popovski: Bu fikirler, ortaya 
+atıldıkları ilk andan itibaren, kamuoyunun tepkisini >>çekti<<, bu nedenle 
+üzerlerinde durulmamasi gerekir.
+
+    <e><p><l>çek<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+367 cali<n>: 
+    <e><p><l>cali<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+367 alışveriş<n>: Hükümet ve Merkez Bankası'nın - İMF ve Dünya Bankası gibi - 
+uluslararası finans kuruluşları ile görüş >>alışverişinde<< bulunması 
+da, çok büyük önem taşıyan bu konuda ilerleme sağlanması yolunda, 
+zekice bir hareket olabilirdi.
+
+    <e><p><l>alışveriş<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+366 prosedür<n>: Belgrad'daki kaynaklardan alınan haberlere göre, önümüzdeki üç hafta 
+içinde BM mahkemesine teslim edilebilirler.Aynı zamanda ülkenin ICTY ile 
+işbirliği hakkındaki kurula da başkanlık eden Sırbistan-Karadağ 
+Dışişleri Bakanı Goran Svilanoviç, iddianame Belgrad'a ulaşır ulaşmaz 
+transfer >>prosedürlerinin<< başlatılacağını söyledi.
+
+    <e><p><l>prosedür<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+366 öte<n>: Son yıllarda ele geçirilen eroin miktarına ilişkin net bir bilgi 
+açıklanmadı ise de, polis tarafından yapılan basın açıklamalarına göz 
+atıldığında, ele geçen miktarların - kilogramlar bir yana - birkaç 
+gramdan >>öteye<< gidemediği ortaya çıktı.
+
+    <e><p><l>öte<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+364 zam<n>: Bu durum ISP'lerin müşterilerine uyguladıkları fiyatlara yüzde 20 ila 
+yüzde 100 arasında >>zam<< yapmalarını da beraberinde getirdi.ISP'ler 1999 
+çatışmalar sırasında yıkılan Intelsat uydusunun İvanitsa'daki yer 
+bağlantı binasının yıkılması ile ilgili bir skandalı da ortaya 
+çıkardılar.
+
+    <e><p><l>zam<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+364 boykot<n>: Mesele, anayasa ve Ohrid Anlaşması'nda bu şekilde yer aliyor ve bu anlaşma, 
+ülkedeki siyasi partiler ve uluslararası toplumun temsilcileri tarafından da 
+imzalanmıştır.SE Times: Muhalefet partilerinin son girisimleri, özellikle 
+de parlamentoyu >>boykot<< etme kararı ve etnik çizgilerin ayrılması 
+düşüncesi, Ohrid Anlaşması'nın uygulanması ve Makedonya'daki siyasi 
+istikrar üzerinde etkili oluyor mu?Popovski: Bu fikirler, ortaya 
+atıldıkları ilk andan itibaren, kamuoyunun tepkisini çekti, bu nedenle 
+üzerlerinde durulmamasi gerekir.
+
+    <e><p><l>boykot<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+360 tavır<n>: Bu savaşı ABD ve Britanya'nın savaşı olarak değil, barışı ve insanlık 
+değerlerini uluslararası terörizm tehdidinden koruma savaşı olarak 
+görüyoruz." düşüncelerini dile getirdi.Irak konusunda komünist 
+diktatörlüklerden kurtulan devletlerle birlikte Arnavutluğun da almış 
+olduğu >>tavır<< cesaret vericidir.
+
+    <e><p><l>tavır<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+360 destekleme<n>: Bu program, Batı Balkanlar, Orta Doğu, Avrupa-Akdeniz işbirliği, atlantik 
+otesi ilişkiler, Avrupa güvenlik ve savunma politikası gibi önemli 
+konularda, AB politikasının istikrarını garanti altına almayi amacliyor.SE 
+Times: Sizce Yunanistan'ın, Türkiye'nin AB'ye katılım talebini 
+>>desteklemesiyle<< hava sahasının ihlali ve Kıbrıs'ın bütünlüğü 
+konusunda son zamanlarda yaşanan gerginlikler celismiyor mu?
+
+    <e><p><l>destekleme<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+359 tespit<n>: Karadağ'da HIV-pozitif olduğu >>tespit<< edilen kişi sayısı sadece 52.
+
+    <e><p><l>tespit<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+359 puan<n>: Şu nda bayanlar klasmanında, 1055 >>puanla<< açık ara ile birinci sırada 
+bulunan Kosteliç'in en yakın rakibi İtalyan Karen Putzer 569 >>puanda<< 
+bulunuyor.Bu yıl üç altın madalya kazanan, geçen yıl ise Salt Lake 
+City'deki Olimpiyatlar'da - dizinde meydana gelen ciddi bir sakatlıktan 
+yalnızca bir ay sonra - gümüş madalyaya ulaşan Kosteliç, Nova TV'ye 
+verdiği demeçte "Bu pek de zor bir şey değil."
+
+    <e><p><l>puan<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+359 hisse<n>: Alman Deutsche Bank tarafından da desteklenen konsorsiyum, şirketin yüzde 80 
+>>hissesi<< için 110 milyon Euro önerdi.Diğer üç aday - Rusya'nın 
+Metatabak Konsorsiyumu, Viyana'dan Tobacco Holding GmbH Konsorsiyumu ve 
+Rusya'nın Rosbulgartabak Şirketi - satış sürecine itiraz ederek Yüksek 
+Mahkeme'ye başvurdular ve Özelleştirme İdaresi'nin kendilerine son 
+tekliflerini yapma olanağı tanımaksızın, ihaleyi sonuçlandırdığını 
+iddia ettiler.Yüksek Mahkeme başvuruyu haklı buldu ve Özelleştirme 
+İdaresi'nin - Bulgartabak tarafından satış süreci sırasında belirtilen 
+değerlere göre - beklenenden daha iyi mali sonuçlara ulaşmak için, yeni 
+teklifler almış olması gerektiğini hükme bağladı.
+
+    <e><p><l>hisse<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+359 bağış<n>: O'nu resim yapmaya yönelten ilham kaynağı, Teovo köyünde, dedesinin 
+>>bağışta<< bulunduğu St Archangel Manastırı'na yaptığı ziyaret oldu.
+
+    <e><p><l>bağış<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+359 açma<n>: Gözlemciler bu durumun - iki cumhuriyetin hükümetinin de istikrarlı olması 
+durumunda -, kurumları bir ay içinde işlemeye başlayacak Birlik'te büyük 
+sorunlara yol >>açmasının<< beklenmediğini ifade ediyorlar.Karadağ'daki 
+seçim girişiminin başarısız olmasından ötürü, bütün seçim 
+sürecinin sil baştan yinelenmesi gerekecek.
+
+    <e><p><l>açma<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+358 sözleşme<n>: Bölünmüş Kıbrıs'ın geleceği ve AB üyeliği konuları, 
+başarısızlıkla sonuçlanan son görüşmelerin ardından, belirsiz bir 
+sürece girdi. Robert Herschbach Southeast European Times için yazdı - 
+24/03/03Kıbrıs barış sürecinin bu ay başında başarısızlığa 
+uğrayarak kesilmesi, geniş bir kesim tarafından, bölünmüş adanın 
+geleceğine ilişkin eşi görülmemiş bir fırsatın elden kaçırılması 
+olarak yorumlandı.Adanın Rum tarafının Nisan ayında AB'ye üyelik 
+>>sözleşmesini<< imzalayacak olması ve Türkiye'nin de AB için beslediği 
+umutlar, birçok kişiye göre olabilecek en iyi koşulları bir araya 
+getirmişti.  Kıbrıslı Türkler 27 Şubat'ta Lefkoşe'nin Türk tarafında 
+bir gösteri sırasında görülüyor. [AFP]  Uluslararası toplumdan 
+yalıtılmış ve ekonomik durağanlık içine saplanmış Kıbrıslı 
+Türkler, güneydeki komşularıyla birlikte AB'ye girmek için sabırsızlık 
+gösteriyor.
+
+    <e><p><l>sözleşme<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+358 performans<n>: Sermaye işlemlerinin tam serbestleşmesi için temel ön gereklilikler, 
+sağlam bir büyüme-eğilimli makroekonomik çerçeve, temel yapısal 
+dengesizliklerin ortadan kaldırılması ve mal işleyişin işlemsel ve 
+kurumsal çerçevesinin denetiminin iyi yapılmasıdır.Romanya son birkaç 
+yıl içinde ekonomik >>performansını<< kaydadeğer bir biçimde 
+geliştirmiş ve birçok gösterge oldukça iyi bir izlenim vermeye 
+başlamıştır.
+
+    <e><p><l>performans<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+356 rekabet<n>: Mal hareketliliklerinin riskleri dünya çapında deflasyonist politikaları da 
+beraberinde getirmekte, ticari korumacılığı ve >>rekabete<< yönelik 
+devalüasyonları artırmaktadır.
+
+    <e><p><l>rekabet<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+355 yapım<n>: Belgede ayrıca, Jugoimport'un daha sonra hepsi de Yugoslav Ordu yetkilileri 
+tarafından yönetilen ya da onlarla ilişki içindeki beş taşeron şirketle 
+- Infinity, Brunner, GVS, Temex ve Interdeal - projenin bölümlerinin 
+tamamlanması için anlaşmalar imzalandığı da ifade ediliyor.Taşeron 
+şirketlerden biri olan Brunner'in daha önce Libya'ya da bir roket ateşleme 
+üretim tesisi >>yapımında<< ve bu ülkeye sağladığı ABD yazılımları 
+ile ülkenin roket hedef isabet sistemlerini geliştirmesinde yardımcı 
+olduğu belirtildi.
+
+    <e><p><l>yapım<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+355 toplu<n>: Siyaset üretimi ile - daha yeni yeni biçimlenmeye başlayan - yasama ve 
+yürütme organlarının işleyişinin, Kosova'da özerkliğine yeni kavuşmuş 
+>>toplumun<< gelişimi üzerinde yaşamsal bir etkisi olacak.
+
+    <e><p><l>toplu<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+355 gecikme<n>: Makedon Cumhurbaşkanı Boris Traykovski AB birliklerinin ülkesine 
+konuşlandırılması için AB Dış Politika ve Güvenlik Danışmanı Javier 
+Solana'ya Brüksel'de resm bir davetiye iletmişti.Robertson anlaşmanın 
+AB'nin ortak bir güvenlik ve savunma politikası belirlemesinde "en önemli 
+kuruluş taşlarından biri" olduğunu belirtmişti.Ülkesi altı-aylık 
+dönüşümlü AB Başkanlığı'nı sürdüren Papandreou, anlaşmayı 
+İttifak ve Birlik arasındaki var olan güvenin bir simgesi olarak nitelerken, 
+bunun "Balkanlar ve Avrupa için genel anlamda kritik bir zamana denk 
+geldiği"ni dile getirdi.Makedonya'daki AB öncülüğündeki operasyona, 
+özellikle Bosna Hersek'teki 13.000 kişilik NATO barışgücünün görevini 
+gelecek yıl devralmayı ve bu yılın ortasına değin 60.000 kişilik bir 
+Acil Mukabele Gücü oluşturmayı planlayan Birliğin, böylesi görevler 
+için ne denli kararlı ve hazır olduğunun açığa çıkartılacağı bir 
+temel sınav olarak bakılıyor.Atina'daki toplantının ardından Cumartesi 
+günü Solana ile ortak bir basın toplantısı düzenleyen Papandreou 
+amaçlarına ulaşmak için AB'nin üstesinden gelmesi gereken birçok engel ve 
+>>gecikmelerle<< karşı karşıya olduğunu söyledi.
+
+    <e><p><l>gecikme<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+354 baskın<n>: Bundan bir ay sonra ise, SFOR barış gücü, söz konusu bankanın Mostar ve 
+diğer kentlerdeki şubelerine, Hırvat ayrılıkçı hareketine destek 
+verildiği şüphesiyle, >>baskınlar<< düzenlemişti.BSRE yetkilileri, 
+Hersegovaçka yolsuzluğuna HDZ milletvekili General Lyubo Çesiç Roys, emekli 
+General Stanko Sopta, eski Federasyon Savunma Bakanı General Miroslav Purçe 
+ile üst düzey federal savunma yetkilisi General İvan Mediç'in de 
+karışmış olabileceğini belirtiyor.
+
+    <e><p><l>baskın<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+352 yurtdışı<n>: Genç ve nitelikli işgücünün >>yurtdışına<< göçü hız kazanırken, 
+bu, bölgenin en değerli varlığının da yitmekte olduğu anlamına geliyor.
+
+    <e><p><l>yurtdışı<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+352 geri<n>: Ne var ki teori, politika ve pratik arasındaki mevcut uyumsuzluk, siyasi 
+birimler kuruluş aşamalarını >>geride<< bıraktıkça değişmeye 
+başlayabilir.
+
+    <e><p><l>geri<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+352 doğalgaz<n>: Türkiye ile Rusya arasında yürütülen, Mavi Akım boru hattıyla 
+dağıtılan >>doğalgazın<< fiyatı konusundaki müzakereler cikmaza girdi.
+
+    <e><p><l>doğalgaz<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+352 çift<n>: Hatta emeklilik sistemine ilişkin kriz, AB'nin mevcut üyelerinde de 
+yaşanmaktadır.Özetle, >>çifte<< standartların önlenmesi ve gerçek 
+ekonomik ilerlemelerin takdir edilmesi için, Romanya'nın statüsünün 
+değiştirilmesi gerekmektedir.
+
+    <e><p><l>çift<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+350 denetim<n>: Bu kentin kuzeyi Sırplar'ın güneyi ise Arnavutlar'ın >>denetiminde<< ve 
+kent İbar Nehri ile ikiye ayrılıyor.
+
+    <e><p><l>denetim<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+349 onaylama<n>: Makedon hükümetinin, kurumu, ülkenin üçüncü devlet üniversitesi haline 
+getirecek olan yasa tasarısını >>onaylamasıyla<< birlikte, Tetovo 
+Üniversitesi açısından yeni bir aşamaya geçilmiş oldu.
+
+    <e><p><l>onaylama<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+348 kültürel<n>: Onlar turizmi büyük otellere değil yatak ve kahvaltılara dayandırıyor." 
+diyor.Ayanoviç turizm ajanslarının >>kültürel<< mirasa dikkat çeken 
+etkinliklerde bulunduğunu da belirtiyor, Katolikler'in hac ziyareti için 
+geldiği Mecugorye'deki dünyaca ünlü bölge ile İslami ve Ortodoks tarih 
+mimar örnekleri gibi.
+
+    <e><p><l>kültürel<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+348 kat<n>: Bu >>katı<< bilişsel uyumsuzluğun arkasında yatan etmenler nedir?
+
+    <e><p><l>kat<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+346 milliyet<n>: "Bu, her renk ve >>milliyetten<< insanlarla bir arada olmak, dinlenmek ve iyi 
+vakit geçirmek için tek fırsatım.
+
+    <e><p><l>milliyet<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+346 imza<n>: Ne ki, üyelik imkansız bir hayal değil.Arnavutluk yakında AB ile Ortaklık 
+ve İstikrar Anlaşması'na >>imza<< atmak istiyor.
+
+    <e><p><l>imza<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+346 havaalan<n>: Başlangıçtaki devir -- güvenlik, kurtarma, yangın söndürme ve acil 
+tıbbi durumlar için sorumluluk -- sivil >>havaalanı<< yetkilileri ve 
+belediye acil durum hizmet birimleri Mayıs ayında yapılan bir hava kazası 
+tatbikatında görevlerini iyi bir biçimde yerine getirdiler.
+
+    <e><p><l>havaalan<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+345 telekom<n>: Muhalefetteki Demokratik Güçler Birliği (UDF) ise BTC'nin 
+özelleştirilmesinin, Bulgaristan NATO'dan katılım daveti alana değin, 
+ertelenmesi çağrısında bulundu.Derecelendirme kuruluşu Fitch 
+analistlerinden Edward Parker Reuters haber ajansının sorulan soruları 
+yanıtlarken anlaşma sürecinin tamamlanmasının "hükümetin siyasi açıdan 
+zor yapısal kararlar alabileceğinin göstergesi" olacağını belirtti.İki 
+yıl önce >>telekom<< satış piyasasında yaşanan canlılık zirvedeyken UDF 
+öncülüğündeki hükümete Yunanistan'ın OTE ve Hollanda'nın KPN 
+şirketlerince BTC'nin %1ve bir GSM lisansı için yapılan 610 milyon ABD 
+Dolarlık öneri, dönemin başbakanı Ivan Kostov tarafından geri 
+çevrilmişti.Apostolov şu nda önerilen düşük fiyatların yeterli olmayan 
+yasal çerçeve, berrak bir sektör politikasından yoksunluk ve düşük 
+dijitalleşme oranının meydana getirdiği yatırım riskini yansıttığını 
+söyledi.
+
+    <e><p><l>telekom<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+344 tüzük<n>: Sırbistan-Karadağ'ın federal anayasa >>tüzüğünün<< yanı sıra yeni 
+Sırp Anayasasınca düzenlenecek bir dizi konu üzerinde karar varmasının ne 
+kadar uzun sürdüğünü göz önünde bulunduran pek çok yorumcu, 
+Sırbistan'ın bir son başvuru tarihini daha kaçıracağını öngörüyor. 
+Southeast European Times için Belgrad'dan Dusan Kosanoviç'in analizi - 
+22/05/03Sırp Meclisi, yeni anayasa taslağının Ağustos ayından önce 
+hazırlanması için 27 üyeden oluşan bir komisyonu görevlendirdi.
+
+    <e><p><l>tüzük<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+344 kaynak<n><: O'nu resim yapmaya yönelten ilham >>kaynağı<<, Teovo köyünde, dedesinin 
+bağışta bulunduğu St Archangel Manastırı'na yaptığı ziyaret oldu.
+
+    <e><p><l>kaynak<s n="n"/><</l><r>@<s n="n"/><</r></p></e>
+
+================================================================================
+342 kuvvet<n><: Avrupa Komisyonu Sözcüsü Jean-Christophe Filori genişleme takviminin 
+planlandığı gibi süreceğini ve AB anlaşmasının "bildiğimiz Kıbrıs 
+tarafından imzalanacağı"nı söyledi.AB Genişleme Komisyonu Başkanı 
+Günther Verheugen adına konuşan Filori, Türkiye'yi de uyararak AB'ye 
+üyelik umutlarının nasıl etkilenebileceğini değerlendirmesinin " 
+>>kuvvetle<< önerildiği" uyarısında bulunarak, adanın bölünmüş 
+statüsünün sürmesi durumunda Türkiye'ye ilişkin "üyelik görüşmelerine 
+başlanmasını hayal etmenin güç" olacağını söyledi.Filori "2004 yılı 
+sonuna değin Kıbrıs konusunda herhangi bir anlaşmaya varılamazsa, üyelik 
+için kapımızı çalan bir ülkenin üye devletlerimizden birini tanımaması 
+gibi garip bir durum ortaya çıkacaktır." dedi.Kıbrıslı Rumlar Türkler 
+olmaksızın AB'ye girerse, bir sorun daha da çetrefilli bir hl alacak.
+
+    <e><p><l>kuvvet<s n="n"/><</l><r>@<s n="n"/><</r></p></e>
+
+================================================================================
+342 birbir<n>: Şimdiye değinki eğitim çabaları hem sayıca az hem de >>birbirinden<< 
+kopuk düzeyde gerçekleşti.
+
+    <e><p><l>birbir<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+341 vaat<n>: Arka planda kalsa da daha önemli olan bir gerçek ise eleman fazlalığı, 
+bütçe sorunları ve çok az kişinin abonelik ücretini ödemesinden dolayı, 
+PBS'nin mali bir yıkımın eşiğinde olması.Biraz da Avrupa Komisyonu'nun, 
+sağlıklı bir kamu yayınının, Bosna Hersek'in gelecek yıl bir ortaklık 
+anlaşmasının müzakerelerine başlamaya çağırılması için sağlanması 
+gereken koşullardan biri olduğunu belirtmesi nedeniyle, Bakanlar Kurulu, 
+yerel politikacıların son zamanlarda >>vaat<< ettikleri PBS yasasını 
+gerçekten çıkarabilir.Saraybosna'daki Medya Planlama Enstitüsü'nün 
+başkanı Zoran Udovicic, politikacıların geçmişte yayınlar üzerindeki 
+güçlerini ellerinden alacak yasalar çıkarmayı reddettikleri halde, artık 
+kötü durumdaki kamu yayın sistemi tümüyle parçalanmadan, Avrupa 
+yardımlarından yararlanmaları gerektiğini anlamaya başladıklarını 
+belirtti.
+
+    <e><p><l>vaat<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+337 sorun<n><: Büyük ölçüde WHO/UNICEF'in raporu ve bu raporun ardından hazırlanan 
+"eylem planı" çerçevesinde oluşturulan Bakanlıklar Arası Psiko-Aktif 
+Madde Kurulu (BAPAM), Kosova'nın uyuşturucu >>sorununa<< çözüm getirmesi 
+amacıyla bir plan hazırlıyor.
+
+    <e><p><l>sorun<s n="n"/><</l><r>@<s n="n"/><</r></p></e>
+
+================================================================================
+336 komünist<n>: Irak'ın baskıcı terörist rejimiyle, ABD arasındaki tercihi onbir yıl 
+önce Arnavutluğun >>komünist<< totaliter rejimden kurtuluşunu sağlayan 
+Batılı demokrasi ilkeleriyle uyum içindeydi.
+
+    <e><p><l>komünist<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+336 büro<n>: Dahası, kurumun tüm Güneydoğu Avrupa'daki istihbarat merkezleri ve 
+>>büroları<< giderek, küreselleşmeyle ilgili tepkisel tartışmalarla 
+kitle-kültürünün bu oldukça duyarlı bölgedeki işgaline ilişkin 
+tartışmaların odağı olma yolunda ilerliyorlar.Söz konusu etkinlikler, 
+büyük bir değişim ve krizler döneminden geçmekte olan dünya düzeni 
+içinde, Konsey'in ne küresel ne de Avrupa kaynaklı sorunlarla yüz yüze 
+kalmasını engellemiyor.
+
+    <e><p><l>büro<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+335 kazanma<n>: George W. Bush'un cumhurbaşkanlığı seçimlerinde kampanya sloganı olarak 
+"şefkatli muhafazakrlık" kavramını kullanmasının, seçimleri 
+>>kazanmasında<< etkisi olabilir.
+
+    <e><p><l>kazanma<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+335 bildirge<n>: Devlet Savcı Yardımcısı'nın gözaltına alınması, Balkanlar'da 
+örgütlü suçlarla ilgili olarak Londra'da yapılan - sonuç 
+>>bildirgesinde<< önde gelen siyasetçilerin örgütlü suçlara karşı daha 
+yoğun mücadeleye çağrıldığı - uluslararası bir konferanstan birkaç 
+gün sonrasına rastladı.
+
+    <e><p><l>bildirge<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+333 yazar<n>: Bir yorumcu "Blogosferde bir çok genç yetenek var." diyerek, tanınmış 
+gazeteci ve >>yazarların<< blog çabalarından uğradığı hayal 
+kırıklığını dile getiriyor.
+
+    <e><p><l>yazar<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+330 veri<n>: Eroin ve esrarın bu bölgeden geçerken bıraktığı izi ayrımsamamak 
+olanaksız, özellikle de Kosova'nın başkenti Priştine'de. Natan Dotan 
+Southeast European Times için Priştine'den bildiriyor - 20/01/03WHO (Dünya 
+Sağlık Örgütü) ve UNICEF (BM Çocukları Koruma Teşkilatı) 
+>>verilerine<< göre, Priştine'de geçtiğimiz günlerde gerçekleştirilen 
+bir araştırma sırasında görüşülen gençlerin yüzde 11 daha en az bir 
+kez eroin kullandığını söyledi.
+
+    <e><p><l>veri<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+329 ayrılma<n>: Dışişleri Bakanı Meta da Belgrad'dan >>ayrılmasının<< hemen ardından 
+Priştine'yi ziyaret etti.
+
+    <e><p><l>ayrılma<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+328 önerge<n>: VMRO-DPMNE İcra Komitesi üyesi Trajko Slaveski, hükümet tarafından 
+onaylanan yasa tasarısının, Arnavutların yüksek öğrenimi ile ilgili 
+meseleden çok, Tetovo Üniversitesi sorununu çözmeye yönelik olduğunu 
+söyledi.Arnavut Demokratik Partisi (DPA) de, hükümet >>önergesinin<< soruna 
+yalnızca kısmi bir çözüm getireceğini öne sürerek tasarıyı eleştirdi.
+
+    <e><p><l>önerge<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+327 sağlama<n>: Bu, bölgedeki diğer ülkelerle birlikte Makedonya'nın da ortak bir 
+kararlılık ve işbirliği içinde istikrar ve koruma >>sağlamada<< 
+özgürlük ve demokrasinin güvence altına alınması için üzerine düşen 
+rolü oynaması ve aynı zamanda söz konusu sorumlulukların getireceği 
+yararların paylaşılmasıdır.
+
+    <e><p><l>sağlama<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+327 faaliyet<n><: Zoran Cinciç'e yapilan suikast, Slobodan Miloseviç'in devrilmesine rağmen 
+artmaya devam eden yolsuzluk ve kriminal >>faaliyetleri<< yeniden gundeme 
+getirdi.
+
+    <e><p><l>faaliyet<s n="n"/><</l><r>@<s n="n"/><</r></p></e>
+
+================================================================================
+323 memnun<n>: Her iki tarafı da >>memnun<< etmek zor bir işse de, en azından taraflar 
+kızdırılmamaya çalışılıyor.Belgrad'la gelişen ilişkiler, son 
+zamanlara değin yoğun ilişki içinde bulunulan Podgoritza'nın gözden uzak 
+kalmasına yol açtı.
+
+    <e><p><l>memnun<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+322 finansman<n>: Bu yıllardaki büyük ekonomik gerilik ve atalet, tanınmış iktisatçı Paul 
+Rosenstein-Rodan'ın gelişme için "Büyük Bir İtiş"e gerek olduğundan 
+söz etmesine yol açmıştı.Yabancı yardımlar giderek artan bir 
+bağımlılık yaratıyor, bu ise ekonomik göstergeleri canlandırmadığı ve 
+daha çok tüketim >>finansmanı<< için kullanıldığı sürece yarardan çok 
+zarar getirici olabiliyor.
+
+    <e><p><l>finansman<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+320 çete<n>: Bu arada, Bulgar blogcu Plamen Popov da rahatsızlık verici bir olay fark 
+etmiş - turistlerden zorla para alan >>çeteler<<.
+
+    <e><p><l>çete<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+318 özgür<n>: Böylece ABD'nin bölgede doğan bu girişimi destekleyerek bütün ve 
+>>özgür<< bir Avrupa oluşturulması için tarihsel sürecin tamamlanmasına 
+yandaş olduğuna ilişkin açık bir mesaj veriliyor.SE Times: Resmleşen bu 
+ortaklığın amacı nedir?
+
+    <e><p><l>özgür<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+317 komuta<n>: Bunlar münferit olaylar olsa bile, söz konusu birlikler ve askerler 
+kesinlikle belli bir >>komutaya<< bağlıydı ve failler gelecekte bulunacak ve 
+büyük olasılıkla hüküm giyecekler.
+
+    <e><p><l>komuta<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+314 herkes<n>: "Yalnızca ben değil, buradaki >>herkes<< emekli ve hepimiz acı çekiyoruz.
+
+    <e><p><l>herkes<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+313 kamp<n>: Ayanoviç ülkedeki tüm turizm birimlerinin hangi federal cumhuriyette olursa 
+olsun, yalnızca Bosna Herseğin en iyi yönünü sunmaya çalıştığını da 
+sözlerine ekliyor.Ve belki de her şeyden önemlisi, - iyi bir >>kamp<< yeri 
+ya da ürünleri için yeni bir pazar aramakta olan - yabancıların Bosna 
+Herseğe karşı beslemeleri olumsuz önyargıları değiştirebilmek, buradaki 
+insanların da kendi ülkelerini nasıl gördüklerini ve değerlendirdiklerini 
+olumlu açıdan etkileyebilir."Bosna Hersek'teki insanların da düşünme 
+biçimlerini değiştirmeye gereksinimi var artık." diyor Ayanoviç.
+
+    <e><p><l>kamp<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+313 güneydoğu<n>: Coğrafi olarak basın özgürlüğünün özellikle ülkenin 
+>>güneydoğusunda<< kötü durumda olduğu ifade ediliyor.Diğer AB üye 
+adayları arasında Slovenya'nın derecesi kayda değer.
+
+    <e><p><l>güneydoğu<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+312 kaza<n>: Başlangıçtaki devir -- güvenlik, kurtarma, yangın söndürme ve acil 
+tıbbi durumlar için sorumluluk -- sivil havaalanı yetkilileri ve belediye 
+acil durum hizmet birimleri Mayıs ayında yapılan bir hava >>kazası<< 
+tatbikatında görevlerini iyi bir biçimde yerine getirdiler.
+
+    <e><p><l>kaza<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+310 belirleme<n>: Makedon Cumhurbaşkanı Boris Traykovski AB birliklerinin ülkesine 
+konuşlandırılması için AB Dış Politika ve Güvenlik Danışmanı Javier 
+Solana'ya Brüksel'de resm bir davetiye iletmişti.Robertson anlaşmanın 
+AB'nin ortak bir güvenlik ve savunma politikası >>belirlemesinde<< "en 
+önemli kuruluş taşlarından biri" olduğunu belirtmişti.Ülkesi 
+altı-aylık dönüşümlü AB Başkanlığı'nı sürdüren Papandreou, 
+anlaşmayı İttifak ve Birlik arasındaki var olan güvenin bir simgesi olarak 
+nitelerken, bunun "Balkanlar ve Avrupa için genel anlamda kritik bir zamana 
+denk geldiği"ni dile getirdi.Makedonya'daki AB öncülüğündeki operasyona, 
+özellikle Bosna Hersek'teki 13.000 kişilik NATO barışgücünün görevini 
+gelecek yıl devralmayı ve bu yılın ortasına değin 60.000 kişilik bir 
+Acil Mukabele Gücü oluşturmayı planlayan Birliğin, böylesi görevler 
+için ne denli kararlı ve hazır olduğunun açığa çıkartılacağı bir 
+temel sınav olarak bakılıyor.Atina'daki toplantının ardından Cumartesi 
+günü Solana ile ortak bir basın toplantısı düzenleyen Papandreou 
+amaçlarına ulaşmak için AB'nin üstesinden gelmesi gereken birçok engel ve 
+gecikmelerle karşı karşıya olduğunu söyledi.
+
+    <e><p><l>belirleme<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+310 bayram<n>: Ayrıca yine yakın tarihte, Mladiç'in komşu Sırbistan'dan Haziran ayında 
+ayrıldığı, BH sınırından geçtiği ve BH'nin doğusundaki Han Pijesak 
+yakınlarında bulunan VRS'ye ait bir yeraltı sığınağında >>bayram<< 
+tatili yaptığı da ortaya çıktı.
+
+    <e><p><l>bayram<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+308 üstünlük<n>: Kendisi, Kosova'da hukukun >>üstünlüğünün<< sağlanmasının, 
+bağımsızlık statüsü kazanmaktan çok daha önemli bir mesele olduğunu 
+iki kez söylemişti.
+
+    <e><p><l>üstünlük<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+308 baz<n>: Demokrat Parti (DS) ve Voyvodina partileri, Sırbistan'ın merkeziyetçilikten 
+kurtulması ve bölgeler >>bazında<< asimetrik şekilde düzenlenmesi, 
+Voyvodina'nın da özel geçmişi nedeniyle bu düzende özerk bir eyalet 
+olarak yer alması görüşünü savunuyorlar.
+
+    <e><p><l>baz<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+307 sonbahar<n>: Sevk üsleri daimi kuvvetlere göre daha hızlıdır ve NATO doğuya doğru 
+genişlerken, müttefiklerimizle olan işbirliği ve sıkı çalışmanın 
+sonucu olarak görülebilir.SE Times: NATO, Hızlı Yanıt Gücü'nün 
+oluşumunun >>sonbaharda<< tamamlanacağını açıkladı.
+
+    <e><p><l>sonbahar<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+306 yönetmen<n>: Pandomim topluluğunun >>yönetmeni<< Gjergj Tola'nın söylediği gibi, 
+"Toplumumuzun liderleri, entellektüeller, öğrenciler, öğretmenler, 
+toplumun her kesiminden vatandaşlar!
+
+    <e><p><l>yönetmen<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+306 nitelik<n>: Turizm, gelir ve istihdam açısından ülkede kilit >>niteliği<< taşıyan 
+bir sektor.
+
+    <e><p><l>nitelik<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+306 adem<n>: Uygulamaya nezaret eden yerel yönetişim ve >>ademi<< merkeziyet bakanlığı 
+yalnızca yeni adresleri belirlemekle kalmayıp, aynı zamanda hali hazırda 
+mevcut olanları tamamlamak ve uluslararası standartlara uygun sokak 
+işaretleri yerleştirmeyi de planlıyor.
+
+    <e><p><l>adem<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+305 yarışma<n>: Suçlamalar, şüphelileri resmen suçlayıp suçlamamak üzerinde karar 
+vermeden önce olay üzerinde bir soruşturma yürütecek olan Belgrad bölge 
+savcısı ofisiyle birlikte yapıldı.İsmi açıklanmayan bir polis memuru, 
+"Miloşeviç'in Stamboliç'in süresiz olarak uzaklaştırılmasını 
+istemesiyle ilgili elimizde kanıt var," dedi.Stamboliç, sonradan hasmı olan 
+eski yandaşı Miloşeviç'e karşı >>yarışmasının<< beklendiği 
+cumhurbaşkanlığı seçimlerinden yalnızca birkaç hafta önce, 25 Ağustos 
+2000 tarihinde sabah koşusunu yaparken ortadan kaybolmuştu.
+
+    <e><p><l>yarışma<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+305 müttefik<n>: Savaş Suçları Mahkemesi, Eski Cumhurbaşkanı ve bir zamanlar Slobodan 
+Miloşeviç'in yakın bir >>müttefiki<< olan Milan Milutinoviç'i yargılamak 
+istiyor, dolayısı ile görev süresi sona eren Milutinoviç'in Lahey'e 
+gitmesi yüksek bir olasılık.Ne var ki, iki yıl önce el ele vererek 
+Miloşeviç'i alaşağı eden reformcular ve "demokratik milliyetçiler" 
+arasında süregiden mücadele şu nda yargılanmakta olan savaş suçu 
+sanıklarına ve onların destekçilerine bir iki yıl içinde Sırbistan 
+siyasi sahnesinde yeniden rol alma şansı tanıyabilir.29 Eylül'de 
+gerçekleştirilen ilk cumhurbaşkanlığı seçimleri ile bu seçimi izleyen 
+13 Ekim'deki ikinci tur oylama geçersiz sayıldı.
+
+    <e><p><l>müttefik<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+304 çözme<n>: Venedik Komisyonu, üye ülkelerin anayasayla ilgili sorunlarını 
+>>çözmelerinde<< yardımcı olmak amacıyla 1990 yılında kuruldu.Yeni Sırp 
+Anayasasının yürürlüğe konması, iktidardaki DOS koalisyonunun seçim 
+öncesi verdiği en büyük sözlerden biriydi.
+
+    <e><p><l>çözme<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+302 gücün<n>: 
+    <e><p><l>gücün<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
+302 görüşme<n><: Okul müdürleri ve gençlik grubu liderleri ile yapılan ön >>görüşmeler<< 
+yolu ile gençler MKK hakkında bilgi sahibi olup geleceğe ilişkin 
+planlarını tartışıyorlar.
+
+    <e><p><l>görüşme<s n="n"/><</l><r>@<s n="n"/><</r></p></e>
+
+================================================================================
+301 kal<n>: Bu oran, Kosova'yı Avrupa'da eroin kullanımının yaygın olduğu bölgeler 
+sıralamasında üst sıralara taşıyıverdi.Polisin bu duruma yanıtı ise 
+sembolik düzeyde >>kaldı<<.
+
+    <e><p><l>kal<s n="n"/></l><r>@<s n="n"/></r></p></e>
+
+================================================================================
 
 ================================================================================
 
