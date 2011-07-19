@@ -138,7 +138,12 @@ Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ;
 !%{I%}:0 <=> :SurVow (%>:) _ ;
 !%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \п ;
 !%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \[ п | .#. ] ;
-%{I%}:0 <=> [ :SurVow | %{n%}:н ]/[ [ :0 - й:0 ] | %>: ] _ \[ п ] ;
+!%{I%}:0 <=> [ :SurVow | %{n%}:н ]/[ [ :0 - й:0 ] | %>: ] _ \[ п ] ;
+!%{I%}:0 <=> [ :SurVow | %{n%}:н ]/[ [ :0 - й:0 ] | %>: | %{N%}:0 ] _ \[ п ] ;
+%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \[ п ] ;
+
+"Deletion of {I} after {n}"
+%{I%}:0 <=> %{n%}:н/[ :0 | %>: ] _ \[ п ];
 
 !"Vowel deletion for archiphoneme {I} in <cv_perf>"
 !!%{I%}:0 <=> [ :SurVow | :LowVow :LabialCns ]  (%>:) _ п ;
@@ -208,7 +213,10 @@ Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ;
 !%{I%}:Vy <=> :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns ] ]/[ :0 | %>: ] _ \п: ;
 !%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | [ :0 - %{N%}: ] ] _ \п: ;
 !%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}:н ] ] ]/[ %>: | :0 ] _ \п: ;
-%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: | %{N%}: ] ] ]/[ %>: | :0 ] _ \п: ;
+!%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: | %{N%}: ] ] ]/[ %>: | :0 ] _ \п: ;
+!%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: | %{N%}:0 ] ] ]/[ %>: | :0 ] _ \п: ;
+!%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}:н ] ] ]/[ %>: | :0 ] _ \п: ;
+%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | :0 ] _ \п: ;
   where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
