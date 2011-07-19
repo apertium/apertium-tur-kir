@@ -781,8 +781,10 @@ LEXICON Determiners
 кээ% бир DET-QNT ; ! "some"
 бир% нече DET-QNT ; ! "some, several"
 көптөгөн DET-QNT ; ! "many"
+канча DET-QNT ; ! "how many"  ! FIXME: not <itg> somehow?
+канчалык DET-QNT ; ! "how many"  ! FIXME: this is really an adverb
 
-кайсыл:кайсы DET-ITG ; ! "which?"
+кайсыл:кайсы DET-ITG ; ! "which?" ! FIXME: need morph to fix
 
 LEXICON Pronouns
 
@@ -3038,7 +3040,7 @@ LEXICON NounStems
 үркүү N-INFL ; 
 уролог N-INFL ; 
 урология N-INFL ; 
-үстү N-INFL ; 
+үст N-INFL ; 
 уста N-INFL ; 
 устат N-INFL ; 
 утопия N-INFL ; 
@@ -5481,7 +5483,7 @@ LEXICON AdjecStems
 капалуу ADJ ;
 оюнан% чыгарылган ADJ ;
 жалган ADJ ;
-жол% үстү ADJ ;
+жол% үстү ADJ ; ! what?
 үч% бурчтук ADJ ;
 тропикалык ADJ ;
 кумаркеч ADJ ;
@@ -5675,7 +5677,8 @@ LEXICON AdvStems
 азыр ADV ; 
 дайыма ADV ; 
 толугу% менен ADV ; 
-андай ADV ; ! FIXME
+андай ADV ; ! FIXME: adjective / adverb
+анча ADV ; ! FIXME: adverb really
 мындай ADV ; ! FIXME
 кеч ADV ; 
 дароо ADV ; ! "immediately"
