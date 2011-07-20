@@ -207,13 +207,15 @@ CASES-DEFAULT ;
 LEXICON GEN-POS
 CASES ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
-%<rloc%>:%>%{D%}%{A%}г%{I%} CASES ;
+%<rloc%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
+!%<rloc%>:%>%{D%}%{A%}г%{I%} CASES ;
 !%<rloc%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
 
 LEXICON GEN-POS-PX12SG
 CASES-PX12SG ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
-%<rloc%>:%>%{D%}%{A%}г%{I%} CASES ;
+%<rloc%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
+! %<rloc%>:%>%{D%}%{A%}г%{I%} CASES ;
 !%<rloc%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
 
 !! LEXICON GEN-POS-SHORT-ACC
@@ -278,6 +280,12 @@ LEXICON ADJ-LEVELS
 LEXICON ADJ-COMMON
 
 %<n%>: POSSESSION ;  ! all adjectives can be used as nouns
+
+LEXICON ADJ-DAGI
+
+! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of CASES
+%<n%> CASES ;
+%<adj%>%<pst%>: ;
 
 LEXICON V-ADJ
 
@@ -1213,9 +1221,10 @@ LEXICON NounStems
 бут N-INFL ; 
 бысмылда N-INFL ; 
 бычым N-INFL ; 
-бээ N-INFL ; ! ""
+бээ N-INFL ; ! "mare"
 бүлөө N-INFL ; 
-үй% бүлөө N-INFL ; ! ""
+үй% бүлөө N-INFL ; ! "" FIXME
+үй% бүлө N-INFL ; ! "family"
 бөбөк N-INFL ; 
 бөз N-INFL ; 
 гүл N-INFL ; 
@@ -1223,7 +1232,7 @@ LEXICON NounStems
 дарек N-INFL ; 
 дене N-INFL ; 
 дүйнө N-INFL ;  ! "world" (?)
-дүнүйө N-INFL ; ! "world" (?)
+дүнүйө N-INFL ; ! "world" (?) FIXME
 жаз N-INFL ; ! "spring"
 жай N-INFL ; ! "summer"
 жан N-INFL ; ! "jan"
@@ -1234,7 +1243,7 @@ LEXICON NounStems
 жылдыз N-INFL ; ! "star"
 !жүз N-INFL ;  Not a noun, -- Numeral
 зайып N-INFL ; 
-заң N-INFL ; ! "law"
+заң N-INFL ; ! "law"  FIXME: Kazakh?
 илим N-INFL ; ! "science"
 илимпоз N-INFL ; ! "scientist"
 индустрия N-INFL ; 
@@ -1266,7 +1275,7 @@ LEXICON NounStems
 ини N-INFL ; ! "younger brother"
 омийин N-INFL ; 
 пул N-INFL ; 
-саат N-INFL ; !"watch"
+саат N-INFL ; ! "watch"
 сабак N-INFL ; 
 саз N-INFL ; 
 сулуу N-INFL ; ! "" 
@@ -3598,7 +3607,7 @@ LEXICON NounStems
 ракета N-INFL ; 
 маанисиз N-INFL ; 
 туура% эмес N-INFL ; 
-туу N-INFL ; "banner/flag"
+туу N-INFL ; ! "banner/flag"
 кайгы N-INFL ; 
 премия N-INFL ; 
 жеңиш N-INFL ; 
