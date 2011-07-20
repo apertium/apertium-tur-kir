@@ -130,6 +130,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 "Intervocalic voicing of п everywhere except in <cv_perf>"
 !п:б <=> :SurVow _ %>: [ :SurVow ]/[ :0 ] \[ п ] ; 
 !п:б <=> :SurVow _ %>: [ [ [ :SurVow ]/[ :0 ] ] - [ %{I%}: п ] ] ;
+!п:б <=> :SurVow _ %>: [ [ (:0) :SurVow ] - $[ %{I%}: п ] ] ;
 п:б <=> :SurVow _ %>: [ [ (:0) :SurVow ] - [ %{I%}: п ] ] ;
 
 "Intervocalic voicing of к everywhere"
@@ -297,8 +298,8 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 !"Deletion of п at end of verb stem before {I}п <cv_perf>"
 !п:0 <=> :LowVow _ %>: %{I%}: п ;
 
-!"Deletion of п at end of verb stem in <cv_perf>"
-!п:0 <=> _ %>: %{I%}:0 п ;
+"Deletion of п at end of verb stem in <cv_perf>"
+п:0 <=> _ %>: %{I%}:0 п ;
 !п:0 <=> :LowVow _ %>: %{I%}: п ;
 
 !"Deletion of {I} after м at end of verb stem in <cv_perf>"
