@@ -7,20 +7,22 @@ Config:
 Tests:
 
   "[twol] Yotification":
-    кой<v><tv><cv_perf> : коюп
+    кой<v><tv><prt_perf> : коюп
     кой<v><tv><inf><nom> : коюу
-    кой<v><tv><cv_impf> : коё
-    тий<v><tv><cv_impf> : тие
-    жай<v><tv><cv_impf> : жая
-    саба<v><tv><cv_impf> : сабай
-    боё<v><tv><cv_impf> : боёй
+    кой<v><tv><prt_impf> : коё
+    тий<v><tv><prt_impf> : тие
+    жай<v><tv><prt_impf> : жая
+    саба<v><tv><prt_impf> : сабай
+    боё<v><tv><prt_impf> : боёй
+    бой<n><px3sg><nom> : бою
+    бой<n><px3sg><acc> : боюн
 
   "[twol] м and п stuff":
-    тап<v><tv><cv_perf> : таап
-    өп<v><tv><cv_perf> : өөп
-    теп<v><tv><cv_perf> : тээп
-    там<v><iv><cv_perf> : таамп
-    эм<v><iv><cv_perf> : ээмп
+    тап<v><tv><prt_perf> : таап
+    өп<v><tv><prt_perf> : өөп
+    теп<v><tv><prt_perf> : тээп
+    там<v><iv><prt_perf> : таамп
+    эм<v><iv><prt_perf> : ээмп
 
   "[twol] {I}{l} passives":
     тап<v><tv><pass><inf><nom> : табылуу
@@ -29,6 +31,8 @@ Tests:
     талкала<v><tv><pass><inf><nom> : талкалануу
 
   "[lexc] Infinitive -{U}{U}":
+    айт<v><iv><inf><nom> : айтуу
+    тарт<v><iv><inf><nom> : тартуу
     бол<v><iv><inf><nom> : болуу
     сүй<v><tv><inf><nom> : сүйүү
     окшо<v><iv><inf><nom> : окшоо
@@ -43,10 +47,13 @@ Tests:
     боё<v><tv><inf><nom> : боёо
 
   "[twol] {I} deletion":
-    бол<v><iv><cv_perf> : болуп
-    айт<v><iv><cv_perf> : айтып
-    айт<v><tv><cv_perf> : айтып
-    жет<v><iv><cv_perf> : жетип
-    сүй<v><tv><cv_perf> : сүйүп
-    иште<v><iv><cv_perf> : иштеп
-    саба<v><tv><cv_perf> : сабап
+    бол<v><iv><prt_perf> : болуп
+    айт<v><iv><prt_perf> : айтып
+    айт<v><tv><prt_perf> : айтып
+    жет<v><iv><prt_perf> : жетип
+    сүй<v><tv><prt_perf> : сүйүп
+    иште<v><iv><prt_perf> : иштеп
+    саба<v><tv><prt_perf> : сабап
+
+  "[twol] random vociing stuff":
+    чык<v><iv><prt_perf> : чыгып
