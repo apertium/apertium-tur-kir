@@ -11,17 +11,29 @@ Tests:
 
   "[twol] L desonorisation":
     адам<n><pl><nom> : адамдар
+    адам<n><pl><nom>+э<cop><p3><sg> : адамдар
+    адам<n><pl><nom>+э<cop><p3><pl> : адамдар
 
   "[twol] Double vowel harmony in suffix":
     дүйнө<n><rloc><nom> : дүйнөдөгү
+    дүйнө<n><rloc><nom>+э<cop><p3><sg> : дүйнөдөгү
+    дүйнө<n><rloc><nom>+э<cop><p3><pl> : дүйнөдөгү
 
   "[lexc] 1st person singular possessive":
     ат<n><px1sg><nom> : атым
+    ат<n><px1sg><nom>+э<cop><p3><sg> : атым
+    ат<n><px1sg><nom>+э<cop><p3><pl> : атым
     салт<n><px1sg><nom> : салтым
+    салт<n><px1sg><nom>+э<cop><p3><sg> : салтым
+    салт<n><px1sg><nom>+э<cop><p3><pl> : салтым
 
   "[lexc] 1st person plural noun singular possessive":
     ат<n><pl><px1sg><nom> : аттарым
+    ат<n><pl><px1sg><nom>+э<cop><p3><sg> : аттарым
+    ат<n><pl><px1sg><nom>+э<cop><p3><pl> : аттарым
     салт<n><pl><px1sg><nom> : салттарым
+    салт<n><pl><px1sg><nom>+э<cop><p3><sg> : салттарым
+    салт<n><pl><px1sg><nom>+э<cop><p3><pl> : салттарым
 
   "[lexc] 1st person plural possessive":
     ат<n><px1pl><nom> : атыбыз
