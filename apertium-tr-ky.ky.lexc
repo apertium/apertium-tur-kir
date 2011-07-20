@@ -204,7 +204,8 @@ CASES-DEFAULT ;
 LEXICON GEN-POS
 CASES ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
-%<rloc%>:%>%{D%}%{A%}г%{I%} V-ADJ ;
+%<rloc%>:%>%{D%}%{A%}г%{I%} CASES ;
+!%<rloc%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
 
 LEXICON GEN-POS-PX12SG
 CASES-PX12SG ;
@@ -1315,6 +1316,7 @@ LEXICON NounStems
 доктор N-INFL ; ! "doctor"
 форма N-INFL ; ! "form"
 ит N-INFL ; ! "dog"
+эпос N-INFL ; ! "epic"
 
 студент N-INFL ;  ! "student"
 комитет N-INFL ;  ! "committee"
@@ -2635,7 +2637,6 @@ LEXICON NounStems
 сакал N-INFL ; 
 сагызган N-INFL ; 
 салон N-INFL ; 
-салтанат N-INFL ; 
 башкаруу N-INFL ; 
 сандвич N-INFL ; 
 сенсация N-INFL ; 
@@ -3596,6 +3597,7 @@ LEXICON NounStems
 ракета N-INFL ; 
 маанисиз N-INFL ; 
 туура% эмес N-INFL ; 
+туу N-INFL ; "banner/flag"
 кайгы N-INFL ; 
 премия N-INFL ; 
 жеңиш N-INFL ; 
@@ -3611,9 +3613,9 @@ LEXICON NounStems
 уранды N-INFL ; 
 өткөн N-INFL ; 
 өтмөк N-INFL ; 
-келечек N-INFL ; 
-салт N-INFL ; 
-гелин N-INFL ; 
+келечек N-INFL ; ! "the future"
+салт N-INFL ; ! "a tradition"
+келин N-INFL ; ! "daughter-in-law"
 киреше N-INFL ; 
 кэме N-INFL ; 
 жаш N-INFL ; 
@@ -3952,13 +3954,13 @@ LEXICON NounStems
 класс N-INFL ; 
 команда N-INFL ; ! "team"
 
-дүйшөмбү N-INFL ; ! "Sunday"
-шейшемби N-INFL ; ! ""
-шаршемби N-INFL ; ! ""
-бейшемби N-INFL ; ! ""
-жума N-INFL ; ! ""
-ишемби N-INFL ; ! ""
-жекшемби N-INFL ; ! "Saturday"
+дүйшөмбү N-INFL ; ! "Monday"
+шейшемби N-INFL ; ! "Tuesday"
+шаршемби N-INFL ; ! "Wednesday"
+бейшемби N-INFL ; ! "Thursday"
+жума N-INFL ; ! "Friday"
+ишемби N-INFL ; ! "Saturday"
+жекшемби N-INFL ; ! "Sunday"
 достук N-INFL ;
 өтпөй% калуу N-INFL ;
 кызыгуу N-INFL ;
@@ -4216,7 +4218,6 @@ LEXICON NounStems
 тажрыйба N-INFL ;
 уюм N-INFL ;
 мекеме N-INFL ;
-кыска
 эркин N-INFL ;
 маани N-INFL ;
 евро N-INFL ;
@@ -6094,6 +6095,8 @@ LEXICON VerbStems
 алын V-INFL ;
 катыш V-INFL-TV ;
 сарсанаа% тарт V-INFL-TV ;
+ээле V-INFL-TV ; ! "to occupy"
+корот V-INFL-TV ; ! "to waste"
 
 
 тый V-INFL-IV ;
@@ -6256,8 +6259,10 @@ LEXICON VerbStems
 жокко% чыгар V-INFL-TV ;
 көрүн V-INFL-IV ;
 жаз V-INFL-TV ;
-туул V-INFL-TV ;
-төрөл V-INFL-TV ;
+туу V-INFL-TV ; ! "to bear young"
+туул V-INFL-IV ; ! "to be born" (of non-humans) FIXME: productive
+төрө V-INFL-TV ; ! "to bear child"
+төрөл V-INFL-IV ; ! "to be born" (of humans) FIXME: productive!
 аныкта V-INFL-TV ;
 белгиле V-INFL-TV ;
 шектен V-INFL-TV ;

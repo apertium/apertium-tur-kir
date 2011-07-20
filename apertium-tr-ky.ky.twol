@@ -117,15 +117,23 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 
 !!!!!!!!!!!!   Consonant stuff  !!!!!!!!!!!!!
 
-"Voiceless non-coronal stop voicing"
-!Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ; 
-!Cx:Cy <=> :SurVow _ WildNonPhon* :SurVow ;
-!Cx:Cy <=> :SurVow _ [ WildNonPhon: | :WildNonPhon ]* :SurVow ;
-Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ; 
-        where Cx in (  п   к  )
-              Cy in (  б   г  )
-              matched ;
+!"Voiceless non-coronal stop voicing"
+!!Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ; 
+!!Cx:Cy <=> :SurVow _ WildNonPhon* :SurVow ;
+!!Cx:Cy <=> :SurVow _ [ WildNonPhon: | :WildNonPhon ]* :SurVow ;
+!!Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ; 
+!Cx:Cy <=> :SurVow _ %>: [ :SurVow ]/[ :0 ] \п ; 
+!        where Cx in (  п   к  )
+!              Cy in (  б   г  )
+!              matched ;
 
+"Intervocalic voicing of п everywhere except in <cv_perf>"
+!п:б <=> :SurVow _ %>: [ :SurVow ]/[ :0 ] \[ п ] ; 
+!п:б <=> :SurVow _ %>: [ [ [ :SurVow ]/[ :0 ] ] - [ %{I%}: п ] ] ;
+п:б <=> :SurVow _ %>: [ [ (:0) :SurVow ] - [ %{I%}: п ] ] ;
+
+"Intervocalic voicing of к everywhere"
+к:г <=> :SurVow _ %>: [ :SurVow ]/[ :0 ] ;
 
 !!!!!!!!!!!!   Deletion   !!!!!!!!!!!!!!!!
 
@@ -263,7 +271,8 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
                matched ;
 
 "Deletion of й before yoticised vowels"
-й:0 <=> _ WildNonPhon* :YotVow ;
+!й:0 <=> _ WildNonPhon* :YotVow ;
+й:0 <=> _ [ :YotVow ]/[ :0 | %>: ] ;
 
 
 !!!!!!!!!!!  {I}п crap !!!!!!!!!!!!!
@@ -288,9 +297,9 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 !"Deletion of п at end of verb stem before {I}п <cv_perf>"
 !п:0 <=> :LowVow _ %>: %{I%}: п ;
 
-"Deletion of п at end of verb stem in <cv_perf>"
+!"Deletion of п at end of verb stem in <cv_perf>"
 !п:0 <=> _ %>: %{I%}:0 п ;
-п:0 <=> :LowVow _ %>: %{I%}: п ;
+!п:0 <=> :LowVow _ %>: %{I%}: п ;
 
 !"Deletion of {I} after м at end of verb stem in <cv_perf>"
 !!%{I%}:0 <=> :LowVow :0 м %>: _ п ;
@@ -337,7 +346,8 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 !Vx:Vy <=> :LastVowel [ %>: | :0 ]* _ ; 
 !Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
 !%{U%}:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
-%{U%}:Vy <=> [ :LastVowel [ Cns - й ] ]/[ [ :0 - й:0 ] | %>: ] _ ;
+!%{U%}:Vy <=> [ :LastVowel [ Cns - й ] ]/[ [ :0 - й:0 ] | %>: ] _ ;
+%{U%}:Vy <=> [ :LastVowel Cns* [ Cns - й: ] ]/[ [ :0 - й:0 ] | %>: ] _ ;
 !        where Vx         in ( %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} )
          where Vy         in (   ү     ү     ү     ү     ү     у     у     у     у     у     у     у   )
                LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
