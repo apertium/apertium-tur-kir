@@ -20,10 +20,10 @@ Multichar_Symbols
 %<cnjcoo%>  ! Coordinating conjunction
 %<cnjadv%>  ! Adverbial conjunction
 %<cnjsub%>  ! Subordinating conjunction
+%<cop%>     ! Copula
 
 %<iv%>      ! Intransitive 
 %<tv%>      ! Transitive
-%<TD%>      ! Transitivity to be determined
 
 %<nom%>     ! Nominative
 %<acc%>     ! Accusative
@@ -98,10 +98,12 @@ Multichar_Symbols
 %<prt_cond%>
 %<prt_perf%>
 %<prt_impf%>
+
 %<ger_fut%>
 %<ger_past%>
 %<ger_pres%>
-%<ger_gnrl%>
+%<ger%>
+
 %<vadj_fut%>
 %<vadj_pot2%>
 %<vadj_perf%>
@@ -149,6 +151,7 @@ Multichar_Symbols
 LEXICON Root
 
 !NumeralList ;
+Copula ;
 Particles ;
 Postpositions ;
 Conjunctions ;
@@ -516,14 +519,14 @@ LEXICON V-PERS-POSS ! P_2
 
 LEXICON V-PERS-COP ! P_3
 
-%+cop%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
-%+cop%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
-%+cop%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
-%+cop%<p3%>%<sg%>: V-CLIT ; 
-%+cop%<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
-%+cop%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
-%+cop%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
-%+cop%<p3%>%<pl%>: V-CLIT ; 
+%+э%<cop%>%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
+%+э%<cop%>%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
+%+э%<cop%>%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
+%+э%<cop%>%<p3%>%<sg%>: V-CLIT ; 
+%+э%<cop%>%<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
+%+э%<cop%>%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
+%+э%<cop%>%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
+%+э%<cop%>%<p3%>%<pl%>: V-CLIT ; 
 
 LEXICON V-PERS-PAST ! P_4
 
@@ -598,7 +601,7 @@ LEXICON V-INFL-COMMON
 %<ger_fut%>:%>%{A%}%{A%}р POSSESSION ;                        ! Dir/LR
 %<ger_past%>:%>%{G%}%{A%}н POSSESSION ;
 %<ger_pres%>:%>%{I%}ш POSSESSION ;
-%<ger_gnrl%>:%>%{U%}%{U%} POSSESSION ;
+%<ger%>:%>%{U%}%{U%} POSSESSION ;
 
 ! Verbal Adjectives
 %<vadj_fut%>:%>%{A%}р V-ADJ ;
@@ -637,12 +640,6 @@ LEXICON V-INFL-COMMON
 %<neg%>%<past%>:%>%{B%}%{A%}%>%{G%}%{A%}н V-PERS-COP ;        ! 
 %<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP ;           ! 
 %<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP ;              ! 
-
-LEXICON V-INFL ! to be deleted
-
-%<v%>%<TD%>: V-INFL-COMMON ;
-%<v%>%<TD%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                    ! 
-%<v%>%<TD%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
 
 LEXICON V-INFL-TV-SHORT
 
@@ -691,6 +688,10 @@ LEXICON V-INFL-IV-IRREG-CAUS
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Copula
+
+э%<cop%>%<ger%>:экен POSSESSION ;
 
 LEXICON Particles 
 
@@ -4461,6 +4462,7 @@ LEXICON NounStems
 процедура N-INFL ;
 кызыкчылык N-INFL ;
 станция N-INFL ;
+далай N-INFL ;
 божомол N-INFL ;
 каршылык N-INFL ;
 тендер N-INFL ;
@@ -5290,6 +5292,7 @@ LEXICON AdjecStems
 чийки ADJ ;
 туруктуу ADJ ;
 чыдамдуу ADJ ;
+тирүү ADJ ; ! "alive"
 күнөөсуз ADJ ;
 жумшак ADJ ;
 жаңы ADJ ;
@@ -5762,7 +5765,7 @@ LEXICON AdvStems
 сөзсүз ADV ; 
 кээбири ADV ; 
 түндөсү ADV ; 
-далай ADV ; 
+!далай ADV ; 
 болоорунча ADV ; 
 өзүндөй ADV ; 
 барган% сайын ADV ; 
@@ -5898,7 +5901,6 @@ LEXICON VerbStems
 аракет% кыл V-INFL-TV ; ! "try"
 арна V-INFL-IV ; 
 аякта V-INFL-TV ; 
-бак V-INFL ; 
 башта V-INFL-TV ; 
 без V-INFL-IV ; 
 билдир V-INFL-TV ; 
@@ -5906,11 +5908,8 @@ LEXICON VerbStems
 боё V-INFL-TV ; 
 буз V-INFL-TV ; 
 бузул V-INFL-IV ; 
-буйрук% бер V-INFL ; 
 була V-INFL-TV ; 
 бурул V-INFL-IV ; 
-бута V-INFL ; 
-буу V-INFL ; 
 буйру V-INFL-IV ; 
 бырыштыр V-INFL-TV ; 
 быч V-INFL-TV ; 
@@ -5920,16 +5919,13 @@ LEXICON VerbStems
 бөл V-INFL-TV ; ! "divide"
 кий V-INFL-TV ; 
 гэр V-INFL-TV ; 
-дала V-INFL ; 
 даярда V-INFL-TV ; 
 элестет V-INFL-TV ; ! "imagine"
-жаа V-INFL ; 
 жай V-INFL-TV ; ! "hang out to dry", "spread out"
 жан V-INFL-IV ; 
 жаркыра V-INFL-IV ; 
 жарыл V-INFL-IV ; 
 жаша V-INFL-IV ; 
-же V-INFL ; ! "eat"
 жибер V-INFL-TV ; ! "send"
 тан V-INFL-TV ;
 жинден V-INFL-IV ; ! "get angry"
@@ -5961,7 +5957,7 @@ LEXICON VerbStems
 кир V-INFL-IV ; ! "enter"
 кир V-INFL-TV
 кооздо V-INFL-TV ; 
-корго V-INFL ; 
+
 кош V-INFL-TV ; 
 кошомат% кыл V-INFL-TV ; 
 коңурук% тарт V-INFL-IV ; 
@@ -5973,7 +5969,6 @@ LEXICON VerbStems
 кучакта V-INFL-TV ; 
 кый V-INFL-TV ; 
 кыйна V-INFL-TV ; 
-кыйнал V-INFL ;
 кырк V-INFL-TV ; 
 кыс V-INFL-TV ; 
 азайт V-INFL-TV ;
@@ -5985,7 +5980,6 @@ LEXICON VerbStems
 көрсөт V-INFL-TV ; ! "show"
 макта V-INFL-TV ; ! "brag about"
 мактан V-INFL-IV ; ! "brag"
-мин V-INFL ; 
 муунт V-INFL-TV ; 
 мыйооло V-INFL-IV ; ! "meow"
 оз V-INFL-IV ; 
@@ -5995,7 +5989,6 @@ LEXICON VerbStems
 ор V-INFL-TV ; 
 оро V-INFL-TV ; 
 отто V-INFL-IV ; 
-отур V-INFL ; ! "sit"
 пайда% кыл V-INFL-TV ; 
 парала V-INFL-TV ; 
 планда V-INFL-TV ; 
@@ -6003,7 +5996,6 @@ LEXICON VerbStems
 сагын V-INFL-TV ; 
 сайра V-INFL-IV ; 
 салаңда V-INFL-IV ; 
-салкында V-INFL ; 
 сез V-INFL-TV ; 
 сик V-INFL-TV ; 
 сиң V-INFL-IV ; 
@@ -6089,10 +6081,8 @@ LEXICON VerbStems
 өч V-INFL-IV-NO-CAUS ; ! "turn off"
 өч:өчүр V-INFL-IV-IRREG-CAUS ; ! "make turn off"
 сиңир V-INFL-TV ;
-тир V-INFL ;
 уч V-INFL-IV ;
 өп V-INFL-TV ; ! to kiss"
-алын V-INFL ;
 катыш V-INFL-TV ;
 сарсанаа% тарт V-INFL-TV ;
 ээле V-INFL-TV ; ! "to occupy"
@@ -6108,10 +6098,8 @@ LEXICON VerbStems
 аткар V-INFL-IV ;
 
 жазыл V-INFL-TV ;
-жоолук V-INFL ;
 кайрыл V-INFL-TV ;
 мин V-INFL-TV ; 
-муунт V-INFL ; 
 !секир V-INFL-TV ; ! HOW?!
 секир V-INFL-IV ; 
 уюштур V-INFL-TV ;
@@ -6411,6 +6399,23 @@ LEXICON VerbStems
 таанып% бил V-INFL-TV ;
 
 сүйөн V-INFL-TV ; ! "lean"
+
+алын V-INFL-IV ; ! "be taken"
+бак V-INFL-TV ; ! "look after"
+буйрук% бер V-INFL-IV ; ! "give an order"
+жаа V-INFL-IV ; ! "precipitate"
+же V-INFL-TV ; ! "eat"
+кыйнал V-INFL-IV ; ! "have a tough time"
+мин V-INFL-TV ; ! "ride"
+отур V-INFL-IV ; ! "sit"
+салкында V-INFL-IV ; ! "cool off"
+жоолук V-INFL-TV ; ! "meet with"
+корго V-INFL-TV ; ! "protect"
+бута V-INFL-TV ; ! "chop branch off tree"
+буу V-INFL-TV ; ! "tie tightly"
+муунт V-INFL-TV ; ! "suffocate, strangle"
+далай V-INFL-IV ; ! "wither"
+
 
 LEXICON Abbreviations
 
