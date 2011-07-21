@@ -44,6 +44,7 @@ Multichar_Symbols
 %<qnt%>     ! Quantifier
 %<itg%>     ! Interrogative
 %<ref%>     ! Reflexive
+%<recip%>   ! Reciprocal
 
 %<cmpd%>    ! Compound
 
@@ -510,6 +511,11 @@ LEXICON PRON-QNT
 
 %<prn%>%<qnt%>: CASES ;
 
+LEXICON PRON-RECIP
+
+%<prn%>%<recip%>: CASES ;
+
+
 LEXICON PRED
 V-PERS-COP ;
 V-CLIT ;  ! TODO: I guess these aren't technically necessary?
@@ -854,6 +860,8 @@ LEXICON Pronouns
 кээ% бир PRON-QNT ; ! "some"
 бир% нече PRON-QNT ; ! "some, several"
 көптөгөн PRON-QNT ; ! "many"
+
+бири-бир PRON-RECIP ; ! "each other, one another"
 
 LEXICON Numerals 
 
@@ -4557,10 +4565,9 @@ LEXICON NounStems
 мыйзам N-INFL ;
 офицер N-INFL ;
 чөйрө N-INFL ;
-американ<б/>кездеме N-INFL ;
+американ% кездеме N-INFL ;
 каникул N-INFL ;
 конверт N-INFL ;
-бири-бир N-INFL ;
 жашыруун N-INFL ;
 сын N-INFL ;
 айлык N-INFL ;
@@ -4931,6 +4938,121 @@ LEXICON NounStems
 топурак N-INFL ;
 бир% добуш N-INFL ;
 көз% караш N-INFL ;
+си N-INFL ;
+оюн N-INFL ;
+уюштуруу N-INFL ;
+макулдук N-INFL ;
+метр N-INFL ;
+материалдык N-INFL ;
+талап N-INFL ;
+чыгаша N-INFL ;
+консорциум N-INFL ;
+эсеп N-INFL ;
+шейит N-INFL ;
+товар N-INFL ;
+метан N-INFL ;
+координатор N-INFL ;
+терроризм N-INFL ;
+шерик N-INFL ;
+жабуу N-INFL ;
+даярдык N-INFL ;
+дарылоо N-INFL ;
+семинар N-INFL ;
+конуш N-INFL ;
+сапат N-INFL ;
+алдында N-INFL ;
+таш N-INFL ;
+деталь N-INFL ;
+мыкты N-INFL ;
+эс N-INFL ;
+таануу N-INFL ;
+иш% кана N-INFL ;
+чек N-INFL ;
+азайуу N-INFL ;
+каршы% болгон N-INFL ;
+гуманисттик N-INFL ;
+тройка N-INFL ;
+жөндөм N-INFL ;
+дуушар N-INFL ;
+чатышкан N-INFL ;
+тоскоол N-INFL ;
+антик N-INFL ;
+бөлүштүрмө N-INFL ;
+белгисиз N-INFL ;
+чечим N-INFL ;
+сигнал N-INFL ;
+аскер N-INFL ;
+туруктуу N-INFL ;
+гарантия N-INFL ;
+жок N-INFL ;
+чет% өлкөлүк N-INFL ;
+арноо N-INFL ;
+пайда N-INFL ;
+мафия N-INFL ;
+аркылуу N-INFL ;
+көзөмөл N-INFL ;
+учтагыч N-INFL ;
+кан N-INFL ;
+норма N-INFL ;
+генерал-полковник N-INFL ;
+валюта N-INFL ;
+үрүн N-INFL ;
+жобо N-INFL ;
+штаб N-INFL ;
+пайда% болуу N-INFL ;
+диагноз N-INFL ;
+ля N-INFL ;
+координация N-INFL ;
+азуу N-INFL ;
+филиал N-INFL ;
+манастырь N-INFL ;
+зордуктоо N-INFL ;
+жүкташыр N-INFL ;
+качуу N-INFL ;
+коридор N-INFL ;
+християн N-INFL ;
+кыймылсыз% мүлк N-INFL ;
+ыр N-INFL ;
+өмүр N-INFL ;
+билим% берүү N-INFL ;
+байкоо N-INFL ;
+мекен N-INFL ;
+медицина N-INFL ;
+камсыздандырма N-INFL ;
+борбор N-INFL ;
+митинг N-INFL ;
+өзгөрүү N-INFL ;
+табылга N-INFL ;
+кармоо N-INFL ;
+толкун N-INFL ;
+айлануу N-INFL ;
+таянган N-INFL ;
+механизм N-INFL ;
+политика N-INFL ;
+байланыш N-INFL ;
+таштоо N-INFL ;
+беш N-INFL ;
+анализ N-INFL ;
+аеропорт N-INFL ;
+пенсионер N-INFL ;
+документ N-INFL ;
+тышкы% көрүнүш N-INFL ;
+жайгашкан% жер N-INFL ;
+ак% пеилдүүлүк N-INFL ;
+төрт N-INFL ;
+көрсөтмө N-INFL ;
+жылдыз N-INFL ;
+генерал N-INFL ;
+тиеше N-INFL ;
+куттуктоо N-INFL ;
+жобо N-INFL ;
+жагдай N-INFL ;
+арачы N-INFL ;
+унаа N-INFL ;
+топурак N-INFL ;
+бир% добуш N-INFL ;
+көз% караш N-INFL ;
+
 
 LEXICON PropernounStems
 Алматы NP-TOP ;
