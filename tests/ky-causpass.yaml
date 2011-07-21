@@ -10,6 +10,7 @@ Tests:
     бол<v><iv><caus><ger><nom> : болдуруу
     бас<v><iv><caus><ger><nom> : бастыруу
     жак<v><iv><caus><ger><nom> : жактыруу
+    кач<v><iv><caus><ger><nom> : качтыруу
 
   "[twol] Regular causative -т":
     ээри<v><iv><caus><ger><nom> : ээритүү
@@ -18,6 +19,7 @@ Tests:
     иште<v><iv><caus><ifi><p1><sg> : иштеттим
     токто<v><iv><caus><ifi><p1><sg> : токтоттум
     ачы<v><iv><caus><vadj_past><pst> : ачыткан
+    салкында<v><iv><caus><prt_perf>: салкындатып
 
   "[lexc] Irregular causatives":
     отур<v><iv><caus><ger><nom> : отургузуу
@@ -33,3 +35,13 @@ Tests:
     жет<v><iv><caus><ger><nom> : жеткизүү
     өт<v><iv><caus><ger><nom> : өткөрүү
     өт<v><iv><caus><ger><nom> : өткөзүү
+
+  "[twol] Passives":
+    сез<v><tv><pass><ger><nom> : сезилүү
+    жаз<v><tv><pass><prt_perf> : жазылып
+
+  "[twol] Passives with verb stem in л":
+    мал<v><tv><pass><ger><nom> : малынуу
+    жала<v><tv><pass><prt_perf> : жаланып
+    бомбала<v><tv><pass><prt_perf> : бомбаланып
+    тил<v><tv><pass><prt_perf> : тилинип
