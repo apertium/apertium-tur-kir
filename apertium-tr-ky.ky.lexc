@@ -3656,7 +3656,7 @@ LEXICON NounStems
 кэме N-INFL ; 
 жаш N-INFL ; 
 көрсөтмө N-INFL ; 
-жалпы N-INFL ; 
+!жалпы N-INFL ;  ! ADJ
 чындык N-INFL ; 
 далил N-INFL ; 
 керек N-INFL ; 
@@ -5452,6 +5452,7 @@ LEXICON AdjecStems
 оор ADJ ; 
 кыйын ADJ ; 
 кенен ADJ ; 
+жалпы ADJ ;
 түштүк ADJ ; 
 кеч ADJ ; 
 жетиштүү ADJ ; 

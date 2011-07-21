@@ -263,14 +263,20 @@ class SimpleHtmlScraper(object):
 		self.filename = self.prefix+".%s.html" % self.aid
 		self.title = ""
 		self.content = ""
+		self.path = os.path.join(self.outdir, self.filename)
 	
 	def write(self):
-		with open(os.path.join(self.outdir, self.filename), 'w+') as f:
-			f.write(template('source', title=self.title, content=self.content))
+		if self.url_not_in_path():
+			with open(self.path, 'w+') as f:
+				f.write(template('source', title=self.title, content=self.content))
 	
 	def parse(self):
-		content = urllib.request.urlopen(self.url)
-		page = content.read().decode('utf-8')
-		myparser = MyHTMLParser()
-		myparser.feed(page)
-		(self.title, self.content) = myparser.get_pages()
+		if self.url_not_in_path():
+			content = urllib.request.urlopen(self.url)
+			page = content.read().decode('utf-8')
+			myparser = MyHTMLParser()
+			myparser.feed(page)
+			(self.title, self.content) = myparser.get_pages()
+
+	def url_not_in_path(self):
+		return not os.access(self.path, os.F_OK)
