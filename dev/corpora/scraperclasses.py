@@ -3,7 +3,6 @@
 import re, feedparser, urllib, os
 from bottle import template
 from hashlib import sha1
-from html_parser import MyHTMLParser
 
 class Scraper(object):
 
@@ -250,27 +249,3 @@ class Source(object):
 			#f.write('\n</div>\n');
 			#f.write(self.out_content);
 		#f.close();
-
-class SimpleHtmlScraper(object):
-	def url_to_aid(self, url):
-		return sha1(url.encode('utf-8')).hexdigest()
-
-	def __init__(self, prefix, url, outdir):
-		self.url = url
-		self.prefix = prefix
-		self.outdir = outdir
-		self.aid = self.url_to_aid(url)
-		self.filename = self.prefix+".%s.html" % self.aid
-		self.title = ""
-		self.content = ""
-	
-	def write(self):
-		with open(os.path.join(self.outdir, self.filename), 'w+') as f:
-			f.write(template('source', title=self.title, content=self.content))
-	
-	def parse(self):
-		content = urllib.request.urlopen(self.url)
-		page = content.read().decode('utf-8')
-		myparser = MyHTMLParser()
-		myparser.feed(page)
-		(self.title, self.content) = myparser.get_pages()
