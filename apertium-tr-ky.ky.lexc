@@ -1275,7 +1275,7 @@ LEXICON NounStems
 кап N-INFL ; ! "sack"
 кат N-INFL ; ! "mail"
 келесоо N-INFL ; 
-кеме N-INFL ; ! "boat"
+кеме N-INFL ; ! "ship"
 китеп N-INFL ; ! "book"
 кол N-INFL ; ! "hand"
 короо N-INFL ; ! ""
@@ -2031,12 +2031,12 @@ LEXICON NounStems
 категория N-INFL ; 
 катмар N-INFL ; 
 катык N-INFL ; 
-качыр N-INFL ; 
+качыр N-INFL ; ! "mule"
 каучук N-INFL ; 
 коога N-INFL ; 
 коон N-INFL ; 
 кайгы N-INFL ; 
-кайык N-INFL ; 
+кайык N-INFL ; ! "boat"
 казык N-INFL ; 
 кашык N-INFL ; 
 кепил N-INFL ; 
@@ -3497,7 +3497,7 @@ LEXICON NounStems
 фразеология N-INFL ; 
 көңүл N-INFL ; 
 дилбар N-INFL ; 
-тилек N-INFL ; 
+тилек N-INFL ; ! "wish"
 тил N-INFL ; 
 дин N-INFL ; 
 түп N-INFL ; 
@@ -5770,9 +5770,9 @@ LEXICON AdvStems
 жооп% оордуна ADV ; 
 даражада ADV ; 
 досчо ADV ; 
-атайын ADV ; 
+атайын ADV ; ! "purposely"
 тышкары ADV ; 
-мейли ADV ; 
+мейли ADV ; ! FIXME: interjection
 ошондой ADV ; 
 мурда ADV ; 
 караганда ADV ; 
@@ -5782,7 +5782,7 @@ LEXICON AdvStems
 ичкери ADV ; 
 эмне% үчүн ADV ; 
 бардыгын ADV ; 
-тилеке% каршы ADV ; 
+тилеке% каршы ADV ; ! "unfortunately"
 !алдында ADV ; 
 кечээ ADV ; 
 дайыма ADV ; 
@@ -5858,14 +5858,14 @@ LEXICON VerbStems
 бүт V-INFL-IV-NO-CAUS ; ! "to finish"
 бүт:бүтүр V-INFL-IV-IRREG-CAUS ; ! "to finish"
 де V-INFL-TV-SHORT ; ! "say"
-жаз V-INFL-TV ; 
-жайгаш V-INFL-IV ;
+жаз V-INFL-TV ; ! "write"
+жайгаш V-INFL-IV ; ! "be located"
 жарыяла V-INFL-TV ;
 жаса V-INFL-IV ;
 жат V-INFL-IV ; ! "come"
 же V-INFL-TV-SHORT ; ! "eat"
-жет V-INFL-IV ; 
-жет V-INFL-TV ;
+!жет V-INFL-IV ; 
+!жет V-INFL-TV ;
 жүр V-INFL-TV ;
 ич V-INFL-TV ; ! "drink"
 иште V-INFL-IV ;  ! "work"
@@ -5873,8 +5873,8 @@ LEXICON VerbStems
 кара V-INFL-TV ;
 көрүн V-INFL-TV ;
 кат V-INFL-TV ; 
-кач V-INFL-IV ;
-кач V-INFL-TV ;
+кач V-INFL-IV ; 
+!кач V-INFL-TV ; ! eh?
 кел V-INFL-IV ; ! "come"
 кет V-INFL-IV-NO-CAUS ; ! "go"
 кет:кетир V-INFL-IV-IRREG-CAUS ; ! "to make go"
@@ -5918,7 +5918,7 @@ LEXICON VerbStems
 өл V-INFL-IV ; ! "die"
 өт V-INFL-IV-NO-CAUS ; ! "pass"
 өт:өткөр V-INFL-IV-IRREG-CAUS ; ! "pass"
-өт:өткөз V-INFL-IV-IRREG-CAUS ; ! "pass"
+өт:өткөз V-INFL-IV-IRREG-CAUS ; ! "pass"  ! Dir/LR
 кон V-INFL-IV ;
 ачы V-INFL-IV ; ! "ferment"
 ! ачыт V-INFL-TV ; ! "ferment" ! regular causitive
@@ -6138,13 +6138,13 @@ LEXICON VerbStems
 !бүтүр V-INFL-IV ; ! Irregular causitive
 аткар V-INFL-IV ;
 
-жазыл V-INFL-TV ;
+!жазыл V-INFL-TV ; ! regular
 кайрыл V-INFL-TV ;
 мин V-INFL-TV ; 
 !секир V-INFL-TV ; ! HOW?!
 секир V-INFL-IV ; 
 уюштур V-INFL-TV ;
-каала V-INFL-IV ;
+каала V-INFL-TV ; ! "want"
 тазала V-INFL-TV ;
 
 кыйн V-INFL-TV ; 
@@ -6188,7 +6188,7 @@ LEXICON VerbStems
 тааны V-INFL-TV ;
 жет V-INFL-IV-NO-CAUS ; 
 жет:жеткир V-INFL-IV-IRREG-CAUS ;
-жет:жеткиз V-INFL-IV-IRREG-CAUS ;
+жет:жеткиз V-INFL-IV-IRREG-CAUS ; ! Dir/LR
 иште V-INFL-IV ;
 саймала V-INFL-TV ;
 кештеле V-INFL-TV ;
@@ -6284,7 +6284,7 @@ LEXICON VerbStems
 ичине% камты V-INFL-TV ;
 жокко% чыгар V-INFL-TV ;
 көрүн V-INFL-IV ;
-жаз V-INFL-TV ;
+!жаз V-INFL-TV ;
 туу V-INFL-TV ; ! "to bear young"
 туул V-INFL-IV ; ! "to be born" (of non-humans) FIXME: productive
 төрө V-INFL-TV ; ! "to bear child"
@@ -6338,6 +6338,8 @@ LEXICON VerbStems
 айыр V-INFL-TV ;
 ажырат V-INFL-TV ;
 кечик V-INFL-TV ; ! "to be late"
+жала V-INFL-TV ; ! "to lick"
+жак V-INFL-IV ; ! "gustar"
 
 катарга% тиз V-INFL-TV ;
 
@@ -6385,7 +6387,7 @@ LEXICON VerbStems
 тий V-INFL-TV ;
 тара V-INFL-IV ;
 чачыра V-INFL-IV ;
-жет V-INFL-TV ;
+!жет V-INFL-TV ;
 кокустан% учура V-INFL-TV ;
 тирке V-INFL-TV ;
 тирке V-INFL-TV ;
@@ -6431,12 +6433,15 @@ LEXICON VerbStems
 тара V-INFL-TV ;
 кат V-INFL-TV ;
 ак V-INFL-IV ;
-тиле V-INFL-IV ;
+тиле V-INFL-IV ; ! "wish"
+тил V-INFL-TV ; ! "slice"
 таанып% бил V-INFL-TV ;
+!малын V-INFL-IV ; ! regular
+мал V-INFL-TV ; ! "~dip"
 
 сүйөн V-INFL-TV ; ! "lean"
 
-алын V-INFL-IV ; ! "be taken"
+!алын V-INFL-IV ; ! "be taken" ! Regular passive
 бак V-INFL-TV ; ! "look after"
 буйрук% бер V-INFL-IV ; ! "give an order"
 жаа V-INFL-IV ; ! "precipitate"

@@ -464,7 +464,7 @@ Vx:Vy <=> _ [ %{U%}: ]/[ :0 | %>: ] ;
 %{I%}:0 <=> :SurVow %>: %{D%}:т _ р:0 ;
 
 "Deletion of р after {D}{I}"
-р:0 <=> :SurVow %>: %{D%}:т %{I%}:0 _ ;
+р:0 <=> :SurVow %>: %{D%}:т %{I%}: _ ;
 
 "{D} to т in causative after vowel"
 %{D%}:т <=> :SurVow %>: _ %{I%}: р: ;
