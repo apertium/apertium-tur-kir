@@ -107,8 +107,11 @@ Multichar_Symbols
 %<vadj_fut%>
 %<vadj_pot2%>
 %<vadj_perf%>
+%<vadj_past%>
+%<vadj%>
 %<vadj_pot%>
 %<vadj_impf%>
+%<vadj_hab%>
 
 %<pres%>    ! Present tense
 %<aor%>     ! Aorist, -E
@@ -233,13 +236,18 @@ GEN-POS ;
 %<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р GEN-POS;
 %<px3pl%>:%>%{S%}%{I%}%{n%} GEN-POS ;
 
-LEXICON N-INFL-SG
+LEXICON N-INFL-COMMON
 
 %<n%>: POSSESSION ;
+%<n%>%<adj%>:%>%{L%}%{U%}%{U%} ADJ ;  ! Any noun can be made into an adjective like this, though it's basically derivation
+
+LEXICON N-INFL-SG
+
+N-INFL-COMMON ;
 
 LEXICON N-INFL
 
-%<n%>: POSSESSION ;
+N-INFL-COMMON ;
 %<n%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
 LEXICON NP-COG-MF
@@ -279,6 +287,7 @@ LEXICON ADJ-LEVELS
 
 LEXICON ADJ-COMMON
 
+%<pst%>: # ;
 %<n%>: POSSESSION ;  ! all adjectives can be used as nouns
 
 LEXICON ADJ-DAGI
@@ -511,7 +520,6 @@ LEXICON V-CLIT
 %+да%<mod_tru%>:% да # ;
 !%го%<mod_ass%>:го # ;
 !%да%<mod_tru%>:да # ;
-
 # ;
 
 LEXICON V-PERS-POSS ! P_2
@@ -576,12 +584,19 @@ LEXICON V-PERS-PRES ! P_6
 
 LEXICON V-INFL-COMMON
 
+V-INFL-COMMON-SECOND ;
+%<pl%>:%>%{I%}ш V-INFL-COMMON-SECOND ;
+%<coop%>:%>%{I%}ш V-INFL-COMMON-SECOND ;
+
+LEXICON V-INFL-COMMON-SECOND
+
+
 ! Converbs 
 !%<cv_impf%>:%>%{E%} # ;                                       !
 !%<cv_perf%>:%>%{I%}п # ;                                      ! -ып, -ип, -уп, -үп
 !%<cv_perf%>:%>п # ;                                      ! -ып, -ип, -уп, -үп
 !%<cv_inf%>:%>м%{A%}к # ;                                      ! TODO: This is a finite form
-%<cv_irre%>:%>%{E%}т # ;                                      !
+!%<cv_irre%>:%>%{E%}т # ;                                      !
 !%<cv_fut%>:%>%{A%}р # ;                                       !
 !%<cv_fut%>:%>%{A%}%{A%}р # ;                                  ! Dir/LR
 !%<cv_pur%>:%>%{G%}%{A%}н%{I%} # ;                             ! 
@@ -597,30 +612,34 @@ LEXICON V-INFL-COMMON
 !!!! New non-finite forms !!!!
 
 ! Adverbial Participles
-%<prt_plan%>:%>%{G%}%{A%}н%{I%} # ;
+%<prt_plan%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
 %<prt_cond%>:%>с%{A%} V-PERS-COND ;
 %<prt_perf%>:%>%{I%}п # ;
 %<neg%>%<prt_perf%>:%>%{B%}%{A%}%>%{E%} # ;  ! TODO: is this the right way to do this?
-%<prt_impf%>:%>%{E%} # ;
-!%<prt_????%>:%>м%{A%}й%{I%}нч%{A%} #;       ! TODO: find name
+%<prt_impf%>:%>%{E%} # ;   ! rare IS
+!%<prt_????%>:%>м%{A%}й%{I%}нч%{A%} #;       ! TODO: find name  ! rare IS
+!%<prt_????%>:%>%{E%}т # ;                    ! TODO: find name
 
 ! Gerunds
-%<ger_fut%>:%>%{A%}р POSSESSION ;
+%<ger_fut%>:%>%{A%}р POSSESSION ;     ! <coop> IS only ?
 %<ger_fut%>:%>%{A%}%{A%}р POSSESSION ;                        ! Dir/LR
-%<ger_past%>:%>%{G%}%{A%}н POSSESSION ;
-%<ger_pres%>:%>%{I%}ш POSSESSION ;
-%<ger%>:%>%{U%}%{U%} POSSESSION ;
+%<ger_past%>:%>%{G%}%{A%}н POSSESSION ; ! <coop> IS only ?
+%<ger_pres%>:%>%{I%}ш POSSESSION ;    ! <coop> IS only
+%<ger%>:%>%{U%}%{U%} POSSESSION ;     ! <coop> IS only
 
 ! Verbal Adjectives
 %<vadj_fut%>:%>%{A%}р V-ADJ ;
-%<vadj_fut%>:%>%{A%}%{A%}р V-ADJ ;                              ! Dir/LR
-%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                    !
-%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;                ! Dir/LR
+%<vadj_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
+%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                  !
+%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;              ! Dir/LR
 %<neg%>%<vadj_pot2%>:%>%{G%}%{U%}с V-ADJ ;
-%<vadj_perf%>:%>%{G%}%{A%}н V-ADJ ;
-%<vadj_pot%>:%>ч%{U%} V-ADJ ;
+%<vadj_past%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay
+%<vadj%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay  ! both past (or perf?) and general
+!%<vadj_pot%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
+%<vadj_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
 %<vadj_impf%>:%>%{E%}% турган V-ADJ ;
-!%<vadj_????%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;                     ! TODO: find name
+!%<vadj_????%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;                      ! TODO: find name
+%<vadj_pot%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;
 
 
 ! Finite forms
@@ -660,35 +679,37 @@ LEXICON V-INFL-IV-SHORT
 LEXICON V-INFL-TV
 
 %<v%>%<tv%>: V-INFL-COMMON ;
-%<v%>%<tv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
-%<v%>%<tv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
-%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                                    !
-%<v%>%<tv%>%<pass%>%<inf%>:%>%{I%}%{l%}%>%{U%}%{U%} POSSESSION ;                    ! 
-%<v%>%<tv%>%<pass%>%<neg%>%<inf%>:%>%{I%}%{l%}%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
-%<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                                    !
-%<v%>%<tv%>%<caus%>%<inf%>:%>%{D%}%{I%}р%>%{U%}%{U%} POSSESSION ;                    ! 
-%<v%>%<tv%>%<caus%>%<neg%>%<inf%>:%>%{D%}%{I%}р%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
+!%<v%>%<tv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
+!%<v%>%<tv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
+%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                              ! FIXME: When we make it cyclical, this should really be V-INFL-IV
+!%<v%>%<tv%>%<pass%>%<inf%>:%>%{I%}%{l%}%>%{U%}%{U%} POSSESSION ;              ! 
+!%<v%>%<tv%>%<pass%>%<neg%>%<inf%>:%>%{I%}%{l%}%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
+!!!! Transitive verbs can't be causative
+!%<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                                    !
+!%<v%>%<tv%>%<caus%>%<inf%>:%>%{D%}%{I%}р%>%{U%}%{U%} POSSESSION ;                    ! 
+!%<v%>%<tv%>%<caus%>%<neg%>%<inf%>:%>%{D%}%{I%}р%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
 
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
 %<v%>%<iv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
-%<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
-%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                                    !
-%<v%>%<iv%>%<caus%>%<inf%>:%>%{D%}%{I%}р%>%{U%}%{U%} POSSESSION ;                    ! 
-%<v%>%<iv%>%<caus%>%<neg%>%<inf%>:%>%{D%}%{I%}р%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
+!%<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
+%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
+!%<v%>%<iv%>%<caus%>:%>%{T%}%{I%}р V-INFL-COMMON ;
+!%<v%>%<iv%>%<caus%>%<inf%>:%>%{D%}%{I%}р%>%{U%}%{U%} POSSESSION ;             ! 
+!%<v%>%<iv%>%<caus%>%<neg%>%<inf%>:%>%{D%}%{I%}р%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
 
 LEXICON V-INFL-IV-NO-CAUS
 
 %<v%>%<iv%>: V-INFL-COMMON ;
-%<v%>%<iv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
-%<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
+!%<v%>%<iv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                 !
+!%<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;              !
 
 LEXICON V-INFL-IV-IRREG-CAUS
 
 %<v%>%<iv%>%<caus%>:%> V-INFL-COMMON ;                                    !
-%<v%>%<iv%>%<caus%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                    ! 
-%<v%>%<iv%>%<caus%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
+!%<v%>%<iv%>%<caus%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                    ! 
+!%<v%>%<iv%>%<caus%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
 
 
 
@@ -4378,6 +4399,7 @@ LEXICON NounStems
 банк N-INFL ;
 чоң% эне N-INFL ;
 шектүү N-INFL ;
+кайрак N-INFL ; ! "blade sharpener"
 күмөндүү N-INFL ;
 чара N-INFL ;
 арга N-INFL ;
@@ -4395,7 +4417,7 @@ LEXICON NounStems
 кылмышкер N-INFL ;
 күнөөлү N-INFL ;
 окшош N-INFL ;
-бирдей N-INFL ;
+!бирдей N-INFL ;  ! Not a noun!
 митинг N-INFL ;
 чогулуш N-INFL ;
 оюн N-INFL ;
@@ -5810,7 +5832,7 @@ LEXICON VerbStems
 агарт V-INFL-TV ;
 кур V-INFL-TV ;
 бол V-INFL-IV ; ! "be"
-чыгар V-INFL-TV ; ! "" 
+! чыгар V-INFL-TV ; ! ""  ! Irregular transitive
 жарат V-INF-TV ;
 аарчы V-INFL-IV ;  ! ""
 аарчы V-INFL-TV ;  ! ""
@@ -5833,7 +5855,8 @@ LEXICON VerbStems
 бер V-INFL-TV ; 
 бил V-INFL-IV ; ! "know"
 бил V-INFL-TV ; ! "know"
-бүт V-INFL-IV ; 
+бүт V-INFL-IV-NO-CAUS ; ! "to finish"
+бүт:бүтүр V-INFL-IV-IRREG-CAUS ; ! "to finish"
 де V-INFL-TV-SHORT ; ! "say"
 жаз V-INFL-TV ; 
 жайгаш V-INFL-IV ;
@@ -5896,16 +5919,17 @@ LEXICON VerbStems
 өт V-INFL-TV ; ! "pass" FIXME: should be IV?
 кон V-INFL-IV ;
 ачы V-INFL-IV ; ! "ferment"
-ачыт V-INFL-TV ; ! "ferment"
+! ачыт V-INFL-TV ; ! "ferment" ! regular causitive
 
 мойнуна% ал V-INFL-TV ; 
 кыйнал V-INFL-IV ; 
 кабыл% кыл V-INFL-TV ; ! "accept"
 
 ак V-INFL-IV-NO-CAUS ; ! "flow"
-ак:акыз V-INFL-IV-IRREG-CAUS ; ! "make flow"
+ак:агыз V-INFL-IV-IRREG-CAUS ; ! "make flow"
 
-отур V-INFL-IV ; ! "sit"
+отур V-INFL-IV-NO-CAUS ; ! "sit"
+отур:отургуз V-INFL-IV-IRREG-CAUS ; ! "sit"
 бар V-INFL-IV ; ! "go"
 аракет% кыл V-INFL-TV ; ! "try"
 арна V-INFL-IV ; 
@@ -5922,7 +5946,8 @@ LEXICON VerbStems
 буйру V-INFL-IV ; 
 бырыштыр V-INFL-TV ; 
 быч V-INFL-TV ; 
-быш V-INFL-IV ; 
+быш V-INFL-IV-NO-CAUS ; ! "cook" / "be cooked"
+быш:бышыр V-INFL-IV-IRREG-CAUS ; ! "cook"
 бүк V-INFL-TV ; 
 бүктө V-INFL-TV ; 
 бөл V-INFL-TV ; ! "divide"
@@ -6038,7 +6063,8 @@ LEXICON VerbStems
 тик V-INFL-TV ; 
 той V-INFL-IV ; 
 токто V-INFL-IV ; ! "stop" 
-токтот V-INFL-TV ; ! "stop" 
+! токтот V-INFL-TV ; ! "stop"  ! Regular causative
+токтон V-INFL-IV ;
 тол V-INFL-IV ; ! "be full"
 толукта V-INFL-TV ; 
 топто V-INFL-TV ; 
@@ -6057,13 +6083,14 @@ LEXICON VerbStems
 төлө V-INFL-TV ; 
 узат V-INFL-TV ; 
 уза V-INFL-TV ; 
+ээри V-INFL-IV ; ! "melt"
 мойнуңа% ал V-INFL-TV ; 
 ушала V-INFL-TV ; 
 чак V-INFL-TV ; 
 чакыр V-INFL-TV ; 
 чыкыр V-INFL-TV ;
 чал V-INFL-TV ; 
-чалын V-INFL-IV ;
+! чалын V-INFL-IV ; ! Regular passive
 чарчат V-INFL-TV ; 
 чарча V-INFL-IV ;
 чач V-INFL-TV ; 
@@ -6071,7 +6098,8 @@ LEXICON VerbStems
 чеч V-INFL-TV ; 
 чиймеле V-INFL-TV ; 
 чумку V-INFL-TV ; 
-чык V-INFL-IV ; 
+чык V-INFL-IV-NO-CAUS ; ! "to exit/leave"
+чык:чыгар V-INFL-IV-IRREG-CAUS ; ! "to take/put/move [object] out"
 чөк V-INFL-IV ; 
 шайла V-INFL-TV ; 
 шиши V-INFL-IV ; 
@@ -6091,8 +6119,10 @@ LEXICON VerbStems
 өч:өчүр V-INFL-IV-IRREG-CAUS ; ! "make turn off"
 сиңир V-INFL-TV ;
 уч V-INFL-IV ;
-өп V-INFL-TV ; ! to kiss"
+өп V-INFL-TV ; ! "to kiss"
 катыш V-INFL-TV ;
+кат V-INFL-IV-NO-CAUS ; ! "to get hard"
+кат:катыр V-INFL-IV-IRREG-CAUS ; ! "to make hard"
 сарсанаа% тарт V-INFL-TV ;
 ээле V-INFL-TV ; ! "to occupy"
 корот V-INFL-TV ; ! "to waste"
@@ -6103,7 +6133,7 @@ LEXICON VerbStems
 ыйгар V-INFL-IV ;
 улант V-INFL-TV ;
 ишке% ашыр V-INFL-IV ;
-бүтүр V-INFL-IV ;
+!бүтүр V-INFL-IV ; ! Irregular causitive
 аткар V-INFL-IV ;
 
 жазыл V-INFL-TV ;
@@ -6155,7 +6185,6 @@ LEXICON VerbStems
 белгиле V-INFL-TV ;
 тааны V-INFL-TV ;
 жет V-INFL-TV ;
-чыгар V-INFL-TV ;
 иште V-INFL-IV ;
 саймала V-INFL-TV ;
 кештеле V-INFL-TV ;
@@ -6197,7 +6226,6 @@ LEXICON VerbStems
 туурала V-INFL-TV ;
 кой V-INFL-TV ;
 сал V-INFL-TV ;
-токто V-INFL-TV ;
 жара V-INFL-TV ;
 ишке% жара V-INFL-TV ;
 күчтөн V-INFL-IV ;
@@ -6244,8 +6272,6 @@ LEXICON VerbStems
 жыйынтыкта V-INFL-TV ;
 камты V-INFL-TV ;
 ур V-INFL-IV ;
-токто V-INFL-IV ;
-токтон V-INFL-IV ;
 изилде V-INFL-TV ;
 түшүн V-INFL-TV ;
 котор V-INFL-TV ;
@@ -6335,11 +6361,11 @@ LEXICON VerbStems
 пайдалан V-INFL-TV ;
 кирде V-INFL-IV ;
 булган V-INFL-IV ;
-отур V-INFL-IV ;
-тартV-INFL-IV ;
-тартV-INFL-TV ;
-өлчөV-INFL-TV ;
-өлчөV-INFL-IV ;
+!отур V-INFL-IV ;
+тарт V-INFL-IV ;
+тарт V-INFL-TV ;
+өлчө V-INFL-TV ;
+өлчө V-INFL-IV ;
 ишен V-INFL-TV ;
 сурамжыла V-INFL-TV ;
 ескир V-INFL-IV ;
@@ -6390,7 +6416,7 @@ LEXICON VerbStems
 кыс V-INFL-TV ;
 чеч V-INFL-TV ;
 жайгаштыр V-INFL-TV ;
-иш% бүтүр V-INFL-TV ;
+!иш% бүтүр V-INFL-TV ; ! Not its own verb
 кез V-INFL-IV ;
 саякатта V-INFL-IV ;
 ий V-INFL-TV ;
@@ -6400,7 +6426,7 @@ LEXICON VerbStems
 үркү V-INFL-IV ;
 ээлик% кыл V-INFL-TV ;
 өзуңө% ыйгар V-INFL-TV ;
-чык V-INFL-IV ;
+! чык V-INFL-IV ; ! Duplicate
 тара V-INFL-TV ;
 кат V-INFL-TV ;
 ак V-INFL-IV ;
@@ -6416,7 +6442,7 @@ LEXICON VerbStems
 же V-INFL-TV ; ! "eat"
 кыйнал V-INFL-IV ; ! "have a tough time"
 мин V-INFL-TV ; ! "ride"
-отур V-INFL-IV ; ! "sit"
+!отур V-INFL-IV ; ! "sit"
 салкында V-INFL-IV ; ! "cool off"
 жоолук V-INFL-TV ; ! "meet with"
 корго V-INFL-TV ; ! "protect"
