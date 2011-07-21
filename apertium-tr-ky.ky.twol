@@ -20,6 +20,7 @@ Cns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ
 SurCns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ 
          б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ь ъ ;
 
+FromCns = SurCns Я я Ё ё Ю ю ;
 
 !CnsNoY = Б В Г Д Ж З К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ 
 !         б в г д ж з к л м н ң п р с т ф х ц ч ш щ ь ъ 
@@ -108,7 +109,9 @@ Rules
 
 "Devoicing of stops etc. across morpheme boundary after voiceless consonants" !!"Katkalan harmony in consonants"
 !Cx:Cy <=>  :UnvoicedNonSonCns %>: _ ;   !Cx:Cy <=>  UnvoicedNonSonCns %>: _ ;
-Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
+!Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ [ ? -[ %{I%}:0 р:0 ] ] ;
+Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ %{I%}: р: ] ;
+!Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
         where Cx in ( %{B%}  %{G%}  %{D%}  %{L%}  %{N%} )
               Cy in (   п      к      т      т      т)
               matched;
@@ -131,7 +134,12 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 !п:б <=> :SurVow _ %>: [ :SurVow ]/[ :0 ] \[ п ] ; 
 !п:б <=> :SurVow _ %>: [ [ [ :SurVow ]/[ :0 ] ] - [ %{I%}: п ] ] ;
 !п:б <=> :SurVow _ %>: [ [ (:0) :SurVow ] - $[ %{I%}: п ] ] ;
-п:б <=> :SurVow _ %>: [ [ (:0) :SurVow ] - [ %{I%}: п ] ] ;
+!п:б <=> :SurVow _ %>: [ [ (:0) :SurVow ] - [ %{I%}: п ] ] ;
+!п:б <=> :SurVow (:0) _ %>: (:0) [ :SurVow - %{I%}:LowVow ] ;
+п:б <=> :SurVow (:0) _ %>: (:0) :SurVow ;
+
+"restrict п voicing rule to everything but {I}п"
+п:б /<= :LowVow _ %>: %{I%}: п ;
 
 "Intervocalic voicing of к everywhere"
 к:г <=> :SurVow _ %>: [ :SurVow ]/[ :0 ] ;
@@ -149,7 +157,8 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 !%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \[ п | .#. ] ;
 !%{I%}:0 <=> [ :SurVow | %{n%}:н ]/[ [ :0 - й:0 ] | %>: ] _ \[ п ] ;
 !%{I%}:0 <=> [ :SurVow | %{n%}:н ]/[ [ :0 - й:0 ] | %>: | %{N%}:0 ] _ \[ п ] ;
-%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \[ п ] ;
+!%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \[ п ] ;
+%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \[ п | р:0 ] ;
 
 "Deletion of {I} after {n}"
 %{I%}:0 <=> %{n%}:н/[ :0 | %>: ] _ \[ п ];
@@ -166,7 +175,9 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 !%{S%}:0 <=> :Cns [ WildNonPhon: | :WildNonPhon ]* _ ;
 !%{S%}:0 <=> :Cns :0* (%>:) _ ;
 !%{S%}:0 <=> :Cns/[ :0 | %>: ]* _ ;
-%{S%}:0 <=> :Cns/[ %>: ]* _ ;
+!%{S%}:0 <=> :Cns/[ %>: ]* _ ;
+!%{S%}:0 <=> :FromCns/[ %>: ]* _ ;
+%{S%}:0 <=> [ :Cns | й: ]/[ %>: ]* _ ;
 
 
 
@@ -225,7 +236,8 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 !%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: | %{N%}: ] ] ]/[ %>: | :0 ] _ \п: ;
 !%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: | %{N%}:0 ] ] ]/[ %>: | :0 ] _ \п: ;
 !%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}:н ] ] ]/[ %>: | :0 ] _ \п: ;
-%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | :0 ] _ \п: ;
+!%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | :0 ] _ \п: ;
+%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | :0 ] _ \[ р:0 | п: ] ;
   where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
@@ -295,16 +307,16 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 "Deletion of all the other {I}s in {I}п <cv_perf>"
 %{I%}:0 <=> [ :SurVow - м:SurVow ] %>: _ п ;
 
-!"Deletion of п at end of verb stem before {I}п <cv_perf>"
-!п:0 <=> :LowVow _ %>: %{I%}: п ;
+!!"Deletion of п at end of verb stem before {I}п <cv_perf>"
+!!п:0 <=> :LowVow _ %>: %{I%}: п ;
 
 "Deletion of п at end of verb stem in <cv_perf>"
-п:0 <=> _ %>: %{I%}:0 п ;
-!п:0 <=> :LowVow _ %>: %{I%}: п ;
+!п:0 <=> _ %>: %{I%}:0 п ;
+п:0 <=> :LowVow _ %>: %{I%}: п ;
 
-!"Deletion of {I} after м at end of verb stem in <cv_perf>"
-!!%{I%}:0 <=> :LowVow :0 м %>: _ п ;
-!%{I%}:0 <=> :LowVow м %>: _ п ;
+!!"Deletion of {I} after м at end of verb stem in <cv_perf>"
+!!!%{I%}:0 <=> :LowVow :0 м %>: _ п ;
+!!%{I%}:0 <=> :LowVow м %>: _ п ;
 
 "Shifting of м to where {I} was in <cv_perf>"
 %{I%}:м <=> :LowVow м: %>: _ п ;
@@ -444,6 +456,20 @@ Vx:Vy <=> _ [ %{U%}: ]/[ :0 | %>: ] ;
 !%{G%}:0 <=> :NasalCns %>: _ %{A%}: .#. ;
 %{G%}:0 <=>  %{I%}: :NasalCns %>: _ %{A%}: .#. ;
 !%{G%}:0 <=>  :NasalCns %>: _ %{A%}: .#. ;
+
+!!!! Causative stuff !!!!
+!! Most of this is to convert {D}{I}р to т after a vowel stem
+
+"Deletion of {I} after {D} and before р"
+%{I%}:0 <=> :SurVow %>: %{D%}:т _ р:0 ;
+
+"Deletion of р after {D}{I}"
+р:0 <=> :SurVow %>: %{D%}:т %{I%}:0 _ ;
+
+"{D} to т in causative after vowel"
+%{D%}:т <=> :SurVow %>: _ %{I%}: р: ;
+
+!"{D}"
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
