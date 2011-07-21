@@ -1351,6 +1351,8 @@ LEXICON NounStems
 форма N-INFL ; ! "form"
 ит N-INFL ; ! "dog"
 эпос N-INFL ; ! "epic"
+ордо N-INFL ; ! "horde"
+күлүк N-INFL ; ! "steed"
 
 студент N-INFL ;  ! "student"
 комитет N-INFL ;  ! "committee"
@@ -3446,7 +3448,7 @@ LEXICON NounStems
 там N-INFL ; 
 кеңешчи N-INFL ; 
 тамчы N-INFL ; 
-бий N-INFL ; 
+бий N-INFL ; ! "dance"
 сокку N-INFL ; 
 таарынган N-INFL ; 
 максат N-INFL ; 
@@ -3695,7 +3697,8 @@ LEXICON NounStems
 күмүш N-INFL ; 
 күнөө N-INFL ; 
 заманбап N-INFL ; 
-күн N-INFL ; 
+күн N-INFL ; ! "sun"
+кой N-INFL ; ! "sheep"
 күрөш N-INFL ; 
 топ N-INFL ; 
 намыс N-INFL ; 
@@ -4352,6 +4355,8 @@ LEXICON NounStems
 кошумча N-INFL ;
 жардам N-INFL ;
 күндөм N-INFL ;
+күн N-INFL ; ! "sun, day"
+кой N-INFL ; ! "sheep"
 күн% тартиби N-INFL ;
 макулдашма N-INFL ;
 келишме N-INFL ;
@@ -5914,10 +5919,13 @@ LEXICON AdjecStems
 көшөгөлүү ADJ ;
 эларалык ADJ ;
 ызгардуу ADJ ;
+атчан ADJ ; ! "on horseback"
 
 LEXICON AdvStems
 
 эмнеге ADV-ITG ; ! "why"
+качан ADV-ITG ; ! "when"
+кандай ADV-ITG ; ! "how"
 
 өтө ADV ; ! "very"
 мисалы ADV ; ! "for example"
@@ -6192,7 +6200,9 @@ LEXICON VerbStems
 ак:агыз V-INFL-IV-IRREG-CAUS ; ! "make flow"
 
 отур V-INFL-IV-NO-CAUS ; ! "sit"
+олтур V-INFL-IV-NO-CAUS ; ! "sit"              ! Dir/LR
 отур:отургуз V-INFL-IV-IRREG-CAUS ; ! "sit"
+олтур:олтургуз V-INFL-IV-IRREG-CAUS ; ! "sit"  ! Dir/LR
 бар V-INFL-IV ; ! "go"
 аракет% кыл V-INFL-TV ; ! "try"
 арна V-INFL-IV ; 
@@ -6254,6 +6264,9 @@ LEXICON VerbStems
 кир V-INFL-IV ; ! "enter"
 кир V-INFL-TV
 кооздо V-INFL-TV ; 
+чыда V-INFL-TV ; ! "put up with"
+чыда V-INFL-IV ; ! "be patient"
+бийле V-INFL-IV ; ! "dance"
 
 кош V-INFL-TV ; 
 кошомат% кыл V-INFL-TV ; 
