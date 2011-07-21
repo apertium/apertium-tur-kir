@@ -5916,7 +5916,9 @@ LEXICON VerbStems
 үйрөн V-INFL-IV ;
 үйрөн V-INFL-TV ;
 өл V-INFL-IV ; ! "die"
-өт V-INFL-TV ; ! "pass" FIXME: should be IV?
+өт V-INFL-IV-NO-CAUS ; ! "pass"
+өт:өткөр V-INFL-IV-IRREG-CAUS ; ! "pass"
+өт:өткөз V-INFL-IV-IRREG-CAUS ; ! "pass"
 кон V-INFL-IV ;
 ачы V-INFL-IV ; ! "ferment"
 ! ачыт V-INFL-TV ; ! "ferment" ! regular causitive
@@ -6184,7 +6186,9 @@ LEXICON VerbStems
 тий V-INFL-TV ;
 белгиле V-INFL-TV ;
 тааны V-INFL-TV ;
-жет V-INFL-TV ;
+жет V-INFL-IV-NO-CAUS ; 
+жет:жеткир V-INFL-IV-IRREG-CAUS ;
+жет:жеткиз V-INFL-IV-IRREG-CAUS ;
 иште V-INFL-IV ;
 саймала V-INFL-TV ;
 кештеле V-INFL-TV ;
@@ -6230,7 +6234,6 @@ LEXICON VerbStems
 ишке% жара V-INFL-TV ;
 күчтөн V-INFL-IV ;
 күчө V-INFL-IV ;
-чеч V-INFL-TV ;
 чечмеле V-INFL-TV ;
 соолу V-INFL-IV ;
 !кечиктир V-INFL-TV ; ! this is a regularly derived form, doesn't need to be added separately
@@ -6312,7 +6315,7 @@ LEXICON VerbStems
 кабарлаш V-INFL-IV ;
 далилде V-INFL-TV ;
 жеткир V-INFL-TV ;
-өткөр V-INFL-TV ;
+!өткөр V-INFL-TV ;
 каржыла V-INFL-TV ;
 ревизия% жаса V-INFL-TV ;
 келиш V-INFL-IV ;
@@ -6405,7 +6408,6 @@ LEXICON VerbStems
 кыр V-INFL-TV ;
 көңул% оорут V-INFL-IV ;
 түшүндүр V-INFL-TV ;
-кетир V-INFL-TV ;
 сура V-INFL-TV ;
 оро V-INFL-TV ;
 таң V-INFL-TV ;
@@ -6414,7 +6416,6 @@ LEXICON VerbStems
 кызык V-INFL-TV ;
 чекте V-INFL-TV ;
 кыс V-INFL-TV ;
-чеч V-INFL-TV ;
 жайгаштыр V-INFL-TV ;
 !иш% бүтүр V-INFL-TV ; ! Not its own verb
 кез V-INFL-IV ;

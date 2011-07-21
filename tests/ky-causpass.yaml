@@ -9,6 +9,7 @@ Tests:
   "[lexc] Regular causative -{T}{I}р":
     бол<v><iv><caus><ger><nom> : болдуруу
     бас<v><iv><caus><ger><nom> : бастыруу
+    жак<v><iv><caus><ger><nom> : жактыруу
 
   "[twol] Regular causative -т":
     ээри<v><iv><caus><ger><nom> : ээритүү
@@ -28,3 +29,7 @@ Tests:
     чык<v><iv><caus><ger><nom> : чыгаруу
     өч<v><iv><caus><ger><nom> : өчүрүү
     кат<v><iv><caus><ger><nom> : катыруу
+    жет<v><iv><caus><ger><nom> : жеткирүү
+    жет<v><iv><caus><ger><nom> : жеткизүү
+    өт<v><iv><caus><ger><nom> : өткөрүү
+    өт<v><iv><caus><ger><nom> : өткөзүү
