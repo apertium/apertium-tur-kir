@@ -8,7 +8,7 @@ Tests:
 
   "[twol] Yotification":
     кой<v><tv><prt_perf> : коюп
-    кой<v><tv><inf><nom> : коюу
+    кой<v><tv><ger><nom> : коюу
     кой<v><tv><prt_impf> : коё
     тий<v><tv><prt_impf> : тие
     жай<v><tv><prt_impf> : жая
@@ -25,26 +25,25 @@ Tests:
     эм<v><iv><prt_perf> : ээмп
 
   "[twol] {I}{l} passives":
-    тап<v><tv><pass><inf><nom> : табылуу
-    саба<v><tv><pass><inf><nom> : сабалуу
-    бил<v><tv><pass><inf><nom> : билинүү
-    талкала<v><tv><pass><inf><nom> : талкалануу
+    тап<v><tv><pass><ger><nom> : табылуу
+    саба<v><tv><pass><ger><nom> : сабалуу
+    бил<v><tv><pass><ger><nom> : билинүү
+    талкала<v><tv><pass><ger><nom> : талкалануу
 
   "[lexc] Infinitive -{U}{U}":
-    айт<v><iv><inf><nom> : айтуу
-    тарт<v><iv><inf><nom> : тартуу
-    бол<v><iv><inf><nom> : болуу
-    сүй<v><tv><inf><nom> : сүйүү
-    окшо<v><iv><inf><nom> : окшоо
-    иште<v><iv><inf><nom> : иштөө
-    иштөө<n><nom> : иштөө
-    саба<v><tv><inf><nom> : сабоо
-    аарчы<v><tv><inf><nom> : аарчуу
-    аарчы<v><iv><inf><nom> : аарчуу
-    шиши<v><iv><inf><nom> : шишүү
-    ат<v><tv><inf><nom> : атуу
-    кет<v><iv><inf><nom> : кетүү
-    боё<v><tv><inf><nom> : боёо
+    айт<v><iv><ger><nom> : айтуу
+    тарт<v><iv><ger><nom> : тартуу
+    бол<v><iv><ger><nom> : болуу
+    сүй<v><tv><ger><nom> : сүйүү
+    окшо<v><iv><ger><nom> : окшоо
+    иште<v><iv><ger><nom> : иштөө
+    саба<v><tv><ger><nom> : сабоо
+    аарчы<v><tv><ger><nom> : аарчуу
+    аарчы<v><iv><ger><nom> : аарчуу
+    шиши<v><iv><ger><nom> : шишүү
+    ат<v><tv><ger><nom> : атуу
+    кет<v><iv><ger><nom> : кетүү
+    боё<v><tv><ger><nom> : боёо
 
   "[twol] {I} deletion":
     бол<v><iv><prt_perf> : болуп
