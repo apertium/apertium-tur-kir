@@ -2,6 +2,11 @@
 
 <transfer>
   <section-def-cats>
+      
+    <def-cat n="not">
+      <cat-item lemma="değil" tags="not"/>
+      <cat-item lemma="değil" tags="not.*"/>
+    </def-cat>
      
     <def-cat n="qst">
       <cat-item lemma="mi" tags="q"/>
@@ -235,6 +240,7 @@
     <def-attr n="tens">
       <attr-item tags="aor"/>
       <attr-item tags="pres"/>
+      <attr-item tags="ifi"/>
       <attr-item tags="fut"/>
 
       <attr-item tags="t_cont"/>
@@ -306,7 +312,7 @@
           <test>
             <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_past"/></equal>
           </test>
-          <let><var n="c_tens"/><lit-tag v="past"/></let>
+          <let><var n="c_tens"/><lit-tag v="ifi"/></let>
         </when>
         <when>
           <test>
@@ -740,6 +746,30 @@
       </action>
     </rule>
 
+    <rule comment="regla: not">
+      <pattern>
+        <pattern-item n="not"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_tens1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <lit-tag v="v.neg"/>
+              <var n="c_tens"/> 
+              <var n="c_pers"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="regla: v_cv_iyor">
       <pattern>
         <pattern-item n="v_cv_iyor"/>
@@ -939,7 +969,7 @@
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="trans"/>
             <clip pos="1" side="tl" part="neg"/>
-            <lit-tag v="past"/>
+            <lit-tag v="ifi"/>
             <var n="c_pers"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
