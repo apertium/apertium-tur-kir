@@ -29,13 +29,10 @@ dev/corpora/source.tpl -text
 dev/disambiguation-notes.txt -text
 dev/generation-test.tr-ky.sh -text
 dev/ky-nouns.txt -text svneol=unset#application/octet-stream
-dev/kyscraper_rss.dat -text
 dev/midterm/article.ky.txt -text
 dev/midterm/article.tr-ky.2011-07-12.txt -text svneol=unset#application/octet-stream
 dev/midterm/article.tr.txt -text
 dev/missing-bidix-freq.sh -text
-dev/scraper.py -text
-dev/scraperclasses.py -text
 /lexchoicebil.xsl -text
 /modes.xml -text
 /pending-tests.sh -text
