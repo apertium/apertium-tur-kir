@@ -87,6 +87,7 @@ Multichar_Symbols
 
 %<pass%>    ! Passive
 %<caus%>    ! Causative
+%<coop%>    ! Cooperative
 
 %<cv_impf%> ! Converb imperfect, -E
 %<cv_perf%> ! Converb perfect, -Iп
@@ -145,6 +146,11 @@ Multichar_Symbols
 %{S%}       ! Realised as 'с' or ''; only used in 3rd person morphology
 %{n%}       ! Realised as 'н' or ''; only used in 3rd person morphology and -NIKI
 %{l%}       ! Realised as 'л' or 'н'; only used in passive -{I}{l}
+
+@P.NEG.0@   ! Set if -{I}š is not present
+@P.NEG.1@   ! Set if -{I}š is present
+@D.NEG.0@   ! Disallow if -{I}š is not present
+@D.NEG.1@   ! Disallow if -{I}š is present
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -574,7 +580,7 @@ LEXICON V-PERS-PRES ! P_6
 !%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
 %<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
 %<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
-%<p3%>%<sg%>:%>т V-CLIT ; 
+@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@%>т V-CLIT ; 
 %<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
 %<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
 %<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
@@ -585,7 +591,7 @@ LEXICON V-PERS-PRES ! P_6
 LEXICON V-INFL-COMMON
 
 V-INFL-COMMON-SECOND ;
-%<pl%>:%>%{I%}ш V-INFL-COMMON-SECOND ;
+@P.NEG.1@:%>%{I%}ш@P.NEG.1@ V-INFL-COMMON-SECOND ;
 %<coop%>:%>%{I%}ш V-INFL-COMMON-SECOND ;
 
 LEXICON V-INFL-COMMON-SECOND
@@ -6124,7 +6130,6 @@ LEXICON VerbStems
 ач V-INFL-TV ; ! "open"
 аш V-INFL-IV ; 
 бар V-INFL-IV ; ! "go"
-бар V-INFL-TV ; ! "go"
 бас V-INFL-IV ;
 белгиле V-INFL-TV ;
 бер V-INFL-TV ; 
