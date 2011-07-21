@@ -2181,6 +2181,7 @@ LEXICON NounStems
 лаборатория N-INFL ; 
 лампа N-INFL ; 
 лампочка N-INFL ; 
+ландшафт N-INFL ;
 лава N-INFL ; 
 легенда N-INFL ; 
 легионер N-INFL ; 
@@ -2896,6 +2897,8 @@ LEXICON NounStems
 тырмак N-INFL ; 
 ач% көздүк N-INFL ; 
 суктук N-INFL ; 
+тукум N-INFL ; ! "seed, egg, progeny"
+этнос N-INFL ; ! ~"ethnicity"
 чабарман N-INFL ; 
 ультрафиолет N-INFL ; 
 ун N-INFL ; 
@@ -3261,7 +3264,7 @@ LEXICON NounStems
 бут N-INFL ; 
 аки N-INFL ; 
 боо N-INFL ; 
-байланыш N-INFL ; 
+!байланыш N-INFL ; 
 шылтоо N-INFL ; 
 бахарат N-INFL ; 
 бакча N-INFL ; 
@@ -3385,7 +3388,7 @@ LEXICON NounStems
 данек N-INFL ; 
 тууракелбестик N-INFL ; 
 жамаат N-INFL ; 
-айлана N-INFL ; 
+!айлана N-INFL ; 
 жаак N-INFL ; 
 майдан N-INFL ; 
 сквозняк N-INFL ; 
@@ -4848,6 +4851,7 @@ LEXICON PropernounStems
 Нарын NP-TOP ;
 Фрунзе NP-TOP ;
 СССР NP-TOP ;
+Рим NP-TOP ; ! "Rome"
 
 
 Кыргыз% ССР NP-TOP-ASSR ;
@@ -6106,7 +6110,8 @@ LEXICON VerbStems
 жарат V-INF-TV ;
 аарчы V-INFL-IV ;  ! ""
 аарчы V-INFL-TV ;  ! ""
-айлант V-INFL-TV ; ! "give headache"
+айлант V-INFL-TV ; ! "give headache" ! FIXME: regular
+айлан V-INFL-IV ; ! "turn around"
 айт V-INFL-IV ; ! "tell"
 айт V-INFL-TV ; ! "tell"
 акса V-INFL-IV ; ! "limp"
@@ -6403,6 +6408,7 @@ LEXICON VerbStems
 сарсанаа% тарт V-INFL-TV ;
 ээле V-INFL-TV ; ! "to occupy"
 корот V-INFL-TV ; ! "to waste"
+сок V-INFL-TV ; ! "to hit, fight"
 
 
 тый V-INFL-IV ;
