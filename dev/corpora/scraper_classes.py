@@ -4,7 +4,7 @@ import re, feedparser, urllib, os
 from bottle import template
 from hashlib import sha1
 #from html_parser import MyHTMLParser
-from html_parser import *
+from scraper_parsers import *
 
 class Scraper(object):
 
@@ -45,40 +45,6 @@ class ScraperKMB(Scraper):
 			out = out + self.parse_html(line) + '\n';
 
 		return out;
-
-
-class ScraperAzattyk(Scraper):
-	replacements = []
-	sterilisation = []
-	domain = "www.azattyk.org"
-	prefix = "rflre"
-
-	def url_to_aid(url):
-		return sha1(url.encode('utf-8')).hexdigest()
-		#return url.split('=')[1]
-	
-	def parse_html(self, s):
-		for (patt, repl) in self.sterilisation:
-			s = re.sub(patt, repl, s)
-	
-		return s;
-
-
-	def scrape(self, content=None):
-		if not content and self.content:
-			content = self.content
-
-		out = '';
-		printing = False;
-
-		for (subj, repl) in self.replacements:
-			content = re.sub(subj, repl, content)
-
-		for line in content.split('\n'):
-			out = out + self.parse_html(line) + '\n';
-
-		return out;
-
 
 class ScraperTRT(Scraper):
 
@@ -189,9 +155,6 @@ class Feed(object):
 		#else: Feed(url, which_scraper)
 
 
-
-
-
 class Source(object):
 	aid = None
 	#url = None
@@ -242,7 +205,7 @@ class Source(object):
 		self.outdir = outdir
 		self.path = os.path.join(self.outdir, self.filename)
 		if not self.filename_exists():
-			self.page_contents = self.get_page(url)
+			self.page_contents = self.get_page(self.url)
 			#self.out_content = self.get_content()
 			parser = self.parser()
 			parser.feed(self.page_contents)
@@ -287,7 +250,8 @@ class SimpleHtmlScraper(object):
 		if self.url_not_in_path():
 			content = urllib.request.urlopen(self.url)
 			page = content.read().decode('utf-8')
-			myparser = MyHTMLParser()
+			#myparser = MyHTMLParser()
+			myparser = HTMLParserSimple()
 			myparser.feed(page)
 			(self.title, self.content) = myparser.get_pages()
 
