@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from scraperclasses import Feed, SimpleHtmlScraper
+from scraper_classes import Feed, SimpleHtmlScraper
 import argparse, sys
 
 
