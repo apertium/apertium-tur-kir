@@ -137,9 +137,15 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ %{I%}: р: ] ;
 !п:б <=> :SurVow _ %>: [ [ (:0) :SurVow ] - [ %{I%}: п ] ] ;
 !п:б <=> :SurVow (:0) _ %>: (:0) [ :SurVow - %{I%}:LowVow ] ;
 п:б <=> :SurVow (:0) _ %>: (:0) :SurVow ;
+!п:б => :SurVow (:0) _ %>: (:0) :SurVow ;
+!п:б <= :SurVow (:0) _ %>: (:0) :SurVow ;
+!п:б <=> [ [ :SurVow :* ] - [ :LowVow :* ] ] (:0) _ %>: (:0) [ [ :* :SurVow ] - [ :* %{I%}: п [ :Cns | .#. ] ] ] ;
+!п:б <=> [ [ :SurVow :* ] - [ :LowVow :* ] ] (:0) _ %>: (:0) [ [ :* :SurVow ] - [ :* %{I%}: п ] ] ;
+!п:б <=> [ [ :SurVow :* ] - [ :LowVow :* ] ] (:0) _ %>: (:0) [ [ :* :SurVow ] - [ :* %{I%}: п ] ] ;
+!п:б <=> [ [ :SurVow :* ] - [ :LowVow :* ] ] (:0) _ %>: (:0) [ :* - [ :* :SurVow ] ] ;
 
-"restrict п voicing rule to everything but {I}п"
-п:б /<= :LowVow _ %>: %{I%}: п ;
+!"restrict п voicing rule to everything but {I}п"
+!п:б /<= :LowVow _ %>: %{I%}: п ;
 
 "Intervocalic voicing of к everywhere"
 к:г <=> :SurVow _ %>: [ :SurVow ]/[ :0 ] ;
@@ -310,9 +316,11 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 !!"Deletion of п at end of verb stem before {I}п <cv_perf>"
 !!п:0 <=> :LowVow _ %>: %{I%}: п ;
 
-"Deletion of п at end of verb stem in <cv_perf>"
-!п:0 <=> _ %>: %{I%}:0 п ;
-п:0 <=> :LowVow _ %>: %{I%}: п ;
+!"Deletion of п at end of verb stem in <cv_perf>"
+!!п:0 <=> _ %>: %{I%}:0 п ;
+!п:0 <=> :LowVow _ %>: %{I%}: п ;
+!!п:0 <= :LowVow _ %>: %{I%}: п ;
+!!п:0 <=> :LowVow _ %>: %{I%}: п [ :Cns | .#. ] ;
 
 !!"Deletion of {I} after м at end of verb stem in <cv_perf>"
 !!!%{I%}:0 <=> :LowVow :0 м %>: _ п ;
