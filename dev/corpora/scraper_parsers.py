@@ -1,7 +1,7 @@
 from html.parser import HTMLParser
 from hashlib import sha1
 
-class MyHTMLParser(HTMLParser):
+class HTMLParserSimple(HTMLParser):
 	def __init__(self):
 		HTMLParser.__init__(self)
 		self.title = ""
@@ -42,35 +42,24 @@ class HTMLParserAzattyk(HTMLParser):
 	def handle_starttag(self, tag, attrs):
 		for (attr, value) in attrs:
 			if self.count < 0 and attr == 'class' and value == 'zoomMe':
-				#self.is_content = True
 				self.tagname = tag
-				#self.count = 0
 			elif attr == 'class' and value == 'photo_caption':
 				self.other_content = True
-				#break
 		if tag == self.tagname:
 			self.count += 1
 		if tag == "script":
 			self.skip = True
-
-
 
 	def handle_endtag(self, tag):
 		if tag == "script":
 			self.skip = False
 		if tag == self.tagname:
 			self.count -= 1
-			#if self.count == 0:
-			#	self.count = -1
 			if self.count == -1:
 				self.tagname = None
 
 	def handle_data(self, data):
-		#if self.is_content:
-		#	self.content += "\n" + data
-		#	#self.is_content = False
 		if self.count >= 0 and not self.skip:
-			#self.content += "\n" + data
 			self.content += data
 
 		if self.other_content:
