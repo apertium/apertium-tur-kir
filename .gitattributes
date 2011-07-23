@@ -23,8 +23,8 @@ dev/corpora/kyscraper_book.dat -text
 dev/corpora/kyscraper_rss.dat -text
 dev/corpora/kyscraper_rss1.dat -text
 dev/corpora/scraper.py -text
+dev/corpora/scraper_classes.py -text
 dev/corpora/scraper_parsers.py -text
-dev/corpora/scraperclasses.py -text
 dev/corpora/source.tpl -text
 dev/disambiguation-notes.txt -text
 dev/generation-test.tr-ky.sh -text
