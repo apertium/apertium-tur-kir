@@ -1,4 +1,5 @@
 from html.parser import HTMLParser
+from hashlib import sha1
 
 class MyHTMLParser(HTMLParser):
 	def __init__(self):
@@ -19,8 +20,66 @@ class MyHTMLParser(HTMLParser):
 			self.title = data
 			self.is_title = False
 		if self.is_content:
-			self.content += data
+			self.content += "\n" + data
 			self.is_content = False
 
 	def get_pages(self):
 		return (self.title, self.content)
+
+class HTMLParserAzattyk(HTMLParser):
+	domain = "www.azattyk.org"
+	prefix = "rflre"
+	count = -1
+	tagname = None
+
+	def __init__(self):
+		HTMLParser.__init__(self)
+		self.content = ""
+		self.is_content = False
+		self.other_content = False
+		self.skip = False
+
+	def handle_starttag(self, tag, attrs):
+		for (attr, value) in attrs:
+			if self.count < 0 and attr == 'class' and value == 'zoomMe':
+				#self.is_content = True
+				self.tagname = tag
+				#self.count = 0
+			elif attr == 'class' and value == 'photo_caption':
+				self.other_content = True
+				#break
+		if tag == self.tagname:
+			self.count += 1
+		if tag == "script":
+			self.skip = True
+
+
+
+	def handle_endtag(self, tag):
+		if tag == "script":
+			self.skip = False
+		if tag == self.tagname:
+			self.count -= 1
+			#if self.count == 0:
+			#	self.count = -1
+			if self.count == -1:
+				self.tagname = None
+
+	def handle_data(self, data):
+		#if self.is_content:
+		#	self.content += "\n" + data
+		#	#self.is_content = False
+		if self.count >= 0 and not self.skip:
+			#self.content += "\n" + data
+			self.content += data
+
+		if self.other_content:
+			self.content += "\n" + data + "\n"
+			self.other_content = False
+
+	def get_content(self):
+		return self.content
+
+	def url_to_aid(url):
+		return sha1(url.encode('utf-8')).hexdigest()
+
