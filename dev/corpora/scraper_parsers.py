@@ -28,7 +28,7 @@ class HTMLParserSimple(HTMLParser):
 
 class HTMLParserAzattyk(HTMLParser):
 	domain = "www.azattyk.org"
-	prefix = "rflre"
+	prefix = "rferl"
 	count = -1
 	tagname = None
 
