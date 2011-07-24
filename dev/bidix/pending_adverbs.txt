@@ -1,22 +1,22 @@
-   7463 ^@bir<adv>$
-   1973 ^@ne<adv>$
-   1790 ^@iyi<adv>$
-   1582 ^@gün<adv><ki>$
-   1249 ^@fena<adv>$
-    862 ^@açık<adv>$
+   7447 ^@bir<adv>$
+   1971 ^@ne<adv>$
+   1709 ^@iyi<adv>$
+   1246 ^@fena<adv>$
+    863 ^@açık<adv>$
     688 ^@kaçak<adv>$
-    592 ^@kötü<adv>$
+    562 ^@kötü<adv>$
     551 ^@resmen<adv>$
     517 ^@hitaben<adv>$
     406 ^@yıl<adv><ki>$
-    348 ^@doğru<adv>$
+    346 ^@doğru<adv>$
     337 ^@neredeyse<adv>$
-    304 ^@ağır<adv>$
+    302 ^@ağır<adv>$
+    294 ^@gün<adv><ki>$
     110 ^@salt<adv>$
      81 ^@boş<adv>$
      79 ^@gücün<adv>$
      59 ^@o zaman<adv>$
-     56 ^@güzel<adv>$
+     48 ^@güzel<adv>$
      47 ^@ay<adv><ki>$
      39 ^@dışarı<adv>$
      37 ^@temsilen<adv>$

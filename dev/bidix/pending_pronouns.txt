@@ -1,9 +1,10 @@
-   1376 ^@şu<prn><dem>$
+   1378 ^@şu<prn><dem>$
    1316 ^@bura<prn>$
     207 ^@kim<prn>$
     203 ^@ora<prn>$
     183 ^@nere<prn>$
     122 ^@ne<prn>$
     106 ^@hangi<prn>$
+     45 ^@birbiri<prn><pers>$
      16 ^@şura<prn>$
       1 ^@öteki<prn>$
