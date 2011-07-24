@@ -1,29 +1,31 @@
-   7695 ^@göre<postp>$
+   7755 ^@göre<postp>$
    6083 ^@ilgili<postp>$
-   5598 ^@üzere<postp>$
-   2686 ^@karşı<postp>$
-   1412 ^@rağmen<postp>$
+   5599 ^@üzere<postp>$
+   2763 ^@karşı<postp>$
+   1414 ^@rağmen<postp>$
    1089 ^@birlikte<postp>$
    1036 ^@ötürü<postp>$
    1002 ^@dair<postp>$
     890 ^@halinde<postp>$
-    842 ^@üzerine<postp>$
+    870 ^@üzerine<postp>$
     813 ^@gibi<postp>$
     706 ^@doğru<postp><abl>$
-    504 ^@beri<postp>$
-    277 ^@doğru<postp>$
-    274 ^@itibaren<postp>$
+    594 ^@yakında<postp>$
+    505 ^@beri<postp>$
+    279 ^@doğru<postp>$
+    275 ^@itibaren<postp>$
     159 ^@dolayı<postp>$
-    122 ^@yana<postp>$
-    100 ^@başka<postp>$
+    125 ^@yana<postp>$
+    102 ^@başka<postp>$
      37 ^@anki<postp>$
-     34 ^@dair<postp><dat>$
+     29 ^@dair<postp><dat>$
      20 ^@ilgili<postp><cpl_di><3s>$
+     18 ^@başka<postp><p3s>$
      17 ^@göre<postp><cpl_sa><3s>$
-     17 ^@başka<postp><p3s>$
      16 ^@süresince<postp>$
      16 ^@başka<postp><pl><p3s><gen>$
      13 ^@başka<postp><p3s><gen>$
+     12 ^@yakında<postp><p2s>$
      12 ^@doğru<postp><3p>$
      12 ^@başka<postp><p3s><acc>$
      11 ^@ilgili<postp><3s><dir>$
@@ -39,6 +41,7 @@
       4 ^@üzere<postp><3s><cpl_ken>$
       4 ^@karşı<postp><3s><dir>$
       4 ^@doğru<postp><3p><cpl_ken>$
+      4 ^@başka<postp><p3p><dat>$
       3 ^@yukarı<postp><p3s><loc>$
       3 ^@yana<postp><1p>$
       3 ^@ilgili<postp><pl><gen>$
@@ -46,7 +49,6 @@
       3 ^@başka<postp><p3s><ins>$
       3 ^@başka<postp><p3p><ins>$
       3 ^@başka<postp><p3p><gen>$
-      3 ^@başka<postp><p3p><dat>$
       2 ^@yana<postp><1s>$
       2 ^@gibi<postp><cpl_di><3s>$
       2 ^@doğru<postp><p3s>$
@@ -57,11 +59,11 @@
       1 ^@yukarı<postp><p3s><acc>$
       1 ^@yukarı<postp><loc><ki>$
       1 ^@yana<postp><3s><cpl_ken>$
+      1 ^@yakında<postp><3p>$
       1 ^@üzere<postp><3p>$
       1 ^@rağmen<postp><acc>$
       1 ^@öte<postp><dat>$
       1 ^@karşı<postp><p3s><loc>$
-      1 ^@karşı<postp><p2s>$
       1 ^@karşı<postp><dat>$
       1 ^@karşı<postp><3p><cpl_ken>$
       1 ^@karşı<postp><3p>$
@@ -71,6 +73,7 @@
       1 ^@ilgili<postp><cpl_mis><3s>$
       1 ^@ilgili<postp><3s><cpl_ken>$
       1 ^@ilgili<postp><3p>$
+      1 ^@ile<postp>$
       1 ^@göre<postp><p3s><ins>$
       1 ^@göre<postp><abl>$
       1 ^@gibi<postp><cpl_sa><3s>$
