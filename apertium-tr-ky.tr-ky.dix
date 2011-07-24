@@ -135,6 +135,8 @@
 
 	<e c="  0"><p><l>bu<s n="prn"/></l><r>бул<s n="prn"/><s n="dem"/><s n="ND"/></r></p></e>
 	<e c="  0"><p><l>kendi<s n="prn"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
+
+        <e c="  0"><p><l>birbir<s n="n"/></l><r>бири-бир<s n="n"/></r></p></e> <!-- should be prn.recip -->
 	
         <!-- SECTION: Determiners -->
 
@@ -3275,7 +3277,6 @@
     <e c="  0"><p><l>amerikan<s n="n"/></l><r>американ<b/>кездеме<s n="n"/></r></p></e>    
     <e c="  0"><p><l>tatil<s n="n"/></l><r>каникул<s n="n"/></r></p></e>
     <e c="  0"><p><l>kart<s n="n"/></l><r>конверт<s n="n"/></r></p></e> 
-    <e c="  0"><p><l>birbir<s n="n"/></l><r>бири-бир<s n="n"/></r></p></e>
     <e c="  0"><p><l>saklı<s n="n"/></l><r>жашыруун<s n="n"/></r></p></e>
     <e c="  0"><p><l>eleştiri<s n="n"/></l><r>сын<s n="n"/></r></p></e>
     <e c="  0"><p><l>maaş<s n="n"/></l><r>маяна<s n="n"/></r></p></e>
