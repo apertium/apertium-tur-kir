@@ -2830,7 +2830,6 @@
     <e c="  0"><p><l>toplantı<s n="n"/></l><r>чогулуш<s n="n"/></r></p></e>
     <e c="  0"><p><l>suç<s n="n"/></l><r>күнөө<s n="n"/></r></p></e>
     <e c="  0"><p><l>yerel<s n="n"/></l><r>жергиликтүү<s n="n"/></r></p></e>
-    <e c="  0"><p><l>cumhurbaşkanı<s n="n"/></l><r>президент<s n="n"/></r></p></e>
     <e c="  0"><p><l>süreç<s n="n"/></l><r>абал<s n="n"/></r></p></e>
     <e slr="1"><p><l>süreç<s n="n"/></l><r>процесс<s n="n"/></r></p></e>
     <e c="  0"><p><l>mayıs<s n="n"/></l><r>май<s n="n"/></r></p></e>
@@ -3108,8 +3107,8 @@
     <e c="  0"><p><l>kesin<s n="n"/></l><r>так<s n="n"/></r></p></e>
     <e slr="1"><p><l>kesin<s n="n"/></l><r>анык<s n="n"/></r></p></e>
     <e c="  0"><p><l>yaz<s n="n"/></l><r>жай<s n="n"/></r></p></e>
-    <e c="  0"><p><l>gözaltı<s n="n"/></l><r>камак<s n="n"/></r></p></e>
-    <e slr="1"><p><l>gözaltı<s n="n"/></l><r>түрмө<s n="n"/></r></p></e>
+    <e c="  0"><p><l>gözalt<s n="n"/></l><r>камак<s n="n"/></r></p></e>
+    <e slr="1"><p><l>gözalt<s n="n"/></l><r>түрмө<s n="n"/></r></p></e>
     <e c="  0"><p><l>terörist<s n="n"/></l><r>террорист<s n="n"/></r></p></e>
     <e c="  0"><p><l>is<s n="n"/></l><r>көө<s n="n"/></r></p></e>
     <e c="  0"><p><l>isim<s n="n"/></l><r>ысым<s n="n"/></r></p></e>
@@ -3912,7 +3911,6 @@
     <e c="  0"><p><l>dönüşüm<s n="n"/></l><r>өзгөрүш<s n="n"/></r></p></e>
     <e c="  0"><p><l>dijital<s n="n"/></l><r>санарип<s n="n"/></r></p></e>
     <e c="  0"><p><l>devre<s n="n"/></l><r>орто<s n="n"/></r></p></e>
-    <e c="  0"><p><l>cumhurbaşkan<s n="n"/></l><r>президент<s n="n"/></r></p></e>
     <e c="  0"><p><l>sekiz<s n="n"/></l><r>сегиз<s n="n"/></r></p></e>
     <e c="  0"><p><l>aziz<s n="n"/></l><r>ыйык<s n="n"/></r></p></e>
     <e c="  0"><p><l>ayrıntı<s n="n"/></l><r>деталь<s n="n"/></r></p></e>
