@@ -626,9 +626,9 @@ LEXICON V-INFL-COMMON-SECOND
 ! Adverbial Participles
 %<prt_plan%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
 %<prt_cond%>:%>с%{A%} V-PERS-COND ;
-%<prt_perf%>:%>%{I%}п # ;
+@D.NEG.1@%<prt_perf%>:@D.NEG.1@%>%{I%}п # ;
 %<neg%>%<prt_perf%>:%>%{B%}%{A%}%>%{E%} # ;  ! TODO: is this the right way to do this?
-%<prt_impf%>:%>%{E%} # ;   ! rare IS
+@D.NEG.1@%<prt_impf%>:@D.NEG.1@%>%{E%} # ;   ! rare IS
 !%<prt_????%>:%>м%{A%}й%{I%}нч%{A%} #;       ! TODO: find name  ! rare IS
 !%<prt_????%>:%>%{E%}т # ;                    ! TODO: find name
 
