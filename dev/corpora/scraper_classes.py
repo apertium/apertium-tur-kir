@@ -4,118 +4,8 @@ import re, feedparser, urllib, os
 from bottle import template
 from hashlib import sha1
 #from html_parser import MyHTMLParser
-from scraper_parsers import *
-
-class Scraper(object):
-
-	content = None
-	domain = None
-
-	def __init__(self, content):
-		self.content = content
-
-class ScraperKMB(Scraper):
-	replacements = []
-	sterilisation = []
-	domain = "kmb3.kloop.kg"
-	prefix = "kmb3"
-
-	def url_to_aid(url):
-		return sha1(url.encode('utf-8')).hexdigest()
-		#return url.split('=')[1]
-	
-	def parse_html(self, s):
-		for (patt, repl) in self.sterilisation:
-			s = re.sub(patt, repl, s)
-	
-		return s;
-
-
-	def scrape(self, content=None):
-		if not content and self.content:
-			content = self.content
-
-		out = '';
-		printing = False;
-
-		for (subj, repl) in self.replacements:
-			content = re.sub(subj, repl, content)
-
-		for line in content.split('\n'):
-			out = out + self.parse_html(line) + '\n';
-
-		return out;
-
-class ScraperTRT(Scraper):
-
-	domain = "www.trtkyrgyz.com"
-	prefix = "trt"
-
-	replacements = [
-		('<br /></strong>', '</strong><br />'),
-		('<br />', '\n<br />\n'),
-		('</p>', '\n</p>\n'),
-		('</div>', '\n</div>\n'),
-		('<p class="introduction">', '\n<p class="introduction">\n'),
-		('<div class="author">', '\n<div class="author">\n'),
-		('<div class="zoomMe">', '\n<div class="zoomMe">\n'),
-		('<div class="date">', '\n<div class="date">\n'),
-		#Below here are JNW's additions:
-		('<p>', ''),
-		('<div.*?>', ''),
-		('</div>', '')
-	]
-
-	sterilisation = [
-		('&quot;', '"'),
-		('&ldquo;', '“'),
-		('&rdquo;', '”'),
-		('&laquo;', '«'),
-		('&raquo;', '»'),
-		('&ndash;', '–'),
-		('&mdash;', '—'),
-		('&nbsp;', ' ')
-	]
-
-
-	def url_to_aid(url):
-		return url.split('=')[1]
-	
-	def parse_html(self, s): #{
-		for (patt, repl) in self.sterilisation:
-			s = re.sub(patt, repl, s)
-	
-		return s;
-	#}
-
-
-	def scrape(self, content=None):
-		if not content and self.content:
-			content = self.content
-
-		out = '';
-		printing = False;
-
-		for (subj, repl) in self.replacements:
-			content = re.sub(subj, repl, content)
-			#print(content)
-
-		for line in content.split('\n'): #{
-			if line.count('class="detay_aciklama">') > 0: #{
-				printing = True;
-			#}
-			if line.count(' (www.trtkyrgyz.com)') > 0 or line.count('<div class="forum_comment_reply">') > 0: #{
-				printing = False;
-			#}
-
-			if printing == True: #{
-				out = out + self.parse_html(line) + '\n';
-			#}
-		#}
-
-		return out;
-
-
+#from scraper_parsers import *
+from scrapers import *
 
 
 class Feed(object):
@@ -123,10 +13,12 @@ class Feed(object):
 	domain_name = re.compile('^http[s]{0,1}://(.*?)/.*')
 
 	feed_sites = {
-		"www.trtkyrgyz.com": ScraperTRT,
-		#"www.azattyk.org": ScraperAzattyk,
-		"www.azattyk.org": HTMLParserAzattyk,
-		"kmb3.kloop.kg": ScraperKMB
+		#"www.trtkyrgyz.com": ScraperTRT,
+		##"www.azattyk.org": ScraperAzattyk,
+		#"www.azattyk.org": HTMLParserAzattyk,
+		##"kmb3.kloop.kg": ScraperKMB
+		##"kmb3.kloop.kg": HTMLParserKloop
+		"kmb3.kloop.kg": ScraperKloop
 	}
 
 	which_scraper = None;
@@ -143,7 +35,8 @@ class Feed(object):
 				title = item["title"]
 				print('++' , title);
 				print('++' , item["link"]);
-				yield Source(item["link"], scraper=self.which_scraper, title=title)
+				thisScraper = self.which_scraper
+				yield Source(item["link"], scraper=thisScraper, title=title)
 	
 	def get_scraper(self, url):
 		domain = self.domain_name.match(url).group(1)
@@ -175,10 +68,12 @@ class Source(object):
 		else: self.scraper = scraper
 		if not self.scraper:
 			raise Exception("No scraper set!")
+		#self.page_contents = self.get_page(self.url)
 
-		self.aid = self.scraper.url_to_aid(url)
-		self.filename = self.scraper.prefix+".%s.html" % self.aid
-		self.parser = self.scraper
+		#print(self.scraper)
+		#self.aid = self.scraper.url_to_aid(url)
+		#self.filename = self.scraper.prefix+".%s.html" % self.aid
+		#self.parser = self.scraper
 
 		print(self.aid)
 
@@ -189,11 +84,11 @@ class Source(object):
 		f = urllib.request.urlopen(link)
 		return f.read().decode('utf-8')
 
-	def get_content(self, contents=None):
-		if not contents and self.page_contents:
-			contents = self.page_contents
-		scraper = self.scraper(contents)
-		return scraper.scrape()
+	#def get_content(self, contents=None):
+	#	if not contents and self.page_contents:
+	#		contents = self.page_contents
+	#	scraper = self.scraper(contents)
+	#	return scraper.scrape()
 
 	#def set_url(self, url):
 	#	self.url = url
@@ -202,14 +97,23 @@ class Source(object):
 		return os.path.isfile(self.path)
 	
 	def add_to_archive(self, outdir):
+		scraper = self.scraper(self.url) #, self.page_contents)
+		self.aid = scraper.aid
+		self.filename = self.scraper.prefix+".%s.html" % self.aid
+
 		self.outdir = outdir
 		self.path = os.path.join(self.outdir, self.filename)
 		if not self.filename_exists():
-			self.page_contents = self.get_page(self.url)
+			#self.page_contents = self.get_page(self.url)
 			#self.out_content = self.get_content()
-			parser = self.parser()
-			parser.feed(self.page_contents)
-			self.out_content = parser.get_content()
+			#parser = self.parser
+			#print(self.page_contents.split('\n')[914])
+			#try:
+			#	parser.feed(self.page_contents)
+			#except Exception:
+			#	pass
+			#self.out_content = parser.get_content()
+			self.out_content = scraper.scraped()
 
 			#print(outdir, self.filename, self)
 			#with open(os.path.join(outdir, self.filename), 'w+') as f:
