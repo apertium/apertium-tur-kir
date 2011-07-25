@@ -49,6 +49,7 @@ FrontRndVow = Ө Ү ө ү ;
 BackRndVow =  О У о у Ю ю Ё ё ;
 BackLowRndVow = О о Ё ё ;
 LowVow = Е е Э э Ө ө А а Я я О о Ё ё ; ! АА аа ЭЭ ээ ӨӨ өө ОО оо ;
+HighVow = И и Ү ү Ы ы У у Ю ю ;
 YotVow = Я я Е е Ё ё Ю ю ;
 
 NasalCns = м н ң
@@ -135,14 +136,26 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ %{I%}: р: ] ;
 !п:б <=> :SurVow _ %>: [ [ [ :SurVow ]/[ :0 ] ] - [ %{I%}: п ] ] ;
 !п:б <=> :SurVow _ %>: [ [ (:0) :SurVow ] - $[ %{I%}: п ] ] ;
 !п:б <=> :SurVow _ %>: [ [ (:0) :SurVow ] - [ %{I%}: п ] ] ;
-!п:б <=> :SurVow (:0) _ %>: (:0) [ :SurVow - %{I%}:LowVow ] ;
-п:б <=> :SurVow (:0) _ %>: (:0) :SurVow ;
-!п:б => :SurVow (:0) _ %>: (:0) :SurVow ;
+!!п:б <=> :SurVow (:0) _ %>: (:0) [ :SurVow - %{I%}:LowVow ] ;
+!п:б <=> :SurVow (:0) _ %>: (:0) :SurVow ;
+!!п:б => :SurVow (:0) _ %>: (:0) :SurVow ;
 !п:б <= :SurVow (:0) _ %>: (:0) :SurVow ;
 !п:б <=> [ [ :SurVow :* ] - [ :LowVow :* ] ] (:0) _ %>: (:0) [ [ :* :SurVow ] - [ :* %{I%}: п [ :Cns | .#. ] ] ] ;
 !п:б <=> [ [ :SurVow :* ] - [ :LowVow :* ] ] (:0) _ %>: (:0) [ [ :* :SurVow ] - [ :* %{I%}: п ] ] ;
 !п:б <=> [ [ :SurVow :* ] - [ :LowVow :* ] ] (:0) _ %>: (:0) [ [ :* :SurVow ] - [ :* %{I%}: п ] ] ;
 !п:б <=> [ [ :SurVow :* ] - [ :LowVow :* ] ] (:0) _ %>: (:0) [ :* - [ :* :SurVow ] ] ;
+!п:б <=> :SurVow (:0) _ %>:  [(:0) :SurVow - [:* %{I%}: п ]] ;
+!п:б <=> [:SurVow (:0) _ %>: (:0) :SurVow - [:LowVow _ %>: %{I%}: п ]] ;
+!п:б <=> [[:SurVow (:0)] - [:LowVow ]] _ %>: [(:0) :SurVow - [%{I%}: п ]] ;
+!п:б <=> [:SurVow - :LowVow ] (:0) _ %>: (:0) [ :SurVow - [ %{I%}: п ]] ;
+!п:б <=> :SurVow (:0) _ %>: (:0) [ :SurVow - [ %{I%}: п ]] ;
+!п:б <=> [:SurVow (:0) - [:LowVow (:0)]] _ %>: (:0) [:SurVow - [%{I%}: ]] \п ;
+!п:б <=> [:SurVow (:0) - [:LowVow (:0)]] _ %>: [[(:0) :SurVow] - [%{I%}: ]] \п ;
+п:б <=> :UnlowVow (:0) _ %>: (:0) [ [:SurVow - %{I%}:] [:* - п]* | %{I%}: ] .#. ;
+        :UnlowVow (:0) _ %>: (:0) :SurVow ;
+        :SurVow (:0)   _ %>: (:0) [ [:SurVow - %{I%}:] [:* - п]* | %{I%}: ] .#. ;
+
+
 
 !"restrict п voicing rule to everything but {I}п"
 !п:б /<= :LowVow _ %>: %{I%}: п ;
@@ -316,9 +329,9 @@ Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
 !!"Deletion of п at end of verb stem before {I}п <cv_perf>"
 !!п:0 <=> :LowVow _ %>: %{I%}: п ;
 
-!"Deletion of п at end of verb stem in <cv_perf>"
+"Deletion of п at end of verb stem in <cv_perf>"
 !!п:0 <=> _ %>: %{I%}:0 п ;
-!п:0 <=> :LowVow _ %>: %{I%}: п ;
+п:0 <=> :LowVow _ %>: %{I%}: п ;
 !!п:0 <= :LowVow _ %>: %{I%}: п ;
 !!п:0 <=> :LowVow _ %>: %{I%}: п [ :Cns | .#. ] ;
 
