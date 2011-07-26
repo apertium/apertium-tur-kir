@@ -3390,6 +3390,7 @@ LEXICON NounStems
 тартуу N-INFL ; 
 сууругуч N-INFL ; 
 тартулуу N-INFL ; 
+тартулуу% күчү N-INFL ; 
 данек N-INFL ; 
 тууракелбестик N-INFL ; 
 жамаат N-INFL ; 
@@ -4204,7 +4205,7 @@ LEXICON NounStems
 пресс% атташе N-INFL ;
 соода-сатык N-INFL ;
 прокурор N-INFL ;
-ыйгарымдуу% елчи
+ыйгарымдуу% елчи N-INFL ;
 моюн% сунуу N-INFL ;
 ден N-INFL ;
 тергөө N-INFL ;
@@ -4572,7 +4573,7 @@ LEXICON NounStems
 залал N-INFL ;
 катто N-INFL ;
 аиыптоо% сөзү N-INFL ;
-көркөм
+көркөм% өнөр N-INFL ;
 күнү N-INFL ;
 түндүк N-INFL ;
 кемер N-INFL ;
@@ -6293,8 +6294,8 @@ LEXICON AdjecStems
 материалдык ADJ ; ! ""
 радиотехникалык ADJ ; ! ""
 музыкалык ADJ ; ! ""
-хореографиялык ADJ ! ""
-энциклопедиялык ADJ ! ""
+хореографиялык ADJ ; ! ""
+энциклопедиялык ADJ ; ! ""
 тилдүү ADJ ;
 оозеки ADJ ;
 чыныгы ADJ ; 
@@ -7491,7 +7492,7 @@ LEXICON VerbStems
 кес V-INFL-TV ; ! "cut"
 кеч V-INFL-TV ; 
 кир V-INFL-IV ; ! "enter"
-кир V-INFL-TV
+кир V-INFL-TV ;
 кооздо V-INFL-TV ; 
 чыда V-INFL-TV ; ! "put up with"
 чыда V-INFL-IV ; ! "be patient"
