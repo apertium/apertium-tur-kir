@@ -875,15 +875,20 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="neg"/>
-            <lit-tag v="fut"/>
-            <var n="c_pers"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
+          <mlu>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="trans"/>
+              <clip pos="1" side="tl" part="neg"/>
+              <lit-tag v="fut"/>
+            </lu>
+            <lu>
+              <lit v="э"/>
+              <var n="c_pers"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </mlu>
         </out>
       </action>
     </rule>

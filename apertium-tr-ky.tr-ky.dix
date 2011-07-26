@@ -694,7 +694,7 @@
 	<e c="  0"><p><l>detektif<s n="n"/></l><r>детектив<s n="n"/></r></p></e>
 	<e c="  0"><p><l>determinant<s n="n"/></l><r>детерминант<s n="n"/></r></p></e>
 	<e c="  0"><p><l>determinizm<s n="n"/></l><r>детерминизм<s n="n"/></r></p></e>
-	<e c="  0"><p><l>diktafon<s n="n"/></l><r>диктофон <s n="n"/></r></p></e>
+	<e c="  0"><p><l>diktafon<s n="n"/></l><r>диктофон<s n="n"/></r></p></e>
 	<e c="  0"><p><l>diktatör<s n="n"/></l><r>диктатор<s n="n"/></r></p></e>
 	<e c="  0"><p><l>dilmaç<s n="n"/></l><r>тилмеч<s n="n"/></r></p></e>
 	<e c="  0"><p><l>dinamik<s n="n"/></l><r>динамика<s n="n"/></r></p></e>
@@ -1029,7 +1029,7 @@
 	<e c="  0"><p><l>feodalizm<s n="n"/></l><r>феодализм<s n="n"/></r></p></e>
 	<e c="  0"><p><l>festival<s n="n"/></l><r>фестиваль<s n="n"/></r></p></e>
 	<e c="  0"><p><l>fetiş<s n="n"/></l><r>фетиш<s n="n"/></r></p></e>
-	<e c="  0"><p><l>fetişizm<s n="n"/></l><r>фетишизм <s n="n"/></r></p></e>
+	<e c="  0"><p><l>fetişizm<s n="n"/></l><r>фетишизм<s n="n"/></r></p></e>
 	<e c="  0"><p><l>figür<s n="n"/></l><r>фигура<s n="n"/></r></p></e>
 	<e c="  0"><p><l>fikir<s n="n"/></l><r>пикир<s n="n"/></r></p></e>
 	<e slr="1"><p><l>fikir<s n="n"/></l><r>ой<s n="n"/></r></p></e>
@@ -2733,6 +2733,7 @@
 	<e c="  0"><p><l>pazar</l><r>базар</r></p> </e>
 	<e c="  0"><p><l>bakanlık</l><r>министирлик</r></p> </e>
 	<e c="  0"><p><l>sonra</l><r>кийин</r></p> </e>
+	<e c="  0"><p><l>sonra<s n="postp"/></l><r>кийин<s n="post"/></r></p> </e>
 	<e c="  0"><p><l>kabul</l><r>кабыл</r></p> </e>
 	<e c="  0"><p><l>yemek</l><r>тамак</r></p> </e>
 	<e c="  0"><p><l>şey</l><r>нерсе</r></p> </e>
@@ -2929,7 +2930,7 @@
     <e c="  0"><p><l>sözcü<s n="n"/></l><r>пресс<b/>атташе<s n="n"/></r></p></e>
     <e c="  0"><p><l>ticaret<s n="n"/></l><r>соода-сатык<s n="n"/></r></p></e>
     <e c="  0"><p><l>savcı<s n="n"/></l><r>прокурор<s n="n"/></r></p></e>
-    <e c="  0"><p><l>büyükelçi<s n="n"/></l><r>ыйгарымдуу<b/>елчи <s n="n"/></r></p></e>
+    <e c="  0"><p><l>büyükelçi<s n="n"/></l><r>ыйгарымдуу<b/>елчи<s n="n"/></r></p></e>
     <e c="  0"><p><l>teslim<s n="n"/></l><r>моюн<b/>сунуу<s n="n"/></r></p></e>
     <e c="  0"><p><l>dan<s n="n"/></l><r>ден<s n="n"/></r></p></e>
     <e c="  0"><p><l>soruşturma<s n="n"/></l><r>тергөө<s n="n"/></r></p></e>
@@ -2985,7 +2986,7 @@
     <e c="  0"><p><l>uygulama<s n="n"/></l><r>тажрыйба<s n="n"/></r></p></e>
     <e c="  0"><p><l>teşkilat<s n="n"/></l><r>уюм<s n="n"/></r></p></e>
     <e slr="1"><p><l>teşkilat<s n="n"/></l><r>мекеме<s n="n"/></r></p></e>
-    <e c="  0"><p><l>kısa<s n="n"/></l><r>кыска <s n="n"/></r></p></e>
+    <e c="  0"><p><l>kısa<s n="n"/></l><r>кыска<s n="n"/></r></p></e>
     <e c="  0"><p><l>serbest<s n="n"/></l><r>эркин<s n="n"/></r></p></e>
     <e c="  0"><p><l>önem<s n="n"/></l><r>маани<s n="n"/></r></p></e>
     <e c="  0"><p><l>euro<s n="n"/></l><r>евро<s n="n"/></r></p></e>
@@ -3742,7 +3743,7 @@
     <e c="  0"><p><l>bağlam<s n="n"/></l><r>контекст<s n="n"/></r></p></e>
     <e c="  0"><p><l>partili<s n="n"/></l><r>партиялуу<s n="n"/></r></p></e>
     <e c="  0"><p><l>komünizm<s n="n"/></l><r>коммунизм<s n="n"/></r></p></e>
-    <e c="  0"><p><l>batıl<s n="n"/></l><r> батыш<s n="n"/></r></p></e>
+    <e c="  0"><p><l>batıl<s n="n"/></l><r>батыш<s n="n"/></r></p></e>
     <e c="  0"><p><l>atık<s n="n"/></l><r>таштанды<s n="n"/></r></p></e>
     <e c="  0"><p><l>ardıl<s n="n"/></l><r>орун<b/>басар<s n="n"/></r></p></e>
     <e c="  0"><p><l>muhabir<s n="n"/></l><r>кабарчы<s n="n"/></r></p></e>
@@ -4157,7 +4158,7 @@
     <e c="  0"><p><l>mahrum<s n="n"/></l><r>куру<s n="n"/></r></p></e>
     <e c="  0"><p><l>liberal<s n="n"/></l><r>либералдуу<s n="n"/></r></p></e>
     <e c="  0"><p><l>koca<s n="n"/></l><r>эр<s n="n"/></r></p></e>
-    <e c="  0"><p><l>kağıt<s n="n"/></l><r>кагазs <s n="n"/></r></p></e>
+    <e c="  0"><p><l>kağıt<s n="n"/></l><r>кагаз<s n="n"/></r></p></e>
     <e c="  0"><p><l>aksu<s n="n"/></l><r>чел<s n="n"/></r></p></e>
     <e c="  0"><p><l>tezkere<s n="n"/></l><r>расмий<b/>жазуу<s n="n"/></r></p></e>
     <e c="  0"><p><l>sistematik<s n="n"/></l><r>систематикалык<s n="n"/></r></p></e>
@@ -4759,7 +4760,7 @@
 	<e c="  0"><p><l>muazzam<s n="adj"/></l><r>улуу<s n="adj"/></r></p></e>
 	<e slr="1"><p><l>muazzam<s n="adj"/></l><r>бийик<s n="adj"/></r></p></e>
 	<e slr="2"><p><l>muazzam<s n="adj"/></l><r>зор<s n="adj"/></r></p></e>
-	<e c="  0"><p><l>mükemmel<s n="adj"/></l><r> кемчиликсиз<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>mükemmel<s n="adj"/></l><r>кемчиликсиз<s n="adj"/></r></p></e>
 	<e slr="1"><p><l>mükemmel<s n="adj"/></l><r>кынтыксыз<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>hassas<s n="adj"/></l><r>сезимтал<s n="adj"/></r></p></e>
 	<e slr="1"><p><l>hassas<s n="adj"/></l><r>сезгич<s n="adj"/></r></p></e>
@@ -5478,7 +5479,7 @@
 	<e slr="2"><p><l>geril<s n="v"/></l><r>толкундан<s n="v"/><s n="iv"/></r></p></e>  
 	<e slr="3"><p><l>geril<s n="v"/></l><r>калчылдан<s n="v"/><s n="iv"/></r></p></e>  
 
-	<e c="  0"><p><l>geç<s n="v"/></l><r>өт<s n="v"/><s n="tv"/></r></p></e>  
+	<e c="  0"><p><l>geç<s n="v"/></l><r>өт<s n="v"/><s n="iv"/></r></p></e>  
 	<e slr="1"><p><l>geç<s n="v"/></l><r>жазыл<s n="v"/><s n="TD"/></r></p></e> 
 	<e slr="2"><p><l>geç<s n="v"/></l><r>кеч<s n="v"/><s n="tv"/></r></p></e> 
 
