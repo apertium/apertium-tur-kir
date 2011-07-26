@@ -57,5 +57,5 @@ Tests:
   "[twol] random vociing stuff":
     чык<v><iv><prt_perf> : чыгып
     чык<v><iv><prt_impf> : чыга
-    тап<v><iv><prt_impf> : таба
-    теп<v><iv><prt_impf> : тебе
+    тап<v><tv><prt_impf> : таба
+    теп<v><tv><prt_impf> : тебе
