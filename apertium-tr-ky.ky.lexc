@@ -5883,10 +5883,8 @@ Tеңир NP-TOP ; ! ""
 Черногория NP-TOP ; ! ""
 Чехословакия NP-TOP ; ! ""
 Чеченистан NP-TOP ; ! ""
-!Экватор NP-TOP ; ! ""
-!Эрбил NP-TOP ; ! ""
-!Эфиопия NP-TOP ; ! ""
-!Эфиопия NP-TOP ; ! ""
+Экватор NP-TOP ; ! ""
+Эфиопия NP-TOP ; ! ""
 Япония NP-TOP ; ! "Japan"
 Ливия NP-TOP ; ! ""
 Пакистан NP-TOP ; ! "Pakistan"
@@ -5994,6 +5992,7 @@ Tеңир NP-TOP ; ! ""
 Иран NP-TOP ;
 Мостар NP-TOP ;
 Швецария NP-TOP ;
+Эрбил NP-TOP ;
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
@@ -6204,6 +6203,7 @@ Tеңир NP-TOP ; ! ""
 Тадич NP-COG-MF ;
 Крнета NP-COG-MF ;
 Орузбаева NP-COG-MF ;
+Лахей NP-COG-MF ; ! ""
 
 Эрдоган NP-COG-MF ; ! ""
 
