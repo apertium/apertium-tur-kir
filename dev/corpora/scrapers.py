@@ -31,11 +31,13 @@ class ScraperKloop(Scraper):
 			pass
 		#return lxml.html.document_fromstring(lxml.html.clean.clean_html(lxml.html.tostring(el).decode('utf-8'))).text_content()
 		cleaned = lxml.html.document_fromstring(lxml.html.clean.clean_html(lxml.html.tostring(el).decode('utf-8')))
-		#also delete where class = 'mrc__share'
 		for className in self.badClasses:
 			for el in cleaned.find_class(className):
 				el.getparent().remove(el)
-		#print(len(cleaned.find_class('mrc__share')))
+		#remove all h3 tags
+		badEl = cleaned.find(".//h3")
+		badEl.getparent().remove(badEl)
+
 		return cleaned.text_content()
 
 	def url_to_aid(self, url):
