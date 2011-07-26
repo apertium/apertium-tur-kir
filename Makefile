@@ -23,4 +23,5 @@ all:
 	hfst-fst2fst -w -i .deps/ky-tr.automorf.hfst -o ky-tr.automorf.hfst
 	hfst-fst2fst -w -i .deps/tr-ky.autogen.hfst -o tr-ky.autogen.hfst
 
-
+clean:
+	rm -rf ky-tr.automorf.hfst tr-ky.autogen.hfst .deps tr-ky.rlx.bin tr-ky.t1x.bin modes/ tr-ky.autobil.bin
