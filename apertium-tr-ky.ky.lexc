@@ -597,7 +597,7 @@ LEXICON V-PERS-PRES ! P_6
 LEXICON V-INFL-COMMON
 
 V-INFL-COMMON-SECOND ;
-@P.NEG.1@:%>%{I%}ш@P.NEG.1@ V-INFL-COMMON-SECOND ;
+@P.NEG.1@:%>%{I%}ш@P.NEG.1@ V-INFL-COMMON-SECOND ; ! Dir/LR
 %<coop%>:%>%{I%}ш V-INFL-COMMON-SECOND ;
 
 LEXICON V-INFL-NON-FINITE
@@ -639,7 +639,7 @@ LEXICON V-INFL-COMMON-SECOND
 @D.NEG.1@:@D.NEG.1@ V-INFL-NON-FINITE ; 
 
 ! Finite forms
-%<pres%>:%>%{A%} V-PERS-PRES ;                                ! TODO: Check
+!%<pres%>:%>%{A%} V-PERS-PRES ;                                ! TODO: Check
 %<aor%>:%>%{E%} V-PERS-PRES ;                                 !
 %<fut%>:%>%{A%}р V-PERS-COP ;                                 !
 %<fut%>:%>%{A%}%{A%}р V-PERS-COP ;                            ! Dir/LR
