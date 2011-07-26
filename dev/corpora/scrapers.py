@@ -35,8 +35,8 @@ class ScraperKloop(Scraper):
 			for el in cleaned.find_class(className):
 				el.getparent().remove(el)
 		#remove all h3 tags
-		badEl = cleaned.find(".//h3")
-		badEl.getparent().remove(badEl)
+		for badEl in cleaned.findall(".//h3"):
+			badEl.getparent().remove(badEl)
 
 		return cleaned.text_content()
 
