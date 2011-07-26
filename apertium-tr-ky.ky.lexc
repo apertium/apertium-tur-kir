@@ -328,7 +328,11 @@ LEXICON ADV
 
 LEXICON POST
 
-%<post%>: # ;
+%<post%>: # ; 
+
+LEXICON POST-DECL
+
+%<post%>: POSSESSION ; 
 
 LEXICON CA
 
@@ -753,6 +757,9 @@ LEXICON Conjunctions
 !эгер PART ; ! conjunction like particle "if"
 !эгерде PART ; ! conjunction like particle "if"
 
+же% болбосо CA ; ! ""
+кийин CA ; ! ""
+
 
 жана CA ; ! Dir/RL "but" 
 
@@ -766,7 +773,7 @@ LEXICON Postpositions
 чейин POST ; ! "up to, until"
 кийин POST ; ! "with"
 сайын POST ; ! "every"
-үчүн POST ; ! "for" +nom
+үчүн POST-DECL ; ! "for" +nom
 жакка POST ; ! "toward"
 чакты POST ; ! "about, around"
 катары POST ; ! "as a" +nom
@@ -4119,7 +4126,6 @@ LEXICON NounStems
 мөөнөт N-INFL ;
 кошумча N-INFL ;
 оппозиция N-INFL ;
-январь N-INFL ;
 сан N-INFL ;
 апрель N-INFL ;
 болжол% менен N-INFL ;
@@ -5942,7 +5948,6 @@ Tеңир NP-TOP ; ! ""
 Сарайбосня NP-TOP ;
 Үскүп NP-TOP ;
 Атина NP-TOP ;
-Босня NP-TOP ;
 Орусия NP-TOP ;
 Загреб NP-TOP ;
 Үскүп NP-TOP ;
@@ -7183,7 +7188,6 @@ LEXICON AdvStems
 дагы ADV ; ! FIXME: oh?
 илгери ADV ; 
 эрте ADV ; 
-!соңунда ADV ; ! compositional
 бек ADV ; 
 кайрадан ADV ; ! "yet/once again"
 башы% башына ADV ; 
@@ -7191,7 +7195,6 @@ LEXICON AdvStems
 болгону ADV ; ! FIXME: huh?
 дагы% эле ADV ; ! maybe this should be seen as compositional
 эми ADV ; 
-!бери ADV ; ! FIXME: POSTPOS!
 азыр ADV ; 
 дайыма ADV ; 
 толугу% менен ADV ; 
@@ -7266,7 +7269,6 @@ LEXICON AdvStems
 эмне% үчүн ADV ; ! FIXME: hmmm, compositional
 бардыгын ADV ; 
 тилеке% каршы ADV ; ! "unfortunately"
-!алдында ADV ; 
 кечээ ADV ; 
 дайыма ADV ; ! "always"
 анда-санда ADV ; ! "occasionally"
@@ -7279,10 +7281,8 @@ LEXICON AdvStems
 сөзсүз ADV ; 
 кээбири ADV ; 
 түндөсү ADV ; 
-!далай ADV ; 
 болоорунча ADV ; 
 өзүндөй ADV ; 
-!барган% сайын ADV ; ! done with <ger> and POSTP
 көбүрөөк ADV ; 
 апачык ADV ; 
 ошондой ADV ; 
@@ -7298,6 +7298,19 @@ LEXICON AdvStems
 таптакыр ADV ;
 жалаң ADV ;
 анда% санда ADV ;			
+
+
+алдында ADV ;  ! See bidix
+!барган% сайын ADV ; ! done with <ger> and POSTP
+!бери ADV ; ! FIXME: POSTPOS!
+!далай ADV ; 
+мына ADV ; ! See bidix
+ооба ADV ; ! See bidix
+соңунда ADV ; ! compositional (See bidix)
+тышкары ADV ; ! See bidix
+чогу ADV ; ! See bidix
+
+
 
 LEXICON VerbStems
 
