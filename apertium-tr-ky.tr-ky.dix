@@ -4446,16 +4446,14 @@
   <e><p><l>Bulgar<s n="np"/></l><r>Балгар<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Makedon<s n="np"/></l><r>Македониалык<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Bosnalı<s n="np"/></l><r>Босниялык<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Lahey<s n="np"/></l><r>ЛАХЕЙ<s n="np"/><s n="top"/></r></p></e>
+  <e><p><l>Lahey<s n="np"/></l><r>Лакей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
   <e><p><l>SARAYBOSNA<s n="np"/></l><r>Сарайбосня<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Üsküp<s n="np"/></l><r>Үскүп<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Atina<s n="np"/></l><r>Атина<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Saraybosna<s n="np"/></l><r>Босня<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Rusya<s n="np"/></l><r>Орусия<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Zagreb<s n="np"/></l><r>Загреб<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>ÜSKÜP<s n="np"/></l><r>Үскүп<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Sofya<s n="np"/></l><r>София<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>SOFYA<s n="np"/></l><r>София<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Anadolu<s n="np"/></l><r>Анадолу<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Almanya<s n="np"/></l><r>Германия<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Slovenya<s n="np"/></l><r>Словения<s n="np"/><s n="top"/></r></p></e>
@@ -4466,7 +4464,6 @@
   <e><p><l>Yugoslavya<s n="np"/></l><r>Югославия<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>İstanbul<s n="np"/></l><r>Истанбул<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>İtalya<s n="np"/></l><r>Италия<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>ZAGREB<s n="np"/></l><r>Загреб<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>İngiltere<s n="np"/></l><r>Англия<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Washington<s n="np"/></l><r>Вашингтон<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>IMF<s n="np"/></l><r>ИМФ<s n="np"/><s n="top"/></r></p></e>
@@ -4482,13 +4479,11 @@
   <e><p><l>Adriyatik<s n="np"/></l><r>Адриятика<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Kürdistan<s n="np"/></l><r>Курдистан<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Fransız<s n="np"/></l><r>Франция<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>LAHEY<s n="np"/></l><r>ЛАХЕЙ<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Viyana<s n="np"/></l><r>Виена<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Macaristan<s n="np"/></l><r>Венгрия<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Moskova<s n="np"/></l><r>Москва<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>İspanya<s n="np"/></l><r>Испания<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Ukrayna<s n="np"/></l><r>Украина<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>WASHINGTON<s n="np"/></l><r>Вашингтон<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>İsveç<s n="np"/></l><r>Швеция<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>İslam<s n="np"/></l><r>Ислам<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Arnavut<s n="np"/></l><r>Албан<s n="np"/><s n="top"/></r></p></e>
