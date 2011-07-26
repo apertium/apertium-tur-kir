@@ -100,8 +100,8 @@
 	<e c="  0"><p><l>olarak<s n="cnjsub"/></l><r>болуп<s n="cnjsub"/></r></p></e>
 	<e c="  0"><p><l>bile<s n="cnjadv"/></l><r>дагы<s n="part"/></r></p></e>
 	
-	<e c="  0"><p><l>de<s n="cnjadv"/></l><r>да<s n="part"/></r></p></e>
-	<e c="  0"><p><l>da<s n="cnjadv"/></l><r>да<s n="part"/></r></p></e>
+	<e c="  0"><p><l>de<s n="cnjadv"/></l><r>да<s n="cnjcoo"/></r></p></e>
+	<e c="  0"><p><l>da<s n="cnjadv"/></l><r>да<s n="cnjcoo"/></r></p></e>
     
 	<!-- SECTION: Determinatives -->
 	<e c="  0"><p><l>bu<s n="det"/></l><r>бул<s n="det"/><s n="dem"/></r></p></e>
