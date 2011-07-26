@@ -14,7 +14,7 @@ class Feed(object):
 
 	feed_sites = {
 		#"www.trtkyrgyz.com": ScraperTRT,
-		##"www.azattyk.org": ScraperAzattyk,
+		"www.azattyk.org": ScraperAzattyk,
 		#"www.azattyk.org": HTMLParserAzattyk,
 		##"kmb3.kloop.kg": ScraperKMB
 		##"kmb3.kloop.kg": HTMLParserKloop
@@ -75,7 +75,7 @@ class Source(object):
 		#self.filename = self.scraper.prefix+".%s.html" % self.aid
 		#self.parser = self.scraper
 
-		print(self.aid)
+		#print(self.aid)
 
 	def get_scraper(self, url):
 		return
@@ -113,6 +113,7 @@ class Source(object):
 			#except Exception:
 			#	pass
 			#self.out_content = parser.get_content()
+			print("Adding...", end=" ")
 			self.out_content = scraper.scraped()
 
 			#print(outdir, self.filename, self)
@@ -125,6 +126,7 @@ class Source(object):
 				#f.write('\n</div>\n');
 				#f.write(self.out_content);
 			#f.close();
+			print("added.")
 
 		else:
 			print(self.filename, " exists!  Skipping.")
