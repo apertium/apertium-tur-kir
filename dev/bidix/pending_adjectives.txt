@@ -1,113 +1,109 @@
-
       1 ^@tökezle<v><caus><dvn_yici><adj>$
-      1 ^@tez<adj><pst>$ 
-      1 ^@tetik<adj><pst>$
-      1 ^@tertemiz<adj><pst>$
-      1 ^@taşkın<adj><pst>$
-      1 ^@taşınmaz<adj><pst>$
-      1 ^@sürüngen<adj><pst>$
-      1 ^@sulak<adj><pst>$
-      1 ^@soylu<adj><pst>$
-      1 ^@şöyle<adj><pst>$
-      1 ^@şoven<adj><pst>$
-      1 ^@soluk<adj><pst>$
-      1 ^@sizinki<adj><pst>$
-      1 ^@şişman<adj><pst>$
-      1 ^@şişko<adj><pst>$
-      1 ^@simsiyah<adj><pst>$
-      1 ^@silindir<adj><pst>$
-      1 ^@serseri<adj><pst>$
-      1 ^@sarhoş<adj><pst>$
-      1 ^@sapa<adj><pst>$
-      1 ^@sakın<v><caus><dvn_yici><adj>$
-      1 ^@sakar<adj><pst>$
-      1 ^@sağal<v><caus><dvn_yici><adj>$
-      1 ^@rezil<adj><pst>$
-      1 ^@revizyonist<adj><pst>$
-      1 ^@rahatla<v><caus><dvn_yici><adj>$
-      1 ^@rafine<adj><pst>$
-      1 ^@primitif<adj><pst>$
-      1 ^@porselen<adj><pst>$
-      1 ^@porno<adj><pst>$
-      1 ^@pekiş<v><caus><dvn_yici><adj>$
-      1 ^@pek<adj><pst>$
-      1 ^@paramparça<adj><pst>$
-      1 ^@pagan<adj><pst>$
-      1 ^@oyuk<adj><pst>$
-      1 ^@narin<adj><pst>$
-      1 ^@nankör<adj><pst>$
-      1 ^@nadide<adj><pst>$
-      1 ^@mütevazi<adj><pst>$
-      1 ^@müstehcen<adj><pst>$
-      1 ^@müspet<adj><pst>$
-      1 ^@mümin<adj><pst>$
-      1 ^@muadil<adj><pst>$
-      1 ^@miyosen<adj><pst>$
-      1 ^@miskin<adj><pst>$
-      1 ^@milletlerarası<adj><pst>$
-      1 ^@mikroskobik<adj><pst>$
-      1 ^@megaloman<adj><pst>$
-      1 ^@maskara<adj><pst>$
-      1 ^@malum<adj><pst>$
-      1 ^@mağrur<adj><pst>$
-      1 ^@küstah<adj><pst>$
-      1 ^@kürk<adj><pst>$
-      1 ^@kullanışlı<adj><pst>$
-      1 ^@küçükbaş<adj><pst>$
-      1 ^@küçücük<adj><pst>$
-      1 ^@koşer<adj><pst>$
-      1 ^@konjonktürel<adj><pst>$
-      1 ^@kibar<adj><pst>$
-      1 ^@kerpiç<adj><pst>$
-      1 ^@kaşmir<adj><pst>$
-      1 ^@kare<adj><pst>$
-      1 ^@kalpazan<adj><pst>$
-      1 ^@kahverengi<adj><pst>$
-      1 ^@kabadayı<adj><pst>$
-      1 ^@isveçli<adj><pst>$
-      1 ^@ıslak<adj><pst>$
-      1 ^@inik<adj><pst>$
-      1 ^@ılık<adj><pst>$
-      1 ^@idealist<adj><pst>$
-      1 ^@hor<adj><pst>$
-      1 ^@homojen<adj><pst>$
-      1 ^@hijyenik<adj><pst>$
-      1 ^@hazin<adj><pst>$
-      1 ^@haylaz<adj><pst>$
-      1 ^@halis<adj><pst>$
-      1 ^@güzide<adj><pst>$
-      1 ^@gürbüz<adj><pst>$
-      1 ^@gücen<v><caus><dvn_yici><adj>$
-      1 ^@göze<v><caus><dvn_yici><adj>$
-      1 ^@gevrek<adj><pst>$
-      1 ^@fesat<adj><pst>$
-      1 ^@fahiş<adj><pst>$
-      1 ^@entellektüel<adj><pst>$
-      1 ^@eklektik<adj><pst>$
-      1 ^@eğlen<v><caus><dvn_yici><adj>$
-      1 ^@eğik<adj><pst>$
-      1 ^@dümdüz<adj><pst>$
-      1 ^@dişi<adj><pst>$
-      1 ^@dikey<adj><pst>$
-      1 ^@destansı<adj><pst>$
-      1 ^@daral<v><caus><dvn_yici><adj>$
-      1 ^@centilmen<adj><pst>$
-      1 ^@buruk<adj><pst>$
-      1 ^@bunal<v><caus><dvn_yici><adj>$
-      1 ^@bilgilen<v><caus><dvn_yici><adj>$
-      1 ^@bildik<adj><pst>$
-      1 ^@betonarme<adj><pst>$
-      1 ^@bencil<adj><pst>$
-      1 ^@bekar<adj><pst>$
-      1 ^@baygın<adj><pst>$
-      1 ^@bayat<adj><pst>$
-      1 ^@başbaşa<adj><pst>$
-      1 ^@bağ<adj><pst>$
-      1 ^@azmet<v><caus><dvn_yici><adj>$
-      1 ^@asli<adj><pst>$
-      1 ^@aşık<adj><pst>$
-      1 ^@arın<v><caus><dvn_yici><adj>$
-      1 ^@alevlen<v><caus><dvn_yici><adj>$
-      1 ^@alçakgönüllü<adj><pst>$
-      1 ^@alaylı<adj><pst>$
-      1 ^@ala<adj><pst>$
+      1 ^@tez<adj><pst>$ тез;
+      1 ^@tetik<adj><pst>$ тетик;
+      1 ^@tertemiz<adj><pst>$ таптаза;
+      1 ^@taşkın<adj><pst>$ ташкын;
+      1 ^@taşınmaz<adj><pst>$ козголбос;
+      1 ^@sürüngen<adj><pst>$ сойлоп<b/>жүрүүчү;
+      1 ^@sulak<adj><pst>$ суулуу;
+      1 ^@soylu<adj><pst>$ тектүү;
+      1 ^@şöyle<adj><pst>$ мындай;
+      1 ^@şoven<adj><pst>$ шовинист;
+      1 ^@soluk<adj><pst>$ дэм ;
+      1 ^@sizinki<adj><pst>$ силердики;
+      1 ^@şişman<adj><pst>$ семиз;
+      1 ^@şişko<adj><pst>$ толук;
+      1 ^@simsiyah<adj><pst>$ капкара;
+      1 ^@silindir<adj><pst>$ силиндр;
+      1 ^@serseri<adj><pst>$ селсаяк;
+      1 ^@sarhoş<adj><pst>$ мас;
+      1 ^@sapa<adj><pst>$ жолдон<b/>буруу;
+      1 ^@sakıncalı<adj><pst>$ кооптуу;
+      1 ^@sakar<adj><pst>$ кашка;
+      1 ^@sağaltıcı<adj>$ оңолтуучу;
+      1 ^@rezil<adj><pst>$ шылдың;
+      1 ^@revizyonist<adj><pst>$ ревизионист;
+      1 ^@rahatlatıcı<adj><pst>$ жеңилдетүүчү;
+      1 ^@rafine<adj><pst>$ арылтылган;
+      1 ^@primitif<adj><pst>$ жупуну;
+      1 ^@porselen<adj><pst>$ фарфор;
+      1 ^@pekiştirici<adj><pst>$ күчөтүүчү;
+      1 ^@pek<adj><pst>$ бекем;
+      1 ^@paramparça<adj><pst>$ талкаланган;
+      1 ^@pagan<adj><pst>$ кудайсыз;
+      1 ^@oyuk<adj><pst>$ оюк;
+      1 ^@narin<adj><pst>$ сымбаттуу;
+      1 ^@nankör<adj><pst>$ жакшылык<b/>билбес;
+      1 ^@nadide<adj><pst>$ теңдешсиз;
+      1 ^@mütevazi<adj><pst>$ карапйым;
+      1 ^@müstehcen<adj><pst>$ адепсиз;
+      1 ^@müspet<adj><pst>$ оң;
+      1 ^@mümin<adj><pst>$ момун;
+      1 ^@muadil<adj><pst>$ бирдей;
+      1 ^@miyosen<adj><pst>$ миосен;
+      1 ^@miskin<adj><pst>$ алсыз;
+      1 ^@milletlerarası<adj><pst>$ улуттар<b/>аралык;
+      1 ^@mikroskobik<adj><pst>$ микроскоптук;
+      1 ^@megaloman<adj><pst>$ мегаломан;
+      1 ^@maskara<adj><pst>$ тамашалуу;
+      1 ^@malum<adj><pst>$ маалым;
+      1 ^@mağrur<adj><pst>$ намыстуу;
+      1 ^@küstah<adj><pst>$ арсыз;
+      1 ^@kürk<adj><pst>$ көрпө;
+      1 ^@kullanışlı<adj><pst>$ ыңгайлуу;
+      1 ^@küçükbaş<adj><pst>$ майда;
+      1 ^@küçücük<adj><pst>$ тырмактай;
+      1 ^@koşer<adj><pst>$ кошер;
+      1 ^@konjonktürel<adj><pst>$ коньюнктурный;
+      1 ^@kibar<adj><pst>$ сылык;
+      1 ^@kerpiç<adj><pst>$ кирпич;
+      1 ^@kaşmir<adj><pst>$ кашемир;
+      1 ^@kare<adj><pst>$ чарчы;
+      1 ^@kalpazan<adj><pst>$ алдамчы;
+      1 ^@kahverengi<adj><pst>$ күроң;
+      1 ^@kabadayı<adj><pst>$ зөөкүр;
+      1 ^@isveçli<adj><pst>$ швед;
+      1 ^@ıslak<adj><pst>$ ным;
+      1 ^@inik<adj><pst>$ түшүрүлгөн;
+      1 ^@ılık<adj><pst>$ жылуу;
+      1 ^@idealist<adj><pst>$ идеалист;
+      1 ^@hor<adj><pst>$ кор;
+      1 ^@homojen<adj><pst>$ бир<b/>тектүү;
+      1 ^@hijyenik<adj><pst>$ гигиеналык;
+      1 ^@hazin<adj><pst>$ аянычтуу;
+      1 ^@haylaz<adj><pst>$ шок;
+      1 ^@halis<adj><pst>$ нукура;
+      1 ^@güzide<adj><pst>$ тандалган;
+      1 ^@gürbüz<adj><pst>$ күчтүү;
+      1 ^@gücendirici<adj><pst>$ ардантуучу;
+      1 ^@gevrek<adj><pst>$ кылдырак;
+      1 ^@fesat<adj><pst>$ чатак;
+      1 ^@fahiş<adj><pst>$ ашкере<b/>чектен<b/>чыккан;
+      1 ^@entellektüel<adj><pst>$ билимдүү;
+      1 ^@eklektik<adj><pst>$ еклектик;
+      1 ^@eğlendirici<adj><pst>$ шаңдуу;
+      1 ^@eğik<adj><pst>$ ийилген;
+      1 ^@dümdüz<adj><pst>$ түптүз;
+      1 ^@dişi<adj><pst>$ ургаачы;
+      1 ^@dikey<adj><pst>$ вертикалдуу;
+      1 ^@destansı<adj><pst>$ дастан<b/>сыяктуу;
+      1 ^@centilmen<adj><pst>$ джентлимен;
+      1 ^@buruk<adj><pst>$ капалуу;
+      1 ^@bunaltıcı<adj><pst>$ тажатма;
+      1 ^@bilgilendirici<adj><pst>$ үйрөтүүчү;
+      1 ^@bildik<adj><pst>$ тааныш;
+      1 ^@betonarme<adj><pst>$ темир<b/>бетон;
+      1 ^@bencil<adj><pst>$ өзүмчүл;
+      1 ^@bekar<adj><pst>$ бойдок;
+      1 ^@baygın<adj><pst>$ эси<b/>оогон;
+      1 ^@bayat<adj><pst>$ эскирген;
+      1 ^@başbaşa<adj><pst>$ жалгыз;
+      1 ^@bağ<adj><pst>$ мамиле;
+      1 ^@asli<adj><pst>$ негизги;
+      1 ^@aşık<adj><pst>$ ашык;
+      1 ^@arındırıcı<adj><pst>$ тазалоочу;
+      1 ^@alevlendirici<adj><pst>$ жалындатуучу ;
+      1 ^@azmettirici<adj><pst>$ түртүүчү
+      1 ^@alçakgönüllü<adj><pst>$ карапайым;
+      1 ^@alaylı<adj><pst>$ шылдыңдуу;
+      1 ^@ala<adj><pst>$ ала;
