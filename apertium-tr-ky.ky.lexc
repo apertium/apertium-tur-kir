@@ -536,13 +536,13 @@ LEXICON V-CLIT
 
 LEXICON V-PERS-POSS ! P_2
 
-%<p1%>%<sg%>:%>м PRED ; 
-%<p2%>%<sg%>:%>ң PRED ; 
-%<p2%>%<frm%>%<sg%>:%>ң%{I%}з PRED ; 
-%<p3%>%<sg%>:%>%{S%}%{I%} PRED ; 
-%<p1%>%<pl%>:%>%б%{I%}з PRED ; 
-%<p2%>%<pl%>:%>%ң%{A%}р PRED ;  
-%<p2%>%<frm%>%<pl%>:%>%ң%{I%}зд%{A%}р PRED ;  
+@D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>м PRED ; 
+@D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>ң PRED ; 
+@D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>ң%{I%}з PRED ; 
+@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@%>%{S%}%{I%} PRED ; 
+@D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>%б%{I%}з PRED ; 
+@D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>%ң%{A%}р PRED ;  
+@D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>%ң%{I%}зд%{A%}р PRED ;  
 %<p3%>%<pl%>:%>%{S%}%{I%} PRED ; 
 
 LEXICON V-PERS-COP ! P_3
@@ -558,38 +558,38 @@ LEXICON V-PERS-COP ! P_3
 
 LEXICON V-PERS-PAST ! P_4
 
-%<p1%>%<sg%>:%>%{I%}м V-CLIT ;
-%<p2%>%<sg%>:%>%{I%}ң V-CLIT ;
-%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з V-CLIT ;
-%<p3%>%<sg%>: V-CLIT ;  
-%<p1%>%<pl%>:%>%{I%}к V-CLIT ;
-%<p2%>%<pl%>:%>%{I%}ң%{A%}р V-CLIT ;
-%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р V-CLIT ;
+@D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>%{I%}м V-CLIT ;
+@D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>%{I%}ң V-CLIT ;
+@D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>%{I%}ң%{I%}з V-CLIT ;
+@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@ V-CLIT ;  
+@D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>%{I%}к V-CLIT ;
+@D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>%{I%}ң%{A%}р V-CLIT ;
+@D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>%{I%}ң%{I%}зд%{A%}р V-CLIT ;
 %<p3%>%<pl%>: V-CLIT ;
 
 LEXICON V-PERS-COND ! P_4
 ! Really these should allow деле, да, дагы, etc. afterwards
 !  .. but maybe those are best allowed to be their own words :)
 
-%<p1%>%<sg%>:%>%{I%}м # ;
-%<p2%>%<sg%>:%>%{I%}ң # ;
-%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з # ;
-%<p3%>%<sg%>: # ;
-%<p1%>%<pl%>:%>%{I%}к # ;
-%<p2%>%<pl%>:%>%{I%}ң%{A%}р # ;
-%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}зд%{A%}р # ;
+@D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>%{I%}м # ;
+@D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>%{I%}ң # ;
+@D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>%{I%}ң%{I%}з # ;
+@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@ # ;
+@D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>%{I%}к # ;
+@D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>%{I%}ң%{A%}р # ;
+@D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>%{I%}ң%{I%}зд%{A%}р # ;
 %<p3%>%<pl%>: # ;  
 
 LEXICON V-PERS-PRES ! P_6
 
-%<p1%>%<sg%>:%>м V-CLIT ; 
-!%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
-%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
-%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
+@D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>м V-CLIT ; 
+@D.NEG.1@!%<p1%>%<sg%>:@D.NEG.1@%>м%{I%}н V-CLIT ; 
+@D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>с%{I%}ң V-CLIT ; 
+@D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>с%{I%}з V-CLIT ; 
 @D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@%>т V-CLIT ; 
-%<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
-%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
-%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
+@D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>б%{I%}з V-CLIT ; 
+@D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>с%{I%}ң%{A%}р V-CLIT ;  
+@D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>с%{I%}зд%{A%}р V-CLIT ;  
 %<p3%>%<pl%>:%>т V-CLIT ; 
 
 !LEXICON V-PERS-IMPER ! P_6
@@ -600,35 +600,16 @@ V-INFL-COMMON-SECOND ;
 @P.NEG.1@:%>%{I%}ш@P.NEG.1@ V-INFL-COMMON-SECOND ;
 %<coop%>:%>%{I%}ш V-INFL-COMMON-SECOND ;
 
-LEXICON V-INFL-COMMON-SECOND
+LEXICON V-INFL-NON-FINITE
 
-
-! Converbs 
-!%<cv_impf%>:%>%{E%} # ;                                       !
-!%<cv_perf%>:%>%{I%}п # ;                                      ! -ып, -ип, -уп, -үп
-!%<cv_perf%>:%>п # ;                                      ! -ып, -ип, -уп, -үп
-!%<cv_inf%>:%>м%{A%}к # ;                                      ! TODO: This is a finite form
-!%<cv_irre%>:%>%{E%}т # ;                                      !
-!%<cv_fut%>:%>%{A%}р # ;                                       !
-!%<cv_fut%>:%>%{A%}%{A%}р # ;                                  ! Dir/LR
-!%<cv_pur%>:%>%{G%}%{A%}н%{I%} # ;                             ! 
-
-! Non-finite forms and participles
-!%<pp%>:%>%{G%}%{A%}н POSSESSION ;                             ! -
-!%<inf2%>:%>%{I%}ш POSSESSION ;                                ! -ыш, -иш, -уш, -үш
-!%<neg%>%<pp%>:%>%{B%}%{A%}%>%{G%}%{A%}н POSSESSION ;          !
-!%<neg%>%<pp2%>:%>%{B%}%{A%}%>%{G%}%{A%}н%{I%} POSSESSION ;    ! This is wrong
-!%<neg%>%<inf2%>:%>%{B%}%{A%}%>%{I%}ш POSSESSION ;             !
 %<plist%>:%>м%{A%}й # ;                                       ! huh?
-
-!!!! New non-finite forms !!!!
 
 ! Adverbial Participles
 %<prt_plan%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
 %<prt_cond%>:%>с%{A%} V-PERS-COND ;
-@D.NEG.1@%<prt_perf%>:@D.NEG.1@%>%{I%}п # ;
+%<prt_perf%>:%>%{I%}п # ;
 %<neg%>%<prt_perf%>:%>%{B%}%{A%}%>%{E%} # ;  ! TODO: is this the right way to do this?
-@D.NEG.1@%<prt_impf%>:@D.NEG.1@%>%{E%} # ;   ! rare IS
+%<prt_impf%>:%>%{E%} # ;   ! rare IS
 !%<prt_????%>:%>м%{A%}й%{I%}нч%{A%} #;       ! TODO: find name  ! rare IS
 !%<prt_????%>:%>%{E%}т # ;                    ! TODO: find name
 
@@ -653,6 +634,9 @@ LEXICON V-INFL-COMMON-SECOND
 !%<vadj_????%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;                      ! TODO: find name
 %<vadj_pot%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;
 
+LEXICON V-INFL-COMMON-SECOND
+
+@D.NEG.1@:@D.NEG.1@ V-INFL-NON-FINITE ; 
 
 ! Finite forms
 %<pres%>:%>%{A%} V-PERS-PRES ;                                ! TODO: Check
