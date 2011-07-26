@@ -98,9 +98,11 @@
     </def-cat>
 
     <def-cat n="v_part_dik">
+      <cat-item tags="v.part_dik"/>
+      <cat-item tags="v.part_yan"/>
+      <cat-item tags="v.cv_dik"/>
       <cat-item tags="v.part_dik.*"/>
       <cat-item tags="v.part_yan.*"/>
-      <cat-item tags="v.cv_dik.*"/>
       <cat-item tags="v.cv_dik.*"/>
     </def-cat>
  
@@ -529,7 +531,7 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="trans"/>
-            <lit-tag v="cv_impf"/>
+            <lit-tag v="prt_impf"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
@@ -553,7 +555,7 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="trans"/>
-            <lit-tag v="cv_perf"/>
+            <lit-tag v="prt_perf"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
           <var n="c_post"/>
@@ -577,7 +579,7 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="trans"/>
-            <lit-tag v="inf"/>
+            <lit-tag v="ger"/>
             <var n="c_poss"/>
             <var n="c_case"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -603,7 +605,7 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="trans"/>
-            <lit-tag v="inf"/>
+            <lit-tag v="ger"/>
             <var n="c_poss"/>
             <var n="c_case"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -629,7 +631,7 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="subcat"/>
-            <lit-tag v="pp"/>
+            <lit-tag v="ger_past"/>
             <var n="c_poss"/>
             <var n="c_case"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -655,7 +657,7 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="trans"/>
-            <lit-tag v="pp"/>
+            <lit-tag v="ger_past"/>
             <var n="c_poss"/>
             <var n="c_case"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -681,7 +683,7 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="trans"/>
-            <lit-tag v="pp"/>
+            <lit-tag v="ger_past"/>
             <var n="c_poss"/>
             <var n="c_case"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -786,7 +788,7 @@
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="trans"/>
-              <lit-tag v="cv_perf"/>
+              <lit-tag v="prt_perf"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b/> 
@@ -794,7 +796,7 @@
               <lit v="жат"/>
               <lit-tag v="v.iv"/>
               <clip pos="1" side="tl" part="neg"/>
-              <lit-tag v="inf"/> <!-- this is wrong -->
+              <lit-tag v="ger"/> <!-- this is wrong -->
               <var n="c_tens"/> 
               <var n="c_pers"/>
               <lit-tag v="nom"/> <!-- this is wrong -->
@@ -820,7 +822,7 @@
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="trans"/>
-              <lit-tag v="cv_perf"/>
+              <lit-tag v="prt_perf"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b/> 
