@@ -1436,6 +1436,7 @@ LEXICON NounStems
 жүзү% кара N-INFL ; ! FIXME
 шерменде N-INFL ; 
 дене N-INFL ; 
+милиция N-INFL ; 
 бадан N-INFL ; 
 бел N-INFL ; ! "waist"
 белги N-INFL ; ! "symbol"
@@ -4603,7 +4604,7 @@ LEXICON NounStems
 басып% калуу N-INFL ;
 чет% өлкө N-INFL ;
 арка N-INFL ;
-жаратылыш
+жаратылыш% газ N-INFL ;
 түгөй N-INFL ;
 текшерүү N-INFL ;
 бекитүү N-INFL ;
@@ -5555,7 +5556,7 @@ kanal N-INFL ;
 куру N-INFL ;
 либералдуу N-INFL ;
 эр N-INFL ;
-кагазs
+кагаз N-INFL ;
 чел N-INFL ;
 расмий% жазуу N-INFL ;
 систематикалык N-INFL ;
@@ -7671,8 +7672,8 @@ LEXICON VerbStems
 !--- below this line should be checked for duplicates ---
 тартипте V-INFL-TV ;
 түздө V-INFL-TV ;
-күтV-INFL-IV ;
-күтV-INFL-TV;
+күт V-INFL-IV ; ! "wait"
+күт V-INFL-TV ; ! "wait for"
 камсыз% кыл V-INFL-TV ;
 кол% кой V-INFL-TV ;
 кабылда V-INFL-TV ;
