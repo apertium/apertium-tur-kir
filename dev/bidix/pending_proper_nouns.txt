@@ -299,6 +299,7 @@
      33 ^@Yunanlı<np><$
      33 ^@Vuciç<np><cog>$
      33 ^@Todoroviç<np><cog>$
+     33 ^@SETimes<np><al>$
      33 ^@Nejat<np>$
      33 ^@Jokiç<np><cog>$
      33 ^@Bingöl<np>$
@@ -1039,6 +1040,7 @@
       3 ^@Süleymaniye<np>$
       3 ^@Şükrü<np>$
       3 ^@Silivri<np>$
+      3 ^@SETimes<np><al>$]
       3 ^@Server<np>$
       3 ^@Seri<np>$
       3 ^@Şeria<np>$
@@ -1471,6 +1473,7 @@
       1 ^@Şehabettin<np>$
       1 ^@Sefa<np>$
       1 ^@Seçkin<np>$
+      1 ^@Seçil<np>$
       1 ^@Sebahat<np>$
       1 ^@Sazan<np>$
       1 ^@Saygı<np>$

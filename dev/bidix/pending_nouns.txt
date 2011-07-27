@@ -22,7 +22,7 @@
      95 ^@denktaş<n>$
      90 ^@kana<n>$
      80 ^@kala<n>$
-     77 ^@kay<n>$
+     78 ^@kay<n>$
      59 ^@üzere<n>$
      56 ^@ti<n>$
      52 ^@isaf<n>$

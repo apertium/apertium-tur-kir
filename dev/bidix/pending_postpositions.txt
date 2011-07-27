@@ -1,4 +1,4 @@
-   7755 ^@göre<postp>$
+   7754 ^@göre<postp>$
    6083 ^@ilgili<postp>$
    5599 ^@üzere<postp>$
    2763 ^@karşı<postp>$
