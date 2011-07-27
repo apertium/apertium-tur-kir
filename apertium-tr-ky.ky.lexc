@@ -248,7 +248,7 @@ GEN-POS ;
 LEXICON N-INFL-COMMON
 
 %<n%>: POSSESSION ;
-%<n%>%<adj%>:%>%{L%}%{U%}%{U%} ADJ ;  ! Any noun can be made into an adjective like this, though it's basically derivation
+%<n%>:%>%{L%}%{U%}%{U%} ADJ ;  ! Any noun can be made into an adjective like this, though it's basically derivation
 
 LEXICON N-INFL-SG
 
@@ -589,7 +589,6 @@ LEXICON V-PERS-COND ! P_4
 LEXICON V-PERS-PRES ! P_6
 
 @D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>м V-CLIT ; 
-@D.NEG.1@!%<p1%>%<sg%>:@D.NEG.1@%>м%{I%}н V-CLIT ; 
 @D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>с%{I%}ң V-CLIT ; 
 @D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>с%{I%}з V-CLIT ; 
 @D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@%>т V-CLIT ; 
@@ -772,7 +771,6 @@ LEXICON Conjunctions
 LEXICON Postpositions
 
 менен POST ; ! "with"
-али POST ;
 дейре POST ; ! "up to, until"
 чейин POST ; ! "up to, until"
 кийин POST ; ! "with"
@@ -910,6 +908,7 @@ XIX NUM-ROMAN ; ! ""
 
 LEXICON NounStems
 сырт N-INFL ;
+факт N-INFL ;
 кубанычтуу N-INFL ;
 билимдүү N-INFL ;
 абаачылык N-INFL ; 
@@ -7147,12 +7146,34 @@ LEXICON AdjecStems
 шылдыңдуу ADJ ;
 ала ADJ ;
 
+абдан% жаман ADJ ;
+адаттан% тышкары ADJ ;
+айылдык ADJ ;
+акырын ADJ ;
+аралашкан ADJ ;
+биринчи ADJ ;
+еврей ADJ ;
+жарылган ADJ ;
+заманбап ADJ ;
+запас ADJ ;
+катардагы ADJ ;
+кубанычтуу ADJ ;
+милитан ADJ ;
+мыйзамдуу ADJ ;
+өлгүк ADJ ;
+оорулуу ADJ ;
+сезимтал ADJ ;
+тартимптүү ADJ ;
+тыйылган ADJ ;
+эптүү ADJ ;
+
 LEXICON AdvStems
 
 эмнеге ADV-ITG ; ! "why"
 качан ADV-ITG ; ! "when"
 кандай ADV-ITG ; ! "how"
 
+али ADV ; ! "still"
 өтө ADV ; ! "very"
 мисалы ADV ; ! "for example"
 улам ADV ; ! "???"
@@ -7372,7 +7393,6 @@ LEXICON VerbStems
 !жет V-INFL-TV ;
 жүр V-INFL-TV ;
 ич V-INFL-TV ; ! "drink"
-иште V-INFL-IV ;  ! "work"
 кара V-INFL-IV ; 
 кара V-INFL-TV ;
 көрүн V-INFL-TV ;
@@ -7699,7 +7719,7 @@ LEXICON VerbStems
 жет V-INFL-IV-NO-CAUS ; 
 жет:жеткир V-INFL-IV-IRREG-CAUS ;
 жет:жеткиз V-INFL-IV-IRREG-CAUS ; ! Dir/LR
-иште V-INFL-IV ;
+иште V-INFL-IV ;  ! "work"
 саймала V-INFL-TV ;
 кештеле V-INFL-TV ;
 пайда% тап V-INFL-TV ;
@@ -7967,6 +7987,7 @@ LEXICON VerbStems
 далай V-INFL-IV ; ! "wither"
 жардам% бер V-INFL-IV ; ! "help"
 жардам% бер V-INFL-TV ; ! "help"
+оорун% бер V-INFL-TV ; ! ""
 
 
 LEXICON Abbreviations
