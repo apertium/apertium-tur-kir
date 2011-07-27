@@ -15,7 +15,7 @@
      <sdef n="cnjsub"    c="Subordinating conjunction"/>
      <sdef n="cnjadv"    c="Adverbial conjunction"/>
      <sdef n="q"         c="Question particle"/>
-     <sdef n="qst"       c="Question particle"/>
+     <sdef n="mod_qst"       c="Question particle"/>
      <sdef n="exist"     c="Existential"/>
      <sdef n="exi"       c="Existential"/>
      <sdef n="nexist"    c="Not Exist"/>
@@ -73,8 +73,8 @@
    <section id="main" type="standard">
         <!-- SECTION: Particles -->
 
-	<e c="  0"><p><l>mi<s n="q"/></l><r>би<s n="qst"/></r></p></e>
-	<e c="  0"><p><l><s n="q"/></l><r>би<s n="qst"/></r></p></e>
+	<e c="  0"><p><l>mi<s n="q"/></l><r>бы<s n="mod_qst"/></r></p></e>
+        <!--<e><p><l><s n="q"/></l><r><s n="q"/></r></p></e>-->
 
 	<!-- SECTION: Interjections -->
     
@@ -82,7 +82,6 @@
 	<e c="  0"><p><l>şöyle<s n="ij"/></l><r>ушундай<s n="ij"/></r></p></e>
 	
 	 <!-- SECTION: Miscellaneous -->
-    <e><p><l><s n="q"/></l><r><s n="q"/></r></p></e>
    
         <!-- SECTION: Conjunctions -->
 
@@ -98,7 +97,7 @@
 	<e c="  0"><p><l>ama<s n="cnjadv"/></l><r>бирок<s n="cnjadv"/></r></p></e> 
 	<e c="  0"><p><l>çünkü<s n="cnjadv"/></l><r>анткени<s n="cnjadv"/></r></p></e>
 	<e c="  0"><p><l>olarak<s n="cnjsub"/></l><r>болуп<s n="cnjsub"/></r></p></e>
-	<e c="  0"><p><l>bile<s n="cnjadv"/></l><r>дагы<s n="part"/></r></p></e>
+	<e c="  0"><p><l>bile<s n="cnjadv"/></l><r>дагы<s n="adv"/></r></p></e> <!-- TODO: Check -->
 	
 	<e c="  0"><p><l>de<s n="cnjadv"/></l><r>да<s n="cnjcoo"/></r></p></e>
 	<e c="  0"><p><l>da<s n="cnjadv"/></l><r>да<s n="cnjcoo"/></r></p></e>
@@ -1237,7 +1236,8 @@
 	<e c="  0"><p><l>genç<s n="n"/></l><r>жаш<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>genelge<s n="n"/></l><r>көрсөтмө<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>genel<s n="n"/></l><r>жалпы<s n="n"/></r></p></e>  
-	<e c="  0"><p><l>gerçek<s n="n"/></l><r>чындык<s n="n"/></r></p></e>  
+	<e c="  0"><p><l>gerçek<s n="n"/></l><r>факт<s n="n"/></r></p></e>  
+	<e slr="1"><p><l>gerçek<s n="n"/></l><r>чындык<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>gerekçe<s n="n"/></l><r>далил<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>gerek<s n="n"/></l><r>керек<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>gerilim<s n="n"/></l><r>чыңалуу<s n="n"/></r></p></e>  
@@ -5329,6 +5329,7 @@
 	<e c="  0"><p><l>henüz<s n="adv"/></l><r>азырынча<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>sadece<s n="adv"/></l><r>болгону<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>hala<s n="adv"/></l><r>дагы<b/>эле<s n="adv"/></r></p></e>
+	<e c="  0"><p><l>hâlâ<s n="adv"/></l><r>али<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>artık<s n="adv"/></l><r>эми<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>beri<s n="adv"/></l><r>бери<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>şimdi<s n="adv"/></l><r>азыр<s n="adv"/></r></p></e>
@@ -5457,7 +5458,7 @@
 
 	<e c="  0"><p><l>gel<s n="v"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ol<s n="v"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>iç<s n="v"/></l><r>ич<s n="v"/></r></p><par n="(t|i)v"/></e>
+	<e c="  0"><p><l>iç<s n="v"/></l><r>ич<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>söyle<s n="v"/></l><r>айт<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e c="  0"><p><l>bil<s n="v"/></l><r>бил<s n="v"/><s n="tv"/></r></p></e>
 
@@ -5873,7 +5874,7 @@
 	<e c="  0"><p><l>yalanla<s n="v"/></l><r>жокко<b/>чыгар<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>görün<s n="v"/></l><r>көрүн<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>yas<s n="v"/></l><r>жаз<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>doğ<s n="v"/></l><r>туул<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>doğ<s n="v"/></l><r>туул<s n="v"/><s n="iv"/></r></p></e>
 	<e slr="1"><p><l>doğ<s n="v"/></l><r>төрөл<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>tanımla<s n="v"/></l><r>аныкта<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="1"><p><l>tanımla<s n="v"/></l><r>белгиле<s n="v"/><s n="tv"/></r></p></e>
