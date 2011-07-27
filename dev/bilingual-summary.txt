@@ -1,6 +1,6 @@
-  6779 total
+  6782 total
   3919 /home/fran/source/apertium/incubator/apertium-tr-ky/dev/bidix//pending_nouns.txt
-  1902 /home/fran/source/apertium/incubator/apertium-tr-ky/dev/bidix//pending_proper_nouns.txt
+  1905 /home/fran/source/apertium/incubator/apertium-tr-ky/dev/bidix//pending_proper_nouns.txt
    622 /home/fran/source/apertium/incubator/apertium-tr-ky/dev/bidix//pending_verbs.txt
    102 /home/fran/source/apertium/incubator/apertium-tr-ky/dev/bidix//pending_adverbs.txt
     91 /home/fran/source/apertium/incubator/apertium-tr-ky/dev/bidix//pending_postpositions.txt

@@ -19,8 +19,8 @@
      95 sınırla<v><t_imp><2s>
      94 salla<v><t_imp><2s>
      90 tasarla<v><t_imp><2s>
-     90 kay<v><t_imp><2s>
      90 daya<v><pass><t_imp><2s>/dayan<v><t_imp><2s>
+     89 kay<v><t_imp><2s>
      88 yanıtla<v><t_imp><2s>
      88 parçala<v><t_imp><2s>
      88 em<v><t_imp><2s>
@@ -153,7 +153,6 @@
      21 anımsa<v><t_imp><2s>
      20 yetin<v><t_imp><2s>
      20 soğu<v><t_imp><2s>
-     20 kana<v><t_imp><2s>
      20 borçlan<v><t_imp><2s>
      20 bağdaş<v><t_imp><2s>
      20 aşağıla<v><t_imp><2s>
@@ -170,6 +169,7 @@
      18 varsay<v><t_imp><2s>
      18 sömür<v><t_imp><2s>
      18 konakla<v><t_imp><2s>
+     18 kana<v><t_imp><2s>
      18 hapset<v><t_imp><2s>
      18 grupla<v><t_imp><2s>
      18 bilinçlen<v><t_imp><2s>
