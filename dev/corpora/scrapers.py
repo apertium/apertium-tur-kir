@@ -60,3 +60,14 @@ class ScraperAzattyk(Scraper):
 
 	def url_to_aid(self, url):
 		return sha1(url.encode('utf-8')).hexdigest()
+
+class ScraperTRT(Scraper):
+	domain = "www.trtkyrgyz.com"
+	prefix = "trt"
+
+	def scraped(self):
+		self.get_content()
+		print(self.url)
+	
+	def url_to_aid(self, url):
+		return url
