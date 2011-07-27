@@ -318,7 +318,10 @@
         </when>
         <when>
           <test>
-            <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_aor"/></equal>
+            <or>
+              <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_aor"/></equal>
+              <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_cont"/></equal>
+            </or>
           </test>
           <let><var n="c_tens"/><lit-tag v="aor"/></let>
         </when>
@@ -822,7 +825,7 @@
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="trans"/>
-              <lit-tag v="prt_perf"/>
+              <lit-tag v="prt_impf"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b/> 
