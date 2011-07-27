@@ -296,7 +296,7 @@ LEXICON ADJ-LEVELS
 
 LEXICON ADJ-COMMON
 
-%<pst%>: # ;
+%<adj%>%<pst%>: # ;
 %<n%>: POSSESSION ;  ! all adjectives can be used as nouns
 
 LEXICON ADJ-DAGI
