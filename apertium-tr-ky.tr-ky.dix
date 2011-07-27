@@ -4447,7 +4447,7 @@
   <e><p><l>Bulgar<s n="np"/></l><r>Балгар<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Makedon<s n="np"/></l><r>Македониалык<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Bosnalı<s n="np"/></l><r>Босниялык<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Lahey<s n="np"/></l><r>Лакей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+  <e><p><l>Lahey<s n="np"/></l><r>Лахей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
   <e><p><l>SARAYBOSNA<s n="np"/></l><r>Сарайбосня<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Üsküp<s n="np"/></l><r>Үскүп<s n="np"/><s n="top"/></r></p></e>
   <e><p><l>Atina<s n="np"/></l><r>Атина<s n="np"/><s n="top"/></r></p></e>
@@ -5447,7 +5447,7 @@
 
 	<e c="  0"><p><l>var<s n="exist"/></l><r>бар<s n="v"/><s n="exi"/></r></p></e>
         <e c="  0"><p><l>değil<s n="not"/></l><r>эмес<s n="v"/><s n="neg"/></r></p></e>
-        <e c="  0"><p><l>yok<s n="nexist"/></l><r>жок<s n="v"/><s n="neg"/><s n="exi"/></r></p></e>
+        <e c="  0"><p><l>yok<s n="nexist"/></l><r>жок<s n="v"/><s n="neg"/></r></p></e>
 
 <!--
     <e><p><l>var<s n="exist"/></l><r>бар<s n="exist"/></r></p></e> 
