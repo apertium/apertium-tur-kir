@@ -103,8 +103,10 @@ Multichar_Symbols
 
 %<ger_fut%>
 %<ger_past%>
+%<ger_past_abs%>  ! "abstract" gerund
 %<ger_pres%>
 %<ger%>
+%<ger_abs%>       ! "abstract" gerund
 
 %<vadj_fut%>
 %<vadj_pot2%>
@@ -621,8 +623,10 @@ LEXICON V-INFL-NON-FINITE
 %<ger_fut%>:%>%{A%}р POSSESSION ;     ! <coop> IS only ?
 %<ger_fut%>:%>%{A%}%{A%}р POSSESSION ;                        ! Dir/LR
 %<ger_past%>:%>%{G%}%{A%}н POSSESSION ; ! <coop> IS only ?
+%<ger_pastpf%>:%>%{G%}%{A%}н%>%{L%}%{I%}к POSSESSION ; !
 %<ger_pres%>:%>%{I%}ш POSSESSION ;    ! <coop> IS only
 %<ger%>:%>%{U%}%{U%} POSSESSION ;     ! <coop> IS only
+%<ger_abs%>:%>%{U%}%{U%}%>ч%{I%}%>%{L%}%{I%}к POSSESSION ;     ! <coop> IS only
 
 ! Verbal Adjectives
 %<vadj_fut%>:%>%{A%}р V-ADJ ;
@@ -3893,7 +3897,7 @@ LEXICON NounStems
 поэма N-INFL ;
 мүчө N-INFL ;
 түрк N-INFL ;
-тарап N-INFL ;
+!тарап N-INFL ;
 тил N-INFL ;
 ич N-INFL ;
 кыргыз N-INFL ;
@@ -4759,7 +4763,7 @@ LEXICON NounStems
 жоготуу N-INFL ;
 пай% дубал N-INFL ;
 эреже N-INFL ;
-тарап N-INFL ;
+!тарап N-INFL ;
 артыкчылык N-INFL ;
 каржама N-INFL ;
 туңкуюк N-INFL ;

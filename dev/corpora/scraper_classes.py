@@ -13,7 +13,7 @@ class Feed(object):
 	domain_name = re.compile('^http[s]{0,1}://(.*?)/.*')
 
 	feed_sites = {
-		#"www.trtkyrgyz.com": ScraperTRT,
+		"www.trtkyrgyz.com": ScraperTRT,
 		"www.azattyk.org": ScraperAzattyk,
 		#"www.azattyk.org": HTMLParserAzattyk,
 		##"kmb3.kloop.kg": ScraperKMB
