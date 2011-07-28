@@ -1,13 +1,7 @@
   13368 ^@ab<n>$
    7504 ^@abd<n>$
-   6030 ^@pazartesi gün<n>$
-   5369 ^@salı gün<n>$
-   5006 ^@perşembe gün<n>$
-   4080 ^@cuma gün<n>$
    4006 ^@cumhurbaşkanı<n>$
    3498 ^@arnavut<n>$
-   2874 ^@pazar gün<n>$
-   2224 ^@cumartesi gün<n>$
    1909 ^@cumhurbaşkanlığı<n>$
     936 ^@gücü<n>$
     489 ^@öl<n>$
@@ -15,7 +9,10 @@
     366 ^@cali<n>$
     274 ^@nü<n>$
     271 ^@militan<n>$
+    167 ^@perşembe<n>$
+    152 ^@cuma<n>$
     149 ^@bini<n>$
+    139 ^@cumartesi<n>$
     114 ^@devri<n>$
     110 ^@stratej<n>$
     103 ^@nakli<n>$
@@ -25,6 +22,7 @@
      78 ^@kay<n>$
      59 ^@üzere<n>$
      56 ^@ti<n>$
+     53 ^@salı<n>$
      52 ^@isaf<n>$
      51 ^@re<n>$
      51 ^@dink<n>$
@@ -1470,7 +1468,6 @@
       4 ^@pire<n>$
       4 ^@pi<n>$
       4 ^@pepe<n>$
-      4 ^@pazar gün<n><$
       4 ^@parite<n>$
       4 ^@parfüm<n>$
       4 ^@pak<n>$
@@ -2509,7 +2506,6 @@
       2 ^@darphane<n>$
       2 ^@dahili<n>$
       2 ^@dağarcık<n>$
-      2 ^@cuma gün<n><$
       2 ^@conta<n>$
       2 ^@çığlık<n><$
       2 ^@cevir<n><$
