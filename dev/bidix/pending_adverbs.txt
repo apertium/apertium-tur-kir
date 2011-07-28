@@ -1,3 +1,9 @@
-  1 ^@münhasıran<adv>$  
-  4 ^@acaba<adv>$ 
-  siyaseten
+    406 ^@yıl<adv><ki>$
+    294 ^@gün<adv><ki>$
+     47 ^@ay<adv><ki>$
+      9 ^@zaman<adv><ki>$
+      4 ^@acaba<adv>$
+      2 ^@sene<adv><ki>$
+      2 ^@resen<adv>$
+      1 ^@siyaseten<adv>$
+      1 ^@münhasıran<adv>$
