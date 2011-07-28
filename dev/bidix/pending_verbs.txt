@@ -4,8 +4,8 @@
     217 edin<v><t_imp><2s>
     201 iade et<v><t_imp><2s>
     183 oy al<v><t_imp><2s>
-    180 yerin<v><t_imp><2s>
-    151 kara<v><t_imp><2s>
+    178 yerin<v><t_imp><2s>
+    142 kara<v><t_imp><2s>
     139 oy ver<v><t_imp><2s>
     132 temsil et<v><t_imp><2s>
     109 zedele<v><t_imp><2s>
@@ -31,7 +31,7 @@
      78 emret<v><t_imp><2s>
      77 sesle<v><t_imp><2s>
      77 bay<v><t_imp><2s>
-     74 der<v><t_imp><2s>
+     75 der<v><t_imp><2s>
      73 hesapla<v><t_imp><2s>
      72 savaş<v><t_imp><2s>
      71 ayarla<v><t_imp><2s>
@@ -100,10 +100,9 @@
      35 göze<v><t_imp><2s>
      35 eri<v><t_imp><2s>
      34 sürükle<v><t_imp><2s>
-     34 noktala<v><t_imp><2s>
      34 alevlen<v><t_imp><2s>
+     33 noktala<v><t_imp><2s>
      33 danış<v><t_imp><2s>
-     32 yıl<v><t_imp><2s>
      32 yanaş<v><t_imp><2s>
      32 toparla<v><t_imp><2s>
      32 rahatla<v><t_imp><2s>
@@ -111,6 +110,7 @@
      32 ele<v><t_imp><2s>
      32 cezbet<v><t_imp><2s>
      32 alış<v><t_imp><2s>
+     31 yıl<v><t_imp><2s>
      31 morar<v><t_imp><2s>
      31 kopar<v><t_imp><2s>
      30 müjdele<v><t_imp><2s>
@@ -177,22 +177,22 @@
      18 beğen<v><t_imp><2s>
      18 arın<v><t_imp><2s>
      17 uyuş<v><t_imp><2s>
-     17 şartla<v><t_imp><2s>
-     17 programla<v><t_imp><2s>
      17 pompala<v><t_imp><2s>
      17 önemse<v><t_imp><2s>
      17 kirlet<v><t_imp><2s>
      17 kastet<v><t_imp><2s>
      16 yaşlan<v><t_imp><2s>
      16 tanış<v><t_imp><2s>
+     16 şartla<v><t_imp><2s>
      15 ört<v><t_imp><2s>
      15 not al<v><t_imp><2s>
      15 kirlen<v><t_imp><2s>
      15 kaynaş<v><t_imp><2s>
-     15 hakla<v><t_imp><2s>
      14 şiddetlen<v><t_imp><2s>
+     14 programla<v><t_imp><2s>
      14 kop<v><t_imp><2s>
      14 hükmet<v><t_imp><2s>
+     14 hakla<v><t_imp><2s>
      14 geçin<v><t_imp><2s>
      14 eşitle<v><t_imp><2s>
      14 esirge<v><t_imp><2s>
@@ -210,7 +210,6 @@
      12 yuvala<v><t_imp><2s>
      12 sürü<v><t_imp><2s>
      12 sök<v><t_imp><2s>
-     12 işaretle<v><t_imp><2s>
      12 gözük<v><t_imp><2s>
      12 görüntüle<v><t_imp><2s>
      12 eriş<v><t_imp><2s>
@@ -222,13 +221,13 @@
      11 sakın<v><t_imp><2s>
      11 lekele<v><t_imp><2s>
      11 kaygılan<v><t_imp><2s>
+     11 işaretle<v><t_imp><2s>
      11 demirle<v><t_imp><2s>
      11 defnet<v><t_imp><2s>
      11 damgala<v><t_imp><2s>
      11 dalgalan<v><t_imp><2s>
      10 yuvarla<v><t_imp><2s>
      10 tap<v><t_imp><2s>
-     10 rakamla<v><t_imp><2s>
      10 övün<v><t_imp><2s>
      10 kayna<v><t_imp><2s>
      10 dola<v><pass><t_imp><2s>/dolan<v><t_imp><2s>
@@ -262,6 +261,7 @@
       8 taşla<v><t_imp><2s>
       8 savuş<v><t_imp><2s>
       8 sapta<v><t_imp><2s>
+      8 rakamla<v><t_imp><2s>
       8 oy<v><t_imp><2s>
       8 iv<v><t_imp><2s>
       8 irdele<v><t_imp><2s>
@@ -285,7 +285,6 @@
       7 ay<v><t_imp><2s>
       7 alçal<v><t_imp><2s>
       6 yol<v><t_imp><2s>
-      6 yılla<v><t_imp><2s>
       6 yelten<v><t_imp><2s>
       6 yasa<v><t_imp><2s>
       6 yalvar<v><t_imp><2s>
@@ -306,6 +305,7 @@
       6 atfet<v><t_imp><2s>
       5 yuhala<v><t_imp><2s>
       5 yoğur<v><t_imp><2s>
+      5 yılla<v><t_imp><2s>
       5 yapış<v><t_imp><2s>
       5 yankıla<v><t_imp><2s>
       5 soyun<v><t_imp><2s>
@@ -341,7 +341,6 @@
       4 hoşlan<v><t_imp><2s>
       4 hallol<v><t_imp><2s>
       4 güreş<v><t_imp><2s>
-      4 fiyatla<v><t_imp><2s>
       4 ezberle<v><t_imp><2s>
       4 eşle<v><t_imp><2s>
       4 eksil<v><t_imp><2s>
@@ -387,6 +386,7 @@
       3 gücen<v><t_imp><2s>
       3 gereksin<v><t_imp><2s>
       3 gecele<v><t_imp><2s>
+      3 fiyatla<v><t_imp><2s>
       3 dosyala<v><t_imp><2s>
       3 doğra<v><t_imp><2s>
       3 damıt<v><t_imp><2s>
@@ -443,14 +443,12 @@
       2 hafifse<v><t_imp><2s>
       2 gezin<v><t_imp><2s>
       2 gevele<v><t_imp><2s>
-      2 gerçekle<v><t_imp><2s>
       2 frenle<v><t_imp><2s>
       2 fotoğrafla<v><t_imp><2s>
       2 ferahla<v><t_imp><2s>
       2 faturala<v><t_imp><2s>
       2 eyle<v><t_imp><2s>
       2 etiketle<v><t_imp><2s>
-      2 endeksle<v><t_imp><2s>
       2 eğle<v><pass><t_imp><2s>/eğlen<v><t_imp><2s>
       2 devrol<v><t_imp><2s>
       2 çırp<v><t_imp><2s>
@@ -530,13 +528,11 @@
       1 meylet<v><t_imp><2s>
       1 mevzilen<v><t_imp><2s>
       1 menet<v><t_imp><2s>
-      1 mayınla<v><t_imp><2s>
       1 mayala<v><t_imp><2s>
       1 mahvol<v><t_imp><2s>
       1 mahmuzla<v><t_imp><2s>
       1 lafla<v><t_imp><2s>
       1 kuşan<v><t_imp><2s>
-      1 kuşakla<v><t_imp><2s>
       1 kurşunla<v><t_imp><2s>
       1 kurgula<v><t_imp><2s>
       1 kümele<v><t_imp><2s>
@@ -575,12 +571,14 @@
       1 havuzla<v><t_imp><2s>
       1 harla<v><t_imp><2s>
       1 gururlan<v><t_imp><2s>
+      1 gerçekle<v><t_imp><2s>
       1 genelle<v><t_imp><2s>
       1 gammazla<v><t_imp><2s>
       1 fırınla<v><t_imp><2s>
       1 filizle<v><t_imp><2s>
       1 faksla<v><t_imp><2s>
       1 ever<v><t_imp><2s>
+      1 endeksle<v><t_imp><2s>
       1 eğ<v><pass><t_imp><2s>/eğil<v><t_imp><2s>
       1 eğin<v><t_imp><2s>
       1 duygulan<v><t_imp><2s>

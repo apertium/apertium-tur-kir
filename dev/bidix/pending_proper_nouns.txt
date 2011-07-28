@@ -35,7 +35,7 @@
     306 ^@Mehmet<np>$
     298 ^@Selanik<np>$
     290 ^@Jovanoviç<np><cog>$
-    280 ^@Sezer<np>$
+    281 ^@Sezer<np>$
     279 ^@Macar<np>$
     278 ^@Sloven<np>$
     278 ^@Miloşeviç<np><cog>$
