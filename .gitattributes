@@ -7,7 +7,9 @@
 /apertium-tr-ky.tr-ky.dix -text
 /apertium-tr-ky.tr-ky.t1x -text
 dev/bidix/context_adjectives.txt -text
+dev/bidix/context_conjunctions.txt -text
 dev/bidix/context_nouns.txt -text
+dev/bidix/context_postpositions.txt -text
 dev/bidix/pending_adjectives.txt -text
 dev/bidix/pending_adverbs.txt -text
 dev/bidix/pending_conjunctions.txt -text
