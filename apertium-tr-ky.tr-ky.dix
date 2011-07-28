@@ -73,13 +73,8 @@
    <section id="main" type="standard">
         <!-- SECTION: Particles -->
 
-<<<<<<< .mine
-	<e c="  0"><p><l>mi<s n="q"/></l><r>би<s n="qst"/></r></p></e>
-	
-=======
 	<e c="  0"><p><l>mi<s n="q"/></l><r>бы<s n="mod_qst"/></r></p></e>
         <!--<e><p><l><s n="q"/></l><r><s n="q"/></r></p></e>-->
->>>>>>> .r32209
 
 	<!-- SECTION: Interjections -->
     
