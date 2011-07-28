@@ -825,6 +825,26 @@ LEXICON Determiners
 
 кайсыл:кайсы DET-ITG ; ! "which?" ! FIXME: need morph to fix
 
+кайсы% бир DET-IND ;
+башка DET-IND ;
+бир% далай DET-QNT ;
+бүт% баары DET-QNT ;
+бир% канча DET-QNT ;
+ушунчалык DET-QNT ;
+биртке DET-QNT ;
+анчалык DET-QNT ;
+бардык DET-QNT ;
+ар% ким DET-IND ;
+кайсы% бир DET-IND ;
+бирдей DET-IND ;
+ушунчалык DET-QNT ;
+бир% катар DET-QNT ;
+толук DET-QNT ;
+бир% бөлүк DET-QNT ;
+берки DET-IND ;
+бир% канча% даана DET-QNT ;
+берки DET-IND ;
+
 LEXICON Pronouns
 
 мен%<prn%>%<pers%>%<p1%>%<sg%>:м PRON-PERS-EN ; 
@@ -7324,8 +7344,110 @@ LEXICON AdvStems
 !бүт ADV ; ADJ
 таптакыр ADV ;
 жалаң ADV ;
-анда% санда ADV ;			
+анда% санда ADV ;
 
+<<<<<<< .mine
+бир ADV ;
+эмне ADV ;
+жакшы ADV ;
+жаман ADV ;
+ачык ADV ;
+уруксаатсыз ADV ;
+жаман ADV ;
+ачык% эле ADV ;
+кайрылуу% менен ADV ;
+жылкы ADV ;
+карай ADV ;
+почти ADV ;
+жай ADV ;
+күнкү ADV ;
+жалгыз% гана ADV ;
+пайдасыз ADV ;
+араң-араң ADV ;
+анда ADV ;
+жакшынакай ADV ;
+айдагы ADV ;
+тышкары ADV ;
+атынан ADV ;
+сейрек ADV ;
+таянып ADV ;
+жайында ADV ;
+капысынан ADV ;
+көчүрмө% аркылуу ADV ;
+дайыма ADV ;
+шексиз ADV ;
+болоор-бобос ADV ;
+жок% дегенде ADV ;
+түздөн% түз ADV ;
+ошоногу ADV ;
+болжол% менен ADV ;
+байкабай ADV ;
+тим% эле ADV ;
+күмөнсүз ADV ;
+кандай% болсо% да ADV ;
+тик% түрдө ADV ;
+чалп ADV ;
+көз% көрүнө ADV ;
+жөө ADV ;
+андай% болсо ADV ;
+эмнеге ADV ;
+оп ADV ;
+кечкисин ADV ;
+өтүнүч ADV ;
+алдыда ADV ;
+түрүндө% болгон ADV ;
+артыкчылык% берилүү% менен ADV ;
+бир% күндүгүнө ADV ;
+негизинен ADV ;
+калыстык% менен ADV ;
+дал% өзүндөй ADV ;
+кокусунан ADV ;
+жалгыз ADV ;
+артынан ADV ;
+чанда ADV ;
+жылкы ADV ;
+эртең% мененкисин ADV ;
+ачык% эле ADV ;
+өлөөрчө ADV ;
+жараша ADV ;
+жийиркенич ADV ;
+сөзмө-сөз ADV ;
+кана ADV ;
+имиш ADV ;
+түндөсү ADV ;
+зордоп ADV ;
+дароо ADV ;
+болор-болбос ADV ;
+таянып ADV ;
+дароо ADV ;
+үстүртөн ADV ;
+оюнда ADV ;
+жалпылап ADV ;
+кокус ADV ;
+атайлап ADV ;
+шар-шар ADV ;
+байма-бай ADV ;
+мурунтан ADV ;
+болушунча ADV ;
+өз% алдынча ADV ;
+шарттуу ADV ;
+мисалы ADV ;
+атын% атап ADV ;
+ар% күн ADV ;
+чынында ADV ;
+сыягы ADV ;
+негизинен ADV ;
+албетте ADV ;
+ушу% тапта ADV ;
+кыска% убакта ADV ;
+түздөн-түз ADV ;
+тип-тик ADV ;
+бүтүндөй ADV ;
+кичине ADV ;
+апачык ADV ;
+күтүүсүздөн ADV ;			
+
+=======
 
 алдында ADV ;  ! See bidix
 !барган% сайын ADV ; ! done with <ger> and POSTP
@@ -7339,6 +7461,7 @@ LEXICON AdvStems
 
 
 
+>>>>>>> .r32209
 LEXICON VerbStems
 
 бар%<v%>%<exi%>:бар # ;
