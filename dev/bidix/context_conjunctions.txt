@@ -1,0 +1,376 @@
+2364 ya<cnjadv>: Bir kibrit kutusu dolusu - yaklaşık üç, beş gram - esrar Kosova'da 5 Euro' 
+>>ya<< ml olurken, New York şehrinin sokaklarında aynı miktardaki esrar 
+için 17 ila 30 ABD Doları ödemek gerekebiliyor.Kosova'daki uyuşturucu 
+talebi yalnızca yasaklanmış uyuşturucu maddeler ile sınırlı değil.
+
+    <e><p><l>ya<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+1819 ta<cnjadv>: Reformcu kanat siyasetçilerinden Miçiç, söz konusu yasayı önce herhangi 
+bir seçime gerek olmayabileceği yönünde yorumlamaya çalışarak, 
+cumhurbaşkanlığı vekaletinin süresiz olarak meşru sayılmasının 
+önünü açmaya çalıştıysa da, sonradan bir açıklama yaparak yeni 
+seçimlere 8 Şubat' >>ta<< karar vereceğini duyurdu.
+
+    <e><p><l>ta<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+1645 gibi<cnjsub>: 
+    <e><p><l>gibi<s n="cnjsub"/></l><r>@<s n="cnjsub"/></r></p></e>
+
+================================================================================
+487 gerek<cnjcoo>: Reformcu kanat siyasetçilerinden Miçiç, söz konusu yasayı önce herhangi 
+bir seçime >>gerek<< olmayabileceği yönünde yorumlamaya çalışarak, 
+cumhurbaşkanlığı vekaletinin süresiz olarak meşru sayılmasının 
+önünü açmaya çalıştıysa da, sonradan bir açıklama yaparak yeni 
+seçimlere 8 Şubat'ta karar vereceğini duyurdu.
+
+    <e><p><l>gerek<s n="cnjcoo"/></l><r>@<s n="cnjcoo"/></r></p></e>
+
+================================================================================
+483 ila<cnjcoo>: Bir kibrit kutusu dolusu - yaklaşık üç, beş gram - esrar Kosova'da 5 
+Euro'ya ml olurken, New York şehrinin sokaklarında aynı miktardaki esrar 
+için 17 >>ila<< 30 ABD Doları ödemek gerekebiliyor.Kosova'daki uyuşturucu 
+talebi yalnızca yasaklanmış uyuşturucu maddeler ile sınırlı değil.
+
+    <e><p><l>ila<s n="cnjcoo"/></l><r>@<s n="cnjcoo"/></r></p></e>
+
+================================================================================
+425 ki<cnjadv>: Şimdiden Kosova'daki bakanlıkları olduğu gibi cafleri de saran uyuşturucu 
+sorunu, hiç şüphe yok >>ki<< önümüzdeki yıllarda da gündemdeki yerini 
+korumayı sürdürecek.
+
+    <e><p><l>ki<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+386 ya da<cnjadv>: Bir kişi, ancak kayda değer - yani dağıtım amacı ile kullanılabilecek 
+denli çok - miktarda uyuşturucu madde ile yakalanırsa bir uyuşturucu 
+kullanıcısı ya >>da<< kaçakçısı olarak mahkemeye çıkartılabiliyor.  
+WHO (Dünya Sağlık Örgütü) ve UNICEF (BM Çocukları Koruma Teşkilatı) 
+tarafından Kosova'da gerçekleştirilen araştırmada görüşülen gençlerin 
+yüzde 6,4'ü en az bir defa eroin kullandığını belirtti. [SETimes arşiv 
+fotoğrafı]  Kosova'da uyuşturucu kullanımının yaygınlaşmasına yol 
+açan diğer bir etken de, söz konusu maddelerin ucuz olarak edinilebiliyor 
+olması.
+
+    <e><p><l>ya<b/>da<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+235 zira<cnjadv>: Fakat söz konusu seçenek ya da çözüm büyük bir ekonomik gerginlik 
+döneminden geçmekte olan Batı Avrupa için de belirgin değil henüz, 
+>>zira<< "esas oğlanı" görünüşe göre AB genişlemesi.
+
+    <e><p><l>zira<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+184 yani<cnjadv>: Bir kişi, ancak kayda değer - >>yani<< dağıtım amacı ile 
+kullanılabilecek denli çok - miktarda uyuşturucu madde ile yakalanırsa bir 
+uyuşturucu kullanıcısı ya da kaçakçısı olarak mahkemeye 
+çıkartılabiliyor.  WHO (Dünya Sağlık Örgütü) ve UNICEF (BM Çocukları 
+Koruma Teşkilatı) tarafından Kosova'da gerçekleştirilen araştırmada 
+görüşülen gençlerin yüzde 6,4'ü en az bir defa eroin kullandığını 
+belirtti. [SETimes arşiv fotoğrafı]  Kosova'da uyuşturucu kullanımının 
+yaygınlaşmasına yol açan diğer bir etken de, söz konusu maddelerin ucuz 
+olarak edinilebiliyor olması.
+
+    <e><p><l>yani<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+178 olsun<cnjadv>: Ayanoviç ülkedeki tüm turizm birimlerinin hangi federal cumhuriyette olursa 
+>>olsun<<, yalnızca Bosna Herseğin en iyi yönünü sunmaya 
+çalıştığını da sözlerine ekliyor.Ve belki de her şeyden önemlisi, - 
+iyi bir kamp yeri ya da ürünleri için yeni bir pazar aramakta olan - 
+yabancıların Bosna Herseğe karşı beslemeleri olumsuz önyargıları 
+değiştirebilmek, buradaki insanların da kendi ülkelerini nasıl 
+gördüklerini ve değerlendirdiklerini olumlu açıdan etkileyebilir."Bosna 
+Hersek'teki insanların da düşünme biçimlerini değiştirmeye gereksinimi 
+var artık." diyor Ayanoviç.
+
+    <e><p><l>olsun<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+177 değer<cnjcoo>: Sonuçta, uyuşturucu nedeni ile ölen kişilerin sayısına ilişkin net bir 
+bilgi bulunmuyor.Geçtiğimiz ay Prizren'de 3,75 kg eroinin ele geçirildiği 
+operasyon benzeri kimi kayda >>değer<< uyuşturucu operasyonlarına karşın, 
+yasadışı uyuşturucu madde kaçakçılığı ve kullanımını engellemek 
+için var olan etkili yasaların sayısı oldukça az.
+
+    <e><p><l>değer<s n="cnjcoo"/></l><r>@<s n="cnjcoo"/></r></p></e>
+
+================================================================================
+171 ne var ki<cnjadv>: Ne var >>ki<< teori, politika ve pratik arasındaki mevcut uyumsuzluk, siyasi 
+birimler kuruluş aşamalarını geride bıraktıkça değişmeye başlayabilir.
+
+    <e><p><l>ne<b/>var<b/>ki<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+149 örneğin<cnjadv>:  >>Örneğin<< Priştine Hastanesi'nde her hafta aşağı yukarı bir aşırı 
+doz vak'ası ile karşılaşılıyor.
+
+    <e><p><l>örneğin<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+148 diye<cnjsub>: 
+    <e><p><l>diye<s n="cnjsub"/></l><r>@<s n="cnjsub"/></r></p></e>
+
+================================================================================
+128 dolayısıyla<cnjadv>:  >>Dolayısıyla<< dış kaynaklı fonların kullanım kapasitesi konusunu 
+yakın plana almak faydalı olacaktır.Burada önemli pek çok faktör var.
+
+    <e><p><l>dolayısıyla<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+120 hatta<cnjadv>: Bu hareket, Arnavutluk parlamento üyelerine sözleşmeyi onaylamama 
+çağrısında bulunan AB sözcüsü Emma Udwin'in sert eleştirilerine hedef 
+oldu.8 Mayıs'ta yaptığı bir açıklamada Udwin, "Bu sözleşmenin 
+yürürlüğe girmesini ve >>hatta<< imzalanmasını dahi istemezdik.
+
+    <e><p><l>hatta<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+107 dahası<cnjadv>: Bu düşünce uluslar arası piyasalarda da - finans ve ticaret piyasalarında 
+da - mevcut, >>dahası<< uluslararası finans örgütleri bu düşünceyi 
+başlarının üstünde tutageldiler.
+
+    <e><p><l>dahası<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+48 ister<cnjadv>: AB fonlarının kullanımı, bir ülkenin, >>ister<< yerel >>ister<< yabancı 
+olsun, mevcut tüm kaynakları verimli bir şekilde kullanabilme kapasitesi 
+açısından değerlendirilmelidir.Akut kaynak kıtlığı ve kaynakları 
+verimli bir şekilde kullanma kapasitesi arasındaki fark gözetilmelidir.
+
+    <e><p><l>ister<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+28 demek<cnjadv>: Korsancılık, bir yerde ucuza eğlence >>demek<<.
+
+    <e><p><l>demek<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+21 bunun üzerine<cnjadv>: 482 üyeli Meclis'teki sandalyelerin yüzde 40'ına sahip üç muhalefet 
+partisi -- Demokratik Parti, Ulusal Liberal Parti ve milliyetçiBüyük Romanya 
+Partisi (PRM) -- bunun >>üzerine<< bir gensoru önergesini Meclis'e sundu.
+
+    <e><p><l>bunun<b/>üzerine<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+11 başka bir deyişle<cnjadv>: Başka bir >>deyişle<<, eğer İttifak'a katılmak istiyorsak, kaydadeğer 
+değer zorluklar içermediği söylenemeyecek tercihler yapmamız gerekeceğini 
+gösteren bir uyarıcıdır.
+
+    <e><p><l>başka<b/>bir<b/>deyişle<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+10 zaten<cnjadv>: Türk firmaları çok yakındalar, deneyimleri var ve şu anda yeniden inşa 
+edilmesi gereken pek çok şeyi >>zaten<< onlar inşa etmisti," dedi.
+
+    <e><p><l>zaten<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+8 aksine<cnjadv>: Yüksek Temsilci Yardımcısı onların da sistemin reforma gereksinimi 
+olduğunu kabul ettiklerini ve kaybolan gelirleri kazanabilmek için sorumluluk 
+almak istediklerini belirtti.Hays "Basında çıkan haberlerin >>aksine<< bu 
+insanlar kapalı kapıların ardındayken çözüm bulma konusunda çok 
+mantıklı, düşünceli ve ilgili oluyorlar.
+
+    <e><p><l>aksine<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+6 yok<cnjadv>: Tiran'da Savaş Karşıtı Gösteri >>Yok<<
+
+    <e><p><l>yok<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+5 şayet<cnjsub>: Bosna Hersek Sırp Hükümeti ise 27 Kasım'dan itibaren yürürlüğe girecek 
+20 maddelik bir planı kabul etti.Defence News'un sorularını yanıtlayan 
+AGİT sözcüsü Meta Anley, NATO ve AGİK'in ihlallerin araştırılması ve 
+gerekli önlemlerin alınması konusunda destek sağlayacağını belirtti.SFOR 
+komutanı korgeneral William Ward "Ne olup bittiğini, [Bosna Sırp 
+Cumhuriyeti'nin] hangi önlemleri aldıklarını yakından izliyor olacağız, 
+>>şayet<< gereken biçimde davranılmadığını görürsek, gerekli 
+önlemleri almaya da hazırlıklıyım." diyerek uyarıda bulundu.
+
+    <e><p><l>şayet<s n="cnjsub"/></l><r>@<s n="cnjsub"/></r></p></e>
+
+================================================================================
+5 neyse<cnjadv>:  >>Neyse<< ki depremlerde can kaybi veya hasar meydana gelmedi.Yıllar boyunca 
+pek çok defa ve pek çok yerde meydana gelen depremler, Türkiye'nin kaderinde 
+önemli bir rol oynadı.
+
+    <e><p><l>neyse<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+5 hem<cnjcoo>: Racan, mahkemeye teslim olmasının >>hem<< kendisi hem de ülke için iyi 
+olacağını söyleyerek emekli generali teslim olmaya çağırdı.Ayrı bir 
+açıklamada Hırvatistan Cumhurbaşkanı Stipe Mesiç de, Lahey'de kendi ve 
+Hırvatistan'ın onurunu savunması için Gotovina'yı teslim olmaya 
+çağırdı.
+
+    <e><p><l>hem<s n="cnjcoo"/></l><r>@<s n="cnjcoo"/></r></p></e>
+
+================================================================================
+4 üstelik<cnjadv>:  >>Üstelik<< vakaların çoğunluğuna hastalık 1988-91 döneminde, yani 
+çocukken, virüsü taşıyan kanlarla yapılan kan nakilleri sonucunda 
+bulaşmış durumda.
+
+    <e><p><l>üstelik<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+4 peki<cnjadv>: Avrupa'da Sosyal Demokratlar, ABD'de Demokratlar, Avrupa'da merkez sağ 
+partiler ve ABD'deki Cumhuriyetçiler, gerek ilkeleri gerek ekonomi 
+politikaları açısından, birbirine yakınlaşmaya başlamış gibiydi. 
+>>Peki<< bu yeni gibi görünen uzlaşma nereden geliyor?
+
+    <e><p><l>peki<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+4 bundan dolayı<cnjadv>: Bundan >>dolayı<< tüm Sırbistanlı ISP'ler gerçekte Telekom'un 
+ara-sağlayıcıları konumunda.
+
+    <e><p><l>bundan<b/>dolayı<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+3 oysa<cnjadv>: VMRO-DPMNE partisine mensup milletvekilleri, söz konusu yasanın 
+yurtdışında yaşayan Makedonlara da yabancı muamelesi yaptığını, 
+>>oysa<< bu insanların anayasa gereği vatandaşlık hakları bulunduğunu 
+savunuyorlar.Ancak hükümete göre, diasporaya önceden tanınmış haklara 
+getirilen herhangi bir kısıtlama bulunmuyor.
+
+    <e><p><l>oysa<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+3 ne de olsa<cnjadv>: Ne de >>olsa<< oyunlar Yunanistan'ı uluslararası spotların altına koyuyor, 
+turizmde patlamaya yol açıyor, ulusal altyapının modernizasyonuna önayak 
+oluyor ve kalkınmayı hızlandırıyor.
+
+    <e><p><l>ne<b/>de<b/>olsa<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+3 ha<cnjcoo>: 2003 yılında, Sosyal Demokratların yönetimindeki eski hükümet başka bir 
+şirketten >>ha<< petrol ithal ederek sözleşmeyi ihlal etti.
+
+    <e><p><l>ha<s n="cnjcoo"/></l><r>@<s n="cnjcoo"/></r></p></e>
+
+================================================================================
+3 ancak<cnjcoo>: Kesin sonuçlar >>ancak<< şikayetler için tanınan resmi süre sona erdikten 
+sonra duyurulacak.
+
+    <e><p><l>ancak<s n="cnjcoo"/></l><r>@<s n="cnjcoo"/></r></p></e>
+
+================================================================================
+2 ne<cnjcoo>: Merkeze göre ülke, uzlaşmayı eski bir özdeyişine -"Cdo njeri eshte mbret 
+>>ne<< shtepine e tij."
+
+    <e><p><l>ne<s n="cnjcoo"/></l><r>@<s n="cnjcoo"/></r></p></e>
+
+================================================================================
+2 keza<cnjadv>:  >>Keza<< ABD'de uygulanan mevcut ekonomi politikası da, kısa bir süre 
+öncesine kadar hkim olan ilkelerin aksine, konjonktürün düşüşü 
+esnasında daha büyük ölçekli bütçe açıklarının yönetilmesini 
+olanaksız kılmıyor.
+
+    <e><p><l>keza<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+2 daha doğrusu<cnjadv>: 2000 yılında Brcko bir eyalet, daha >>doğrusu<< her iki tarafça da 
+paylaşılan, ancak hiçbirinin doğrudan otoritesi altında yer almayan bir 
+nevi kat mülkiyeti haline geldi.ABD hükümetinin Brcko'ya hukukun 
+üstünlüğünü getiren projesi 2001 yılında bir buldozer yaklaşımı 
+benimsedi.
+
+    <e><p><l>daha<b/>doğrusu<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+2 belki<cnjadv>: " >>Belki<< şimdi değil ama yakın gelecekte Kosova yaşanacak daha iyi bir 
+yer olacak." diyor.
+
+    <e><p><l>belki<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+2 adeta<cnjadv>: Dünyanın dört bir yanından televizyon izleyicilerinin de tanık olduğu 
+muhteşem gösteride tarih ve modern teknoloji >>adeta<< kucaklaştı.
+
+    <e><p><l>adeta<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+1 yok mu<cnjadv>: Büyükanıt şunları söyledi: "Her fırsatta laikliği yeniden tanımlama 
+ihtiyacını ifade edenler yok >>mu<<?
+
+    <e><p><l>yok<b/>mu<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+1 ta<cnjadv>: Reformcu kanat siyasetçilerinden Miçiç, söz konusu yasayı önce herhangi 
+bir seçime gerek olmayabileceği yönünde yorumlamaya çalışarak, 
+cumhurbaşkanlığı vekaletinin süresiz olarak meşru sayılmasının 
+önünü açmaya çalıştıysa da, sonradan bir açıklama yaparak yeni 
+seçimlere 8 Şubat' >>ta<< karar vereceğini duyurdu.
+
+    <e><p><l>ta<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+1 oysa ki<cnjadv>: Salı günü konuşan Jessen-Petersen, "Yerel yönetimin yalnızca bir 
+azınlık hakları meselesi olarak görülmeye başlanması üzüntü vericidir 
+-- oysa >>ki<< değildir, hükümeti halka yaklaştıran bir demokrasi 
+meselesidir," dedi.
+
+    <e><p><l>oysa<b/>ki<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+1 nitekim<cnjadv>: Yunanistan geleneksel olarak Kıbrıs'la çok iyi ilişkiler sürdürüyor, 
+>>nitekim<< ada halkı 1974'ten beri her dışişleri bakanının öncelikleri 
+arasında yer aldı.
+
+    <e><p><l>nitekim<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+1 mesela<cnjadv>:  >>Mesela<< ben, bakanlardan birinin makam aracını özel işleri için 
+kullanıp kullanmadığı ile ilgilenebilirim, zira bu bilgi bana bu yetkilinin 
+yolsuzluğa bulaşmış olduğu ve resmi makamını kötüye kullandığına 
+dair kanıt sağlayacaktır."
+
+    <e><p><l>mesela<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+1 kısacası<cnjadv>:  >>Kısacası<< liradaki sıfırlar bilgisayarlara, hesap makinelerine, 
+faturalara ve çeklere sığmaz oldu.Onay için bakanlar kuruluna gönderilen 
+yeni bir yasa tasarısıyla hükümet, liradan altı sıfır atacak.
+
+    <e><p><l>kısacası<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+1 işte<cnjadv>: Örneğin Fershped'in özelleştirilmesi ile ilgili dava, >>işte<< bu yüzden 
+bu kadar büyük bir önem taşıyor ve medyanın da, devlet yolsuzlukla 
+mücadele komisyonu başkanı Slagjana Taseva'nın açıklamalarını 
+görmezden gelmekten vazgeçmesi gerekiyor.SE Times: Makedon hükümetine yerel 
+ve bölgesel merkeziyetçilikten uzaklaşma konusunda ne gibi bir politika 
+önerirdiniz?Joseph: Hükümete, muhalefetten ve bu meseleyle ilgili diğer 
+taraflardan gelecek eleştirilere karşı dimdik durabilecek cesareti 
+göstermesini önerirdim.
+
+    <e><p><l>işte<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+1 hiç olmazsa<cnjadv>: Sırbistan'ı AB'ye tamamen yaklaştıracak ve buradaki gelişmelerle 
+bütünleştirecek en iyi çözümü bulmaya çalışacağız."Mihaylov bununla 
+birlikte, "Sırp ekonomisinin hiç >>olmazsa<< bir derece haksız rekabetten 
+korunabilmesi için, dengelerin bozulabileceği bazı alanlarda Sırbistan'ı 
+korumaya" gerek olduğunu belirtti.
+
+    <e><p><l>hiç<b/>olmazsa<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+1 hani<cnjadv>: Yerel yönetimden sorumlu çalışma grubu tarafından hazırlanan konseptte 
+Kosova'nın idari açıdan Gracanica, >>Hani<< i Elezit (Djeneral Jankovic), 
+Junik, Mamusa ve Partes olmak üzere beş belediyeye bölünmesi 
+öngörülüyor.
+
+    <e><p><l>hani<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================
+1 halbuki<cnjadv>:  >>Halbuki<<, Galiç bir alt mahkemenin kendisine yaklaşık üç yıl önce 
+vermiş olduğu 20 yıl hapis cezasına itiraz ediyordu.
+
+    <e><p><l>halbuki<s n="cnjadv"/></l><r>@<s n="cnjadv"/></r></p></e>
+
+================================================================================

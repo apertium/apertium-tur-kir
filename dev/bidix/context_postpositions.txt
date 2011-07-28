@@ -1,0 +1,584 @@
+7755 göre<postp>: Yerel basında çıkan haberlere >>göreyse<<, geride ABD'nin Türkiye'ye 
+yapacağı mal yardımın yalnızca tutarının belirlenmesi konusunun 
+kaldığı belirtildi.
+
+    <e><p><l>göre<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+6083 ilgili<postp>: Söz konusu gözaltı süresi sona erip >>ilgili<< kişilerin üzerinde ele 
+geçirilen maddelere el konmasının ardından, gözaltına alınanlar serbest 
+bırakılıyor.
+
+    <e><p><l>ilgili<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+5599 üzere<postp>: 
+    <e><p><l>üzere<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+2763 karşı<postp>: 
+    <e><p><l>karşı<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1414 rağmen<postp>: Birliğe katılım, farklı bir durumda talep edilmeyecek olan, bir dizi 
+kurumsal uyarlama gerektirmektedir.Mevcut ekonomik farklılıklara >>rağmen<< 
+AB, refah ekonomileri ve toplumlarından olusuyor.
+
+    <e><p><l>rağmen<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1089 birlikte<postp>: 
+    <e><p><l>birlikte<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1036 ötürü<postp>: Bundan >>ötürü<<, arz azaltımı - yani uluslararası polis ve sınır 
+polisi ile işbirliği yaparak kaçakçıları yakalamaya çalışmak - yoluyla 
+söz konusu sorunu çözüme kavuşturmak oldukça zor.
+
+    <e><p><l>ötürü<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1002 dair<postp>: Konuşurken bolca Amerikan argosu kullanıyor ve çok çalışırsa, 
+birşeyleri değiştirebileceğine >>dair<< tipik Amerikan iyimserliğine sahip 
+oldugu goruluyor.26 yaşındaki Eyüpoviç, Bosna-Hersek Dış Ticaret ve 
+Ekonomik İlişkiler Bakanlığı bünyesinde yürütülen, yoksullukla 
+mücadele strateji projesi koordinatör yardımcılığı görevine ilişkin 
+olarak şunları söylüyor: "7 gün boyunca gunde 24 saat çalışıyorum ve 
+bu projenin, bu ülke için cok buyuk katkida bulunabilecegine inaniyorum.
+
+    <e><p><l>dair<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+890 halinde<postp>: 
+    <e><p><l>halinde<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+870 üzerine<postp>: 
+    <e><p><l>üzerine<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+814 gibi<postp>: Şimdiden Kosova'daki bakanlıkları olduğu >>gibi<< cafleri de saran 
+uyuşturucu sorunu, hiç şüphe yok ki önümüzdeki yıllarda da gündemdeki 
+yerini korumayı sürdürecek.
+
+    <e><p><l>gibi<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+706 doğru<postp><abl>: DOS yetkilileri, yeni anayasada cumhurbaşkanının >>doğrudan<< halkoyu ile 
+değil Meclis tarafından seçilmesini öneriyor.
+
+    <e><p><l>doğru<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+594 yakında<postp>: 
+    <e><p><l>yakında<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+505 beri<postp>: 
+    <e><p><l>beri<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+279 doğru<postp>: DOS yetkilileri, yeni anayasada cumhurbaşkanının >>doğrudan<< halkoyu ile 
+değil Meclis tarafından seçilmesini öneriyor.
+
+    <e><p><l>doğru<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+275 itibaren<postp>: 
+    <e><p><l>itibaren<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+159 dolayı<postp>: 
+    <e><p><l>dolayı<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+125 yana<postp>: 
+    <e><p><l>yana<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+102 başka<postp>: Reformcular bir aday dahi göstermediler.  Miçiç  Bu durumda, yeni seçim 
+yasasına göre, Meclis >>Başkanı<<'nın "60 gün içinde yeni seçimlere 
+ilişkin bir karar vermesi" gerekiyor.
+
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+37 anki<postp>: Türk işadamları derneğinden bir heyet, ikili ilişkilerde ısınma turları 
+için önümüzdeki ay Washington'u ziyaret edecek.ABD eski Ankara 
+büyükelçisi ve Türk Dostları derneğinin şu >>anki<< başkanı Mark 
+Parris, Washington'da Türk firmalarının yeniden inşa sürecine 
+katılmalarına karşı herhangi bir "ön yargi" bulunmadığını belirtti.ABD 
+Dışişleri Bakanı Colin Powell Türk Dışişleri Bakanı Abdullah Gül'ü 
+arayarak insani yardımın topraklarından geçmesine izin verdiği ve yardım 
+malzemelerine olan katkıları için Türkiye'ye teşekkür etti.Financial 
+Times'ın haberine göre, Parris konuşmasında, "Irak'taki yeniden inşa 
+sözleşmeleri açısından bakıldığında, dünya Türkiye'nin istiridye 
+kabuğu olacaktır.
+
+    <e><p><l>anki<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+29 dair<postp><dat>: Bu amaç doğrultusunda Yunan Polisi tarafından, Olimpiyat Oyunları Güvenlik 
+Kurulu (DSOG) adında özel bir >>daire<< kuruldu.
+
+    <e><p><l>dair<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+20 ilgili<postp><cpl_di><3s>: Çalıntı araçlar hakkında Karadağ polisine gönderdiğimiz talep listesi, 
+Haziran 2002'den önce çalınmış ve yeni ruhsat alınmış bazı lüks 
+araclarla >>ilgiliydi<<.
+
+    <e><p><l>ilgili<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+18 başka<postp><p3s>: Konuşmadan >>başkasını<< görebilir ve duygularını daha yakından 
+anlayabilirsiniz .
+
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+17 göre<postp><cpl_sa><3s>: Yerel basında çıkan haberlere >>göreyse<<, geride ABD'nin Türkiye'ye 
+yapacağı mal yardımın yalnızca tutarının belirlenmesi konusunun 
+kaldığı belirtildi.
+
+    <e><p><l>göre<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+16 süresince<postp>: 
+    <e><p><l>süresince<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+16 başka<postp><pl><p3s><gen>: 
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+13 başka<postp><p3s><gen>: Bu >>başkasının<< kararı olamaz," şeklinde devam etti.
+
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+12 yakında<postp><p2s>: 
+    <e><p><l>yakında<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+12 doğru<postp><3p>: İki bakan, STA'nın ülkelerinin bölgedeki bütünleşme süreçlerine ortak 
+katılı sağlama yönündeki istekliliklerini >>doğrular<< nitelikte 
+olduğunu belirttiler.
+
+    <e><p><l>doğru<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+12 başka<postp><p3s><acc>: Konuşmadan >>başkasını<< görebilir ve duygularını daha yakından 
+anlayabilirsiniz .
+
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+11 ilgili<postp><3s><dir>: Bunlardan biri, artan karmaşıklığın yönetimi ile >>ilgilidir<<.
+
+    <e><p><l>ilgili<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+11 başka<postp><pl><acc>: 
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+9 yukarı<postp><loc>: Bu milletvekilleri, bütçe aleyhine oy kullandılarsa da, katılım 
+yeterliliği sağlandığı için bütçe Meclis'ten geçti.DSS'de 
+kızgınlığa yol açan bir diğer gelişme de, hem Koştunitza hem de Cinciç 
+hükümetlerini destekleyen birçok DOS üyesi parti vekilinin bütçeye onay 
+vermesi oldu.Cinciç, daha önce de birçok defa, Meclis' >>yukarıda<< 
+belirtilen yolla denetim altında tutmayı başardı.
+
+    <e><p><l>yukarı<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+9 başka<postp><pl><p3s><dat>: 
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+7 karşı<postp><1p>: 
+    <e><p><l>karşı<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+7 başka<postp><gen>: Dışişleri Bakanlığı üçüncü yıllık İnsan Kaçakçılığı (TIP) 
+raporunu yayınlarken, yetkililer, 11 Haziran Çarşamba günü, bu ülkelerin 
+performanslarını Ekim ayından önce iyileştirmemeleri halinde 
+yaptırımlarla karşı karşıya kalacakları yonunde de bir aciklama 
+yapti.ABD Dışişleri Bakanı Colin Powell,konuyla ilgili olarak, "Ülkeler 
+bizimle birlikte çalışarak ve politikalarını ve uygulamalarını 
+iyileştirme yolunda acil faaliyet göstererek yaptırımlardan 
+kurtulabilirler," dedi.Kongreden 2000 yılında geçen Kaçakçılık 
+Kurbanlarını Koruma Yasası uyarınca hazırlanan raporda, ülkeleri 
+kaçakçılık faaliyetlerinin önlenmesi ve yargılanması ile kurbanların 
+korunması konularında ne derece tedbirli davrandıklarına göre 
+sınıflandıran üç kademeli bir sistem kullanılıyor.Dışişleri 
+Bakanlığının İnsan Kaçakçılığı Kontrol ve Mücadele Dairesi 
+sorumlusu John Miller konuyu, ABD yasası gereğince >>başkanın<< 
+yaptırımların uygulanıp uygulanmayacağı konusunda, 1 Ekim'e kadar karar 
+vermesi gerektiği şeklinde açıkladı.
+
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+6 başka<postp><pl><p3s><acc>: 
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+5 doğru<postp><3s><dir>: Yasaktan önce, ithalat-ihracat faaliyetleri için kayıtlı bütün şirketler 
+benzin ithal etme hakkına sahipti.Önerilen değişiklikleri sıralayan 
+Madencilik ve Enerji Bakan Yardımcısı Slobodan Sokoloviç, "Ruhsat alma 
+sisteminin temel unsurları her şeyden önce şirketlerin sahip olduğu 
+altyapıya dayanırken, yatırım döngüsü de bizim pazarımızda ham petrol 
+türevleri ithalatçısı olmak isteyen herhangi bir firma için son derece 
+önem taşıyor," dedi.Sırbistan Ticaret Odası Enerji Kurulu da yeni yasayı 
+memnuniyetle karşılayarak, yasanın benzin firmaları arasına sonunda fiyat 
+rekabetini getireceğini söyledi.Kurul üyesi Ljubinko Saviç, "Sırbistan'da 
+benzin perakendesinde bütün uluslararası firmaların mevcut olduğu 
+>>doğrudur<<; ancak bu pazar, perakende satış noktaları oluşturmak, ham 
+petrol toptan satışı ve tedariki açısından şimdiye kadar rekabeti 
+artırıcı olabilecek derecede açık olmamıştır," şeklinde 
+konuştu.Analistler, benzin ithal etme hakkının çok yakında Rus Lukoil, 
+Avusturyalı OMV, Yunan Helenikpetroleum, çokuluslu zincir Avia ve Sırp Nafta 
+AD'ye verilmesine neredeyse kesin gözüyle bakıyorlar.2001'den önce benzin 
+ithalatı ve yurtiçinde satışı Sırbistan'daki en krlı işlerden biriydi.
+
+    <e><p><l>doğru<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+5 başka<postp><p3p>: Ancak, ABD'deki Hamilton College'dan Lahey'de misafir eğitmen olarak bulunan 
+Carlos Yordan, tutuklamanın mahkemenin tarafsızlığını gösterdiğini 
+belirtti.Yordan, "Eğer savaş suçları işlemişse veya >>başkalarına<< 
+işletmişse yargılanmalıdır, suçlu veya suçsuz olduğuna ise mahkeme 
+karar verecektir," dedi.
+
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+4 yana<postp><3p>: 
+    <e><p><l>yana<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+4 üzere<postp><3s><cpl_ken>: 
+    <e><p><l>üzere<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+4 karşı<postp><3s><dir>: 
+    <e><p><l>karşı<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+4 doğru<postp><3p><cpl_ken>: Her iki tarafın askeri yetkilileri, bu reformların uygulanmasında son derece 
+kararlı olduklarını belirttiler.Bu toplantı, ülkenin PfP programına 
+katılma ve Avrupa'yla bütünleşme yolunda önlemler alma yönündeki 
+kararlılığını >>doğrularken<<, katılımcılar BH'nin PfP'ye katılıma 
+her zamankinden daha çok yaklaştığına inanıyor.
+
+    <e><p><l>doğru<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+4 başka<postp><p3p><dat>: Ancak, ABD'deki Hamilton College'dan Lahey'de misafir eğitmen olarak bulunan 
+Carlos Yordan, tutuklamanın mahkemenin tarafsızlığını gösterdiğini 
+belirtti.Yordan, "Eğer savaş suçları işlemişse veya >>başkalarına<< 
+işletmişse yargılanmalıdır, suçlu veya suçsuz olduğuna ise mahkeme 
+karar verecektir," dedi.
+
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+3 yukarı<postp><p3s><loc>: Genç Alman ve Belçika çoban köpekleri, yeni merkezde oynayacakları 
+oyunların bölgede yüzlerce insanın kol veya bacağını, belki de 
+hayatını kaybetmesini önleyeceğini bilmeden, dışarı çıkıp oynamaya 
+hevesliydi.Orta Bosna-Hersek'te (BH) yer alan Konjiç kentinden gelen çift 
+şeritli yolun birkaç kilometre >>yukarısında<< yer alan bu gözlerden ırak 
+12 hektarlık merkezde, köpek eğitmenleri genç köpeklere 1996 yılından bu 
+yana sadece BH'de 1.454 kişinin ölümüne yol açan kara mayınlarını 
+koklayarak bulmayı öğretiyorlar.Deneyimli köpek eğitmeni Clarke Young 
+Jr.'ın açıklamasına göre burada köpekler, patlayıcı kokusunu topla 
+ilişkilendirmeye dayanan lastik bir top oyunu yoluyla, C4 patlayıcılar ve 
+TNT'yi bulmak üzere eğitiliyor.1990 beri Global Training Academy'de proje 
+üstlenici olarak çalışan Young, "Köpekler buna deli oluyor - bulmak için 
+dikenli tel, kaktüs, nerede olursa ararlar," diyerek şöyle devam ediyor: 
+"Sadece bir oyun, köpeklerin bunun tehlikesinden haberleri bile yok."Üç gün 
+sonra köpekler kokuyu tanıyor ve kokuyu aldıkları anda oturmaları 
+öğretiliyor.
+
+    <e><p><l>yukarı<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+3 yana<postp><1p>: 
+    <e><p><l>yana<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+3 ilgili<postp><pl><gen>: Beyaz Saray sözcüsü Dana Perino gazetecilere verdiği demeçte, "Bu hafta 
+sonu düzenlenen gösterilerin ilgili makamlar tarafından dağıtılmasında 
+başvurulan sert yöntemler ve >>ilgililerin<< benzer olaylara tepki 
+göstermekte aşırı güç kullanmalarının giderek yaygın hale gelmesinden 
+büyük rahatsızlık duyuyoruz." dedi.
+
+    <e><p><l>ilgili<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+3 halinde<postp><cpl_sa><3s>: 
+    <e><p><l>halinde<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+3 başka<postp><p3s><ins>: Ancak bakan, "Rusya'dan [Güvenlik Konseyi'nde] veto etmesi veya 
+>>başkasıyla<< birlik olup bize savaş açmasının beklenemeyeceğini" de 
+sözlerine ekledi.
+
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+3 başka<postp><p3p><ins>: İddianamede, bu yıkımın önemli bir kısmının 15 Eylül'deki ateşkes ile 
+17 Eylül'de Hırvat güçlerinin bölgeyi kesin olarak terk etmesi arasında 
+geçen sürede gerçekleştiği öne sürülüyor.İddianamede, "Mirko Norac, 
+münferiden ve/veya >>başkalarıyla<< işbirliği halinde Medak Çukurundaki 
+Sırp sivillere ırksal, siyasi veya dini nedenlerden ötürü uygulanan 
+zulmün planlanması, hazırlanması veya gerçekleştirilmesini planlamış, 
+kışkırtmış, emretmiş veya başka bir şekilde buna yardım veya yataklık 
+etmiştir," deniyor.BM savcılarının sözcüsü tarafından yapılan 
+açıklamaya göre Norac büyük ihtimalle yerel mahkeme tarafından 
+yargılanacak.
+
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+3 başka<postp><p3p><gen>: Liderler, "Bu sorumlulukları üstlenerek, hem kendi çevremizi hem 
+>>başkalarının<< çevresini güvenle yaşanacak bir yer haline getirme 
+yönündeki ortak çabamıza siyasi ve askeri açıdan katkıda bulunmaya 
+hazırız," dediler.Pazartesi törene, NATO üyeliğine hazırlanan ve Üyelik 
+Faaliyet Planı'na katılan Arnavutluk, Hırvatistan ve Makedonya'nın 
+başbakanları da katılacak.
+
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+2 yana<postp><1s>: 
+    <e><p><l>yana<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+2 gibi<postp><cpl_di><3s>: Avrupa'da Sosyal Demokratlar, ABD'de Demokratlar, Avrupa'da merkez sağ 
+partiler ve ABD'deki Cumhuriyetçiler, gerek ilkeleri gerek ekonomi 
+politikaları açısından, birbirine yakınlaşmaya başlamış 
+>>gibiydi<<.Peki bu yeni gibi görünen uzlaşma nereden geliyor?
+
+    <e><p><l>gibi<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+2 doğru<postp><p3s>:  >>Doğrusu<< benim için hoş bir sürpriz oldu.
+
+    <e><p><l>doğru<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+2 doğru<postp><loc>: Slovenya Cumhurbaşkanı Janez Drnovsek her iki tarafın da >>doğruda<< 
+müzakere yoluyla anlaşma sağlaması, ancak bu süreç başarısız olursa 
+uluslararası yolu seçmesi gerektiğini söyledi.
+
+    <e><p><l>doğru<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+2 başka<postp><pl><p3s><abl>: 
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+2 başka<postp><p3s><dat>: İşin özünde, Güvenlik Konseyi-AB/ABD'den gelecek ortak bir ses 
+sorumluluğu >>başkasına<< atacak ve herkesi temize çıkaracak.
+
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 yukarı<postp><p3s><dat>: Tunanın normal seviyesinin 30 cm >>yukarısına<< çıktığı Braila 
+eyaletinde de ilgili makamlar Noianul-Chiscani barajını kum torbalarıyla 
+takviye ederek ihtiyati tedbirler alıyorlar.
+
+    <e><p><l>yukarı<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 yukarı<postp><p3s><acc>: Bulgaristan, 2006 aldığı notun 0,04 kadar >>yukarısını<< alarak, söz 
+konusu grupta 2,89 ile dokuzuncu ve sonuncu oldu.
+
+    <e><p><l>yukarı<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 yukarı<postp><loc><ki>: Marti Ahtissari, >>yukarıdaki<< açıklamaları elçilik adaylığının BM 
+Güvenlik Konseyi tarafından onaylanmasından bir gün sonra yaptı.
+
+    <e><p><l>yukarı<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 yana<postp><3s><cpl_ken>: 
+    <e><p><l>yana<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 yakında<postp><3p>: 
+    <e><p><l>yakında<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 üzere<postp><3p>: 
+    <e><p><l>üzere<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 rağmen<postp><acc>: Karşı yöndeki söylentilere >>rağmeni<< Türkiye Başbakanı Recep Tayyip 
+Erdoğan resmi bir ziyaret için Çarşamba günü Irak'a gitti.
+
+    <e><p><l>rağmen<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 öte<postp><dat>: 
+    <e><p><l>öte<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 karşı<postp><p3s><loc>: 
+    <e><p><l>karşı<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 karşı<postp><dat>: 
+    <e><p><l>karşı<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 karşı<postp><3p><cpl_ken>: 
+    <e><p><l>karşı<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 karşı<postp><3p>: 
+    <e><p><l>karşı<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 karşı<postp><1s>: 
+    <e><p><l>karşı<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 ilgili<postp><pl><dat>: Ayrıca AB üyesi ülkelerdeki tüm Hırvatistan büyükelçileri ülkelerinin 
+resm bir AB adayı olması için gerekli tüm belgeleri >>ilgililere<< 
+sunacaklar.Strasbourg'da, Hırvatistan'ın Avrupa Konseyi Büyükelçisi Neven 
+Madey ülkesinin insan hakları ve temel özgürlüklere ilişkin iki 
+uluslararası sözleşmeyi onayladığına ilişkin protokolleri Pazartesi 
+günü ilgili Konsey birimlerine iletti.
+
+    <e><p><l>ilgili<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 ilgili<postp><pl><acc>: 
+    <e><p><l>ilgili<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 ilgili<postp><cpl_mis><3s>: SFOR ise, operasyonun Hasat Operasyonu adlı silah toplama programı 
+kapsamında gerçekleştirildiğini, ancak medyanın olayı gerçekte el Kaide 
+terör şebekesiyle var olan şüpheli bağlantılarla >>ilgiliymiş<< gibi 
+aksettirmekte olduğunu belirtti.
+
+    <e><p><l>ilgili<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 ilgili<postp><3s><cpl_ken>: Davaların biri Lipko barajının kapatılması, biri Neprosteno'daki bir toplu 
+mezar, biri inşaat işçilerine yönelik saldırılarla >>ilgiliyken<<, 
+sonuncusu da şimdi dağılmış durumdaki Ulusal Kurtuluş Ordusu liderlerini 
+ilgilendiriyor.
+
+    <e><p><l>ilgili<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 ilgili<postp><3p>: "Bu farklılıkların üstesinden gelinemedi, çünkü bunlar uluslararası 
+hukukun temelleriyle >>ilgililer<<."
+
+    <e><p><l>ilgili<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 ile<postp>: 
+    <e><p><l>ile<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 göre<postp><p3s><ins>: Mahkemenin görev >>göresiyle<< ilgili mevcut takvime göre bütün asliye 
+hukuk davaları 2008'e kadar tamamlanacak, geri kalan işlerin de -temyizler de 
+dahil olmak üzere- 2010 yılı sonuna kadar tamamlanması gerekecek.
+
+    <e><p><l>göre<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 göre<postp><abl>: BÜKREŞ, Romanya -- Cumhurbaşkanı Traian Basescu 19 Mayıs Cumartesi günü 
+düzenlenen >>göreden<< alma referandumundan kolaylıkla galip çıkarken, 
+sonuç anketleri %75 civarında yaygın bir desteğe işaret ediyorlar.
+
+    <e><p><l>göre<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 gibi<postp><cpl_sa><3s>: Bu ilişki inandığımız >>gibiyse<< ...
+
+    <e><p><l>gibi<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 gibi<postp><1p><dir>: CBS'nin aktardığı sözlerinde Bakoyanni, "Yunanistan'da biz 'sirtaki' dansı 
+>>gibiyizdir<<.
+
+    <e><p><l>gibi<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 doğru<postp><pl><acc>: 
+    <e><p><l>doğru<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 doğru<postp><p3s><loc><ki>: Gorazdeli bir girişimci, harap haldeki kentte memnuniyetle karşılanan bir 
+yatırım olarak plastik atık işleme makineleri satın aldı. Southeast 
+European Times için Yusuf Ramazanoviç'in haberi -- 18/05/09 Abdulah 
+Hasanagiç, Bosna'nın >>doğrusundaki<< Drina Nehri üzerinde ve Sırbistan 
+sınırına yakın küçük bir kent olan Gorazde'deki AS Company'nin gururlu 
+sahibi.
+
+    <e><p><l>doğru<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 doğru<postp><loc><ki>: Bosna-Hersek (BH) parlamentosu, ülke seçim yasasında yapılacak ve 
+>>doğrudaki<< Srebrenica kasabasının bütün eski sakinlerinin Ekim 
+ayındaki yerel seçimlerde belediyede oy kullanmalarına olanak sağlayacak 
+değişiklikleri 7 Mayıs Çarşamba günü kabul etti.
+
+    <e><p><l>doğru<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 doğru<postp><acc>: Sırp süt anna ve babalarına kendisine iyi baktıkları ve kökeni hakkında 
+>>doğruyu<< söyledikleri için müteşekkir durumda.
+
+    <e><p><l>doğru<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 doğru<postp><3p><cpl_sa>: İngiltere'deki laboratuvarda yapılan testler kuşlarda H5N1 türünün 
+varlığını >>doğrularsa<<, bu olay son haftalarda üç kıtaya yayılan 
+virüsün bu son derece patojen türünün BH'deki ilk vakası olacak.
+
+    <e><p><l>doğru<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 başka<postp><pl><p3s><ins>: 
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 başka<postp><pl><p3s><cpl_sa><3s>: 
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 başka<postp><p3s><loc>: Bu arada Bulgar Tarih Müzesi başkanı yaptığı açıklamada, 
+Bulgaristan'daki sayıları 19 bin civarında tahmin edilen Trakya 
+mezarlarının bir >>başkasında<< kazı yapmakta olan bir ekibin de paha 
+biçilmez bir hazine bulduğunu bildirdi.
+
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 başka<postp><p3p><acc>: Cumhurbaşkanı Alfred Moisiu, Başbakan Sali Berişa, SP lideri Rama ve Tiran 
+belediye başkanlığı yarışındaki rakibi Sokol Olldashi Pazar günü oy 
+kullandılar ve >>başkalarını<< da aynısını yapmaya çağırdılar.
+
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 başka<postp><p2s>: Reformcular bir aday dahi göstermediler.  Miçiç  Bu durumda, yeni seçim 
+yasasına göre, Meclis >>Başkanı<<'nın "60 gün içinde yeni seçimlere 
+ilişkin bir karar vermesi" gerekiyor.
+
+    <e><p><l>başka<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
+1 ait<postp>: 
+    <e><p><l>ait<s n="postp"/></l><r>@<s n="post"/></r></p></e>
+
+================================================================================
