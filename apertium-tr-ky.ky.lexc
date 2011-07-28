@@ -949,7 +949,7 @@ LEXICON NounStems
 азан N-INFL ; 
 азап N-INFL ; 
 азат N-INFL ; 
-азиз N-INFL ; 
+азиз N-INFL ; ! FIXME: not ADJ?
 азирети N-INFL ; 
 азот N-INFL ; 
 азуу N-INFL ; 
