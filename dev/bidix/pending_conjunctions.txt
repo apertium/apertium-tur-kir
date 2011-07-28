@@ -1,6 +1,6 @@
    2364 ^@ya<cnjadv>$
    1819 ^@ta<cnjadv>$
-   1646 ^@gibi<cnjsub>$
+   1645 ^@gibi<cnjsub>$
     487 ^@gerek<cnjcoo>$
     483 ^@ila<cnjcoo>$
     425 ^@ki<cnjadv>$

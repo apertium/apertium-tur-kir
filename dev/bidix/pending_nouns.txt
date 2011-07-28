@@ -10,7 +10,7 @@
    2224 ^@cumartesi gün<n>$
    1909 ^@cumhurbaşkanlığı<n>$
     936 ^@gücü<n>$
-    490 ^@öl<n>$
+    489 ^@öl<n>$
     445 ^@dav<n>$
     366 ^@cali<n>$
     274 ^@nü<n>$
@@ -650,6 +650,7 @@
      11 ^@müftü<n>$
      11 ^@lisansüst<n>$
      11 ^@lahana<n>$
+     11 ^@kuşak<n>$
      11 ^@kürtaj<n>$
      11 ^@kördüğüm<n>$
      11 ^@kıyafet<n>$
@@ -711,7 +712,6 @@
      10 ^@makroekonomi<n>$
      10 ^@lazım<n>$
      10 ^@lastik<n>$
-     10 ^@kuşak<n>$
      10 ^@kurgu<n>$
      10 ^@köpek<n><$
      10 ^@köpekbalık<n>$
@@ -3728,6 +3728,7 @@
       1 ^@çekinik<n>$
       1 ^@çekiliş<n>$
       1 ^@çekidüzen<n>$
+      1 ^@çeker<n>$
       1 ^@çekek<n>$
       1 ^@çehre<n><$
       1 ^@cebri<n>$

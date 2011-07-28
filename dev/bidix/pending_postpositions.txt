@@ -1,4 +1,4 @@
-   7754 ^@göre<postp>$
+   7755 ^@göre<postp>$
    6083 ^@ilgili<postp>$
    5599 ^@üzere<postp>$
    2763 ^@karşı<postp>$
@@ -8,7 +8,7 @@
    1002 ^@dair<postp>$
     890 ^@halinde<postp>$
     870 ^@üzerine<postp>$
-    813 ^@gibi<postp>$
+    814 ^@gibi<postp>$
     706 ^@doğru<postp><abl>$
     594 ^@yakında<postp>$
     505 ^@beri<postp>$
