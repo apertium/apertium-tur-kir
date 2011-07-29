@@ -1,5 +1,6 @@
     441 kaynaklan<v><t_imp><2s>
-     53 sürtüş<v><t_imp><2s>
+    440 dur<v><pass><t_imp><2s>/durul<v><t_imp><2s>
+     77 bay<v><t_imp><2s>
      53 savla<v><t_imp><2s>
      52 zayıfla<v><t_imp><2s>
      52 pazarla<v><t_imp><2s>
