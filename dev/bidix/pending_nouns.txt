@@ -497,7 +497,6 @@
      14 ^@adi<n>$
      14 ^@acente<n><$
      13 ^@varsayım<n>$
-     13 ^@uğraş<n>$
      13 ^@töre<n>$
      13 ^@teslimat<n>$
      13 ^@termal<n>$
@@ -559,6 +558,7 @@
      12 ^@yedek<n>$
      12 ^@vites<n>$
      12 ^@vaşak<n>$
+     12 ^@uğraş<n>$
      12 ^@türev<n><$
      12 ^@tümör<n>$
      12 ^@tezat<n>$
@@ -2038,6 +2038,7 @@
       2 ^@umum<n>$
       2 ^@ultrason<n>$
       2 ^@ülkü<n>$
+      2 ^@uğraşı<n>$
       2 ^@uca<n>$
       2 ^@tüy<n>$
       2 ^@tuval<n>$
@@ -2720,7 +2721,6 @@
       1 ^@ümran<n>$
       1 ^@ulvi<n>$
       1 ^@uğraş<n><$
-      1 ^@uğraşı<n>$
       1 ^@uçurtma<n>$
       1 ^@tutuk<n>$
       1 ^@tutkun<n>$
