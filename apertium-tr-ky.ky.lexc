@@ -7418,10 +7418,7 @@ LEXICON AdvStems
 таптакыр ADV ;
 жалаң ADV ;
 анда% санда ADV ;
-<<<<<<< .mine
-=======
 
->>>>>>> .r32265
 бир ADV ;
 эмне ADV ;
 жакшы ADV ;
@@ -7531,11 +7528,7 @@ LEXICON AdvStems
 тышкары ADV ; ! See bidix
 чогу ADV ; ! See bidix
 
-<<<<<<< .mine
-=======
 
-
->>>>>>> .r32265
 LEXICON VerbStems
 
 бар%<v%>%<exi%>:бар # ;
