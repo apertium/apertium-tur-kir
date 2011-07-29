@@ -768,6 +768,56 @@ LEXICON Conjunctions
 
 болуп CS ; ! Dir/RL ""
 
+га CA ;
+да CA ;
+сыяктуу CS ;
+керек CC ;
+арасы CC ;
+эмеспи CA ;
+же% болбосо CA ;
+анткени CA ;
+башкача% айтканда CA ;
+мейли CA ;
+татыктуу CC ;
+бирок% тилекке% каршы CA ;
+мисалы CA ;
+деп CS ;
+ошондуктан CA ;
+ал% эмес CA ;
+бул% эле% эмес CA ;
+кааласа CA ;
+демек CA ;
+анда CA ;
+башкача% айтканда CA ;
+тактап% айтканда CA ;
+тескерисинче CA ;
+жок CA ;
+кокус CS ;
+болуптур CA ;
+ал% түгүл CA ;
+ал% турсун CA ;
+анда CA ;
+ушундан% улам CA ;
+болсо% да CA ;
+кандай% болсо% да CA ;
+кана% эмесе CC ;
+ошентсе% да CC ;
+эмне CC ;
+ошондой CA ;
+туурасы CA ;
+балким CA ;
+так% эле CA ;
+бар% го CA ;
+тээ CA ;
+а% бирок CA ;
+чынында CA ;
+маселен CA ;
+кыскача% айтканда CA ;
+мына CA ;
+эч% болбосо CA ;
+жок% дегенде CA ;
+чынында CA ;
+
 LEXICON Postpositions
 
 менен POST ; ! "with"
@@ -796,7 +846,30 @@ LEXICON Postpositions
 соң POST ;
 тышкары POST ; ! "aside from, besides" +abl
 бери POST ; ! "since" +abl
-
+жараша POST ;
+байланыштуу POST ;
+үчүн POST ;
+каршы POST ;
+карабастан POST ;
+менен% бирге POST ;
+улам POST ;
+тууралуу POST ;
+боло% турган% болсо POST ;
+тиешелүү POST ;
+сыңары POST ;
+жакында POST ;
+бери POST ;
+карай POST ;
+тартып POST ;
+улам POST ;
+учурга% чейин POST ;
+башка POST ;
+убактагы POST ;
+байланыштуу% болчу POST ;
+боюнча POST ;
+өйдө POST ;
+менен POST ;
+караштуу POST ;
 
 LEXICON Determiners
 
@@ -7345,7 +7418,10 @@ LEXICON AdvStems
 таптакыр ADV ;
 жалаң ADV ;
 анда% санда ADV ;
+<<<<<<< .mine
+=======
 
+>>>>>>> .r32265
 бир ADV ;
 эмне ADV ;
 жакшы ADV ;
@@ -7444,10 +7520,7 @@ LEXICON AdvStems
 бүтүндөй ADV ;
 кичине ADV ;
 апачык ADV ;
-күтүүсүздөн ADV ;			
-
-=======
-
+күтүүсүздөн ADV ;	
 алдында ADV ;  ! See bidix
 !барган% сайын ADV ; ! done with <ger> and POSTP
 !бери ADV ; ! FIXME: POSTPOS!
@@ -7458,8 +7531,11 @@ LEXICON AdvStems
 тышкары ADV ; ! See bidix
 чогу ADV ; ! See bidix
 
+<<<<<<< .mine
+=======
 
 
+>>>>>>> .r32265
 LEXICON VerbStems
 
 бар%<v%>%<exi%>:бар # ;
@@ -8110,6 +8186,67 @@ LEXICON VerbStems
 жардам% бер V-INFL-TV ; ! "help"
 оорун% бер V-INFL-TV ; ! ""
 
+таштап% кет V-INFL-IV ;
+ал V-INFL-IV ;
+кайтарып% бер V-INFL-TV ;
+добуш% ал V-INFL-IV ;
+өкүн V-INFL-IV ;
+кордо V-INFL-TV ;
+добуш% бер V-INFL-IV ;
+өкүлчүлүк% кыл V-INFL-TV ;
+зыян% келтир V-INFL-TV ;
+жетиш V-INFL-IV ;
+тарбияла V-INFL-TV ;
+тууралан V-INFL-IV ;
+оозун% бекит V-INFL-TV ;
+түзөл V-INFL-IV ;
+кыдыр V-INFL-IV ;
+маалыматтан V-INFL-IV ;
+чекте V-INFL-IV ;
+термелт V-INFL-TV ;
+планда V-INFL-IV ;
+тая V-INFL-TV ;
+таян V-INFL-TV ;
+сыйгалан V-INFL-TV ;
+жооп% бер V-INFL-IV ;
+майдала V-INFL-IV ;
+эм V-INFL-TV ;
+өлтүр V-INFL-IV ;
+жой V-INFL-IV ;
+жумша V-INFL-IV ;
+анализде V-INFL-IV ;
+буйрук% бер V-INFL-IV ;
+үн% сал V-INFL-IV ;
+тер V-INFL-TV ;
+есепте V-INFL-TV ;
+согуш V-INFL-IV ;
+туурала V-INFL-TV ;
+жогол V-INFL-IV ;
+салын V-INFL-IV ;
+төмөнсүнт V-INFL-IV ;
+пайдалан V-INFL-TV ;
+ачылыш% жаса V-INFL-IV ;
+көм V-INFL-TV ;
+кыс V-INFL-TV ;
+уюштур V-INFL-IV ;
+сахналаштыр V-INFL-IV ;
+күт V-INFL-TV ;
+кириш V-INFL-TV ;
+тартыш V-INFL-TV ;
+көрүктө V-INFL-TV ;
+чайна V-INFL-TV ;
+макулдаш V-INFL-IV ;
+арендага% ал V-INFL-IV ;
+чөк V-INFL-IV ;
+жүздөш V-INFL-IV ;
+курча V-INFL-IV ;
+көлөкөлө V-INFL-IV ;
+бузул V-INFL-TV ;
+кармап% тур V-INFL-TV ;
+кулатыл V-INFL-IV ;
+артка% жыл V-INFL-IV ;
+кагылыш V-INFL-IV ;
+сүртүш V-INFL-IV ;
 
 LEXICON Abbreviations
 

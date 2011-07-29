@@ -73,8 +73,13 @@
    <section id="main" type="standard">
         <!-- SECTION: Particles -->
 
+<<<<<<< .mine
+
+=======
+>>>>>>> .r32265
 	<e c="  0"><p><l>mi<s n="q"/></l><r>бы<s n="mod_qst"/></r></p></e>
         <!--<e><p><l><s n="q"/></l><r><s n="q"/></r></p></e>-->
+
 
 	<!-- SECTION: Interjections -->
     
@@ -101,6 +106,55 @@
 	
 	<e c="  0"><p><l>de<s n="cnjadv"/></l><r>да<s n="cnjcoo"/></r></p></e>
 	<e c="  0"><p><l>da<s n="cnjadv"/></l><r>да<s n="cnjcoo"/></r></p></e>
+           <e c="  0"><p><l>ya<s n="cnjadv"/></l><r>га<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>ta<s n="cnjadv"/></l><r>да<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>gibi<s n="cnjsub"/></l><r>сыяктуу<s n="cnjsub"/></r></p></e>
+   <e c="  0"><p><l>gerek<s n="cnjcoo"/></l><r>керек<s n="cnjcoo"/></r></p></e>
+   <e c="  0"><p><l>ila<s n="cnjcoo"/></l><r>арасы<s n="cnjcoo"/></r></p></e>
+   <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>эмеспи<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>ya<b/>da<s n="cnjadv"/></l><r>же<b/>болбосо<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>zira<s n="cnjadv"/></l><r>анткени<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>yani<s n="cnjadv"/></l><r>башкача<b/>айтканда<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>olsun<s n="cnjadv"/></l><r>мейли <s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>değer<s n="cnjcoo"/></l><r>татыктуу<s n="cnjcoo"/></r></p></e>
+   <e c="  0"><p><l>ne<b/>var<b/>ki<s n="cnjadv"/></l><r>бирок<b/>тилекке<b/>каршы<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>örneğin<s n="cnjadv"/></l><r>мисалы<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>diye<s n="cnjsub"/></l><r>деп<s n="cnjsub"/></r></p></e>
+   <e c="  0"><p><l>dolayısıyla<s n="cnjadv"/></l><r>ошондуктан<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>hatta<s n="cnjadv"/></l><r>ал<b/>эмес<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>dahası<s n="cnjadv"/></l><r>бул<b/>эле<b/>эмес<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>ister<s n="cnjadv"/></l><r>кааласа<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>demek<s n="cnjadv"/></l><r>демек<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>bunun<b/>üzerine<s n="cnjadv"/></l><r>анда<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>başka<b/>bir<b/>deyişle<s n="cnjadv"/></l><r>башкача<b/>айтканда<s n="cnjadv"/></r></p></e>
+     <e c="  0"><p><l>zaten<s n="cnjadv"/></l><r>тактап<b/>айтканда<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>aksine<s n="cnjadv"/></l><r>тескерисинче<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>yok<s n="cnjadv"/></l><r>жок<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>şayet<s n="cnjsub"/></l><r>кокус<s n="cnjsub"/></r></p></e>
+      <e c="  0"><p><l>neyse<s n="cnjadv"/></l><r>болуптур<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>hem<s n="cnjcoo"/></l><r>ал<b/>түгүл<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>üstelik<s n="cnjadv"/></l><r>ал<b/>турсун<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>peki<s n="cnjadv"/></l><r>анда<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>bundan<b/>dolayı<s n="cnjadv"/></l><r>ушундан<b/>улам<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>oysa<s n="cnjadv"/></l><r>болсо<b/>да<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>ne<b/>de<b/>olsa<s n="cnjadv"/></l><r>кандай<b/>болсо<b/>да<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>ha<s n="cnjcoo"/></l><r>кана<b/>эмесе<s n="cnjcoo"/></r></p></e>
+      <e c="  0"><p><l>ancak<s n="cnjcoo"/></l><r>ошентсе<b/>да<s n="cnjcoo"/></r></p></e>
+      <e c="  0"><p><l>ne<s n="cnjcoo"/></l><r>эмне<s n="cnjcoo"/></r></p></e>
+      <e c="  0"><p><l>keza<s n="cnjadv"/></l><r>ошондой<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>daha<b/>doğrusu<s n="cnjadv"/></l><r>туурасы<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>belki<s n="cnjadv"/></l><r>балким<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>adeta<s n="cnjadv"/></l><r>так<b/>эле<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>yok<b/>mu<s n="cnjadv"/></l><r>бар<b/>го<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>ta<s n="cnjadv"/></l><r>тээ<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>oysa<b/>ki<s n="cnjadv"/></l><r>а<b/>бирок<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>nitekim<s n="cnjadv"/></l><r>чынында<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>mesela<s n="cnjadv"/></l><r>маселен<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>kısacası<s n="cnjadv"/></l><r>кыскача<b/>айтканда<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>işte<s n="cnjadv"/></l><r>мына<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>hiç<b/>olmazsa<s n="cnjadv"/></l><r>эч<b/>болбосо<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>hani<s n="cnjadv"/></l><r>жок<b/>дегенде<s n="cnjadv"/></r></p></e>
+      <e c="  0"><p><l>halbuki<s n="cnjadv"/></l><r>чынында<s n="cnjadv"/></r></p></e>
     
 	<!-- SECTION: Determinatives -->
 	<e c="  0"><p><l>bu<s n="det"/></l><r>бул<s n="det"/><s n="dem"/></r></p></e>
@@ -143,6 +197,30 @@
 	<e c="  0"><p><l>için<s n="postp"/></l><r>үчүн<s n="post"/></r></p></e>
 	<e c="  0"><p><l>bile<s n="postp"/></l><r>дагы<s n="post"/></r></p></e>
 	<e c="  0"><p><l>bu<b/>yana<s n="postp"/></l><r>ушуга<b/>чейин<s n="post"/></r></p></e>
+           <e c="  0"><p><l>göre<s n="postp"/></l><r>жараша<s n="post"/></r></p></e>
+   <e c="  0"><p><l>ilgili<s n="postp"/></l><r>байланыштуу<s n="post"/></r></p></e>
+   <e c="  0"><p><l>üzere<s n="postp"/></l><r>үчүн<s n="post"/></r></p></e>
+   <e c="  0"><p><l>karşı<s n="postp"/></l><r>каршы<s n="post"/></r></p></e>
+   <e c="  0"><p><l>rağmen<s n="postp"/></l><r>карабастан<s n="post"/></r></p></e>
+   <e c="  0"><p><l>birlikte<s n="postp"/></l><r>менен<b/>бирге<s n="post"/></r></p></e>
+   <e c="  0"><p><l>ötürü<s n="postp"/></l><r>улам<s n="post"/></r></p></e>
+   <e c="  0"><p><l>dair<s n="postp"/></l><r>тууралуу<s n="post"/></r></p></e>
+   <e c="  0"><p><l>halinde<s n="postp"/></l><r>боло<b/>турган<b/>болсо<s n="post"/></r></p></e>
+   <e c="  0"><p><l>üzerine<s n="postp"/></l><r>тиешелүү<s n="post"/></r></p></e>
+   <e c="  0"><p><l>gibi<s n="postp"/></l><r>сыңары<s n="post"/></r></p></e>
+   <e c="  0"><p><l>yakında<s n="postp"/></l><r>жакында<s n="post"/></r></p></e>
+   <e c="  0"><p><l>beri<s n="postp"/></l><r>бери<s n="post"/></r></p></e>
+   <e c="  0"><p><l>doğru<s n="postp"/></l><r>карай<s n="post"/></r></p></e>
+   <e c="  0"><p><l>itibaren<s n="postp"/></l><r> тартып<s n="post"/></r></p></e>
+   <e c="  0"><p><l>dolayı<s n="postp"/></l><r>улам<s n="post"/></r></p></e>
+   <e c="  0"><p><l>yana<s n="postp"/></l><r>учурга<b/>чейин<s n="post"/></r></p></e>
+   <e c="  0"><p><l>başka<s n="postp"/></l><r>башка<s n="post"/></r></p></e>
+   <e c="  0"><p><l>anki<s n="postp"/></l><r>убактагы<s n="post"/></r></p></e>
+   <e c="  0"><p><l>ilgiliydi<s n="postp"/></l><r>байланыштуу<b/>болчу<s n="post"/></r></p></e>
+   <e c="  0"><p><l>süresince<s n="postp"/></l><r>боюнча<s n="post"/></r></p></e>
+   <e c="  0"><p><l>yukarı<s n="postp"/></l><r>өйдө<s n="post"/></r></p></e>
+   <e c="  0"><p><l>ile<s n="postp"/></l><r>менен<s n="post"/></r></p></e>
+   <e c="  0"><p><l>ait<s n="postp"/></l><r>караштуу<s n="post"/></r></p></e>
 
 	<!-- SECTION: Pronouns -->
 
@@ -6139,6 +6217,69 @@
 	<e c="  0"><p><l>ak<s n="v"/></l><r>ак<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>dile<s n="v"/></l><r>тиле<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>algıla<s n="v"/></l><r>таанып<b/>бил<s n="v"/><s n="iv"/></r></p></e>
+ 
+ <!--TODO should be checked for iv-tv -->
+    <e c="  0"><p><l>terk<b/>et<s n="v"/></l><r>таштап<b/>кет<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>edin<s n="v"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>iade<b/>et<s n="v"/></l><r>кайтарып<b/>бер<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>oy<b/>al<s n="v"/></l><r>добуш<b/>ал<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>yerin<s n="v"/></l><r>өкүн<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>kara<s n="v"/></l><r>кордо<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>oy<b/>ver<s n="v"/></l><r>добуш<b/>бер<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>temsil<b/>et<s n="v"/></l><r>өкүлчүлүк<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>zedele<s n="v"/></l><r>зыян<b/>келтир<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>yetiş<s n="v"/></l><r>жетиш<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>eğit<s n="v"/></l><r>тарбияла<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>doğrul<s n="v"/></l><r>тууралан<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>tıka<s n="v"/></l><r>оозун<b/>бекит<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>düzel<s n="v"/></l><r>түзөл<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>dolaş<s n="v"/></l><r>кыдыр<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>bilgilen<s n="v"/></l><r>маалыматтан<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>sınırla<s n="v"/></l><r>чекте<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>salla<s n="v"/></l><r>термелт<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>tasarla<s n="v"/></l><r>планда<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>daya<s n="v"/></l><r>тая<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>dayan<s n="v"/></l><r>таян<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>kay<s n="v"/></l><r>сыйгалан<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>yanıtla<s n="v"/></l><r>жооп<b/>бер<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>parçala<s n="v"/></l><r>майдала<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>em<s n="v"/></l><r>эм<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>katlet<s n="v"/></l><r>өлтүр<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>lağvet<s n="v"/></l><r>жой<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>yumuşa<s n="v"/></l><r>жумша<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>çözümle<s n="v"/></l><r>анализде<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>emret<s n="v"/></l><r>буйрук<b/>бер<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>sesle<s n="v"/></l><r>үн<b/>сал<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>der<s n="v"/></l><r>тер<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>hesapla<s n="v"/></l><r>есепте<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>savaş<s n="v"/></l><r>согуш<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>ayarla<s n="v"/></l><r>туурала<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>yit<s n="v"/></l><r>жогол<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>sokul<s n="v"/></l><r>салын<s n="v"/><s n="iv"/></r></p></e> 
+    <e c="  0"><p><l>küçümse<s n="v"/></l><r>төмөнсүнт<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>faydalan<s n="v"/></l><r>пайдалан<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>keşfet<s n="v"/></l><r>ачылыш<b/>жаса<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>göm<s n="v"/></l><r>көм<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>sık<s n="v"/></l><r>кыс<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>örgütle<s n="v"/></l><r>уюштур<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>sahnele<s n="v"/></l><r>сахналаштыр<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>güt<s n="v"/></l><r>күт<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>giriş<s n="v"/></l><r>кириш<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>çekiş<s n="v"/></l><r>тартыш<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>körükle<s n="v"/></l><r>көрүктө<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>çiğne<s n="v"/></l><r>чайна<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>sözleş<s n="v"/></l><r>макулдаш<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>kirala<s n="v"/></l><r>арендага<b/>ал<s n="v"/><s n="iv"/></r></p></e> 
+    <e c="  0"><p><l>bat<s n="v"/></l><r>чөк<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>yüzleş<s n="v"/></l><r>жүздөш<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>kuşat<s n="v"/></l><r>курча<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>gölgele<s n="v"/></l><r>көлөкөлө<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>aksa<s n="v"/></l><r>бузул<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>alıkoy<s n="v"/></l><r>кармап<b/>тур<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>devril<s n="v"/></l><r>кулатыл<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>gerile<s n="v"/></l><r>артка<b/>жыл<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>çatış<s n="v"/></l><r>кагылыш<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>sürtüş<s n="v"/></l><r>сүртүш<s n="v"/><s n="iv"/></r></p></e>
       <!-- SECTION: Punctuation -->
 
         <e><p><l>,<s n="pnct"/></l><r>,<s n="cm"/></r></p></e>
