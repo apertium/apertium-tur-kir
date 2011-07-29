@@ -335,6 +335,7 @@ LEXICON POST
 LEXICON POST-DECL
 
 %<post%>: POSSESSION ; 
+%<post%>: # ; 
 
 LEXICON CA
 
@@ -664,7 +665,7 @@ LEXICON V-INFL-COMMON-SECOND
 !%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;         ! 
 %<neg%>%<fut%>:%>%{B%}%{A%}%>%с V-PERS-COP ;              !
 %<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}с V-PERS-COP ;         ! Dir/LR
-%<neg%>%<ifi%>:%>%{G%}%{A%}%н% жок V-PERS-COP ;         ! 
+%<neg%>%<ifi%>:%>%{G%}%{A%}н% жок V-PERS-COP ;         !
 %<neg%>%<aor%>:%>%{B%}%{A%}%>%{E%} V-PERS-PRES ;              !
 %<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! 
 %<neg%>%<past%>:%>%{B%}%{A%}%>%{G%}%{A%}н V-PERS-COP ;        ! 
@@ -1002,6 +1003,7 @@ XIX NUM-ROMAN ; ! ""
 LEXICON NounStems
 сырт N-INFL ;
 факт N-INFL ;
+үстү N-INFL ;
 кубанычтуу N-INFL ;
 билимдүү N-INFL ;
 абаачылык N-INFL ; 
@@ -6518,7 +6520,6 @@ LEXICON AdjecStems
 граждандык ADJ ;
 көз% карандысыз ADJ ;
 орто ADJ ; 
-жат ADJ ; 
 кийинки ADJ ; 
 качкын ADJ ; 
 контрабанда ADJ ; 
@@ -8065,7 +8066,6 @@ LEXICON VerbStems
 жаңыла V-INFL-TV ;
 тазала V-INFL-TV ;
 баш% тарт V-INFL-TV ;
-жат V-INFL-IV ;
 мээле V-INFL-IV ;
 кош V-INFL-TV ;
 аралаштыр V-INFL-TV ;
@@ -8178,6 +8178,7 @@ LEXICON VerbStems
 жардам% бер V-INFL-IV ; ! "help"
 жардам% бер V-INFL-TV ; ! "help"
 оорун% бер V-INFL-TV ; ! ""
+жазыл V-INFL-TV ; ! ""
 
 таштап% кет V-INFL-IV ;
 ал V-INFL-IV ;

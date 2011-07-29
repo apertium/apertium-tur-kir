@@ -5712,7 +5712,7 @@
 		
 	<e c="  0"><p><l>sev<s n="v"/></l><r>сүй<s n="v"/><s n="tv"/></r></p></e>
 	<!-- From apertium tr-az-->
-	<e c="  0"><p><l>savun<s n="v"/></l><r>корго<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>savun<s n="v"/></l><r>корго<s n="v"/><s n="tv"/></r></p></e>
         <e c="  0"><p><l>iç<s n="v"/></l><r>ич<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>al<s n="v"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>ver<s n="v"/></l><r>бер<s n="v"/><s n="tv"/></r></p></e>
