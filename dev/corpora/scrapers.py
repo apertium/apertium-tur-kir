@@ -12,8 +12,8 @@ class Scraper(object):
 		self.aid = self.url_to_aid(url)
 
 	def get_content(self):
-		content = request.urlopen(self.url).read().decode('utf-8')
-		self.doc = lxml.html.fromstring(content)
+		self.content = request.urlopen(self.url).read().decode('utf-8')
+		self.doc = lxml.html.fromstring(self.content)
 
 
 
@@ -64,10 +64,18 @@ class ScraperAzattyk(Scraper):
 class ScraperTRT(Scraper):
 	domain = "www.trtkyrgyz.com"
 	prefix = "trt"
+	rePagecode = re.compile("haberkodu=([0-9a-f\-]*)(.html)?")
 
 	def scraped(self):
 		self.get_content()
-		print(self.url)
+		cleaned = lxml.html.document_fromstring(lxml.html.clean.clean_html(self.content))
+		output = ""
+		for el in cleaned.findall(".//p"):
+			output += el.text
+			#print(el.text)
+		return output
+
+		#print(self.url)
 	
 	def url_to_aid(self, url):
-		return url
+		return self.rePagecode.search(url).groups()[0]
