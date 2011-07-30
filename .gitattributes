@@ -24,6 +24,7 @@ dev/bilingual-summary.txt -text
 dev/corpora/kyscraper_book.dat -text
 dev/corpora/kyscraper_rss.dat -text
 dev/corpora/kyscraper_rss1.dat -text
+dev/corpora/rssfucker.py -text
 dev/corpora/scraper.py -text
 dev/corpora/scraper_classes.py -text
 dev/corpora/scraper_parsers.py -text
