@@ -80,7 +80,7 @@
 
 	<!-- SECTION: Interjections -->
     
-        <e c="  0"><p><l>tabii<b/>ki<s n="ij"/></l><r>албетте<s n="ij"/></r></p></e>
+        <e c="  0"><p><l>tabi<b/>ki<s n="ij"/></l><r>ананчы<s n="ij"/></r></p></e>
 	<e c="  0"><p><l>şöyle<s n="ij"/></l><r>ушундай<s n="ij"/></r></p></e>
 	
 	 <!-- SECTION: Miscellaneous -->
@@ -108,7 +108,7 @@
    <e c="  0"><p><l>gibi<s n="cnjsub"/></l><r>сыяктуу<s n="cnjsub"/></r></p></e>
    <e c="  0"><p><l>gerek<s n="cnjcoo"/></l><r>керек<s n="cnjcoo"/></r></p></e>
    <e c="  0"><p><l>ila<s n="cnjcoo"/></l><r>арасы<s n="cnjcoo"/></r></p></e>
-   <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>эмеспи<s n="cnjadv"/></r></p></e>
+   <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>дейсиң<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>ya<b/>da<s n="cnjadv"/></l><r>же<b/>болбосо<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>zira<s n="cnjadv"/></l><r>анткени<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>yani<s n="cnjadv"/></l><r>башкача<b/>айтканда<s n="cnjadv"/></r></p></e>
@@ -182,14 +182,14 @@
     <e c="  0"><p><l>diğer<s n="det"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>birkaç<b/>tane<s n="det"/></l><r>бир<b/>канча<b/>даана<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>öteki<s n="det"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
-     
+    <e c="  0"><p><l>şu<s n="det"/></l><r>ушу<s n="det"/><s n="dem"/></r></p></e>
 <!-- TODO: Check -->
 
         <!-- SECTION: Postpositions -->
 	<e c="  0"><p><l>aşağı<s n="postp"/></l><r>ылдый<s n="post"/></r></p></e>
         <e c="  0"><p><l>boyunca<s n="postp"/></l><r>боюнча<s n="post"/></r></p></e>
 	<e c="  0"><p><l>değin<s n="postp"/></l><r>чейин<s n="post"/></r></p></e>
-	<e c="  0"><p><l>kadar<s n="postp"/></l><r>чейин<s n="post"/></r></p></e>
+	<e c="  0"><p><l>kadar<s n="postp"/></l><r>сыяктуу<s n="post"/></r></p></e>
 	<e c="  0"><p><l>karşın<s n="postp"/></l><r>карабай<s n="post"/></r></p></e>
 	<e c="  0"><p><l>için<s n="postp"/></l><r>үчүн<s n="post"/></r></p></e>
 	<e c="  0"><p><l>bile<s n="postp"/></l><r>дагы<s n="post"/></r></p></e>
@@ -231,7 +231,11 @@
 	<e c="  0"><p><l>bu<s n="prn"/></l><r>бул<s n="prn"/><s n="dem"/><s n="ND"/></r></p></e>
 	<e c="  0"><p><l>kendi<s n="prn"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
 
-        <e c="  0"><p><l>birbir<s n="n"/></l><r>бири-бир<s n="n"/></r></p></e> <!-- should be prn.recip -->
+        <e c="  0"><p><l>birbir<s n="n"/></l><r>бири-бир<s n="n"/></r></p></e> 
+        <e c="  0"><p><l>şu<s n="prn"/></l><r>ушул<s n="prn"/><s n="dem"/></r></p></e>
+        <e c="  0"><p><l>kim<s n="prn"/></l><r>ким<s n="prn"/></r></p></e>
+
+<!-- should be prn.recip -->
 	
         <!-- SECTION: Determiners -->
 
@@ -4434,6 +4438,14 @@
     <e c="  0"><p><l>alp<s n="n"/></l><r>альп<s n="n"/></r></p></e>
     <e c="  0"><p><l>albüm<s n="n"/></l><r>альбом<s n="n"/></r></p></e>
     <e c="  0"><p><l>akciğer<s n="n"/></l><r>өпкө<s n="n"/></r></p></e>
+    <e c="  0"><p><l>pencere<s n="n"/></l><r>терезе<s n="n"/></r></p></e>
+    <e c="  0"><p><l>dudak<s n="n"/></l><r>эрин<s n="n"/></r></p></e>
+    <e c="  0"><p><l>saç<s n="n"/></l><r>чач<s n="n"/></r></p></e>
+    <e c="  0"><p><l>pervaz<s n="n"/></l><r>алкак<s n="n"/></r></p></e>
+    <e c="  0"><p><l>yazık<s n="n"/></l><r>убал<s n="n"/></r></p></e>
+    <e c="  0"><p><l>kanı<s n="n"/></l><r>канагат<s n="n"/></r></p></e>
+
+
         <!-- SECTION: Proper nouns -->
         <e><p><l>Abhazya<s n="np"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Afganistan<s n="np"/></l><r>Афганистан<s n="np"/><s n="top"/></r></p></e> 
@@ -4532,63 +4544,63 @@
 	<e><p><l>Sırb<s n="np"/></l><r>Серп<s n="np"/><s n="top"/></r></p></e>
 	<e><p><l>Sırbistan<s n="np"/></l><r>Сербия<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Türkiye<s n="np"/></l><r>Туркия<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Sırp<s n="np"/></l><r>Серп<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Makedonya<s n="np"/></l><r>Македония<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Arnavutluk<s n="np"/></l><r>Албан<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Romanya<s n="np"/></l><r>Руминя<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Bosna<s n="np"/></l><r>Босня<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Yunanistan<s n="np"/></l><r>Греция<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>AB<s n="np"/></l><r>ЕБ<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Türk<s n="np"/></l><r>Түрк<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Hırvat<s n="np"/></l><r>Харват<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Bulgar<s n="np"/></l><r>Балгар<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Makedon<s n="np"/></l><r>Македониалык<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Bosnalı<s n="np"/></l><r>Босниялык<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Lahey<s n="np"/></l><r>Лахей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-  <e><p><l>SARAYBOSNA<s n="np"/></l><r>Сарайбосня<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Üsküp<s n="np"/></l><r>Үскүп<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Atina<s n="np"/></l><r>Атина<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Saraybosna<s n="np"/></l><r>Босня<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Rusya<s n="np"/></l><r>Орусия<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Zagreb<s n="np"/></l><r>Загреб<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Sofya<s n="np"/></l><r>София<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Anadolu<s n="np"/></l><r>Анадолу<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Almanya<s n="np"/></l><r>Германия<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Slovenya<s n="np"/></l><r>Словения<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Rum<s n="np"/></l><r>Рум<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Balkanlar<s n="np"/></l><r>Балкандар<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Rumen<s n="np"/></l><r>Румын<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Romen<s n="np"/></l><r>Римдик<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Yugoslavya<s n="np"/></l><r>Югославия<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>İstanbul<s n="np"/></l><r>Истанбул<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>İtalya<s n="np"/></l><r>Италия<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>İngiltere<s n="np"/></l><r>Англия<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Washington<s n="np"/></l><r>Вашингтон<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>IMF<s n="np"/></l><r>ИМФ<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Nisan<s n="np"/></l><r>Апрель<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Aralık<s n="np"/></l><r>Декабрь<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Ocak<s n="np"/></l><r>Январь<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Atlantik<s n="np"/></l><r>Атлантика<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Polonya<s n="np"/></l><r>Польша<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Çin<s n="np"/></l><r>Кытай<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Kürt<s n="np"/></l><r>Күрт<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>İngiliz<s n="np"/></l><r>Англис<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Yugoslav<s n="np"/></l><r>Югослав<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Adriyatik<s n="np"/></l><r>Адриятика<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Kürdistan<s n="np"/></l><r>Курдистан<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Fransız<s n="np"/></l><r>Франция<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Viyana<s n="np"/></l><r>Виена<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Macaristan<s n="np"/></l><r>Венгрия<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Moskova<s n="np"/></l><r>Москва<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>İspanya<s n="np"/></l><r>Испания<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Ukrayna<s n="np"/></l><r>Украина<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>İsveç<s n="np"/></l><r>Швеция<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>İslam<s n="np"/></l><r>Ислам<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Arnavut<s n="np"/></l><r>Албан<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>İsrail<s n="np"/></l><r>Исраил<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>İran<s n="np"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>Mostar<s n="np"/></l><r>Мостар<s n="np"/><s n="top"/></r></p></e>
-  <e><p><l>İsviçre<s n="np"/></l><r>Швецария<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Sırp<s n="np"/></l><r>Серп<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Makedonya<s n="np"/></l><r>Македония<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Arnavutluk<s n="np"/></l><r>Албан<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Romanya<s n="np"/></l><r>Руминя<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Bosna<s n="np"/></l><r>Босня<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Yunanistan<s n="np"/></l><r>Греция<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>AB<s n="np"/></l><r>ЕБ<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Türk<s n="np"/></l><r>Түрк<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Hırvat<s n="np"/></l><r>Харват<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Bulgar<s n="np"/></l><r>Балгар<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Makedon<s n="np"/></l><r>Македониалык<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Bosnalı<s n="np"/></l><r>Босниялык<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Lahey<s n="np"/></l><r>Лахей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+	  <e><p><l>SARAYBOSNA<s n="np"/></l><r>Сарайбосня<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Üsküp<s n="np"/></l><r>Үскүп<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Atina<s n="np"/></l><r>Атина<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Saraybosna<s n="np"/></l><r>Босня<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Rusya<s n="np"/></l><r>Орусия<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Zagreb<s n="np"/></l><r>Загреб<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Sofya<s n="np"/></l><r>София<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Anadolu<s n="np"/></l><r>Анадолу<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Almanya<s n="np"/></l><r>Германия<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Slovenya<s n="np"/></l><r>Словения<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Rum<s n="np"/></l><r>Рум<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Balkanlar<s n="np"/></l><r>Балкандар<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Rumen<s n="np"/></l><r>Румын<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Romen<s n="np"/></l><r>Римдик<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Yugoslavya<s n="np"/></l><r>Югославия<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>İstanbul<s n="np"/></l><r>Истанбул<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>İtalya<s n="np"/></l><r>Италия<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>İngiltere<s n="np"/></l><r>Англия<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Washington<s n="np"/></l><r>Вашингтон<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>IMF<s n="np"/></l><r>ИМФ<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Nisan<s n="np"/></l><r>Апрель<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Aralık<s n="np"/></l><r>Декабрь<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Ocak<s n="np"/></l><r>Январь<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Atlantik<s n="np"/></l><r>Атлантика<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Polonya<s n="np"/></l><r>Польша<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Çin<s n="np"/></l><r>Кытай<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Kürt<s n="np"/></l><r>Күрт<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>İngiliz<s n="np"/></l><r>Англис<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Yugoslav<s n="np"/></l><r>Югослав<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Adriyatik<s n="np"/></l><r>Адриятика<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Kürdistan<s n="np"/></l><r>Курдистан<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Fransız<s n="np"/></l><r>Франция<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Viyana<s n="np"/></l><r>Виена<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Macaristan<s n="np"/></l><r>Венгрия<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Moskova<s n="np"/></l><r>Москва<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>İspanya<s n="np"/></l><r>Испания<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Ukrayna<s n="np"/></l><r>Украина<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>İsveç<s n="np"/></l><r>Швеция<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>İslam<s n="np"/></l><r>Ислам<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Arnavut<s n="np"/></l><r>Албан<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>İsrail<s n="np"/></l><r>Исраил<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>İran<s n="np"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Mostar<s n="np"/></l><r>Мостар<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>İsviçre<s n="np"/></l><r>Швецария<s n="np"/><s n="top"/></r></p></e>
         <e><p><l>Ahmet<s n="np"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
         <e><p><l>Nikola<s n="np"/></l><r>Никола<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
         <e><p><l>Nemanja<s n="np"/></l><r>Неманя<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -5639,6 +5651,7 @@
    <e c="  0"><p><l>birazcık<s n="adv"/></l><r>кичине<s n="adv"/></r></p></e>
    <e c="  0"><p><l>besbelli<s n="adv"/></l><r>апачык<s n="adv"/></r></p></e>
    <e c="  0"><p><l>ansızın<s n="adv"/></l><r>күтүүсүздөн<s n="adv"/></r></p></e>
+   <e c="  0"><p><l>keşke<s n="adv"/></l><r>аттиң<s n="adv"/></r></p></e>
         <!-- SECTION: Verbs -->
 
 	<e c="  0"><p><l>var<s n="exist"/></l><r>бар<s n="v"/><s n="exi"/></r></p></e>
@@ -5856,7 +5869,7 @@
 	<e c="  0"><p><l>sıvazla<s n="v"/></l><r>ушала<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>sız<s n="v"/></l><r>сыз<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>sik<s n="v"/></l><r>сик<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>sil<s n="v"/></l><r>өчүр<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>sil<s n="v"/></l><r>сүрт<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>sin<s n="v"/></l><r>сиң<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>sön<s n="v"/></l><r>өч<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>suçla<s n="v"/></l><r>күнөөлө<s n="v"/><s n="tv"/></r></p></e>
@@ -6268,6 +6281,7 @@
     <e c="  0"><p><l>sözleş<s n="v"/></l><r>макулдаш<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>kirala<s n="v"/></l><r>арендага<b/>ал<s n="v"/><s n="iv"/></r></p></e> 
     <e c="  0"><p><l>bat<s n="v"/></l><r>чөк<s n="v"/><s n="iv"/></r></p></e>
+    <e slr="1"><p><l>bat<s n="v"/></l><r>сайыл<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>yüzleş<s n="v"/></l><r>жүздөш<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>kuşat<s n="v"/></l><r>курча<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>gölgele<s n="v"/></l><r>көлөкөлө<s n="v"/><s n="iv"/></r></p></e>
@@ -6277,6 +6291,7 @@
     <e c="  0"><p><l>gerile<s n="v"/></l><r>артка<b/>жыл<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>çatış<s n="v"/></l><r>кагылыш<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>sürtüş<s n="v"/></l><r>сүртүш<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>evlen<s n="v"/></l><r>үйлөн<s n="v"/><s n="iv"/></r></p></e>
       <!-- SECTION: Punctuation -->
 
         <e><p><l>,<s n="pnct"/></l><r>,<s n="cm"/></r></p></e>
