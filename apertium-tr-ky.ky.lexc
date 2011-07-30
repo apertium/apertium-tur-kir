@@ -818,6 +818,7 @@ LEXICON Conjunctions
 эч% болбосо CA ;
 жок% дегенде CA ;
 чынында CA ;
+дейсиң CA ;
 
 LEXICON Postpositions
 
@@ -871,6 +872,7 @@ LEXICON Postpositions
 өйдө POST ;
 менен POST ;
 караштуу POST ;
+сыяктуу POST ;
 
 LEXICON Determiners
 
@@ -940,6 +942,7 @@ LEXICON Pronouns
 ким PRON-ITG ; ! "who?"
 
 өз PRON-REFL ; ! "own/self"
+ушул PRON-DEM ;
 
 айрым PRON-IND ; ! "other"
 баары PRON-IND ; ! "everyone"
@@ -3405,6 +3408,7 @@ LEXICON NounStems
 бел N-INFL ; 
 боштондук N-INFL ; 
 чач% тарач N-INFL ; 
+чач N-INFL ;
 пендечилик N-INFL ; 
 бешик N-INFL ; 
 тоют N-INFL ; 
@@ -5828,6 +5832,9 @@ kanal N-INFL ;
 альп N-INFL ;
 альбом N-INFL ;
 өпкө N-INFL ;
+терезе N-INFL ;
+убал N-INFL ;
+канагат N-INFL ;
 
 LEXICON PropernounStems
 Алматы NP-TOP ;
@@ -7528,6 +7535,7 @@ LEXICON AdvStems
 соңунда ADV ; ! compositional (See bidix)
 тышкары ADV ; ! See bidix
 чогу ADV ; ! See bidix
+аттиң ADV ;
 
 
 LEXICON VerbStems
@@ -7839,6 +7847,7 @@ LEXICON VerbStems
 өрттө V-INFL-TV ; 
 өч V-INFL-IV-NO-CAUS ; ! "turn off"
 өч:өчүр V-INFL-IV-IRREG-CAUS ; ! "make turn off"
+сүр V-INFL-TV ;
 сиңир V-INFL-TV ;
 уч V-INFL-IV ;
 өп V-INFL-TV ; ! "to kiss"
@@ -8241,6 +8250,8 @@ LEXICON VerbStems
 артка% жыл V-INFL-IV ;
 кагылыш V-INFL-IV ;
 сүртүш V-INFL-IV ;
+үйлөн V-INFL-IV ;
+сайыл V-INFL-IV ;
 
 LEXICON Abbreviations
 
@@ -8262,6 +8273,7 @@ LEXICON Interjections
 мына INTERJ ; ! "here is, вот"
 ооба INTERJ ; ! "yes"
 жок INTERJ ; ! "no"
+ананчы INTERJ ; ! "of course"
 
 LEXICON Punctuation
 
