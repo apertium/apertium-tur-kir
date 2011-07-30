@@ -262,6 +262,16 @@
 	<e c="  0"><p><l>bin<s n="num"/></l><r>миң<s n="num"/></r></p></e>
 	<e c="  0"><p><l>milyon<s n="num"/></l><r>миллион<s n="num"/></r></p></e>
 	<e c="  0"><p><l>milyar<s n="num"/></l><r>миллиард<s n="num"/></r></p></e>
+        <e c="  0"><p><l>sıfır<s n="num"/></l><r>ноль<s n="num"/></r></p></e>
+      <e c="  0"><p><l>oniki<s n="num"/></l><r>он<b/>эки<s n="num"/></r></p></e>
+      <e c="  0"><p><l>onbir<s n="num"/></l><r>он<b/>бир<s n="num"/></r></p></e>
+       <e c="  0"><p><l>trilyon<s n="num"/></l><r>триллион<s n="num"/></r></p></e>
+       <e c="  0"><p><l>ondokuz<s n="num"/></l><r>онтогуз<s n="num"/></r></p></e>
+       <e c="  0"><p><l>yirmibeş<s n="num"/></l><r>жыйырма<b/>беш<s n="num"/></r></p></e>
+       <e c="  0"><p><l>onsekiz<s n="num"/></l><r>он<b/>сегиз<s n="num"/></r></p></e>
+       <e c="  0"><p><l>onbeş<s n="num"/></l><r>он<b/>беш<s n="num"/></r></p></e>
+       <e c="  0"><p><l>onaltı<s n="num"/></l><r>он<b/>алты<s n="num"/></r></p></e>
+       <e c="  0"><p><l>birbuçuk<s n="num"/></l><r>бир<b/>жарым<s n="num"/></r></p></e>
         
 
 <!-- SECTION: Nouns -->
