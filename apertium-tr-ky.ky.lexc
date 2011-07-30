@@ -977,6 +977,17 @@ LEXICON Numerals
 миң NUM ; ! "one thousand"
 миллион NUM ; ! "one million"
 миллиард NUM ; ! "one billion"
+ноль NUM ;
+он% эки NUM ;
+он% бир NUM ;
+триллион NUM ;
+онтогуз NUM ;
+жыйырма% беш NUM ;
+он% сегиз NUM ;
+он% беш NUM ;
+он% алты NUM ;
+бир% жарым NUM ;
+
 
 
 I NUM-ROMAN ; ! ""
