@@ -71,7 +71,9 @@ class ScraperTRT(Scraper):
 		cleaned = lxml.html.document_fromstring(lxml.html.clean.clean_html(self.content))
 		output = ""
 		for el in cleaned.findall(".//p"):
-			output += el.text
+			#for subel in el.getiterator():
+			#	output += subel.text
+			output += el.text_content()
 			#print(el.text)
 		return output
 
@@ -86,10 +88,15 @@ class ScraperBBC(Scraper):
 	
 	def scraped(self):
 		self.get_content()
-		cleaned = lxml.html.document_fromstring(lxml.html.clean.clean_html(self.content))
-		output = ""
-		return output
-	
+		el = None
+		for el in self.doc.find_class('bodytext'):
+			pass
+		if el != None:
+			cleaned = lxml.html.document_fromstring(lxml.html.clean.clean_html(lxml.html.tostring(el).decode('utf-8')))
+			return cleaned.text_content()
+		else:
+			return False
+
 	def url_to_aid(self, url):
 		return sha1(url.encode('utf-8')).hexdigest()
 
@@ -100,10 +107,14 @@ class ScraperAlaman(Scraper):
 	
 	def scraped(self):
 		self.get_content()
+		el = None
 		for el in self.doc.find_class('viewnew'):
 			pass
-		cleaned = lxml.html.document_fromstring(lxml.html.clean.clean_html(lxml.html.tostring(el).decode('utf-8')))
-		return cleaned.text_content()
+		if el != None:
+			cleaned = lxml.html.document_fromstring(lxml.html.clean.clean_html(lxml.html.tostring(el).decode('utf-8')))
+			return cleaned.text_content()
+		else:
+			return False
 
 	def url_to_aid(self, url):
 		return self.reArticleNum.search(url).groups()[0]
