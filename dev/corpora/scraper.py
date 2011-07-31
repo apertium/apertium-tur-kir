@@ -26,9 +26,9 @@ if args.feedlist != None:
 		print ('+' , url);
 		if bool(int(args.read_as_rss)):
 			feed = Feed(url)
-			print(feed.feed)
+			#print(feed.feed)
 			for source in feed.get_sources():
-				print(source)
+				#print(source)
 				source.add_to_archive(args.outdir)
 		else:
 			page = SimpleHtmlScraper("history", url, args.outdir)

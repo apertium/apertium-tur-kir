@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 
-import re, feedparser, urllib, os
+import re, urllib, os #feedparser, 
 from bottle import template
 from hashlib import sha1
 #from html_parser import MyHTMLParser
 #from scraper_parsers import *
 from scrapers import *
+import rssfucker
 
 
 class Feed(object):
@@ -26,17 +27,24 @@ class Feed(object):
 
 	def __init__(self, url):
 		self.which_scraper = self.get_scraper(url)
-		self.feed = feedparser.parse(url)
+		#self.feed = feedparser.parse(url)
+		self.feed = rssfucker.parse_rss(url)
 		#print(self.feed)
 		
 	def get_sources(self):
-		for item in self.feed["entries"]:
-			for link in item["links"]:
-				title = item["title"]
-				print('++' , title);
-				print('++' , item["link"]);
-				thisScraper = self.which_scraper
-				yield Source(item["link"], scraper=thisScraper, title=title)
+		#for item in self.feed["entries"]:
+		for title, link in self.feed.items():
+			#for link in item["links"]:
+			#	title = item["title"]
+			#	print('++' , title);
+			#	print('++' , item["link"]);
+			#	thisScraper = self.which_scraper
+			#	yield Source(item["link"], scraper=thisScraper, title=title)
+			print('++' , title);
+			print('++' , link);
+			thisScraper = self.which_scraper
+			yield Source(link, scraper=thisScraper, title=title)
+
 	
 	def get_scraper(self, url):
 		domain = self.domain_name.match(url).group(1)
