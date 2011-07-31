@@ -18,7 +18,7 @@ for fn in files:
 	x = False
 	for line in f:
 		if line.strip() == '<div class="content">':
-			x = False
+			x = True
 		elif x == True:
 			if line.strip() == "</div>":
 				break
