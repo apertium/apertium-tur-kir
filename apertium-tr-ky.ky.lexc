@@ -302,7 +302,7 @@ LEXICON ADJ-COMMON
 LEXICON ADJ-DAGI
 
 ! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of CASES
-%<n%> CASES ;
+%<n%>: CASES ;
 %<adj%>%<pst%>: ;
 
 LEXICON V-ADJ
@@ -513,6 +513,11 @@ LEXICON PRON-REFL
 LEXICON PRON-IND
 
 %<prn%>%<ind%>: CASES ;
+
+LEXICON PRON-DEM
+
+%<prn%>%<dem%>: CASES ;
+
 
 LEXICON PRON-QNT
 
@@ -8263,6 +8268,7 @@ LEXICON VerbStems
 сүртүш V-INFL-IV ;
 үйлөн V-INFL-IV ;
 сайыл V-INFL-IV ;
+сүрт V-INFL-TV ;
 
 LEXICON Abbreviations
 

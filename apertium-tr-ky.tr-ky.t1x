@@ -205,6 +205,8 @@
       <attr-item tags="prn.pers"/>
       <attr-item tags="prn.ref"/>
       <attr-item tags="prn.dem"/>
+      <attr-item tags="prn.itg"/>
+      <attr-item tags="prn.qst"/>
     </def-attr>
        
     <def-attr n="a_adj">
@@ -234,6 +236,7 @@
     <def-attr n="pers">
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
+      <attr-item tags="p2.frm"/>
       <attr-item tags="p3"/>
     </def-attr>
     
@@ -1176,6 +1179,43 @@
         </out>
       </action>
     </rule>
+
+
+ 
+    <rule comment="regla: nom qst">
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="qst"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <mlu>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <var n="c_poss"/>
+              <var n="c_case"/>
+            </lu>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <lit-tag v="mod_qst"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </mlu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+   
+
 
   </section-rules>
 </transfer>
