@@ -13,6 +13,7 @@ os.chdir(sys.argv[1])
 files = os.listdir('.')
 
 for fn in files:
+	print(fn)
 	root = etree.parse(fn).getroot()
 	for item in root.getiterator("div"):
 		if item.attrib['class'] == 'content':
