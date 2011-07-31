@@ -18,7 +18,7 @@
     573 ^@Bush<np>$
     572 ^@Rus<np>$
     562 ^@Annan<np>$
-    521 ^@Boşnak<np>$
+    520 ^@Boşnak<np>$
     509 ^@İtalyan<np>$
     499 ^@Kostas<np>$
     495 ^@George<np>$
@@ -27,7 +27,7 @@
     374 ^@Ljajiç<np><cog>$
     365 ^@Ortodoks<np>$
     349 ^@Karadeniz<np>$
-    348 ^@Nikoliç<np><cog>$
+    347 ^@Nikoliç<np><cog>$
     324 ^@Vuyanoviç<np><cog>$
     315 ^@Cukanoviç<np><cog>$
     314 ^@Terziç<np><cog>$
@@ -237,13 +237,13 @@
      50 ^@Kaide<np>$
      50 ^@Jandrokoviç<np><cog>$
      50 ^@İzlanda<np>$
-     50 ^@Iliç<np><cog>$
      50 ^@Bülent<np>$
      50 ^@Avrasya<np>$
      50 ^@Afgan<np>$
      49 ^@Şırnak<np>$
      49 ^@Saroviç<np><cog>$
      49 ^@Oriç<np><cog>$
+     49 ^@Iliç<np><cog>$
      49 ^@Filistin<np>$
      49 ^@Çarşamba<np>$
      48 ^@Pentagon<np>$
@@ -1546,6 +1546,7 @@
       1 ^@<np><apos><cpl_ken>$
       1 ^@Noel<np><$
       1 ^@Nisa<np>$
+      1 ^@Nikoliç<np><cog>+бы<mod_qst>$
       1 ^@Nihayet<np>$
       1 ^@Nihad<np>$
       1 ^@Nevruz<np>$
@@ -1659,6 +1660,7 @@
       1 ^@İlkin<np>$
       1 ^@İlkbahar<np>$
       1 ^@İlkay<np>$
+      1 ^@Iliç<np><cog>+бы<mod_qst>$
       1 ^@İlhami<np>$
       1 ^@İklim<np><$
       1 ^@İkbal<np>$
@@ -1822,6 +1824,7 @@
       1 ^@Buddha<np><$
       1 ^@Bozkurt<np>$
       1 ^@Bozcaada<np>$
+      1 ^@Boşnak<np>+бы<mod_qst>$
       1 ^@Boşnakça<np>$
       1 ^@Boğazköy<np>$
       1 ^@Birtan<np>$
