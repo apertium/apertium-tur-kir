@@ -61,7 +61,6 @@
      28 silahla<v><t_imp><2s>
      28 ser<v><t_imp><2s>
      28 kalkış<v><t_imp><2s>
-     28 evlen<v><t_imp><2s>
      27 uyarla<v><t_imp><2s>
      27 püskür<v><t_imp><2s>
      27 durakla<v><t_imp><2s>
