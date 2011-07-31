@@ -42,6 +42,7 @@ dev/missing-bidix-freq.sh -text
 /modes.xml -text
 /pending-tests.sh -text
 /regression-tests.sh -text
+/scraped2html.py -text
 tests/HfstTester.py -text
 tests/README -text
 tests/ky-adjectives.yaml -text
