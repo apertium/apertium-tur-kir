@@ -39,6 +39,7 @@
      <sdef n="ind"       c="Indefinite"/>
      <sdef n="neg"       c="Negative"/>
      <sdef n="itg"       c="Interrogative"/>
+     <sdef n="qst"       c="Question"/>
 
      <sdef n="p1"        c="First person"/>
      <sdef n="p2"        c="Second person"/>
@@ -75,6 +76,7 @@
 
 
 	<e c="  0"><p><l>mi<s n="q"/></l><r>бы<s n="mod_qst"/></r></p></e>
+	<e c="  0" r="LR"><p><l>mı<s n="q"/></l><r>бы<s n="mod_qst"/></r></p></e>
         <!--<e><p><l><s n="q"/></l><r><s n="q"/></r></p></e>-->
 
 
@@ -225,7 +227,7 @@
 	<e c="  0"><p><l>sen<s n="prn"/></l><r>сен<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
 	<e c="  0"><p><l>o<s n="prn"/></l><r>ал<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
 	<e c="  0"><p><l>biz<s n="prn"/></l><r>биз<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
-	<e c="  0"><p><l>siz<s n="prn"/></l><r>сиз<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
+	<e c="  0"><p><l>siz<s n="prn"/></l><r>силер<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
 	<e c="  0"><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
 
 	<e c="  0"><p><l>bu<s n="prn"/></l><r>бул<s n="prn"/><s n="dem"/><s n="ND"/></r></p></e>
@@ -233,7 +235,7 @@
 
         <e c="  0"><p><l>birbir<s n="n"/></l><r>бири-бир<s n="n"/></r></p></e> 
         <e c="  0"><p><l>şu<s n="prn"/></l><r>ушул<s n="prn"/><s n="dem"/></r></p></e>
-        <e c="  0"><p><l>kim<s n="prn"/></l><r>ким<s n="prn"/></r></p></e>
+        <e c="  0"><p><l>kim<s n="prn"/><s n="qst"/></l><r>ким<s n="prn"/><s n="itg"/></r></p></e>
 
 <!-- should be prn.recip -->
 	
@@ -6309,7 +6311,7 @@
         <e><re>[.\?;:!"]</re><p><l><s n="pnct"/></l><r><s n="sent"/></r></p></e>
         <e><p>    <l>-<s n="pnct"/></l>    <r>-<s n="guio"/></r>  </p>    </e>
         <e><p><l>'<s n="pnct"/></l><r>'<s n="apos"/></r></p></e>
-        <e><re>%?[0-9]+([.,][0-9]+)?[.,]?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+        <e><re>%?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 
    </section>
 </dictionary>
