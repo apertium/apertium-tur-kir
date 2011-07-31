@@ -79,3 +79,31 @@ class ScraperTRT(Scraper):
 	
 	def url_to_aid(self, url):
 		return self.rePagecode.search(url).groups()[0]
+
+class ScraperBBC(Scraper):
+	domain = "www.bbc.co.uk"
+	prefix = "bbc"
+	
+	def scraped(self):
+		self.get_content()
+		cleaned = lxml.html.document_fromstring(lxml.html.clean.clean_html(self.content))
+		output = ""
+		return output
+	
+	def url_to_aid(self, url):
+		return sha1(url.encode('utf-8')).hexdigest()
+
+class ScraperAlaman(Scraper):
+	domain = "alamankg.org"
+	prefix = "alaman"
+	reArticleNum = re.compile("\/([0-9]*?)\/?$")
+	
+	def scraped(self):
+		self.get_content()
+		for el in self.doc.find_class('viewnew'):
+			pass
+		cleaned = lxml.html.document_fromstring(lxml.html.clean.clean_html(lxml.html.tostring(el).decode('utf-8')))
+		return cleaned.text_content()
+
+	def url_to_aid(self, url):
+		return self.reArticleNum.search(url).groups()[0]

@@ -19,7 +19,9 @@ class Feed(object):
 		#"www.azattyk.org": HTMLParserAzattyk,
 		##"kmb3.kloop.kg": ScraperKMB
 		##"kmb3.kloop.kg": HTMLParserKloop
-		"kmb3.kloop.kg": ScraperKloop
+		"kmb3.kloop.kg": ScraperKloop,
+		"www.bbc.co.uk": ScraperBBC,
+		"alamankg.org": ScraperAlaman
 	}
 
 	which_scraper = None;
