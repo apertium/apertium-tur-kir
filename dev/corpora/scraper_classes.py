@@ -16,9 +16,6 @@ class Feed(object):
 	feed_sites = {
 		"www.trtkyrgyz.com": ScraperTRT,
 		"www.azattyk.org": ScraperAzattyk,
-		#"www.azattyk.org": HTMLParserAzattyk,
-		##"kmb3.kloop.kg": ScraperKMB
-		##"kmb3.kloop.kg": HTMLParserKloop
 		"kmb3.kloop.kg": ScraperKloop,
 		"www.bbc.co.uk": ScraperBBC,
 		"alamankg.org": ScraperAlaman
@@ -60,8 +57,6 @@ class Feed(object):
 
 class Source(object):
 	aid = None
-	#url = None
-	#title = None
 	scraper = None
 	parser = None
 	filename = None
@@ -69,23 +64,13 @@ class Source(object):
 	out_content = None
 
 	def __init__(self, url, scraper=None, title=None):
-		#self.set_url(url)
 		self.url = url
 		self.title = title
-		#self.outdir = outdir
 		if not scraper:
 			self.scraper = self.get_scraper(url)
 		else: self.scraper = scraper
 		if not self.scraper:
 			raise Exception("No scraper set!")
-		#self.page_contents = self.get_page(self.url)
-
-		#print(self.scraper)
-		#self.aid = self.scraper.url_to_aid(url)
-		#self.filename = self.scraper.prefix+".%s.html" % self.aid
-		#self.parser = self.scraper
-
-		#print(self.aid)
 
 	def get_scraper(self, url):
 		return
@@ -94,15 +79,6 @@ class Source(object):
 		f = urllib.request.urlopen(link)
 		return f.read().decode('utf-8')
 
-	#def get_content(self, contents=None):
-	#	if not contents and self.page_contents:
-	#		contents = self.page_contents
-	#	scraper = self.scraper(contents)
-	#	return scraper.scrape()
-
-	#def set_url(self, url):
-	#	self.url = url
-	
 	def filename_exists(self):
 		return os.path.isfile(self.path)
 	
@@ -127,15 +103,8 @@ class Source(object):
 			self.out_content = scraper.scraped()
 
 			#print(outdir, self.filename, self)
-			#with open(os.path.join(outdir, self.filename), 'w+') as f:
 			with open(os.path.join(self.path), 'w+') as f:
-			#f = open(os.path.join(outdir, self.filename), 'w+');
 				f.write(template('source', title=self.title, content=self.out_content, url = self.url))
-				#f.write('\n<div class="title">\n');
-				#f.write('<h1>' + str(self.title) + '</h1>\n');
-				#f.write('\n</div>\n');
-				#f.write(self.out_content);
-			#f.close();
 			print("added.")
 
 		else:
@@ -166,7 +135,6 @@ class SimpleHtmlScraper(object):
 		if self.url_not_in_path():
 			content = urllib.request.urlopen(self.url)
 			page = content.read().decode('utf-8')
-			#myparser = MyHTMLParser()
 			myparser = HTMLParserSimple()
 			myparser.feed(page)
 			(self.title, self.content) = myparser.get_pages()
