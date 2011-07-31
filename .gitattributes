@@ -25,6 +25,7 @@ dev/corpora/kyscraper_book.dat -text
 dev/corpora/kyscraper_rss.dat -text
 dev/corpora/kyscraper_rss1.dat -text
 dev/corpora/rssfucker.py -text
+dev/corpora/scraped2html.py -text
 dev/corpora/scraper.py -text
 dev/corpora/scraper_classes.py -text
 dev/corpora/scraper_parsers.py -text
@@ -42,7 +43,6 @@ dev/missing-bidix-freq.sh -text
 /modes.xml -text
 /pending-tests.sh -text
 /regression-tests.sh -text
-/scraped2html.py -text
 tests/HfstTester.py -text
 tests/README -text
 tests/ky-adjectives.yaml -text
