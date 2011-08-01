@@ -513,15 +513,18 @@ LEXICON PRON-REFL
 LEXICON PRON-IND
 
 %<prn%>%<ind%>: CASES ;
+%<prn%>%<ind%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
 LEXICON PRON-DEM
 
-%<prn%>%<dem%>: CASES ;
+%<prn%>%<dem%>: CASES ; 
+%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
 
 LEXICON PRON-QNT
 
 %<prn%>%<qnt%>: CASES ;
+%<prn%>%<qnt%>%<pl%>:%>%{L%}%{A%}р CASES ;
 
 LEXICON PRON-RECIP
 
