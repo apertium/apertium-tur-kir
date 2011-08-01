@@ -948,6 +948,8 @@ LEXICON Pronouns
 
 өз PRON-REFL ; ! "own/self"
 ушул PRON-DEM ;
+бул% жер PRON-DEM ;
+ал% жак PRON-DEM ;
 
 айрым PRON-IND ; ! "other"
 баары PRON-IND ; ! "everyone"
@@ -957,6 +959,12 @@ LEXICON Pronouns
 көптөгөн PRON-QNT ; ! "many"
 
 бири-бир PRON-RECIP ; ! "each other, one another"
+ал% жак PRON-DEM ;
+кайсы% жер PRON-ITG ; 
+эмне PRON-ITG ;
+кайсы PRON-ITG ;
+бирин-бири PRON-RECIP ; 
+тиги PRON-DEM ;
 
 LEXICON Numerals 
 
@@ -5851,6 +5859,14 @@ kanal N-INFL ;
 терезе N-INFL ;
 убал N-INFL ;
 канагат N-INFL ;
+аңчы N-INFL ;
+жейрен N-INFL ;
+кечирим N-INFL ;
+кепе N-INFL ;
+бечера N-INFL ;
+байкуш% киши N-INFL ;
+сарсанаа N-INFL ;
+боор N-INFL ;
 
 LEXICON PropernounStems
 Алматы NP-TOP ;
@@ -8268,7 +8284,115 @@ LEXICON VerbStems
 сүртүш V-INFL-IV ;
 үйлөн V-INFL-IV ;
 сайыл V-INFL-IV ;
+жалын V-INFL-IV ;
+ойгон V-INFL-IV ;
+кыйкыр V-INFL-IV ;
+ачуулан V-INFL-IV ;
+күноөөлө V-INFL-IV ;
+арыкта V-INFL-IV ;
+соодала V-INFL-IV ;
+аракет% кыл V-INFL-IV ;
+кечир V-INFL-IV ;
+сына V-INFL-IV ;
+жыйынтыкта V-INFL-IV ;
+кууру V-INFL-IV ;
+итекте V-INFL-IV ;
+көздө V-INFL-TV ;
+учуп% чык V-INFL-TV ;
+ысыт V-INFL-IV ;
+ичкер V-INFL-IV ;
+белгиле V-INFL-IV ;
+оңдо V-INFL-TV ;
+катуулаш V-INFL-IV ;
+кыскар V-INFL-IV ;
+капта V-INFL-TV ;
+мал V-INFL-IV ;
+ууландыр V-INFL-IV ;
+түгөн V-INFL-TV ;
+ойгон V-INFL-IV ;
+оң V-INFL-IV ;
+жумша V-INFL-IV ;
+тары V-INFL-TV ;
+сын V-INFL-IV ;
+тушта V-INFL-IV ;
+тил V-INFL-IV ;
+окут V-INFL-TV ;
+курга V-INFL-TV ;
+эк V-INFL-TV ;
+жыйып% кой V-INFL-IV ;
+кайраттан V-INFL-IV ;
+сыймыктан V-INFL-IV ;
+тынчы V-INFL-IV ;
+ысы V-INFL-TV ;
+тордо V-INFL-TV ;
+эри V-INFL-IV ;
+сүйрөп% бар V-INFL-TV ;
+алоолон V-INFL-IV ;
+чекит% кой V-INFL-IV ;
+кеңеш V-INFL-IV ;
+жакында V-INFL-TV ;
+жыйна V-INFL-TV ;
+жеңилде V-INFL-IV ;
+жой V-INFL-IV ;
+эле V-INFL-IV ;
+өзүңө% тарт V-INFL-IV ;
+көн V-INFL-TV ;
+корк V-INFL-IV ;
+көгөр V-INFL-IV ;
+үз V-INFL-TV ;
+сүйүнчүлө V-INFL-IV ;
+байка V-INFL-IV ;
+ажыраш V-INFL-IV ;
+сына V-INFL-IV ;
+куралсыздан V-INFL-IV ;
+куралдан V-INFL-IV ;
+жай V-INFL-TV ;
+аракет% кыл V-INFL-TV ;
+ыңгайлаштыр V-INFL-TV ;
+бүрк V-INFL-IV ;
+тынык V-INFL-IV ;
+тең% салмакта V-INFL-IV ;
+түзүл V-INFL-IV ;
+сүрөттө V-INFL-TV ;
+чагым% сал V-INFL-IV ;
+жокто V-INFL-IV ;
+секир V-INFL-TV ;
+чайка V-INFL-TV ;
+алдан V-INFL-IV ;
+заалимдик% кыл V-INFL-IV ;
+түгөт V-INFL-TV ;
+бурул V-INFL-TV ;
+кубала V-INFL-IV ;
+карама-каршы% чык V-INFL-IV ;
+бириктир V-INFL-TV ;
+жылаңачта V-INFL-TV ;
+көкүрөк% менен% түрт V-INFL-TV ;
+төшө V-INFL-TV ;
+току V-INFL-IV ;
+баш% тарт V-INFL-IV ;
+салыштыр V-INFL-IV ;
+камкордук% көр V-INFL-TV ;
+кыскарт V-INFL-TV ;
+эз V-INFL-TV ;
+арылт V-INFL-TV ;
+эскер V-INFL-IV ;
+жетин V-INFL-IV ;
+музда V-INFL-IV ;
+карыз% бол V-INFL-IV ;
+ылайыкташ V-INFL-TV ;
+төмөнсүнт V-INFL-IV ;
+талап% ал V-INFL-IV ;
+тык V-INFL-IV ;
+айла% жүргүз V-INFL-IV ;
+унчукпа V-INFL-IV ;
+салам% бер V-INFL-IV ;
+сапыр V-INFL-TV ;
+тырмала V-INFL-TV ;
+көз% сал V-INFL-IV ;
+көбөй V-INFL-IV ;
+курча V-INFL-TV ;
 сүрт V-INFL-TV ;
+жараш V-INFL-IV ;
 
 LEXICON Abbreviations
 
