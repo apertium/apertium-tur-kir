@@ -7,6 +7,8 @@ from hashlib import sha1
 #from scraper_parsers import *
 from scrapers import *
 import rssfucker
+from lxml import etree
+from datetime import datetime
 
 
 class Feed(object):
@@ -72,6 +74,8 @@ class Source(object):
 		if not self.scraper:
 			raise Exception("No scraper set!")
 
+		#self.makeRoot()
+
 	def get_scraper(self, url):
 		return
 	
@@ -82,7 +86,7 @@ class Source(object):
 	def filename_exists(self):
 		return os.path.isfile(self.path)
 	
-	def add_to_archive(self, outdir):
+	def add_to_archive_old(self, outdir):
 		scraper = self.scraper(self.url) #, self.page_contents)
 		self.aid = scraper.aid
 		self.filename = self.scraper.prefix+".%s.html" % self.aid
@@ -109,6 +113,45 @@ class Source(object):
 
 		else:
 			print(self.filename, " exists!  Skipping.")
+
+	def populateIds(self):
+		self.ids = []
+		for item in self.root.getiterator("{http://apertium.org/xml/corpus/0.9}entry"):
+			self.ids += [item.attrib['id']]
+		#print(self.ids)
+
+	def makeRoot(self, outdir):
+		self.outdir = outdir
+		self.filename = self.scraper.prefix+".xml"
+		self.path = os.path.join(self.outdir, self.filename)
+
+		if os.path.isfile(self.path):
+			self.root = etree.parse(self.path).getroot()
+		else:
+			self.root = etree.Element("corpus", xmlns="http://apertium.org/xml/corpus/0.9", language="ky", name=self.scraper.prefix)
+		self.populateIds()
+	
+
+	def add_to_archive(self):
+		scraper = self.scraper(self.url)
+		self.aid = scraper.aid
+		self.entry_id = self.scraper.prefix +"."+ self.aid
+		if self.entry_id not in self.ids:
+			print("Adding...", end=" ")
+			self.out_content = scraper.scraped()
+			if self.out_content:
+				outTime = datetime.now().isoformat()
+				#print(self.root, self.url, self.entry_id, self.title, outTime, self.out_content)
+				etree.SubElement(self.root, "entry", source=self.url, id=self.entry_id, title=self.title, timestamp=outTime).text = self.out_content
+				#print(outdir, self.filename, self)
+				etree.ElementTree(self.root).write(self.path, pretty_print=True, encoding='UTF-8', xml_declaration=False)
+				print("added.")
+				self.ids += [self.aid]
+			else: print("empty content, not added.")
+
+		else:
+			print(self.entry_id, " exists!  Skipping.")
+
 
 
 class SimpleHtmlScraper(object):
