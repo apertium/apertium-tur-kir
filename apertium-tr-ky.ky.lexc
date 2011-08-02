@@ -117,6 +117,8 @@ Multichar_Symbols
 %<vadj_impf%>
 %<vadj_hab%>
 
+%<imp%>     ! imperative
+
 %<pres%>    ! Present tense
 %<aor%>     ! Aorist, -E
 %<cond%>    ! Conditional, -сA
@@ -650,6 +652,15 @@ LEXICON V-INFL-NON-FINITE
 !%<vadj_????%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;                      ! TODO: find name
 %<vadj_pot%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;
 
+!  Imperatives
+
+%<imp%>%<p2%>%<sg%>:%>%
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң                  !Southern ! Dir/LR
+%<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>%{L%}%{A%}р
+
+!  
+
 LEXICON V-INFL-COMMON-SECOND
 
 @D.NEG.1@:@D.NEG.1@ V-INFL-NON-FINITE ; 
@@ -661,7 +672,7 @@ LEXICON V-INFL-COMMON-SECOND
 %<fut%>:%>%{A%}%{A%}р V-PERS-COP ;                            ! Dir/LR
 %<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                            ! 
 %<past%>:%>%{G%}%{A%}н V-PERS-COP ;                           ! 
-%<cond%>:%>с%{A%} V-PERS-PAST ;                               ! 
+!%<cond%>:%>с%{A%} V-PERS-PAST ;                               ! not a finite form
 %<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP ;                        !   
 %<pih%>:%>ч%{U%} V-PERS-COP ;                                 ! 
 %<pot%>:%>ч%{U%}%>д%{A%}й V-PERS-COP ;                        ! 

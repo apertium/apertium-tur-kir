@@ -7,22 +7,22 @@ Config:
 Tests:
 
   "[lexc] Infinitive -{U}{U}":
-    бол<v><iv><inf><nom> : болуу
-    сүй<v><tv><inf><nom> : сүйүү
-    окшо<v><iv><inf><nom> : окшоо
-    иште<v><iv><inf><nom> : иштөө
-    саба<v><tv><inf><nom> : сабоо
-    аарчы<v><tv><inf><nom> : аарчуу
-    ат<v><tv><inf><nom> : атуу
+    бол<v><iv><ger><nom> : болуу
+    сүй<v><tv><ger><nom> : сүйүү
+    окшо<v><iv><ger><nom> : окшоо
+    иште<v><iv><ger><nom> : иштөө
+    саба<v><tv><ger><nom> : сабоо
+    аарчы<v><tv><ger><nom> : аарчуу
+    ат<v><tv><ger><nom> : атуу
 
   "[lexc] Negative -б{A}":
     бол<v><iv><neg><cond><p1><sg> : болбосом
 
   "[lexc] Conditional -с{A}":
-    бол<v><iv><cond><p1><sg> : болсом
+    бол<v><iv><prt_cond><p1><sg> : болсом
 
   "[lexc] Perfect Converb -{I}п":
-    иште<v><iv><cv_perf> : иштеп
+    иште<v><iv><prt_perf> : иштеп
 
   "[twol] Yotification":
-    кой<v><tv><cv_perf> : коюп
+    кой<v><tv><prt_perf> : коюп
