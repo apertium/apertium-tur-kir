@@ -220,6 +220,9 @@
    <e c="  0"><p><l>yukarı<s n="postp"/></l><r>өйдө<s n="post"/></r></p></e>
    <e c="  0"><p><l>ile<s n="postp"/></l><r>менен<s n="post"/></r></p></e>
    <e c="  0"><p><l>ait<s n="postp"/></l><r>караштуу<s n="post"/></r></p></e>
+   <e c="  0"><p><l>ortasında<s n="postp"/></l><r>ортосунда<s n="post"/></r></p></e>
+   <e c="  0"><p><l>üstünde<s n="postp"/></l><r>үстүндө<s n="post"/></r></p></e>
+
 
 	<!-- SECTION: Pronouns -->
 
@@ -244,6 +247,7 @@
 	 <e c="  0"><p><l>hangi<s n="prn"/></l><r>кайсы<s n="prn"/><s n="mod_qst"/></r></p></e>
 	 <e c="  0"><p><l>birbiri<s n="prn"/></l><r>бирин-бири<s n="prn"/></r></p></e>
 	 <e c="  0"><p><l>öteki<s n="prn"/></l><r>тиги<s n="prn"/><s n="dem"/></r></p></e>
+         <e c="  0"><p><l>şura<s n="prn"/></l><r>ушу<b/>жер<s n="prn"/><s n="dem"/></r></p></e>
 
 <!-- should be prn.recip -->
 	
@@ -5681,6 +5685,12 @@
    <e c="  0"><p><l>besbelli<s n="adv"/></l><r>апачык<s n="adv"/></r></p></e>
    <e c="  0"><p><l>ansızın<s n="adv"/></l><r>күтүүсүздөн<s n="adv"/></r></p></e>
    <e c="  0"><p><l>keşke<s n="adv"/></l><r>аттиң<s n="adv"/></r></p></e>
+   <e c="  0"><p><l>yıl<s n="adv"/></l><r>жыл<s n="adv"/></r></p></e>
+        <e c="  0"><p><l>gün<s n="adv"/></l><r>күн<s n="adv"/></r></p></e>
+        <e c="  0"><p><l>ay<s n="adv"/></l><r>ай<s n="adv"/></r></p></e>
+        <e c="  0"><p><l>zaman<s n="adv"/></l><r>заман<s n="adv"/></r></p></e>
+        <e c="  0"><p><l>acaba<s n="adv"/></l><r>кызык<s n="adv"/></r></p></e>
+        <e c="  0"><p><l>sene<s n="adv"/></l><r>жыл<s n="adv"/></r></p></e>
         <!-- SECTION: Verbs -->
 
 	<e c="  0"><p><l>var<s n="exist"/></l><r>бар<s n="v"/><s n="exi"/></r></p></e>
