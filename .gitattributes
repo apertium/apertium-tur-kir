@@ -55,6 +55,7 @@ tests/ky-pronouns.yaml -text
 tests/ky-verbs.pairtest -text
 tests/ky-verbs.yaml -text
 tests/ky-verbs2.yaml -text
+tests/ky-verbsimp.yaml -text
 tests/run-tests.sh -text
 /tr-ky.prob -text svneol=unset#unset
 /tr-ky.sh -text
