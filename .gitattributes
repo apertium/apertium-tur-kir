@@ -33,6 +33,7 @@ dev/corpora/scraper_parsers.py -text
 dev/corpora/scrapers.py -text
 dev/corpora/source.tpl -text
 dev/corpora/transliterate.py -text
+dev/corpora/xml2txt.py -text
 dev/disambiguation-notes.txt -text
 dev/generation-test.tr-ky.sh -text
 dev/ky-nouns.txt -text svneol=unset#application/octet-stream
