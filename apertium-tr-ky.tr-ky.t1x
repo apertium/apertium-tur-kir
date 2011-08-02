@@ -44,6 +44,13 @@
       <cat-item tags="v.abil.*"/>
     </def-cat>
  
+    <def-cat n="v_ol_part_yan">
+      <cat-item lemma="ol" tags="v.part_yan.*"/>
+      <cat-item lemma="ol" tags="v.part_yan"/>
+      <cat-item lemma="ol" tags="v.*.part_yan.*"/>
+      <cat-item lemma="ol" tags="v.*.part_yan"/>
+    </def-cat>
+ 
     <def-cat n="v_part_yan">
       <cat-item tags="v.part_yan.*"/>
       <cat-item tags="v.part_yan"/>
@@ -98,6 +105,14 @@
       <cat-item tags="v.cv_ip.*"/>
       <cat-item tags="v.*.cv_ip.*"/>
     </def-cat>
+
+    <def-cat n="v_vn_mak_loc">
+      <cat-item tags="v.vn_mak.loc"/>
+      <cat-item tags="v.*.vn_mak.loc"/>
+      <cat-item tags="v.vn_mak.loc.*"/>
+      <cat-item tags="v.*.vn_mak.loc.*"/>
+    </def-cat>
+
 
     <def-cat n="v_cv_ma">
       <cat-item tags="v.cv_ma"/>
@@ -892,6 +907,37 @@
       </action>
     </rule>
 
+
+    <rule comment="regla: v_vn_mak_loc">
+      <pattern>
+        <pattern-item n="v_vn_mak_loc"/>
+        <pattern-item n="v_ol_part_yan"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_tens1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="trans"/>
+              <lit-tag v="prt_perf"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b/> 
+            <lu>
+              <lit v="жат"/>
+              <lit-tag v="v.iv"/>
+              <clip pos="1" side="tl" part="neg"/>
+              <lit-tag v="vadj_past"/> 
+            </lu>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="regla: v_cv_iyor">
       <pattern>
