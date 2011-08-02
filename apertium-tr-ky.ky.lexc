@@ -656,8 +656,14 @@ LEXICON V-INFL-NON-FINITE
 
 %<imp%>%<p2%>%<sg%>:%> # ;
 %<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з # ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң # ;                 !Southern ! Dir/LR
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң # ;                      ! Dir/LR
 %<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>%{L%}%{A%}р # ;
+
+%<neg%>%<imp%>%<p2%>%<sg%>:%>%{B%}%{A%}%> # ;
+%<neg%>%<imp%>%<p2%>%<frm%>%<sg%>:%>%{B%}%{A%}%>%{I%}ң%{I%}з # ;
+%<neg%>%<imp%>%<p2%>%<frm%>%<sg%>:%>%{B%}%{A%}%>%{I%}ң # ;                      ! Dir/LR
+%<neg%>%<imp%>%<p2%>%<frm%>%<pl%>:%>%{B%}%{A%}%>%{I%}ң%{I%}з%>%{L%}%{A%}р # ;
+
 
 !  Optative/jussive forms
 ! TODO
