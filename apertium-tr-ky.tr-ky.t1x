@@ -3,6 +3,11 @@
 <transfer>
   <section-def-cats>
       
+    <def-cat n="np_apos">
+      <cat-item lemma="*" tags="np.apos"/>
+      <cat-item lemma="*" tags="np.apos.*"/>
+    </def-cat>
+      
     <def-cat n="not">
       <cat-item lemma="değil" tags="not"/>
       <cat-item lemma="değil" tags="not.*"/>
@@ -183,6 +188,11 @@
       <cat-item tags="v.*.neg.t_aor.*"/>
     </def-cat>
    
+     <def-cat n="prop">
+      <cat-item tags="np"/>
+      <cat-item tags="np.*"/>
+    </def-cat>
+   
      <def-cat n="nom">
       <cat-item tags="n"/>
       <cat-item tags="n.*"/>
@@ -306,6 +316,8 @@
       <attr-item tags="abl"/>
       <attr-item tags="gen"/>
       <attr-item tags="loc"/>
+      <attr-item tags="rloc"/>
+      <attr-item tags="loc.ki"/>
     </def-attr>
     
     <def-attr n="nbr">
@@ -335,6 +347,12 @@
             <equal><clip pos="1" side="sl" part="case"/><lit v=""/></equal>
           </test>
           <let><var n="c_case"/><lit-tag v="nom"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="case"/><lit-tag v="loc.ki"/></equal>
+          </test>
+          <let><var n="c_case"/><lit-tag v="rloc"/></let>
         </when>
         <when>
           <test>
@@ -538,6 +556,34 @@
         </out>
       </action>
     </rule>
+ 
+    <rule comment="regla: nom np_apos">
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="np_apos"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <var n="c_poss"/>
+            <var n="c_case"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+   
  
     <rule comment="regla: nom">
       <pattern>
@@ -1024,15 +1070,21 @@
           <with-param pos="1"/>
         </call-macro>
         <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="neg"/>
-            <lit-tag v="aor"/>
-            <var n="c_pers"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
+          <mlu>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="trans"/>
+              <clip pos="1" side="tl" part="neg"/>
+              <lit-tag v="past"/> <!-- was 'aor' -->
+            </lu>
+            <lu>
+              <lit v="э"/>
+              <lit-tag v="cop"/>
+              <var n="c_pers"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </mlu>
         </out>
       </action>
     </rule>
