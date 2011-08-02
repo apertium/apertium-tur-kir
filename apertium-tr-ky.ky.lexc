@@ -900,6 +900,8 @@ LEXICON Postpositions
 менен POST ;
 караштуу POST ;
 сыяктуу POST ;
+ортосунда POST ;
+үстүндө POST ;
 
 LEXICON Determiners
 
@@ -971,6 +973,7 @@ LEXICON Pronouns
 өз PRON-REFL ; ! "own/self"
 ушул PRON-DEM ;
 бул% жер PRON-DEM ;
+ушу% жер PRON-DEM ;
 ал% жак PRON-DEM ;
 
 айрым PRON-IND ; ! "other"
@@ -7590,6 +7593,12 @@ LEXICON AdvStems
 тышкары ADV ; ! See bidix
 чогу ADV ; ! See bidix
 аттиң ADV ;
+жыл ADV ;
+күн ADV ;
+ай ADV ;
+заман ADV ;
+кызык ADV ;
+жыл ADV ;
 
 
 LEXICON VerbStems
