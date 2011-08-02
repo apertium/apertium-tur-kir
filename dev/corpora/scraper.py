@@ -29,7 +29,8 @@ if args.feedlist != None:
 			#print(feed.feed)
 			for source in feed.get_sources():
 				#print(source)
-				source.add_to_archive(args.outdir)
+				source.makeRoot(args.outdir)
+				source.add_to_archive()
 		else:
 			page = SimpleHtmlScraper("history", url, args.outdir)
 			page.parse()
