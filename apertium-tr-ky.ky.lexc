@@ -710,7 +710,7 @@ LEXICON V-INFL-FINITE
 %<neg%>%<ifi%>:%>%{G%}%{A%}н% жок V-PERS-COP ;         !
 %<neg%>%<aor%>:%>%{B%}%{A%}%>%{E%} V-PERS-PRES ;              !
 !%<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! not a finite form
-%<neg%>%<past%>:%>%{B%}%{A%}%>%{G%}%{A%}н V-PERS-COP ;        ! 
+%<neg%>%<past%>:%>%{G%}%{A%}н% эмес V-PERS-COP ;        ! 
 %<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP ;           ! 
 %<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP ;              ! 
 
