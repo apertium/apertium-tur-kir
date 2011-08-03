@@ -103,10 +103,11 @@ Multichar_Symbols
 
 %<ger_fut%>
 %<ger_past%>
+%<ger_perf%>
 %<ger_past_abs%>  ! "abstract" gerund
 %<ger_pres%>
 %<ger%>
-%<ger_abs%>       ! "abstract" gerund
+%<ger_abs%>       ! "abstract" gerund -- abs means absolutive
 
 %<vadj_fut%>
 %<vadj_pot2%>
@@ -288,8 +289,6 @@ LEXICON NP-TOP
 LEXICON NP-AL
 
 %<np%>%<al%>: POSSESSION ;
-
-
 
 LEXICON ADJ-LEVELS
 
@@ -616,71 +615,16 @@ V-INFL-COMMON-SECOND ;
 @P.NEG.1@:%>%{I%}ш@P.NEG.1@ V-INFL-COMMON-SECOND ; ! Dir/LR
 %<coop%>:%>%{I%}ш V-INFL-COMMON-SECOND ;
 
-LEXICON V-INFL-NON-FINITE
-
-V-INFL-NON-FINITE-REG ;
-V-INFL-NON-FINITE-IRREG ;
-%<neg%>:%>%{B%}%{A%}%> V-INFL-NON-FINITE-IRREG ;
-
-LEXICON V-INFL-NON-FINITE-IRREG 
-
-%<vadj_fut%>:%>%{A%}р V-ADJ ;
-%<vadj_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
-%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                  !
-%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;              ! Dir/LR
-%<neg%>%<vadj_pot2%>:%>%{G%}%{U%}с V-ADJ ;
-
-%<prt_perf%>:%>%{I%}п # ;
-%<neg%>%<prt_perf%>:%>%{B%}%{A%}%>%{E%} # ;  ! TODO: is this the right way to do this?
-
-LEXICON V-INFL-NON-FINITE-REG
-
-%<plist%>:%>м%{A%}й # ;                                       ! huh?
-
-! Adverbial Participles
-%<prt_plan%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
-%<prt_cond%>:%>с%{A%} V-PERS-COND ;
-%<prt_impf%>:%>%{E%} # ;   ! rare IS
-!%<prt_????%>:%>м%{A%}й%{I%}нч%{A%} #;       ! TODO: find name  ! rare IS
-!%<prt_????%>:%>%{E%}т # ;                    ! TODO: find name
-
-! Gerunds
-%<ger_fut%>:%>%{A%}р POSSESSION ;     ! <coop> IS only ?
-%<ger_fut%>:%>%{A%}%{A%}р POSSESSION ;                        ! Dir/LR
-%<ger_past%>:%>%{G%}%{A%}н POSSESSION ; ! <coop> IS only ?
-%<ger_pastpf%>:%>%{G%}%{A%}н%>%{L%}%{I%}к POSSESSION ; !
-%<ger_pres%>:%>%{I%}ш POSSESSION ;    ! <coop> IS only
-%<ger%>:%>%{U%}%{U%} POSSESSION ;     ! <coop> IS only
-%<ger_abs%>:%>%{U%}%{U%}%>ч%{I%}%>%{L%}%{I%}к POSSESSION ;     ! <coop> IS only
-
-! Verbal Adjectives
-%<vadj_past%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay
-%<vadj%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay  ! both past (or perf?) and general
-!%<vadj_pot%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
-%<vadj_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
-%<vadj_impf%>:%>%{E%}% турган V-ADJ ;
-!%<vadj_????%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;                      ! TODO: find name
-%<vadj_pot%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;
-
-!  Imperatives
-
-%<imp%>%<p2%>%<sg%>:%> # ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з # ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң # ;                      ! Dir/LR
-%<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>%{L%}%{A%}р # ;
-
-!%<neg%>%<imp%>%<p2%>%<sg%>:%>%{B%}%{A%}%> # ;
-!%<neg%>%<imp%>%<p2%>%<frm%>%<sg%>:%>%{B%}%{A%}%>%{I%}ң%{I%}з # ;
-!%<neg%>%<imp%>%<p2%>%<frm%>%<sg%>:%>%{B%}%{A%}%>%{I%}ң # ;                      ! Dir/LR
-!%<neg%>%<imp%>%<p2%>%<frm%>%<pl%>:%>%{B%}%{A%}%>%{I%}ң%{I%}з%>%{L%}%{A%}р # ;
-
-!  Optative/jussive forms
-! TODO
-
-
 LEXICON V-INFL-COMMON-SECOND
 
-@D.NEG.1@:@D.NEG.1@ V-INFL-NON-FINITE ; 
+! The regular negatives take -{B}{A}
+%<neg%>:%>%{B%}%{A%} V-INFL-NON-FINITE-REG-NEG ; 
+
+! Irregular negatives have forms that aren't negative 
+! with -{B}{A} or are otherwise weird
+! The flag is because of -iš
+@D.NEG.1@:@D.NEG.1@ V-INFL-NON-FINITE-IRREG-NEG ;  
+@D.NEG.1@:@D.NEG.1@ V-INFL-NON-FINITE-REG-NEG ; 
 
 ! Finite forms
 !%<pres%>:%>%{A%} V-PERS-PRES ;                                ! TODO: Check
@@ -708,6 +652,59 @@ LEXICON V-INFL-COMMON-SECOND
 %<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP ;           ! 
 %<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP ;              ! 
 
+LEXICON V-INFL-NON-FINITE-REG-NEG
+
+%<plist%>:%>м%{A%}й # ;                                       ! huh? "-mAj is used mainly for listing"
+
+! Adverbial participles
+%<prt_plan%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
+%<prt_cond%>:%>с%{A%} V-PERS-COND ;
+%<prt_impf%>:%>%{E%} # ;   ! rare IS
+
+! Gerunds
+%<ger_fut%>:%>%{A%}р POSSESSION ;     ! <coop> IS only ?
+%<ger_fut%>:%>%{A%}%{A%}р POSSESSION ;                        ! Dir/LR
+%<ger_past%>:%>%{G%}%{A%}н POSSESSION ; ! <coop> IS only ?
+%<ger_perf%>:%>%{G%}%{A%}н%>%{L%}%{I%}к POSSESSION ; !
+%<ger_pres%>:%>%{I%}ш POSSESSION ;    ! <coop> IS only
+%<ger%>:%>%{U%}%{U%} POSSESSION ;     ! <coop> IS only
+%<ger_abs%>:%>%{U%}%{U%}%>ч%{I%}%>%{L%}%{I%}к POSSESSION ;     ! <coop> IS only
+
+! Verbal adjectives 
+%<vadj_past%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay
+%<vadj%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay  ! both past (or perf?) and general
+!%<vadj_pot%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
+%<vadj_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
+%<vadj_impf%>:%>%{E%}% турган V-ADJ ;
+!%<vadj_????%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;                      ! TODO: find name
+%<vadj_pot%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;
+
+!  Imperatives
+
+%<imp%>%<p2%>%<sg%>: # ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з # ;
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң # ;                      ! Dir/LR
+%<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>%{L%}%{A%}р # ;
+
+!  Optative/jussive forms
+! TODO
+
+LEXICON V-INFL-NON-FINITE-IRREG-NEG
+
+! Adverbial Participles
+%<prt_perf%>:%>%{I%}п # ;
+%<neg%>%<prt_perf%>:%>%{B%}%{A%}%>%{E%} # ;  ! TODO: is this the right way to do this?
+!%<prt_????%>:%>м%{A%}й%{I%}нч%{A%} #;       ! TODO: find name  ! rare IS
+!%<prt_????%>:%>%{E%}т # ;                    ! TODO: find name
+
+! Verbal Adjectives
+%<vadj_fut%>:%>%{A%}р V-ADJ ;
+%<vadj_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
+%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                  !
+%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;              ! Dir/LR
+%<neg%>%<vadj_pot2%>:%>%{G%}%{U%}с V-ADJ ;
+
+
 LEXICON V-INFL-TV-SHORT
 
 %<v%>%<tv%>: V-INFL-COMMON ;
@@ -724,10 +721,6 @@ LEXICON V-INFL-TV
 %<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                              ! FIXME: When we make it cyclical, this should really be V-INFL-IV
 !%<v%>%<tv%>%<pass%>%<inf%>:%>%{I%}%{l%}%>%{U%}%{U%} POSSESSION ;              ! 
 !%<v%>%<tv%>%<pass%>%<neg%>%<inf%>:%>%{I%}%{l%}%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
-!!!! Transitive verbs can't be causative
-!%<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                                    !
-!%<v%>%<tv%>%<caus%>%<inf%>:%>%{D%}%{I%}р%>%{U%}%{U%} POSSESSION ;                    ! 
-!%<v%>%<tv%>%<caus%>%<neg%>%<inf%>:%>%{D%}%{I%}р%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
 
 LEXICON V-INFL-IV
 
@@ -750,7 +743,6 @@ LEXICON V-INFL-IV-IRREG-CAUS
 %<v%>%<iv%>%<caus%>:%> V-INFL-COMMON ;                                    !
 !%<v%>%<iv%>%<caus%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                    ! 
 !%<v%>%<iv%>%<caus%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
-
 
 
 
