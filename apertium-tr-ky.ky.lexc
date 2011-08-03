@@ -7627,9 +7627,11 @@ LEXICON VerbStems
 
 бар%<v%>%<exi%>:бар # ;
 жок%<v%>%<neg%>%<exi%>:жок # ;
-жок%<v%>%<neg%>%<exi%>:жок V-PERS-COP ;
-эмес%<cop%>%<neg%>:эмес # ;
-эмес%<cop%>%<neg%>:эмес V-PERS-PAST ;
+жок%<v%>%<neg%>%<exi%>:жок V-PERS-COP-SUF ;
+
+э%<cop%>%<neg%>:эмес V-PERS-COP-SUF ; 
+э%<cop%>%<evid%>:экен V-PERS-COP-SUF ; 
+э%<cop%>%<neg%>%<evid%>:эмес% экен V-PERS-COP-SUF ; 
 
 өс V-INFL-IV ;
 танда V-INFL-TV ;
