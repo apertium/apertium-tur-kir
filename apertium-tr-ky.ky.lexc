@@ -609,50 +609,42 @@ LEXICON V-PERS-PRES ! P_6
 
 !LEXICON V-PERS-IMPER ! P_6
 
+
 LEXICON V-INFL-COMMON
 
 V-INFL-COMMON-SECOND ;
 @P.NEG.1@:%>%{I%}ш@P.NEG.1@ V-INFL-COMMON-SECOND ; ! Dir/LR
 %<coop%>:%>%{I%}ш V-INFL-COMMON-SECOND ;
 
+
 LEXICON V-INFL-COMMON-SECOND
 
-! The regular negatives take -{B}{A}
-%<neg%>:%>%{B%}%{A%} V-INFL-NON-FINITE-REG-NEG ; 
+V-INFL-FINITE ;
+@D.NEG.1@:@D.NEG.1@ V-INFL-NON-FINITE ; 
 
-! Irregular negatives have forms that aren't negative 
-! with -{B}{A} or are otherwise weird
-! The flag is because of -iš
-@D.NEG.1@:@D.NEG.1@ V-INFL-NON-FINITE-IRREG-NEG ;  
-@D.NEG.1@:@D.NEG.1@ V-INFL-NON-FINITE-REG-NEG ; 
 
-! Finite forms
-!%<pres%>:%>%{A%} V-PERS-PRES ;                                ! TODO: Check
-%<aor%>:%>%{E%} V-PERS-PRES ;                                 !
-%<fut%>:%>%{A%}р V-PERS-COP ;                                 !
-%<fut%>:%>%{A%}%{A%}р V-PERS-COP ;                            ! Dir/LR
-%<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                            ! 
-%<past%>:%>%{G%}%{A%}н V-PERS-COP ;                           ! 
-!%<cond%>:%>с%{A%} V-PERS-PAST ;                               ! not a finite form
-%<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP ;                        !   
-%<pih%>:%>ч%{U%} V-PERS-COP ;                                 ! 
-%<pot%>:%>ч%{U%}%>д%{A%}й V-PERS-COP ;                        ! 
-%<pcond%>:%>м%{A%}к V-PERS-COP ;                              ! 
+LEXICON V-INFL-NON-FINITE
 
-%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! TODO: Check
-!%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}р V-PERS-COP ;              !
-!%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}%{A%}р V-PERS-COP ;         ! Dir/LR
-!%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;         ! 
-%<neg%>%<fut%>:%>%{B%}%{A%}%>%с V-PERS-COP ;              !
-%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}с V-PERS-COP ;         ! Dir/LR
-%<neg%>%<ifi%>:%>%{G%}%{A%}н% жок V-PERS-COP ;         !
-%<neg%>%<aor%>:%>%{B%}%{A%}%>%{E%} V-PERS-PRES ;              !
-%<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! 
-%<neg%>%<past%>:%>%{B%}%{A%}%>%{G%}%{A%}н V-PERS-COP ;        ! 
-%<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP ;           ! 
-%<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP ;              ! 
+V-INFL-NON-FINITE-IRREG ;
+V-INFL-NON-FINITE-REG ;
+%<neg%>:%>%{B%}%{A%} V-INFL-NON-FINITE-REG ;
 
-LEXICON V-INFL-NON-FINITE-REG-NEG
+
+LEXICON V-INFL-NON-FINITE-IRREG
+
+! Adverbial Participles
+%<prt_perf%>:%>%{I%}п # ;
+%<neg%>%<prt_perf%>:%>%{B%}%{A%}%>%{E%} # ;  ! TODO: is this the right way to do this?
+
+! Verbal Adjectives
+%<vadj_fut%>:%>%{A%}р V-ADJ ;
+%<vadj_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
+%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                  !
+%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;              ! Dir/LR
+%<neg%>%<vadj_pot2%>:%>%{G%}%{U%}с V-ADJ ;
+
+
+LEXICON V-INFL-NON-FINITE-REG
 
 %<plist%>:%>м%{A%}й # ;                                       ! huh? "-mAj is used mainly for listing"
 
@@ -660,6 +652,8 @@ LEXICON V-INFL-NON-FINITE-REG-NEG
 %<prt_plan%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
 %<prt_cond%>:%>с%{A%} V-PERS-COND ;
 %<prt_impf%>:%>%{E%} # ;   ! rare IS
+!%<prt_????%>:%>м%{A%}й%{I%}нч%{A%} #;       ! TODO: find name  ! rare IS
+!%<prt_????%>:%>%{E%}т # ;                    ! TODO: find name
 
 ! Gerunds
 %<ger_fut%>:%>%{A%}р POSSESSION ;     ! <coop> IS only ?
@@ -689,20 +683,34 @@ LEXICON V-INFL-NON-FINITE-REG-NEG
 !  Optative/jussive forms
 ! TODO
 
-LEXICON V-INFL-NON-FINITE-IRREG-NEG
 
-! Adverbial Participles
-%<prt_perf%>:%>%{I%}п # ;
-%<neg%>%<prt_perf%>:%>%{B%}%{A%}%>%{E%} # ;  ! TODO: is this the right way to do this?
-!%<prt_????%>:%>м%{A%}й%{I%}нч%{A%} #;       ! TODO: find name  ! rare IS
-!%<prt_????%>:%>%{E%}т # ;                    ! TODO: find name
+LEXICON V-INFL-FINITE
 
-! Verbal Adjectives
-%<vadj_fut%>:%>%{A%}р V-ADJ ;
-%<vadj_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
-%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                  !
-%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;              ! Dir/LR
-%<neg%>%<vadj_pot2%>:%>%{G%}%{U%}с V-ADJ ;
+! Finite forms
+!%<pres%>:%>%{A%} V-PERS-PRES ;                                ! TODO: Check
+%<aor%>:%>%{E%} V-PERS-PRES ;                                 !
+%<fut%>:%>%{A%}р V-PERS-COP ;                                 !
+%<fut%>:%>%{A%}%{A%}р V-PERS-COP ;                            ! Dir/LR
+%<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                            ! 
+%<past%>:%>%{G%}%{A%}н V-PERS-COP ;                           ! 
+!%<cond%>:%>с%{A%} V-PERS-PAST ;                               ! not a finite form
+%<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP ;                        !   
+%<pih%>:%>ч%{U%} V-PERS-COP ;                                 ! 
+%<pot%>:%>ч%{U%}%>д%{A%}й V-PERS-COP ;                        ! 
+%<pcond%>:%>м%{A%}к V-PERS-COP ;                              ! 
+
+%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! TODO: Check
+!%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}р V-PERS-COP ;              !
+!%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}%{A%}р V-PERS-COP ;         ! Dir/LR
+!%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;         ! 
+%<neg%>%<fut%>:%>%{B%}%{A%}%>%с V-PERS-COP ;              !
+%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}с V-PERS-COP ;         ! Dir/LR
+%<neg%>%<ifi%>:%>%{G%}%{A%}н% жок V-PERS-COP ;         !
+%<neg%>%<aor%>:%>%{B%}%{A%}%>%{E%} V-PERS-PRES ;              !
+%<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! 
+%<neg%>%<past%>:%>%{B%}%{A%}%>%{G%}%{A%}н V-PERS-COP ;        ! 
+%<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP ;           ! 
+%<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP ;              ! 
 
 
 LEXICON V-INFL-TV-SHORT
