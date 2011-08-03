@@ -89,6 +89,7 @@ Multichar_Symbols
 %<pass%>    ! Passive
 %<caus%>    ! Causative
 %<coop%>    ! Cooperative
+%<evid%>    ! Evidential
 
 %<cv_impf%> ! Converb imperfect, -E
 %<cv_perf%> ! Converb perfect, -Iп
@@ -141,6 +142,8 @@ Multichar_Symbols
 %<apos%>    ! Apostrophe
 %<rquot%>   ! Quote marker (right hand side) 
 %<lquot%>   ! Quote marker (left hand side) 
+%<rpar%>    ! Parenthetical marker (right hand side) 
+%<lpar%>    ! Parenthetical marker (left hand side) 
 
 %{E%}       ! Realised as 'а', 'е', 'о', 'ө', 'й' 
 %{A%}       ! Realised as 'а', 'е', 'о', 'ө' 
@@ -565,14 +568,21 @@ LEXICON V-PERS-POSS ! P_2
 
 LEXICON V-PERS-COP ! P_3
 
-%+э%<cop%>%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
-%+э%<cop%>%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
-%+э%<cop%>%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
-%+э%<cop%>%<p3%>%<sg%>: V-CLIT ; 
-%+э%<cop%>%<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
-%+э%<cop%>%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
-%+э%<cop%>%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
-%+э%<cop%>%<p3%>%<pl%>: V-CLIT ; 
+%+э%<cop%>: V-PERS-COP-SUF ; 
+%+э%<cop%>%<neg%>:% эмес V-PERS-COP-SUF ; 
+%+э%<cop%>%<evid%>:% экен V-PERS-COP-SUF ; 
+%+э%<cop%>%<neg%>%<evid%>:% эмес% экен V-PERS-COP-SUF ; 
+
+LEXICON V-PERS-COP-SUF 
+
+%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
+%<p3%>%<sg%>: V-CLIT ; 
+%<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
+%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
+%<p3%>%<pl%>: V-CLIT ; 
 
 LEXICON V-PERS-PAST ! P_4
 
@@ -7618,8 +7628,8 @@ LEXICON VerbStems
 бар%<v%>%<exi%>:бар # ;
 жок%<v%>%<neg%>%<exi%>:жок # ;
 жок%<v%>%<neg%>%<exi%>:жок V-PERS-COP ;
-эмес%<v%>%<neg%>:эмес # ;
-эмес%<v%>%<neg%>:эмес V-PERS-PAST ;
+эмес%<cop%>%<neg%>:эмес # ;
+эмес%<cop%>%<neg%>:эмес V-PERS-PAST ;
 
 өс V-INFL-IV ;
 танда V-INFL-TV ;
@@ -8587,3 +8597,7 @@ LEXICON Punctuation
 %»%<rquot%>:%» # ;
 %”%<rquot%>:%” # ;
 %“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
