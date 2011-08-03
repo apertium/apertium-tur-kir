@@ -902,7 +902,7 @@ LEXICON Postpositions
 тартып POST ;
 улам POST ;
 учурга% чейин POST ;
-башка POST ;
+башка POST ;  ! FIXME: this isn't a POST !!!
 убактагы POST ;
 байланыштуу% болчу POST ;
 боюнча POST ;
@@ -941,7 +941,7 @@ LEXICON Determiners
 кайсыл:кайсы DET-ITG ; ! "which?" ! FIXME: need morph to fix
 
 кайсы% бир DET-IND ;
-башка DET-IND ;
+башка DET-IND ;    ! FIXME: Hmmmm
 бир% далай DET-QNT ;
 бүт% баары DET-QNT ;
 бир% канча DET-QNT ;
