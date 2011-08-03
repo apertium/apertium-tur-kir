@@ -139,6 +139,8 @@ Multichar_Symbols
 %<guio%>    ! Hyphen
 %<cm%>      ! Comma
 %<apos%>    ! Apostrophe
+%<rquot%>   ! Quote marker (right hand side) 
+%<lquot%>   ! Quote marker (left hand side) 
 
 %{E%}       ! Realised as 'а', 'е', 'о', 'ө', 'й' 
 %{A%}       ! Realised as 'а', 'е', 'о', 'ө' 
@@ -8551,6 +8553,13 @@ LEXICON Abbreviations
 ж%.б%.у%.с%. ABBR ; ! жана башка ушул сыяктуу "and similar"
 № ABBR ; 
 ISBN ABBR ; 
+кг ABBR ; 
+км ABBR ; 
+см ABBR ; 
+м³:м3 ABBR ; ! Dir/LR
+м³ ABBR ; 
+янв%. ABBR ; 
+февр%. ABBR ; 
 
 LEXICON Interjections 
 
@@ -8558,6 +8567,7 @@ LEXICON Interjections
 мына INTERJ ; ! "here is, вот"
 ооба INTERJ ; ! "yes"
 жок INTERJ ; ! "no"
+эй INTERJ ; ! "hey"
 ананчы INTERJ ; ! "of course"
 макул INTERJ ; ! "fine/okay"
 мейли INTERJ ; ! "okay/fine"
@@ -8573,3 +8583,7 @@ LEXICON Punctuation
 %?%<sent%>:%? # ; 
 %'%<apos%>:%' # ;
 %"%<sent%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%”%<rquot%>:%” # ;
+%“%<lquot%>:%“ # ;
