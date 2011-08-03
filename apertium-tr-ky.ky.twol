@@ -270,7 +270,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ %{I%}: р: ] ;
 "Vowel harmony for archiphoneme {E}" ! should be just like {A}
 !Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns ] _ ; 
 !Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ; 
-Vx:Vy <=> [ :LastVowel [ :Cns - й ] ]/[ :0 | %>: ] _ ; 
+Vx:Vy <=> [ :LastVowel Cns* [ :Cns - й ] ]/[ :0 | %>: ] _ ; 
         where Vx         in ( %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} )
               Vy         in (   е     ө     е     е     ө     а     а     о     о     а     а     а   )
               LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
