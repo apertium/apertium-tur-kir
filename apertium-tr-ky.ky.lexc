@@ -7647,7 +7647,8 @@ LEXICON VerbStems
 ач V-INFL-TV ; ! "open"
 аш V-INFL-IV ; 
 бар V-INFL-IV ; ! "go"
-бас V-INFL-IV ;
+бас V-INFL-IV ; ! "walk"
+бас V-INFL-TV ; ! "push"
 белгиле V-INFL-TV ;
 бер V-INFL-TV ; 
 бил V-INFL-IV ; ! "know"
@@ -7975,7 +7976,6 @@ LEXICON VerbStems
 иш% жүзүнө% ашыр V-INFL-TV ;
 колдо V-INFL-TV ;
 жуун V-INFL-IV ;
-бас V-INFL-IV ;
 жүр V-INFL-TV ;
 жарыяла V-INFL-TV ;
 кабарла V-INFL-TV ;
