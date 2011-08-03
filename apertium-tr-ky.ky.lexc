@@ -987,6 +987,7 @@ LEXICON Pronouns
 ал% жак PRON-DEM ;
 
 айрым PRON-IND ; ! "other"
+башка PRON-IND ; ! "other"
 баары PRON-IND ; ! "everyone"
 
 кээ% бир PRON-QNT ; ! "some"
@@ -6580,7 +6581,6 @@ LEXICON AdjecStems
 кургак ADJ ; 
 түндүк ADJ ; 
 түштүк% чыгыш ADJ ; 
-башка ADJ ; 
 батыш ADJ ; 
 күчтүү ADJ ; 
 кичинекей ADJ ; 
