@@ -699,7 +699,7 @@ LEXICON V-INFL-FINITE
 %<pot%>:%>ч%{U%}%>д%{A%}й V-PERS-COP ;                        ! 
 %<pcond%>:%>м%{A%}к V-PERS-COP ;                              ! 
 
-%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! TODO: Check
+!%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! TODO: Check  (WTF is this?)
 !%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}р V-PERS-COP ;              !
 !%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}%{A%}р V-PERS-COP ;         ! Dir/LR
 !%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;         ! 
@@ -707,7 +707,7 @@ LEXICON V-INFL-FINITE
 %<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}с V-PERS-COP ;         ! Dir/LR
 %<neg%>%<ifi%>:%>%{G%}%{A%}н% жок V-PERS-COP ;         !
 %<neg%>%<aor%>:%>%{B%}%{A%}%>%{E%} V-PERS-PRES ;              !
-%<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! 
+!%<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! not a finite form
 %<neg%>%<past%>:%>%{B%}%{A%}%>%{G%}%{A%}н V-PERS-COP ;        ! 
 %<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP ;           ! 
 %<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP ;              ! 
