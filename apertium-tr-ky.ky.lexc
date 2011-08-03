@@ -7700,6 +7700,7 @@ LEXICON VerbStems
 тарт V-INFL-IV ;
 таң% ат V-INFL-TV ; ! "dawn"
 тий V-INFL-TV ; ! "touch" (takes dative)
+тий:тийгиз V-INFL-IV-IRREG-CAUS ; ! "make touch"
 тур V-INFL-IV ; ! "stand, live"
 түз V-INFL-TV ; ! "fill in/out" (e.g., a list)
 түздө V-INFL-TV ; ! ""
@@ -7986,7 +7987,7 @@ LEXICON VerbStems
 басым% жаса V-INFL-TV ;
 өл V-INFL-IV ;
 тарт V-INFL-TV ;
-тий V-INFL-TV ;
+!тий V-INFL-TV ;
 белгиле V-INFL-TV ;
 тааны V-INFL-TV ;
 жет V-INFL-IV-NO-CAUS ; 
@@ -8183,7 +8184,7 @@ LEXICON VerbStems
 айтV-INFL-IV ;
 айтV-INFL-TV ;
 сөз% кыл V-INFL-TV ;
-тий V-INFL-TV ;
+!тий V-INFL-TV ;
 тара V-INFL-IV ;
 чачыра V-INFL-IV ;
 !жет V-INFL-TV ;
