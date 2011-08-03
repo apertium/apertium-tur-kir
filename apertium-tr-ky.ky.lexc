@@ -761,6 +761,7 @@ LEXICON V-INFL-IV-IRREG-CAUS
 LEXICON Copula
 
 э%<cop%>%<ger%>:экен POSSESSION ;
+э%<cop%>%<ger_perf%>:экен%>%{L%}%{I%}к POSSESSION ;
 
 LEXICON Particles 
 
