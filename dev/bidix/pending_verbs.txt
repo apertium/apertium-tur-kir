@@ -4,73 +4,7 @@
      49 sonuçla<v><pass><t_imp><2s>/sonuçlan<v><t_imp><2s>
      26 buy<v><t_imp><2s>
      25 adlan<v><t_imp><2s>
-     18 varsay<v><t_imp><2s>
-     18 sömür<v><t_imp><2s>
-     18 konakla<v><t_imp><2s>
-     18 kana<v><t_imp><2s>
-     18 hapset<v><t_imp><2s>
-     18 grupla<v><t_imp><2s>
-     18 bilinçlen<v><t_imp><2s>
-     18 bileş<v><t_imp><2s>
-     18 beğen<v><t_imp><2s>
-     18 arın<v><t_imp><2s>
-     17 uyuş<v><t_imp><2s>
-     17 şartla<v><t_imp><2s>
-     17 pompala<v><t_imp><2s>
-     17 önemse<v><t_imp><2s>
-     17 kirlet<v><t_imp><2s>
-     17 kastet<v><t_imp><2s>
-     16 yaşlan<v><t_imp><2s>
-     16 tanış<v><t_imp><2s>
-     15 ört<v><t_imp><2s>
-     15 not al<v><t_imp><2s>
-     15 kirlen<v><t_imp><2s>
-     15 kaynaş<v><t_imp><2s>
-     14 şiddetlen<v><t_imp><2s>
-     14 programla<v><t_imp><2s>
-     14 kop<v><t_imp><2s>
-     14 hükmet<v><t_imp><2s>
-     14 hakla<v><t_imp><2s>
-     14 geçin<v><t_imp><2s>
-     14 eşitle<v><t_imp><2s>
-     14 esirge<v><t_imp><2s>
-     14 azmet<v><t_imp><2s>
-     14 aklan<v><t_imp><2s>
-     13 yücel<v><t_imp><2s>
-     13 yakın<v><t_imp><2s>
-     13 uyu<v><t_imp><2s>
-     13 silahla<v><pass><t_imp><2s>/silahlan<v><t_imp><2s>
-     13 listele<v><t_imp><2s>
-     13 kızış<v><t_imp><2s>
-     13 kabullen<v><t_imp><2s>
-     13 çarpıt<v><t_imp><2s>
-     13 abar<v><t_imp><2s>
-     12 yuvala<v><t_imp><2s>
-     12 sürü<v><t_imp><2s>
-     12 sök<v><t_imp><2s>
-     12 gözük<v><t_imp><2s>
-     12 görüntüle<v><t_imp><2s>
-     12 eriş<v><t_imp><2s>
-     12 diril<v><t_imp><2s>
-     11 yeşer<v><t_imp><2s>
-     11 üz<v><t_imp><2s>
-     11 sıva<v><t_imp><2s>
-     11 sakın<v><t_imp><2s>
-     11 lekele<v><t_imp><2s>
-     11 kaygılan<v><t_imp><2s>
-     11 işaretle<v><t_imp><2s>
-     11 demirle<v><t_imp><2s>
-     11 defnet<v><t_imp><2s>
-     11 damgala<v><t_imp><2s>
-     11 dalgalan<v><t_imp><2s>
-     10 yuvarla<v><t_imp><2s>
-     10 tap<v><t_imp><2s>
-     10 övün<v><t_imp><2s>
-     10 kayna<v><t_imp><2s>
-     10 dola<v><pass><t_imp><2s>/dolan<v><t_imp><2s>
-     10 doku<v><pass><t_imp><2s>/dokun<v><t_imp><2s>
-     10 bürü<v><t_imp><2s>
-     10 aldat<v><t_imp><2s>
+     
       9 yolla<v><t_imp><2s>
       9 ucuzla<v><t_imp><2s>
       9 tartakla<v><t_imp><2s>
