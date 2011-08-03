@@ -113,6 +113,7 @@ Rules
 !Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ [ ? -[ %{I%}:0 р:0 ] ] ;
 Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ %{I%}: р: ] ;
 !Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
+!Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] ] ( %>: ) _ ;
         where Cx in ( %{B%}  %{G%}  %{D%}  %{L%}  %{N%} )
               Cy in (   п      к      т      т      т)
               matched;
@@ -154,9 +155,13 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ %{I%}: р: ] ;
 !п:б <=> :HighVow (:0) _ %>: (:0) [ [:SurVow - %{I%}:] [:* - п]* | %{I%}: ] .#. ;
 !        :HighVow (:0) _ %>: (:0) :SurVow ;
 !        :SurVow (:0)  _ %>: (:0) [ [:SurVow - %{I%}:] [:* - п]* | %{I%}: ] .#. ;
-п:б <=> :HighVow _ %>: [ [:SurVow - %{I%}:] [:* - п]* | %{I%}: ]/[ :0 ] .#. ;
+!п:б <=> :HighVow _ %>: [ [:SurVow - %{I%}:] [:* - п]* | %{I%}: ]/[ :0 ] .#. ;
+!        :HighVow _ %>: :SurVow/:0 ;
+!        :SurVow  _ %>: [ [ [:SurVow - %{I%}:] [:* - п] ]* | %{I%}: ]/[ :0 ] .#. ;
+п:б <=> :HighVow _ %>: [ [:SurVow - %{I%}:] [:* - п]* | %{I%}: ]/[ :0 ] ;
         :HighVow _ %>: :SurVow/:0 ;
-        :SurVow  _ %>: [ [:SurVow - %{I%}:] [:* - п]* | %{I%}: ]/[ :0 ] .#. ;
+        :SurVow  _ %>: [ [ [:SurVow - %{I%}:] [:* - п] ] | %{I%}: ]/[ :0 ] ;
+
 
 
 
