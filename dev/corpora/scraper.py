@@ -2,6 +2,7 @@
 
 from scraper_classes import Feed, SimpleHtmlScraper
 import argparse, sys
+import urllib.error
 
 
 parser = argparse.ArgumentParser(description='Scrape RSS feeds to build corpora.')
@@ -29,8 +30,12 @@ if args.feedlist != None:
 			#print(feed.feed)
 			for source in feed.get_sources():
 				#print(source)
-				source.makeRoot(args.outdir)
-				source.add_to_archive()
+				try:
+					source.makeRoot(args.outdir)
+					source.add_to_archive()
+				except urllib.error.HTTPError:
+					print("+++ "+str(urllib.error.HTTPError))
+
 		else:
 			page = SimpleHtmlScraper("history", url, args.outdir)
 			page.parse()

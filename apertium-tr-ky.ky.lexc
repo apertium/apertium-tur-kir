@@ -814,23 +814,23 @@ LEXICON Conjunctions
 кийин CA ; ! ""
 
 
-жана CA ; ! Dir/RL "but" 
+жана CA ; ! Dir/RL "but"  ! Eh?? 
 
-болуп CS ; ! Dir/RL ""
+болуп CS ; ! Dir/RL ""    ! Huh?
 
 га CA ;
 да CA ;
-сыяктуу CS ;
-керек CC ;
-арасы CC ;
-эмеспи CA ;
+! сыяктуу CS ;
+! керек CC ;
+! арасы CC ;
+! эмеспи CA ;
 же% болбосо CA ;
-анткени CA ;
+! анткени CA ;
 башкача% айтканда CA ;
-мейли CA ;
+! мейли CA ;
 татыктуу CC ;
 бирок% тилекке% каршы CA ;
-мисалы CA ;
+! мисалы CA ;
 деп CS ;
 ошондуктан CA ;
 ал% эмес CA ;
@@ -857,17 +857,17 @@ LEXICON Conjunctions
 туурасы CA ;
 балким CA ;
 так% эле CA ;
-бар% го CA ;
+! бар% го CA ;
 тээ CA ;
 а% бирок CA ;
 чынында CA ;
 маселен CA ;
 кыскача% айтканда CA ;
-мына CA ;
+! мына CA ;
 эч% болбосо CA ;
 жок% дегенде CA ;
-чынында CA ;
-дейсиң CA ;
+! чынында CA ;
+! дейсиң CA ;
 
 LEXICON Postpositions
 
@@ -3236,7 +3236,8 @@ LEXICON NounStems
 өгүз N-INFL ; 
 өлчөм N-INFL ; 
 өлчөө N-INFL ; 
-асты N-INFL ; 
+асты N-INFL ;  ! FIXME: probably not
+аст N-INFL ;  ! "bottom" (used as postposition "underneath, below")
 өрдөк N-INFL ; 
 үрп% адат N-INFL ; 
 өрнөк N-INFL ; 
@@ -3825,7 +3826,7 @@ LEXICON NounStems
 кам N-INFL ; 
 официант N-INFL ; 
 максат N-INFL ; 
-аракет N-INFL ; 
+!аракет N-INFL ; 
 терс N-INFL ; 
 ардагер N-INFL ; 
 бооз N-INFL ; 
@@ -4362,7 +4363,7 @@ LEXICON NounStems
 ортоктук N-INFL ;
 сунуш N-INFL ;
 комиссия N-INFL ;
-аракет N-INFL ;
+!аракет N-INFL ;
 кыймыл N-INFL ;
 тоолуу% коргон N-INFL ;
 күндөлүк N-INFL ;
@@ -4385,7 +4386,7 @@ LEXICON NounStems
 ден N-INFL ;
 тергөө N-INFL ;
 сурамжылоо N-INFL ;
-арт N-INFL ;
+арт N-INFL ;   ! postposition "back, behind, etc."
 акчалуу N-INFL ;
 каражатту N-INFL ;
 акча N-INFL ;
@@ -4449,7 +4450,7 @@ LEXICON NounStems
 ичинде N-INFL ;
 кабинет N-INFL ;
 ишкердик N-INFL ;
-иш% аракет N-INFL ;
+!иш% аракет N-INFL ;
 долбоор N-INFL ;
 эскиз N-INFL ;
 чийме N-INFL ;
@@ -4798,7 +4799,7 @@ LEXICON NounStems
 кетүү N-INFL ;
 сунуш N-INFL ;
 камсыздоо N-INFL ;
-аракет N-INFL ;
+!аракет N-INFL ;
 ыраазы N-INFL ;
 карыжылама N-INFL ;
 банда N-INFL ;
@@ -4952,7 +4953,7 @@ LEXICON NounStems
 календарь N-INFL ;
 альтернатива N-INFL ;
 иликтөө N-INFL ;
-мисал N-INFL ;
+!мисал N-INFL ;
 маселе N-INFL ;
 ак N-INFL ;
 сурак N-INFL ;
@@ -5813,7 +5814,7 @@ kanal N-INFL ;
 жашоо N-INFL ;
 өрт N-INFL ;
 авто% тыр N-INFL ;
-аракет N-INFL ;
+!аракет N-INFL ;
 доклад N-INFL ;
 мүрзөө N-INFL ;
 сый N-INFL ;
@@ -7325,6 +7326,7 @@ LEXICON AdjecStems
 карапайым ADJ ;
 шылдыңдуу ADJ ;
 ала ADJ ;
+артык ADJ ;
 
 абдан% жаман ADJ ;
 адаттан% тышкары ADJ ;
@@ -7590,7 +7592,7 @@ LEXICON AdvStems
 болушунча ADV ;
 өз% алдынча ADV ;
 шарттуу ADV ;
-мисалы ADV ;
+! мисалы ADV ;
 атын% атап ADV ;
 ар% күн ADV ;
 чынында ADV ;
@@ -8121,7 +8123,7 @@ LEXICON VerbStems
 алып% бар V-INFL-TV ;
 сыз V-INFL-IV ;
 чий V-INFL-IV ;
-аракет% кыл V-INFL-IV ;
+!аракет% кыл V-INFL-IV ;
 эт V-INFL-IV ;
 киргиз V-INFL-TV ;
 тык V-INFL-TV ;
@@ -8345,7 +8347,7 @@ LEXICON VerbStems
 күноөөлө V-INFL-IV ;
 арыкта V-INFL-IV ;
 соодала V-INFL-IV ;
-аракет% кыл V-INFL-IV ;
+!аракет% кыл V-INFL-IV ;
 кечир V-INFL-IV ;
 сына V-INFL-IV ;
 жыйынтыкта V-INFL-IV ;
@@ -8401,7 +8403,7 @@ LEXICON VerbStems
 куралсыздан V-INFL-IV ;
 куралдан V-INFL-IV ;
 жай V-INFL-TV ;
-аракет% кыл V-INFL-TV ;
+!аракет% кыл V-INFL-TV ;
 ыңгайлаштыр V-INFL-TV ;
 бүрк V-INFL-IV ;
 тынык V-INFL-IV ;
