@@ -918,7 +918,7 @@ LEXICON Postpositions
 улам POST ;
 учурга% чейин POST ;
 башка POST ;  ! FIXME: this isn't a POST !!!
-убактагы POST ;
+! убактагы POST ;
 ! байланыштуу% болчу POST ; ! FIXME Agh what is this??
 боюнча POST ;
 өйдө POST ;
@@ -2409,6 +2409,7 @@ LEXICON NounStems
 магнезий N-INFL ; 
 маал N-INFL ; 
 убакыт N-INFL ; 
+убак N-INFL ;
 мезгил N-INFL ; 
 сот N-INFL ; 
 макала N-INFL ; 
