@@ -33,10 +33,11 @@ FromCns = SurCns Я я Ё ё Ю ю ;
 !%{A%}       ! Realised as 'а', 'е', 'о', 'ө' 
 !%{I%}       ! Realised as 'ы', 'и', 'у', 'ү'
 !%{U%}       ! Realised as 'у', 'ү'
+!%{y%}       ! Realised as '', 'ы', 'и', 'у', 'ү'
 
 Vow =     А Е Ё И О Ө У Ү Ы Э Ю Я
           а е ё и о ө у ү ы э ю я 
-          %{A%} %{I%} %{U%} %{E%} ;
+          %{A%} %{I%} %{U%} %{E%} %{y%} ;
 
 SurVow = А Е Ё И О Ө У Ү Ы Э Ю Я
          а е ё и о ө у ү ы э ю я ; 
@@ -104,7 +105,23 @@ Rules
 
 "N Desonorisation"
 %{N%}:д <=> VoicedCns %>: _ ;
+!%{N%}:д <=> VoicedCns (%>:) _ ;
 !!%{N%}:д <=> [ SonCns | VoicedNonSonCns ] %>:  _ ;
+
+!!!!!! рн stuff !!!!! 
+
+"Unepenthesis in рн stems"
+%{y%}:0 <=> _ [ :Cns :SurVow ]/[ :0 | %>: ] ;
+
+"Harmony of epenthesised vowel in рн stems"
+!%{y%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[:0] _ [ :Cns \:SurVow ]/[ :0 | %>:] ;
+%{y%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[:0] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>:] ;
+  where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
+  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
+           matched ;
+
+"Desonorisation of н when no vowel epenthesised"
+н:д <=> р %{y%}:0 _ ;
 
 !!!!!!!!!!!!!   Rules that might be messing with me !!!!!!!!!!!!!
 

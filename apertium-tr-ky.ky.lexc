@@ -157,6 +157,8 @@ Multichar_Symbols
 %{S%}       ! Realised as 'с' or ''; only used in 3rd person morphology
 %{n%}       ! Realised as 'н' or ''; only used in 3rd person morphology and -NIKI
 %{l%}       ! Realised as 'л' or 'н'; only used in passive -{I}{l}
+%{y%}       ! Realised as '' or '{I}'; only used in epenthesis for nouns
+
 
 @P.NEG.0@   ! Set if -{I}š is not present
 @P.NEG.1@   ! Set if -{I}š is present
@@ -534,7 +536,8 @@ LEXICON PRON-QNT
 
 LEXICON PRON-RECIP
 
-%<prn%>%<recip%>: CASES ;
+!%<prn%>%<recip%>: CASES ;
+%<prn%>%<recip%>: POSSESSION ;
 
 
 LEXICON PRED
@@ -929,6 +932,7 @@ LEXICON Determiners
 
 бул DET-DEM ; ! "this"
 бу DET-DEM ; ! "this" ! Dir/LR
+мобу DET-DEM ; ! "this here"
 ошол DET-DEM ; ! "that"
 ошо DET-DEM ; ! "that" ! Dir/LR
 ушул DET-DEM ; ! "this (visible)"
@@ -1011,7 +1015,7 @@ LEXICON Pronouns
 кайсы% жер PRON-ITG ; 
 эмне PRON-ITG ;
 кайсы PRON-ITG ;
-бирин-бири PRON-RECIP ; 
+бирин-бири PRON-RECIP ;   ! hm?
 тиги PRON-DEM ;
 
 LEXICON Numerals 
@@ -1472,7 +1476,6 @@ LEXICON NounStems
 мал N-INFL ; ! "livestock / herd animal"
 мамлекет N-INFL ; ! "state"
 мектеп N-INFL ; ! "school"
-мурун N-INFL ; ! "nose"
 наристе N-INFL ; 
 ини N-INFL ; ! "younger brother"
 омийин N-INFL ; 
@@ -3527,7 +3530,6 @@ LEXICON NounStems
 жылдыз N-INFL ; 
 бюрократия N-INFL ; 
 стипендия N-INFL ; 
-мурун N-INFL ; 
 шуру N-INFL ; 
 бут N-INFL ; 
 бюджет N-INFL ; 
@@ -4073,7 +4075,10 @@ LEXICON NounStems
 тил N-INFL ;
 ич N-INFL ;
 кыргыз N-INFL ;
-орун N-INFL ;
+!орун N-INFL ;
+орун:ор%{y%}н N-INFL ;  ! "place" ! FIXME: make work properly
+!мурун N-INFL ; ! "nose"
+мурун:мур%{y%}н N-INFL ; ! "nose" ! FIXME: make work properly
 тоо N-INFL ;
 ардак N-INFL ;
 өз N-INFL ;
@@ -4622,7 +4627,6 @@ LEXICON NounStems
 коён N-INFL ; ! "rabbit"
 коёнек N-INFL ; ! "bunny wabbit"
 доллар N-INFL ;
-орун N-INFL ;
 отургуч N-INFL ;
 партнер N-INFL ;
 орток N-INFL ;
@@ -5185,7 +5189,6 @@ LEXICON NounStems
 камсыздандырма N-INFL ;
 борбор N-INFL ;
 митинг N-INFL ;
-өзгөрүү N-INFL ;
 табылга N-INFL ;
 кармоо N-INFL ;
 толкун N-INFL ;
@@ -5916,6 +5919,7 @@ kanal N-INFL ;
 байкуш% киши N-INFL ;
 сарсанаа N-INFL ;
 боор N-INFL ;
+өзгөчөлүк N-INFL ; 
 
 LEXICON PropernounStems
 Алматы NP-TOP ;
@@ -6241,6 +6245,7 @@ Tеңир NP-TOP ; ! ""
 Мухаммед NP-ANT-M ;
 Жусуп NP-ANT-M ;
 Полот NP-ANT-M ;
+Малклом NP-ANT-M ; ! "Malcolm
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
@@ -6248,6 +6253,8 @@ Tеңир NP-TOP ; ! ""
 Сандра NP-ANT-F ;
 Анна NP-ANT-F ;
 Аня NP-ANT-F ;
+
+Жаңыл NP-ANT-F ;
 
 Солтоноев NP-COG-MF ;
 Чороев NP-COG-MF ;
@@ -7348,6 +7355,26 @@ LEXICON AdjecStems
 тартимптүү ADJ ;
 тыйылган ADJ ;
 эптүү ADJ ;
+түшүнүктүү ADJ ; ! "understandable"
+көрүнүктүү ADJ ;
+
+
+!! FIXME: productive {K}{I} forms
+мурунку ADJ ; ! "old (former)"
+бүгүнкү ADJ ; ! "today's"
+астынкы ADJ ; ! "lower"
+алдынкы ADJ ; ! "forward"
+үстүнкү ADJ ; ! "upper"
+баягы ADJ ; ! "~former"
+жанагы ADJ ; ! "~recent"
+келерки ADJ ; ! "coming/future"
+келээрки ADJ ; ! "coming/future"
+эмки ADJ ; ! "next/soon-to-be"
+аркы ADJ ; ! "further away"
+наркы ADJ ; ! "futher away"
+берки ADJ ; ! "nearer"
+алгачкы ADJ ; ! "first"
+
 
 LEXICON AdvStems
 
@@ -7649,7 +7676,7 @@ LEXICON VerbStems
 жарат V-INF-TV ;
 аарчы V-INFL-IV ;  ! ""
 аарчы V-INFL-TV ;  ! ""
-айлант V-INFL-TV ; ! "give headache" ! FIXME: regular
+! айлант V-INFL-TV ; ! "give headache" ! FIXME: regular/productive
 айлан V-INFL-IV ; ! "turn around"
 айт V-INFL-IV ; ! "tell"
 айт V-INFL-TV ; ! "tell"
@@ -7661,7 +7688,8 @@ LEXICON VerbStems
 ата V-INFL-TV ;
 атта V-INFL-TV ; 
 ач V-INFL-TV ; ! "open"
-аш V-INFL-IV ; 
+аш V-INFL-IV-NO-CAUS ; ! "pass/exceed"
+аш:ашыр V-INFL-IV-IRREG-CAUS ; ! "make exceed"
 бар V-INFL-IV ; ! "go"
 бас V-INFL-IV ; ! "walk"
 бас V-INFL-TV ; ! "push"
@@ -7755,7 +7783,7 @@ LEXICON VerbStems
 башта V-INFL-TV ; 
 без V-INFL-IV ; 
 билдир V-INFL-TV ; 
-билин V-INFL-IV ; 
+! билин V-INFL-IV ;  ! productive
 боё V-INFL-TV ; 
 буз V-INFL-TV ; 
 бузул V-INFL-IV ; 
@@ -7769,7 +7797,10 @@ LEXICON VerbStems
 бүк V-INFL-TV ; 
 бүктө V-INFL-TV ; 
 бөл V-INFL-TV ; ! "divide"
-кий V-INFL-TV ; 
+кий V-INFL-TV ; ! "put on"
+кий V-INFL-IV-NO-CAUS ; "get dressed"
+кий:кийгиз V-INFL-IV-IRREG-CAUS ; ! "dress"
+кийин V-INFL-TV ; "wear"
 гэр V-INFL-TV ; 
 даярда V-INFL-TV ; 
 элестет V-INFL-TV ; ! "imagine"
@@ -7954,7 +7985,8 @@ LEXICON VerbStems
 тый V-INFL-IV ;
 жүргүз V-INFL-TV ;
 ыйгар V-INFL-IV ;
-улант V-INFL-TV ;
+! улант V-INFL-TV ;  ! productive
+улан V-INFL-TV ; 
 ишке% ашыр V-INFL-IV ;
 !бүтүр V-INFL-IV ; ! Irregular causitive
 аткар V-INFL-IV ;
@@ -7974,7 +8006,8 @@ LEXICON VerbStems
 ойло V-INFL-TV ;
 салыштыр V-INFL-IV;
 манёвр% кыл V-INFL-TV ;
-көтөрүл V-INFL-IV ;
+көтөр V-INFL-TV ; ! "lift, raise"
+! көтөрүл V-INFL-IV ; ! productive
 алкыш% кыл V-INFL-TV ;
 үмүт% кыл V-INFL-TV ;
 коп V-INFL-IV ;
@@ -8017,7 +8050,8 @@ LEXICON VerbStems
 ут V-INFL-TV ;
 ут V-INFL-IV ;
 жең V-INFL-TV ;
-чогулт V-INFL-TV ;
+! чогулт V-INFL-TV ;  ! productive
+чогул V-INFL-IV ;
 кош V-INFL-TV ;
 изде V-INFL-TV ;
 корго V-INFL-TV ;
@@ -8043,7 +8077,7 @@ LEXICON VerbStems
 сын% пикир% айт V-INFL-TV ;
 жогот V-INFL-TV ;
 жеңил V-INFL-TV ;
-баалан V-INFL-IV ;
+! баалан V-INFL-IV ; ! productive
 өнүк V-INFL-TV ;
 кайтала V-INFL-TV ;
 азай V-INFL-IV ;
@@ -8070,7 +8104,7 @@ LEXICON VerbStems
 сотто V-INFL-TV ;
 тире V-INFL-TV ;
 тая V-INFL-TV ;
-көтөрүл V-INFL-IV ;
+! көтөрүл V-INFL-IV ; ! productive
 жакында V-INFL-IV ;
 тос V-INFL-TV ;
 тоскоолдук% кыл V-INFL-TV ;
@@ -8143,7 +8177,6 @@ LEXICON VerbStems
 чагыл V-INFL-IV ;
 чоңой V-INFL-TV ;
 жолугуш V-INFL-TV ;
-өзгөр V-INFL-IV ;
 куткар V-INFL-TV ;
 жарыш V-INFL-TV ;
 кызыктыр V-INFL-TV ;
@@ -8319,8 +8352,8 @@ LEXICON VerbStems
 ачылыш% жаса V-INFL-IV ;
 көм V-INFL-TV ;
 кыс V-INFL-TV ;
-уюштур V-INFL-IV ;
-сахналаштыр V-INFL-IV ;
+уюштур V-INFL-TV ;  ! CHECK: was IV
+сахналаштыр V-INFL-TV ; ! CHECK: was IV
 күт V-INFL-TV ;
 кириш V-INFL-TV ;
 тартыш V-INFL-TV ;
@@ -8348,7 +8381,7 @@ LEXICON VerbStems
 арыкта V-INFL-IV ;
 соодала V-INFL-IV ;
 !аракет% кыл V-INFL-IV ;
-кечир V-INFL-IV ;
+кечир V-INFL-TV ; ! CHECK: was IV
 сына V-INFL-IV ;
 жыйынтыкта V-INFL-IV ;
 кууру V-INFL-IV ;
@@ -8428,7 +8461,7 @@ LEXICON VerbStems
 баш% тарт V-INFL-IV ;
 салыштыр V-INFL-IV ;
 камкордук% көр V-INFL-TV ;
-кыскарт V-INFL-TV ;
+!кыскарт V-INFL-TV ; ! productive
 эз V-INFL-TV ;
 арылт V-INFL-TV ;
 эскер V-INFL-IV ;
@@ -8436,7 +8469,7 @@ LEXICON VerbStems
 музда V-INFL-IV ;
 карыз% бол V-INFL-IV ;
 ылайыкташ V-INFL-TV ;
-төмөнсүнт V-INFL-IV ;
+! төмөнсүнт V-INFL-IV ;
 талап% ал V-INFL-IV ;
 тык V-INFL-IV ;
 айла% жүргүз V-INFL-IV ;
@@ -8573,7 +8606,6 @@ LEXICON VerbStems
 тартипке% сал V-INFL-IV ;
 жакын% көр V-INFL-IV ;
 кол% кармаш V-INFL-IV ;
-көтөрүл V-INFL-IV ;
 сууса V-INFL-IV ;
 сийрыл V-INFL-IV ;
 тилде V-INFL-IV ;
@@ -8666,7 +8698,6 @@ LEXICON VerbStems
 ардан V-INFL-IV ;
 зарылдык% туй V-INFL-IV ;
 түнө V-INFL-IV ;
-баала V-INFL-TV ;
 папкага% тирке V-INFL-TV ;
 туура V-INFL-TV ;
 бөлүктөргө% ажырат V-INFL-TV ;
@@ -8679,6 +8710,7 @@ LEXICON VerbStems
 атыш V-INFL-IV ;
 жаңыр V-INFL-IV ;
 оору V-INFL-IV ;
+эмгектен V-INFL-IV ; ! FIXME: check transitivity (should be IV?)
 
 LEXICON Abbreviations
 
@@ -8711,6 +8743,8 @@ LEXICON Interjections
 ананчы INTERJ ; ! "of course"
 макул INTERJ ; ! "fine/okay"
 мейли INTERJ ; ! "okay/fine"
+түшүнүктүү INTERJ ; ! "understood"
+ме INTERJ ; ! "here you go / take"
 
 LEXICON Punctuation
 
