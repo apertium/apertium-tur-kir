@@ -412,7 +412,8 @@ NumeralList ;
 %. NumeralList  ;
 %, NumeralList  ;
 %%%<num%>:%% CASES ;
-Num ;
+!Num ;
+NUM ;
 
 LEXICON NUM-ROMAN
 
@@ -7688,7 +7689,7 @@ LEXICON VerbStems
 кур V-INFL-TV ;
 бол V-INFL-IV ; ! "be"
 ! чыгар V-INFL-TV ; ! ""  ! Irregular transitive
-жарат V-INF-TV ;
+жарат V-INFL-TV ;
 аарчы V-INFL-IV ;  ! ""
 аарчы V-INFL-TV ;  ! ""
 ! айлант V-INFL-TV ; ! "give headache" ! FIXME: regular/productive
@@ -8243,10 +8244,6 @@ LEXICON VerbStems
 жогол V-INFL-TV ;
 адаш V-INFL-IV ;
 бошо V-INFL-IV ;
-суйлөV-INFL-IV ;
-суйлөV-INFL-TV ;
-айтV-INFL-IV ;
-айтV-INFL-TV ;
 сөз% кыл V-INFL-TV ;
 !тий V-INFL-TV ;
 тара V-INFL-IV ;
