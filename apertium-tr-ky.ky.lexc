@@ -901,7 +901,7 @@ LEXICON Postpositions
 тышкары POST ; ! "aside from, besides" +abl
 бери POST ; ! "since" +abl
 жараша POST ;
-байланыштуу POST ;
+байланыштуу POST ; ! "in connection with" +dat
 үчүн POST ;
 каршы POST ;
 карабастан POST ;
@@ -919,7 +919,7 @@ LEXICON Postpositions
 учурга% чейин POST ;
 башка POST ;  ! FIXME: this isn't a POST !!!
 убактагы POST ;
-байланыштуу% болчу POST ;
+! байланыштуу% болчу POST ; ! FIXME Agh what is this??
 боюнча POST ;
 өйдө POST ;
 менен POST ;
@@ -3447,7 +3447,6 @@ LEXICON NounStems
 бут N-INFL ; 
 аки N-INFL ; 
 боо N-INFL ; 
-!байланыш N-INFL ; 
 шылтоо N-INFL ; 
 бахарат N-INFL ; 
 бакча N-INFL ; 
@@ -3942,7 +3941,6 @@ LEXICON NounStems
 каракчы N-INFL ; 
 таң N-INFL ; 
 ибадат N-INFL ; 
-байланыштуу N-INFL ; 
 муктаждык N-INFL ; 
 ойлоп% табуу N-INFL ; 
 уруксат N-INFL ; 
@@ -3981,7 +3979,6 @@ LEXICON NounStems
 теология N-INFL ; 
 кулактандыруу N-INFL ; 
 кошумча N-INFL ; 
-байланыш N-INFL ; 
 алака N-INFL ; 
 илхом N-INFL ; 
 облас N-INFL ; 
@@ -4470,7 +4467,6 @@ LEXICON NounStems
 тизме N-INFL ;
 ыраазычылык N-INFL ;
 жактырыш N-INFL ;
-байланыш N-INFL ;
 мамиле N-INFL ;
 тийиш N-INFL ;
 кайтаруу N-INFL ;
@@ -5084,7 +5080,6 @@ LEXICON NounStems
 таянган N-INFL ;
 механизм N-INFL ;
 политика N-INFL ;
-байланыш N-INFL ;
 таштоо N-INFL ;
 беш N-INFL ;
 анализ N-INFL ;
@@ -5197,7 +5192,6 @@ LEXICON NounStems
 таянган N-INFL ;
 механизм N-INFL ;
 политика N-INFL ;
-байланыш N-INFL ;
 таштоо N-INFL ;
 беш N-INFL ;
 анализ N-INFL ;
@@ -5282,7 +5276,6 @@ LEXICON NounStems
 алды N-INFL ;
 арыз N-INFL ;
 чогуу N-INFL ;
-байланыш N-INFL ;
 аны N-INFL ;
 минимум N-INFL ;
 жыныс N-INFL ;
@@ -8703,6 +8696,7 @@ LEXICON VerbStems
 конокто V-INFL-TV ;
 кыймылда V-INFL-IV ;
 шарттарга% байла V-INFL-TV ;
+байла V-INFL-TV ;
 тарсай V-INFL-IV ;
 тиште V-INFL-TV ;
 айкыр V-INFL-IV ;
