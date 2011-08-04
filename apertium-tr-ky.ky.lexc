@@ -6614,7 +6614,6 @@ LEXICON AdjecStems
 граждандык ADJ ;
 көз% карандысыз ADJ ;
 орто ADJ ; 
-кийинки ADJ ; 
 качкын ADJ ; 
 контрабанда ADJ ; 
 мурдагы ADJ ; 
@@ -7374,6 +7373,7 @@ LEXICON AdjecStems
 наркы ADJ ; ! "futher away"
 берки ADJ ; ! "nearer"
 алгачкы ADJ ; ! "first"
+кийинки ADJ ; ! "next"
 
 
 LEXICON AdvStems
@@ -7798,9 +7798,9 @@ LEXICON VerbStems
 бүктө V-INFL-TV ; 
 бөл V-INFL-TV ; ! "divide"
 кий V-INFL-TV ; ! "put on"
-кий V-INFL-IV-NO-CAUS ; "get dressed"
+кий V-INFL-IV-NO-CAUS ; ! "get dressed"
 кий:кийгиз V-INFL-IV-IRREG-CAUS ; ! "dress"
-кийин V-INFL-TV ; "wear"
+кийин V-INFL-TV ; ! "wear"
 гэр V-INFL-TV ; 
 даярда V-INFL-TV ; 
 элестет V-INFL-TV ; ! "imagine"
