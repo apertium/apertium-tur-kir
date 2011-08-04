@@ -21,6 +21,18 @@ Tests:
     ачы<v><iv><caus><vadj_past><pst> : ачыткан
     салкында<v><iv><caus><prt_perf>: салкындатып
 
+  "[twol] Regular causative -т after consonants":
+    өзгөр<v><iv><caus><prt_perf> : өзгөртүп
+    узар<v><iv><caus><prt_perf> : узартып
+    эскир<v><iv><caus><prt_perf> : эскиртип
+    кыскар<v><iv><caus><prt_perf> : кыскартып
+    айлан<v><iv><caus><prt_perf> : айлантып
+    айлан<v><iv><caus><prt_perf> : айландырып
+    улан<v><iv><caus><prt_perf> : уланып
+    улан<v><iv><caus><prt_perf> : уландырып
+    чогул<v><iv><caus><prt_perf> : чогултуп
+
+
   "[lexc] Irregular causatives":
     отур<v><iv><caus><ger><nom> : отургузуу
     быш<v><iv><caus><ger><nom> : бышыруу
@@ -39,9 +51,12 @@ Tests:
   "[twol] Passives":
     сез<v><tv><pass><ger><nom> : сезилүү
     жаз<v><tv><pass><prt_perf> : жазылып
+    көтөр<v><tv><pass><prt_perf> : көтөрүлүп
+    саба<v><tv><pass><prt_perf> : сабалып
 
   "[twol] Passives with verb stem in л":
     мал<v><tv><pass><ger><nom> : малынуу
     жала<v><tv><pass><prt_perf> : жаланып
     бомбала<v><tv><pass><prt_perf> : бомбаланып
     тил<v><tv><pass><prt_perf> : тилинип
+    баала<v><tv><pass><prt_perf> : бааланып
