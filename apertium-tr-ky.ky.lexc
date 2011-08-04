@@ -3095,7 +3095,6 @@ LEXICON NounStems
 ычкыр N-INFL ; 
 убада N-INFL ; 
 вагон N-INFL ; 
-убакыт N-INFL ; 
 вакуум N-INFL ; 
 валет N-INFL ; 
 вальс N-INFL ; 
@@ -3159,7 +3158,6 @@ LEXICON NounStems
 жүзүк N-INFL ; 
 жылкы% үйүрү N-INFL ; 
 заман N-INFL ; 
-убакыт N-INFL ; 
 замандаш N-INFL ; 
 зар N-INFL ; 
 муң N-INFL ; 
@@ -5917,6 +5915,12 @@ kanal N-INFL ;
 өзгөчөлүк N-INFL ; 
 санжыра N-INFL ; ! "genealogy"
 түркмөн N-INFL ; ! "Turkmen"
+таажы N-INFL ; ! "crown"
+тажик N-INFL ; ! "Tajik"
+туш N-INFL ; 
+куран N-INFL ; ! "qur'an"
+жетекчи N-INFL ; ! "director/leader"
+жетекчилик N-INFL ; ! "leadership"
 
 LEXICON PropernounStems
 Алматы NP-TOP ;
@@ -6184,6 +6188,7 @@ Tеңир NP-TOP ; ! ""
 Эрбил NP-TOP ;
 Киев NP-TOP ; ! "Kiev"
 Ноокат NP-TOP ;
+Лейлек NP-TOP ;
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
@@ -6247,6 +6252,9 @@ Tеңир NP-TOP ; ! ""
 Полот NP-ANT-M ;
 Малколм NP-ANT-M ; ! "Malcolm
 Сейтек NP-ANT-M ; 
+Саякбай NP-ANT-M ;
+Калыгул NP-ANT-M ;
+Чоротегин NP-ANT-M ;
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
@@ -7379,6 +7387,7 @@ LEXICON AdjecStems
 кийинки ADJ ; ! "next"
 француз ADJ ; ! "French"
 документалдуу ADJ ; ! "documentary"
+кандидаттык ADJ ; ! FIXME: check
 
 
 LEXICON AdvStems
@@ -8718,6 +8727,11 @@ LEXICON VerbStems
 жаңыр V-INFL-IV ;
 оору V-INFL-IV ;
 эмгектен V-INFL-IV ; ! FIXME: check transitivity (should be IV?)
+айырмала V-INFL-TV ; ! "distinguish"
+багытта V-INFL-TV ; ! FIXME: check transitivity (should be TV?)
+жакта V-INFL-TV ; ! FIXME: check transitivity (probably IV and TV)
+негизде V-INFL-TV ;
+кезде V-INFL-TV ;
 
 LEXICON Abbreviations
 
@@ -8740,6 +8754,7 @@ ISBN ABBR ;
 янв%. ABBR ; 
 февр%. ABBR ; 
 нояб ABBR ;
+сент ABBR ;
 
 LEXICON Interjections 
 
