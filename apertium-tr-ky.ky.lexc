@@ -246,6 +246,9 @@ CASES-PX12SG ;
 
 LEXICON POSSESSION
 GEN-POS ;
+POSSESSION-ENDINGS ;
+
+LEXICON POSSESSION-ENDINGS
 %<px1sg%>:%>%{I%}м GEN-POS-PX12SG ;
 %<px2sg%>:%>%{I%}ң GEN-POS-PX12SG ; 
 %<px2sg%>%<frm%>:%>%{I%}ң%{I%}з GEN-POS ; 
@@ -523,6 +526,11 @@ LEXICON PRON-IND
 
 %<prn%>%<ind%>: CASES ;
 %<prn%>%<ind%>%<pl%>:%>%{L%}%{A%}р CASES ;
+
+LEXICON PRON-IND-POSS
+
+%<prn%>%<ind%>: POSSESSIVE-ENDINGS ;
+
 
 LEXICON PRON-DEM
 
@@ -973,9 +981,9 @@ LEXICON Determiners
 бир% катар DET-QNT ;
 толук DET-QNT ;
 бир% бөлүк DET-QNT ;
-берки DET-IND ;
+!берки DET-IND ;
 бир% канча% даана DET-QNT ;
-берки DET-IND ;
+!берки DET-IND ;
 
 LEXICON Pronouns
 
@@ -1005,7 +1013,8 @@ LEXICON Pronouns
 
 айрым PRON-IND ; ! "other"
 башка PRON-IND ; ! "other"
-баары PRON-IND ; ! "everyone"
+! баары PRON-IND ; ! "everyone"
+баары:баар PRON-IND-POSS ; ! "everyone"
 
 кээ% бир PRON-QNT ; ! "some"
 бир% нече PRON-QNT ; ! "some, several"
@@ -6466,7 +6475,7 @@ LEXICON AdjecStems
 татыктуу ADJ ;
 кесиптик ADJ ;
 камсыз ADJ ;
-азыркы ADJ ; ! "modern"
+!азыркы ADJ ; ! "modern"
 элдик ADJ ; ! "people's"
 башкы ADJ ; ! "principle 
 ылайык ADJ ; ! "appropriate"
@@ -6975,7 +6984,7 @@ LEXICON AdjecStems
 тропикалык ADJ ;
 кумаркеч ADJ ;
 ышкыбоз ADJ ;
-беркиси ADJ ;
+! беркиси ADJ ;
 музыканы% сүйгөн ADJ ;
 ушакчы ADJ ;
 чагымчы ADJ ;
@@ -7368,6 +7377,9 @@ LEXICON AdjecStems
 эптүү ADJ ;
 түшүнүктүү ADJ ; ! "understandable"
 көрүнүктүү ADJ ;
+француз ADJ ; ! "French"
+документалдуу ADJ ; ! "documentary"
+кандидаттык ADJ ; ! FIXME: check
 
 
 !! FIXME: productive {K}{I} forms
@@ -7386,10 +7398,7 @@ LEXICON AdjecStems
 берки ADJ ; ! "nearer"
 алгачкы ADJ ; ! "first"
 кийинки ADJ ; ! "next"
-француз ADJ ; ! "French"
-документалдуу ADJ ; ! "documentary"
-кандидаттык ADJ ; ! FIXME: check
-
+азыркы ADJ ; ! "present"
 
 LEXICON AdvStems
 
