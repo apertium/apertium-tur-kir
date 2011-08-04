@@ -3480,7 +3480,8 @@ LEXICON NounStems
 кароолчу N-INFL ; 
 мерия N-INFL ; 
 документ N-INFL ; 
-документалдуу% тасма N-INFL ; 
+! документалдуу% тасма N-INFL ;  ! compositional
+тасма N-INFL ;
 бел N-INFL ; 
 боштондук N-INFL ; 
 чач% тарач N-INFL ; 
@@ -5920,6 +5921,8 @@ kanal N-INFL ;
 сарсанаа N-INFL ;
 боор N-INFL ;
 өзгөчөлүк N-INFL ; 
+санжыра N-INFL ; ! "genealogy"
+түркмөн N-INFL ; ! "Turkmen"
 
 LEXICON PropernounStems
 Алматы NP-TOP ;
@@ -6098,6 +6101,7 @@ Tеңир NP-TOP ; ! ""
 Алтай NP-TOP ;
 Тоң NP-TOP ;
 АКШ NP-TOP ;
+КР NP-TOP ;
 Жумгал NP-TOP ;
 ССР NP-TOP ;
 Ленинград NP-TOP ;
@@ -6184,6 +6188,8 @@ Tеңир NP-TOP ; ! ""
 Мостар NP-TOP ;
 Швецария NP-TOP ;
 Эрбил NP-TOP ;
+Киев NP-TOP ; ! "Kiev"
+Ноокат NP-TOP ;
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
@@ -6246,6 +6252,7 @@ Tеңир NP-TOP ; ! ""
 Жусуп NP-ANT-M ;
 Полот NP-ANT-M ;
 Малколм NP-ANT-M ; ! "Malcolm
+Сейтек NP-ANT-M ; 
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
@@ -6398,6 +6405,8 @@ Tеңир NP-TOP ; ! ""
 Крнета NP-COG-MF ;
 Орузбаева NP-COG-MF ;
 Лахей NP-COG-MF ; ! ""
+Баласагун NP-COG-MF ; !
+Баласагын NP-COG-MF ; 
 
 Эрдоган NP-COG-MF ; ! ""
 
@@ -7374,6 +7383,8 @@ LEXICON AdjecStems
 берки ADJ ; ! "nearer"
 алгачкы ADJ ; ! "first"
 кийинки ADJ ; ! "next"
+француз ADJ ; ! "French"
+документалдуу ADJ ; ! "documentary"
 
 
 LEXICON AdvStems
@@ -7381,6 +7392,7 @@ LEXICON AdvStems
 эмнеге ADV-ITG ; ! "why"
 качан ADV-ITG ; ! "when"
 кандай ADV-ITG ; ! "how"
+кандайча ADV-ITG ; ! "howso"
 
 али ADV ; ! "still"
 өтө ADV ; ! "very"
@@ -8732,6 +8744,7 @@ ISBN ABBR ;
 м³ ABBR ; 
 янв%. ABBR ; 
 февр%. ABBR ; 
+нояб ABBR ;
 
 LEXICON Interjections 
 
