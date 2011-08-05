@@ -508,16 +508,16 @@ Vx:Vy <=> _ [ %{U%}: ]/[ :0 | %>: ] ;
 !%{G%}:0 <=>  :NasalCns %>: _ %{A%}: .#. ;
 
 !!!! Causative stuff !!!!
-!! Most of this is to convert {D}{I}р to т after a vowel stem
+!! Most of this is to convert {D}{I}р to т after a vowel (or dental sonorant) stem
 
 "Deletion of {I} after {D} and before р"
-%{I%}:0 <=> :SurVow %>: %{D%}:т _ р:0 ;
+%{I%}:0 <=> [ :SurVow | :р | :л | :н ] %>: %{D%}:т _ р:0 ;
 
 "Deletion of р after {D}{I}"
-р:0 <=> :SurVow %>: %{D%}:т %{I%}: _ ;
+р:0 <=> [ :SurVow | :р | :л | :н ] %>: %{D%}:т %{I%}: _ ;
 
 "{D} to т in causative after vowel"
-%{D%}:т <=> :SurVow %>: _ %{I%}: р: ;
+%{D%}:т <=> [ :SurVow | :р | :л | :н ] %>: _ %{I%}: р: ;
 
 !"{D}"
 
