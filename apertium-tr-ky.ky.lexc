@@ -438,6 +438,10 @@ LEXICON PRON-DEM-BUL
 %<prn%>%<dem%>%<sg%>%<loc%>:мында PRED ;
 %<prn%>%<dem%>%<sg%>%<abl%>:мындан PRED ;
 
+%<prn%>%<dem%>%<sg%>%<rloc%>:мындагы ADJ-DAGI ;
+
+%<prn%>%<dem%>:муну POSSESSION-ENDINGS ;
+
 %<prn%>%<dem%>%<pl%>:бу%>л%{A%}р CASES ;
 
 LEXICON PRON-DEM-OSOL
@@ -450,7 +454,30 @@ LEXICON PRON-DEM-OSOL
 %<prn%>%<dem%>%<sg%>%<loc%>:ндо PRED ;
 %<prn%>%<dem%>%<sg%>%<abl%>:ндон PRED ;
 
+%<prn%>%<dem%>%<sg%>%<rloc%>:ндогу ADJ-DAGI ;
+%<prn%>%<dem%>%<sg%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
+
+%<prn%>%<dem%>:ну POSSESSION-ENDINGS ;
+
 %<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
+
+LEXICON PRON-DEM-USUL
+
+%<prn%>%<dem%>%<sg%>%<nom%>:л PRED ;
+%<prn%>%<dem%>%<sg%>%<nom%>: PRED ;  ! Dir/LR
+%<prn%>%<dem%>%<sg%>%<gen%>:нун # ;
+%<prn%>%<dem%>%<sg%>%<acc%>:ну # ;
+%<prn%>%<dem%>%<sg%>%<dat%>:га # ;
+%<prn%>%<dem%>%<sg%>%<loc%>:нда PRED ;
+%<prn%>%<dem%>%<sg%>%<abl%>:ндан PRED ;
+
+%<prn%>%<dem%>%<sg%>%<rloc%>:ндагы ADJ-DAGI ;
+%<prn%>%<dem%>%<sg%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
+
+%<prn%>%<dem%>:ну POSSESSION-ENDINGS ;
+
+%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
+
 
 LEXICON PRON-DEM-AL
 
@@ -460,6 +487,11 @@ LEXICON PRON-DEM-AL
 %<prn%>%<dem%>%<sg%>%<dat%>:га # ;
 %<prn%>%<dem%>%<sg%>%<loc%>:нда PRED ;
 %<prn%>%<dem%>%<sg%>%<abl%>:ндан PRED ;
+
+%<prn%>%<dem%>%<sg%>%<rloc%>:ндагы ADJ-DAGI ;
+%<prn%>%<dem%>%<sg%>%<reason%>%<abl%>:ндыктан PRED ;  ! FIXME: need better name
+
+%<prn%>%<dem%>:ны POSSESSION-ENDINGS ;
 
 %<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
@@ -472,6 +504,10 @@ LEXICON PRON-DEM-TIGIL
 %<prn%>%<dem%>%<sg%>%<dat%>:ге # ;
 %<prn%>%<dem%>%<sg%>%<loc%>:нде PRED ;
 %<prn%>%<dem%>%<sg%>%<abl%>:нден PRED ;
+
+%<prn%>%<dem%>%<sg%>%<rloc%>:ндеги ADJ-DAGI ;
+
+%<prn%>%<dem%>:тигини POSSESSION-ENDINGS ;
 
 %<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
@@ -998,6 +1034,7 @@ LEXICON Pronouns
 
 бул: PRON-DEM-BUL ; ! "this"
 ошол:ошо PRON-DEM-OSOL ; ! "that"
+ушул:ушу PRON-DEM-USUL ; ! "this"
 ал:а PRON-DEM-AL ; ! "that"
 тигил:тиги PRON-DEM-TIGIL ; ! "that (yonder)
 
@@ -1006,7 +1043,6 @@ LEXICON Pronouns
 ким PRON-ITG ; ! "who?"
 
 өз PRON-REFL ; ! "own/self"
-ушул PRON-DEM ;
 бул% жер PRON-DEM ;
 ушу% жер PRON-DEM ;
 ал% жак PRON-DEM ;
@@ -1025,7 +1061,7 @@ LEXICON Pronouns
 кайсы% жер PRON-ITG ; 
 эмне PRON-ITG ;
 кайсы PRON-ITG ;
-бирин-бири PRON-RECIP ;   ! hm?
+бирин-бири PRON-RECIP ;   ! CHECK
 тиги PRON-DEM ;
 
 LEXICON Numerals 
@@ -3025,7 +3061,7 @@ LEXICON NounStems
 теолог N-INFL ; 
 теорема N-INFL ; 
 теория N-INFL ; 
-тер N-INFL ; 
+тер N-INFL ; ! "sweat"
 тарбия N-INFL ; 
 терминал N-INFL ; 
 терминология N-INFL ; 
@@ -4098,7 +4134,8 @@ LEXICON NounStems
 тил N-INFL ;
 маани N-INFL ;
 кытай N-INFL ;
-сын N-INFL ;
+сын N-INFL ; ! "criticism"
+сыналгы N-INFL ; ! "radio"
 облус N-INFL ;
 бөлүм N-INFL ;
 институт N-INFL ;
@@ -4742,7 +4779,6 @@ LEXICON NounStems
 каникул N-INFL ;
 конверт N-INFL ;
 жашыруун N-INFL ;
-сын N-INFL ;
 айлык N-INFL ;
 институт N-INFL ;
 скандал N-INFL ;
@@ -5648,7 +5684,6 @@ kanal N-INFL ;
 информация N-INFL ;
 өрнөк N-INFL ;
 сынчы N-INFL ;
-сын N-INFL ;
 чаян N-INFL ;
 тетири N-INFL ;
 күмөн N-INFL ;
@@ -6264,6 +6299,7 @@ Tеңир NP-TOP ; ! ""
 Саякбай NP-ANT-M ;
 Калыгул NP-ANT-M ;
 Чоротегин NP-ANT-M ;
+Арнольд NP-ANT-M ;
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
@@ -6418,6 +6454,7 @@ Tеңир NP-TOP ; ! ""
 Лахей NP-COG-MF ; ! ""
 Баласагун NP-COG-MF ; !
 Баласагын NP-COG-MF ; 
+Бартольд NP-COG-MF :
 
 Эрдоган NP-COG-MF ; ! ""
 
@@ -7857,7 +7894,7 @@ LEXICON VerbStems
 илгериле V-INFL-IV ; 
 кайна V-INFL-IV ; ! "boil"
 кайнат V-INFL-TV ; ! "boil"
-кал V-INFL-TV ; 
+кал V-INFL-IV ; ! "stay, remain"
 карма V-INFL-TV ; ! "hold"
 ! карма V-INFL-IV ; ! "hold"  ! HOW IV?
 кары V-INFL-IV ; 
@@ -8741,6 +8778,7 @@ LEXICON VerbStems
 жакта V-INFL-TV ; ! FIXME: check transitivity (probably IV and TV)
 негизде V-INFL-TV ;
 кезде V-INFL-TV ;
+ыйгар V-INFL-TV ; ! "dedicate" (?)
 
 LEXICON Abbreviations
 
