@@ -7933,8 +7933,9 @@ LEXICON VerbStems
 ишке% жара V-INFL-IV ; 
 кес V-INFL-TV ; ! "cut"
 кеч V-INFL-TV ; 
-кир V-INFL-IV ; ! "enter"
+кир V-INFL-IV-NO-CAUS ; ! "enter"
 кир V-INFL-TV ;
+кир:киргиз V-INFL-IV-IRREG-CAUS ; ! "put in, enter (e.g. data)"
 кооздо V-INFL-TV ; 
 чыда V-INFL-TV ; ! "put up with"
 чыда V-INFL-IV ; ! "be patient"
@@ -8247,15 +8248,13 @@ LEXICON VerbStems
 сураштыр V-INFL-TV ;
 терге V-INFL-TV ;
 кийлигиш V-INFL-TV ;
-аралаш V-INFL-TV ;
+аралаш V-INFL-IV ;
 чатыш V-INFL-TV ;
-жеткир V-INFL-TV ;
 алып% бар V-INFL-TV ;
 сыз V-INFL-IV ;
 чий V-INFL-IV ;
 !аракет% кыл V-INFL-IV ;
 эт V-INFL-IV ;
-киргиз V-INFL-TV ;
 тык V-INFL-TV ;
 !сал V-INFL-TV ;
 жашыр V-INFL-TV ;
@@ -8263,7 +8262,6 @@ LEXICON VerbStems
 кат V-INFL-TV ;
 кабарлаш V-INFL-IV ;
 далилде V-INFL-TV ;
-жеткир V-INFL-TV ;
 !өткөр V-INFL-TV ;
 каржыла V-INFL-TV ;
 ревизия% жаса V-INFL-TV ;
@@ -8294,7 +8292,6 @@ LEXICON VerbStems
 баш% тарт V-INFL-TV ;
 мээле V-INFL-IV ;
 кош V-INFL-TV ;
-аралаштыр V-INFL-TV ;
 бомбала V-INFL-TV ;
 бөл V-INFL-TV ;
 милдеттен V-INFL-IV ;
@@ -8318,7 +8315,6 @@ LEXICON VerbStems
 өлчө V-INFL-IV ;
 ишен V-INFL-TV ;
 сурамжыла V-INFL-TV ;
-ескир V-INFL-IV ;
 көп% иште V-INFL-IV ;
 алек% бол V-INFL-TV ;
 жогол V-INFL-TV ;
