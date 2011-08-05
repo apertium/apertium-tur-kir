@@ -1049,7 +1049,7 @@ LEXICON Pronouns
 
 айрым PRON-IND ; ! "other"
 башка PRON-IND ; ! "other"
-! баары PRON-IND ; ! "everyone"
+баары PRON-IND ; ! "everyone"  !!! This is an alternate of below
 баары:баар PRON-IND-POSS ; ! "everyone"
 
 кээ% бир PRON-QNT ; ! "some"
@@ -7378,7 +7378,7 @@ LEXICON AdjecStems
 өзүмчүл ADJ ;
 бойдок ADJ ;
 эси% оогон ADJ ;
-эскирген ADJ ;
+! эскирген ADJ ; ! productive
 жалгыз ADJ ;
 мамиле ADJ ;
 негизги ADJ ;
@@ -8779,6 +8779,8 @@ LEXICON VerbStems
 негизде V-INFL-TV ;
 кезде V-INFL-TV ;
 ыйгар V-INFL-TV ; ! "dedicate" (?)
+эскир V-INFL-IV ; ! "get old"
+картай V-INFL-IV ; ! "get old" (person)
 
 LEXICON Abbreviations
 
