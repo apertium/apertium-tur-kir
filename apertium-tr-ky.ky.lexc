@@ -7745,14 +7745,16 @@ LEXICON VerbStems
 э%<cop%>%<evid%>:экен V-PERS-COP-SUF ; 
 э%<cop%>%<neg%>%<evid%>:эмес% экен V-PERS-COP-SUF ; 
 
+жат VAUX-INFL ; ! 
+ат VAUX-INFL ; ! 
 кал VAUX-INFL ; ! 
 жүр VAUX-INFL ; ! 
 ал VAUX-INFL ; ! 
 отур VAUX-INFL ; ! 
 тур VAUX-INFL ; ! 
 сал VAUX-INFL ; ! 
-ат VAUX-INFL ; ! 
 кет VAUX-INFL ; ! 
+бол VAUX-INFL ; !
 
 өс V-INFL-IV ;
 танда V-INFL-TV ;
