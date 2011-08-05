@@ -5972,6 +5972,8 @@ kanal N-INFL ;
 чат N-INFL ; ! "crotch"
 өрөөн N-INFL ; ! "valley (large)"
 пайгамбар N-INFL ; ! "prophet"
+чалкан N-INFL ; ! "nettle"
+укурук N-INFL ; ! "lasso pole"
 
 LEXICON PropernounStems
 Алматы NP-TOP ;
