@@ -11,6 +11,7 @@ Multichar_Symbols
 %<adv%>     ! Adverb
 %<num%>     ! Numeral
 %<v%>       ! Verb
+%<vaux%>    ! Auxiliary verb
 %<prn%>     ! Pronoun
 %<post%>    ! Postposition
 %<postadv%> ! Postadverb
@@ -233,6 +234,7 @@ LEXICON GEN-POS
 CASES ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
 %<rloc%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
+%<rloc%>:%>%{D%}%{A%}г%{I%} # ;
 !%<rloc%>:%>%{D%}%{A%}г%{I%} CASES ;
 !%<rloc%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
 
@@ -810,11 +812,7 @@ LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
 %<v%>%<iv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
-!%<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
 %<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-!%<v%>%<iv%>%<caus%>:%>%{T%}%{I%}р V-INFL-COMMON ;
-!%<v%>%<iv%>%<caus%>%<inf%>:%>%{D%}%{I%}р%>%{U%}%{U%} POSSESSION ;             ! 
-!%<v%>%<iv%>%<caus%>%<neg%>%<inf%>:%>%{D%}%{I%}р%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
 
 LEXICON V-INFL-IV-NO-CAUS
 
@@ -828,6 +826,11 @@ LEXICON V-INFL-IV-IRREG-CAUS
 !%<v%>%<iv%>%<caus%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                    ! 
 !%<v%>%<iv%>%<caus%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
 
+
+LEXICON VAUX-INFL
+
+%<vaux%>: V-INFL-COMMON ;
+%<vaux%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -7753,6 +7756,13 @@ LEXICON VerbStems
 э%<cop%>%<neg%>:эмес V-PERS-COP-SUF ; 
 э%<cop%>%<evid%>:экен V-PERS-COP-SUF ; 
 э%<cop%>%<neg%>%<evid%>:эмес% экен V-PERS-COP-SUF ; 
+
+кал VAUX-INFL ; ! 
+жүр VAUX-INFL ; ! 
+ал VAUX-INFL ; ! 
+отур VAUX-INFL ; ! 
+тур VAUX-INFL ; ! 
+сал VAUX-INFL ; ! 
 
 өс V-INFL-IV ;
 танда V-INFL-TV ;
