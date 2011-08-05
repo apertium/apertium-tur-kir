@@ -262,14 +262,14 @@ LEXICON POSSESSION-ENDINGS
 %<px3pl%>:%>%{S%}%{I%}%{n%} GEN-POS ;
 
 LEXICON VOL-ENDINGS
-%<px1sg%>:%>%{I%}м ;
-%<px2sg%>:%>%{I%}ң ; 
-%<px2sg%>%<frm%>:%>%{I%}ң%{I%}з ; 
-%<px3sg%>:%>%{S%}%{I%}%{n%} ;
-%<px1pl%>:%>%{I%}б%{I%}з ; 
-%<px2pl%>:%>%{I%}ң%{A%}р ; 
-%<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р ;
-%<px3pl%>:%>%{S%}%{I%}%{n%} ;
+%<p1sg%>:%>%{I%}м # ;
+%<p2sg%>:%>%{I%}ң # ; 
+%<p2sg%>%<frm%>:%>%{I%}ң%{I%}з # ; 
+%<p3sg%>:%>%{S%}%{I%}%{n%} # ;
+%<p1pl%>:%>%{I%}б%{I%}з # ; 
+%<p2pl%>:%>%{I%}ң%{A%}р # ; 
+%<p2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р # ;
+%<p3pl%>:%>%{S%}%{I%}%{n%} # ;
 
 LEXICON N-INFL-COMMON
 
@@ -823,7 +823,6 @@ LEXICON V-INFL-IV-IRREG-CAUS
 %<v%>%<iv%>%<caus%>:%> V-INFL-COMMON ;                                    !
 !%<v%>%<iv%>%<caus%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                    ! 
 !%<v%>%<iv%>%<caus%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
-
 
 LEXICON VAUX-INFL
 
@@ -7764,6 +7763,8 @@ LEXICON VerbStems
 тур VAUX-INFL ; ! 
 сал VAUX-INFL ; ! 
 кет VAUX-INFL ; ! 
+чык VAUX-INFL ; !
+бер VAUX-INFL ; !
 бол VAUX-INFL ; !
 бүт VAUX-INFL ; !
 башта VAUX-INFL ; !
