@@ -6681,7 +6681,6 @@ LEXICON AdjecStems
 тыш ADJ ; 
 улуу ADJ ; 
 !абдан% жаман ADJ ; 
-кургак ADJ ; 
 түндүк ADJ ; 
 түштүк% чыгыш ADJ ; 
 батыш ADJ ; 
@@ -7950,7 +7949,7 @@ LEXICON VerbStems
 кула V-INFL-IV ; ! "fall over"
 кулат V-INFL-TV ; ! "make fall over"
 кура V-INFL-TV ; 
-кургат V-INFL-TV ; 
+! кургат V-INFL-TV ;  ! productive
 кучакта V-INFL-TV ; 
 кый V-INFL-TV ; 
 кыйна V-INFL-TV ; 
@@ -8496,7 +8495,7 @@ LEXICON VerbStems
 тушта V-INFL-IV ;
 тил V-INFL-IV ;
 окут V-INFL-TV ;
-курга V-INFL-TV ;
+курга V-INFL-IV ;
 эк V-INFL-TV ;
 жыйып% кой V-INFL-IV ;
 кайраттан V-INFL-IV ;
