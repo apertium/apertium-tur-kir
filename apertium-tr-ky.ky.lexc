@@ -507,7 +507,7 @@ LEXICON PRON-DEM-TIGIL
 
 %<prn%>%<dem%>%<sg%>%<rloc%>:ндеги ADJ-DAGI ;
 
-%<prn%>%<dem%>:тигини POSSESSION-ENDINGS ;
+%<prn%>%<dem%>:ни POSSESSION-ENDINGS ;
 
 %<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
