@@ -105,6 +105,7 @@ Multichar_Symbols
 %<prt_cond%>
 %<prt_perf%>
 %<prt_impf%>
+%<prt_vol%>
 
 %<ger_fut%>
 %<ger_past%>
@@ -260,8 +261,18 @@ LEXICON POSSESSION-ENDINGS
 %<px3sg%>:%>%{S%}%{I%}%{n%} GEN-POS ;
 %<px1pl%>:%>%{I%}б%{I%}з GEN-POS ; 
 %<px2pl%>:%>%{I%}ң%{A%}р GEN-POS ; 
-%<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р GEN-POS;
+%<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р GEN-POS ;
 %<px3pl%>:%>%{S%}%{I%}%{n%} GEN-POS ;
+
+LEXICON VOL-ENDINGS
+%<px1sg%>:%>%{I%}м ;
+%<px2sg%>:%>%{I%}ң ; 
+%<px2sg%>%<frm%>:%>%{I%}ң%{I%}з ; 
+%<px3sg%>:%>%{S%}%{I%}%{n%} ;
+%<px1pl%>:%>%{I%}б%{I%}з ; 
+%<px2pl%>:%>%{I%}ң%{A%}р ; 
+%<px2pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р ;
+%<px3pl%>:%>%{S%}%{I%}%{n%} ;
 
 LEXICON N-INFL-COMMON
 
@@ -708,7 +719,7 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<vadj_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
 %<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                  !
 %<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;              ! Dir/LR
-%<neg%>%<vadj_pot2%>:%>%{G%}%{U%}с V-ADJ ;
+%<neg%>%<vadj_pot2%>:%>%{G%}%{I%}с V-ADJ ;
 
 
 LEXICON V-INFL-NON-FINITE-REG
@@ -719,6 +730,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<prt_plan%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
 %<prt_cond%>:%>с%{A%} V-PERS-COND ;
 %<prt_impf%>:%>%{E%} # ;   ! rare IS
+%<prt_vol%>:%>%{G%}%{I%} VOL-ENDINGS ;
 !%<prt_????%>:%>м%{A%}й%{I%}нч%{A%} #;       ! TODO: find name  ! rare IS
 !%<prt_????%>:%>%{E%}т # ;                    ! TODO: find name
 
@@ -736,7 +748,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<vadj%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay  ! both past (or perf?) and general
 !%<vadj_pot%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
 %<vadj_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
-%<vadj_impf%>:%>%{E%}% турган V-ADJ ;
+!%<vadj_impf%>:%>%{E%}% турган V-ADJ ;       ! Done already by <prt_impf> тур<vaux><ger_past>
 !%<vadj_????%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;                      ! TODO: find name
 %<vadj_pot%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;
 
