@@ -1,1 +1,3 @@
-     
+    147 ^@altında<postp>$
+      2 ^@altında<postp><cpl_di><3s>$
+      1 ^@altında<postp><3s><cpl_ken>$

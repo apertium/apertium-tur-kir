@@ -1,14 +1,9 @@
+     22 ^@eşref<adj><pst>$
+     20 ^@seferi<adj><pst>$
+     16 ^@temsili<adj><pst>$
+     13 ^@hukuken<adj><pst>$
+      9 ^@enflasyonist<adj><pst>$
+      8 ^@karizmatik<adj><pst>$
       8 ^@doru<adj><pst>$
-      3 ^@yanıl<v><caus><dvn_yici><adj>$
-      3 ^@sersemle<v><caus><dvn_yici><adj>$
       3 ^@etken<adj><pst>$
-      2 ^@ürper<v><caus><dvn_yici><adj>$
       1 ^@torlak<adj><pst>$
-      1 ^@tökezle<v><caus><dvn_yici><adj>$
-      1 ^@sakın<v><caus><dvn_yici><adj>$
-      1 ^@sağal<v><caus><dvn_yici><adj>$
-      1 ^@gücen<v><caus><dvn_yici><adj>$
-      1 ^@eğlen<v><caus><dvn_yici><adj>$
-      1 ^@bunal<v><caus><dvn_yici><adj>$
-      1 ^@azmet<v><caus><dvn_yici><adj>$
-      1 ^@arın<v><caus><dvn_yici><adj>$
