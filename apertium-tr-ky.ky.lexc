@@ -314,12 +314,12 @@ LEXICON ADJ-DAGI
 
 ! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of CASES
 %<n%>: CASES ;
-%<adj%>%<pst%>: ;
+%<adj%>%<pst%>: # ;
 
 LEXICON V-ADJ
 
 ADJ-COMMON ; 
-%<adj%>%<pst%>:  ; 
+%<adj%>%<pst%>:  # ; 
 
 LEXICON ADJ
 
@@ -529,7 +529,7 @@ LEXICON PRON-IND
 
 LEXICON PRON-IND-POSS
 
-%<prn%>%<ind%>: POSSESSIVE-ENDINGS ;
+%<prn%>%<ind%>: POSSESSION-ENDINGS ;
 
 
 LEXICON PRON-DEM
