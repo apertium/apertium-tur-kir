@@ -7780,7 +7780,8 @@ LEXICON VerbStems
 кат V-INFL-TV ; 
 кач V-INFL-IV ; 
 !кач V-INFL-TV ; ! eh?
-кел V-INFL-IV ; ! "come"
+кел V-INFL-IV-NO-CAUS ; ! "come"
+кел:келтир V-INFL-IV-IRREG-CAUS ; ! "make come"
 кет V-INFL-IV-NO-CAUS ; ! "go"
 кет:кетир V-INFL-IV-IRREG-CAUS ; ! "to make go"
 кой V-INFL-TV ; ! "put, place" 
