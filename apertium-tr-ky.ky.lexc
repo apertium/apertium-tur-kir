@@ -757,8 +757,18 @@ LEXICON V-INFL-NON-FINITE-REG
 %<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>%{L%}%{A%}р # ;
 
 !  Optative/jussive forms
-! TODO
 
+%<opt%>%<p1%>%<sg%>:%>%{A%}й%{I%}н # ;
+%<opt%>%<p2%>%<sg%>:%>%{G%}%{I%}н # ;
+%<opt%>%<p2%>%<frm%>%<sg%>:%>%{G%}%{I%}л%{A%} # ;
+%<opt%>%<p3%>%<sg%>:%>с%{I%}н # ;
+%<opt%>%<p1%>%<pl%>:%>%{A%}л%{I%} # ;
+%<opt%>%<p1%>%<pl%>:%>%{A%}йл%{I%} # ; ! Dir/LR
+%<opt%>%<p1%>%<pl%>:%>%{A%}л%{I%}к # ; ! Dir/LR  
+%<opt%>%<p1%>%<pl%>:%>%{A%}йл%{I%}к # ; ! Dir/LR
+%<opt%>%<p2%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;
+%<opt%>%<p2%>%<frm%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;
+%<opt%>%<p3%>%<pl%>:%>с%{I%}н # ;
 
 LEXICON V-INFL-FINITE
 
@@ -5987,6 +5997,10 @@ kanal N-INFL ;
 укурук N-INFL ; ! "lasso pole"
 
 LEXICON PropernounStems
+Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
+Нью-Дели NP-TOP ;
+Нью-Йорк NP-TOP ;
+Нью-Джерси NP-TOP ;
 Алматы NP-TOP ;
 Сербия NP-TOP ;
 Баласагын NP-TOP ;
