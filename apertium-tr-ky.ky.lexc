@@ -7755,6 +7755,8 @@ LEXICON VerbStems
 сал VAUX-INFL ; ! 
 кет VAUX-INFL ; ! 
 бол VAUX-INFL ; !
+бүт VAUX-INFL ; !
+башта VAUX-INFL ; !
 
 өс V-INFL-IV ;
 танда V-INFL-TV ;
