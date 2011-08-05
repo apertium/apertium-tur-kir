@@ -521,6 +521,7 @@ LEXICON PRON-PERS-EN
 %<dat%>:аа # ;    ! Dir/LR
 %<loc%>:енде PRED ;
 %<abl%>:енден PRED ;
+%<rloc%>:ендеги ADJ-DAGI ;
 
 LEXICON PRON-PERS-IZ
 
@@ -530,6 +531,7 @@ LEXICON PRON-PERS-IZ
 %<dat%>:ге # ;
 %<loc%>:де PRED ;
 %<abl%>:ден PRED ;
+%<rloc%>:деги ADJ-DAGI ;
 
 LEXICON PRON-PERS-AL
 
@@ -539,6 +541,7 @@ LEXICON PRON-PERS-AL
 %<dat%>:га # ;
 %<loc%>:нда PRED ;
 %<abl%>:ндан PRED ;
+%<rloc%>:ндагы ADJ-DAGI ;
 
 LEXICON PRON-PERS-PLURALS
 
@@ -548,6 +551,7 @@ LEXICON PRON-PERS-PLURALS
 %<dat%>:%>г%{A%} # ;
 %<loc%>:%>д%{A%} PRED ;
 %<abl%>:%>д%{A%}н PRED ;
+%<rloc%>:%>д%{A%}г%{I%} ADJ-DAGI ;
 
 LEXICON PRON-ITG
 
@@ -2505,7 +2509,8 @@ LEXICON NounStems
 чогулуш N-INFL ; 
 цивилизация N-INFL ; 
 медет N-INFL ; 
-жардам N-INFL ; 
+жардам N-INFL ; ! "help"
+жардамчы N-INFL ; ! "helper"
 жөлөк N-INFL ; 
 медресе N-INFL ; 
 нан N-INFL ;
@@ -2864,6 +2869,8 @@ LEXICON NounStems
 биология N-INFL ; 
 археология N-INFL ; 
 коммуникация N-INFL ; 
+коммунизм N-INFL ;
+коммунист N-INFL ;
 империя N-INFL ; 
 ресторан N-INFL ; 
 реставрация N-INFL ; 
@@ -3064,6 +3071,7 @@ LEXICON NounStems
 тер N-INFL ; ! "sweat"
 тарбия N-INFL ; 
 терминал N-INFL ; 
+термин N-INFL ; ! "term"
 терминология N-INFL ; 
 термодинамика N-INFL ; 
 термохимия N-INFL ; 
@@ -3335,10 +3343,10 @@ LEXICON NounStems
 шарт N-INFL ; 
 шартнаама N-INFL ; 
 шеф N-INFL ; 
-шабдалы N-INFL ; 
-шаар N-INFL ; 
-шекер N-INFL ; 
-кант N-INFL ; 
+шабдалы N-INFL ; ! "peach"
+шаар N-INFL ; ! "city"
+шекер N-INFL ; ! "sugar"
+кант N-INFL ; ! "sugar"
 форма N-INFL ; 
 шекил N-INFL ; 
 схема N-INFL ; 
@@ -4033,7 +4041,6 @@ LEXICON NounStems
 илмек N-INFL ; 
 карамак N-INFL ; 
 имам N-INFL ; 
-жардам N-INFL ; 
 мүмкүнчүлүк N-INFL ; 
 ишеним N-INFL ; 
 өжөрлүк N-INFL ; 
@@ -4371,7 +4378,6 @@ LEXICON NounStems
 долбоор N-INFL ;
 жеке N-INFL ;
 жеке% менчик N-INFL ;
-шаар N-INFL ;
 асты N-INFL ;
 башмыйзам N-INFL ;
 булак N-INFL ;
@@ -4491,7 +4497,6 @@ LEXICON NounStems
 маселе N-INFL ;
 келишпестик N-INFL ;
 күч N-INFL ;
-жардам N-INFL ;
 шамал N-INFL ;
 жака N-INFL ;
 !--Bellow this line should be checked for duplicates ----
@@ -4515,7 +4520,7 @@ LEXICON NounStems
 мамиле N-INFL ;
 тийиш N-INFL ;
 кайтаруу N-INFL ;
-шаарча N-INFL ;
+шаарча N-INFL ; ! "town"
 катышуу N-INFL ;
 каршы N-INFL ;
 тескери N-INFL ;
@@ -4581,7 +4586,6 @@ LEXICON NounStems
 соода N-INFL ;
 салым N-INFL ;
 кошумча N-INFL ;
-жардам N-INFL ;
 күндөм N-INFL ;
 күн N-INFL ; ! "sun, day"
 кой N-INFL ; ! "sheep"
@@ -5965,6 +5969,9 @@ kanal N-INFL ;
 куран N-INFL ; ! "qur'an"
 жетекчи N-INFL ; ! "director/leader"
 жетекчилик N-INFL ; ! "leadership"
+чат N-INFL ; ! "crotch"
+өрөөн N-INFL ; ! "valley (large)"
+пайгамбар N-INFL ; ! "prophet"
 
 LEXICON PropernounStems
 Алматы NP-TOP ;
@@ -6006,6 +6013,8 @@ LEXICON PropernounStems
 Фрунзе NP-TOP ;
 СССР NP-TOP ;
 Рим NP-TOP ; ! "Rome"
+Кашкар NP-TOP ;
+Жалалабат NP-TOP ;
 
 
 Кыргыз% ССР NP-TOP-ASSR ;
@@ -6300,6 +6309,8 @@ Tеңир NP-TOP ; ! ""
 Калыгул NP-ANT-M ;
 Чоротегин NP-ANT-M ;
 Арнольд NP-ANT-M ;
+Жаныбек NP-ANT-M ;
+Абылай NP-ANT-M ;
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
@@ -6455,6 +6466,7 @@ Tеңир NP-TOP ; ! ""
 Баласагун NP-COG-MF ; !
 Баласагын NP-COG-MF ; 
 Бартольд NP-COG-MF :
+Осмоналиев NP-COG-MF ;
 
 Эрдоган NP-COG-MF ; ! ""
 
@@ -7417,6 +7429,9 @@ LEXICON AdjecStems
 документалдуу ADJ ; ! "documentary"
 кандидаттык ADJ ; ! FIXME: check
 бырыш ADJ ; ! "wrinkled"
+кытайлык ADJ ; ! "Chinese"
+керемет ADJ ; ! "wonderful"
+коммунисттик ADJ ; ! "communist"
 
 
 !! FIXME: productive {K}{I} forms
@@ -8783,6 +8798,8 @@ LEXICON VerbStems
 ыйгар V-INFL-TV ; ! "dedicate" (?)
 эскир V-INFL-IV ; ! "get old"
 картай V-INFL-IV ; ! "get old" (person)
+ырда V-INFL-IV ; ! "sing"
+ырда V-INFL-TV ; ! "sing"
 
 LEXICON Abbreviations
 
