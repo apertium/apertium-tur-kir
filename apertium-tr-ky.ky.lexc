@@ -690,17 +690,6 @@ LEXICON V-INFL-COMMON-SECOND
 V-INFL-FINITE ;
 @D.NEG.1@:@D.NEG.1@ V-INFL-NON-FINITE ; 
 
-LEXICON AUX
-
-%<prog%>: жат V-INFL-COMMON-SECOND ;
-%<prog%>: ат V-INFL-COMMON-SECOND ;
-%<prog%>:+ат V-INFL-COMMON-SECOND ;
-%<perf%>: кал V-INFL-COMMON-SECOND ;
-%<sudn%>: кет V-INFL-COMMON-SECOND ;
-%<perf%>%<purp%>: сал V-INFL-COMMON-SECOND ;
-%<inst%>: тур V-INFL-COMMON-SECOND ;
-%<hab%>: жүр V-INFL-COMMON-SECOND ;
-
 LEXICON V-INFL-NON-FINITE
 
 V-INFL-NON-FINITE-IRREG ;
@@ -7762,6 +7751,8 @@ LEXICON VerbStems
 отур VAUX-INFL ; ! 
 тур VAUX-INFL ; ! 
 сал VAUX-INFL ; ! 
+ат VAUX-INFL ; ! 
+кет VAUX-INFL ; ! 
 
 өс V-INFL-IV ;
 танда V-INFL-TV ;
