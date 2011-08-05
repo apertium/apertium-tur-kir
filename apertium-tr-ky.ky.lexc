@@ -7895,7 +7895,8 @@ LEXICON VerbStems
 илгериле V-INFL-IV ; 
 кайна V-INFL-IV ; ! "boil"
 кайнат V-INFL-TV ; ! "boil"
-кал V-INFL-IV ; ! "stay, remain"
+кал V-INFL-IV-NO-CAUS ; ! "stay, remain"
+кал:калтыр V-INFL-IV-IRREG-CAUS ; ! "leave (behind)"
 карма V-INFL-TV ; ! "hold"
 ! карма V-INFL-IV ; ! "hold"  ! HOW IV?
 кары V-INFL-IV ; 
