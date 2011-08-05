@@ -7380,6 +7380,7 @@ LEXICON AdjecStems
 француз ADJ ; ! "French"
 документалдуу ADJ ; ! "documentary"
 кандидаттык ADJ ; ! FIXME: check
+бырыш ADJ ; ! "wrinkled"
 
 
 !! FIXME: productive {K}{I} forms
@@ -7399,6 +7400,8 @@ LEXICON AdjecStems
 алгачкы ADJ ; ! "first"
 кийинки ADJ ; ! "next"
 азыркы ADJ ; ! "present"
+күнкү ADJ ; ! "day"    ! Trust me, these are ADJs
+жылкы ADJ ; ! "year"   ! ""
 
 LEXICON AdvStems
 
@@ -7569,11 +7572,11 @@ LEXICON AdvStems
 жаман ADV ;
 ачык% эле ADV ;
 кайрылуу% менен ADV ;
-жылкы ADV ;
+жылкы ADV ; ! eh?
 карай ADV ;
 почти ADV ;
 жай ADV ;
-күнкү ADV ;
+күнкү ADV ; ! eh?
 жалгыз% гана ADV ;
 пайдасыз ADV ;
 араң-араң ADV ;
@@ -7815,7 +7818,8 @@ LEXICON VerbStems
 була V-INFL-TV ; 
 бурул V-INFL-IV ; 
 буйру V-INFL-IV ; 
-бырыштыр V-INFL-TV ; 
+! бырыштыр V-INFL-TV ;  regular
+бырыш V-INFL-IV ; 
 быч V-INFL-TV ; 
 быш V-INFL-IV-NO-CAUS ; ! "cook" / "be cooked"
 быш:бышыр V-INFL-IV-IRREG-CAUS ; ! "cook"
