@@ -7797,7 +7797,8 @@ LEXICON VerbStems
 жайгаш V-INFL-IV ; ! "be located"
 жарыяла V-INFL-TV ;
 жаса V-INFL-IV ;
-жат V-INFL-IV ; ! "come"
+жат V-INFL-IV-NO-CAUS ; ! "lie"
+жат:жаткыз V-INFL-IV-IRREG-CAUS ; ! "lay down"
 же V-INFL-TV-SHORT ; ! "eat"
 !жет V-INFL-IV ; 
 !жет V-INFL-TV ;
@@ -7839,7 +7840,8 @@ LEXICON VerbStems
 таң% ат V-INFL-TV ; ! "dawn"
 тий V-INFL-TV ; ! "touch" (takes dative)
 тий:тийгиз V-INFL-IV-IRREG-CAUS ; ! "make touch"
-тур V-INFL-IV ; ! "stand, live"
+тур V-INFL-IV-NO-CAUS ; ! "stand, live"
+тур:тургуз V-INFL-IV-IRREG-CAUS ; ! "stand up (trans)"
 түз V-INFL-TV ; ! "fill in/out" (e.g., a list)
 түздө V-INFL-TV ; ! ""
 ук V-INFL-IV ; ! "listen"
