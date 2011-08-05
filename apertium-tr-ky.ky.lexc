@@ -92,9 +92,6 @@ Multichar_Symbols
 %<coop%>    ! Cooperative
 %<evid%>    ! Evidential
 
-%<aux%>     ! Auxiliary
-%<prog%>    ! Progressive
-
 %<cv_impf%> ! Converb imperfect, -E
 %<cv_perf%> ! Converb perfect, -Iп
 %<cv_irre%> ! Converb irrealis, -Eт
@@ -7758,7 +7755,8 @@ LEXICON VerbStems
 э%<cop%>%<neg%>%<evid%>:эмес% экен V-PERS-COP-SUF ; 
 
 жат VAUX-INFL ; ! 
-ат VAUX-INFL ; ! 
+жат:ат VAUX-INFL ; ! Dir/LR
+!жат:+ат VAUX-INFL ; ! 
 кал VAUX-INFL ; ! 
 жүр VAUX-INFL ; ! 
 ал VAUX-INFL ; ! 
@@ -7769,6 +7767,8 @@ LEXICON VerbStems
 бол VAUX-INFL ; !
 бүт VAUX-INFL ; !
 башта VAUX-INFL ; !
+жазда VAUX-INFL ; !
+кел VAUX-INFL ; !
 
 өс V-INFL-IV ;
 танда V-INFL-TV ;
