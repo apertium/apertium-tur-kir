@@ -319,7 +319,7 @@ LEXICON ADJ-DAGI
 LEXICON V-ADJ
 
 ADJ-COMMON ; 
-%<adj%>%<pst%>:  # ; 
+%<pst%>:  # ; 
 
 LEXICON ADJ
 
