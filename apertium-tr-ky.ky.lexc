@@ -811,7 +811,7 @@ LEXICON V-INFL-TV
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
-%<v%>%<iv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
+!%<v%>%<iv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
 %<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON V-INFL-IV-NO-CAUS
@@ -830,7 +830,6 @@ LEXICON V-INFL-IV-IRREG-CAUS
 LEXICON VAUX-INFL
 
 %<vaux%>: V-INFL-COMMON ;
-%<vaux%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
