@@ -9123,7 +9123,6 @@ LEXICON VerbStems
 бургулап% теш V-INFL-TV ;
 мушта V-INFL-TV ;
 куру% жалак% кал V-INFL-IV ;
-эскир V-INFL-IV ;
 жем% бер V-INFL-IV ;
 жарымда V-INFL-TV ;
 төп% кел V-INFL-TV ;
@@ -9301,9 +9300,13 @@ ISBN ABBR ;
 м³ ABBR ; 
 янв%. ABBR ; 
 февр%. ABBR ; 
-нояб ABBR ;
-сент ABBR ;
-окт ABBR ;
+апр%. ABBR ;
+май%. ABBR ;
+авг%. ABBR ;
+сент%. ABBR ;
+окт%. ABBR ;
+нояб%. ABBR ;
+дек%. ABBR ;
 
 LEXICON Interjections 
 
