@@ -44,6 +44,7 @@ dev/midterm/article.tr.txt -text
 dev/missing-bidix-freq.sh -text
 /lexchoicebil.xsl -text
 /modes.xml -text
+morph-tr/deriv.fst -text
 morph-tr/lexicon/adjectives -text
 morph-tr/lexicon/adverbs -text
 morph-tr/lexicon/cnjadv -text
@@ -60,6 +61,13 @@ morph-tr/lexicon/pronouns -text
 morph-tr/lexicon/proper_nouns -text
 morph-tr/lexicon/toponyms -text
 morph-tr/lexicon/verbs -text
+morph-tr/ninfl.fst -text
+morph-tr/num.fst -text
+morph-tr/particles.fst -text
+morph-tr/symbols.fst -text
+morph-tr/trmorph.fst -text
+morph-tr/version.fst -text
+morph-tr/vinfl.fst -text
 /pending-tests.sh -text
 /regression-tests.sh -text
 tests/HfstTester.py -text
