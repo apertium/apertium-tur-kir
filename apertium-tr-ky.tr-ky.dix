@@ -26,6 +26,7 @@
      <sdef n="cog"       c="Cognomen"/>
      <sdef n="pst"       c="Positive degree"/>
      <sdef n="top"       c="Toponym"/>
+     <sdef n="acr"       c="Acronym"/>
      <sdef n="al"        c="Other"/>
      <sdef n="org"       c="Organisation"/>
 
@@ -249,6 +250,8 @@
 	 <e c="  0"><p><l>birbiri<s n="prn"/></l><r>бирин-бири<s n="prn"/></r></p></e>
 	 <e c="  0"><p><l>öteki<s n="prn"/></l><r>тиги<s n="prn"/><s n="dem"/></r></p></e>
          <e c="  0"><p><l>şura<s n="prn"/></l><r>ушу<b/>жер<s n="prn"/><s n="dem"/></r></p></e>
+
+	 <e c="  0"><p><l>hepsi<s n="prn"/></l><r>баары<s n="prn"/><s n="ind"/></r></p></e>
 
 <!-- should be prn.recip -->
 	
@@ -2896,7 +2899,6 @@
 	 <e c="  0"><p><l>kapı<s n="n"/></l><r>эшик<s n="n"/></r></p></e>
 	 <e c="  0"><p><l>hız<s n="n"/></l><r>ылдамдык<s n="n"/></r></p></e>
 	 <e c="  0"><p><l>his<s n="n"/></l><r>сезим<s n="n"/></r></p></e>
-	 <e c="  0"><p><l>hepsi<s n="n"/></l><r>баары<s n="n"/></r></p></e>
 	<e c="  0"><p><l>helikopter<s n="n"/></l><r>тик<b/>учак<s n="n"/></r></p></e>
 	<e slr="1"><p><l>helikopter<s n="n"/></l><r>вертолёт<s n="n"/></r></p></e>
 	<e c="  0"><p><l>geçmiş<s n="n"/></l><r>өткөн<s n="n"/></r></p></e>
@@ -4784,7 +4786,7 @@
 	  <e><p><l>Arnavutluk<s n="np"/></l><r>Албан<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Bosna<s n="np"/></l><r>Босня<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Yunanistan<s n="np"/></l><r>Греция<s n="np"/><s n="top"/></r></p></e>
-	  <e><p><l>AB<s n="np"/></l><r>ЕБ<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>AB<s n="np"/><s n="acr"/></l><r>ЕБ<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Türk<s n="np"/></l><r>Түрк<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Hırvat<s n="np"/></l><r>Харват<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Bulgar<s n="np"/></l><r>Балгар<s n="np"/><s n="top"/></r></p></e>
@@ -4853,7 +4855,7 @@
 	<e><p><l>Galeb<s n="np"/></l><r>Галеб<s n="np"/><s n="al"/></r></p></e>
 	<e><p><l>Super<b/>G4<s n="np"/></l><r>Супер<b/>Г4<s n="np"/><s n="al"/></r></p></e>
 	<e><p><l>G4<s n="np"/></l><r>Г4<s n="np"/><s n="al"/></r></p></e>
-	<e><p><l>Sırp<b/>Ordusu<s n="np"/></l><r>Серб<b/>Аскери<s n="np"/><s n="org"/></r></p></e>
+	<e><p><l>Sırp<b/>Ordusu<s n="np"/><s n="org"/></l><r>Серб<b/>Аскери<s n="np"/><s n="org"/></r></p></e>
 	<e><p><l>Gazela<s n="np"/></l><r>Газел<s n="np"/><s n="al"/></r></p></e>
 	
         <e><p><l>Adlesiç<s n="np"/><s n="cog"/></l><r>Адлесич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>

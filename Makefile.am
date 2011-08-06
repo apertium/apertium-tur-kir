@@ -10,7 +10,7 @@ PREFIX2=$(LANG2)-$(LANG1)
 
 BASENAME=apertium-$(PREFIX1)
 
-#SUBDIRS = . morph-tr
+SUBDIRS = . morph-tr
 
 TARGETS_COMMON = $(PREFIX2).automorf.hfst $(PREFIX1).autogen.hfst $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin  \
 	$(PREFIX1).t1x.bin $(PREFIX1).rlx.bin \
