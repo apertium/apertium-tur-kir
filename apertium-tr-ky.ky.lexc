@@ -6538,7 +6538,7 @@ LEXICON AdjecStems
 улук ADJ ;
 ири ADJ ;
 расмий ADJ ;
-таза ADJ ;
+таза ADJ ; ! "clean"
 майда ADJ ; ! "fine (i.e., small pieces)"
 ыйык ADJ ;
 жогору ADJ ; ! "high"
@@ -6831,7 +6831,6 @@ LEXICON AdjecStems
 географиялык ADJ ;
 оорун% басаар ADJ ;
 жөнөкөй ADJ ;
-таза ADJ ;
 кымбат ADJ ;
 дос ADJ ;
 ийилчээк ADJ ;
@@ -6856,7 +6855,7 @@ LEXICON AdjecStems
 үнсүз ADJ ;
 кызыл-кырман ADJ ;
 карама-каршы ADJ ;
-чийки ADJ ;
+чийки ADJ ; ! "raw"
 туруктуу ADJ ;
 чыдамдуу ADJ ;
 тирүү ADJ ; ! "alive"
@@ -6907,7 +6906,6 @@ LEXICON AdjecStems
 тез ADJ ;
 өндүргүч ADJ ;
 типтүү ADJ ;
-таза ADJ ;
 идеалдуу ADJ ;
 мыкты ADJ ;
 жогору ADJ ;
@@ -7293,7 +7291,6 @@ LEXICON AdjecStems
 бас ADJ ;
 тар ADJ ;
 сорт ADJ ;
-чийки ADJ ;
 ийри ADJ ;
 татаал ADJ ;
 тажаган ADJ ;
@@ -7459,6 +7456,7 @@ LEXICON AdjecStems
 кытайлык ADJ ; ! "Chinese"
 керемет ADJ ; ! "wonderful"
 коммунисттик ADJ ; ! "communist"
+кир ADJ ; ! "dirty"
 
 
 !! FIXME: productive {K}{I} forms
@@ -8163,7 +8161,7 @@ LEXICON VerbStems
 кама V-INFL-TV ;
 иш% жүзүнө% ашыр V-INFL-TV ;
 колдо V-INFL-TV ;
-жуун V-INFL-IV ;
+жуун V-INFL-IV ;  ! FIXME: productive
 жүр V-INFL-TV ;
 жарыяла V-INFL-TV ;
 кабарла V-INFL-TV ;
@@ -8695,7 +8693,7 @@ LEXICON VerbStems
 ыйык% көр V-INFL-IV ;
 тастыкта V-INFL-TV ;
 тизгинде V-INFL-TV ;
-чири V-INFL-TV ;
+чири V-INFL-IV ;
 жазала V-INFL-TV ;
 дал% кел V-INFL-TV ;
 ачылыш% жаса V-INFL-IV ;
@@ -8747,7 +8745,7 @@ LEXICON VerbStems
 сыйкырдап% ал V-INFL-IV ;
 кечир V-INFL-IV ;
 шылдыңга% ал V-INFL-TV ;
-жууру V-INFL-TV ;
+жууру V-INFL-TV ; ! "knead"
 жылдар% бою% бир% жерде% кал V-INFL-IV ;
 жабыш V-INFL-IV ;
 жаңырт V-INFL-TV ;
@@ -8794,7 +8792,7 @@ LEXICON VerbStems
 бузул V-INFL-TV ;
 эскер V-INFL-TV ;
 байы V-INFL-IV ;
-жуурул V-INFL-IV ;
+! жуурул V-INFL-IV ; ! productive
 этикет% так V-INFL-IV ;
 чоочун% бол V-INFL-IV ;
 уял V-INFL-IV ;
