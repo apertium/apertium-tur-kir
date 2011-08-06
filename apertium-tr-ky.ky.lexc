@@ -199,6 +199,7 @@ LEXICON CASES-DEFAULT
 %<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
 %<acc%>:%>%{N%}%{I%} # ;       ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
 %<loc%>:%>%{D%}%{A%} PRED ;  ! -да, -де, -та, -те, -до, -дө, -то, -тө
+%<apprx>:%>%{D%}%{A%}й PRED ;  ! -дай, -дей, -дөй, -дой, -тай, -тей, -төй, той
 
 LEXICON CASES
 CASES-DEFAULT ;
@@ -450,6 +451,7 @@ LEXICON PRON-DEM-BUL
 %<prn%>%<dem%>%<sg%>%<dat%>:буга # ;
 %<prn%>%<dem%>%<sg%>%<loc%>:мында PRED ;
 %<prn%>%<dem%>%<sg%>%<abl%>:мындан PRED ;
+%<prn%>%<dem%>%<sg%>%<apprx>:мындай PRED ;  
 
 %<prn%>%<dem%>%<sg%>%<rloc%>:мындагы ADJ-DAGI ;
 
@@ -466,6 +468,7 @@ LEXICON PRON-DEM-OSOL
 %<prn%>%<dem%>%<sg%>%<dat%>:го # ;
 %<prn%>%<dem%>%<sg%>%<loc%>:ндо PRED ;
 %<prn%>%<dem%>%<sg%>%<abl%>:ндон PRED ;
+%<prn%>%<dem%>%<sg%>%<apprx%>:ндой PRED ;
 
 %<prn%>%<dem%>%<sg%>%<rloc%>:ндогу ADJ-DAGI ;
 %<prn%>%<dem%>%<sg%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
@@ -483,6 +486,7 @@ LEXICON PRON-DEM-USUL
 %<prn%>%<dem%>%<sg%>%<dat%>:га # ;
 %<prn%>%<dem%>%<sg%>%<loc%>:нда PRED ;
 %<prn%>%<dem%>%<sg%>%<abl%>:ндан PRED ;
+%<prn%>%<dem%>%<sg%>%<apprx%>:ндай PRED ;
 
 %<prn%>%<dem%>%<sg%>%<rloc%>:ндагы ADJ-DAGI ;
 %<prn%>%<dem%>%<sg%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
@@ -500,6 +504,7 @@ LEXICON PRON-DEM-AL
 %<prn%>%<dem%>%<sg%>%<dat%>:га # ;
 %<prn%>%<dem%>%<sg%>%<loc%>:нда PRED ;
 %<prn%>%<dem%>%<sg%>%<abl%>:ндан PRED ;
+%<prn%>%<dem%>%<sg%>%<apprx%>:ндай PRED ;
 
 %<prn%>%<dem%>%<sg%>%<rloc%>:ндагы ADJ-DAGI ;
 %<prn%>%<dem%>%<sg%>%<reason%>%<abl%>:ндыктан PRED ;  ! FIXME: need better name
@@ -517,6 +522,7 @@ LEXICON PRON-DEM-TIGIL
 %<prn%>%<dem%>%<sg%>%<dat%>:ге # ;
 %<prn%>%<dem%>%<sg%>%<loc%>:нде PRED ;
 %<prn%>%<dem%>%<sg%>%<abl%>:нден PRED ;
+%<prn%>%<dem%>%<sg%>%<apprx%>:нндей PRED ;
 
 %<prn%>%<dem%>%<sg%>%<rloc%>:ндеги ADJ-DAGI ;
 
@@ -534,6 +540,7 @@ LEXICON PRON-PERS-EN
 %<dat%>:аа # ;    ! Dir/LR
 %<loc%>:енде PRED ;
 %<abl%>:енден PRED ;
+%<apprx%>:ендей PRED ;
 %<rloc%>:ендеги ADJ-DAGI ;
 
 LEXICON PRON-PERS-IZ
@@ -544,6 +551,7 @@ LEXICON PRON-PERS-IZ
 %<dat%>:ге # ;
 %<loc%>:де PRED ;
 %<abl%>:ден PRED ;
+%<apprx%>:дей PRED ;
 %<rloc%>:деги ADJ-DAGI ;
 
 LEXICON PRON-PERS-AL
@@ -554,6 +562,7 @@ LEXICON PRON-PERS-AL
 %<dat%>:га # ;
 %<loc%>:нда PRED ;
 %<abl%>:ндан PRED ;
+%<apprx%>:ндай PRED ;
 %<rloc%>:ндагы ADJ-DAGI ;
 
 LEXICON PRON-PERS-PLURALS
@@ -564,6 +573,7 @@ LEXICON PRON-PERS-PLURALS
 %<dat%>:%>г%{A%} # ;
 %<loc%>:%>д%{A%} PRED ;
 %<abl%>:%>д%{A%}н PRED ;
+%<apprx%>:%>д%{A%}й PRED ;
 %<rloc%>:%>д%{A%}г%{I%} ADJ-DAGI ;
 
 LEXICON PRON-ITG
@@ -1181,6 +1191,7 @@ LEXICON NounStems
 агын N-INFL ; 
 адабият N-INFL ; 
 адам N-INFL ; 
+адамзат N-INFL ; ! "humanity"
 адат N-INFL ; 
 адаш N-INFL ; 
 адеп N-INFL ; 
@@ -4375,7 +4386,6 @@ LEXICON NounStems
 катар N-INFL ;
 кезек N-INFL ;
 парта N-INFL ;
-февраль N-INFL ;
 июль N-INFL ;
 мөөнөт N-INFL ;
 кошумча N-INFL ;
@@ -6198,6 +6208,11 @@ kanal N-INFL ;
 чөккөн N-INFL ;
 банкнот N-INFL ;
 аргумент N-INFL ;
+мүмкүндүк N-INFL ; ! "possibility"
+чакырым N-INFL ; ! "invitation" ?
+консультант N-INFL ; ! "consultant"
+мугалимдик N-INFL ; ! "teacherhood"
+температура N-INFL ; ! "temperature"
 
 
 LEXICON PropernounStems
@@ -6473,6 +6488,8 @@ Tеңир NP-TOP ; ! ""
 Киев NP-TOP ; ! "Kiev"
 Ноокат NP-TOP ;
 Лейлек NP-TOP ;
+Сокулук NP-TOP ;
+Санкт% Петербург ; ! "Saint Petersburg"
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
@@ -6804,6 +6821,9 @@ LEXICON AdjecStems
 илимий ADJ ; ! "scientific"
 инсанча ADJ ; 
 казак ADJ ;  ! "Kazakh"
+татар ADJ ;  ! "Tatar"
+моңгол ADJ ;  ! "Mongol"
+дуңган ADJ ;  ! "Dungan"
 кишиче ADJ ; 
 кыз ADJ ; 
 кеңири ADJ ; 
@@ -7660,6 +7680,8 @@ LEXICON AdjecStems
 керемет ADJ ; ! "wonderful"
 коммунисттик ADJ ; ! "communist"
 кир ADJ ; ! "dirty"
+эпикалык ADJ ; ! "epic"
+таланттуу ADJ ; ! "talanted"
 
 
 !! FIXME: productive {K}{I} forms
@@ -7681,6 +7703,7 @@ LEXICON AdjecStems
 азыркы ADJ ; ! "present"
 күнкү ADJ ; ! "day"    ! Trust me, these are ADJs
 жылкы ADJ ; ! "year"   ! ""
+кадимки ADJ ; ! "ordinary"
 
 LEXICON AdvStems
 
@@ -9307,6 +9330,7 @@ ISBN ABBR ;
 окт%. ABBR ;
 нояб%. ABBR ;
 дек%. ABBR ;
+апр ABBR ;
 
 LEXICON Interjections 
 
