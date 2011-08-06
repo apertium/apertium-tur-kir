@@ -1,9 +1,8 @@
-     22 ^@eşref<adj><pst>$
-     20 ^@seferi<adj><pst>$
-     16 ^@temsili<adj><pst>$
-     13 ^@hukuken<adj><pst>$
-      9 ^@enflasyonist<adj><pst>$
-      8 ^@karizmatik<adj><pst>$
-      8 ^@doru<adj><pst>$
-      3 ^@etken<adj><pst>$
-      1 ^@torlak<adj><pst>$
+     10 ^@etken<adj><pst>$
+     10 ^@doru<adj><pst>$
+      6 ^@denizaşırı<adj><pst>$
+      4 ^@elvan<adj><pst>$
+      1 ^@yudum<adj><pst>$
+      1 ^@uyuz<adj><pst>$
+      1 ^@kopya<adj><pst>$
+      1 ^@eflatun<adj><pst>$
