@@ -898,7 +898,7 @@
         <out>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <lit-tag v="v.neg"/>
+              <lit-tag v="cop.neg"/>
               <var n="c_tens"/> 
               <var n="c_pers"/>
               <clip pos="1" side="tl" part="lemq"/>

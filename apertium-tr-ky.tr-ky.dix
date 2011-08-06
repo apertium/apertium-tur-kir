@@ -11,6 +11,7 @@
      <sdef n="np"        c="Proper noun"/>
      <sdef n="adv"       c="Adverb"/>
      <sdef n="v"         c="Verb"/>
+     <sdef n="cop"       c="Copula"/>
      <sdef n="cnjcoo"    c="Coordinating conjunction"/>
      <sdef n="cnjsub"    c="Subordinating conjunction"/>
      <sdef n="cnjadv"    c="Adverbial conjunction"/>
@@ -2856,7 +2857,6 @@
 	<e c="  0"><p><l>mart</l><r>март</r></p> </e>
 	<e c="  0"><p><l>pazar</l><r>базар</r></p> </e>
 	<e c="  0"><p><l>bakanlık</l><r>министирлик</r></p> </e>
-	<e c="  0"><p><l>sonra</l><r>кийин</r></p> </e>
 	<e c="  0"><p><l>sonra<s n="postp"/></l><r>кийин<s n="post"/></r></p> </e>
 	<e c="  0"><p><l>kabul</l><r>кабыл</r></p> </e>
 	<e c="  0"><p><l>yemek</l><r>тамак</r></p> </e>
@@ -6161,7 +6161,7 @@
         <!-- SECTION: Verbs -->
 
 	<e c="  0"><p><l>var<s n="exist"/></l><r>бар<s n="v"/><s n="exi"/></r></p></e>
-        <e c="  0"><p><l>değil<s n="not"/></l><r>эмес<s n="v"/><s n="neg"/></r></p></e>
+        <e c="  0"><p><l>değil<s n="not"/></l><r>э<s n="cop"/><s n="neg"/></r></p></e>
         <e c="  0"><p><l>yok<s n="nexist"/></l><r>жок<s n="v"/><s n="neg"/></r></p></e>
 
 <!--
