@@ -196,6 +196,13 @@
       <cat-item tags="v.*.neg.t_cond.*"/>
     </def-cat>
 
+    <def-cat n="v_opt">
+      <cat-item tags="v.t_opt.*"/>
+      <cat-item tags="v.neg.t_opt.*"/>
+      <cat-item tags="v.*.t_opt.*"/>
+      <cat-item tags="v.*.neg.t_opt.*"/>
+    </def-cat>
+
     <def-cat n="v_imp">
       <cat-item tags="v.t_imp.*"/>
       <cat-item tags="v.neg.t_imp.*"/>
@@ -399,6 +406,13 @@
           </test>
           <let><var n="c_tens"/><lit-tag v="ifi"/></let>
         </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_opt"/></equal>
+          </test>
+          <let><var n="c_tens"/><lit-tag v="opt"/></let>
+        </when>
+
         <when>
           <test>
             <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_imp"/></equal>
@@ -1073,6 +1087,28 @@
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </mlu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: v_opt">
+      <pattern>
+        <pattern-item n="v_opt"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="neg"/>
+            <lit-tag v="opt"/>
+            <var n="c_pers"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
         </out>
       </action>
     </rule>
