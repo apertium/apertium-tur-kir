@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-tr-az], [0.1.0], [ggrossi@gmail.com])
+AC_INIT([apertium-tr-az], [0.1.0], [mipasov@gmail.com])
 AM_INIT_AUTOMAKE([apertium-tr-az], [0.1.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
@@ -30,7 +30,7 @@ PKG_CHECK_APERTIUM
 
 PKG_CHECK_MODULES(HFST, hfst >= 3.0.0)
 
-AC_PATH_PROG(HFSTCALC, hfst-calculate, no)
+AC_PATH_PROG(HFSTCALC, hfst-lexc, no)
 if test x$ac_cv_path_HFSTCALC = x
 then
   AC_MSG_ERROR([You don't have hfst-calculate installed.])
