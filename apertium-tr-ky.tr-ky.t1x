@@ -336,6 +336,8 @@
       <attr-item tags="t_cont"/>
       <attr-item tags="t_past"/>
       <attr-item tags="t_imp"/>
+      <attr-item tags="t_aor"/>
+      <attr-item tags="t_fut"/>
     </def-attr>
  
 
