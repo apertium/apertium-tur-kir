@@ -86,7 +86,8 @@
 
 	<!-- SECTION: Interjections -->
     
-        <e c="  0"><p><l>tabi<b/>ki<s n="ij"/></l><r>ананчы<s n="ij"/></r></p></e>
+        <!--<e c="  0"><p><l>tabi<b/>ki<s n="ij"/></l><r>ананчы<s n="ij"/></r></p></e>-->
+        <e c="  0"><p><l>tabi<b/>ki<s n="ij"/></l><r>албетте<s n="ij"/></r></p></e>
         <e c="  0"><p><l>tabii<b/>ki<s n="ij"/></l><r>албетте<s n="ij"/></r></p></e>
 	<e c="  0"><p><l>şöyle<s n="ij"/></l><r>ушундай<s n="ij"/></r></p></e>
 	

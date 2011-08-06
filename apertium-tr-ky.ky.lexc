@@ -352,6 +352,7 @@ LEXICON ADV-ITG
 LEXICON ADV
 
 %<adv%>: # ;
+%<adv%>: V-CLIT ;
 
 LEXICON POST
 
@@ -9339,7 +9340,7 @@ LEXICON Interjections
 ооба INTERJ ; ! "yes"
 жок INTERJ ; ! "no"
 эй INTERJ ; ! "hey"
-ананчы INTERJ ; ! "of course"
+!ананчы INTERJ ; ! "of course"
 макул INTERJ ; ! "fine/okay"
 мейли INTERJ ; ! "okay/fine"
 түшүнүктүү INTERJ ; ! "understood"
