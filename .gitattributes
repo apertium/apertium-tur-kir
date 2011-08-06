@@ -58,6 +58,7 @@ morph-tr/lexicon/cnjcoo -text
 morph-tr/lexicon/cnjsub -text
 morph-tr/lexicon/det -text
 morph-tr/lexicon/interjections -text
+morph-tr/lexicon/misc -text
 morph-tr/lexicon/nouns -text
 morph-tr/lexicon/pn_ant -text
 morph-tr/lexicon/pn_cog -text
