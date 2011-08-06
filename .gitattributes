@@ -1,11 +1,12 @@
 * text=auto !eol
 /AUTHORS -text
-/Makefile -text
+/Makefile.am -text
 /README -text
 /apertium-tr-ky.ky.lexc -text
 /apertium-tr-ky.ky.twol -text
 /apertium-tr-ky.tr-ky.dix -text
 /apertium-tr-ky.tr-ky.t1x -text
+/configure.ac -text
 dev/bidix/context_adjectives.txt -text
 dev/bidix/context_conjunctions.txt -text
 dev/bidix/context_nouns.txt -text
