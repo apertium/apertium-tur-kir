@@ -3783,7 +3783,7 @@
     <e c="  0"><p><l>suret<s n="n"/></l><r>көрүнүм<s n="n"/></r></p></e>
     <e c="  0"><p><l>reis<s n="n"/></l><r>жетекчи<s n="n"/></r></p></e>
     <e c="  0"><p><l>nihayet<s n="n"/></l><r>акырында<s n="n"/></r></p></e>
-    <e c="  0"><p><l>ima<s n="n"/></l>кыйытма<r><s n="n"/></r></p></e>
+    <e c="  0"><p><l>ima<s n="n"/></l><r>кыйытма<s n="n"/></r></p></e>
     <e c="  0"><p><l>frank<s n="n"/></l><r>франк<s n="n"/></r></p></e>
     <e c="  0"><p><l>semt<s n="n"/></l><r>аймак<s n="n"/></r></p></e>
     <e c="  0"><p><l>sayılı<s n="n"/></l><r>сандагы<s n="n"/></r></p></e>
@@ -5280,7 +5280,7 @@
 	<e c="  0"><p><l>yeşil<s n="adj"/></l><r>жашыл<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>profesyonel<s n="adj"/></l><r>ишин<b/>билген<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>ölü<s n="adj"/></l><r>өлгүк<s n="adj"/></r></p></e>
-	<e c="  0"><p>sıkı<l> <s n="adj"/></l><r>бек<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>sıkı<s n="adj"/></l><r>бек<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>yoğun<s n="adj"/></l><r>койуу<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>uzak<s n="adj"/></l><r>алыс<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>yanlış<s n="adj"/></l><r>туура<b/>эмес<s n="adj"/></r></p></e>
