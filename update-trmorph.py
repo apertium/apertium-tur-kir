@@ -88,7 +88,11 @@ for f in tag_files.keys(): #{
 		#}
 		if lema in tags_stems[tag_files[f]]: #{
 			print '+' , f , lema , line;
-			outfile.write(line + '\n');
+			if line.count('\t') > 0: #{
+				outfile.write(line.split('\t')[0] + '\n');
+			else: #{
+				outfile.write(line + '\n');
+			#}
 		else: #{
 			print '-' , f , lema , line;
 		#}
