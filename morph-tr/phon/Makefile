@@ -7,11 +7,13 @@ FSTFILES = 010-exception_deye.fst 020-compn.fst \
 FSAFILES=$(FSTFILES:.fst=.a)
 SOURCES = $(LEXFILES) $(FSTFILES)
 
-include ../Makefile.inc
-
 .PHONY: all
 
 all: phon.a
+
+%.a: %.fst
+	hfst-calculate -w -v -i $< -o $@
+
 
 phon.a: $(FSAFILES) phon.fst ../symbols.fst
 
