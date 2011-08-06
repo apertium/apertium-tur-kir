@@ -79,6 +79,8 @@
 
 	<e c="  0"><p><l>mi<s n="q"/></l><r>бы<s n="mod_qst"/></r></p></e>
 	<e c="  0" r="LR"><p><l>mı<s n="q"/></l><r>бы<s n="mod_qst"/></r></p></e>
+	<e c="  0" r="LR"><p><l>mü<s n="q"/></l><r>бы<s n="mod_qst"/></r></p></e>
+	<e c="  0" r="LR"><p><l>mu<s n="q"/></l><r>бы<s n="mod_qst"/></r></p></e>
         <!--<e><p><l><s n="q"/></l><r><s n="q"/></r></p></e>-->
 
 
@@ -6533,7 +6535,6 @@
 	<e c="  0"><p><l>doğrula<s n="v"/></l><r>туурала<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>koy<s n="v"/></l><r>кой<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="1"><p><l>koy<s n="v"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>dur<s n="v"/></l><r>токто<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>yara<s n="v"/></l><r>жара<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="1"><p><l>yara<s n="v"/></l><r>ишке<b/>жара<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>güçlen<s n="v"/></l><r>күчтөн<s n="v"/><s n="iv"/></r></p></e>
