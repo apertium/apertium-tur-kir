@@ -444,16 +444,16 @@ LEXICON NUM
 
 LEXICON PRON-DEM-BUL
 
-%<prn%>%<dem%><nom%>:бул PRED ;
-%<prn%>%<dem%><nom%>:бу PRED ;   ! Dir/LR
-%<prn%>%<dem%><gen%>:мунун # ;
-%<prn%>%<dem%><acc%>:муну # ;
-%<prn%>%<dem%><dat%>:буга # ;
-%<prn%>%<dem%><loc%>:мында PRED ;
-%<prn%>%<dem%><abl%>:мындан PRED ;
-%<prn%>%<dem%><apprx%>:мындай PRED ;  
+%<prn%>%<dem%>%<nom%>:бул PRED ;
+%<prn%>%<dem%>%<nom%>:бу PRED ;   ! Dir/LR
+%<prn%>%<dem%>%<gen%>:мунун # ;
+%<prn%>%<dem%>%<acc%>:муну # ;
+%<prn%>%<dem%>%<dat%>:буга # ;
+%<prn%>%<dem%>%<loc%>:мында PRED ;
+%<prn%>%<dem%>%<abl%>:мындан PRED ;
+%<prn%>%<dem%>%<apprx%>:мындай PRED ;  
 
-%<prn%>%<dem%><rloc%>:мындагы ADJ-DAGI ;
+%<prn%>%<dem%>%<rloc%>:мындагы ADJ-DAGI ;
 
 %<prn%>%<dem%>:муну POSSESSION-ENDINGS ;
 
@@ -461,17 +461,17 @@ LEXICON PRON-DEM-BUL
 
 LEXICON PRON-DEM-OSOL
 
-%<prn%>%<dem%><nom%>:л PRED ;
-%<prn%>%<dem%><nom%>: PRED ;  ! Dir/LR
-%<prn%>%<dem%><gen%>:нун # ;
-%<prn%>%<dem%><acc%>:ну # ;
-%<prn%>%<dem%><dat%>:го # ;
-%<prn%>%<dem%><loc%>:ндо PRED ;
-%<prn%>%<dem%><abl%>:ндон PRED ;
-%<prn%>%<dem%><apprx%>:ндой PRED ;
+%<prn%>%<dem%>%<nom%>:л PRED ;
+%<prn%>%<dem%>%<nom%>: PRED ;  ! Dir/LR
+%<prn%>%<dem%>%<gen%>:нун # ;
+%<prn%>%<dem%>%<acc%>:ну # ;
+%<prn%>%<dem%>%<dat%>:го # ;
+%<prn%>%<dem%>%<loc%>:ндо PRED ;
+%<prn%>%<dem%>%<abl%>:ндон PRED ;
+%<prn%>%<dem%>%<apprx%>:ндой PRED ;
 
-%<prn%>%<dem%><rloc%>:ндогу ADJ-DAGI ;
-%<prn%>%<dem%><reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
+%<prn%>%<dem%>%<rloc%>:ндогу ADJ-DAGI ;
+%<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
 
 %<prn%>%<dem%>:ну POSSESSION-ENDINGS ;
 
@@ -479,17 +479,17 @@ LEXICON PRON-DEM-OSOL
 
 LEXICON PRON-DEM-USUL
 
-%<prn%>%<dem%><nom%>:л PRED ;
-%<prn%>%<dem%><nom%>: PRED ;  ! Dir/LR
-%<prn%>%<dem%><gen%>:нун # ;
-%<prn%>%<dem%><acc%>:ну # ;
-%<prn%>%<dem%><dat%>:га # ;
-%<prn%>%<dem%><loc%>:нда PRED ;
-%<prn%>%<dem%><abl%>:ндан PRED ;
-%<prn%>%<dem%><apprx%>:ндай PRED ;
+%<prn%>%<dem%>%<nom%>:л PRED ;
+%<prn%>%<dem%>%<nom%>: PRED ;  ! Dir/LR
+%<prn%>%<dem%>%<gen%>:нун # ;
+%<prn%>%<dem%>%<acc%>:ну # ;
+%<prn%>%<dem%>%<dat%>:га # ;
+%<prn%>%<dem%>%<loc%>:нда PRED ;
+%<prn%>%<dem%>%<abl%>:ндан PRED ;
+%<prn%>%<dem%>%<apprx%>:ндай PRED ;
 
-%<prn%>%<dem%><rloc%>:ндагы ADJ-DAGI ;
-%<prn%>%<dem%><reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
+%<prn%>%<dem%>%<rloc%>:ндагы ADJ-DAGI ;
+%<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
 
 %<prn%>%<dem%>:ну POSSESSION-ENDINGS ;
 
@@ -498,16 +498,16 @@ LEXICON PRON-DEM-USUL
 
 LEXICON PRON-DEM-AL
 
-%<prn%>%<dem%><nom%>:л PRED ;
-%<prn%>%<dem%><gen%>:нын # ;
-%<prn%>%<dem%><acc%>:ны # ;
-%<prn%>%<dem%><dat%>:га # ;
-%<prn%>%<dem%><loc%>:нда PRED ;
-%<prn%>%<dem%><abl%>:ндан PRED ;
-%<prn%>%<dem%><apprx%>:ндай PRED ;
+%<prn%>%<dem%>%<nom%>:л PRED ;
+%<prn%>%<dem%>%<gen%>:нын # ;
+%<prn%>%<dem%>%<acc%>:ны # ;
+%<prn%>%<dem%>%<dat%>:га # ;
+%<prn%>%<dem%>%<loc%>:нда PRED ;
+%<prn%>%<dem%>%<abl%>:ндан PRED ;
+%<prn%>%<dem%>%<apprx%>:ндай PRED ;
 
-%<prn%>%<dem%><rloc%>:ндагы ADJ-DAGI ;
-%<prn%>%<dem%><reason%>%<abl%>:ндыктан PRED ;  ! FIXME: need better name
+%<prn%>%<dem%>%<rloc%>:ндагы ADJ-DAGI ;
+%<prn%>%<dem%>%<reason%>%<abl%>:ндыктан PRED ;  ! FIXME: need better name
 
 %<prn%>%<dem%>:ны POSSESSION-ENDINGS ;
 
@@ -515,16 +515,16 @@ LEXICON PRON-DEM-AL
 
 LEXICON PRON-DEM-TIGIL
 
-%<prn%>%<dem%><nom%>:л PRED ;
-%<prn%>%<dem%><nom%>: PRED ;   ! Dir/LR
-%<prn%>%<dem%><gen%>:нин # ;
-%<prn%>%<dem%><acc%>:ни # ;
-%<prn%>%<dem%><dat%>:ге # ;
-%<prn%>%<dem%><loc%>:нде PRED ;
-%<prn%>%<dem%><abl%>:нден PRED ;
-%<prn%>%<dem%><apprx%>:нндей PRED ;
+%<prn%>%<dem%>%<nom%>:л PRED ;
+%<prn%>%<dem%>%<nom%>: PRED ;   ! Dir/LR
+%<prn%>%<dem%>%<gen%>:нин # ;
+%<prn%>%<dem%>%<acc%>:ни # ;
+%<prn%>%<dem%>%<dat%>:ге # ;
+%<prn%>%<dem%>%<loc%>:нде PRED ;
+%<prn%>%<dem%>%<abl%>:нден PRED ;
+%<prn%>%<dem%>%<apprx%>:нндей PRED ;
 
-%<prn%>%<dem%><rloc%>:ндеги ADJ-DAGI ;
+%<prn%>%<dem%>%<rloc%>:ндеги ADJ-DAGI ;
 
 %<prn%>%<dem%>:ни POSSESSION-ENDINGS ;
 
