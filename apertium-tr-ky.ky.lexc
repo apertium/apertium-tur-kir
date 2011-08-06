@@ -6489,7 +6489,7 @@ Tеңир NP-TOP ; ! ""
 Ноокат NP-TOP ;
 Лейлек NP-TOP ;
 Сокулук NP-TOP ;
-Санкт% Петербург ; ! "Saint Petersburg"
+Санкт% Петербург NP-TOP ; ! "Saint Petersburg"
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
