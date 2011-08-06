@@ -50,6 +50,7 @@ dev/missing-bidix-freq.sh -text
 /ky-tr.prob -text svneol=unset#unset
 /lexchoicebil.xsl -text
 /modes.xml -text
+morph-tr/Makefile.am -text
 morph-tr/deriv.fst -text
 morph-tr/lexicon/adjectives -text
 morph-tr/lexicon/adverbs -text
