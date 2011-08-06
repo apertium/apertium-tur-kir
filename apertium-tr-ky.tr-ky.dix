@@ -113,6 +113,7 @@
 	<e c="  0"><p><l>da<s n="cnjadv"/></l><r>да<s n="cnjcoo"/></r></p></e>
            <e c="  0"><p><l>ya<s n="cnjadv"/></l><r>га<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>ta<s n="cnjadv"/></l><r>да<s n="cnjadv"/></r></p></e>
+      <e slr="1"><p><l>ta<s n="cnjadv"/></l><r>тээ<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>gibi<s n="cnjsub"/></l><r>сыяктуу<s n="cnjsub"/></r></p></e>
    <e c="  0"><p><l>gerek<s n="cnjcoo"/></l><r>керек<s n="cnjcoo"/></r></p></e>
    <e c="  0"><p><l>ila<s n="cnjcoo"/></l><r>арасы<s n="cnjcoo"/></r></p></e>
@@ -151,7 +152,6 @@
       <e c="  0"><p><l>belki<s n="cnjadv"/></l><r>балким<s n="cnjadv"/></r></p></e>
       <e c="  0"><p><l>adeta<s n="cnjadv"/></l><r>так<b/>эле<s n="cnjadv"/></r></p></e>
       <e c="  0"><p><l>yok<b/>mu<s n="cnjadv"/></l><r>бар<b/>го<s n="cnjadv"/></r></p></e>
-      <e c="  0"><p><l>ta<s n="cnjadv"/></l><r>тээ<s n="cnjadv"/></r></p></e>
       <e c="  0"><p><l>oysa<b/>ki<s n="cnjadv"/></l><r>а<b/>бирок<s n="cnjadv"/></r></p></e>
       <e c="  0"><p><l>nitekim<s n="cnjadv"/></l><r>чынында<s n="cnjadv"/></r></p></e>
       <e c="  0"><p><l>mesela<s n="cnjadv"/></l><r>маселен<s n="cnjadv"/></r></p></e>
@@ -181,11 +181,11 @@
      <e c="  0"><p><l>tüm<s n="det"/></l><r>бардык<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>herhangi<s n="det"/></l><r>ар<b/>ким<s n="det"/><s n="ind"/></r></p></e>
      <e c="  0"><p><l>Herhangi<b/>bir<s n="det"/></l><r>кайсы<b/>бир<s n="det"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>Birçok<s n="det"/></l><r>бир<b/>далай<s n="det"/><s n="ind"/></r></p></e>
+    <e c="  0"><p><l>birçok<s n="det"/></l><r>бир<b/>далай<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>aynı<s n="det"/></l><r>бирдей<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>bu<b/>kadar<s n="det"/></l><r>ушунчалык<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>birtakım<s n="det"/></l><r>бир<b/>катар<s n="det"/><s n="ind"/></r></p></e>
-   <e c="  0"><p><l>Bütün<s n="det"/></l><r>толук<s n="det"/><s n="ind"/></r></p></e>
+   <e c="  0"><p><l>bütün<s n="det"/></l><r>толук<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>bir<b/>kısım<s n="det"/></l><r>бир<b/>бөлүк<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>diğer<s n="det"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>birkaç<b/>tane<s n="det"/></l><r>бир<b/>канча<b/>даана<s n="det"/><s n="ind"/></r></p></e>
@@ -4747,7 +4747,7 @@
         <e><p><l>Ingiltere<s n="np"/><s n="top"/></l><r>Англия<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Irak<s n="np"/><s n="top"/></l><r>Ирак<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Iran<s n="np"/><s n="top"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Ispanya<s n="n"/><s n="top"/></l><r>Испания<s n="n"/><s n="top"/></r></p></e> 
+        <e><p><l>Ispanya<s n="np"/><s n="top"/></l><r>Испания<s n="n"/><s n="top"/></r></p></e> 
         <e><p><l>Israil<s n="np"/><s n="top"/></l><r>Израил<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Istanbul<s n="np"/><s n="top"/></l><r>Истанбул<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Jakarta<s n="np"/><s n="top"/></l><r>Жакарта<s n="np"/><s n="top"/></r></p></e> 
