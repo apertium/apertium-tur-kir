@@ -57,6 +57,8 @@
 
      <sdef n="sent"      c="Sentence marker"/>
      <sdef n="cm"        c="Comma"/>
+     <sdef n="lpar"      c="Left parenthesis"/>
+     <sdef n="rpar"      c="Right parenthesis"/>
      <sdef n="apos"      c="Apostrophe"/>
      <sdef n="guio"      c="Hyphen"/>
      <sdef n="pnct"      c="Punctuation"/>
@@ -7372,6 +7374,10 @@
       <!-- SECTION: Punctuation -->
 
         <e><p><l>,<s n="pnct"/></l><r>,<s n="cm"/></r></p></e>
+        <e><p><l>(<s n="pnct"/></l><r>(<s n="lpar"/></r></p></e>
+        <e><p><l>)<s n="pnct"/></l><r>)<s n="rpar"/></r></p></e>
+        <e><p><l>[<s n="pnct"/></l><r>[<s n="lpar"/></r></p></e>
+        <e><p><l>]<s n="pnct"/></l><r>]<s n="rpar"/></r></p></e>
 
         <e><re>[.\?;:!"]</re><p><l><s n="pnct"/></l><r><s n="sent"/></r></p></e>
         <e><p>    <l>-<s n="pnct"/></l>    <r>-<s n="guio"/></r>  </p>    </e>
