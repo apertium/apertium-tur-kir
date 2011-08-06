@@ -214,7 +214,11 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ %{I%}: р: ] ;
 !%{I%}:0 <=> [ :LowVow :LabialCns ]/[ :0 | %>: ] _  п ;
 
 "Deletion of {A} after vowels"
-%{A%}:0 <=> [ :SurVowel ]/[ :0 ] %>: _ ;
+!%{A%}:0 <=> [ :SurVow - й: ]/[ :0 ] %>: _ ;
+!%{A%}:0 <=> [ :SurVow ]/[ :0 - й:0 ] %>: _ ;
+!%{A%}:0 <=> [ :SurVow ]/[ :0 ] \й: %>: _ ;
+!%{A%}:0 <=> [ :SurVow ]/[ :0 - й: ] %>: _ ;
+%{A%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ ;
 
 "Deletion of {S} after a consonant"
 !%{S%}:0 <=> :Cns :0* (%>:) _ ;
