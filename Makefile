@@ -1,4 +1,4 @@
-all: deps bidix other modes lexc twolc transducer
+all: deps bidix transfer modes lexc twolc transducer
 
 deps: 
 	if [ ! -d .deps ]; then mkdir .deps; fi
@@ -9,7 +9,7 @@ bidix:
 	lt-comp lr .deps/apertium-tr-ky.tr-ky.dix tr-ky.autobil.bin
 	cg-comp apertium-tr-ky.tr-ky.rlx tr-ky.rlx.bin
 
-other:
+transfer:
 	apertium-validate-transfer apertium-tr-ky.tr-ky.t1x
 	apertium-preprocess-transfer apertium-tr-ky.tr-ky.t1x tr-ky.t1x.bin
 
