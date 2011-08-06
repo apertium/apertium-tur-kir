@@ -6244,7 +6244,7 @@ LEXICON PropernounStems
 Фрунзе NP-TOP ;
 СССР NP-TOP ;
 Рим NP-TOP ; ! "Rome"
-Кашкар NP-TOP ;
+Кашкар NP-TOP ; ! "Qashgar"
 Жалалабат NP-TOP ;
 
 
