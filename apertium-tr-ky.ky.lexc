@@ -581,6 +581,7 @@ LEXICON PRON-ITG
 
 !%<prn%>%<itg%>: CASES  ;
 %<prn%>%<itg%>: POSSESSION ;
+%<prn%>%<itg%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
 LEXICON PRON-REFL
 
@@ -588,8 +589,8 @@ LEXICON PRON-REFL
 
 LEXICON PRON-IND
 
-%<prn%>%<ind%>: CASES ;
-%<prn%>%<ind%>%<pl%>:%>%{L%}%{A%}р CASES ;
+%<prn%>%<ind%>: POSSESSION ;
+%<prn%>%<ind%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
 LEXICON PRON-IND-POSS
 
@@ -598,14 +599,14 @@ LEXICON PRON-IND-POSS
 
 LEXICON PRON-DEM
 
-%<prn%>%<dem%>: CASES ; 
-%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р CASES ;
+%<prn%>%<dem%>: POSSESSION ; 
+%<prn%>%<dem%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
 
 LEXICON PRON-QNT
 
-%<prn%>%<qnt%>: CASES ;
-%<prn%>%<qnt%>%<pl%>:%>%{L%}%{A%}р CASES ;
+%<prn%>%<qnt%>: POSSESSION ;
+%<prn%>%<qnt%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
 LEXICON PRON-RECIP
 
