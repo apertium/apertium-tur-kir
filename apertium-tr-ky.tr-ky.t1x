@@ -438,19 +438,31 @@
           <test>
             <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_past"/></equal>
           </test>
+          <let><clip pos="1" side="tl" part="tens"/><lit-tag v="ifi"/></let>
           <let><var n="c_tens"/><lit-tag v="ifi"/></let>
         </when>
         <when>
           <test>
             <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_opt"/></equal>
           </test>
+          <let><clip pos="1" side="tl" part="tens"/><lit-tag v="opt"/></let>
           <let><var n="c_tens"/><lit-tag v="opt"/></let>
         </when>
 
         <when>
           <test>
+            <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_fut"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="tens"/><lit-tag v="fut"/></let>
+          <let><var n="c_tens"/><lit-tag v="fut"/></let>
+        </when>
+
+
+        <when>
+          <test>
             <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_imp"/></equal>
           </test>
+          <let><clip pos="1" side="tl" part="tens"/><lit-tag v="imp"/></let>
           <let><var n="c_tens"/><lit-tag v="imp"/></let>
         </when>
 
@@ -461,6 +473,7 @@
               <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_cont"/></equal>
             </or>
           </test>
+          <let><clip pos="1" side="tl" part="tens"/><lit-tag v="aor"/></let>
           <let><var n="c_tens"/><lit-tag v="aor"/></let>
         </when>
 
@@ -549,6 +562,100 @@
         </otherwise>
       </choose>
     </def-macro>  
+
+    <def-macro n="f_conv_pers_tens1" npar="1">
+      <let><var n="c_pers"/><lit v=""/></let>
+      <choose>
+        <when> <!-- These tenses take the copula suffixes -->
+          <test>
+            <or>
+              <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="fut"/></equal>
+              <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="ifi"/></equal>
+            </or>
+          </test>
+          <choose>
+            <when>
+              <test>
+                <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="1s"/></equal>
+              </test>
+              <let><var n="c_pers"/><concat><lit v="+э"/><lit-tag v="cop.p1.sg"/></concat></let>
+            </when>
+            <when>
+              <test>
+                <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="2s"/></equal>
+              </test>
+              <let><var n="c_pers"/><concat><lit v="+э"/><lit-tag v="cop.p2.sg"/></concat></let>
+            </when>
+            <when>
+              <test>
+                <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="3s"/></equal>
+              </test>
+              <let><var n="c_pers"/><concat><lit v="+э"/><lit-tag v="cop.p3.sg"/></concat></let>
+            </when>
+            <when>
+              <test>
+                <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="1p"/></equal>
+              </test>
+              <let><var n="c_pers"/><concat><lit v="+э"/><lit-tag v="cop.p1.pl"/></concat></let>
+            </when>
+            <when>
+              <test>
+                <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="2p"/></equal>
+              </test>
+              <let><var n="c_pers"/><concat><lit v="+э"/><lit-tag v="cop.p2.pl"/></concat></let>
+            </when>
+            <when>
+              <test>
+                <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="3p"/></equal>
+              </test>
+              <let><var n="c_pers"/><concat><lit v="+э"/><lit-tag v="cop.p3.pl"/></concat></let>
+            </when>
+          </choose>
+        </when>
+        <otherwise>
+          <choose>
+            <when>
+              <test>
+                <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="1s"/></equal>
+              </test>
+              <let><var n="c_pers"/><lit-tag v="p1.sg"/></let>
+            </when>
+            <when>
+              <test>
+                <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="2s"/></equal>
+              </test>
+              <let><var n="c_pers"/><lit-tag v="p2.sg"/></let>
+            </when>
+            <when>
+              <test>
+                <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="3s"/></equal>
+              </test>
+              <let><var n="c_pers"/><lit-tag v="p3.sg"/></let>
+            </when>
+            <when>
+              <test>
+                <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="1p"/></equal>
+              </test>
+              <let><var n="c_pers"/><lit-tag v="p1.pl"/></let>
+            </when>
+            <when>
+              <test>
+                <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="2p"/></equal>
+              </test>
+              <let><var n="c_pers"/><lit-tag v="p2.pl"/></let>
+            </when>
+            <when>
+              <test>
+                <equal><clip pos="1" side="sl" part="poss"/><lit-tag v="3p"/></equal>
+              </test>
+              <let><var n="c_pers"/><lit-tag v="p3.pl"/></let>
+            </when>
+          </choose>
+        </otherwise>
+      </choose>
+    </def-macro>  
+
+
 
     <def-macro n="f_conv_pers1" npar="1">
       <choose>
@@ -1128,10 +1235,10 @@
         <pattern-item n="v_abil"/>
       </pattern>
       <action>
-        <call-macro n="f_conv_pers1">
+        <call-macro n="f_conv_tens1">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="f_conv_tens1">
+        <call-macro n="f_conv_pers_tens1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -1198,7 +1305,7 @@
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+              <clip pos="1" side="tl" part="deriv"/>
               <clip pos="1" side="tl" part="neg"/>
               <lit-tag v="fut"/>
             </lu>
