@@ -39,6 +39,7 @@
      <sdef n="pers"      c="Personal"/>
      <sdef n="dem"       c="Demonstrative"/>
      <sdef n="ind"       c="Indefinite"/>
+     <sdef n="qnt"       c="Quantifier"/>
      <sdef n="neg"       c="Negative"/>
      <sdef n="itg"       c="Interrogative"/>
      <sdef n="qst"       c="Question"/>
@@ -180,7 +181,7 @@
    <e c="  0"><p><l>bu<b/>kadar<s n="det"/></l><r>ушунчалык<s n="det"/><s n="ind"/></r></p></e>
      <e c="  0"><p><l>bir<b/>miktar<s n="det"/></l><r>биртке<s n="det"/><s n="ind"/></r></p></e>
      <e c="  0"><p><l>o<b/>kadar<s n="det"/></l><r>анчалык<s n="det"/><s n="ind"/></r></p></e>
-     <e c="  0"><p><l>tüm<s n="det"/></l><r>бардык<s n="det"/><s n="ind"/></r></p></e>
+     <e c="  0"><p><l>tüm<s n="det"/></l><r>бардык<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>herhangi<s n="det"/></l><r>ар<b/>ким<s n="det"/><s n="ind"/></r></p></e>
      <e c="  0"><p><l>Herhangi<b/>bir<s n="det"/></l><r>кайсы<b/>бир<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>birçok<s n="det"/></l><r>бир<b/>далай<s n="det"/><s n="ind"/></r></p></e>
