@@ -259,6 +259,8 @@
       <attr-item tags="prn.pers"/>
       <attr-item tags="prn.ref"/>
       <attr-item tags="prn.dem"/>
+      <attr-item tags="prn.ind"/>
+      <attr-item tags="prn.recip"/>
       <attr-item tags="prn.itg"/>
       <attr-item tags="prn.qst"/>
     </def-attr>
