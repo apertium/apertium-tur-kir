@@ -86,6 +86,7 @@ Multichar_Symbols
 %<sup%>	    ! Superlative level of comparison 
 %<ord%>     ! Ordinal
 %<apprx%>   ! Approximal
+%<ki%>      ! -KI suffix, adjectivaliser
 
 %<pass%>    ! Passive
 %<caus%>    ! Causative
@@ -353,6 +354,7 @@ LEXICON ADV-ITG
 LEXICON ADV
 
 %<adv%>: # ;
+%<adv%>%<ki%>:%>к%{I%} # ;
 %<adv%>: V-CLIT ;
 
 LEXICON POST
@@ -383,6 +385,7 @@ LEXICON POSTADV
 LEXICON PART 
 
 %<part%>: # ;
+%<part%>: POSSESSION ;
 
 LEXICON PART-PERS-COP
 
@@ -1003,7 +1006,7 @@ LEXICON Postpositions
 улам POST ;
 учурга% чейин POST ;
 башка POST ;  ! FIXME: this isn't a POST !!!
-! убактагы POST ;
+! убактагы POST ; ! See bidix
 ! байланыштуу% болчу POST ; ! FIXME Agh what is this??
 боюнча POST ;
 өйдө POST ;
@@ -6568,6 +6571,7 @@ Tеңир NP-TOP ; ! ""
 
 Солтоноев NP-COG-MF ;
 Чороев NP-COG-MF ;
+Бен% Ладен NP-COG-MF ; ! "Bin Laden"
 Баласагын NP-COG-MF ;
 Раззаков NP-COG-MF ;
 Айтматов NP-COG-MF ;
@@ -7964,7 +7968,7 @@ LEXICON AdvStems
 алдында ADV ;  ! See bidix
 !барган% сайын ADV ; ! done with <ger> and POSTP
 !бери ADV ; ! FIXME: POSTPOS!
-!далай ADV ; 
+далай ADV ; ! See bidix
 мына ADV ; ! See bidix
 ооба ADV ; ! See bidix
 соңунда ADV ; ! compositional (See bidix)
