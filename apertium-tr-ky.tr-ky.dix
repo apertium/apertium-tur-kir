@@ -42,6 +42,7 @@
      <sdef n="qnt"       c="Quantifier"/>
      <sdef n="neg"       c="Negative"/>
      <sdef n="itg"       c="Interrogative"/>
+     <sdef n="recip"     c="Reciprocal"/>
      <sdef n="qst"       c="Question"/>
 
      <sdef n="p1"        c="First person"/>
@@ -254,7 +255,7 @@
 	 <e c="  0"><p><l>nere<s n="prn"/></l><r>кайсы<b/>жер<s n="prn"/><s n="itg"/></r></p></e>
 	 <e c="  0"><p><l>ne<s n="prn"/></l><r>эмне<s n="prn"/><s n="itg"/></r></p></e>
 	 <e c="  0"><p><l>hangi<s n="prn"/></l><r>кайсы<s n="prn"/><s n="itg"/></r></p></e>
-	 <e c="  0"><p><l>birbiri<s n="prn"/></l><r>бирин-бири<s n="prn"/></r></p></e>
+	 <e c="  0"><p><l>birbiri<s n="prn"/><s n="pers"/></l><r>бирин-бири<s n="prn"/><s n="recip"/></r></p></e>
 	 <e c="  0"><p><l>öteki<s n="prn"/></l><r>тиги<s n="prn"/><s n="dem"/></r></p></e>
          <e c="  0"><p><l>şura<s n="prn"/></l><r>ушу<b/>жер<s n="prn"/><s n="dem"/></r></p></e>
 

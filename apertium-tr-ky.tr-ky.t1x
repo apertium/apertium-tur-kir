@@ -8,6 +8,11 @@
       <cat-item lemma="*" tags="np.apos.*"/>
     </def-cat>
       
+    <def-cat n="birbiri">
+      <cat-item lemma="birbiri" tags="prn.pers"/>
+      <cat-item lemma="birbiri" tags="prn.pers.*"/>
+    </def-cat>
+       
     <def-cat n="not">
       <cat-item lemma="değil" tags="not"/>
       <cat-item lemma="değil" tags="not.*"/>
@@ -652,6 +657,32 @@
     </rule>
    
  
+    <rule comment="regla: birbiri">
+      <pattern>
+        <pattern-item n="birbiri"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_prn"/>
+            <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <var n="c_poss"/>
+            <var n="c_case"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+  
     <rule comment="regla: nom">
       <pattern>
         <pattern-item n="nom"/>
