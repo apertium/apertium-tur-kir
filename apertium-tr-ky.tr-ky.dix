@@ -625,7 +625,7 @@
 	<e c="  0"><p><l>bilgi<s n="n"/></l><r>маалымат<s n="n"/></r></p></e>
 	<e c="  0"><p><l>bilgin<s n="n"/></l><r>билерман<s n="n"/></r></p></e>
 	<e c="  0"><p><l>bilgisayar<s n="n"/></l><r>компютер<s n="n"/></r></p></e>
-	<e c="  0"><p><l>bilinç<s n="n"/></l><r>şüur<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bilinç<s n="n"/></l><r>акыл-эс<s n="n"/></r></p></e>
 	<e c="  0"><p><l>bina<s n="n"/></l><r>имарат<s n="n"/></r></p></e>
 	<e c="  0"><p><l>birey<s n="n"/></l><r>мүчөө<s n="n"/></r></p></e>
 	<e c="  0"><p><l>birim<s n="n"/></l><r>бирикме<s n="n"/></r></p></e>
@@ -3873,7 +3873,8 @@
     <e c="  0"><p><l>malzeme<s n="n"/></l><r>материал<s n="n"/></r></p></e>
     <e c="  0"><p><l>brifing<s n="n"/></l><r>брифинг<s n="n"/></r></p></e>
     <e c="  0"><p><l>ateşkes<s n="n"/></l><r>ок<b/>атууну<b/>токтотуу<s n="n"/></r></p></e>
-    <e c="  0"><p><l>asıl<s n="n"/></l><r>оригинал<s n="n"/></r></p></e>
+    <e c="  0"><p><l>asıl<s n="n"/></l><r>негизги<s n="n"/></r></p></e>
+    <e slr="1"><p><l>asıl<s n="n"/></l><r>оригинал<s n="n"/></r></p></e>
     <e c="  0"><p><l>ziyaretçi<s n="n"/></l><r>зыяратчы<s n="n"/></r></p></e>
     <e c="  0"><p><l>vali<s n="n"/></l><r>губернатор<s n="n"/></r></p></e>
     <e c="  0"><p><l>bağlam<s n="n"/></l><r>контекст<s n="n"/></r></p></e>

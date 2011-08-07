@@ -6213,7 +6213,7 @@ kanal N-INFL ;
 консультант N-INFL ; ! "consultant"
 мугалимдик N-INFL ; ! "teacherhood"
 температура N-INFL ; ! "temperature"
-
+акыл-эс N-INFL ;
 
 LEXICON PropernounStems
 Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
@@ -6953,7 +6953,6 @@ LEXICON AdjecStems
 жашыруун ADJ ; 
 чыгыш ADJ ; 
 пенсионер ADJ ; 
-негизги ADJ ; 
 ич ADJ ; 
 оң ADJ ; 
 сак ADJ ; 
@@ -7113,7 +7112,6 @@ LEXICON AdjecStems
 түндүк% чыгыш ADJ ;
 сынуучу ADJ ;
 таарынчаак ADJ ;
-негизги ADJ ;
 пайдубал ADJ ;
 арка ADJ ;
 хроникалык ADJ ;
