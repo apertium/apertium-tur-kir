@@ -1,8 +1,0 @@
-     10 ^@etken<adj><pst>$
-     10 ^@doru<adj><pst>$
-      6 ^@denizaşırı<adj><pst>$
-      4 ^@elvan<adj><pst>$
-      1 ^@yudum<adj><pst>$
-      1 ^@uyuz<adj><pst>$
-      1 ^@kopya<adj><pst>$
-      1 ^@eflatun<adj><pst>$
