@@ -1018,7 +1018,7 @@
             <clip pos="1" side="tl" part="deriv"/>
             <lit-tag v="ger_past"/>
             <var n="c_poss"/>
-            <var n="c_case"/>
+            <lit-tag v="loc"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
           <var n="c_post"/>
