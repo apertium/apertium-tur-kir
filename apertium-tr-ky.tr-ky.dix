@@ -119,7 +119,6 @@
    <e c="  0"><p><l>ta<s n="cnjadv"/></l><r>да<s n="cnjadv"/></r></p></e>
       <e slr="1"><p><l>ta<s n="cnjadv"/></l><r>тээ<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>gibi<s n="cnjsub"/></l><r>сыяктуу<s n="cnjsub"/></r></p></e>
-   <e c="  0"><p><l>gerek<s n="cnjcoo"/></l><r>керек<s n="cnjcoo"/></r></p></e>
    <e c="  0"><p><l>ila<s n="cnjcoo"/></l><r>арасы<s n="cnjcoo"/></r></p></e>
    <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>дейсиң<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>ya<b/>da<s n="cnjadv"/></l><r>же<b/>болбосо<s n="cnjadv"/></r></p></e>
@@ -1375,7 +1374,9 @@
 	<e c="  0"><p><l>gerçek<s n="n"/></l><r>факт<s n="n"/></r></p></e>  
 	<e slr="1"><p><l>gerçek<s n="n"/></l><r>чындык<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>gerekçe<s n="n"/></l><r>далил<s n="n"/></r></p></e>  
-	<e c="  0"><p><l>gerek<s n="n"/></l><r>керек<s n="n"/></r></p></e>  
+	<e c="  0"><p><l>gerek<s n="n"/></l><r>керек<s n="n"/></r></p></e>
+        <e slr="1"><p><l>gerek<s n="n"/></l><r>зарылдык<s n="n"/></r></p></e>  
+	<e slr="2"><p><l>gerek<s n="n"/></l><r>муктаждык<s n="n"/></r></p></e>	
 	<e c="  0"><p><l>gerilim<s n="n"/></l><r>чыңалуу<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>geyik<s n="n"/></l><r>кийик<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>gezgin<s n="n"/></l><r>саякатчы<s n="n"/></r></p></e>  
@@ -5799,7 +5800,7 @@
       <e c="  0"><p><l>toy<s n="adj"/></l><r>тажрыйбасыз<s n="adj"/></r></p></e>
       <e c="  0"><p><l>tor<s n="adj"/></l><r>тор<s n="adj"/></r></p></e>
       <e c="  0"><p><l>topyekün<s n="adj"/></l><r>жапырт<s n="adj"/></r></p></e>
-            <e c="  0"><p><l>porno<s n="adj"/></l><r>порно<s n="adj"/></r></p></e>
+      <e c="  0"><p><l>porno<s n="adj"/></l><r>порно<s n="adj"/></r></p></e>
       <e c="  0"><p><l>tez<s n="adj"/></l><r>тез<s n="adj"/></r></p></e>
       <e c="  0"><p><l>tetik<s n="adj"/></l><r>тетик<s n="adj"/></r></p></e>
       <e c="  0"><p><l>tertemiz<s n="adj"/></l><r>таптаза<s n="adj"/></r></p></e>
@@ -5907,7 +5908,9 @@
       <e c="  0"><p><l>azmettirici<s n="adj"/></l><r>түртүүчү<s n="adj"/></r></p></e>
       <e c="  0"><p><l>alçakgönüllü<s n="adj"/></l><r>карапайым<s n="adj"/></r></p></e>
       <e c="  0"><p><l>alaylı<s n="adj"/></l><r>шылдыңдуу<s n="adj"/></r></p></e>
-      <e c="  0"><p><l>ala<s n="adj"/></l><r>ала<s n="adj"/></r></p></e>	 
+      <e c="  0"><p><l>ala<s n="adj"/></l><r>ала<s n="adj"/></r></p></e>
+      <e c="  0"><p><l>gerek<s n="adj"/></l><r>керек<s n="adj"/></r></p></e>	 
+      <e slr="1"><p><l>gerek<s n="adj"/></l><r>зарыл<s n="adj"/></r></p></e>
         <!-- SECTION: Adverbs -->
 
 	<e c="  0"><p><l>yarın<s n="adv"/></l><r>эртең<s n="adv"/></r></p></e>
@@ -6449,7 +6452,7 @@
 	<e c="  0"><p><l>kaydet<s n="v"/></l><r>жаз<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>oluş<s n="v"/></l><r>түзүл<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>çağır<s n="v"/></l><r>чакыр<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>gerek<s n="v"/></l><r>ишке<b/>жара<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>gerek<s n="v"/></l><r>керекте<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>ulaş<s n="v"/></l><r>жет<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e c="  0"><p><l>gönder<s n="v"/></l><r>жибер<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>reddet<s n="v"/></l><r>тан<s n="v"/><s n="tv"/></r></p></e>
@@ -7375,7 +7378,7 @@
       <e c="  0"><p><l>ağın<s n="v"/></l><r>оона<s n="v"/><s n="iv"/></r></p></e>
       <e c="  0"><p><l>ağar<s n="v"/></l><r>агар<s n="v"/><s n="iv"/></r></p></e>
       <e c="  0"><p><l>afalla<s n="v"/></l><r>алдаста<s n="v"/><s n="iv"/></r></p></e>
-      <e c="  0"><p><l>kaynaklan<s n="v"/></l><r>баштал<s n="v"/><s n="tv"/></r></p></e>
+      <e c="  0"><p><l>kaynaklan<s n="v"/></l><r>башта<s n="v"/><s n="tv"/><s n="pass"/></r></p></e>
       <e c="  0"><p><l>bay<s n="v"/></l><r>көңүл<b/>айлант<s n="v"/><s n="tv"/></r></p></e>
       <e c="  0"><p><l>buy<s n="v"/></l><r>тоң<s n="v"/><s n="iv"/></r></p></e>
       <e c="  0"><p><l>adlan<s n="v"/></l><r>ысым<b/>ал<s n="v"/><s n="iv"/></r></p></e>
