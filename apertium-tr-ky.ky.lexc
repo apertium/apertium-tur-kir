@@ -2185,7 +2185,6 @@ LEXICON NounStems
 ыктымал N-INFL ; 
 этияттык N-INFL ; 
 ыктыяж N-INFL ; 
-муктаждык N-INFL ; 
 чучук N-INFL ; 
 имидж N-INFL ; 
 император N-INFL ; 
@@ -7180,7 +7179,6 @@ LEXICON AdjecStems
 чексиз ADJ ;
 түрү% суук ADJ ;
 керек ADJ ;
-зарыл ADJ ;
 жапжаңы ADJ ;
 таттуу ADJ ;
 сыйлуу ADJ ;
@@ -9310,6 +9308,7 @@ LEXICON VerbStems
 ысым% ал V-INFL-IV ;
 сакал% ал V-INFL-IV ; ! "shave"
 үтүктө V-INFL-TV ; ! "iron"
+керекте V-INFL-TV ; 
 
 LEXICON Abbreviations
 
