@@ -727,6 +727,12 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<prt_perf%>:%>%{I%}п # ;
 %<neg%>%<prt_perf%>:%>%{B%}%{A%}%>%{E%} # ;  ! TODO: is this the right way to do this?
 
+! Gerunds
+%<ger_fut%>:%>%{A%}р POSSESSION ;     ! <coop> IS only ?
+%<ger_fut%>:%>%{A%}%{A%}р POSSESSION ;                        ! Dir/LR
+%<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%с POSSESSION ;              !
+%<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%{A%}с POSSESSION ;          ! Dir/LR
+
 ! Verbal Adjectives
 %<vadj_fut%>:%>%{A%}р V-ADJ ;
 %<vadj_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
@@ -748,8 +754,6 @@ LEXICON V-INFL-NON-FINITE-REG
 !%<prt_????%>:%>%{E%}т # ;                    ! TODO: find name
 
 ! Gerunds
-%<ger_fut%>:%>%{A%}р POSSESSION ;     ! <coop> IS only ?
-%<ger_fut%>:%>%{A%}%{A%}р POSSESSION ;                        ! Dir/LR
 %<ger_past%>:%>%{G%}%{A%}н POSSESSION ; ! <coop> IS only ?
 %<ger_perf%>:%>%{G%}%{A%}н%>%{L%}%{I%}к POSSESSION ; !
 %<ger_pres%>:%>%{I%}ш POSSESSION ;    ! <coop> IS only
