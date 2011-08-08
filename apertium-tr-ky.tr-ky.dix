@@ -118,8 +118,7 @@
            <e c="  0"><p><l>ya<s n="cnjadv"/></l><r>га<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>ta<s n="cnjadv"/></l><r>да<s n="cnjadv"/></r></p></e>
       <e slr="1"><p><l>ta<s n="cnjadv"/></l><r>тээ<s n="cnjadv"/></r></p></e>
-   <e c="  0"><p><l>gibi<s n="cnjsub"/></l><r>сыяктуу<s n="cnjsub"/></r></p></e>
-   <e c="  0"><p><l>ila<s n="cnjcoo"/></l><r>арасы<s n="cnjcoo"/></r></p></e>
+   <e c="  0"><p><l>ila<s n="cnjcoo"/></l><r>менен<s n="cnjcoo"/></r></p></e>
    <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>дейсиң<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>ya<b/>da<s n="cnjadv"/></l><r>же<b/>болбосо<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>zira<s n="cnjadv"/></l><r>анткени<s n="cnjadv"/></r></p></e>
@@ -215,7 +214,7 @@
    <e c="  0"><p><l>dair<s n="postp"/></l><r>тууралуу<s n="post"/></r></p></e>
    <e c="  0"><p><l>halinde<s n="postp"/></l><r>боло<b/>турган<b/>болсо<s n="post"/></r></p></e>
    <e c="  0"><p><l>üzerine<s n="postp"/></l><r>тиешелүү<s n="post"/></r></p></e>
-   <e c="  0"><p><l>gibi<s n="postp"/></l><r>сыңары<s n="post"/></r></p></e>
+   <e c="  0"><p><l>gibi<s n="postp"/></l><r>сыяктуу<s n="post"/></r></p></e>
    <e c="  0"><p><l>yakında<s n="postp"/></l><r>жакында<s n="post"/></r></p></e>
    <e c="  0"><p><l>beri<s n="postp"/></l><r>бери<s n="post"/></r></p></e>
    <e c="  0"><p><l>doğru<s n="postp"/></l><r>карай<s n="post"/></r></p></e>
@@ -223,7 +222,6 @@
    <e c="  0"><p><l>dolayı<s n="postp"/></l><r>улам<s n="post"/></r></p></e>
    <e c="  0"><p><l>yana<s n="postp"/></l><r>учурга<b/>чейин<s n="post"/></r></p></e>
    <e c="  0"><p><l>başka<s n="postp"/></l><r>башка<s n="post"/></r></p></e>
-   <e c="  0"><p><l>anki<s n="postp"/></l><r>убактагы<s n="post"/></r></p></e>
    <e c="  0"><p><l>ilgiliydi<s n="postp"/></l><r>байланыштуу<b/>болчу<s n="post"/></r></p></e>
    <e c="  0"><p><l>süresince<s n="postp"/></l><r>боюнча<s n="post"/></r></p></e>
    <e c="  0"><p><l>yukarı<s n="postp"/></l><r>өйдө<s n="post"/></r></p></e>
@@ -420,7 +418,9 @@
 	<e c="  0"><p><l>amir<s n="n"/></l><r>эмир<s n="n"/></r></p></e>
 	<e c="  0"><p><l>anahtar<s n="n"/></l><r>ачкыч<s n="n"/></r></p></e>
 	<e c="  0"><p><l>anane<s n="n"/></l><r>тай<b/>эне<s n="n"/></r></p></e>
-	<e c="  0"><p><l>an<s n="n"/></l><r>учур<s n="n"/></r></p></e>
+	<e c="  0"><p><l>an<s n="n"/></l><r>убак<s n="n"/></r></p></e>
+        <e slr="1"><p><l>an<s n="n"/></l><r>маал<s n="n"/></r></p></e>
+        <e slr="2"><p><l>an<s n="n"/></l><r>учур<s n="n"/></r></p></e>
 	<e c="  0"><p><l>anı<s n="n"/></l><r>эстелик<s n="n"/></r></p></e>
 	<e c="  0"><p><l>anıt<s n="n"/></l><r>эстелик<s n="n"/></r></p></e>
 	<e c="  0"><p><l>anket<s n="n"/></l><r>анкета<s n="n"/></r></p></e>
