@@ -97,6 +97,11 @@
         <e c="  0"><p><l>tabi<b/>ki<s n="ij"/></l><r>албетте<s n="ij"/></r></p></e>
         <e c="  0"><p><l>tabii<b/>ki<s n="ij"/></l><r>албетте<s n="ij"/></r></p></e>
 	<e c="  0"><p><l>şöyle<s n="ij"/></l><r>ушундай<s n="ij"/></r></p></e>
+	<e c="  0"><p><l>peki<s n="ij"/></l><r>жарайт<s n="ij"/></r></p></e>
+	<e slr="1"><p><l>peki<s n="ij"/></l><r>макул<s n="ij"/></r></p></e>
+	<e slr="2"><p><l>peki<s n="ij"/></l><r>болуптур<s n="ij"/></r></p></e>
+	<e slr="3"><p><l>peki<s n="ij"/></l><r>анда<s n="ij"/></r></p></e>
+	<e slr="4"><p><l>peki<s n="ij"/></l><r>андай<b/>болсо<s n="ij"/></r></p></e>
 	
 	 <!-- SECTION: Miscellaneous -->
    
@@ -118,12 +123,12 @@
 	
 	<e c="  0"><p><l>de<s n="cnjadv"/></l><r>да<s n="cnjcoo"/></r></p></e>
 	<e c="  0"><p><l>da<s n="cnjadv"/></l><r>да<s n="cnjcoo"/></r></p></e>
-           <e c="  0"><p><l>ya<s n="cnjadv"/></l><r>га<s n="cnjadv"/></r></p></e>
-   <e c="  0"><p><l>ta<s n="cnjadv"/></l><r>да<s n="cnjadv"/></r></p></e>
-      <e slr="1"><p><l>ta<s n="cnjadv"/></l><r>тээ<s n="cnjadv"/></r></p></e>
-   <e c="  0"><p><l>ila<s n="cnjcoo"/></l><r>менен<s n="cnjcoo"/></r></p></e>
-   <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>дейсиң<s n="cnjadv"/></r></p></e>
-   <e c="  0"><p><l>ya<b/>da<s n="cnjadv"/></l><r>же<b/>болбосо<s n="cnjadv"/></r></p></e>
+        <e c="  0"><p><l>ya<s n="cnjadv"/></l><r>га<s n="cnjadv"/></r></p></e>
+   	<e c="  0"><p><l>ta<s n="cnjadv"/></l><r>да<s n="cnjadv"/></r></p></e>
+        <e slr="1"><p><l>ta<s n="cnjadv"/></l><r>тээ<s n="cnjadv"/></r></p></e>
+        <e c="  0"><p><l>ila<s n="cnjcoo"/></l><r>менен<s n="cnjcoo"/></r></p></e>
+        <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>дейсиң<s n="cnjadv"/></r></p></e>
+        <e c="  0"><p><l>ya<b/>da<s n="cnjadv"/></l><r>же<b/>болбосо<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>zira<s n="cnjadv"/></l><r>анткени<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>yani<s n="cnjadv"/></l><r>башкача<b/>айтканда<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>olsun<s n="cnjadv"/></l><r>мейли<s n="cnjadv"/></r></p></e>
