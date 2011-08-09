@@ -8126,7 +8126,6 @@ LEXICON VerbStems
 ! ачыт V-INFL-TV ; ! "ferment" ! regular causitive
 
 мойнуна% ал V-INFL-TV ; 
-кыйнал V-INFL-IV ; 
 кабыл% кыл V-INFL-TV ; ! "accept"
 
 ак V-INFL-IV-NO-CAUS ; ! "flow"
@@ -8178,7 +8177,6 @@ LEXICON VerbStems
 жум V-INFL-TV ; 
 жыгыл V-INFL-IV ; ! "fall over"
 жый V-INFL-TV ; 
-жыйнал V-INFL-IV ; 
 жыйынтыкта V-INFL-TV ; 
 жык V-INFL-TV ; 
 жырт V-INFL-TV ; 
@@ -8283,7 +8281,6 @@ LEXICON VerbStems
 тол V-INFL-IV ; ! "be full"
 толукта V-INFL-TV ; 
 топто V-INFL-TV ; 
-топтол V-INFL-IV ; 
 тосуп% ал V-INFL-TV ; 
 тоң V-INFL-IV ; ! "freeze"
 тут V-INFL-TV ; 
@@ -8655,7 +8652,7 @@ LEXICON VerbStems
 буйрук% бер V-INFL-IV ; ! "give an order"
 жаа V-INFL-IV ; ! "precipitate"
 же V-INFL-TV ; ! "eat"
-кыйнал V-INFL-IV ; ! "have a tough time"
+кыйна V-INFL-IV ; ! "have a tough time"
 мин V-INFL-TV ; ! "ride"
 !отур V-INFL-IV ; ! "sit"
 салкында V-INFL-IV ; ! "cool off"
