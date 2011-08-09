@@ -8147,7 +8147,7 @@ LEXICON VerbStems
 буз V-INFL-TV ; 
 бузул V-INFL-IV ; 
 була V-INFL-TV ; 
-бурул V-INFL-IV ; 
+бур V-INFL-IV ; 
 буйру V-INFL-IV ; 
 ! бырыштыр V-INFL-TV ;  regular
 бырыш V-INFL-IV ; 
@@ -8167,7 +8167,7 @@ LEXICON VerbStems
 жай V-INFL-TV ; ! "hang out to dry", "spread out"
 жан V-INFL-IV ; 
 жаркыра V-INFL-IV ; 
-жарыл V-INFL-IV ; 
+жар V-INFL-IV ; 
 жаша V-INFL-IV ; 
 жибер V-INFL-TV ; ! "send"
 тан V-INFL-TV ;
@@ -8175,7 +8175,7 @@ LEXICON VerbStems
 жон V-INFL-TV ; 
 жулмала V-INFL-TV ; 
 жум V-INFL-TV ; 
-жыгыл V-INFL-IV ; ! "fall over"
+жык V-INFL-IV ; ! "fall over"
 жый V-INFL-TV ; 
 жыйынтыкта V-INFL-TV ; 
 жык V-INFL-TV ; 
@@ -8351,8 +8351,6 @@ LEXICON VerbStems
 ишке% ашыр V-INFL-IV ;
 !бүтүр V-INFL-IV ; ! Irregular causitive
 аткар V-INFL-TV ;
-
-!жазыл V-INFL-TV ; ! regular
 кайрыл V-INFL-TV ;
 мин V-INFL-TV ; 
 !секир V-INFL-TV ; ! HOW?!
@@ -8722,7 +8720,7 @@ LEXICON VerbStems
 жүздөш V-INFL-IV ;
 курча V-INFL-IV ;
 көлөкөлө V-INFL-IV ;
-бузул V-INFL-TV ;
+буз V-INFL-TV ;
 кармап% тур V-INFL-TV ;
 кулатыл V-INFL-IV ;
 артка% жыл V-INFL-IV ;
