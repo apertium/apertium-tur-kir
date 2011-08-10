@@ -6237,8 +6237,8 @@
 	<e slr="1"><p><l>bilin<s n="v"/></l><r>тааныл<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>bin<s n="v"/></l><r>мин<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="1"><p><l>bin<s n="v"/></l><r>түш<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>birik<s n="v"/></l><r>топто<s n="v"/><s n="iv"/><s n="pass"/></r></p></e>
-	<e slr="1"><p><l>birik<s n="v"/></l><r>жыйна<s n="v"/><s n="iv"/><s n="pass"/></r></p></e>
+	<e c="  0"><p><l>birik<s n="v"/></l><r>топто<s n="v"/><s n="tv"/><s n="pass"/></r></p></e>
+	<e slr="1"><p><l>birik<s n="v"/></l><r>жыйна<s n="v"/><s n="tv"/><s n="pass"/></r></p></e>
 	<e c="  0"><p><l>bit<s n="v"/></l><r>бүт<s n="v"/><s n="iv"/></r></p></e>
 	<e slr="1"><p><l>bit<s n="v"/></l><r>аякта<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="2"><p><l>bit<s n="v"/></l><r>түгөн<s n="v"/><s n="iv"/></r></p></e>
