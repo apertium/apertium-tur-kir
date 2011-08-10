@@ -795,28 +795,28 @@ LEXICON V-INFL-FINITE
 ! Finite forms
 !%<pres%>:%>%{A%} V-PERS-PRES ;                                ! TODO: Check
 %<aor%>:%>%{E%} V-PERS-PRES ;                                 !
-%<fut%>:%>%{A%}р V-PERS-COP ;                                 !
-%<fut%>:%>%{A%}%{A%}р V-PERS-COP ;                            ! Dir/LR
+%<fut%>:%>%{A%}р V-PERS-COP-SUF ;                                 !
+%<fut%>:%>%{A%}%{A%}р V-PERS-COP-SUF ;                            ! Dir/LR
 %<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                            ! 
-%<past%>:%>%{G%}%{A%}н V-PERS-COP ;                           ! 
+%<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;                           ! 
 !%<cond%>:%>с%{A%} V-PERS-PAST ;                               ! not a finite form
-%<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP ;                        !   
-%<pih%>:%>ч%{U%} V-PERS-COP ;                                 ! 
-%<pot%>:%>ч%{U%}%>д%{A%}й V-PERS-COP ;                        ! 
-%<pcond%>:%>м%{A%}к V-PERS-COP ;                              ! 
+%<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP-SUF ;                        !   
+%<pih%>:%>ч%{U%} V-PERS-COP-SUF ;                                 ! 
+%<pot%>:%>ч%{U%}%>д%{A%}й V-PERS-COP-SUF ;                        ! 
+%<pcond%>:%>м%{A%}к V-PERS-COP-SUF ;                              ! 
 
 !%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! TODO: Check  (WTF is this?)
 !%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}р V-PERS-COP ;              !
 !%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}%{A%}р V-PERS-COP ;         ! Dir/LR
 !%<neg%>%<ifi%>:%>%{B%}%{A%}%>%{D%}%{I%} V-PERS-PAST ;         ! 
-%<neg%>%<fut%>:%>%{B%}%{A%}%>%с V-PERS-COP ;              !
-%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}с V-PERS-COP ;         ! Dir/LR
-%<neg%>%<ifi%>:%>%{G%}%{A%}н% жок V-PERS-COP ;         !
+%<neg%>%<fut%>:%>%{B%}%{A%}%>%с V-PERS-COP-SUF ;              !
+%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}с V-PERS-COP-SUF ;         ! Dir/LR
+%<neg%>%<ifi%>:%>%{G%}%{A%}н% жок V-PERS-COP-SUF ;         !
 %<neg%>%<aor%>:%>%{B%}%{A%}%>%{E%} V-PERS-PRES ;              !
 !%<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! not a finite form
-%<neg%>%<past%>:%>%{G%}%{A%}н% эмес V-PERS-COP ;        ! 
-%<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP ;           ! 
-%<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP ;              ! 
+%<neg%>%<past%>:%>%{G%}%{A%}н% эмес V-PERS-COP-SUF ;        ! 
+%<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP-SUF ;           ! 
+%<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP-SUF ;              ! 
 
 
 LEXICON V-INFL-TV-SHORT
@@ -830,30 +830,21 @@ LEXICON V-INFL-IV-SHORT
 LEXICON V-INFL-TV
 
 %<v%>%<tv%>: V-INFL-COMMON ;
-!%<v%>%<tv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
-!%<v%>%<tv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;               !
 %<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                              ! FIXME: When we make it cyclical, this should really be V-INFL-IV
-!%<v%>%<tv%>%<pass%>%<inf%>:%>%{I%}%{l%}%>%{U%}%{U%} POSSESSION ;              ! 
-!%<v%>%<tv%>%<pass%>%<neg%>%<inf%>:%>%{I%}%{l%}%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
 %<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
-!%<v%>%<iv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                  ! 
 %<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON V-INFL-IV-NO-CAUS
 
 %<v%>%<iv%>: V-INFL-COMMON ;
-!%<v%>%<iv%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                                 !
-!%<v%>%<iv%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ;              !
 
 LEXICON V-INFL-IV-IRREG-CAUS
 
 %<v%>%<iv%>%<caus%>:%> V-INFL-COMMON ;                                    !
-!%<v%>%<iv%>%<caus%>%<inf%>:%>%{U%}%{U%} POSSESSION ;                    ! 
-!%<v%>%<iv%>%<caus%>%<neg%>%<inf%>:%>%{B%}%{A%}%>%{U%}%{U%} POSSESSION ; !
 
 LEXICON VAUX-INFL
 
@@ -8347,7 +8338,7 @@ LEXICON VerbStems
 жүргүз V-INFL-TV ;
 ыйгар V-INFL-IV ;
 ! улант V-INFL-TV ;  ! productive
-улан V-INFL-TV ; 
+улан V-INFL-IV ; 
 ишке% ашыр V-INFL-IV ;
 !бүтүр V-INFL-IV ; ! Irregular causitive
 аткар V-INFL-TV ;
