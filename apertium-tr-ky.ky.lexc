@@ -8342,7 +8342,7 @@ LEXICON VerbStems
 ишке% ашыр V-INFL-IV ;
 !бүтүр V-INFL-IV ; ! Irregular causitive
 аткар V-INFL-TV ;
-кайрыл V-INFL-TV ;
+кайры V-INFL-TV ;
 мин V-INFL-TV ; 
 !секир V-INFL-TV ; ! HOW?!
 секир V-INFL-IV ; 
@@ -8466,7 +8466,6 @@ LEXICON VerbStems
 максат% кыл V-INFL-TV ;
 жоопкерчилик% ал V-INFL-TV ;
 узар V-INFL-IV ;
-! созул V-INFL-IV ; ! productive
 соз V-INFL-TV ; ! "draw out"
 чой V-INFL-TV ; ! "stretch"
 кер V-INFL-TV ; ! "stretch (muscles)"
@@ -8494,9 +8493,9 @@ LEXICON VerbStems
 көрүн V-INFL-IV ;
 !жаз V-INFL-TV ;
 туу V-INFL-TV ; ! "to bear young"
-туул V-INFL-IV ; ! "to be born" (of non-humans) FIXME: productive
+!туул V-INFL-IV ; ! "to be born" (of non-humans) FIXME: productive
 төрө V-INFL-TV ; ! "to bear child"
-төрөл V-INFL-IV ; ! "to be born" (of humans) FIXME: productive!
+!төрөл V-INFL-IV ; ! "to be born" (of humans) FIXME: productive!
 аныкта V-INFL-TV ;
 белгиле V-INFL-TV ;
 шектен V-INFL-TV ;
