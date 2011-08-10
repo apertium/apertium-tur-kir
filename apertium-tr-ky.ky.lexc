@@ -8841,25 +8841,22 @@ LEXICON VerbStems
 түшүнүш V-INFL-TV ;
 үйлөт V-INFL-IV ;
 маани% бер V-INFL-IV ;
-кирдет V-INFL-IV ;
-тийиштир V-INFL-TV ;
+тийиш V-INFL-TV ;
 кары V-INFL-IV ;
 тааныш V-INFL-IV ;
 үч% жолу% чайка V-INFL-TV ;
 жап V-INFL-TV ;
 жазып% ал V-INFL-TV ;
-кирде V-INFL-IV ;
 ширеш V-INFL-TV ;
 күчтөн V-INFL-IV ;
 программала V-INFL-TV ;
-үзүл V-INFL-TV ;
+үз V-INFL-TV ;
 бийлик% жүргүз V-INFL-TV ;
 буз V-INFL-TV ;
 оокат% кыл V-INFL-TV ;
 теңде V-INFL-IV ;
 кору V-INFL-IV ;
 эңсе V-INFL-IV ; ! "to desire"  CHECK transitivity
-актал V-INFL-IV ;
 жогорула V-INFL-IV ;
 арыздан V-INFL-IV ;
 укта V-INFL-IV ;
@@ -8881,7 +8878,6 @@ LEXICON VerbStems
 капа% кыл V-INFL-IV ;
 шыба V-INFL-TV ;
 сактан V-INFL-IV ;
-кирдет V-INFL-TV ;
 сарсанаа% бол V-INFL-IV ;
 ышаарат% бер V-INFL-TV ;
 темирле V-INFL-TV ;
@@ -8905,7 +8901,7 @@ LEXICON VerbStems
 сеп V-INFL-TV ;
 сапта V-INFL-TV ;
 ээ% бол V-INFL-IV ;
-орнот V-INFL-TV ;
+орно V-INFL-IV ;
 упай% бер V-INFL-TV ;
 жок% кыл V-INFL-TV ;
 карга V-INFL-IV ;
@@ -8916,7 +8912,7 @@ LEXICON VerbStems
 жазала V-INFL-TV ;
 дал% кел V-INFL-TV ;
 ачылыш% жаса V-INFL-IV ;
-айдыңдат V-INFL-TV ;
+айдыңда V-INFL-TV ; ! fixed айдыңдат
 жуу V-INFL-TV ;
 тан V-INFL-IV ;
 бар% бол V-INFL-IV ;
@@ -8937,7 +8933,7 @@ LEXICON VerbStems
 жогору% баала V-INFL-IV ;
 милдетин% ал V-INFL-TV ;
 пайда% бол V-INFL-IV ;
-суйулт V-INFL-TV ;
+суйул V-INFL-IV ; ! fixed суйулт
 жарала V-INFL-TV ;
 сабырсыздан V-INFL-IV ;
 кулпу% сал V-INFL-TV ;
