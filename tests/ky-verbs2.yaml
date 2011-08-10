@@ -37,14 +37,14 @@ Tests:
     кой<v><tv><neg><ifi><p1><sg> : койгон жокмун
 
   "[lexc] Volative participle":
-    кой<v><iv><prt_vol><p1><sg> : койгум
-    кой<v><iv><prt_vol><p2><sg> : койгуң
-    кой<v><iv><prt_vol><p2><sg><frm> : койгуңуз
-    кой<v><iv><prt_vol><p3><sg> : койгусу
-    кой<v><iv><prt_vol><p1><pl> : койгубуз
-    кой<v><iv><prt_vol><p2><pl> : койгуңар
-    кой<v><iv><prt_vol><p2><pl><frm> : койгуңуздар
-    кой<v><iv><prt_vol><p3><pl> : койгусу
+    кой<v><tv><prt_vol><p1><sg> : койгум
+    кой<v><tv><prt_vol><p2><sg> : койгуң
+    кой<v><tv><prt_vol><p2><sg><frm> : койгуңуз
+    кой<v><tv><prt_vol><p3><sg> : койгусу
+    кой<v><tv><prt_vol><p1><pl> : койгубуз
+    кой<v><tv><prt_vol><p2><pl> : койгуңар
+    кой<v><tv><prt_vol><p2><pl><frm> : койгуңуздар
+    кой<v><tv><prt_vol><p3><pl> : койгусу
     кет<v><iv><prt_vol><p1><sg> : кетким
     кет<v><iv><prt_vol><p2><sg> : кеткиң
     кет<v><iv><prt_vol><p2><sg><frm> : кеткиңиз
