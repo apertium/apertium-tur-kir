@@ -8534,7 +8534,6 @@ LEXICON VerbStems
 ына V-INFL-TV ;
 бөлүш V-INFL-TV ;
 кайтала V-INFL-TV ;
-жаңырт V-INFL-TV ;
 балала V-INFL-TV ;
 айыр V-INFL-TV ;
 ажырат V-INFL-TV ;
@@ -8949,7 +8948,6 @@ LEXICON VerbStems
 жакын% көр V-INFL-IV ;
 кол% кармаш V-INFL-IV ;
 сууса V-INFL-IV ;
-сийрыл V-INFL-IV ;
 тилде V-INFL-IV ;
 жинден V-INFL-IV ;
 мөөрлө V-INFL-TV ;
@@ -8963,7 +8961,6 @@ LEXICON VerbStems
 жууру V-INFL-TV ; ! "knead"
 жылдар% бою% бир% жерде% кал V-INFL-IV ;
 жабыш V-INFL-IV ;
-жаңырт V-INFL-TV ;
 чечин V-INFL-IV ;
 солдон% басып% өт V-INFL-IV ;
 сейректе V-INFL-IV ;
@@ -8971,7 +8968,7 @@ LEXICON VerbStems
 бөрктө V-INFL-TV ;
 жаманда V-INFL-IV ;
 бошот V-INFL-TV ;
-позиция% алуу V-INFL-IV ;
+позиция% ал V-INFL-IV ;
 ышта V-INFL-TV ; ! "to smoke [e.g., meat] "
 кол% жаса V-INFL-IV ;
 карат V-INFL-TV ;
@@ -9004,11 +9001,11 @@ LEXICON VerbStems
 менменсин V-INFL-IV ;
 аткара% ал V-INFL-IV ;
 айрымала V-INFL-TV ;
-! жешил V-INFL-TV ;  ! productive
-! бузул V-INFL-TV ;  ! productive
+жеш V-INFL-TV ;  
+буз V-INFL-TV ;  
 эскер V-INFL-TV ;
 байы V-INFL-IV ;
-! жуурул V-INFL-IV ; ! productive
+жууру V-INFL-TV ; 
 этикет% так V-INFL-IV ;
 чоочун% бол V-INFL-IV ;
 уял V-INFL-IV ;
@@ -9018,6 +9015,7 @@ LEXICON VerbStems
 бас V-INFL-TV ;
 шишеле V-INFL-TV ;
 жонго% көтөр V-INFL-TV ;
+сыйры V-INFL-TV ;
 силки V-INFL-TV ;
 бат V-INFL-IV ;
 сендел V-INFL-IV ;
@@ -9044,7 +9042,6 @@ LEXICON VerbStems
 түнө V-INFL-IV ;
 папкага% тирке V-INFL-TV ;
 туура V-INFL-TV ;
-бөлүктөргө% ажырат V-INFL-TV ;
 толкундан V-INFL-IV ;
 лакта V-INFL-TV ;
 суйкө V-INFL-TV ;
@@ -9190,7 +9187,6 @@ LEXICON VerbStems
 ийинге% арта% сал V-INFL-TV ;
 кычкылдаштыр V-INFL-TV ;
 жанчы V-INFL-TV ;
-жаңыр V-INFL-TV ;
 сүйүн V-INFL-IV ;
 шыктан V-INFL-TV ;
 жайгаш V-INFL-IV ;
@@ -9279,7 +9275,7 @@ LEXICON VerbStems
 козголоң% чыгар V-INFL-IV ;
 аз% көр V-INFL-IV ;
 соолук V-INFL-IV ;
-бөлүктөргө% ажыра V-INFL-TV ;
+бөлүктөргө% ажыра V-INFL-IV ;
 соорон V-INFL-IV ;
 оона V-INFL-IV ;
 оона V-INFL-IV ;
