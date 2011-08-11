@@ -170,8 +170,7 @@
       <e c="  0"><p><l>hiç<b/>olmazsa<s n="cnjadv"/></l><r>эч<b/>болбосо<s n="cnjadv"/></r></p></e>
       <e c="  0"><p><l>hani<s n="cnjadv"/></l><r>жок<b/>дегенде<s n="cnjadv"/></r></p></e>
       <e c="  0"><p><l>halbuki<s n="cnjadv"/></l><r>чынында<s n="cnjadv"/></r></p></e>
-      <e c="  0"><p><l>gibi<s n="cnjsub"/></l><r>сыяктуу<s n="cnjsub"/></r></p></e>
-    
+          
 	<!-- SECTION: Determinatives -->
 	<e c="  0"><p><l>bu<s n="det"/></l><r>бул<s n="det"/><s n="dem"/></r></p></e>
         <e c="  0"><p><l>hiçbir<s n="det"/></l><r>эчбир<s n="det"/><s n="ind"/></r></p></e> 
@@ -224,6 +223,7 @@
    <e c="  0"><p><l>halinde<s n="postp"/></l><r>боло<b/>турган<b/>болсо<s n="post"/></r></p></e>
    <e c="  0"><p><l>üzerine<s n="postp"/></l><r>тиешелүү<s n="post"/></r></p></e>
    <e c="  0"><p><l>gibi<s n="postp"/></l><r>сыяктуу<s n="post"/></r></p></e>
+   <e slr="1"><p><l>gibi<s n="postp"/></l><r>менен<s n="post"/></r></p></e>
    <e c="  0"><p><l>yakında<s n="postp"/></l><r>жакында<s n="post"/></r></p></e>
    <e c="  0"><p><l>beri<s n="postp"/></l><r>бери<s n="post"/></r></p></e>
    <e c="  0"><p><l>doğru<s n="postp"/></l><r>карай<s n="post"/></r></p></e>
