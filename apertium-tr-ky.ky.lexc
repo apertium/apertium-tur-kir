@@ -6597,6 +6597,7 @@ Tеңир NP-TOP ; ! ""
 Тыныбек NP-ANT-M ;
 Өмүрбек NP-ANT-M ;
 Тынай NP-ANT-M ;
+Тынчтыкбек NP-ANT-M ;
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
@@ -6623,7 +6624,6 @@ Tеңир NP-TOP ; ! ""
 Айтматов NP-COG-M ; ! ""
 Орокчиев NP-COG-M ; ! ""
 Абдрахманов NP-COG-M ; ! ""
-Станкович NP-COG-M ; ! ""
 Абдумомунов NP-COG-M ; ! ""
 Абдуразаков NP-COG-M ; ! ""
 Абдыкадыров NP-COG-M ; ! ""
@@ -6748,6 +6748,7 @@ Tеңир NP-TOP ; ! ""
 Орузбаева NP-COG-F ;
 Отунбаева NP-COG-F ;
 
+Станкович NP-COG-MF ; ! ""
 Радованович NP-COG-MF ; ! ""
 Лахей NP-COG-MF ; ! ""
 Баласагун NP-COG-MF ; !
