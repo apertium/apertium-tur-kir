@@ -380,6 +380,12 @@ LEXICON ADV-ITG
 
 %<adv%>%<itg%>: # ;
 
+LEXICON ADV-WITH-KI
+
+%<adv%>: # ;
+%<adv%>%<ki%>:%>к%{I%} # ;  
+%<adv%>: V-CLIT ;
+
 LEXICON ADV
 
 %<adv%>: # ;
@@ -7785,13 +7791,13 @@ LEXICON AdvStems
 көп ADV ; 
 жок ADV ; 
 ар% дайым ADV ; 
-кийин ADV ; ! "later"
+кийин ADV-WITH-KI ; ! "later"
 төмөнкү ADV ;
 негизи ADV ; 
 дагы ADV ; 
 бирок ADV ; 
 кыскача ADV ; ! "in short"
-мурда ADV ; ! "long ago"
+мурда ADV-WITH-KI ; ! "long ago"
 бирдикте ADV ; 
 каршы ADV ; 
 биринчи ADV ; 
@@ -7813,7 +7819,7 @@ LEXICON AdvStems
 болгону ADV ; ! FIXME: huh?
 дагы% эле ADV ; ! maybe this should be seen as compositional
 эми ADV ; 
-азыр ADV ; 
+азыр ADV-WITH-KI ; 
 дайыма ADV ; 
 толугу% менен ADV ; 
 андай ADV ; ! FIXME: adjective / adverb
@@ -7842,7 +7848,7 @@ LEXICON AdvStems
 балким ADV ; 
 терсине ADV ; 
 абдан ADV ; ! "really"
-бүгүн ADV ; ! from pending list
+бүгүн ADV-WITH-KI ; ! from pending list
 бираз ADV ; 
 ошентип ADV ; ! FIXME: compositional
 баарыбир ADV ; 
@@ -8025,12 +8031,11 @@ LEXICON AdvStems
 тышкары ADV ; ! See bidix
 чогу ADV ; ! See bidix
 аттиң ADV ;
-жыл ADV ; ! what?
-күн ADV ; ! ??
-ай ADV ; ! ??
-заман ADV ; ! ??
+жыл ADV-WITH-KI ; ! what?
+күн ADV-WITH-KI ; ! ??
+ай ADV-WITH-KI ; ! ??
+заман ADV-WITH-KI ; ! ??
 кызык ADV ;
-жыл ADV ; ! ??
 алгач ADV ; ! "at first; first of all"
 биротоло ADV ; ! "all at once"
 быйыл ADV ; ! "this year"
