@@ -182,6 +182,7 @@
 <!-- TODO: Check -->
     <e c="  0"><p><l>herhangi<b/>bir<s n="det"/></l><r>кайсы<b/>бир<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>diğer<s n="det"/></l><r>башка<s n="det"/><s n="ind"/></r></p></e>
+    <e slr="1"><p><l>diğer<s n="det"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>birçok<s n="det"/></l><r>бир<b/>далай<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>bütün<s n="det"/></l><r>бүт<b/>баары<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>birkaç<s n="det"/></l><r>бир<b/>канча<s n="det"/><s n="ind"/></r></p></e>
@@ -197,7 +198,7 @@
     <e c="  0"><p><l>birtakım<s n="det"/></l><r>бир<b/>катар<s n="det"/><s n="ind"/></r></p></e>
    <e c="  0"><p><l>bütün<s n="det"/></l><r>толук<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>bir<b/>kısım<s n="det"/></l><r>бир<b/>бөлүк<s n="det"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>diğer<s n="det"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
+    
     <e c="  0"><p><l>birkaç<b/>tane<s n="det"/></l><r>бир<b/>канча<b/>даана<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>öteki<s n="det"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>şu<s n="det"/></l><r>ушу<s n="det"/><s n="dem"/></r></p></e>
