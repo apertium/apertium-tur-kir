@@ -69,6 +69,8 @@ Multichar_Symbols
 %<top%>     ! Toponym
 %<al%>      ! Other
 %<org%>     ! Organisation name
+%<nat%>     ! Nationality
+%<lg%>      ! Language
 
 %<frm%>     ! Formal
  
@@ -192,6 +194,7 @@ VerbStems ;
 Punctuation ;
 Interjections ;
 Abbreviations ;
+Nationalities ;
 
 
 LEXICON CASES-DEFAULT
@@ -310,6 +313,20 @@ LEXICON NP-TOP-ASSR
 LEXICON NP-TOP
 
 %<np%>%<top%>: POSSESSION ;
+%<np%>%<top%>%<adj%>:%{L%}%{I%}к ADJ ;
+
+LEXICON NAT
+! Nationalities
+
+%<nat%>: ADJ ;
+%<nat%>: N-INFL ;
+%<nat%>:ч%{A%} ADV ;
+%<nat%>%<lg%>:ч%{A%} ADV ;
+%<nat%>%<lg%>:ч%{A%} N-INFL ;
+
+!%<nat%>%<lg%>%<n%>:ч%{A%} POSSESSION ;
+!%<nat%>%<n%>: POSSESSION ;
+
 
 LEXICON NP-AL
 
@@ -323,12 +340,15 @@ LEXICON ADJ-LEVELS
 LEXICON ADJ-COMMON
 
 %<adj%>%<pst%>: # ;
-%<n%>: POSSESSION ;  ! all adjectives can be used as nouns
+! %<n%>: POSSESSION ;  ! all adjectives can be used as nouns
+%<n%>: N-INFL ;  ! all adjectives can be used as nouns
 
 LEXICON ADJ-DAGI
 
-! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of CASES
-%<n%>: CASES ;
+!! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of CASES
+!%<n%>: CASES ;
+! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of N-INFL
+%<n%>: N-INFL ;
 %<adj%>%<pst%>: # ;
 
 LEXICON V-ADJ
@@ -354,7 +374,7 @@ LEXICON ADV-ITG
 LEXICON ADV
 
 %<adv%>: # ;
-%<adv%>%<ki%>:%>к%{I%} # ;
+! %<adv%>%<ki%>:%>к%{I%} # ;  ! FIXME: this only works with some ADVs
 %<adv%>: V-CLIT ;
 
 LEXICON POST
@@ -1040,6 +1060,7 @@ LEXICON Determiners
 кайсыл:кайсы DET-ITG ; ! "which?" ! FIXME: need morph to fix
 
 кайсы% бир DET-IND ;
+кандайдыр% бир DET-IND ; ! "some kind of"
 башка DET-IND ;    ! FIXME: Hmmmm
 бир% далай DET-QNT ;
 бүт% баары DET-QNT ;
@@ -2784,6 +2805,8 @@ LEXICON NounStems
 партнёр N-INFL ; 
 өнөк N-INFL ; 
 барча N-INFL ; 
+арча N-INFL ; ! "~pine"
+силос N-INFL ; ! "silo; grass stored in a silo"
 бөлүк N-INFL ; 
 кесим N-INFL ; 
 пассаж N-INFL ; 
@@ -2887,6 +2910,8 @@ LEXICON NounStems
 реформа N-INFL ; 
 регулятор N-INFL ; 
 режиссёр N-INFL ; 
+режиссёр:режиссер N-INFL ;  ! CHECK: is this right?
+кампа N-INFL ; ! "food-storage shed"
 реклама N-INFL ; 
 жарнама N-INFL ; 
 ректор N-INFL ; 
@@ -4143,7 +4168,6 @@ LEXICON NounStems
 кулун N-INFL ; 
 кагаз N-INFL ; 
 өрт N-INFL ; 
-орус N-INFL ;
 повесть N-INFL ;
 писатель N-INFL ;
 айыл N-INFL ;
@@ -4151,11 +4175,9 @@ LEXICON NounStems
 жазуучу N-INFL ;
 поэма N-INFL ;
 мүчө N-INFL ;
-түрк N-INFL ;
 !тарап N-INFL ;
 тил N-INFL ;
 ич N-INFL ;
-кыргыз N-INFL ;
 !орун N-INFL ;
 орун:ор%{y%}н N-INFL ;  ! "place" ! FIXME: make work properly
 !мурун N-INFL ; ! "nose"
@@ -5989,7 +6011,6 @@ kanal N-INFL ;
 санжыра N-INFL ; ! "genealogy"
 түркмөн N-INFL ; ! "Turkmen"
 таажы N-INFL ; ! "crown"
-тажик N-INFL ; ! "Tajik"
 туш N-INFL ; 
 куран N-INFL ; ! "qur'an"
 жетекчи N-INFL ; ! "director/leader"
@@ -6208,6 +6229,7 @@ kanal N-INFL ;
 мугалимдик N-INFL ; ! "teacherhood"
 температура N-INFL ; ! "temperature"
 акыл-эс N-INFL ;
+курам N-INFL ; ! "contents"
 
 LEXICON PropernounStems
 Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
@@ -6288,6 +6310,7 @@ Tеңир NP-TOP ; ! ""
 Австрия NP-TOP ; ! ""
 Азербайжан NP-TOP ; ! ""
 Америка NP-TOP ; ! ""
+! америкалык ADJ ; ! ""  ! This should be auto generated
 Амстердам NP-TOP ; ! ""
 Англия NP-TOP ; ! ""
 Ангола NP-TOP ; ! ""
@@ -6807,7 +6830,6 @@ LEXICON AdjecStems
 чыныгы ADJ ; 
 совет ADJ ;  ! "Soviet"
 ысык ADJ ; ! "hot"
-кыргыз ADJ ; ! "Kyrgyz"
 сулуу ADJ ; ! "beautiful"
 жаман ADJ ; ! "bad"
 сом ADJ ; ! "pure"
@@ -6815,10 +6837,6 @@ LEXICON AdjecStems
 !эң ADJ ; ! "most"	
 илимий ADJ ; ! "scientific"
 инсанча ADJ ; 
-казак ADJ ;  ! "Kazakh"
-татар ADJ ;  ! "Tatar"
-моңгол ADJ ;  ! "Mongol"
-дуңган ADJ ;  ! "Dungan"
 кишиче ADJ ; 
 кыз ADJ ; 
 кеңири ADJ ; 
@@ -6990,7 +7008,6 @@ LEXICON AdjecStems
 аз ADJ ; 
 адабий ADJ ;
 жооптуу ADJ ;
-кыргызча ADJ ;
 бирканча ADJ ;
 жетиштүү ADJ ;
 ашыкча ADJ ;
@@ -7323,7 +7340,6 @@ LEXICON AdjecStems
 энциклопедиялык ADJ ; ! ""
 этимологиялык ADJ ; ! ""
 этнографиялык ADJ ; ! ""
-америкалык ADJ ; ! ""
 апталык ADJ ; ! ""
 биоэнергетикалык ADJ ; ! ""
 грамматикалык ADJ ; ! ""
@@ -7762,7 +7778,6 @@ LEXICON AdvStems
 кеч ADV ; 
 дароо ADV ; ! "immediately"
 мурдатан ADV ; 
-кандай ADV ; ! FIXME: interrogative
 !бери ADV ; ! FIXME: POSTPOS!
 бат ADV ; 
 эч ADV ; ! FIXME
@@ -9271,6 +9286,8 @@ LEXICON VerbStems
 сакал% ал V-INFL-IV ; ! "shave"
 үтүктө V-INFL-TV ; ! "iron"
 керекте V-INFL-TV ; 
+жетекте V-INFL-TV ; ! "direct"
+кымат% өтө V-INFL-IV ; ! "work"
 
 LEXICON Abbreviations
 
@@ -9318,6 +9335,35 @@ LEXICON Interjections
 болуптур INTERJ ;
 анда INTERJ ;
 андай% болсо INTERJ ;
+
+LEXICON Nationalities
+казак NAT ;  ! "Kazakh"
+татар NAT ;  ! "Tatar"
+моңгол NAT ;  ! "Mongol"
+моңгол:монгол NAT ;  ! "Mongol"
+дуңган NAT ;  ! "Dungan"
+кыргыз NAT ; ! "Kyrgyz"
+түрк NAT ; ! "Turkish"
+! кыргызча ADJ ; ! This should be automatically generated
+орус NAT ; ! "Russian"
+булгар NAT ; ! "Bulgarian"
+грек NAT ; ! "Greek"
+еврей NAT ; ! "Jewish"
+арап NAT ; ! "Arab"
+өзбөк NAT ; ! "Uzbek"
+тажик NAT ; ! "Tajik"
+
+испан NAT ; ! "
+италия:италиялык NAT ; ! FIXME: "Italian" has the lemma "италия"
+
+англиялык:англис NAT ;  ! FIXME: "English the language" has an irregular lemma
+англиялык:аңглис NAT ;  ! "English the language"
+англиялык NAT ;  ! "English"
+
+француз NAT ; ! "French"  ! FIXME
+француз:франциялык NAT ; ! "French"
+
+
 
 LEXICON Punctuation
 
