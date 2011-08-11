@@ -894,6 +894,8 @@ LEXICON Postadverbs
 эле POSTADV ; ! "only"
 деле POSTADV ; ! "even"
 дагы POSTADV ; ! "... дагы" = "and ... too"
+ашуун POSTADV ; ! "more than"
+ашык POSTADV ; ! "more than"
 
 LEXICON Conjunctions 
 
@@ -6230,6 +6232,8 @@ kanal N-INFL ;
 температура N-INFL ; ! "temperature"
 акыл-эс N-INFL ;
 курам N-INFL ; ! "contents"
+обо N-INFL ; ! "radio waves; ephyr"
+айтым N-INFL ; ! "what someone says"
 
 LEXICON PropernounStems
 Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
@@ -6576,6 +6580,9 @@ Tеңир NP-TOP ; ! ""
 Арнольд NP-ANT-M ;
 Жаныбек NP-ANT-M ;
 Абылай NP-ANT-M ;
+Алыкул NP-ANT-M ;
+Сулайман NP-ANT-M ;
+Тыныбек NP-ANT-M ;
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
@@ -6583,6 +6590,7 @@ Tеңир NP-TOP ; ! ""
 Сандра NP-ANT-F ;
 Анна NP-ANT-F ;
 Аня NP-ANT-F ;
+Обо NP-ANT-F ; ! "Eve"
 
 Жаңыл NP-ANT-F ;
 
@@ -7690,6 +7698,7 @@ LEXICON AdjecStems
 кир ADJ ; ! "dirty"
 эпикалык ADJ ; ! "epic"
 таланттуу ADJ ; ! "talanted"
+руханий ADJ ; ! "soul"
 
 
 !! FIXME: productive {K}{I} forms
@@ -7712,6 +7721,7 @@ LEXICON AdjecStems
 күнкү ADJ ; ! "day"    ! Trust me, these are ADJs
 жылкы ADJ ; ! "year"   ! ""
 кадимки ADJ ; ! "ordinary"
+социалисттик ADJ ; ! "socialist"
 
 LEXICON AdvStems
 
@@ -7981,12 +7991,14 @@ LEXICON AdvStems
 тышкары ADV ; ! See bidix
 чогу ADV ; ! See bidix
 аттиң ADV ;
-жыл ADV ;
-күн ADV ;
-ай ADV ;
-заман ADV ;
+жыл ADV ; ! what?
+күн ADV ; ! ??
+ай ADV ; ! ??
+заман ADV ; ! ??
 кызык ADV ;
-жыл ADV ;
+жыл ADV ; ! ??
+алгач ADV ; ! "at first; first of all"
+биротоло ADV ; ! "all at once"
 
 
 LEXICON VerbStems
@@ -9287,7 +9299,7 @@ LEXICON VerbStems
 үтүктө V-INFL-TV ; ! "iron"
 керекте V-INFL-TV ; 
 жетекте V-INFL-TV ; ! "direct"
-кымат% өтө V-INFL-IV ; ! "work"
+кызмат% өтө V-INFL-IV ; ! "work"
 
 LEXICON Abbreviations
 
@@ -9352,6 +9364,10 @@ LEXICON Nationalities
 арап NAT ; ! "Arab"
 өзбөк NAT ; ! "Uzbek"
 тажик NAT ; ! "Tajik"
+украин NAT ; ! "Ukranian"
+
+америка NAT ; ! "American"
+америка:американдык NAT ; ! FIXME: this form works in addition to "америкалык"
 
 испан NAT ; ! "
 италия:италиялык NAT ; ! FIXME: "Italian" has the lemma "италия"
