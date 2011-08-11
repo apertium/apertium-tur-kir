@@ -584,8 +584,11 @@
       <call-macro n="f_conv_tens1">
         <with-param pos="1"/>
       </call-macro>
+<!-- These tenses take the copula suffixes -->
+<!--
       <choose>
-        <when> <!-- These tenses take the copula suffixes -->
+
+        <when> 
           <test>
             <or>
               <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="fut"/></equal>
@@ -641,7 +644,7 @@
             </when>
           </choose>
         </when>
-        <otherwise>
+        <otherwise> -->
           <choose>
             <when>
               <test>
@@ -680,8 +683,8 @@
               <let><var n="c_pers"/><lit-tag v="p3.pl"/></let>
             </when>
           </choose>
-        </otherwise>
-      </choose>
+<!--        </otherwise>
+      </choose>-->
     </def-macro>  
 
     <def-macro n="f_conv_pers1" npar="1">
@@ -1372,10 +1375,6 @@
               <clip pos="1" side="tl" part="deriv"/>
               <clip pos="1" side="tl" part="neg"/>
               <lit-tag v="fut"/>
-            </lu>
-            <lu>
-              <lit v="э"/>
-              <lit-tag v="cop"/>
               <var n="c_pers"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
