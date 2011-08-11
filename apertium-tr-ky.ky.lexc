@@ -879,6 +879,10 @@ LEXICON VAUX-INFL
 
 %<vaux%>: V-INFL-COMMON ;
 
+LEXICON VAUX-ELE
+
+%<vaux%>: V-PERS-COND ;
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!
@@ -6247,6 +6251,7 @@ kanal N-INFL ;
 дыйкан N-INFL ; ! "farmer"
 дыйканчылык N-INFL ; ! "farming"
 катын N-INFL ; ! "wife of the хан"
+падыша N-INFL ; ! "Padshah"
 
 LEXICON PropernounStems
 Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
@@ -6598,6 +6603,7 @@ Tеңир NP-TOP ; ! ""
 Өмүрбек NP-ANT-M ;
 Тынай NP-ANT-M ;
 Тынчтыкбек NP-ANT-M ;
+Мурат NP-ANT-M ;
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
@@ -8027,6 +8033,7 @@ LEXICON AdvStems
 жыл ADV ; ! ??
 алгач ADV ; ! "at first; first of all"
 биротоло ADV ; ! "all at once"
+быйыл ADV ; ! "this year"
 
 
 LEXICON VerbStems
@@ -8064,6 +8071,9 @@ LEXICON VerbStems
 башта VAUX-INFL ; !
 жазда VAUX-INFL ; !
 кел VAUX-INFL ; !
+
+эле VAUX-ELE ; !  
+эле%<mod_qst%>:беле VAUX-ELE ; ! CHECK: is this the right way to do this?
 
 өс V-INFL-IV ;
 танда V-INFL-TV ;
@@ -9365,6 +9375,7 @@ ISBN ABBR ;
 дек%. ABBR ;
 апр ABBR ;
 млн ABBR ;
+англ ABBR :
 
 LEXICON Interjections 
 
