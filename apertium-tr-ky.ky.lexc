@@ -6283,7 +6283,6 @@ LEXICON PropernounStems
 Баткен NP-TOP ;
 Фергана NP-TOP ;
 Түркия NP-TOP ;
-Кытай NP-TOP ;
 Токтогул NP-TOP ;
 Чүй NP-TOP ;
 Талас NP-TOP ;
@@ -6624,7 +6623,6 @@ Tеңир NP-TOP ; ! ""
 Айтматов NP-COG-M ; ! ""
 Орокчиев NP-COG-M ; ! ""
 Абдрахманов NP-COG-M ; ! ""
-Радованович NP-COG-M ; ! ""
 Станкович NP-COG-M ; ! ""
 Абдумомунов NP-COG-M ; ! ""
 Абдуразаков NP-COG-M ; ! ""
@@ -6750,6 +6748,7 @@ Tеңир NP-TOP ; ! ""
 Орузбаева NP-COG-F ;
 Отунбаева NP-COG-F ;
 
+Радованович NP-COG-MF ; ! ""
 Лахей NP-COG-MF ; ! ""
 Баласагун NP-COG-MF ; !
 Баласагын NP-COG-MF ;
@@ -9402,6 +9401,9 @@ LEXICON Nationalities
 украин NAT ; ! "Ukranian"
 калмак NAT ; ! "Kalmyk"
 кытай NAT ; ! "Chinese"
+латын NAT ; ! "Latin"
+дунган NAT ; ! "Dungan"
+дунган:дуңган NAT ; ! "Dungan"
 
 америка NAT ; ! "American"
 ! америка:американдык NAT ; ! FIXME: this form works in addition to "америкалык"
