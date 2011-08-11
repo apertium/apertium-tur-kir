@@ -163,6 +163,7 @@ Multichar_Symbols
 %{n%}       ! Realised as 'н' or ''; only used in 3rd person morphology and -NIKI
 %{l%}       ! Realised as 'л' or 'н'; only used in passive -{I}{l}
 %{y%}       ! Realised as '' or '{I}'; only used in epenthesis for nouns
+%{e%}       ! Realised as ''; only used to make vowel harmony come out right for things that normally break vowel harmony
 
 
 @P.NEG.0@   ! Set if -{I}š is not present
@@ -294,6 +295,14 @@ LEXICON NP-COG-MF
 
 %<np%>%<cog%>%<mf%>: CASES  ;
 
+LEXICON NP-COG-M
+
+%<np%>%<cog%>%<m%>: CASES  ;
+
+LEXICON NP-COG-M
+
+%<np%>%<cog%>%<f%>: CASES  ;
+
 LEXICON NP-ANT-M
 
 %<np%>%<ant%>%<m%>: CASES  ;
@@ -313,16 +322,16 @@ LEXICON NP-TOP-ASSR
 LEXICON NP-TOP
 
 %<np%>%<top%>: POSSESSION ;
-%<np%>%<top%>%<adj%>:%{L%}%{I%}к ADJ ;
+%<np%>%<top%>:%>%{L%}%{I%}к ADJ-COMMON ;
 
 LEXICON NAT
 ! Nationalities
 
 %<nat%>: ADJ ;
 %<nat%>: N-INFL ;
-%<nat%>:ч%{A%} ADV ;
-%<nat%>%<lg%>:ч%{A%} ADV ;
-%<nat%>%<lg%>:ч%{A%} N-INFL ;
+%<nat%>:%>ч%{A%} ADV ;
+%<nat%>%<lg%>:%>ч%{A%} ADV ;
+%<nat%>%<lg%>:%>ч%{A%} N-INFL ;
 
 !%<nat%>%<lg%>%<n%>:ч%{A%} POSSESSION ;
 !%<nat%>%<n%>: POSSESSION ;
@@ -340,15 +349,15 @@ LEXICON ADJ-LEVELS
 LEXICON ADJ-COMMON
 
 %<adj%>%<pst%>: # ;
-! %<n%>: POSSESSION ;  ! all adjectives can be used as nouns
-%<n%>: N-INFL ;  ! all adjectives can be used as nouns
+%<n%>: POSSESSION ;  ! all adjectives can be used as nouns
+! %<n%>: N-INFL ;  ! all adjectives can be used as nouns
 
 LEXICON ADJ-DAGI
 
 !! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of CASES
-!%<n%>: CASES ;
+%<n%>: CASES ;
 ! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of N-INFL
-%<n%>: N-INFL ;
+!%<n%>: N-INFL ;
 %<adj%>%<pst%>: # ;
 
 LEXICON V-ADJ
@@ -4195,7 +4204,7 @@ LEXICON NounStems
 мисал N-INFL ;
 тил N-INFL ;
 маани N-INFL ;
-кытай N-INFL ;
+! кытай N-INFL ;  ! NAT
 сын N-INFL ; ! "criticism"
 сыналгы N-INFL ; ! "radio"
 облус N-INFL ;
@@ -4736,7 +4745,6 @@ LEXICON NounStems
 бүгүн N-INFL ;
 кайрылуу N-INFL ;
 аскерлик% база N-INFL ;
-дыйканчылык N-INFL ;
 убактылуу N-INFL ;
 блок N-INFL ;
 жогорку N-INFL ;
@@ -5850,7 +5858,6 @@ kanal N-INFL ;
 жабдуу N-INFL ;
 кеңеш N-INFL ;
 талаа N-INFL ;
-дыйканчылык N-INFL ;
 текче N-INFL ;
 сыр N-INFL ;
 мээлеме N-INFL ;
@@ -6112,7 +6119,7 @@ kanal N-INFL ;
 арзуу N-INFL ;
 таң% калуу N-INFL ;
 хан N-INFL ;
-байкалган N-INFL ;
+! байкалган N-INFL ; ! productive
 кыймылсыз% мүлк N-INFL ;
 фрегат N-INFL ;
 үй-бүлө% абалы N-INFL ;
@@ -6234,6 +6241,12 @@ kanal N-INFL ;
 курам N-INFL ; ! "contents"
 обо N-INFL ; ! "radio waves; ephyr"
 айтым N-INFL ; ! "what someone says"
+градус N-INFL ; ! "degree"
+курут N-INFL ; ! "dried cheese curd"
+тургун N-INFL ; ! "resident"
+дыйкан N-INFL ; ! "farmer"
+дыйканчылык N-INFL ; ! "farming"
+катын N-INFL ; ! "wife of the хан"
 
 LEXICON PropernounStems
 Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
@@ -6371,7 +6384,7 @@ Tеңир NP-TOP ; ! ""
 Конго NP-TOP ; ! ""
 Копенгаген NP-TOP ; ! ""
 Куба NP-TOP ; ! ""
-Кыргызстан NP-TOP ; ! ""
+! Кыргызстан NP-TOP ; ! ""
 Кыргызстан NP-TOP ; ! "Kyrgyzstan"
 Латвия NP-TOP ; ! ""
 Либия NP-TOP ; ! ""
@@ -6583,6 +6596,8 @@ Tеңир NP-TOP ; ! ""
 Алыкул NP-ANT-M ;
 Сулайман NP-ANT-M ;
 Тыныбек NP-ANT-M ;
+Өмүрбек NP-ANT-M ;
+Тынай NP-ANT-M ;
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
@@ -6594,155 +6609,162 @@ Tеңир NP-TOP ; ! ""
 
 Жаңыл NP-ANT-F ;
 
-Солтоноев NP-COG-MF ;
-Чороев NP-COG-MF ;
-Бен% Ладен NP-COG-MF ; ! "Bin Laden"
+Солтоноев NP-COG-M ;
+Чороев NP-COG-M ;
+Бен% Ладен NP-COG-M ; ! "Bin Laden"
+Раззаков NP-COG-M ;
+Айтматов NP-COG-M ;
+Тыныстанов NP-COG-M ;
+Токомбаев NP-COG-M ;
+Арабаев NP-COG-M ;
+Бөкөнбаев NP-COG-M ;
+Шамшиев NP-COG-M ;
+Асанбаев NP-COG-M ; ! ""
+Ашым NP-ANT-M ; ! ""
+Айтматов NP-COG-M ; ! ""
+Орокчиев NP-COG-M ; ! ""
+Абдрахманов NP-COG-M ; ! ""
+Радованович NP-COG-M ; ! ""
+Станкович NP-COG-M ; ! ""
+Абдумомунов NP-COG-M ; ! ""
+Абдуразаков NP-COG-M ; ! ""
+Абдыкадыров NP-COG-M ; ! ""
+Абдыкалыков NP-COG-M ; ! ""
+Абдырахманов NP-COG-M ; ! ""
+Айдаров NP-COG-M ; ! ""
+Айтматов NP-COG-M ; ! ""
+Акматов NP-COG-M ; ! ""
+Актанов NP-COG-M ; ! ""
+Акунов NP-COG-M ; ! ""
+Алагушов NP-COG-M ; ! ""
+Алмамбетов NP-COG-M ; ! ""
+Алымкулов NP-COG-M ; ! ""
+Аристов NP-COG-M ; ! ""
+Асанов NP-COG-M ; ! ""
+Ауэзов NP-COG-M ; ! ""
+Байжигитов NP-COG-M ; ! ""
+Байзаков NP-COG-M ; ! ""
+Байтемиров NP-COG-M ; ! ""
+Бактыгулов NP-COG-M ; ! ""
+Батырканов NP-COG-M ; ! ""
+Баялинов NP-COG-M ; ! ""
+Бектенов NP-COG-M ; ! ""
+Белеков NP-COG-M ; ! ""
+Валиханов NP-COG-M ; ! ""
+Гамзатов NP-COG-M ; ! ""
+Гилязетдинов NP-COG-M ; ! ""
+Дооров NP-COG-M ; ! ""
+Жакшылыков NP-COG-M ; ! ""
+Жакыпбеков NP-COG-M ; ! ""
+Жакыпов NP-COG-M ; ! ""
+Жапаров NP-COG-M ; ! ""
+Жигитов NP-COG-M ; ! ""
+Жирков NP-COG-M ; ! ""
+Жумагулов NP-COG-M ; ! ""
+Жумакматов NP-COG-M ; ! ""
+Жунусов NP-COG-M ; ! ""
+Жусупов NP-COG-M ; ! ""
+Жээнбеков NP-COG-M ; ! ""
+Ибраимов NP-COG-M ; ! ""
+Иванов NP-COG-M ; ! ""
+Исаков NP-COG-M ; ! ""
+Кадыров NP-COG-M ; ! ""
+Каназаров NP-COG-M ; ! ""
+Карагулов NP-COG-M ; ! ""
+Каримов NP-COG-M ; ! ""
+Касымбеков NP-COG-M ; ! ""
+киргизов NP-COG-M ; ! ""
+Киров NP-COG-M ; ! ""
+Көбөнов NP-COG-M ; ! ""
+Кожобеков NP-COG-M ; ! ""
+Кудайбергенов NP-COG-M ; ! ""
+Куров NP-COG-M ; ! ""
+Күрүчбеков NP-COG-M ; ! ""
+Лермонтов NP-COG-M ; ! ""
+Ломоносов NP-COG-M ; ! ""
+Макешов NP-COG-M ; ! ""
+Маликов NP-COG-M ; ! ""
+Мамбетов NP-COG-M ; ! ""
+Мамытов NP-COG-M ; ! ""
+Меньшиков NP-COG-M ; ! ""
+Мифтаков NP-COG-M ; ! ""
+Молдобасанов NP-COG-M ; ! ""
+Молдокасымов NP-COG-M ; ! ""
+Нааматов NP-COG-M ; ! ""
+народов NP-COG-M ; ! ""
+Ниязов NP-COG-M ; ! ""
+Өмүрбеков NP-COG-M ; ! ""
+Өмүрзаков NP-COG-M ; ! ""
+Орозобеков NP-COG-M ; ! ""
+Орозов NP-COG-M ; ! ""
+Осмонкулов NP-COG-M ; ! ""
+Осмонов NP-COG-M ; ! ""
+Панфилов NP-COG-M ; ! ""
+Петров NP-COG-M ; ! ""
+Прозоров NP-COG-M ; ! ""
+Радлов NP-COG-M ; ! ""
+Раззаков NP-COG-M ; ! ""
+Рыскулов NP-COG-M ; ! ""
+Садыков NP-COG-M ; ! ""
+Самаганов NP-COG-M ; ! ""
+Сатылганов NP-COG-M ; ! ""
+Сулайманов NP-COG-M ; ! ""
+Султанов NP-COG-M ; ! ""
+Сыдыкбеков NP-COG-M ; ! ""
+Сыдыков NP-COG-M ; ! ""
+Таштемиров NP-COG-M ; ! ""
+Токтогулов NP-COG-M ; ! ""
+Төрөбеков NP-COG-M ; ! ""
+Турсунов NP-COG-M ; ! ""
+Турусбеков NP-COG-M ; ! ""
+Тыныбеков NP-COG-M ; ! ""
+Тыныстанов NP-COG-M ; ! ""
+Удалов NP-COG-M ; ! ""
+Урмамбетов NP-COG-M ; ! ""
+Урманбетов NP-COG-M ; ! ""
+Урстанбеков NP-COG-M ; ! ""
+Урустанбеков NP-COG-M ; ! ""
+Усманов NP-COG-M ; ! ""
+Усубакунов NP-COG-M ; ! ""
+Халидов NP-COG-M ; ! ""
+Хасанов NP-COG-M ; ! ""
+Худяков NP-COG-M ; ! ""
+Чехов NP-COG-M ; ! ""
+Чокморов NP-COG-M ; ! ""
+Шабданов NP-COG-M ; ! ""
+Шайбеков NP-COG-M ; ! ""
+Шеркулов NP-COG-M ; ! ""
+Шүкүрбеков NP-COG-M ; ! ""
+Шүкүров NP-COG-M ; ! ""
+Эрматов NP-COG-M ; ! ""
+Эшмамбетов NP-COG-M ; ! ""
+Эшматов NP-COG-M ; ! ""
+Осмоналиев NP-COG-M ;
+Акаев NP-COG-M ;
+Атамбаев NP-COG-M ;
+Көлбаев NP-COG-M ;
+Каддафи NP-COG-M ; ! "Kaddafi"
+Муралиев NP-COG-M ;
+Келдибеков NP-COG-M ;
+
+Орузбаева NP-COG-F ;
+Отунбаева NP-COG-F ;
+
+Лахей NP-COG-MF ; ! ""
+Баласагун NP-COG-MF ; !
 Баласагын NP-COG-MF ;
-Раззаков NP-COG-MF ;
-Айтматов NP-COG-MF ;
-Тыныстанов NP-COG-MF ;
-Отунбаева NP-COG-MF ;
-Токомбаев NP-COG-MF ;
-Арабаев NP-COG-MF ;
+Бартольд NP-COG-MF :
+Эрдоган NP-COG-MF ; ! ""
+Тадич NP-COG-MF ;
+Крнета NP-COG-MF ;
 Пушкин NP-COG-MF ;
 Кашгари NP-COG-MF ;
-Бөкөнбаев NP-COG-MF ;
-Шамшиев NP-COG-MF ;
-Асанбаев NP-COG-MF ; ! ""
 Горький NP-COG-MF ;
 Аббас NP-COG-MF ; ! "Abbas"
 Ленин NP-COG-MF ; ! "Lenin"
-Ашым NP-ANT-M ; ! ""
 Фрунзе NP-COG-MF ; ! "Frunze"
-Айтматов NP-COG-MF ; ! ""
-Орокчиев NP-COG-MF ; ! ""
-Абдрахманов NP-COG-MF ; ! ""
-Радованович NP-COG-MF ; ! ""
-Станкович NP-COG-MF ; ! ""
 Рузич NP-COG-MF ; ! ""
-Абдумомунов NP-COG-MF ; ! ""
-Абдуразаков NP-COG-MF ; ! ""
-Абдыкадыров NP-COG-MF ; ! ""
-Абдыкалыков NP-COG-MF ; ! ""
-Абдырахманов NP-COG-MF ; ! ""
-Айдаров NP-COG-MF ; ! ""
-Айтматов NP-COG-MF ; ! ""
-Акматов NP-COG-MF ; ! ""
-Актанов NP-COG-MF ; ! ""
-Акунов NP-COG-MF ; ! ""
-Алагушов NP-COG-MF ; ! ""
-Алмамбетов NP-COG-MF ; ! ""
-Алымкулов NP-COG-MF ; ! ""
-Аристов NP-COG-MF ; ! ""
-Асанов NP-COG-MF ; ! ""
-Ауэзов NP-COG-MF ; ! ""
-Байжигитов NP-COG-MF ; ! ""
-Байзаков NP-COG-MF ; ! ""
-Байтемиров NP-COG-MF ; ! ""
-Бактыгулов NP-COG-MF ; ! ""
-Батырканов NP-COG-MF ; ! ""
-Баялинов NP-COG-MF ; ! ""
-Бектенов NP-COG-MF ; ! ""
-Белеков NP-COG-MF ; ! ""
-Валиханов NP-COG-MF ; ! ""
-Гамзатов NP-COG-MF ; ! ""
-Гилязетдинов NP-COG-MF ; ! ""
-Дооров NP-COG-MF ; ! ""
-Жакшылыков NP-COG-MF ; ! ""
-Жакыпбеков NP-COG-MF ; ! ""
-Жакыпов NP-COG-MF ; ! ""
-Жапаров NP-COG-MF ; ! ""
-Жигитов NP-COG-MF ; ! ""
-Жирков NP-COG-MF ; ! ""
-Жумагулов NP-COG-MF ; ! ""
-Жумакматов NP-COG-MF ; ! ""
-Жунусов NP-COG-MF ; ! ""
-Жусупов NP-COG-MF ; ! ""
-Жээнбеков NP-COG-MF ; ! ""
-Ибраимов NP-COG-MF ; ! ""
-Иванов NP-COG-MF ; ! ""
-Исаков NP-COG-MF ; ! ""
-Кадыров NP-COG-MF ; ! ""
-Каназаров NP-COG-MF ; ! ""
-Карагулов NP-COG-MF ; ! ""
-Каримов NP-COG-MF ; ! ""
-Касымбеков NP-COG-MF ; ! ""
-киргизов NP-COG-MF ; ! ""
-Киров NP-COG-MF ; ! ""
-Көбөнов NP-COG-MF ; ! ""
-Кожобеков NP-COG-MF ; ! ""
-Кудайбергенов NP-COG-MF ; ! ""
-Куров NP-COG-MF ; ! ""
-Күрүчбеков NP-COG-MF ; ! ""
-Лермонтов NP-COG-MF ; ! ""
-Ломоносов NP-COG-MF ; ! ""
-Макешов NP-COG-MF ; ! ""
-Маликов NP-COG-MF ; ! ""
-Мамбетов NP-COG-MF ; ! ""
-Мамытов NP-COG-MF ; ! ""
-Меньшиков NP-COG-MF ; ! ""
-Мифтаков NP-COG-MF ; ! ""
-Молдобасанов NP-COG-MF ; ! ""
-Молдокасымов NP-COG-MF ; ! ""
-Нааматов NP-COG-MF ; ! ""
-народов NP-COG-MF ; ! ""
-Ниязов NP-COG-MF ; ! ""
-Өмүрбеков NP-COG-MF ; ! ""
-Өмүрзаков NP-COG-MF ; ! ""
-Орозобеков NP-COG-MF ; ! ""
-Орозов NP-COG-MF ; ! ""
-Осмонкулов NP-COG-MF ; ! ""
-Осмонов NP-COG-MF ; ! ""
-Панфилов NP-COG-MF ; ! ""
-Петров NP-COG-MF ; ! ""
-Прозоров NP-COG-MF ; ! ""
-Радлов NP-COG-MF ; ! ""
-Раззаков NP-COG-MF ; ! ""
-Рыскулов NP-COG-MF ; ! ""
-Садыков NP-COG-MF ; ! ""
-Самаганов NP-COG-MF ; ! ""
-Сатылганов NP-COG-MF ; ! ""
-Сулайманов NP-COG-MF ; ! ""
-Султанов NP-COG-MF ; ! ""
-Сыдыкбеков NP-COG-MF ; ! ""
-Сыдыков NP-COG-MF ; ! ""
-Таштемиров NP-COG-MF ; ! ""
-Токтогулов NP-COG-MF ; ! ""
-Төрөбеков NP-COG-MF ; ! ""
-Турсунов NP-COG-MF ; ! ""
-Турусбеков NP-COG-MF ; ! ""
-Тыныбеков NP-COG-MF ; ! ""
-Тыныстанов NP-COG-MF ; ! ""
-Удалов NP-COG-MF ; ! ""
-Урмамбетов NP-COG-MF ; ! ""
-Урманбетов NP-COG-MF ; ! ""
-Урстанбеков NP-COG-MF ; ! ""
-Урустанбеков NP-COG-MF ; ! ""
-Усманов NP-COG-MF ; ! ""
-Усубакунов NP-COG-MF ; ! ""
-Халидов NP-COG-MF ; ! ""
-Хасанов NP-COG-MF ; ! ""
-Худяков NP-COG-MF ; ! ""
-Чехов NP-COG-MF ; ! ""
-Чокморов NP-COG-MF ; ! ""
-Шабданов NP-COG-MF ; ! ""
-Шайбеков NP-COG-MF ; ! ""
-Шеркулов NP-COG-MF ; ! ""
-Шүкүрбеков NP-COG-MF ; ! ""
-Шүкүров NP-COG-MF ; ! ""
-Эрматов NP-COG-MF ; ! ""
-Эшмамбетов NP-COG-MF ; ! ""
-Эшматов NP-COG-MF ; ! ""
-Тадич NP-COG-MF ;
-Крнета NP-COG-MF ;
-Орузбаева NP-COG-MF ;
-Лахей NP-COG-MF ; ! ""
-Баласагун NP-COG-MF ; !
-Баласагын NP-COG-MF ; 
-Бартольд NP-COG-MF :
-Осмоналиев NP-COG-MF ;
-
-Эрдоган NP-COG-MF ; ! ""
+Обама NP-COG-MF ; ! "Obama"
 
 LEXICON AdjecStems
 кош ADJ ;
@@ -7665,8 +7687,9 @@ LEXICON AdjecStems
 шылдыңдуу ADJ ;
 ала ADJ ;
 артык ADJ ;
+сасык ADJ ; ! "smelly"
 
-абдан% жаман ADJ ;
+! абдан% жаман ADJ ;  ! productive
 адаттан% тышкары ADJ ;
 айылдык ADJ ;
 акырын ADJ ;
@@ -7688,18 +7711,21 @@ LEXICON AdjecStems
 эптүү ADJ ;
 түшүнүктүү ADJ ; ! "understandable"
 көрүнүктүү ADJ ;
-француз ADJ ; ! "French"
+! француз ADJ ; ! "French"  ! NAT
 документалдуу ADJ ; ! "documentary"
 кандидаттык ADJ ; ! FIXME: check
 бырыш ADJ ; ! "wrinkled"
-кытайлык ADJ ; ! "Chinese"
+! кытайлык ADJ ; ! "Chinese" ! NAT
 керемет ADJ ; ! "wonderful"
 коммунисттик ADJ ; ! "communist"
 кир ADJ ; ! "dirty"
 эпикалык ADJ ; ! "epic"
 таланттуу ADJ ; ! "talanted"
 руханий ADJ ; ! "soul"
-
+социалисттик ADJ ; ! "socialist"
+президенттик ADJ ; ! "presidential"
+тынч ADJ ; ! "quiet, silent, still, peaceful"
+өңдүү ADJ ; ! "colourful, coloured"
 
 !! FIXME: productive {K}{I} forms
 мурунку ADJ ; ! "old (former)"
@@ -7719,9 +7745,10 @@ LEXICON AdjecStems
 кийинки ADJ ; ! "next"
 азыркы ADJ ; ! "present"
 күнкү ADJ ; ! "day"    ! Trust me, these are ADJs
+түнкү ADJ ; ! "night"  ! ""
 жылкы ADJ ; ! "year"   ! ""
 кадимки ADJ ; ! "ordinary"
-социалисттик ADJ ; ! "socialist"
+соңку ADJ ; ! "final"
 
 LEXICON AdvStems
 
@@ -7729,6 +7756,7 @@ LEXICON AdvStems
 качан ADV-ITG ; ! "when"
 кандай ADV-ITG ; ! "how"
 кандайча ADV-ITG ; ! "howso"
+кайда:кай%<loc%> ADV-ITG ; ! "where"
 
 али ADV ; ! "still"
 өтө ADV ; ! "very"
@@ -7916,7 +7944,7 @@ LEXICON AdvStems
 түздөн% түз ADV ;
 ошоногу ADV ;
 болжол% менен ADV ;
-байкабай ADV ;
+! байкабай ADV ;  ! productive
 тим% эле ADV ;
 күмөнсүз ADV ;
 кандай% болсо% да ADV ;
@@ -8074,14 +8102,16 @@ LEXICON VerbStems
 бил V-INFL-TV ; ! "know"
 бүт V-INFL-IV-NO-CAUS ; ! "to finish"
 бүт:бүтүр V-INFL-IV-IRREG-CAUS ; ! "to finish"
-де V-INFL-TV-SHORT ; ! "say"
 жаз V-INFL-TV ; ! "write"
 жайгаш V-INFL-IV ; ! "be located"
 жарыяла V-INFL-TV ;
 жаса V-INFL-IV ;
 жат V-INFL-IV-NO-CAUS ; ! "lie"
 жат:жаткыз V-INFL-IV-IRREG-CAUS ; ! "lay down"
+де V-INFL-TV-SHORT ; ! "say"
 же V-INFL-TV-SHORT ; ! "eat"
+жуу V-INFL-TV-SHORT ; ! "wash"
+куу V-INFL-TV-SHORT ; ! "chase"
 жүр V-INFL-TV ;
 ич V-INFL-TV ; ! "drink"
 кара V-INFL-IV ; 
@@ -8796,7 +8826,8 @@ LEXICON VerbStems
 көгөр V-INFL-IV ;
 үз V-INFL-TV ;
 сүйүнчүлө V-INFL-IV ;
-байка V-INFL-IV ;
+байка V-INFL-IV ; ! "pay attention"
+байка V-INFL-TV ; ! "notice"
 ажыраш V-INFL-IV ;
 сына V-INFL-IV ;
 куралсыздан V-INFL-IV ;
@@ -8931,7 +8962,6 @@ LEXICON VerbStems
 дал% кел V-INFL-TV ;
 ачылыш% жаса V-INFL-IV ;
 айдыңда V-INFL-TV ; ! fixed айдыңдат
-жуу V-INFL-TV ;
 тан V-INFL-IV ;
 бар% бол V-INFL-IV ;
 кагылыш V-INFL-TV ;
@@ -9003,6 +9033,9 @@ LEXICON VerbStems
 маң% бол V-INFL-IV ;
 ! умтул V-INFL-IV ; ! productive
 алаксы V-INFL-IV ; ! "to get distracted"
+кекир V-INFL-IV ; ! "to burp"
+осур V-INFL-IV ; ! "to fart"
+сасы V-INFL-IV ; ! "to stink"
 ушала V-INFL-TV ;
 баасын% жогот V-INFL-TV ;
 толук% түшүн V-INFL-TV ;
@@ -9214,7 +9247,7 @@ LEXICON VerbStems
 сөк V-INFL-IV ;
 арам% ойло V-INFL-IV ;
 жыттан V-INFL-IV ;
-сасып% кет V-INFL-IV ;
+! сасып% кет V-INFL-IV ;  ! productive
 өзөктөн V-INFL-IV ;
 көөнөр V-INFL-TV ;
 хлорло V-INFL-TV ;
@@ -9300,6 +9333,8 @@ LEXICON VerbStems
 керекте V-INFL-TV ; 
 жетекте V-INFL-TV ; ! "direct"
 кызмат% өтө V-INFL-IV ; ! "work"
+кант:кант%{e%} V-INFL-IV ;  ! "how to do" ! FIXME: make work properly
+кант:кант%{e%} V-INFL-TV ;  ! "how to do" ! FIXME: make work properly
 
 LEXICON Abbreviations
 
@@ -9365,20 +9400,23 @@ LEXICON Nationalities
 өзбөк NAT ; ! "Uzbek"
 тажик NAT ; ! "Tajik"
 украин NAT ; ! "Ukranian"
+калмак NAT ; ! "Kalmyk"
+кытай NAT ; ! "Chinese"
 
 америка NAT ; ! "American"
-америка:американдык NAT ; ! FIXME: this form works in addition to "америкалык"
+! америка:американдык NAT ; ! FIXME: this form works in addition to "америкалык"
 
-испан NAT ; ! "
-италия:италиялык NAT ; ! FIXME: "Italian" has the lemma "италия"
+испан NAT ; ! "Spanish"
 
-англиялык:англис NAT ;  ! FIXME: "English the language" has an irregular lemma
-англиялык:аңглис NAT ;  ! "English the language"
-англиялык NAT ;  ! "English"
+! италия:италиялык NAT ; ! FIXME: "Italian" has the lemma "италия"
+
+англис NAT ; ! "English"
+! англиялык:англис NAT ;  ! FIXME: "English the language" has an irregular lemma
+! англиялык:аңглис NAT ;  ! "English the language"
+! англиялык NAT ;  ! "English"
 
 француз NAT ; ! "French"  ! FIXME
-француз:франциялык NAT ; ! "French"
-
+! француз:франциялык NAT ; ! "French"
 
 
 LEXICON Punctuation

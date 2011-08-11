@@ -2,7 +2,7 @@ Alphabet
 А Б В Г Д Е Ё Ж З И И К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
 а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ь ы ъ э ю я
 %{G%}:г %{D%}:д %{N%}:н %{L%}:л %{B%}:б %{P%}:п %{S%}:с %{n%}:н %{l%}:л
-%{A%}:а %{I%}:ы %{U%}:у %{E%}:а 
+%{A%}:а %{I%}:ы %{U%}:у %{E%}:а %{e%}:0
 %>:0 ; 
 
 Sets
@@ -205,7 +205,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ %{I%}: р: ] ;
 %{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \[ п | р:0 ] ;
 
 "Deletion of {I} after {n}"
-%{I%}:0 <=> %{n%}:н/[ :0 | %>: ] _ \[ п ];
+%{I%}:0 <=> %{n%}:н/[ [ :0 - %{e%}: ] | %>: ] _ \[ п ];
 
 !"Vowel deletion for archiphoneme {I} in <cv_perf>"
 !!%{I%}:0 <=> [ :SurVow | :LowVow :LabialCns ]  (%>:) _ п ;
@@ -259,13 +259,21 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ %{I%}: р: ] ;
 							matched ;
 
 "Vowel harmony for archiphoneme {I}"
- %{I%}:Vy <=> [ :LastVowel :Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | :0 ] _ \[ р:0 | п: ] ;
+!%{I%}:Vy <=> [ :LastVowel :Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | :0 ] _ \[ р:0 | п: ] ;
 !%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | :0 ] _ \[ р:0 | п: | %{U%}:* ] ;
 !%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | :0 ] _ [ [ ? - [ %>: %{U%}: ] ] | \[ р:0 | п: |  ] ] ;
 !%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | :0 ] _ \[ р:0 | п: | %{U%}:SurVow ]/[ %>: ] ;
+%{I%}:Vy <=> [ :LastVowel :Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | [ :0 - %{e%}: ] ] _ \[ р:0 | п: ] ;
   where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
+
+!"Irregular vowel harmony for archiphoneme {I}"
+!!%{I%}:Vy <=> [ :LastVowel :Cns* %{e%}:0 ]./.[ %>: | [ :0 - %{e%}:0 ] ] _ \[ р:0 | п: ] ;
+!%{I%}:Vy <=> [ :LastVowel :Cns* ]/[ %>: | [ :0 - %{e%}:0 ] ] %{e%}:/%>: _ \[ р:0 | п: ] ;
+!  where  Vy  in  (  и  ү  и  и  ү  и  и  ү  ү  и  ү  ү )
+!  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
+!           matched ;
 
 
 "Vowel harmony for archiphoneme {E}" ! should be just like {A}
