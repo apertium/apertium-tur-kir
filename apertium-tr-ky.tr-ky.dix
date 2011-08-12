@@ -4814,11 +4814,10 @@
 	  <e><p><l>Makedon<s n="np"/></l><r>Македониалык<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Bosnalı<s n="np"/></l><r>Босниялык<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Lahey<s n="np"/></l><r>Лахей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-	  <e><p><l>Bin<b/>Ladin<s n="np"/><s n="cog"/></l><r>Бен<b/>Ладен<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-	  <e><p><l>SARAYBOSNA<s n="np"/></l><r>Сарайбосня<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Bin<b/>Ladin<s n="np"/><s n="cog"/></l><r>Бен<b/>Ладен<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
 	  <e><p><l>Üsküp<s n="np"/></l><r>Үскүп<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Atina<s n="np"/></l><r>Атина<s n="np"/><s n="top"/></r></p></e>
-	  <e><p><l>Saraybosna<s n="np"/></l><r>Босня<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Saraybosna<s n="np"/></l><r>Сарайбосня<s n="np"/><s n="al"/></r></p></e>
 	  <e><p><l>Rusya<s n="np"/><s n="top"/></l><r>Орусия<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Zagreb<s n="np"/></l><r>Загреб<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Sofya<s n="np"/></l><r>София<s n="np"/><s n="top"/></r></p></e>
@@ -4893,7 +4892,7 @@
         <e><p><l>Batiç<s n="np"/><s n="cog"/></l><r>Батич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
         <e><p><l>Bayramoviç<s n="np"/><s n="cog"/></l><r>Байрамович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
         <e><p><l>Bebiç<s n="np"/><s n="cog"/></l><r>Бебич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Bektaşeviç<s n="np"/><s n="cog"/></l><r>Бектаşевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Bektaşeviç<s n="np"/><s n="cog"/></l><r>Бекташевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
         <e><p><l>Belkiç<s n="np"/><s n="cog"/></l><r>Белкич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
         <e><p><l>Bisceviç<s n="np"/><s n="cog"/></l><r>Бисжевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
         <e><p><l>Blagojeviç<s n="np"/><s n="cog"/></l><r>Благожевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -4953,7 +4952,7 @@
         <e><p><l>Ivaniseviç<s n="np"/><s n="cog"/></l><r>Ыванисевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
         <e><p><l>Ivanoviç<s n="np"/><s n="cog"/></l><r>Ыванович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
         <e><p><l>İvanoviç<s n="np"/><s n="cog"/></l><r>Иванович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>İzetbegoviç<s n="np"/><s n="cog"/></l><r>İзетбегович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>İzetbegoviç<s n="np"/><s n="cog"/></l><r>Изетбегович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
         <e><p><l>Jandrokoviç<s n="np"/><s n="cog"/></l><r>Жандрокович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
         <e><p><l>Jankoviç<s n="np"/><s n="cog"/></l><r>Жанкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
         <e><p><l>Jelasiç<s n="np"/><s n="cog"/></l><r>Желасич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -6219,7 +6218,7 @@
 	<e slr="3"><p><l>geril<s n="v"/></l><r>калчылдан<s n="v"/><s n="iv"/></r></p></e>  
 
 	<e c="  0"><p><l>geç<s n="v"/></l><r>өт<s n="v"/><s n="iv"/></r></p></e>  
-	<e slr="1"><p><l>geç<s n="v"/></l><r>жаз<s n="v"/><s n="TD"/><s n="pass"/></r></p></e> 
+	<e slr="1"><p><l>geç<s n="v"/></l><r>жаз<s n="v"/><s n="tv"/><s n="pass"/></r></p></e> 
 	<e slr="2"><p><l>geç<s n="v"/></l><r>кеч<s n="v"/><s n="tv"/></r></p></e> 
 
 	<e c="  0"><p><l>gül<s n="v"/></l><r>күл<s n="v"/><s n="iv"/></r></p></e>
@@ -6250,10 +6249,10 @@
 	<e c="  0"><p><l>boya<s n="v"/></l><r>боё<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>bozul<s n="v"/></l><r>буз<s n="v"/><s n="iv"/><s n="pass"/></r></p></e>
 	<e c="  0"><p><l>boğ<s n="v"/></l><r>муунт<s n="v"/><s n="tv"/></r></p></e>
-	<e slr="1"><p><l>boğ<s n="v"/></l><r>буу<s n="v"/><s n="TD"/></r></p></e>
+	<e slr="1"><p><l>boğ<s n="v"/></l><r>буу<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>boz<s n="v"/></l><r>буз<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="1"><p><l>boz<s n="v"/></l><r>талкала<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>buda<s n="v"/></l><r>бута<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>buda<s n="v"/></l><r>бута<s n="v"/><s n="tv"/></r></p></e>
 		
 	<e c="  0"><p><l>sev<s n="v"/></l><r>сүй<s n="v"/><s n="tv"/></r></p></e>
 	<!-- From apertium tr-az-->
@@ -6261,7 +6260,7 @@
         <e c="  0"><p><l>iç<s n="v"/></l><r>ич<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>al<s n="v"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>ver<s n="v"/></l><r>бер<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>besle<s n="v"/></l><r>бак<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>besle<s n="v"/></l><r>бак<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>hatırla<s n="v"/></l><r>эсте<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>de<s n="v"/></l><r>де<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>şükret<s n="v"/></l><r>шүкүр<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
@@ -6302,7 +6301,7 @@
 	<!--<e><p><l>dağla<s n="v"/></l><r>dağla<s n="v"/><s n="TD"/></r></p></e>
 	<e><p><l>dala<s n="v"/></l><r>dala<s n="v"/><s n="TD"/></r></p></e> -->
 	<e c="  0"><p><l>dal<s n="v"/></l><r>чумку<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>damla<s n="v"/></l><r>там<s n="v"/><s n="TD"/></r></p></e>
+	<e c="  0"><p><l>damla<s n="v"/></l><r>там<s n="v"/><s n="iv"/></r></p></e>
 	<!--<e><p><l>değin<s n="v"/></l><r> <b/>et<s n="v"/><s n="TD"/></r></p></e> -->
 	<e c="  0"><p><l>del<s n="v"/></l><r>теш<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>derle<s n="v"/></l><r>топто<s n="v"/><s n="tv"/></r></p></e>
