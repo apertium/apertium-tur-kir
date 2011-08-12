@@ -60,80 +60,54 @@ Tag mismatch between transfer and generation
 ===============================================================================
    2182 #күт\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^күт<v><iv><pass><aor><p3><sg>$
    2012 #эвро\<n\>\<nom\>	^эвро<n><nom>$
+   1782 #САРАЙБОСНЯ\<np\>\<al\>\<nom\>	^САРАЙБОСНЯ<np><al><nom>$
    1767 #де\<v\>\<tv\>\<pass\>\<imp\>\<p2\>\<sg\>	^де<v><tv><pass><imp><p2><sg>$
    1516 #чейин\<n\>\<acc\>	^чейин<n><acc>$
     933 #Ыйгарымдуу элчи\<n\>\<px3sg\>\<nom\>	^Ыйгарымдуу элчи<n><px3sg><nom>$
-    714 #Младич\<np\>\<cog\>\<mf\>\<gen\>	^Младич<np><cog><mf><gen>$
-    710 #Месич\<np\>\<cog\>\<mf\>\<nom\>	^Месич<np><cog><mf><nom>$
+    580 #Сарайбосня\<np\>\<al\>\<nom\>	^Сарайбосня<np><al><nom>$
     542 #бол\<v\>\<iv\>\<abil\>\<prt_impf\>	^бол<v><iv><abil><prt_impf>$
-    539 #Младич\<np\>\<cog\>\<mf\>\<nom\>	^Младич<np><cog><mf><nom>$
     498 #эвро\<n\>\<dat\>	^эвро<n><dat>$
-    451 #Карадзич\<np\>\<cog\>\<mf\>\<nom\>	^Карадзич<np><cog><mf><nom>$
-    372 #Милосевич\<np\>\<cog\>\<mf\>\<nom\>	^Милосевич<np><cog><mf><nom>$
-    345 #Льайич\<np\>\<cog\>\<mf\>\<nom\>	^Льайич<np><cog><mf><nom>$
-    333 #Карадзич\<np\>\<cog\>\<mf\>\<gen\>	^Карадзич<np><cog><mf><gen>$
-    329 #Жинжич\<np\>\<cog\>\<mf\>\<nom\>	^Жинжич<np><cog><mf><nom>$
     327 #чейин\<n\>\<nom\>	^чейин<n><nom>$
     325 #кандай\<adv\>	^кандай<adv>$
-    324 #Драскович\<np\>\<cog\>\<mf\>\<nom\>	^Драскович<np><cog><mf><nom>$
     321 #эм\<v\>\<tv\>\<imp\>\<p2\>\<pl\>	^эм<v><tv><imp><p2><pl>$
     318 #баалан\<v\>\<tv\>\<caus\>\<ger\>\<nom\>	^баалан<v><tv><caus><ger><nom>$
-    317 #Милосевич\<np\>\<cog\>\<mf\>\<gen\>	^Милосевич<np><cog><mf><gen>$
     298 #элестет\<v\>\<iv\>\<ger_past\>\<nom\>	^элестет<v><iv><ger_past><nom>$
     284 #Лахей\<np\>\<cog\>\<mf\>\<rloc\>	^Лахей<np><cog><mf><rloc>$
-    279 #Жеремич\<np\>\<cog\>\<mf\>\<nom\>	^Жеремич<np><cog><mf><nom>$
     278 #ал\<v\>\<tv\>\<part_acak\>	^ал<v><tv><part_acak>$
     270 #дейсиң\<cnjadv\>	^дейсиң<cnjadv>$
-    261 #Терзич\<np\>\<cog\>\<mf\>\<nom\>	^Терзич<np><cog><mf><nom>$
-    261 #Вуянович\<np\>\<cog\>\<mf\>\<nom\>	^Вуянович<np><cog><mf><nom>$
     259 #жык\<v\>\<iv\>\<pass\>\<ger\>\<nom\>	^жык<v><iv><pass><ger><nom>$
-    254 #Младич\<np\>\<cog\>\<mf\>\<acc\>	^Младич<np><cog><mf><acc>$
     251 #бур\<v\>\<iv\>\<pass\>\<ger\>\<nom\>	^бур<v><iv><pass><ger><nom>$
     248 #кыл\<v\>\<tv\>\<abil\>\<prt_impf\>	^кыл<v><tv><abil><prt_impf>$
-    236 #Николич\<np\>\<cog\>\<mf\>\<nom\>	^Николич<np><cog><mf><nom>$
     228 #жык\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^жык<v><iv><pass><ifi><p3><sg>$
-    228 #Жуканович\<np\>\<cog\>\<mf\>\<nom\>	^Жуканович<np><cog><mf><nom>$
-    223 #Жинжич\<np\>\<cog\>\<mf\>\<gen\>	^Жинжич<np><cog><mf><gen>$
-    222 #Марович\<np\>\<cog\>\<mf\>\<nom\>	^Марович<np><cog><mf><nom>$
     219 #Эвро\<n\>\<nom\>	^Эвро<n><nom>$
-    219 #Жович\<np\>\<cog\>\<mf\>\<nom\>	^Жович<np><cog><mf><nom>$
-    205 #Жованович\<np\>\<cog\>\<mf\>\<gen\>	^Жованович<np><cog><mf><gen>$
-    202 #Зивкович\<np\>\<cog\>\<mf\>\<nom\>	^Зивкович<np><cog><mf><nom>$
-    200 #Тихич\<np\>\<cog\>\<mf\>\<nom\>	^Тихич<np><cog><mf><nom>$
     199 #чыгар\<v\>\<tv\>\<ger_past\>\<nom\>	^чыгар<v><tv><ger_past><nom>$
     194 #планда\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^планда<v><iv><pass><aor><p3><sg>$
-    194 #Динкич\<np\>\<cog\>\<mf\>\<nom\>	^Динкич<np><cog><mf><nom>$
     186 #өт\<v\>\<iv\>\<caus\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^өт<v><iv><caus><pass><ger><px3sg><nom>$
+    185 #Сарайбосня\<np\>\<al\>\<abl\>	^Сарайбосня<np><al><abl>$
+    183 #Сарайбосня\<np\>\<al\>\<loc\>	^Сарайбосня<np><al><loc>$
     183 #бир далай\<det\>\<ind\>	^бир далай<det><ind>$
     182 #кал\<v\>\<iv\>\<caus\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^кал<v><iv><caus><pass><ger><px3sg><nom>$
     181 #Ыйгарымдуу элчи\<n\>\<nom\>	^Ыйгарымдуу элчи<n><nom>$
     178 #мейли\<cnjadv\>	^мейли<cnjadv>$
     173 #сүр\<v\>\<tv\>\<cv_eli\>	^сүр<v><tv><cv_eli>$
     165 #бери\<adv\>	^бери<adv>$
-    160 #Желич\<np\>\<cog\>\<mf\>\<nom\>	^Желич<np><cog><mf><nom>$
     159 #эвро\<n\>\<gen\>	^эвро<n><gen>$
     158 #иште\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^иште<v><iv><pass><ger_past><nom>$
     158 #бы\<mod_qst\>\<3s\>	^бы<mod_qst><3s>$
     155 #Дейсиң\<cnjadv\>	^Дейсиң<cnjadv>$
     151 #жык\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^жык<v><iv><pass><ger><px3sg><nom>$
-    150 #Спирич\<np\>\<cog\>\<mf\>\<nom\>	^Спирич<np><cog><mf><nom>$
     147 #бүт баары\<det\>\<ind\>	^бүт баары<det><ind>$
     146 #ыйгарымдуу элчи\<n\>\<px3sg\>\<nom\>	^ыйгарымдуу элчи<n><px3sg><nom>$
     146 #чыгар\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^чыгар<v><tv><pass><ifi><p3><sg>$
     146 #кел\<v\>\<iv\>\<part_acak\>\<p3s\>	^кел<v><iv><part_acak><p3s>$
     144 #бир канча\<det\>\<ind\>	^бир канча<det><ind>$
     143 #күт\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^күт<v><iv><pass><ger_past><px3sg><acc>$
-    142 #Маркович\<np\>\<cog\>\<mf\>\<nom\>	^Маркович<np><cog><mf><nom>$
-    142 #Жавич\<np\>\<cog\>\<mf\>\<nom\>	^Жавич<np><cog><mf><nom>$
     140 #бур\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^бур<v><iv><pass><ger><px3sg><nom>$
     140 #ач\<v\>\<tv\>\<abil\>\<prt_impf\>	^ач<v><tv><abil><prt_impf>$
     137 #айт\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^айт<v><iv><pass><aor><p3><sg>$
-    129 #Милоşевич\<np\>\<cog\>\<mf\>\<gen\>	^Милоşевич<np><cog><mf><gen>$
-    128 #Силайжич\<np\>\<cog\>\<mf\>\<nom\>	^Силайжич<np><cog><mf><nom>$
     127 #Эге\<n\>\<nom\>	^Эге<n><nom>$
     125 #жаңырт\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^жаңырт<v><tv><ifi><p3><sg>$
     124 #эвро\<n\>\<acc\>	^эвро<n><acc>$
-    124 #Каражич\<np\>\<cog\>\<mf\>\<nom\>	^Каражич<np><cog><mf><nom>$
     124 #бур\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^бур<v><iv><pass><ifi><p3><sg>$
     122 #ушунчалык\<det\>\<ind\>	^ушунчалык<det><ind>$
     122 #бири-бир\<n\>\<px3sg\>\<dat\>	^бири-бир<n><px3sg><dat>$
@@ -141,106 +115,66 @@ Tag mismatch between transfer and generation
     121 #өт\<v\>\<iv\>\<caus\>\<pass\>\<ifi\>\<p3\>\<sg\>	^өт<v><iv><caus><pass><ifi><p3><sg>$
     118 #чыгар\<v\>\<tv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^чыгар<v><tv><pass><ger><px3sg><nom>$
     117 #эвро\<n\>\<abl\>	^эвро<n><abl>$
-    116 #Радич\<np\>\<cog\>\<mf\>\<gen\>	^Радич<np><cog><mf><gen>$
-    115 #Свиланович\<np\>\<cog\>\<mf\>\<nom\>	^Свиланович<np><cog><mf><nom>$
     115 #жарыл\<v\>\<iv\>\<ger_past\>\<nom\>	^жарыл<v><iv><ger_past><nom>$
-    113 #Каражич\<np\>\<cog\>\<mf\>\<gen\>	^Каражич<np><cog><mf><gen>$
     112 #планда\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^планда<v><iv><pass><ger_past><acc>$
-    112 #Милоşевич\<np\>\<cog\>\<mf\>\<nom\>	^Милоşевич<np><cog><mf><nom>$
     112 #2,\<num\>\<nom\>	^2,<num><nom>$
-    111 #Коньикусич\<np\>\<cog\>\<mf\>\<gen\>	^Коньикусич<np><cog><mf><gen>$
     110 #ур\<v\>\<iv\>\<pass\>\<prt_impf\>	^ур<v><iv><pass><prt_impf>$
     109 #күт\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^күт<v><iv><pass><ger_past><acc>$
     109 #айуу\<n\>\<nom\>	^айуу<n><nom>$
     103 #көзөмөл тобу\<n\>\<nom\>	^көзөмөл тобу<n><nom>$
     103 #ач\<v\>\<tv\>\<part_acak\>	^ач<v><tv><part_acak>$
     102 #кел\<v\>\<iv\>\<abil\>\<prt_impf\>	^кел<v><iv><abil><prt_impf>$
-    100 #Лукич\<np\>\<cog\>\<mf\>\<nom\>	^Лукич<np><cog><mf><nom>$
+    101 #Сарайбосня\<np\>\<al\>\<rloc\>	^Сарайбосня<np><al><rloc>$
      99 #ал\<v\>\<tv\>\<abil\>\<prt_impf\>	^ал<v><tv><abil><prt_impf>$
-     98 #Дюканович\<np\>\<cog\>\<mf\>\<nom\>	^Дюканович<np><cog><mf><nom>$
      95 #чыгар\<v\>\<tv\>\<prt_impf\>	^чыгар<v><tv><prt_impf>$
      95 #жык\<v\>\<iv\>\<pass\>\<prt_impf\>	^жык<v><iv><pass><prt_impf>$
-     94 #Микеревич\<np\>\<cog\>\<mf\>\<nom\>	^Микеревич<np><cog><mf><nom>$
      93 #бер\<v\>\<tv\>\<abil\>\<prt_impf\>	^бер<v><tv><abil><prt_impf>$
-     92 #Месич\<np\>\<cog\>\<mf\>\<gen\>	^Месич<np><cog><mf><gen>$
      89 #эгемендик\<n\>\<nom\>	^эгемендик<n><nom>$
-     89 #Китарович\<np\>\<cog\>\<mf\>\<nom\>	^Китарович<np><cog><mf><nom>$
-     89 #Вукжевич\<np\>\<cog\>\<mf\>\<nom\>	^Вукжевич<np><cog><mf><nom>$
      88 #биртке\<det\>\<ind\>	^биртке<det><ind>$
      87 #жаша\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^жаша<v><iv><pass><ifi><p3><sg>$
      86 #элестет\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^элестет<v><iv><pass><aor><p3><sg>$
      86 #чыгар\<v\>\<tv\>\<ger\>\<nom\>	^чыгар<v><tv><ger><nom>$
      82 #ыйгарымдуу элчи\<n\>\<pl\>\<acc\>	^ыйгарымдуу элчи<n><pl><acc>$
-     82 #Самаржич\<np\>\<cog\>\<mf\>\<nom\>	^Самаржич<np><cog><mf><nom>$
      81 #эрте\<n\>\<px3sg\>\<nom\>	^эрте<n><px3sg><nom>$
-     80 #Николич\<np\>\<cog\>\<mf\>\<gen\>	^Николич<np><cog><mf><gen>$
      80 #анчалык\<det\>\<ind\>	^анчалык<det><ind>$
      79 #чет өлкө\<n\>\<px2sg\>\<rloc\>	^чет өлкө<n><px2sg><rloc>$
      79 #мин\<v\>\<tv\>\<imp\>\<p2\>\<pl\>	^мин<v><tv><imp><p2><pl>$
      79 #бол\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^бол<v><iv><abil><neg><prt_impf>$
      78 #тарат\<v\>\<tv\>\<ger\>\<nom\>	^тарат<v><tv><ger><nom>$
-     77 #Павкович\<np\>\<cog\>\<mf\>\<nom\>	^Павкович<np><cog><mf><nom>$
      77 #жарыл\<v\>\<iv\>\<ger\>\<nom\>	^жарыл<v><iv><ger><nom>$
      77 #бур\<v\>\<iv\>\<pass\>\<ger\>\<px3pl\>\<nom\>	^бур<v><iv><pass><ger><px3pl><nom>$
      74 #Эврей\<adj\>\<pst\>	^Эврей<adj><pst>$
-     74 #Жованович\<np\>\<cog\>\<mf\>\<nom\>	^Жованович<np><cog><mf><nom>$
      74 #баалан\<v\>\<tv\>\<caus\>\<ifi\>\<p3\>\<sg\>	^баалан<v><tv><caus><ifi><p3><sg>$
      73 #карма\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^карма<v><iv><pass><ger><px3sg><nom>$
-     73 #Жинжич\<np\>\<cog\>\<mf\>\<dat\>	^Жинжич<np><cog><mf><dat>$
      73 #бур\<v\>\<iv\>\<pass\>\<prt_impf\>	^бур<v><iv><pass><prt_impf>$
-     72 #Давинич\<np\>\<cog\>\<mf\>\<nom\>	^Давинич<np><cog><mf><nom>$
      71 #1,\<num\>\<nom\>	^1,<num><nom>$
      70 #чык\<v\>\<iv\>\<abil\>\<prt_impf\>	^чык<v><iv><abil><prt_impf>$
      70 #аракет кыл\<v\>\<iv\>\<ger\>\<nom\>	^аракет кыл<v><iv><ger><nom>$
      69 #кал\<v\>\<iv\>\<caus\>\<pass\>\<ifi\>\<p3\>\<sg\>	^кал<v><iv><caus><pass><ifi><p3><sg>$
-     68 #Комсич\<np\>\<cog\>\<mf\>\<nom\>	^Комсич<np><cog><mf><nom>$
      68 #киргиз\<v\>\<tv\>\<ger\>\<nom\>	^киргиз<v><tv><ger><nom>$
-     68 #Жуканович\<np\>\<cog\>\<mf\>\<gen\>	^Жуканович<np><cog><mf><gen>$
      68 #08,\<num\>\<nom\>	^08,<num><nom>$
-     67 #Костелич\<np\>\<cog\>\<mf\>\<nom\>	^Костелич<np><cog><mf><nom>$
      67 #жаша\<v\>\<iv\>\<pass\>\<prt_impf\>	^жаша<v><iv><pass><prt_impf>$
-     67 #Жанкович\<np\>\<cog\>\<mf\>\<nom\>	^Жанкович<np><cog><mf><nom>$
      67 #де\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^де<v><tv><pass><ifi><p3><sg>$
      66 #чыгар\<v\>\<tv\>\<pass\>\<prt_impf\>	^чыгар<v><tv><pass><prt_impf>$
      66 #жарыл\<v\>\<iv\>\<ger\>\<px3sg\>\<nom\>	^жарыл<v><iv><ger><px3sg><nom>$
-     65 #Карич\<np\>\<cog\>\<mf\>\<nom\>	^Карич<np><cog><mf><nom>$
-     64 #Радманович\<np\>\<cog\>\<mf\>\<nom\>	^Радманович<np><cog><mf><nom>$
      64 #өзгөр\<v\>\<tv\>\<caus\>\<ger\>\<nom\>	^өзгөр<v><tv><caus><ger><nom>$
      64 #карма\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^карма<v><iv><pass><ifi><p3><sg>$
-     63 #Ыванич\<np\>\<cog\>\<mf\>\<nom\>	^Ыванич<np><cog><mf><nom>$
      63 #кыл\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^кыл<v><tv><abil><neg><prt_impf>$
      63 #кыл\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^кыл<v><tv><abil><ger><nom>$
      63 #киргиз\<v\>\<tv\>\<prt_impf\>	^киргиз<v><tv><prt_impf>$
-     63 #Карадзич\<np\>\<cog\>\<mf\>\<acc\>	^Карадзич<np><cog><mf><acc>$
      62 #бири-бир\<n\>\<px3sg\>\<abl\>	^бири-бир<n><px3sg><abl>$
-     61 #Жожич\<np\>\<cog\>\<mf\>\<nom\>	^Жожич<np><cog><mf><nom>$
-     61 #Влахович\<np\>\<cog\>\<mf\>\<nom\>	^Влахович<np><cog><mf><nom>$
+     61 #Сарайбосня\<np\>\<al\>\<gen\>	^Сарайбосня<np><al><gen>$
      60 #бур\<v\>\<iv\>\<pass\>\<ger\>\<dat\>	^бур<v><iv><pass><ger><dat>$
-     59 #Кривокапич\<np\>\<cog\>\<mf\>\<nom\>	^Кривокапич<np><cog><mf><nom>$
      59 #жык\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^жык<v><iv><pass><ger_past><px3sg><acc>$
-     58 #Милутинович\<np\>\<cog\>\<mf\>\<nom\>	^Милутинович<np><cog><mf><nom>$
-     58 #Мандич\<np\>\<cog\>\<mf\>\<nom\>	^Мандич<np><cog><mf><nom>$
-     57 #Радич\<np\>\<cog\>\<mf\>\<nom\>	^Радич<np><cog><mf><nom>$
-     57 #Младич\<np\>\<cog\>\<mf\>\<dat\>	^Младич<np><cog><mf><dat>$
      57 #камсыз кыл\<v\>\<tv\>\<abil\>\<prt_impf\>	^камсыз кыл<v><tv><abil><prt_impf>$
-     57 #Зветкович\<np\>\<cog\>\<mf\>\<nom\>	^Зветкович<np><cog><mf><nom>$
-     56 #Станисич\<np\>\<cog\>\<mf\>\<nom\>	^Станисич<np><cog><mf><nom>$
-     56 #Лукович\<np\>\<cog\>\<mf\>\<nom\>	^Лукович<np><cog><mf><nom>$
-     56 #Косанович\<np\>\<cog\>\<mf\>\<gen\>	^Косанович<np><cog><mf><gen>$
-     56 #Иванович\<np\>\<cog\>\<mf\>\<nom\>	^Иванович<np><cog><mf><nom>$
-     56 #Иванич\<np\>\<cog\>\<mf\>\<nom\>	^Иванич<np><cog><mf><nom>$
      56 #жар\<v\>\<tv\>\<cv_eli\>	^жар<v><tv><cv_eli>$
      56 #де\<v\>\<tv\>\<pass\>\<opt\>\<p1\>\<sg\>	^де<v><tv><pass><opt><p1><sg>$
      55 #чыгар\<v\>\<tv\>\<ger\>\<dat\>	^чыгар<v><tv><ger><dat>$
      55 #тара\<v\>\<tv\>\<ger\>\<nom\>	^тара<v><tv><ger><nom>$
      55 #жык\<v\>\<iv\>\<pass\>\<ger\>\<dat\>	^жык<v><iv><pass><ger><dat>$
-     55 #Дажич\<np\>\<cog\>\<mf\>\<nom\>	^Дажич<np><cog><mf><nom>$
      54 #чыгар\<v\>\<tv\>\<ger_past\>\<acc\>	^чыгар<v><tv><ger_past><acc>$
-     54 #Миланович\<np\>\<cog\>\<mf\>\<nom\>	^Миланович<np><cog><mf><nom>$
-     54 #Лазаревич\<np\>\<cog\>\<mf\>\<nom\>	^Лазаревич<np><cog><mf><nom>$
      54 #бур\<v\>\<iv\>\<pass\>\<ger\>\<acc\>	^бур<v><iv><pass><ger><acc>$
      53 #чыгар\<v\>\<tv\>\<ger_past\>\<px3sg\>\<acc\>	^чыгар<v><tv><ger_past><px3sg><acc>$
-     53 #Попович\<np\>\<cog\>\<mf\>\<nom\>	^Попович<np><cog><mf><nom>$
      53 #көбөйт\<v\>\<tv\>\<caus\>\<Dvn_yIcI\>\<adj\>	^көбөйт<v><tv><caus><Dvn_yIcI><adj>$
      53 #бол\<v\>\<iv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^бол<v><iv><abil><ger><px3sg><nom>$
      52 #ур\<v\>\<iv\>\<ifi\>\<p3\>\<sg\>	^ур<v><iv><ifi><p3><sg>$
@@ -250,57 +184,35 @@ Tag mismatch between transfer and generation
      52 #баалан\<v\>\<tv\>\<caus\>\<prt_impf\>	^баалан<v><tv><caus><prt_impf>$
      52 #ач\<v\>\<tv\>\<part_acak\>\<p3s\>	^ач<v><tv><part_acak><p3s>$
      51 #Младич\<np\>\<cog\>\<mf\>\<px3sg\>\<nom\>	^Младич<np><cog><mf><px3sg><nom>$
-     51 #Маркович\<np\>\<cog\>\<mf\>\<gen\>	^Маркович<np><cog><mf><gen>$
      51 #киргиз\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^киргиз<v><tv><ifi><p3><sg>$
      51 #кет\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^кет<v><iv><pass><ger><px3sg><nom>$
-     51 #Жоржевич\<np\>\<cog\>\<mf\>\<nom\>	^Жоржевич<np><cog><mf><nom>$
      50 #эң жогорку\<n\>\<nom\>	^эң жогорку<n><nom>$
-     50 #Ыванович\<np\>\<cog\>\<mf\>\<nom\>	^Ыванович<np><cog><mf><nom>$
-     50 #Стойкович\<np\>\<cog\>\<mf\>\<nom\>	^Стойкович<np><cog><mf><nom>$
      50 #кара\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^кара<v><iv><pass><aor><p3><sg>$
+     49 #Сарайбосня\<np\>\<al\>\<dat\>	^Сарайбосня<np><al><dat>$
      49 #планда\<v\>\<iv\>\<pass\>\<ger_fut\>\<px3sg\>\<nom\>	^планда<v><iv><pass><ger_fut><px3sg><nom>$
      49 #жаша\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^жаша<v><iv><pass><aor><p3><sg>$
      49 #бар\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^бар<v><iv><pass><ifi><p3><sg>$
      48 #өт\<v\>\<iv\>\<caus\>\<pass\>\<ger_past\>\<nom\>	^өт<v><iv><caus><pass><ger_past><nom>$
-     48 #Бранкович\<np\>\<cog\>\<mf\>\<nom\>	^Бранкович<np><cog><mf><nom>$
      48 #бири-бир\<n\>\<pl\>\<px3sg\>\<dat\>	^бири-бир<n><pl><px3sg><dat>$
-     48 #Батич\<np\>\<cog\>\<mf\>\<nom\>	^Батич<np><cog><mf><nom>$
      47 #кир\<v\>\<iv\>\<abil\>\<prt_impf\>	^кир<v><iv><abil><prt_impf>$
-     47 #Карадзич\<np\>\<cog\>\<mf\>\<dat\>	^Карадзич<np><cog><mf><dat>$
      47 #иште\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^иште<v><iv><pass><ger_past><acc>$
-     47 #Вуянович\<np\>\<cog\>\<mf\>\<gen\>	^Вуянович<np><cog><mf><gen>$
-     47 #Богданович\<np\>\<cog\>\<mf\>\<nom\>	^Богданович<np><cog><mf><nom>$
      47 #бар\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^бар<v><iv><pass><ger><px3sg><nom>$
      47 #3.\<num\>\<nom\>	^3.<num><nom>$
-     46 #Михайлович\<np\>\<cog\>\<mf\>\<nom\>	^Михайлович<np><cog><mf><nom>$
-     46 #Милутинович\<np\>\<cog\>\<mf\>\<gen\>	^Милутинович<np><cog><mf><gen>$
-     46 #Дулич\<np\>\<cog\>\<mf\>\<nom\>	^Дулич<np><cog><mf><nom>$
      46 #документалдуу тасма\<n\>\<nom\>	^документалдуу тасма<n><nom>$
      46 #баалан\<v\>\<tv\>\<caus\>\<ger\>\<px3sg\>\<nom\>	^баалан<v><tv><caus><ger><px3sg><nom>$
-     45 #Стамболич\<np\>\<cog\>\<mf\>\<nom\>	^Стамболич<np><cog><mf><nom>$
-     45 #Стамболич\<np\>\<cog\>\<mf\>\<gen\>	^Стамболич<np><cog><mf><gen>$
      45 #өт\<v\>\<iv\>\<caus\>\<pass\>\<prt_impf\>	^өт<v><iv><caus><pass><prt_impf>$
      45 #өт\<v\>\<iv\>\<caus\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^өт<v><iv><caus><pass><ger_past><px3sg><acc>$
      45 #күт\<v\>\<iv\>\<pass\>\<neg\>\<ger_past\>\<nom\>	^күт<v><iv><pass><neg><ger_past><nom>$
      45 #кел\<v\>\<iv\>\<part_acak\>	^кел<v><iv><part_acak>$
-     45 #Жандрокович\<np\>\<cog\>\<mf\>\<nom\>	^Жандрокович<np><cog><mf><nom>$
      45 #бур\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<loc\>	^бур<v><iv><pass><ger><px3sg><loc>$
      45 #айлант\<v\>\<tv\>\<ger\>\<nom\>	^айлант<v><tv><ger><nom>$
      44 #чыгар\<v\>\<tv\>\<past\>\<p3\>\<sg\>	^чыгар<v><tv><past><p3><sg>$
      44 #ур\<v\>\<iv\>\<prt_impf\>	^ур<v><iv><prt_impf>$
-     44 #Плавсич\<np\>\<cog\>\<mf\>\<nom\>	^Плавсич<np><cog><mf><nom>$
      44 #мээле\<v\>\<iv\>\<pass\>\<prt_impf\>	^мээле<v><iv><pass><prt_impf>$
-     44 #Лукович\<np\>\<cog\>\<mf\>\<gen\>	^Лукович<np><cog><mf><gen>$
      44 #21,\<num\>\<nom\>	^21,<num><nom>$
-     43 #Петрович\<np\>\<cog\>\<mf\>\<nom\>	^Петрович<np><cog><mf><nom>$
-     43 #Петкович\<np\>\<cog\>\<mf\>\<nom\>	^Петкович<np><cog><mf><nom>$
      43 #Жаңырт\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^Жаңырт<v><tv><ifi><p3><sg>$
      43 #11.\<num\>\<nom\>	^11.<num><nom>$
-     42 #Милованович\<np\>\<cog\>\<mf\>\<nom\>	^Милованович<np><cog><mf><nom>$
-     42 #Мижич\<np\>\<cog\>\<mf\>\<nom\>	^Мижич<np><cog><mf><nom>$
      42 #кал\<v\>\<iv\>\<abil\>\<prt_impf\>	^кал<v><iv><abil><prt_impf>$
-     42 #Журович\<np\>\<cog\>\<mf\>\<nom\>	^Журович<np><cog><mf><nom>$
-     42 #Жокович\<np\>\<cog\>\<mf\>\<nom\>	^Жокович<np><cog><mf><nom>$
      42 #ат\<v\>\<tv\>\<abil\>\<prt_impf\>	^ат<v><tv><abil><prt_impf>$
      41 #элестет\<v\>\<iv\>\<ger\>\<nom\>	^элестет<v><iv><ger><nom>$
      41 #ыйгарымдуу элчи\<n\>\<nom\>	^ыйгарымдуу элчи<n><nom>$
@@ -308,31 +220,22 @@ Tag mismatch between transfer and generation
      41 #өт\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^өт<v><iv><pass><ger><px3sg><nom>$
      41 #өт\<v\>\<iv\>\<caus\>\<pass\>\<ger_past\>\<acc\>	^өт<v><iv><caus><pass><ger_past><acc>$
      41 #кал\<v\>\<iv\>\<caus\>\<pass\>\<prt_impf\>	^кал<v><iv><caus><pass><prt_impf>$
-     41 #Делич\<np\>\<cog\>\<mf\>\<nom\>	^Делич<np><cog><mf><nom>$
      41 #5.\<num\>\<nom\>	^5.<num><nom>$
      40 #чыгар\<v\>\<tv\>\<ger\>\<acc\>	^чыгар<v><tv><ger><acc>$
      40 #ур\<v\>\<iv\>\<ger_past\>\<nom\>	^ур<v><iv><ger_past><nom>$
      40 #сиң\<v\>\<tv\>\<caus\>\<ger\>\<nom\>	^сиң<v><tv><caus><ger><nom>$
      40 #жык\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^жык<v><iv><pass><aor><p3><sg>$
      40 #жарыл\<v\>\<iv\>\<ifi\>\<p3\>\<sg\>	^жарыл<v><iv><ifi><p3><sg>$
-     40 #Джуканович\<np\>\<cog\>\<mf\>\<nom\>	^Джуканович<np><cog><mf><nom>$
-     40 #Вукович\<np\>\<cog\>\<mf\>\<nom\>	^Вукович<np><cog><mf><nom>$
      40 #бар\<v\>\<iv\>\<pass\>\<prt_impf\>	^бар<v><iv><pass><prt_impf>$
      40 #15.\<num\>\<nom\>	^15.<num><nom>$
      40 #10.\<num\>\<nom\>	^10.<num><nom>$
      39 #сын\<v\>\<iv\>\<imp\>\<p2\>\<pl\>	^сын<v><iv><imp><p2><pl>$
-     39 #Давидович\<np\>\<cog\>\<mf\>\<nom\>	^Давидович<np><cog><mf><nom>$
      39 #4.\<num\>\<nom\>	^4.<num><nom>$
-     38 #Ылич\<np\>\<cog\>\<mf\>\<nom\>	^Ылич<np><cog><mf><nom>$
      38 #мээле\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^мээле<v><iv><pass><ger><px3sg><nom>$
      38 #мал\<v\>\<iv\>\<caus\>\<cv_eli\>	^мал<v><iv><caus><cv_eli>$
-     38 #Коважевич\<np\>\<cog\>\<mf\>\<nom\>	^Коважевич<np><cog><mf><nom>$
      38 #жет\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^жет<v><iv><pass><ger><px3sg><nom>$
      38 #ал\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^ал<v><tv><abil><ger><nom>$
      38 #12.\<num\>\<nom\>	^12.<num><nom>$
-     37 #Симатович\<np\>\<cog\>\<mf\>\<nom\>	^Симатович<np><cog><mf><nom>$
-     37 #Миленкович\<np\>\<cog\>\<mf\>\<nom\>	^Миленкович<np><cog><mf><nom>$
-     37 #Матижасевич\<np\>\<cog\>\<mf\>\<nom\>	^Матижасевич<np><cog><mf><nom>$
      37 #майрамда\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^майрамда<v><iv><pass><ifi><p3><sg>$
      37 #жет\<v\>\<iv\>\<abil\>\<prt_impf\>	^жет<v><iv><abil><prt_impf>$
      37 #де\<v\>\<tv\>\<pass\>\<aor\>\<p3\>\<sg\>	^де<v><tv><pass><aor><p3><sg>$
@@ -341,32 +244,21 @@ Tag mismatch between transfer and generation
      37 #алып кел\<v\>\<tv\>\<abil\>\<prt_impf\>	^алып кел<v><tv><abil><prt_impf>$
      37 #24,\<num\>\<nom\>	^24,<num><nom>$
      36 #чыгар\<v\>\<tv\>\<pass\>\<ger_past\>\<px3sg\>\<nom\>	^чыгар<v><tv><pass><ger_past><px3sg><nom>$
-     36 #Тихич\<np\>\<cog\>\<mf\>\<gen\>	^Тихич<np><cog><mf><gen>$
      36 #планда\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<nom\>	^планда<v><iv><pass><ger_past><px3sg><nom>$
      36 #көр\<v\>\<tv\>\<neg\>\<cv_zdan\>	^көр<v><tv><neg><cv_zdan>$
      36 #кетир\<v\>\<tv\>\<ger\>\<nom\>	^кетир<v><tv><ger><nom>$
      36 #гелин\<n\>\<nom\>	^гелин<n><nom>$
      36 #баалан\<v\>\<tv\>\<caus\>\<ger\>\<dat\>	^баалан<v><tv><caus><ger><dat>$
-     36 #Антунович\<np\>\<cog\>\<mf\>\<nom\>	^Антунович<np><cog><mf><nom>$
      36 #21.\<num\>\<nom\>	^21.<num><nom>$
      36 #20.\<num\>\<nom\>	^20.<num><nom>$
-     35 #Стуранович\<np\>\<cog\>\<mf\>\<nom\>	^Стуранович<np><cog><mf><nom>$
-     35 #Рамазанович\<np\>\<cog\>\<mf\>\<gen\>	^Рамазанович<np><cog><mf><gen>$
-     35 #Мрксич\<np\>\<cog\>\<mf\>\<nom\>	^Мрксич<np><cog><mf><nom>$
-     35 #Лукич\<np\>\<cog\>\<mf\>\<gen\>	^Лукич<np><cog><mf><gen>$
      35 #карма\<v\>\<iv\>\<pass\>\<prt_impf\>	^карма<v><iv><pass><prt_impf>$
      35 #кара\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<loc\>	^кара<v><iv><pass><ger_past><px3sg><loc>$
      35 #кал\<v\>\<iv\>\<caus\>\<pass\>\<ger\>\<px3sg\>\<dat\>	^кал<v><iv><caus><pass><ger><px3sg><dat>$
      35 #14.\<num\>\<nom\>	^14.<num><nom>$
      34 #чыгар\<v\>\<tv\>\<pass\>\<fut\>\<p3\>\<sg\>	^чыгар<v><tv><pass><fut><p3><sg>$
-     34 #Хажич\<np\>\<cog\>\<mf\>\<nom\>	^Хажич<np><cog><mf><nom>$
      34 #тарат\<v\>\<tv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^тарат<v><tv><pass><ger><px3sg><nom>$
      34 #сүр\<v\>\<tv\>\<abil\>\<prt_impf\>	^сүр<v><tv><abil><prt_impf>$
-     34 #Симич\<np\>\<cog\>\<mf\>\<nom\>	^Симич<np><cog><mf><nom>$
      34 #жулуп ал\<v\>\<iv\>\<cv_eli\>	^жулуп ал<v><iv><cv_eli>$
-     34 #Драскович\<np\>\<cog\>\<mf\>\<gen\>	^Драскович<np><cog><mf><gen>$
-     34 #Букежлович\<np\>\<cog\>\<mf\>\<nom\>	^Букежлович<np><cog><mf><nom>$
-     34 #бак\<v\>\<TD\>\<ger_past\>\<nom\>	^бак<v><TD><ger_past><nom>$
      34 #айт\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^айт<v><iv><pass><ifi><p3><sg>$
      34 #1.\<num\>\<nom\>	^1.<num><nom>$
      33 #Никола\<np\>\<ant\>\<m\>\<px3sg\>\<nom\>	^Никола<np><ant><m><px3sg><nom>$
@@ -376,30 +268,20 @@ Tag mismatch between transfer and generation
      33 #301.\<num\>\<nom\>	^301.<num><nom>$
      32 #тарат\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^тарат<v><tv><ifi><p3><sg>$
      32 #суйлө\<v\>\<iv\>\<ifi\>\<p3\>\<sg\>	^суйлө<v><iv><ifi><p3><sg>$
-     32 #Милетич\<np\>\<cog\>\<mf\>\<nom\>	^Милетич<np><cog><mf><nom>$
      32 #күт\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<nom\>	^күт<v><iv><pass><ger_past><px3sg><nom>$
-     32 #Зивкович\<np\>\<cog\>\<mf\>\<gen\>	^Зивкович<np><cog><mf><gen>$
      32 #жык\<v\>\<iv\>\<pass\>\<ger\>\<acc\>	^жык<v><iv><pass><ger><acc>$
      32 #жаша\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^жаша<v><iv><pass><ger_past><acc>$
      32 #баалан\<v\>\<tv\>\<caus\>\<aor\>\<p3\>\<sg\>	^баалан<v><tv><caus><aor><p3><sg>$
      32 #аракет кыл\<v\>\<iv\>\<ger\>\<dat\>	^аракет кыл<v><iv><ger><dat>$
-     31 #Спирич\<np\>\<cog\>\<mf\>\<gen\>	^Спирич<np><cog><mf><gen>$
-     31 #Мичич\<np\>\<cog\>\<mf\>\<nom\>	^Мичич<np><cog><mf><nom>$
      31 #күт\<v\>\<iv\>\<pass\>\<ger_past\>\<abl\>	^күт<v><iv><pass><ger_past><abl>$
      31 #колдон\<v\>\<tv\>\<abil\>\<prt_impf\>	^колдон<v><tv><abil><prt_impf>$
      31 #Жарыл\<v\>\<iv\>\<ger\>\<nom\>	^Жарыл<v><iv><ger><nom>$
      31 #бол\<v\>\<iv\>\<abil\>\<ger\>\<nom\>	^бол<v><iv><abil><ger><nom>$
      31 #19.\<num\>\<nom\>	^19.<num><nom>$
-     30 #Терзич\<np\>\<cog\>\<mf\>\<gen\>	^Терзич<np><cog><mf><gen>$
-     30 #Ронжевич\<np\>\<cog\>\<mf\>\<nom\>	^Ронжевич<np><cog><mf><nom>$
      30 #планда\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^планда<v><iv><pass><ger_past><px3sg><acc>$
-     30 #Перисич\<np\>\<cog\>\<mf\>\<nom\>	^Перисич<np><cog><mf><nom>$
      30 #жык\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^жык<v><iv><pass><ger_past><acc>$
-     30 #Жоржевич\<np\>\<cog\>\<mf\>\<gen\>	^Жоржевич<np><cog><mf><gen>$
-     30 #Жинжич\<np\>\<cog\>\<mf\>\<acc\>	^Жинжич<np><cog><mf><acc>$
      30 #жарыл\<v\>\<iv\>\<neg\>\<prt_perf\>	^жарыл<v><iv><neg><prt_perf>$
      30 #жаңырт\<v\>\<tv\>\<ifi\>\<p3\>\<pl\>	^жаңырт<v><tv><ifi><p3><pl>$
-     30 #Динкич\<np\>\<cog\>\<mf\>\<gen\>	^Динкич<np><cog><mf><gen>$
      30 #бур\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^бур<v><iv><pass><aor><p3><sg>$
      30 #баалан\<v\>\<tv\>\<caus\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^баалан<v><tv><caus><pass><ger><px3sg><nom>$
      30 #аракет кыл\<v\>\<iv\>\<aor\>\<p3\>\<sg\>	^аракет кыл<v><iv><aor><p3><sg>$
@@ -408,12 +290,9 @@ Tag mismatch between transfer and generation
      29 #ыйгарымдуу элчи\<n\>\<pl\>\<px3sg\>\<nom\>	^ыйгарымдуу элчи<n><pl><px3sg><nom>$
      29 #чыгар\<v\>\<tv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^чыгар<v><tv><pass><ger_past><px3sg><acc>$
      29 #кыл\<v\>\<tv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^кыл<v><tv><abil><ger><px3sg><nom>$
-     29 #Карич\<np\>\<cog\>\<mf\>\<gen\>	^Карич<np><cog><mf><gen>$
      29 #жык\<v\>\<iv\>\<pass\>\<fut\>\<p3\>\<sg\>	^жык<v><iv><pass><fut><p3><sg>$
      29 #жаша\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<nom\>	^жаша<v><iv><pass><ger_past><px3sg><nom>$
      29 #жарыл\<v\>\<iv\>\<neg\>\<past\>\<p3\>\<sg\>	^жарыл<v><iv><neg><past><p3><sg>$
-     29 #Ёванович\<np\>\<cog\>\<mf\>\<nom\>	^Ёванович<np><cog><mf><nom>$
-     29 #Вукотич\<np\>\<cog\>\<mf\>\<gen\>	^Вукотич<np><cog><mf><gen>$
      29 #Бир далай\<det\>\<ind\>	^Бир далай<det><ind>$
      29 #ал\<v\>\<tv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^ал<v><tv><abil><ger><px3sg><nom>$
      29 #7.\<num\>\<nom\>	^7.<num><nom>$
@@ -425,46 +304,33 @@ Tag mismatch between transfer and generation
      28 #ойно\<v\>\<iv\>\<abil\>\<prt_impf\>	^ойно<v><iv><abil><prt_impf>$
      28 #жык\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<dat\>	^жык<v><iv><pass><ger><px3sg><dat>$
      28 #жет\<v\>\<iv\>\<caus\>\<pass\>\<ifi\>\<p3\>\<sg\>	^жет<v><iv><caus><pass><ifi><p3><sg>$
-     28 #Желавич\<np\>\<cog\>\<mf\>\<nom\>	^Желавич<np><cog><mf><nom>$
      28 #бур\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^бур<v><iv><pass><ger_past><px3sg><acc>$
      28 #бар\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^бар<v><iv><pass><aor><p3><sg>$
-     28 #Бабич\<np\>\<cog\>\<mf\>\<nom\>	^Бабич<np><cog><mf><nom>$
      28 #09,\<num\>\<nom\>	^09,<num><nom>$
      27 #чыгар\<v\>\<tv\>\<prt_perf\>	^чыгар<v><tv><prt_perf>$
      27 #төмөнсүнт\<v\>\<iv\>\<ifi\>\<p3\>\<sg\>	^төмөнсүнт<v><iv><ifi><p3><sg>$
-     27 #Сарович\<np\>\<cog\>\<mf\>\<nom\>	^Сарович<np><cog><mf><nom>$
      27 #өт\<v\>\<iv\>\<abil\>\<prt_impf\>	^өт<v><iv><abil><prt_impf>$
      27 #мээле\<v\>\<iv\>\<pass\>\<ger\>\<nom\>	^мээле<v><iv><pass><ger><nom>$
-     27 #Зеленович\<np\>\<cog\>\<mf\>\<nom\>	^Зеленович<np><cog><mf><nom>$
-     27 #Драскович\<np\>\<cog\>\<mf\>\<dat\>	^Драскович<np><cog><mf><dat>$
-     27 #Делич\<np\>\<cog\>\<mf\>\<gen\>	^Делич<np><cog><mf><gen>$
      27 #бол\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^бол<v><iv><pass><ger><px3sg><nom>$
-     27 #Бажич\<np\>\<cog\>\<mf\>\<nom\>	^Бажич<np><cog><mf><nom>$
      26 #ыйгарымдуу элчи\<n\>\<pl\>\<nom\>	^ыйгарымдуу элчи<n><pl><nom>$
      26 #ук\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^ук<v><iv><pass><ger_past><px3sg><acc>$
      26 #тукурул\<v\>\<tv\>\<caus\>\<Dvn_yIcI\>\<adj\>	^тукурул<v><tv><caus><Dvn_yIcI><adj>$
      26 #тарат\<v\>\<tv\>\<pass\>\<fut\>\<p3\>\<sg\>	^тарат<v><tv><pass><fut><p3><sg>$
-     26 #Орич\<np\>\<cog\>\<mf\>\<nom\>	^Орич<np><cog><mf><nom>$
      26 #өкүн\<v\>\<iv\>\<imp\>\<p2\>\<pl\>	^өкүн<v><iv><imp><p2><pl>$
-     26 #Милосевич\<np\>\<cog\>\<mf\>\<acc\>	^Милосевич<np><cog><mf><acc>$
      26 #жык\<v\>\<iv\>\<pass\>\<ger\>\<gen\>	^жык<v><iv><pass><ger><gen>$
      26 #жет\<v\>\<iv\>\<pass\>\<prt_impf\>	^жет<v><iv><pass><prt_impf>$
      25 #Эрте\<n\>\<px3sg\>\<nom\>	^Эрте<n><px3sg><nom>$
      25 #элестет\<v\>\<iv\>\<ger_past\>\<loc\>	^элестет<v><iv><ger_past><loc>$
-     25 #Тодорович\<np\>\<cog\>\<mf\>\<nom\>	^Тодорович<np><cog><mf><nom>$
+     25 #Сарайбосня\<np\>\<al\>\<acc\>	^Сарайбосня<np><al><acc>$
      25 #ойно\<v\>\<iv\>\<pass\>\<prt_impf\>	^ойно<v><iv><pass><prt_impf>$
      25 #карма\<v\>\<tv\>\<part_acak\>	^карма<v><tv><part_acak>$
      25 #карма\<v\>\<iv\>\<pass\>\<neg\>\<ifi\>\<p3\>\<sg\>	^карма<v><iv><pass><neg><ifi><p3><sg>$
-     25 #Желич\<np\>\<cog\>\<mf\>\<gen\>	^Желич<np><cog><mf><gen>$
      25 #жаша\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^жаша<v><iv><pass><ger><px3sg><nom>$
-     25 #Вужич\<np\>\<cog\>\<mf\>\<nom\>	^Вужич<np><cog><mf><nom>$
      25 #бур\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<acc\>	^бур<v><iv><pass><ger><px3sg><acc>$
      25 #Баалан\<v\>\<tv\>\<caus\>\<ifi\>\<p3\>\<sg\>	^Баалан<v><tv><caus><ifi><p3><sg>$
      25 #анализде\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^анализде<v><iv><pass><ger><px3sg><nom>$
      24 #Элестет\<v\>\<iv\>\<ger_past\>\<nom\>	^Элестет<v><iv><ger_past><nom>$
      24 #сыяктуу\<post\>\<acc\>	^сыяктуу<post><acc>$
-     24 #Милосевич\<np\>\<cog\>\<mf\>\<dat\>	^Милосевич<np><cog><mf><dat>$
-     24 #Марович\<np\>\<cog\>\<mf\>\<gen\>	^Марович<np><cog><mf><gen>$
      24 #кыл\<v\>\<tv\>\<pass\>\<vn_acak\>	^кыл<v><tv><pass><vn_acak>$
      24 #карма\<v\>\<iv\>\<pass\>\<prt_perf\>	^карма<v><iv><pass><prt_perf>$
      24 #иште\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<nom\>	^иште<v><iv><pass><ger_past><px3sg><nom>$
@@ -478,72 +344,47 @@ Tag mismatch between transfer and generation
      24 #9.\<num\>\<nom\>	^9.<num><nom>$
      24 #60.\<num\>\<nom\>	^60.<num><nom>$
      23 #чыгар\<v\>\<tv\>\<aor\>\<p3\>\<sg\>	^чыгар<v><tv><aor><p3><sg>$
-     23 #Чович\<np\>\<cog\>\<mf\>\<nom\>	^Чович<np><cog><mf><nom>$
      23 #сыяктуу\<post\>\<p3s\>\<gen\>	^сыяктуу<post><p3s><gen>$
      23 #силкилдет\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^силкилдет<v><tv><pass><ifi><p3><sg>$
      23 #өт\<v\>\<iv\>\<caus\>\<pass\>\<ger\>\<px3sg\>\<dat\>	^өт<v><iv><caus><pass><ger><px3sg><dat>$
-     23 #Мижунович\<np\>\<cog\>\<mf\>\<nom\>	^Мижунович<np><cog><mf><nom>$
      23 #күт\<v\>\<iv\>\<abil\>\<prt_impf\>	^күт<v><iv><abil><prt_impf>$
      23 #көр\<v\>\<tv\>\<abil\>\<prt_impf\>	^көр<v><tv><abil><prt_impf>$
      23 #киргиз\<v\>\<tv\>\<ger\>\<dat\>	^киргиз<v><tv><ger><dat>$
      23 #келиш\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^келиш<v><iv><pass><aor><p3><sg>$
      23 #карма\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<dat\>	^карма<v><iv><pass><ger><px3sg><dat>$
      23 #жаша\<v\>\<iv\>\<abil\>\<prt_impf\>	^жаша<v><iv><abil><prt_impf>$
-     23 #Вужанович\<np\>\<cog\>\<mf\>\<nom\>	^Вужанович<np><cog><mf><nom>$
-     23 #Булатович\<np\>\<cog\>\<mf\>\<nom\>	^Булатович<np><cog><mf><nom>$
      23 #баалан\<v\>\<tv\>\<caus\>\<pass\>\<aor\>\<p3\>\<sg\>	^баалан<v><tv><caus><pass><aor><p3><sg>$
      23 #баалан\<v\>\<tv\>\<caus\>\<fut\>\<p3\>\<sg\>	^баалан<v><tv><caus><fut><p3><sg>$
      23 #аракет кыл\<v\>\<iv\>\<prt_impf\>	^аракет кыл<v><iv><prt_impf>$
      23 #13.\<num\>\<nom\>	^13.<num><nom>$
      22 #чыгар\<v\>\<tv\>\<pass\>\<ger_past\>\<nom\>	^чыгар<v><tv><pass><ger_past><nom>$
      22 #тарат\<v\>\<tv\>\<ger\>\<dat\>	^тарат<v><tv><ger><dat>$
-     22 #Симонович\<np\>\<cog\>\<mf\>\<nom\>	^Симонович<np><cog><mf><nom>$
-     22 #Месич\<np\>\<cog\>\<mf\>\<dat\>	^Месич<np><cog><mf><dat>$
-     22 #Кнезевич\<np\>\<cog\>\<mf\>\<nom\>	^Кнезевич<np><cog><mf><nom>$
      22 #карма\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^карма<v><iv><pass><ger_past><px3sg><acc>$
      22 #иште\<v\>\<iv\>\<abil\>\<prt_impf\>	^иште<v><iv><abil><prt_impf>$
-     22 #Жокич\<np\>\<cog\>\<mf\>\<nom\>	^Жокич<np><cog><mf><nom>$
-     22 #Жович\<np\>\<cog\>\<mf\>\<gen\>	^Жович<np><cog><mf><gen>$
-     22 #Джелич\<np\>\<cog\>\<mf\>\<nom\>	^Джелич<np><cog><mf><nom>$
-     22 #Власич\<np\>\<cog\>\<mf\>\<nom\>	^Власич<np><cog><mf><nom>$
      22 #бур\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<pl\>	^бур<v><iv><pass><ifi><p3><pl>$
      22 #бири-бир\<n\>\<px3sg\>\<nom\>	^бири-бир<n><px3sg><nom>$
      22 #5,\<num\>\<nom\>	^5,<num><nom>$
      21 #чыгар\<v\>\<tv\>\<fut\>\<p3\>\<sg\>	^чыгар<v><tv><fut><p3><sg>$
-     21 #Филипович\<np\>\<cog\>\<mf\>\<nom\>	^Филипович<np><cog><mf><nom>$
      21 #тоскоол бол\<v\>\<tv\>\<abil\>\<prt_impf\>	^тоскоол бол<v><tv><abil><prt_impf>$
      21 #төк\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^төк<v><iv><pass><ifi><p3><sg>$
      21 #тарат\<v\>\<tv\>\<ger_past\>\<nom\>	^тарат<v><tv><ger_past><nom>$
      21 #тап\<v\>\<tv\>\<abil\>\<prt_impf\>	^тап<v><tv><abil><prt_impf>$
      21 #СИЛКИЛДЕТ\<v\>\<tv\>\<imp\>\<p2\>\<sg\>	^СИЛКИЛДЕТ<v><tv><imp><p2><sg>$
-     21 #Раскович\<np\>\<cog\>\<mf\>\<nom\>	^Раскович<np><cog><mf><nom>$
-     21 #Павлович\<np\>\<cog\>\<mf\>\<nom\>	^Павлович<np><cog><mf><nom>$
      21 #мээле\<v\>\<iv\>\<pass\>\<ger\>\<dat\>	^мээле<v><iv><pass><ger><dat>$
      21 #кет\<v\>\<iv\>\<pass\>\<prt_impf\>	^кет<v><iv><pass><prt_impf>$
      21 #камсыз кыл\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^камсыз кыл<v><tv><abil><ger><nom>$
      21 #кал\<v\>\<iv\>\<caus\>\<pass\>\<ger_past\>\<acc\>	^кал<v><iv><caus><pass><ger_past><acc>$
-     21 #Векарич\<np\>\<cog\>\<mf\>\<nom\>	^Векарич<np><cog><mf><nom>$
      21 #баалан\<v\>\<tv\>\<caus\>\<pass\>\<ifi\>\<p3\>\<sg\>	^баалан<v><tv><caus><pass><ifi><p3><sg>$
      21 #аракет кыл\<v\>\<iv\>\<ger_past\>\<px3sg\>\<acc\>	^аракет кыл<v><iv><ger_past><px3sg><acc>$
      21 #28.\<num\>\<nom\>	^28.<num><nom>$
      20 #чеч\<v\>\<tv\>\<abil\>\<prt_impf\>	^чеч<v><tv><abil><prt_impf>$
-     20 #Халилович\<np\>\<cog\>\<mf\>\<nom\>	^Халилович<np><cog><mf><nom>$
-     20 #Хадзич\<np\>\<cog\>\<mf\>\<nom\>	^Хадзич<np><cog><mf><nom>$
      20 #уюштур\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^уюштур<v><iv><pass><ger_past><nom>$
-     20 #Томжич\<np\>\<cog\>\<mf\>\<nom\>	^Томжич<np><cog><mf><nom>$
      20 #толукта\<v\>\<tv\>\<abil\>\<prt_impf\>	^толукта<v><tv><abil><prt_impf>$
-     20 #Станисич\<np\>\<cog\>\<mf\>\<gen\>	^Станисич<np><cog><mf><gen>$
      20 #пластырь\<n\>\<px2sg\>\<rloc\>	^пластырь<n><px2sg><rloc>$
-     20 #Плавсич\<np\>\<cog\>\<mf\>\<gen\>	^Плавсич<np><cog><mf><gen>$
      20 #өт\<v\>\<iv\>\<caus\>\<pass\>\<ger\>\<nom\>	^өт<v><iv><caus><pass><ger><nom>$
      20 #өт\<v\>\<iv\>\<caus\>\<pass\>\<aor\>\<p3\>\<sg\>	^өт<v><iv><caus><pass><aor><p3><sg>$
-     20 #Медведев\<np\>\<cog\>\<mf\>\<nom\>	^Медведев<np><cog><mf><nom>$
-     20 #Крстич\<np\>\<cog\>\<mf\>\<nom\>	^Крстич<np><cog><mf><nom>$
      20 #көчүр\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^көчүр<v><tv><pass><ifi><p3><sg>$
-     20 #Каражич\<np\>\<cog\>\<mf\>\<acc\>	^Каражич<np><cog><mf><acc>$
      20 #жет\<v\>\<iv\>\<caus\>\<pass\>\<prt_impf\>	^жет<v><iv><caus><pass><prt_impf>$
-     20 #Желасич\<np\>\<cog\>\<mf\>\<nom\>	^Желасич<np><cog><mf><nom>$
-     20 #Вужинич\<np\>\<cog\>\<mf\>\<nom\>	^Вужинич<np><cog><mf><nom>$
      20 #бур\<v\>\<iv\>\<pass\>\<prt_perf\>	^бур<v><iv><pass><prt_perf>$
      20 #бар\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^бар<v><iv><pass><ger_past><px3sg><acc>$
      20 #аракет кыл\<v\>\<iv\>\<ger\>\<px3sg\>\<nom\>	^аракет кыл<v><iv><ger><px3sg><nom>$
@@ -553,107 +394,60 @@ Tag mismatch between transfer and generation
      19 #чыгар\<v\>\<tv\>\<pass\>\<ger_past\>\<acc\>	^чыгар<v><tv><pass><ger_past><acc>$
      19 #ур\<v\>\<iv\>\<ger_past\>\<acc\>	^ур<v><iv><ger_past><acc>$
      19 #ук\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^ук<v><iv><pass><ger><px3sg><nom>$
-     19 #Томич\<np\>\<cog\>\<mf\>\<nom\>	^Томич<np><cog><mf><nom>$
-     19 #Савич\<np\>\<cog\>\<mf\>\<nom\>	^Савич<np><cog><mf><nom>$
-     19 #Рудович\<np\>\<cog\>\<mf\>\<gen\>	^Рудович<np><cog><mf><gen>$
-     19 #Пуканич\<np\>\<cog\>\<mf\>\<nom\>	^Пуканич<np><cog><mf><nom>$
      19 #өзгөр\<v\>\<tv\>\<prt_impf\>	^өзгөр<v><tv><prt_impf>$
      19 #өзгөр\<v\>\<tv\>\<ger\>\<px3sg\>\<nom\>	^өзгөр<v><tv><ger><px3sg><nom>$
      19 #өзгөр\<v\>\<tv\>\<caus\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^өзгөр<v><tv><caus><pass><ger><px3sg><nom>$
-     19 #Обрадович\<np\>\<cog\>\<mf\>\<nom\>	^Обрадович<np><cog><mf><nom>$
-     19 #Милич\<np\>\<cog\>\<mf\>\<nom\>	^Милич<np><cog><mf><nom>$
-     19 #Миленкович\<np\>\<cog\>\<mf\>\<gen\>	^Миленкович<np><cog><mf><gen>$
      19 #күт\<v\>\<iv\>\<pass\>\<prt_impf\>	^күт<v><iv><pass><prt_impf>$
      19 #Күт\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^Күт<v><iv><pass><ger_past><acc>$
-     19 #Кузманович\<np\>\<cog\>\<mf\>\<nom\>	^Кузманович<np><cog><mf><nom>$
      19 #көлөкөлө\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^көлөкөлө<v><iv><pass><ifi><p3><sg>$
      19 #киргиз\<v\>\<tv\>\<ger_past\>\<nom\>	^киргиз<v><tv><ger_past><nom>$
      19 #иште\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^иште<v><iv><pass><ger_past><px3sg><acc>$
-     19 #Гранич\<np\>\<cog\>\<mf\>\<nom\>	^Гранич<np><cog><mf><nom>$
      19 #бур\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<pl\>	^бур<v><iv><pass><aor><p3><pl>$
-     19 #Бркич\<np\>\<cog\>\<mf\>\<nom\>	^Бркич<np><cog><mf><nom>$
      19 #бири-бир\<n\>\<px3pl\>\<nom\>	^бири-бир<n><px3pl><nom>$
      19 #50.\<num\>\<nom\>	^50.<num><nom>$
      19 #17.\<num\>\<nom\>	^17.<num><nom>$
      19 #100.\<num\>\<nom\>	^100.<num><nom>$
      18 #Эм\<v\>\<tv\>\<imp\>\<p2\>\<pl\>	^Эм<v><tv><imp><p2><pl>$
      18 #ыйгарымдуу элчи\<n\>\<px3pl\>\<nom\>	^ыйгарымдуу элчи<n><px3pl><nom>$
-     18 #Хажич\<np\>\<cog\>\<mf\>\<acc\>	^Хажич<np><cog><mf><acc>$
      18 #ур\<v\>\<iv\>\<ger\>\<nom\>	^ур<v><iv><ger><nom>$
      18 #узар\<v\>\<iv\>\<pass\>\<prt_impf\>	^узар<v><iv><pass><prt_impf>$
      18 #түш\<v\>\<iv\>\<caus\>\<pass\>\<ifi\>\<p3\>\<sg\>	^түш<v><iv><caus><pass><ifi><p3><sg>$
-     18 #Топжагич\<np\>\<cog\>\<mf\>\<nom\>	^Топжагич<np><cog><mf><nom>$
-     18 #Самардзич\<np\>\<cog\>\<mf\>\<nom\>	^Самардзич<np><cog><mf><nom>$
-     18 #Паридович\<np\>\<cog\>\<mf\>\<nom\>	^Паридович<np><cog><mf><nom>$
-     18 #Пандуревич\<np\>\<cog\>\<mf\>\<nom\>	^Пандуревич<np><cog><mf><nom>$
      18 #өлтүр\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^өлтүр<v><iv><pass><ger><px3sg><nom>$
-     18 #Николич\<np\>\<cog\>\<mf\>\<acc\>	^Николич<np><cog><mf><acc>$
-     18 #Милоşевич\<np\>\<cog\>\<mf\>\<dat\>	^Милоşевич<np><cog><mf><dat>$
-     18 #Медожевич\<np\>\<cog\>\<mf\>\<nom\>	^Медожевич<np><cog><mf><nom>$
-     18 #Мандич\<np\>\<cog\>\<mf\>\<gen\>	^Мандич<np><cog><mf><gen>$
      18 #майдала\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^майдала<v><iv><pass><ger_past><nom>$
-     18 #Лилич\<np\>\<cog\>\<mf\>\<nom\>	^Лилич<np><cog><mf><nom>$
      18 #кал\<v\>\<iv\>\<caus\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^кал<v><iv><caus><pass><ger_past><px3sg><acc>$
-     18 #Жукич\<np\>\<cog\>\<mf\>\<nom\>	^Жукич<np><cog><mf><nom>$
-     18 #Жожич\<np\>\<cog\>\<mf\>\<gen\>	^Жожич<np><cog><mf><gen>$
-     18 #Жеремич\<np\>\<cog\>\<mf\>\<gen\>	^Жеремич<np><cog><mf><gen>$
-     18 #Жавич\<np\>\<cog\>\<mf\>\<gen\>	^Жавич<np><cog><mf><gen>$
-     18 #Давинич\<np\>\<cog\>\<mf\>\<gen\>	^Давинич<np><cog><mf><gen>$
      18 #бы\<mod_qst\>\<2p\>	^бы<mod_qst><2p>$
      18 #бур\<v\>\<iv\>\<pass\>\<fut\>\<p3\>\<sg\>	^бур<v><iv><pass><fut><p3><sg>$
-     18 #Бранкович\<np\>\<cog\>\<mf\>\<gen\>	^Бранкович<np><cog><mf><gen>$
      18 #бол\<v\>\<iv\>\<neg\>\<imp\>\<p3\>\<sg\>	^бол<v><iv><neg><imp><p3><sg>$
      17 #Элестет\<v\>\<iv\>\<imp\>\<p2\>\<sg\>	^Элестет<v><iv><imp><p2><sg>$
      17 #чыгар\<v\>\<tv\>\<pass\>\<aor\>\<p3\>\<sg\>	^чыгар<v><tv><pass><aor><p3><sg>$
      17 #чыгар\<v\>\<tv\>\<ger_past\>\<px3sg\>\<nom\>	^чыгар<v><tv><ger_past><px3sg><nom>$
-     17 #Хажич\<np\>\<cog\>\<mf\>\<gen\>	^Хажич<np><cog><mf><gen>$
      17 #тышкары\<n\>\<nom\>	^тышкары<n><nom>$
      17 #тарат\<v\>\<tv\>\<prt_impf\>	^тарат<v><tv><prt_impf>$
      17 #тарат\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^тарат<v><tv><pass><ifi><p3><sg>$
      17 #таанып бил\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^таанып бил<v><iv><pass><ifi><p3><sg>$
      17 #сыяктуу\<post\>\<p3s\>\<acc\>	^сыяктуу<post><p3s><acc>$
-     17 #Митрович\<np\>\<cog\>\<mf\>\<nom\>	^Митрович<np><cog><mf><nom>$
-     17 #Милосавлевич\<np\>\<cog\>\<mf\>\<nom\>	^Милосавлевич<np><cog><mf><nom>$
-     17 #Микеревич\<np\>\<cog\>\<mf\>\<gen\>	^Микеревич<np><cog><mf><gen>$
-     17 #Медич\<np\>\<cog\>\<mf\>\<nom\>	^Медич<np><cog><mf><nom>$
-     17 #Льубижич\<np\>\<cog\>\<mf\>\<nom\>	^Льубижич<np><cog><mf><nom>$
      17 #күт\<v\>\<iv\>\<pass\>\<ger_past\>\<gen\>	^күт<v><iv><pass><ger_past><gen>$
-     17 #Ковачевич\<np\>\<cog\>\<mf\>\<nom\>	^Ковачевич<np><cog><mf><nom>$
      17 #кетир\<v\>\<tv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^кетир<v><tv><pass><ger><px3sg><nom>$
      17 #кет\<v\>\<iv\>\<abil\>\<prt_impf\>	^кет<v><iv><abil><prt_impf>$
      17 #келиш\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^келиш<v><iv><pass><ger><px3sg><nom>$
      17 #камсыз кыл\<v\>\<tv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^камсыз кыл<v><tv><abil><ger><px3sg><nom>$
      17 #ишен\<v\>\<tv\>\<abil\>\<prt_impf\>	^ишен<v><tv><abil><prt_impf>$
-     17 #Жерич\<np\>\<cog\>\<mf\>\<nom\>	^Жерич<np><cog><mf><nom>$
      17 #жарыл\<v\>\<iv\>\<ger\>\<dat\>	^жарыл<v><iv><ger><dat>$
      17 #жардам бер\<v\>\<iv\>\<abil\>\<prt_impf\>	^жардам бер<v><iv><abil><prt_impf>$
      17 #Де\<v\>\<tv\>\<pass\>\<imp\>\<p2\>\<sg\>	^Де<v><tv><pass><imp><p2><sg>$
-     17 #Гаспарович\<np\>\<cog\>\<mf\>\<nom\>	^Гаспарович<np><cog><mf><nom>$
      17 #бур\<v\>\<iv\>\<pass\>\<ger_past\>\<abl\>	^бур<v><iv><pass><ger_past><abl>$
      17 #3,\<num\>\<nom\>	^3,<num><nom>$
      16 #элестет\<v\>\<iv\>\<neg\>\<aor\>\<p1\>\<sg\>	^элестет<v><iv><neg><aor><p1><sg>$
      16 #элестет\<v\>\<iv\>\<aor\>\<p1\>\<sg\>	^элестет<v><iv><aor><p1><sg>$
-     16 #Ыванисевич\<np\>\<cog\>\<mf\>\<nom\>	^Ыванисевич<np><cog><mf><nom>$
-     16 #Чавич\<np\>\<cog\>\<mf\>\<nom\>	^Чавич<np><cog><mf><nom>$
-     16 #Хажыпасич\<np\>\<cog\>\<mf\>\<nom\>	^Хажыпасич<np><cog><mf><nom>$
      16 #узар\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^узар<v><iv><pass><aor><p3><sg>$
      16 #тарт\<v\>\<tv\>\<abil\>\<prt_impf\>	^тарт<v><tv><abil><prt_impf>$
-     16 #Силайжич\<np\>\<cog\>\<mf\>\<gen\>	^Силайжич<np><cog><mf><gen>$
-     16 #Сарович\<np\>\<cog\>\<mf\>\<gen\>	^Сарович<np><cog><mf><gen>$
-     16 #Радожижич\<np\>\<cog\>\<mf\>\<nom\>	^Радожижич<np><cog><mf><nom>$
-     16 #Пусич\<np\>\<cog\>\<mf\>\<nom\>	^Пусич<np><cog><mf><nom>$
-     16 #Матич\<np\>\<cog\>\<mf\>\<nom\>	^Матич<np><cog><mf><nom>$
      16 #майдала\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^майдала<v><iv><pass><ger><px3sg><nom>$
-     16 #Лакжевич\<np\>\<cog\>\<mf\>\<nom\>	^Лакжевич<np><cog><mf><nom>$
-     16 #Крстович\<np\>\<cog\>\<mf\>\<gen\>	^Крстович<np><cog><mf><gen>$
      16 #жык\<v\>\<iv\>\<pass\>\<prt_perf\>	^жык<v><iv><pass><prt_perf>$
      16 #жара\<v\>\<tv\>\<caus\>\<Dvn_yIcI\>\<adj\>	^жара<v><tv><caus><Dvn_yIcI><adj>$
      16 #Документалдуу тасма\<n\>\<nom\>	^Документалдуу тасма<n><nom>$
-     16 #Вукелич\<np\>\<cog\>\<mf\>\<nom\>	^Вукелич<np><cog><mf><nom>$
      16 #бур\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<gen\>	^бур<v><iv><pass><ger><px3sg><gen>$
      16 #бири-бир\<n\>\<pl\>\<px3sg\>\<nom\>	^бири-бир<n><pl><px3sg><nom>$
      16 #бири-бир\<n\>\<pl\>\<px3sg\>\<acc\>	^бири-бир<n><pl><px3sg><acc>$
-     16 #Банович\<np\>\<cog\>\<mf\>\<nom\>	^Банович<np><cog><mf><nom>$
      16 #баалан\<v\>\<tv\>\<prt_perf\>	^баалан<v><tv><prt_perf>$
      16 #баалан\<v\>\<tv\>\<caus\>\<ger\>\<px3sg\>\<dat\>	^баалан<v><tv><caus><ger><px3sg><dat>$
      16 #8.\<num\>\<nom\>	^8.<num><nom>$
@@ -664,28 +458,15 @@ Tag mismatch between transfer and generation
      15 #ур\<v\>\<iv\>\<ger\>\<px3sg\>\<nom\>	^ур<v><iv><ger><px3sg><nom>$
      15 #ук\<v\>\<iv\>\<pass\>\<prt_impf\>	^ук<v><iv><pass><prt_impf>$
      15 #тосуп ал\<v\>\<tv\>\<abil\>\<prt_impf\>	^тосуп ал<v><tv><abil><prt_impf>$
-     15 #Стожанович\<np\>\<cog\>\<mf\>\<nom\>	^Стожанович<np><cog><mf><nom>$
-     15 #Сжепанович\<np\>\<cog\>\<mf\>\<gen\>	^Сжепанович<np><cog><mf><gen>$
      15 #сез\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^сез<v><iv><pass><ifi><p3><sg>$
-     15 #Попович\<np\>\<cog\>\<mf\>\<gen\>	^Попович<np><cog><mf><gen>$
      15 #өт\<v\>\<iv\>\<caus\>\<pass\>\<fut\>\<p3\>\<sg\>	^өт<v><iv><caus><pass><fut><p3><sg>$
-     15 #Никсич\<np\>\<cog\>\<mf\>\<nom\>	^Никсич<np><cog><mf><nom>$
-     15 #Маргетич\<np\>\<cog\>\<mf\>\<nom\>	^Маргетич<np><cog><mf><nom>$
-     15 #Лужич\<np\>\<cog\>\<mf\>\<nom\>	^Лужич<np><cog><mf><nom>$
      15 #кетир\<v\>\<tv\>\<prt_impf\>	^кетир<v><tv><prt_impf>$
-     15 #Кандич\<np\>\<cog\>\<mf\>\<nom\>	^Кандич<np><cog><mf><nom>$
      15 #жогот\<v\>\<tv\>\<abil\>\<prt_impf\>	^жогот<v><tv><abil><prt_impf>$
      15 #Жет\<v\>\<tv\>\<cv_eli\>	^Жет<v><tv><cv_eli>$
      15 #Жар\<v\>\<tv\>\<cv_eli\>	^Жар<v><tv><cv_eli>$
-     15 #Жанкович\<np\>\<cog\>\<mf\>\<gen\>	^Жанкович<np><cog><mf><gen>$
-     15 #Докич\<np\>\<cog\>\<mf\>\<nom\>	^Докич<np><cog><mf><nom>$
-     15 #Васич\<np\>\<cog\>\<mf\>\<nom\>	^Васич<np><cog><mf><nom>$
      15 #бур\<v\>\<iv\>\<pass\>\<neg\>\<aor\>\<p3\>\<sg\>	^бур<v><iv><pass><neg><aor><p3><sg>$
      15 #бир катар\<det\>\<ind\>	^бир катар<det><ind>$
      15 #бири-бир\<n\>\<pl\>\<px3sg\>\<gen\>	^бири-бир<n><pl><px3sg><gen>$
-     15 #Басич\<np\>\<cog\>\<mf\>\<nom\>	^Басич<np><cog><mf><nom>$
-     15 #бак\<v\>\<TD\>\<aor\>\<p3\>\<sg\>	^бак<v><TD><aor><p3><sg>$
-     15 #İзетбегович\<np\>\<cog\>\<mf\>\<nom\>	^İзетбегович<np><cog><mf><nom>$
      15 #18.\<num\>\<nom\>	^18.<num><nom>$
      14 #эвро\<n\>\<px3sg\>\<nom\>	^эвро<n><px3sg><nom>$
      14 #ысы\<v\>\<tv\>\<ger\>\<nom\>	^ысы<v><tv><ger><nom>$
@@ -697,26 +478,20 @@ Tag mismatch between transfer and generation
      14 #салыштыр\<v\>\<iv\>\<abil\>\<prt_impf\>	^салыштыр<v><iv><abil><prt_impf>$
      14 #планда\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^планда<v><iv><pass><ger_past><nom>$
      14 #пайда тап\<v\>\<tv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^пайда тап<v><tv><abil><ger><px3sg><nom>$
-     14 #Нович\<np\>\<cog\>\<mf\>\<nom\>	^Нович<np><cog><mf><nom>$
-     14 #Маринович\<np\>\<cog\>\<mf\>\<nom\>	^Маринович<np><cog><mf><nom>$
      14 #көрсөт\<v\>\<tv\>\<abil\>\<prt_impf\>	^көрсөт<v><tv><abil><prt_impf>$
      14 #колдо\<v\>\<tv\>\<abil\>\<prt_impf\>	^колдо<v><tv><abil><prt_impf>$
      14 #кир\<v\>\<iv\>\<abil\>\<ger\>\<nom\>	^кир<v><iv><abil><ger><nom>$
      14 #карма\<v\>\<iv\>\<pass\>\<neg\>\<ger_past\>\<nom\>	^карма<v><iv><pass><neg><ger_past><nom>$
      14 #иште\<v\>\<iv\>\<pass\>\<fut\>\<p3\>\<sg\>	^иште<v><iv><pass><fut><p3><sg>$
-     14 #Жикотич\<np\>\<cog\>\<mf\>\<nom\>	^Жикотич<np><cog><mf><nom>$
      14 #жарыл\<v\>\<iv\>\<neg\>\<imp\>\<p2\>\<sg\>	^жарыл<v><iv><neg><imp><p2><sg>$
      14 #жарыл\<v\>\<iv\>\<ger\>\<acc\>	^жарыл<v><iv><ger><acc>$
      14 #бур\<v\>\<iv\>\<pass\>\<neg\>\<prt_impf\>	^бур<v><iv><pass><neg><prt_impf>$
      14 #бур\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^бур<v><iv><pass><ger_past><acc>$
      14 #бер\<v\>\<tv\>\<pass\>\<vn_acak\>	^бер<v><tv><pass><vn_acak>$
-     14 #Белкич\<np\>\<cog\>\<mf\>\<nom\>	^Белкич<np><cog><mf><nom>$
-     14 #Бебич\<np\>\<cog\>\<mf\>\<nom\>	^Бебич<np><cog><mf><nom>$
      14 #бар\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^бар<v><iv><pass><ger_past><nom>$
      14 #баалан\<v\>\<tv\>\<caus\>\<ger\>\<loc\>	^баалан<v><tv><caus><ger><loc>$
      14 #аш\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^аш<v><iv><pass><ger><px3sg><nom>$
      14 #анализде\<v\>\<iv\>\<pass\>\<prt_impf\>	^анализде<v><iv><pass><prt_impf>$
-     14 #Адлесич\<np\>\<cog\>\<mf\>\<nom\>	^Адлесич<np><cog><mf><nom>$
      14 #6,\<num\>\<nom\>	^6,<num><nom>$
      14 #56.\<num\>\<nom\>	^56.<num><nom>$
      13 #элестет\<v\>\<iv\>\<ger_past\>\<px3pl\>\<nom\>	^элестет<v><iv><ger_past><px3pl><nom>$
@@ -729,36 +504,20 @@ Tag mismatch between transfer and generation
      13 #ук\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<nom\>	^ук<v><iv><pass><ger_past><px3sg><nom>$
      13 #түш\<v\>\<iv\>\<caus\>\<pass\>\<fut\>\<p3\>\<sg\>	^түш<v><iv><caus><pass><fut><p3><sg>$
      13 #түш\<v\>\<iv\>\<caus\>\<pass\>\<aor\>\<p3\>\<sg\>	^түш<v><iv><caus><pass><aor><p3><sg>$
-     13 #Трбич\<np\>\<cog\>\<mf\>\<nom\>	^Трбич<np><cog><mf><nom>$
-     13 #Трайкович\<np\>\<cog\>\<mf\>\<nom\>	^Трайкович<np><cog><mf><nom>$
-     13 #Тодович\<np\>\<cog\>\<mf\>\<nom\>	^Тодович<np><cog><mf><nom>$
-     13 #Терзич\<np\>\<cog\>\<mf\>\<dat\>	^Терзич<np><cog><mf><dat>$
      13 #сыз\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^сыз<v><iv><pass><ger><px3sg><nom>$
      13 #сура\<v\>\<tv\>\<abil\>\<prt_impf\>	^сура<v><tv><abil><prt_impf>$
      13 #суйлө\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^суйлө<v><iv><pass><aor><p3><sg>$
-     13 #Песич\<np\>\<cog\>\<mf\>\<nom\>	^Песич<np><cog><mf><nom>$
-     13 #Павкович\<np\>\<cog\>\<mf\>\<gen\>	^Павкович<np><cog><mf><gen>$
-     13 #Орич\<np\>\<cog\>\<mf\>\<gen\>	^Орич<np><cog><mf><gen>$
-     13 #Милоşевич\<np\>\<cog\>\<mf\>\<acc\>	^Милоşевич<np><cog><mf><acc>$
-     13 #Льайич\<np\>\<cog\>\<mf\>\<gen\>	^Льайич<np><cog><mf><gen>$
-     13 #Лозанжич\<np\>\<cog\>\<mf\>\<nom\>	^Лозанжич<np><cog><mf><nom>$
      13 #кыл\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^кыл<v><tv><abil><neg><ger_past><px3sg><acc>$
      13 #курга\<v\>\<tv\>\<caus\>\<ger\>\<nom\>	^курга<v><tv><caus><ger><nom>$
-     13 #Костич\<np\>\<cog\>\<mf\>\<nom\>	^Костич<np><cog><mf><nom>$
      13 #Карадзич\<np\>\<cog\>\<mf\>\<px3sg\>\<nom\>	^Карадзич<np><cog><mf><px3sg><nom>$
      13 #камсыз кыл\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^камсыз кыл<v><tv><abil><neg><ger_past><px3sg><acc>$
-     13 #Калинич\<np\>\<cog\>\<mf\>\<nom\>	^Калинич<np><cog><mf><nom>$
      13 #кал\<v\>\<iv\>\<caus\>\<pass\>\<fut\>\<p3\>\<sg\>	^кал<v><iv><caus><pass><fut><p3><sg>$
      13 #иште\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^иште<v><iv><pass><ifi><p3><sg>$
-     13 #Иванич\<np\>\<cog\>\<mf\>\<gen\>	^Иванич<np><cog><mf><gen>$
      13 #зыян келтир\<v\>\<tv\>\<abil\>\<prt_impf\>	^зыян келтир<v><tv><abil><prt_impf>$
      13 #жык\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<abl\>	^жык<v><iv><pass><ger><px3sg><abl>$
      13 #жибер\<v\>\<tv\>\<abil\>\<prt_impf\>	^жибер<v><tv><abil><prt_impf>$
      13 #жет\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^жет<v><iv><pass><ger_past><px3sg><acc>$
      13 #жаша\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^жаша<v><iv><pass><ger_past><nom>$
-     13 #Деронжич\<np\>\<cog\>\<mf\>\<nom\>	^Деронжич<np><cog><mf><nom>$
-     13 #Вукжевич\<np\>\<cog\>\<mf\>\<gen\>	^Вукжевич<np><cog><mf><gen>$
-     13 #Влахович\<np\>\<cog\>\<mf\>\<gen\>	^Влахович<np><cog><mf><gen>$
      13 #буз\<v\>\<tv\>\<abil\>\<prt_impf\>	^буз<v><tv><abil><prt_impf>$
      13 #баалан\<v\>\<tv\>\<caus\>\<ger\>\<acc\>	^баалан<v><tv><caus><ger><acc>$
      13 #аракет кыл\<v\>\<iv\>\<ifi\>\<p3\>\<sg\>	^аракет кыл<v><iv><ifi><p3><sg>$
@@ -781,40 +540,23 @@ Tag mismatch between transfer and generation
      12 #ташта\<v\>\<tv\>\<imp\>\<p2\>\<pl\>	^ташта<v><tv><imp><p2><pl>$
      12 #таанып бил\<v\>\<iv\>\<ger_past\>\<nom\>	^таанып бил<v><iv><ger_past><nom>$
      12 #сыз\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^сыз<v><iv><pass><ifi><p3><sg>$
-     12 #Стуранович\<np\>\<cog\>\<mf\>\<gen\>	^Стуранович<np><cog><mf><gen>$
-     12 #Симович\<np\>\<cog\>\<mf\>\<nom\>	^Симович<np><cog><mf><nom>$
      12 #сахналаштыр\<v\>\<iv\>\<ger_past\>\<nom\>	^сахналаштыр<v><iv><ger_past><nom>$
      12 #салыштыр\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<loc\>	^салыштыр<v><iv><pass><ger_past><px3sg><loc>$
-     12 #Ражич\<np\>\<cog\>\<mf\>\<nom\>	^Ражич<np><cog><mf><nom>$
      12 #планда\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^планда<v><iv><pass><ger><px3sg><nom>$
      12 #планда\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<dat\>	^планда<v><iv><pass><ger><px3sg><dat>$
-     12 #Пежич\<np\>\<cog\>\<mf\>\<nom\>	^Пежич<np><cog><mf><nom>$
      12 #пайда тап\<v\>\<tv\>\<abil\>\<prt_impf\>	^пайда тап<v><tv><abil><prt_impf>$
      12 #өзгөр\<v\>\<tv\>\<caus\>\<ger\>\<dat\>	^өзгөр<v><tv><caus><ger><dat>$
-     12 #Новакович\<np\>\<cog\>\<mf\>\<nom\>	^Новакович<np><cog><mf><nom>$
      12 #мом\<n\>\<nom\>	^мом<n><nom>$
-     12 #Месич\<np\>\<cog\>\<mf\>\<abl\>	^Месич<np><cog><mf><abl>$
-     12 #Марич\<np\>\<cog\>\<mf\>\<nom\>	^Марич<np><cog><mf><nom>$
      12 #күт\<v\>\<iv\>\<pass\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^күт<v><iv><pass><neg><ger_past><px3sg><acc>$
-     12 #Крсманович\<np\>\<cog\>\<mf\>\<nom\>	^Крсманович<np><cog><mf><nom>$
      12 #кетир\<v\>\<tv\>\<ger\>\<dat\>	^кетир<v><tv><ger><dat>$
      12 #кал\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^кал<v><iv><abil><neg><prt_impf>$
      12 #ич\<v\>\<tv\>\<part_acak\>	^ич<v><tv><part_acak>$
-     12 #Зигич\<np\>\<cog\>\<mf\>\<nom\>	^Зигич<np><cog><mf><nom>$
-     12 #Зветкович\<np\>\<cog\>\<mf\>\<gen\>	^Зветкович<np><cog><mf><gen>$
      12 #жык\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<nom\>	^жык<v><iv><pass><ger_past><px3sg><nom>$
-     12 #Журжевич\<np\>\<cog\>\<mf\>\<nom\>	^Журжевич<np><cog><mf><nom>$
-     12 #Жидич\<np\>\<cog\>\<mf\>\<gen\>	^Жидич<np><cog><mf><gen>$
      12 #жет\<v\>\<iv\>\<caus\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^жет<v><iv><caus><pass><ger><px3sg><nom>$
      12 #жет\<v\>\<iv\>\<caus\>\<pass\>\<fut\>\<p3\>\<sg\>	^жет<v><iv><caus><pass><fut><p3><sg>$
      12 #жаша\<v\>\<iv\>\<pass\>\<neg\>\<prt_impf\>	^жаша<v><iv><pass><neg><prt_impf>$
      12 #жаша\<v\>\<iv\>\<pass\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^жаша<v><iv><pass><neg><ger_past><px3sg><acc>$
-     12 #Жаферович\<np\>\<cog\>\<mf\>\<nom\>	^Жаферович<np><cog><mf><nom>$
      12 #документалдуу тасма\<n\>\<pl\>\<nom\>	^документалдуу тасма<n><pl><nom>$
-     12 #Джуканович\<np\>\<cog\>\<mf\>\<gen\>	^Джуканович<np><cog><mf><gen>$
-     12 #Грбич\<np\>\<cog\>\<mf\>\<nom\>	^Грбич<np><cog><mf><nom>$
-     12 #Бисжевич\<np\>\<cog\>\<mf\>\<nom\>	^Бисжевич<np><cog><mf><nom>$
-     12 #Барич\<np\>\<cog\>\<mf\>\<nom\>	^Барич<np><cog><mf><nom>$
      12 #байкалган\<n\>\<nom\>	^байкалган<n><nom>$
      12 #аракет кыл\<v\>\<iv\>\<prt_perf\>	^аракет кыл<v><iv><prt_perf>$
      12 #аракет кыл\<v\>\<iv\>\<ger_past\>\<nom\>	^аракет кыл<v><iv><ger_past><nom>$
@@ -832,28 +574,13 @@ Tag mismatch between transfer and generation
      11 #сыз\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^сыз<v><iv><pass><aor><p3><sg>$
      11 #сун\<v\>\<tv\>\<abil\>\<prt_impf\>	^сун<v><tv><abil><prt_impf>$
      11 #суйлө\<v\>\<iv\>\<aor\>\<p1\>\<pl\>	^суйлө<v><iv><aor><p1><pl>$
-     11 #Стожич\<np\>\<cog\>\<mf\>\<nom\>	^Стожич<np><cog><mf><nom>$
      11 #сиң\<v\>\<tv\>\<caus\>\<ger\>\<dat\>	^сиң<v><tv><caus><ger><dat>$
      11 #Силкилдет\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^Силкилдет<v><tv><pass><ifi><p3><sg>$
-     11 #Саинович\<np\>\<cog\>\<mf\>\<nom\>	^Саинович<np><cog><mf><nom>$
-     11 #Садович\<np\>\<cog\>\<mf\>\<nom\>	^Садович<np><cog><mf><nom>$
-     11 #Рамич\<np\>\<cog\>\<mf\>\<nom\>	^Рамич<np><cog><mf><nom>$
-     11 #Разнатович\<np\>\<cog\>\<mf\>\<nom\>	^Разнатович<np><cog><mf><nom>$
-     11 #Радулович\<np\>\<cog\>\<mf\>\<nom\>	^Радулович<np><cog><mf><nom>$
-     11 #Радович\<np\>\<cog\>\<mf\>\<nom\>	^Радович<np><cog><mf><nom>$
-     11 #Пульич\<np\>\<cog\>\<mf\>\<nom\>	^Пульич<np><cog><mf><nom>$
-     11 #Подзич\<np\>\<cog\>\<mf\>\<nom\>	^Подзич<np><cog><mf><nom>$
-     11 #Петрич\<np\>\<cog\>\<mf\>\<nom\>	^Петрич<np><cog><mf><nom>$
      11 #мээле\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^мээле<v><iv><pass><ger_past><px3sg><acc>$
-     11 #Милисич\<np\>\<cog\>\<mf\>\<nom\>	^Милисич<np><cog><mf><nom>$
-     11 #Льубич\<np\>\<cog\>\<mf\>\<nom\>	^Льубич<np><cog><mf><nom>$
-     11 #Лепосавич\<np\>\<cog\>\<mf\>\<nom\>	^Лепосавич<np><cog><mf><nom>$
      11 #кыл\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<nom\>	^кыл<v><tv><abil><neg><ger_past><px3sg><nom>$
      11 #күт\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<dat\>	^күт<v><iv><pass><ger><px3sg><dat>$
      11 #кура\<v\>\<tv\>\<abil\>\<prt_impf\>	^кура<v><tv><abil><prt_impf>$
-     11 #Костелич\<np\>\<cog\>\<mf\>\<gen\>	^Костелич<np><cog><mf><gen>$
      11 #колдон\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^колдон<v><tv><abil><ger><nom>$
-     11 #Коважевич\<np\>\<cog\>\<mf\>\<gen\>	^Коважевич<np><cog><mf><gen>$
      11 #киргиз\<v\>\<tv\>\<ger_past\>\<px3sg\>\<acc\>	^киргиз<v><tv><ger_past><px3sg><acc>$
      11 #киргиз\<v\>\<tv\>\<ger_past\>\<acc\>	^киргиз<v><tv><ger_past><acc>$
      11 #кет\<v\>\<iv\>\<pass\>\<fut\>\<p3\>\<sg\>	^кет<v><iv><pass><fut><p3><sg>$
@@ -863,50 +590,30 @@ Tag mismatch between transfer and generation
      11 #камсыз кыл\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^камсыз кыл<v><tv><abil><neg><prt_impf>$
      11 #иште\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^иште<v><iv><pass><aor><p3><sg>$
      11 #жык\<v\>\<iv\>\<pass\>\<neg\>\<prt_impf\>	^жык<v><iv><pass><neg><prt_impf>$
-     11 #Журич\<np\>\<cog\>\<mf\>\<nom\>	^Журич<np><cog><mf><nom>$
-     11 #Жович\<np\>\<cog\>\<mf\>\<acc\>	^Жович<np><cog><mf><acc>$
-     11 #Жовижевич\<np\>\<cog\>\<mf\>\<nom\>	^Жовижевич<np><cog><mf><nom>$
      11 #жет\<v\>\<iv\>\<caus\>\<pass\>\<aor\>\<p3\>\<sg\>	^жет<v><iv><caus><pass><aor><p3><sg>$
      11 #жаша\<v\>\<iv\>\<pass\>\<neg\>\<prt_perf\>	^жаша<v><iv><pass><neg><prt_perf>$
-     11 #Ёванович\<np\>\<cog\>\<mf\>\<gen\>	^Ёванович<np><cog><mf><gen>$
      11 #документалдуу тасма\<n\>\<acc\>	^документалдуу тасма<n><acc>$
-     11 #Динкич\<np\>\<cog\>\<mf\>\<dat\>	^Динкич<np><cog><mf><dat>$
      11 #Бүт баары\<det\>\<ind\>	^Бүт баары<det><ind>$
      11 #Бур\<v\>\<iv\>\<pass\>\<ger\>\<px1sg\>\<nom\>	^Бур<v><iv><pass><ger><px1sg><nom>$
-     11 #Букежлович\<np\>\<cog\>\<mf\>\<gen\>	^Букежлович<np><cog><mf><gen>$
      11 #буз\<v\>\<iv\>\<pass\>\<ger\>\<nom\>	^буз<v><iv><pass><ger><nom>$
-     11 #Боскович\<np\>\<cog\>\<mf\>\<nom\>	^Боскович<np><cog><mf><nom>$
-     11 #Бласкич\<np\>\<cog\>\<mf\>\<nom\>	^Бласкич<np><cog><mf><nom>$
      11 #бири-бир\<n\>\<px3sg\>\<acc\>	^бири-бир<n><px3sg><acc>$
      11 #бир бөлүк\<det\>\<ind\>	^бир бөлүк<det><ind>$
-     11 #Бектаşевич\<np\>\<cog\>\<mf\>\<nom\>	^Бектаşевич<np><cog><mf><nom>$
      11 #Башкы эпископ\<n\>\<acc\>	^Башкы эпископ<n><acc>$
      11 #балала\<v\>\<tv\>\<caus\>\<Dvn_yIcI\>\<adj\>	^балала<v><tv><caus><Dvn_yIcI><adj>$
-     11 #Байрамович\<np\>\<cog\>\<mf\>\<nom\>	^Байрамович<np><cog><mf><nom>$
      11 #баалан\<v\>\<tv\>\<caus\>\<pass\>\<fut\>\<p3\>\<sg\>	^баалан<v><tv><caus><pass><fut><p3><sg>$
      11 #баалан\<v\>\<tv\>\<caus\>\<neg\>\<imp\>\<p2\>\<sg\>	^баалан<v><tv><caus><neg><imp><p2><sg>$
      11 #Баалан\<v\>\<tv\>\<caus\>\<ger\>\<nom\>	^Баалан<v><tv><caus><ger><nom>$
      11 #Ач\<v\>\<tv\>\<part_acak\>	^Ач<v><tv><part_acak>$
      11 #аракет кыл\<v\>\<iv\>\<ger_past\>\<acc\>	^аракет кыл<v><iv><ger_past><acc>$
      11 #аракет кыл\<v\>\<iv\>\<ger\>\<gen\>	^аракет кыл<v><iv><ger><gen>$
-     11 #İзетбегович\<np\>\<cog\>\<mf\>\<gen\>	^İзетбегович<np><cog><mf><gen>$
      11 #4,\<num\>\<nom\>	^4,<num><nom>$
      11 #25,\<num\>\<nom\>	^25,<num><nom>$
      10 #ыйгарымдуу элчи\<n\>\<pl\>\<px3sg\>\<dat\>	^ыйгарымдуу элчи<n><pl><px3sg><dat>$
-     10 #Ыванович\<np\>\<cog\>\<mf\>\<gen\>	^Ыванович<np><cog><mf><gen>$
-     10 #Ыванич\<np\>\<cog\>\<mf\>\<gen\>	^Ыванич<np><cog><mf><gen>$
      10 #чеч\<v\>\<tv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^чеч<v><tv><abil><ger><px3sg><nom>$
      10 #ур\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^ур<v><iv><pass><ger><px3sg><nom>$
      10 #тосуп ал\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^тосуп ал<v><tv><abil><ger><nom>$
-     10 #Тихич\<np\>\<cog\>\<mf\>\<dat\>	^Тихич<np><cog><mf><dat>$
      10 #ташта\<v\>\<tv\>\<abil\>\<prt_impf\>	^ташта<v><tv><abil><prt_impf>$
-     10 #Спирич\<np\>\<cog\>\<mf\>\<acc\>	^Спирич<np><cog><mf><acc>$
-     10 #Радманович\<np\>\<cog\>\<mf\>\<gen\>	^Радманович<np><cog><mf><gen>$
-     10 #Петрасевич\<np\>\<cog\>\<mf\>\<nom\>	^Петрасевич<np><cog><mf><nom>$
      10 #өзгөр\<v\>\<tv\>\<caus\>\<prt_impf\>	^өзгөр<v><tv><caus><prt_impf>$
-     10 #Николич\<np\>\<cog\>\<mf\>\<dat\>	^Николич<np><cog><mf><dat>$
-     10 #Мичунович\<np\>\<cog\>\<mf\>\<nom\>	^Мичунович<np><cog><mf><nom>$
-     10 #Милетич\<np\>\<cog\>\<mf\>\<gen\>	^Милетич<np><cog><mf><gen>$
      10 #майрамда\<v\>\<iv\>\<pass\>\<prt_impf\>	^майрамда<v><iv><pass><prt_impf>$
      10 #майрамда\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^майрамда<v><iv><pass><aor><p3><sg>$
      10 #Күт\<v\>\<iv\>\<pass\>\<ger_fut\>\<px3sg\>\<nom\>	^Күт<v><iv><pass><ger_fut><px3sg><nom>$
@@ -916,32 +623,20 @@ Tag mismatch between transfer and generation
      10 #келиш\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^келиш<v><iv><pass><ifi><p3><sg>$
      10 #карма\<v\>\<tv\>\<abil\>\<prt_impf\>	^карма<v><tv><abil><prt_impf>$
      10 #карма\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<abl\>	^карма<v><iv><pass><ger><px3sg><abl>$
-     10 #Каражич\<np\>\<cog\>\<mf\>\<dat\>	^Каражич<np><cog><mf><dat>$
      10 #камсыз кыл\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<nom\>	^камсыз кыл<v><tv><abil><neg><ger_past><px3sg><nom>$
      10 #кал\<v\>\<iv\>\<caus\>\<pass\>\<aor\>\<p3\>\<sg\>	^кал<v><iv><caus><pass><aor><p3><sg>$
-     10 #Кадыевич\<np\>\<cog\>\<mf\>\<nom\>	^Кадыевич<np><cog><mf><nom>$
      10 #иш жүзүнө ашыр\<v\>\<tv\>\<abil\>\<prt_impf\>	^иш жүзүнө ашыр<v><tv><abil><prt_impf>$
      10 #илгериле\<v\>\<iv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^илгериле<v><iv><abil><ger><px3sg><nom>$
-     10 #Зивкович\<np\>\<cog\>\<mf\>\<dat\>	^Зивкович<np><cog><mf><dat>$
-     10 #Зеленович\<np\>\<cog\>\<mf\>\<gen\>	^Зеленович<np><cog><mf><gen>$
      10 #жык\<v\>\<iv\>\<pass\>\<ger\>\<abl\>	^жык<v><iv><pass><ger><abl>$
-     10 #Журисич\<np\>\<cog\>\<mf\>\<nom\>	^Журисич<np><cog><mf><nom>$
-     10 #Журжич\<np\>\<cog\>\<mf\>\<nom\>	^Журжич<np><cog><mf><nom>$
      10 #жет\<v\>\<iv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^жет<v><iv><abil><ger><px3sg><nom>$
-     10 #Желавич\<np\>\<cog\>\<mf\>\<gen\>	^Желавич<np><cog><mf><gen>$
      10 #жардам бер\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^жардам бер<v><iv><pass><ger><px3sg><nom>$
      10 #жаңырт\<v\>\<tv\>\<ger\>\<nom\>	^жаңырт<v><tv><ger><nom>$
-     10 #Дюканович\<np\>\<cog\>\<mf\>\<gen\>	^Дюканович<np><cog><mf><gen>$
-     10 #Докич\<np\>\<cog\>\<mf\>\<gen\>	^Докич<np><cog><mf><gen>$
-     10 #Вужетич\<np\>\<cog\>\<mf\>\<nom\>	^Вужетич<np><cog><mf><nom>$
      10 #бур\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<loc\>	^бур<v><iv><pass><ger_past><px3sg><loc>$
      10 #буз\<v\>\<iv\>\<ger_past\>\<nom\>	^буз<v><iv><ger_past><nom>$
      10 #бири-бир\<n\>\<px3pl\>\<acc\>	^бири-бир<n><px3pl><acc>$
-     10 #Бандич\<np\>\<cog\>\<mf\>\<nom\>	^Бандич<np><cog><mf><nom>$
      10 #байкалган\<n\>\<loc\>	^байкалган<n><loc>$
      10 #баалан\<v\>\<tv\>\<caus\>\<ger_past\>\<px3sg\>\<acc\>	^баалан<v><tv><caus><ger_past><px3sg><acc>$
      10 #баалан\<v\>\<tv\>\<caus\>\<ger_past\>\<acc\>	^баалан<v><tv><caus><ger_past><acc>$
-     10 #Анжич\<np\>\<cog\>\<mf\>\<nom\>	^Анжич<np><cog><mf><nom>$
      10 #алып кел\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^алып кел<v><tv><abil><ger><nom>$
      10 #айуу\<n\>\<gen\>	^айуу<n><gen>$
      10 #35.\<num\>\<nom\>	^35.<num><nom>$
@@ -950,7 +645,6 @@ Tag mismatch between transfer and generation
      10 #05,\<num\>\<nom\>	^05,<num><nom>$
       9 #Чыгар\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^Чыгар<v><tv><pass><ifi><p3><sg>$
       9 #чыгар\<v\>\<tv\>\<neg\>\<opt\>\<p3\>\<sg\>	^чыгар<v><tv><neg><opt><p3><sg>$
-      9 #Фазлич\<np\>\<cog\>\<mf\>\<nom\>	^Фазлич<np><cog><mf><nom>$
       9 #үн сал\<v\>\<iv\>\<pass\>\<prt_impf\>	^үн сал<v><iv><pass><prt_impf>$
       9 #ук\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^ук<v><iv><pass><aor><p3><sg>$
       9 #үйлө\<v\>\<tv\>\<imp\>\<p2\>\<pl\>	^үйлө<v><tv><imp><p2><pl>$
@@ -958,7 +652,6 @@ Tag mismatch between transfer and generation
       9 #тосуп ал\<v\>\<tv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^тосуп ал<v><tv><abil><ger><px3sg><nom>$
       9 #тос\<v\>\<tv\>\<abil\>\<prt_impf\>	^тос<v><tv><abil><prt_impf>$
       9 #тос\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^тос<v><tv><abil><ger><nom>$
-      9 #Топич\<np\>\<cog\>\<mf\>\<nom\>	^Топич<np><cog><mf><nom>$
       9 #төк\<v\>\<iv\>\<pass\>\<prt_impf\>	^төк<v><iv><pass><prt_impf>$
       9 #тарат\<v\>\<tv\>\<ger\>\<px3sg\>\<nom\>	^тарат<v><tv><ger><px3sg><nom>$
       9 #тап\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^тап<v><tv><abil><neg><ger_past><px3sg><acc>$
@@ -966,30 +659,13 @@ Tag mismatch between transfer and generation
       9 #суйлө\<v\>\<iv\>\<prt_impf\>	^суйлө<v><iv><prt_impf>$
       9 #сүйлө\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^сүйлө<v><iv><pass><ifi><p3><sg>$
       9 #суйлө\<v\>\<iv\>\<ger_past\>\<nom\>	^суйлө<v><iv><ger_past><nom>$
-      9 #Стожижич\<np\>\<cog\>\<mf\>\<nom\>	^Стожижич<np><cog><mf><nom>$
-      9 #Свиланович\<np\>\<cog\>\<mf\>\<gen\>	^Свиланович<np><cog><mf><gen>$
-      9 #Ристич\<np\>\<cog\>\<mf\>\<nom\>	^Ристич<np><cog><mf><nom>$
-      9 #Расевич\<np\>\<cog\>\<mf\>\<nom\>	^Расевич<np><cog><mf><nom>$
-      9 #Радетич\<np\>\<cog\>\<mf\>\<nom\>	^Радетич<np><cog><mf><nom>$
-      9 #Перич\<np\>\<cog\>\<mf\>\<nom\>	^Перич<np><cog><mf><nom>$
-      9 #Перисич\<np\>\<cog\>\<mf\>\<gen\>	^Перисич<np><cog><mf><gen>$
       9 #пайдалан\<v\>\<tv\>\<abil\>\<prt_impf\>	^пайдалан<v><tv><abil><prt_impf>$
-      9 #Павич\<np\>\<cog\>\<mf\>\<nom\>	^Павич<np><cog><mf><nom>$
       9 #өзгөр\<v\>\<tv\>\<caus\>\<pass\>\<prt_impf\>	^өзгөр<v><tv><caus><pass><prt_impf>$
       9 #өзгөр\<v\>\<tv\>\<caus\>\<pass\>\<ifi\>\<p3\>\<sg\>	^өзгөр<v><tv><caus><pass><ifi><p3><sg>$
-      9 #Обренович\<np\>\<cog\>\<mf\>\<nom\>	^Обренович<np><cog><mf><nom>$
       9 #мээле\<v\>\<iv\>\<pass\>\<fut\>\<p3\>\<sg\>	^мээле<v><iv><pass><fut><p3><sg>$
-      9 #Мижич\<np\>\<cog\>\<mf\>\<gen\>	^Мижич<np><cog><mf><gen>$
-      9 #Мектич\<np\>\<cog\>\<mf\>\<nom\>	^Мектич<np><cog><mf><nom>$
-      9 #Матижасевич\<np\>\<cog\>\<mf\>\<gen\>	^Матижасевич<np><cog><mf><gen>$
-      9 #Мартич\<np\>\<cog\>\<mf\>\<nom\>	^Мартич<np><cog><mf><nom>$
-      9 #Льайич\<np\>\<cog\>\<mf\>\<dat\>	^Льайич<np><cog><mf><dat>$
-      9 #Лазаревич\<np\>\<cog\>\<mf\>\<gen\>	^Лазаревич<np><cog><mf><gen>$
-      9 #Крстажич\<np\>\<cog\>\<mf\>\<nom\>	^Крстажич<np><cog><mf><nom>$
       9 #көчүр\<v\>\<tv\>\<pass\>\<prt_impf\>	^көчүр<v><tv><pass><prt_impf>$
       9 #котор\<n\>\<nom\>	^котор<n><nom>$
       9 #корго\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^корго<v><tv><abil><ger><nom>$
-      9 #Комсич\<np\>\<cog\>\<mf\>\<gen\>	^Комсич<np><cog><mf><gen>$
       9 #көбөйт\<v\>\<tv\>\<abil\>\<prt_impf\>	^көбөйт<v><tv><abil><prt_impf>$
       9 #киргиз\<v\>\<tv\>\<fut\>\<p3\>\<sg\>	^киргиз<v><tv><fut><p3><sg>$
       9 #кир\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^кир<v><iv><pass><ger><px3sg><nom>$
@@ -999,22 +675,13 @@ Tag mismatch between transfer and generation
       9 #Кандай\<adv\>	^Кандай<adv>$
       9 #кал\<v\>\<iv\>\<caus\>\<pass\>\<ger\>\<nom\>	^кал<v><iv><caus><pass><ger><nom>$
       9 #жык\<v\>\<iv\>\<pass\>\<ger\>\<loc\>	^жык<v><iv><pass><ger><loc>$
-      9 #Жуканович\<np\>\<cog\>\<mf\>\<acc\>	^Жуканович<np><cog><mf><acc>$
       9 #жоопкерчилик ал\<v\>\<tv\>\<abil\>\<prt_impf\>	^жоопкерчилик ал<v><tv><abil><prt_impf>$
-      9 #Жович\<np\>\<cog\>\<mf\>\<dat\>	^Жович<np><cog><mf><dat>$
       9 #жет\<v\>\<iv\>\<caus\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^жет<v><iv><caus><pass><ger_past><px3sg><acc>$
       9 #жет\<v\>\<iv\>\<abil\>\<ger\>\<nom\>	^жет<v><iv><abil><ger><nom>$
       9 #жаша\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<dat\>	^жаша<v><iv><pass><ger><px3sg><dat>$
-      9 #Жажич\<np\>\<cog\>\<mf\>\<nom\>	^Жажич<np><cog><mf><nom>$
-      9 #Дукич\<np\>\<cog\>\<mf\>\<nom\>	^Дукич<np><cog><mf><nom>$
-      9 #Дудакович\<np\>\<cog\>\<mf\>\<nom\>	^Дудакович<np><cog><mf><nom>$
-      9 #Давидович\<np\>\<cog\>\<mf\>\<gen\>	^Давидович<np><cog><mf><gen>$
-      9 #Вуянович\<np\>\<cog\>\<mf\>\<dat\>	^Вуянович<np><cog><mf><dat>$
-      9 #Вранкич\<np\>\<cog\>\<mf\>\<nom\>	^Вранкич<np><cog><mf><nom>$
       9 #бур\<v\>\<iv\>\<pass\>\<ger\>\<gen\>	^бур<v><iv><pass><ger><gen>$
       9 #буз\<v\>\<iv\>\<pass\>\<prt_impf\>	^буз<v><iv><pass><prt_impf>$
       9 #бол\<v\>\<iv\>\<vn_acak\>	^бол<v><iv><vn_acak>$
-      9 #Благожевич\<np\>\<cog\>\<mf\>\<nom\>	^Благожевич<np><cog><mf><nom>$
       9 #бер\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^бер<v><tv><abil><neg><prt_impf>$
       9 #бас\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^бас<v><iv><pass><ifi><p3><sg>$
       9 #бар\<v\>\<iv\>\<abil\>\<prt_impf\>	^бар<v><iv><abil><prt_impf>$
@@ -1027,22 +694,13 @@ Tag mismatch between transfer and generation
       8 #Эгемендик\<n\>\<nom\>	^Эгемендик<n><nom>$
       8 #ыйгарымдуу элчи\<n\>\<pl\>\<dat\>	^ыйгарымдуу элчи<n><pl><dat>$
       8 #чык\<v\>\<iv\>\<caus\>\<pass\>\<fut\>\<p3\>\<sg\>	^чык<v><iv><caus><pass><fut><p3><sg>$
-      8 #Чобанкович\<np\>\<cog\>\<mf\>\<nom\>	^Чобанкович<np><cog><mf><nom>$
-      8 #Хажыпасич\<np\>\<cog\>\<mf\>\<gen\>	^Хажыпасич<np><cog><mf><gen>$
-      8 #Хадзич\<np\>\<cog\>\<mf\>\<gen\>	^Хадзич<np><cog><mf><gen>$
-      8 #Фазлич\<np\>\<cog\>\<mf\>\<gen\>	^Фазлич<np><cog><mf><gen>$
       8 #уяла\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^уяла<v><iv><pass><ger_past><nom>$
       8 #ур\<v\>\<iv\>\<ger_past\>\<px3sg\>\<acc\>	^ур<v><iv><ger_past><px3sg><acc>$
       8 #төмөнсүнт\<v\>\<iv\>\<ger\>\<nom\>	^төмөнсүнт<v><iv><ger><nom>$
       8 #тарат\<v\>\<tv\>\<pass\>\<aor\>\<p3\>\<sg\>	^тарат<v><tv><pass><aor><p3><sg>$
-      8 #Танович\<np\>\<cog\>\<mf\>\<nom\>	^Танович<np><cog><mf><nom>$
       8 #суйлө\<v\>\<iv\>\<ger\>\<nom\>	^суйлө<v><iv><ger><nom>$
       8 #суйлө\<v\>\<iv\>\<aor\>\<p3\>\<sg\>	^суйлө<v><iv><aor><p3><sg>$
-      8 #Стамболич\<np\>\<cog\>\<mf\>\<acc\>	^Стамболич<np><cog><mf><acc>$
-      8 #Симунович\<np\>\<cog\>\<mf\>\<nom\>	^Симунович<np><cog><mf><nom>$
-      8 #Симич\<np\>\<cog\>\<mf\>\<gen\>	^Симич<np><cog><mf><gen>$
       8 #сахналаштыр\<v\>\<iv\>\<ifi\>\<p3\>\<sg\>	^сахналаштыр<v><iv><ifi><p3><sg>$
-      8 #Самаржич\<np\>\<cog\>\<mf\>\<gen\>	^Самаржич<np><cog><mf><gen>$
       8 #планда\<v\>\<iv\>\<pass\>\<ger_past\>\<abl\>	^планда<v><iv><pass><ger_past><abl>$
       8 #пайда тап\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^пайда тап<v><tv><abil><ger><nom>$
       8 #өт\<v\>\<iv\>\<pass\>\<prt_impf\>	^өт<v><iv><pass><prt_impf>$
@@ -1050,16 +708,9 @@ Tag mismatch between transfer and generation
       8 #өзгөр\<v\>\<tv\>\<prt_perf\>	^өзгөр<v><tv><prt_perf>$
       8 #өзгөр\<v\>\<tv\>\<ger_past\>\<nom\>	^өзгөр<v><tv><ger_past><nom>$
       8 #мом\<n\>\<pl\>\<nom\>	^мом<n><pl><nom>$
-      8 #Милованович\<np\>\<cog\>\<mf\>\<gen\>	^Милованович<np><cog><mf><gen>$
-      8 #Милижевич\<np\>\<cog\>\<mf\>\<nom\>	^Милижевич<np><cog><mf><nom>$
-      8 #Межакич\<np\>\<cog\>\<mf\>\<nom\>	^Межакич<np><cog><mf><nom>$
-      8 #Маркович\<np\>\<cog\>\<mf\>\<dat\>	^Маркович<np><cog><mf><dat>$
-      8 #Маркович\<np\>\<cog\>\<mf\>\<acc\>	^Маркович<np><cog><mf><acc>$
       8 #күт\<v\>\<iv\>\<pass\>\<neg\>\<prt_impf\>	^күт<v><iv><pass><neg><prt_impf>$
       8 #куралдан\<v\>\<iv\>\<pass\>\<ger\>\<nom\>	^куралдан<v><iv><pass><ger><nom>$
       8 #кош\<v\>\<tv\>\<imp\>\<p2\>\<pl\>	^кош<v><tv><imp><p2><pl>$
-      8 #Козарич\<np\>\<cog\>\<mf\>\<nom\>	^Козарич<np><cog><mf><nom>$
-      8 #Кльаевич\<np\>\<cog\>\<mf\>\<nom\>	^Кльаевич<np><cog><mf><nom>$
       8 #киргиз\<v\>\<tv\>\<ger\>\<px3sg\>\<nom\>	^киргиз<v><tv><ger><px3sg><nom>$
       8 #киргиз\<v\>\<tv\>\<ger\>\<acc\>	^киргиз<v><tv><ger><acc>$
       8 #киргиз\<v\>\<tv\>\<aor\>\<p3\>\<sg\>	^киргиз<v><tv><aor><p3><sg>$
@@ -1068,21 +719,14 @@ Tag mismatch between transfer and generation
       8 #Карма\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^Карма<v><iv><pass><ger><px3sg><nom>$
       8 #кара\<v\>\<iv\>\<abil\>\<prt_impf\>	^кара<v><iv><abil><prt_impf>$
       8 #илгериле\<v\>\<iv\>\<abil\>\<prt_impf\>	^илгериле<v><iv><abil><prt_impf>$
-      8 #Иванович\<np\>\<cog\>\<mf\>\<gen\>	^Иванович<np><cog><mf><gen>$
       8 #жык\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<pl\>	^жык<v><iv><pass><ifi><p3><pl>$
       8 #жой\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<dat\>	^жой<v><iv><pass><ger><px3sg><dat>$
       8 #жет\<v\>\<iv\>\<pass\>\<neg\>\<aor\>\<p3\>\<sg\>	^жет<v><iv><pass><neg><aor><p3><sg>$
       8 #жет\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^жет<v><iv><pass><ifi><p3><sg>$
-      8 #Жеремич\<np\>\<cog\>\<mf\>\<dat\>	^Жеремич<np><cog><mf><dat>$
       8 #жарыл\<v\>\<iv\>\<ger\>\<px3sg\>\<dat\>	^жарыл<v><iv><ger><px3sg><dat>$
-      8 #Драскович\<np\>\<cog\>\<mf\>\<acc\>	^Драскович<np><cog><mf><acc>$
-      8 #Вельович\<np\>\<cog\>\<mf\>\<nom\>	^Вельович<np><cog><mf><nom>$
-      8 #Васкович\<np\>\<cog\>\<mf\>\<nom\>	^Васкович<np><cog><mf><nom>$
-      8 #Василькович\<np\>\<cog\>\<mf\>\<nom\>	^Василькович<np><cog><mf><nom>$
       8 #бол\<v\>\<iv\>\<pass\>\<prt_impf\>	^бол<v><iv><pass><prt_impf>$
       8 #бол\<v\>\<iv\>\<pass\>\<imp\>\<p2\>\<sg\>	^бол<v><iv><pass><imp><p2><sg>$
       8 #бирик\<v\>\<iv\>\<caus\>\<Dvn_yIcI\>\<adj\>	^бирик<v><iv><caus><Dvn_yIcI><adj>$
-      8 #бак\<v\>\<TD\>\<prt_impf\>	^бак<v><TD><prt_impf>$
       8 #баалан\<v\>\<tv\>\<caus\>\<pass\>\<ger_past\>\<px3sg\>\<nom\>	^баалан<v><tv><caus><pass><ger_past><px3sg><nom>$
       8 #аш\<v\>\<iv\>\<abil\>\<prt_impf\>	^аш<v><iv><abil><prt_impf>$
       8 #ал\<v\>\<tv\>\<pass\>\<vn_acak\>	^ал<v><tv><pass><vn_acak>$
@@ -1103,9 +747,7 @@ Tag mismatch between transfer and generation
       7 #эрте\<n\>\<px3sg\>\<loc\>	^эрте<n><px3sg><loc>$
       7 #элестет\<v\>\<iv\>\<ger_past\>\<dat\>	^элестет<v><iv><ger_past><dat>$
       7 #элестет\<v\>\<iv\>\<ger_past\>\<acc\>	^элестет<v><iv><ger_past><acc>$
-      7 #Эйүпович\<np\>\<cog\>\<mf\>\<nom\>	^Эйүпович<np><cog><mf><nom>$
       7 #ысы\<v\>\<tv\>\<ger\>\<dat\>	^ысы<v><tv><ger><dat>$
-      7 #Ылич\<np\>\<cog\>\<mf\>\<gen\>	^Ылич<np><cog><mf><gen>$
       7 #ыйгарымдуу элчи\<n\>\<px3sg\>\<gen\>	^ыйгарымдуу элчи<n><px3sg><gen>$
       7 #Ыйгарымдуу элчи\<n\>\<pl\>\<acc\>	^Ыйгарымдуу элчи<n><pl><acc>$
       7 #чык\<v\>\<iv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^чык<v><iv><abil><ger><px3sg><nom>$
@@ -1118,9 +760,7 @@ Tag mismatch between transfer and generation
       7 #тосуп ал\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<acc\>	^тосуп ал<v><tv><abil><neg><ger_past><acc>$
       7 #тоң\<v\>\<iv\>\<caus\>\<Dvn_yIcI\>\<adj\>	^тоң<v><iv><caus><Dvn_yIcI><adj>$
       7 #төмөнсүнт\<v\>\<iv\>\<prt_impf\>	^төмөнсүнт<v><iv><prt_impf>$
-      7 #Томич\<np\>\<cog\>\<mf\>\<gen\>	^Томич<np><cog><mf><gen>$
       7 #токто\<v\>\<iv\>\<abil\>\<prt_impf\>	^токто<v><iv><abil><prt_impf>$
-      7 #Тихич\<np\>\<cog\>\<mf\>\<acc\>	^Тихич<np><cog><mf><acc>$
       7 #тарат\<v\>\<tv\>\<pass\>\<ger_past\>\<nom\>	^тарат<v><tv><pass><ger_past><nom>$
       7 #тарат\<v\>\<tv\>\<ger_past\>\<px3sg\>\<acc\>	^тарат<v><tv><ger_past><px3sg><acc>$
       7 #тарат\<v\>\<tv\>\<fut\>\<p3\>\<sg\>	^тарат<v><tv><fut><p3><sg>$
@@ -1128,37 +768,23 @@ Tag mismatch between transfer and generation
       7 #тап\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<nom\>	^тап<v><tv><abil><neg><ger_past><px3sg><nom>$
       7 #таанып бил\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^таанып бил<v><iv><pass><ger><px3sg><nom>$
       7 #Таанып бил\<v\>\<iv\>\<ger\>\<nom\>	^Таанып бил<v><iv><ger><nom>$
-      7 #Стакич\<np\>\<cog\>\<mf\>\<nom\>	^Стакич<np><cog><mf><nom>$
-      7 #Симатович\<np\>\<cog\>\<mf\>\<gen\>	^Симатович<np><cog><mf><gen>$
       7 #силкилдет\<v\>\<tv\>\<pass\>\<neg\>\<aor\>\<p3\>\<sg\>	^силкилдет<v><tv><pass><neg><aor><p3><sg>$
       7 #силкилдет\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^силкилдет<v><tv><ifi><p3><sg>$
-      7 #Сжекич\<np\>\<cog\>\<mf\>\<gen\>	^Сжекич<np><cog><mf><gen>$
       7 #сахналаштыр\<v\>\<iv\>\<ger_past\>\<acc\>	^сахналаштыр<v><iv><ger_past><acc>$
-      7 #Разнатович\<np\>\<cog\>\<mf\>\<gen\>	^Разнатович<np><cog><mf><gen>$
       7 #пайдалан\<v\>\<tv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^пайдалан<v><tv><abil><ger><px3sg><nom>$
       7 #өзгөр\<v\>\<tv\>\<ger\>\<px3sg\>\<dat\>	^өзгөр<v><tv><ger><px3sg><dat>$
       7 #өзгөр\<v\>\<tv\>\<caus\>\<pass\>\<fut\>\<p3\>\<sg\>	^өзгөр<v><tv><caus><pass><fut><p3><sg>$
       7 #өзгөр\<v\>\<tv\>\<caus\>\<ger\>\<acc\>	^өзгөр<v><tv><caus><ger><acc>$
       7 #мээле\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^мээле<v><iv><pass><ger_past><nom>$
-      7 #Младич\<np\>\<cog\>\<mf\>\<loc\>	^Младич<np><cog><mf><loc>$
-      7 #Михайлович\<np\>\<cog\>\<mf\>\<gen\>	^Михайлович<np><cog><mf><gen>$
-      7 #Миланович\<np\>\<cog\>\<mf\>\<gen\>	^Миланович<np><cog><mf><gen>$
-      7 #Мароевич\<np\>\<cog\>\<mf\>\<nom\>	^Мароевич<np><cog><mf><nom>$
-      7 #Мандич\<np\>\<cog\>\<mf\>\<acc\>	^Мандич<np><cog><mf><acc>$
       7 #майрамда\<v\>\<iv\>\<pass\>\<fut\>\<p3\>\<sg\>	^майрамда<v><iv><pass><fut><p3><sg>$
-      7 #Лукич\<np\>\<cog\>\<mf\>\<dat\>	^Лукич<np><cog><mf><dat>$
-      7 #Лукич\<np\>\<cog\>\<mf\>\<acc\>	^Лукич<np><cog><mf><acc>$
       7 #күт\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^күт<v><iv><pass><ger><px3sg><nom>$
       7 #күноөөлө\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^күноөөлө<v><iv><pass><ifi><p3><sg>$
-      7 #Кузманович\<np\>\<cog\>\<mf\>\<gen\>	^Кузманович<np><cog><mf><gen>$
       7 #көчүр\<v\>\<tv\>\<prt_impf\>	^көчүр<v><tv><prt_impf>$
       7 #көчүр\<v\>\<tv\>\<past\>\<p3\>\<sg\>	^көчүр<v><tv><past><p3><sg>$
       7 #көчүр\<v\>\<tv\>\<pass\>\<aor\>\<p3\>\<sg\>	^көчүр<v><tv><pass><aor><p3><sg>$
       7 #көр\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^көр<v><tv><abil><neg><ger_past><px3sg><acc>$
       7 #кол кой\<v\>\<tv\>\<abil\>\<prt_impf\>	^кол кой<v><tv><abil><prt_impf>$
       7 #көзөмөл тобу\<n\>\<px3pl\>\<nom\>	^көзөмөл тобу<n><px3pl><nom>$
-      7 #Ковачевич\<np\>\<cog\>\<mf\>\<gen\>	^Ковачевич<np><cog><mf><gen>$
-      7 #Клижкович\<np\>\<cog\>\<mf\>\<nom\>	^Клижкович<np><cog><mf><nom>$
       7 #киргиз\<v\>\<tv\>\<abil\>\<prt_impf\>	^киргиз<v><tv><abil><prt_impf>$
       7 #кес\<v\>\<tv\>\<abil\>\<prt_impf\>	^кес<v><tv><abil><prt_impf>$
       7 #кел\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^кел<v><iv><pass><ger><px3sg><nom>$
@@ -1172,17 +798,11 @@ Tag mismatch between transfer and generation
       7 #иште\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^иште<v><iv><abil><neg><prt_impf>$
       7 #иште\<v\>\<iv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^иште<v><iv><abil><ger><px3sg><nom>$
       7 #ишен\<v\>\<tv\>\<caus\>\<Dvn_yIcI\>\<adj\>	^ишен<v><tv><caus><Dvn_yIcI><adj>$
-      7 #Зивкович\<np\>\<cog\>\<mf\>\<acc\>	^Зивкович<np><cog><mf><acc>$
       7 #жык\<v\>\<iv\>\<pass\>\<ger\>\<px3pl\>\<nom\>	^жык<v><iv><pass><ger><px3pl><nom>$
-      7 #Жокич\<np\>\<cog\>\<mf\>\<gen\>	^Жокич<np><cog><mf><gen>$
       7 #жеңилде\<v\>\<tv\>\<caus\>\<Dvn_yIcI\>\<adj\>	^жеңилде<v><tv><caus><Dvn_yIcI><adj>$
-      7 #Жеврич\<np\>\<cog\>\<mf\>\<gen\>	^Жеврич<np><cog><mf><gen>$
       7 #жаша\<v\>\<iv\>\<pass\>\<ger_past\>\<dat\>	^жаша<v><iv><pass><ger_past><dat>$
       7 #жат\<v\>\<iv\>\<caus\>\<pass\>\<prt_impf\>	^жат<v><iv><caus><pass><prt_impf>$
       7 #жаңырт\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^жаңырт<v><tv><pass><ifi><p3><sg>$
-      7 #Жанкович\<np\>\<cog\>\<mf\>\<acc\>	^Жанкович<np><cog><mf><acc>$
-      7 #Веруович\<np\>\<cog\>\<mf\>\<nom\>	^Веруович<np><cog><mf><nom>$
-      7 #Василькович\<np\>\<cog\>\<mf\>\<gen\>	^Василькович<np><cog><mf><gen>$
       7 #быш\<v\>\<iv\>\<caus\>\<imp\>\<p2\>\<pl\>	^быш<v><iv><caus><imp><p2><pl>$
       7 #бур\<v\>\<iv\>\<pass\>\<ger\>\<px3pl\>\<loc\>	^бур<v><iv><pass><ger><px3pl><loc>$
       7 #бур\<v\>\<iv\>\<pass\>\<ger\>\<px3pl\>\<acc\>	^бур<v><iv><pass><ger><px3pl><acc>$
@@ -1193,7 +813,6 @@ Tag mismatch between transfer and generation
       7 #бири-бир\<n\>\<pl\>\<px3sg\>\<abl\>	^бири-бир<n><pl><px3sg><abl>$
       7 #Бир бөлүк\<det\>\<ind\>	^Бир бөлүк<det><ind>$
       7 #бер\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^бер<v><tv><abil><ger><nom>$
-      7 #Батич\<np\>\<cog\>\<mf\>\<gen\>	^Батич<np><cog><mf><gen>$
       7 #баалан\<v\>\<tv\>\<caus\>\<pass\>\<ger\>\<nom\>	^баалан<v><tv><caus><pass><ger><nom>$
       7 #аракет кыл\<v\>\<iv\>\<ger\>\<px3sg\>\<acc\>	^аракет кыл<v><iv><ger><px3sg><acc>$
       7 #аракет кыл\<v\>\<iv\>\<ger\>\<px3sg\>\<abl\>	^аракет кыл<v><iv><ger><px3sg><abl>$
@@ -1209,7 +828,6 @@ Tag mismatch between transfer and generation
       7 #192.\<num\>\<nom\>	^192.<num><nom>$
       6 #элестет\<v\>\<iv\>\<prt_impf\>	^элестет<v><iv><prt_impf>$
       6 #Элестет\<v\>\<iv\>\<aor\>\<p1\>\<sg\>	^Элестет<v><iv><aor><p1><sg>$
-      6 #Ыванич\<np\>\<cog\>\<mf\>\<acc\>	^Ыванич<np><cog><mf><acc>$
       6 #чык\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^чык<v><iv><pass><ifi><p3><sg>$
       6 #чык\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^чык<v><iv><pass><ger><px3sg><nom>$
       6 #чык\<v\>\<iv\>\<abil\>\<ger\>\<nom\>	^чык<v><iv><abil><ger><nom>$
@@ -1231,13 +849,9 @@ Tag mismatch between transfer and generation
       6 #тан\<v\>\<iv\>\<pass\>\<neg\>\<aor\>\<p3\>\<sg\>	^тан<v><iv><pass><neg><aor><p3><sg>$
       6 #сыяктуу\<post\>\<p3s\>\<ins\>	^сыяктуу<post><p3s><ins>$
       6 #сыз\<v\>\<iv\>\<pass\>\<prt_impf\>	^сыз<v><iv><pass><prt_impf>$
-      6 #Спасоевич\<np\>\<cog\>\<mf\>\<nom\>	^Спасоевич<np><cog><mf><nom>$
       6 #силкилдет\<v\>\<tv\>\<ger_past\>\<nom\>	^силкилдет<v><tv><ger_past><nom>$
       6 #сахналаштыр\<v\>\<iv\>\<fut\>\<p3\>\<sg\>	^сахналаштыр<v><iv><fut><p3><sg>$
       6 #салыштыр\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^салыштыр<v><iv><pass><ifi><p3><sg>$
-      6 #Ронжевич\<np\>\<cog\>\<mf\>\<gen\>	^Ронжевич<np><cog><mf><gen>$
-      6 #Петкович\<np\>\<cog\>\<mf\>\<gen\>	^Петкович<np><cog><mf><gen>$
-      6 #Пантич\<np\>\<cog\>\<mf\>\<nom\>	^Пантич<np><cog><mf><nom>$
       6 #өч\<v\>\<iv\>\<caus\>\<pass\>\<ifi\>\<p3\>\<sg\>	^өч<v><iv><caus><pass><ifi><p3><sg>$
       6 #өт\<v\>\<iv\>\<pass\>\<neg\>\<aor\>\<p3\>\<sg\>	^өт<v><iv><pass><neg><aor><p3><sg>$
       6 #өлтүр\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<abl\>	^өлтүр<v><iv><pass><ger><px3sg><abl>$
@@ -1247,16 +861,9 @@ Tag mismatch between transfer and generation
       6 #өзгөр\<v\>\<tv\>\<ger_past\>\<px3sg\>\<acc\>	^өзгөр<v><tv><ger_past><px3sg><acc>$
       6 #өзгөр\<v\>\<tv\>\<caus\>\<pass\>\<aor\>\<p3\>\<sg\>	^өзгөр<v><tv><caus><pass><aor><p3><sg>$
       6 #өзгөр\<v\>\<tv\>\<aor\>\<p3\>\<sg\>	^өзгөр<v><tv><aor><p3><sg>$
-      6 #Милакович\<np\>\<cog\>\<mf\>\<nom\>	^Милакович<np><cog><mf><nom>$
-      6 #Месич\<np\>\<cog\>\<mf\>\<acc\>	^Месич<np><cog><mf><acc>$
-      6 #Медведев\<np\>\<cog\>\<mf\>\<gen\>	^Медведев<np><cog><mf><gen>$
-      6 #Марович\<np\>\<cog\>\<mf\>\<dat\>	^Марович<np><cog><mf><dat>$
-      6 #Льубижич\<np\>\<cog\>\<mf\>\<gen\>	^Льубижич<np><cog><mf><gen>$
-      6 #Лилич\<np\>\<cog\>\<mf\>\<gen\>	^Лилич<np><cog><mf><gen>$
       6 #кыл\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<acc\>	^кыл<v><tv><abil><neg><ger_past><acc>$
       6 #күт\<v\>\<iv\>\<pass\>\<neg\>\<ger_past\>\<acc\>	^күт<v><iv><pass><neg><ger_past><acc>$
       6 #кура\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^кура<v><tv><abil><neg><prt_impf>$
-      6 #Крстич\<np\>\<cog\>\<mf\>\<gen\>	^Крстич<np><cog><mf><gen>$
       6 #көчүр\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^көчүр<v><tv><ifi><p3><sg>$
       6 #көр\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^көр<v><tv><abil><ger><nom>$
       6 #кой\<v\>\<tv\>\<abil\>\<prt_impf\>	^кой<v><tv><abil><prt_impf>$
@@ -1280,16 +887,10 @@ Tag mismatch between transfer and generation
       6 #илгериле\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^илгериле<v><iv><abil><neg><prt_impf>$
       6 #илгериле\<v\>\<iv\>\<abil\>\<ger\>\<nom\>	^илгериле<v><iv><abil><ger><nom>$
       6 #жык\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<dat\>	^жык<v><iv><pass><ger_past><px3sg><dat>$
-      6 #Жуканович\<np\>\<cog\>\<mf\>\<dat\>	^Жуканович<np><cog><mf><dat>$
-      6 #Жокович\<np\>\<cog\>\<mf\>\<gen\>	^Жокович<np><cog><mf><gen>$
       6 #жой\<v\>\<iv\>\<pass\>\<prt_impf\>	^жой<v><iv><pass><prt_impf>$
-      6 #Жованович\<np\>\<cog\>\<mf\>\<acc\>	^Жованович<np><cog><mf><acc>$
       6 #жет\<v\>\<iv\>\<caus\>\<pass\>\<ger\>\<px3sg\>\<dat\>	^жет<v><iv><caus><pass><ger><px3sg><dat>$
       6 #жет\<v\>\<iv\>\<caus\>\<pass\>\<ger_past\>\<acc\>	^жет<v><iv><caus><pass><ger_past><acc>$
-      6 #Жерич\<np\>\<cog\>\<mf\>\<gen\>	^Жерич<np><cog><mf><gen>$
-      6 #Желавич\<np\>\<cog\>\<mf\>\<acc\>	^Желавич<np><cog><mf><acc>$
       6 #же\<v\>\<tv\>\<vn_acak\>	^же<v><tv><vn_acak>$
-      6 #Жвижович\<np\>\<cog\>\<mf\>\<gen\>	^Жвижович<np><cog><mf><gen>$
       6 #жаша\<v\>\<iv\>\<pass\>\<neg\>\<ger_past\>\<px3sg\>\<nom\>	^жаша<v><iv><pass><neg><ger_past><px3sg><nom>$
       6 #жаша\<v\>\<iv\>\<pass\>\<ger_past\>\<px3pl\>\<nom\>	^жаша<v><iv><pass><ger_past><px3pl><nom>$
       6 #жарыл\<v\>\<iv\>\<prt_impf\>	^жарыл<v><iv><prt_impf>$
@@ -1298,9 +899,6 @@ Tag mismatch between transfer and generation
       6 #жаңырт\<v\>\<tv\>\<prt_impf\>	^жаңырт<v><tv><prt_impf>$
       6 #Жаңырт\<v\>\<tv\>\<ifi\>\<p3\>\<pl\>	^Жаңырт<v><tv><ifi><p3><pl>$
       6 #жаңырт\<v\>\<tv\>\<ger_past\>\<nom\>	^жаңырт<v><tv><ger_past><nom>$
-      6 #Вукоевич\<np\>\<cog\>\<mf\>\<gen\>	^Вукоевич<np><cog><mf><gen>$
-      6 #Вужкович\<np\>\<cog\>\<mf\>\<nom\>	^Вужкович<np><cog><mf><nom>$
-      6 #Вужич\<np\>\<cog\>\<mf\>\<gen\>	^Вужич<np><cog><mf><gen>$
       6 #БЫ\<mod_qst\>\<3s\>	^БЫ<mod_qst><3s>$
       6 #Бур\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^Бур<v><iv><pass><ger><px3sg><nom>$
       6 #бур\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<abl\>	^бур<v><iv><pass><ger><px3sg><abl>$
@@ -1308,10 +906,7 @@ Tag mismatch between transfer and generation
       6 #бур\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^бур<v><iv><pass><ger_past><nom>$
       6 #буз\<v\>\<iv\>\<past\>\<p3\>\<sg\>	^буз<v><iv><past><p3><sg>$
       6 #буз\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^буз<v><iv><pass><ger><px3sg><nom>$
-      6 #Бранкович\<np\>\<cog\>\<mf\>\<acc\>	^Бранкович<np><cog><mf><acc>$
       6 #Бол\<v\>\<iv\>\<abil\>\<prt_impf\>	^Бол<v><iv><abil><prt_impf>$
-      6 #Богданович\<np\>\<cog\>\<mf\>\<gen\>	^Богданович<np><cog><mf><gen>$
-      6 #Бласкич\<np\>\<cog\>\<mf\>\<gen\>	^Бласкич<np><cog><mf><gen>$
       6 #бер\<v\>\<tv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^бер<v><tv><abil><ger><px3sg><nom>$
       6 #баш тарт\<v\>\<iv\>\<caus\>\<Dvn_yIcI\>\<adj\>	^баш тарт<v><iv><caus><Dvn_yIcI><adj>$
       6 #бас\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^бас<v><iv><pass><ger_past><nom>$
@@ -1319,12 +914,10 @@ Tag mismatch between transfer and generation
       6 #бар\<v\>\<iv\>\<pass\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^бар<v><iv><pass><neg><ger_past><px3sg><acc>$
       6 #бар\<v\>\<iv\>\<pass\>\<neg\>\<aor\>\<p3\>\<sg\>	^бар<v><iv><pass><neg><aor><p3><sg>$
       6 #бар\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^бар<v><iv><pass><ger_past><acc>$
-      6 #бак\<v\>\<TD\>\<ger\>\<nom\>	^бак<v><TD><ger><nom>$
       6 #аш\<v\>\<iv\>\<pass\>\<prt_impf\>	^аш<v><iv><pass><prt_impf>$
       6 #аш\<v\>\<iv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^аш<v><iv><abil><ger><px3sg><nom>$
       6 #аракет кыл\<v\>\<iv\>\<ifi\>\<p3\>\<pl\>	^аракет кыл<v><iv><ifi><p3><pl>$
       6 #аракет кыл\<v\>\<iv\>\<ger_past\>\<px3sg\>\<dat\>	^аракет кыл<v><iv><ger_past><px3sg><dat>$
-      6 #Андрич\<np\>\<cog\>\<mf\>\<nom\>	^Андрич<np><cog><mf><nom>$
       6 #алып кел\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^алып кел<v><tv><abil><neg><prt_impf>$
       6 #алып кел\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<acc\>	^алып кел<v><tv><abil><neg><ger_past><acc>$
       6 #ал\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^ал<v><tv><abil><neg><ger_past><px3sg><acc>$
@@ -1360,12 +953,10 @@ Tag mismatch between transfer and generation
       5 #ур\<v\>\<iv\>\<aor\>\<p3\>\<sg\>	^ур<v><iv><aor><p3><sg>$
       5 #уза\<v\>\<tv\>\<abil\>\<prt_impf\>	^уза<v><tv><abil><prt_impf>$
       5 #төмөнсүнт\<v\>\<iv\>\<ifi\>\<p3\>\<pl\>	^төмөнсүнт<v><iv><ifi><p3><pl>$
-      5 #Томжич\<np\>\<cog\>\<mf\>\<gen\>	^Томжич<np><cog><mf><gen>$
       5 #толукта\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^толукта<v><tv><abil><neg><prt_impf>$
       5 #толукта\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^толукта<v><tv><abil><ger><nom>$
       5 #токто\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^токто<v><iv><imp><p3><sg>$
       5 #төк\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<pl\>	^төк<v><iv><pass><ifi><p3><pl>$
-      5 #Терзич\<np\>\<cog\>\<mf\>\<acc\>	^Терзич<np><cog><mf><acc>$
       5 #ташы\<v\>\<tv\>\<abil\>\<prt_impf\>	^ташы<v><tv><abil><prt_impf>$
       5 #тартипте\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^тартипте<v><tv><abil><ger><nom>$
       5 #Тарт\<v\>\<tv\>\<part_acak\>	^Тарт<v><tv><part_acak>$
@@ -1376,48 +967,27 @@ Tag mismatch between transfer and generation
       5 #тара\<v\>\<tv\>\<neg\>\<opt\>\<p3\>\<sg\>	^тара<v><tv><neg><opt><p3><sg>$
       5 #сүйлө\<v\>\<iv\>\<pass\>\<prt_impf\>	^сүйлө<v><iv><pass><prt_impf>$
       5 #суйлө\<v\>\<iv\>\<ifi\>\<p3\>\<pl\>	^суйлө<v><iv><ifi><p3><pl>$
-      5 #Стуранович\<np\>\<cog\>\<mf\>\<dat\>	^Стуранович<np><cog><mf><dat>$
-      5 #Стуранович\<np\>\<cog\>\<mf\>\<acc\>	^Стуранович<np><cog><mf><acc>$
-      5 #Стожижич\<np\>\<cog\>\<mf\>\<gen\>	^Стожижич<np><cog><mf><gen>$
       5 #Станисич\<np\>\<cog\>\<mf\>\<px3sg\>\<nom\>	^Станисич<np><cog><mf><px3sg><nom>$
       5 #сиң\<v\>\<tv\>\<caus\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^сиң<v><tv><caus><pass><ger><px3sg><nom>$
       5 #силкилдет\<v\>\<tv\>\<prt_impf\>	^силкилдет<v><tv><prt_impf>$
-      5 #Силайжич\<np\>\<cog\>\<mf\>\<dat\>	^Силайжич<np><cog><mf><dat>$
-      5 #Сжекич\<np\>\<cog\>\<mf\>\<nom\>	^Сжекич<np><cog><mf><nom>$
-      5 #Серифович\<np\>\<cog\>\<mf\>\<nom\>	^Серифович<np><cog><mf><nom>$
       5 #сахналаштыр\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^сахналаштыр<v><iv><pass><ifi><p3><sg>$
-      5 #Сарович\<np\>\<cog\>\<mf\>\<acc\>	^Сарович<np><cog><mf><acc>$
-      5 #Савич\<np\>\<cog\>\<mf\>\<gen\>	^Савич<np><cog><mf><gen>$
-      5 #Петрович\<np\>\<cog\>\<mf\>\<gen\>	^Петрович<np><cog><mf><gen>$
-      5 #Пандуревич\<np\>\<cog\>\<mf\>\<gen\>	^Пандуревич<np><cog><mf><gen>$
       5 #пайда тап\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^пайда тап<v><tv><abil><neg><prt_impf>$
-      5 #Павкович\<np\>\<cog\>\<mf\>\<dat\>	^Павкович<np><cog><mf><dat>$
-      5 #Павкович\<np\>\<cog\>\<mf\>\<acc\>	^Павкович<np><cog><mf><acc>$
       5 #өт\<v\>\<iv\>\<pass\>\<fut\>\<p3\>\<sg\>	^өт<v><iv><pass><fut><p3><sg>$
       5 #Өт\<v\>\<iv\>\<caus\>\<pass\>\<ifi\>\<p3\>\<sg\>	^Өт<v><iv><caus><pass><ifi><p3><sg>$
       5 #өт\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^өт<v><iv><abil><neg><prt_impf>$
       5 #өт\<v\>\<iv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^өт<v><iv><abil><ger><px3sg><nom>$
-      5 #Орич\<np\>\<cog\>\<mf\>\<acc\>	^Орич<np><cog><mf><acc>$
       5 #өзгөр\<v\>\<tv\>\<caus\>\<ifi\>\<p3\>\<sg\>	^өзгөр<v><tv><caus><ifi><p3><sg>$
       5 #өзгөр\<v\>\<iv\>\<abil\>\<prt_impf\>	^өзгөр<v><iv><abil><prt_impf>$
       5 #мээле\<v\>\<iv\>\<pass\>\<ger\>\<acc\>	^мээле<v><iv><pass><ger><acc>$
       5 #мээле\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^мээле<v><iv><pass><aor><p3><sg>$
-      5 #Милутинович\<np\>\<cog\>\<mf\>\<dat\>	^Милутинович<np><cog><mf><dat>$
       5 #Милосевич\<np\>\<cog\>\<mf\>\<rloc\>	^Милосевич<np><cog><mf><rloc>$
-      5 #Миленкович\<np\>\<cog\>\<mf\>\<dat\>	^Миленкович<np><cog><mf><dat>$
-      5 #Мижунович\<np\>\<cog\>\<mf\>\<gen\>	^Мижунович<np><cog><mf><gen>$
-      5 #Мижич\<np\>\<cog\>\<mf\>\<dat\>	^Мижич<np><cog><mf><dat>$
-      5 #Медич\<np\>\<cog\>\<mf\>\<gen\>	^Медич<np><cog><mf><gen>$
       5 #майдала\<v\>\<iv\>\<pass\>\<ger\>\<nom\>	^майдала<v><iv><pass><ger><nom>$
-      5 #Лужич\<np\>\<cog\>\<mf\>\<gen\>	^Лужич<np><cog><mf><gen>$
       5 #күт\<v\>\<iv\>\<pass\>\<ger_fut\>\<px3sg\>\<nom\>	^күт<v><iv><pass><ger_fut><px3sg><nom>$
       5 #курга\<v\>\<tv\>\<caus\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^курга<v><tv><caus><pass><ger><px3sg><nom>$
       5 #курга\<v\>\<tv\>\<caus\>\<pass\>\<ger_past\>\<nom\>	^курга<v><tv><caus><pass><ger_past><nom>$
-      5 #Крсманович\<np\>\<cog\>\<mf\>\<gen\>	^Крсманович<np><cog><mf><gen>$
       5 #көчүр\<v\>\<tv\>\<ger_past\>\<nom\>	^көчүр<v><tv><ger_past><nom>$
       5 #кон\<v\>\<iv\>\<pass\>\<prt_impf\>	^кон<v><iv><pass><prt_impf>$
       5 #кон\<v\>\<iv\>\<abil\>\<prt_impf\>	^кон<v><iv><abil><prt_impf>$
-      5 #Кльаевич\<np\>\<cog\>\<mf\>\<gen\>	^Кльаевич<np><cog><mf><gen>$
       5 #КИРГИЗ\<v\>\<tv\>\<imp\>\<p2\>\<sg\>	^КИРГИЗ<v><tv><imp><p2><sg>$
       5 #кир\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^кир<v><iv><pass><ifi><p3><sg>$
       5 #кир\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^кир<v><iv><pass><ger_past><px3sg><acc>$
@@ -1442,12 +1012,10 @@ Tag mismatch between transfer and generation
       5 #ичине ал\<v\>\<tv\>\<abil\>\<prt_impf\>	^ичине ал<v><tv><abil><prt_impf>$
       5 #жык\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<loc\>	^жык<v><iv><pass><ger_past><px3sg><loc>$
       5 #Жык\<v\>\<iv\>\<pass\>\<ger\>\<nom\>	^Жык<v><iv><pass><ger><nom>$
-      5 #Журович\<np\>\<cog\>\<mf\>\<gen\>	^Журович<np><cog><mf><gen>$
       5 #жулуп ал\<v\>\<iv\>\<pass\>\<prt_impf\>	^жулуп ал<v><iv><pass><prt_impf>$
       5 #жой\<v\>\<iv\>\<pass\>\<prt_perf\>	^жой<v><iv><pass><prt_perf>$
       5 #жет\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^жет<v><iv><pass><ger_past><nom>$
       5 #жет\<v\>\<iv\>\<abil\>\<ger_past\>\<px3sg\>\<acc\>	^жет<v><iv><abil><ger_past><px3sg><acc>$
-      5 #Желасич\<np\>\<cog\>\<mf\>\<gen\>	^Желасич<np><cog><mf><gen>$
       5 #жаша\<v\>\<iv\>\<pass\>\<neg\>\<aor\>\<p3\>\<sg\>	^жаша<v><iv><pass><neg><aor><p3><sg>$
       5 #жаша\<v\>\<iv\>\<pass\>\<ger_past\>\<gen\>	^жаша<v><iv><pass><ger_past><gen>$
       5 #жаша\<v\>\<iv\>\<pass\>\<ger\>\<dat\>	^жаша<v><iv><pass><ger><dat>$
@@ -1456,29 +1024,18 @@ Tag mismatch between transfer and generation
       5 #Жарыл\<v\>\<iv\>\<ger\>\<dat\>	^Жарыл<v><iv><ger><dat>$
       5 #жаз\<v\>\<tv\>\<abil\>\<prt_impf\>	^жаз<v><tv><abil><prt_impf>$
       5 #жаз\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^жаз<v><tv><abil><neg><ger_past><px3sg><acc>$
-      5 #Дулич\<np\>\<cog\>\<mf\>\<gen\>	^Дулич<np><cog><mf><gen>$
-      5 #Драскович\<np\>\<cog\>\<mf\>\<abl\>	^Драскович<np><cog><mf><abl>$
-      5 #Джуканович\<np\>\<cog\>\<mf\>\<dat\>	^Джуканович<np><cog><mf><dat>$
       5 #далилде\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<acc\>	^далилде<v><tv><abil><neg><ger_past><acc>$
-      5 #Давидович\<np\>\<cog\>\<mf\>\<acc\>	^Давидович<np><cog><mf><acc>$
-      5 #Вукоевич\<np\>\<cog\>\<mf\>\<nom\>	^Вукоевич<np><cog><mf><nom>$
       5 #бүт\<v\>\<iv\>\<caus\>\<pass\>\<prt_impf\>	^бүт<v><iv><caus><pass><prt_impf>$
       5 #бур\<v\>\<iv\>\<pass\>\<neg\>\<opt\>\<p3\>\<sg\>	^бур<v><iv><pass><neg><opt><p3><sg>$
       5 #Бур\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<acc\>	^Бур<v><iv><pass><ger><px3sg><acc>$
       5 #бур\<v\>\<iv\>\<pass\>\<ger\>\<px3pl\>\<dat\>	^бур<v><iv><pass><ger><px3pl><dat>$
       5 #Бур\<v\>\<iv\>\<pass\>\<ger\>\<abl\>	^Бур<v><iv><pass><ger><abl>$
-      5 #Булатович\<np\>\<cog\>\<mf\>\<gen\>	^Булатович<np><cog><mf><gen>$
       5 #бузул\<v\>\<tv\>\<ger_past\>\<nom\>	^бузул<v><tv><ger_past><nom>$
       5 #буз\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<dat\>	^буз<v><iv><pass><ger><px3sg><dat>$
       5 #буз\<v\>\<iv\>\<pass\>\<ger\>\<dat\>	^буз<v><iv><pass><ger><dat>$
       5 #бири-бир\<n\>\<px3sg\>\<gen\>	^бири-бир<n><px3sg><gen>$
       5 #башкар\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^башкар<v><tv><abil><neg><prt_impf>$
       5 #бар\<v\>\<iv\>\<pass\>\<neg\>\<ger_past\>\<acc\>	^бар<v><iv><pass><neg><ger_past><acc>$
-      5 #бак\<v\>\<TD\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^бак<v><TD><pass><ger><px3sg><nom>$
-      5 #бак\<v\>\<TD\>\<pass\>\<ger\>\<nom\>	^бак<v><TD><pass><ger><nom>$
-      5 #бак\<v\>\<TD\>\<aor\>\<p3\>\<pl\>	^бак<v><TD><aor><p3><pl>$
-      5 #Бажич\<np\>\<cog\>\<mf\>\<gen\>	^Бажич<np><cog><mf><gen>$
-      5 #Бабич\<np\>\<cog\>\<mf\>\<gen\>	^Бабич<np><cog><mf><gen>$
       5 #Баалан\<v\>\<tv\>\<prt_perf\>	^Баалан<v><tv><prt_perf>$
       5 #баалан\<v\>\<tv\>\<caus\>\<pass\>\<ger_past\>\<acc\>	^баалан<v><tv><caus><pass><ger_past><acc>$
       5 #баалан\<v\>\<tv\>\<caus\>\<fut\>\<p1\>\<pl\>	^баалан<v><tv><caus><fut><p1><pl>$
@@ -1516,7 +1073,6 @@ Tag mismatch between transfer and generation
       4 #ылдамда\<v\>\<iv\>\<caus\>\<Dvn_yIcI\>\<adj\>	^ылдамда<v><iv><caus><Dvn_yIcI><adj>$
       4 #ыйгарымдуу элчи\<n\>\<px3sg\>\<dat\>	^ыйгарымдуу элчи<n><px3sg><dat>$
       4 #ыйгарымдуу элчи\<n\>\<pl\>\<px3sg\>\<abl\>	^ыйгарымдуу элчи<n><pl><px3sg><abl>$
-      4 #Ыванович\<np\>\<cog\>\<mf\>\<dat\>	^Ыванович<np><cog><mf><dat>$
       4 #чык\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^чык<v><iv><imp><p3><sg>$
       4 #чыгар\<v\>\<tv\>\<past\>\<p3\>\<pl\>	^чыгар<v><tv><past><p3><pl>$
       4 #чыгар\<v\>\<tv\>\<pass\>\<ger_past\>\<px3sg\>\<loc\>	^чыгар<v><tv><pass><ger_past><px3sg><loc>$
@@ -1524,9 +1080,6 @@ Tag mismatch between transfer and generation
       4 #чыгар\<v\>\<tv\>\<ger\>\<loc\>#э\<cop\>\<p3\>\<sg\>	^чыгар<v><tv><ger><loc>+э<cop><p3><sg>$
       4 #чыгар\<v\>\<tv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^чыгар<v><tv><abil><ger><px3sg><nom>$
       4 #чеч\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^чеч<v><tv><abil><ger><nom>$
-      4 #Хадзич\<np\>\<cog\>\<mf\>\<acc\>	^Хадзич<np><cog><mf><acc>$
-      4 #Филипович\<np\>\<cog\>\<mf\>\<gen\>	^Филипович<np><cog><mf><gen>$
-      4 #Филипович\<np\>\<cog\>\<mf\>\<dat\>	^Филипович<np><cog><mf><dat>$
       4 #ур\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^ур<v><iv><pass><ger_past><px3sg><acc>$
       4 #ур\<v\>\<iv\>\<ger\>\<px3sg\>\<acc\>	^ур<v><iv><ger><px3sg><acc>$
       4 #ур\<v\>\<iv\>\<ger\>\<acc\>	^ур<v><iv><ger><acc>$
@@ -1543,11 +1096,8 @@ Tag mismatch between transfer and generation
       4 #төлө\<v\>\<tv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^төлө<v><tv><abil><ger><px3sg><nom>$
       4 #Токто\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^Токто<v><iv><imp><p3><sg>$
       4 #Токто\<v\>\<iv\>\<caus\>\<imp\>\<p2\>\<pl\>	^Токто<v><iv><caus><imp><p2><pl>$
-      4 #Тодорович\<np\>\<cog\>\<mf\>\<gen\>	^Тодорович<np><cog><mf><gen>$
-      4 #Тодович\<np\>\<cog\>\<mf\>\<gen\>	^Тодович<np><cog><mf><gen>$
       4 #тиле\<v\>\<iv\>\<pass\>\<ger\>\<nom\>	^тиле<v><iv><pass><ger><nom>$
       4 #тий\<v\>\<iv\>\<pass\>\<neg\>\<aor\>\<p3\>\<sg\>	^тий<v><iv><pass><neg><aor><p3><sg>$
-      4 #Терзич\<np\>\<cog\>\<mf\>\<abl\>	^Терзич<np><cog><mf><abl>$
       4 #тең салмакта\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^тең салмакта<v><iv><pass><ger_past><nom>$
       4 #тарт\<v\>\<tv\>\<part_acak\>\<p3s\>	^тарт<v><tv><part_acak><p3s>$
       4 #тарт\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^тарт<v><tv><abil><ger><nom>$
@@ -1555,23 +1105,15 @@ Tag mismatch between transfer and generation
       4 #тара\<v\>\<tv\>\<neg\>\<prt_perf\>	^тара<v><tv><neg><prt_perf>$
       4 #тап\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^тап<v><tv><abil><neg><prt_impf>$
       4 #тап\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^тап<v><tv><abil><ger><nom>$
-      4 #Танович\<np\>\<cog\>\<mf\>\<gen\>	^Танович<np><cog><mf><gen>$
       4 #таанып бил\<v\>\<iv\>\<pass\>\<prt_impf\>	^таанып бил<v><iv><pass><prt_impf>$
       4 #сына\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^сына<v><iv><pass><ger><px3sg><nom>$
       4 #сура\<v\>\<tv\>\<aor\>	^сура<v><tv><aor>$
       4 #суйлө\<v\>\<iv\>\<past\>\<p3\>\<sg\>	^суйлө<v><iv><past><p3><sg>$
       4 #суйлө\<v\>\<iv\>\<ger_past\>\<acc\>	^суйлө<v><iv><ger_past><acc>$
-      4 #Стамболич\<np\>\<cog\>\<mf\>\<dat\>	^Стамболич<np><cog><mf><dat>$
       4 #сиң\<v\>\<tv\>\<caus\>\<ger\>\<px3sg\>\<nom\>	^сиң<v><tv><caus><ger><px3sg><nom>$
       4 #сиң\<v\>\<tv\>\<caus\>\<ger\>\<acc\>	^сиң<v><tv><caus><ger><acc>$
-      4 #Симич\<np\>\<cog\>\<mf\>\<dat\>	^Симич<np><cog><mf><dat>$
       4 #Силайжич\<np\>\<cog\>\<mf\>\<px3sg\>\<nom\>	^Силайжич<np><cog><mf><px3sg><nom>$
-      4 #Силайжич\<np\>\<cog\>\<mf\>\<acc\>	^Силайжич<np><cog><mf><acc>$
-      4 #Серифович\<np\>\<cog\>\<mf\>\<gen\>	^Серифович<np><cog><mf><gen>$
       4 #сахналаштыр\<v\>\<iv\>\<pass\>\<fut\>\<p3\>\<sg\>	^сахналаштыр<v><iv><pass><fut><p3><sg>$
-      4 #Рамазанович\<np\>\<cog\>\<mf\>\<nom\>	^Рамазанович<np><cog><mf><nom>$
-      4 #Ражич\<np\>\<cog\>\<mf\>\<gen\>	^Ражич<np><cog><mf><gen>$
-      4 #Плавсич\<np\>\<cog\>\<mf\>\<acc\>	^Плавсич<np><cog><mf><acc>$
       4 #пайдалан\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^пайдалан<v><tv><abil><ger><nom>$
       4 #өт\<v\>\<iv\>\<caus\>\<pass\>\<neg\>\<ger_past\>\<acc\>	^өт<v><iv><caus><pass><neg><ger_past><acc>$
       4 #Өт\<v\>\<iv\>\<caus\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^Өт<v><iv><caus><pass><ger><px3sg><nom>$
@@ -1587,30 +1129,15 @@ Tag mismatch between transfer and generation
       4 #өзгөр\<v\>\<tv\>\<caus\>\<pass\>\<ger_past\>\<nom\>	^өзгөр<v><tv><caus><pass><ger_past><nom>$
       4 #өзгөр\<v\>\<tv\>\<abil\>\<prt_impf\>	^өзгөр<v><tv><abil><prt_impf>$
       4 #Никсич\<np\>\<cog\>\<mf\>\<rloc\>	^Никсич<np><cog><mf><rloc>$
-      4 #Мрксич\<np\>\<cog\>\<mf\>\<gen\>	^Мрксич<np><cog><mf><gen>$
-      4 #Младич\<np\>\<cog\>\<mf\>\<abl\>	^Младич<np><cog><mf><abl>$
-      4 #Михайлович\<np\>\<cog\>\<mf\>\<dat\>	^Михайлович<np><cog><mf><dat>$
-      4 #Милосевич\<np\>\<cog\>\<mf\>\<abl\>	^Милосевич<np><cog><mf><abl>$
-      4 #Милич\<np\>\<cog\>\<mf\>\<gen\>	^Милич<np><cog><mf><gen>$
-      4 #Миленкович\<np\>\<cog\>\<mf\>\<acc\>	^Миленкович<np><cog><mf><acc>$
-      4 #Милакович\<np\>\<cog\>\<mf\>\<gen\>	^Милакович<np><cog><mf><gen>$
-      4 #Мартич\<np\>\<cog\>\<mf\>\<gen\>	^Мартич<np><cog><mf><gen>$
-      4 #Мартич\<np\>\<cog\>\<mf\>\<dat\>	^Мартич<np><cog><mf><dat>$
-      4 #Маргетич\<np\>\<cog\>\<mf\>\<gen\>	^Маргетич<np><cog><mf><gen>$
-      4 #Мандич\<np\>\<cog\>\<mf\>\<dat\>	^Мандич<np><cog><mf><dat>$
       4 #майла\<v\>\<tv\>\<imp\>\<p2\>\<pl\>	^майла<v><tv><imp><p2><pl>$
       4 #майдала\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<dat\>	^майдала<v><iv><pass><ger><px3sg><dat>$
       4 #майдала\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<abl\>	^майдала<v><iv><pass><ger><px3sg><abl>$
       4 #майдала\<v\>\<iv\>\<pass\>\<ger\>\<dat\>	^майдала<v><iv><pass><ger><dat>$
-      4 #Льубижич\<np\>\<cog\>\<mf\>\<acc\>	^Льубижич<np><cog><mf><acc>$
-      4 #Льайич\<np\>\<cog\>\<mf\>\<acc\>	^Льайич<np><cog><mf><acc>$
-      4 #Лукич\<np\>\<cog\>\<mf\>\<abl\>	^Лукич<np><cog><mf><abl>$
       4 #кыл\<v\>\<tv\>\<vn_acak\>	^кыл<v><tv><vn_acak>$
       4 #күт\<v\>\<iv\>\<pass\>\<ger\>\<nom\>	^күт<v><iv><pass><ger><nom>$
       4 #күт\<v\>\<iv\>\<pass\>\<ger\>\<loc\>#э\<cop\>\<p3\>\<sg\>	^күт<v><iv><pass><ger><loc>+э<cop><p3><sg>$
       4 #күт\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^күт<v><iv><abil><neg><prt_impf>$
       4 #кура\<v\>\<tv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^кура<v><tv><abil><ger><px3sg><nom>$
-      4 #Кривокапич\<np\>\<cog\>\<mf\>\<gen\>	^Кривокапич<np><cog><mf><gen>$
       4 #корк\<v\>\<iv\>\<caus\>\<Dvn_yIcI\>\<adj\>	^корк<v><iv><caus><Dvn_yIcI><adj>$
       4 #корго\<v\>\<tv\>\<abil\>\<prt_impf\>	^корго<v><tv><abil><prt_impf>$
       4 #корго\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^корго<v><tv><abil><neg><prt_impf>$
@@ -1625,9 +1152,6 @@ Tag mismatch between transfer and generation
       4 #колдон\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^колдон<v><tv><abil><neg><prt_impf>$
       4 #көзөмөл тобу\<n\>\<px3sg\>\<nom\>	^көзөмөл тобу<n><px3sg><nom>$
       4 #Көзөмөл тобу\<n\>\<nom\>	^Көзөмөл тобу<n><nom>$
-      4 #Кнезевич\<np\>\<cog\>\<mf\>\<dat\>	^Кнезевич<np><cog><mf><dat>$
-      4 #Китарович\<np\>\<cog\>\<mf\>\<gen\>	^Китарович<np><cog><mf><gen>$
-      4 #Китарович\<np\>\<cog\>\<mf\>\<dat\>	^Китарович<np><cog><mf><dat>$
       4 #киргиз\<v\>\<tv\>\<past\>\<p3\>\<sg\>	^киргиз<v><tv><past><p3><sg>$
       4 #киргиз\<v\>\<tv\>\<ifi\>\<p3\>\<pl\>	^киргиз<v><tv><ifi><p3><pl>$
       4 #кир\<v\>\<iv\>\<pass\>\<prt_impf\>	^кир<v><iv><pass><prt_impf>$
@@ -1647,36 +1171,27 @@ Tag mismatch between transfer and generation
       4 #карма\<v\>\<iv\>\<pass\>\<ger\>\<abl\>	^карма<v><iv><pass><ger><abl>$
       4 #карма\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^карма<v><iv><pass><aor><p3><sg>$
       4 #карма\<v\>\<iv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^карма<v><iv><abil><ger><px3sg><nom>$
-      4 #Карич\<np\>\<cog\>\<mf\>\<dat\>	^Карич<np><cog><mf><dat>$
       4 #капта\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^капта<v><iv><pass><ger_past><nom>$
       4 #капа кыл\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^капа кыл<v><iv><pass><ger_past><px3sg><acc>$
       4 #камсыз кыл\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<acc\>	^камсыз кыл<v><tv><abil><neg><ger_past><acc>$
-      4 #Кадыевич\<np\>\<cog\>\<mf\>\<gen\>	^Кадыевич<np><cog><mf><gen>$
       4 #иште\<v\>\<iv\>\<pass\>\<prt_impf\>	^иште<v><iv><pass><prt_impf>$
       4 #иште\<v\>\<iv\>\<pass\>\<ger\>\<nom\>	^иште<v><iv><pass><ger><nom>$
       4 #ишке ашыр\<v\>\<iv\>\<abil\>\<prt_impf\>	^ишке ашыр<v><iv><abil><prt_impf>$
       4 #ишке ашыр\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^ишке ашыр<v><iv><abil><neg><prt_impf>$
       4 #иш жүзүнө ашыр\<v\>\<tv\>\<abil\>\<ger\>\<nom\>	^иш жүзүнө ашыр<v><tv><abil><ger><nom>$
       4 #изде\<v\>\<tv\>\<abil\>\<prt_impf\>	^изде<v><tv><abil><prt_impf>$
-      4 #Иванович\<np\>\<cog\>\<mf\>\<acc\>	^Иванович<np><cog><mf><acc>$
       4 #жык\<v\>\<iv\>\<pass\>\<neg\>\<prt_perf\>	^жык<v><iv><pass><neg><prt_perf>$
       4 #Жык\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^Жык<v><iv><pass><ifi><p3><sg>$
       4 #жык\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<acc\>	^жык<v><iv><pass><ger><px3sg><acc>$
       4 #жык\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^жык<v><iv><pass><ger_past><nom>$
-      4 #Журович\<np\>\<cog\>\<mf\>\<dat\>	^Журович<np><cog><mf><dat>$
-      4 #Журисич\<np\>\<cog\>\<mf\>\<gen\>	^Журисич<np><cog><mf><gen>$
       4 #жулуп ал\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^жулуп ал<v><iv><pass><ger><px3sg><nom>$
       4 #жой\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^жой<v><iv><pass><ifi><p3><sg>$
-      4 #Жович\<np\>\<cog\>\<mf\>\<abl\>	^Жович<np><cog><mf><abl>$
       4 #Жинжич\<np\>\<cog\>\<mf\>\<px3sg\>\<nom\>	^Жинжич<np><cog><mf><px3sg><nom>$
       4 #жет\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^жет<v><iv><pass><ger_past><acc>$
       4 #жет\<v\>\<iv\>\<caus\>\<pass\>\<ger_past\>\<nom\>	^жет<v><iv><caus><pass><ger_past><nom>$
       4 #жет\<v\>\<iv\>\<caus\>\<pass\>\<ger\>\<acc\>	^жет<v><iv><caus><pass><ger><acc>$
       4 #жет\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^жет<v><iv><abil><neg><prt_impf>$
       4 #жет\<v\>\<iv\>\<abil\>\<ger_past\>\<acc\>	^жет<v><iv><abil><ger_past><acc>$
-      4 #Желич\<np\>\<cog\>\<mf\>\<dat\>	^Желич<np><cog><mf><dat>$
-      4 #Жеврич\<np\>\<cog\>\<mf\>\<nom\>	^Жеврич<np><cog><mf><nom>$
-      4 #Жвижович\<np\>\<cog\>\<mf\>\<nom\>	^Жвижович<np><cog><mf><nom>$
       4 #жаша\<v\>\<iv\>\<pass\>\<neg\>\<ifi\>\<p3\>\<sg\>	^жаша<v><iv><pass><neg><ifi><p3><sg>$
       4 #жаша\<v\>\<iv\>\<pass\>\<ger\>\<loc\>#э\<cop\>\<p3\>\<sg\>	^жаша<v><iv><pass><ger><loc>+э<cop><p3><sg>$
       4 #жат\<v\>\<iv\>\<caus\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^жат<v><iv><caus><pass><ger><px3sg><nom>$
@@ -1687,19 +1202,15 @@ Tag mismatch between transfer and generation
       4 #жаңырт\<v\>\<tv\>\<ger\>\<dat\>	^жаңырт<v><tv><ger><dat>$
       4 #жакында\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^жакында<v><iv><pass><ger><px3sg><nom>$
       4 #жаз\<v\>\<tv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^жаз<v><tv><abil><ger><px3sg><nom>$
-      4 #Жавич\<np\>\<cog\>\<mf\>\<acc\>	^Жавич<np><cog><mf><acc>$
       4 #документалдуу тасма\<n\>\<gen\>	^документалдуу тасма<n><gen>$
       4 #де\<v\>\<tv\>\<pass\>\<prt_impf\>	^де<v><tv><pass><prt_impf>$
       4 #де\<v\>\<tv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^де<v><tv><pass><ger><px3sg><nom>$
       4 #далилде\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^далилде<v><tv><abil><neg><ger_past><px3sg><acc>$
-      4 #Давинич\<np\>\<cog\>\<mf\>\<acc\>	^Давинич<np><cog><mf><acc>$
-      4 #Влахович\<np\>\<cog\>\<mf\>\<dat\>	^Влахович<np><cog><mf><dat>$
       4 #бүт\<v\>\<iv\>\<caus\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^бүт<v><iv><caus><pass><ger><px3sg><nom>$
       4 #бур\<v\>\<iv\>\<pass\>\<ger\>\<px3pl\>\<gen\>	^бур<v><iv><pass><ger><px3pl><gen>$
       4 #бур\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<nom\>	^бур<v><iv><pass><ger_past><px3sg><nom>$
       4 #бур\<v\>\<iv\>\<pass\>\<ger\>\<abl\>	^бур<v><iv><pass><ger><abl>$
       4 #бул\<prn\>\<dem\>\<rloc\>	^бул<prn><dem><rloc>$
-      4 #Букежлович\<np\>\<cog\>\<mf\>\<dat\>	^Букежлович<np><cog><mf><dat>$
       4 #бузул\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^бузул<v><tv><ifi><p3><sg>$
       4 #бузул\<v\>\<tv\>\<ger\>\<px3sg\>\<nom\>	^бузул<v><tv><ger><px3sg><nom>$
       4 #бузул\<v\>\<tv\>\<caus\>\<aor\>\<p3\>\<sg\>	^бузул<v><tv><caus><aor><p3><sg>$
@@ -1707,15 +1218,12 @@ Tag mismatch between transfer and generation
       4 #бөлүнгөн\<n\>\<px2sg\>\<rloc\>	^бөлүнгөн<n><px2sg><rloc>$
       4 #бол\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^бол<v><iv><pass><ger_past><acc>$
       4 #бири-бир\<n\>\<px1pl\>\<acc\>	^бири-бир<n><px1pl><acc>$
-      4 #Бен Ладен\<np\>\<cog\>\<mf\>\<gen\>	^Бен Ладен<np><cog><mf><gen>$
       4 #Башкы эпископ\<n\>\<px3sg\>\<nom\>	^Башкы эпископ<n><px3sg><nom>$
       4 #бас\<v\>\<iv\>\<pass\>\<prt_impf\>	^бас<v><iv><pass><prt_impf>$
       4 #барган сайын\<adv\>	^барган сайын<adv>$
       4 #бар\<v\>\<iv\>\<pass\>\<neg\>\<ifi\>\<p3\>\<sg\>	^бар<v><iv><pass><neg><ifi><p3><sg>$
       4 #бар\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<dat\>	^бар<v><iv><pass><ger><px3sg><dat>$
       4 #бар\<v\>\<iv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^бар<v><iv><abil><ger><px3sg><nom>$
-      4 #бак\<v\>\<TD\>\<pass\>\<aor\>\<p3\>\<sg\>	^бак<v><TD><pass><aor><p3><sg>$
-      4 #бак\<v\>\<TD\>\<ger_past\>\<acc\>	^бак<v><TD><ger_past><acc>$
       4 #баалан\<v\>\<tv\>\<caus\>\<prt_perf\>	^баалан<v><tv><caus><prt_perf>$
       4 #баалан\<v\>\<tv\>\<caus\>\<neg\>\<prt_perf\>	^баалан<v><tv><caus><neg><prt_perf>$
       4 #аш\<v\>\<iv\>\<pass\>\<neg\>\<imp\>\<p2\>\<sg\>	^аш<v><iv><pass><neg><imp><p2><sg>$
@@ -1726,7 +1234,6 @@ Tag mismatch between transfer and generation
       4 #аракет кыл\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^аракет кыл<v><iv><pass><ger><px3sg><nom>$
       4 #аракет кыл\<v\>\<iv\>\<ger\>\<px3sg\>\<gen\>	^аракет кыл<v><iv><ger><px3sg><gen>$
       4 #аракет кыл\<v\>\<iv\>\<ger\>\<px3pl\>\<gen\>	^аракет кыл<v><iv><ger><px3pl><gen>$
-      4 #Андрич\<np\>\<cog\>\<mf\>\<gen\>	^Андрич<np><cog><mf><gen>$
       4 #алып кел\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^алып кел<v><tv><abil><neg><ger_past><px3sg><acc>$
       4 #ал\<v\>\<tv\>\<t_obl\>\<p3\>\<sg\>	^ал<v><tv><t_obl><p3><sg>$
       4 #ал\<v\>\<tv\>\<neg\>\<t_cond\>\<p3\>\<sg\>	^ал<v><tv><neg><t_cond><p3><sg>$
@@ -1737,7 +1244,6 @@ Tag mismatch between transfer and generation
       4 #айлант\<v\>\<tv\>\<prt_impf\>	^айлант<v><tv><prt_impf>$
       4 #айла жүргүз\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^айла жүргүз<v><iv><pass><ger_past><nom>$
       4 #айдыңда\<v\>\<iv\>\<caus\>\<ger\>\<nom\>	^айдыңда<v><iv><caus><ger><nom>$
-      4 #абдан жаман\<adj\>\<pst\>	^абдан жаман<adj><pst>$
       4 #75.\<num\>\<nom\>	^75.<num><nom>$
       4 #70.\<num\>\<nom\>	^70.<num><nom>$
       4 #64,\<num\>\<nom\>	^64,<num><nom>$
@@ -1760,5 +1266,5 @@ Summary
 ===============================================================================
     45 /tmp/tr-ky.multiform
      0 /tmp/tr-ky.multibidix
-  1696 /tmp/tr-ky.tagmismatch
-  1741 total
+  1202 /tmp/tr-ky.tagmismatch
+  1247 total
