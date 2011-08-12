@@ -1038,7 +1038,6 @@ LEXICON Postpositions
 тиешелүү POST ;
 сыңары POST ;
 жакында POST ;
-бери POST ;
 карай POST ;
 тартып POST ;
 улам POST ;
@@ -6481,8 +6480,6 @@ Tеңир NP-TOP ; ! ""
 Балгар NP-TOP ;
 Македониалык NP-TOP ;
 Босниялык NP-TOP ;
-ЛАХЕЙ NP-TOP ;
-Сарайбосня NP-TOP ;
 Үскүп NP-TOP ;
 Атина NP-TOP ;
 Орусия NP-TOP ;
@@ -6545,6 +6542,7 @@ Tеңир NP-TOP ; ! ""
 КМУ NP-ORG ;
 Киргизучпедгиз NP-ORG ;
 
+Сарайбосня NP-AL;
 Нооруз NP-AL ; ! ""
 Супер% Галеб NP-AL ;
 Галеб NP-AL ;
@@ -8043,12 +8041,14 @@ LEXICON AdvStems
 кандайча ADV-ITG ; ! "howso"
 кайда:кай%<loc%> ADV-ITG ; ! "where"
 
+бери ADV ; ! "since" +abl -- see bdix
 али ADV ; ! "still"
 өтө ADV ; ! "very"
 мисалы ADV ; ! "for example"
 улам ADV ; ! "???"
 айрыкча ADV ;
 кыйла ADV ;
+барган% сайын ADV ; ! see bidix
 адегенде ADV ;
 эртең ADV ; ! "tomorrow"
 эми ADV ; ! "now"
@@ -8229,7 +8229,7 @@ LEXICON AdvStems
 түздөн% түз ADV ;
 ошоногу ADV ;
 болжол% менен ADV ;
-! байкабай ADV ;  ! productive
+байкабай ADV ;  ! productive -- see bidix
 тим% эле ADV ;
 күмөнсүз ADV ;
 кандай% болсо% да ADV ;
