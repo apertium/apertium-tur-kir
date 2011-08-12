@@ -109,6 +109,13 @@
       <cat-item tags="v.*.cv_iyor.*"/>
     </def-cat>
 
+    <def-cat n="v_Dvn_yIcI">
+      <cat-item tags="v.Dvn_yIcI.*"/>
+      <cat-item tags="v.*.Dvn_yIcI.*"/>
+      <cat-item tags="v.Dvn_yIcI.*"/>
+      <cat-item tags="v.*.Dvn_yIcI.*"/>
+    </def-cat>
+
     <def-cat n="v_vn_acak">
       <cat-item tags="v.vn_acak.*"/>
       <cat-item tags="v.*.vn_acak.*"/>
@@ -1091,6 +1098,33 @@
       </action>
     </rule>
 
+    <rule comment="regla: v_Dvn_yIcI">
+      <pattern>
+        <pattern-item n="v_Dvn_yIcI"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="neg"/>
+            <lit-tag v="vadj_pot"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="regla: v_vn_acak">
       <pattern>
         <pattern-item n="v_vn_acak"/>
@@ -1449,6 +1483,7 @@
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="trans"/>
+              <clip pos="1" side="tl" part="deriv"/>
               <lit-tag v="prt_perf"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
