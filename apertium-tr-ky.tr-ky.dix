@@ -5930,6 +5930,7 @@
 
 	<e c="  0"><p><l>neden<s n="adv"/></l><r>эмнеге<s n="adv"/><s n="itg"/></r></p></e>
 	<e c="  0"><p><l>niye<s n="adv"/></l><r>эмнеге<s n="adv"/><s n="itg"/></r></p></e>
+	<e c="  0"><p><l>nasıl<s n="adv"/></l><r>кандай<s n="adv"/><s n="itg"/></r></p></e>
 
 	<!-- added from apertium-tr-az -->
 	<e c="  0"><p><l>yarın<s n="adv"/></l><r>эртең<s n="adv"/></r></p></e>
@@ -5974,7 +5975,6 @@
 	<e c="  0"><p><l>geç<s n="adv"/></l><r>кеч<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>hemen<s n="adv"/></l><r>дароо<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>önceden<s n="adv"/></l><r>мурдатан<s n="adv"/></r></p></e>
-	<e c="  0"><p><l>nasıl<s n="adv"/></l><r>кандай<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>itibaren<s n="adv"/></l><r>бери<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>hızlı<s n="adv"/></l><r>бат<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>derhal<s n="adv"/></l><r>дароо<s n="adv"/></r></p></e>
@@ -6628,7 +6628,7 @@
 	<e slr="1"><p><l>çiz<s n="v"/></l><r>чий<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>davran<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="iv"/></r></p></e>
 	<e slr="1"><p><l>davran<s n="v"/></l><r>эт<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>sok<s n="v"/></l><r>киргиз<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>sok<s n="v"/></l><r>кир<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
 	<e slr="1"><p><l>sok<s n="v"/></l><r>тык<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="2"><p><l>sok<s n="v"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>sakla<s n="v"/></l><r>жашыр<s n="v"/><s n="tv"/></r></p></e>
