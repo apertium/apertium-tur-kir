@@ -168,6 +168,28 @@
       <cat-item tags="v.pass.cv_dik.*"/>
       <cat-item tags="v.pass.part_yan.*"/>
     </def-cat>
+ 
+    <def-cat n="gibi">
+      <cat-item tags="postp"/>
+      <cat-item tags="postp.*"/>
+    </def-cat>
+ 
+
+    <def-cat n="v_cv_dik_poss">
+      <cat-item tags="v.cv_dik.p1s"/>
+      <cat-item tags="v.cv_dik.p2s"/>
+      <cat-item tags="v.cv_dik.p3s"/>
+      <cat-item tags="v.cv_dik.p1p"/>
+      <cat-item tags="v.cv_dik.p2p"/>
+      <cat-item tags="v.cv_dik.p3p"/>
+      <cat-item tags="v.*.cv_dik.p1s"/>
+      <cat-item tags="v.*.cv_dik.p2s"/>
+      <cat-item tags="v.*.cv_dik.p3s"/>
+      <cat-item tags="v.*.cv_dik.p1p"/>
+      <cat-item tags="v.*.cv_dik.p2p"/>
+      <cat-item tags="v.*.cv_dik.p3p"/>
+    </def-cat>
+ 
 
     <def-cat n="v_part_dik">
       <cat-item tags="v.part_dik"/>
@@ -942,6 +964,34 @@
 
 
     <!-- SECTION: Verbal segments -->
+   
+    <rule comment="regla: v_cv_dik_poss gibi">
+      <pattern>
+        <pattern-item n="v_cv_dik_poss"/>
+        <pattern-item n="gibi"/>
+      </pattern>
+      <action>
+        <let><var n="c_post"/><concat><lit v="^менен"/><lit-tag v="post"/><lit v="$"/></concat></let>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="deriv"/>
+            <lit-tag v="ger_fut"/>
+            <var n="c_poss"/>
+            <lit-tag v="nom"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <b pos="1"/>
+          <var n="c_post"/> 
+        </out>
+      </action>
+    </rule>
+
    
     <rule comment="regla: v_cv_erek">
       <pattern>
