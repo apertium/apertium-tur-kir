@@ -7763,6 +7763,7 @@ LEXICON AdjecStems
 кадимки ADJ ; ! "ordinary"
 соңку ADJ ; ! "final"
 чейинки ADJ ; ! "before"
+бүтүндөй ADJ ;
 
 LEXICON AdvStems
 
@@ -8189,7 +8190,7 @@ LEXICON VerbStems
 ачы V-INFL-IV ; ! "ferment"
 ! ачыт V-INFL-TV ; ! "ferment" ! regular causitive
 
-мойнуна% ал V-INFL-TV ; 
+моюнга% ал V-INFL-TV ; 
 кабыл% кыл V-INFL-TV ; ! "accept"
 
 ак V-INFL-IV-NO-CAUS ; ! "flow"
@@ -8317,7 +8318,6 @@ LEXICON VerbStems
 сыла V-INFL-TV ; 
 сүз V-INFL-TV ; 
 сүз V-INFL-IV ;
-түшүн V-INFL-IV ;
 сүйлө V-INFL-IV ; ! "speak"
 сүр V-INFL-TV ; 
 тааны V-INFL-TV ;
@@ -8361,7 +8361,6 @@ LEXICON VerbStems
 уза V-INFL-TV ; 
 ээри V-INFL-IV ; ! "melt"
 эри V-INFL-IV ; ! "melt"
-мойнуңа% ал V-INFL-TV ; 
 ушала V-INFL-TV ; 
 чак V-INFL-TV ; 
 чакыр V-INFL-TV ; 
@@ -8556,7 +8555,6 @@ LEXICON VerbStems
 уруш V-INFL-TV ; ! "to yell at"
 изилде V-INFL-TV ; ! "to research/investigate"
 түшүн V-INFL-TV ; ! "understand"
-түшүн V-INFL-IV ; ! "understand"
 котор V-INFL-TV ; ! "translate/convert"
 ! тарат V-INFL-TV ; ! productive
 башкар V-INFL-TV ;
@@ -8596,7 +8594,6 @@ LEXICON VerbStems
 каржыла V-INFL-TV ;
 ревизия% жаса V-INFL-TV ;
 келиш V-INFL-IV ;
-түшүн V-INFL-IV ;
 жайгаш V-INFL-IV ;
 чагыл V-INFL-IV ;
 чоңой V-INFL-TV ;
@@ -8872,7 +8869,6 @@ LEXICON VerbStems
 жылаңачта V-INFL-TV ;
 көкүрөк% менен% түрт V-INFL-TV ;
 төшө V-INFL-TV ;
-току V-INFL-IV ;
 баш% тарт V-INFL-IV ;
 салыштыр V-INFL-IV ;
 камкордук% көр V-INFL-TV ;
