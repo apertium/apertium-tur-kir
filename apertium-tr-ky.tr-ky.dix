@@ -6389,7 +6389,8 @@
 	<e c="  0"><p><l>sav<s n="v"/></l><r>сыла<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>say<s n="v"/></l><r>сыйла<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="1"><p><l>say<s n="v"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>seç<s n="v"/></l><r>чеч<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>seç<s n="v"/></l><r>танда<s n="v"/><s n="tv"/></r></p></e>
+	<e slr="1"><p><l>seç<s n="v"/></l><r>чеч<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>sek<s n="v"/></l><r>акса<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>serinle<s n="v"/></l><r>салкында<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>sev<s n="v"/></l><r>сүй<s n="v"/><s n="tv"/></r></p></e>
@@ -6826,7 +6827,7 @@
     <e c="  0"><p><l>uyan<s n="v"/></l><r>ойгон<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>bağır<s n="v"/></l><r>кыйкыр<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>sinirle<s n="v"/></l><r>ачуулан<s n="v"/><s n="iv"/></r></p></e>
-     <e c="  0"><p><l>savla<s n="v"/></l><r>күноөөлө<s n="v"/><s n="iv"/></r></p></e>
+     <e c="  0"><p><l>savla<s n="v"/></l><r>күнөөлө<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>zayıfla<s n="v"/></l><r>арыкта<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>pazarla<s n="v"/></l><r>соодала<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>çabala<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="iv"/></r></p></e>
