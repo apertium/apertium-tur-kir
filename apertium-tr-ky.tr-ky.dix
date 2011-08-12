@@ -6698,7 +6698,7 @@
 	<e c="  0"><p><l>sorgula<s n="v"/></l><r>сурамжыла<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>eski<s n="v"/></l><r>эскир<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>uğraş<s n="v"/></l><r>көп<b/>иште<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>uğraş<s n="v"/></l><r>алек<b/>бол<s n="v"/><s n="tv"/></r></p></e>
+	<e slr="1"><p><l>uğraş<s n="v"/></l><r>алек<b/>бол<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>kaybol<s n="v"/></l><r>жогол<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="1"><p><l>kaybol<s n="v"/></l><r>адаш<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>boşal<s n="v"/></l><r>бошо<s n="v"/><s n="iv"/></r></p></e>
@@ -6782,7 +6782,6 @@
     <e c="  0"><p><l>salla<s n="v"/></l><r>термелт<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>tasarla<s n="v"/></l><r>түз<s n="v"/><s n="tv"/></r></p></e>
     <e slr="1"><p><l>tasarla<s n="v"/></l><r>планда<s n="v"/><s n="iv"/></r></p></e>
-    <e c="  0"><p><l>daya<s n="v"/></l><r>тая<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>dayan<s n="v"/></l><r>таян<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>kay<s n="v"/></l><r>сыйгалан<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>yanıtla<s n="v"/></l><r>жооп<b/>бер<s n="v"/><s n="iv"/></r></p></e>
