@@ -802,7 +802,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<vadj_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
 !%<vadj_impf%>:%>%{E%}% турган V-ADJ ;       ! Done already by <prt_impf> тур<vaux><ger_past>
 !%<vadj_????%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;                      ! TODO: find name
-%<vadj_pot%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;
+%<vadj_pot%>:%>%{U%}%{U%}%>ч%{U%} V-ADJ ;
 
 !  Imperatives
 
