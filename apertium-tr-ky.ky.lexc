@@ -7756,11 +7756,13 @@ LEXICON AdjecStems
 алгачкы ADJ ; ! "first"
 кийинки ADJ ; ! "next"
 азыркы ADJ ; ! "present"
-күнкү ADJ ; ! "day"    ! Trust me, these are ADJs
-түнкү ADJ ; ! "night"  ! ""
-жылкы ADJ ; ! "year"   ! ""
+күнкү ADJ ; ! "day"             ! Trust me, these are ADJs
+түнкү ADJ ; ! "night"           ! ""
+жылкы ADJ ; ! "year"            ! ""
+эртең% мененки ADJ ; ! "morning ! ""
 кадимки ADJ ; ! "ordinary"
 соңку ADJ ; ! "final"
+чейинки ADJ ; ! "before"
 
 LEXICON AdvStems
 
@@ -7981,7 +7983,8 @@ LEXICON AdvStems
 артынан ADV ;
 чанда ADV ;
 жылкы ADV ;
-эртең% мененкисин ADV ;
+! эртең% мененкисин ADV ;
+эртең% менен ADV ;
 ачык% эле ADV ;
 өлөөрчө ADV ;
 жараша ADV ;
