@@ -5,6 +5,7 @@
      <sdef n="num"       c="Numeral"/>
      <sdef n="adj"       c="Adjective"/>
      <sdef n="post"      c="Postposition"/>
+     <sdef n="postadv"   c="Postadverbial"/>
      <sdef n="postp"     c="Postposition trmorph"/>
      <sdef n="part"      c="Particle"/>
      <sdef n="prn"       c="Pronouns"/>
@@ -201,6 +202,10 @@
     <e c="  0"><p><l>öteki<s n="det"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>şu<s n="det"/></l><r>ушу<s n="det"/><s n="dem"/></r></p></e>
 <!-- TODO: Check -->
+
+        <!-- SECTION: Postadverbials -->
+
+	<e c="  0"><p><l>ki<s n="cnjadv"/></l><r>эле<s n="postadv"/></r></p></e>
 
         <!-- SECTION: Postpositions -->
 	<e c="  0"><p><l>aşağı<s n="postp"/></l><r>ылдый<s n="post"/></r></p></e>
