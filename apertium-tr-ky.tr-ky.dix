@@ -6,6 +6,7 @@
      <sdef n="adj"       c="Adjective"/>
      <sdef n="post"      c="Postposition"/>
      <sdef n="postp"     c="Postposition trmorph"/>
+     <sdef n="postadv"   c="Postadverbial"/>
      <sdef n="part"      c="Particle"/>
      <sdef n="prn"       c="Pronouns"/>
      <sdef n="np"        c="Proper noun"/>
@@ -116,7 +117,12 @@
 	
 	 <!-- SECTION: Miscellaneous -->
    
+        <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>эле<s n="postadv"/></r></p></e>
+
         <!-- SECTION: Conjunctions -->
+
+        <e c="  0"><p><l>ki<s n="cnjsub"/></l><r></r></p></e>
+
 
 	<e c="  0"><p><l>ve<s n="cnjcoo"/></l><r>жана<s n="cnjcoo"/></r></p></e>	
 	<e c="  0"><p><l>ise<s n="cnjcoo"/></l><r>болсо<s n="cnjcoo"/></r></p></e>
@@ -138,7 +144,6 @@
    	<e c="  0"><p><l>ta<s n="cnjadv"/></l><r>да<s n="cnjadv"/></r></p></e>
         <e slr="1"><p><l>ta<s n="cnjadv"/></l><r>тээ<s n="cnjadv"/></r></p></e>
         <e c="  0"><p><l>ila<s n="cnjcoo"/></l><r>менен<s n="cnjcoo"/></r></p></e>
-        <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>дейсиң<s n="cnjadv"/></r></p></e>
         <e c="  0"><p><l>ya<b/>da<s n="cnjadv"/></l><r>же<b/>болбосо<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>zira<s n="cnjadv"/></l><r>анткени<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>yani<s n="cnjadv"/></l><r>башкача<b/>айтканда<s n="cnjadv"/></r></p></e>
