@@ -58,10 +58,6 @@ Multiple surface forms for a single lexical form
 ===============================================================================
 Multiple bidix entries for a single source language lexical form
 ===============================================================================
-    183 #бир далай\<det\>\<ind\>\/бир далай\<det\>\<qnt\>	^бир далай<det><ind>/бир далай<det><qnt>$
-    122 #ушунчалык\<det\>\<ind\>\/ушунчалык\<det\>\<qnt\>	^ушунчалык<det><ind>/ушунчалык<det><qnt>$
-     29 #Бир далай\<det\>\<ind\>\/Бир далай\<det\>\<qnt\>	^Бир далай<det><ind>/Бир далай<det><qnt>$
-     15 #Ушунчалык\<det\>\<ind\>\/Ушунчалык\<det\>\<qnt\>	^Ушунчалык<det><ind>/Ушунчалык<det><qnt>$
 
 ===============================================================================
 Tag mismatch between transfer and generation
@@ -93,7 +89,6 @@ Tag mismatch between transfer and generation
     177 #иште\<v\>\<tv\>\<ger_past\>\<acc\>	^иште<v><tv><ger_past><acc>$
     173 #сүр\<v\>\<tv\>\<cv_eli\>	^сүр<v><tv><cv_eli>$
     158 #иште\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^иште<v><iv><pass><ger_past><nom>$
-    158 #бы\<mod_qst\>\<3s\>	^бы<mod_qst><3s>$
     155 #Дейсиң\<cnjadv\>	^Дейсиң<cnjadv>$
     151 #жык\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^жык<v><iv><pass><ger><px3sg><nom>$
     150 #иште\<v\>\<tv\>\<ger_past\>\<px3pl\>\<nom\>	^иште<v><tv><ger_past><px3pl><nom>$
@@ -234,7 +229,6 @@ Tag mismatch between transfer and generation
      34 #иште\<v\>\<tv\>\<ger_past\>\<px3sg\>\<gen\>	^иште<v><tv><ger_past><px3sg><gen>$
      34 #жулуп ал\<v\>\<iv\>\<cv_eli\>	^жулуп ал<v><iv><cv_eli>$
      34 #1.\<num\>\<nom\>	^1.<num><nom>$
-     33 #Никола\<np\>\<ant\>\<m\>\<px3sg\>\<nom\>	^Никола<np><ant><m><px3sg><nom>$
      33 #кир\<v\>\<tv\>\<abil\>\<ger\>\<px3sg\>\<nom\>	^кир<v><tv><abil><ger><px3sg><nom>$
      33 #301.\<num\>\<nom\>	^301.<num><nom>$
      32 #тарат\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^тарат<v><tv><ifi><p3><sg>$
@@ -368,7 +362,6 @@ Tag mismatch between transfer and generation
      18 #иште\<v\>\<tv\>\<ger_past\>\<px3sg\>\<dat\>	^иште<v><tv><ger_past><px3sg><dat>$
      18 #иште\<v\>\<tv\>\<ger_past\>\<px3pl\>\<acc\>	^иште<v><tv><ger_past><px3pl><acc>$
      18 #жет\<v\>\<iv\>\<caus\>\<pass\>\<prt_impf\>	^жет<v><iv><caus><pass><prt_impf>$
-     18 #бы\<mod_qst\>\<2p\>	^бы<mod_qst><2p>$
      18 #бур\<v\>\<iv\>\<pass\>\<fut\>\<p3\>\<sg\>	^бур<v><iv><pass><fut><p3><sg>$
      18 #бол\<v\>\<iv\>\<neg\>\<imp\>\<p3\>\<sg\>	^бол<v><iv><neg><imp><p3><sg>$
      18 #бар\<v\>\<tv\>\<ger\>\<dat\>	^бар<v><tv><ger><dat>$
@@ -773,7 +766,6 @@ Tag mismatch between transfer and generation
       6 #жаңырт\<v\>\<tv\>\<prt_impf\>	^жаңырт<v><tv><prt_impf>$
       6 #Жаңырт\<v\>\<tv\>\<ifi\>\<p3\>\<pl\>	^Жаңырт<v><tv><ifi><p3><pl>$
       6 #жаңырт\<v\>\<tv\>\<ger_past\>\<nom\>	^жаңырт<v><tv><ger_past><nom>$
-      6 #БЫ\<mod_qst\>\<3s\>	^БЫ<mod_qst><3s>$
       6 #Бур\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<nom\>	^Бур<v><iv><pass><ger><px3sg><nom>$
       6 #бур\<v\>\<iv\>\<pass\>\<ger\>\<px3sg\>\<abl\>	^бур<v><iv><pass><ger><px3sg><abl>$
       6 #Бур\<v\>\<iv\>\<pass\>\<ger\>\<px3pl\>\<nom\>	^Бур<v><iv><pass><ger><px3pl><nom>$
@@ -1060,7 +1052,6 @@ Tag mismatch between transfer and generation
       4 #бур\<v\>\<iv\>\<pass\>\<ger\>\<px3pl\>\<gen\>	^бур<v><iv><pass><ger><px3pl><gen>$
       4 #бур\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<nom\>	^бур<v><iv><pass><ger_past><px3sg><nom>$
       4 #бур\<v\>\<iv\>\<pass\>\<ger\>\<abl\>	^бур<v><iv><pass><ger><abl>$
-      4 #бул\<prn\>\<dem\>\<rloc\>	^бул<prn><dem><rloc>$
       4 #бузул\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^бузул<v><tv><ifi><p3><sg>$
       4 #бузул\<v\>\<tv\>\<ger\>\<px3sg\>\<nom\>	^бузул<v><tv><ger><px3sg><nom>$
       4 #бузул\<v\>\<tv\>\<caus\>\<aor\>\<p3\>\<sg\>	^бузул<v><tv><caus><aor><p3><sg>$
@@ -1108,6 +1099,6 @@ Tag mismatch between transfer and generation
 Summary
 ===============================================================================
    49 /tmp/tr-ky.multiform
-    4 /tmp/tr-ky.multibidix
- 1037 /tmp/tr-ky.tagmismatch
- 1090 total
+    0 /tmp/tr-ky.multibidix
+ 1032 /tmp/tr-ky.tagmismatch
+ 1081 total
