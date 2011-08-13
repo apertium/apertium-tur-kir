@@ -69,6 +69,8 @@ Multichar_Symbols
 %<top%>     ! Toponym
 %<al%>      ! Other
 %<org%>     ! Organisation name
+%<nat%>     ! Nationality
+%<lg%>      ! Language
 
 %<frm%>     ! Formal
  
@@ -112,8 +114,6 @@ Multichar_Symbols
 %<ger_pres%>
 %<ger%>
 %<ger_abs%>       ! "abstract" gerund -- abs means absolutive
-%<ger_notyet%>    ! Not-yet gerund, -E элек
-%<ger_ppot%>      ! Perfective(?) potential gerund
 
 %<vadj_fut%>
 %<vadj_pot2%>
@@ -123,7 +123,6 @@ Multichar_Symbols
 %<vadj_pot%>
 %<vadj_impf%>
 %<vadj_hab%>
-%<vadj_notyet%>  ! Not-yet verbal adjective, -E элек
 
 %<imp%>     ! imperative
 
@@ -136,12 +135,11 @@ Multichar_Symbols
 %<pot%>     ! Potential, -чUдAй
 %<ifi%>     ! Definite past 
 %<fut%>     ! Future tense, -AAр
-%<notyet%>  ! Not-yet tense, -E элек
-! %<pp%>      ! Past participle, -GAн
-! %<pp2%>     ! Past participle, -GAнI
-! %<plist%>   ! Listing participle
-! %<inf%>     ! Verbal noun, -үү
-! %<inf2%>    ! Verbal noun, -иш
+%<pp%>      ! Past participle, -GAн
+%<pp2%>     ! Past participle, -GAнI
+%<plist%>   ! Listing participle
+%<inf%>     ! Verbal noun, -үү
+%<inf2%>    ! Verbal noun, -иш
 
 %<sent%>    ! Sentence marker
 %<guio%>    ! Hyphen
@@ -180,7 +178,7 @@ Multichar_Symbols
 
 LEXICON Root
 
-NumeralList ; ! Use/Circ
+!NumeralList ;
 Copula ;
 Particles ;
 Postpositions ;
@@ -198,7 +196,6 @@ Punctuation ;
 Interjections ;
 Abbreviations ;
 Nationalities ;
-TO-REMOVE ;
 
 
 LEXICON CASES-DEFAULT
@@ -241,6 +238,7 @@ LEXICON GEN-POS
 CASES ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
 %<rloc%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
+%<rloc%>:%>%{D%}%{A%}г%{I%} # ;
 !%<rloc%>:%>%{D%}%{A%}г%{I%} CASES ;
 !%<rloc%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
 
@@ -295,23 +293,23 @@ N-INFL-COMMON ;
 
 LEXICON NP-COG-MF
 
-%<np%>%<cog%>%<mf%>: POSSESSION ;
+%<np%>%<cog%>%<mf%>: CASES  ;
 
 LEXICON NP-COG-M
 
-%<np%>%<cog%>%<m%>: POSSESSION ;
+%<np%>%<cog%>%<m%>: CASES  ;
 
-LEXICON NP-COG-F
+LEXICON NP-COG-M
 
-%<np%>%<cog%>%<f%>: POSSESSION ;
+%<np%>%<cog%>%<f%>: CASES  ;
 
 LEXICON NP-ANT-M
 
-%<np%>%<ant%>%<m%>: POSSESSION ;
+%<np%>%<ant%>%<m%>: CASES  ;
 
 LEXICON NP-ANT-F
 
-%<np%>%<ant%>%<f%>: POSSESSION ;
+%<np%>%<ant%>%<f%>: CASES ;
 
 LEXICON NP-ORG
 
@@ -326,18 +324,18 @@ LEXICON NP-TOP
 %<np%>%<top%>: POSSESSION ;
 %<np%>%<top%>:%>%{L%}%{I%}к ADJ-COMMON ;
 
-LEXICON NP-TOP-ACR
-
-%<np%>%<top%>: POSSESSION ;
-
 LEXICON NAT
 ! Nationalities
 
-ADJ ;             ! nationality's adjectival form, e.g. "Turkish [food]"
-N-INFL ;          ! a member of the nationality, e.g. "A Turk"
-%>ч%{A%} ADV ;    ! as / in the style of the nat., e.g. "à la Turk"
-%>ч%{A%} ADV ;    ! in the language of the nationality, e.g. "in Turkish"
-%>ч%{A%} N-INFL ; ! the language of the nationality, e.g. "Turkish"
+%<nat%>: ADJ ;
+%<nat%>: N-INFL ;
+%<nat%>:%>ч%{A%} ADV ;
+%<nat%>%<lg%>:%>ч%{A%} ADV ;
+%<nat%>%<lg%>:%>ч%{A%} N-INFL ;
+
+!%<nat%>%<lg%>%<n%>:ч%{A%} POSSESSION ;
+!%<nat%>%<n%>: POSSESSION ;
+
 
 LEXICON NP-AL
 
@@ -361,7 +359,6 @@ LEXICON ADJ-DAGI
 ! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of N-INFL
 !%<n%>: N-INFL ;
 %<adj%>%<pst%>: # ;
-# ;
 
 LEXICON V-ADJ
 
@@ -667,7 +664,6 @@ V-CLIT ;  ! TODO: I guess these aren't technically necessary?
 LEXICON V-CLIT 
 
 !! Modal/discourse particles
-%+бы%<mod_qst%>:%>%{B%}%{I%} V-PERS-COP ; ! CHECK
 %+бы%<mod_qst%>:%>%{B%}%{I%} # ;
 %+беле%<mod_qst%>:% беле # ;
 %+бекен%<mod_qst%>:% бекен # ;
@@ -775,10 +771,6 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%с POSSESSION ;              !
 %<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%{A%}с POSSESSION ;          ! Dir/LR
 
-%<ger_ppot%>:%>%{A%}р%>л{I}к POSSESSION ;                     ! Dir/LR
-%<ger_ppot%>:%>%{A%}%{A%}р%>л{I}к POSSESSION ;
-
-
 ! Verbal Adjectives
 %<vadj_fut%>:%>%{A%}р V-ADJ ;
 %<vadj_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
@@ -805,15 +797,15 @@ LEXICON V-INFL-NON-FINITE-REG
 %<ger_pres%>:%>%{I%}ш POSSESSION ;    ! <coop> IS only
 %<ger%>:%>%{U%}%{U%} POSSESSION ;     ! <coop> IS only
 %<ger_abs%>:%>%{U%}%{U%}%>ч%{I%}%>%{L%}%{I%}к POSSESSION ;     ! <coop> IS only
-%<ger_notyet%>:%>{E%}% элек POSSESSION ;
 
 ! Verbal adjectives 
 %<vadj_past%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay
 %<vadj%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay  ! both past (or perf?) and general
+!%<vadj_pot%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
 %<vadj_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
 !%<vadj_impf%>:%>%{E%}% турган V-ADJ ;       ! Done already by <prt_impf> тур<vaux><ger_past>
+!%<vadj_????%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;                      ! TODO: find name
 %<vadj_pot%>:%>%{U%}%{U%}%>ч%{U%} V-ADJ ;
-%<vadj_notyet%>:%>{E%}% элек V-ADJ ;
 
 !  Imperatives
 
@@ -836,7 +828,6 @@ LEXICON V-INFL-NON-FINITE-REG
 %<opt%>%<p2%>%<frm%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;
 %<opt%>%<p3%>%<pl%>:%>с%{I%}н # ;
 
-
 LEXICON V-INFL-FINITE
 
 ! Finite forms
@@ -847,11 +838,10 @@ LEXICON V-INFL-FINITE
 %<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                            ! 
 %<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;                           ! 
 !%<cond%>:%>с%{A%} V-PERS-PAST ;                               ! not a finite form
-!%<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP-SUF ;                        !   
+%<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP-SUF ;                        !   
 %<pih%>:%>ч%{U%} V-PERS-COP-SUF ;                                 ! 
 %<pot%>:%>ч%{U%}%>д%{A%}й V-PERS-COP-SUF ;                        ! 
 %<pcond%>:%>м%{A%}к V-PERS-COP-SUF ;                              ! 
-%<notyet%>:%>{E%}% элек V-PERS-COP-SUF ;                          ! 
 
 !%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! TODO: Check  (WTF is this?)
 !%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}р V-PERS-COP ;              !
@@ -870,32 +860,23 @@ LEXICON V-INFL-FINITE
 LEXICON V-INFL-TV-SHORT
 
 %<v%>%<tv%>: V-INFL-COMMON ;
-%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                              ! FIXME: When we make it cyclical, this should really be V-INFL-IV
-%<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<tv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<tv%>%<caus%>%<pass%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON V-INFL-IV-SHORT
 
 %<v%>%<iv%>: V-INFL-COMMON ;
-%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<iv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<iv%>%<caus%>%<pass%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON V-INFL-TV
 
 %<v%>%<tv%>: V-INFL-COMMON ;
 %<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                              ! FIXME: When we make it cyclical, this should really be V-INFL-IV
 %<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<tv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<tv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
+%<v%>%<tv%>%<caus%>%<pass%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
 %<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<iv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<iv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
+%<v%>%<iv%>%<caus%>%<pass%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON V-INFL-IV-NO-CAUS
 
@@ -904,10 +885,6 @@ LEXICON V-INFL-IV-NO-CAUS
 LEXICON V-INFL-IV-IRREG-CAUS
 
 %<v%>%<iv%>%<caus%>:%> V-INFL-COMMON ;                                    !
-
-LEXICON V-INFL-IV-IRREG-CAUS-PASS
-
-%<v%>%<iv%>%<caus%>%<pass%>:%> V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON VAUX-INFL
 
@@ -1105,7 +1082,7 @@ LEXICON Determiners
 канча DET-QNT ; ! "how many"  ! FIXME: not <itg> somehow?
 канчалык DET-QNT ; ! "how many"  ! FIXME: this is really an adverb
 
-кайсыл:кайсы DET-DEM ; ! "which?" ! FIXME: need morph to fix
+кайсыл:кайсы DET-ITG ; ! "which?" ! FIXME: need morph to fix
 
 кайсы% бир DET-IND ;
 кандайдыр% бир DET-IND ; ! "some kind of"
@@ -1979,7 +1956,7 @@ LEXICON NounStems
 калк N-INFL ; 
 журт N-INFL ; 
 кол N-INFL ; 
-элек N-INFL ; ! a sieve (?)
+элек N-INFL ; ! what?
 электролит N-INFL ; 
 электроника N-INFL ; 
 электроскоп N-INFL ; 
@@ -4056,6 +4033,7 @@ LEXICON NounStems
 эс% тутум N-INFL ; 
 апта N-INFL ; 
 хахам N-INFL ; 
+хан N-INFL ; 
 калыс N-INFL ; 
 сот N-INFL ; 
 акы N-INFL ; 
@@ -4227,7 +4205,6 @@ LEXICON NounStems
 ич N-INFL ;
 !орун N-INFL ;
 орун:ор%{y%}н N-INFL ;  ! "place" ! FIXME: make work properly
-!орун N-INFL ; ! Dir/RL
 !мурун N-INFL ; ! "nose"
 мурун:мур%{y%}н N-INFL ; ! "nose" ! FIXME: make work properly
 тоо N-INFL ;
@@ -4365,7 +4342,7 @@ LEXICON NounStems
 кафедра N-INFL ;
 кандидат N-INFL ;
 электрон N-INFL ;
-хан N-INFL ;
+Хан N-INFL ;
 окуя N-INFL ;
 жигит N-INFL ;
 өндүрүш N-INFL ;
@@ -5458,6 +5435,7 @@ LEXICON NounStems
 кабарчы N-INFL ;
 марка N-INFL ;
 идиш N-INFL ;
+бала N-INFL ;
 еге N-INFL ;
 аралык N-INFL ;
 логистикалык N-INFL ;
@@ -5584,6 +5562,7 @@ kanal N-INFL ;
 мыкаачы N-INFL ;
 жер% алды N-INFL ;
 кеңири% пикир N-INFL ;
+түш N-INFL ;
 ачылыш N-INFL ;
 контробандист N-INFL ;
 шаар% чети N-INFL ;
@@ -6153,6 +6132,7 @@ kanal N-INFL ;
 этияттык N-INFL ;
 арзуу N-INFL ;
 таң% калуу N-INFL ;
+хан N-INFL ;
 ! байкалган N-INFL ; ! productive
 кыймылсыз% мүлк N-INFL ;
 фрегат N-INFL ;
@@ -6282,8 +6262,6 @@ kanal N-INFL ;
 дыйканчылык N-INFL ; ! "farming"
 катын N-INFL ; ! "wife of the хан"
 падыша N-INFL ; ! "Padshah"
-реанимация N-INFL ; ! "reanimation"
-реаниматолог N-INFL ; ! "a doctor who performs reanimation"
 
 LEXICON PropernounStems
 Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
@@ -6499,7 +6477,7 @@ Tеңир NP-TOP ; ! ""
 Руминя NP-TOP ;
 Босня NP-TOP ;
 Греция NP-TOP ;
-ЕБ NP-TOP-ACR ;
+ЕБ NP-TOP ;
 Түрк NP-TOP ;
 Харват NP-TOP ;
 Балгар NP-TOP ;
@@ -6928,6 +6906,7 @@ Tеңир NP-TOP ; ! ""
 Кузманович NP-COG-MF ;
 Лазаревич NP-COG-MF ;
 Лакжевич NP-COG-MF ;
+Лахей NP-COG-MF ;
 Лепосавич NP-COG-MF ;
 Лилич NP-COG-MF ;
 Лозанжич NP-COG-MF ;
@@ -8030,7 +8009,6 @@ LEXICON AdjecStems
 президенттик ADJ ; ! "presidential"
 тынч ADJ ; ! "quiet, silent, still, peaceful"
 өңдүү ADJ ; ! "colourful, coloured"
-! бүтүндөй ADJ ;  ! composite form
 
 !! FIXME: productive {K}{I} forms
 мурунку ADJ ; ! "old (former)"
@@ -8056,8 +8034,7 @@ LEXICON AdjecStems
 кадимки ADJ ; ! "ordinary"
 соңку ADJ ; ! "final"
 чейинки ADJ ; ! "before"
-тышкы ADJ ; ! "outer"
-ички ADJ ; ! "inner"
+бүтүндөй ADJ ;
 
 LEXICON AdvStems
 
@@ -8407,8 +8384,8 @@ LEXICON VerbStems
 атта V-INFL-TV ; 
 ач V-INFL-TV ; ! "open"
 аш V-INFL-IV-NO-CAUS ; ! "pass/exceed"
+аш V-INFL-TV ;
 аш:ашыр V-INFL-IV-IRREG-CAUS ; ! "make exceed"
-аш:ашыр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "be made to exceed"
 бар V-INFL-IV ; ! "go"
 бас V-INFL-IV ; ! "walk"
 бас V-INFL-TV ; ! "push"
@@ -8418,7 +8395,6 @@ LEXICON VerbStems
 бил V-INFL-TV ; ! "know"
 бүт V-INFL-IV-NO-CAUS ; ! "to finish"
 бүт:бүтүр V-INFL-IV-IRREG-CAUS ; ! "to finish"
-бүт:бүтүр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "be made to finish"
 жаз V-INFL-TV ; ! "write"
 жайгаш V-INFL-IV ; ! "be located"
 жарыяла V-INFL-TV ;
@@ -8440,10 +8416,8 @@ LEXICON VerbStems
 !кач V-INFL-TV ; ! eh?
 кел V-INFL-IV-NO-CAUS ; ! "come"
 кел:келтир V-INFL-IV-IRREG-CAUS ; ! "make come"
-кел:келтир%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "be made to come"
 кет V-INFL-IV-NO-CAUS ; ! "go"
 кет:кетир V-INFL-IV-IRREG-CAUS ; ! "to make go"
-кет:кетир%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "to made to go"
 кой V-INFL-TV ; ! "put, place" 
 колдон V-INFL-TV ;
 котор V-INFL-TV ;
@@ -8451,7 +8425,6 @@ LEXICON VerbStems
 күл V-INFL-IV ; ! "smile, laugh"
 көч V-INFL-IV-NO-CAUS ; ! "move"
 көч:көчүр V-INFL-IV-IRREG-CAUS ; ! "make move"
-көч:көчүр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "be made to move"
 маектеш V-INFL-TV ;
 майрамда V-INFL-IV ;
 майрамда V-INFL-TV ;
@@ -8471,10 +8444,8 @@ LEXICON VerbStems
 таң% ат V-INFL-TV ; ! "dawn"
 тий V-INFL-TV ; ! "touch" (takes dative)
 тий:тийгиз V-INFL-IV-IRREG-CAUS ; ! "make touch"
-тий:тийгиз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "make touch"
 тур V-INFL-IV-NO-CAUS ; ! "stand, live"
 тур:тургуз V-INFL-IV-IRREG-CAUS ; ! "stand up (trans)"
-тур:тургуз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "stand up (trans)"
 түз V-INFL-TV ; ! "fill in/out" (e.g., a list)
 түздө V-INFL-TV ; ! ""
 ук V-INFL-IV ; ! "listen"
@@ -8489,9 +8460,7 @@ LEXICON VerbStems
 өл V-INFL-IV ; ! "die"
 өт V-INFL-IV-NO-CAUS ; ! "pass"
 өт:өткөр V-INFL-IV-IRREG-CAUS ; ! "pass"
-өт:өткөр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "pass"
 өт:өткөз V-INFL-IV-IRREG-CAUS ; ! "pass"  ! Dir/LR
-өт:өткөз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "pass"  ! Dir/LR
 кон V-INFL-IV ;
 ачы V-INFL-IV ; ! "ferment"
 ! ачыт V-INFL-TV ; ! "ferment" ! regular causitive
@@ -8501,14 +8470,11 @@ LEXICON VerbStems
 
 ак V-INFL-IV-NO-CAUS ; ! "flow"
 ак:агыз V-INFL-IV-IRREG-CAUS ; ! "make flow"
-ак:агыз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "make flow"
 
 отур V-INFL-IV-NO-CAUS ; ! "sit"
 олтур V-INFL-IV-NO-CAUS ; ! "sit"              ! Dir/LR
 отур:отургуз V-INFL-IV-IRREG-CAUS ; ! "sit"
-отур:отургуз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "sit"
 олтур:олтургуз V-INFL-IV-IRREG-CAUS ; ! "sit"  ! Dir/LR
-олтур:олтургуз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "sit"  ! Dir/LR
 бар V-INFL-IV ; ! "go"
 аракет% кыл V-INFL-TV ; ! "try"
 арна V-INFL-IV ; 
@@ -8521,21 +8487,19 @@ LEXICON VerbStems
 буз V-INFL-TV ; 
 бузул V-INFL-IV ; 
 була V-INFL-TV ; 
-бур V-INFL-IV ; 
+бур V-INFL-TV ; 
 буйру V-INFL-IV ; 
 ! бырыштыр V-INFL-TV ;  regular
 бырыш V-INFL-IV ; 
 быч V-INFL-TV ; 
 быш V-INFL-IV-NO-CAUS ; ! "cook" / "be cooked"
 быш:бышыр V-INFL-IV-IRREG-CAUS ; ! "cook"
-быш:бышыр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "cook"
 бүк V-INFL-TV ; 
 бүктө V-INFL-TV ; 
 бөл V-INFL-TV ; ! "divide"
 кий V-INFL-TV ; ! "put on"
 кий V-INFL-IV-NO-CAUS ; ! "get dressed"
 кий:кийгиз V-INFL-IV-IRREG-CAUS ; ! "dress"
-кий:кийгиз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "dress"
 кийин V-INFL-TV ; ! "wear"
 гэр V-INFL-TV ; 
 даярда V-INFL-TV ; 
@@ -8543,7 +8507,7 @@ LEXICON VerbStems
 жай V-INFL-TV ; ! "hang out to dry", "spread out"
 жан V-INFL-IV ; 
 жаркыра V-INFL-IV ; 
-жар V-INFL-IV ; 
+жар V-INFL-TV ; 
 жаша V-INFL-IV ; 
 жибер V-INFL-TV ; ! "send"
 тан V-INFL-TV ;
@@ -8566,7 +8530,6 @@ LEXICON VerbStems
 кайнат V-INFL-TV ; ! "boil"
 кал V-INFL-IV-NO-CAUS ; ! "stay, remain"
 кал:калтыр V-INFL-IV-IRREG-CAUS ; ! "leave (behind)"
-кал:калтыр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "leave (behind)"
 карма V-INFL-TV ; ! "hold"
 ! карма V-INFL-IV ; ! "hold"  ! HOW IV?
 кары V-INFL-IV ; 
@@ -8577,7 +8540,6 @@ LEXICON VerbStems
 кир V-INFL-IV-NO-CAUS ; ! "enter"
 кир V-INFL-TV ;
 кир:киргиз V-INFL-IV-IRREG-CAUS ; ! "put in, enter (e.g. data)"
-кир:киргиз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "put in, enter (e.g. data)"
 кооздо V-INFL-TV ; 
 чыда V-INFL-TV ; ! "put up with"
 чыда V-INFL-IV ; ! "be patient"
@@ -8666,7 +8628,6 @@ LEXICON VerbStems
 түтө V-INFL-IV ; 
 түш V-INFL-IV-NO-CAUS ; ! "fall"
 түш:түшүр V-INFL-IV-IRREG-CAUS ; ! "to make fall"
-түш:түшүр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "to make fall"
 шаш V-INFL-IV ; ! "hurry"
 төк V-INFL-TV ; 
 төк V-INFL-IV ; 
@@ -8690,7 +8651,6 @@ LEXICON VerbStems
 чумку V-INFL-TV ; 
 чык V-INFL-IV-NO-CAUS ; ! "to exit/leave"
 чык:чыгар V-INFL-IV-IRREG-CAUS ; ! "to take/put/move [object] out"
-чык:чыгар%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "to take/put/move [object] out"
 чөк V-INFL-IV ; 
 шайла V-INFL-TV ; 
 шиши V-INFL-IV ; 
@@ -8708,7 +8668,6 @@ LEXICON VerbStems
 өрттө V-INFL-TV ; 
 өч V-INFL-IV-NO-CAUS ; ! "turn off"
 өч:өчүр V-INFL-IV-IRREG-CAUS ; ! "make turn off"
-өч:өчүр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "make turn off"
 сүр V-INFL-TV ;
 сиңир V-INFL-TV ;
 уч V-INFL-IV ;
@@ -8716,7 +8675,6 @@ LEXICON VerbStems
 катыш V-INFL-TV ;
 кат V-INFL-IV-NO-CAUS ; ! "to get hard"
 кат:катыр V-INFL-IV-IRREG-CAUS ; ! "to make hard"
-кат:катыр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "to make hard"
 сарсанаа% тарт V-INFL-TV ;
 ээле V-INFL-TV ; ! "to occupy"
 корот V-INFL-TV ; ! "to waste"
@@ -8780,9 +8738,7 @@ LEXICON VerbStems
 тааны V-INFL-TV ;
 жет V-INFL-IV-NO-CAUS ; 
 жет:жеткир V-INFL-IV-IRREG-CAUS ;
-жет:жеткир%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ;
 жет:жеткиз V-INFL-IV-IRREG-CAUS ; ! Dir/LR
-жет:жеткиз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! Dir/LR
 иште V-INFL-IV ;  ! "work"
 саймала V-INFL-TV ;
 кештеле V-INFL-TV ;
@@ -9112,6 +9068,7 @@ LEXICON VerbStems
 соодала V-INFL-IV ;
 !аракет% кыл V-INFL-IV ;
 кечир V-INFL-TV ; ! CHECK: was IV
+кечир V-INFL-IV ;
 сына V-INFL-IV ;
 !жыйынтыкта V-INFL-IV ;
 кууру V-INFL-IV ;
@@ -9723,7 +9680,7 @@ LEXICON Nationalities
 казак NAT ;  ! "Kazakh"
 татар NAT ;  ! "Tatar"
 моңгол NAT ;  ! "Mongol"
-моңгол:монгол NAT ;  ! "Mongol"    ! Dir/LR
+моңгол:монгол NAT ;  ! "Mongol"
 дуңган NAT ;  ! "Dungan"
 кыргыз NAT ; ! "Kyrgyz"
 түрк NAT ; ! "Turkish"
@@ -9740,7 +9697,7 @@ LEXICON Nationalities
 кытай NAT ; ! "Chinese"
 латын NAT ; ! "Latin"
 дунган NAT ; ! "Dungan"
-дунган:дуңган NAT ; ! "Dungan"     ! Dir/LR
+дунган:дуңган NAT ; ! "Dungan"
 
 америка NAT ; ! "American"
 ! америка:американдык NAT ; ! FIXME: this form works in addition to "америкалык"
@@ -9761,8 +9718,6 @@ LEXICON Nationalities
 LEXICON Punctuation
 
 .%<sent%>:. # ;
-..%<sent%>:.. # ;
-...%<sent%>:... # ;
 %;%<sent%>:%; # ;
 %:%<sent%>:%: # ;
 %!%<sent%>:%! # ;
@@ -9779,71 +9734,3 @@ LEXICON Punctuation
 %]%<rpar%>:%] # ;
 %[%<lpar%>:%[ # ;
 %)%<rpar%>:%) # ;
-
-!=============================================================================!
-! To be checked and moved to the correct continuation lexica
-!=============================================================================!
-
-LEXICON TO-REMOVE 
-
-эчки ADJ ; ! Dir/RL
-эч% бир ; ! Dir/RL
-эскирген ADJ ; ! Dir/RL
-эң% чоң ADJ ; ! Dir/RL
-экспресс ADJ ; ! Dir/RL
-эклектик ADJ ; ! Dir/RL
-эврей ADJ ; ! Dir/RL
-ченемдүү ADJ ; ! Dir/RL
-сезгич ADJ ; ! Dir/RL
-резерв ADJ ; ! Dir/RL
-жалгыз ADJ ; ! Dir/RL
-беркиси ADJ ; ! Dir/RL
-бактылуу ADJ ; ! Dir/RL
-
-этникалык N-INFL ; ! Dir/RL
-эрте N-INFL ; ! Dir/RL
-эпископ N-INFL ; ! Dir/RL
-эң% жогорку N-INFL ; ! Dir/RL
-экологиялык N-INFL ; ! Dir/RL
-экмек N-INFL ; ! Dir/RL
-эгемендик N-INFL ; ! Dir/RL
-эге N-INFL ; ! Dir/RL
-эволюэия N-INFL ; ! Dir/RL
-эвалютсия N-INFL ; ! Dir/RL
-ыйгарымдуу% элчи N-INFL ; ! Dir/RL
-чоңдук N-INFL ; ! Dir/RL
-чейин N-INFL ; ! Dir/RL
-тышкары N-INFL ; ! Dir/RL
-түз N-INFL ; ! Dir/RL
-соңку N-INFL ; ! Dir/RL
-сөзү N-INFL ; ! Dir/RL
-оор N-INFL ; ! Dir/RL
-негизги N-INFL ; ! Dir/RL
-мурун N-INFL ; ! Dir/RL
-мом N-INFL ; ! Dir/RL
-кыска N-INFL ; ! Dir/RL
-күчү N-INFL ; ! Dir/RL
-котор N-INFL ; ! Dir/RL
-коңгуроо N-INFL ; ! Dir/RL
-көзөмөл% тобу N-INFL ; ! Dir/RL
-керектүү N-INFL ; ! Dir/RL
-иши N-INFL ; ! Dir/RL
-жол% багыты N-INFL ; ! Dir/RL
-жан% сакчы N-INFL ; ! Dir/RL
-жаман N-INFL ; ! Dir/RL
-жалпы N-INFL ; ! Dir/RL
-документалдуу% тасма N-INFL ; ! Dir/RL
-гелин N-INFL ; ! Dir/RL
-бүтүн N-INFL ; ! Dir/RL
-бири-бир N-INFL ; ! Dir/RL
-бирдей N-INFL ; ! Dir/RL
-башкы% эпископ N-INFL ; ! Dir/RL
-байланыштуу N-INFL ; ! Dir/RL
-байкалган N-INFL ; ! Dir/RL
-айуу N-INFL ; ! Dir/RL
-аз N-INFL ; ! Dir/RL
-адабий N-INFL ; ! Dir/RL
-автономиялуу N-INFL ; ! Dir/RL
-
-бы%<mod_qst%>:бы V-PERS-COP ; ! Dir/RL ! CHECK
-бы%<mod_qst%>:бы # ; ! Dir/RL ! CHECK
