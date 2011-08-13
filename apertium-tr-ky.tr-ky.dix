@@ -108,6 +108,8 @@
    
         <!-- SECTION: Conjunctions -->
 
+        <e c="  0"><p><l>ki<s n="cnjsub"/></l><r></r></p></e>
+
 	<e c="  0"><p><l>ve<s n="cnjcoo"/></l><r>жана<s n="cnjcoo"/></r></p></e>	
 	<e c="  0"><p><l>ise<s n="cnjcoo"/></l><r>болсо<s n="cnjcoo"/></r></p></e>
 	<e c="  0"><p><l>ama<s n="cnjcoo"/></l><r>бирок<s n="cnjcoo"/></r></p></e>
@@ -128,7 +130,6 @@
    	<e c="  0"><p><l>ta<s n="cnjadv"/></l><r>да<s n="cnjadv"/></r></p></e>
         <e slr="1"><p><l>ta<s n="cnjadv"/></l><r>тээ<s n="cnjadv"/></r></p></e>
         <e c="  0"><p><l>ila<s n="cnjcoo"/></l><r>менен<s n="cnjcoo"/></r></p></e>
-        <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>дейсиң<s n="cnjadv"/></r></p></e>
         <e c="  0"><p><l>ya<b/>da<s n="cnjadv"/></l><r>же<b/>болбосо<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>zira<s n="cnjadv"/></l><r>анткени<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>yani<s n="cnjadv"/></l><r>башкача<b/>айтканда<s n="cnjadv"/></r></p></e>
