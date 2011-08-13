@@ -818,9 +818,8 @@ LEXICON V-INFL-NON-FINITE-REG
 !  Imperatives
 
 %<imp%>%<p2%>%<sg%>: # ;
-%<imp%>%<p2%>%<sg%>:%>%{I%}ң # ;                            ! dialectal ! Dir/LR
 %<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з # ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң # ;                     ! dialectal ! Dir/LR
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң # ;                      ! Dir/LR
 %<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>%{L%}%{A%}р # ;
 
 !  Optative/jussive forms
@@ -1112,14 +1111,13 @@ LEXICON Determiners
 бүт% баары DET-QNT ;
 бир% канча DET-QNT ;
 ушунчалык DET-QNT ;
-ошончолук DET-QNT ;
-анчалык DET-QNT ;
 биртке DET-QNT ;
 анчалык DET-QNT ;
 бардык DET-QNT ;
 ар% ким DET-IND ;
 кайсы% бир DET-IND ;
 бирдей DET-IND ;
+ушунчалык DET-QNT ;
 бир% катар DET-QNT ;
 толук DET-QNT ;
 бир% бөлүк DET-QNT ;
@@ -4459,6 +4457,7 @@ LEXICON NounStems
 оппозиция N-INFL ;
 сан N-INFL ;
 апрель N-INFL ;
+болжол% менен N-INFL ;
 жаша N-INFL ;
 жашасын N-INFL ;
 чек N-INFL ;
@@ -6120,7 +6119,7 @@ kanal N-INFL ;
 жардык N-INFL ;
 өзгөчөлүк N-INFL ;
 кайгылуу N-INFL ;
-болжолдуу N-INFL ;  ! "vague"
+болжолдуу N-INFL ;
 катмар N-INFL ;
 стадион N-INFL ;
 чыныгы N-INFL ;
@@ -6228,6 +6227,7 @@ kanal N-INFL ;
 тартыш N-INFL ;
 кара% куурай N-INFL ;
 чеп N-INFL ;
+болжолдуу N-INFL ;
 тизе% үстүндө% колдонулган N-INFL ;
 эскертүү N-INFL ;
 асты N-INFL ;
@@ -7704,6 +7704,7 @@ LEXICON AdjecStems
 суткалык ADJ ; ! ""
 температуралык ADJ ; ! "" 
 термикалык ADJ ; ! 
+ушунчалык ADJ ; ! ""
 ферганалык ADJ ; ! ""
 физикалык ADJ ; ! ""
 энергетикалык ADJ ; ! ""
@@ -8250,7 +8251,7 @@ LEXICON AdvStems
 жок% дегенде ADV ;
 түздөн% түз ADV ;
 ошоногу ADV ;
-болжол% менен ADV ;  ! "or so"
+болжол% менен ADV ;
 байкабай ADV ;  ! productive -- see bidix
 тим% эле ADV ;
 күмөнсүз ADV ;
@@ -8476,6 +8477,7 @@ LEXICON VerbStems
 үйрөн V-INFL-IV ;
 үйрөн V-INFL-TV ;
 өл V-INFL-IV ; ! "die"
+өт V-INFL-TV ;
 өт V-INFL-IV-NO-CAUS ; ! "pass"
 өт:өткөр V-INFL-IV-IRREG-CAUS ; ! "pass"
 өт:өткөз V-INFL-IV-IRREG-CAUS ; ! "pass"  ! Dir/LR
@@ -8505,7 +8507,7 @@ LEXICON VerbStems
 буз V-INFL-TV ; 
 бузул V-INFL-IV ; 
 була V-INFL-TV ; 
-бур V-INFL-TV ; 
+бур V-INFL-IV ; 
 буйру V-INFL-IV ; 
 ! бырыштыр V-INFL-TV ;  regular
 бырыш V-INFL-IV ; 
@@ -8525,6 +8527,7 @@ LEXICON VerbStems
 жай V-INFL-TV ; ! "hang out to dry", "spread out"
 жан V-INFL-IV ; 
 жаркыра V-INFL-IV ; 
+жар V-INFL-IV ; 
 жаша V-INFL-IV ; 
 жибер V-INFL-TV ; ! "send"
 тан V-INFL-TV ;
@@ -8907,7 +8910,7 @@ LEXICON VerbStems
 жаңыла V-INFL-TV ;
 тазала V-INFL-TV ;
 баш% тарт V-INFL-TV ;
-мээле V-INFL-IV ;
+мээле V-INFL-TV ;
 кош V-INFL-TV ;
 бомбала V-INFL-TV ;
 бөл V-INFL-TV ;
@@ -9038,8 +9041,7 @@ LEXICON VerbStems
 жооп% бер V-INFL-IV ;
 майдала V-INFL-IV ;
 эм V-INFL-TV ;
-өлтүр V-INFL-IV ;
-жой V-INFL-IV ;
+жой V-INFL-TV ;
 жумша V-INFL-IV ;
 анализде V-INFL-IV ;
 буйрук% бер V-INFL-IV ;
@@ -9062,11 +9064,11 @@ LEXICON VerbStems
 көрүктө V-INFL-TV ;
 чайна V-INFL-TV ;
 макулдаш V-INFL-IV ;
-арендага% ал V-INFL-IV ;
+арендага% ал V-INFL-TV ;
 чөк V-INFL-IV ;
 жүздөш V-INFL-IV ;
 курча V-INFL-IV ;
-көлөкөлө V-INFL-IV ;
+көлөкөлө V-INFL-TV ;
 буз V-INFL-TV ;
 кармап% тур V-INFL-TV ;
 кулатыл V-INFL-IV ;
@@ -9125,7 +9127,7 @@ LEXICON VerbStems
 жыйна V-INFL-TV ;
 жеңилде V-INFL-IV ;
 жой V-INFL-IV ;
-эле V-INFL-IV ;
+эле V-INFL-TV ;
 өзүңө% тарт V-INFL-IV ;
 көн V-INFL-TV ;
 корк V-INFL-IV ;
@@ -9161,7 +9163,7 @@ LEXICON VerbStems
 көкүрөк% менен% түрт V-INFL-TV ;
 төшө V-INFL-TV ;
 баш% тарт V-INFL-IV ;
-салыштыр V-INFL-IV ;
+салыштыр V-INFL-TV ;
 камкордук% көр V-INFL-TV ;
 эз V-INFL-TV ;
 арылт V-INFL-TV ;
@@ -9232,7 +9234,7 @@ LEXICON VerbStems
 капа% кыл V-INFL-IV ;
 шыба V-INFL-TV ;
 сактан V-INFL-IV ;
-сарсанаа% бол V-INFL-IV ;
+сарсанаа% бол V-INFL-TV ;
 ышаарат% бер V-INFL-TV ;
 темирле V-INFL-TV ;
 сөөктү% кой V-INFL-TV ;
@@ -9559,13 +9561,13 @@ LEXICON VerbStems
 тайгалан V-INFL-IV ;
 чатышып% кал V-INFL-TV ;
 акта V-INFL-TV ;
-камчы% ур V-INFL-IV ;
+камчы% ур V-INFL-TV ;
 кесиш V-INFL-TV ;
 чырма V-INFL-TV ;
 кемир V-INFL-TV ;
 кишенде V-INFL-TV ;
 чач V-INFL-TV ;
-жулуп% ал V-INFL-IV ;
+жулуп% ал V-INFL-TV ;
 кабыл V-INFL-TV ;
 камчыла V-INFL-TV ;
 калыпка% сал V-INFL-TV ;
