@@ -859,7 +859,7 @@
         </out>
       </action>
     </rule>
- 
+
     <rule comment="regla: nom qst">
       <pattern>
         <pattern-item n="nom"/>
@@ -1937,6 +1937,35 @@
         </out>
       </action>
     </rule>
+  
+    <!-- SECTION: Particles -->
+ 
+    <rule comment="regla: qst">
+      <pattern>
+        <pattern-item n="qst"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test><not><equal><var n="c_pers"/><lit v=""/></equal></not></test>
+            <let><var n="c_pers"/><concat><lit v="+э"/><lit-tag v="cop"/><var n="c_pers"/></concat></let>
+          </when>
+        </choose>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <lit-tag v="mod_qst"/>
+              <clip pos="1" side="tl" part="lemq"/>
+              <var n="c_pers"/>
+            </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+ 
 
     <!-- SECTION: Punctuation -->
 
