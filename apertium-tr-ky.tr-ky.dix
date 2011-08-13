@@ -6761,7 +6761,7 @@
  
  <!--TODO should be checked for iv-tv -->
     <e c="  0"><p><l>terk<b/>et<s n="v"/></l><r>таштап<b/>кет<s n="v"/><s n="iv"/></r></p></e>
-    <e c="  0"><p><l>edin<s n="v"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>edin<s n="v"/></l><r>ал<s n="v"/></r></p><par n="(t|i)v"/></e>
     <e c="  0"><p><l>iade<b/>et<s n="v"/></l><r>кайтарып<b/>бер<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>oy<b/>al<s n="v"/></l><r>добуш<b/>ал<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>yerin<s n="v"/></l><r>өкүн<s n="v"/><s n="iv"/></r></p></e>
