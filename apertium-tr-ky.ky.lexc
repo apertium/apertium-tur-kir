@@ -297,7 +297,7 @@ LEXICON NP-COG-M
 
 %<np%>%<cog%>%<m%>: CASES  ;
 
-LEXICON NP-COG-M
+LEXICON NP-COG-F
 
 %<np%>%<cog%>%<f%>: CASES  ;
 
@@ -1073,7 +1073,7 @@ LEXICON Determiners
 канча DET-QNT ; ! "how many"  ! FIXME: not <itg> somehow?
 канчалык DET-QNT ; ! "how many"  ! FIXME: this is really an adverb
 
-кайсыл:кайсы DET-ITG ; ! "which?" ! FIXME: need morph to fix
+кайсыл:кайсы DET-DEM ; ! "which?" ! FIXME: need morph to fix
 
 кайсы% бир DET-IND ;
 кандайдыр% бир DET-IND ; ! "some kind of"
