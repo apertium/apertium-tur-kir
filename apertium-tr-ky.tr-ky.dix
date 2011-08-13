@@ -80,17 +80,6 @@
 -->
        <e><p><l></l><r><s n="iv"/></r></p></e>
      </pardef>
-     <pardef n="num_1-9">
-        <e c="  0"><p><l>bir</l><r>бир<b/></r></p></e>
-        <e c="  0"><p><l>iki</l><r>эки<b/></r></p></e>
-        <e c="  0"><p><l>üç</l><r>үч<b/></r></p></e>
-        <e c="  0"><p><l>dört</l><r>төрт<b/></r></p></e>
-        <e c="  0"><p><l>beş</l><r>беш<b/></r></p></e>
-        <e c="  0"><p><l>altı</l><r>алты<b/></r></p></e>
-        <e c="  0"><p><l>yedi</l><r>жети<b/></r></p></e>
-        <e c="  0"><p><l>sekiz</l><r>сегиз<b/></r></p></e>
-        <e c="  0"><p><l>dokuz</l><r>тогуз<b/></r></p></e>
-     </pardef>
    </pardefs>
    <section id="main" type="standard">
         <!-- SECTION: Particles -->
@@ -308,9 +297,6 @@
 	<e c="  0"><p><l>seksen<s n="num"/></l><r>сексен<s n="num"/></r></p></e>
 	<e c="  0"><p><l>doksan<s n="num"/></l><r>токсон<s n="num"/></r></p></e>
 	<e c="  0"><p><l>yüz<s n="num"/></l><r>жүз<s n="num"/></r></p></e>
-
-	<e c="  0"><par n="num_1-9"/><p><l>yüz<s n="num"/></l><r>жүз<s n="num"/></r></p></e>
-
 	<e c="  0"><p><l>bin<s n="num"/></l><r>миң<s n="num"/></r></p></e>
 	<e c="  0"><p><l>milyon<s n="num"/></l><r>миллион<s n="num"/></r></p></e>
 	<e c="  0"><p><l>milyar<s n="num"/></l><r>миллиард<s n="num"/></r></p></e>
@@ -6292,7 +6278,7 @@
 	<e c="  0"><p><l>ada<s n="v"/></l><r>арна<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ağla<s n="v"/></l><r>ыйла<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>alkışla<s n="v"/></l><r>алкыш<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>an<s n="v"/></l><r>элестет<s n="v"/></r></p><par n="(t|i)v"/></e>
+	<e c="  0"><p><l>an<s n="v"/></l><r>эскер<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>as<s n="v"/></l><r>ас<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>aş<s n="v"/></l><r>аш<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e c="  0"><p><l>at<s n="v"/></l><r>ат<s n="v"/><s n="tv"/></r></p></e>
@@ -7017,7 +7003,7 @@
      <e c="  0"><p><l>dola<s n="v"/></l><r>чулга<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>dolan<s n="v"/></l><r>тегерен<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>dokun<s n="v"/></l><r>тий<s n="v"/><s n="iv"/></r></p></e>
-     <e c="  0"><p><l>bürü<s n="v"/></l><r>капта<s n="v"/><s n="iv"/></r></p></e>
+     <e c="  0"><p><l>bürü<s n="v"/></l><r>капта<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>aldat<s n="v"/></l><r>алда<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>yolla<s n="v"/></l><r>жолдо<s n="v"/><s n="iv"/></r></p></e>
       <e c="  0"><p><l>ucuzla<s n="v"/></l><r>арзанда<s n="v"/><s n="tv"/></r></p></e>
