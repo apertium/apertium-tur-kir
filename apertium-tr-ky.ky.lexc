@@ -326,6 +326,10 @@ LEXICON NP-TOP
 %<np%>%<top%>: POSSESSION ;
 %<np%>%<top%>:%>%{L%}%{I%}к ADJ-COMMON ;
 
+LEXICON NP-TOP-ACR
+
+%<np%>%<top%>: POSSESSION ;
+
 LEXICON NAT
 ! Nationalities
 
@@ -829,6 +833,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<opt%>%<p2%>%<frm%>%<pl%>:%>%{G%}%{I%}л%{A%} # ;
 %<opt%>%<p3%>%<pl%>:%>с%{I%}н # ;
 
+
 LEXICON V-INFL-FINITE
 
 ! Finite forms
@@ -839,7 +844,7 @@ LEXICON V-INFL-FINITE
 %<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                            ! 
 %<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;                           ! 
 !%<cond%>:%>с%{A%} V-PERS-PAST ;                               ! not a finite form
-%<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP-SUF ;                        !   
+!%<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP-SUF ;                        !   
 %<pih%>:%>ч%{U%} V-PERS-COP-SUF ;                                 ! 
 %<pot%>:%>ч%{U%}%>д%{A%}й V-PERS-COP-SUF ;                        ! 
 %<pcond%>:%>м%{A%}к V-PERS-COP-SUF ;                              ! 
@@ -4215,6 +4220,7 @@ LEXICON NounStems
 ич N-INFL ;
 !орун N-INFL ;
 орун:ор%{y%}н N-INFL ;  ! "place" ! FIXME: make work properly
+!орун N-INFL ; ! Dir/RL
 !мурун N-INFL ; ! "nose"
 мурун:мур%{y%}н N-INFL ; ! "nose" ! FIXME: make work properly
 тоо N-INFL ;
@@ -6487,7 +6493,7 @@ Tеңир NP-TOP ; ! ""
 Руминя NP-TOP ;
 Босня NP-TOP ;
 Греция NP-TOP ;
-ЕБ NP-TOP ;
+ЕБ NP-TOP-ACR ;
 Түрк NP-TOP ;
 Харват NP-TOP ;
 Балгар NP-TOP ;
@@ -9782,7 +9788,6 @@ LEXICON TO-REMOVE
 түз N-INFL ; ! Dir/RL
 соңку N-INFL ; ! Dir/RL
 сөзү N-INFL ; ! Dir/RL
-орун N-INFL ; ! Dir/RL
 оор N-INFL ; ! Dir/RL
 негизги N-INFL ; ! Dir/RL
 мурун N-INFL ; ! Dir/RL
@@ -9812,3 +9817,4 @@ LEXICON TO-REMOVE
 автономиялуу N-INFL ; ! Dir/RL
 
 бы%<mod_qst%>:бы V-PERS-COP ; ! Dir/RL ! CHECK
+бы%<mod_qst%>:бы # ; ! Dir/RL ! CHECK
