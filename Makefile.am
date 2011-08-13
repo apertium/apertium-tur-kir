@@ -20,6 +20,12 @@ TARGETS_COMMON = $(PREFIX2).automorf.hfst $(PREFIX1).autogen.hfst $(PREFIX1).aut
 ## Kyrgyz transducer
 ###############################################################################
 
+.deps/ky.lexc.morf.hfst-debug: apertium-tr-ky.ky.lexc
+	@cat $< | grep -v -e 'Dir/RL' -e 'Use/Circ' | hfst-lexc > $@
+
+.deps/ky.lexc.gen.hfst-debug: apertium-tr-ky.ky.lexc
+	@cat $< | grep -v -e 'Dir/LR' -e 'Use/Circ' | hfst-lexc > $@
+
 .deps/ky.lexc.morf.hfst: apertium-tr-ky.ky.lexc
 	@cat $< | grep -v 'Dir/RL' | hfst-lexc > $@
 
@@ -29,16 +35,22 @@ TARGETS_COMMON = $(PREFIX2).automorf.hfst $(PREFIX1).autogen.hfst $(PREFIX1).aut
 .deps/ky.twol.hfst: apertium-tr-ky.ky.twol
 	hfst-twolc -R -i apertium-tr-ky.ky.twol -o $@
 
+.deps/ky-tr.automorf.hfst-debug: .deps/ky.lexc.morf.hfst-debug .deps/ky.twol.hfst
+	hfst-compose-intersect -1 .deps/ky.lexc.morf.hfst-debug -2 .deps/ky.twol.hfst | hfst-invert -o $@
+
+.deps/tr-ky.autogen.hfst-debug: .deps/ky.lexc.gen.hfst-debug .deps/ky.twol.hfst
+	hfst-compose-intersect -1 .deps/ky.lexc.gen.hfst-debug -2 .deps/ky.twol.hfst -o $@
+
 .deps/ky-tr.automorf.hfst: .deps/ky.lexc.morf.hfst .deps/ky.twol.hfst
 	hfst-compose-intersect -1 .deps/ky.lexc.morf.hfst -2 .deps/ky.twol.hfst | hfst-invert -o $@
 
 .deps/tr-ky.autogen.hfst: .deps/ky.lexc.gen.hfst .deps/ky.twol.hfst
 	hfst-compose-intersect -1 .deps/ky.lexc.gen.hfst -2 .deps/ky.twol.hfst -o $@
 
-$(PREFIX1).autogen.hfst: .deps/tr-ky.autogen.hfst
+$(PREFIX1).autogen.hfst: .deps/tr-ky.autogen.hfst .deps/tr-ky.autogen.hfst-debug
 	hfst-fst2fst -w -i $< -o $@
 
-$(PREFIX2).automorf.hfst: .deps/ky-tr.automorf.hfst
+$(PREFIX2).automorf.hfst: .deps/ky-tr.automorf.hfst .deps/ky-tr.automorf.hfst-debug
 	hfst-fst2fst -w -i $< -o $@
 
 ###############################################################################
