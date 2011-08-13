@@ -128,9 +128,15 @@
       <cat-item tags="v.*.vn_acak.*"/>
       <cat-item tags="v.vn_acak.*"/>
       <cat-item tags="v.*.vn_acak.*"/>
+      <cat-item tags="v.part_acak.*"/>
+      <cat-item tags="v.*.part_acak.*"/>
+      <cat-item tags="v.part_acak.*"/>
+      <cat-item tags="v.*.part_acak.*"/>
     </def-cat>
 
     <def-cat n="v_cv_acak">
+      <cat-item tags="v.vn_acak"/> <!-- no case/poss -->
+      <cat-item tags="v.*.vn_acak"/>
       <cat-item tags="v.cv_acak"/>
       <cat-item tags="v.*.cv_acak"/>
       <cat-item tags="v.cv_acak.*"/>
@@ -1592,7 +1598,7 @@
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+              <clip pos="1" side="tl" part="deriv"/>
               <clip pos="1" side="tl" part="neg"/>
               <lit-tag v="aor"/>
               <var n="c_pers"/>
