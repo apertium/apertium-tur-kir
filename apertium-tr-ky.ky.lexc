@@ -466,11 +466,14 @@ LEXICON NumeralList
 7 NumeralLoop ;
 8 NumeralLoop ;
 9 NumeralLoop ;
+%% NumeralLoop ;
 
 LEXICON NumeralLoop
 NumeralList ;
 %. NumeralList  ;
 %, NumeralList  ;
+%. NUM ; ! Dir/RL
+%, NUM ; ! Dir/RL
 %%%<num%>:%% CASES ;
 !Num ;
 NUM ;
