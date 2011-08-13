@@ -69,8 +69,6 @@ Multichar_Symbols
 %<top%>     ! Toponym
 %<al%>      ! Other
 %<org%>     ! Organisation name
-%<nat%>     ! Nationality
-%<lg%>      ! Language
 
 %<frm%>     ! Formal
  
@@ -327,15 +325,11 @@ LEXICON NP-TOP
 LEXICON NAT
 ! Nationalities
 
-%<nat%>: ADJ ;
-%<nat%>: N-INFL ;
-%<nat%>:%>ч%{A%} ADV ;
-%<nat%>%<lg%>:%>ч%{A%} ADV ;
-%<nat%>%<lg%>:%>ч%{A%} N-INFL ;
-
-!%<nat%>%<lg%>%<n%>:ч%{A%} POSSESSION ;
-!%<nat%>%<n%>: POSSESSION ;
-
+ADJ ;             ! nationality's adjectival form, e.g. "Turkish [food]"
+N-INFL ;          ! a member of the nationality, e.g. "A Turk"
+%>ч%{A%} ADV ;    ! as / in the style of the nat., e.g. "à la Turk"
+%>ч%{A%} ADV ;    ! in the language of the nationality, e.g. "in Turkish"
+%>ч%{A%} N-INFL ; ! the language of the nationality, e.g. "Turkish"
 
 LEXICON NP-AL
 
