@@ -8969,7 +8969,7 @@ LEXICON VerbStems
 ! тара V-INFL-TV ; ! duplicate, wrong transitivity
 кат V-INFL-TV ;
 ак V-INFL-IV ;
-тиле V-INFL-IV ; ! "wish"
+тиле V-INFL-TV ; ! "wish"
 тил V-INFL-TV ; ! "slice"
 таанып% бил V-INFL-TV ;
 !малын V-INFL-IV ; ! regular
@@ -9069,7 +9069,7 @@ LEXICON VerbStems
 !аракет% кыл V-INFL-IV ;
 кечир V-INFL-TV ; ! CHECK: was IV
 кечир V-INFL-IV ;
-сына V-INFL-IV ;
+сына V-INFL-TV ;
 !жыйынтыкта V-INFL-IV ;
 кууру V-INFL-IV ;
 итекте V-INFL-IV ;
@@ -9231,6 +9231,7 @@ LEXICON VerbStems
 тегерен V-INFL-IV ;
 току V-INFL-TV ;
 тий V-INFL-IV ;
+тий V-INFL-TV ;
 капта V-INFL-IV ;
 алда V-INFL-IV ;
 жолдо V-INFL-IV ;

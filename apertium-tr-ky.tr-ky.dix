@@ -6,7 +6,6 @@
      <sdef n="adj"       c="Adjective"/>
      <sdef n="post"      c="Postposition"/>
      <sdef n="postp"     c="Postposition trmorph"/>
-     <sdef n="postadv"   c="Postadverbial"/>
      <sdef n="part"      c="Particle"/>
      <sdef n="prn"       c="Pronouns"/>
      <sdef n="np"        c="Proper noun"/>
@@ -106,12 +105,7 @@
 	
 	 <!-- SECTION: Miscellaneous -->
    
-        <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>эле<s n="postadv"/></r></p></e>
-
         <!-- SECTION: Conjunctions -->
-
-        <e c="  0"><p><l>ki<s n="cnjsub"/></l><r></r></p></e>
-
 
 	<e c="  0"><p><l>ve<s n="cnjcoo"/></l><r>жана<s n="cnjcoo"/></r></p></e>	
 	<e c="  0"><p><l>ise<s n="cnjcoo"/></l><r>болсо<s n="cnjcoo"/></r></p></e>
@@ -133,6 +127,7 @@
    	<e c="  0"><p><l>ta<s n="cnjadv"/></l><r>да<s n="cnjadv"/></r></p></e>
         <e slr="1"><p><l>ta<s n="cnjadv"/></l><r>тээ<s n="cnjadv"/></r></p></e>
         <e c="  0"><p><l>ila<s n="cnjcoo"/></l><r>менен<s n="cnjcoo"/></r></p></e>
+        <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>дейсиң<s n="cnjadv"/></r></p></e>
         <e c="  0"><p><l>ya<b/>da<s n="cnjadv"/></l><r>же<b/>болбосо<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>zira<s n="cnjadv"/></l><r>анткени<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>yani<s n="cnjadv"/></l><r>башкача<b/>айтканда<s n="cnjadv"/></r></p></e>
@@ -6761,7 +6756,7 @@
 	<e c="  0"><p><l>gizle<s n="v"/></l><r>кат<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>sığın<s n="v"/></l><r>жашын<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ak<s n="v"/></l><r>ак<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>dile<s n="v"/></l><r>тиле<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>dile<s n="v"/></l><r>тиле<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>algıla<s n="v"/></l><r>таанып<b/>бил<s n="v"/><s n="tv"/></r></p></e>
  
  <!--TODO should be checked for iv-tv -->
@@ -6837,7 +6832,7 @@
      <e c="  0"><p><l>pazarla<s n="v"/></l><r>соодала<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>çabala<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>affet<s n="v"/></l><r>кечир<s n="v"/></r></p><par n="(t|i)v"/></e>
-     <e c="  0"><p><l>dene<s n="v"/></l><r>сына<s n="v"/><s n="iv"/></r></p></e>
+     <e c="  0"><p><l>dene<s n="v"/></l><r>сына<s n="v"/><s n="tv"/></r></p></e>
 <!--     <e c="  0"><p><l>sonuçla<s n="v"/></l><r>жыйынтыкта<s n="v"/><s n="iv"/></r></p></e> -->
      <e c="  0"><p><l>kavur<s n="v"/></l><r>кууру<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>it<s n="v"/></l><r>итекте<s n="v"/><s n="iv"/></r></p></e>
@@ -6851,7 +6846,7 @@
      <e c="  0"><p><l>kısal<s n="v"/></l><r>кыскар<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>kapla<s n="v"/></l><r>капта<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>ban<s n="v"/></l><r>мал<s n="v"/><s n="iv"/></r></p></e>
-     <e c="  0"><p><l>zehirle<s n="v"/></l><r>ууландыр<s n="v"/><s n="iv"/></r></p></e>
+     <e c="  0"><p><l>zehirle<s n="v"/></l><r>уулан<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
      <e c="  0"><p><l>tüken<s n="v"/></l><r>түгөн<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>uyan<s n="v"/></l><r>ойгон<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>on<s n="v"/></l><r>оң<s n="v"/><s n="iv"/></r></p></e>
@@ -7002,7 +6997,7 @@
      <e c="  0"><p><l>kayna<s n="v"/></l><r>кайно<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>dola<s n="v"/></l><r>чулга<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>dolan<s n="v"/></l><r>тегерен<s n="v"/><s n="iv"/></r></p></e>
-     <e c="  0"><p><l>dokun<s n="v"/></l><r>тий<s n="v"/><s n="iv"/></r></p></e>
+     <e c="  0"><p><l>dokun<s n="v"/></l><r>тий<s n="v"/></r></p><par n="(t|i)v"/></e>
      <e c="  0"><p><l>bürü<s n="v"/></l><r>капта<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>aldat<s n="v"/></l><r>алда<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>yolla<s n="v"/></l><r>жолдо<s n="v"/><s n="iv"/></r></p></e>
