@@ -180,7 +180,7 @@ Multichar_Symbols
 
 LEXICON Root
 
-!NumeralList ;
+NumeralList ; ! Use/Circ
 Copula ;
 Particles ;
 Postpositions ;
@@ -885,14 +885,14 @@ LEXICON V-INFL-TV
 %<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                              ! FIXME: When we make it cyclical, this should really be V-INFL-IV
 %<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 %<v%>%<tv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<tv%>%<caus%>%<pass%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
+%<v%>%<tv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
 %<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 %<v%>%<iv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<iv%>%<caus%>%<pass%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
+%<v%>%<iv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON V-INFL-IV-NO-CAUS
 
@@ -901,6 +901,10 @@ LEXICON V-INFL-IV-NO-CAUS
 LEXICON V-INFL-IV-IRREG-CAUS
 
 %<v%>%<iv%>%<caus%>:%> V-INFL-COMMON ;                                    !
+
+LEXICON V-INFL-IV-IRREG-CAUS-PASS
+
+%<v%>%<iv%>%<caus%>%<pass%>:%> V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON VAUX-INFL
 
@@ -5577,7 +5581,6 @@ kanal N-INFL ;
 мыкаачы N-INFL ;
 жер% алды N-INFL ;
 кеңири% пикир N-INFL ;
-түш N-INFL ;
 ачылыш N-INFL ;
 контробандист N-INFL ;
 шаар% чети N-INFL ;
@@ -8402,6 +8405,7 @@ LEXICON VerbStems
 ач V-INFL-TV ; ! "open"
 аш V-INFL-IV-NO-CAUS ; ! "pass/exceed"
 аш:ашыр V-INFL-IV-IRREG-CAUS ; ! "make exceed"
+аш:ашыр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "be made to exceed"
 бар V-INFL-IV ; ! "go"
 бас V-INFL-IV ; ! "walk"
 бас V-INFL-TV ; ! "push"
@@ -8411,12 +8415,14 @@ LEXICON VerbStems
 бил V-INFL-TV ; ! "know"
 бүт V-INFL-IV-NO-CAUS ; ! "to finish"
 бүт:бүтүр V-INFL-IV-IRREG-CAUS ; ! "to finish"
+бүт:бүтүр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "be made to finish"
 жаз V-INFL-TV ; ! "write"
 жайгаш V-INFL-IV ; ! "be located"
 жарыяла V-INFL-TV ;
 жаса V-INFL-IV ;
 жат V-INFL-IV-NO-CAUS ; ! "lie"
-жат:жаткыз V-INFL-IV-IRREG-CAUS ; ! "lay down"
+жат:жаткыз V-INFL-IV-IRREG-CAUS ; ! "lie down"
+жат:жаткыз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS ; ! "be made to lie down"
 де V-INFL-TV-SHORT ; ! "say"
 же V-INFL-TV-SHORT ; ! "eat"
 жуу V-INFL-TV-SHORT ; ! "wash"
@@ -8431,8 +8437,10 @@ LEXICON VerbStems
 !кач V-INFL-TV ; ! eh?
 кел V-INFL-IV-NO-CAUS ; ! "come"
 кел:келтир V-INFL-IV-IRREG-CAUS ; ! "make come"
+кел:келтир%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "be made to come"
 кет V-INFL-IV-NO-CAUS ; ! "go"
 кет:кетир V-INFL-IV-IRREG-CAUS ; ! "to make go"
+кет:кетир%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "to made to go"
 кой V-INFL-TV ; ! "put, place" 
 колдон V-INFL-TV ;
 котор V-INFL-TV ;
@@ -8440,6 +8448,7 @@ LEXICON VerbStems
 күл V-INFL-IV ; ! "smile, laugh"
 көч V-INFL-IV-NO-CAUS ; ! "move"
 көч:көчүр V-INFL-IV-IRREG-CAUS ; ! "make move"
+көч:көчүр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "be made to move"
 маектеш V-INFL-TV ;
 майрамда V-INFL-IV ;
 майрамда V-INFL-TV ;
@@ -8459,8 +8468,10 @@ LEXICON VerbStems
 таң% ат V-INFL-TV ; ! "dawn"
 тий V-INFL-TV ; ! "touch" (takes dative)
 тий:тийгиз V-INFL-IV-IRREG-CAUS ; ! "make touch"
+тий:тийгиз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "make touch"
 тур V-INFL-IV-NO-CAUS ; ! "stand, live"
 тур:тургуз V-INFL-IV-IRREG-CAUS ; ! "stand up (trans)"
+тур:тургуз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "stand up (trans)"
 түз V-INFL-TV ; ! "fill in/out" (e.g., a list)
 түздө V-INFL-TV ; ! ""
 ук V-INFL-IV ; ! "listen"
@@ -8475,7 +8486,9 @@ LEXICON VerbStems
 өл V-INFL-IV ; ! "die"
 өт V-INFL-IV-NO-CAUS ; ! "pass"
 өт:өткөр V-INFL-IV-IRREG-CAUS ; ! "pass"
+өт:өткөр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "pass"
 өт:өткөз V-INFL-IV-IRREG-CAUS ; ! "pass"  ! Dir/LR
+өт:өткөз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "pass"  ! Dir/LR
 кон V-INFL-IV ;
 ачы V-INFL-IV ; ! "ferment"
 ! ачыт V-INFL-TV ; ! "ferment" ! regular causitive
@@ -8485,11 +8498,14 @@ LEXICON VerbStems
 
 ак V-INFL-IV-NO-CAUS ; ! "flow"
 ак:агыз V-INFL-IV-IRREG-CAUS ; ! "make flow"
+ак:агыз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "make flow"
 
 отур V-INFL-IV-NO-CAUS ; ! "sit"
 олтур V-INFL-IV-NO-CAUS ; ! "sit"              ! Dir/LR
 отур:отургуз V-INFL-IV-IRREG-CAUS ; ! "sit"
+отур:отургуз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "sit"
 олтур:олтургуз V-INFL-IV-IRREG-CAUS ; ! "sit"  ! Dir/LR
+олтур:олтургуз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "sit"  ! Dir/LR
 бар V-INFL-IV ; ! "go"
 аракет% кыл V-INFL-TV ; ! "try"
 арна V-INFL-IV ; 
@@ -8509,12 +8525,14 @@ LEXICON VerbStems
 быч V-INFL-TV ; 
 быш V-INFL-IV-NO-CAUS ; ! "cook" / "be cooked"
 быш:бышыр V-INFL-IV-IRREG-CAUS ; ! "cook"
+быш:бышыр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "cook"
 бүк V-INFL-TV ; 
 бүктө V-INFL-TV ; 
 бөл V-INFL-TV ; ! "divide"
 кий V-INFL-TV ; ! "put on"
 кий V-INFL-IV-NO-CAUS ; ! "get dressed"
 кий:кийгиз V-INFL-IV-IRREG-CAUS ; ! "dress"
+кий:кийгиз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "dress"
 кийин V-INFL-TV ; ! "wear"
 гэр V-INFL-TV ; 
 даярда V-INFL-TV ; 
@@ -8545,6 +8563,7 @@ LEXICON VerbStems
 кайнат V-INFL-TV ; ! "boil"
 кал V-INFL-IV-NO-CAUS ; ! "stay, remain"
 кал:калтыр V-INFL-IV-IRREG-CAUS ; ! "leave (behind)"
+кал:калтыр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "leave (behind)"
 карма V-INFL-TV ; ! "hold"
 ! карма V-INFL-IV ; ! "hold"  ! HOW IV?
 кары V-INFL-IV ; 
@@ -8555,6 +8574,7 @@ LEXICON VerbStems
 кир V-INFL-IV-NO-CAUS ; ! "enter"
 кир V-INFL-TV ;
 кир:киргиз V-INFL-IV-IRREG-CAUS ; ! "put in, enter (e.g. data)"
+кир:киргиз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "put in, enter (e.g. data)"
 кооздо V-INFL-TV ; 
 чыда V-INFL-TV ; ! "put up with"
 чыда V-INFL-IV ; ! "be patient"
@@ -8643,6 +8663,7 @@ LEXICON VerbStems
 түтө V-INFL-IV ; 
 түш V-INFL-IV-NO-CAUS ; ! "fall"
 түш:түшүр V-INFL-IV-IRREG-CAUS ; ! "to make fall"
+түш:түшүр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "to make fall"
 шаш V-INFL-IV ; ! "hurry"
 төк V-INFL-TV ; 
 төк V-INFL-IV ; 
@@ -8666,6 +8687,7 @@ LEXICON VerbStems
 чумку V-INFL-TV ; 
 чык V-INFL-IV-NO-CAUS ; ! "to exit/leave"
 чык:чыгар V-INFL-IV-IRREG-CAUS ; ! "to take/put/move [object] out"
+чык:чыгар%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "to take/put/move [object] out"
 чөк V-INFL-IV ; 
 шайла V-INFL-TV ; 
 шиши V-INFL-IV ; 
@@ -8683,6 +8705,7 @@ LEXICON VerbStems
 өрттө V-INFL-TV ; 
 өч V-INFL-IV-NO-CAUS ; ! "turn off"
 өч:өчүр V-INFL-IV-IRREG-CAUS ; ! "make turn off"
+өч:өчүр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "make turn off"
 сүр V-INFL-TV ;
 сиңир V-INFL-TV ;
 уч V-INFL-IV ;
@@ -8690,6 +8713,7 @@ LEXICON VerbStems
 катыш V-INFL-TV ;
 кат V-INFL-IV-NO-CAUS ; ! "to get hard"
 кат:катыр V-INFL-IV-IRREG-CAUS ; ! "to make hard"
+кат:катыр%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "to make hard"
 сарсанаа% тарт V-INFL-TV ;
 ээле V-INFL-TV ; ! "to occupy"
 корот V-INFL-TV ; ! "to waste"
@@ -8753,7 +8777,9 @@ LEXICON VerbStems
 тааны V-INFL-TV ;
 жет V-INFL-IV-NO-CAUS ; 
 жет:жеткир V-INFL-IV-IRREG-CAUS ;
+жет:жеткир%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ;
 жет:жеткиз V-INFL-IV-IRREG-CAUS ; ! Dir/LR
+жет:жеткиз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! Dir/LR
 иште V-INFL-IV ;  ! "work"
 саймала V-INFL-TV ;
 кештеле V-INFL-TV ;
