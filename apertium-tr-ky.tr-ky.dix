@@ -6,6 +6,7 @@
      <sdef n="adj"       c="Adjective"/>
      <sdef n="post"      c="Postposition"/>
      <sdef n="postp"     c="Postposition trmorph"/>
+     <sdef n="postadv"   c="Postadverbials"/>
      <sdef n="part"      c="Particle"/>
      <sdef n="prn"       c="Pronouns"/>
      <sdef n="np"        c="Proper noun"/>
@@ -104,8 +105,10 @@
 	<e slr="4"><p><l>peki<s n="ij"/></l><r>андай<b/>болсо<s n="ij"/></r></p></e>
 	
 	 <!-- SECTION: Miscellaneous -->
+        <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>эле<s n="postadv"/></r></p></e>
    
         <!-- SECTION: Conjunctions -->
+        <e c="  0"><p><l>ki<s n="cnjsub"/></l><r></r></p></e>
 
 	<e c="  0"><p><l>ve<s n="cnjcoo"/></l><r>жана<s n="cnjcoo"/></r></p></e>	
 	<e c="  0"><p><l>ise<s n="cnjcoo"/></l><r>болсо<s n="cnjcoo"/></r></p></e>
@@ -127,7 +130,6 @@
    	<e c="  0"><p><l>ta<s n="cnjadv"/></l><r>да<s n="cnjadv"/></r></p></e>
         <e slr="1"><p><l>ta<s n="cnjadv"/></l><r>тээ<s n="cnjadv"/></r></p></e>
         <e c="  0"><p><l>ila<s n="cnjcoo"/></l><r>менен<s n="cnjcoo"/></r></p></e>
-        <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>дейсиң<s n="cnjadv"/></r></p></e>
         <e c="  0"><p><l>ya<b/>da<s n="cnjadv"/></l><r>же<b/>болбосо<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>zira<s n="cnjadv"/></l><r>анткени<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>yani<s n="cnjadv"/></l><r>башкача<b/>айтканда<s n="cnjadv"/></r></p></e>
@@ -183,21 +185,20 @@
     <e c="  0"><p><l>herhangi<b/>bir<s n="det"/></l><r>кайсы<b/>бир<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>diğer<s n="det"/></l><r>башка<s n="det"/><s n="ind"/></r></p></e>
     <e slr="1"><p><l>diğer<s n="det"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>birçok<s n="det"/></l><r>бир<b/>далай<s n="det"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>bütün<s n="det"/></l><r>бүт<b/>баары<s n="det"/><s n="ind"/></r></p></e>
+    <e c="  0"><p><l>birçok<s n="det"/></l><r>бир<b/>далай<s n="det"/><s n="qnt"/></r></p></e>
+    <e c="  0"><p><l>bütün<s n="det"/></l><r>бүт<b/>баары<s n="det"/><s n="qnt"/></r></p></e>
     <e slr="1"><p><l>bütün<s n="det"/></l><r>толук<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>birkaç<s n="det"/></l><r>бир<b/>канча<s n="det"/><s n="ind"/></r></p></e>
-   <e c="  0"><p><l>bu<b/>kadar<s n="det"/></l><r>ушунчалык<s n="det"/><s n="ind"/></r></p></e>
-     <e c="  0"><p><l>bir<b/>miktar<s n="det"/></l><r>биртке<s n="det"/><s n="ind"/></r></p></e>
-     <e c="  0"><p><l>o<b/>kadar<s n="det"/></l><r>анчалык<s n="det"/><s n="ind"/></r></p></e>
+     <e c="  0"><p><l>bir<b/>miktar<s n="det"/></l><r>биртке<s n="det"/><s n="qnt"/></r></p></e>
+     <e c="  0"><p><l>o<b/>kadar<s n="det"/></l><r>анчалык<s n="det"/><s n="qnt"/></r></p></e>
      <e c="  0"><p><l>tüm<s n="det"/></l><r>бардык<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>herhangi<s n="det"/></l><r>ар<b/>ким<s n="det"/><s n="ind"/></r></p></e>
-     <e c="  0"><p><l>birçok<s n="det"/></l><r>бир<b/>далай<s n="det"/><s n="ind"/></r></p></e>
+     <e c="  0"><p><l>birçok<s n="det"/></l><r>бир<b/>далай<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>aynı<s n="det"/></l><r>бирдей<s n="det"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>bu<b/>kadar<s n="det"/></l><r>ушунчалык<s n="det"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>birtakım<s n="det"/></l><r>бир<b/>катар<s n="det"/><s n="ind"/></r></p></e>
+    <e c="  0"><p><l>bu<b/>kadar<s n="det"/></l><r>ушунчалык<s n="det"/><s n="qnt"/></r></p></e>
+    <e c="  0"><p><l>birtakım<s n="det"/></l><r>бир<b/>катар<s n="det"/><s n="qnt"/></r></p></e>
    
-    <e c="  0"><p><l>bir<b/>kısım<s n="det"/></l><r>бир<b/>бөлүк<s n="det"/><s n="ind"/></r></p></e>
+    <e c="  0"><p><l>bir<b/>kısım<s n="det"/></l><r>бир<b/>бөлүк<s n="det"/><s n="qnt"/></r></p></e>
     
     <e c="  0"><p><l>birkaç<b/>tane<s n="det"/></l><r>бир<b/>канча<b/>даана<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>öteki<s n="det"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
