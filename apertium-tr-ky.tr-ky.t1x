@@ -68,6 +68,13 @@
       <cat-item tags="v.*.part_yan"/>
     </def-cat>
 
+     <def-cat n="v_cv_eli">
+      <cat-item tags="v.cv_eli.*"/>
+      <cat-item tags="v.cv_eli"/>
+      <cat-item tags="v.*.cv_eli.*"/>
+      <cat-item tags="v.*.cv_eli"/>
+    </def-cat>
+
      <def-cat n="v_cv_erek">
       <cat-item tags="v.cv_erek.*"/>
       <cat-item tags="v.cv_erek"/>
@@ -1154,6 +1161,41 @@
             <lit-tag v="vaux.ger_perf"/>
             <var n="c_poss"/>
             <var n="c_case"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="regla: v_cv_eli">
+      <pattern>
+        <pattern-item n="v_cv_eli"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <let>
+          <var n="c_post"/>
+          <concat>
+            <lit v=" ^бери"/>
+            <lit-tag v="post"/>
+            <lit v="$"/>
+          </concat>
+        </let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="neg"/>
+            <lit-tag v="ger_past.abl"/>
+            <clip pos="1" side="tl" part="lemq"/>
           </lu>
           <var n="c_post"/>
         </out>
