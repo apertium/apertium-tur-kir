@@ -818,8 +818,9 @@ LEXICON V-INFL-NON-FINITE-REG
 !  Imperatives
 
 %<imp%>%<p2%>%<sg%>: # ;
+%<imp%>%<p2%>%<sg%>:%>%{I%}ң # ;                            ! dialectal ! Dir/LR
 %<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң%{I%}з # ;
-%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң # ;                      ! Dir/LR
+%<imp%>%<p2%>%<frm%>%<sg%>:%>%{I%}ң # ;                     ! dialectal ! Dir/LR
 %<imp%>%<p2%>%<frm%>%<pl%>:%>%{I%}ң%{I%}з%>%{L%}%{A%}р # ;
 
 !  Optative/jussive forms
@@ -1111,13 +1112,14 @@ LEXICON Determiners
 бүт% баары DET-QNT ;
 бир% канча DET-QNT ;
 ушунчалык DET-QNT ;
+ошончолук DET-QNT ;
+анчалык DET-QNT ;
 биртке DET-QNT ;
 анчалык DET-QNT ;
 бардык DET-QNT ;
 ар% ким DET-IND ;
 кайсы% бир DET-IND ;
 бирдей DET-IND ;
-ушунчалык DET-QNT ;
 бир% катар DET-QNT ;
 толук DET-QNT ;
 бир% бөлүк DET-QNT ;
@@ -4457,7 +4459,6 @@ LEXICON NounStems
 оппозиция N-INFL ;
 сан N-INFL ;
 апрель N-INFL ;
-болжол% менен N-INFL ;
 жаша N-INFL ;
 жашасын N-INFL ;
 чек N-INFL ;
@@ -6119,7 +6120,7 @@ kanal N-INFL ;
 жардык N-INFL ;
 өзгөчөлүк N-INFL ;
 кайгылуу N-INFL ;
-болжолдуу N-INFL ;
+болжолдуу N-INFL ;  ! "vague"
 катмар N-INFL ;
 стадион N-INFL ;
 чыныгы N-INFL ;
@@ -6227,7 +6228,6 @@ kanal N-INFL ;
 тартыш N-INFL ;
 кара% куурай N-INFL ;
 чеп N-INFL ;
-болжолдуу N-INFL ;
 тизе% үстүндө% колдонулган N-INFL ;
 эскертүү N-INFL ;
 асты N-INFL ;
@@ -7704,7 +7704,6 @@ LEXICON AdjecStems
 суткалык ADJ ; ! ""
 температуралык ADJ ; ! "" 
 термикалык ADJ ; ! 
-ушунчалык ADJ ; ! ""
 ферганалык ADJ ; ! ""
 физикалык ADJ ; ! ""
 энергетикалык ADJ ; ! ""
@@ -8251,7 +8250,7 @@ LEXICON AdvStems
 жок% дегенде ADV ;
 түздөн% түз ADV ;
 ошоногу ADV ;
-болжол% менен ADV ;
+болжол% менен ADV ;  ! "or so"
 байкабай ADV ;  ! productive -- see bidix
 тим% эле ADV ;
 күмөнсүз ADV ;
@@ -8506,7 +8505,7 @@ LEXICON VerbStems
 буз V-INFL-TV ; 
 бузул V-INFL-IV ; 
 була V-INFL-TV ; 
-бур V-INFL-IV ; 
+бур V-INFL-TV ; 
 буйру V-INFL-IV ; 
 ! бырыштыр V-INFL-TV ;  regular
 бырыш V-INFL-IV ; 
@@ -8526,7 +8525,6 @@ LEXICON VerbStems
 жай V-INFL-TV ; ! "hang out to dry", "spread out"
 жан V-INFL-IV ; 
 жаркыра V-INFL-IV ; 
-жар V-INFL-IV ; 
 жаша V-INFL-IV ; 
 жибер V-INFL-TV ; ! "send"
 тан V-INFL-TV ;
