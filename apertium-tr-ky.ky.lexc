@@ -8425,7 +8425,7 @@ LEXICON VerbStems
 жаса V-INFL-IV ;
 жат V-INFL-IV-NO-CAUS ; ! "lie"
 жат:жаткыз V-INFL-IV-IRREG-CAUS ; ! "lie down"
-жат:жаткыз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS ; ! "be made to lie down"
+жат:жаткыз%>%{I%}%{l%} V-INFL-IV-IRREG-CAUS-PASS ; ! "be made to lie down"
 де V-INFL-TV-SHORT ; ! "say"
 же V-INFL-TV-SHORT ; ! "eat"
 жуу V-INFL-TV-SHORT ; ! "wash"
