@@ -198,6 +198,7 @@ Punctuation ;
 Interjections ;
 Abbreviations ;
 Nationalities ;
+TO-REMOVE ;
 
 
 LEXICON CASES-DEFAULT
@@ -870,12 +871,14 @@ LEXICON V-INFL-TV
 %<v%>%<tv%>: V-INFL-COMMON ;
 %<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                              ! FIXME: When we make it cyclical, this should really be V-INFL-IV
 %<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
+%<v%>%<tv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 %<v%>%<tv%>%<caus%>%<pass%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
 %<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
+%<v%>%<iv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 %<v%>%<iv%>%<caus%>%<pass%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON V-INFL-IV-NO-CAUS
@@ -9733,3 +9736,69 @@ LEXICON Punctuation
 %]%<rpar%>:%] # ;
 %[%<lpar%>:%[ # ;
 %)%<rpar%>:%) # ;
+
+!=============================================================================!
+!
+!=============================================================================!
+
+LEXICON TO-REMOVE 
+
+эчки ADJ ; ! Dir/RL
+эч% бир ; ! Dir/RL
+эскирген ADJ ; ! Dir/RL
+эң% чоң ADJ ; ! Dir/RL
+экспресс ADJ ; ! Dir/RL
+эклектик ADJ ; ! Dir/RL
+эврей ADJ ; ! Dir/RL
+ченемдүү ADJ ; ! Dir/RL
+сезгич ADJ ; ! Dir/RL
+резерв ADJ ; ! Dir/RL
+жалгыз ADJ ; ! Dir/RL
+беркиси ADJ ; ! Dir/RL
+бактылуу ADJ ; ! Dir/RL
+
+этникалык N-INFL ; ! Dir/RL
+эрте N-INFL ; ! Dir/RL
+эпископ N-INFL ; ! Dir/RL
+эң% жогорку N-INFL ; ! Dir/RL
+экологиялык N-INFL ; ! Dir/RL
+экмек N-INFL ; ! Dir/RL
+эгемендик N-INFL ; ! Dir/RL
+эге N-INFL ; ! Dir/RL
+эволюэия N-INFL ; ! Dir/RL
+эвалютсия N-INFL ; ! Dir/RL
+ыйгарымдуу% элчи N-INFL ; ! Dir/RL
+чоңдук N-INFL ; ! Dir/RL
+чейин N-INFL ; ! Dir/RL
+тышкары N-INFL ; ! Dir/RL
+түз N-INFL ; ! Dir/RL
+соңку N-INFL ; ! Dir/RL
+сөзү N-INFL ; ! Dir/RL
+орун N-INFL ; ! Dir/RL
+оор N-INFL ; ! Dir/RL
+негизги N-INFL ; ! Dir/RL
+мурун N-INFL ; ! Dir/RL
+мом N-INFL ; ! Dir/RL
+кыска N-INFL ; ! Dir/RL
+күчү N-INFL ; ! Dir/RL
+котор N-INFL ; ! Dir/RL
+коңгуроо N-INFL ; ! Dir/RL
+көзөмөл% тобу N-INFL ; ! Dir/RL
+керектүү N-INFL ; ! Dir/RL
+иши N-INFL ; ! Dir/RL
+жол% багыты N-INFL ; ! Dir/RL
+жан% сакчы N-INFL ; ! Dir/RL
+жаман N-INFL ; ! Dir/RL
+жалпы N-INFL ; ! Dir/RL
+документалдуу% тасма N-INFL ; ! Dir/RL
+гелин N-INFL ; ! Dir/RL
+бүтүн N-INFL ; ! Dir/RL
+бири-бир N-INFL ; ! Dir/RL
+бирдей N-INFL ; ! Dir/RL
+башкы% эпископ N-INFL ; ! Dir/RL
+байланыштуу N-INFL ; ! Dir/RL
+байкалган N-INFL ; ! Dir/RL
+айуу N-INFL ; ! Dir/RL
+аз N-INFL ; ! Dir/RL
+адабий N-INFL ; ! Dir/RL
+автономиялуу N-INFL ; ! Dir/RL

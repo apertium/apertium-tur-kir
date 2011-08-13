@@ -398,6 +398,8 @@
       <attr-item tags="pass"/>
       <attr-item tags="abil"/>
       <attr-item tags="caus.pass"/>
+      <attr-item tags="caus.caus"/>
+      <attr-item tags="caus.caus.pass"/>
     </def-attr>
 
     <def-attr n="trans">
