@@ -6222,8 +6222,8 @@
 	<e c="  0"><p><l>gül<s n="v"/></l><r>күл<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>uç<s n="v"/></l><r>уч<s n="v"/><s n="iv"/></r></p></e>
 
-	<e c="  0"><p><l>git<s n="v"/></l><r>кет<s n="v"/></r></p><par n="(t|i)v"/></e>
-	<e c="  0"><p><l>arık<s n="v"/></l><r>кет<s n="v"/></r></p><par n="(t|i)v"/></e>
+	<e c="  0"><p><l>git<s n="v"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e> <!-- кет also tv? -->
+	<e c="  0"><p><l>arık<s n="v"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
 
 	<e c="  0"><p><l>çalış<s n="v"/></l><r>иште<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e slr="1"><p><l>çalış<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
@@ -6322,7 +6322,6 @@
 	<e c="  0"><p><l>eş<s n="v"/></l><r>эш<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>ger<s n="v"/></l><r>гэр<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>gir<s n="v"/></l><r>кир<s n="v"/></r></p><par n="(t|i)v"/></e>
-	<e c="  0"><p><l>git<s n="v"/></l><r>кет<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e c="  0"><p><l>giy<s n="v"/></l><r>кий<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>haşla<s n="v"/></l><r>кайнат<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>havla<s n="v"/></l><r>үр<s n="v"/><s n="iv"/></r></p></e>
