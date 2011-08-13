@@ -6262,6 +6262,8 @@ kanal N-INFL ;
 дыйканчылык N-INFL ; ! "farming"
 катын N-INFL ; ! "wife of the хан"
 падыша N-INFL ; ! "Padshah"
+реанимация N-INFL ; ! "reanimation"
+реаниматолог N-INFL ; ! "a doctor who performs reanimation"
 
 LEXICON PropernounStems
 Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
@@ -9677,7 +9679,7 @@ LEXICON Nationalities
 казак NAT ;  ! "Kazakh"
 татар NAT ;  ! "Tatar"
 моңгол NAT ;  ! "Mongol"
-моңгол:монгол NAT ;  ! "Mongol"
+моңгол:монгол NAT ;  ! "Mongol"    ! Dir/LR
 дуңган NAT ;  ! "Dungan"
 кыргыз NAT ; ! "Kyrgyz"
 түрк NAT ; ! "Turkish"
@@ -9694,7 +9696,7 @@ LEXICON Nationalities
 кытай NAT ; ! "Chinese"
 латын NAT ; ! "Latin"
 дунган NAT ; ! "Dungan"
-дунган:дуңган NAT ; ! "Dungan"
+дунган:дуңган NAT ; ! "Dungan"     ! Dir/LR
 
 америка NAT ; ! "American"
 ! америка:американдык NAT ; ! FIXME: this form works in addition to "америкалык"
