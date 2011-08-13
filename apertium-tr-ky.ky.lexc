@@ -4502,7 +4502,6 @@ LEXICON NounStems
 жектүү N-INFL ;
 башкармалык N-INFL ;
 добуш N-INFL ;
-добуш N-INFL ;
 караштуу N-INFL ;
 коом N-INFL ;
 чечим N-INFL ;
@@ -5240,7 +5239,6 @@ LEXICON NounStems
 арачы N-INFL ;
 унаа N-INFL ;
 топурак N-INFL ;
-бир% добуш N-INFL ;
 көз% караш N-INFL ;
 си N-INFL ;
 оюн N-INFL ;
@@ -9019,10 +9017,10 @@ LEXICON VerbStems
 таштап% кет V-INFL-IV ;
 ал V-INFL-TV ;
 кайтарып% бер V-INFL-TV ;
-добуш% ал V-INFL-IV ;
+добуш% ал V-INFL-TV ;
 өкүн V-INFL-IV ;
 кордо V-INFL-TV ;
-добуш% бер V-INFL-IV ;
+добуш% бер V-INFL-TV ;
 өкүлчүлүк% кыл V-INFL-TV ;
 зыян% келтир V-INFL-TV ;
 жетиш V-INFL-IV ;
@@ -9039,7 +9037,7 @@ LEXICON VerbStems
 таян V-INFL-TV ;
 сыйгалан V-INFL-TV ;
 жооп% бер V-INFL-IV ;
-майдала V-INFL-IV ;
+майдала V-INFL-TV ;
 эм V-INFL-TV ;
 жой V-INFL-TV ;
 жумша V-INFL-IV ;
@@ -9056,8 +9054,8 @@ LEXICON VerbStems
 ачылыш% жаса V-INFL-IV ;
 көм V-INFL-TV ;
 кыс V-INFL-TV ;
-уюштур V-INFL-TV ;  ! CHECK: was IV
-сахналаштыр V-INFL-TV ; ! CHECK: was IV
+уюш V-INFL-IV ; 
+сахналаш V-INFL-TV ; ! CHECK: was IV
 күт V-INFL-TV ;
 кириш V-INFL-TV ;
 тартыш V-INFL-TV ;
