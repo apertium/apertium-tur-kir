@@ -112,6 +112,8 @@ Multichar_Symbols
 %<ger_pres%>
 %<ger%>
 %<ger_abs%>       ! "abstract" gerund -- abs means absolutive
+%<ger_notyet%>    ! Not-yet gerund, -E элек
+%<ger_ppot%>      ! Perfective(?) potential gerund
 
 %<vadj_fut%>
 %<vadj_pot2%>
@@ -121,6 +123,7 @@ Multichar_Symbols
 %<vadj_pot%>
 %<vadj_impf%>
 %<vadj_hab%>
+%<vadj_notyet%>  ! Not-yet verbal adjective, -E элек
 
 %<imp%>     ! imperative
 
@@ -133,11 +136,12 @@ Multichar_Symbols
 %<pot%>     ! Potential, -чUдAй
 %<ifi%>     ! Definite past 
 %<fut%>     ! Future tense, -AAр
-%<pp%>      ! Past participle, -GAн
-%<pp2%>     ! Past participle, -GAнI
-%<plist%>   ! Listing participle
-%<inf%>     ! Verbal noun, -үү
-%<inf2%>    ! Verbal noun, -иш
+%<notyet%>  ! Not-yet tense, -E элек
+! %<pp%>      ! Past participle, -GAн
+! %<pp2%>     ! Past participle, -GAнI
+! %<plist%>   ! Listing participle
+! %<inf%>     ! Verbal noun, -үү
+! %<inf2%>    ! Verbal noun, -иш
 
 %<sent%>    ! Sentence marker
 %<guio%>    ! Hyphen
@@ -762,6 +766,10 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%с POSSESSION ;              !
 %<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%{A%}с POSSESSION ;          ! Dir/LR
 
+%<ger_ppot%>:%>%{A%}р%>л{I}к POSSESSION ;                     ! Dir/LR
+%<ger_ppot%>:%>%{A%}%{A%}р%>л{I}к POSSESSION ;
+
+
 ! Verbal Adjectives
 %<vadj_fut%>:%>%{A%}р V-ADJ ;
 %<vadj_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
@@ -788,15 +796,15 @@ LEXICON V-INFL-NON-FINITE-REG
 %<ger_pres%>:%>%{I%}ш POSSESSION ;    ! <coop> IS only
 %<ger%>:%>%{U%}%{U%} POSSESSION ;     ! <coop> IS only
 %<ger_abs%>:%>%{U%}%{U%}%>ч%{I%}%>%{L%}%{I%}к POSSESSION ;     ! <coop> IS only
+%<ger_notyet%>:%>{E%}% элек POSSESSION ;
 
 ! Verbal adjectives 
 %<vadj_past%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay
 %<vadj%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay  ! both past (or perf?) and general
-!%<vadj_pot%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
 %<vadj_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
 !%<vadj_impf%>:%>%{E%}% турган V-ADJ ;       ! Done already by <prt_impf> тур<vaux><ger_past>
-!%<vadj_????%>:%>%{U%}%{U%}%>ч%{U%} ADJ ;                      ! TODO: find name
 %<vadj_pot%>:%>%{U%}%{U%}%>ч%{U%} V-ADJ ;
+%<vadj_notyet%>:%>{E%}% элек V-ADJ ;
 
 !  Imperatives
 
@@ -833,6 +841,7 @@ LEXICON V-INFL-FINITE
 %<pih%>:%>ч%{U%} V-PERS-COP-SUF ;                                 ! 
 %<pot%>:%>ч%{U%}%>д%{A%}й V-PERS-COP-SUF ;                        ! 
 %<pcond%>:%>м%{A%}к V-PERS-COP-SUF ;                              ! 
+%<notyet%>:%>{E%}% элек V-PERS-COP-SUF ;                          ! 
 
 !%<neg%>%<pres%>:%>%{B%}%{A%} V-PERS-PRES ;                    ! TODO: Check  (WTF is this?)
 !%<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}р V-PERS-COP ;              !
@@ -1947,7 +1956,7 @@ LEXICON NounStems
 калк N-INFL ; 
 журт N-INFL ; 
 кол N-INFL ; 
-элек N-INFL ; ! what?
+элек N-INFL ; ! a sieve (?)
 электролит N-INFL ; 
 электроника N-INFL ; 
 электроскоп N-INFL ; 
