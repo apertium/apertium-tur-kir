@@ -241,7 +241,6 @@ LEXICON GEN-POS
 CASES ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
 %<rloc%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
-%<rloc%>:%>%{D%}%{A%}г%{I%} # ;
 !%<rloc%>:%>%{D%}%{A%}г%{I%} CASES ;
 !%<rloc%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
 
@@ -249,7 +248,6 @@ LEXICON GEN-POS-PX12SG
 CASES-PX12SG ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
 %<rloc%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
-%<rloc%>:%>%{D%}%{A%}г%{I%} # ;
 ! %<rloc%>:%>%{D%}%{A%}г%{I%} CASES ;
 !%<rloc%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
 
@@ -297,23 +295,23 @@ N-INFL-COMMON ;
 
 LEXICON NP-COG-MF
 
-%<np%>%<cog%>%<mf%>: CASES  ;
+%<np%>%<cog%>%<mf%>: POSSESSION ;
 
 LEXICON NP-COG-M
 
-%<np%>%<cog%>%<m%>: CASES  ;
+%<np%>%<cog%>%<m%>: POSSESSION ;
 
 LEXICON NP-COG-F
 
-%<np%>%<cog%>%<f%>: CASES  ;
+%<np%>%<cog%>%<f%>: POSSESSION ;
 
 LEXICON NP-ANT-M
 
-%<np%>%<ant%>%<m%>: CASES  ;
+%<np%>%<ant%>%<m%>: POSSESSION ;
 
 LEXICON NP-ANT-F
 
-%<np%>%<ant%>%<f%>: CASES ;
+%<np%>%<ant%>%<f%>: POSSESSION ;
 
 LEXICON NP-ORG
 
@@ -359,6 +357,7 @@ LEXICON ADJ-DAGI
 ! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of N-INFL
 !%<n%>: N-INFL ;
 %<adj%>%<pst%>: # ;
+# ;
 
 LEXICON V-ADJ
 
@@ -661,6 +660,7 @@ V-CLIT ;  ! TODO: I guess these aren't technically necessary?
 LEXICON V-CLIT 
 
 !! Modal/discourse particles
+%+бы%<mod_qst%>:%>%{B%}%{I%} V-PERS-COP ; ! CHECK
 %+бы%<mod_qst%>:%>%{B%}%{I%} # ;
 %+беле%<mod_qst%>:% беле # ;
 %+бекен%<mod_qst%>:% бекен # ;
@@ -862,10 +862,17 @@ LEXICON V-INFL-FINITE
 LEXICON V-INFL-TV-SHORT
 
 %<v%>%<tv%>: V-INFL-COMMON ;
+%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                              ! FIXME: When we make it cyclical, this should really be V-INFL-IV
+%<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
+%<v%>%<tv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
+%<v%>%<tv%>%<caus%>%<pass%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON V-INFL-IV-SHORT
 
 %<v%>%<iv%>: V-INFL-COMMON ;
+%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
+%<v%>%<iv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
+%<v%>%<iv%>%<caus%>%<pass%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON V-INFL-TV
 
@@ -4037,7 +4044,6 @@ LEXICON NounStems
 эс% тутум N-INFL ; 
 апта N-INFL ; 
 хахам N-INFL ; 
-хан N-INFL ; 
 калыс N-INFL ; 
 сот N-INFL ; 
 акы N-INFL ; 
@@ -4346,7 +4352,7 @@ LEXICON NounStems
 кафедра N-INFL ;
 кандидат N-INFL ;
 электрон N-INFL ;
-Хан N-INFL ;
+хан N-INFL ;
 окуя N-INFL ;
 жигит N-INFL ;
 өндүрүш N-INFL ;
@@ -5439,7 +5445,6 @@ LEXICON NounStems
 кабарчы N-INFL ;
 марка N-INFL ;
 идиш N-INFL ;
-бала N-INFL ;
 еге N-INFL ;
 аралык N-INFL ;
 логистикалык N-INFL ;
@@ -6136,7 +6141,6 @@ kanal N-INFL ;
 этияттык N-INFL ;
 арзуу N-INFL ;
 таң% калуу N-INFL ;
-хан N-INFL ;
 ! байкалган N-INFL ; ! productive
 кыймылсыз% мүлк N-INFL ;
 фрегат N-INFL ;
@@ -6912,7 +6916,6 @@ Tеңир NP-TOP ; ! ""
 Кузманович NP-COG-MF ;
 Лазаревич NP-COG-MF ;
 Лакжевич NP-COG-MF ;
-Лахей NP-COG-MF ;
 Лепосавич NP-COG-MF ;
 Лилич NP-COG-MF ;
 Лозанжич NP-COG-MF ;
@@ -9723,6 +9726,8 @@ LEXICON Nationalities
 LEXICON Punctuation
 
 .%<sent%>:. # ;
+..%<sent%>:.. # ;
+...%<sent%>:... # ;
 %;%<sent%>:%; # ;
 %:%<sent%>:%: # ;
 %!%<sent%>:%! # ;
@@ -9741,7 +9746,7 @@ LEXICON Punctuation
 %)%<rpar%>:%) # ;
 
 !=============================================================================!
-!
+! To be checked and moved to the correct continuation lexica
 !=============================================================================!
 
 LEXICON TO-REMOVE 
@@ -9805,3 +9810,5 @@ LEXICON TO-REMOVE
 аз N-INFL ; ! Dir/RL
 адабий N-INFL ; ! Dir/RL
 автономиялуу N-INFL ; ! Dir/RL
+
+бы%<mod_qst%>:бы V-PERS-COP ; ! Dir/RL ! CHECK
