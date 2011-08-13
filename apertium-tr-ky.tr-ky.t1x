@@ -43,6 +43,13 @@
       <cat-item lemma="kendi" tags="prn.*"/>
     </def-cat>
 
+    <def-cat n="v_imp_p2_pl">
+      <cat-item tags="v.imp.2p"/>
+      <cat-item tags="v.*.imp.2p"/>
+      <cat-item tags="v.*.*.imp.2p"/>
+    </def-cat>
+ 
+
     <def-cat n="v_makta">
       <cat-item tags="v.t_makta.*"/>
       <cat-item tags="v.*.t_makta.*"/>
@@ -430,6 +437,7 @@
       <attr-item tags="fut"/>
       <attr-item tags="past"/>
       <attr-item tags="imp"/>
+      <attr-item tags="opt"/>
 
       <attr-item tags="t_obl"/>
       <attr-item tags="t_narr"/>
@@ -1343,6 +1351,32 @@
             <var n="c_case"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: v_imp_p2_pl">
+      <pattern>
+        <pattern-item n="v_imp_p2_pl"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <mlu>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="trans"/>
+              <clip pos="1" side="tl" part="deriv"/>
+              <clip pos="1" side="tl" part="neg"/>
+              <lit-tag v="opt"/>
+              <var n="c_pers"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </mlu>
           <var n="c_post"/>
         </out>
       </action>
