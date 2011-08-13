@@ -190,13 +190,12 @@
     <e slr="1"><p><l>bütün<s n="det"/></l><r>толук<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>birkaç<s n="det"/></l><r>бир<b/>канча<s n="det"/><s n="qnt"/></r></p></e>
      <e c="  0"><p><l>bir<b/>miktar<s n="det"/></l><r>биртке<s n="det"/><s n="qnt"/></r></p></e>
+     <e c="  0"><p><l>o<b/>kadar<s n="det"/></l><r>анчалык<s n="det"/><s n="qnt"/></r></p></e>
      <e c="  0"><p><l>tüm<s n="det"/></l><r>бардык<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>herhangi<s n="det"/></l><r>ар<b/>ким<s n="det"/><s n="ind"/></r></p></e>
      <e c="  0"><p><l>birçok<s n="det"/></l><r>бир<b/>далай<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>aynı<s n="det"/></l><r>бирдей<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>bu<b/>kadar<s n="det"/></l><r>ушунчалык<s n="det"/><s n="qnt"/></r></p></e>
-    <e c="  0"><p><l>o<b/>kadar<s n="det"/></l><r>анчалык<s n="det"/><s n="qnt"/></r></p></e>
-    <e c="  0"><p><l>ne<b/>kadar<s n="det"/></l><r>анчалык<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>birtakım<s n="det"/></l><r>бир<b/>катар<s n="det"/><s n="qnt"/></r></p></e>
    
     <e c="  0"><p><l>bir<b/>kısım<s n="det"/></l><r>бир<b/>бөлүк<s n="det"/><s n="qnt"/></r></p></e>
@@ -6219,7 +6218,7 @@
 	<e slr="2"><p><l>geril<s n="v"/></l><r>толкундан<s n="v"/><s n="iv"/></r></p></e>  
 	<e slr="3"><p><l>geril<s n="v"/></l><r>калчылдан<s n="v"/><s n="iv"/></r></p></e>  
 
-	<e c="  0"><p><l>geç<s n="v"/></l><r>өт<s n="v"/><s n="iv"/></r></p></e>  
+	<e c="  0"><p><l>geç<s n="v"/></l><r>өт<s n="v"/><s n="tv"/></r></p></e>  
 	<e slr="1"><p><l>geç<s n="v"/></l><r>жаз<s n="v"/><s n="tv"/><s n="pass"/></r></p></e> 
 	<e slr="2"><p><l>geç<s n="v"/></l><r>кеч<s n="v"/><s n="tv"/></r></p></e> 
 
@@ -6477,7 +6476,7 @@
 	<e c="  0"><p><l>unut<s n="v"/></l><r>унут<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>kullan<s n="v"/></l><r>колдон<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>kaydol<s n="v"/></l><r>жазыл<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>karşılaş<s n="v"/></l><r>салыштыр<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>karşılaş<s n="v"/></l><r>салыштыр<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>kalk<s n="v"/></l><r>тур<s n="v"/><s n="iv"/></r></p></e>
 	<e slr="1"><p><l>kalk<s n="v"/></l><r>көтөр<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>gülümse<s n="v"/></l><r>жылмай<s n="v"/><s n="iv"/></r></p></e>
@@ -6515,7 +6514,7 @@
 	<e c="  0"><p><l>tanı<s n="v"/></l><r>тааны<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>er<s n="v"/></l><r>жет<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>çıkar<s n="v"/></l><r>чыгар<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>işle<s n="v"/></l><r>иште<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>işle<s n="v"/></l><r>кооздо<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="1"><p><l>işle<s n="v"/></l><r>саймала<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="2"><p><l>işle<s n="v"/></l><r>кештеле<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>kazan<s n="v"/></l><r>пайда<b/>тап<s n="v"/><s n="tv"/></r></p></e>
@@ -6672,7 +6671,7 @@
 	<e c="  0"><p><l>temizle<s n="v"/></l><r>тазала<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>kaçın<s n="v"/></l><r>баш<b/>тарт<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>yat<s n="v"/></l><r>жат<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>odakla<s n="v"/></l><r>мээле<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>odakla<s n="v"/></l><r>мээле<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>kar<s n="v"/></l><r>кош<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="1"><p><l>kar<s n="v"/></l><r>аралаштыр<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>bombala<s n="v"/></l><r>бомбала<s n="v"/><s n="tv"/></r></p></e>
@@ -6787,8 +6786,8 @@
     <e c="  0"><p><l>yanıtla<s n="v"/></l><r>жооп<b/>бер<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>parçala<s n="v"/></l><r>майдала<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>em<s n="v"/></l><r>эм<s n="v"/><s n="tv"/></r></p></e>
-    <e c="  0"><p><l>katlet<s n="v"/></l><r>өлтүр<s n="v"/><s n="iv"/></r></p></e>
-    <e c="  0"><p><l>lağvet<s n="v"/></l><r>жой<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>katlet<s n="v"/></l><r>өл<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
+    <e c="  0"><p><l>lağvet<s n="v"/></l><r>жой<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>yumuşa<s n="v"/></l><r>жумша<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>çözümle<s n="v"/></l><r>анализде<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>emret<s n="v"/></l><r>буйрук<b/>бер<s n="v"/><s n="iv"/></r></p></e>
@@ -6812,12 +6811,12 @@
     <e c="  0"><p><l>körükle<s n="v"/></l><r>көрүктө<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>çiğne<s n="v"/></l><r>чайна<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>sözleş<s n="v"/></l><r>макулдаш<s n="v"/><s n="iv"/></r></p></e>
-    <e c="  0"><p><l>kirala<s n="v"/></l><r>арендага<b/>ал<s n="v"/><s n="iv"/></r></p></e> 
+    <e c="  0"><p><l>kirala<s n="v"/></l><r>арендага<b/>ал<s n="v"/><s n="tv"/></r></p></e> 
     <e c="  0"><p><l>bat<s n="v"/></l><r>чөк<s n="v"/><s n="iv"/></r></p></e>
     <e slr="1"><p><l>bat<s n="v"/></l><r>сайыл<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>yüzleş<s n="v"/></l><r>жүздөш<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>kuşat<s n="v"/></l><r>курча<s n="v"/><s n="iv"/></r></p></e>
-    <e c="  0"><p><l>gölgele<s n="v"/></l><r>көлөкөлө<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>gölgele<s n="v"/></l><r>көлөкөлө<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>aksa<s n="v"/></l><r>бузул<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>alıkoy<s n="v"/></l><r>кармап<b/>тур<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>devril<s n="v"/></l><r>кулатыл<s n="v"/><s n="iv"/></r></p></e>
@@ -6874,8 +6873,8 @@
      <e c="  0"><p><l>yanaş<s n="v"/></l><r>жакында<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>toparla<s n="v"/></l><r>жыйна<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>rahatla<s n="v"/></l><r>жеңилде<s n="v"/><s n="iv"/></r></p></e>
-     <e c="  0"><p><l>feshet<s n="v"/></l><r>жой<s n="v"/><s n="iv"/></r></p></e>
-     <e c="  0"><p><l>ele<s n="v"/></l><r>эле<s n="v"/><s n="iv"/></r></p></e>
+     <e c="  0"><p><l>feshet<s n="v"/></l><r>жой<s n="v"/><s n="tv"/></r></p></e>
+     <e c="  0"><p><l>ele<s n="v"/></l><r>эле<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>cezbet<s n="v"/></l><r>өзүңө<b/>тарт<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>alış<s n="v"/></l><r>көн<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>yıl<s n="v"/></l><r>корк<s n="v"/><s n="iv"/></r></p></e>
@@ -6911,7 +6910,7 @@
      <e c="  0"><p><l>döşe<s n="v"/></l><r>төшө<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>doku<s n="v"/></l><r>току<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>cay<s n="v"/></l><r>баш<b/>тарт<s n="v"/><s n="iv"/></r></p></e>
-     <e c="  0"><p><l>kıyasla<s n="v"/></l><r>салыштыр<s n="v"/><s n="iv"/></r></p></e>
+     <e c="  0"><p><l>kıyasla<s n="v"/></l><r>салыштыр<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>kayır<s n="v"/></l><r>камкордук<b/>көр<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>kas<s n="v"/></l><r>кыскар<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
      <e c="  0"><p><l>ez<s n="v"/></l><r>эз<s n="v"/><s n="tv"/></r></p></e>
@@ -6971,7 +6970,7 @@
      <e c="  0"><p><l>silahlan<s n="v"/></l><r>куралдан<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>listele<s n="v"/></l><r>тизмеле<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>kızış<s n="v"/></l><r>кызып<b/>кет<s n="v"/><s n="iv"/></r></p></e>
-     <e c="  0"><p><l>kabullen<s n="v"/></l><r>кабыл<b/>ал<s n="v"/><s n="iv"/></r></p></e>
+     <e c="  0"><p><l>kabullen<s n="v"/></l><r>кабыл<b/>ал<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>çarpıt<s n="v"/></l><r>бурмала<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>abar<s n="v"/></l><r>көп<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>yuvala<s n="v"/></l><r>уяла<s n="v"/><s n="iv"/></r></p></e>
@@ -6987,7 +6986,7 @@
      <e c="  0"><p><l>sıva<s n="v"/></l><r>шыба<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>sakın<s n="v"/></l><r>сактан<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>lekele<s n="v"/></l><r>кирде<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
-     <e c="  0"><p><l>kaygılan<s n="v"/></l><r>сарсанаа<b/>бол<s n="v"/><s n="iv"/></r></p></e>
+     <e c="  0"><p><l>kaygılan<s n="v"/></l><r>сарсанаа<b/>бол<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>işaretle<s n="v"/></l><r>ышаарат<b/>бер<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>demirle<s n="v"/></l><r>темирле<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>defnet<s n="v"/></l><r>сөөктү<b/>кой<s n="v"/><s n="tv"/></r></p></e>
@@ -7315,13 +7314,13 @@
       <e c="  0"><p><l>kızakla<s n="v"/></l><r>тайгалан<s n="v"/><s n="iv"/></r></p></e>
       <e c="  0"><p><l>kıvra<s n="v"/></l><r>чатышып<b/>кал<s n="v"/><s n="tv"/></r></p></e>
       <e c="  0"><p><l>kireçle<s n="v"/></l><r>акта<s n="v"/><s n="tv"/></r></p></e>
-      <e c="  0"><p><l>kırbaçla<s n="v"/></l><r>камчы<b/>ур<s n="v"/><s n="iv"/></r></p></e>
+      <e c="  0"><p><l>kırbaçla<s n="v"/></l><r>камчы<b/>ур<s n="v"/><s n="tv"/></r></p></e>
       <e c="  0"><p><l>kesiş<s n="v"/></l><r>кесиш<s n="v"/><s n="tv"/></r></p></e>
        <e c="  0"><p><l>kenetle<s n="v"/></l><r>чырма<s n="v"/><s n="tv"/></r></p></e>
       <e c="  0"><p><l>kemir<s n="v"/></l><r>кемир<s n="v"/><s n="tv"/></r></p></e>
       <e c="  0"><p><l>kelepçele<s n="v"/></l><r>кишенде<s n="v"/><s n="tv"/></r></p></e>
       <e c="  0"><p><l>karmaş<s n="v"/></l><r>чач<s n="v"/><s n="tv"/><s n="pass"/></r></p></e>
-      <e c="  0"><p><l>kap<s n="v"/></l><r>жулуп<b/>ал<s n="v"/><s n="iv"/></r></p></e>
+      <e c="  0"><p><l>kap<s n="v"/></l><r>жулуп<b/>ал<s n="v"/><s n="tv"/></r></p></e>
       <e slr="1"><p><l>kap<s n="v"/></l><r>сууруп<b/>ал<s n="v"/><s n="tv"/></r></p></e>
       <e c="  0"><p><l>kapıl<s n="v"/></l><r>кабыл<s n="v"/><s n="tv"/></r></p></e>
       <e c="  0"><p><l>kamçıla<s n="v"/></l><r>камчыла<s n="v"/><s n="tv"/></r></p></e>
