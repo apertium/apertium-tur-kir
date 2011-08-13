@@ -77,7 +77,7 @@
        <e><p><l><s n="tv"/></l><r><s n="tv"/></r></p></e>
        <e><p><l><s n="iv"/></l><r><s n="iv"/></r></p></e>
 -->
-       <e><p><l></l><r><s n="iv"/></r></p></e>
+       <e><p><l></l><r><s n="tv"/></r></p></e>
      </pardef>
    </pardefs>
    <section id="main" type="standard">
@@ -188,7 +188,7 @@
     <e slr="1"><p><l>bütün<s n="det"/></l><r>толук<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>birkaç<s n="det"/></l><r>бир<b/>канча<s n="det"/><s n="ind"/></r></p></e>
    <e c="  0"><p><l>bu<b/>kadar<s n="det"/></l><r>ушунчалык<s n="det"/><s n="ind"/></r></p></e>
-     <e c="  0"><p><l>bir<b/>miktar<s n="det"/></l><r>биртке<s n="det"/><s n="ind"/></r></p></e>
+     <e c="  0"><p><l>bir<b/>miktar<s n="det"/></l><r>биртке<s n="det"/><s n="qnt"/></r></p></e>
      <e c="  0"><p><l>o<b/>kadar<s n="det"/></l><r>анчалык<s n="det"/><s n="ind"/></r></p></e>
      <e c="  0"><p><l>tüm<s n="det"/></l><r>бардык<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>herhangi<s n="det"/></l><r>ар<b/>ким<s n="det"/><s n="ind"/></r></p></e>
@@ -4764,7 +4764,7 @@
         <e><p><l>Ingiltere<s n="np"/><s n="top"/></l><r>Англия<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Irak<s n="np"/><s n="top"/></l><r>Ирак<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Iran<s n="np"/><s n="top"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Ispanya<s n="np"/><s n="top"/></l><r>Испания<s n="n"/><s n="top"/></r></p></e> 
+        <e><p><l>Ispanya<s n="np"/><s n="top"/></l><r>Испания<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Israil<s n="np"/><s n="top"/></l><r>Израил<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Istanbul<s n="np"/><s n="top"/></l><r>Истанбул<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Jakarta<s n="np"/><s n="top"/></l><r>Жакарта<s n="np"/><s n="top"/></r></p></e> 
