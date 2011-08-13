@@ -8014,6 +8014,7 @@ LEXICON AdjecStems
 президенттик ADJ ; ! "presidential"
 тынч ADJ ; ! "quiet, silent, still, peaceful"
 өңдүү ADJ ; ! "colourful, coloured"
+! бүтүндөй ADJ ;  ! composite form
 
 !! FIXME: productive {K}{I} forms
 мурунку ADJ ; ! "old (former)"
@@ -8039,7 +8040,8 @@ LEXICON AdjecStems
 кадимки ADJ ; ! "ordinary"
 соңку ADJ ; ! "final"
 чейинки ADJ ; ! "before"
-бүтүндөй ADJ ;
+тышкы ADJ ; ! "outer"
+ички ADJ ; ! "inner"
 
 LEXICON AdvStems
 
