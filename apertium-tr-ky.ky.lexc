@@ -249,6 +249,7 @@ LEXICON GEN-POS-PX12SG
 CASES-PX12SG ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
 %<rloc%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
+%<rloc%>:%>%{D%}%{A%}г%{I%} # ;
 ! %<rloc%>:%>%{D%}%{A%}г%{I%} CASES ;
 !%<rloc%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
 
