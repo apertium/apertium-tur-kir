@@ -44,9 +44,10 @@
     </def-cat>
 
     <def-cat n="v_imp_p2_pl">
-      <cat-item tags="v.imp.2p"/>
-      <cat-item tags="v.*.imp.2p"/>
-      <cat-item tags="v.*.*.imp.2p"/>
+      <cat-item tags="v.t_imp.2p"/>
+      <cat-item tags="v.*.t_imp.2p"/>
+      <cat-item tags="v.*.*.t_imp.2p"/>
+      <cat-item tags="v.*.*.*.t_imp.2p"/>
     </def-cat>
  
 
@@ -142,8 +143,10 @@
     </def-cat>
 
     <def-cat n="v_cv_acak">
+      <cat-item tags="v.part_acak"/> <!-- no case/poss -->
       <cat-item tags="v.vn_acak"/> <!-- no case/poss -->
       <cat-item tags="v.*.vn_acak"/>
+      <cat-item tags="v.*.part_acak"/>
       <cat-item tags="v.cv_acak"/>
       <cat-item tags="v.*.cv_acak"/>
       <cat-item tags="v.cv_acak.*"/>
@@ -417,6 +420,7 @@
       <attr-item tags="caus"/>
       <attr-item tags="pass"/>
       <attr-item tags="abil"/>
+      <attr-item tags="pass.caus"/>
       <attr-item tags="caus.pass"/>
       <attr-item tags="caus.caus"/>
       <attr-item tags="caus.caus.pass"/>

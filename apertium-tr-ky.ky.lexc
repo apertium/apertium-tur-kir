@@ -488,6 +488,19 @@ LEXICON NUM
 %<num%>%<ord%>:%>%{I%}нч%{I%} POSSESSION ;
 %<num%>%<apprx%>:%>%{D%}%{A%}й POSSESSION ;
 
+LEXICON NUM-ONE
+
+% жүз NUM ; ! "one hundred"
+% миң NUM ; ! "one thousand"
+% миллион NUM ; ! "one million"
+% миллиард NUM ; ! "one billion"
+
+%<num%>: POSSESSION ;
+%<num%>%<ord%>:%>%{I%}нч%{I%} POSSESSION ;
+%<num%>%<apprx%>:%>%{D%}%{A%}й POSSESSION ;
+
+
+
 LEXICON PRON-DEM-BUL
 
 %<prn%>%<dem%>%<nom%>:бул PRED ;
@@ -1172,15 +1185,15 @@ LEXICON Pronouns
 
 LEXICON Numerals 
 
-бир NUM ; ! "one"
-эки NUM ; ! "two"
-үч NUM ; ! "three"
-төрт NUM ; ! "four"
-беш NUM ; ! "five"
-алты NUM ; ! "six"
-жети NUM ; ! "seven"
-сегиз NUM ; ! "eight"
-тогуз NUM ; ! "nine"
+бир NUM-ONE ; ! "one"
+эки NUM-ONE ; ! "two"
+үч NUM-ONE ; ! "three"
+төрт NUM-ONE ; ! "four"
+беш NUM-ONE ; ! "five"
+алты NUM-ONE ; ! "six"
+жети NUM-ONE ; ! "seven"
+сегиз NUM-ONE ; ! "eight"
+тогуз NUM-ONE ; ! "nine"
 он NUM ; ! "ten"
 жыйырма NUM ; ! "twenty"
 отуз NUM ; ! "thirty"
@@ -8760,8 +8773,8 @@ LEXICON VerbStems
 ут V-INFL-IV ;
 жең V-INFL-TV ;
 чогул V-INFL-IV-NO-CAUS ;
-чогул:чогулт V-INFL-IV-NO-CAUS ;
-чогул:чогулдур V-INFL-IV-NO-CAUS ; ! Dir/LR
+чогул:чогулт V-INFL-IV-IRREG-CAUS ;
+чогул:чогулдур V-INFL-IV-IRREG-CAUS ; ! Dir/LR
 кош V-INFL-TV ;
 изде V-INFL-TV ;
 корго V-INFL-TV ;

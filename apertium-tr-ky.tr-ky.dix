@@ -80,6 +80,17 @@
 -->
        <e><p><l></l><r><s n="tv"/></r></p></e>
      </pardef>
+     <pardef n="num_1-9">
+        <e><p><l>bir</l><r>бир<b/></r></p></e>
+        <e><p><l>iki</l><r>эки<b/></r></p></e>
+        <e><p><l>üç</l><r>үч<b/></r></p></e>
+        <e><p><l>dört</l><r>төрт<b/></r></p></e>
+        <e><p><l>beş</l><r>беш<b/></r></p></e>
+        <e><p><l>altı</l><r>алты<b/></r></p></e>
+        <e><p><l>yedi</l><r>жети<b/></r></p></e>
+        <e><p><l>sekiz</l><r>сегиз<b/></r></p></e>
+        <e><p><l>dokuz</l><r>тогуз<b/></r></p></e>
+     </pardef>
    </pardefs>
    <section id="main" type="standard">
         <!-- SECTION: Particles -->
@@ -110,6 +121,8 @@
         <!-- SECTION: Conjunctions -->
         <e c="  0"><p><l>ki<s n="cnjsub"/></l><r></r></p></e>
 
+        <!--<e c="  0"><p><l>olsun<s n="cnjadv"/></l><r>мейли<s n="cnjadv"/></r></p></e>--> <!-- FMT: put this back when you know what it is -->
+
 	<e c="  0"><p><l>ve<s n="cnjcoo"/></l><r>жана<s n="cnjcoo"/></r></p></e>	
 	<e c="  0"><p><l>ise<s n="cnjcoo"/></l><r>болсо<s n="cnjcoo"/></r></p></e>
 	<e c="  0"><p><l>ama<s n="cnjcoo"/></l><r>бирок<s n="cnjcoo"/></r></p></e>
@@ -133,7 +146,6 @@
         <e c="  0"><p><l>ya<b/>da<s n="cnjadv"/></l><r>же<b/>болбосо<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>zira<s n="cnjadv"/></l><r>анткени<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>yani<s n="cnjadv"/></l><r>башкача<b/>айтканда<s n="cnjadv"/></r></p></e>
-   <e c="  0"><p><l>olsun<s n="cnjadv"/></l><r>мейли<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>değer<s n="cnjcoo"/></l><r>татыктуу<s n="cnjcoo"/></r></p></e>
    <e c="  0"><p><l>ne<b/>var<b/>ki<s n="cnjadv"/></l><r>бирок<b/>тилекке<b/>каршы<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>örneğin<s n="cnjadv"/></l><r>мисалы<s n="cnjadv"/></r></p></e>
@@ -293,9 +305,13 @@
 	<e c="  0"><p><l>seksen<s n="num"/></l><r>сексен<s n="num"/></r></p></e>
 	<e c="  0"><p><l>doksan<s n="num"/></l><r>токсон<s n="num"/></r></p></e>
 	<e c="  0"><p><l>yüz<s n="num"/></l><r>жүз<s n="num"/></r></p></e>
+	<e c="  0"><par n="num_1-9"/><p><l>yüz<s n="num"/></l><r>жүз<s n="num"/></r></p></e>
 	<e c="  0"><p><l>bin<s n="num"/></l><r>миң<s n="num"/></r></p></e>
+	<e c="  0"><par n="num_1-9"/><p><l>bin<s n="num"/></l><r>миң<s n="num"/></r></p></e>
 	<e c="  0"><p><l>milyon<s n="num"/></l><r>миллион<s n="num"/></r></p></e>
+	<e c="  0"><par n="num_1-9"/><p><l>milyon<s n="num"/></l><r>миллион<s n="num"/></r></p></e>
 	<e c="  0"><p><l>milyar<s n="num"/></l><r>миллиард<s n="num"/></r></p></e>
+	<e c="  0"><par n="num_1-9"/><p><l>milyar<s n="num"/></l><r>миллиард<s n="num"/></r></p></e>
         <e c="  0"><p><l>sıfır<s n="num"/></l><r>ноль<s n="num"/></r></p></e>
       <e c="  0"><p><l>oniki<s n="num"/></l><r>он<b/>эки<s n="num"/></r></p></e>
       <e c="  0"><p><l>onbir<s n="num"/></l><r>он<b/>бир<s n="num"/></r></p></e>
@@ -5150,6 +5166,9 @@
     
         <!-- SECTION: Adjectives -->
 
+	<!--<e c="  0"><p><l>tüm<s n="adj"/></l><r>бүтүндөй<s n="adj"/></r></p></e>--> <!-- FMT: put this back when you know what it is -->
+        <e c="  0"><p><l>büsbütün<s n="adv"/></l><r>бүтүндөй<s n="adv"/></r></p></e>
+
 	<e c="  0"><p><l>güzel<s n="adj"/></l><r>сулуу<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>kız<s n="adj"/></l><r>кыз<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>bol<s n="adj"/></l><r>кеңири<s n="adj"/></r></p></e>
@@ -5337,7 +5356,6 @@
 	<e slr="1"><p><l>bazı<s n="adj"/></l><r>айрым<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>kamu<s n="adj"/></l><r>коомчулуктуу<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>mevcut<s n="adj"/></l><r>камтылган<s n="adj"/></r></p></e>
-	<e c="  0"><p><l>tüm<s n="adj"/></l><r>бүтүндөй<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>gelecek<s n="adj"/></l><r>келечек<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>sivil<s n="adj"/></l><r>граждандык<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>bağımsız<s n="adj"/></l><r>көз<b/>карандысыз<s n="adj"/></r></p></e>
@@ -6172,7 +6190,6 @@
    <e c="  0"><p><l>eğreti<s n="adv"/></l><r>кыска<b/>убакта<s n="adv"/></r></p></e>
    <e c="  0"><p><l>düpedüz<s n="adv"/></l><r>түздөн-түз<s n="adv"/></r></p></e>
    <e c="  0"><p><l>dimdik<s n="adv"/></l><r>тип-тик<s n="adv"/></r></p></e>
-   <e c="  0"><p><l>büsbütün<s n="adv"/></l><r>бүтүндөй<s n="adv"/></r></p></e>
    <e c="  0"><p><l>birazcık<s n="adv"/></l><r>кичине<s n="adv"/></r></p></e>
    <e c="  0"><p><l>besbelli<s n="adv"/></l><r>апачык<s n="adv"/></r></p></e>
    <e c="  0"><p><l>ansızın<s n="adv"/></l><r>күтүүсүздөн<s n="adv"/></r></p></e>
