@@ -23,12 +23,12 @@
    4919 <v><vn_mak><acc>					<v><@T@><ger><acc>
    4891 <v><cv_acak>						<v><@T@><prt_impf> тур<vaux><ger_perf><nom>
    4853 <v><vn_acak><@POSS@><acc>				<v><@T@><prt_impf> тур<vaux><ger_perf><@POSS@><acc>
-   4328 <v><vn_mak>
-   4172 <v><caus><cv_ma>
-   4008 <v><part_dik><@POSS@>
-   3579 <v><t_narr><cpl_di><@PERS@>
-   3232 <v><vn_yis>
-   3151 <v><caus><pass><t_past><@PERS@>
+   4328 <v><vn_mak>						<v><@T@><ger><nom>
+   4172 <v><caus><cv_ma>					<v><@T@><caus><ger><nom>
+   4008 <v><part_dik><@POSS@>					<v><@T@><ger_past><@POSS><nom>
+   3579 <v><t_narr><cpl_di><@PERS@>				<v><@T@><ifi><@PERS@>
+   3232 <v><vn_yis>						<v><@T@><ger><nom>
+   3151 <v><caus><pass><t_past><@PERS@>				
    3134 <v><pass><t_fut><@PERS@>
    2957 <v><t_opt><@PERS@>
    2794 <v><caus><pass><cv_ma><@POSS@>
