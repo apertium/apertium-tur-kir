@@ -8483,6 +8483,7 @@ LEXICON VerbStems
 үйрөн V-INFL-TV ;
 өл V-INFL-IV ; ! "die"
 
+өт V-INFL-TV ; ! "conduct"
 өт V-INFL-IV-NO-CAUS ; ! "pass"
 өт:өткөр V-INFL-IV-IRREG-CAUS ; ! "pass"
 өт:өткөз V-INFL-IV-IRREG-CAUS ; ! "pass"  ! Dir/LR
@@ -8597,6 +8598,7 @@ LEXICON VerbStems
 мыйооло V-INFL-IV ; ! "meow"
 оз V-INFL-IV ; 
 ойно V-INFL-IV ; ! "play"
+ойно V-INFL-TV ; ! "play"
 окшо V-INFL-TV ; 
 онто V-INFL-IV ; 
 ор V-INFL-TV ; 
@@ -8610,6 +8612,7 @@ LEXICON VerbStems
 сайра V-INFL-IV ; 
 салаңда V-INFL-IV ; 
 сез V-INFL-IV ; ! "feel"
+сез V-INFL-TV ; ! "feel/sense"
 сик V-INFL-TV ; 
 сиң V-INFL-IV ; 
 сугар V-INFL-TV ; 
@@ -8619,6 +8622,7 @@ LEXICON VerbStems
 сүз V-INFL-TV ; 
 сүз V-INFL-IV ;
 сүйлө V-INFL-IV ; ! "speak"
+сүйлө V-INFL-TV ; ! "speak on [topic]"
 тааны V-INFL-TV ;
 тааныл V-INFL-TV ; 
 таасир% эт V-INFL-TV ;
@@ -8765,6 +8769,7 @@ LEXICON VerbStems
 жет:жеткир V-INFL-IV-IRREG-CAUS ;
 жет:жеткиз V-INFL-IV-IRREG-CAUS ; ! Dir/LR
 иште V-INFL-IV ;  ! "work"
+иште V-INFL-TV ;  ! "conduct"
 саймала V-INFL-TV ;
 кештеле V-INFL-TV ;
 пайда% тап V-INFL-TV ;
@@ -8932,7 +8937,7 @@ LEXICON VerbStems
 өлчө V-INFL-IV ;
 ишен V-INFL-TV ;
 сурамжыла V-INFL-TV ;
-көп% иште V-INFL-IV ;
+көп% иште V-INFL-IV ;   ! Use/Trmorph
 алек% бол V-INFL-TV ;
 жогол V-INFL-TV ;
 адаш V-INFL-IV ;
