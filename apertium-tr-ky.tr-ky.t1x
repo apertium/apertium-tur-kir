@@ -484,6 +484,15 @@
     </def-attr>
 
   </section-def-attrs>
+  <section-def-vars>
+    <def-var n="c_num"/>
+    <def-var n="c_case"/>
+    <def-var n="c_poss"/>
+    <def-var n="c_deriv"/>
+    <def-var n="c_pers"/>
+    <def-var n="c_post"/>
+    <def-var n="c_tens"/>
+  </section-def-vars>  
 
   <section-def-lists>
     <def-list n="v_iv_with_pass"> <!-- These verbs are default 'iv', but also have 'tv' forms that are less frequent -->
@@ -495,15 +504,6 @@
     </def-list>
   </section-def-lists>
  
-  <section-def-vars>
-    <def-var n="c_num"/>
-    <def-var n="c_case"/>
-    <def-var n="c_poss"/>
-    <def-var n="c_deriv"/>
-    <def-var n="c_pers"/>
-    <def-var n="c_post"/>
-    <def-var n="c_tens"/>
-  </section-def-vars>  
  
   <section-def-macros>
     <def-macro n="f_fix_trans1" npar="1">
@@ -1645,6 +1645,7 @@
         </call-macro>
         <call-macro n="f_fix_trans1">
           <with-param pos="2"/>
+        </call-macro>
         <out>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>

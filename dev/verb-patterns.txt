@@ -70,7 +70,7 @@
     977 <v><pass><cv_mak>
     964 <v><ref><cv_ma>
     956 <v><part_yan><cpl_di><@PERS@>
-    953 <v><rec><t_past><@PERS@>
+    953 <v><rec><t_past><@PERS@>				<v><@T@><coop><ifi><@PERS@>
     934 <v><caus><pass><t_cont><@PERS@>
     915 <v><neg><cv_dik><@POSS@><acc>
     899 <v><caus><vn_mak>
