@@ -2,9 +2,9 @@
   44048 <v><part_yan>						<v><@T@><ger_past><nom>
   24219 <v><pass><part_yan>					<v><@T@><pass><ger_past><nom>
   18618 <v><part_dik><acc>					<v><@T@><ger_past><acc>
-  17759 <v><cv_erek>
-  17269 <v><t_cont><@PERS@>
-  14834 <v><pass><t_past><@PERS@>
+  17759 <v><cv_erek>						<v><@T@><prt_impf>
+  17269 <v><t_cont><@PERS@>					<v><@T@><aor><@PERS@>
+  14834 <v><pass><t_past><@PERS@>				<v><@T@><pass><ifi><@PERS@>
   13226 <v><part_dik><@POSS@><acc>
   11083 <v><cv_dik><@POSS@>
   10852 <v><cv_ma>
