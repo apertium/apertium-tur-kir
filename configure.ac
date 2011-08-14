@@ -28,7 +28,28 @@ AC_DEFUN([PKG_CHECK_APERTIUM], [
                           
 PKG_CHECK_APERTIUM
 
-PKG_CHECK_MODULES(HFST, hfst >= 3.0.0)
+#AC_DEFUN([PKG_CHECK_HFST], [
+#  HFST_VER=0
+#  PKG_CHECK_MODULES(HFST, hfst-3.2 >= 3.2.0,
+#  [
+#      HFST_VER=32
+#  ],
+#  [
+#      PKG_CHECK_MODULES(HFST, hfst-3.1 >= 3.1.0,
+#      [
+#          HFST_VER=31
+#      ],
+#      [
+#          PKG_CHECK_MODULES(HFST, hfst-3.0 >= 3.0.0,
+#          [
+#              HFST_VER=30
+#          ])
+#      ])
+#  ])
+#  AC_SUBST(HFST_VER)
+#])
+#                          
+#PKG_CHECK_HFST
 
 AC_PATH_PROG(HFSTCALC, hfst-lexc, no)
 if test x$ac_cv_path_HFSTCALC = x
