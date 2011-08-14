@@ -28,35 +28,35 @@
    4008 <v><part_dik><@POSS@>					<v><@T@><ger_past><@POSS><nom>
    3579 <v><t_narr><cpl_di><@PERS@>				<v><@T@><ifi><@PERS@>
    3232 <v><vn_yis>						<v><@T@><ger><nom>
-   3151 <v><caus><pass><t_past><@PERS@>				
-   3134 <v><pass><t_fut><@PERS@>
-   2957 <v><t_opt><@PERS@>
-   2794 <v><caus><pass><cv_ma><@POSS@>
-   2656 <v><cv_iyor>
-   2473 <v><pass><cv_mis>
-   2443 <v><cv_ma><@POSS@><dat>
-   2170 <v><cv_ip>
-   2139 <v><t_aor><@PERS@><cpl_ken>
-   2119 <v><pass><cv_ma><@POSS@><dat>
-   2099 <v><pass><part_dik><acc>
-   2031 <v><part_dik><pl><acc>
-   1989 <v><pass><t_imp><@PERS@>
-   1898 <v><vn_mak><loc>
-   1786 <v><pass><part_dik><@POSS@><acc>
-   1762 <v><vn_acak><acc>
-   1737 <v><cv_mak><ins>
-   1690 <v><part_yan><acc>
-   1690 <v><caus><part_yan>
-   1645 <v><caus><pass><part_yan>
-   1619 <v><cv_mis>
-   1518 <v><pass><cv_erek>
-   1498 <v><pass><t_narr><cpl_di><@PERS@>
-   1489 <v><caus><vn_mak><dat>
-   1403 <v><caus><cv_mak>
-   1350 <v><pass><vn_acak><@POSS@><acc>
-   1319 <v><pass><cv_dik><@POSS@>
-   1293 <v><part_yan><dat>
-   1174 <v><abil><t_aor><@PERS@>					<v><@T@><prt_impf>	ал<v><tv><aor><@PERS@>
+   3151 <v><caus><pass><t_past><@PERS@>				<v><@T@><caus><pass><ifi><@PERS@>
+   3134 <v><pass><t_fut><@PERS@>				<v><@T@><pass><fut><@PERS@>
+   2957 <v><t_opt><@PERS@>					<v><@T@><opt><@PERS@>
+   2794 <v><caus><pass><cv_ma><@POSS@>				<v><@T@><caus><pass><ger><@POSS@><nom>
+   2656 <v><cv_iyor>						<v><@T@><prt_perf> жат<v><iv><ger><@POSS@><nom>
+   2473 <v><pass><cv_mis>					<v><@T@><pass><ger_past><nom>
+   2443 <v><cv_ma><@POSS@><dat>					<v><@T@><ger><@POSS@><dat>
+   2170 <v><cv_ip>						<v><@T@><prt_perf>
+   2139 <v><t_aor><@PERS@><cpl_ken>				
+   2119 <v><pass><cv_ma><@POSS@><dat>				<v><@T@><pass><ger><@POSS@><dat>
+   2099 <v><pass><part_dik><acc>				<v><@T@><pass><ger_past><acc>
+   2031 <v><part_dik><pl><acc>					<v><@T@><pass><ger_past><pl><acc>
+   1989 <v><pass><t_imp><@PERS@>				<v><@T@><pass><imp><@PERS@>
+   1898 <v><vn_mak><loc>					<v><@T@><ger><loc>
+   1786 <v><pass><part_dik><@POSS@><acc>			<v><@T@><pass><ger_past><@POSS@><acc>
+   1762 <v><vn_acak><acc>					<v><@T@><prt_impf> тур<vaux><ger_perf><acc>
+   1737 <v><cv_mak><ins>					<v><@T@><ger><ins>
+   1690 <v><part_yan><acc>					<v><@T@><ger_past><acc>
+   1690 <v><caus><part_yan>					<v><@T@><caus><ger_past><nom>
+   1645 <v><caus><pass><part_yan>				<v><@T@><caus><pass><ger_past><nom>
+   1619 <v><cv_mis>						<v><@T@><ger_past><nom>
+   1518 <v><pass><cv_erek>					<v><@T@><prt_impf>
+   1498 <v><pass><t_narr><cpl_di><@PERS@>			<v><@T@><pass><ifi><@PERS@>
+   1489 <v><caus><vn_mak><dat>					<v><@T@><caus><ger><dat>
+   1403 <v><caus><cv_mak>					<v><@T@><caus><ger><nom>
+   1350 <v><pass><vn_acak><@POSS@><acc>				<v><@T@><pass><prt_impf> тур<vaux><ger_perf><@POSS@><acc>
+   1319 <v><pass><cv_dik><@POSS@>				<v><@T@><pass><ger_past><@POSS@><nom>
+   1293 <v><part_yan><dat>					<v><@T@><ger_past><dat>
+   1174 <v><abil><t_aor><@PERS@>				<v><@T@><prt_impf>	ал<v><tv><aor><@PERS@>
    1168 <v><t_aor><cpl_di><@PERS@>
    1145 <v><caus><t_cont><@PERS@>
    1131 <v><abil><vn_acak><@POSS@><acc>
