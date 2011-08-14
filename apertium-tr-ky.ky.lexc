@@ -1096,6 +1096,7 @@ LEXICON Determiners
 кээбир DET-IND ; ! "some"
 бир DET-IND ; ! "a"
 
+эч% бир DET-QNT ; 
 кээ% бир DET-QNT ; ! "some"
 бир% нече DET-QNT ; ! "some, several"
 көптөгөн DET-QNT ; ! "many"
@@ -7265,7 +7266,6 @@ LEXICON AdjecStems
 батыш ADJ ; 
 күчтүү ADJ ; 
 кичинекей ADJ ; 
-эч% бир DET-QNT ; 
 кээбир ADJ ; 
 айрым ADJ ;
 коомчулуктуу ADJ ;
@@ -9759,7 +9759,6 @@ LEXICON Punctuation
 LEXICON TO-REMOVE 
 
 эчки ADJ ; ! Dir/RL
-эч% бир ; ! Dir/RL
 эскирген ADJ ; ! Dir/RL
 эң% чоң ADJ ; ! Dir/RL
 экспресс ADJ ; ! Dir/RL

@@ -175,7 +175,7 @@
           
 	<!-- SECTION: Determinatives -->
 	<e c="  0"><p><l>bu<s n="det"/></l><r>бул<s n="det"/><s n="dem"/></r></p></e>
-        <e c="  0"><p><l>hiçbir<s n="det"/></l><r>эчбир<s n="det"/><s n="ind"/></r></p></e> 
+	<e c="  0"><p><l>hiçbir<s n="det"/></l><r>эч<b/>бир<s n="det"/><s n="qnt"/></r></p></e>
         <e c="  0"><p><l>her<s n="det"/></l><r>ар<s n="det"/><s n="ind"/></r></p></e> 
         <e c="  0"><p><l>bazı<s n="det"/></l><r>кээбир<s n="det"/><s n="ind"/></r></p></e> 
         <e c="  0"><p><l>bir<s n="det"/></l><r>бир<s n="det"/><s n="ind"/></r></p></e> 
@@ -5252,7 +5252,6 @@
 	<e c="  0"><p><l>batı<s n="adj"/></l><r>батыш<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>güçlü<s n="adj"/></l><r>күчтүү<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>küçük<s n="adj"/></l><r>кичинекей<s n="adj"/></r></p></e>
-	<e c="  0"><p><l>hiçbir<s n="adj"/></l><r>эч<b/>бир<s n="det"/></r></p></e>
 	<e c="  0"><p><l>herhangi<s n="adj"/></l><r>кээбир<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>orta<s n="adj"/></l><r>орто<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>yabancı<s n="adj"/></l><r>жат<s n="adj"/></r></p></e>
