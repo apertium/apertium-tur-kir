@@ -27,10 +27,10 @@ TARGETS_COMMON = $(PREFIX2).automorf.hfst $(PREFIX1).autogen.hfst $(PREFIX1).aut
 	@cat $< | grep -v -e 'Dir/LR' -e 'Use/Circ' | hfst-lexc -o $@
 
 .deps/ky.lexc.morf.hfst: apertium-tr-ky.ky.lexc
-	@cat $< | grep -v 'Dir/RL' | hfst-lexc > $@
+	@cat $< | grep -v 'Dir/RL' | hfst-lexc -o $@
 
 .deps/ky.lexc.gen.hfst: apertium-tr-ky.ky.lexc
-	@cat $< | grep -v 'Dir/LR' | hfst-lexc > $@
+	@cat $< | grep -v 'Dir/LR' | hfst-lexc -o $@
 
 .deps/ky.twol.hfst: apertium-tr-ky.ky.twol
 	hfst-twolc -R -i apertium-tr-ky.ky.twol -o $@
