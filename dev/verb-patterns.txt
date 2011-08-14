@@ -5,8 +5,8 @@
   17759 <v><cv_erek>						<v><@T@><prt_impf>
   17269 <v><t_cont><@PERS@>					<v><@T@><aor><@PERS@>
   14834 <v><pass><t_past><@PERS@>				<v><@T@><pass><ifi><@PERS@>
-  13226 <v><part_dik><@POSS@><acc>				<v><tv><ger_past><@POSS@><acc>
-  11083 <v><cv_dik><@POSS@>					<v><iv><ger_perf><@POSS@><nom>
+  13226 <v><part_dik><@POSS@><acc>				<v><@TV@><ger_past><@POSS@><acc>
+  11083 <v><cv_dik><@POSS@>					<v><@TV@><ger_perf><@POSS@><nom>
   10852 <v><cv_ma>						<v><@TV@><ger><nom>
    8832 <v><pass><cv_ma><@POSS@>				<v><@T@><pass><ger><@POSS@><nom>
    8738 <v><pass><t_cont><@PERS@>				<v><@T@><pass><aor><@PERS@>
