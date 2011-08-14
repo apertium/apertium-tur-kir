@@ -8,8 +8,8 @@
   13226 <v><part_dik><@POSS@><acc>				<v><tv><ger_past><@POSS@><acc>
   11083 <v><cv_dik><@POSS@>					<v><iv><ger_perf><@POSS@><nom>
   10852 <v><cv_ma>						<v><@TV@><ger><nom>
-   8832 <v><pass><cv_ma><@POSS@>
-   8738 <v><pass><t_cont><@PERS@>
+   8832 <v><pass><cv_ma><@POSS@>				<v><@T@><pass><ger><@POSS@><nom>
+   8738 <v><pass><t_cont><@PERS@>				<v><@T@><pass><aor><@PERS@>
    8596 <v><t_aor><@PERS@>
    8577 <v><vn_mak><dat>
    8446 <v><cv_mak>
