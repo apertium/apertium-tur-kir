@@ -78,7 +78,7 @@
        <e><p><l><s n="tv"/></l><r><s n="tv"/></r></p></e>
        <e><p><l><s n="iv"/></l><r><s n="iv"/></r></p></e>
 -->
-       <e><p><l></l><r><s n="iv"/></r></p></e>
+       <e><p><l></l><r><s n="tv"/></r></p></e>
      </pardef>
    </pardefs>
    <section id="main" type="standard">
