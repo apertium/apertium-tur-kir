@@ -60,6 +60,7 @@
     <def-cat n="v_abil">
       <cat-item tags="v.neg.abil.*"/>
       <cat-item tags="v.abil.*"/>
+      <cat-item tags="v.*.abil.*"/>
     </def-cat>
  
     <def-cat n="v_ol_part_yan">
@@ -426,6 +427,10 @@
       <attr-item tags="caus.caus.pass"/>
     </def-attr>
 
+    <def-attr n="abil">
+      <attr-item tags="abil"/>
+    </def-attr>
+ 
     <def-attr n="trans">
       <attr-item tags="iv"/>
       <attr-item tags="TD"/>
@@ -484,6 +489,7 @@
     <def-var n="c_num"/>
     <def-var n="c_case"/>
     <def-var n="c_poss"/>
+    <def-var n="c_deriv"/>
     <def-var n="c_pers"/>
     <def-var n="c_post"/>
     <def-var n="c_tens"/>
@@ -590,6 +596,20 @@
         </when>
         <otherwise>
           <let><var n="c_num"/><clip pos="1" side="tl" part="nbr"/></let>
+        </otherwise>
+      </choose>
+    </def-macro>  
+
+    <def-macro n="f_conv_abil1" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="abil"/><lit-tag v="abil"/></equal>
+          </test>
+          <let><var n="c_deriv"/><lit v=""/></let>
+        </when>
+        <otherwise>
+          <let><var n="c_deriv"/><lit v=""/></let>
         </otherwise>
       </choose>
     </def-macro>  
@@ -1232,12 +1252,15 @@
         <call-macro n="f_conv_poss1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_conv_abil1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <var n="c_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
             <lit-tag v="prt_impf"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -1344,12 +1367,15 @@
         <call-macro n="f_conv_poss1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_conv_abil1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <var n="c_deriv"/>
             <lit-tag v="ger"/>
             <var n="c_poss"/>
             <var n="c_case"/>
@@ -1427,12 +1453,15 @@
         <call-macro n="f_conv_poss1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_conv_abil1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <var n="c_deriv"/>
             <lit-tag v="ger"/>
             <var n="c_poss"/>
             <var n="c_case"/>
@@ -1601,11 +1630,16 @@
         <call-macro n="f_conv_pers_tens1">
           <with-param pos="1"/>
         </call-macro>
+        <let>
+          <clip pos="1" side="tl" part="abil"/>
+          <lit v=""/>
+        </let>
         <out>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <clip pos="1" side="tl" part="trans"/>
+              <clip pos="1" side="tl" part="deriv"/>
               <lit-tag v="prt_impf"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -1874,12 +1908,15 @@
         <call-macro n="f_conv_poss1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_conv_abil1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <var n="c_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
             <lit-tag v="ger"/>
             <var n="c_poss"/>
