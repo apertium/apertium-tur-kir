@@ -1096,7 +1096,7 @@ LEXICON Determiners
 кээбир DET-IND ; ! "some"
 бир DET-IND ; ! "a"
 
-эч% бир DET-QNT ; 
+эч% бир DET-IND ; ! "no"
 кээ% бир DET-QNT ; ! "some"
 бир% нече DET-QNT ; ! "some, several"
 көптөгөн DET-QNT ; ! "many"

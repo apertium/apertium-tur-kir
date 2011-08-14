@@ -175,7 +175,7 @@
           
 	<!-- SECTION: Determinatives -->
 	<e c="  0"><p><l>bu<s n="det"/></l><r>бул<s n="det"/><s n="dem"/></r></p></e>
-	<e c="  0"><p><l>hiçbir<s n="det"/></l><r>эч<b/>бир<s n="det"/><s n="qnt"/></r></p></e>
+	<e c="  0"><p><l>hiçbir<s n="det"/></l><r>эч<b/>бир<s n="det"/><s n="ind"/></r></p></e>
         <e c="  0"><p><l>her<s n="det"/></l><r>ар<s n="det"/><s n="ind"/></r></p></e> 
         <e c="  0"><p><l>bazı<s n="det"/></l><r>кээбир<s n="det"/><s n="ind"/></r></p></e> 
         <e c="  0"><p><l>bir<s n="det"/></l><r>бир<s n="det"/><s n="ind"/></r></p></e> 
