@@ -427,6 +427,10 @@
       <attr-item tags="caus.caus.pass"/>
     </def-attr>
 
+    <def-attr n="pass">
+      <attr-item tags="pass"/>
+    </def-attr>
+
     <def-attr n="abil">
       <attr-item tags="abil"/>
     </def-attr>
@@ -511,7 +515,7 @@
         <when>
           <test>
             <and>
-              <in caseless="yes"><clip pos="1" side="sl" part="lem"/><list n="v_iv_with_pass"/></in>
+              <in caseless="yes"><clip pos="1" side="tl" part="lem"/><list n="v_iv_with_pass"/></in>
               <equal><clip pos="1" side="sl" part="pass"/><lit-tag v="pass"/></equal>
             </and>
           </test>
@@ -2055,14 +2059,14 @@
         <pattern-item n="v_cont"/>
       </pattern>
       <action>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <let>
           <clip pos="1" side="tl" part="tens"/>
           <lit-tag v="aor"/>
         </let>  
         <call-macro n="f_conv_pers_tens1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <out>
