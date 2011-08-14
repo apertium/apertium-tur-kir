@@ -10,18 +10,18 @@
   10852 <v><cv_ma>						<v><@T@><ger><nom>
    8832 <v><pass><cv_ma><@POSS@>				<v><@T@><pass><ger><@POSS@><nom>
    8738 <v><pass><t_cont><@PERS@>				<v><@T@><pass><aor><@PERS@>
-   8596 <v><t_aor><@PERS@>
-   8577 <v><vn_mak><dat>
-   8446 <v><cv_mak>
-   8110 <v><part_yan><@POSS@>
-   7812 <v><caus><t_past><@PERS@>
-   7457 <v><cv_dik><@POSS@><acc>
-   7355 <v><cv_ma><@POSS@>
-   7187 <v><t_fut><@PERS@>
-   6551 <v><t_imp><@PERS@>
-   4964 <v><pass><cv_acak>
-   4919 <v><vn_mak><acc>
-   4891 <v><cv_acak>
+   8596 <v><t_aor><@PERS@>					<v><@T@><aor><@PERS@>
+   8577 <v><vn_mak><dat>					<v><@T@><ger><dat>
+   8446 <v><cv_mak>						<v><@T@><ger><nom>
+   8110 <v><part_yan><@POSS@>					<v><@T@><ger_past><@POSS@><nom>
+   7812 <v><caus><t_past><@PERS@>				<v><@T@><caus><ifi><@PERS@>
+   7457 <v><cv_dik><@POSS@><acc>				<v><@T@><ger_perf><@POSS@><acc>
+   7355 <v><cv_ma><@POSS@>					<v><@T@><ger><@POSS@><nom>
+   7187 <v><t_fut><@PERS@>					<v><@T@><fut><@PERS@>
+   6551 <v><t_imp><@PERS@>					<v><@T@><imp><@PERS@>
+   4964 <v><pass><cv_acak>					<v><@T@><pass><prt_impf> тур<vaux><ger_perf><nom>
+   4919 <v><vn_mak><acc>					<v><@T@><ger><acc>
+   4891 <v><cv_acak>						<v><@T@><prt_impf> тур<vaux><ger_perf><nom>
    4853 <v><vn_acak><@POSS@><acc>				<v><@T@><prt_impf> тур<vaux><ger_perf><@POSS@><acc>
    4328 <v><vn_mak>
    4172 <v><caus><cv_ma>
