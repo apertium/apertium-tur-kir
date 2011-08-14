@@ -484,6 +484,16 @@
     </def-attr>
 
   </section-def-attrs>
+
+  <section-def-lists>
+    <def-list n="v_iv_with_pass"> <!-- These verbs are default 'iv', but also have 'tv' forms that are less frequent -->
+      <list-item v="иште"/>
+      <list-item v="сүйлөн"/>
+      <list-item v="сез"/>
+      <list-item v="өт"/>
+      <list-item v="ойно"/>
+    </def-list>
+  </section-def-lists>
  
   <section-def-vars>
     <def-var n="c_num"/>
@@ -496,6 +506,20 @@
   </section-def-vars>  
  
   <section-def-macros>
+    <def-macro n="f_fix_trans1" npar="1">
+      <choose>
+        <when>
+          <test>
+            <and>
+              <in caseless="yes"><clip pos="1" side="sl" part="lem"/><list n="v_iv_with_pass"/></in>
+              <equal><clip pos="1" side="sl" part="pass"/><lit-tag v="pass"/></equal>
+            </and>
+          </test>
+          <let><clip pos="1" side="tl" part="trans"/><lit-tag v="tv"/></let> 
+        </when>
+      </choose>
+    </def-macro>
+
     <def-macro n="f_conv_case1" npar="1">
       <let><var n="c_post"/><lit v=""/></let>
       <choose>
@@ -1084,6 +1108,9 @@
         <call-macro n="f_conv_poss1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -1107,6 +1134,9 @@
         <pattern-item n="v_cv_erek"/>
       </pattern>
       <action>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -1131,6 +1161,9 @@
         <call-macro n="f_conv_poss1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -1150,6 +1183,9 @@
         <pattern-item n="v_Dvn_yIcI"/>
       </pattern>
       <action>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="f_conv_case1">
           <with-param pos="1"/>
         </call-macro>
@@ -1181,6 +1217,9 @@
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -1215,6 +1254,9 @@
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <let>
@@ -1255,6 +1297,9 @@
         <call-macro n="f_conv_abil1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -1286,6 +1331,9 @@
         <call-macro n="f_conv_poss1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -1310,6 +1358,9 @@
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -1337,6 +1388,9 @@
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -1370,6 +1424,9 @@
         <call-macro n="f_conv_abil1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -1392,6 +1449,9 @@
       </pattern>
       <action>
         <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -1418,6 +1478,9 @@
       </pattern>
       <action>
         <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -1456,6 +1519,9 @@
         <call-macro n="f_conv_abil1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -1481,6 +1547,9 @@
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -1510,6 +1579,9 @@
         <call-macro n="f_conv_poss1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -1534,6 +1606,9 @@
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -1565,6 +1640,11 @@
         <call-macro n="f_conv_tens1">
           <with-param pos="2"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="2"/>
         <out>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -1593,6 +1673,9 @@
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_conv_tens1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -1630,6 +1713,9 @@
         <call-macro n="f_conv_pers_tens1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <let>
           <clip pos="1" side="tl" part="abil"/>
           <lit v=""/>
@@ -1664,6 +1750,9 @@
         <call-macro n="f_conv_pers1">
           <with-param pos="2"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <mlu>
             <lu>
@@ -1693,6 +1782,9 @@
         <call-macro n="f_conv_pers1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <mlu>
             <lu>
@@ -1718,6 +1810,9 @@
         <call-macro n="f_conv_pers1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -1739,6 +1834,9 @@
       </pattern>
       <action>
         <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -1769,6 +1867,9 @@
         <call-macro n="f_conv_pers_tens1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -1791,6 +1892,9 @@
       </pattern>
       <action>
         <call-macro n="f_conv_pers_tens1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <let>
@@ -1825,6 +1929,9 @@
         <call-macro n="f_conv_pers_tens1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <mlu>
             <lu>
@@ -1852,6 +1959,9 @@
           <lit-tag v="ifi"/>
         </let>  
         <call-macro n="f_conv_pers_tens1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -1884,6 +1994,9 @@
         <call-macro n="f_conv_pers_tens1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -1909,6 +2022,9 @@
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_conv_abil1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -1945,6 +2061,9 @@
         <call-macro n="f_conv_pers_tens1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -1971,6 +2090,9 @@
           <lit-tag v="ifi"/>
         </let>  
         <call-macro n="f_conv_pers_tens1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -2001,6 +2123,9 @@
           <lit-tag v="ifi"/>
         </let>  
         <call-macro n="f_conv_pers_tens1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
           <with-param pos="1"/>
         </call-macro>
         <out>
