@@ -22,7 +22,7 @@
    4964 <v><pass><cv_acak>
    4919 <v><vn_mak><acc>
    4891 <v><cv_acak>
-   4853 <v><vn_acak><@POSS@><acc>
+   4853 <v><vn_acak><@POSS@><acc>				<v><@T@><prt_impf> тур<vaux><ger_perf><@POSS@><acc>
    4328 <v><vn_mak>
    4172 <v><caus><cv_ma>
    4008 <v><part_dik><@POSS@>
@@ -56,7 +56,7 @@
    1350 <v><pass><vn_acak><@POSS@><acc>
    1319 <v><pass><cv_dik><@POSS@>
    1293 <v><part_yan><dat>
-   1174 <v><abil><t_aor><@PERS@>
+   1174 <v><abil><t_aor><@PERS@>					<v><@T@><prt_impf>	ал<v><tv><aor><@PERS@>
    1168 <v><t_aor><cpl_di><@PERS@>
    1145 <v><caus><t_cont><@PERS@>
    1131 <v><abil><vn_acak><@POSS@><acc>
