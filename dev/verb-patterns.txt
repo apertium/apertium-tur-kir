@@ -1,7 +1,7 @@
-  73132 <v><t_past><@PERS@>
-  44048 <v><part_yan>
-  24219 <v><pass><part_yan>
-  18618 <v><part_dik><acc>
+  73132 <v><t_past><@PERS@>					<v><@T@><ifi><@PERS@>
+  44048 <v><part_yan>						<v><@T@><ger_past><nom>
+  24219 <v><pass><part_yan>					<v><@T@><pass><ger_past><nom>
+  18618 <v><part_dik><acc>					<v><@T@><ger_past><acc>
   17759 <v><cv_erek>
   17269 <v><t_cont><@PERS@>
   14834 <v><pass><t_past><@PERS@>
