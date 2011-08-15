@@ -57,13 +57,13 @@
    1319 <v><pass><cv_dik><@POSS@>				<v><@T@><pass><ger_past><@POSS@><nom>
    1293 <v><part_yan><dat>					<v><@T@><ger_past><dat>
    1174 <v><abil><t_aor><@PERS@>				<v><@T@><prt_impf>	ал<v><tv><aor><@PERS@>
-   1168 <v><t_aor><cpl_di><@PERS@>
-   1145 <v><caus><t_cont><@PERS@>
+   1168 <v><t_aor><cpl_di><@PERS@>				<v><@T@><pcond><@PERS@>
+   1145 <v><caus><t_cont><@PERS@>				<v><@T@><prt_perf>	жат<vaux><aor><@PERS@>
    1131 <v><abil><vn_acak><@POSS@><acc>
-   1127 <v><vn_yis><@PERS@>
-   1100 <v><neg><part_dik><@POSS@><acc>
-   1089 <v><cv_dik><@POSS@><dat>
-   1074 <v><part_dik><pl><@POSS@><acc>
+   1127 <v><vn_yis><@PERS@>					<v><@T@><ger><nom>
+   1100 <v><neg><part_dik><@POSS@><acc>				<v><@T@><neg><ger_perf><@POSS@><acc>
+   1089 <v><cv_dik><@POSS@><dat>				<v><@T@><ger_past><@POSS@><dat>
+   1074 <v><part_dik><pl><@POSS@><acc>				<v><@T@><ger_past><@POSS@><acc>
    1058 <v><vn_yis><cpl_di><@PERS@>
    1049 <v><t_narr><@PERS@>
     992 <v><neg><cv_dan>
