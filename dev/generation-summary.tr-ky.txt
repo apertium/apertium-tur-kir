@@ -6,6 +6,8 @@ Translating corpus for generation test (this could take some time)... done.
 Multiple surface forms for a single lexical form
 ===============================================================================
       6 ЕБГИ/ЕБГУ/ЕБГЫ/ЕБГЭ/ЕБГЮ/ЕБГҮ	^ЕБ<np><top><dat>$
+      4 агызды/актырды	^ак<v><iv><caus><ifi><p3><sg>$
+      4 агызар/актырар	^ак<v><iv><caus><fut><p3><sg>$
 
 ===============================================================================
 Multiple bidix entries for a single source language lexical form
@@ -18,188 +20,105 @@ Tag mismatch between transfer and generation
    1030 #ай\<n\>\<px3sg\>\<nom\>	^ай<n><px3sg><nom>$
     683 #бой\<n\>\<px3sg\>\<nom\>	^бой<n><px3sg><nom>$
     412 #кол кой\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^кол кой<v><tv><pass><ifi><p3><sg>$
-    405 #бол\<v\>\<iv\>\<abil\>\<prt_impf\>	^бол<v><iv><abil><prt_impf>$
     255 #ай\<n\>\<px3sg\>\<rloc\>	^ай<n><px3sg><rloc>$
-    251 #бур\<v\>\<tv\>\<ger\>\<nom\>	^бур<v><tv><ger><nom>$
     222 #ай\<n\>\<px3sg\>\<dat\>	^ай<n><px3sg><dat>$
-    193 #кыл\<v\>\<tv\>\<abil\>\<prt_impf\>	^кыл<v><tv><abil><prt_impf>$
     185 #ай\<n\>\<px3sg\>\<abl\>	^ай<n><px3sg><abl>$
     178 #бол\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^бол<v><iv><imp><p3><sg>$
-    140 #бур\<v\>\<tv\>\<ger\>\<px3sg\>\<nom\>	^бур<v><tv><ger><px3sg><nom>$
     126 #өнөр жай\<n\>\<px3sg\>\<nom\>	^өнөр жай<n><px3sg><nom>$
-    124 #бур\<v\>\<tv\>\<ger_past\>\<nom\>	^бур<v><tv><ger_past><nom>$
-    123 #бур\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^бур<v><tv><pass><ifi><p3><sg>$
     114 #Музей\<n\>\<px3sg\>\<nom\>	^Музей<n><px3sg><nom>$
     109 #жай\<n\>\<px3sg\>\<nom\>	^жай<n><px3sg><nom>$
     108 #үй\<n\>\<px3sg\>\<loc\>	^үй<n><px3sg><loc>$
     100 #юбилей\<n\>\<px3sg\>\<acc\>	^юбилей<n><px3sg><acc>$
      96 #түгөй\<n\>\<px3sg\>\<nom\>	^түгөй<n><px3sg><nom>$
      87 #үй\<n\>\<px3sg\>\<dat\>	^үй<n><px3sg><dat>$
-     87 #жаша\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^жаша<v><iv><pass><ifi><p3><sg>$
-     86 #Эм\<v\>\<iv\>\<pass\>\<imp\>\<p2\>\<sg\>	^Эм<v><iv><pass><imp><p2><sg>$
      86 #жык\<v\>\<tv\>\<pass\>\<caus\>\<ifi\>\<p3\>\<sg\>	^жык<v><tv><pass><caus><ifi><p3><sg>$
-     77 #бур\<v\>\<tv\>\<ger\>\<px3pl\>\<nom\>	^бур<v><tv><ger><px3pl><nom>$
-     77 #ал\<v\>\<tv\>\<abil\>\<prt_impf\>	^ал<v><tv><abil><prt_impf>$
-     76 #бур\<v\>\<tv\>\<pass\>\<prt_impf\>	^бур<v><tv><pass><prt_impf>$
      73 #аракет кыл\<v\>\<tv\>\<ger\>\<nom\>	^аракет кыл<v><tv><ger><nom>$
      70 #тий\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^тий<v><tv><pass><ifi><p3><sg>$
      70 #критерий\<n\>\<px3sg\>\<dat\>	^критерий<n><px3sg><dat>$
      64 #критерий\<n\>\<px3pl\>\<nom\>	^критерий<n><px3pl><nom>$
-     64 #бол\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^бол<v><iv><abil><neg><prt_impf>$
      61 #үй\<n\>\<px3pl\>\<dat\>	^үй<n><px3pl><dat>$
-     60 #бур\<v\>\<tv\>\<ger\>\<dat\>	^бур<v><tv><ger><dat>$
      59 #көтөр\<v\>\<tv\>\<pass\>\<caus\>\<ifi\>\<p3\>\<sg\>	^көтөр<v><tv><pass><caus><ifi><p3><sg>$
      59 #ай\<n\>\<px3pl\>\<loc\>	^ай<n><px3pl><loc>$
-     58 #ач\<v\>\<tv\>\<abil\>\<prt_impf\>	^ач<v><tv><abil><prt_impf>$
      56 #де\<v\>\<tv\>\<pass\>\<opt\>\<p1\>\<sg\>	^де<v><tv><pass><opt><p1><sg>$
      55 #юбилей\<n\>\<px3sg\>\<loc\>	^юбилей<n><px3sg><loc>$
      55 #кол кой\<v\>\<tv\>\<pass\>\<ger_past\>\<nom\>	^кол кой<v><tv><pass><ger_past><nom>$
      54 #критерий\<n\>\<px3pl\>\<acc\>	^критерий<n><px3pl><acc>$
      54 #жай\<n\>\<px3sg\>\<loc\>	^жай<n><px3sg><loc>$
-     54 #бур\<v\>\<tv\>\<ger\>\<acc\>	^бур<v><tv><ger><acc>$
-     52 #жаша\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^жаша<v><iv><pass><ger_past><px3sg><acc>$
-     50 #кыл\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^кыл<v><tv><abil><neg><prt_impf>$
-     49 #бар\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^бар<v><iv><pass><ifi><p3><sg>$
      49 #ай\<n\>\<px3sg\>\<gen\>	^ай<n><px3sg><gen>$
-     48 #жаша\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^жаша<v><iv><pass><aor><p3><sg>$
-     47 #бер\<v\>\<tv\>\<abil\>\<prt_impf\>	^бер<v><tv><abil><prt_impf>$
-     45 #бур\<v\>\<tv\>\<ger\>\<px3sg\>\<loc\>	^бур<v><tv><ger><px3sg><loc>$
      45 #аш\<v\>\<tv\>\<ger\>\<px3sg\>\<nom\>	^аш<v><tv><ger><px3sg><nom>$
      44 #үй\<n\>\<px3sg\>\<gen\>	^үй<n><px3sg><gen>$
-     43 #кир\<v\>\<iv\>\<abil\>\<prt_impf\>	^кир<v><iv><abil><prt_impf>$
      42 #жык\<v\>\<tv\>\<pass\>\<caus\>\<prt_impf\>	^жык<v><tv><pass><caus><prt_impf>$
-     41 #Узар\<v\>\<iv\>\<pass\>\<imp\>\<p2\>\<sg\>	^Узар<v><iv><pass><imp><p2><sg>$
-     41 #жет\<v\>\<iv\>\<pass\>\<prt_impf\>	^жет<v><iv><pass><prt_impf>$
-     40 #камсыз кыл\<v\>\<tv\>\<abil\>\<prt_impf\>	^камсыз кыл<v><tv><abil><prt_impf>$
+     41 #аш\<v\>\<tv\>\<prt_impf\>	^аш<v><tv><prt_impf>$
      40 #абыр ой\<n\>\<px3sg\>\<acc\>	^абыр ой<n><px3sg><acc>$
      39 #кол кой\<v\>\<tv\>\<pass\>\<prt_impf\>	^кол кой<v><tv><pass><prt_impf>$
      39 #Ай\<n\>\<px3sg\>\<loc\>	^Ай<n><px3sg><loc>$
-     38 #ат\<v\>\<tv\>\<abil\>\<prt_impf\>	^ат<v><tv><abil><prt_impf>$
-     37 #таасир эт\<v\>\<tv\>\<abil\>\<prt_impf\>	^таасир эт<v><tv><abil><prt_impf>$
-     37 #бур\<v\>\<tv\>\<ger\>\<px1sg\>\<nom\>	^бур<v><tv><ger><px1sg><nom>$
-     37 #Бур\<v\>\<tv\>\<ger\>\<nom\>	^Бур<v><tv><ger><nom>$
      36 #көр\<v\>\<tv\>\<neg\>\<cv_zdan\>	^көр<v><tv><neg><cv_zdan>$
-     35 #кал\<v\>\<iv\>\<abil\>\<prt_impf\>	^кал<v><iv><abil><prt_impf>$
-     35 #аш\<v\>\<tv\>\<prt_impf\>	^аш<v><tv><prt_impf>$
      35 #ай\<n\>\<px3pl\>\<nom\>	^ай<n><px3pl><nom>$
      34 #Музей\<n\>\<px3sg\>\<loc\>	^Музей<n><px3sg><loc>$
      34 #кол кой\<v\>\<tv\>\<pass\>\<fut\>\<p3\>\<sg\>	^кол кой<v><tv><pass><fut><p3><sg>$
      33 #жубай\<n\>\<px3sg\>\<nom\>	^жубай<n><px3sg><nom>$
      32 #түгөй\<n\>\<px3sg\>\<gen\>	^түгөй<n><px3sg><gen>$
      32 #суйлө\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^суйлө<v><tv><ifi><p3><sg>$
-     32 #кел\<v\>\<iv\>\<abil\>\<prt_impf\>	^кел<v><iv><abil><prt_impf>$
-     32 #жаша\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^жаша<v><iv><pass><ger_past><acc>$
      32 #аракет кыл\<v\>\<tv\>\<ger\>\<dat\>	^аракет кыл<v><tv><ger><dat>$
      30 #аракет кыл\<v\>\<tv\>\<aor\>\<p3\>\<sg\>	^аракет кыл<v><tv><aor><p3><sg>$
      29 #Өнөр жай\<n\>\<px3sg\>\<nom\>	^Өнөр жай<n><px3sg><nom>$
-     29 #жаша\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<nom\>	^жаша<v><iv><pass><ger_past><px3sg><nom>$
-     29 #бур\<v\>\<tv\>\<pass\>\<aor\>\<p3\>\<sg\>	^бур<v><tv><pass><aor><p3><sg>$
      28 #өнөр жай\<n\>\<px3sg\>\<gen\>	^өнөр жай<n><px3sg><gen>$
-     28 #жет\<v\>\<iv\>\<abil\>\<prt_impf\>	^жет<v><iv><abil><prt_impf>$
-     28 #бур\<v\>\<tv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^бур<v><tv><pass><ger_past><px3sg><acc>$
-     28 #бар\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^бар<v><iv><pass><aor><p3><sg>$
+     28 #аш\<v\>\<tv\>\<ger_past\>\<px3sg\>\<acc\>	^аш<v><tv><ger_past><px3sg><acc>$
      28 #аракет кыл\<v\>\<tv\>\<prt_impf\>	^аракет кыл<v><tv><prt_impf>$
      28 #аракет кыл\<v\>\<tv\>\<ger\>\<px3sg\>\<nom\>	^аракет кыл<v><tv><ger><px3sg><nom>$
      27 #көргөзмөгө кой\<v\>\<tv\>\<pass\>\<aor\>\<p3\>\<sg\>	^көргөзмөгө кой<v><tv><pass><aor><p3><sg>$
      27 #жагдай\<n\>\<px3sg\>\<nom\>	^жагдай<n><px3sg><nom>$
-     27 #аш\<v\>\<tv\>\<ger_past\>\<px3sg\>\<acc\>	^аш<v><tv><ger_past><px3sg><acc>$
-     26 #колдон\<v\>\<tv\>\<abil\>\<prt_impf\>	^колдон<v><tv><abil><prt_impf>$
-     26 #бур\<v\>\<tv\>\<pass\>\<prt_perf\>	^бур<v><tv><pass><prt_perf>$
      26 #аш\<v\>\<tv\>\<ger_past\>\<nom\>	^аш<v><tv><ger_past><nom>$
+     26 #аракет кыл\<v\>\<tv\>\<ger_past\>\<px3sg\>\<acc\>	^аракет кыл<v><tv><ger_past><px3sg><acc>$
      25 #үй\<n\>\<px3pl\>\<acc\>	^үй<n><px3pl><acc>$
-     25 #сүр\<v\>\<tv\>\<abil\>\<prt_impf\>	^сүр<v><tv><abil><prt_impf>$
-     25 #бур\<v\>\<tv\>\<ger\>\<px3sg\>\<acc\>	^бур<v><tv><ger><px3sg><acc>$
-     25 #аракет кыл\<v\>\<tv\>\<ger_past\>\<px3sg\>\<acc\>	^аракет кыл<v><tv><ger_past><px3sg><acc>$
      24 #сыяктуу\<post\>\<acc\>	^сыяктуу<post><acc>$
-     24 #өт\<v\>\<iv\>\<abil\>\<prt_impf\>	^өт<v><iv><abil><prt_impf>$
      24 #жагдай\<n\>\<px3sg\>\<acc\>	^жагдай<n><px3sg><acc>$
-     24 #бур\<v\>\<tv\>\<ger\>\<px3sg\>\<dat\>	^бур<v><tv><ger><px3sg><dat>$
      24 #аш\<v\>\<tv\>\<ger\>\<nom\>	^аш<v><tv><ger><nom>$
      23 #юбилей\<n\>\<px3sg\>\<nom\>	^юбилей<n><px3sg><nom>$
      23 #сыяктуу\<post\>\<p3s\>\<gen\>	^сыяктуу<post><p3s><gen>$
      23 #Сарай\<n\>\<px3sg\>\<nom\>	^Сарай<n><px3sg><nom>$
      22 #үй\<n\>\<px3pl\>\<loc\>	^үй<n><px3pl><loc>$
-     22 #ойно\<v\>\<iv\>\<abil\>\<prt_impf\>	^ойно<v><iv><abil><prt_impf>$
-     22 #жаша\<v\>\<iv\>\<pass\>\<prt_impf\>	^жаша<v><iv><pass><prt_impf>$
-     22 #Бур\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^Бур<v><tv><pass><ifi><p3><sg>$
-     22 #бар\<v\>\<iv\>\<pass\>\<prt_impf\>	^бар<v><iv><pass><prt_impf>$
-     22 #алып кел\<v\>\<tv\>\<abil\>\<prt_impf\>	^алып кел<v><tv><abil><prt_impf>$
-     21 #чык\<v\>\<iv\>\<abil\>\<prt_impf\>	^чык<v><iv><abil><prt_impf>$
      21 #жык\<v\>\<tv\>\<pass\>\<caus\>\<ger_past\>\<px3sg\>\<acc\>	^жык<v><tv><pass><caus><ger_past><px3sg><acc>$
-     21 #бур\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<pl\>	^бур<v><tv><pass><ifi><p3><pl>$
-     20 #күт\<v\>\<tv\>\<abil\>\<prt_impf\>	^күт<v><tv><abil><prt_impf>$
-     20 #бар\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^бар<v><iv><pass><ger_past><px3sg><acc>$
      20 #аракет кыл\<v\>\<tv\>\<ger\>\<acc\>	^аракет кыл<v><tv><ger><acc>$
      20 #ай\<n\>\<px2sg\>\<nom\>	^ай<n><px2sg><nom>$
      19 #туу\<v\>\<tv\>\<pass\>\<caus\>\<prt_impf\>	^туу<v><tv><pass><caus><prt_impf>$
-     19 #толукта\<v\>\<tv\>\<abil\>\<prt_impf\>	^толукта<v><tv><abil><prt_impf>$
      19 #көтөр\<v\>\<tv\>\<pass\>\<caus\>\<prt_impf\>	^көтөр<v><tv><pass><caus><prt_impf>$
      19 #жагдай\<n\>\<px3sg\>\<abl\>	^жагдай<n><px3sg><abl>$
-     19 #бур\<v\>\<tv\>\<pass\>\<aor\>\<p3\>\<pl\>	^бур<v><tv><pass><aor><p3><pl>$
      19 #Ай\<n\>\<px3sg\>\<nom\>	^Ай<n><px3sg><nom>$
      18 #үй\<n\>\<px3sg\>\<nom\>	^үй<n><px3sg><nom>$
      18 #үй\<n\>\<px3sg\>\<acc\>	^үй<n><px3sg><acc>$
-     18 #тоскоол бол\<v\>\<tv\>\<abil\>\<prt_impf\>	^тоскоол бол<v><tv><abil><prt_impf>$
      18 #пай\<n\>\<px3sg\>\<acc\>	^пай<n><px3sg><acc>$
      18 #көргөзмөгө кой\<v\>\<tv\>\<pass\>\<fut\>\<p3\>\<sg\>	^көргөзмөгө кой<v><tv><pass><fut><p3><sg>$
-     18 #кет\<v\>\<iv\>\<pass\>\<prt_impf\>	^кет<v><iv><pass><prt_impf>$
-     18 #жаша\<v\>\<iv\>\<abil\>\<prt_impf\>	^жаша<v><iv><abil><prt_impf>$
-     18 #бур\<v\>\<tv\>\<past\>\<p3\>\<sg\>	^бур<v><tv><past><p3><sg>$
      18 #бол\<v\>\<iv\>\<neg\>\<imp\>\<p3\>\<sg\>	^бол<v><iv><neg><imp><p3><sg>$
      18 #аракет кыл\<v\>\<tv\>\<ger_past\>\<nom\>	^аракет кыл<v><tv><ger_past><nom>$
-     17 #тап\<v\>\<tv\>\<abil\>\<prt_impf\>	^тап<v><tv><abil><prt_impf>$
      17 #сыяктуу\<post\>\<p3s\>\<acc\>	^сыяктуу<post><p3s><acc>$
-     17 #келиш\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^келиш<v><iv><pass><aor><p3><sg>$
      17 #жык\<v\>\<tv\>\<pass\>\<caus\>\<fut\>\<p3\>\<sg\>	^жык<v><tv><pass><caus><fut><p3><sg>$
-     17 #бур\<v\>\<tv\>\<pass\>\<ger_past\>\<abl\>	^бур<v><tv><pass><ger_past><abl>$
      17 #аш\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^аш<v><tv><ifi><p3><sg>$
      16 #сый\<n\>\<px3sg\>\<dat\>	^сый<n><px3sg><dat>$
      16 #пай\<n\>\<px3sg\>\<nom\>	^пай<n><px3sg><nom>$
      16 #музей\<n\>\<px3sg\>\<nom\>	^музей<n><px3sg><nom>$
      16 #критерий\<n\>\<px3sg\>\<nom\>	^критерий<n><px3sg><nom>$
-     16 #көр\<v\>\<tv\>\<abil\>\<prt_impf\>	^көр<v><tv><abil><prt_impf>$
      16 #кол кой\<v\>\<tv\>\<pass\>\<ger_past\>\<px3sg\>\<nom\>	^кол кой<v><tv><pass><ger_past><px3sg><nom>$
-     16 #ишен\<v\>\<tv\>\<abil\>\<prt_impf\>	^ишен<v><tv><abil><prt_impf>$
-     16 #бур\<v\>\<tv\>\<pass\>\<fut\>\<p3\>\<sg\>	^бур<v><tv><pass><fut><p3><sg>$
-     16 #бур\<v\>\<tv\>\<ger\>\<px3sg\>\<gen\>	^бур<v><tv><ger><px3sg><gen>$
      16 #ал-жай\<n\>\<px3sg\>\<acc\>	^ал-жай<n><px3sg><acc>$
      16 #Ай\<n\>\<px2sg\>\<nom\>	^Ай<n><px2sg><nom>$
      16 #аброй\<n\>\<px3sg\>\<acc\>	^аброй<n><px3sg><acc>$
      15 #үй\<n\>\<px3pl\>\<abl\>	^үй<n><px3pl><abl>$
-     15 #узар\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^узар<v><iv><pass><aor><p3><sg>$
      15 #көтөр\<v\>\<tv\>\<pass\>\<caus\>\<aor\>\<p3\>\<sg\>	^көтөр<v><tv><pass><caus><aor><p3><sg>$
      15 #конвой\<n\>\<px3sg\>\<dat\>	^конвой<n><px3sg><dat>$
-     15 #иште\<v\>\<iv\>\<abil\>\<prt_impf\>	^иште<v><iv><abil><prt_impf>$
      15 #бий\<n\>\<px3pl\>\<nom\>	^бий<n><px3pl><nom>$
      14 #өнөр жай\<n\>\<px3sg\>\<loc\>	^өнөр жай<n><px3sg><loc>$
      14 #курга\<v\>\<tv\>\<ger\>\<nom\>	^курга<v><tv><ger><nom>$
      14 #критерий\<n\>\<px3pl\>\<gen\>	^критерий<n><px3pl><gen>$
-     14 #жогот\<v\>\<tv\>\<abil\>\<prt_impf\>	^жогот<v><tv><abil><prt_impf>$
-     14 #бур\<v\>\<tv\>\<pass\>\<ger_past\>\<acc\>	^бур<v><tv><pass><ger_past><acc>$
-     14 #бар\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^бар<v><iv><pass><ger_past><nom>$
-     13 #тарт\<v\>\<tv\>\<abil\>\<prt_impf\>	^тарт<v><tv><abil><prt_impf>$
      13 #суйлө\<v\>\<tv\>\<pass\>\<aor\>\<p3\>\<sg\>	^суйлө<v><tv><pass><aor><p3><sg>$
      13 #саясий\<n\>\<px3pl\>\<nom\>	^саясий<n><px3pl><nom>$
-     13 #салыштыр\<v\>\<tv\>\<abil\>\<prt_impf\>	^салыштыр<v><tv><abil><prt_impf>$
-     13 #кыл\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^кыл<v><tv><abil><neg><ger_past><px3sg><acc>$
-     13 #кет\<v\>\<iv\>\<abil\>\<prt_impf\>	^кет<v><iv><abil><prt_impf>$
-     13 #карма\<v\>\<tv\>\<abil\>\<prt_impf\>	^карма<v><tv><abil><prt_impf>$
-     13 #камсыз кыл\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^камсыз кыл<v><tv><abil><neg><ger_past><px3sg><acc>$
-     13 #жет\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^жет<v><iv><pass><ger_past><px3sg><acc>$
-     13 #жаша\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^жаша<v><iv><pass><ger_past><nom>$
-     13 #бур\<v\>\<tv\>\<prt_impf\>	^бур<v><tv><prt_impf>$
      13 #аракет кыл\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^аракет кыл<v><tv><ifi><p3><sg>$
      13 #аракет кыл\<v\>\<tv\>\<ger\>\<px3pl\>\<nom\>	^аракет кыл<v><tv><ger><px3pl><nom>$
      13 #аракет кыл\<v\>\<tv\>\<ger_past\>\<acc\>	^аракет кыл<v><tv><ger_past><acc>$
      12 #юбилей\<n\>\<px3sg\>\<dat\>	^юбилей<n><px3sg><dat>$
      12 #юбилей\<n\>\<px3sg\>\<abl\>	^юбилей<n><px3sg><abl>$
-     12 #чеч\<v\>\<tv\>\<abil\>\<prt_impf\>	^чеч<v><tv><abil><prt_impf>$
      12 #үй\<n\>\<px3sg\>\<abl\>	^үй<n><px3sg><abl>$
-     12 #сыз\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^сыз<v><iv><pass><ifi><p3><sg>$
-     12 #сура\<v\>\<tv\>\<abil\>\<prt_impf\>	^сура<v><tv><abil><prt_impf>$
      12 #ой\<n\>\<px3sg\>\<nom\>	^ой<n><px3sg><nom>$
      12 #кол кой\<v\>\<tv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^кол кой<v><tv><pass><ger_past><px3sg><acc>$
-     12 #жаша\<v\>\<iv\>\<pass\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^жаша<v><iv><pass><neg><ger_past><px3sg><acc>$
      12 #жай\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^жай<v><tv><pass><ifi><p3><sg>$
      12 #жай\<v\>\<tv\>\<pass\>\<ger_past\>\<nom\>	^жай<v><tv><pass><ger_past><nom>$
      12 #жай\<n\>\<px3pl\>\<nom\>	^жай<n><px3pl><nom>$
@@ -207,300 +126,141 @@ Tag mismatch between transfer and generation
      12 #аракет кыл\<v\>\<tv\>\<prt_perf\>	^аракет кыл<v><tv><prt_perf>$
      11 #ушундай\<n\>\<px3sg\>\<nom\>	^ушундай<n><px3sg><nom>$
      11 #тий\<v\>\<tv\>\<pass\>\<aor\>\<p3\>\<sg\>	^тий<v><tv><pass><aor><p3><sg>$
-     11 #сыз\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^сыз<v><iv><pass><aor><p3><sg>$
      11 #суйлө\<v\>\<tv\>\<aor\>\<p1\>\<pl\>	^суйлө<v><tv><aor><p1><pl>$
      11 #пай\<n\>\<px3sg\>\<dat\>	^пай<n><px3sg><dat>$
      11 #май\<n\>\<px3sg\>\<nom\>	^май<n><px3sg><nom>$
-     11 #кыл\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<nom\>	^кыл<v><tv><abil><neg><ger_past><px3sg><nom>$
-     11 #колдо\<v\>\<tv\>\<abil\>\<prt_impf\>	^колдо<v><tv><abil><prt_impf>$
-     11 #кет\<v\>\<iv\>\<pass\>\<fut\>\<p3\>\<sg\>	^кет<v><iv><pass><fut><p3><sg>$
      11 #жык\<v\>\<tv\>\<pass\>\<caus\>\<prt_perf\>	^жык<v><tv><pass><caus><prt_perf>$
-     11 #жибер\<v\>\<tv\>\<abil\>\<prt_impf\>	^жибер<v><tv><abil><prt_impf>$
-     11 #жаша\<v\>\<iv\>\<pass\>\<prt_perf\>	^жаша<v><iv><pass><prt_perf>$
-     11 #жаша\<v\>\<iv\>\<pass\>\<neg\>\<prt_perf\>	^жаша<v><iv><pass><neg><prt_perf>$
-     11 #Бур\<v\>\<tv\>\<ger\>\<px1sg\>\<nom\>	^Бур<v><tv><ger><px1sg><nom>$
      11 #Бой\<n\>\<px3sg\>\<nom\>	^Бой<n><px3sg><nom>$
      11 #аракет кыл\<v\>\<tv\>\<ger\>\<gen\>	^аракет кыл<v><tv><ger><gen>$
-     11 #ал\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^ал<v><tv><abil><neg><prt_impf>$
      10 #сценарий\<n\>\<px3sg\>\<nom\>	^сценарий<n><px3sg><nom>$
-     10 #сун\<v\>\<tv\>\<abil\>\<prt_impf\>	^сун<v><tv><abil><prt_impf>$
-     10 #пайда тап\<v\>\<tv\>\<abil\>\<prt_impf\>	^пайда тап<v><tv><abil><prt_impf>$
      10 #өнөр жай\<n\>\<px3sg\>\<acc\>	^өнөр жай<n><px3sg><acc>$
      10 #музей\<n\>\<px3sg\>\<loc\>	^музей<n><px3sg><loc>$
-     10 #кура\<v\>\<tv\>\<abil\>\<prt_impf\>	^кура<v><tv><abil><prt_impf>$
-     10 #көрсөт\<v\>\<tv\>\<abil\>\<prt_impf\>	^көрсөт<v><tv><abil><prt_impf>$
      10 #кол кой\<v\>\<tv\>\<pass\>\<ger_past\>\<abl\>	^кол кой<v><tv><pass><ger_past><abl>$
-     10 #келиш\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^келиш<v><iv><pass><ifi><p3><sg>$
-     10 #камсыз кыл\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<nom\>	^камсыз кыл<v><tv><abil><neg><ger_past><px3sg><nom>$
      10 #жык\<v\>\<tv\>\<pass\>\<caus\>\<aor\>\<p3\>\<sg\>	^жык<v><tv><pass><caus><aor><p3><sg>$
      10 #жубай\<n\>\<px3sg\>\<gen\>	^жубай<n><px3sg><gen>$
      10 #жай\<v\>\<tv\>\<pass\>\<prt_impf\>	^жай<v><tv><pass><prt_impf>$
-     10 #бур\<v\>\<tv\>\<pass\>\<ger_past\>\<px3sg\>\<loc\>	^бур<v><tv><pass><ger_past><px3sg><loc>$
      10 #аш\<v\>\<tv\>\<pass\>\<prt_impf\>	^аш<v><tv><pass><prt_impf>$
-     10 #айны\<v\>\<iv\>\<pass\>\<neg\>\<aor\>\<p3\>\<sg\>	^айны<v><iv><pass><neg><aor><p3><sg>$
       9 #юбилей\<n\>\<px3sg\>\<gen\>	^юбилей<n><px3sg><gen>$
       9 #үй\<n\>\<px3pl\>\<nom\>	^үй<n><px3pl><nom>$
       9 #үй\<n\>\<px3pl\>\<gen\>	^үй<n><px3pl><gen>$
-      9 #ташта\<v\>\<tv\>\<abil\>\<prt_impf\>	^ташта<v><tv><abil><prt_impf>$
-      9 #тартипте\<v\>\<tv\>\<abil\>\<prt_impf\>	^тартипте<v><tv><abil><prt_impf>$
-      9 #тап\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^тап<v><tv><abil><neg><ger_past><px3sg><acc>$
       9 #сценарий\<n\>\<px3pl\>\<nom\>	^сценарий<n><px3pl><nom>$
       9 #суйлө\<v\>\<tv\>\<prt_impf\>	^суйлө<v><tv><prt_impf>$
       9 #суйлө\<v\>\<tv\>\<ger_past\>\<nom\>	^суйлө<v><tv><ger_past><nom>$
       9 #суйлө\<v\>\<tv\>\<ger\>\<nom\>	^суйлө<v><tv><ger><nom>$
-      9 #сүйлө\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^сүйлө<v><iv><pass><ifi><p3><sg>$
       9 #өнөр жай\<n\>\<px3sg\>\<rloc\>	^өнөр жай<n><px3sg><rloc>$
       9 #критерий\<n\>\<px3pl\>\<dat\>	^критерий<n><px3pl><dat>$
-      9 #керекте\<v\>\<tv\>\<abil\>\<prt_impf\>	^керекте<v><tv><abil><prt_impf>$
-      9 #келиш\<v\>\<iv\>\<pass\>\<prt_impf\>	^келиш<v><iv><pass><prt_impf>$
-      9 #келиш\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^келиш<v><iv><pass><ger_past><px3sg><acc>$
-      9 #кал\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^кал<v><iv><abil><neg><prt_impf>$
       9 #ий\<v\>\<tv\>\<pass\>\<prt_impf\>	^ий<v><tv><pass><prt_impf>$
       9 #жай\<n\>\<px3pl\>\<acc\>	^жай<n><px3pl><acc>$
       9 #жай\<n\>\<px3pl\>\<abl\>	^жай<n><px3pl><abl>$
       9 #жагдай\<n\>\<px3sg\>\<gen\>	^жагдай<n><px3sg><gen>$
-      9 #бур\<v\>\<tv\>\<pass\>\<neg\>\<prt_impf\>	^бур<v><tv><pass><neg><prt_impf>$
       9 #бур\<v\>\<tv\>\<pass\>\<caus\>\<prt_impf\>	^бур<v><tv><pass><caus><prt_impf>$
-      9 #бур\<v\>\<tv\>\<ger_past\>\<px3pl\>\<nom\>	^бур<v><tv><ger_past><px3pl><nom>$
-      9 #бур\<v\>\<tv\>\<ger\>\<gen\>	^бур<v><tv><ger><gen>$
       9 #аш\<v\>\<tv\>\<prt_perf\>	^аш<v><tv><prt_perf>$
       9 #ал\<v\>\<tv\>\<neg\>\<p3\>\<sg\>	^ал<v><tv><neg><p3><sg>$
-      8 #чеч\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^чеч<v><tv><abil><neg><prt_impf>$
-      8 #уяла\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^уяла<v><iv><pass><ger_past><nom>$
       8 #Үй\<n\>\<px3sg\>\<nom\>	^Үй<n><px3sg><nom>$
       8 #түгөй\<n\>\<px3sg\>\<acc\>	^түгөй<n><px3sg><acc>$
-      8 #тосуп ал\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^тосуп ал<v><tv><abil><neg><prt_impf>$
       8 #суйлө\<v\>\<tv\>\<aor\>\<p3\>\<sg\>	^суйлө<v><tv><aor><p3><sg>$
       8 #саясий\<n\>\<px3sg\>\<nom\>	^саясий<n><px3sg><nom>$
-      8 #пайдалан\<v\>\<tv\>\<abil\>\<prt_impf\>	^пайдалан<v><tv><abil><prt_impf>$
       8 #пай\<n\>\<px3pl\>\<nom\>	^пай<n><px3pl><nom>$
       8 #өнөр жай\<n\>\<px3sg\>\<dat\>	^өнөр жай<n><px3sg><dat>$
-      8 #өзгөр\<v\>\<iv\>\<abil\>\<prt_impf\>	^өзгөр<v><iv><abil><prt_impf>$
       8 #көтөр\<v\>\<tv\>\<pass\>\<caus\>\<ger_past\>\<px3sg\>\<acc\>	^көтөр<v><tv><pass><caus><ger_past><px3sg><acc>$
-      8 #көбөйт\<v\>\<tv\>\<abil\>\<prt_impf\>	^көбөйт<v><tv><abil><prt_impf>$
-      8 #камсыз кыл\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^камсыз кыл<v><tv><abil><neg><prt_impf>$
-      8 #жет\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^жет<v><iv><pass><ifi><p3><sg>$
       8 #Жай\<n\>\<px3sg\>\<nom\>	^Жай<n><px3sg><nom>$
-      8 #бур\<v\>\<tv\>\<prt_perf\>	^бур<v><tv><prt_perf>$
-      8 #бур\<v\>\<tv\>\<ger_past\>\<gen\>	^бур<v><tv><ger_past><gen>$
-      8 #бол\<v\>\<iv\>\<pass\>\<imp\>\<p2\>\<sg\>	^бол<v><iv><pass><imp><p2><sg>$
       8 #бий\<n\>\<px3sg\>\<nom\>	^бий<n><px3sg><nom>$
-      8 #бар\<v\>\<iv\>\<abil\>\<prt_impf\>	^бар<v><iv><abil><prt_impf>$
       8 #аш\<v\>\<tv\>\<aor\>\<p3\>\<sg\>	^аш<v><tv><aor><p3><sg>$
       8 #ай\<n\>\<px3sg\>\<acc\>	^ай<n><px3sg><acc>$
       7 #Түгөй\<n\>\<px3sg\>\<nom\>	^Түгөй<n><px3sg><nom>$
-      7 #тосуп ал\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<acc\>	^тосуп ал<v><tv><abil><neg><ger_past><acc>$
-      7 #тап\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<nom\>	^тап<v><tv><abil><neg><ger_past><px3sg><nom>$
       7 #Сарай\<n\>\<px3sg\>\<loc\>	^Сарай<n><px3sg><loc>$
       7 #пай\<n\>\<px3sg\>\<gen\>	^пай<n><px3sg><gen>$
       7 #музей\<n\>\<px3sg\>\<gen\>	^музей<n><px3sg><gen>$
       7 #музей\<n\>\<px3sg\>\<dat\>	^музей<n><px3sg><dat>$
       7 #көргөзмөгө кой\<v\>\<tv\>\<pass\>\<ger_past\>\<px3sg\>\<nom\>	^көргөзмөгө кой<v><tv><pass><ger_past><px3sg><nom>$
-      7 #көр\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^көр<v><tv><abil><neg><ger_past><px3sg><acc>$
       7 #кол кой\<v\>\<tv\>\<pass\>\<ger_past\>\<acc\>	^кол кой<v><tv><pass><ger_past><acc>$
-      7 #кол кой\<v\>\<tv\>\<abil\>\<prt_impf\>	^кол кой<v><tv><abil><prt_impf>$
-      7 #кир\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^кир<v><iv><abil><neg><prt_impf>$
-      7 #кес\<v\>\<tv\>\<abil\>\<prt_impf\>	^кес<v><tv><abil><prt_impf>$
-      7 #кел\<v\>\<iv\>\<pass\>\<prt_impf\>	^кел<v><iv><pass><prt_impf>$
-      7 #кел\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<loc\>	^кел<v><iv><pass><ger_past><px3sg><loc>$
-      7 #илгериле\<v\>\<iv\>\<abil\>\<prt_impf\>	^илгериле<v><iv><abil><prt_impf>$
       7 #жык\<v\>\<tv\>\<pass\>\<caus\>\<ger_past\>\<acc\>	^жык<v><tv><pass><caus><ger_past><acc>$
       7 #жой\<v\>\<tv\>\<pass\>\<prt_perf\>	^жой<v><tv><pass><prt_perf>$
       7 #жой\<v\>\<tv\>\<pass\>\<prt_impf\>	^жой<v><tv><pass><prt_impf>$
-      7 #жаша\<v\>\<iv\>\<pass\>\<ger_past\>\<dat\>	^жаша<v><iv><pass><ger_past><dat>$
       7 #жай\<n\>\<px3sg\>\<dat\>	^жай<n><px3sg><dat>$
-      7 #бур\<v\>\<tv\>\<ger\>\<px3pl\>\<loc\>	^бур<v><tv><ger><px3pl><loc>$
-      7 #бур\<v\>\<tv\>\<ger\>\<px3pl\>\<acc\>	^бур<v><tv><ger><px3pl><acc>$
-      7 #бур\<v\>\<tv\>\<ger\>\<loc\>	^бур<v><tv><ger><loc>$
       7 #буз\<v\>\<tv\>\<pass\>\<caus\>\<neg\>\<prt_impf\>	^буз<v><tv><pass><caus><neg><prt_impf>$
       7 #аракет кыл\<v\>\<tv\>\<ger\>\<px3sg\>\<acc\>	^аракет кыл<v><tv><ger><px3sg><acc>$
       7 #аракет кыл\<v\>\<tv\>\<ger\>\<px3sg\>\<abl\>	^аракет кыл<v><tv><ger><px3sg><abl>$
       7 #аракет кыл\<v\>\<tv\>\<aor\>\<p3\>\<pl\>	^аракет кыл<v><tv><aor><p3><pl>$
-      7 #ал\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^ал<v><tv><abil><neg><ger_past><px3sg><acc>$
       7 #Ай\<n\>\<px3sg\>\<dat\>	^Ай<n><px3sg><dat>$
-      6 #чык\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^чык<v><iv><pass><ifi><p3><sg>$
-      6 #узар\<v\>\<iv\>\<pass\>\<prt_impf\>	^узар<v><iv><pass><prt_impf>$
       6 #түгөй\<n\>\<px3sg\>\<dat\>	^түгөй<n><px3sg><dat>$
       6 #тий\<v\>\<tv\>\<pass\>\<prt_cond\>\<p3\>\<sg\>	^тий<v><tv><pass><prt_cond><p3><sg>$
       6 #сыяктуу\<post\>\<p3s\>\<ins\>	^сыяктуу<post><p3s><ins>$
       6 #пай\<n\>\<px3pl\>\<gen\>	^пай<n><px3pl><gen>$
       6 #лицей\<n\>\<px3sg\>\<nom\>	^лицей<n><px3sg><nom>$
-      6 #кыл\<v\>\<tv\>\<abil\>\<prt_perf\>	^кыл<v><tv><abil><prt_perf>$
-      6 #кыл\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<acc\>	^кыл<v><tv><abil><neg><ger_past><acc>$
       6 #курга\<v\>\<tv\>\<ger\>\<px3sg\>\<nom\>	^курга<v><tv><ger><px3sg><nom>$
       6 #куралдан\<v\>\<tv\>\<ger\>\<nom\>	^куралдан<v><tv><ger><nom>$
       6 #критерий\<n\>\<px3sg\>\<acc\>	^критерий<n><px3sg><acc>$
       6 #көтөр\<v\>\<tv\>\<pass\>\<caus\>\<fut\>\<p3\>\<sg\>	^көтөр<v><tv><pass><caus><fut><p3><sg>$
       6 #көргөзмөгө кой\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^көргөзмөгө кой<v><tv><pass><ifi><p3><sg>$
-      6 #кой\<v\>\<tv\>\<abil\>\<prt_impf\>	^кой<v><tv><abil><prt_impf>$
-      6 #кара\<v\>\<tv\>\<abil\>\<prt_impf\>	^кара<v><tv><abil><prt_impf>$
-      6 #камсыз кыл\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3pl\>\<nom\>	^камсыз кыл<v><tv><abil><neg><ger_past><px3pl><nom>$
-      6 #камсыз кыл\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3pl\>\<acc\>	^камсыз кыл<v><tv><abil><neg><ger_past><px3pl><acc>$
-      6 #камсыз кыл\<v\>\<tv\>\<abil\>\<ger_past\>\<nom\>	^камсыз кыл<v><tv><abil><ger_past><nom>$
-      6 #ишке ашыр\<v\>\<iv\>\<pass\>\<prt_impf\>	^ишке ашыр<v><iv><pass><prt_impf>$
-      6 #ишке ашыр\<v\>\<iv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^ишке ашыр<v><iv><abil><neg><ger_past><px3sg><acc>$
-      6 #илгериле\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^илгериле<v><iv><abil><neg><prt_impf>$
       6 #жык\<v\>\<tv\>\<pass\>\<caus\>\<neg\>\<prt_impf\>	^жык<v><tv><pass><caus><neg><prt_impf>$
-      6 #жоопкерчилик ал\<v\>\<tv\>\<abil\>\<prt_impf\>	^жоопкерчилик ал<v><tv><abil><prt_impf>$
-      6 #жет\<v\>\<iv\>\<pass\>\<neg\>\<aor\>\<p3\>\<sg\>	^жет<v><iv><pass><neg><aor><p3><sg>$
-      6 #жаша\<v\>\<iv\>\<pass\>\<neg\>\<ger_past\>\<px3sg\>\<nom\>	^жаша<v><iv><pass><neg><ger_past><px3sg><nom>$
-      6 #жаша\<v\>\<iv\>\<pass\>\<ger_past\>\<px3pl\>\<nom\>	^жаша<v><iv><pass><ger_past><px3pl><nom>$
-      6 #жар\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^жар<v><tv><abil><neg><ger_past><px3sg><acc>$
       6 #жай\<v\>\<tv\>\<pass\>\<ger_past\>\<acc\>	^жай<v><tv><pass><ger_past><acc>$
       6 #жай\<n\>\<px3pl\>\<dat\>	^жай<n><px3pl><dat>$
-      6 #бур\<v\>\<tv\>\<pass\>\<ger_past\>\<nom\>	^бур<v><tv><pass><ger_past><nom>$
-      6 #Бур\<v\>\<tv\>\<ger\>\<px3sg\>\<nom\>	^Бур<v><tv><ger><px3sg><nom>$
-      6 #бур\<v\>\<tv\>\<ger\>\<px3sg\>\<abl\>	^бур<v><tv><ger><px3sg><abl>$
-      6 #Бур\<v\>\<tv\>\<ger\>\<px3pl\>\<nom\>	^Бур<v><tv><ger><px3pl><nom>$
-      6 #Бур\<v\>\<tv\>\<ger_past\>\<nom\>	^Бур<v><tv><ger_past><nom>$
-      6 #бол\<v\>\<iv\>\<pass\>\<prt_impf\>	^бол<v><iv><pass><prt_impf>$
-      6 #бер\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^бер<v><tv><abil><neg><prt_impf>$
-      6 #бар\<v\>\<iv\>\<pass\>\<prt_perf\>	^бар<v><iv><pass><prt_perf>$
-      6 #бар\<v\>\<iv\>\<pass\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^бар<v><iv><pass><neg><ger_past><px3sg><acc>$
-      6 #бар\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^бар<v><iv><pass><ger_past><acc>$
       6 #аш\<v\>\<tv\>\<ger_past\>\<acc\>	^аш<v><tv><ger_past><acc>$
       6 #аш\<v\>\<tv\>\<ger\>\<acc\>	^аш<v><tv><ger><acc>$
-      6 #аш\<v\>\<tv\>\<abil\>\<prt_impf\>	^аш<v><tv><abil><prt_impf>$
       6 #аракет кыл\<v\>\<tv\>\<ifi\>\<p3\>\<pl\>	^аракет кыл<v><tv><ifi><p3><pl>$
       6 #аракет кыл\<v\>\<tv\>\<ger_past\>\<px3sg\>\<dat\>	^аракет кыл<v><tv><ger_past><px3sg><dat>$
       6 #аракет кыл\<v\>\<tv\>\<ger\>\<abl\>	^аракет кыл<v><tv><ger><abl>$
-      6 #алып кел\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<acc\>	^алып кел<v><tv><abil><neg><ger_past><acc>$
       5 #Ушундай\<n\>\<px3sg\>\<nom\>	^Ушундай<n><px3sg><nom>$
+      5 #улан\<v\>\<iv\>\<caus\>\<caus\>\<prt_impf\>	^улан<v><iv><caus><caus><prt_impf>$
       5 #туу\<v\>\<tv\>\<pass\>\<caus\>\<ger_past\>\<px3sg\>\<acc\>	^туу<v><tv><pass><caus><ger_past><px3sg><acc>$
       5 #туу\<v\>\<tv\>\<pass\>\<caus\>\<fut\>\<p3\>\<sg\>	^туу<v><tv><pass><caus><fut><p3><sg>$
       5 #туу\<v\>\<tv\>\<pass\>\<caus\>\<aor\>\<p3\>\<sg\>	^туу<v><tv><pass><caus><aor><p3><sg>$
-      5 #тосуп ал\<v\>\<tv\>\<abil\>\<prt_impf\>	^тосуп ал<v><tv><abil><prt_impf>$
       5 #токто\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^токто<v><iv><imp><p3><sg>$
       5 #тий\<v\>\<tv\>\<pass\>\<neg\>\<aor\>\<p3\>\<sg\>	^тий<v><tv><pass><neg><aor><p3><sg>$
       5 #тий\<v\>\<tv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^тий<v><tv><pass><ger_past><px3sg><acc>$
       5 #сценарий\<n\>\<px3sg\>\<acc\>	^сценарий<n><px3sg><acc>$
       5 #сценарий\<n\>\<px3pl\>\<acc\>	^сценарий<n><px3pl><acc>$
       5 #суйлө\<v\>\<tv\>\<ifi\>\<p3\>\<pl\>	^суйлө<v><tv><ifi><p3><pl>$
-      5 #өт\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^өт<v><iv><abil><neg><prt_impf>$
       5 #ой\<n\>\<px3sg\>\<gen\>	^ой<n><px3sg><gen>$
       5 #ой\<n\>\<px3sg\>\<dat\>	^ой<n><px3sg><dat>$
       5 #курга\<v\>\<tv\>\<caus\>\<pass\>\<ger_past\>\<nom\>	^курга<v><tv><caus><pass><ger_past><nom>$
       5 #көргөзмөгө кой\<v\>\<tv\>\<pass\>\<neg\>\<opt\>\<p3\>\<sg\>	^көргөзмөгө кой<v><tv><pass><neg><opt><p3><sg>$
-      5 #кон\<v\>\<iv\>\<pass\>\<prt_impf\>	^кон<v><iv><pass><prt_impf>$
       5 #кол кой\<v\>\<tv\>\<pass\>\<neg\>\<prt_perf\>	^кол кой<v><tv><pass><neg><prt_perf>$
-      5 #кир\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^кир<v><iv><pass><ifi><p3><sg>$
-      5 #кир\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^кир<v><iv><pass><ger_past><px3sg><acc>$
-      5 #кет\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^кет<v><iv><pass><ifi><p3><sg>$
-      5 #кел\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^кел<v><iv><abil><neg><prt_impf>$
-      5 #кама\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<acc\>	^кама<v><tv><abil><neg><ger_past><acc>$
-      5 #кал\<v\>\<iv\>\<pass\>\<prt_impf\>	^кал<v><iv><pass><prt_impf>$
-      5 #жет\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^жет<v><iv><pass><ger_past><nom>$
-      5 #жет\<v\>\<iv\>\<abil\>\<ger_past\>\<px3sg\>\<acc\>	^жет<v><iv><abil><ger_past><px3sg><acc>$
-      5 #жаша\<v\>\<iv\>\<pass\>\<neg\>\<prt_impf\>	^жаша<v><iv><pass><neg><prt_impf>$
-      5 #жаша\<v\>\<iv\>\<pass\>\<neg\>\<aor\>\<p3\>\<sg\>	^жаша<v><iv><pass><neg><aor><p3><sg>$
-      5 #жаша\<v\>\<iv\>\<pass\>\<ger_past\>\<gen\>	^жаша<v><iv><pass><ger_past><gen>$
       5 #жар\<v\>\<tv\>\<pass\>\<caus\>\<ifi\>\<p3\>\<sg\>	^жар<v><tv><pass><caus><ifi><p3><sg>$
-      5 #жар\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^жар<v><tv><abil><neg><prt_impf>$
       5 #жай\<n\>\<px3sg\>\<gen\>	^жай<n><px3sg><gen>$
-      5 #жаз\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^жаз<v><tv><abil><neg><ger_past><px3sg><acc>$
-      5 #далилде\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<acc\>	^далилде<v><tv><abil><neg><ger_past><acc>$
-      5 #бур\<v\>\<tv\>\<pass\>\<neg\>\<opt\>\<p3\>\<sg\>	^бур<v><tv><pass><neg><opt><p3><sg>$
-      5 #бур\<v\>\<tv\>\<pass\>\<neg\>\<aor\>\<p3\>\<sg\>	^бур<v><tv><pass><neg><aor><p3><sg>$
-      5 #бур\<v\>\<tv\>\<neg\>\<prt_impf\>	^бур<v><tv><neg><prt_impf>$
-      5 #Бур\<v\>\<tv\>\<ger\>\<px3sg\>\<acc\>	^Бур<v><tv><ger><px3sg><acc>$
-      5 #бур\<v\>\<tv\>\<ger\>\<px3pl\>\<dat\>	^бур<v><tv><ger><px3pl><dat>$
-      5 #Бур\<v\>\<tv\>\<ger\>\<abl\>	^Бур<v><tv><ger><abl>$
-      5 #бар\<v\>\<iv\>\<pass\>\<neg\>\<ger_past\>\<acc\>	^бар<v><iv><pass><neg><ger_past><acc>$
       5 #аш\<v\>\<tv\>\<ger\>\<px3sg\>\<dat\>	^аш<v><tv><ger><px3sg><dat>$
-      5 #алып кел\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^алып кел<v><tv><abil><neg><prt_impf>$
       5 #ал\<v\>\<tv\>\<t_obl\>\<p3\>\<sg\>	^ал<v><tv><t_obl><p3><sg>$
       5 #ал\<v\>\<tv\>\<neg\>\<t_cond\>\<p3\>\<sg\>	^ал<v><tv><neg><t_cond><p3><sg>$
-      5 #ал\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<acc\>	^ал<v><tv><abil><neg><ger_past><acc>$
-      5 #айны\<v\>\<iv\>\<abil\>\<prt_impf\>	^айны<v><iv><abil><prt_impf>$
       5 #абыр ой\<n\>\<px3sg\>\<nom\>	^абыр ой<n><px3sg><nom>$
       4 #Юбилей\<n\>\<px3sg\>\<loc\>	^Юбилей<n><px3sg><loc>$
-      4 #чык\<v\>\<iv\>\<pass\>\<prt_impf\>	^чык<v><iv><pass><prt_impf>$
       4 #чык\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^чык<v><iv><imp><p3><sg>$
       4 #ушундай\<n\>\<px3sg\>\<dat\>	^ушундай<n><px3sg><dat>$
-      4 #улан\<v\>\<iv\>\<caus\>\<caus\>\<prt_impf\>	^улан<v><iv><caus><caus><prt_impf>$
-      4 #ук\<v\>\<tv\>\<abil\>\<prt_impf\>	^ук<v><tv><abil><prt_impf>$
       4 #үй\<n\>\<px3sg\>\<rloc\>	^үй<n><px3sg><rloc>$
       4 #Үй\<n\>\<px3sg\>\<dat\>	^Үй<n><px3sg><dat>$
-      4 #узар\<v\>\<iv\>\<pass\>\<fut\>\<p3\>\<sg\>	^узар<v><iv><pass><fut><p3><sg>$
-      4 #уза\<v\>\<tv\>\<abil\>\<prt_impf\>	^уза<v><tv><abil><prt_impf>$
-      4 #тыюу сал\<v\>\<tv\>\<abil\>\<prt_impf\>	^тыюу сал<v><tv><abil><prt_impf>$
-      4 #түшүн\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^түшүн<v><tv><abil><neg><ger_past><px3sg><acc>$
       4 #түгөй\<n\>\<px3pl\>\<nom\>	^түгөй<n><px3pl><nom>$
-      4 #тосуп ал\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^тосуп ал<v><tv><abil><neg><ger_past><px3sg><acc>$
-      4 #тос\<v\>\<tv\>\<abil\>\<prt_impf\>	^тос<v><tv><abil><prt_impf>$
-      4 #толукта\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^толукта<v><tv><abil><neg><prt_impf>$
       4 #Токто\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^Токто<v><iv><imp><p3><sg>$
       4 #токой\<n\>\<px3sg\>\<acc\>	^токой<n><px3sg><acc>$
       4 #токой\<n\>\<px3pl\>\<nom\>	^токой<n><px3pl><nom>$
-      4 #ташы\<v\>\<tv\>\<abil\>\<prt_impf\>	^ташы<v><tv><abil><prt_impf>$
-      4 #тап\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^тап<v><tv><abil><neg><prt_impf>$
-      4 #танда\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^танда<v><tv><abil><neg><prt_impf>$
       4 #сура\<v\>\<tv\>\<aor\>	^сура<v><tv><aor>$
       4 #суйлө\<v\>\<tv\>\<past\>\<p3\>\<sg\>	^суйлө<v><tv><past><p3><sg>$
       4 #суйлө\<v\>\<tv\>\<ger_past\>\<acc\>	^суйлө<v><tv><ger_past><acc>$
       4 #саясий\<n\>\<px3pl\>\<abl\>	^саясий<n><px3pl><abl>$
-      4 #пайда тап\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^пайда тап<v><tv><abil><neg><prt_impf>$
       4 #Өнөр жай\<n\>\<px3pl\>\<nom\>	^Өнөр жай<n><px3pl><nom>$
-      4 #ойлон\<v\>\<tv\>\<abil\>\<prt_impf\>	^ойлон<v><tv><abil><prt_impf>$
       4 #ой\<n\>\<px3sg\>\<acc\>	^ой<n><px3sg><acc>$
       4 #ой\<n\>\<px3pl\>\<nom\>	^ой<n><px3pl><nom>$
       4 #Музей\<n\>\<px3sg\>\<gen\>	^Музей<n><px3sg><gen>$
       4 #Музей\<n\>\<px3sg\>\<dat\>	^Музей<n><px3sg><dat>$
-      4 #күт\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^күт<v><tv><abil><neg><prt_impf>$
       4 #көтөр\<v\>\<tv\>\<pass\>\<caus\>\<ifi\>\<p3\>\<pl\>	^көтөр<v><tv><pass><caus><ifi><p3><pl>$
       4 #көтөр\<v\>\<tv\>\<pass\>\<caus\>\<aor\>\<p3\>\<pl\>	^көтөр<v><tv><pass><caus><aor><p3><pl>$
-      4 #корго\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<acc\>	^корго<v><tv><abil><neg><ger_past><acc>$
-      4 #көр\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^көр<v><tv><abil><neg><prt_impf>$
-      4 #кон\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^кон<v><iv><pass><ifi><p3><sg>$
-      4 #кон\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^кон<v><iv><pass><aor><p3><sg>$
-      4 #кон\<v\>\<iv\>\<abil\>\<prt_impf\>	^кон<v><iv><abil><prt_impf>$
       4 #кол кой\<v\>\<tv\>\<pass\>\<prt_perf\>	^кол кой<v><tv><pass><prt_perf>$
       4 #кол кой\<v\>\<tv\>\<pass\>\<neg\>\<prt_impf\>	^кол кой<v><tv><pass><neg><prt_impf>$
-      4 #кечик\<v\>\<iv\>\<abil\>\<prt_impf\>	^кечик<v><iv><abil><prt_impf>$
-      4 #келиш\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^келиш<v><iv><pass><ger_past><acc>$
-      4 #кел\<v\>\<iv\>\<pass\>\<ger_past\>\<px3sg\>\<acc\>	^кел<v><iv><pass><ger_past><px3sg><acc>$
       4 #кел\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^кел<v><iv><imp><p3><sg>$
-      4 #кач\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^кач<v><iv><abil><neg><prt_impf>$
-      4 #карма\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^карма<v><tv><abil><neg><prt_impf>$
-      4 #камсыз кыл\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<acc\>	^камсыз кыл<v><tv><abil><neg><ger_past><acc>$
-      4 #кама\<v\>\<tv\>\<abil\>\<prt_impf\>	^кама<v><tv><abil><prt_impf>$
-      4 #иште\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^иште<v><iv><abil><neg><prt_impf>$
-      4 #ишке ашыр\<v\>\<iv\>\<abil\>\<prt_impf\>	^ишке ашыр<v><iv><abil><prt_impf>$
-      4 #ишке ашыр\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^ишке ашыр<v><iv><abil><neg><prt_impf>$
       4 #Жык\<v\>\<tv\>\<pass\>\<caus\>\<ifi\>\<p3\>\<sg\>	^Жык<v><tv><pass><caus><ifi><p3><sg>$
       4 #жой\<v\>\<tv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^жой<v><tv><pass><ifi><p3><sg>$
-      4 #жет\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^жет<v><iv><pass><ger_past><acc>$
-      4 #жет\<v\>\<iv\>\<pass\>\<aor\>\<p3\>\<sg\>	^жет<v><iv><pass><aor><p3><sg>$
-      4 #жет\<v\>\<iv\>\<abil\>\<neg\>\<prt_impf\>	^жет<v><iv><abil><neg><prt_impf>$
-      4 #жет\<v\>\<iv\>\<abil\>\<ger_past\>\<acc\>	^жет<v><iv><abil><ger_past><acc>$
-      4 #жаша\<v\>\<iv\>\<pass\>\<neg\>\<ifi\>\<p3\>\<sg\>	^жаша<v><iv><pass><neg><ifi><p3><sg>$
-      4 #жаша\<v\>\<iv\>\<pass\>\<ger\>\<loc\>#э\<cop\>\<p3\>\<sg\>	^жаша<v><iv><pass><ger><loc>+э<cop><p3><sg>$
       4 #жай\<n\>\<px3sg\>\<abl\>	^жай<n><px3sg><abl>$
       4 #Жагдай\<n\>\<px3sg\>\<acc\>	^Жагдай<n><px3sg><acc>$
-      4 #далилде\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^далилде<v><tv><abil><neg><ger_past><px3sg><acc>$
-      4 #Бур\<v\>\<tv\>\<pass\>\<prt_perf\>	^Бур<v><tv><pass><prt_perf>$
-      4 #бур\<v\>\<tv\>\<pass\>\<ger_past\>\<px3sg\>\<nom\>	^бур<v><tv><pass><ger_past><px3sg><nom>$
-      4 #бур\<v\>\<tv\>\<ger\>\<px3pl\>\<gen\>	^бур<v><tv><ger><px3pl><gen>$
-      4 #бур\<v\>\<tv\>\<ger_past\>\<dat\>	^бур<v><tv><ger_past><dat>$
-      4 #бур\<v\>\<tv\>\<ger\>\<abl\>	^бур<v><tv><ger><abl>$
       4 #буз\<v\>\<tv\>\<pass\>\<caus\>\<aor\>\<p3\>\<sg\>	^буз<v><tv><pass><caus><aor><p3><sg>$
-      4 #буз\<v\>\<tv\>\<abil\>\<prt_impf\>	^буз<v><tv><abil><prt_impf>$
-      4 #бол\<v\>\<iv\>\<pass\>\<ger_past\>\<acc\>	^бол<v><iv><pass><ger_past><acc>$
-      4 #Бол\<v\>\<iv\>\<abil\>\<prt_impf\>	^Бол<v><iv><abil><prt_impf>$
-      4 #башкар\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^башкар<v><tv><abil><neg><prt_impf>$
       4 #баш ий\<v\>\<tv\>\<pass\>\<prt_impf\>	^баш ий<v><tv><pass><prt_impf>$
       4 #баш ий\<v\>\<tv\>\<pass\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^баш ий<v><tv><pass><neg><ger_past><px3sg><acc>$
       4 #баш ий\<v\>\<tv\>\<pass\>\<fut\>\<p3\>\<sg\>	^баш ий<v><tv><pass><fut><p3><sg>$
+      4 #аш\<v\>\<tv\>\<neg\>\<prt_impf\>	^аш<v><tv><neg><prt_impf>$
       4 #аш\<v\>\<tv\>\<ger_past\>\<px3sg\>\<dat\>	^аш<v><tv><ger_past><px3sg><dat>$
       4 #аш\<v\>\<tv\>\<ger\>\<dat\>	^аш<v><tv><ger><dat>$
-      4 #ачылыш жаса\<v\>\<iv\>\<pass\>\<ifi\>\<p3\>\<sg\>	^ачылыш жаса<v><iv><pass><ifi><p3><sg>$
-      4 #ачылыш жаса\<v\>\<iv\>\<pass\>\<ger_past\>\<nom\>	^ачылыш жаса<v><iv><pass><ger_past><nom>$
-      4 #ат\<v\>\<tv\>\<abil\>\<neg\>\<prt_impf\>	^ат<v><tv><abil><neg><prt_impf>$
+      4 #аракет кыл\<v\>\<tv\>\<neg\>\<prt_impf\>	^аракет кыл<v><tv><neg><prt_impf>$
       4 #аракет кыл\<v\>\<tv\>\<ger\>\<px3sg\>\<gen\>	^аракет кыл<v><tv><ger><px3sg><gen>$
       4 #аракет кыл\<v\>\<tv\>\<ger\>\<px3pl\>\<gen\>	^аракет кыл<v><tv><ger><px3pl><gen>$
-      4 #алып кел\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<acc\>	^алып кел<v><tv><abil><neg><ger_past><px3sg><acc>$
       4 #ал\<v\>\<tv\>\<t_cond\>\<p3\>\<sg\>	^ал<v><tv><t_cond><p3><sg>$
-      4 #ал\<v\>\<tv\>\<abil\>\<neg\>\<ger_past\>\<px3sg\>\<nom\>	^ал<v><tv><abil><neg><ger_past><px3sg><nom>$
       4 #Ай\<n\>\<px3sg\>\<rloc\>	^Ай<n><px3sg><rloc>$
       4 #ай\<n\>\<px3pl\>\<rloc\>	^ай<n><px3pl><rloc>$
       4 #абыр ой\<n\>\<px3sg\>\<loc\>	^абыр ой<n><px3sg><loc>$
@@ -510,7 +270,7 @@ Tag mismatch between transfer and generation
 ===============================================================================
 Summary
 ===============================================================================
-    1 /tmp/tr-ky.multiform
+    3 /tmp/tr-ky.multiform
     0 /tmp/tr-ky.multibidix
-  492 /tmp/tr-ky.tagmismatch
-  493 total
+  250 /tmp/tr-ky.tagmismatch
+  253 total
