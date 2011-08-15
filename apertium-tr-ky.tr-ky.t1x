@@ -3,6 +3,11 @@
 <transfer>
   <section-def-cats>
       
+    <def-cat n="np_acr">
+      <cat-item tags="np.acr"/>
+      <cat-item tags="np.acr.*"/>
+    </def-cat>
+      
     <def-cat n="np_apos">
       <cat-item lemma="*" tags="np.apos"/>
       <cat-item lemma="*" tags="np.apos.*"/>
@@ -522,6 +527,27 @@
           <let><clip pos="1" side="tl" part="trans"/><lit-tag v="tv"/></let> 
         </when>
       </choose>
+      <choose>
+        <when>
+          <test>
+            <and>
+              <not><in caseless="yes"><clip pos="1" side="tl" part="lem"/><list n="v_iv_with_pass"/></in></not>
+              <equal><clip pos="1" side="tl" part="trans"/><lit-tag v="iv"/></equal>
+              <equal><clip pos="1" side="sl" part="pass"/><lit-tag v="pass"/></equal>
+            </and>
+          </test>
+          <let><clip pos="1" side="tl" part="pass"/><lit v=""/></let> 
+        </when>
+      </choose>
+
+      <choose>
+        <when>
+          <test>
+              <equal><clip pos="1" side="tl" part="abil"/><lit-tag v="abil"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="abil"/><lit v=""/></let> 
+        </when>
+      </choose>
     </def-macro>
 
     <def-macro n="f_conv_case1" npar="1">
@@ -965,6 +991,36 @@
         </out>
       </action>
     </rule>
+ 
+    <rule comment="regla: np_acr">
+      <pattern>
+        <pattern-item n="np_acr"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="gen"/>
+<!-- while overgeneration is taking place, don't output the case
+            <clip pos="1" side="tl" part="nbr"/>
+            <var n="c_poss"/>
+            <var n="c_case"/>
+-->
+            <lit-tag v="nom"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+ 
  
     <rule comment="regla: nom np_apos">
       <pattern>
