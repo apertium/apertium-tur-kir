@@ -4516,7 +4516,6 @@ LEXICON NounStems
 чечим N-INFL ;
 политика N-INFL ;
 бета N-INFL ;
-ак N-INFL ;
 сайт N-INFL ;
 шериктештик N-INFL ;
 ортоктук N-INFL ;
@@ -5103,7 +5102,6 @@ LEXICON NounStems
 иликтөө N-INFL ;
 !мисал N-INFL ;
 маселе N-INFL ;
-ак N-INFL ;
 сурак N-INFL ;
 үн N-INFL ;
 элдик% кошуун N-INFL ;
@@ -8986,7 +8984,6 @@ LEXICON VerbStems
 ээлик% кыл V-INFL-TV ;
 өзуңө% ыйгар V-INFL-TV ;
 кат V-INFL-TV ;
-ак V-INFL-IV ;
 тиле V-INFL-TV ; ! "wish"
 тил V-INFL-TV ; ! "slice"
 таанып% бил V-INFL-TV ;

@@ -995,13 +995,14 @@
     <rule comment="regla: np_acr">
       <pattern>
         <pattern-item n="np_acr"/>
+        <pattern-item n="np_apos"/>
       </pattern>
       <action>
         <call-macro n="f_conv_case1">
-          <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="f_conv_poss1">
-          <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <out>
           <lu>
