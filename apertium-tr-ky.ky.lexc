@@ -3579,7 +3579,6 @@ LEXICON NounStems
 бут% кийим N-INFL ; 
 аяр N-INFL ; 
 аяз N-INFL ; 
-ай N-INFL ; 
 аюу N-INFL ; 
 уят N-INFL ; 
 туура% келбеген N-INFL ; 
@@ -8512,6 +8511,7 @@ LEXICON VerbStems
 боё V-INFL-TV ; 
 була V-INFL-TV ; 
 бур V-INFL-IV ; 
+бур V-INFL-TV ;  ! in bidix
 буйру V-INFL-IV ; 
 ! бырыштыр V-INFL-TV ;  regular
 бырыш V-INFL-IV ; 
