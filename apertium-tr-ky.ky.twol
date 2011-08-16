@@ -22,13 +22,6 @@ SurCns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ
 
 FromCns = SurCns Я я Ё ё Ю ю ;
 
-!CnsNoY = Б В Г Д Ж З К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ 
-!         б в г д ж з к л м н ң п р с т ф х ц ч ш щ ь ъ 
-!         %{D%} %{G%} %{N%} %{L%} %{B%} %{S%} %{n%} %{l%} ;
-
-!CorVs =     [all:V | all:Cons]* ;
-
-
 !%{E%}       ! Realised as 'а', 'е', 'о', 'ө', 'й' 
 !%{A%}       ! Realised as 'а', 'е', 'о', 'ө' 
 !%{I%}       ! Realised as 'ы', 'и', 'у', 'ү'
@@ -49,7 +42,7 @@ BackUnrndVow = А Ы а ы Я я ;
 FrontRndVow = Ө Ү ө ү ;
 BackRndVow =  О У о у Ю ю Ё ё ;
 BackLowRndVow = О о Ё ё ;
-LowVow = Е е Э э Ө ө А а Я я О о Ё ё ; ! АА аа ЭЭ ээ ӨӨ өө ОО оо ;
+LowVow = Е е Э э Ө ө А а Я я О о Ё ё ;
 HighVow = И и Ү ү Ы ы У у Ю ю ;
 YotVow = Я я Е е Ё ё Ю ю ;
 
@@ -106,13 +99,13 @@ Rules
 "N Desonorisation"
 %{N%}:д <=> VoicedCns %>: _ ;
 !%{N%}:д <=> VoicedCns (%>:) _ ;
-!!%{N%}:д <=> [ SonCns | VoicedNonSonCns ] %>:  _ ;
 
 !!!!!! рн stuff !!!!! 
 
 "Unepenthesis in рн stems"
 %{y%}:0 <=> _ [ :Cns :SurVow ]/[ :0 | %>: ] ;
 
+! FIXME: check
 "Harmony of epenthesised vowel in рн stems"
 !%{y%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[:0] _ [ :Cns \:SurVow ]/[ :0 | %>:] ;
 %{y%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[:0] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>:] ;
@@ -126,106 +119,34 @@ Rules
 !!!!!!!!!!!!!   Rules that might be messing with me !!!!!!!!!!!!!
 
 "Devoicing of stops etc. across morpheme boundary after voiceless consonants" !!"Katkalan harmony in consonants"
-!Cx:Cy <=>  :UnvoicedNonSonCns %>: _ ;   !Cx:Cy <=>  UnvoicedNonSonCns %>: _ ;
-!Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ [ ? -[ %{I%}:0 р:0 ] ] ;
-Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ %{I%}: р: ] ;
-!Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
-!Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] ] ( %>: ) _ ;
+Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
+                         ! avoid conflict with "Causative stuff"
+                         ~~[ [ :SurVow | :р | :н ] %>: _ %{I%}: р: ]~~ ;
         where Cx in ( %{B%}  %{G%}  %{D%}  %{L%}  %{N%} )
               Cy in (   п      к      т      т      т)
               matched;
 
 
-
 !!!!!!!!!!!!   Consonant stuff  !!!!!!!!!!!!!
 
-!"Voiceless non-coronal stop voicing"
-!!Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ; 
-!!Cx:Cy <=> :SurVow _ WildNonPhon* :SurVow ;
-!!Cx:Cy <=> :SurVow _ [ WildNonPhon: | :WildNonPhon ]* :SurVow ;
-!!Cx:Cy <=> :SurVow _ %>: (:0) :SurVow \п ; 
-!Cx:Cy <=> :SurVow _ %>: [ :SurVow ]/[ :0 ] \п ; 
-!        where Cx in (  п   к  )
-!              Cy in (  б   г  )
-!              matched ;
+"Intervocalic voicing of п"
+п:б <=> :SurVow (:0) _ %>: (:0) :SurVow ;
+         ! avoid conflict with "{I}п stuff" 
+         ~~[ :LowVow _ %>: %{I%}: п ]~~ ;
 
-"Intervocalic voicing of п everywhere except in <cv_perf>"
-!п:б <=> :SurVow _ %>: [ :SurVow ]/[ :0 ] \[ п ] ; 
-!п:б <=> :SurVow _ %>: [ [ [ :SurVow ]/[ :0 ] ] - [ %{I%}: п ] ] ;
-!п:б <=> :SurVow _ %>: [ [ (:0) :SurVow ] - $[ %{I%}: п ] ] ;
-!п:б <=> :SurVow _ %>: [ [ (:0) :SurVow ] - [ %{I%}: п ] ] ;
-!!п:б <=> :SurVow (:0) _ %>: (:0) [ :SurVow - %{I%}:LowVow ] ;
-!п:б <=> :SurVow (:0) _ %>: (:0) :SurVow ;
-!!п:б => :SurVow (:0) _ %>: (:0) :SurVow ;
-!п:б <= :SurVow (:0) _ %>: (:0) :SurVow ;
-!п:б <=> [ [ :SurVow :* ] - [ :LowVow :* ] ] (:0) _ %>: (:0) [ [ :* :SurVow ] - [ :* %{I%}: п [ :Cns | .#. ] ] ] ;
-!п:б <=> [ [ :SurVow :* ] - [ :LowVow :* ] ] (:0) _ %>: (:0) [ [ :* :SurVow ] - [ :* %{I%}: п ] ] ;
-!п:б <=> [ [ :SurVow :* ] - [ :LowVow :* ] ] (:0) _ %>: (:0) [ [ :* :SurVow ] - [ :* %{I%}: п ] ] ;
-!п:б <=> [ [ :SurVow :* ] - [ :LowVow :* ] ] (:0) _ %>: (:0) [ :* - [ :* :SurVow ] ] ;
-!п:б <=> :SurVow (:0) _ %>:  [(:0) :SurVow - [:* %{I%}: п ]] ;
-!п:б <=> [:SurVow (:0) _ %>: (:0) :SurVow - [:LowVow _ %>: %{I%}: п ]] ;
-!п:б <=> [[:SurVow (:0)] - [:LowVow ]] _ %>: [(:0) :SurVow - [%{I%}: п ]] ;
-!п:б <=> [:SurVow - :LowVow ] (:0) _ %>: (:0) [ :SurVow - [ %{I%}: п ]] ;
-!п:б <=> :SurVow (:0) _ %>: (:0) [ :SurVow - [ %{I%}: п ]] ;
-!п:б <=> [:SurVow (:0) - [:LowVow (:0)]] _ %>: (:0) [:SurVow - [%{I%}: ]] \п ;
-!п:б <=> [:SurVow (:0) - [:LowVow (:0)]] _ %>: [[(:0) :SurVow] - [%{I%}: ]] \п ;
-!п:б <=> :HighVow (:0) _ %>: (:0) [ [:SurVow - %{I%}:] [:* - п]* | %{I%}: ] .#. ;
-!        :HighVow (:0) _ %>: (:0) :SurVow ;
-!        :SurVow (:0)  _ %>: (:0) [ [:SurVow - %{I%}:] [:* - п]* | %{I%}: ] .#. ;
-!п:б <=> :HighVow _ %>: [ [:SurVow - %{I%}:] [:* - п]* | %{I%}: ]/[ :0 ] .#. ;
-!        :HighVow _ %>: :SurVow/:0 ;
-!        :SurVow  _ %>: [ [ [:SurVow - %{I%}:] [:* - п] ]* | %{I%}: ]/[ :0 ] .#. ;
-п:б <=> :HighVow _ %>: [ [:SurVow - %{I%}:] [:* - п]* | %{I%}: ]/[ :0 ] ;
-        :HighVow _ %>: :SurVow/:0 ;
-        :SurVow  _ %>: [ [ [:SurVow - %{I%}:] [:* - п] ] | %{I%}: ]/[ :0 ] ;
-
-
-
-
-!"restrict п voicing rule to everything but {I}п"
-!п:б /<= :LowVow _ %>: %{I%}: п ;
-
-"Intervocalic voicing of к everywhere"
-к:г <=> :SurVow _ %>: [ :SurVow ]/[ :0 ] ;
+"Intervocalic voicing of к"
+к:г <=> :SurVow (:0) _ %>: (:0) :SurVow ;
 
 !!!!!!!!!!!!   Deletion   !!!!!!!!!!!!!!!!
 
-!"Vowel deletion for archiphoneme {I}"
-!!%{I%}:0 <=> :SurVow (%>:) _ \п ;
-!!%{I%}:0 <=> :SurVow (%>:) _ ;
-!!%{I%}:0 <=> :SurVow WildNonPhon* _ ;
-!!%{I%}:0 <=> :SurVow [ WildNonPhon: | :WildNonPhon ]* _ ;
-!!%{I%}:0 <=> :SurVow (%>:) _ \п ;
-!!%{I%}:0 <=> :SurVow (%>:) _ ;
-!!%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \п ;
-!!%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \[ п | .#. ] ;
-!!%{I%}:0 <=> [ :SurVow | %{n%}:н ]/[ [ :0 - й:0 ] | %>: ] _ \[ п ] ;
-!!%{I%}:0 <=> [ :SurVow | %{n%}:н ]/[ [ :0 - й:0 ] | %>: | %{N%}:0 ] _ \[ п ] ;
-!!%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \[ п ] ;
-!%{I%}:0 <=> [ :SurVow ]/[ [ :0 - й:0 ] | %>: ] _ \[ п | р:0 ] ;
-
 "Deletion of {I} after vowels"
 %{I%}:0 <=> [ :SurVow ]/[ :0 | %>: ] _ ;
-                 ~~[ й:/[ :0 | %>: ] _ ]~~ ;     ! Avoid conflict w y-vowels
-                                 ~~[ _ п ]~~ ;   ! Avoid conflict w {I}п stuff
-                                 ~~[ _ р:0 ]~~ ; ! Avoid conflict w causative
-             ~~[ %{e%}:/[ :0 | %>: ] _ ]~~ ;     ! Avoid conflict w irreg vowel harm
-
-!"Deletion of {I} after {n}"
-!%{I%}:0 <=> %{n%}:н/[ [ :0 - %{e%}: ] | %>: ] _ \[ п ];
+                ~~[ й:0/[ %>: | :0 ] _ ]~~ ;    ! Avoid conflict w y-vowels
+          ~~[ :LowVow LabialCns: %>: _ п ]~~ ;  ! Avoid conflict with {I}п stuff
 
 "Deletion of {I} after {n}"
 %{I%}:0 <=> %{n%}:н/[ :0 | %>: ] _ ;
-                             ~~[ _ п ]~~ ;   ! Avoid conflict w {I}п stuff
-                             ~~[ _ р:0 ]~~ ; ! Avoid conflict w causative
          ~~[ %{e%}:/[ :0 | %>: ] _ ]~~ ;     ! Avoid conflict w irreg vowel harm
-
-!"Deletion of {A} after vowels"
-!!%{A%}:0 <=> [ :SurVow - й: ]/[ :0 ] %>: _ ;
-!!%{A%}:0 <=> [ :SurVow ]/[ :0 - й:0 ] %>: _ ;
-!!%{A%}:0 <=> [ :SurVow ]/[ :0 ] \й: %>: _ ;
-!!%{A%}:0 <=> [ :SurVow ]/[ :0 - й: ] %>: _ ;
-!%{A%}:0 <=> [ :SurVow - %{A%}: ]/[ [ :0 - й:0 ] | %>: ] _ ;
 
 "Deletion of {A} after vowels"
 %{A%}:0 <=> [ :SurVow ]/[ :0 | %>: ] _ ;
@@ -233,42 +154,12 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ %{I%}: р: ] ;
                  ~~[ й:/[ :0 | %>: ] _ ]~~ ;  ! Avoid conflict w y-vowels
 
 "Deletion of {S} after a consonant"
-!%{S%}:0 <=> :Cns :0* (%>:) _ ;
-!%{S%}:0 <=> :Cns WildNonPhon* _ ;
-!%{S%}:0 <=> :Cns [ WildNonPhon: | :WildNonPhon ]* _ ;
-!%{S%}:0 <=> :Cns :0* (%>:) _ ;
-!%{S%}:0 <=> :Cns/[ :0 | %>: ]* _ ;
-!%{S%}:0 <=> :Cns/[ %>: ]* _ ;
-!%{S%}:0 <=> :FromCns/[ %>: ]* _ ;
-%{S%}:0 <=> [ :Cns | й: | ь:0 ]/[ %>: ]* _ ;
-
+!%{S%}:0 <=> [ :Cns | й: | ь:0 ]/[ %>: ]* _ ;
+%{S%}:0 <=> [ :Cns | й: ]/[ %>: | :0 ] _ ;
 
 
 
 !!!!!!!!!!!!   Vowel harmony !!!!!!!!!!!!!
-
-!"Vowel harmony for archiphoneme {A}"
-!!%{A%}:Vy <=> :LastVowel [ WildNoVow: | :WildNoVow ]* :SurCns [ WildNonPhon: | :WildNonPhon ]* _ [ ? - [ {U}: ]/[ :0 | %>: ] ] ;
-!!%{A%}:Vy <=> [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>: ] _ \%{U%}:* ;
-!!%{A%}:Vy <=> [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>: ] _ [ ? - [ %>: %{U%}: ] ] ;
-!!%{A%}:Vy <=> [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>: ] _ \[ [ %{U%}: ] | [ %>: %{U%}: ] ] ;
-!!%{A%}:Vy <=> [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>: ] _ ( %>: ) \[ %{U%}:0 | %{U%}:SurVow ] ;
-!!%{A%}:Vy <=> [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>: ] _ \[ ( %>: ) %{U%}: ] ;
-!!%{A%}:Vy <=> [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>: ] _ [ ?* -  [ [ %{U%}: ?* ] | [ %>: %{U%}: ?* ] ] ] ;
-!!%{A%}:Vy <=> [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>: ] _ [ ?* -  [ ( %>: ) %{U%}: ?* ] ] ;
-!!				 \%{B%}:б _ \%{U%}: ;
-!!				 \%{B%}:б _ \[ %>: %{U%}: ] ;
-!!%{A%}:Vy <=> [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>: ] _ \[ %{U%}: ?* ] ;
-!!             [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>: ] _ \[ %>: %{U%}: ?* ] ;
-!!             [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>: ] _ \[ %{U%}:SurVow ?* ] ;
-!!             [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>: ] _ \[ %>: %{U%}:SurVow ?* ] ;
-!!%{A%}:Vy <=> [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>: ] _ [ [ [ ( ? ) ? ] - [ ( %>: ) %{U%}: ] ] | ? .#. | .#. ] ;
-!!%{A%}:Vy <=> [ :LastVowel Cns* [ Cns - й: ] ]/[ :0 | %>: ] _ ( %>: ) \[ %>: | %{U%}: ] ;
-!%{A%}:Vy <=> [ :LastVowel :Cns* [ :Cns - й: ] ]/[ :0 | %>: ] _ ( %>: ) \[ %>: | %{U%}: ] ;
-!             [ %{A%}:LastVowel ] _ ( %>: ) \[ %>: | %{U%}: ] ;
-!        where LastVowel in (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  )
-!                     Vy in (  е  ө  е  е  ө  а  а  о  о  а  а  а  )
-!							matched ;
 
 "Vowel harmony for archiphoneme {A}"
 %{A%}:Vy  <=> [ :LastVowel :Cns* :Cns ]/[ :0 | %>: ] _ ;
@@ -279,17 +170,6 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ %{I%}: р: ] ;
                      Vy in (  е  ө  е  е  ө  а  а  о  о  а  а  а  )
                      matched ;
 
-
-!"Vowel harmony for archiphoneme {I}"
-!!%{I%}:Vy <=> [ :LastVowel :Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | :0 ] _ \[ р:0 | п: ] ;
-!!%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | :0 ] _ \[ р:0 | п: | %{U%}:* ] ;
-!!%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | :0 ] _ [ [ ? - [ %>: %{U%}: ] ] | \[ р:0 | п: |  ] ] ;
-!!%{I%}:Vy <=> [ :LastVowel Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | :0 ] _ \[ р:0 | п: | %{U%}:SurVow ]/[ %>: ] ;
-!%{I%}:Vy <=> [ :LastVowel :Cns* [ :Cns - [ й: | %{I%}:LabialCns | %{n%}: ] ] ]/[ %>: | [ :0 - %{e%}: ] ] _ \[ р:0 | п: ] ;
-!  where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
-!  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
-!           matched ;
-
 "Vowel harmony for archiphoneme {I}"
 %{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | :0 ] _ ;
                    ~~[ %{I%}:LabialCns/[ :0 | %>: ] _ ]~~ ;
@@ -297,22 +177,14 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ %{I%}: р: ] ;
                                 ~~[ й:/[ :0 | %>: ] _ ]~~ ;     ! Avoid conflict w y-vowels
 !                                        ~~[ %{e%}:0 _ ]~~ ;     ! Avoid conflict with irregular vowel harmony
                             ~~[ %{e%}:/[ :0 | %>: ] _ ]~~ ;    ! Avoid conflict w forced vowel harm
-                                                ~~[ _ п ]~~ ;   ! Avoid conflict w {I}п stuff
+!                                                ~~[ _ п ]~~ ;   ! Avoid conflict w {I}п stuff
                                                 ~~[ _ р:0 ]~~ ; ! Avoid conflict w causative
   where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
 
-
-!"Irregular vowel harmony for archiphoneme {I}"
-!!%{I%}:Vy <=> [ :LastVowel :Cns* %{e%}:0 ]./.[ %>: | [ :0 - %{e%}:0 ] ] _ \[ р:0 | п: ] ;
-!%{I%}:Vy <=> [ :LastVowel :Cns* ]/[ %>: | [ :0 - %{e%}:0 ] ] %{e%}:/%>: _ \[ р:0 | п: ] ;
-!  where  Vy  in  (  и  ү  и  и  ү  и  и  ү  ү  и  ү  ү )
-!  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
-!           matched ;
-
 "Irregular vowel harmony for archiphoneme {I}"
-%{I%}:Vy <=> [ :LastVowel :Cns* %{e%}: ]/[ %>: ] _ ; 
+%{I%}:Vy <=> [ :LastVowel :Cns* :Cns %{e%}: ]/[ %>: ] _ ; 
   where  Vy  in  (  и  ү  и  и  ү  и  и  ү  ү  и  ү  ү )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
@@ -321,33 +193,14 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ %{I%}: р: ] ;
 "Vowel harmony for archiphoneme {E}" ! should be just like {A}
 !Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns ] _ ; 
 !Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ; 
-Vx:Vy <=> [ :LastVowel Cns* [ :Cns - й ] ]/[ :0 | %>: ] _ ; 
-        where Vx         in ( %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} %{E%} )
-              Vy         in (   е     ө     е     е     ө     а     а     о     о     а     а     а   )
-              LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
+%{E%}:Vy <=> [ :LastVowel Cns* [ :Cns - й ] ]/[ :0 | %>: ] _ ; 
+  where Vy   in  (  е  ө  е  е  ө  а  а  о  о  а  а  а )
+  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
               matched ; 
 
 
 
 !!!!!!!!!!!!   й vowel harmony  !!!!!!!!!!
-
-
-!"Vowel harmony for archiphoneme {A} after й"
-!!%{A%}:Vy <=> :LastVowel WildNonPhon* й: WildNonPhon* _ ;
-!!%{A%}:Vy <=> [ :LastVowel й: ]/[ :0 | %>: ] _ \%{U%}:* ;
-!!%{A%}:Vy <=> [ :LastVowel й: ]/[ :0 | %>: ] _ \[ ( %>: ) %{U%}: ] ;
-!!%{A%}:Vy <=> [ :LastVowel й: ]/[ :0 | %>: ] _ [ ?* - [ %{U%}: ?* ] ] ;
-!!             [ :LastVowel й: ]/[ :0 | %>: ] _ [ ?* - [ %>: %{U%}: ?* ] ] ;
-!!%{A%}:Vy <=> [ :LastVowel й: ]/[ :0 | %>: ] _ \[ %{U%}: ?* ] ;
-!!             [ :LastVowel й: ]/[ :0 | %>: ] _ \[ %>: %{U%}: ?* ] ;
-!!             [ :LastVowel й: ]/[ :0 | %>: ] _ \[ %{U%}:SurVow ?* ] ;
-!!             [ :LastVowel й: ]/[ :0 | %>: ] _ \[ %>: %{U%}:SurVow ?* ] ;
-!!%{A%}:Vy <=> [ :LastVowel й: ]/[ :0 | %>: ] _ \[ (%>:) %{U%}:SurVow ?* ] ;
-!!%{A%}:Vy <=> [ :LastVowel й: ]/[ :0 | %>: ] _ [ [ [ ( ? ) ? ] - [ ( %>: ) %{U%}: ] ] | ? .#. | .#. ];
-!%{A%}:Vy <=> [ :LastVowel й: ]/[ :0 | %>: ] _ ( %>: ) \[ %>: | %{U%}: ] ;
-!        where Vy  in ( е  ө  е  е  ө  я  я  ё  ё  я  я  я )
-!        LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
-!               matched ;
 
 "Vowel harmony for archiphoneme {A} after й"
 %{A%}:Vy <=> [ :LastVowel й: ]/[ :0 | %>: ] _ ; 
@@ -356,79 +209,42 @@ Vx:Vy <=> [ :LastVowel Cns* [ :Cns - й ] ]/[ :0 | %>: ] _ ;
         LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
                matched ;
 
-
 "Vowel harmony for archiphoneme {E} after й" ! should be just like {A}
-!%{E%}:Vy <=> :LastVowel WildNonPhon* й: WildNonPhon* _ ; 
 %{E%}:Vy <=> [ :LastVowel й: ]/[ :0 | %>: ] _ ; 
         where Vy  in ( е  ө  е  е  ө  я  я  ё  ё  я  я  я )
         LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
               matched ;
 
-!"Vowel harmony for archiphoneme {I} after й"
-!!%{I%}:Vy <=> :LastVowel WildNonPhon* й: WildNonPhon* _ \п ;
-!%{I%}:Vy <=> [ :LastVowel й: ]/[ [ :0 - %{n%}:0 ] | %>: ] _ \[ п | %{U%}:* ] ;
-!      where Vy  in ( и  ү  и  и  ү  ы  ы  ю  ю  ы  ю  ю )
-!      LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
-!               matched ; 
-
 "Vowel harmony for archiphoneme {I} after й"
 %{I%}:Vy <=> [ :LastVowel й: ]/[ %>: | :0 ] _ ;
-!                   ~~[ %{I%}:LabialCns/[ :0 | %>: ] _ ]~~ ;
-                            ~~[ %{n%}:/[ :0 | %>: ] _ ]~~ ;     ! Avoid conflict with {n} stuff
-                            ~~[ %{e%}:/[ :0 | %>: ] _ ]~~ ;    ! Avoid conflict w forced vowel harm
-                                                ~~[ _ п ]~~ ;   ! Avoid conflict w {I}п stuff
-                                                ~~[ _ %{U%}:* ]~~ ; ! Avoid conflict with infinitive stuff
-  where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
+                    ~~[ %{e%}:/[ :0 | %>: ] _ ]~~ ;    ! Avoid conflict w forced vowel harm
+!           ~~[ %{I%}:LabialCns/[ :0 | %>: ] _ ]~~ ;
+!                    ~~[ %{n%}:/[ :0 | %>: ] _ ]~~ ;     ! Avoid conflict with {n} stuff
+!                                        ~~[ _ п ]~~ ;   ! Avoid conflict w {I}п stuff
+!             ~~[ [ :SurVow - м:SurVow ] %>: _ п ]~~ ;
+!                                        ~~[ _ %{U%}:* ]~~ ; ! Avoid conflict with infinitive stuff
+  where  Vy  in  (  и  ү  и  и  ү  ы  ы  ю  ю  ы  ю  ю )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
 
-
 "Vowel harmony for archiphoneme {U} after й"
-!%{U%}:Vy <=> :LastVowel WildNonPhon* й: WildNonPhon* _ ;
 %{U%}:Vy <=> [ :LastVowel й: ]/[ :0 | %>: ] _ ;
-        !where Vy  in ( ү  ү  ү  ү  ү  у  у  ю  ю  у  ю  ю )
         where Vy  in ( ү  ү  ү  ү  ү  ю  ю  ю  ю  ю  ю  ю )
         LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
                matched ;
 
 "Deletion of й before yoticised vowels"
-!й:0 <=> _ WildNonPhon* :YotVow ;
 й:0 <=> _ [ :YotVow ]/[ :0 | %>: ] ;
 
 
-!!!!!!!!!!!  {I}п crap !!!!!!!!!!!!!
+!!!!!!!!!!!  {I}п stuff !!!!!!!!!!!!!
 
-"Vowel harmony for archiphoneme {I} after й before п in <cv_perf>"
-!%{I%}:Vy <=> :LastVowel WildNoVow* й: WildNonPhon* _ п ;
-%{I%}:Vy <=> [ :LastVowel й: ]/[ [ :0 - %{e%}: ] | %>: ] _ п ;
-                             ~~[ %{e%}:/%>: _ ]~~ ; ! avoid conflict with irregular vowel harmony rule
-      where Vy  in ( и  ү  и  и  ү  ы  ы  ю  ю  ы  ю  ю )
-      LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
-               matched ; 
+! This is dpulicating normal deletion of {I} after vowels
+!"Deletion of all the other {I}s in {I}п forms"
+!%{I%}:0 <=> [ :SurVow - м:SurVow ] %>: _ п ;
 
-"Vowel harmony for archiphoneme {I} before п in <cv_perf>"
-!%{I%}:Vy <=> [ :LastVowel - :LowVow ] WildNoVow* [ Cns - [ й: | LabialCns ] ] WildNonPhon* _ п ;
-%{I%}:Vy <=> [ [ :LastVowel ] Cns* [ Cns - [ й: | LabialCns ] ] ]/[ :0 | %>: ]  _ п ;
-                             ~~[ %{e%}:/%>: _ ]~~ ; ! avoid conflict with irregular vowel harmony rule
-  where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
-  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
-           matched ;
-
-"Deletion of all the other {I}s in {I}п <cv_perf>"
-%{I%}:0 <=> [ :SurVow - м:SurVow ] %>: _ п ;
-
-!!"Deletion of п at end of verb stem before {I}п <cv_perf>"
-!!п:0 <=> :LowVow _ %>: %{I%}: п ;
-
-"Deletion of п at end of verb stem in <cv_perf>"
-!!п:0 <=> _ %>: %{I%}:0 п ;
+"Deletion of п at end of verb stem in {I}п forms"
 п:0 <=> :LowVow _ %>: %{I%}: п ;
-!!п:0 <= :LowVow _ %>: %{I%}: п ;
-!!п:0 <=> :LowVow _ %>: %{I%}: п [ :Cns | .#. ] ;
-
-!!"Deletion of {I} after м at end of verb stem in <cv_perf>"
-!!!%{I%}:0 <=> :LowVow :0 м %>: _ п ;
-!!%{I%}:0 <=> :LowVow м %>: _ п ;
 
 "Shifting of м to where {I} was in <cv_perf>"
 %{I%}:м <=> :LowVow м: %>: _ п ;
@@ -452,17 +268,12 @@ Vx:Vy <=> [ :LastVowel Cns* [ :Cns - й ] ]/[ :0 | %>: ] _ ;
 !!!!!!!!!!!!   {U} stuff (harmony, etc)  !!!!!!!!!!!!!
 
 "Vowel harmony for archiphoneme {U} after consonant"
-!Vx:Vy <=> :LastVowel NotVowel:* _ ; 
-!Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]*  [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns | [ :0 | %>: | :Cns ]* :Cns [ :0 | %>: | :Cns ]* ] _ ; 
-!Vx:Vy <=> :LastVowel [ %>: | :0 ]* _ ; 
-!Vx:Vy <=> :LastVowel WildNoVow* Cns WildNoVow* _ ;
-!%{U%}:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ;
-!%{U%}:Vy <=> [ :LastVowel [ Cns - й ] ]/[ [ :0 - й:0 ] | %>: ] _ ;
-%{U%}:Vy <=> [ :LastVowel Cns* [ Cns - й: ] ]/[ [ :0 - й:0 ] | %>: ] _ ;
-!        where Vx         in ( %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} %{U%} )
-         where Vy         in (   ү     ү     ү     ү     ү     у     у     у     у     у     у     у   )
-               LastVowel  in (   и     ү     е     э     ө     я     а     ё     о     ы     ю     у   )
+%{U%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 | %>: ] _ ;
+                              ~~[ й:/[ :0 | %>: ] _ ]~~ ;     ! Avoid conflict w y-vowels
+  where Vy   in  ( ү  ү  ү  ү  ү  у  у  у  у  у  у  у )
+  LastVowel  in  ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
                matched ; 
+
 
 "Vowel harmony for archiphoneme {U} after vowel"
 %{U%}:Vy <=> :LastVowel ( %>: [ :0 - й:0 ] ) _ ;

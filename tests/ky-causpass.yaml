@@ -14,7 +14,7 @@ Tests:
 
   "[twol] Regular causative -т":
     ээри<v><iv><caus><ger><nom> : ээритүү
-    иште<v><iv><caus><past>+э<cop><p2><sg> : иштеткенсиң
+    иште<v><iv><caus><past><p2><sg> : иштеткенсиң
     иште<v><iv><caus><ger><nom> : иштетүү
     иште<v><iv><caus><ifi><p1><sg> : иштеттим
     токто<v><iv><caus><ifi><p1><sg> : токтоттум
