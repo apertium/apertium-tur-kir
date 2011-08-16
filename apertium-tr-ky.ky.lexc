@@ -293,6 +293,11 @@ LEXICON N-INFL
 N-INFL-COMMON ;
 %<n%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
+LEXICON GER-INFL
+
+POSSESSION ;
+%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+
 LEXICON NP-COG-MF
 
 %<np%>%<cog%>%<mf%>: POSSESSION ;
@@ -783,13 +788,13 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<neg%>%<prt_perf%>:%>%{B%}%{A%}%>%{E%} # ;  ! TODO: is this the right way to do this?
 
 ! Gerunds
-%<ger_fut%>:%>%{A%}р POSSESSION ;     ! <coop> IS only ?
-%<ger_fut%>:%>%{A%}%{A%}р POSSESSION ;                        ! Dir/LR
-%<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%с POSSESSION ;              !
-%<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%{A%}с POSSESSION ;          ! Dir/LR
+%<ger_fut%>:%>%{A%}р GER-INFL ;     ! <coop> IS only ?
+%<ger_fut%>:%>%{A%}%{A%}р GER-INFL ;                        ! Dir/LR
+%<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%с GER-INFL ;              !
+%<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%{A%}с GER-INFL ;          ! Dir/LR
 
-%<ger_ppot%>:%>%{A%}р%>л{I}к POSSESSION ;                     ! Dir/LR
-%<ger_ppot%>:%>%{A%}%{A%}р%>л{I}к POSSESSION ;
+%<ger_ppot%>:%>%{A%}р%>л{I}к GER-INFL ;                     ! Dir/LR
+%<ger_ppot%>:%>%{A%}%{A%}р%>л{I}к GER-INFL ;
 
 
 ! Verbal Adjectives
@@ -813,18 +818,18 @@ LEXICON V-INFL-NON-FINITE-REG
 !%<prt_????%>:%>%{E%}т # ;                    ! TODO: find name
 
 ! Gerunds
-%<ger_past%>:%>%{G%}%{A%}н POSSESSION ; ! <coop> IS only ?
-%<ger_perf%>:%>%{G%}%{A%}н%>%{L%}%{I%}к POSSESSION ; !
-%<ger_pres%>:%>%{I%}ш POSSESSION ;    ! <coop> IS only
-%<ger%>:%>%{U%}%{U%} POSSESSION ;     ! <coop> IS only
-%<ger_abs%>:%>%{U%}%{U%}%>ч%{I%}%>%{L%}%{I%}к POSSESSION ;     ! <coop> IS only
-%<ger_notyet%>:%>{E%}% элек POSSESSION ;
+%<ger_past%>:%>%{G%}%{A%}н GER-INFL ; ! <coop> IS only ?
+%<ger_perf%>:%>%{G%}%{A%}н%>%{L%}%{I%}к GER-INFL ; !
+%<ger_pres%>:%>%{I%}ш GER-INFL ;    ! <coop> IS only
+%<ger%>:%>%{U%}%{U%} GER-INFL ;     ! <coop> IS only
+%<ger_abs%>:%>%{U%}%{U%}%>ч%{I%}%>%{L%}%{I%}к GER-INFL ;     ! <coop> IS only
+%<ger_notyet%>:%>{E%}% элек GER-INFL ;
 
 ! Verbal adjectives 
 %<vadj_past%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay
 %<vadj%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay  ! both past (or perf?) and general
 %<vadj_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
-!%<vadj_impf%>:%>%{E%}% турган V-ADJ ;       ! Done already by <prt_impf> тур<vaux><ger_past>
+!%<vadj_impf%>:%>%{E%}% турган V-ADJ ;       ! Done already by <prt_impf> тур<vaux><vadj_past>
 %<vadj_pot%>:%>%{U%}%{U%}%>ч%{U%} V-ADJ ;
 %<vadj_notyet%>:%>{E%}% элек V-ADJ ;
 
@@ -859,6 +864,8 @@ LEXICON V-INFL-FINITE
 %<fut%>:%>%{A%}%{A%}р V-PERS-COP-SUF ;                            ! Dir/LR
 %<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;                            ! 
 %<past%>:%>%{G%}%{A%}н V-PERS-COP-SUF ;                           ! 
+%<past%>%<evid%>:%>%{G%}%{A%}н% экен V-PERS-COP-SUF ; ! evidential general past
+%<ifi%>%<evid%>:%>%{I%}пт%{I%}р V-PERS-COP-SUF ;      ! evidential recent past
 !%<cond%>:%>с%{A%} V-PERS-PAST ;                               ! not a finite form
 !%<opt%>:%>м%{A%}к%>ч%{I%} V-PERS-COP-SUF ;                        !   
 %<pih%>:%>ч%{U%} V-PERS-COP-SUF ;                                 ! 
@@ -873,6 +880,8 @@ LEXICON V-INFL-FINITE
 %<neg%>%<fut%>:%>%{B%}%{A%}%>%с V-PERS-COP-SUF ;              !
 %<neg%>%<fut%>:%>%{B%}%{A%}%>%{A%}с V-PERS-COP-SUF ;         ! Dir/LR
 %<neg%>%<ifi%>:%>%{G%}%{A%}н% жок V-PERS-COP-SUF ;         !
+%<neg%>%<past%>%<evid%>:%>%{G%}%{A%}н% жок% экен V-PERS-COP-SUF ; ! evidential general past
+%<neg%>%<ifi%>%<evid%>:%>%{B%}%{A%}%>%{I%}пт%{I%}р V-PERS-COP-SUF ;      ! evidential recent past
 %<neg%>%<aor%>:%>%{B%}%{A%}%>%{E%} V-PERS-PRES ;              !
 !%<neg%>%<cond%>:%>%{B%}%{A%}%>с%{A%} V-PERS-PAST ;            ! not a finite form
 %<neg%>%<past%>:%>%{G%}%{A%}н% эмес V-PERS-COP-SUF ;        ! 
@@ -6283,6 +6292,9 @@ kanal N-INFL ;
 падыша N-INFL ; ! "Padshah"
 реанимация N-INFL ; ! "reanimation"
 реаниматолог N-INFL ; ! "a doctor who performs reanimation"
+кече N-INFL ; ! "yesterday"
+кечөө N-INFL ; ! "yesterday"
+кечээ N-INFL ; ! "yesterday"
 
 LEXICON PropernounStems
 Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
@@ -8056,6 +8068,13 @@ LEXICON AdjecStems
 чейинки ADJ ; ! "before"
 тышкы ADJ ; ! "outer"
 ички ADJ ; ! "inner"
+кечеки ADV ; ! "yesterday's"
+кечөөкү ADV ; ! "yesterday's"
+кечээки ADV ; ! "yesterday's"
+кечеги ADV ; ! "yesterday's"
+кечөөгү ADV ; ! "yesterday's"
+кечээги ADV ; ! "yesterday's"
+
 
 LEXICON AdvStems
 
@@ -8337,6 +8356,9 @@ LEXICON AdvStems
 алгач ADV ; ! "at first; first of all"
 биротоло ADV ; ! "all at once"
 быйыл ADV ; ! "this year"
+кече ADV ; ! "yesterday"
+кечөө ADV ; ! "yesterday"
+кечээ ADV ; ! "yesterday"
 
 
 LEXICON VerbStems
