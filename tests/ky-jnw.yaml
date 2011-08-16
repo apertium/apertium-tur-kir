@@ -23,6 +23,7 @@ Tests:
     теп<v><tv><prt_perf> : тээп
     там<v><iv><prt_perf> : таамп
     эм<v><iv><prt_perf> : ээмп
+    саба<v><tv><prt_perf> : сабап
 
   "[twol] {I}{l} passives":
     тап<v><tv><pass><ger><nom> : табылуу
@@ -32,7 +33,7 @@ Tests:
 
   "[lexc] Infinitive -{U}{U}":
     айт<v><iv><ger><nom> : айтуу
-    тарт<v><iv><ger><nom> : тартуу
+    тарт<v><tv><ger><nom> : тартуу
     бол<v><iv><ger><nom> : болуу
     сүй<v><tv><ger><nom> : сүйүү
     окшо<v><iv><ger><nom> : окшоо
