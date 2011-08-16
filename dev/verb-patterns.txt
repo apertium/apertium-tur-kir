@@ -66,10 +66,10 @@
    1074 <v><part_dik><pl><@POSS@><acc>				<v><@T@><ger_past><@POSS@><acc>
    1058 <v><vn_yis><cpl_di><@PERS@>				<v><@T@><ifi><@PERS@>
    1049 <v><t_narr><@PERS@>					<v><@T@><ifi><evid><@PERS@>
-    992 <v><neg><cv_dan>
-    977 <v><pass><cv_mak>
-    964 <v><ref><cv_ma>
-    956 <v><part_yan><cpl_di><@PERS@>
+    992 <v><neg><cv_dan>					<v><@T@><neg><ger_fut><abl>
+    977 <v><pass><cv_mak>					<v><@T@><pass><ger><nom>
+    964 <v><ref><cv_ma>						<v><@T@><ger><nom>
+    956 <v><part_yan><cpl_di><@PERS@>				<v><@T@><ifi>@PERS@>
     953 <v><rec><t_past><@PERS@>				<v><@T@><coop><ifi><@PERS@>
     934 <v><caus><pass><t_cont><@PERS@>
     915 <v><neg><cv_dik><@POSS@><acc>
