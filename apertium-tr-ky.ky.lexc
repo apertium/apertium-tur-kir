@@ -8167,7 +8167,7 @@ LEXICON AdvStems
 абдан ADV ; ! "really"
 бүгүн ADV-WITH-KI ; ! from pending list
 бираз ADV ; 
-ошентип ADV ; ! FIXME: compositional
+! ошентип ADV ; ! FIXME: compositional
 баарыбир ADV ; 
 айлардан% бери ADV ; ! FIXME: compositional
 башка ADV ; 
@@ -8825,7 +8825,6 @@ LEXICON VerbStems
 сын% пикир% айт V-INFL-TV ;
 жогот V-INFL-TV ;
 жеңил V-INFL-TV ;
-! баалан V-INFL-IV ; ! productive
 өнүк V-INFL-TV ;
 кайтала V-INFL-TV ;
 азай V-INFL-IV ;
@@ -9641,10 +9640,18 @@ LEXICON VerbStems
 керекте V-INFL-TV ; 
 жетекте V-INFL-TV ; ! "direct"
 кызмат% өтө V-INFL-IV ; ! "work"
+кадырла V-INFL-TV ; ! ?"respect"
+
 кант:кант%{e%} V-INFL-IV ;  ! "how to do" ! FIXME: make work properly
 кант:кант%{e%} V-INFL-TV ;  ! "how to do" ! FIXME: make work properly
-
-баалан V-INFL-TV ; 
+ант:ант%{e%} V-INFL-IV ;  ! 
+ант:ант%{e%} V-INFL-TV ;  ! 
+ошент V-INFL-IV ;
+ошент V-INFL-TV ;
+ушинт V-INFL-IV ;
+ушинт V-INFL-TV ;
+тигинт V-INFL-IV ;
+тигинт V-INFL-TV ;
 
 LEXICON Abbreviations
 
