@@ -71,8 +71,8 @@
     964 <v><ref><cv_ma>						<v><@T@><ger><nom>
     956 <v><part_yan><cpl_di><@PERS@>				<v><@T@><ifi>@PERS@>
     953 <v><rec><t_past><@PERS@>				<v><@T@><coop><ifi><@PERS@>
-    934 <v><caus><pass><t_cont><@PERS@>
-    915 <v><neg><cv_dik><@POSS@><acc>
+    934 <v><caus><pass><t_cont><@PERS@>				<v><@T@><caus><pass><ger><loc>
+    915 <v><neg><cv_dik><@POSS@><acc>				<v><@T@><neg><ger_perf><@POSS@><acc>
     899 <v><caus><vn_mak>
     894 <v><pass><cv_dik><@POSS@><acc>
     882 <v><cv_ma><@POSS@><abl>
