@@ -5,9 +5,6 @@ Translating corpus for generation test (this could take some time)... done.
 ===============================================================================
 Multiple surface forms for a single lexical form
 ===============================================================================
-      6 ЕБГИ/ЕБГУ/ЕБГЫ/ЕБГЭ/ЕБГЮ/ЕБГҮ	^ЕБ<np><top><dat>$
-      4 агызды/актырды	^ак<v><iv><caus><ifi><p3><sg>$
-      4 агызар/актырар	^ак<v><iv><caus><fut><p3><sg>$
 
 ===============================================================================
 Multiple bidix entries for a single source language lexical form
@@ -270,7 +267,7 @@ Tag mismatch between transfer and generation
 ===============================================================================
 Summary
 ===============================================================================
-    3 /tmp/tr-ky.multiform
+    0 /tmp/tr-ky.multiform
     0 /tmp/tr-ky.multibidix
   250 /tmp/tr-ky.tagmismatch
-  253 total
+  250 total
