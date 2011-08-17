@@ -14,74 +14,25 @@ Multiple bidix entries for a single source language lexical form
 Tag mismatch between transfer and generation
 ===============================================================================
     178 #бол\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^бол<v><iv><imp><p3><sg>$
-     79 #ошентип\<adv\>	^ошентип<adv>$
-     73 #аракет кыл\<v\>\<tv\>\<ger\>\<nom\>	^аракет кыл<v><tv><ger><nom>$
-     53 #Ошентип\<adv\>	^Ошентип<adv>$
-     45 #аш\<v\>\<tv\>\<ger\>\<px3sg\>\<nom\>	^аш<v><tv><ger><px3sg><nom>$
-     41 #аш\<v\>\<tv\>\<prt_impf\>	^аш<v><tv><prt_impf>$
      36 #көр\<v\>\<tv\>\<neg\>\<cv_zdan\>	^көр<v><tv><neg><cv_zdan>$
-     32 #суйлө\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^суйлө<v><tv><ifi><p3><sg>$
-     32 #аракет кыл\<v\>\<tv\>\<ger\>\<dat\>	^аракет кыл<v><tv><ger><dat>$
-     30 #аракет кыл\<v\>\<tv\>\<aor\>\<p3\>\<sg\>	^аракет кыл<v><tv><aor><p3><sg>$
-     28 #аш\<v\>\<tv\>\<ger_past\>\<px3sg\>\<acc\>	^аш<v><tv><ger_past><px3sg><acc>$
-     28 #аракет кыл\<v\>\<tv\>\<prt_impf\>	^аракет кыл<v><tv><prt_impf>$
-     28 #аракет кыл\<v\>\<tv\>\<ger\>\<px3sg\>\<nom\>	^аракет кыл<v><tv><ger><px3sg><nom>$
-     26 #аш\<v\>\<tv\>\<ger_past\>\<nom\>	^аш<v><tv><ger_past><nom>$
-     26 #аракет кыл\<v\>\<tv\>\<ger_past\>\<px3sg\>\<acc\>	^аракет кыл<v><tv><ger_past><px3sg><acc>$
      24 #сыяктуу\<post\>\<acc\>	^сыяктуу<post><acc>$
-     24 #аш\<v\>\<tv\>\<ger\>\<nom\>	^аш<v><tv><ger><nom>$
      23 #сыяктуу\<post\>\<p3s\>\<gen\>	^сыяктуу<post><p3s><gen>$
-     20 #аракет кыл\<v\>\<tv\>\<ger\>\<acc\>	^аракет кыл<v><tv><ger><acc>$
      18 #бол\<v\>\<iv\>\<neg\>\<imp\>\<p3\>\<sg\>	^бол<v><iv><neg><imp><p3><sg>$
-     18 #аракет кыл\<v\>\<tv\>\<ger_past\>\<nom\>	^аракет кыл<v><tv><ger_past><nom>$
      17 #сыяктуу\<post\>\<p3s\>\<acc\>	^сыяктуу<post><p3s><acc>$
-     17 #аш\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^аш<v><tv><ifi><p3><sg>$
      14 #курга\<v\>\<tv\>\<ger\>\<nom\>	^курга<v><tv><ger><nom>$
-     13 #суйлө\<v\>\<tv\>\<pass\>\<aor\>\<p3\>\<sg\>	^суйлө<v><tv><pass><aor><p3><sg>$
-     13 #аракет кыл\<v\>\<tv\>\<ifi\>\<p3\>\<sg\>	^аракет кыл<v><tv><ifi><p3><sg>$
-     13 #аракет кыл\<v\>\<tv\>\<ger\>\<px3pl\>\<nom\>	^аракет кыл<v><tv><ger><px3pl><nom>$
-     13 #аракет кыл\<v\>\<tv\>\<ger_past\>\<acc\>	^аракет кыл<v><tv><ger_past><acc>$
-     12 #аракет кыл\<v\>\<tv\>\<prt_perf\>	^аракет кыл<v><tv><prt_perf>$
-     11 #суйлө\<v\>\<tv\>\<aor\>\<p1\>\<pl\>	^суйлө<v><tv><aor><p1><pl>$
-     11 #аракет кыл\<v\>\<tv\>\<ger\>\<gen\>	^аракет кыл<v><tv><ger><gen>$
-     10 #аш\<v\>\<tv\>\<pass\>\<prt_impf\>	^аш<v><tv><pass><prt_impf>$
-      9 #суйлө\<v\>\<tv\>\<prt_impf\>	^суйлө<v><tv><prt_impf>$
-      9 #суйлө\<v\>\<tv\>\<ger_past\>\<nom\>	^суйлө<v><tv><ger_past><nom>$
-      9 #суйлө\<v\>\<tv\>\<ger\>\<nom\>	^суйлө<v><tv><ger><nom>$
-      9 #аш\<v\>\<tv\>\<prt_perf\>	^аш<v><tv><prt_perf>$
       9 #ал\<v\>\<tv\>\<neg\>\<p3\>\<sg\>	^ал<v><tv><neg><p3><sg>$
-      8 #суйлө\<v\>\<tv\>\<aor\>\<p3\>\<sg\>	^суйлө<v><tv><aor><p3><sg>$
-      8 #аш\<v\>\<tv\>\<aor\>\<p3\>\<sg\>	^аш<v><tv><aor><p3><sg>$
-      7 #аракет кыл\<v\>\<tv\>\<ger\>\<px3sg\>\<acc\>	^аракет кыл<v><tv><ger><px3sg><acc>$
-      7 #аракет кыл\<v\>\<tv\>\<ger\>\<px3sg\>\<abl\>	^аракет кыл<v><tv><ger><px3sg><abl>$
-      7 #аракет кыл\<v\>\<tv\>\<aor\>\<p3\>\<pl\>	^аракет кыл<v><tv><aor><p3><pl>$
       6 #сыяктуу\<post\>\<p3s\>\<ins\>	^сыяктуу<post><p3s><ins>$
       6 #курга\<v\>\<tv\>\<ger\>\<px3sg\>\<nom\>	^курга<v><tv><ger><px3sg><nom>$
       6 #куралдан\<v\>\<tv\>\<ger\>\<nom\>	^куралдан<v><tv><ger><nom>$
-      6 #аш\<v\>\<tv\>\<ger_past\>\<acc\>	^аш<v><tv><ger_past><acc>$
-      6 #аш\<v\>\<tv\>\<ger\>\<acc\>	^аш<v><tv><ger><acc>$
-      6 #аракет кыл\<v\>\<tv\>\<ifi\>\<p3\>\<pl\>	^аракет кыл<v><tv><ifi><p3><pl>$
-      6 #аракет кыл\<v\>\<tv\>\<ger_past\>\<px3sg\>\<dat\>	^аракет кыл<v><tv><ger_past><px3sg><dat>$
-      6 #аракет кыл\<v\>\<tv\>\<ger\>\<abl\>	^аракет кыл<v><tv><ger><abl>$
       5 #улан\<v\>\<iv\>\<caus\>\<caus\>\<prt_impf\>	^улан<v><iv><caus><caus><prt_impf>$
       5 #токто\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^токто<v><iv><imp><p3><sg>$
-      5 #суйлө\<v\>\<tv\>\<ifi\>\<p3\>\<pl\>	^суйлө<v><tv><ifi><p3><pl>$
       5 #курга\<v\>\<tv\>\<caus\>\<pass\>\<ger_past\>\<nom\>	^курга<v><tv><caus><pass><ger_past><nom>$
-      5 #аш\<v\>\<tv\>\<ger\>\<px3sg\>\<dat\>	^аш<v><tv><ger><px3sg><dat>$
       5 #ал\<v\>\<tv\>\<t_obl\>\<p3\>\<sg\>	^ал<v><tv><t_obl><p3><sg>$
       5 #ал\<v\>\<tv\>\<neg\>\<t_cond\>\<p3\>\<sg\>	^ал<v><tv><neg><t_cond><p3><sg>$
       4 #чык\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^чык<v><iv><imp><p3><sg>$
       4 #Токто\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^Токто<v><iv><imp><p3><sg>$
       4 #сура\<v\>\<tv\>\<aor\>	^сура<v><tv><aor>$
-      4 #суйлө\<v\>\<tv\>\<past\>\<p3\>\<sg\>	^суйлө<v><tv><past><p3><sg>$
-      4 #суйлө\<v\>\<tv\>\<ger_past\>\<acc\>	^суйлө<v><tv><ger_past><acc>$
       4 #кел\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^кел<v><iv><imp><p3><sg>$
-      4 #аш\<v\>\<tv\>\<neg\>\<prt_impf\>	^аш<v><tv><neg><prt_impf>$
-      4 #аш\<v\>\<tv\>\<ger_past\>\<px3sg\>\<dat\>	^аш<v><tv><ger_past><px3sg><dat>$
-      4 #аш\<v\>\<tv\>\<ger\>\<dat\>	^аш<v><tv><ger><dat>$
-      4 #аракет кыл\<v\>\<tv\>\<neg\>\<prt_impf\>	^аракет кыл<v><tv><neg><prt_impf>$
-      4 #аракет кыл\<v\>\<tv\>\<ger\>\<px3sg\>\<gen\>	^аракет кыл<v><tv><ger><px3sg><gen>$
-      4 #аракет кыл\<v\>\<tv\>\<ger\>\<px3pl\>\<gen\>	^аракет кыл<v><tv><ger><px3pl><gen>$
       4 #ал\<v\>\<tv\>\<t_cond\>\<p3\>\<sg\>	^ал<v><tv><t_cond><p3><sg>$
 
 ===============================================================================
@@ -89,5 +40,5 @@ Summary
 ===============================================================================
    0 /tmp/tr-ky.multiform
    0 /tmp/tr-ky.multibidix
-  70 /tmp/tr-ky.tagmismatch
-  70 total
+  21 /tmp/tr-ky.tagmismatch
+  21 total
