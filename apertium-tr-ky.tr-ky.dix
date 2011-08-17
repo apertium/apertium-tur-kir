@@ -6247,7 +6247,7 @@
 	<e c="  0"><p><l>arık<s n="v"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
 
 	<e c="  0"><p><l>çalış<s n="v"/></l><r>иште<s n="v"/><s n="iv"/></r></p></e>
-	<e slr="1"><p><l>çalış<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
+	<e slr="1"><p><l>çalış<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="iv"/></r></p></e> <!-- don't change this -->
 	<e slr="2"><p><l>çalış<s n="v"/></l><r>оку<s n="v"/></r></p><par n="(t|i)v"/></e>
 
 	<e c="  0"><p><l>oku<s n="v"/></l><r>оку<s n="v"/></r></p><par n="(t|i)v"/></e>
@@ -6649,7 +6649,7 @@
 	<e slr="1"><p><l>götür<s n="v"/></l><r>алып<b/>бар<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>çiz<s n="v"/></l><r>сыз<s n="v"/><s n="iv"/></r></p></e>
 	<e slr="1"><p><l>çiz<s n="v"/></l><r>чий<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>davran<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>davran<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="iv"/></r></p></e>
 	<e slr="1"><p><l>davran<s n="v"/></l><r>эт<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>sok<s n="v"/></l><r>кир<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
 	<e slr="1"><p><l>sok<s n="v"/></l><r>тык<s n="v"/><s n="tv"/></r></p></e>
@@ -6854,7 +6854,7 @@
      <e c="  0"><p><l>savla<s n="v"/></l><r>күнөөлө<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>zayıfla<s n="v"/></l><r>арыкта<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>pazarla<s n="v"/></l><r>соодала<s n="v"/><s n="iv"/></r></p></e>
-     <e c="  0"><p><l>çabala<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
+     <e c="  0"><p><l>çabala<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>affet<s n="v"/></l><r>кечир<s n="v"/></r></p><par n="(t|i)v"/></e>
      <e c="  0"><p><l>dene<s n="v"/></l><r>сына<s n="v"/><s n="tv"/></r></p></e>
 <!--     <e c="  0"><p><l>sonuçla<s n="v"/></l><r>жыйынтыкта<s n="v"/><s n="iv"/></r></p></e> -->
@@ -6880,7 +6880,7 @@
      <e c="  0"><p><l>zamanla<s n="v"/></l><r>тушта<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>dil<s n="v"/></l><r>тил<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>öğret<s n="v"/></l><r>оку<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
-     <e c="  0"><p><l>kuru<s n="v"/></l><r>курга<s n="v"/><s n="tv"/></r></p></e>
+     <e c="  0"><p><l>kuru<s n="v"/></l><r>курга<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>ek<s n="v"/></l><r>эк<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>depola<s n="v"/></l><r>жыйып<b/>кой<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>cesaretlen<s n="v"/></l><r>кайраттан<s n="v"/><s n="iv"/></r></p></e>
@@ -6910,7 +6910,7 @@
      <e c="  0"><p><l>silahsızlan<s n="v"/></l><r>куралсыздан<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>silahla<s n="v"/></l><r>куралдан<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>ser<s n="v"/></l><r>жай<s n="v"/><s n="tv"/></r></p></e>
-     <e c="  0"><p><l>kalkış<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
+     <e c="  0"><p><l>kalkış<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>uyarla<s n="v"/></l><r>ыңгайлаштыр<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>püskür<s n="v"/></l><r>бүрк<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>durakla<s n="v"/></l><r>тынык<s n="v"/><s n="iv"/></r></p></e>
@@ -6990,7 +6990,7 @@
      <e c="  0"><p><l>yücel<s n="v"/></l><r>жогорула<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>yakın<s n="v"/></l><r>арыздан<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>uyu<s n="v"/></l><r>укта<s n="v"/><s n="iv"/></r></p></e>
-     <e c="  0"><p><l>silahlan<s n="v"/></l><r>куралдан<s n="v"/><s n="tv"/></r></p></e>
+     <e c="  0"><p><l>silahlan<s n="v"/></l><r>куралдан<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>listele<s n="v"/></l><r>тизмеле<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>kızış<s n="v"/></l><r>кызып<b/>кет<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>kabullen<s n="v"/></l><r>кабыл<b/>ал<s n="v"/><s n="tv"/></r></p></e>

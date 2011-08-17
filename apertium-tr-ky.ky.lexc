@@ -932,6 +932,7 @@ LEXICON V-INFL-IV-NO-CAUS
 LEXICON V-INFL-IV-IRREG-CAUS
 
 %<v%>%<iv%>%<caus%>:%> V-INFL-COMMON ;                                    !
+%<v%>%<iv%>%<caus%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                                    !
 %<v%>%<iv%>%<caus%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
 
 LEXICON VAUX-INFL
@@ -1100,7 +1101,7 @@ LEXICON Postpositions
 өйдө POST ;
 менен POST ;
 караштуу POST ;
-сыяктуу POST ;
+сыяктуу POST-DECL ;
 ортосунда POST ;
 үстүндө POST ;
 
@@ -8646,7 +8647,6 @@ LEXICON VerbStems
 сиң V-INFL-IV ; 
 сугар V-INFL-TV ; 
 сун V-INFL-TV ; 
-сура V-INFL-TV ; 
 сыла V-INFL-TV ; 
 сүз V-INFL-TV ; 
 сүз V-INFL-IV ;
@@ -9660,6 +9660,7 @@ LEXICON VerbStems
 ушинт V-INFL-TV ;
 тигинт V-INFL-IV ;
 тигинт V-INFL-TV ;
+суйлө V-INFL-TV ;
 
 LEXICON Abbreviations
 
@@ -9777,6 +9778,8 @@ LEXICON Punctuation
 
 LEXICON TO-REMOVE 
 
+ошентип ADV ; ! Dir/RL
+
 эчки ADJ ; ! Dir/RL
 эскирген ADJ ; ! Dir/RL
 эң% чоң ADJ ; ! Dir/RL
@@ -9834,6 +9837,7 @@ LEXICON TO-REMOVE
 аз N-INFL ; ! Dir/RL
 адабий N-INFL ; ! Dir/RL
 автономиялуу N-INFL ; ! Dir/RL
+
 
 бы%<mod_qst%>:бы V-PERS-COP ; ! Dir/RL ! CHECK
 бы%<mod_qst%>:бы # ; ! Dir/RL ! CHECK
