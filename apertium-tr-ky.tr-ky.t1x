@@ -182,6 +182,13 @@
     </def-cat>
 
 
+    <def-cat n="v_cv_zdan">
+      <cat-item tags="v.cv_zdan"/>
+      <cat-item tags="v.*.cv_zdan"/>
+      <cat-item tags="v.cv_zdan.*"/>
+      <cat-item tags="v.*.cv_zdan.*"/>
+    </def-cat>
+
     <def-cat n="v_cv_dan">
       <cat-item tags="v.cv_dan"/>
       <cat-item tags="v.*.cv_dan"/>
@@ -1396,6 +1403,36 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="regla: v_cv_zdan">
+      <pattern>
+        <pattern-item n="v_cv_zdan"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="neg"/>
+            <lit-tag v="ger_fut.abl"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="regla: v_cv_dan">
       <pattern>
