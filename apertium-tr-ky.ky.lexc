@@ -892,36 +892,38 @@ LEXICON V-INFL-FINITE
 LEXICON V-INFL-TV-SHORT
 
 %<v%>%<tv%>: V-INFL-COMMON ;
-%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                              ! FIXME: When we make it cyclical, this should really be V-INFL-IV
-%<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<tv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<tv%>%<caus%>%<pass%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<tv%>%<pass%>%<caus%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
+! FIXME: When we make it cyclical, this should really be V-INFL-TV
+%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                              
+%<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             
+%<v%>%<tv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             
+%<v%>%<tv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             
+%<v%>%<tv%>%<pass%>%<caus%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             
 
 LEXICON V-INFL-IV-SHORT
 
 %<v%>%<iv%>: V-INFL-COMMON ;
-%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-IV
-%<v%>%<iv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-IV
-%<v%>%<iv%>%<caus%>%<pass%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-IV
-%<v%>%<iv%>%<pass%>%<caus%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-IV
+! FIXME: When we make it cyclical, this should really be V-INFL-IV
+%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             
+%<v%>%<iv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             
+%<v%>%<iv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             
 
 LEXICON V-INFL-TV
 
 %<v%>%<tv%>: V-INFL-COMMON ;
-%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                              ! FIXME: When we make it cyclical, this should really be V-INFL-IV
-%<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<tv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<tv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<tv%>%<pass%>%<caus%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-IV
+! FIXME: When we make it cyclical, this should really be V-INFL-TV
+%<v%>%<tv%>%<pass%>:%>%{I%}%{l%} V-INFL-COMMON ;                              
+%<v%>%<tv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             
+%<v%>%<tv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             
+%<v%>%<tv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             
+%<v%>%<tv%>%<pass%>%<caus%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             
 
 LEXICON V-INFL-IV
 
 %<v%>%<iv%>: V-INFL-COMMON ;
-%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<iv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<iv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-TV
-%<v%>%<iv%>%<pass%>%<caus%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             !  FIXME: When we make it cyclical, this should really be V-INFL-IV
+! FIXME: When we make it cyclical, this should really be V-INFL-TV
+%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             
+%<v%>%<iv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             
+%<v%>%<iv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             
 
 LEXICON V-INFL-IV-NO-CAUS
 
