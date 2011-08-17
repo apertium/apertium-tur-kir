@@ -172,7 +172,8 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 
 "Vowel harmony for archiphoneme {I}"
 %{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | :0 ] _ ;
-                   ~~[ %{I%}:LabialCns/[ :0 | %>: ] _ ]~~ ;
+!                   ~~[ %{I%}:LabialCns/[ :0 | %>: ] _ ]~~ ;
+                    ~~[ [ :LowVow м: ]/[ :0 | %>: ] _ п/[ :0 | %>: ] ]~~ ;
                             ~~[ %{n%}:/[ :0 | %>: ] _ ]~~ ;     ! Avoid conflict with {n} stuff
                                 ~~[ й:/[ :0 | %>: ] _ ]~~ ;     ! Avoid conflict w y-vowels
 !                                        ~~[ %{e%}:0 _ ]~~ ;     ! Avoid conflict with irregular vowel harmony
