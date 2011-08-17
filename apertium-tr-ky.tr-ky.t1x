@@ -70,6 +70,12 @@
       <cat-item tags="v.*.*.t_makta.*"/>
     </def-cat>
  
+    <def-cat n="v_abil_obl">
+      <cat-item tags="v.neg.abil.t_obl.*"/>
+      <cat-item tags="v.abil.t_obl.*"/>
+      <cat-item tags="v.*.abil.t_obl.*"/>
+    </def-cat>
+ 
     <def-cat n="v_abil">
       <cat-item tags="v.neg.abil.*"/>
       <cat-item tags="v.abil.*"/>
@@ -494,6 +500,7 @@
       <attr-item tags="t_cond"/>
       <attr-item tags="t_imp"/>
       <attr-item tags="t_aor"/>
+      <attr-item tags="t_opt"/>
       <attr-item tags="t_fut"/>
     </def-attr>
 
@@ -1853,6 +1860,55 @@
     </rule>
 
 
+    <rule comment="regla: v_abil_obl">
+      <pattern>
+        <pattern-item n="v_abil_obl"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_tens1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
+        <let>
+          <clip pos="1" side="tl" part="abil"/>
+          <lit v=""/>
+        </let>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="trans"/>
+              <clip pos="1" side="tl" part="deriv"/>
+              <lit-tag v="prt_impf"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b/> 
+          <lu>
+              <lit v="ал"/>
+              <lit-tag v="v.tv"/>
+            <var n="c_deriv"/>
+            <clip pos="1" side="tl" part="neg"/>
+            <lit-tag v="ger_pres"/>
+            <var n="c_poss"/>
+            <lit-tag v="nom"/>
+          </lu>
+          <b/>
+          <lu>
+            <lit v="керек"/>
+            <lit-tag v="post"/>
+          </lu>
+
+        </out>
+      </action>
+    </rule>
+
+
+
     <rule comment="regla: v_abil">
       <pattern>
         <pattern-item n="v_abil"/>
@@ -1885,7 +1941,7 @@
               <lit v="ал"/>
               <lit-tag v="v.tv"/>
               <clip pos="1" side="tl" part="neg"/>
-              <clip pos="1" side="tl" part="tens"/>
+              <var n="c_tens"/>
               <var n="c_pers"/>
             </lu>
         </out>
