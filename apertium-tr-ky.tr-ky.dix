@@ -2892,28 +2892,28 @@
 	<e c="  0"><p><l>şose<s n="n"/></l><r>шоссе<s n="n"/></r></p></e>
 	<e c="  0"><p><l>şurup<s n="n"/></l><r>сироп<s n="n"/></r></p></e>
 	<e c="  0"><p><l>şükür<s n="n"/></l><r>шүгүр<s n="n"/></r></p></e>
-	<e c="  0"><p><l>yer</l><r>жер</r></p> </e>
-	<e c="  0"><p><l>ön</l><r>маңдай</r></p> </e>
-	<e c="  0"><p><l>mart</l><r>март</r></p> </e>
-	<e c="  0"><p><l>pazar</l><r>базар</r></p> </e>
-	<e c="  0"><p><l>bakanlık</l><r>министирлик</r></p> </e>
-	<e c="  0"><p><l>sonra<s n="postp"/></l><r>кийин<s n="post"/></r></p> </e>
-	<e c="  0"><p><l>kabul</l><r>кабыл</r></p> </e>
-	<e c="  0"><p><l>yemek</l><r>тамак</r></p> </e>
-	<e c="  0"><p><l>şey</l><r>нерсе</r></p> </e>
-	<e c="  0"><p><l>telefon</l><r>телефон</r></p> </e>
-	<e c="  0"><p><l>hastane</l><r>оорукана</r></p> </e>
-	<e c="  0"><p><l>dükkan</l><r>дүкөн</r></p> </e>
-	<e c="  0"><p><l>şarap</l><r>шарап</r></p> </e>
-	<e c="  0"><p><l>restoran</l><r>ресторан</r></p> </e>
-	<e c="  0"><p><l>hatır</l><r>эс</r></p> </e>
-	<e c="  0"><p><l>halk</l><r>калк</r></p> </e>
-	<e slr="1"><p><l>halk</l><r>калк</r></p> </e>
-	<e c="  0"><p><l>ülke</l><r>өлкө</r></p> </e>
-	<e c="  0"><p><l>parti</l><r>партия</r></p> </e>
-	<e c="  0"><p><l>konu</l><r>тема</r></p> </e>
-	<e c="  0"><p><l>gösterge</l><r>көрсөткүч</r></p> </e>
-	<e c="  0"><p><l>haber</l><r>кабар</r></p> </e>
+	<e c="  0"><p><l>yer<s n="n"/></l><r>жер<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ön<s n="n"/></l><r>маңдай<s n="n"/></r></p></e>
+	<e c="  0"><p><l>mart<s n="n"/></l><r>март<s n="n"/></r></p></e>
+	<e c="  0"><p><l>pazar<s n="n"/></l><r>базар<s n="n"/></r></p> </e>
+	<e c="  0"><p><l>bakanlık<s n="n"/></l><r>министирлик<s n="n"/></r></p></e>
+	<e c="  0"><p><l>sonra<s n="postp"/></l><r>кийин<s n="post"/></r></p></e>
+	<e c="  0"><p><l>kabul<s n="n"/></l><r>кабыл<s n="n"/></r></p></e>
+	<e c="  0"><p><l>yemek<s n="n"/></l><r>тамак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>şey<s n="n"/></l><r>нерсе<s n="n"/></r></p></e>
+	<e c="  0"><p><l>telefon<s n="n"/></l><r>телефон<s n="n"/></r></p></e>
+	<e c="  0"><p><l>hastane<s n="n"/></l><r>оорукана<s n="n"/></r></p></e>
+	<e c="  0"><p><l>dükkan<s n="n"/></l><r>дүкөн<s n="n"/></r></p></e>
+	<e c="  0"><p><l>şarap<s n="n"/></l><r>шарап<s n="n"/></r></p></e>
+	<e c="  0"><p><l>restoran<s n="n"/></l><r>ресторан<s n="n"/></r></p></e>
+	<e c="  0"><p><l>hatır<s n="n"/></l><r>эс<s n="n"/></r></p></e>
+	<e c="  0"><p><l>halk<s n="n"/></l><r>калк<s n="n"/></r></p></e>
+	<e slr="1"><p><l>halk<s n="n"/></l><r>калк<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ülke<s n="n"/></l><r>өлкө<s n="n"/></r></p></e>
+	<e c="  0"><p><l>parti<s n="n"/></l><r>партия<s n="n"/></r></p></e>
+	<e c="  0"><p><l>konu<s n="n"/></l><r>тема<s n="n"/></r></p></e>
+	<e c="  0"><p><l>gösterge<s n="n"/></l><r>көрсөткүч<s n="n"/></r></p></e>
+	<e c="  0"><p><l>haber<s n="n"/></l><r>кабар<s n="n"/></r></p></e>
 	
 	<e c="  0"><p><l>kız<s n="n"/></l><r>кыз<s n="n"/></r></p></e>
         <e c="  0"><p><l>dünya<s n="n"/></l><r>дүйнө<s n="n"/></r></p></e>
