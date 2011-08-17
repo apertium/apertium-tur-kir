@@ -57,6 +57,10 @@
       <cat-item tags="v.*.t_imp.3p"/>
       <cat-item tags="v.*.*.t_imp.3p"/>
       <cat-item tags="v.*.*.*.t_imp.3p"/>
+      <cat-item tags="v.t_imp.3s"/>
+      <cat-item tags="v.*.t_imp.3s"/>
+      <cat-item tags="v.*.*.t_imp.3s"/>
+      <cat-item tags="v.*.*.*.t_imp.3s"/>
     </def-cat>
  
 
@@ -227,7 +231,11 @@
       <cat-item tags="v.pass.cv_dik.*"/>
       <cat-item tags="v.pass.part_yan.*"/>
     </def-cat>
- 
+  
+    <def-cat n="post">
+      <cat-item tags="postp.*"/>
+    </def-cat>
+
     <def-cat n="gibi">
       <cat-item tags="postp"/>
       <cat-item tags="postp.*"/>
@@ -288,6 +296,8 @@
     </def-cat>
      
     <def-cat n="v_oblig">
+      <cat-item tags="v.*.*.t_obl.*"/>
+      <cat-item tags="v.*.*.*.t_obl.*"/>
       <cat-item tags="v.*.t_obl.*"/>
       <cat-item tags="v.*.neg.t_obl.*"/>
       <cat-item tags="v.t_obl.*"/>
@@ -312,6 +322,8 @@
       <cat-item tags="v.t_cond.*"/>
       <cat-item tags="v.neg.t_cond.*"/>
       <cat-item tags="v.*.t_cond.*"/>
+      <cat-item tags="v.*.*.t_cond.*"/>
+      <cat-item tags="v.*.*.*.t_cond.*"/>
       <cat-item tags="v.*.neg.t_cond.*"/>
     </def-cat>
 
@@ -2254,6 +2266,30 @@
   
     <!-- SECTION: Particles -->
  
+    <rule comment="regla: post">
+      <pattern>
+        <pattern-item n="post"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_case1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <lit-tag v="post"/>
+              <var n="c_poss"/>
+              <var n="c_case"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+  
     <rule comment="regla: qst">
       <pattern>
         <pattern-item n="qst"/>
