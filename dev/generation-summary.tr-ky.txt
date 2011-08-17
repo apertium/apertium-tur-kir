@@ -13,32 +13,21 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
-    178 #бол\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^бол<v><iv><imp><p3><sg>$
      36 #көр\<v\>\<tv\>\<neg\>\<cv_zdan\>	^көр<v><tv><neg><cv_zdan>$
      24 #сыяктуу\<post\>\<acc\>	^сыяктуу<post><acc>$
      23 #сыяктуу\<post\>\<p3s\>\<gen\>	^сыяктуу<post><p3s><gen>$
-     18 #бол\<v\>\<iv\>\<neg\>\<imp\>\<p3\>\<sg\>	^бол<v><iv><neg><imp><p3><sg>$
      17 #сыяктуу\<post\>\<p3s\>\<acc\>	^сыяктуу<post><p3s><acc>$
-     14 #курга\<v\>\<tv\>\<ger\>\<nom\>	^курга<v><tv><ger><nom>$
       9 #ал\<v\>\<tv\>\<neg\>\<p3\>\<sg\>	^ал<v><tv><neg><p3><sg>$
       6 #сыяктуу\<post\>\<p3s\>\<ins\>	^сыяктуу<post><p3s><ins>$
-      6 #курга\<v\>\<tv\>\<ger\>\<px3sg\>\<nom\>	^курга<v><tv><ger><px3sg><nom>$
-      6 #куралдан\<v\>\<tv\>\<ger\>\<nom\>	^куралдан<v><tv><ger><nom>$
-      5 #улан\<v\>\<iv\>\<caus\>\<caus\>\<prt_impf\>	^улан<v><iv><caus><caus><prt_impf>$
-      5 #токто\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^токто<v><iv><imp><p3><sg>$
-      5 #курга\<v\>\<tv\>\<caus\>\<pass\>\<ger_past\>\<nom\>	^курга<v><tv><caus><pass><ger_past><nom>$
       5 #ал\<v\>\<tv\>\<t_obl\>\<p3\>\<sg\>	^ал<v><tv><t_obl><p3><sg>$
       5 #ал\<v\>\<tv\>\<neg\>\<t_cond\>\<p3\>\<sg\>	^ал<v><tv><neg><t_cond><p3><sg>$
-      4 #чык\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^чык<v><iv><imp><p3><sg>$
-      4 #Токто\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^Токто<v><iv><imp><p3><sg>$
       4 #сура\<v\>\<tv\>\<aor\>	^сура<v><tv><aor>$
-      4 #кел\<v\>\<iv\>\<imp\>\<p3\>\<sg\>	^кел<v><iv><imp><p3><sg>$
       4 #ал\<v\>\<tv\>\<t_cond\>\<p3\>\<sg\>	^ал<v><tv><t_cond><p3><sg>$
 
 ===============================================================================
 Summary
 ===============================================================================
-   0 /tmp/tr-ky.multiform
-   0 /tmp/tr-ky.multibidix
-  21 /tmp/tr-ky.tagmismatch
-  21 total
+  0 /tmp/tr-ky.multiform
+  0 /tmp/tr-ky.multibidix
+ 10 /tmp/tr-ky.tagmismatch
+ 10 total
