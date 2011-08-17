@@ -8470,8 +8470,8 @@ LEXICON VerbStems
 
 кел V-INFL-IV-NO-CAUS ; ! "come"
 кел:келтир V-INFL-IV-IRREG-CAUS ; ! "make come"
-кет V-INFL-IV-NO-CAUS ; ! "go"
-кет:кетир V-INFL-IV-IRREG-CAUS ; ! "to make go"
+кет V-INFL-IV-NO-CAUS ; ! "go away / leave"
+кет:кетир V-INFL-IV-IRREG-CAUS ; ! "to make leave"
 кой V-INFL-TV ; ! "put, place" 
 колдон V-INFL-TV ;
 котор V-INFL-TV ;
