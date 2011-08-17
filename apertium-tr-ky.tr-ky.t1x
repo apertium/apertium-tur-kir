@@ -70,6 +70,13 @@
       <cat-item tags="v.*.*.t_makta.*"/>
     </def-cat>
  
+    <def-cat n="v_abil_cond">
+      <cat-item tags="v.neg.abil.t_cond.*"/>
+      <cat-item tags="v.abil.t_cond.*"/>
+      <cat-item tags="v.abil.neg.t_cond.*"/>
+      <cat-item tags="v.*.abil.t_cond.*"/>
+    </def-cat>
+ 
     <def-cat n="v_abil_obl">
       <cat-item tags="v.neg.abil.t_obl.*"/>
       <cat-item tags="v.abil.t_obl.*"/>
@@ -1858,6 +1865,54 @@
         </out>
       </action>
     </rule>
+
+
+    <rule comment="regla: v_abil_cond">
+      <pattern>
+        <pattern-item n="v_abil_cond"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_tens1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_conv_pers1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
+        <let>
+          <clip pos="1" side="tl" part="abil"/>
+          <lit v=""/>
+        </let>
+        <out>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="trans"/>
+              <clip pos="1" side="tl" part="deriv"/>
+              <lit-tag v="prt_impf"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b/> 
+          <lu>
+              <lit v="ал"/>
+              <lit-tag v="v.tv"/>
+            <var n="c_deriv"/>
+            <clip pos="1" side="tl" part="neg"/>
+            <lit-tag v="prt_cond"/>
+            <var n="c_pers"/>
+          </lu>
+          <b/>
+          <lu>
+            <lit v="керек"/>
+            <lit-tag v="post"/>
+          </lu>
+
+        </out>
+      </action>
+    </rule>
+
 
 
     <rule comment="regla: v_abil_obl">
