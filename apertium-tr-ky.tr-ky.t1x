@@ -1462,7 +1462,7 @@
             <clip pos="1" side="tl" part="trans"/>
             <clip pos="1" side="tl" part="deriv"/>
             <clip pos="1" side="tl" part="neg"/>
-            <lit-tag v="ger_past.apprx"/>
+            <lit-tag v="vadj_pot.n.apprx"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
           <var n="c_post"/>
