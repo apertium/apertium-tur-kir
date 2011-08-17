@@ -80,6 +80,7 @@ sanayi<dels>
 cami<dels>
 oca<k>
 şubat
+mart
 nisan
 mayıs
 haziran
@@ -371,6 +372,7 @@ bah<del>is
 baht
 bahtiyar
 bakan
+bakanlı<k>
 bakım
 bakır
 bakkal
@@ -943,6 +945,7 @@ düello
 düet
 duetto
 düğün
+dükkan
 dul
 duman
 dünya
@@ -1462,6 +1465,7 @@ hasır
 hasiyet
 hassasiyet
 hastalı<k>
+hastane
 hata
 hati<p>
 hatır
@@ -2029,6 +2033,7 @@ konsorsiyum
 kontenjan
 konteyner
 kontr<pO>l
+konu
 konu<k>
 konum
 konut
@@ -2668,6 +2673,7 @@ patron
 pay
 payitaht
 paylaşım
+pazar
 pazarlı<k>
 pedagog
 pedago<g>
@@ -3007,6 +3013,7 @@ sevinç
 seviye
 sevk
 sevkıyat
+şey
 seyahatname
 seyah<pA>t
 sey<del>ir
@@ -3450,6 +3457,7 @@ uğ<del>ur
 uğur
 ula<k>
 ulaşım
+ülke
 ültimatom
 ultraviyole
 ültraviyole
@@ -3623,9 +3631,11 @@ yeğen
 yele<k>
 yelpaze
 yem
+yeme<k>
 yenge
 yenilgi
 yenilikçi
+yer
 yerel
 yerleşi<k>
 yerleşim
