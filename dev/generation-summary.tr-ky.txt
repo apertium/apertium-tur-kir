@@ -13,21 +13,11 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
-     36 #көр\<v\>\<tv\>\<neg\>\<cv_zdan\>	^көр<v><tv><neg><cv_zdan>$
-     24 #сыяктуу\<post\>\<acc\>	^сыяктуу<post><acc>$
-     23 #сыяктуу\<post\>\<p3s\>\<gen\>	^сыяктуу<post><p3s><gen>$
-     17 #сыяктуу\<post\>\<p3s\>\<acc\>	^сыяктуу<post><p3s><acc>$
-      9 #ал\<v\>\<tv\>\<neg\>\<p3\>\<sg\>	^ал<v><tv><neg><p3><sg>$
-      6 #сыяктуу\<post\>\<p3s\>\<ins\>	^сыяктуу<post><p3s><ins>$
-      5 #ал\<v\>\<tv\>\<t_obl\>\<p3\>\<sg\>	^ал<v><tv><t_obl><p3><sg>$
-      5 #ал\<v\>\<tv\>\<neg\>\<t_cond\>\<p3\>\<sg\>	^ал<v><tv><neg><t_cond><p3><sg>$
-      4 #сура\<v\>\<tv\>\<aor\>	^сура<v><tv><aor>$
-      4 #ал\<v\>\<tv\>\<t_cond\>\<p3\>\<sg\>	^ал<v><tv><t_cond><p3><sg>$
 
 ===============================================================================
 Summary
 ===============================================================================
-  0 /tmp/tr-ky.multiform
-  0 /tmp/tr-ky.multibidix
- 10 /tmp/tr-ky.tagmismatch
- 10 total
+0 /tmp/tr-ky.multiform
+0 /tmp/tr-ky.multibidix
+0 /tmp/tr-ky.tagmismatch
+0 total
