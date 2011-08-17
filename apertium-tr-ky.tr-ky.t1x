@@ -48,11 +48,15 @@
       <cat-item lemma="kendi" tags="prn.*"/>
     </def-cat>
 
-    <def-cat n="v_imp_p2_pl">
+    <def-cat n="v_imp_p23_pl">
       <cat-item tags="v.t_imp.2p"/>
       <cat-item tags="v.*.t_imp.2p"/>
       <cat-item tags="v.*.*.t_imp.2p"/>
       <cat-item tags="v.*.*.*.t_imp.2p"/>
+      <cat-item tags="v.t_imp.3p"/>
+      <cat-item tags="v.*.t_imp.3p"/>
+      <cat-item tags="v.*.*.t_imp.3p"/>
+      <cat-item tags="v.*.*.*.t_imp.3p"/>
     </def-cat>
  
 
@@ -1504,9 +1508,9 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_imp_p2_pl">
+    <rule comment="regla: v_imp_p23_pl">
       <pattern>
-        <pattern-item n="v_imp_p2_pl"/>
+        <pattern-item n="v_imp_p23_pl"/>
       </pattern>
       <action>
         <call-macro n="f_conv_pers1">
