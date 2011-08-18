@@ -1,58 +1,45 @@
-
 ==Installation==
+
+You will first need to install:
+
+* lttoolbox
+* Apertium
+* HFST
+* VISLCG3
+
+Then just run:
+
+$ ./autogen.sh 
+
+or 
+
+$ ./autogen.sh --prefix=/path/to/your/prefix
+
+and 
+
+$ make
+
+You should be able to test the translator with:
+
+$ echo "Ahmet okula gitti." | apertium -d . tr-ky
+Ахмет мектепке кетти.
+
+==Development==
 
 You will need:
 
  http://wiki.apertium.org/wiki/Trmorph
 
-Use the instructions on the Wiki to download and compile. To make 
-tr-mor.ol, run the following in the trmorph directory:
+If you make updates to the bilingual dictionary, you will need to run
+the update script "update-trmorph.py" and recompile the local copy of
+TRmorph in the directory: morph-tr.
 
- hfst-invert -i trmorph.a | hfst-fst2fst -O -o tr-mor.ol
+The Constraint Grammar of Turkish, file apertium-tr-ky.tr-ky.rlx
+should be kept up to date with the version in the apertium-tr-az 
+language pair. That means that if you make any changes here, you should
+also make them there. And if there are any change made there, they
+should also be made here.
 
-You need to make a symlink from the Turkish analyser:
+==Further reading==
 
- ln -s /path/to/tr-mor.ol tr-ky.automorf.hfst
-
-Now run make:
-
- make
-
-And test:
-
- echo "Ahmet okula gitti." | apertium -d . tr-ky-bil
-^Ahmet<np>/Ахмет<np><ant><m>$ ^okul<n><dat>/мектеп<n><dat>$ 
- ^git<v><t_past><3s>/кет<v><t_past><3s>$.
-
-===============================================================================
-
-Here are the tagsets of Trmorph, the Turkish morphological analyser and Kymorph
-the Kyrgyz morphological analyser compared:
-
--------------------------------------------------------------------------------
-Trmorph		Kymorph		Description
--------------------------------------------------------------------------------
-<n>		<n>		Noun
-<v>		<v>		Verb
-<adj>		<adj>		Adjective
-<adv>		<adv>		Adverb
-<postp>		<post>		Postposition
-
-<pl>		<pl>		Plural
-
-<1s>		<sg1>		First person singular
-<2s>		<sg2>		Second person singular
-
-<p1s>		<px1sg>		Possessive, first person singular
-<p2s>		<px2sg>		Possessive, second person singular
-
--		<nom>		Nominative / absolutive
-<acc>		<acc>		Accusative
-<dat>		<dat>		Dative
-<loc>		<loc>		Locative
-<abl>		<abl>		Ablative
-<ins>		-		Instrumental
-
-	
-
-===============================================================================
+* http://wiki.apertium.org/wiki/Turkish_and_Kyrgyz
