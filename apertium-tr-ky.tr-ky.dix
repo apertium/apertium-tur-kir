@@ -6312,7 +6312,7 @@
 	<e slr="1"><p><l>buyur<s n="v"/></l><r>буйрук<b/>бер<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>böl<s n="v"/></l><r>бөл<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>bük<s n="v"/></l><r>бүк<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>büz<s n="v"/></l><r>бырыштыр<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>büz<s n="v"/></l><r>бырыш<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
 	<!--<e><p><l>coş<s n="v"/></l><r>coş<s n="v"/><s n="TD"/></r></p></e> -->
 	<e c="  0"><p><l>çak<s n="v"/></l><r>чак<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>çal<s n="v"/></l><r>чал<s n="v"/><s n="tv"/></r></p></e>
