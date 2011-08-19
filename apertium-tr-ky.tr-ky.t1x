@@ -13,6 +13,11 @@
       <cat-item lemma="*" tags="np.apos.*"/>
     </def-cat>
 
+    <def-cat n="saye">
+      <cat-item lemma="saye" tags="n.p3s.loc"/>
+      <cat-item lemma="saye" tags="n.p3p.loc"/>
+    </def-cat>
+ 
     <def-cat n="ile">
       <cat-item lemma="ile" tags="*"/>
       <cat-item lemma="ila" tags="*"/>
@@ -932,7 +937,36 @@
 
   <section-rules>
     <!-- SECTION: Nominal segments -->
- 
+  
+    <rule comment="regla: saye">
+      <pattern>
+        <pattern-item n="saye"/>
+      </pattern>
+      <action>
+        <call-macro n="f_conv_poss1">
+          <with-param pos="1"/>
+        </call-macro>
+        <let>
+          <var n="c_post"/>
+          <concat>
+            <lit v=" ^менен"/>
+            <lit-tag v="post"/>
+            <lit v="$"/>
+          </concat>
+        </let>
+        <out>
+          <lu>
+            <lit v="жардам"/>
+            <lit-tag v="n"/>
+            <var n="c_poss"/>
+            <lit-tag v="gen"/>
+          </lu>
+          <var n="c_post"/>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="regla: num">
       <pattern>
         <pattern-item n="num"/>
