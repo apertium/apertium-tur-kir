@@ -3686,7 +3686,7 @@ LEXICON NounStems
 имарат N-INFL ; 
 мүчөө N-INFL ; 
 бирикме N-INFL ; 
-белосипед N-INFL ; 
+велосипед N-INFL ; 
 шайтан% араба N-INFL ; 
 бит N-INFL ; 
 өсүмдүк N-INFL ; 
@@ -5248,7 +5248,7 @@ LEXICON NounStems
 документ N-INFL ;
 тышкы% көрүнүш N-INFL ;
 жайгашкан% жер N-INFL ;
-ак% пеилдүүлүк N-INFL ;
+ак% пейилдүүлүк N-INFL ;
 төрт N-INFL ;
 көрсөтмө N-INFL ;
 жылдыз N-INFL ;
@@ -6512,7 +6512,7 @@ Tеңир NP-TOP ; ! ""
 Каракол NP-TOP ;
 Учкун NP-TOP ;
 Туркия NP-TOP ;
-Серп NP-TOP ;
+Серб NP-TOP ; !-- FIXME
 Македония NP-TOP ;
 Албан NP-TOP ;
 Руминя NP-TOP ;
@@ -7362,7 +7362,7 @@ LEXICON AdjecStems
 аз ADJ ; 
 адабий ADJ ;
 жооптуу ADJ ;
-бирканча ADJ ;
+бир% канча ADJ ;
 жетиштүү ADJ ;
 ашыкча ADJ ;
 анык ADJ ;
