@@ -656,7 +656,7 @@
 	<e c="  0"><p><l>bina<s n="n"/></l><r>имарат<s n="n"/></r></p></e>
 	<e c="  0"><p><l>birey<s n="n"/></l><r>мүчөө<s n="n"/></r></p></e>
 	<e c="  0"><p><l>birim<s n="n"/></l><r>бирикме<s n="n"/></r></p></e>
-	<e c="  0"><p><l>bisiklet<s n="n"/></l><r>белосипед<s n="n"/></r></p></e>
+	<e c="  0"><p><l>bisiklet<s n="n"/></l><r>велосипед<s n="n"/></r></p></e>
 	<e slr="1"><p><l>bisiklet<s n="n"/></l><r>шайтан<b/>араба<s n="n"/></r></p></e>
 	<e c="  0"><p><l>bit<s n="n"/></l><r>бит<s n="n"/></r></p></e>
 	<e c="  0"><p><l>bitki<s n="n"/></l><r>өсүмдүк<s n="n"/></r></p></e>
@@ -3798,7 +3798,7 @@
     <e c="  0"><p><l>dosya<s n="n"/></l><r>документ<s n="n"/></r></p></e>
     <e c="  0"><p><l>görünüm<s n="n"/></l><r>тышкы<b/>көрүнүш<s n="n"/></r></p></e>
     <e c="  0"><p><l>mevki<s n="n"/></l><r>жайгашкан<b/>жер<s n="n"/></r></p></e>
-    <e c="  0"><p><l>hoşgörü<s n="n"/></l><r>ак<b/>пеилдүүлүк<s n="n"/></r></p></e>
+    <e c="  0"><p><l>hoşgörü<s n="n"/></l><r>ак<b/>пейилдүүлүк<s n="n"/></r></p></e>
     <e c="  0"><p><l>dört<s n="n"/></l><r>төрт<s n="n"/></r></p></e>
     <e c="  0"><p><l>yönetmelik<s n="n"/></l><r>көрсөтмө<s n="n"/></r></p></e>
     <e c="  0"><p><l>yıldız<s n="n"/></l><r>жылдыз<s n="n"/></r></p></e>
@@ -4818,8 +4818,8 @@
         <e><p><l>Mezopotamya<s n="np"/><s n="top"/></l><r>Мезопотамия<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Romanya<s n="np"/><s n="top"/></l><r>Руминя<s n="np"/><s n="top"/></r></p></e>
 
-	<e><p><l>Sırb<s n="np"/></l><r>Серп<s n="np"/><s n="top"/></r></p></e>
-	  <e><p><l>Sırp<s n="np"/></l><r>Серп<s n="np"/><s n="top"/></r></p></e>
+	<e><p><l>Sırb<s n="np"/></l><r>Серб<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Sırp<s n="np"/></l><r>Серб<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Makedonya<s n="np"/></l><r>Македония<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Arnavutluk<s n="np"/></l><r>Албан<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Bosna<s n="np"/></l><r>Босня<s n="np"/><s n="top"/></r></p></e>
@@ -5361,7 +5361,7 @@
 	<e c="  0"><p><l>gelecek<s n="adj"/></l><r>келечек<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>sivil<s n="adj"/></l><r>граждандык<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>bağımsız<s n="adj"/></l><r>көз<b/>карандысыз<s n="adj"/></r></p></e>
-	<e c="  0"><p><l>birkaç<s n="adj"/></l><r>бирканча<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>birkaç<s n="adj"/></l><r>бир<b/>канча<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>yeterli<s n="adj"/></l><r>жетиштүү<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>fazla<s n="adj"/></l><r>ашыкча<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>somut<s n="adj"/></l><r>анык<s n="adj"/></r></p></e>
