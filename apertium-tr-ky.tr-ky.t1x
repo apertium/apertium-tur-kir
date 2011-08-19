@@ -959,7 +959,7 @@
             <lit v="жардам"/>
             <lit-tag v="n"/>
             <var n="c_poss"/>
-            <lit-tag v="gen"/>
+            <lit-tag v="nom"/>
           </lu>
           <var n="c_post"/>
         </out>
