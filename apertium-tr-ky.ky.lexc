@@ -106,7 +106,9 @@ Multichar_Symbols
 %<prt_cond%>
 %<prt_perf%>
 %<prt_impf%>
-%<prt_vol%>
+%<prt_vol%>   ! volitional
+%<prt_irre%>  ! irrealis
+%<prt_ala%>   ! "as long as" participle
 
 %<ger_fut%>
 %<ger_past%>
@@ -796,7 +798,10 @@ LEXICON V-INFL-NON-FINITE-IRREG
 
 ! Adverbial Participles
 %<prt_perf%>:%>%{I%}п # ;
-%<neg%>%<prt_perf%>:%>%{B%}%{A%}%>%{E%} # ;  ! TODO: is this the right way to do this?
+%<neg%>%<prt_perf%>:%>%{B%}%{A%}%>%{E%} # ;
+%<prt_vol%>:%>%{G%}%{I%} VOL-ENDINGS ;     ! no negative form
+%<prt_ala%>:%>м%{A%}й%{I%}нч%{A%} #;       ! no negative form  ! rare IS
+
 
 ! Gerunds
 %<ger_fut%>:%>%{A%}р GER-INFL ;     ! <coop> IS only ?
@@ -824,9 +829,7 @@ LEXICON V-INFL-NON-FINITE-REG
 %<prt_plan%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
 %<prt_cond%>:%>с%{A%} V-PERS-COND ;
 %<prt_impf%>:%>%{E%} # ;   ! rare IS
-%<prt_vol%>:%>%{G%}%{I%} VOL-ENDINGS ;
-!%<prt_????%>:%>м%{A%}й%{I%}нч%{A%} #;       ! TODO: find name  ! rare IS
-!%<prt_????%>:%>%{E%}т # ;                    ! TODO: find name
+%<prt_irre%>:%>%{E%}т # ;
 
 ! Gerunds
 %<ger_past%>:%>%{G%}%{A%}н GER-INFL ; ! <coop> IS only ?
