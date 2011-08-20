@@ -46,6 +46,7 @@ Multichar_Symbols
 %<itg%>     ! Interrogative
 %<ref%>     ! Reflexive
 %<recip%>   ! Reciprocal
+%<col%>     ! Collective (?)
 
 %<cmpd%>    ! Compound
 
@@ -93,11 +94,13 @@ Multichar_Symbols
 %<coop%>    ! Cooperative
 %<evid%>    ! Evidential
 
-%<cv_impf%> ! Converb imperfect, -E
-%<cv_perf%> ! Converb perfect, -Iп
-%<cv_irre%> ! Converb irrealis, -Eт
-%<cv_fut%>  ! Converb future, -Aр
-%<cv_pur%>  ! Converb purpose, -GAнI
+! %<cv_impf%> ! Converb imperfect, -E
+! %<cv_perf%> ! Converb perfect, -Iп
+! %<cv_irre%> ! Converb irrealis, -Eт
+! %<cv_fut%>  ! Converb future, -Aр
+! %<cv_pur%>  ! Converb purpose, -GAнI
+
+%<asif%>          ! a verbal affix adding "as if ..." to the meaning
 
 %<prt_plan%>
 %<prt_cond%>
@@ -649,6 +652,7 @@ LEXICON PRON-ITG
 LEXICON PRON-REFL
 
 %<prn%>%<ref%>: POSSESSION ;
+%<prn%>%<ref%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;  ! e.g., өздөрүн
 
 LEXICON PRON-IND
 
@@ -675,6 +679,10 @@ LEXICON PRON-RECIP
 
 !%<prn%>%<recip%>: CASES ;
 %<prn%>%<recip%>: POSSESSION ;
+
+LEXICON PRON-COLL   ! "Collective"(?) pronouns
+
+%<prn%>%<col%>: POSSESSION ;
 
 
 LEXICON PRED
@@ -773,6 +781,9 @@ LEXICON V-INFL-COMMON-SECOND
 
 V-INFL-FINITE ;
 @D.NEG.1@:@D.NEG.1@ V-INFL-NON-FINITE ; 
+
+%<asif%>:%>%{G%}%{A%}н%>с%{I%} V-INFL-ASIF ;
+%<asif%>%<neg%>:%>%{B%}%{A%}%>%{G%}%{A%}н%>с%{I%} V-INFL-ASIF ;
 
 LEXICON V-INFL-NON-FINITE
 
@@ -888,6 +899,12 @@ LEXICON V-INFL-FINITE
 %<neg%>%<pcond%>:%>%{B%}%{A%}%>м%{A%}к V-PERS-COP-SUF ;           ! 
 %<neg%>%<pih%>:%>%{B%}%{A%}%>ч%{U%} V-PERS-COP-SUF ;              ! 
 
+LEXICON V-INFL-ASIF
+
+%<prt_perf%>:%>%{I%}п # ;
+%<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;
+%<ger_past%>%<apprx%>:%>%{G%}%{A%}н%>%{D%}%{A%}й PRED ; 
+%<aor%>:%>%{E%} V-PERS-PRES ;
 
 LEXICON V-INFL-TV-SHORT
 
@@ -1198,6 +1215,18 @@ LEXICON Pronouns
 кайсы PRON-ITG ;
 бирин-бири PRON-RECIP ;   ! CHECK
 тиги PRON-DEM ;
+
+бир:бирөө PRON-COLL ;
+эки:экөө PRON-COLL ;
+үч:үчөө PRON-COLL ;
+төрт:төртөө PRON-COLL ;
+беш:бешөө PRON-COLL ;
+алты:алтоо PRON-COLL ;
+жети:жетөө PRON-COLL ;
+! Technically this goes on to higher numbers
+! but its use beyond 7 is extremely rare
+! and is of questionable grammaticality
+
 
 LEXICON Numerals 
 
@@ -1600,8 +1629,8 @@ LEXICON NounStems
 билерик N-INFL ; 
 билим N-INFL ; 
 бирдик N-INFL ; 
-бирөө N-INFL ; 
-бирөөсү N-INFL ; 
+! бирөө N-INFL ;   ! BAD: Pronoun
+! бирөөсү N-INFL ; ! BAD: Pronoun
 бит N-INFL ; 
 борбор N-INFL ; ! "capital"
 бут N-INFL ; 
@@ -1810,11 +1839,11 @@ LEXICON NounStems
 билим N-INFL ; ! "knowledge"
 миң% башы N-INFL ; 
 майор N-INFL ; 
-бирөө N-INFL ; 
-кимдир% бирөө N-INFL ; 
-бирөөсү N-INFL ; 
-кимдир% бирөөсү N-INFL ; 
-бир% канча N-INFL ; 
+! бирөө N-INFL ;  ! BAD: Pronoun
+! кимдир% бирөө N-INFL ;  ! BAD: Pronoun
+! бирөөсү N-INFL ;  ! BAD: Pronoun
+! кимдир% бирөөсү N-INFL ;  ! BAD: Pronoun
+! бир% канча N-INFL ;  ! BAD: Determiner
 бирдик N-INFL ; 
 бысмылда N-INFL ; 
 бит N-INFL ; 
@@ -4224,8 +4253,8 @@ LEXICON NounStems
 азык% түлүк N-INFL ; 
 бир% канча N-INFL ; 
 жүзү% кара N-INFL ; 
-кимдир% бирөө N-INFL ; 
-кимдир% бирөөсү N-INFL ; 
+! кимдир% бирөө N-INFL ;  ! BAD: pronoun
+! кимдир% бирөөсү N-INFL ;  ! BAD: pronoun
 кол% чабуу N-INFL ; 
 миң% башы N-INFL ; 
 сормо% саз N-INFL ; 
@@ -4255,7 +4284,7 @@ LEXICON NounStems
 мурун:мур%{y%}н N-INFL ; ! "nose" ! FIXME: make work properly
 тоо N-INFL ;
 ардак N-INFL ;
-өз N-INFL ;
+!өз N-INFL ;   ! PRONOUN
 гезит N-INFL ;
 казак N-INFL ;
 катар N-INFL ;
@@ -5023,7 +5052,7 @@ LEXICON NounStems
 чөнтөк N-INFL ;
 өкүл N-INFL ;
 бан N-INFL ;
-бирөө N-INFL ;
+! бирөө N-INFL ; ! BAD: pronoun
 кыял N-INFL ;
 ойдон% жаралган N-INFL ;
 окдары N-INFL ;
@@ -7395,7 +7424,7 @@ LEXICON AdjecStems
 биринчи ADJ-ORD ;
 ысык ADJ ;
 терең ADJ ;
-өз ADJ ;
+! өз ADJ ;   ! FIXME: might be in e.g., өз жакта
 маңыздуу ADJ ;
 маанилүү ADJ ;
 адаттагы ADJ ;
