@@ -4214,7 +4214,7 @@ LEXICON NounStems
 куруу N-INFL ; 
 инсан N-INFL ; 
 киши N-INFL ; 
-өзүн% өлтүрүү N-INFL ; 
+! өзүн% өлтүрүү N-INFL ;  ! BAD: productive
 жибек N-INFL ; 
 жип N-INFL ; 
 ипотека N-INFL ; 
@@ -8545,7 +8545,9 @@ LEXICON VerbStems
 эм V-INFL-IV ; ! "nurse"
 үйрөн V-INFL-IV ;
 үйрөн V-INFL-TV ;
-өл V-INFL-IV ; ! "die"
+өл V-INFL-IV-NO-CAUS ; ! "die"
+өл:өлтүр V-INFL-IV-IRREG-CAUS ; ! "kill"
+
 
 өт V-INFL-TV ; ! "conduct"
 өт V-INFL-IV-NO-CAUS ; ! "pass"
@@ -8825,7 +8827,6 @@ LEXICON VerbStems
 түшүнүш V-INFL-IV ;
 шерттеш V-INFL-IV ;
 басым% жаса V-INFL-TV ;
-өл V-INFL-IV ;
 !тий V-INFL-TV ;
 белгиле V-INFL-TV ;
 тааны V-INFL-TV ;
