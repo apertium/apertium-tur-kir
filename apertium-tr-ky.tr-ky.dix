@@ -549,8 +549,10 @@
 	<e slr="1"><p><l>bilim<s n="n"/></l><r>билим<s n="n"/></r></p></e>
 	<e c="  0"><p><l>binbaşı<s n="n"/></l><r>миң<b/>башы<s n="n"/></r></p></e>
 	<e slr="1"><p><l>binbaşı<s n="n"/></l><r>майор<s n="n"/></r></p></e>
+<!--
 	<e c="  0"><p><l>biri<s n="n"/></l><r>бирөө<s n="n"/></r></p></e>
 	<e slr="1"><p><l>biri<s n="n"/></l><r>кимдир<b/>бирөө<s n="n"/></r></p></e>
+-->
 	<e c="  0"><p><l>birisi<s n="n"/></l><r>бирөөсү<s n="n"/></r></p></e>
 	<e slr="1"><p><l>birisi<s n="n"/></l><r>кимдир<b/>бирөөсү<s n="n"/></r></p></e>
 	<e c="  0"><p><l>birkaç<s n="n"/></l><r>бир<b/>канча<s n="n"/></r></p></e>
@@ -2956,7 +2958,7 @@
 	<e c="  0"><p><l>taarruz<s n="n"/></l><r>чабуул<s n="n"/></r></p></e> <!-- was 'adj' -->
 	<e c="  0"><p><l>arkadaşlık<s n="n"/></l><r>теңтуштук<s n="n"/></r></p></e> <!-- was 'adj' -->
 	<e c="  0"><p><l>yıllık<s n="n"/></l><r>жылдык<s n="n"/></r></p></e> <!-- was 'adj' -->
-	<e c="  0"><p><l>üzer<s n="n"/></l><r>үстү<s n="n"/></r></p></e>
+	<!--<e c="  0"><p><l>üzer<s n="n"/></l><r>үстү<s n="n"/></r></p></e>-->
 	<e c="  0"><p><l>kadı<s n="n"/></l><r>сот<s n="n"/></r></p></e>	
 	<e c="  0"><p><l>çalışma<s n="n"/></l><r>иш<s n="n"/></r></p></e>
 	<e c="  0"><p><l>zorlanma<s n="n"/></l><r>кыйналуу<s n="n"/></r></p></e>
@@ -3569,7 +3571,7 @@
     <e c="  0"><p><l>cep<s n="n"/></l><r>чөнтөк<s n="n"/></r></p></e>
     <e c="  0"><p><l>vekil<s n="n"/></l><r>өкүл<s n="n"/></r></p></e>
     <e c="  0"><p><l>ban<s n="n"/></l><r>бан<s n="n"/></r></p></e>
-    <e c="  0"><p><l>kimse<s n="n"/></l><r>бирөө<s n="n"/></r></p></e>
+    <!--<e c="  0"><p><l>kimse<s n="n"/></l><r>бирөө<s n="n"/></r></p></e>-->
     <e c="  0"><p><l>hayal<s n="n"/></l><r>кыял<s n="n"/></r></p></e>
     <e c="  0"><p><l>hayali<s n="n"/></l><r>ойдон<b/>жаралган<s n="n"/></r></p></e>
     <e c="  0"><p><l>mühimmat<s n="n"/></l><r>окдары<s n="n"/></r></p></e>
