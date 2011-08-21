@@ -146,7 +146,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 
 "Deletion of {I} after {n}"
 %{I%}:0 <=> %{n%}:н/[ :0 | %>: ] _ ;
-         ~~[ %{e%}:/[ :0 | %>: ] _ ]~~ ;     ! Avoid conflict w irreg vowel harm
+          ~~[ [ %{e%}: :Cns* ]/[ :0 | %>: ] _ ]~~ ;     ! Avoid conflict w irreg vowel harm
 
 "Deletion of {A} after vowels"
 %{A%}:0 <=> [ :SurVow ]/[ :0 | %>: ] _ ;
@@ -166,6 +166,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
                                  [ %{A%}:LastVowel ] _  ;
                                                  ~~[ _ ( %>: ) %{U%}: ]~~ ;
                       ~~[ :LastVowel й:/[ :0 | %>: ] _ ]~~ ;
+                        ~~[ [ %{e%}: :Cns* ]/[ %>: ] _ ]~~ ;     ! Avoid conflict with irregular vowel harmony
         where LastVowel in (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  )
                      Vy in (  е  ө  е  е  ө  а  а  о  о  а  а  а  )
                      matched ;
@@ -176,8 +177,8 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
                     ~~[ [ :LowVow м: ]/[ :0 | %>: ] _ п/[ :0 | %>: ] ]~~ ;
                             ~~[ %{n%}:/[ :0 | %>: ] _ ]~~ ;     ! Avoid conflict with {n} stuff
                                 ~~[ й:/[ :0 | %>: ] _ ]~~ ;     ! Avoid conflict w y-vowels
-!                                        ~~[ %{e%}:0 _ ]~~ ;     ! Avoid conflict with irregular vowel harmony
-                            ~~[ %{e%}:/[ :0 | %>: ] _ ]~~ ;    ! Avoid conflict w forced vowel harm
+                       ~~[ [ %{e%}: :Cns* ]/[ %>: ] _ ]~~ ;     ! Avoid conflict with irregular vowel harmony
+!                            ~~[ %{e%}:/[ :0 | %>: ] _ ]~~ ;    ! Avoid conflict w forced vowel harm
 !                                                ~~[ _ п ]~~ ;   ! Avoid conflict w {I}п stuff
                                                 ~~[ _ р:0 ]~~ ; ! Avoid conflict w causative
   where  Vy  in  (  и  ү  и  и  ү  ы  ы  у  у  ы  у  у )
@@ -185,8 +186,23 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
            matched ;
 
 "Irregular vowel harmony for archiphoneme {I}"
-%{I%}:Vy <=> [ :LastVowel :Cns* :Cns %{e%}: ]/[ %>: ] _ ; 
+%{I%}:Vy <=> [ :LastVowel :Cns* %{e%}: :Cns :Cns* ]/[ %>: ] _ ;
+             [ :LastVowel :Cns* :Cns %{e%}: :Cns* ]/[ %>: ] _ ; 
   where  Vy  in  (  и  ү  и  и  ү  и  и  ү  ү  и  ү  ү )
+  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
+           matched ;
+
+"Irregular vowel harmony for archiphoneme {A}"
+%{A%}:Vy <=> [ :LastVowel :Cns* %{e%}: :Cns :Cns* ]/[ %>: ] _ ;
+             [ :LastVowel :Cns* :Cns %{e%}: :Cns* ]/[ %>: ] _ ; 
+  where  Vy  in  (  е  ө  е  е  ө  е  е  ө  ө  е  ө  ө )
+  LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
+           matched ;
+
+"Irregular vowel harmony for archiphoneme {E}"
+%{E%}:Vy <=> [ :LastVowel :Cns* %{e%}: :Cns :Cns* ]/[ %>: ] _ ;
+             [ :LastVowel :Cns* :Cns %{e%}: :Cns* ]/[ %>: ] _ ; 
+  where  Vy  in  (  е  ө  е  е  ө  е  е  ө  ө  е  ө  ө )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;
 
@@ -195,6 +211,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 !Vx:Vy <=> :LastVowel [ :Cns [ :0 | %>: | :Cns ]* | [ :0 | %>: | :Cns ]* :Cns ] _ ; 
 !Vx:Vy <=> :LastVowel WildNoVow* [ Cns - й ] WildNonPhon* _ ; 
 %{E%}:Vy <=> [ :LastVowel Cns* [ :Cns - й ] ]/[ :0 | %>: ] _ ; 
+                             ~~[ [ %{e%}: :Cns* ]/[ %>: ] _ ]~~ ;     ! Avoid conflict with irregular vowel harmony
   where Vy   in  (  е  ө  е  е  ө  а  а  о  о  а  а  а )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
               matched ; 
@@ -206,19 +223,22 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 "Vowel harmony for archiphoneme {A} after й"
 %{A%}:Vy <=> [ :LastVowel й: ]/[ :0 | %>: ] _ ; 
                         ~~[ й:/[ :0 | %>: ] _ ( %>: ) [ %{U%}: - :YotVow ] ]~~ ;
+           ~~[ [ %{e%}: :Cns* ]/[ %>: | й ] _ ]~~ ;     ! Avoid conflict with irregular vowel harmony
         where Vy  in ( е  ө  е  е  ө  я  я  ё  ё  я  я  я )
         LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
                matched ;
 
 "Vowel harmony for archiphoneme {E} after й" ! should be just like {A}
 %{E%}:Vy <=> [ :LastVowel й: ]/[ :0 | %>: ] _ ; 
+           ~~[ [ %{e%}: :Cns* ]/[ %>: | й ] _ ]~~ ;     ! Avoid conflict with irregular vowel harmony
         where Vy  in ( е  ө  е  е  ө  я  я  ё  ё  я  я  я )
         LastVowel in ( и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
               matched ;
 
 "Vowel harmony for archiphoneme {I} after й"
 %{I%}:Vy <=> [ :LastVowel й: ]/[ %>: | :0 ] _ ;
-                    ~~[ %{e%}:/[ :0 | %>: ] _ ]~~ ;    ! Avoid conflict w forced vowel harm
+!                    ~~[ %{e%}:/[ :0 | %>: ] _ ]~~ ;    ! Avoid conflict w forced vowel harm
+           ~~[ [ %{e%}: :Cns* ]/[ %>: | й ] _ ]~~ ;     ! Avoid conflict with irregular vowel harmony
 !           ~~[ %{I%}:LabialCns/[ :0 | %>: ] _ ]~~ ;
 !                    ~~[ %{n%}:/[ :0 | %>: ] _ ]~~ ;     ! Avoid conflict with {n} stuff
 !                                        ~~[ _ п ]~~ ;   ! Avoid conflict w {I}п stuff
@@ -301,6 +321,7 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 
 "Assimilate {A} archiphoneme before {U} in e.g. negative infinitive"
 %{A%}:Vy <=> [ :LastVowel Cns* :Cns ]/[ %>: | :0 ] _ ( %>: ) [ %{U%}: - :YotVow ] ;
+                    ~~[ [ %{e%}:0/:Cns :Cns* ]/%>: _ ]~~ ;     ! Avoid conflict with irregular vowel harmony
   where  Vy  in  (  ө  ө  ө  ө  ө  о  о  о  о  о  о  о )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched;
@@ -383,6 +404,9 @@ Vx:Vy <=> _ [ %{U%}: - :YotVow ]/[ :0 | %>: ] ;
 
 "Deletion of {I} after {D} and before р"
 %{I%}:0 <=> [ :SurVow | :р | :л | :н ] %>: %{D%}:т _ р:0 ;
+                        ! avoid conflict with irregular vowel harmony
+!                          ~~[ [ %{e%}: :Cns* ]/:%> _ ]~~ ;
+                     ~~[ [ %{e%}: :Cns :Cns* ]/%>: _ ]~~ ;     ! Avoid conflict with irregular vowel harmony
 
 "Deletion of р after {D}{I}"
 р:0 <=> [ :SurVow | :р | :н ] %>: %{D%}:т %{I%}: _ ;
