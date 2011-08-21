@@ -4576,7 +4576,6 @@ LEXICON NounStems
 күндөлүк N-INFL ;
 барабардык N-INFL ;
 пропортсия N-INFL ;
-банк N-INFL ;
 эл% өкүлү N-INFL ;
 депутат N-INFL ;
 чабуул N-INFL ;
@@ -4786,7 +4785,6 @@ LEXICON NounStems
 каршылык N-INFL ;
 генералдык% штаб N-INFL ;
 кат N-INFL ;
-банк N-INFL ;
 чоң% эне N-INFL ;
 шектүү N-INFL ;
 кайрак N-INFL ; ! "blade sharpener"
@@ -6014,7 +6012,6 @@ kanal N-INFL ;
 колдонуудагы N-INFL ;
 бюрократиялык N-INFL ;
 тынчтык% күч N-INFL ;
-банк N-INFL ;
 археологиялык N-INFL ;
 жетилген N-INFL ;
 яхта N-INFL ;
@@ -6338,6 +6335,7 @@ kanal N-INFL ;
 кечээ N-INFL ; ! "yesterday"
 аянт N-INFL ; ! "square/green"
 чама N-INFL ; ! used as postposition with numbers, "around/about"
+скамейка N-INFL ;
 
 LEXICON PropernounStems
 Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
