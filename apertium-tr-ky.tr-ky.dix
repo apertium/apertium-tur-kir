@@ -552,9 +552,9 @@
 <!--
 	<e c="  0"><p><l>biri<s n="n"/></l><r>бирөө<s n="n"/></r></p></e>
 	<e slr="1"><p><l>biri<s n="n"/></l><r>кимдир<b/>бирөө<s n="n"/></r></p></e>
--->
 	<e c="  0"><p><l>birisi<s n="n"/></l><r>бирөөсү<s n="n"/></r></p></e>
 	<e slr="1"><p><l>birisi<s n="n"/></l><r>кимдир<b/>бирөөсү<s n="n"/></r></p></e>
+-->
 	<e c="  0"><p><l>birkaç<s n="n"/></l><r>бир<b/>канча<s n="n"/></r></p></e>
 	<e c="  0"><p><l>birlik<s n="n"/></l><r>бирдик<s n="n"/></r></p></e>
 	<e c="  0"><p><l>bismillah<s n="n"/></l><r>бысмылда<s n="n"/></r></p></e>
@@ -1675,7 +1675,7 @@
 	<e c="  0"><p><l>inşa<s n="n"/></l><r>куруу<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>insan<s n="n"/></l><r>инсан<s n="n"/></r></p></e> 
 	<e slr="1"><p><l>insan<s n="n"/></l><r>киши<s n="n"/></r></p></e>
-	<e c="  0"><p><l>intihar<s n="n"/></l><r>өзүн<b/>өлтүрүү<s n="n"/></r></p></e> 
+	<!--<e c="  0"><p><l>intihar<s n="n"/></l><r>өзүн<b/>өлтүрүү<s n="n"/></r></p></e> -->
 	<e c="  0"><p><l>intikam<s n="n"/></l><r>өч<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>ipek<s n="n"/></l><r>жибек<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>ip<s n="n"/></l><r>жип<s n="n"/></r></p></e> 
@@ -5394,9 +5394,11 @@
 	<e c="  0"><p><l>ilk<s n="adj"/></l><r>биринчи<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>sıcak<s n="adj"/></l><r>ысык<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>derin<s n="adj"/></l><r>терең<s n="adj"/></r></p></e>
+<!--
 	<e c="  0"><p><l>öz<s n="adj"/></l><r>өз<s n="adj"/></r></p></e>
 	<e slr="1"><p><l>öz<s n="adj"/></l><r>маңыздуу<s n="adj"/></r></p></e>
 	<e slr="2"><p><l>öz<s n="adj"/></l><r>маанилүү<s n="adj"/></r></p></e>
+-->
 	<e c="  0"><p><l>olağan<s n="adj"/></l><r>адаттагы<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>göçmen<s n="adj"/></l><r>көчмөн<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>zayıf<s n="adj"/></l><r>күчсүз<s n="adj"/></r></p></e>
