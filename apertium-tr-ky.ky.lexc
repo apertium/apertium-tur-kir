@@ -46,7 +46,7 @@ Multichar_Symbols
 %<itg%>     ! Interrogative
 %<ref%>     ! Reflexive
 %<recip%>   ! Reciprocal
-%<col%>     ! Collective (?)
+%<coll%>     ! Collective (?)
 
 %<cmpd%>    ! Compound
 
