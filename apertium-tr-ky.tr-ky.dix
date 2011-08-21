@@ -549,12 +549,10 @@
 	<e slr="1"><p><l>bilim<s n="n"/></l><r>билим<s n="n"/></r></p></e>
 	<e c="  0"><p><l>binbaşı<s n="n"/></l><r>миң<b/>башы<s n="n"/></r></p></e>
 	<e slr="1"><p><l>binbaşı<s n="n"/></l><r>майор<s n="n"/></r></p></e>
-<!--
-	<e c="  0"><p><l>biri<s n="n"/></l><r>бирөө<s n="n"/></r></p></e>
-	<e slr="1"><p><l>biri<s n="n"/></l><r>кимдир<b/>бирөө<s n="n"/></r></p></e>
-	<e c="  0"><p><l>birisi<s n="n"/></l><r>бирөөсү<s n="n"/></r></p></e>
-	<e slr="1"><p><l>birisi<s n="n"/></l><r>кимдир<b/>бирөөсү<s n="n"/></r></p></e>
--->
+	<e c="  0"><p><l>biri<s n="n"/></l><r>бирөө<s n="prn.coll"/></r></p></e>
+	<e slr="1"><p><l>biri<s n="n"/></l><r>кимдир<b/>бирөө<s n="prn.ind"/></r></p></e>
+	<e c="  0"><p><l>birisi<s n="n"/></l><r>бирөө<s n="prn.coll"/><s n="px3sg"></r></p></e>
+	<e slr="1"><p><l>birisi<s n="n"/></l><r>кимдир<b/>бирөө<s n="prn.ind"/><s n="px3sg"></r></p></e>
 	<e c="  0"><p><l>birkaç<s n="n"/></l><r>бир<b/>канча<s n="n"/></r></p></e>
 	<e c="  0"><p><l>birlik<s n="n"/></l><r>бирдик<s n="n"/></r></p></e>
 	<e c="  0"><p><l>bismillah<s n="n"/></l><r>бысмылда<s n="n"/></r></p></e>
@@ -3571,7 +3569,7 @@
     <e c="  0"><p><l>cep<s n="n"/></l><r>чөнтөк<s n="n"/></r></p></e>
     <e c="  0"><p><l>vekil<s n="n"/></l><r>өкүл<s n="n"/></r></p></e>
     <e c="  0"><p><l>ban<s n="n"/></l><r>бан<s n="n"/></r></p></e>
-    <e c="  0"><p><l>kimse<s n="pron"/></l><r>кимдир<b/>бирөө<s n="pron"/></r></p></e>
+    <e c="  0"><p><l>kimse<s n="prn"/></l><r>кимдир<b/>бирөө<s n="prn.ind"/></r></p></e>
     <e c="  0"><p><l>hayal<s n="n"/></l><r>кыял<s n="n"/></r></p></e>
     <e c="  0"><p><l>hayali<s n="n"/></l><r>ойдон<b/>жаралган<s n="n"/></r></p></e>
     <e c="  0"><p><l>mühimmat<s n="n"/></l><r>окдары<s n="n"/></r></p></e>
