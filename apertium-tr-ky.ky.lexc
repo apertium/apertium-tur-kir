@@ -1091,22 +1091,22 @@ LEXICON Postpositions
 тиешелүү POST ; ! "belonging to" +dat
 карата POST ; ! "" +dat
 карабай POST ;
-дагы POST ;
-керек POST ; 
+дагы POST ; ! FIXME: not POST
+керек POST ; ! FIXME: not POST
 ушуга% чейин POST ; ! FIXME: what?
-дайым POST ;
+дайым POST ; ! FIXME: not POST
 соң POST ;
 тышкары POST ; ! "aside from, besides" +abl
 бери POST ; ! "since" +abl
 жараша POST ;
 байланыштуу POST ; ! "in connection with" +dat
-үчүн POST ;
+үчүн POST ; ! "for" + nom
 каршы POST ;
 карабастан POST ;
-менен% бирге POST ;
+менен% бирге POST ;  ! CHECK: is бирге ADV?
 улам POST ;
 тууралуу POST ;
-боло% турган% болсо POST ;
+боло% турган% болсо POST ; ! BAD: wtf
 тиешелүү POST ;
 сыңары POST ;
 жакында POST ;
@@ -1122,8 +1122,8 @@ LEXICON Postpositions
 менен POST ;
 караштуу POST ;
 сыяктуу POST-DECL ;
-ортосунда POST ;
-үстүндө POST ;
+! ортосунда POST ;
+! үстүндө POST ;
 
 LEXICON Determiners
 
@@ -1195,6 +1195,7 @@ LEXICON Pronouns
 эмне PRON-ITG ; ! "what?"
 кайсыны PRON-ITG ; ! "which one?"
 ким PRON-ITG ; ! "who?"
+кайда PRON-ITG ; ! "where?"
 
 өз PRON-REFL ; ! "own/self"
 бул% жер PRON-DEM ;
@@ -1295,7 +1296,6 @@ XIX NUM-ROMAN ; ! ""
 LEXICON NounStems
 сырт N-INFL ;
 факт N-INFL ;
-үстү N-INFL ;
 кубанычтуу N-INFL ;
 билимдүү N-INFL ;
 абаачылык N-INFL ; 
@@ -3480,7 +3480,7 @@ LEXICON NounStems
 үркүү N-INFL ; 
 уролог N-INFL ; 
 урология N-INFL ; 
-үст N-INFL ; 
+үст N-INFL ; ! "upper part, top", used as postposition
 уста N-INFL ; 
 устат N-INFL ; 
 утопия N-INFL ; 
@@ -6337,6 +6337,7 @@ kanal N-INFL ;
 кечөө N-INFL ; ! "yesterday"
 кечээ N-INFL ; ! "yesterday"
 аянт N-INFL ; ! "square/green"
+чама N-INFL ; ! used as postposition with numbers, "around/about"
 
 LEXICON PropernounStems
 Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
