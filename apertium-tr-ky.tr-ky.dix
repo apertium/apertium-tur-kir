@@ -286,8 +286,8 @@
 
 	<e c="  0"><p><l>biri<s n="n"/></l><r>бирөө<s n="prn"/><s n="coll"/></r></p></e>
 	<e slr="1"><p><l>biri<s n="n"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
-	<e c="  0"><p><l>birisi<s n="prn"/></l><r>бирөө<s n="prn"/><s n="coll"/><s n="px3sg"/></r></p></e>
-	<e slr="1"><p><l>birisi<s n="prn"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/><s n="px3sg"/></r></p></e>
+	<e c="  0"><p><l>birisi<s n="prn"/></l><r>бирөө<s n="prn"/><s n="coll"/></r></p></e>
+	<e slr="1"><p><l>birisi<s n="prn"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>kimse<s n="prn"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
 	
         <!-- SECTION: Determiners -->
