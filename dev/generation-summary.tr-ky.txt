@@ -1,4 +1,4 @@
-Corpus in: /home/fran/corpora/turkish
+Corpus in: /home/jonathan/corpora/turkish
 Processing corpus for generation test... done.
 Translating corpus for generation test (this could take some time)... done.
 
