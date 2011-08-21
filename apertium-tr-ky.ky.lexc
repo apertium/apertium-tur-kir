@@ -684,7 +684,7 @@ LEXICON PRON-RECIP
 
 LEXICON PRON-COLL   ! "Collective"(?) pronouns
 
-%<prn%>%<col%>: POSSESSION ;
+%<prn%>%<coll%>: POSSESSION ;
 
 
 LEXICON PRED
