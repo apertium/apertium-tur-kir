@@ -13,39 +13,11 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
-   3581 #үстү\<n\>\<px3sg\>\<loc\>	^үстү<n><px3sg><loc>$
-    724 #үстү\<n\>\<px3sg\>\<dat\>	^үстү<n><px3sg><dat>$
-    655 #үстү\<n\>\<px3sg\>\<rloc\>	^үстү<n><px3sg><rloc>$
-    380 #бирөө\<n\>\<nom\>	^бирөө<n><nom>$
-    354 #бирөө\<n\>\<gen\>	^бирөө<n><gen>$
-    308 #үстү\<n\>\<px3sg\>\<abl\>	^үстү<n><px3sg><abl>$
-    248 #үстү\<n\>\<dat\>	^үстү<n><dat>$
-    136 #Үстү\<n\>\<px3sg\>\<loc\>	^Үстү<n><px3sg><loc>$
-    115 #өзүн өлтүрүү\<n\>\<nom\>	^өзүн өлтүрүү<n><nom>$
-     83 #өз\<adj\>\<pst\>	^өз<adj><pst>$
-     69 #бирөөсү\<n\>\<nom\>	^бирөөсү<n><nom>$
-     40 #Өз\<adj\>\<pst\>	^Өз<adj><pst>$
-     26 #Үстү\<n\>\<px3sg\>\<rloc\>	^Үстү<n><px3sg><rloc>$
-     18 #бирөөсү\<n\>\<gen\>	^бирөөсү<n><gen>$
-     18 #бирөө\<n\>\<dat\>	^бирөө<n><dat>$
-     17 #Бирөө\<n\>\<nom\>	^Бирөө<n><nom>$
-     16 #бирөө\<n\>\<px3sg\>\<nom\>	^бирөө<n><px3sg><nom>$
-     14 #бирөө\<n\>\<acc\>	^бирөө<n><acc>$
-     12 #Үстү\<n\>\<px3sg\>\<dat\>	^Үстү<n><px3sg><dat>$
-     12 #бирөө\<n\>\<px3sg\>\<acc\>	^бирөө<n><px3sg><acc>$
-     11 #бирөө\<n\>\<pl\>\<gen\>	^бирөө<n><pl><gen>$
-      5 #үстү\<n\>\<px3sg\>\<acc\>	^үстү<n><px3sg><acc>$
-      5 #Бирөөсү\<n\>\<nom\>	^Бирөөсү<n><nom>$
-      4 #үстү\<n\>\<px1pl\>\<dat\>	^үстү<n><px1pl><dat>$
-      4 #үстү\<n\>\<nom\>	^үстү<n><nom>$
-      4 #бирөө\<n\>\<pl\>\<nom\>	^бирөө<n><pl><nom>$
-      4 #бирөө\<n\>\<pl\>\<acc\>	^бирөө<n><pl><acc>$
-      4 #Бирөө\<n\>\<gen\>	^Бирөө<n><gen>$
 
 ===============================================================================
 Summary
 ===============================================================================
-   0 /tmp/tr-ky.multiform
-   0 /tmp/tr-ky.multibidix
-  28 /tmp/tr-ky.tagmismatch
-  28 total
+0 /tmp/tr-ky.multiform
+0 /tmp/tr-ky.multibidix
+0 /tmp/tr-ky.tagmismatch
+0 total
