@@ -410,6 +410,7 @@
     <def-attr n="a_prn">
       <attr-item tags="prn"/>
       <attr-item tags="prn.pers"/>
+      <attr-item tags="prn.coll"/>
       <attr-item tags="prn.ref"/>
       <attr-item tags="prn.dem"/>
       <attr-item tags="prn.ind"/>
