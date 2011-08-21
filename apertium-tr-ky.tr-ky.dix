@@ -3571,7 +3571,7 @@
     <e c="  0"><p><l>cep<s n="n"/></l><r>чөнтөк<s n="n"/></r></p></e>
     <e c="  0"><p><l>vekil<s n="n"/></l><r>өкүл<s n="n"/></r></p></e>
     <e c="  0"><p><l>ban<s n="n"/></l><r>бан<s n="n"/></r></p></e>
-    <!--<e c="  0"><p><l>kimse<s n="n"/></l><r>бирөө<s n="n"/></r></p></e>-->
+    <e c="  0"><p><l>kimse<s n="pron"/></l><r>кимдир<b/>бирөө<s n="pron"/></r></p></e>
     <e c="  0"><p><l>hayal<s n="n"/></l><r>кыял<s n="n"/></r></p></e>
     <e c="  0"><p><l>hayali<s n="n"/></l><r>ойдон<b/>жаралган<s n="n"/></r></p></e>
     <e c="  0"><p><l>mühimmat<s n="n"/></l><r>окдары<s n="n"/></r></p></e>
