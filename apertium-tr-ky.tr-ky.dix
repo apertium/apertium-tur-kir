@@ -250,8 +250,8 @@
    <e c="  0"><p><l>yukarı<s n="postp"/></l><r>өйдө<s n="post"/></r></p></e>
    <e c="  0"><p><l>ile<s n="postp"/></l><r>менен<s n="post"/></r></p></e>
    <e c="  0"><p><l>ait<s n="postp"/></l><r>караштуу<s n="post"/></r></p></e>
-   <e c="  0"><p><l>ortasında<s n="postp"/></l><r>ортосунда<s n="post"/></r></p></e>
-   <e c="  0"><p><l>üstünde<s n="postp"/></l><r>үстүндө<s n="post"/></r></p></e>
+   <e c="  0"><p><l>orta<s n="n"/></l><r>орто<s n="n"/></r></p></e>
+   <e c="  0"><p><l>üst<s n="n"/></l><r>үст<s n="n"/></r></p></e>
 
 
 	<!-- SECTION: Pronouns -->
@@ -2824,7 +2824,7 @@
 	<e c="  0"><p><l>ölçü<s n="n"/></l><r>өлчөм<s n="n"/></r></p></e>
 	<e slr="1"><p><l>ölçü<s n="n"/></l><r>өлчөө<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ön<s n="n"/></l><r>алды<s n="n"/></r></p></e>
-	<e slr="1"><p><l>ön<s n="n"/></l><r>асты<s n="n"/></r></p></e>
+	<e slr="1"><p><l>ön<s n="n"/></l><r>аст<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ördek<s n="n"/></l><r>өрдөк<s n="n"/></r></p></e>
 	<e c="  0"><p><l>örf<s n="n"/></l><r>үрп<b/>адат<s n="n"/></r></p></e>
 	<e c="  0"><p><l>örnek<s n="n"/></l><r>өрнөк<s n="n"/></r></p></e>
@@ -2847,7 +2847,7 @@
 	<e c="  0"><p><l>ürkü<s n="n"/></l><r>үркүү<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ürolog<s n="n"/></l><r>уролог<s n="n"/></r></p></e>
 	<e c="  0"><p><l>üroloji<s n="n"/></l><r>урология<s n="n"/></r></p></e>
-	<e c="  0"><p><l>üst<s n="n"/></l><r>үстү<s n="n"/></r></p></e>
+	<e c="  0"><p><l>üst<s n="n"/></l><r>үст<s n="n"/></r></p></e>
 	<e c="  0"><p><l>üstat<s n="n"/></l><r>уста<s n="n"/></r></p></e>
 	<e slr="1"><p><l>üstat<s n="n"/></l><r>устат<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ütopi<s n="n"/></l><r>утопия<s n="n"/></r></p></e>
@@ -3037,8 +3037,8 @@
     <e c="  0"><p><l>özel<s n="n"/></l><r>жеке<s n="n"/></r></p></e>
     <e slr="1"><p><l>özel<s n="n"/></l><r>жеке<b/>менчик<s n="n"/></r></p></e>
     <e c="  0"><p><l>kent<s n="n"/></l><r>шаар<s n="n"/></r></p></e>
-    <e c="  0"><p><l>alt<s n="n"/></l><r>асты<s n="n"/></r></p></e>
-    <e slr="1"><p><l>alt<s n="n"/></l><r>алды<s n="n"/></r></p></e>
+    <e c="  0"><p><l>alt<s n="n"/></l><r>аст<s n="n"/></r></p></e>
+    <e slr="1"><p><l>alt<s n="n"/></l><r>алд<s n="n"/></r></p></e>
     <e c="  0"><p><l>anayasa<s n="n"/></l><r>башмыйзам<s n="n"/></r></p></e>
     <e c="  0"><p><l>kaynak<s n="n"/></l><r>булак<s n="n"/></r></p></e>
     <e slr="1"><p><l>kaynak<s n="n"/></l><r>башат<s n="n"/></r></p></e>
@@ -4683,7 +4683,7 @@
       <e c="  0"><p><l>ihtimali<s n="n"/></l><r>болжолдуу<s n="n"/></r></p></e>
       <e c="  0"><p><l>dizüstü<s n="n"/></l><r>тизе<b/>үстүндө<b/>колдонулган<s n="n"/></r></p></e>
       <e c="  0"><p><l>bildirim<s n="n"/></l><r>эскертүү<s n="n"/></r></p></e>
-      <e c="  0"><p><l>ast<s n="n"/></l><r>асты<s n="n"/></r></p></e>
+      <e c="  0"><p><l>ast<s n="n"/></l><r>аст<s n="n"/></r></p></e>
       <e c="  0"><p><l>alüminyum<s n="n"/></l><r>алюминий<s n="n"/></r></p></e>
       <e c="  0"><p><l>zina<s n="n"/></l><r>никеден<b/>тышкары<b/>жыныстык<b/>байланыш<s n="n"/></r></p></e>
       <e c="  0"><p><l>vesile<s n="n"/></l><r>себеп<s n="n"/></r></p></e>
