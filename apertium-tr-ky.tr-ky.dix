@@ -40,6 +40,7 @@
      <sdef n="pers"      c="Personal"/>
      <sdef n="dem"       c="Demonstrative"/>
      <sdef n="ind"       c="Indefinite"/>
+     <sdef n="coll"       c="Collective"/>
      <sdef n="qnt"       c="Quantifier"/>
      <sdef n="neg"       c="Negative"/>
      <sdef n="itg"       c="Interrogative"/>
