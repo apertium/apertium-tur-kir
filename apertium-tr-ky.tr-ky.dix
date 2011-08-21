@@ -3005,7 +3005,7 @@
     <e c="  0"><p><l>katılım<s n="n"/></l><r>катышуу<s n="n"/></r></p></e>
     <e c="  0"><p><l>çağrı<s n="n"/></l><r>чакырык<s n="n"/></r></p></e>
     <e c="  0"><p><l>haziran<s n="n"/></l><r>июнь<s n="n"/></r></p></e>
-    <e c="  0"><p><l>sorun<s n="n"/></l><r>маселе<s n="n"/></r></p></e>
+    
     <e c="  0"><p><l>konsey<s n="n"/></l><r>кеңеш<s n="n"/></r></p></e>
     <e c="  0"><p><l>sıra<s n="n"/></l><r>катар<s n="n"/></r></p></e>
     <e slr="1"><p><l>sıra<s n="n"/></l><r>кезек<s n="n"/></r></p></e>
@@ -3499,7 +3499,8 @@
     <e c="  0"><p><l>kaynak<s n="n"/></l><r>булак<s n="n"/></r></p></e>
     <e c="  0"><p><l>kuvvet<s n="n"/></l><r>күч<s n="n"/></r></p></e>
     <e c="  0"><p><l>vaat<s n="n"/></l><r>убада<s n="n"/></r></p></e>
-    <e c="  0"><p><l>sorun<s n="n"/></l><r>маселе<s n="n"/></r></p></e>
+    <e c="  0"><p><l>sorun<s n="n"/></l><r>проблема<s n="n"/></r></p></e>
+    <e slr="1"><p><l>sorun<s n="n"/></l><r>маселе<s n="n"/></r></p></e>
     <e c="  0"><p><l>komünist<s n="n"/></l><r>комунист<s n="n"/></r></p></e>
     <e c="  0"><p><l>büro<s n="n"/></l><r>бюро<s n="n"/></r></p></e>
     <e c="  0"><p><l>kazanma<s n="n"/></l><r>утуу<s n="n"/></r></p></e>
