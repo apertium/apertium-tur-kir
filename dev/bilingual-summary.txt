@@ -1,0 +1,11 @@
+0 total
+0 /home/jonathan/quick/apertium/svn/incubator/apertium-tr-ky/dev/bidix//pending_verbs.txt
+0 /home/jonathan/quick/apertium/svn/incubator/apertium-tr-ky/dev/bidix//pending_proper_nouns.txt
+0 /home/jonathan/quick/apertium/svn/incubator/apertium-tr-ky/dev/bidix//pending_pronouns.txt
+0 /home/jonathan/quick/apertium/svn/incubator/apertium-tr-ky/dev/bidix//pending_postpositions.txt
+0 /home/jonathan/quick/apertium/svn/incubator/apertium-tr-ky/dev/bidix//pending_numerals.txt
+0 /home/jonathan/quick/apertium/svn/incubator/apertium-tr-ky/dev/bidix//pending_nouns.txt
+0 /home/jonathan/quick/apertium/svn/incubator/apertium-tr-ky/dev/bidix//pending_determiners.txt
+0 /home/jonathan/quick/apertium/svn/incubator/apertium-tr-ky/dev/bidix//pending_conjunctions.txt
+0 /home/jonathan/quick/apertium/svn/incubator/apertium-tr-ky/dev/bidix//pending_adverbs.txt
+0 /home/jonathan/quick/apertium/svn/incubator/apertium-tr-ky/dev/bidix//pending_adjectives.txt

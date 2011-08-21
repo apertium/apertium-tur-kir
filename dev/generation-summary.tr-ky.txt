@@ -1,4 +1,4 @@
-Corpus in: /home/jonathan/corpora/turkish
+Corpus in: /home/jonathan/quick/apertium/scrapers/tr
 Processing corpus for generation test... done.
 Translating corpus for generation test (this could take some time)... done.
 
@@ -13,11 +13,51 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
+     15 #наркотик\<nom\>	^наркотик<nom>$
+      4 #бол\<nom\>	^бол<nom>$
+      2 #силер\<pl\>\<dat\>	^силер<pl><dat>$
+      2 #бир\<gen\>	^бир<gen>$
+      2 #байланыштуу\<nom\>	^байланыштуу<nom>$
+      2 #арзан\<nom\>	^арзан<nom>$
+      2 #6,4\<n\>\<gen\>	^6,4<n><gen>$
+      2 #252\<gen\>	^252<gen>$
+      2 #20\<gen\>	^20<gen>$
+      2 #1\<gen\>	^1<gen>$
+      2 #169\<gen\>	^169<gen>$
+      2 #01\<gen\>	^01<gen>$
+      1 #Узун\<nom\>	^Узун<nom>$
+      1 #тыйылган\<nom\>	^тыйылган<nom>$
+      1 #тоскоол бол\<v\>\<tv\>\<opt\>	^тоскоол бол<v><tv><opt>$
+      1 #таралган\<nom\>	^таралган<nom>$
+      1 #Өткөн\<nom\>	^Өткөн<nom>$
+      1 #өткөн\<nom\>	^өткөн<nom>$
+      1 #орто\<nom\>	^орто<nom>$
+      1 #Наркотик\<nom\>	^Наркотик<nom>$
+      1 #Көтөр\<v\>\<tv\>\<pass\>\<opt\>	^Көтөр<v><tv><pass><opt>$
+      1 #караңгы\<nom\>	^караңгы<nom>$
+      1 #камтылган\<nom\>	^камтылган<nom>$
+      1 #жардам	^жардам
+      1 #бул\<nom\>	^бул<nom>$
+      1 #Бул\<gen\>	^Бул<gen>$
+      1 #бол\<v\>\<iv\>\<opt\>	^бол<v><iv><opt>$
+      1 #бир канча\<nom\>	^бир канча<nom>$
+      1 #башка\<nom\>	^башка<nom>$
+      1 #бар\<v\>\<p3\>\<sg\>	^бар<v><p3><sg>$
+      1 #Акыркы\<nom\>	^Акыркы<nom>$
+      1 #айыптуу\<nom\>	^айыптуу<nom>$
+      1 #айрымала\<v\>\<tv\>\<neg\>\<opt\>	^айрымала<v><tv><neg><opt>$
+      1 #72\<gen\>	^72<gen>$
+      1 #3\<gen\>	^3<gen>$
+      1 #3,75\<gen\>	^3,75<gen>$
+      1 #30\<gen\>	^30<gen>$
+      1 #2003\<gen\>	^2003<gen>$
+      1 #0\<gen\>	^0<gen>$
+      1 #030102\<gen\>	^030102<gen>$
 
 ===============================================================================
 Summary
 ===============================================================================
-0 /tmp/tr-ky.multiform
-0 /tmp/tr-ky.multibidix
-0 /tmp/tr-ky.tagmismatch
-0 total
+   0 /tmp/tr-ky.multiform
+   0 /tmp/tr-ky.multibidix
+  40 /tmp/tr-ky.tagmismatch
+  40 total
