@@ -1,0 +1,7 @@
+   5055 ^@üzer<n>$
+    685 ^@üzer<n><rloc>$
+    267 ^@kimse<n>$
+    117 ^@intihar<n>$
+     94 ^@birisi<n>$
+      1 ^@üzer<n><$
+      1 ^@intihar<n><rloc>$
