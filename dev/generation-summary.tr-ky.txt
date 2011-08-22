@@ -1,4 +1,4 @@
-Corpus in: /home/jonathan/quick/apertium/scrapers/tr
+Corpus in: /home/fran/corpora/turkish
 Processing corpus for generation test... done.
 Translating corpus for generation test (this could take some time)... done.
 
@@ -13,10 +13,13 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
-    272 #бирөө\<nom\>	^бирөө<nom>$
-    263 #бирөө\<gen\>	^бирөө<gen>$
-     16 #бирөө\<px3sg\>\<nom\>	^бирөө<px3sg><nom>$
+    277 #бирөө\<nom\>	^бирөө<nom>$
+    265 #бирөө\<gen\>	^бирөө<gen>$
+     72 #бирөө\<prn\>\<coll\>\<nom\>	^бирөө<prn><coll><nom>$
+     20 #бирөө\<prn\>\<coll\>\<gen\>	^бирөө<prn><coll><gen>$
+     14 #бирөө\<px3sg\>\<nom\>	^бирөө<px3sg><nom>$
      12 #бирөө\<px3sg\>\<acc\>	^бирөө<px3sg><acc>$
+      5 #Бирөө\<prn\>\<coll\>\<nom\>	^Бирөө<prn><coll><nom>$
       5 #Бирөө\<nom\>	^Бирөө<nom>$
 
 ===============================================================================
@@ -24,5 +27,5 @@ Summary
 ===============================================================================
   0 /tmp/tr-ky.multiform
   0 /tmp/tr-ky.multibidix
-  5 /tmp/tr-ky.tagmismatch
-  5 total
+  8 /tmp/tr-ky.tagmismatch
+  8 total
