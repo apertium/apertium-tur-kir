@@ -13,16 +13,13 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
-    277 #бир\<nom\>	^бир<nom>$
-    265 #бир\<gen\>	^бир<gen>$
-     14 #бир\<px3sg\>\<nom\>	^бир<px3sg><nom>$
-     12 #бир\<px3sg\>\<acc\>	^бир<px3sg><acc>$
-      5 #Бир\<nom\>	^Бир<nom>$
+     46 #Орун басаар\<adj\>\<pst\>	^Орун басаар<adj><pst>$
+      6 #орун басаар\<adj\>\<pst\>	^орун басаар<adj><pst>$
 
 ===============================================================================
 Summary
 ===============================================================================
   0 /tmp/tr-ky.multiform
   0 /tmp/tr-ky.multibidix
-  5 /tmp/tr-ky.tagmismatch
-  5 total
+  2 /tmp/tr-ky.tagmismatch
+  2 total
