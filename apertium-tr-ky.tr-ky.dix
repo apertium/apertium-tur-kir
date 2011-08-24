@@ -1637,8 +1637,8 @@
 	<e c="  0"><p><l>ihtar<s n="n"/></l><r>эскертүү<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>ihtişam<s n="n"/></l><r>келбет<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>ihtiyat<s n="n"/></l><r>этият<s n="n"/></r></p></e> 
-	<e c="  0"><p><l>ikame<s n="n"/></l><r>оорун<b/>элөө<s n="n"/></r></p></e> 
-	<e c="  0"><p><l>ikamet<s n="n"/></l><r>оорун<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ikame<s n="n"/></l><r>орун<b/>элөө<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>ikamet<s n="n"/></l><r>орун<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>ikaz<s n="n"/></l><r>кабар<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>iklim<s n="n"/></l><r>климат<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>ikna<s n="n"/></l><r>көндүрүү<s n="n"/></r></p></e> 
@@ -2945,7 +2945,7 @@
 	<e c="  0"><p><l>ordu<s n="n"/></l><r>аскер<s n="n"/></r></p></e>
 	<e c="  0"><p><l>pist<s n="n"/></l><r>пист<s n="n"/></r></p></e>
 	<e c="  0"><p><l>pasta<s n="n"/></l><r>торт<s n="n"/></r></p></e>
-	<e c="  0"><p><l>kontenjan<s n="n"/></l><r>оорун<s n="n"/></r></p></e>
+	<e c="  0"><p><l>kontenjan<s n="n"/></l><r>орун<s n="n"/></r></p></e>
 	<e c="  0"><p><l>kişilik<s n="n"/></l><r>кишилик<s n="n"/></r></p></e>
 	<e slr="1"><p><l>kişilik<s n="n"/></l><r>адамгерчилик<s n="n"/></r></p></e>
 	<e c="  0"><p><l>gerginlik<s n="n"/></l><r>оор<b/>абал<s n="n"/></r></p></e>
@@ -3690,7 +3690,7 @@
     <e c="  0"><p><l>mülkiyet<s n="n"/></l><r>ээлик<s n="n"/></r></p></e>
     <e c="  0"><p><l>eder<s n="n"/></l><r>нарк<s n="n"/></r></p></e>
     <e c="  0"><p><l>tasar<s n="n"/></l><r>план<s n="n"/></r></p></e>
-    <e c="  0"><p><l>müsteşar<s n="n"/></l><r>оорун<b/>басар<s n="n"/></r></p></e>
+    <e c="  0"><p><l>müsteşar<s n="n"/></l><r>орун<b/>басар<s n="n"/></r></p></e>
     <e c="  0"><p><l>kritik<s n="n"/></l><r>опурталдуу<s n="n"/></r></p></e>
     <e c="  0"><p><l>yönetici<s n="n"/></l><r>башкауучу<s n="n"/></r></p></e>
     <e c="  0"><p><l>şebeke<s n="n"/></l><r>байланыш<b/>түйүнү<s n="n"/></r></p></e>
@@ -5454,7 +5454,7 @@
 	<e c="  0"><p><l>faal<s n="adj"/></l><r>ишке<b/>жараган<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>hayvan<s n="adj"/></l><r>айбан<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>coğrafi<s n="adj"/></l><r>географиялык<s n="adj"/></r></p></e>
-	<e c="  0"><p><l>müsteşar<s n="adj"/></l><r>оорун<b/>басаар<s n="adj"/></r></p></e>
+	<e c="  0"><p><l>müsteşar<s n="adj"/></l><r>орун<b/>басаар<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>basit<s n="adj"/></l><r>жөнөкөй<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>temiz<s n="adj"/></l><r>таза<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>pahalı<s n="adj"/></l><r>кымбат<s n="adj"/></r></p></e>
@@ -6684,7 +6684,7 @@
 	<e c="  0"><p><l>ilgile<s n="v"/></l><r>кызыктыр<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>ona<s n="v"/></l><r>ына<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>paylaş<s n="v"/></l><r>бөлүш<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>yer ver<s n="v"/></l><r>оорун бер<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>yer ver<s n="v"/></l><r>орун бер<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>tekrarla<s n="v"/></l><r>кайтала<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>üre<s n="v"/></l><r>балала<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>ayır<s n="v"/></l><r>айыр<s n="v"/><s n="tv"/></r></p></e>

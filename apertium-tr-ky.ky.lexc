@@ -4181,8 +4181,7 @@ LEXICON NounStems
 эскертүү N-INFL ; 
 келбет N-INFL ; 
 этият N-INFL ; 
-оорун% элөө N-INFL ; 
-оорун N-INFL ; 
+орун% элөө N-INFL ; 
 кабар N-INFL ; 
 климат N-INFL ; 
 көндүрүү N-INFL ; 
@@ -4280,10 +4279,7 @@ LEXICON NounStems
 мүчө N-INFL ;
 !тарап N-INFL ;
 тил N-INFL ;
-!орун N-INFL ;
 орун:ор%{y%}н N-INFL ;  ! "place" ! FIXME: make work properly
-!орун N-INFL ; ! Dir/RL
-!мурун N-INFL ; ! "nose"
 мурун:мур%{y%}н N-INFL ; ! "nose" ! FIXME: make work properly
 тоо N-INFL ;
 ардак N-INFL ;
@@ -4332,8 +4328,9 @@ LEXICON NounStems
 окуу N-INFL ;
 совет N-INFL ; ! "Soviet"
 жыйнак N-INFL;
-орунбасар N-INFL ;
 орун% басар N-INFL ;
+орун% басар:орунбасар N-INFL ; ! Dir/LR
+орун%<n%>%<nom%>%<cmpd%>%+басар:орунбасар N-INFL ;
 таала N-INFL ;
 баатыр N-INFL ;
 май N-INFL ;
@@ -4378,7 +4375,6 @@ LEXICON NounStems
 падышалык N-INFL ; ! ""
 такыбалык N-INFL ; ! ""
 мотиватсия N-INFL ;
-орун%<n%>%<nom%>%<cmpd%>%+басар:орунбасар N-INFL ;
 чейинки N-INFL ; 
 аскер N-INFL ; 
 аял N-INFL ; 
@@ -5169,7 +5165,6 @@ LEXICON NounStems
 ээлик N-INFL ;
 нарк N-INFL ;
 план N-INFL ;
-оорун% басар N-INFL ;
 опурталдуу N-INFL ;
 башкауучу N-INFL ;
 байланыш% түйүнү N-INFL ;
@@ -5501,7 +5496,6 @@ LEXICON NounStems
 коммунизм N-INFL ;
 батыш N-INFL ;
 таштанды N-INFL ;
-орун% басар N-INFL ;
 кабарчы N-INFL ;
 марка N-INFL ;
 идиш N-INFL ;
@@ -7450,7 +7444,6 @@ LEXICON AdjecStems
 ишке% жараган ADJ ;
 айбан ADJ ;
 географиялык ADJ ;
-оорун% басаар ADJ ;
 жөнөкөй ADJ ;
 кымбат ADJ ;
 дос ADJ ;
@@ -9074,9 +9067,8 @@ LEXICON VerbStems
 далай V-INFL-IV ; ! "wither"
 жардам% бер V-INFL-IV ; ! "help"
 жардам% бер V-INFL-TV ; ! "help"
-оорун% бер V-INFL-TV ; ! ""
+орун% бер V-INFL-TV ; ! ""
 жазыл V-INFL-TV ; ! ""
-
 таштап% кет V-INFL-IV ;
 ал V-INFL-TV ;
 кайтарып% бер V-INFL-TV ;
