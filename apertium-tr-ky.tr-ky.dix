@@ -5454,7 +5454,7 @@
 	<e c="  0"><p><l>faal<s n="adj"/></l><r>ишке<b/>жараган<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>hayvan<s n="adj"/></l><r>айбан<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>coğrafi<s n="adj"/></l><r>географиялык<s n="adj"/></r></p></e>
-	<e c="  0"><p><l>müsteşar<s n="adj"/></l><r>орун<b/>басаар<s n="adj"/></r></p></e>
+	<!--<e c="  0"><p><l>müsteşar<s n="adj"/></l><r>орун<b/>басар<s n="adj"/></r></p></e>--><!--TODO:CHECK-->
 	<e c="  0"><p><l>basit<s n="adj"/></l><r>жөнөкөй<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>temiz<s n="adj"/></l><r>таза<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>pahalı<s n="adj"/></l><r>кымбат<s n="adj"/></r></p></e>
