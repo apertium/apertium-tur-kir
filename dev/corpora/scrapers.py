@@ -104,7 +104,18 @@ class ScraperAlaman(Scraper):
 	domain = "alamankg.org"
 	prefix = "alaman"
 	reArticleNum = re.compile("\/([0-9]*?)\/?$")
-	
+	reBadDomain = re.compile("^http://alaman\\.kg/(.*)")
+
+	def __init__(self, url):
+		# Alaman's rss feed points urls in a domain that forwards to the correct domain but without the content; this logic corrects the domain
+		if self.reBadDomain.match(url):
+			self.url = self.reBadDomain.sub('http://alamankg.org/\g<1>', url)
+			print(">> "+self.url)
+		else:
+			self.url = url
+
+		self.aid = self.url_to_aid(url)
+
 	def scraped(self):
 		self.get_content()
 		el = None
