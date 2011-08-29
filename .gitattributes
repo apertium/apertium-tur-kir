@@ -13,6 +13,7 @@
 /autogen.sh -text
 /configure.ac -text
 dev/apertium-tr-ky.tr-ky.t1x -text
+dev/bidix/bidix-with-context.sh -text
 dev/bidix/context_adjectives.txt -text
 dev/bidix/context_conjunctions.txt -text
 dev/bidix/context_nouns.txt -text
