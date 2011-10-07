@@ -30,6 +30,7 @@ dev/bidix/pending_proper_nouns.txt -text
 dev/bidix/pending_verbs.txt -text
 dev/bilingual-summary.txt -text
 dev/corpora/azattyk-crp.py -text
+dev/corpora/bottle.py -text
 dev/corpora/convertcorpus.py -text
 dev/corpora/kyscraper_book.dat -text
 dev/corpora/kyscraper_rss.dat -text
