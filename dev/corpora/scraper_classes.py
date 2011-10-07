@@ -9,6 +9,7 @@ from scrapers import *
 import rssfucker
 from lxml import etree
 from datetime import datetime
+import sys
 
 
 class Feed(object):
@@ -65,14 +66,15 @@ class Source(object):
 	page_contents = None
 	out_content = None
 
-	def __init__(self, url, scraper=None, title=None):
+	def __init__(self, url, scraper=None, title=None, conn=None):
 		self.url = url
 		self.title = title
+		self.conn = conn
 		if not scraper:
 			self.scraper = self.get_scraper(url)
 		else: self.scraper = scraper
 		if not self.scraper:
-			raise Exception("No scraper set!")
+			raise Exception("No scraper set!")	
 
 		#self.makeRoot()
 
@@ -80,8 +82,18 @@ class Source(object):
 		return
 	
 	def get_page(self, link):
-		f = urllib.request.urlopen(link)
-		return f.read().decode('utf-8')
+		print("DEBUG: "+str(self.conn))
+		if self.conn != None:
+			self.conn.request("GET", link)
+			res = self.conn.getresponse()
+			if res.status != 200:
+				print(link, res.status, res.reason)
+				return
+			return res.read().decode('utf-8')
+
+		else:
+			f = urllib.request.urlopen(link)
+			return f.read().decode('utf-8')
 
 	def filename_exists(self):
 		return os.path.isfile(self.path)
@@ -111,46 +123,72 @@ class Source(object):
 				f.write(template('source', title=self.title, content=self.out_content, url = self.url))
 			print("added.")
 
-		else:
-			print(self.filename, " exists!  Skipping.")
+		print(self.filename, " exists!  Skipping.")
 
 	def populateIds(self):
 		self.ids = []
+		sys.stdout.write("\rPopulating ids.")
+		sys.stdout.flush()
 		for item in self.root.getiterator("{http://apertium.org/xml/corpus/0.9}entry"):
 			self.ids += [item.attrib['id']]
+		sys.stdout.write(".\n")
+		sys.stdout.flush()
 		#print(self.ids)
 
-	def makeRoot(self, outdir):
+	def makeRoot(self, outdir, ids=None, root=None):
+		sys.stdout.write("\r.")
+		sys.stdout.flush()
 		self.outdir = outdir
 		self.filename = self.scraper.prefix+".xml"
 		self.path = os.path.join(self.outdir, self.filename)
 
-		if os.path.isfile(self.path):
-			self.root = etree.parse(self.path).getroot()
+		sys.stdout.write(".")
+		sys.stdout.flush()
+		if not root:
+			if os.path.isfile(self.path):
+				self.root = etree.parse(self.path).getroot()
+			else:
+				self.root = etree.Element("corpus", xmlns="http://apertium.org/xml/corpus/0.9", language="ky", name=self.scraper.prefix)
 		else:
-			self.root = etree.Element("corpus", xmlns="http://apertium.org/xml/corpus/0.9", language="ky", name=self.scraper.prefix)
-		self.populateIds()
+			self.root = root
+		if not ids:
+			self.populateIds()
+		else:
+			self.ids = ids
+		sys.stdout.write(".")
+		sys.stdout.flush()
+
 	
 
 	def add_to_archive(self):
-		scraper = self.scraper(self.url)
+		scraper = self.scraper(self.url, conn=self.conn)
 		self.aid = scraper.aid
 		self.entry_id = self.scraper.prefix +"."+ self.aid
 		if self.entry_id not in self.ids:
-			print("Adding...", end=" ")
+			#print("Adding...", end=" ")
+			sys.stdout.write("\rAdding %s ." % self.url)
+			sys.stdout.flush()
 			self.out_content = scraper.scraped()
+			sys.stdout.write(".")
 			if self.out_content:
 				outTime = datetime.now().isoformat()
 				#print(self.root, self.url, self.entry_id, self.title, outTime, self.out_content)
 				etree.SubElement(self.root, "entry", source=self.url, id=self.entry_id, title=self.title, timestamp=outTime).text = self.out_content
 				#print(outdir, self.filename, self)
 				etree.ElementTree(self.root).write(self.path, pretty_print=True, encoding='UTF-8', xml_declaration=False)
-				print("added.")
+				#print("added.")
+				sys.stdout.write(". added!\n")
+				sys.stdout.flush()
 				self.ids += [self.aid]
-			else: print("empty content, not added.")
+			else:
+				#print("empty content, not added.")
+				sys.stdout.write("empty content, not added.\n")
+				sys.stdout.flush()
 
 		else:
-			print(self.entry_id, " exists!  Skipping.")
+			#print(self.entry_id, " exists!  Skipping. :(")
+			sys.stdout.write("\r"+self.entry_id+" exists!  Skipping.\n")
+			sys.stdout.flush()
 
 
 
