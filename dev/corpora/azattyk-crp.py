@@ -1,4 +1,4 @@
-#!/bin/evn python3
+#!/bin/env python3
 
 from datetime import date, timedelta
 from urllib import request
