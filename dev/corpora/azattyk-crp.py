@@ -8,7 +8,6 @@ import lxml.html.clean
 from scrapers import ScraperAzattyk
 from scraper_classes import Source
 import urllib.error
-import socket
 import http.client
 import curses
 import sys
@@ -26,19 +25,14 @@ topics = {392: "ky-kyrgyzstan",
 	399: "ky-voice_of_people",
 	400: "ky-sport"}
 
-#startyear = 2006
-startyear = 2010
+startyear = 2010 # 2006
 endyear = 2010
 minmonth = 1 # 1
 maxmonth = 12 # 12
 
 def get_urls(monthurl):  # get the URLS for a given month
-	global stdscr
-	#for monthurl in monthurls:
-	#print("Getting %s..." % monthurl)
 	sys.stdout.write("\rGetting %s." % monthurl)
 	sys.stdout.flush()
-	#contents = request.urlopen(monthurl).read().decode('utf-8')
 
 	conn = http.client.HTTPConnection("www.azattyk.org")
 	conn.request("GET", monthurl)
@@ -73,13 +67,11 @@ def get_urls(monthurl):  # get the URLS for a given month
 				#print(lxml.html.tostring(el)) #lxml.html.document_fromstring(lxml.html.clean.clean_html(lxml.html.tostring(el).decode('utf-8'))))
 			if title != None and url != None:
 				urls.append((url, title))
-					#print(a.attrib["href"])
 
 	sys.stdout.write(".\n")
 	sys.stdout.flush()
 	conn.close()
 	return urls
-	#monthurls = []
 
 def get_allurls(startyear, endyear, minmonth, maxmonth):  # get all urls for given date range
 	allurls = []
@@ -94,20 +86,16 @@ def get_allurls(startyear, endyear, minmonth, maxmonth):  # get all urls for giv
 					for url in urls:
 						allurls.append(url)
 	
-				#monthurls.append(monthurl)
 	return allurls
 
 
 def main():
-	#global stdscr
 	global startyear, endyear, minmonth, maxmonth
 
-	#print ("Generating urls...")
 	sys.stdout.write("\rGenerating urls...\n")
 	sys.stdout.flush()
 	allurls = get_allurls(startyear, endyear, minmonth, maxmonth)
 
-	#print(str(len(allurls))+" articles total")
 	sys.stdout.write("\r%d articles total\n" % len(allurls))
 
 	conn = http.client.HTTPConnection("www.azattyk.org")
