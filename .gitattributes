@@ -35,6 +35,7 @@ dev/corpora/convertcorpus.py -text
 dev/corpora/kyscraper_book.dat -text
 dev/corpora/kyscraper_rss.dat -text
 dev/corpora/kyscraper_rss1.dat -text
+dev/corpora/paper/xml2txt.sh -text
 dev/corpora/punktgen.py -text
 dev/corpora/rssfucker.py -text
 dev/corpora/scraped2html.py -text
