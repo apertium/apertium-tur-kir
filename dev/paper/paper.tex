@@ -21,6 +21,7 @@
 \author{Jonathan North Washington, Mirlan Ipasov, and Francis Tyers\\\href{mailto:jonwashi@indiana.edu}{jonwashi@indiana.edu}, \href{mailto:mipasov@gmail.com}{mipasov@gmail.com}, \href{mailto:ftyers@prompsit.com}{ftyers@prompsit.com}}
 \date{October, 2011}
 
+\usepackage{subfigure}
 \usepackage{booktabs}
 \usepackage{natbib}
 
@@ -56,6 +57,12 @@ The tags are represented as multicharacter symbols, between `<' and `>' punctuat
 
 \section{Morphotactics}
 
+%TODO: for a future version
+%\subsection{Challenges:  Copula, how to represent different tenses, what is a “word”?}
+
+%FIXME: do we want this?
+\subsection{Irregular negatives of finite verb forms}
+
 One of the morphotactic challenges met in defining a finite-state transducer for Kyrgyz is that many finite verb forms have ``irregular'' negative forms.  While the paradigms are completely regular, the negative morphotactics are not regularly derived from the affirmative forms.  There are also several different ``regular'' patterns of alternation.  Listed in table \ref{irregnegs} are a couple examples of a few finite verb paradigms with their negative forms.
 
 \begin{table}[htbp]
@@ -80,6 +87,9 @@ One of the morphotactic challenges met in defining a finite-state transducer for
 
 %FIXME: is "point to" the right terminology?
 Since the general verbal negation morpheme in Kyrgyz tends to be /BA/ (as it is in all non-finite verb forms), we treated forms with /BA/ (the last two in the list above, for example) as regular (assuming other aspects of their morphology didn’t change).  We then created two different sets of continuation lexica for finite verb forms—one for regular finite verb forms, and one for irregular finite verb forms.  The continuation lexicon for regular finite verbal forms points to two continuation lexica: one of the regular verb suffixes (such as -/(I)птIр/ and -/E/, which in turn point to the appropriate continuation lexica for their person endings), and one of the negative -/BA/, which in turn points to the regular verb suffix continuation lexicon.  The continuation lexicon for irregular finite verb forms directly contains affirmative and negative morphology which each point to the appropriate personal suffix continuation lexica.
+
+%FIXME: do we want this?
+\subsection{Irregular [noun $+$ possessive $+$ case] forms}
 
 There are a number of other morphotactic issues involving ``irregular'' forms that have been dealt with in a similar way to the negative finite verb forms.  One such issue involves nominal possessive morphology when followed by case suffixes.
 
@@ -107,6 +117,86 @@ There are two rules that can immediately deal with some of these forms: optional
 However, instead of doing complicated splitting of the case continuation lexica following the third person possessive suffix to sometimes insert /н/, we decided to proceed under the premise that /н/ was instead underlying in this suffix (and a couple others!) and got deleted in the nominative, accusative, and genitive.  To accomplish this, a \{n\} archiphoneme was added to the 3rd person possessive suffix, creating an underlying form of \{S\}\{I\}\{n\}.  Phonological rules were implemented in twolc which deleted \{n\} when followed by nothing (for nominative), another set of rules that deleted the accusative \{N\}\{I\} after \{n\} and a morpheme boundary, and a rule that deleted \{n\} when followed by a morpheme boundary and the genitive \{N\}\{I\}н.\footnote{Because a general possessive suffix that can follow personal possessive suffixes can also behave like the genitive in this respect, the rule is actually more general.}
 
 While the phonological rules are not necessarily as closely tied to an accurate morphological analysis of what is going on as they could be, these few rules allowed fewer irregular continuation lexica to be created---most immediately by allowing the ablative and dative continuation lexica for 3rd person to behave similarly to that of 1st and 2nd person singular, and avoiding separate irregular continuation lexica for the other cases.  The direct result of this approach was a much smaller and simpler transducer.
+
+\section{Morphophonology}
+
+%FIXME: do we want this?
+\subsection{Vowel harmony}
+
+In Kyrgyz, there are two basic archiphonemes: a low vowel, \{A\}, and a high vowel, \{I\}.  The high vowel takes the backness and rounding of the preceding vowel, resulting in the values shown in table \ref{vowelharmonyI}.
+
+\begin{table}[htbp]
+	\centering
+	\caption{vowel harmony for archiphoneme \{I\}}\label{vowelharmonyI}
+	\subfloat{
+		\begin{tabular}{ll}
+			\toprule
+			after & result \\
+			\midrule
+			и & и \\
+			ү & ү \\
+			е & и \\
+			ө & ү \\
+			\bottomrule
+		\end{tabular}
+	}
+	\qquad
+	\subfloat{
+		\begin{tabular}{ll}
+			\toprule
+			after & result \\
+			\midrule
+			ы & ы \\
+			у & у \\
+			а & ы \\
+			о & у \\
+			\bottomrule
+		\end{tabular}
+	}
+\end{table}
+
+The back vowel \{A\} also takes the backness and rounding of the preceding vowel, with the exception of when it occurs after /у/---n this case, it has an unrounded variant, as depicted in table \ref{vowelharmonyA}.
+
+\begin{table}[htbp]
+	\centering
+	\caption{vowel harmony for archiphoneme \{A\}}\label{vowelharmonyA}
+	\subfloat{
+		\begin{tabular}{ll}
+			\toprule
+			after & result \\
+			\midrule
+			и & е \\
+			ү & ө \\
+			е & е \\
+			ө & ө \\
+			\bottomrule
+		\end{tabular}
+	}
+	\qquad
+	\subfloat{
+		\begin{tabular}{ll}
+			\toprule
+			after & result \\
+			\midrule
+			ы & а \\
+			у & а \\
+			а & а \\
+			о & о \\
+			\bottomrule
+		\end{tabular}
+	}
+\end{table}
+
+There were other vowel archiphonemes that had to be implemented in this project.  For example, \{U\} occurs in the past habitual suffix -/чU/ and the general gerund/infinitive -/Uː/, but nowhere else in the language.  Also, \{E\} was created for use in the habitual/future suffix; it has surface forms identical to those of \{A\}, except after vowels where it surfaces as [й].  Despite the fact that \{E\} is very similar to \{A\}, a separate but very similar twolc rule had to be created.  Repeated content could have been reduced by using cascading rules instead of two-level rules, but this would have caused other complications, such as finding the correct rule ordering.  An alternative possibility would’ve been to have a single intermediate level so that a rule like ``\{E\}→\{A\} after vowels'' with a default surface form of [й] could've been implemented.
+
+
+%FIXME: do we want this?
+\subsection{Consonant-consonant phonology: desonorisation and assimilation}
+In Kyrgyz, there are two basic processes affecting the realisation of consonants when they are adjacent to other consonants: voicing assimilation and desonorisation.
+
+Voicing assimilation in Kyrgyz involves the agreement of voicing of two consonants across a syllable boundary.  An example involves the locative and dative suffixes, as shown in table \ref{exvoicing}.
+
+
 
 \bibliographystyle{apa}
 \bibliography{paper}
