@@ -46,6 +46,67 @@ The objective of a morphological transducer is twofold. Firstly to take surface 
 
 The project is designed based on the Helsinki Finite State Toolkit \citep{linden2011} which is a free/open-source reimplementation of the Xerox finite-state toolchain, popular in the field of morphological analysis. It implements both the \textbf{lexc} formalism for defining lexicons, and the \textbf{twol} and \textbf{xfst} formalisms for modeling morphophonological rules. It also supports other finite state transducer formalisms such as \textbf{sfst}. This toolkit has been chosen as it -- or the equivalent XFST -- has been widely used for other Turkic languages \citemultileft{coltekin2010}, \citemultimid{altinasi2001}, \citemultiright{tantug2006}, and is available under a free/open-source licence.
 
+\section{Description}
+%FIXME: \ldots{} section
+The tagset consists of 119 separate tags, 17 covering the main parts of speech (noun, verb, adjective, adverb, postposition, \ldots{}) and 102 covering morphological subcategorisation for e.g. case, number, person, possession, transitivity, tense-aspect-mood, etc.
+
+The tags are represented as multicharacter symbols, between `<' and `>' punctuation.
+
+%FIXME: something about {} representation of archiphonemes and what they mean?
+
+\section{Morphotactics}
+
+One of the morphotactic challenges met in defining a finite-state transducer for Kyrgyz is that many finite verb forms have ``irregular'' negative forms.  While the paradigms are completely regular, the negative morphotactics are not regularly derived from the affirmative forms.  There are also several different ``regular'' patterns of alternation.  Listed in table \ref{irregnegs} are a couple examples of a few finite verb paradigms with their negative forms.
+
+\begin{table}[htbp]
+	\caption{examples of different affirmative / negative alternations in finite verb forms}\label{irregnegs}
+	\centering
+	\begin{tabular}{lll}
+		\toprule
+		tense/aspect & ending $+$ person series & ending $+$ person series \\
+		\midrule
+		recent eyewitness past & -/DI/ $+$ P4\footnotemark{} & -/GAн жок/ $+$ P3\\
+		non-recent past & -/GAн/ $+$ P3 & -/GAн эмес/ $+$ P3\\
+		non-recent evidential past & -/GAн экен/ $+$ P3 & -/GAн эмес экен/ $+$ P3\\
+		past habitual & -/чU/ $+$ P3 & -/чU эмес/ $+$ P3\\
+		recent evidential past & -/(I)птIр/ $+$ P3 & -/BAптIр/ $+$ P3\\
+		habitual/future & -/E/ $+$ P6 & -/BAй/ $+$ P6\\
+		%FIXME: /й/ here is technically /E/, but it's always realised as [й] after a vowel so will always be [й] here; how should we talk about it here?  Is this actually treated as regular in kymorph?
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\footnotetext{P1--P6 refer to different sets of personal suffixes; the terminology and specific numbers are based off of \cite{hebertpoppe1963}[29].}
+
+%FIXME: is "point to" the right terminology?
+Since the general verbal negation morpheme in Kyrgyz tends to be /BA/ (as it is in all non-finite verb forms), we treated forms with /BA/ (the last two in the list above, for example) as regular (assuming other aspects of their morphology didn’t change).  We then created two different sets of continuation lexica for finite verb forms—one for regular finite verb forms, and one for irregular finite verb forms.  The continuation lexicon for regular finite verbal forms points to two continuation lexica: one of the regular verb suffixes (such as -/(I)птIр/ and -/E/, which in turn point to the appropriate continuation lexica for their person endings), and one of the negative -/BA/, which in turn points to the regular verb suffix continuation lexicon.  The continuation lexicon for irregular finite verb forms directly contains affirmative and negative morphology which each point to the appropriate personal suffix continuation lexica.
+
+There are a number of other morphotactic issues involving ``irregular'' forms that have been dealt with in a similar way to the negative finite verb forms.  One such issue involves nominal possessive morphology when followed by case suffixes.
+
+Nouns may be followed by possessive morphology before any case morphology.  This relates the noun to a preceding noun or pronoun in the genitive case.  However, when both possessive morphology and case morphology occur after a noun, there is some irregularity in the system.  Table \ref{irregposcase} summarises some of the forms.  Forms that do not result from simple concatenation of the possession and case endings are highlighted in bold as being irregular.
+
+\begin{table}[htbp]
+	\caption{combinations of possessive suffixes with case suffixes}\label{irregposcase}
+	\begin{tabular}{llllll}
+		\toprule
+		case & morphology & 1st person singular & 2nd person sing. & 3rd person & 1st person plural \\
+		\midrule
+		nom & — & -(I)м & -(I)ң & -(S)I & -(I)бIз \\
+		acc & -NI & -(I)мдI & -(I)ңдI & -\textbf{(S)Iн} & -(I)бIздI \\
+		gen & -NIн & -(I)мдIн & -(I)ңдIн & -(S)IнIн & -(I)бIздIн \\
+		loc & -DA & -(I)мдA & -(I)ңдA & -\textbf{(S)IндA} & -(I)бIздA \\
+		abl & -DAн & -(I)мдAн, -\textbf{(I)мAн} & -(I)ндAн, -\textbf{(I)ңAн} & -\textbf{(S)IнAн} & -(I)бIздAн \\
+		dat & -GA & -\textbf{(I)мA} & -\textbf{(I)ңA} & -\textbf{(S)IнA} & -(I)бIзгA \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+There are two rules that can immediately deal with some of these forms: optional loss of /D/ in the ablative suffix after 1st person singular, 2nd person singular, and 3rd person possession suffixes, and mandatory loss of /G/ in the dative suffix in the same situations.  Since these are rules specific to these morphological forms and don’t apply generally in Kyrgyz at a phonological level, they were implemented directly in the interaction of the continuation lexica for these possessive suffixes and ablative and dative case suffixes.
+%FIXME: should we be more specific as to how we did this, or is something very vague and general like this good?
+
+However, instead of doing complicated splitting of the case continuation lexica following the third person possessive suffix to sometimes insert /н/, we decided to proceed under the premise that /н/ was instead underlying in this suffix (and a couple others!) and got deleted in the nominative, accusative, and genitive.  To accomplish this, a \{n\} archiphoneme was added to the 3rd person possessive suffix, creating an underlying form of \{S\}\{I\}\{n\}.  Phonological rules were implemented in twolc which deleted \{n\} when followed by nothing (for nominative), another set of rules that deleted the accusative \{N\}\{I\} after \{n\} and a morpheme boundary, and a rule that deleted \{n\} when followed by a morpheme boundary and the genitive \{N\}\{I\}н.\footnote{Because a general possessive suffix that can follow personal possessive suffixes can also behave like the genitive in this respect, the rule is actually more general.}
+
+While the phonological rules are not necessarily as closely tied to an accurate morphological analysis of what is going on as they could be, these few rules allowed fewer irregular continuation lexica to be created---most immediately by allowing the ablative and dative continuation lexica for 3rd person to behave similarly to that of 1st and 2nd person singular, and avoiding separate irregular continuation lexica for the other cases.  The direct result of this approach was a much smaller and simpler transducer.
 
 \bibliographystyle{apa}
 \bibliography{paper}
