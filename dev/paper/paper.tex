@@ -1,0 +1,53 @@
+\documentclass[a4paper,12pt,onecolumn,oneside]{article}
+
+\usepackage{polyglossia}
+\setdefaultlanguage[variant=australian]{english}
+
+\usepackage{fontspec}
+\defaultfontfeatures{PunctuationSpace=3,Scale=MatchLowercase,Mapping=tex-text}
+\newfontfeature{IPA}{+mgrk}
+\setromanfont[IPA]{FreeSerif}
+
+
+\usepackage[in]{fullpage}
+
+\newcommand{\citemultileft}[1]{(\citeauthor{#1}, \citeyear{#1}}
+\newcommand{\citemultimid}[1]{\citeauthor{#1}, \citeyear{#1}}
+\newcommand{\citemultiright}[1]{\citeauthor{#1}, \citeyear{#1})}
+
+\usepackage[colorlinks=true,citecolor=black,linkcolor=black,urlcolor=blue]{hyperref}
+
+\title{A finite-state morphological transducer for Kyrgyz}
+\author{Jonathan North Washington, Mirlan Ipasov, and Francis Tyers\\\href{mailto:jonwashi@indiana.edu}{jonwashi@indiana.edu}, \href{mailto:mipasov@gmail.com}{mipasov@gmail.com}, \href{mailto:ftyers@prompsit.com}{ftyers@prompsit.com}}
+\date{October, 2011}
+
+\usepackage{booktabs}
+\usepackage{natbib}
+
+\begin{document}
+\maketitle{}
+\thispagestyle{empty}
+
+\section{Introduction}
+This paper describes the development of a morphological transducer oriented for the task of machine translation for the Kyrgyz language using the free/open-source platform HFST. The transducer was developed under the auspices of the Apertium \citet{forcada2011} project for use in a machine translation system from Turkish to Kyrgyz.
+
+The paper is split into five main parts. First a background section gives some details about Kyrgyz and the toolkit used. Subsequent sections describe the tagset and individual issues encountered with the morphotactics and the morphophonology. Finally, some evaluation results are given and future work outlined.
+
+\section{Background}
+Kyrgyz (written ‹кыргыз тили› or ‹قىرعىر تىلى›, pronounced [qɯɾʁɯz tili]) alternatively written ``Kirghiz'' or ``Kirgiz'') is a Turkic language spoken in Kyrgyzstan, China, Tajikistan, and Uzbekistan.  Its classification within Turkic remains problematic—it appears to alternatively belong to the Kypchak (Northwestern) branch and to the South Siberian (Northeastern) branch.  The Turkic varieties phonetically and phonologically most similar to Kyrgyz are the southern dialects of Altay, though Kyrgyz shows strong parallels to Kazakh that these varieties lack, especially in its Talas dialects.  In southern varieties of Kyrgyz there are also many similarities to Uzbek that other dialects lack.
+
+Kyrgyz is spoken mostly in Kyrgyzstan where it has official status as the national language.  Many Kyrgyz speakers in Kyrgyzstan are bilingual in Russian and/or Uzbek, and make up a majority of the population of the country.  There are other sizable Kyrgyz-speaking communities outside of Kyrgyzstan, most notably in China (where the Kyrgyz are an officially recognised minority), Tajikistan, and Uzbekistan.  Current estimates of the number of speakers range from 3 million to 4 million.\footnote{Based on figures from \citet{lewis2009} and \citet{factbook2009}}  Not all ethnic Kyrgyz speak the language, and not all competent speakers are ethnic Kyrgyz, but there is a very strong correspondence between ethnic identity and knowledge of the language.\footnote{This interpretation of the situation is supported by the experiences of the authors with the language, and is common knowledge in Kyrgyzstan.}
+
+%FIXME: What sources did Mirlan use?
+%FIXME: Should we say something about how I sometimes consulted Tolgonay, or about where my knowledge of Kyrgyz comes from in the first place?
+The understanding of Kyrgyz grammar employed to construct the transducer for this project was gained from the Kyrgyz knowledge of two of our authors.  Mirlan Ipasov is a native speaker of Kyrgyz, and Jonathan Washington is a theoretical and descriptive linguist fluent in Kyrgyz and knowledgeable about Turkic languages.  Some grammar sources were consulted, such as \citet{hebertpoppe1963}, , and , but they were largely not relied on due to their approach to Kyrgyz grammar.
+
+The objective of a morphological transducer is twofold. Firstly to take surface forms (e.g., алдым) and generate all possible lexical forms, and secondly to take lexical forms (e.g.,  ал<v><tv><ifi><p1><sg>, алд<n><px1sg><nom>, etc.) and generate one or more surface forms. 
+
+The project is designed based on the Helsinki Finite State Toolkit \citep{linden2011} which is a free/open-source reimplementation of the Xerox finite-state toolchain, popular in the field of morphological analysis. It implements both the \textbf{lexc} formalism for defining lexicons, and the \textbf{twol} and \textbf{xfst} formalisms for modeling morphophonological rules. It also supports other finite state transducer formalisms such as \textbf{sfst}. This toolkit has been chosen as it -- or the equivalent XFST -- has been widely used for other Turkic languages \citemultileft{coltekin2010}, \citemultimid{altinasi2001}, \citemultiright{tantug2006}, and is available under a free/open-source licence.
+
+
+\bibliographystyle{apa}
+\bibliography{paper}
+
+\end{document}
