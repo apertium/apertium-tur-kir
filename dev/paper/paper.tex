@@ -15,6 +15,9 @@
 \newcommand{\citemultimid}[1]{\citeauthor{#1}, \citeyear{#1}}
 \newcommand{\citemultiright}[1]{\citeauthor{#1}, \citeyear{#1})}
 
+% for glosses
+\newcommand{\eng}[1]{`\textem{#1}'}
+
 \usepackage[colorlinks=true,citecolor=black,linkcolor=black,urlcolor=blue]{hyperref}
 
 \title{A finite-state morphological transducer for Kyrgyz}
@@ -197,7 +200,32 @@ In Kyrgyz, there are two basic processes affecting the realisation of consonants
 
 Voicing assimilation in Kyrgyz involves the agreement of voicing of two consonants across a syllable boundary.  An example involves the locative and dative suffixes, as shown in table \ref{exvoicing}.
 
+\begin{table}[htbp]
+	\caption{examples comparing voicing and devoicing in Kyrgyz}\label{exvoicing}
+	\subtable{
+		\begin{tabular}{lll}
+			\toprule
+			underlying & surface & gloss \\
+			\midrule
+			/алма-DA/ & [алмада] & \eng{apple-LOC} \\
+			/каз-DA/ & [казда] & \eng{goose-LOC} \\
+			/баш-DA/ & [башта] & \eng{head-LOC} \\
+			\bottomrule
+		\end{tabular}
+	}
+	\hspace{2em}
+	\subtable{
+			\toprule
+			underlying & surface & gloss \\
+			\midrule
+			/алма-GA/ & [алмага] & \eng{apple-DAT} \\
+			/каз-GA/ & [казга] & \eng{goose-DAT} \\
+			/баш-GA/ & [башка] & \eng{head-DAT} \\
+			\bottomrule
+	}
+\end{table}
 
+Here, the underlying /D/ is always realised as [д] when after a voiced segment (including a vowel), but is realised as [т] after an unvoiced consonant, while underlying /G/ is always realised as [г]\footnote{‹г› is pronounced [ɣ] in the context of front vowels and [ʁ] in the context of back vowels; it also has realisations of [g] and [ɢ] after nasals.} after a voiced segment, but is realised as [к]\footnote{‹к› is realised as [q] in the context of back vowels and [k] in the presence of front vowels.} after voiceless consonants.
 
 \bibliographystyle{apa}
 \bibliography{paper}
