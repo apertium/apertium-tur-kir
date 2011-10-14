@@ -383,59 +383,52 @@ are approximate as some words may have two entries for one stem (for example if 
 is irregular).
 
 \begin{table}
-\begin{center}
-\begin{tabular}{lr}
-\hline
-Part of speech & Number of stems\\
-\hline
-Noun & 4,731\\
-Adjective & 924\\
-Verb & 896 \\
-Proper noun & 745\\
-Adverb & 213\\
-Numeral & 50\\
-Postposition & 42\\
-Conjunction & 36\\
-Pronoun & 29\\
-Determiner & 27\\
-\hline
-Total:     & 7,333\\
-\hline
-\end{tabular}
-\caption{FIXME}
-\label{table:stems}
-\end{center}
+	\centering
+	\begin{tabular}{lr}
+		\toprule
+		Part of speech & Number of stems\\
+		\midrule
+		Noun & 4,731\\
+		Adjective & 924\\
+		Verb & 896 \\
+		Proper noun & 745\\
+		Adverb & 213\\
+		Numeral & 50\\
+		Postposition & 42\\
+		Conjunction & 36\\
+		Pronoun & 29\\
+		Determiner & 27\\
+		\midrule
+		Total:     & 7,333\\
+		\bottomrule
+	\end{tabular}
+	\caption{FIXME}\label{table:stems}
+	%FIXME: are we putting captions above or below tables?  I like them better below, but I got the impression that there's some standard to have them above.  Maybe it was just UW being table Nazis for my MA thesis.
 \end{table}
 
 
 \subsection{Coverage}
 
-To calculate the naïve coverage\footnote{FIXME} of the analyser, two corpora were used,
- the first was a database dump of the Kyrgyz Wikipedia, dated XX-XX-XX,\footnote{DUMP NAME} 
-which was processed with the programs YY and ZZ to extract sentences. The second was FIXME. 
+%FIXME: is this about right?  and I mean all aspects of the paragraph
+To calculate the naïve coverage\footnote{FIXME} of the analyser, two corpora were used, the first was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23,\footnote{The exact name of the dump was \texttt{kywiki-20110923-pages-articles.xml}.} which was processed with the programs \texttt{aq-wikicrp} and ZZ to extract sentences. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus covers articles on a wide variety of topics, from sports to culture to politics, and includes what we believe to be all articles published on RFERL in 2010.
 
-Both corpora were split into 10 equal parts, and coverage was calculated over each part 
-separately in order to calculate the standard deviation of the mean. As can be seen 
-from table~\ref{table:cov}, running the analyser on the RFERL gives a higher coverage, 
-because the text is more homogenous, and there is less non-Kyrgyz (e.g. Russian) text.
+Both corpora were split into 10 equal parts, and coverage was calculated over each part separately in order to calculate the standard deviation of the mean. As can be seen from table~\ref{table:cov}, running the analyser on the RFERL gives a higher coverage, because the text is more homogenous, and there is less non-Kyrgyz (e.g., Russian) text.
 
 \begin{table}
-\begin{center}
-\begin{tabular}{lrrrr}
-\hline
-Corpus           & Tokens    & Known     & Naïve coverage    & Mean ambiguity\\
-\hline
-Kyrgyz Wikipedia & 329,524   & 269,573   & 81.84 $\pm$ 3.23  & 4.53\\
-RFERL Kyrgyzstan & 4,107,555 & 3,586,000 & 87.37 $\pm$ 1.23  & 4.26\\
-\hline
-\end{tabular}
-\caption{FIXME}
-\label{table:cov}
-\end{center}
+	\centering
+	\begin{tabular}{lrrrr}
+		\toprule
+		Corpus           & Tokens    & Known     & Naïve coverage    & Mean ambiguity\\
+		\midrule
+		Kyrgyz Wikipedia & 329,524   & 269,573   & 81.84 $\pm$ 3.23  & 4.53\\
+		RFERL Kyrgyzstan & 4,107,555 & 3,586,000 & 87.37 $\pm$ 1.23  & 4.26\\
+		\bottomrule
+	\end{tabular}
+	\caption{FIXME}
+	\label{table:cov}
 \end{table}
 
-The column 'mean ambiguity' gives the average number of analyses for each surface form 
-given when analysing this corpus.
+The column `mean ambiguity' gives the average number of analyses for each surface form given when analysing this corpus.
 
 \section{Future work}
 
