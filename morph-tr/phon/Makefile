@@ -10,7 +10,7 @@ SOURCES = $(LEXFILES) $(FSTFILES)
 %.a: %.fst
 	hfst-calculate -w -v -i $< -o $@	
 
-.PHONY: all
+.PHONY: all install
 
 all: phon.a
 
