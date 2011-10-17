@@ -7,6 +7,9 @@
 \newfontfeature{IPA}{+mgrk}
 \setromanfont[IPA]{FreeSerif}
 
+\usepackage[novoc,fdf2alif]{arabxetex}
+\newfontfamily\uighurfont[Script=Arabic,Scale=1.5]{Lateef}
+
 \usepackage{natbib}
 
 \usepackage[in]{fullpage}
@@ -62,7 +65,7 @@ This paper describes the development of a morphological transducer oriented for 
 The paper is split into five main parts. First a background section gives some details about Kyrgyz and the toolkit used. Subsequent sections describe the tagset and individual issues encountered with the morphotactics and the morphophonology. Finally, some evaluation results are given and future work outlined.
 
 \section{Background}
-Kyrgyz (written ‹кыргыз тили› or ‹قىرعىر تىلى›, pronounced [qɯɾʁɯz tili]) alternatively written ``Kirghiz'' or ``Kirgiz'') is a Turkic language spoken in Kyrgyzstan, China, Tajikistan, and Uzbekistan.  Its classification within Turkic remains problematic—it appears to alternatively belong to the Kypchak (Northwestern) branch and to the South Siberian (Northeastern) branch.  The Turkic varieties phonetically and phonologically most similar to Kyrgyz are the southern dialects of Altay, though Kyrgyz shows strong parallels to Kazakh that these varieties lack, especially in its Talas dialects.  In southern varieties of Kyrgyz there are also many similarities to Uzbek that other dialects lack.
+Kyrgyz (written ‹кыргыз тили› or ‹\textuighur{قىرعىز تىلى}›, pronounced [qɯɾʁɯz tili]) alternatively written ``Kirghiz'' or ``Kirgiz'') is a Turkic language spoken in Kyrgyzstan, China, Tajikistan, and Uzbekistan.  Its classification within Turkic remains problematic—it appears to alternatively belong to the Kypchak (Northwestern) branch and to the South Siberian (Northeastern) branch.  The Turkic varieties phonetically and phonologically most similar to Kyrgyz are the southern dialects of Altay, though Kyrgyz shows strong parallels to Kazakh that these varieties lack, especially in its Talas dialects.  In southern varieties of Kyrgyz there are also many similarities to Uzbek that other dialects lack.
 
 Kyrgyz is spoken mostly in Kyrgyzstan where it has official status as the national language.  Many Kyrgyz speakers in Kyrgyzstan are bilingual in Russian and/or Uzbek, and make up a majority of the population of the country.  There are other sizable Kyrgyz-speaking communities outside of Kyrgyzstan, most notably in China (where the Kyrgyz are an officially recognised minority), Tajikistan, and Uzbekistan.  Current estimates of the number of speakers range from 3 million to 4 million.\footnote{Based on figures from \citet{lewis2009} and \citet{factbook2009}}  Not all ethnic Kyrgyz speak the language, and not all competent speakers are ethnic Kyrgyz, but there is a very strong correspondence between ethnic identity and knowledge of the language.\footnote{This interpretation of the situation is supported by the experiences of the authors with the language, and is common knowledge in Kyrgyzstan.}
 
