@@ -36,6 +36,7 @@
 \title{A finite-state morphological transducer for Kyrgyz}
 %\author{Jonathan North Washington, Mirlan Ipasov, and Francis Tyers\\\href{mailto:jonwashi@indiana.edu}{jonwashi@indiana.edu}, \href{mailto:mipasov@gmail.com}{mipasov@gmail.com}, \href{mailto:ftyers@prompsit.com}{ftyers@prompsit.com}}
 
+%FIXME: what's up with the commas
 \author {Jonathan North Washington, \\
 Departments of Linguistics and Central Eurasian Studies,\\
 Indiana University,\\
@@ -76,7 +77,7 @@ The understanding of Kyrgyz grammar employed to construct the transducer for thi
 %FIXME: this seems to be wrapping badly, at least here
 The objective of a morphological transducer is twofold. Firstly to take surface forms (e.g., алдым) and generate all possible lexical forms, and secondly to take lexical forms (e.g.,  ал<v><tv><ifi><p1><sg>, алд<n><px1sg><nom>, etc.) and generate one or more surface forms. 
 
-
+%FIXME: broken citation
 The project is designed based on the Helsinki Finite State Toolkit \citep{linden2011} which is a free/open-source reimplementation of the Xerox finite-state toolchain, popular in the field of morphological analysis. It implements both the \textbf{lexc} formalism for defining lexicons, and the \textbf{twol} and \textbf{xfst} formalisms for modeling morphophonological rules. It also supports other finite state transducer formalisms such as \textbf{sfst}. This toolkit has been chosen as it -- or the equivalent XFST -- has been widely used for other Turkic languages \citemultileft{coltekin2010}, \citemultimid{altinasi2001}, \citemultiright{tantug2006}, and is available under a free/open-source licence.
 
 \section{Description}
@@ -92,7 +93,7 @@ The tags are represented as multicharacter symbols, between `<' and `>' punctuat
 %TODO: for a future version
 %\subsection{Challenges:  Copula, how to represent different tenses, what is a “word”?}
 
-%FIXME: do we want this?
+%FIXME: do we want subsections?
 \subsection{Irregular negatives of finite verb forms}
 
 One of the morphotactic challenges met in defining a finite-state transducer for Kyrgyz is that many finite verb forms have ``irregular'' negative forms.  While the paradigms are completely regular, the negative morphotactics are not regularly derived from the affirmative forms.  There are also several different ``regular'' patterns of alternation.  Listed in table~\ref{irregnegs} are a couple examples of a few finite verb paradigms with their negative forms.
@@ -120,7 +121,7 @@ One of the morphotactic challenges met in defining a finite-state transducer for
 %FIXME: is "point to" the right terminology?
 Since the general verbal negation morpheme in Kyrgyz tends to be /BA/ (as it is in all non-finite verb forms), we treated forms with /BA/ (the last two in the list above, for example) as regular (assuming other aspects of their morphology didn’t change).  We then created two different sets of continuation lexica for finite verb forms—one for regular finite verb forms, and one for irregular finite verb forms.  The continuation lexicon for regular finite verbal forms points to two continuation lexica: one of the regular verb suffixes (such as -/(I)птIр/ and -/E/, which in turn point to the appropriate continuation lexica for their person endings), and one of the negative -/BA/, which in turn points to the regular verb suffix continuation lexicon.  The continuation lexicon for irregular finite verb forms directly contains affirmative and negative morphology which each point to the appropriate personal suffix continuation lexica.
 
-%FIXME: do we want this?
+%FIXME: do we want subsections?
 \subsection{Irregular [noun + possessive + case] forms}
 
 There are a number of other morphotactic issues involving ``irregular'' forms that have been dealt with in a similar way to the negative finite verb forms.  One such issue involves nominal possessive morphology when followed by case suffixes.
@@ -152,7 +153,7 @@ While the phonological rules are not necessarily as closely tied to an accurate 
 
 \section{Morphophonology}
 
-%FIXME: do we want this?
+%FIXME: do we want subsections?
 \subsection{Vowel harmony}
 
 In Kyrgyz, there are two basic archiphonemes: a low vowel, \{A\}, and a high vowel, \{I\}.  The high vowel takes the backness and rounding of the preceding vowel, resulting in the values shown in table~\ref{vowelharmonyI}.
@@ -223,7 +224,7 @@ The back vowel \{A\} also takes the backness and rounding of the preceding vowel
 There were other vowel archiphonemes that had to be implemented in this project.  For example, \{U\} occurs in the past habitual suffix -/чU/ and the general gerund/infinitive -/Uː/, but nowhere else in the language.  Also, \{E\} was created for use in the habitual/future suffix; it has surface forms identical to those of \{A\}, except after vowels where it surfaces as [й].  Despite the fact that \{E\} is very similar to \{A\}, a separate but very similar twolc rule had to be created.  Repeated content could have been reduced by using cascading rules instead of two-level rules, but this would have caused other complications, such as finding the correct rule ordering.  An alternative possibility would’ve been to have a single intermediate level so that a rule like ``\{E\}→\{A\} after vowels'' with a default surface form of [й] could've been implemented.
 
 
-%FIXME: do we want this?
+%FIXME: do we want subsections?
 \subsection{Voicing assimilation}\label{devoicing}
 In Kyrgyz, there are two basic processes affecting the realisation of consonants when they are adjacent to other consonants: voicing assimilation and desonorisation.
 
@@ -261,7 +262,7 @@ Here, the underlying /D/ is always realised as [д] when after a voiced segment 
 Voicing assimilation was dealt with simply by creating a single twol rule that transformed any relevant archiphoneme (\{B\}, \{G\}, \{D\}, \{L\}, and \{N\}) to a voiceless stop (either [п], [к], or [т]) after a voiceless consonant.  The set of voiceless consonants was also defined in twolc so that rules sensitive to this set would be easier to write.
 %FIXME: and more efficient?  Or not?
 
-%FIXME: do we want this?
+%FIXME: do we want subsections?
 \subsection{Desonorisation}
 Desonorisation happens to /N/ when it follows any consonant, and to /L/ when it follows a consonant of equal or lower sonority (i.e., /л/, nasals (/м/, /н/, /ң/), and obstruents, but not /й/, /р/, or vowels).  The resulting surface consonant is [д] for both /N/ and /L/, unless it follows a voiceless consonant, in which case it surfaces as [т].  An example includes the accusative and plural suffixes:
 
@@ -300,13 +301,13 @@ The orthography makes this straightforward, since e.g., words borrowed from Russ
 Desonorisation was dealt with by a rule that changes \{L\} to [д] following a series of ``low-sonority'' consonants appropriately defined earlier in the twol file and a syllable boundary.  The \{N\} desonorisation rule changes \{N\} to [д] following a series containing all voiced consonants, followed by a syllable boundary.  Both sets were defined to exclude voiceless consonants that would instead trigger devoicing (§\ref{devoicing}).
 
 
-%FIXME: do we want this?
+%FIXME: do we want subsections?
 \subsection{Lenition}
 In Kyrgyz, stem-final [voiceless] labial and dorsal consonants voice when a suffix beginning with a vowel follows them.  The implementation of this in twol is very straightforward.
 %FIXME: what else needs to be said here?
 
 
-%FIXME: do we want this?
+%FIXME: do we want subsections?
 \subsection{Nouns ending in /рн/, etc.}
 
 Kyrgyz has a number of nouns that underlyingly end with a consonant cluster consisting of two liquids, but which are split by an epenthetic vowel syllable-finally.
@@ -417,7 +418,8 @@ is irregular).
 \subsection{Coverage}
 
 %FIXME: is this about right?  and I mean all aspects of the paragraph
-To calculate the naïve coverage\footnote{FIXME} of the analyser, two corpora were used, the first was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23,\footnote{The exact name of the dump was \texttt{kywiki-20110923-pages-articles.xml}.} which was processed with the programs \texttt{aq-wikicrp} and ZZ to extract sentences. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus covers articles on a wide variety of topics, from sports to culture to politics, and includes what we believe to be all articles published on RFERL in 2010.
+%FIXME: ZZ needs to be replaced with .. ?
+To calculate the naïve coverage\footnote{FIXME} of the analyser, two corpora were used, the first was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23,\footnote{The exact name of the dump was \texttt{kywiki-20110923-pages-articles.xml}.} which was processed with the programs \texttt{aq-wikicrp} and ZZ to extract sentences. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus was built using a script that scraped the archives for all articles from 2010, which include articles on a wide variety of topics, from sports to politics and from culture to current events.
 
 Both corpora were split into 10 equal parts, and coverage was calculated over each part separately in order to calculate the standard deviation of the mean. As can be seen from table~\ref{table:cov}, running the analyser on the RFERL gives a higher coverage, because the text is more homogenous, and there is less non-Kyrgyz (e.g., Russian) text.
 
