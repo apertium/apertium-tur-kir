@@ -1,7 +1,6 @@
-\documentclass[10pt, a4paper]{article} 
+\documentclass[10pt,a4paper,twocolumn]{article}
 
-
-\usepackage{lrec2006}
+%\usepackage{lrec2006}
 
 \usepackage{polyglossia}
 \setdefaultlanguage[variant=australian]{english}
@@ -102,7 +101,7 @@ The tags are represented as multicharacter symbols, between `<' and `>' punctuat
 
 One of the morphotactic challenges met in defining a finite-state transducer for Kyrgyz is that many finite verb forms have ``irregular'' negative forms.  While the paradigms are completely regular, the negative morphotactics are not regularly derived from the affirmative forms.  There are also several different ``regular'' patterns of alternation.  Listed in table~\ref{irregnegs} are a couple examples of a few finite verb paradigms with their negative forms.
 
-\begin{table}[htbp]
+\begin{table*}[htbp]
 	\caption{examples of different affirmative / negative alternations in finite verb forms}\label{irregnegs}
 	\centering
 	\begin{tabular}{lll}
@@ -118,7 +117,7 @@ One of the morphotactic challenges met in defining a finite-state transducer for
 		%FIXME: /й/ here is technically /E/, but it's always realised as [й] after a vowel so will always be [й] here; how should we talk about it here?  Is this actually treated as regular in kymorph?
 		\bottomrule
 	\end{tabular}
-\end{table}
+\end{table*}
 
 \footnotetext{P1--P6 refer to different sets of personal suffixes; the terminology and specific numbers are based off of \cite{hebertpoppe1963}[29].}
 
@@ -132,8 +131,9 @@ There are a number of other morphotactic issues involving ``irregular'' forms th
 
 Nouns may be followed by possessive morphology before any case morphology.  This relates the noun to a preceding noun or pronoun in the genitive case.  However, when both possessive morphology and case morphology occur after a noun, there is some irregularity in the system.  Table \ref{irregposcase} summarises some of the forms.  Forms that do not result from simple concatenation of the possession and case endings are highlighted in bold as being irregular.
 
-\begin{table}[htbp]
+\begin{table*}[htbp]
 	\caption{combinations of possessive suffixes with case suffixes}\label{irregposcase}
+	\centering
 	\begin{tabular}{llllll}
 		\toprule
 		case & morphology & 1st person singular & 2nd person sing. & 3rd person & 1st person plural \\
@@ -146,7 +146,7 @@ Nouns may be followed by possessive morphology before any case morphology.  This
 		dat & -GA & -\textbf{(I)мA} & -\textbf{(I)ңA} & -\textbf{(S)IнA} & -(I)бIзгA \\
 		\bottomrule
 	\end{tabular}
-\end{table}
+\end{table*}
 
 %FIXME: maybe a footnote at least about what "optional loss of /D/" means?
 %TODO: some explanation of how optional rules were dealt with
@@ -396,7 +396,7 @@ Table~\ref{table:stems} gives the approximate number of stems in each main word 
 are approximate as some words may have two entries for one stem (for example if a set of forms
 is irregular).
 
-\begin{table}
+\begin{table*}
 	\centering
 	\begin{tabular}{lr}
 		\toprule
@@ -418,7 +418,7 @@ is irregular).
 	\end{tabular}
 	\caption{FIXME}\label{table:stems}
 	%FIXME: are we putting captions above or below tables?  I like them better below, but I got the impression that there's some standard to have them above.  Maybe it was just UW being table Nazis for my MA thesis.
-\end{table}
+\end{table*}
 
 
 \subsection{Coverage}
@@ -429,7 +429,7 @@ To calculate the naïve coverage\footnote{FIXME} of the analyser, two corpora we
 
 Both corpora were split into 10 equal parts, and coverage was calculated over each part separately in order to calculate the standard deviation of the mean. As can be seen from table~\ref{table:cov}, running the analyser on the RFERL gives a higher coverage, because the text is more homogenous, and there is less non-Kyrgyz (e.g., Russian) text.
 
-\begin{table}
+\begin{table*}[htbp]
 	\centering
 	\begin{tabular}{lrrrr}
 		\toprule
@@ -441,7 +441,7 @@ Both corpora were split into 10 equal parts, and coverage was calculated over ea
 	\end{tabular}
 	\caption{FIXME}
 	\label{table:cov}
-\end{table}
+\end{table*}
 
 The column `mean ambiguity' gives the average number of analyses for each surface form given when analysing this corpus.
 
@@ -453,7 +453,8 @@ Once good coverage has been achieved with a morphological analyser, the next log
 
 %FIXME: * Some remaining transducer issues
 
-\bibliographystyle{lrec2006}
+\bibliographystyle{styler}
+%\bibliographystyle{acm}
 \bibliography{paper}
 
 %FIXME: "Kazan Tatar ..."
