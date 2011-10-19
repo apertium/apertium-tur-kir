@@ -10,9 +10,9 @@ PREFIX2=$(LANG2)-$(LANG1)
 
 BASENAME=apertium-$(PREFIX1)
 
-SUBDIRS = . morph-tr
+SUBDIRS = morph-tr .
 
-TARGETS_COMMON = $(PREFIX2).automorf.hfst $(PREFIX1).autogen.hfst $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin  \
+TARGETS_COMMON = $(PREFIX1).autogen.hfst $(PREFIX1).autobil.bin  \
 	$(PREFIX1).t1x.bin $(PREFIX1).rlx.bin \
 	$(PREFIX1).mode modes 
 
@@ -20,50 +20,54 @@ TARGETS_COMMON = $(PREFIX2).automorf.hfst $(PREFIX1).autogen.hfst $(PREFIX1).aut
 ## Kyrgyz transducer
 ###############################################################################
 
-.deps/ky.lexc.morf.hfst-debug: apertium-tr-ky.ky.lexc
+.deps/ky.lexc.morf.hfst-debug: apertium-$(PREFIX1).ky.lexc
 	@cat $< | grep -v -e 'Dir/RL' -e 'Use/Circ' > $@tmp
 	hfst-lexc -f foma $@tmp -o $@.foma
 	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
 	rm $@tmp @.foma
 
-.deps/ky.lexc.gen.hfst-debug: apertium-tr-ky.ky.lexc
+.deps/ky.lexc.gen.hfst-debug: apertium-$(PREFIX1).ky.lexc
 	@cat $< | grep -v -e 'Dir/LR' -e 'Use/Circ' > $@tmp
 	hfst-lexc -f foma $@tmp -o $@.foma
 	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
 	rm $@tmp
 
-.deps/ky.lexc.morf.hfst: apertium-tr-ky.ky.lexc
+.deps/ky.lexc.morf.hfst: $(BASENAME).ky.lexc
 	@cat $< | grep -v 'Dir/RL' > $@tmp
 	hfst-lexc -f foma $@tmp -o $@.foma
 	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
 	rm $@tmp
 
-.deps/ky.lexc.gen.hfst: apertium-tr-ky.ky.lexc
+.deps/ky.lexc.gen.hfst: $(BASENAME).ky.lexc
 	@cat $< | grep -v 'Dir/LR' > $@tmp
 	hfst-lexc -f foma $@tmp -o $@.foma
 	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
 	rm $@tmp
 
-.deps/ky.twol.hfst: apertium-tr-ky.ky.twol
-	hfst-twolc -R -i apertium-tr-ky.ky.twol -o $@
+.deps/ky.twol.hfst: $(BASENAME).ky.twol
+	hfst-twolc -R -i $(BASENAME).ky.twol -o $@
 
-.deps/ky-tr.automorf.hfst-debug: .deps/ky.lexc.morf.hfst-debug .deps/ky.twol.hfst
-	hfst-compose-intersect -1 .deps/ky.lexc.morf.hfst-debug -2 .deps/ky.twol.hfst | hfst-invert -o $@
-
-.deps/tr-ky.autogen.hfst-debug: .deps/ky.lexc.gen.hfst-debug .deps/ky.twol.hfst
-	hfst-compose-intersect -1 .deps/ky.lexc.gen.hfst-debug -2 .deps/ky.twol.hfst -o $@
-
-.deps/ky-tr.automorf.hfst: .deps/ky.lexc.morf.hfst .deps/ky.twol.hfst
-	hfst-compose-intersect -1 .deps/ky.lexc.morf.hfst -2 .deps/ky.twol.hfst | hfst-invert -o $@
-
-.deps/tr-ky.autogen.hfst: .deps/ky.lexc.gen.hfst .deps/ky.twol.hfst
+# ky generator:
+.deps/$(PREFIX1).autogen.hfst: .deps/ky.lexc.gen.hfst .deps/ky.twol.hfst
 	hfst-compose-intersect -1 .deps/ky.lexc.gen.hfst -2 .deps/ky.twol.hfst -o $@
 
-$(PREFIX1).autogen.hfst: .deps/tr-ky.autogen.hfst .deps/tr-ky.autogen.hfst-debug
+$(PREFIX1).autogen.hfst: .deps/$(PREFIX1).autogen.hfst
 	hfst-fst2fst -w -i $< -o $@
 
-$(PREFIX2).automorf.hfst: .deps/ky-tr.automorf.hfst .deps/ky-tr.automorf.hfst-debug
+# ky analyser:
+.deps/$(PREFIX2).automorf.hfst: .deps/$(PREFIX1).autogen.hfst
+	hfst-invert -i $< -o $@
+
+$(PREFIX2).automorf.hfst: .deps/$(PREFIX2).automorf.hfst
 	hfst-fst2fst -w -i $< -o $@
+
+# debug stuff:
+.deps/$(PREFIX2).automorf.hfst-debug: .deps/ky.lexc.morf.hfst-debug .deps/ky.twol.hfst
+	hfst-compose-intersect -1 .deps/ky.lexc.morf.hfst-debug -2 .deps/ky.twol.hfst | hfst-invert -o $@
+
+.deps/$(PREFIX1).autogen.hfst-debug: .deps/ky.lexc.gen.hfst-debug .deps/ky.twol.hfst
+	hfst-compose-intersect -1 .deps/ky.lexc.gen.hfst-debug -2 .deps/ky.twol.hfst -o $@
+
 
 ###############################################################################
 ## Bilingual dictionaries
@@ -118,9 +122,9 @@ EXTRA_DIST=$(PREFIX1).prob $(PREFIX2).prob \
            modes.xml
 
 apertium_tr_kymodesdir=$(prefix)/share/apertium/modes/
-apertium_tr_kydir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_tr_ky_DATA=$(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
-                    $(PREFIX1).prob $(PREFIX2).prob \
+apertium_tr_kydir=$(prefix)/share/apertium/$(BASENAME)/
+apertium_tr_ky_DATA=$(PREFIX1).autobil.bin \
+                    $(PREFIX1).prob \
 		    $(PREFIX1).autogen.hfst \
 		    $(PREFIX1).automorf.hfst \
 		    $(PREFIX1).t1x.bin  \
