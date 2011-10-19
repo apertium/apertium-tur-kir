@@ -1,5 +1,6 @@
 \documentclass[10pt,a4paper,twocolumn]{article}
 
+%old lrec stuff doesn't work well =(
 %\usepackage{lrec2006}
 
 \usepackage{polyglossia}
@@ -74,7 +75,8 @@ Kyrgyz (written ‹кыргыз тили› or ‹\textuighur{قىرعىز تى�
 
 Kyrgyz is spoken mostly in Kyrgyzstan where it has official status as the national language.  Many Kyrgyz speakers in Kyrgyzstan are bilingual in Russian and/or Uzbek, and make up a majority of the population of the country.  There are other sizable Kyrgyz-speaking communities outside of Kyrgyzstan, most notably in China (where the Kyrgyz are an officially recognised minority), Tajikistan, and Uzbekistan.  Current estimates of the number of speakers range from 3 million to 4 million.\footnote{Based on figures from \cite{lewis2009} and \cite{factbook2009}}  Not all ethnic Kyrgyz speak the language, and not all competent speakers are ethnic Kyrgyz, but there is a very strong correspondence between ethnic identity and knowledge of the language.\footnote{This interpretation of the situation is supported by the experiences of the authors with the language, and is common knowledge in Kyrgyzstan.}
 
-%FIXME: Should we say something about how I sometimes consulted Tolgonay, or about where my knowledge of Kyrgyz comes from in the first place?
+%FIXED: Should we say something about how I sometimes consulted Tolgonay, or about where my knowledge of Kyrgyz comes from in the first place?
+%FIXME: Tolgonay's name to acknowledgements (where?) for helping with Kyrgyz
 The understanding of Kyrgyz grammar employed to construct the transducer for this project was gained from the Kyrgyz knowledge of two of our authors.  Mirlan Ipasov is a native speaker of Kyrgyz, and Jonathan Washington is a theoretical and descriptive linguist fluent in Kyrgyz and knowledgeable about Turkic languages.  Some grammar sources were consulted, such as \cite{hebertpoppe1963}, \cite{usonalievomuraliev2003}, \cite{qudaybergenov1980}, \cite{somfaikara2003}, and \cite{imart1981}, but they were largely not relied on due to their approaches to Kyrgyz grammar.  Some dictionaries were also consulted, including \cite{jumakunova2005} and \citetwoyears{yudakhin1957}{yudakhin1965}.
 
 %FIXME: this seems to be wrapping badly, at least here
@@ -96,7 +98,6 @@ The tags are represented as multicharacter symbols, between `<' and `>' punctuat
 %TODO: for a future version
 %\subsection{Challenges:  Copula, how to represent different tenses, what is a “word”?}
 
-%FIXME: do we want subsections?
 \subsection{Irregular negatives of finite verb forms}
 
 One of the morphotactic challenges met in defining a finite-state transducer for Kyrgyz is that many finite verb forms have ``irregular'' negative forms.  While the paradigms are completely regular, the negative morphotactics are not regularly derived from the affirmative forms.  There are also several different ``regular'' patterns of alternation.  Listed in table~\ref{irregnegs} are a couple examples of a few finite verb paradigms with their negative forms.
@@ -124,7 +125,6 @@ One of the morphotactic challenges met in defining a finite-state transducer for
 %FIXME: is "point to" the right terminology?
 Since the general verbal negation morpheme in Kyrgyz tends to be /BA/ (as it is in all non-finite verb forms), we treated forms with /BA/ (the last two in the list above, for example) as regular (assuming other aspects of their morphology didn’t change).  We then created two different sets of continuation lexica for finite verb forms—one for regular finite verb forms, and one for irregular finite verb forms.  The continuation lexicon for regular finite verbal forms points to two continuation lexica: one of the regular verb suffixes (such as -/(I)птIр/ and -/E/, which in turn point to the appropriate continuation lexica for their person endings), and one of the negative -/BA/, which in turn points to the regular verb suffix continuation lexicon.  The continuation lexicon for irregular finite verb forms directly contains affirmative and negative morphology which each point to the appropriate personal suffix continuation lexica.
 
-%FIXME: do we want subsections?
 \subsection{Irregular [noun + possessive + case] forms}
 
 There are a number of other morphotactic issues involving ``irregular'' forms that have been dealt with in a similar way to the negative finite verb forms.  One such issue involves nominal possessive morphology when followed by case suffixes.
@@ -159,7 +159,6 @@ While the phonological rules are not necessarily as closely tied to an accurate 
 
 \section{Morphophonology}
 
-%FIXME: do we want subsections?
 \subsection{Vowel harmony}
 
 In Kyrgyz, there are two basic archiphonemes: a low vowel, \{A\}, and a high vowel, \{I\}.  The high vowel takes the backness and rounding of the preceding vowel, resulting in the values shown in table~\ref{vowelharmonyI}.
@@ -230,7 +229,6 @@ The back vowel \{A\} also takes the backness and rounding of the preceding vowel
 There were other vowel archiphonemes that had to be implemented in this project.  For example, \{U\} occurs in the past habitual suffix -/чU/ and the general gerund/infinitive -/Uː/, but nowhere else in the language.  Also, \{E\} was created for use in the habitual/future suffix; it has surface forms identical to those of \{A\}, except after vowels where it surfaces as [й].  Despite the fact that \{E\} is very similar to \{A\}, a separate but very similar twolc rule had to be created.  Repeated content could have been reduced by using cascading rules instead of two-level rules, but this would have caused other complications, such as finding the correct rule ordering.  An alternative possibility would’ve been to have a single intermediate level so that a rule like ``\{E\}→\{A\} after vowels'' with a default surface form of [й] could've been implemented.
 
 
-%FIXME: do we want subsections?
 \subsection{Voicing assimilation}\label{devoicing}
 In Kyrgyz, there are two basic processes affecting the realisation of consonants when they are adjacent to other consonants: voicing assimilation and desonorisation.
 
@@ -268,7 +266,6 @@ Here, the underlying /D/ is always realised as [д] when after a voiced segment 
 Voicing assimilation was dealt with simply by creating a single twol rule that transformed any relevant archiphoneme (\{B\}, \{G\}, \{D\}, \{L\}, and \{N\}) to a voiceless stop (either [п], [к], or [т]) after a voiceless consonant.  The set of voiceless consonants was also defined in twolc so that rules sensitive to this set would be easier to write.
 %FIXME: and more efficient?  Or not?
 
-%FIXME: do we want subsections?
 \subsection{Desonorisation}
 Desonorisation happens to /N/ when it follows any consonant, and to /L/ when it follows a consonant of equal or lower sonority (i.e., /л/, nasals (/м/, /н/, /ң/), and obstruents, but not /й/, /р/, or vowels).  The resulting surface consonant is [д] for both /N/ and /L/, unless it follows a voiceless consonant, in which case it surfaces as [т].  An example includes the accusative and plural suffixes:
 
@@ -307,13 +304,11 @@ The orthography makes this straightforward, since e.g., words borrowed from Russ
 Desonorisation was dealt with by a rule that changes \{L\} to [д] following a series of ``low-sonority'' consonants appropriately defined earlier in the twol file and a syllable boundary.  The \{N\} desonorisation rule changes \{N\} to [д] following a series containing all voiced consonants, followed by a syllable boundary.  Both sets were defined to exclude voiceless consonants that would instead trigger devoicing (§\ref{devoicing}).
 
 
-%FIXME: do we want subsections?
 \subsection{Lenition}
 In Kyrgyz, stem-final [voiceless] labial and dorsal consonants voice when a suffix beginning with a vowel follows them.  The implementation of this in twol is very straightforward.
 %FIXME: what else needs to be said here?
 
 
-%FIXME: do we want subsections?
 \subsection{Nouns ending in /рн/, etc.}
 
 Kyrgyz has a number of nouns that underlyingly end with a consonant cluster consisting of two liquids, but which are split by an epenthetic vowel syllable-finally.
@@ -452,9 +447,9 @@ The major work to be done is increasing the size of the lexicon. While a good le
 Once good coverage has been achieved with a morphological analyser, the next logical step is to start work on morphological and syntactic disambiguation. As can be seen from the figures for mean ambiguity, there is a lot of work that can be done on disambiguation.
 
 %FIXME: * Some remaining transducer issues
+Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  One of these is the irregular combination of 3rd person non-past finite verb plus the yes/no question particle.  For example, the third person non-past of /бар/ \eng{go} is [барат], but when the question particle -/BI/ is added, the resulting form is [барабы] instead of *[баратпы] (the transducer's current output).
 
 \bibliographystyle{styler}
-%\bibliographystyle{acm}
 \bibliography{paper}
 
 %FIXME: "Kazan Tatar ..."
