@@ -22,22 +22,26 @@ TARGETS_COMMON = $(PREFIX2).automorf.hfst $(PREFIX1).autogen.hfst $(PREFIX1).aut
 
 .deps/ky.lexc.morf.hfst-debug: apertium-tr-ky.ky.lexc
 	@cat $< | grep -v -e 'Dir/RL' -e 'Use/Circ' > $@tmp
-	hfst-lexc -f openfst-tropical $@tmp -o $@
-	rm $@tmp
+	hfst-lexc -f foma $@tmp -o $@.foma
+	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
+	rm $@tmp @.foma
 
 .deps/ky.lexc.gen.hfst-debug: apertium-tr-ky.ky.lexc
 	@cat $< | grep -v -e 'Dir/LR' -e 'Use/Circ' > $@tmp
-	hfst-lexc -f openfst-tropical $@tmp -o $@
+	hfst-lexc -f foma $@tmp -o $@.foma
+	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
 	rm $@tmp
 
 .deps/ky.lexc.morf.hfst: apertium-tr-ky.ky.lexc
 	@cat $< | grep -v 'Dir/RL' > $@tmp
-	hfst-lexc -f openfst-tropical $@tmp -o $@
+	hfst-lexc -f foma $@tmp -o $@.foma
+	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
 	rm $@tmp
 
 .deps/ky.lexc.gen.hfst: apertium-tr-ky.ky.lexc
 	@cat $< | grep -v 'Dir/LR' > $@tmp
-	hfst-lexc -f openfst-tropical $@tmp -o $@
+	hfst-lexc -f foma $@tmp -o $@.foma
+	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
 	rm $@tmp
 
 .deps/ky.twol.hfst: apertium-tr-ky.ky.twol
