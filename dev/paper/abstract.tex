@@ -128,39 +128,7 @@ In Kyrgyz, stem-final [voiceless] labial and dorsal consonants voice when a suff
 In Kyrgyz, there are a series of letters which represent /й/ plus a vowel: /я, е, ё, ю/ represent /йа, йэ, йо, йу/ respectively.  However, /э/ is also represented as /е/ when short and after a consonant (i.e., it’s only represented as /э/ when long—/ээ/—or when word-initially).  These ``yoticised'' vowels proved difficult to work with.  For example, /бой+(S)I/ \eng{length}, given normal vowel harmony rules, would surface as [бойу].  However, the correct form is [бою].
 %\section{Statistics}
 
-%\subsection{Number of stems}
-Table~\ref{table:stems} gives the approximate number of stems in each main word class. The numbers are approximate as some words may have two entries for one stem (for example if a set of forms is irregular).
-
-\begin{table*}
-	\centering
-	\begin{tabular}{lr}
-		\toprule
-		Part of speech & Number of stems\\
-		\midrule
-		Noun & 4,731\\
-		Adjective & 924\\
-		Verb & 896 \\
-		Proper noun & 745\\
-		Adverb & 213\\
-		Numeral & 50\\
-		Postposition & 42\\
-		Conjunction & 36\\
-		Pronoun & 29\\
-		Determiner & 27\\
-		\midrule
-		Total:     & 7,333\\
-		\bottomrule
-	\end{tabular}
-	\caption{FIXME}\label{table:stems}
-	%FIXME: are we putting captions above or below tables?  I like them better below, but I got the impression that there's some standard to have them above.  Maybe it was just UW being table Nazis for my MA thesis.
-\end{table*}
-
-
-%\subsection{Coverage}
-
-%FIXME: is this about right?  and I mean all aspects of the paragraph
-%FIXME: ZZ needs to be replaced with .. ?
-To calculate the naïve coverage\footnote{FIXME} of the analyser, two corpora were used, the first was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus was built using a script that scraped the archives for all articles from 2010, which include articles on a wide variety of topics, from sports to politics and from culture to current events.
+The analyser contains a total of 7333 stems.  To calculate the coverage of the analyser, two corpora were used, the first was a database dump of the Kyrgyz Wikipedia, dated 2011-09-23. The second was a corpus generated from the archives of Radio Free Europe / Radio Liberty's Kyrgyz service, \href{http://www.azattyk.org}{azattyk.org}.  The RFERL corpus was built using a script that scraped the archives for all articles from 2010, which include articles on a wide variety of topics, from sports to politics and from culture to current events.
 
 Both corpora were split into 10 equal parts, and coverage was calculated over each part separately in order to calculate the standard deviation of the mean. As can be seen from table~\ref{table:cov}, running the analyser on the RFERL gives a higher coverage, because the text is more homogenous, and there is less non-Kyrgyz (e.g., Russian) text.
 
