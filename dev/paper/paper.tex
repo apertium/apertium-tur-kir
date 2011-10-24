@@ -71,6 +71,7 @@ This paper describes the development of a morphological transducer oriented for 
 The paper is split into five main parts. First a background section gives some details about Kyrgyz and the toolkit used. Subsequent sections describe the tagset and individual issues encountered with the morphotactics and the morphophonology. Finally, some evaluation results are given and future work outlined.
 
 \section{Background}
+\subsection{The Kyrgyz language}
 Kyrgyz (written ‹кыргыз тили› or ‹\textuighur{قىرعىز تىلى}›, pronounced [qɯɾʁɯz tili]) alternatively written ``Kirghiz'' or ``Kirgiz'') is a Turkic language spoken in Kyrgyzstan, China, Tajikistan, and Uzbekistan.  Its classification within Turkic remains problematic—it appears to alternatively belong to the Kypchak (Northwestern) branch and to the South Siberian (Northeastern) branch.  The Turkic varieties phonetically and phonologically most similar to Kyrgyz are the southern dialects of Altay, though Kyrgyz shows strong parallels to Kazakh that these varieties lack, especially in its Talas dialects.  In southern varieties of Kyrgyz there are also many similarities to Uzbek that other dialects lack.
 
 Kyrgyz is spoken mostly in Kyrgyzstan where it has official status as the national language.  Many Kyrgyz speakers in Kyrgyzstan are bilingual in Russian and/or Uzbek, and make up a majority of the population of the country.  There are other sizable Kyrgyz-speaking communities outside of Kyrgyzstan, most notably in China (where the Kyrgyz are an officially recognised minority), Tajikistan, and Uzbekistan.  Current estimates of the number of speakers range from 3 million to 4 million.\footnote{Based on figures from \cite{lewis2009} and \cite{factbook2009}}  Not all ethnic Kyrgyz speak the language, and not all competent speakers are ethnic Kyrgyz, but there is a very strong correspondence between ethnic identity and knowledge of the language.\footnote{This interpretation of the situation is supported by the experiences of the authors with the language, and is common knowledge in Kyrgyzstan.}
@@ -79,10 +80,11 @@ Kyrgyz is spoken mostly in Kyrgyzstan where it has official status as the nation
 %FIXME: Tolgonay's name to acknowledgements (where?) for helping with Kyrgyz
 The understanding of Kyrgyz grammar employed to construct the transducer for this project was gained from the Kyrgyz knowledge of two of our authors.  Mirlan Ipasov is a native speaker of Kyrgyz, and Jonathan Washington is a theoretical and descriptive linguist fluent in Kyrgyz and knowledgeable about Turkic languages.  Some grammar sources were consulted, such as \cite{hebertpoppe1963}, \cite{usonalievomuraliev2003}, \cite{qudaybergenov1980}, \cite{somfaikara2003}, and \cite{imart1981}, but they were largely not relied on due to their approaches to Kyrgyz grammar.  Some dictionaries were also consulted, including \cite{jumakunova2005} and \citetwoyears{yudakhin1957}{yudakhin1965}.
 
+\subsection{Morphological transducers}
 %FIXME: this seems to be wrapping badly, at least here
 The objective of a morphological transducer is twofold. Firstly to take surface forms (e.g., алдым) and generate all possible lexical forms, and secondly to take lexical forms (e.g.,  ал<v><tv><ifi><p1><sg>, алд<n><px1sg><nom>, etc.) and generate one or more surface forms. 
 
-%FIXME: broken citation
+%FIXME: broken citation: "altinasi"?
 The project is designed based on the Helsinki Finite State Toolkit \citep{linden2011} which is a free/open-source reimplementation of the Xerox finite-state toolchain, popular in the field of morphological analysis. It implements both the \textbf{lexc} formalism for defining lexicons, and the \textbf{twol} and \textbf{xfst} formalisms for modeling morphophonological rules. It also supports other finite state transducer formalisms such as \textbf{sfst}. This toolkit has been chosen as it -- or the equivalent XFST -- has been widely used for other Turkic languages \citemultileft{coltekin2010}, \citemultimid{altinasi2001}, \citemultiright{tantug2006}, and is available under a free/open-source licence.
 
 \section{Description}
@@ -447,7 +449,7 @@ The major work to be done is increasing the size of the lexicon. While a good le
 Once good coverage has been achieved with a morphological analyser, the next logical step is to start work on morphological and syntactic disambiguation. As can be seen from the figures for mean ambiguity, there is a lot of work that can be done on disambiguation.
 
 %FIXME: * Some remaining transducer issues
-Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  One of these is the irregular combination of 3rd person non-past finite verb plus the yes/no question particle.  For example, the third person non-past of /бар/ \eng{go} is [барат], but when the question particle -/BI/ is added, the resulting form is [барабы] instead of *[баратпы] (the transducer's current output).
+Also, despite the good coverage, there are still a number of grammatical forms that have not been implemented into the transducer.  One of these is the irregular combination of 3rd person non-past finite verb plus the yes/no question particle.  For example, the third person non-past of /бар/ \eng{go} is [барат], but when the question particle -/BI/ is added, the resulting form is [барабы] instead of *[баратпы] (the transducer's current output).  There are also currently some problems handling the progressive aspect auxiliary /жат/ when it grammaticalises as a suffix with a couple verbs (/бар/ and /кел/) which often use a different participial form with this auxiliary than most verbs do.
 
 \bibliographystyle{styler}
 \bibliography{paper}
