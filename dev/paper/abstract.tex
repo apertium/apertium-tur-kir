@@ -113,73 +113,7 @@ Nouns may be followed by possessive morphology before any case morphology.  This
 
 %\subsection{Vowel harmony}
 
-In Kyrgyz, there are two basic archiphonemes: a low vowel, \{A\}, and a high vowel, \{I\}.  The high vowel takes the backness and rounding of the preceding vowel, resulting in the values shown in table~\ref{vowelharmonyI}.
-
-\begin{table}[htbp]
-	\centering
-	\caption{vowel harmony for archiphoneme \{I\}}\label{vowelharmonyI}
-	\subtable{
-		\begin{tabular}{cc}
-			\toprule
-			after & result \\
-			\midrule
-			и & и \\
-			ү & ү \\
-			е & и \\
-			ө & ү \\
-			\bottomrule
-		\end{tabular}
-	}
-	\hspace{2em}
-	\subtable{
-		\begin{tabular}{cc}
-			\toprule
-			after & result \\
-			\midrule
-			ы & ы \\
-			у & у \\
-			а & ы \\
-			о & у \\
-			\bottomrule
-		\end{tabular}
-	}
-\end{table}
-
-The back vowel \{A\} also takes the backness and rounding of the preceding vowel, with the exception of when it occurs after /у/---n this case, it has an unrounded variant, as depicted in table~\ref{vowelharmonyA}.
-
-\begin{table}[htbp]
-	\centering
-	\caption{vowel harmony for archiphoneme \{A\}}\label{vowelharmonyA}
-	\subtable{
-		\begin{tabular}{ll}
-			\toprule
-			after & result \\
-			\midrule
-			и & е \\
-			ү & ө \\
-			е & е \\
-			ө & ө \\
-			\bottomrule
-		\end{tabular}
-	}
-	%\qquad
-	\hspace{2em}
-	\subtable{
-		\begin{tabular}{ll}
-			\toprule
-			after & result \\
-			\midrule
-			ы & а \\
-			у & а \\
-			а & а \\
-			о & о \\
-			\bottomrule
-		\end{tabular}
-	}
-\end{table}
-
-There were other vowel archiphonemes that had to be implemented in this project.  For example, \{U\} occurs in the past habitual suffix -/чU/ and the general gerund/infinitive -/Uː/, but nowhere else in the language.  Also, \{E\} was created for use in the habitual/future suffix; it has surface forms identical to those of \{A\}, except after vowels where it surfaces as [й].  Despite the fact that \{E\} is very similar to \{A\}, a separate but very similar twolc rule had to be created.  Repeated content could have been reduced by using cascading rules instead of two-level rules, but this would have caused other complications, such as finding the correct rule ordering.  An alternative possibility would’ve been to have a single intermediate level so that a rule like ``\{E\}→\{A\} after vowels'' with a default surface form of [й] could've been implemented.
-
+In Kyrgyz, there are generally two basic archiphonemes: a low vowel, \{A\}, and a high vowel, \{I\}.  The high vowel takes the backness and rounding of the preceding vowel, resulting in one of four surface vowels.  The back vowel \{A\} also takes the backness and rounding of the preceding vowel, with the exception of when it occurs after /у/---in this case, it has an unrounded variant, as depicted in table.
 
 %\subsection{Voicing assimilation}\label{devoicing}
 In Kyrgyz, there are two basic processes affecting the realisation of consonants when they are adjacent to other consonants: voicing assimilation and desonorisation.  Voicing assimilation in Kyrgyz involves the agreement of voicing of two consonants across a syllable boundary.
