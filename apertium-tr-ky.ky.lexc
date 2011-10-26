@@ -8407,15 +8407,11 @@ LEXICON VerbStems
 э%<cop%>%<evid%>:экен V-PERS-COP-SUF ; 
 э%<cop%>%<neg%>%<evid%>:эмес% экен V-PERS-COP-SUF ; 
 
-кел%<v%>%<iv%>%<prt_impf%>%+жат%<vaux%>:келат V-INFL-COMMON ; 
-кел%<v%>%<iv%>%<prt_impf%>%+жат%<vaux%>:келе% ат V-INFL-COMMON ; 
-
+кел%<v%>%<iv%>%<prt_impf%>%+жат%<vaux%>:келат V-INFL-COMMON ;  ! Dir/LR
 бар%<v%>%<iv%>%<prt_impf%>%+жат%<vaux%>:барат V-INFL-COMMON ; ! Dir/LR
-бар%<v%>%<iv%>%<prt_impf%>%+жат%<vaux%>:бара% жат V-INFL-COMMON ; 
 
 жат VAUX-INFL ; ! 
 жат:ат VAUX-INFL ; ! Dir/LR
-!жат:+ат VAUX-INFL ; ! 
 
 кал VAUX-INFL ; ! 
 жүр VAUX-INFL ; ! 
