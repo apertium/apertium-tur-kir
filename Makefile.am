@@ -21,24 +21,28 @@ TARGETS_COMMON = $(PREFIX1).autogen.hfst $(PREFIX1).autobil.bin  \
 ###############################################################################
 
 .deps/ky.lexc.morf.hfst-debug: apertium-$(PREFIX1).ky.lexc
+	if [ ! -d .deps ]; then mkdir .deps; fi
 	@cat $< | grep -v -e 'Dir/RL' -e 'Use/Circ' > $@tmp
 	hfst-lexc -f foma $@tmp -o $@.foma
 	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
 	rm $@tmp @.foma
 
 .deps/ky.lexc.gen.hfst-debug: apertium-$(PREFIX1).ky.lexc
+	if [ ! -d .deps ]; then mkdir .deps; fi
 	@cat $< | grep -v -e 'Dir/LR' -e 'Use/Circ' > $@tmp
 	hfst-lexc -f foma $@tmp -o $@.foma
 	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
 	rm $@tmp
 
 .deps/ky.lexc.morf.hfst: $(BASENAME).ky.lexc
+	if [ ! -d .deps ]; then mkdir .deps; fi
 	@cat $< | grep -v 'Dir/RL' > $@tmp
 	hfst-lexc -f foma $@tmp -o $@.foma
 	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
 	rm $@tmp
 
 .deps/ky.lexc.gen.hfst: $(BASENAME).ky.lexc
+	if [ ! -d .deps ]; then mkdir .deps; fi
 	@cat $< | grep -v 'Dir/LR' > $@tmp
 	hfst-lexc -f foma $@tmp -o $@.foma
 	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
