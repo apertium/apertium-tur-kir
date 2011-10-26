@@ -22,31 +22,31 @@ TARGETS_COMMON = $(PREFIX1).autogen.hfst $(PREFIX1).autobil.bin  \
 
 .deps/ky.lexc.morf.hfst-debug: apertium-$(PREFIX1).ky.lexc
 	if [ ! -d .deps ]; then mkdir .deps; fi
-	@cat $< | grep -v -e 'Dir/RL' -e 'Use/Circ' > $@tmp
+	cat $< | grep -v -e 'Dir/RL' -e 'Use/Circ' > $@tmp
 	hfst-lexc -f foma $@tmp -o $@.foma
 	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
-	rm $@tmp @.foma
+#	rm $@tmp $@.foma
 
 .deps/ky.lexc.gen.hfst-debug: apertium-$(PREFIX1).ky.lexc
 	if [ ! -d .deps ]; then mkdir .deps; fi
-	@cat $< | grep -v -e 'Dir/LR' -e 'Use/Circ' > $@tmp
+	cat $< | grep -v -e 'Dir/LR' -e 'Use/Circ' > $@tmp
 	hfst-lexc -f foma $@tmp -o $@.foma
 	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
-	rm $@tmp
+#	rm $@tmp $@.foma
 
 .deps/ky.lexc.morf.hfst: $(BASENAME).ky.lexc
 	if [ ! -d .deps ]; then mkdir .deps; fi
-	@cat $< | grep -v 'Dir/RL' > $@tmp
+	cat $< | grep -v 'Dir/RL' > $@tmp
 	hfst-lexc -f foma $@tmp -o $@.foma
 	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
-	rm $@tmp
+#	rm $@tmp $@.foma
 
 .deps/ky.lexc.gen.hfst: $(BASENAME).ky.lexc
 	if [ ! -d .deps ]; then mkdir .deps; fi
-	@cat $< | grep -v 'Dir/LR' > $@tmp
+	cat $< | grep -v 'Dir/LR' > $@tmp
 	hfst-lexc -f foma $@tmp -o $@.foma
 	hfst-fst2fst -i $@.foma -f openfst-tropical -o $@
-	rm $@tmp
+#	rm $@tmp $@.foma
 
 .deps/ky.twol.hfst: $(BASENAME).ky.twol
 	hfst-twolc -R -i $(BASENAME).ky.twol -o $@
@@ -59,8 +59,10 @@ $(PREFIX1).autogen.hfst: .deps/$(PREFIX1).autogen.hfst
 	hfst-fst2fst -w -i $< -o $@
 
 # ky analyser:
-.deps/$(PREFIX2).automorf.hfst: .deps/$(PREFIX1).autogen.hfst
-	hfst-invert -i $< -o $@
+.deps/$(PREFIX2).automorf.hfst: .deps/ky.lexc.morf.hfst .deps/ky.twol.hfst
+	hfst-compose-intersect -1 .deps/ky.lexc.morf.hfst -2 .deps/ky.twol.hfst -o $@tmp
+	hfst-invert -i $@tmp -o $@
+	rm $@tmp
 
 $(PREFIX2).automorf.hfst: .deps/$(PREFIX2).automorf.hfst
 	hfst-fst2fst -w -i $< -o $@
