@@ -264,7 +264,7 @@ LEXICON POSSESSION
 GEN-POS ;
 POSSESSION-ENDINGS ;
 
-LEXICON POSSESSION-ENDINGS
+LEXICON POSSESSION-ENDINGS  ! P_2
 %<px1sg%>:%>%{I%}м GEN-POS-PX12SG ;
 %<px2sg%>:%>%{I%}ң GEN-POS-PX12SG ; 
 %<px2sg%>%<frm%>:%>%{I%}ң%{I%}з GEN-POS ; 
@@ -5841,7 +5841,7 @@ kanal N-INFL ;
 булуң N-INFL ;
 түштүк% батыш N-INFL ;
 пикирдик N-INFL ;
-башкы% епископ N-INFL ;
+башкы% епископ N-INFL ; ! FIXME: compositional *and* misspelled
 диний% азем N-INFL ;
 басмакана N-INFL ;
 басмакана N-INFL ;
@@ -6239,7 +6239,7 @@ kanal N-INFL ;
 чийки% зат N-INFL ;
 пил% сөөгү N-INFL ;
 торпок N-INFL ;
-башкы% роль N-INFL ;
+башкы% роль N-INFL ; ! FIXME: compositional
 окшош N-INFL ;
 мергендик N-INFL ;
 артисттик N-INFL ;
@@ -7184,7 +7184,7 @@ LEXICON AdjecStems
 камсыз ADJ ;
 !азыркы ADJ ; ! "modern"
 элдик ADJ ; ! "people's"
-башкы ADJ ; ! "principle 
+!башкы ADJ ; ! "principle"  ! added to кы forms
 ылайык ADJ ; ! "appropriate"
 борбордук ADJ ; ! "central"
 окшош ADJ ;
@@ -8100,6 +8100,7 @@ LEXICON AdjecStems
 келерки ADJ ; ! "coming/future"
 келээрки ADJ ; ! "coming/future"
 эмки ADJ ; ! "next/soon-to-be"
+эмдиги ADJ ; ! "next/soon-to-be"
 аркы ADJ ; ! "further away"
 наркы ADJ ; ! "futher away"
 берки ADJ ; ! "nearer"
@@ -8115,12 +8116,18 @@ LEXICON AdjecStems
 чейинки ADJ ; ! "before"
 тышкы ADJ ; ! "outer"
 ички ADJ ; ! "inner"
-кечеки ADV ; ! "yesterday's"
-кечөөкү ADV ; ! "yesterday's"
-кечээки ADV ; ! "yesterday's"
-кечеги ADV ; ! "yesterday's"
-кечөөгү ADV ; ! "yesterday's"
-кечээги ADV ; ! "yesterday's"
+кечеки ADJ ; ! "yesterday's"
+кечөөкү ADJ ; ! "yesterday's"
+кечээки ADJ ; ! "yesterday's"
+кечеги ADJ ; ! "yesterday's"
+кечөөгү ADJ ; ! "yesterday's"
+кечээги ADJ ; ! "yesterday's"
+жылкы ADJ ; ! "year's"
+быйылкы ADJ ; ! "this year's"
+былтыркы ADJ ; ! "last year's"
+башкы ADJ ; ! "principle"
+
+эмдигиче ADV ; ! "until now"
 
 
 LEXICON AdvStems
@@ -9865,7 +9872,7 @@ LEXICON TO-REMOVE
 бүтүн N-INFL ; ! Dir/RL
 бири-бир N-INFL ; ! Dir/RL
 бирдей N-INFL ; ! Dir/RL
-башкы% эпископ N-INFL ; ! Dir/RL
+башкы% эпископ N-INFL ; ! Dir/RL ! FIXME: compositional
 байланыштуу N-INFL ; ! Dir/RL
 байкалган N-INFL ; ! Dir/RL
 айуу N-INFL ; ! Dir/RL
