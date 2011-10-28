@@ -692,11 +692,16 @@ V-PERS-COP ;
 V-CLIT ;  ! TODO: I guess these aren't technically necessary?
 # ;       ! TODO: .. since they're included in V-PERS-COP
 
-LEXICON V-CLIT 
+
+
+LEXICON V-CLIT-BI
 
 !! Modal/discourse particles
 %+бы%<mod_qst%>:%>%{B%}%{I%} V-PERS-COP ; ! CHECK
 %+бы%<mod_qst%>:%>%{B%}%{I%} # ;
+
+LEXICON V-CLIT-OTHER
+
 %+беле%<mod_qst%>:% беле # ;
 %+бекен%<mod_qst%>:% бекен # ;
 %+чы%<mod_foc%>:%>ч%{I%} # ;
@@ -705,6 +710,11 @@ LEXICON V-CLIT
 !%го%<mod_ass%>:го # ;
 !%да%<mod_tru%>:да # ;
 # ;
+
+LEXICON V-CLIT 
+
+V-CLIT-OTHER ;
+V-CLIT-BI ;
 
 LEXICON V-PERS-POSS ! P_2
 
@@ -764,11 +774,13 @@ LEXICON V-PERS-PRES ! P_6
 @D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>м V-CLIT ; 
 @D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>с%{I%}ң V-CLIT ; 
 @D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>с%{I%}з V-CLIT ; 
-@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@%>т V-CLIT ; 
+@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@%>т V-CLIT-OTHER ; 
+@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@%> V-CLIT-BI ; 
 @D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>б%{I%}з V-CLIT ; 
 @D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>с%{I%}ң%{A%}р V-CLIT ;  
 @D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>с%{I%}зд%{A%}р V-CLIT ;  
-%<p3%>%<pl%>:%>т V-CLIT ; 
+%<p3%>%<pl%>:%>т V-CLIT-OTHER ; 
+%<p3%>%<pl%>:%> V-CLIT-BI ; 
 
 !LEXICON V-PERS-IMPER ! P_6
 
