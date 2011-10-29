@@ -8122,10 +8122,14 @@ LEXICON AdjecStems
 кечеги ADJ ; ! "yesterday's"
 кечөөгү ADJ ; ! "yesterday's"
 кечээги ADJ ; ! "yesterday's"
-жылкы ADJ ; ! "year's"
 быйылкы ADJ ; ! "this year's"
 былтыркы ADJ ; ! "last year's"
 башкы ADJ ; ! "principle"
+күзгү ADJ ; ! "fall-time"
+кышкы ADJ ; ! "wintery"
+жазгы ADJ ; ! "spring-time"
+жайкы ADJ ; ! "summery"
+
 
 эмдигиче ADV ; ! "until now"
 
