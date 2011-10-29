@@ -2046,7 +2046,6 @@ LEXICON NounStems
 экперт N-INFL ; 
 экспертиза N-INFL ; 
 экстра N-INFL ; 
-калк N-INFL ; 
 журт N-INFL ; 
 кол N-INFL ; 
 элек N-INFL ; ! a sieve (?)
@@ -2264,7 +2263,6 @@ LEXICON NounStems
 ажы N-INFL ; 
 кажет N-INFL ; 
 акарат N-INFL ; 
-калк N-INFL ; 
 канжар N-INFL ; 
 тамга N-INFL ; 
 арип N-INFL ; 
@@ -2693,7 +2691,6 @@ LEXICON NounStems
 мелодрама N-INFL ; 
 мама N-INFL ; 
 эмчек N-INFL ; 
-өлкө N-INFL ; 
 туулган% жер N-INFL ; 
 меридиан N-INFL ; 
 мартаба N-INFL ; 
@@ -3644,20 +3641,20 @@ LEXICON NounStems
 уят N-INFL ; 
 туура% келбеген N-INFL ; 
 маяна N-INFL ; 
-күзгү N-INFL ; 
+күзгү N-INFL ; ! "mirror"
 бөлөк N-INFL ; 
 мүчөө N-INFL ; 
 азап N-INFL ; 
 азат N-INFL ; 
-жер N-INFL ; 
-маңдай N-INFL ; 
-март N-INFL ; 
-базар N-INFL ; 
+жер N-INFL ; ! "land"
+маңдай N-INFL ; ! "forehead"
+март N-INFL ; ! "March"
+базар N-INFL ; ! "bazar"
 министирлик N-INFL ; 
 !кийин N-INFL ;  ! This is not a noun -JNW
 кабыл N-INFL ; 
 тамак N-INFL ; 
-нерсе N-INFL ; 
+нерсе N-INFL ; ! "thing"
 телефон N-INFL ; 
 инфраструктура N-INFL ; 
 оорукана N-INFL ; 
@@ -3665,9 +3662,7 @@ LEXICON NounStems
 шарап N-INFL ; 
 ресторан N-INFL ; 
 эс N-INFL ; 
-калк N-INFL ; 
-калк N-INFL ; 
-өлкө N-INFL ; 
+калк N-INFL ; ! "people/nation"
 партия N-INFL ; 
 тема N-INFL ; 
 көрсөткүч N-INFL ; 
@@ -3785,7 +3780,6 @@ LEXICON NounStems
 чара N-INFL ; 
 чарык N-INFL ; 
 шейшеп N-INFL ; 
-базар N-INFL ; 
 агент N-INFL ; 
 вилка N-INFL ; 
 чай N-INFL ; 
@@ -3838,7 +3832,6 @@ LEXICON NounStems
 жыныс N-INFL ; 
 жыңалач N-INFL ; 
 чырак N-INFL ; 
-нерсе N-INFL ; 
 жак N-INFL ; 
 чийин N-INFL ; 
 көптүк N-INFL ; 
@@ -4209,7 +4202,6 @@ LEXICON NounStems
 облас N-INFL ; 
 жармашкан N-INFL ; 
 катнаш N-INFL ; 
-өлкө N-INFL ; 
 илмек N-INFL ; 
 карамак N-INFL ; 
 имам N-INFL ; 
@@ -4684,7 +4676,6 @@ LEXICON NounStems
 тескери N-INFL ;
 артыкчылык N-INFL ;
 биринчилик N-INFL ;
-калк N-INFL ;
 эл N-INFL ;
 режеп N-INFL ;
 алкак N-INFL ;
@@ -4903,7 +4894,6 @@ LEXICON NounStems
 кийлигишүү N-INFL ;
 абал N-INFL ;
 соодага% байланыштуу N-INFL ;
-базар N-INFL ;
 глобалдык N-INFL ;
 айыл N-INFL ;
 стратегиялык N-INFL ;
