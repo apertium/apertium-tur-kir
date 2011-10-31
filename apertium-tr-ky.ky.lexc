@@ -6683,6 +6683,7 @@ Tеңир NP-TOP ; ! ""
 Тынай NP-ANT-M ;
 Тынчтыкбек NP-ANT-M ;
 Мурат NP-ANT-M ;
+Максим NP-ANT-M ;
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
@@ -6728,6 +6729,7 @@ Tеңир NP-TOP ; ! ""
 Байжигитов NP-COG-M ; ! ""
 Байзаков NP-COG-M ; ! ""
 Байтемиров NP-COG-M ; ! ""
+Бакиев NP-COG-M ; ! ""
 Бактыгулов NP-COG-M ; ! ""
 Батырканов NP-COG-M ; ! ""
 Баялинов NP-COG-M ; ! ""
@@ -7299,6 +7301,7 @@ LEXICON AdjecStems
 бүткүл ADJ ;
 бүт ADJ ;
 аскердик ADJ ; 
+аскерий ADJ ; 
 орток ADJ ; 
 үнөмдүү ADJ ; 
 демократ ADJ ; 
@@ -8120,6 +8123,7 @@ LEXICON AdjecStems
 кышкы ADJ ; ! "wintery"
 жазгы ADJ ; ! "spring-time"
 жайкы ADJ ; ! "summery"
+жолку ADJ ; ! "-time"
 
 
 эмдигиче ADV ; ! "until now"
@@ -8963,7 +8967,8 @@ LEXICON VerbStems
 жайгаш V-INFL-IV ;
 чагыл V-INFL-IV ;
 чоңой V-INFL-TV ;
-жолугуш V-INFL-TV ;
+!жолугуш V-INFL-TV ; ! this is a form derived from жолук; fixed in dix - JNW
+жолук V-INFL-TV ;
 куткар V-INFL-TV ;
 жарыш V-INFL-TV ;
 кызыктыр V-INFL-TV ;
