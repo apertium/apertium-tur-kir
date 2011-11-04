@@ -389,20 +389,50 @@ LEXICON ADJ-ORD
 %<adj%>%<ord%>: # ;
 %<adj%>%<ord%>%<n%>: POSSESSION ;
 
+LEXICON ADJ-KI
+
+%<ki%>:%>%{K%}%{I%} ADJ-COMMON ;
+
 LEXICON ADV-ITG
 
 %<adv%>%<itg%>: # ;
 
+LEXICON ADV-WITH-KI-ABL
+
+ADV ;
+ADV-KI ;
+ADV-ABL ; 
+
 LEXICON ADV-WITH-KI
 
-%<adv%>: # ;
-%<adv%>%<ki%>:%>к%{I%} # ;  
-%<adv%>: V-CLIT ;
+ADV ;
+ADV-KI ;
+
+LEXICON ADV-WITH-ABL
+
+ADV ;
+ADV-ABL ;
+
+LEXICON ADV-WITH-ABL-REG
+
+ADV ;
+ADV-ABL-REG ;
+
+LEXICON ADV-KI
+
+%<adv%>: ADJ-KI ;
+
+LEXICON ADV-ABL
+
+%<adv%>%<abl%>:%>т%{A%}н PRED ;
+
+LEXICON ADV-ABL-REG
+
+%<adv%>%<abl%>:%>д%{A%}н PRED ;
 
 LEXICON ADV
 
 %<adv%>: # ;
-! %<adv%>%<ki%>:%>к%{I%} # ;  ! FIXME: this only works with some ADVs
 %<adv%>: V-CLIT ;
 
 LEXICON POST
@@ -1627,7 +1657,7 @@ LEXICON NounStems
 баш N-INFL ; ! "head"
 башмак N-INFL ; 
 башталгыч N-INFL ; 
-баягы N-INFL ; 
+! баягы N-INFL ;   ! Not a noun!!
 баян N-INFL ; 
 без N-INFL ; 
 бейт N-INFL ; 
@@ -3763,7 +3793,7 @@ LEXICON NounStems
 көчө N-INFL ; 
 жескемпир N-INFL ; 
 чатыр N-INFL ; 
-заманбап N-INFL ; 
+! заманбап N-INFL ;  ! ADJ!!: "modern"
 чак N-INFL ; 
 элес N-INFL ; 
 шакал N-INFL ; 
@@ -4104,7 +4134,6 @@ LEXICON NounStems
 бажы N-INFL ; 
 күмүш N-INFL ; 
 күнөө N-INFL ; 
-заманбап N-INFL ; 
 күн N-INFL ; ! "sun"
 кой N-INFL ; ! "sheep"
 күрөш N-INFL ; 
@@ -6325,9 +6354,6 @@ kanal N-INFL ;
 падыша N-INFL ; ! "Padshah"
 реанимация N-INFL ; ! "reanimation"
 реаниматолог N-INFL ; ! "a doctor who performs reanimation"
-кече N-INFL ; ! "yesterday"
-кечөө N-INFL ; ! "yesterday"
-кечээ N-INFL ; ! "yesterday"
 аянт N-INFL ; ! "square/green"
 чама N-INFL ; ! used as postposition with numbers, "around/about"
 скамейка N-INFL ;
@@ -7333,7 +7359,6 @@ LEXICON AdjecStems
 орто ADJ ; 
 качкын ADJ ; 
 контрабанда ADJ ; 
-мурдагы ADJ ; 
 түрдүү ADJ ; 
 радикалдуу ADJ ; 
 мүмкүн ADJ ; 
@@ -7842,7 +7867,7 @@ LEXICON AdjecStems
 аңкоо ADJ ;
 ыплас ADJ ;
 мээлүүн ADJ ;
-эмки ADJ ;
+! эмки ADJ ;  ! FIXME: KI forms
 жаңылтуучу ADJ ;
 түрктөргө% тиешелүү ADJ ;
 жинди% кылуучу ADJ ;
@@ -8082,51 +8107,90 @@ LEXICON AdjecStems
 өңдүү ADJ ; ! "colourful, coloured"
 ! бүтүндөй ADJ ;  ! composite form
 
+
 !! FIXME: productive {K}{I} forms
+!! some are from adverbs, some are from nouns
 
-мурунку ADJ ; ! "old (former)"
-бүгүнкү ADJ ; ! "today's"
-астынкы ADJ ; ! "lower"
-алдынкы ADJ ; ! "forward"
-үстүнкү ADJ ; ! "upper"
-баягы ADJ ; ! "~former"
-жанагы ADJ ; ! "~recent"
-келерки ADJ ; ! "coming/future"
-келээрки ADJ ; ! "coming/future"
-эмки ADJ ; ! "next/soon-to-be"
-эмдиги ADJ ; ! "next/soon-to-be"
-аркы ADJ ; ! "further away"
-наркы ADJ ; ! "futher away"
-берки ADJ ; ! "nearer"
-алгачкы ADJ ; ! "first"
-кийинки ADJ ; ! "next"
-азыркы ADJ ; ! "present"
-күнкү ADJ ; ! "day"             ! Trust me, these are ADJs
-түнкү ADJ ; ! "night"           ! ""
-жылкы ADJ ; ! "year"            ! ""
-эртең% мененки ADJ ; ! "morning ! ""
-кадимки ADJ ; ! "ordinary"
-соңку ADJ ; ! "final"
-чейинки ADJ ; ! "before"
-тышкы ADJ ; ! "outer"
-ички ADJ ; ! "inner"
-кечеки ADJ ; ! "yesterday's"
-кечөөкү ADJ ; ! "yesterday's"
-кечээки ADJ ; ! "yesterday's"
-кечеги ADJ ; ! "yesterday's"
-кечөөгү ADJ ; ! "yesterday's"
-кечээги ADJ ; ! "yesterday's"
-быйылкы ADJ ; ! "this year's"
-былтыркы ADJ ; ! "last year's"
-башкы ADJ ; ! "principle"
-күзгү ADJ ; ! "fall-time"
-кышкы ADJ ; ! "wintery"
-жазгы ADJ ; ! "spring-time"
-жайкы ADJ ; ! "summery"
-жолку ADJ ; ! "-time"
+мурун ADV-WITH-KI-ABL ; ! "old (former)"
+бүгүн ADV-WITH-KI-ABL ; ! "today's"
+бая ADV-WITH-KI-ABL ; ! "~former"
+жана ADV-WITH-KI-ABL ; ! "~recent"
+келер ADV-WITH-KI-ABL ; ! "coming/future"
+келээр ADV-WITH-KI-ABL ; ! "coming/future"
+алгач ADV-WITH-KI-ABL ; ! KI: "first" ADV: "at first; first of all"
+кийин ADV-WITH-KI-ABL ; ! "next"
+азыр ADV-WITH-KI-ABL ; ! "present"
+күн ADV-WITH-KI-ABL ; ! "day"             ! Trust me, these are ADJs
+түн ADV-WITH-KI-ABL ; ! "night"           ! ""
+чейин ADV-WITH-KI-ABL ; ! "before"
+быйыл ADV-WITH-KI-ABL ; ! "this year's"
+былтыр ADV-WITH-KI-ABL ; ! "last year's"
+жол ADV-WITH-KI-ABL ; ! "-time"
+мурда ADV-WITH-KI-ABL ; ! "long-ago"
 
+илгери ADV ; !
+илгери:илгер ADV-WITH-KI ; ! "ancient"
+илгери:илгер ADV-WITH-ABL ; ! "ancient"
 
+эми ADV-WITH-ABL ;
+эми:эм ADV-KI ; ! "next/soon-to-be"
+эми:эмди ADV-WITH-KI ! dialectal form    ! Dir/LR
+эми:эмди ADV-ABL-REG ! dialectal form    ! Dir/LR
+! эмди ADV-WITH-KI-ABL ; ! "next/soon-to-be"
 эмдигиче ADV ; ! "until now"
+
+ары ADV-ABL ; ! "further away"           ! Dir/LR
+ары ADV-WITH-ABL-REG ; ! "further away"
+ары:ар ADV-KI ; ! "further away"
+нары ADV-ABL ; ! "futher away"           ! Dir/LR
+нары ADV-WITH-ABL-REG ; ! "futher away"
+нары:нар ADV-KI ; ! "futher away"
+бери ADV-ABL ; ! "nearer"                ! Dir/LR
+бери ADV-WITH-ABL-REG ; ! "nearer"
+бери:бер ADV-KI ; ! "nearer"
+
+эртең% менен ADV-WITH-KI-ABL ; ! "morning
+эртең% менен ADV-ABL-REG ; ! "morning      ! Dir/LR
+
+!! FIXME: these are all valid variant forms based on the same adverb
+кечеки ADJ-COMMON ; ! "yesterday's"
+кечөөкү ADJ-COMMON ; ! "yesterday's"
+кечээки ADJ-COMMON ; ! "yesterday's"
+кечеги ADJ-COMMON ; ! "yesterday's"
+кечөөгү ADJ-COMMON ; ! "yesterday's"
+кечээги ADJ-COMMON ; ! "yesterday's"
+кече ADV ; ! "yesterday"
+кечөө ADV ; ! "yesterday"
+кечээ ADV ; ! "yesterday"
+! кече N-INFL ; ! "yesterday"   ! NOT NOUNS!
+! кечөө N-INFL ; ! "yesterday"  ! NOT NOUNS!
+! кечээ N-INFL ; ! "yesterday"  ! NOT NOUNS!
+
+!! FIXME: these are -KI forms of nouns
+башкы ADJ-COMMON ; ! "principle"
+күзгү ADJ-COMMON ; ! "fall-time"
+кышкы ADJ-COMMON ; ! "wintery"
+жазгы ADJ-COMMON ; ! "spring-time"
+жайкы ADJ-COMMON ; ! "summery"
+соңку ADJ-COMMON ; ! "final"
+тышкы ADJ-COMMON ; ! "outer"
+ички ADJ-COMMON ; ! "inner"
+аст:астын KI ; ! "lower"
+алд:алдын KI ; ! "forward"
+үст:үстүн KI ; ! "upper"
+жыл KI ; ! "year"            ! ""
+күн KI ; ! "day"
+! ай KI ; ! "month"  ! DOESN'T HAVE -KI FORM
+кечки ADJ-COMMON ; ! "evening"
+
+! кийин ADV-WITH-KI ; ! "later"
+! мурда ADV-WITH-KI ; ! "long ago"
+! азыр ADV-WITH-KI ; 
+! бүгүн ADV-WITH-KI ; ! from pending list
+! жыл ADV-WITH-KI ; ! what?
+! күн ADV-WITH-KI ; ! ??
+! ай ADV-WITH-KI ; ! ??
+! заман ADV-WITH-KI ; ! ??
 
 
 LEXICON AdvStems
@@ -8160,13 +8224,11 @@ LEXICON AdvStems
 көп ADV ; 
 жок ADV ; 
 ар% дайым ADV ; 
-кийин ADV-WITH-KI ; ! "later"
 төмөнкү ADV ;
 негизи ADV ; 
 дагы ADV ; 
 бирок ADV ; 
 кыскача ADV ; ! "in short"
-мурда ADV-WITH-KI ; ! "long ago"
 бирдикте ADV ; 
 каршы ADV ; 
 биринчи ADV ; 
@@ -8188,7 +8250,6 @@ LEXICON AdvStems
 болгону ADV ; ! FIXME: huh?
 дагы% эле ADV ; ! maybe this should be seen as compositional
 эми ADV ; 
-азыр ADV-WITH-KI ; 
 дайыма ADV ; 
 толугу% менен ADV ; 
 андай ADV ; ! FIXME: adjective / adverb
@@ -8217,7 +8278,6 @@ LEXICON AdvStems
 балким ADV ; 
 терсине ADV ; 
 абдан ADV ; ! "really"
-бүгүн ADV-WITH-KI ; ! from pending list
 бираз ADV ; 
 ! ошентип ADV ; ! FIXME: compositional
 баарыбир ADV ; 
@@ -8228,7 +8288,6 @@ LEXICON AdvStems
 ылдый ADV ; 
 алыстан ADV ; ! FIXME: compositional
 жогунда ADV ; ! FIXME: compositional
-илгери ADV ; 
 жалгыз ADV ; ! "alone"
 чогуу ADV ; ! "together"
 кээде ADV ; 
@@ -8261,7 +8320,7 @@ LEXICON AdvStems
 эмне% үчүн ADV ; ! FIXME: hmmm, compositional
 бардыгын ADV ; 
 тилеке% каршы ADV ; ! "unfortunately"
-кечээ ADV ; 
+! кечээ ADV ;  ! elsewhere
 дайыма ADV ; ! "always"
 анда-санда ADV ; ! "occasionally"
 !мына ADV ; 
@@ -8337,7 +8396,7 @@ LEXICON AdvStems
 андай% болсо ADV ;
 эмнеге ADV ;
 оп ADV ;
-кечкисин ADV ;
+! кечкисин ADV ;  ! productive
 өтүнүч ADV ;
 алдыда ADV ;
 түрүндө% болгон ADV ;
@@ -8402,17 +8461,8 @@ LEXICON AdvStems
 тышкары ADV ; ! See bidix
 чогу ADV ; ! See bidix
 аттиң ADV ;
-жыл ADV-WITH-KI ; ! what?
-күн ADV-WITH-KI ; ! ??
-ай ADV-WITH-KI ; ! ??
-заман ADV-WITH-KI ; ! ??
 кызык ADV ;
-алгач ADV ; ! "at first; first of all"
 биротоло ADV ; ! "all at once"
-быйыл ADV ; ! "this year"
-кече ADV ; ! "yesterday"
-кечөө ADV ; ! "yesterday"
-кечээ ADV ; ! "yesterday"
 
 
 LEXICON VerbStems

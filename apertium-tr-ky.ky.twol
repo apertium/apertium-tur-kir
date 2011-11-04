@@ -2,19 +2,20 @@ Alphabet
 А Б В Г Д Е Ё Ж З И И К Л М Н Ң О Ө П Р С Т У Ү Ф Х Ц Ч Ш Щ Ь Ы Ъ Э Ю Я
 а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ь ы ъ э ю я
 %{G%}:г %{D%}:д %{N%}:н %{L%}:л %{B%}:б %{P%}:п %{S%}:с %{n%}:н %{l%}:л
-%{A%}:а %{I%}:ы %{U%}:у %{E%}:а %{e%}:0
+%{A%}:а %{I%}:ы %{U%}:у %{E%}:а %{e%}:0 %{K%}:к
 %>:0 ; 
 
 Sets
 
 !%{G%}       ! Realised as 'г', 'к', 'ң', 'н'
+!%{K%}       ! Realised as 'г', 'к'
 !%{D%}       ! Realised as 'д', 'т', 'н'
 !%{N%}       ! Realised as 'н', 'д', 'т'
 !%{L%}       ! Realised as 'л', 'д', 'т'
 
 Cns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ 
       б в г д ж з й к л м н ң п р с т ф х ц ч ш щ ь ъ 
-      %{D%} %{G%} %{N%} %{L%} %{B%} %{S%} %{n%} %{l%} ;
+      %{D%} %{G%} %{N%} %{L%} %{B%} %{S%} %{n%} %{l%} %{K%} ;
       !%{D%} %{G%} %{N%} %{L%} %{B%} %{P%} %{S%} %{n%} ;
 
 SurCns = Б В Г Д Ж З Й К Л М Н Ң П Р С Т Ф Х Ц Ч Ш Щ Ь Ъ 
@@ -57,6 +58,9 @@ UnvoicedNonSonCns = К П С Т Ф Х Ц Ч Ш Щ
 
 VoicedCns = Б В Г Д Ж З Л М Н Ң Й Р
             б в г д ж з л м н ң й р ;
+
+VoicedObs = Б В Г Д Ж З 
+            б в г д ж з ;
 
 VoicedLowSonCns = Б В Г Д Ж З Л М Н Ң
                   б в г д ж з л м н ң ;
@@ -138,6 +142,11 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 
 "Intervocalic voicing of к"
 к:г <=> :SurVow (:0) _ %>: (:0) :SurVow ;
+
+! {K} surfaces as [к] everywhere except after voiced obstruents (/з/) and vowels
+"Voicing of {K}"
+%{K%}:г <=> [ :SurVow | :VoicedObs ] (:0) %>: _ (:0) :SurVow ;
+
 
 !!!!!!!!!!!!   Deletion   !!!!!!!!!!!!!!!!
 
