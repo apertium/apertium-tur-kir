@@ -8175,11 +8175,11 @@ LEXICON AdjecStems
 соңку ADJ-COMMON ; ! "final"
 тышкы ADJ-COMMON ; ! "outer"
 ички ADJ-COMMON ; ! "inner"
-аст:астын KI ; ! "lower"
-алд:алдын KI ; ! "forward"
-үст:үстүн KI ; ! "upper"
-жыл KI ; ! "year"            ! ""
-күн KI ; ! "day"
+аст:астын ADJ-KI ; ! "lower"
+алд:алдын ADJ-KI ; ! "forward"
+үст:үстүн ADJ-KI ; ! "upper"
+жыл ADJ-KI ; ! "year"            ! ""
+күн ADJ-KI ; ! "day"
 ! ай KI ; ! "month"  ! DOESN'T HAVE -KI FORM
 кечки ADJ-COMMON ; ! "evening"
 
