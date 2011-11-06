@@ -8049,7 +8049,6 @@ LEXICON AdjecStems
 капалуу ADJ ;
 тажатма ADJ ;
 үйрөтүүчү ADJ ;
-тааныш ADJ ;
 темир% бетон ADJ ;
 өзүмчүл ADJ ;
 бойдок ADJ ;
@@ -8440,8 +8439,8 @@ LEXICON AdvStems
 атын% атап ADV ;
 ар% күн ADV ;
 чынында ADV ;
-сыягы ADV ;
-негизинен ADV ;
+сыягы ADV ; ! ~"apparently"
+негизинен ADV ; ! FIXME: compositional
 албетте ADV ;
 ушу% тапта ADV ;
 кыска% убакта ADV ;
@@ -8533,7 +8532,7 @@ LEXICON VerbStems
 бас V-INFL-IV ; ! "walk"
 бас V-INFL-TV ; ! "push"
 белгиле V-INFL-TV ;
-бер V-INFL-TV ; 
+бер V-INFL-TV ; ! "give"
 бил V-INFL-IV ; ! "know"
 бил V-INFL-TV ; ! "know"
 бүт V-INFL-IV-NO-CAUS ; ! "to finish"
@@ -8578,10 +8577,10 @@ LEXICON VerbStems
 сакта V-INFL-TV ;
 сал V-INFL-TV ;
 сана V-INFL-TV ; ! "count/consider"
-сий V-INFL-IV ; 
+сий V-INFL-IV ; ! "pee"
 сыйла V-INFL-TV ; 
 сүй V-INFL-TV ; ! "love"
-тааны V-INFL-TV ;
+тааны V-INFL-TV ; ! "know (a person)"
 тарт V-INFL-TV ;
 таң% ат V-INFL-TV ; ! "dawn"
 тий V-INFL-TV ; ! "touch" (takes dative)
@@ -8590,8 +8589,9 @@ LEXICON VerbStems
 тур:тургуз V-INFL-IV-IRREG-CAUS ; ! "stand up (trans)"
 түз V-INFL-TV ; ! "fill in/out" (e.g., a list)
 түздө V-INFL-TV ; ! ""
-ук V-INFL-IV ; ! "listen"
+ук V-INFL-IV-NO-CAUS ; ! "listen"
 ук V-INFL-TV ; ! "listen / hear"
+ук:угуз V-INFL-IV-IRREG-CAUS ; ! "make listen"
 укта V-INFL-IV ; ! "sleep"
 унут V-INFL-TV ; ! "forget"
 чий V-INFL-TV ; ! "draw a line"
@@ -8646,7 +8646,7 @@ LEXICON VerbStems
 кий V-INFL-IV-NO-CAUS ; ! "get dressed"
 кий:кийгиз V-INFL-IV-IRREG-CAUS ; ! "dress"
 кийин V-INFL-TV ; ! "wear"
-гэр V-INFL-TV ; 
+! гэр V-INFL-TV ;  ! actually кер
 даярда V-INFL-TV ; 
 элесте V-INFL-IV ; ! "imagine"
 жай V-INFL-TV ; ! "hang out to dry", "spread out"
@@ -8743,7 +8743,6 @@ LEXICON VerbStems
 сүз V-INFL-IV ;
 сүйлө V-INFL-IV ; ! "speak"
 сүйлө V-INFL-TV ; ! "speak on [topic]"
-тааны V-INFL-TV ;
 тааныл V-INFL-TV ; 
 таасир% эт V-INFL-TV ;
 таарын V-INFL-IV ; ! "be offended (at)"
@@ -8873,17 +8872,14 @@ LEXICON VerbStems
 иш% жүзүнө% ашыр V-INFL-IV ; ! FIXME: complex verb
 колдо V-INFL-TV ;
 жуун V-INFL-IV ;  ! FIXME: productive
-жүр V-INFL-TV ;
 жарыяла V-INFL-TV ;
 кабарла V-INFL-TV ;
-угуз V-INFL-TV ;
 келиш V-INFL-IV ;
 түшүнүш V-INFL-IV ;
 шерттеш V-INFL-IV ;
 басым% жаса V-INFL-TV ;
 !тий V-INFL-TV ;
 белгиле V-INFL-TV ;
-тааны V-INFL-TV ;
 жет V-INFL-IV-NO-CAUS ; 
 жет:жеткир V-INFL-IV-IRREG-CAUS ;
 жет:жеткиз V-INFL-IV-IRREG-CAUS ; ! Dir/LR
@@ -9259,7 +9255,6 @@ LEXICON VerbStems
 сүрөттө V-INFL-TV ;
 чагым% сал V-INFL-IV ;
 жокто V-INFL-IV ;
-секир V-INFL-TV ;
 чайка V-INFL-TV ;
 алдан V-INFL-IV ;
 заалимдик% кыл V-INFL-IV ;
@@ -9624,11 +9619,9 @@ LEXICON VerbStems
 нөлгө% айландыр V-INFL-TV ;
 шайла V-INFL-TV ;
 чыр% чыгар V-INFL-TV ;
-сал V-INFL-TV ;
 бөлүп% чыгар V-INFL-TV ;
 оңол V-INFL-IV ;
 уктабай% чык V-INFL-IV ;
-сүрөттө V-INFL-TV ;
 упа% сүрт V-INFL-TV ;
 пакеттерге% сал V-INFL-TV ;
 жаркыра V-INFL-IV ;
