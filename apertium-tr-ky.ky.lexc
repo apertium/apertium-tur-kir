@@ -171,6 +171,7 @@ Multichar_Symbols
 %{l%}       ! Realised as 'л' or 'н'; only used in passive -{I}{l}
 %{y%}       ! Realised as '' or '{I}'; only used in epenthesis for nouns
 %{e%}       ! Realised as ''; only used to make vowel harmony come out right for things that normally break vowel harmony
+%{K%}       ! Realised as 'к' or 'г'; only used in attributive -{K}{I}
 
 
 @P.NEG.0@   ! Set if -{I}š is not present
