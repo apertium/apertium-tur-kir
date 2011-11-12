@@ -8175,6 +8175,7 @@ LEXICON AdjecStems
 соңку ADJ-COMMON ; ! "final"
 тышкы ADJ-COMMON ; ! "outer"
 ички ADJ-COMMON ; ! "inner"
+төмөнкү ADJ-COMMON ; ! "following"
 аст:астын ADJ-KI ; ! "lower"
 алд:алдын ADJ-KI ; ! "forward"
 үст:үстүн ADJ-KI ; ! "upper"
@@ -8201,7 +8202,7 @@ LEXICON AdvStems
 кандайча ADV-ITG ; ! "howso"
 кайда:кай%<loc%> ADV-ITG ; ! "where"
 
-бери ADV ; ! "since" +abl -- see bdix
+! бери ADV ; ! "since" +abl -- see bdix
 али ADV ; ! "still"
 өтө ADV ; ! "very"
 мисалы ADV ; ! "for example"
@@ -8222,9 +8223,9 @@ LEXICON AdvStems
 эртеси ADV ; 
 өзүнчө ADV ;  ! "by oneself"
 көп ADV ; 
-жок ADV ; 
+жок ADV ; ! FIXME: adv?
 ар% дайым ADV ; 
-төмөнкү ADV ;
+! төмөнкү ADV ;
 негизи ADV ; 
 дагы ADV ; 
 бирок ADV ; 
@@ -8236,9 +8237,9 @@ LEXICON AdvStems
 жаңыдан ADV ; 
 артка ADV ; 
 ашыкча ADV ; 
-ары ADV ; 
+! ары ADV ; 
 жалгызча ADV ; 
-жана ADV ; 
+! жана ADV ; 
 аз ADV ; 
 дагы ADV ; ! FIXME: oh?
 илгери ADV ; 
@@ -8295,54 +8296,54 @@ LEXICON AdvStems
 сааттап ADV ; 
 өйдө ADV ; 
 аябай ADV ; ! "extremely"
-тобу% менен ADV ; 
-башынан ADV ; 
-тескерисинче ADV ; 
-өзү ADV ; 
+тобу% менен ADV ; ! FIXME: compositional
+башынан ADV ; ! FIXME: compositional
+тескерисинче ADV ; ! FIXME: compositional
+өзү ADV ; ! FIXME: compositional
 кээбирөө ADV ; ! FIXME: compositional
-көбүнчө ADV ; 
-чындыгында ADV ; 
-тезинен ADV ; 
-канчалаган ADV ; 
-жооп% оордуна ADV ; 
-даражада ADV ; 
-досчо ADV ; 
+көбүнчө ADV ; ! FIXME: compositional
+чындыгында ADV ; ! FIXME: compositional
+тезинен ADV ; ! FIXME: compositional
+канчалаган ADV ; ! FIXME: compositional
+жооп% оордуна ADV ; ! FIXME: compositional
+даражада ADV ; ! FIXME: compositional
+досчо ADV ; ! FIXME: compositional
 атайын ADV ; ! "purposely"
 !тышкары ADV ; ! FIXME: POSTP
 мейли ADV ; ! FIXME: interjection
-ошондой ADV ; 
-мурда ADV ; 
-караганда ADV ; 
+ошондой ADV ; ! FIXME: compositional
+! мурда ADV ; ! moved elsewhere
+караганда ADV ; ! FIXME: postposition
 күндөп ADV ; ! FIXME: hmm, compositional
-тереңине ADV ; 
-тездик% менен ADV ; 
+тереңине ADV ; ! FIXME: compositional
+тездик% менен ADV ; ! FIXME: compositional
 ичкери ADV ; 
 эмне% үчүн ADV ; ! FIXME: hmmm, compositional
-бардыгын ADV ; 
+бардыгын ADV ; ! FIXME: compositional
 тилеке% каршы ADV ; ! "unfortunately"
-! кечээ ADV ;  ! elsewhere
+! кечээ ADV ;  ! moved elsewhere
 дайыма ADV ; ! "always"
 анда-санда ADV ; ! "occasionally"
 !мына ADV ; 
-күндөрдөн% бери ADV ; 
-кышында ADV ; 
+күндөрдөн% бери ADV ;  ! FIXME: compositional
+кышында ADV ;  ! FIXME: compositional
 орой ADV ; 
 көрсө ADV ; 
 дээри ADV ; 
 сөзсүз ADV ; 
-кээбири ADV ; 
+кээбири ADV ; ! FIXME: compositional
 түндөсү ADV ; 
 болоорунча ADV ; 
 өзүндөй ADV ; 
-көбүрөөк ADV ; 
+көбүрөөк ADV ; ! FIXME: compositional
 апачык ADV ; 
-ошондой ADV ; 
+ошондой ADV ; ! FIXME: compositional
 эсе ADV ; ! "_ times _-er" maybe N?  but fine for now
 күндүзү ADV ; 
 кайра ADV ; 
 көп-көп ADV ; 
 туруптуруп ADV ; 
-анан ADV ;
+анан ADV ; ! FIXME: compositional
 дээрлик ADV ;
 !бүткүл ADV ; ADJ
 !бүт ADV ; ADJ
@@ -8379,15 +8380,15 @@ LEXICON AdvStems
 капысынан ADV ;
 көчүрмө% аркылуу ADV ;
 дайыма ADV ;
-шексиз ADV ;
+шексиз ADV ; ! FIXME: compositional
 болоор-бобос ADV ;
 жок% дегенде ADV ;
 түздөн% түз ADV ;
 ошоногу ADV ;
-болжол% менен ADV ;
+болжол% менен ADV ; ! FIXME: compositional
 байкабай ADV ;  ! productive -- see bidix
 тим% эле ADV ;
-күмөнсүз ADV ;
+күмөнсүз ADV ; ! FIXME: compositional
 кандай% болсо% да ADV ;
 тик% түрдө ADV ;
 чалп ADV ;
