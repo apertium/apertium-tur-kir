@@ -1129,14 +1129,13 @@ LEXICON Postpositions
 ичинде POST ; ! "inside of" +gen|+nom
 жараша POST ; ! "by, in accordance with" +dat
 боюнча POST ; ! "according to" +nom
-жөнүнд POST ; ! "about" +nom
 жөнүндө POST ; ! "about" +nom
 тиешелүү POST ; ! "belonging to" +dat
 карата POST ; ! "" +dat
 карабай POST ;
 дагы POST ; ! FIXME: not POST
 керек POST ; ! FIXME: not POST
-ушуга% чейин POST ; ! FIXME: what?
+! ушуга% чейин POST ; ! FIXME: what? !! compositional
 дайым POST ; ! FIXME: not POST
 соң POST ;
 тышкары POST ; ! "aside from, besides" +abl
@@ -1146,7 +1145,7 @@ LEXICON Postpositions
 үчүн POST ; ! "for" + nom
 каршы POST ;
 карабастан POST ;
-менен% бирге POST ;  ! CHECK: is бирге ADV?
+! менен% бирге POST ;  ! CHECK: is бирге ADV?  !! compositional
 улам POST ;
 тууралуу POST ;
 боло% турган% болсо POST ; ! BAD: wtf
@@ -8218,6 +8217,7 @@ LEXICON AdvStems
 эң:ең ADV ; ! Dir/LR "most"
 кээде ADV ; ! "sometimes"
 жакында ADV ; ! "soon"
+бирге ADV ; ! "together"
 
 негизинде ADV ; ! "basically, in general"
 эртеси ADV ; 
