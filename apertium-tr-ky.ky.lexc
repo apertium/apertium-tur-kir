@@ -358,6 +358,7 @@ LEXICON ADJ-LEVELS
 
 %<pst%>: # ;
 %<comp%>:%>%{I%}р%{A%}%{A%}к # ;
+%<comp%>:%>%{I%}р%{A%}к # ;        ! Dir/LR
 
 LEXICON ADJ-COMMON
 
