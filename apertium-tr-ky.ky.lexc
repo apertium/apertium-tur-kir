@@ -853,8 +853,8 @@ LEXICON V-INFL-NON-FINITE-IRREG
 %<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%с GER-INFL ;              !
 %<neg%>%<ger_fut%>:%>%{B%}%{A%}%>%{A%}с GER-INFL ;          ! Dir/LR
 
-%<ger_ppot%>:%>%{A%}р%>л{I}к GER-INFL ;                     ! Dir/LR
-%<ger_ppot%>:%>%{A%}%{A%}р%>л{I}к GER-INFL ;
+%<ger_ppot%>:%>%{A%}р%>л%{I%}к GER-INFL ;                     ! Dir/LR
+%<ger_ppot%>:%>%{A%}%{A%}р%>л%{I%}к GER-INFL ;
 
 
 ! Verbal Adjectives
