@@ -25,8 +25,8 @@ topics = {392: "ky-kyrgyzstan",
 	399: "ky-voice_of_people",
 	400: "ky-sport"}
 
-startyear = 2010 # 2006
-endyear = 2010
+startyear = 2009 # 2006
+endyear = 2009
 minmonth = 1 # 1
 maxmonth = 12 # 12
 
@@ -108,7 +108,7 @@ def main():
 
 		try:
 			source = Source(url, title=title, scraper=ScraperAzattyk, conn=conn)
-			source.makeRoot("./paper", ids=ids, root=root)
+			source.makeRoot("./", ids=ids, root=root)
 			source.add_to_archive()
 			if not ids:
 				ids = source.ids
