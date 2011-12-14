@@ -13,6 +13,7 @@
      <sdef n="adv"       c="Adverb"/>
      <sdef n="v"         c="Verb"/>
      <sdef n="cop"       c="Copula"/>
+     <sdef n="coop"      c="Co-operative"/>
      <sdef n="cnjcoo"    c="Coordinating conjunction"/>
      <sdef n="cnjsub"    c="Subordinating conjunction"/>
      <sdef n="cnjadv"    c="Adverbial conjunction"/>
@@ -6182,7 +6183,8 @@
    <e c="  0"><p><l>taammüden<s n="adv"/></l><r>атайлап<s n="adv"/></r></p></e>
    <e c="  0"><p><l>şar<s n="adv"/></l><r>шар-шар<s n="adv"/></r></p></e>
    <e c="  0"><p><l>peyderpey<s n="adv"/></l><r>байма-бай<s n="adv"/></r></p></e>
-   <e c="  0"><p><l>peşinen<s n="adv"/></l><r>мурун<s n="adv"/><s n="abl"/></r></p></e>
+   <!--<e c="  0"><p><l>peşinen<s n="adv"/></l><r>мурун<s n="adv"/><s n="abl"/></r></p></e>-->
+   <e c="  0"><p><l>peşinen<s n="adv"/></l><r>мурун<s n="adv"/></r></p></e>
    <e c="  0"><p><l>olabildiğince<s n="adv"/></l><r>болушунча<s n="adv"/></r></p></e>
    <e c="  0"><p><l>münferiden<s n="adv"/></l><r>өз<b/>алдынча<s n="adv"/></r></p></e>
    <e c="  0"><p><l>meşruten<s n="adv"/></l><r>шарттуу<s n="adv"/></r></p></e>
@@ -6675,7 +6677,7 @@
 	<e c="  0"><p><l>yansı<s n="v"/></l><r>чагыл<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>bas<s n="v"/></l><r>бас<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e c="  0"><p><l>büyü<s n="v"/></l><r>чоңой<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>kavuş<s n="v"/></l><r>жолук<s n="v"/><s n="tv"/><s n="coop"></r></p></e>
+	<e c="  0"><p><l>kavuş<s n="v"/></l><r>жолук<s n="v"/><s n="tv"/><s n="coop"/></r></p></e>
         <e slr="1"><p><l>kavuş<s n="v"/></l><r>жет<s n="v"/><s n="tv"/></r></p></e>
         <e slr="2"><p><l>kavuş<s n="v"/></l><r>кошул<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>dönüş<s n="v"/></l><r>өзгөр<s n="v"/><s n="iv"/></r></p></e>
