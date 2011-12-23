@@ -299,6 +299,10 @@ LEXICON N-INFL
 N-INFL-COMMON ;
 %<n%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
 
+LEXICON N-INFL-3PX-COMPOUND
+
+%<n%>%<px3sg%>:%>%{S%}%{I%}%{n%} GEN-POS ;
+
 LEXICON GER-INFL
 
 POSSESSION ;
@@ -4414,6 +4418,11 @@ LEXICON NounStems
 кезек N-INFL ; 
 класс N-INFL ; 
 команда N-INFL ; ! "team"
+мышык N-INFL ; ! "cat"
+күчүк N-INFL ; ! "small dog / puppy"
+карындаш N-INFL ; ! "younger sister (for male)"
+үстөл N-INFL ; ! "table"
+аба% ырайы:аба% ырай N-INFL-3PX-COMPOUND ; ! "weather"   ! FIXME: is ырай<px3>, so takes cases after <px3>
 
 дүйшөмбү N-INFL ; ! "Monday"
 шейшемби N-INFL ; ! "Tuesday"
@@ -6711,6 +6720,7 @@ Tеңир NP-TOP ; ! ""
 Тынчтыкбек NP-ANT-M ;
 Мурат NP-ANT-M ;
 Максим NP-ANT-M ;
+Акмат NP-ANT-M ;
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
@@ -6721,6 +6731,9 @@ Tеңир NP-TOP ; ! ""
 Обо NP-ANT-F ; ! "Eve"
 
 Жаңыл NP-ANT-F ;
+Айгүл NP-ANT-F ;
+Гүлнара NP-ANT-F ;
+Айша NP-ANT-F ;
 
 Солтоноев NP-COG-M ;
 Чороев NP-COG-M ;
@@ -9747,6 +9760,8 @@ LEXICON VerbStems
 тигинт V-INFL-IV ;
 тигинт V-INFL-TV ;
 суйлө V-INFL-TV ;
+тыңша V-INFL-TV ; ! "listen carefully/closely"
+кубан V-INFL-IV ; ! "be happy"
 
 LEXICON Abbreviations
 
