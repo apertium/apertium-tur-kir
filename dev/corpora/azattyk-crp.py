@@ -27,7 +27,7 @@ topics = {392: "ky-kyrgyzstan",
 
 startyear = 2009 # 2006
 endyear = 2009
-minmonth = 1 # 1
+minmonth = 9 # 1
 maxmonth = 12 # 12
 
 def get_urls(monthurl):  # get the URLS for a given month
