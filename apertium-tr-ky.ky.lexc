@@ -1250,6 +1250,7 @@ LEXICON Pronouns
 ! ал% жак PRON-DEM ;   ! compositional
 !жер PRON-DEM ;
 !жак PRON-DEM ;
+каяк PRON-DEM ; ! "where" +POSSESSION +CASES, etc. ! FIXME: = кай + жак
 
 кимдир% бирөө PRON-IND ; ! "someone" TODO: Check
 айрым PRON-IND ; ! "other"
