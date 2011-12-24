@@ -6370,7 +6370,10 @@ kanal N-INFL ;
 реаниматолог N-INFL ; ! "a doctor who performs reanimation"
 аянт N-INFL ; ! "square/green"
 чама N-INFL ; ! used as postposition with numbers, "around/about"
-скамейка N-INFL ;
+скамейка N-INFL ; ! "bench"
+периште N-INFL ; ! "angel"
+орозо N-INFL ; ! "fast"
+күйөө N-INFL ; ! "husband"
 
 LEXICON PropernounStems
 Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
@@ -6646,6 +6649,9 @@ Tеңир NP-TOP ; ! ""
 Сокулук NP-TOP ;
 Санкт% Петербург NP-TOP ; ! "Saint Petersburg"
 Косова NP-TOP ;
+Иерусалим NP-TOP ; ! "Jerusalem"
+Египет NP-TOP ; ! "Egypt"
+Ниневия NP-TOP ; ! "Nineva"
 
 Кыргызмамбас NP-ORG ; ! ""
 Киргизгосиздат NP-ORG ; ! "" (ru)
@@ -6725,6 +6731,20 @@ Tеңир NP-TOP ; ! ""
 Мурат NP-ANT-M ;
 Максим NP-ANT-M ;
 Акмат NP-ANT-M ;
+Машаяк NP-ANT-M ; ! "Moses"
+Паул NP-ANT-M ; ! "Paul"
+Ибрайым NP-ANT-M ; ! "Abraham"
+Ибраим NP-ANT-M ; ! "Abraham"
+Петир NP-ANT-M ; ! "Peter"
+Лука NP-ANT-M ; ! "Luke"
+Матай NP-ANT-M ; ! "Matthew"
+Исхак NP-ANT-M ; ! "Isaac"
+Саул NP-ANT-M ; ! "Saul"
+Илияс NP-ANT-M ; !
+Дөөт NP-ANT-M ; ! "David"  ! FIXME: check
+Исав NP-ANT-M ; ! "Esaw"  ! FIXME: check
+Бенжамин NP-ANT-M ; ! "Benjamin"
+Амос NP-ANT-M ; ! "Amos"
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
@@ -6733,6 +6753,10 @@ Tеңир NP-TOP ; ! ""
 Анна NP-ANT-F ;
 Аня NP-ANT-F ;
 Обо NP-ANT-F ; ! "Eve"
+Рахила NP-ANT-F ; ! "Rachel"
+Сарра NP-ANT-F ; ! "Sarah"  ! FIXME: check
+Рабига NP-ANT-F ; ! "Rebeccah"  ! FIXME: check
+Лия NP-ANT-F ; ! "Leah"
 
 Жаңыл NP-ANT-F ;
 Айгүл NP-ANT-F ;
@@ -7496,11 +7520,11 @@ LEXICON AdjecStems
 дос ADJ ;
 ийилчээк ADJ ;
 чексиз ADJ ;
-жылтыраган ADJ ;
-керилген ADJ ;
-чыңалган ADJ ;
-тартылган ADJ ;
-уурдалган ADJ ;
+жылтыраган ADJ ;  ! FIXME: compositional
+керилген ADJ ;  ! FIXME: compositional
+чыңалган ADJ ;  ! FIXME: compositional
+тартылган ADJ ;  ! FIXME: compositional
+уурдалган ADJ ;  ! FIXME: compositional
 люкс ADJ ;
 мужахит ADJ ;
 ачуу ADJ ;
@@ -7975,7 +7999,6 @@ LEXICON AdjecStems
 тор ADJ ;
 жапырт ADJ ;
 порно ADJ ;
-тез ADJ ;
 тетик ADJ ;
 таптаза ADJ ;
 ташкын ADJ ;
@@ -9348,7 +9371,8 @@ LEXICON VerbStems
 сөк V-INFL-TV ;
 көрүн V-INFL-IV ;
 жет V-INFL-TV ;
-тирил V-INFL-IV ;
+тирил V-INFL-IV-NO-CAUS ;  ! "come to live"
+тирил:тирилт V-INFL-IV-IRREG-CAUS ;  ! "revive"
 бакыр V-INFL-IV ; ! "shout"
 бүрдө V-INFL-IV ;
 капа% кыл V-INFL-TV ;
@@ -9752,6 +9776,13 @@ LEXICON VerbStems
 жетекте V-INFL-TV ; ! "direct"
 кызмат% өтө V-INFL-IV ; ! "work"
 кадырла V-INFL-TV ; ! ?"respect"
+суйлө V-INFL-TV ;
+тыңша V-INFL-TV ; ! "listen carefully/closely"
+кубан V-INFL-IV ; ! "be happy"
+ыргыт V-INFL-TV ; ! "throw/chuck"
+жакшылап V-INFL-IV ; ! "do well"
+уурда V-INFL-TV ; ! "steal"
+
 
 кант:кант%{e%} V-INFL-IV ;  ! "how to do" ! FIXME: make work properly
 кант:кант%{e%} V-INFL-TV ;  ! "how to do" ! FIXME: make work properly
@@ -9763,9 +9794,7 @@ LEXICON VerbStems
 ушинт V-INFL-TV ;
 тигинт V-INFL-IV ;
 тигинт V-INFL-TV ;
-суйлө V-INFL-TV ;
-тыңша V-INFL-TV ; ! "listen carefully/closely"
-кубан V-INFL-IV ; ! "be happy"
+
 
 LEXICON Abbreviations
 
