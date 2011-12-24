@@ -301,7 +301,7 @@ N-INFL-COMMON ;
 
 LEXICON N-INFL-3PX-COMPOUND
 
-%<n%>%<px3sg%>:%>%{S%}%{I%}%{n%} GEN-POS ;
+%<n%>:%>%{S%}%{I%}%{n%} GEN-POS ;
 
 LEXICON GER-INFL
 
