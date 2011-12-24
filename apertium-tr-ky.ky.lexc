@@ -1242,19 +1242,22 @@ LEXICON Pronouns
 эмне PRON-ITG ; ! "what?"
 кайсыны PRON-ITG ; ! "which one?"
 ким PRON-ITG ; ! "who?"
-кайда PRON-ITG ; ! "where?"
+кайда PRON-ITG ; ! "where?"  ! FIXME: doesn't take possession or cases!!!!  is <loc> of кай<det>!!
 
 өз PRON-REFL ; ! "own/self"
-бул% жер PRON-DEM ;
-ушу% жер PRON-DEM ;
-ал% жак PRON-DEM ;
+! бул% жер PRON-DEM ;  ! compositional
+! ушу% жер PRON-DEM ;  ! compositional
+! ал% жак PRON-DEM ;   ! compositional
+!жер PRON-DEM ;
+!жак PRON-DEM ;
 
 кимдир% бирөө PRON-IND ; ! "someone" TODO: Check
 айрым PRON-IND ; ! "other"
-башка PRON-IND ; ! "other"
+башка PRON-IND ; ! "other"  ! FIXME: DET
 баары PRON-IND ; ! "everyone"  !!! This is an alternate of below
 баары:баар PRON-IND-POSS ; ! "everyone"
 
+! FIXME: THESE ARE DET!!!
 кээ% бир PRON-QNT ; ! "some"
 бир% нече PRON-QNT ; ! "some, several"
 көптөгөн PRON-QNT ; ! "many"
