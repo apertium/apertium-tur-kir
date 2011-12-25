@@ -775,8 +775,8 @@ LEXICON V-PERS-COP-SUF
 %<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
 %<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
 %<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
-%<p3%>%<sg%>:%> V-CLIT ; 
-%<p1%>%<pl%>:%>б%{I%}з V-CLIT ; 
+%<p3%>%<sg%>: V-CLIT ; 
+%<p1%>%<pl%>:%>%{B%}%{I%}з V-CLIT ; 
 %<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
 %<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
 %<p3%>%<pl%>: V-CLIT ; 
@@ -1126,7 +1126,7 @@ LEXICON Postpositions
 кийин POST ; ! "with"
 сайын POST ; ! "every"
 үчүн POST-DECL ; ! "for" +nom
-жакка POST ; ! "toward"
+!! жакка POST ; ! "toward"
 чакты POST ; ! "about, around"
 катары POST ; ! "as a" +nom
 аркылуу POST ; ! "through" +nom
@@ -1175,15 +1175,16 @@ LEXICON Postpositions
 LEXICON Determiners
 
 бул DET-DEM ; ! "this"
-бу DET-DEM ; ! "this" ! Dir/LR
+бул:бу DET-DEM ; ! "this" ! Dir/LR
 мобу DET-DEM ; ! "this here"
 ошол DET-DEM ; ! "that"
-ошо DET-DEM ; ! "that" ! Dir/LR
+ошол:ошо DET-DEM ; ! "that" ! Dir/LR
 ушул DET-DEM ; ! "this (visible)"
-ушу DET-DEM ; ! "this (visible)" ! Dir/LR
+ушул:ушу DET-DEM ; ! "this (visible)" ! Dir/LR
 ал DET-DEM ; ! "that"
-тигил DET-DEM ; ! "that (yonder)" ! Dir/LR
+тиги:тигил DET-DEM ; ! "that (yonder)" ! Dir/LR
 тиги DET-DEM ; ! "that (yonder)"
+кай DET-DEM ; ! "which"
 
 айрым DET-IND ; ! "other"
 ушундай DET-IND ; ! "this kind of"
@@ -1199,6 +1200,7 @@ LEXICON Determiners
 канча DET-QNT ; ! "how many"  ! FIXME: not <itg> somehow?
 канчалык DET-QNT ; ! "how many"  ! FIXME: this is really an adverb
 
+кайсы PRON-ITG ;  ! FIXME: why ITG if next is DEM?
 кайсыл:кайсы DET-DEM ; ! "which?" ! FIXME: need morph to fix
 
 кайсы% бир DET-IND ;
@@ -1212,7 +1214,7 @@ LEXICON Determiners
 анчалык DET-QNT ;
 бардык DET-QNT ;
 ар% ким DET-IND ;
-кайсы% бир DET-IND ;
+! кайсы% бир DET-IND ;
 бирдей DET-IND ;
 ушунчалык DET-QNT ;
 бир% катар DET-QNT ;
@@ -1250,7 +1252,12 @@ LEXICON Pronouns
 ! ал% жак PRON-DEM ;   ! compositional
 !жер PRON-DEM ;
 !жак PRON-DEM ;
-каяк PRON-DEM ; ! "where" +POSSESSION +CASES, etc. ! FIXME: = кай + жак
+!кай% жак PRON-DEM ; ! "where" +POSSESSION +CASES, etc.
+
+бул%<det%>%<dem%>+жак%<n%>:быяк POSSESSION ; ! "here"
+ал%<det%>%<dem%>+жак%<n%>:аяк POSSESSION ; ! "there"
+кай%<det%>%<dem%>+жак%<n%>:каяк POSSESSION ; ! "where"
+
 
 кимдир% бирөө PRON-IND ; ! "someone" TODO: Check
 айрым PRON-IND ; ! "other"
@@ -1264,10 +1271,9 @@ LEXICON Pronouns
 көптөгөн PRON-QNT ; ! "many"
 
 бири-бир PRON-RECIP ; ! "each other, one another"
-ал% жак PRON-DEM ;
-кайсы% жер PRON-ITG ; 
+! ал% жак PRON-DEM ;
+! кайсы% жер PRON-ITG ; 
 эмне PRON-ITG ;
-кайсы PRON-ITG ;
 бирин-бири PRON-RECIP ;   ! CHECK
 тиги PRON-DEM ;
 
@@ -3789,7 +3795,7 @@ LEXICON NounStems
 буудай N-INFL ; 
 буу N-INFL ; 
 булут N-INFL ; 
-бул% жак N-INFL ; 
+! бул% жак N-INFL ; 
 жылдыз N-INFL ; 
 бюрократия N-INFL ; 
 стипендия N-INFL ; 
@@ -3871,7 +3877,7 @@ LEXICON NounStems
 жыныс N-INFL ; 
 жыңалач N-INFL ; 
 чырак N-INFL ; 
-жак N-INFL ; 
+! жак N-INFL ; 
 чийин N-INFL ; 
 көптүк N-INFL ; 
 көпчүлүк N-INFL ; 
@@ -4535,7 +4541,7 @@ LEXICON NounStems
 жүз N-INFL ;
 бет N-INFL ;
 кеңешме N-INFL ;
-жак N-INFL ;
+! жак N-INFL ;
 чогулуш N-INFL ;
 күнөө N-INFL ;
 жергиликтүү N-INFL ;
@@ -6374,6 +6380,9 @@ kanal N-INFL ;
 периште N-INFL ; ! "angel"
 орозо N-INFL ; ! "fast"
 күйөө N-INFL ; ! "husband"
+калп N-INFL ; ! "falsehood/lie"
+жамгыр N-INFL ; ! "rain"
+кудук N-INFL ; ! "well"
 
 LEXICON PropernounStems
 Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
@@ -6420,6 +6429,7 @@ LEXICON PropernounStems
 Рим NP-TOP ; ! "Rome"
 Кашкар NP-TOP ; ! "Qashgar"
 Жалалабат NP-TOP ;
+Канан NP-TOP ; ! "Canaan"
 
 
 Кыргыз% ССР NP-TOP-ASSR ;
@@ -6745,6 +6755,8 @@ Tеңир NP-TOP ; ! ""
 Исав NP-ANT-M ; ! "Esaw"  ! FIXME: check
 Бенжамин NP-ANT-M ; ! "Benjamin"
 Амос NP-ANT-M ; ! "Amos"
+Жунус NP-ANT-M ; ! "Jonah"
+Филип NP-ANT-M ; ! "Philip"
 
 Мария NP-ANT-F ; ! "Marija"
 Юлия NP-ANT-F ; ! "Julija"
@@ -9782,6 +9794,9 @@ LEXICON VerbStems
 ыргыт V-INFL-TV ; ! "throw/chuck"
 жакшылап V-INFL-IV ; ! "do well"
 уурда V-INFL-TV ; ! "steal"
+айык V-INFL-IV ; ! "heal"  ! айыктыр caus
+куй V-INFL-TV ; ! "pour"
+суз V-INFL-TV ; ! "scoop"
 
 
 кант:кант%{e%} V-INFL-IV ;  ! "how to do" ! FIXME: make work properly
