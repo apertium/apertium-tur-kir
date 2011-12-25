@@ -144,7 +144,7 @@ class Source(object):
 
 		sys.stdout.write(".")
 		sys.stdout.flush()
-		if not root:
+		if root is None:
 			if os.path.isfile(self.path):
 				self.root = etree.parse(self.path).getroot()
 			else:
