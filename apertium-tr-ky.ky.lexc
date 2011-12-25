@@ -1199,6 +1199,7 @@ LEXICON Determiners
 көптөгөн DET-QNT ; ! "many"
 канча DET-QNT ; ! "how many"  ! FIXME: not <itg> somehow?
 канчалык DET-QNT ; ! "how many"  ! FIXME: this is really an adverb
+бүтүн DET-QNT ; ! "entire"
 
 кайсы PRON-ITG ;  ! FIXME: why ITG if next is DEM?
 кайсыл:кайсы DET-DEM ; ! "which?" ! FIXME: need morph to fix
@@ -4658,7 +4659,7 @@ LEXICON NounStems
 тур N-INFL ;
 дүң N-INFL ;
 топ N-INFL ;
-!бүтүн N-INFL ; ! ADJ
+! бүтүн N-INFL ; ! ADJ
 мүчөө N-INFL ;
 азчылык N-INFL ;
 бөлүк N-INFL ;
@@ -7377,7 +7378,7 @@ LEXICON AdjecStems
 чоң ADJ ; 
 бийик ADJ ; 
 жетиштүү ADJ ; 
-бүтүн ADJ ; 
+! бүтүн ADJ ; 
 бүткүл ADJ ;
 бүт ADJ ;
 аскердик ADJ ; 
@@ -7444,7 +7445,7 @@ LEXICON AdjecStems
 конститутсиялык ADJ ; 
 таасирдүү ADJ ; 
 тартыш ADJ ; 
-!бүтүн ADJ ; 
+! бүтүн ADJ ; 
 күмөндүү ADJ ; 
 эркек ADJ ; 
 мамлекеттик ADJ ; 
@@ -8501,7 +8502,7 @@ LEXICON AdvStems
 кыска% убакта ADV ;
 түздөн-түз ADV ;
 тип-тик ADV ;
-бүтүндөй ADV ;
+! бүтүндөй ADV ;
 кичине ADV ;
 апачык ADV ;
 күтүүсүздөн ADV ;	
@@ -9978,7 +9979,7 @@ LEXICON TO-REMOVE
 жалпы N-INFL ; ! Dir/RL
 документалдуу% тасма N-INFL ; ! Dir/RL
 гелин N-INFL ; ! Dir/RL
-бүтүн N-INFL ; ! Dir/RL
+! бүтүн N-INFL ; ! Dir/RL
 бири-бир N-INFL ; ! Dir/RL
 бирдей N-INFL ; ! Dir/RL
 башкы% эпископ N-INFL ; ! Dir/RL ! FIXME: compositional
