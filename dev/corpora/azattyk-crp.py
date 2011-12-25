@@ -27,7 +27,7 @@ topics = {392: "ky-kyrgyzstan",
 
 startyear = 2009 # 2006
 endyear = 2009
-minmonth = 9 # 1
+minmonth = 1 # 1
 maxmonth = 12 # 12
 
 def get_urls(monthurl):  # get the URLS for a given month
@@ -110,9 +110,9 @@ def main():
 			source = Source(url, title=title, scraper=ScraperAzattyk, conn=conn)
 			source.makeRoot("./", ids=ids, root=root)
 			source.add_to_archive()
-			if not ids:
+			if ids is None:   # if not ids:
 				ids = source.ids
-			if not root:
+			if root is None:  # if not root:
 				root = source.root
 
 		except Exception as e:

@@ -3,6 +3,8 @@ import lxml.html
 import lxml.html.clean
 from urllib import request
 from hashlib import sha1
+#import time.sleep
+from time import sleep
 
 class Scraper(object):
 	
@@ -15,15 +17,25 @@ class Scraper(object):
 	def get_content(self):
 		if self.conn != None:
 			self.conn.request("GET", self.url)
+			sleep(0.5)
 			res = self.conn.getresponse()
 			if res.status != 200:
 				print("\r", self.url, res.status, res.reason)
-				return
+				self.reconnect()
+				return False
 			self.content = res.read().decode('utf-8')
 		else:
 			self.content = request.urlopen(self.url).read().decode('utf-8')
-		self.doc = lxml.html.fromstring(self.content)
+		towrite = lxml.html.fromstring(self.content)
+		if towrite is not None:
+			self.doc = towrite
+			return True
+		else:
+			return False
 
+	def reconnect(self):
+		self.conn.close()
+		self.conn.connect()
 
 
 class ScraperKloop(Scraper):
@@ -58,25 +70,25 @@ class ScraperAzattyk(Scraper):
 	rePagecode = re.compile("\/([0-9]*)\.html?")
 
 	def scraped(self):
-		self.get_content()
-		#print(self.doc)
-		el = ""
-		for el in self.doc.find_class('zoomMe'):
-			pass
-		if el == "":
-			for ela in self.doc.find_class('boxwidget_part'):
-				if "id" in ela.attrib:
-					if ela.attrib['id'] == "descText":
-						el = ela
-		if el != "":
-			cleaned = lxml.html.document_fromstring(lxml.html.clean.clean_html(lxml.html.tostring(el).decode('utf-8')))
-			#for className in self.badClasses:
-			#	for el in cleaned.find_class(className):
-			#		el.getparent().remove(el)
-			#print(cleaned.text_content())
-			return cleaned.text_content()
-		else:
-			return ""
+		if self.get_content():
+			#print(self.doc)
+			el = ""
+			for el in self.doc.find_class('zoomMe'):
+				pass
+			if el == "":
+				for ela in self.doc.find_class('boxwidget_part'):
+					if "id" in ela.attrib:
+						if ela.attrib['id'] == "descText":
+							el = ela
+			if el != "":
+				cleaned = lxml.html.document_fromstring(lxml.html.clean.clean_html(lxml.html.tostring(el).decode('utf-8')))
+				#for className in self.badClasses:
+				#	for el in cleaned.find_class(className):
+				#		el.getparent().remove(el)
+				#print(cleaned.text_content())
+				return cleaned.text_content()
+			else:
+				return ""
 
 	def url_to_aid(self, url):
 		if self.rePagecode.search(url):
