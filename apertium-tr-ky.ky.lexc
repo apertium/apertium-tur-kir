@@ -1254,9 +1254,9 @@ LEXICON Pronouns
 !жак PRON-DEM ;
 !кай% жак PRON-DEM ; ! "where" +POSSESSION +CASES, etc.
 
-бул%<det%>%<dem%>+жак%<n%>:быяк POSSESSION ; ! "here"
-ал%<det%>%<dem%>+жак%<n%>:аяк POSSESSION ; ! "there"
-кай%<det%>%<dem%>+жак%<n%>:каяк POSSESSION ; ! "where"
+бул%<det%>%<dem%>%+жак%<n%>:быяк POSSESSION ; ! "here"
+ал%<det%>%<dem%>%+жак%<n%>:аяк POSSESSION ; ! "there"
+кай%<det%>%<dem%>%+жак%<n%>:каяк POSSESSION ; ! "where"
 
 
 кимдир% бирөө PRON-IND ; ! "someone" TODO: Check
