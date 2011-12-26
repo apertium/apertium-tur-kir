@@ -135,7 +135,7 @@ class Source(object):
 		sys.stdout.flush()
 		#print(self.ids)
 
-	def makeRoot(self, outdir, ids=None, root=None):
+	def makeRoot(self, outdir, ids=None, root=None, lang="ky"):
 		sys.stdout.write("\r.")
 		sys.stdout.flush()
 		self.outdir = outdir
@@ -148,7 +148,7 @@ class Source(object):
 			if os.path.isfile(self.path):
 				self.root = etree.parse(self.path).getroot()
 			else:
-				self.root = etree.Element("corpus", xmlns="http://apertium.org/xml/corpus/0.9", language="ky", name=self.scraper.prefix)
+				self.root = etree.Element("corpus", xmlns="http://apertium.org/xml/corpus/0.9", language=lang, name=self.scraper.prefix)
 		else:
 			self.root = root
 		if not ids:
@@ -160,13 +160,18 @@ class Source(object):
 
 	
 
-	def add_to_archive(self):
+	def add_to_archive(self, msg=None):
 		scraper = self.scraper(self.url, conn=self.conn)
 		self.aid = scraper.aid
 		self.entry_id = self.scraper.prefix +"."+ self.aid
 		if self.entry_id not in self.ids:
 			#print("Adding...", end=" ")
-			sys.stdout.write("\rAdding %s ." % self.url)
+			sys.stdout.write("\r")
+			if msg is not None:
+				sys.stdout.write(msg+" ")
+			#else:
+			#	sys.stdout.write("\r")
+			sys.stdout.write("Adding %s ." % self.url)
 			sys.stdout.flush()
 			self.out_content = scraper.scraped()
 			sys.stdout.write(".")

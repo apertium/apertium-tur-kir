@@ -20,7 +20,9 @@ class Scraper(object):
 			sleep(0.5)
 			res = self.conn.getresponse()
 			if res.status != 200:
-				print("\r", self.url, res.status, res.reason)
+				#print("\r", self.url, res.status, res.reason)
+				#sys.stdout.write("\n\n\r\n", self.url, res.status, res.reason)
+				print(res.status, res.reason)
 				self.reconnect()
 				return False
 			self.content = res.read().decode('utf-8')
@@ -95,6 +97,41 @@ class ScraperAzattyk(Scraper):
 			return self.rePagecode.search(url).groups()[0]
 		else:
 			return sha1(url.encode('utf-8')).hexdigest()
+
+class ScraperAzattyq(Scraper):
+	domain = "www.azattyq.org"
+	prefix = "rferl"
+	rePagecode = re.compile("\/([0-9]*)\.html?")
+
+	def scraped(self):
+		if self.get_content():
+			#print(self.doc)
+			el = ""
+			#for el in self.doc.find_class('zoomMe'):
+			for el in self.doc.find_class('articleContent'):
+				pass
+			#if el == "":
+			#	for ela in self.doc.find_class('boxwidget_part'):
+			#		if "id" in ela.attrib:
+			#			if ela.attrib['id'] == "descText":
+			#				el = ela
+			if el != "":
+				cleaned = lxml.html.document_fromstring(lxml.html.clean.clean_html(lxml.html.tostring(el).decode('utf-8')))
+				#for className in self.badClasses:
+				#	for el in cleaned.find_class(className):
+				#		el.getparent().remove(el)
+				#print(cleaned.text_content())
+				return cleaned.text_content()
+			else:
+				return ""
+
+	def url_to_aid(self, url):
+		if self.rePagecode.search(url):
+			return self.rePagecode.search(url).groups()[0]
+		else:
+			return sha1(url.encode('utf-8')).hexdigest()
+
+
 
 class ScraperTRT(Scraper):
 	domain = "www.trtkyrgyz.com"
