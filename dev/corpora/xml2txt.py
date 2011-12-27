@@ -21,7 +21,7 @@ for fn in files:
 		print("Adding content from "+fn)
 		root = etree.parse(fn).getroot()
 		for item in root.getiterator("{http://apertium.org/xml/corpus/0.9}entry"):
-			output.write(item.text)
+			output.write(item.attrib['title']+'\n'+item.text+'\n\n')
 
 output.close()
 print("Done.")

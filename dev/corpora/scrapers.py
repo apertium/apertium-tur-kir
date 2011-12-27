@@ -102,32 +102,94 @@ class ScraperAzattyq(Scraper):
 	domain = "www.azattyq.org"
 	prefix = "rferl"
 	rePagecode = re.compile("\/([0-9]*)\.html?")
+	rePagecode2 = re.compile("\?id=([0-9]*)")
 
 	def scraped(self):
 		if self.get_content():
 			#print(self.doc)
 			el = ""
 			#for el in self.doc.find_class('zoomMe'):
-			for el in self.doc.find_class('articleContent'):
-				pass
+			#print(str(self.doc.find_class('introText')))
+			if len(self.doc.find_class('article_txt_intro')) > 0:
+				introels = self.doc.find_class('article_txt_intro')
+			else:
+				introels = None
+			if len(self.doc.find_class('articleContent')) > 0:
+				for el in self.doc.find_class('articleContent'):
+					pass
+				#print(str(el))
+				if lxml.html.clean.clean_html(lxml.html.tostring(el).decode('utf-8')) != "":
+				#if el. is None:
+					#if self.doc.get_element_by_id('introText'):
+					try:
+						el = self.doc.get_element_by_id('introText')
+					except KeyError:
+						pass
+					#print("INTROTEXT")
+			else:
+				el = self.doc.get_element_by_id('introText')
+				#print("INTROTEXT")
+			#elif len(self.doc.find_class('introText')) > 0:
+			#	for el in self.doc.find_class('introText'):
+			#		pass
 			#if el == "":
 			#	for ela in self.doc.find_class('boxwidget_part'):
 			#		if "id" in ela.attrib:
 			#			if ela.attrib['id'] == "descText":
 			#				el = ela
-			if el != "":
+			if el != "" and el != None:
+				#to_return = ""
 				cleaned = lxml.html.document_fromstring(lxml.html.clean.clean_html(lxml.html.tostring(el).decode('utf-8')))
-				#for className in self.badClasses:
-				#	for el in cleaned.find_class(className):
-				#		el.getparent().remove(el)
-				#print(cleaned.text_content())
-				return cleaned.text_content()
+				for style in cleaned.findall(".//style"):
+					style.drop_tree()
+				#for p in el.iter("p"):
+					#cleaned = lxml.html.document_fromstring(lxml.html.clean.clean_html(lxml.html.tostring(el, pretty_print=True).decode('utf-8')))
+					##print(cleaned.text_content)
+					##cleaned = cleaned.
+				#for br in cleaned.xpath('//br'):
+				for br in cleaned.findall(".//br"):
+					if br.tail:
+						br.tail="\n"+br.tail
+					else:
+						br.tail="\n"
+					#print(br.tail)
+				#for p in cleaned.xpath('//p'):
+				for p in cleaned.findall('.//p'):
+					if p.tail:
+						p.tail="\n"+p.tail
+					else:
+						p.tail="\n"
+					#print(p)
+				##to_return += cleaned.text_content()+"\n"
+				to_return = cleaned.text_content()+"\n"
+				toadd = ""
+				if introels is not None:
+					for introel in introels:
+						toadd += introel.text_content()+"\n"
+				to_return = toadd + to_return
+				#print(to_return)
+				##for className in self.badClasses:
+				##	for el in cleaned.find_class(className):
+				##		el.getparent().remove(el)
+				##print(cleaned.text_content())
+				#return cleaned.text_content()
+				to_return = re.sub('\n\n\n*', '\n', to_return)
+				to_return = to_return.strip('\n')
+				return to_return
 			else:
 				return ""
 
 	def url_to_aid(self, url):
 		if self.rePagecode.search(url):
-			return self.rePagecode.search(url).groups()[0]
+			idsofar = self.rePagecode.search(url).groups()[0]
+			if idsofar!="330":
+				return idsofar
+			else:
+				if self.rePagecode2.search(url):
+					idsofar = self.rePagecode2.search(url).groups()[0]
+					return idsofar
+				else:
+					return sha1(url.encode('utf-8')).hexdigest()
 		else:
 			return sha1(url.encode('utf-8')).hexdigest()
 
