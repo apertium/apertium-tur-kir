@@ -87,7 +87,7 @@ Multichar_Symbols
 %<sup%>	    ! Superlative level of comparison 
 %<ord%>     ! Ordinal
 %<apprx%>   ! Approximal
-%<ki%>      ! -KI suffix, adjectivaliser
+%<attr%>    ! -KI suffix, adjectivaliser
 
 %<pass%>    ! Passive
 %<caus%>    ! Causative
@@ -397,7 +397,7 @@ LEXICON ADJ-ORD
 
 LEXICON ADJ-KI
 
-%<ki%>:%>%{K%}%{I%} ADJ-COMMON ;
+%<attr%>:%>%{K%}%{I%} ADJ-COMMON ;
 
 LEXICON ADV-ITG
 
