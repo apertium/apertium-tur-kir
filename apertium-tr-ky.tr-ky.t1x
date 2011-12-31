@@ -435,6 +435,7 @@
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
       <attr-item tags="n.ki"/>
+      <attr-item tags="n.attr"/>
       <attr-item tags="n.unc"/>
       <attr-item tags="np"/>
       <attr-item tags="np.top"/>
