@@ -543,7 +543,7 @@
       <attr-item tags="abl"/>
       <attr-item tags="gen"/>
       <attr-item tags="loc"/>
-      <attr-item tags="rloc"/>
+      <attr-item tags="locattr"/>
       <attr-item tags="loc.ki"/>
     </def-attr>
 
@@ -612,22 +612,22 @@
           <test>
             <and>
               <equal><clip pos="1" side="sl" part="case"/><lit v=""/></equal>
-              <not><equal><clip pos="1" side="tl" part="case"/><lit-tag v="rloc"/></equal></not>
+              <not><equal><clip pos="1" side="tl" part="case"/><lit-tag v="locattr"/></equal></not>
             </and>
           </test>
           <let><var n="c_case"/><lit-tag v="nom"/></let>
         </when>
         <when>
           <test>
-            <equal><clip pos="1" side="tl" part="case"/><lit-tag v="rloc"/></equal>
+            <equal><clip pos="1" side="tl" part="case"/><lit-tag v="locattr"/></equal>
           </test>
-          <let><var n="c_case"/><lit-tag v="rloc"/></let>
+          <let><var n="c_case"/><lit-tag v="locattr"/></let>
         </when>
         <when>
           <test>
             <equal><clip pos="1" side="sl" part="case"/><lit-tag v="loc.ki"/></equal>
           </test>
-          <let><var n="c_case"/><lit-tag v="rloc"/></let>
+          <let><var n="c_case"/><lit-tag v="locattr"/></let>
         </when>
         <when>
           <test>
