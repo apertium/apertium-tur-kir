@@ -57,7 +57,7 @@
      <sdef n="mf"        c="Masculine / feminine"/>
 
      <sdef n="ki"        c="-kI"/>
-     <sdef n="rloc"      c="Relative locative"/>
+     <sdef n="locattr"      c="Relative locative"/>
 
      <sdef n="sg"        c="Singular"/>
      <sdef n="pl"        c="Plural"/>
@@ -453,7 +453,7 @@
 	<e c="  0"><p><l>amir<s n="n"/></l><r>эмир<s n="n"/></r></p></e>
 	<e c="  0"><p><l>anahtar<s n="n"/></l><r>ачкыч<s n="n"/></r></p></e>
 	<e c="  0"><p><l>anane<s n="n"/></l><r>тай<b/>эне<s n="n"/></r></p></e>
-	<e c="  0"><p><l>an<s n="n"/><s n="ki"/></l><r>убак<s n="n"/><s n="rloc"/></r></p></e>
+	<e c="  0"><p><l>an<s n="n"/><s n="ki"/></l><r>убак<s n="n"/><s n="locattr"/></r></p></e>
 	<e c="  0"><p><l>an<s n="n"/></l><r>убак<s n="n"/></r></p></e>
         <e slr="1"><p><l>an<s n="n"/></l><r>маал<s n="n"/></r></p></e>
         <e slr="2"><p><l>an<s n="n"/></l><r>учур<s n="n"/></r></p></e>
