@@ -1171,6 +1171,7 @@ LEXICON Postpositions
 сыяктуу POST-DECL ;
 ! ортосунда POST ;
 ! үстүндө POST ;
+көздөй POST ; ! "towards" (+ACC)
 
 LEXICON Determiners
 
@@ -7886,7 +7887,6 @@ LEXICON AdjecStems
 ызгардуу ADJ ;
 атчан ADJ ; ! "on horseback"
 наркотик ADJ ;
-катуу ADJ ;
 жагымдуу ADJ ;
 болочок ADJ ;
 жартылай ADJ ;
@@ -7898,7 +7898,6 @@ LEXICON AdjecStems
 бачым ADJ ;
 далай ADJ ;
 көнүмүш ADJ ;
-катуу ADJ ;
 бөлүңөн ADJ ;
 өлкө% ичи ADJ ;
 ташылган ADJ ;
@@ -8272,6 +8271,7 @@ LEXICON AdvStems
 кээде ADV ; ! "sometimes"
 жакында ADV ; ! "soon"
 бирге ADV ; ! "together"
+катуу ADV ; ! "fast/quickly (with verbs of motion), strongly"
 
 негизинде ADV ; ! "basically, in general"
 эртеси ADV ; 
