@@ -122,6 +122,8 @@ morph-tr/phon/phon+bm.fst -text
 morph-tr/phon/phon.fst -text
 morph-tr/symbols.fst -text
 morph-tr/trmorph.fst -text
+morph-tr/turkish.py -text
+morph-tr/unknown -text
 morph-tr/update-static-files.sh -text
 morph-tr/version.fst -text
 morph-tr/vinfl.fst -text
