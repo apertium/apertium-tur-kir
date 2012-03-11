@@ -67,12 +67,6 @@ dev/midterm/article.tr-ky.2011-08-13.txt -text svneol=unset#application/octet-st
 dev/midterm/article.tr-ky.2011-08-17.txt -text svneol=unset#application/octet-stream
 dev/midterm/article.tr.txt -text
 dev/missing-bidix-freq.sh -text
-dev/paper/Makefile -text
-dev/paper/abstract.tex -text
-dev/paper/lrec2006.bst -text
-dev/paper/lrec2006.sty -text
-dev/paper/paper.bib -text
-dev/paper/paper.tex -text
 dev/turmorph-conv-status.txt -text
 dev/verb-patterns.txt -text
 /ky-tr.prob -text svneol=unset#unset
