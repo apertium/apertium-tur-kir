@@ -87,7 +87,7 @@
       <program name="lt-proc -b">
         <file name="tur-kir.autobil.bin"/>
       </program>
-      <program name="apertium-transfer">
+      <program name="apertium-transfer -b">
         <file name="apertium-tur-kir.tur-kir.t1x"/>
         <file name="tur-kir.t1x.bin"/>
       </program>
