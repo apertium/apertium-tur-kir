@@ -5,12 +5,12 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-tr-ky.ky-tr.rlx -text
-/apertium-tr-ky.ky.lexc -text
-/apertium-tr-ky.ky.twol -text
-/apertium-tr-ky.tr-ky.dix -text
-/apertium-tr-ky.tr-ky.rlx -text
-/apertium-tr-ky.tr-ky.t1x -text
+/apertium-tur-kir.ky-tr.rlx -text
+/apertium-tur-kir.ky.lexc -text
+/apertium-tur-kir.ky.twol -text
+/apertium-tur-kir.tur-kir.dix -text
+/apertium-tur-kir.tur-kir.rlx -text
+/apertium-tur-kir.tur-kir.t1x -text
 /autogen.sh -text
 /configure.ac -text
 /countstems.sh -text
@@ -138,6 +138,6 @@ tests/ky-verbsaux.yaml -text
 tests/ky-verbsimp.yaml -text
 tests/ky-verbsopt.yaml -text
 tests/run-tests.sh -text
-/tr-ky.prob -text svneol=unset#unset
+/tur-kir.prob -text svneol=unset#unset
 /update-trmorph.py -text
 /wiki-tests.sh -text
