@@ -12,12 +12,6 @@
       <cat-item tags="n"/>
     </def-cat>
 
- 
-    <def-cat n="np_apos">
-      <cat-item lemma="*" tags="np.apos"/>
-      <cat-item lemma="*" tags="np.apos.*"/>
-    </def-cat>
-
     <def-cat n="saye">
       <cat-item lemma="saye" tags="n.p3s.loc"/>
       <cat-item lemma="saye" tags="n.p3p.loc"/>
@@ -25,7 +19,6 @@
  
     <def-cat n="ile">
       <cat-item lemma="ile" tags="*"/>
-      <cat-item lemma="ila" tags="*"/>
     </def-cat>
        
     <def-cat n="birbiri">
@@ -39,11 +32,8 @@
     </def-cat>
      
     <def-cat n="qst">
-      <cat-item lemma="mi" tags="q"/>
-      <cat-item lemma="mi" tags="q.*"/>
-      <cat-item lemma="*" tags="q"/>
-      <cat-item lemma="*" tags="q.*"/>
-      <cat-item tags="q.*"/>
+      <cat-item lemma="mi" tags="qst"/>
+      <cat-item lemma="mi" tags="qst.*"/>
     </def-cat>
       
     <def-cat n="v_exist">
@@ -323,13 +313,13 @@
     </def-cat>
      
     <def-cat n="v_neg_past">
-      <cat-item tags="v.neg.t_past.*"/>
-      <cat-item tags="v.neg.*.t_past.*"/>
+      <cat-item tags="v.neg.past.*"/>
+      <cat-item tags="v.neg.*.past.*"/>
     </def-cat>
  
     <def-cat n="v_past">
-      <cat-item tags="v.t_past.*"/>
-      <cat-item tags="v.*.t_past.*"/>
+      <cat-item tags="v.past.*"/>
+      <cat-item tags="v.*.past.*"/>
     </def-cat>
      
     <def-cat n="v_oblig">
@@ -654,7 +644,7 @@
         </when>
         <when>
           <test>
-            <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_past"/></equal>
+            <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="past"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="tens"/><lit-tag v="ifi"/></let>
           <let><var n="c_tens"/><lit-tag v="ifi"/></let>
@@ -788,6 +778,8 @@
 
     <def-macro n="f_conv_pers_tens1" npar="1">
       <let><var n="c_pers"/><lit v=""/></let>
+      <let><var n="c_pers"/><concat><clip pos="1" side="sl" part="pers"/><clip pos="1" side="sl" part="nbr"/></concat></let>
+
       <call-macro n="f_conv_tens1">
         <with-param pos="1"/>
       </call-macro>
@@ -851,7 +843,7 @@
             </when>
           </choose>
         </when>
-        <otherwise> -->
+        <otherwise> 
           <choose>
             <when>
               <test>
@@ -890,11 +882,13 @@
               <let><var n="c_pers"/><lit-tag v="p3.pl"/></let>
             </when>
           </choose>
-<!--        </otherwise>
+        </otherwise>
       </choose>-->
     </def-macro>  
 
     <def-macro n="f_conv_pers1" npar="1">
+      <let><var n="c_pers"/><concat><clip pos="1" side="sl" part="pers"/><clip pos="1" side="sl" part="nbr"/></concat></let>
+<!--
       <choose>
         <when>
           <test>
@@ -937,6 +931,7 @@
           <let><var n="c_pers"/><lit v=""/></let>
         </otherwise>
       </choose>
+-->
     </def-macro>  
 
 
@@ -1114,65 +1109,7 @@
         </out>
       </action>
     </rule>
- 
-    <rule comment="regla: np_acr">
-      <pattern>
-        <pattern-item n="np_acr"/>
-        <pattern-item n="np_apos"/>
-      </pattern>
-      <action>
-        <call-macro n="f_conv_case1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="f_conv_poss1">
-          <with-param pos="1"/>
-        </call-macro>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="gen"/>
-<!-- while overgeneration is taking place, don't output the case
-            <clip pos="1" side="tl" part="nbr"/>
-            <var n="c_poss"/>
-            <var n="c_case"/>
--->
-            <lit-tag v="nom"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-          <var n="c_post"/>
-        </out>
-      </action>
-    </rule>
- 
- 
-    <rule comment="regla: nom np_apos">
-      <pattern>
-        <pattern-item n="nom"/>
-        <pattern-item n="np_apos"/>
-      </pattern>
-      <action>
-        <call-macro n="f_conv_case1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="f_conv_poss1">
-          <with-param pos="2"/>
-        </call-macro>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <var n="c_poss"/>
-            <var n="c_case"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-          <var n="c_post"/>
-        </out>
-      </action>
-    </rule>
- 
+
     <rule comment="regla: birbiri">
       <pattern>
         <pattern-item n="birbiri"/>

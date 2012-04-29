@@ -21,6 +21,8 @@ Multichar_Symbols
 
 %<pred%>      ! Predicate
 %<subst%>     ! Substantive
+%<attr%>      ! Attributive
+%<advl%>      ! Adverbial
 
 %<pers%>      ! Personal
 %<ord%>       ! Ordinal
@@ -59,7 +61,6 @@ Multichar_Symbols
 %<abl%>       ! Ablative
 %<ins%>       ! Instrumental
 
-%<attr%>      ! Attributive: -{k}{I}
 
 %<px1sg%>     ! First person singular possessive
 %<px2sg%>     ! Second person singular possessive
@@ -334,6 +335,7 @@ LEXICON SUBST
 
 # ;
 clit-cop ;
+%<advl%>: # ;
 %<attr%>: clit-cop ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
 !%<n%>%<attr%>:%>k%{I%} # ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
 !%<n%>%<attr%>:%>k%{I%} NINFL-COMMON ; ! This is the attribute adjective 0 derived into a noun, TRmorph <ki>
@@ -904,6 +906,32 @@ ki:ki CS ; ! "that"
 
 LEXICON Postpositions
 
+ile:ile POST ; ! "with"
+doğru:doğru POST ; ! "towards"
+karşı:karşı POST ; ! "against"
+sonra:sonra POST ; ! "after"
+dolayı:dolayı POST ; ! "because of"
+beri:beri POST ; ! "since"
+itibaren:itibaren POST ; ! "from ... on"
+göre:göre POST ; ! "according to"
+kadar:kadar POST ; ! "as much as"
+gibi:gibi POST ; ! "like, as"
+ait:ait POST ; ! ""
+başka:başka POST ; ! ""
+bile:bile POST ; ! ""
+birlikte:birlikte POST ; ! ""
+boyunca:boyunca POST ; ! ""
+dair:dair POST ; ! ""
+değin:değin POST ; ! ""
+ötürü:ötürü POST ; ! ""
+rağmen:rağmen POST ; ! ""
+süresince:süresince POST ; ! ""
+üzere:üzere POST ; ! ""
+ilgili:ilgili POST ; ! ""
+karşın:karşın POST ; ! ""
+halinde:halinde POST ; ! ""
+ilgiliydi:ilgiliydi POST ; ! ""
+yukarı:yukarı POST ; ! ""
 
 LEXICON Pronouns
 
@@ -4535,6 +4563,7 @@ Moskova:Moskova NP-TOP ; ! ""
 Polonya:Polonya NP-TOP ; ! ""
 Slovenya:Slovenya NP-TOP ; ! ""
 Almanya:Almanya NP-TOP ; ! ""
+Ahmet:Ahmet NP-ANT-M ; ! ""
 Washington:Washington NP-COG-MF ; ! ""
 Washington:Washington NP-COG-MF ; ! ""
 
@@ -5297,6 +5326,7 @@ et:e%{t%} VTVINFL-CAUS_DIR-AOR_AR ; ! "make"
 eş:eş VTVINFL-CAUS_DIR-AOR_AR ; ! "scratch"
 eş:eş VIVINFL-CAUS_DIR-AOR_AR ; ! "scratch"
 gel:gel VIVINFL-CAUS_IRREG-AOR_IR ; ! "come"
+git:gi%{t%} VIVINFL-CAUS_AR-AOR_AR ; ! "go"
 git:gi%{t%} VIVINFL-CAUS_AR-AOR_AR ; ! "go"
 iç:iç VTVINFL-CAUS_IR-AOR_AR ; ! "drink"
 kap:kap VTVINFL-CAUS_DIR-AOR_AR ; ! "snatch, seize, grab"
@@ -6367,6 +6397,7 @@ gezin:gezin VIVINFL-CAUS_DIR-AOR_IR ; ! "hang around"
 gider:gider VTVINFL-CAUS_DIR-AOR_IR ; ! "supply"
 gir:gir VIVINFL-CAUS_DIR-AOR_AR ; ! "enter"
 giriş:giriş VIVINFL-CAUS_DIR-AOR_IR ; ! "proceed"
+git:gi%{t%} VIVINFL-CAUS_DIR-AOR_AR ; ! "go"
 git:gi%{t%} VIVINFL-CAUS_DIR-AOR_AR ; ! "go"
 giy:giy VTVINFL-CAUS_DIR-AOR_AR ; ! "wear"
 gizle:gizle VTVINFL-CAUS_T-AOR_IR ; ! "hide"
