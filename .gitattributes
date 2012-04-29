@@ -5,9 +5,9 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-tur-kir.ky-tr.rlx -text
-/apertium-tur-kir.ky.lexc -text
-/apertium-tur-kir.ky.twol -text
+/apertium-tur-kir.kir-kur.rlx -text
+/apertium-tur-kir.kir.lexc -text
+/apertium-tur-kir.kir.twol -text
 /apertium-tur-kir.tur-kir.dix -text
 /apertium-tur-kir.tur-kir.rlx -text
 /apertium-tur-kir.tur-kir.t1x -text
@@ -69,7 +69,7 @@ dev/midterm/article.tr.txt -text
 dev/missing-bidix-freq.sh -text
 dev/turmorph-conv-status.txt -text
 dev/verb-patterns.txt -text
-/ky-tr.prob -text svneol=unset#unset
+/kir-tur.prob -text svneol=unset#unset
 /lexchoicebil.xsl -text
 /modes.xml -text
 morph-tr/Makefile.am -text
