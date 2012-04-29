@@ -3,6 +3,8 @@ Alphabet
 а б в г д е ё ж з и й к л м н ң о ө п р с т у ү ф х ц ч ш щ ь ы ъ э ю я
 %{G%}:г %{D%}:д %{N%}:н %{L%}:л %{B%}:б %{P%}:п %{S%}:с %{n%}:н %{l%}:л
 %{A%}:а %{I%}:ы %{U%}:у %{E%}:а %{e%}:0 %{K%}:к %{y%}:0
+M C L X V I
+%+ 
 %>:0 %  ; 
 
 Sets
@@ -36,8 +38,8 @@ Vow =     А Е Ё И О Ө У Ү Ы Э Ю Я
 SurVow = А Е Ё И О Ө У Ү Ы Э Ю Я
          а е ё и о ө у ү ы э ю я ; 
 
-FrontVow = И Ө Е Ү Э и ө ү э е ;
-BackVow = А О У Ы а о у ы Я я Ю ю ;
+FrontVow = И Ө Е Ү Э и ө ү э е I V L C M ;
+BackVow = А О У Ы а о у ы Я я Ю ю X ;
 FrontUnrndVow = И Е Э и э е ; 
 BackUnrndVow = А Ы а ы Я я ;
 FrontRndVow = Ө Ү ө ү ;
@@ -182,19 +184,25 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
                                                      _ ( %>: ) %{U%}: ;
                           :LastVowel й:/[ :0 | %>: ] _ ;
                             [ %{e%}: :Cns* ]/[ %>: ] _ ;    ! Avoid conflict with irregular vowel harmony
-                                                     _ %{A%}:э ; ! so that AA = ээ, not ее
-                                             %{A%}:э _ ; ! so that AA = ээ, not ее
+!                                                     _ %{A%}: ; ! so that AA = ээ, not ее
+!                                              %{A%}: _ ; ! so that AA = ээ, not ее
+        [ [ :и | :е | :э ] :Cns* :Cns ]/[ :0 | %>: ] _ %{A%}: ;
+                                             %{A%}:э _ ; 
         where LastVowel in (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у  )
                      Vy in (  е  ө  е  е  ө  а  а  о  о  а  а  а  )
+!        where LastVowel in (  ү  ө  я  а  ё  о  ы  ю  у  )
+!                     Vy in (  ө  ө  а  а  о  о  а  а  а  )
+
                      matched ;
 
-"Vowel harmony for {A} so that AA becomes ээ"
+"Vowel harmony for {A} so that AA becomes ээ"  ! and not ее
 %{A%}:э <=> [ :LastVowel :Cns* :Cns ]/[ :0 | %>: ] _ %{A%}: ;
                  except
-                                                     _ ( %>: ) %{U%}: ;
+!                                                     _ ( %>: ) %{U%}: ;
                           :LastVowel й:/[ :0 | %>: ] _ ;
-                            [ %{e%}: :Cns* ]/[ %>: ] _ ;    ! Avoid conflict with irregular vowel harmony
+!                            [ %{e%}: :Cns* ]/[ %>: ] _ ;    ! Avoid conflict with irregular vowel harmony
         where LastVowel in (  и  е  э  ) ;
+! тез>{I}р{A}{A}к:тезирээк
 
 "Vowel harmony for {A} so that AA becomes ээ part 2"
 %{A%}:э <=> %{A%}:э _ ;
@@ -223,6 +231,8 @@ Cx:Cy <=>  [ :UnvoicedNonSonCns ]/[ [ :0 - %{n%}:0 ] | %>: ] _ ;
 "Irregular vowel harmony for archiphoneme {A}"
 %{A%}:Vy <=> [ :LastVowel :Cns* %{e%}: :Cns :Cns* ]/[ %>: ] _ ;
              [ :LastVowel :Cns* :Cns %{e%}: :Cns* ]/[ %>: ] _ ; 
+             except
+                                                            _ %{A%}: ;
   where  Vy  in  (  е  ө  е  е  ө  е  е  ө  ө  е  ө  ө )
   LastVowel  in  (  и  ү  е  э  ө  я  а  ё  о  ы  ю  у )
            matched ;

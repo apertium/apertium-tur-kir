@@ -17,12 +17,8 @@
      <sdef n="cnjsub"    c="Subordinating conjunction"/>
      <sdef n="cnjadv"    c="Adverbial conjunction"/>
      <sdef n="q"         c="Question particle"/>
-     <sdef n="mod_qst"       c="Question particle"/>
-     <sdef n="exist"     c="Existential"/>
      <sdef n="exi"       c="Existential"/>
-     <sdef n="nexist"    c="Not Exist"/>
      <sdef n="ref"       c="Reflexive"/>
-     <sdef n="not"       c="IS NOT"/>
      <sdef n="ant"       c="Anthroponym"/>
      <sdef n="cog"       c="Cognomen"/>
      <sdef n="pst"       c="Positive degree"/>
@@ -96,12 +92,7 @@
         <!-- SECTION: Particles -->
 
 
-	<e c="  0"><p><l>mi<s n="q"/></l><r>бы<s n="mod_qst"/></r></p></e>
-	<e c="  0" r="LR"><p><l>mı<s n="q"/></l><r>бы<s n="mod_qst"/></r></p></e>
-	<e c="  0" r="LR"><p><l>mü<s n="q"/></l><r>бы<s n="mod_qst"/></r></p></e>
-	<e c="  0" r="LR"><p><l>mu<s n="q"/></l><r>бы<s n="mod_qst"/></r></p></e>
-        <!--<e><p><l><s n="q"/></l><r><s n="q"/></r></p></e>-->
-
+	<e c="  0"><p><l>mi<s n="qst"/></l><r>бы<s n="qst"/></r></p></e>
 
 	<!-- SECTION: Interjections -->
     
@@ -114,6 +105,7 @@
 	<e slr="2"><p><l>peki<s n="ij"/></l><r>болуптур<s n="ij"/></r></p></e>
 	<e slr="3"><p><l>peki<s n="ij"/></l><r>анда<s n="ij"/></r></p></e>
 	<e slr="4"><p><l>peki<s n="ij"/></l><r>андай<b/>болсо<s n="ij"/></r></p></e>
+	<e c="  0"><p><l>hayır<s n="ij"/></l><r>жок<s n="ij"/></r></p></e>  
 	
 	 <!-- SECTION: Miscellaneous -->
         <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>эле<s n="postadv"/></r></p></e>
@@ -128,6 +120,7 @@
 	<e c="  0"><p><l>ama<s n="cnjcoo"/></l><r>бирок<s n="cnjcoo"/></r></p></e>
 	<e c="  0"><p><l>ile<s n="cnjcoo"/></l><r>менен<s n="cnjcoo"/></r></p></e>
  	<e c="  0"><p><l>fakat<s n="cnjadv"/></l><r>бирок<s n="cnjadv"/></r></p></e> 
+ 	<e c="  0"><p><l>fakat<s n="cnjcoo"/></l><r>бирок<s n="cnjadv"/></r></p></e> 
 	<e c="  0"><p><l>ve<s n="cnjadv"/></l><r>жана<s n="cnjadv"/></r></p></e> 
 	<e c="  0"><p><l>veya<s n="cnjadv"/></l><r>же<b/>болбосо<s n="cnjadv"/></r></p></e>
 	<e c="  0"><p><l>için<s n="cnjadv"/></l><r>үчүн<s n="cnjadv"/></r></p></e> 
@@ -137,13 +130,12 @@
 	<e c="  0"><p><l>olarak<s n="cnjsub"/></l><r>болуп<s n="cnjsub"/></r></p></e>
 	<e c="  0"><p><l>bile<s n="cnjadv"/></l><r>дагы<s n="adv"/></r></p></e> <!-- TODO: Check -->
 	
-	<e c="  0"><p><l>de<s n="cnjadv"/></l><r>да<s n="cnjcoo"/></r></p></e>
-	<e c="  0"><p><l>da<s n="cnjadv"/></l><r>да<s n="cnjcoo"/></r></p></e>
+	<e c="  0"><p><l>da<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
         <e c="  0"><p><l>ya<s n="cnjadv"/></l><r>га<s n="cnjadv"/></r></p></e>
    	<e c="  0"><p><l>ta<s n="cnjadv"/></l><r>да<s n="cnjadv"/></r></p></e>
         <e slr="1"><p><l>ta<s n="cnjadv"/></l><r>тээ<s n="cnjadv"/></r></p></e>
         <e c="  0"><p><l>ila<s n="cnjcoo"/></l><r>менен<s n="cnjcoo"/></r></p></e>
-        <e c="  0"><p><l>ya<b/>da<s n="cnjadv"/></l><r>же<b/>болбосо<s n="cnjadv"/></r></p></e>
+        <e c="  0"><p><l>ya<b/>da<s n="cnjcoo"/></l><r>же<b/>болбосо<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>zira<s n="cnjadv"/></l><r>анткени<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>yani<s n="cnjadv"/></l><r>башкача<b/>айтканда<s n="cnjadv"/></r></p></e>
    <e c="  0"><p><l>değer<s n="cnjcoo"/></l><r>татыктуу<s n="cnjcoo"/></r></p></e>
@@ -185,38 +177,6 @@
       <e c="  0"><p><l>hani<s n="cnjadv"/></l><r>жок<b/>дегенде<s n="cnjadv"/></r></p></e>
       <e c="  0"><p><l>halbuki<s n="cnjadv"/></l><r>чынында<s n="cnjadv"/></r></p></e>
           
-	<!-- SECTION: Determinatives -->
-	<e c="  0"><p><l>bu<s n="det"/></l><r>бул<s n="det"/><s n="dem"/></r></p></e>
-	<e c="  0"><p><l>hiçbir<s n="det"/></l><r>эч<b/>бир<s n="det"/><s n="ind"/></r></p></e>
-        <e c="  0"><p><l>her<s n="det"/></l><r>ар<s n="det"/><s n="ind"/></r></p></e> 
-        <e c="  0"><p><l>bazı<s n="det"/></l><r>кээбир<s n="det"/><s n="ind"/></r></p></e> 
-        <e c="  0"><p><l>bir<s n="det"/></l><r>бир<s n="det"/><s n="ind"/></r></p></e> 
-
-        <e c="  0"><p><l>tek<s n="det"/></l><r>жалгыз<s n="adj"/><s n="pst"/></r></p></e> 
-<!-- TODO: Check -->
-    <e c="  0"><p><l>herhangi<b/>bir<s n="det"/></l><r>кайсы<b/>бир<s n="det"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>diğer<s n="det"/></l><r>башка<s n="det"/><s n="ind"/></r></p></e>
-    <e slr="1"><p><l>diğer<s n="det"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>birçok<s n="det"/></l><r>бир<b/>далай<s n="det"/><s n="qnt"/></r></p></e>
-    <e c="  0"><p><l>bütün<s n="det"/></l><r>бүт<b/>баары<s n="det"/><s n="qnt"/></r></p></e>
-    <e slr="1"><p><l>bütün<s n="det"/></l><r>толук<s n="det"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>birkaç<s n="det"/></l><r>бир<b/>канча<s n="det"/><s n="qnt"/></r></p></e>
-     <e c="  0"><p><l>bir<b/>miktar<s n="det"/></l><r>биртке<s n="det"/><s n="qnt"/></r></p></e>
-     <e c="  0"><p><l>o<b/>kadar<s n="det"/></l><r>анчалык<s n="det"/><s n="qnt"/></r></p></e>
-     <e c="  0"><p><l>tüm<s n="det"/></l><r>бардык<s n="det"/><s n="qnt"/></r></p></e>
-    <e c="  0"><p><l>herhangi<s n="det"/></l><r>ар<b/>ким<s n="det"/><s n="ind"/></r></p></e>
-     <e c="  0"><p><l>birçok<s n="det"/></l><r>бир<b/>далай<s n="det"/><s n="qnt"/></r></p></e>
-    <e c="  0"><p><l>aynı<s n="det"/></l><r>бирдей<s n="det"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>bu<b/>kadar<s n="det"/></l><r>ушунчалык<s n="det"/><s n="qnt"/></r></p></e>
-    <e c="  0"><p><l>birtakım<s n="det"/></l><r>бир<b/>катар<s n="det"/><s n="qnt"/></r></p></e>
-   
-    <e c="  0"><p><l>bir<b/>kısım<s n="det"/></l><r>бир<b/>бөлүк<s n="det"/><s n="qnt"/></r></p></e>
-    
-    <e c="  0"><p><l>birkaç<b/>tane<s n="det"/></l><r>бир<b/>канча<b/>даана<s n="det"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>öteki<s n="det"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>şu<s n="det"/></l><r>ушу<s n="det"/><s n="dem"/></r></p></e>
-<!-- TODO: Check -->
-
         <!-- SECTION: Postpositions -->
 	<e c="  0"><p><l>aşağı<s n="post"/></l><r>ылдый<s n="post"/></r></p></e>
         <e c="  0"><p><l>boyunca<s n="post"/></l><r>боюнча<s n="post"/></r></p></e>
@@ -226,7 +186,7 @@
 	<e c="  0"><p><l>için<s n="post"/></l><r>үчүн<s n="post"/></r></p></e>
 	<e c="  0"><p><l>bile<s n="post"/></l><r>дагы<s n="post"/></r></p></e>
 	<e c="  0"><p><l>bu<b/>yana<s n="post"/></l><r>ушуга<b/>чейин<s n="post"/></r></p></e>
-           <e c="  0"><p><l>göre<s n="post"/></l><r>жараша<s n="post"/></r></p></e>
+        <e c="  0"><p><l>göre<s n="post"/></l><r>жараша<s n="post"/></r></p></e>
    <e c="  0"><p><l>ilgili<s n="post"/></l><r>байланыштуу<s n="post"/></r></p></e>
    <e c="  0"><p><l>üzere<s n="post"/></l><r>үчүн<s n="post"/></r></p></e>
    <e c="  0"><p><l>karşı<s n="post"/></l><r>каршы<s n="post"/></r></p></e>
@@ -263,33 +223,66 @@
 	<e c="  0"><p><l>siz<s n="prn"/></l><r>силер<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
 	<e c="  0"><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
 
-	<e c="  0"><p><l>bu<s n="prn"/></l><r>бул<s n="prn"/><s n="dem"/></r></p></e>
+	<e c="  0"><p><l>bu<s n="prn"/><s n="dem"/></l><r>бул<s n="prn"/><s n="dem"/></r></p></e>
 	<e c="  0"><p><l>kendi<s n="prn"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
 
         <e c="  0"><p><l>birbir<s n="n"/></l><r>бири-бир<s n="n"/></r></p></e> 
-        <e c="  0"><p><l>şu<s n="prn"/></l><r>ушул<s n="prn"/><s n="dem"/></r></p></e>
-        <e c="  0"><p><l>bura<s n="prn"/></l><r>бул<b/>жер<s n="prn"/><s n="dem"/></r></p></e>
-	<e c="  0"><p><l>ora<s n="prn"/></l><r>ал<b/>жак<s n="prn"/><s n="dem"/></r></p></e>
+        <e c="  0"><p><l>şu<s n="prn"/><s n="dem"/></l><r>ушул<s n="prn"/><s n="dem"/></r></p></e>
+        <e c="  0"><p><l>bura<s n="prn"/><s n="dem"/></l><r>бул<b/>жер<s n="prn"/><s n="dem"/></r></p></e>
+	<e c="  0"><p><l>ora<s n="prn"/><s n="adv"/></l><r>ал<b/>жак<s n="prn"/><s n="dem"/></r></p></e>
         <e c="  0"><p><l>kim<s n="prn"/><s n="qst"/></l><r>ким<s n="prn"/><s n="itg"/></r></p></e>
-        <e c="  0"><p><l>ora<s n="prn"/></l><r>ал<b/>жак<s n="prn"/><s n="dem"/></r></p></e>
-	 <e c="  0"><p><l>nere<s n="prn"/></l><r>кайсы<b/>жер<s n="prn"/><s n="itg"/></r></p></e>
-	 <e c="  0"><p><l>ne<s n="prn"/></l><r>эмне<s n="prn"/><s n="itg"/></r></p></e>
-	 <e c="  0"><p><l>hangi<s n="prn"/></l><r>кайсы<s n="prn"/><s n="itg"/></r></p></e>
+        <e c="  0"><p><l>ora<s n="prn"/><s n="adv"/></l><r>ал<b/>жак<s n="prn"/><s n="dem"/></r></p></e>
+	 <e c="  0"><p><l>nere<s n="prn"/><s n="itg"/></l><r>кайсы<b/>жер<s n="prn"/><s n="itg"/></r></p></e>
+	 <e c="  0"><p><l>ne<s n="prn"/><s n="itg"/></l><r>эмне<s n="prn"/><s n="itg"/></r></p></e>
+	 <e c="  0"><p><l>hangi<s n="prn"/><s n="itg"/></l><r>кайсы<s n="prn"/><s n="itg"/></r></p></e>
 	 <e c="  0"><p><l>birbiri<s n="prn"/><s n="pers"/></l><r>бирин-бири<s n="prn"/><s n="recip"/></r></p></e>
-	 <e c="  0"><p><l>öteki<s n="prn"/></l><r>тиги<s n="prn"/><s n="dem"/></r></p></e>
-         <e c="  0"><p><l>şura<s n="prn"/></l><r>ушу<b/>жер<s n="prn"/><s n="dem"/></r></p></e>
+	 <e c="  0"><p><l>öteki<s n="prn"/><s n="dem"/></l><r>тиги<s n="prn"/><s n="dem"/></r></p></e>
+         <e c="  0"><p><l>şura<s n="prn"/><s n="dem"/></l><r>ушу<b/>жер<s n="prn"/><s n="dem"/></r></p></e>
 
-	 <e c="  0"><p><l>hepsi<s n="prn"/></l><r>баары<s n="prn"/><s n="ind"/></r></p></e>
+	 <e c="  0"><p><l>hepsi<s n="prn"/><s n="ind"/></l><r>баары<s n="prn"/><s n="ind"/></r></p></e>
 
 <!-- should be prn.recip -->
 
-	<e c="  0"><p><l>biri<s n="prn"/></l><r>бир<s n="prn"/><s n="coll"/></r></p></e>
-	<e slr="1"><p><l>biri<s n="prn"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
+	<e c="  0"><p><l>biri<s n="prn"/><s n="ind"/></l><r>бир<s n="prn"/><s n="coll"/></r></p></e>
+	<e slr="1"><p><l>biri<s n="prn"/><s n="ind"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
 	<e c="  0"><p><l>birisi<s n="prn"/></l><r>бир<s n="prn"/><s n="coll"/></r></p></e>
-	<e slr="1"><p><l>birisi<s n="prn"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>kimse<s n="prn"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
-	
-        <!-- SECTION: Determiners -->
+	<e slr="1"><p><l>birisi<s n="prn"/><s n="ind"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
+        <e c="  0"><p><l>kimse<s n="prn"/><s n="ind"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
+
+	<!-- SECTION: Determiners -->
+	<e c="  0"><p><l>bu<s n="det"/><s n="dem"/></l><r>бул<s n="det"/><s n="dem"/></r></p></e>
+	<e c="  0"><p><l>hiçbir<s n="det"/><s n="ind"/></l><r>эч<b/>бир<s n="det"/><s n="ind"/></r></p></e>
+        <e c="  0"><p><l>her<s n="det"/><s n="qnt"/></l><r>ар<s n="det"/><s n="ind"/></r></p></e> 
+        <e c="  0"><p><l>bazı<s n="det"/><s n="ind"/></l><r>кээбир<s n="det"/><s n="ind"/></r></p></e> 
+        <e c="  0"><p><l>bir<s n="det"/><s n="ind"/></l><r>бир<s n="det"/><s n="ind"/></r></p></e> 
+
+        <e c="  0"><p><l>tek<s n="det"/></l><r>жалгыз<s n="adj"/><s n="pst"/></r></p></e> 
+
+<!-- TODO: Check -->
+	<e c="  0"><p><l>başka<s n="det"/><s n="ind"/></l><r>башка<s n="adj"/></r></p></e>
+        <e c="  0"><p><l>herhangi<b/>bir<s n="det"/><s n="ind"/></l><r>кайсы<b/>бир<s n="det"/><s n="ind"/></r></p></e>
+        <e c="  0"><p><l>diğer<s n="det"/><s n="ind"/></l><r>башка<s n="det"/><s n="ind"/></r></p></e>
+        <e slr="1"><p><l>diğer<s n="det"/><s n="ind"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
+        <e c="  0"><p><l>birçok<s n="det"/><s n="qnt"/></l><r>бир<b/>далай<s n="det"/><s n="qnt"/></r></p></e>
+        <e c="  0"><p><l>bütün<s n="det"/><s n="ind"/></l><r>бүт<b/>баары<s n="det"/><s n="qnt"/></r></p></e>
+        <e slr="1"><p><l>bütün<s n="det"/><s n="ind"/></l><r>толук<s n="det"/><s n="ind"/></r></p></e>
+        <e c="  0"><p><l>birkaç<s n="det"/><s n="qnt"/></l><r>бир<b/>канча<s n="det"/><s n="qnt"/></r></p></e>
+        <e c="  0"><p><l>bir<b/>miktar<s n="det"/><s n="qnt"/></l><r>биртке<s n="det"/><s n="qnt"/></r></p></e>
+        <e c="  0"><p><l>o<b/>kadar<s n="det"/><s n="qnt"/></l><r>анчалык<s n="det"/><s n="qnt"/></r></p></e>
+        <e c="  0"><p><l>tüm<s n="det"/><s n="qnt"/></l><r>бардык<s n="det"/><s n="qnt"/></r></p></e>
+        <e c="  0"><p><l>herhangi<s n="det"/><s n="ind"/></l><r>ар<b/>ким<s n="det"/><s n="ind"/></r></p></e>
+        <e c="  0"><p><l>birçok<s n="det"/><s n="qnt"/></l><r>бир<b/>далай<s n="det"/><s n="qnt"/></r></p></e>
+        <e c="  0"><p><l>aynı<s n="det"/><s n="ind"/></l><r>бирдей<s n="det"/><s n="ind"/></r></p></e>
+        <e c="  0"><p><l>bu<b/>kadar<s n="det"/><s n="qnt"/></l><r>ушунчалык<s n="det"/><s n="qnt"/></r></p></e>
+        <e c="  0"><p><l>birtakım<s n="det"/><s n="qnt"/></l><r>бир<b/>катар<s n="det"/><s n="qnt"/></r></p></e>
+        
+        <e c="  0"><p><l>bir<b/>kısım<s n="det"/></l><r>бир<b/>бөлүк<s n="det"/><s n="qnt"/></r></p></e>
+        
+        <e c="  0"><p><l>birkaç<b/>tane<s n="det"/></l><r>бир<b/>канча<b/>даана<s n="det"/><s n="ind"/></r></p></e>
+        <e c="  0"><p><l>öteki<s n="det"/><s n="ind"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
+        <e c="  0"><p><l>şu<s n="det"/><s n="dem"/></l><r>ушу<s n="det"/><s n="dem"/></r></p></e>
+<!-- TODO: Check -->
+
 
         <!-- SECTION: Numerals -->
 	<e c="  0"><p><l>bir<s n="num"/></l><r>бир<s n="num"/></r></p></e>
@@ -319,18 +312,19 @@
 	<e c="  0"><p><l>milyar<s n="num"/></l><r>миллиард<s n="num"/></r></p></e>
 	<e c="  0"><par n="num_1-9"/><p><l>milyar<s n="num"/></l><r>миллиард<s n="num"/></r></p></e>
         <e c="  0"><p><l>sıfır<s n="num"/></l><r>ноль<s n="num"/></r></p></e>
-      <e c="  0"><p><l>oniki<s n="num"/></l><r>он<b/>эки<s n="num"/></r></p></e>
-      <e c="  0"><p><l>onbir<s n="num"/></l><r>он<b/>бир<s n="num"/></r></p></e>
-       <e c="  0"><p><l>trilyon<s n="num"/></l><r>триллион<s n="num"/></r></p></e>
-       <e c="  0"><p><l>ondokuz<s n="num"/></l><r>онтогуз<s n="num"/></r></p></e>
-       <e c="  0"><p><l>yirmibeş<s n="num"/></l><r>жыйырма<b/>беш<s n="num"/></r></p></e>
-       <e c="  0"><p><l>onsekiz<s n="num"/></l><r>он<b/>сегиз<s n="num"/></r></p></e>
-       <e c="  0"><p><l>onbeş<s n="num"/></l><r>он<b/>беш<s n="num"/></r></p></e>
-       <e c="  0"><p><l>onaltı<s n="num"/></l><r>он<b/>алты<s n="num"/></r></p></e>
-       <e c="  0"><p><l>birbuçuk<s n="num"/></l><r>бир<b/>жарым<s n="num"/></r></p></e>
+        <e c="  0"><p><l>oniki<s n="num"/></l><r>он<b/>эки<s n="num"/></r></p></e>
+        <e c="  0"><p><l>onbir<s n="num"/></l><r>он<b/>бир<s n="num"/></r></p></e>
+        <e c="  0"><p><l>trilyon<s n="num"/></l><r>триллион<s n="num"/></r></p></e>
+        <e c="  0"><p><l>ondokuz<s n="num"/></l><r>онтогуз<s n="num"/></r></p></e>
+        <e c="  0"><p><l>yirmibeş<s n="num"/></l><r>жыйырма<b/>беш<s n="num"/></r></p></e>
+        <e c="  0"><p><l>onsekiz<s n="num"/></l><r>он<b/>сегиз<s n="num"/></r></p></e>
+        <e c="  0"><p><l>onbeş<s n="num"/></l><r>он<b/>беш<s n="num"/></r></p></e>
+        <e c="  0"><p><l>onaltı<s n="num"/></l><r>он<b/>алты<s n="num"/></r></p></e>
+        <e c="  0"><p><l>birbuçuk<s n="num"/></l><r>бир<b/>жарым<s n="num"/></r></p></e>
         
 
-<!-- SECTION: Nouns -->
+        <!-- SECTION: Nouns -->
+	<e c="  0"><p><l>kedi<s n="n"/></l><r>мышык<s n="n"/></r></p></e>
 	<e c="  0"><p><l>akademik<s n="n"/></l><r>академик<s n="n"/></r></p></e>
 	<e c="  0"><p><l>anne<s n="n"/></l><r>апа<s n="n"/></r></p></e>
 	<e c="  0"><p><l>baba<s n="n"/></l><r>ата<s n="n"/></r></p></e>
@@ -451,7 +445,6 @@
 	<e c="  0"><p><l>amir<s n="n"/></l><r>эмир<s n="n"/></r></p></e>
 	<e c="  0"><p><l>anahtar<s n="n"/></l><r>ачкыч<s n="n"/></r></p></e>
 	<e c="  0"><p><l>anane<s n="n"/></l><r>тай<b/>эне<s n="n"/></r></p></e>
-	<e c="  0"><p><l>an<s n="n"/><s n="ki"/></l><r>убак<s n="n"/><s n="locattr"/></r></p></e>
 	<e c="  0"><p><l>an<s n="n"/></l><r>убак<s n="n"/></r></p></e>
         <e slr="1"><p><l>an<s n="n"/></l><r>маал<s n="n"/></r></p></e>
         <e slr="2"><p><l>an<s n="n"/></l><r>учур<s n="n"/></r></p></e>
@@ -4723,6 +4716,7 @@
 
 
         <!-- SECTION: Proper nouns -->
+
         <e><p><l>Abhazya<s n="np"/><s n="top"/></l><r>Абхазия<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Afganistan<s n="np"/><s n="top"/></l><r>Афганистан<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Afrika<s n="np"/><s n="top"/></l><r>Африка<s n="np"/><s n="top"/></r></p></e> 
@@ -4795,7 +4789,7 @@
         <e><p><l>Kenya<s n="np"/><s n="top"/></l><r>Кеня<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Kerkük<s n="np"/><s n="top"/></l><r>Керкүк<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Kıbrıs<s n="np"/><s n="top"/></l><r>Кипр<s n="np"/><s n="top"/></r></p></e> 
-        <e><p><l>Kırgızistan<s n="np"/><s n="top"/><s n="top"/></l><r>Кыргызстан<s n="np"/><s n="top"/></r></p></e> 
+        <e><p><l>Kırgızistan<s n="np"/><s n="top"/></l><r>Кыргызстан<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Köln<s n="np"/><s n="top"/></l><r>Колън<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Kongo<s n="np"/><s n="top"/></l><r>Конго<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Kopenhag<s n="np"/><s n="top"/></l><r>Копенгаген<s n="np"/><s n="top"/></r></p></e> 
@@ -4807,7 +4801,7 @@
         <e><p><l>Lizbon<s n="np"/><s n="top"/></l><r>Лиссабон<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Londra<s n="np"/><s n="top"/></l><r>Лондон<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Lüksemburg<s n="np"/><s n="top"/></l><r>Люксембург<s n="np"/><s n="top"/></r></p></e> 
-    <!--<e><p><l>Macaristan<s n="np"/><s n="top"/></l><r>Macarıstan<s n="np"/><s n="top"/></r></p></e>  Top -->
+        <e><p><l>Macaristan<s n="np"/><s n="top"/></l><r>Macarıstan<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Madagaskar<s n="np"/><s n="top"/></l><r>Мадагаскар<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Madrid<s n="np"/><s n="top"/></l><r>Мадрид<s n="np"/><s n="top"/></r></p></e> 
         <e><p><l>Malezya<s n="np"/><s n="top"/></l><r>Малазия<s n="np"/><s n="top"/></r></p></e> 
@@ -4833,9 +4827,9 @@
 	  <e><p><l>Makedon<s n="np"/></l><r>Македониалык<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Bosnalı<s n="np"/></l><r>Босниялык<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Lahey<s n="np"/></l><r>Лахей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-	  <e><p><l>Bin<b/>Ladin<s n="np"/><s n="cog"/></l><r>Бен<b/>Ладен<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-	  <e><p><l>Üsküp<s n="np"/></l><r>Үскүп<s n="np"/><s n="top"/></r></p></e>
-	  <e><p><l>Atina<s n="np"/></l><r>Атина<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Bin<b/>Ladin<s n="np"/><s n="cog"/><s n="m"/></l><r>Бен<b/>Ладен<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+	  <e><p><l>Üsküp<s n="np"/><s n="top"/></l><r>Үскүп<s n="np"/><s n="top"/></r></p></e>
+	  <e><p><l>Atina<s n="np"/><s n="top"/></l><r>Атина<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Saraybosna<s n="np"/></l><r>Сарайбосня<s n="np"/><s n="al"/></r></p></e>
 	  <e><p><l>Rusya<s n="np"/><s n="top"/></l><r>Орусия<s n="np"/><s n="top"/></r></p></e>
 	  <e><p><l>Zagreb<s n="np"/></l><r>Загреб<s n="np"/><s n="top"/></r></p></e>
@@ -4882,9 +4876,10 @@
         <e><p><l>Nikola<s n="np"/><s n="ant"/></l><r>Никола<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
         <e><p><l>Nemanja<s n="np"/><s n="ant"/></l><r>Неманя<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
-	<e><p><l>Ana<s n="np"/><s n="ant"/></l><r>Анна<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-	<e><p><l>Anja<s n="np"/><s n="ant"/></l><r>Аня<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-	<e><p><l>Sandra<s n="np"/><s n="ant"/></l><r>Сандра<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+	<e><p><l>Ana<s n="np"/><s n="ant"/><s n="f"/></l><r>Анна<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+	<e><p><l>Anna<s n="np"/><s n="ant"/><s n="f"/></l><r>Анна<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+	<e><p><l>Anja<s n="np"/><s n="ant"/><s n="f"/></l><r>Аня<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+	<e><p><l>Sandra<s n="np"/><s n="ant"/><s n="f"/></l><r>Сандра<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
 	<e><p><l>Radovanoviç<s n="np"/><s n="cog"/></l><r>Радованович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 	<e><p><l>Stankoviç<s n="np"/><s n="cog"/></l><r>Станкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -4899,278 +4894,280 @@
 	<e><p><l>Sırp<b/>Ordusu<s n="np"/><s n="org"/></l><r>Серб<b/>Аскери<s n="np"/><s n="org"/></r></p></e>
 	<e><p><l>Gazela<s n="np"/></l><r>Газел<s n="np"/><s n="al"/></r></p></e>
 	
-        <e><p><l>Adlesiç<s n="np"/><s n="cog"/></l><r>Адлесич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Anciç<s n="np"/><s n="cog"/></l><r>Анжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Andriç<s n="np"/><s n="cog"/></l><r>Андрич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Antunoviç<s n="np"/><s n="cog"/></l><r>Антунович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Babiç<s n="np"/><s n="cog"/></l><r>Бабич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Bajiç<s n="np"/><s n="cog"/></l><r>Бажич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Bandiç<s n="np"/><s n="cog"/></l><r>Бандич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Banoviç<s n="np"/><s n="cog"/></l><r>Банович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Bariç<s n="np"/><s n="cog"/></l><r>Барич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Basiç<s n="np"/><s n="cog"/></l><r>Басич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Batiç<s n="np"/><s n="cog"/></l><r>Батич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Bayramoviç<s n="np"/><s n="cog"/></l><r>Байрамович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Bebiç<s n="np"/><s n="cog"/></l><r>Бебич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Bektaşeviç<s n="np"/><s n="cog"/></l><r>Бекташевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Belkiç<s n="np"/><s n="cog"/></l><r>Белкич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Bisceviç<s n="np"/><s n="cog"/></l><r>Бисжевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Blagojeviç<s n="np"/><s n="cog"/></l><r>Благожевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Blaskiç<s n="np"/><s n="cog"/></l><r>Бласкич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Bogdanoviç<s n="np"/><s n="cog"/></l><r>Богданович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Boskoviç<s n="np"/><s n="cog"/></l><r>Боскович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Brankoviç<s n="np"/><s n="cog"/></l><r>Бранкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Brkiç<s n="np"/><s n="cog"/></l><r>Бркич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Bukejloviç<s n="np"/><s n="cog"/></l><r>Букежлович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Bulatoviç<s n="np"/><s n="cog"/></l><r>Булатович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Caciç<s n="np"/><s n="cog"/></l><r>Жажич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Caferoviç<s n="np"/><s n="cog"/></l><r>Жаферович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Caviç<s n="np"/><s n="cog"/></l><r>Жавич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Çaviç<s n="np"/><s n="cog"/></l><r>Чавич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Celiç<s n="np"/><s n="cog"/></l><r>Желич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Ceriç<s n="np"/><s n="cog"/></l><r>Жерич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Cidiç<s n="np"/><s n="cog"/></l><r>Жидич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Cikotiç<s n="np"/><s n="cog"/></l><r>Жикотич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Cinciç<s n="np"/><s n="cog"/></l><r>Жинжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Çobankoviç<s n="np"/><s n="cog"/></l><r>Чобанкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Cokoviç<s n="np"/><s n="cog"/></l><r>Жокович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Corceviç<s n="np"/><s n="cog"/></l><r>Жоржевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Coviç<s n="np"/><s n="cog"/></l><r>Жович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Çoviç<s n="np"/><s n="cog"/></l><r>Чович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Cukanoviç<s n="np"/><s n="cog"/></l><r>Жуканович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Cukiç<s n="np"/><s n="cog"/></l><r>Жукич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Curiç<s n="np"/><s n="cog"/></l><r>Журич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Curoviç<s n="np"/><s n="cog"/></l><r>Журович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Cvijoviç<s n="np"/><s n="cog"/></l><r>Жвижович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Daciç<s n="np"/><s n="cog"/></l><r>Дажич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Davidoviç<s n="np"/><s n="cog"/></l><r>Давидович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Daviniç<s n="np"/><s n="cog"/></l><r>Давинич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Deliç<s n="np"/><s n="cog"/></l><r>Делич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Deronjiç<s n="np"/><s n="cog"/></l><r>Деронжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Dinkiç<s n="np"/><s n="cog"/></l><r>Динкич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Djeliç<s n="np"/><s n="cog"/></l><r>Джелич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Djukanoviç<s n="np"/><s n="cog"/></l><r>Джуканович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Dokiç<s n="np"/><s n="cog"/></l><r>Докич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Draskoviç<s n="np"/><s n="cog"/></l><r>Драскович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Dudakoviç<s n="np"/><s n="cog"/></l><r>Дудакович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Dukiç<s n="np"/><s n="cog"/></l><r>Дукич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Duliç<s n="np"/><s n="cog"/></l><r>Дулич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Dyukanoviç<s n="np"/><s n="cog"/></l><r>Дюканович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Eyüpoviç<s n="np"/><s n="cog"/></l><r>Эйүпович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Fazliç<s n="np"/><s n="cog"/></l><r>Фазлич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Filipoviç<s n="np"/><s n="cog"/></l><r>Филипович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Gasparoviç<s n="np"/><s n="cog"/></l><r>Гаспарович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Graniç<s n="np"/><s n="cog"/></l><r>Гранич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Grbiç<s n="np"/><s n="cog"/></l><r>Грбич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Haciç<s n="np"/><s n="cog"/></l><r>Хажич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Hacıpasiç<s n="np"/><s n="cog"/></l><r>Хажыпасич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Hadziç<s n="np"/><s n="cog"/></l><r>Хадзич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Haliloviç<s n="np"/><s n="cog"/></l><r>Халилович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Iliç<s n="np"/><s n="cog"/></l><r>Ылич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Ivaniç<s n="np"/><s n="cog"/></l><r>Ыванич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>İvaniç<s n="np"/><s n="cog"/></l><r>Иванич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Ivaniseviç<s n="np"/><s n="cog"/></l><r>Ыванисевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Ivanoviç<s n="np"/><s n="cog"/></l><r>Ыванович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>İvanoviç<s n="np"/><s n="cog"/></l><r>Иванович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>İzetbegoviç<s n="np"/><s n="cog"/></l><r>Изетбегович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Jandrokoviç<s n="np"/><s n="cog"/></l><r>Жандрокович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Jankoviç<s n="np"/><s n="cog"/></l><r>Жанкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Jelasiç<s n="np"/><s n="cog"/></l><r>Желасич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Jelaviç<s n="np"/><s n="cog"/></l><r>Желавич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Jeliç<s n="np"/><s n="cog"/></l><r>Желич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Jeremiç<s n="np"/><s n="cog"/></l><r>Жеремич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Jevriç<s n="np"/><s n="cog"/></l><r>Жеврич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Jociç<s n="np"/><s n="cog"/></l><r>Жожич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Jokiç<s n="np"/><s n="cog"/></l><r>Жокич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Jovanoviç<s n="np"/><s n="cog"/></l><r>Жованович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Joviç<s n="np"/><s n="cog"/></l><r>Жович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Joviceviç<s n="np"/><s n="cog"/></l><r>Жовижевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Jurceviç<s n="np"/><s n="cog"/></l><r>Журжевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Jurciç<s n="np"/><s n="cog"/></l><r>Журжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Jurisiç<s n="np"/><s n="cog"/></l><r>Журисич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Kadıyeviç<s n="np"/><s n="cog"/></l><r>Кадыевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Kaliniç<s n="np"/><s n="cog"/></l><r>Калинич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Kandiç<s n="np"/><s n="cog"/></l><r>Кандич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Karaciç<s n="np"/><s n="cog"/></l><r>Каражич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Karadziç<s n="np"/><s n="cog"/></l><r>Карадзич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Kariç<s n="np"/><s n="cog"/></l><r>Карич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Kitaroviç<s n="np"/><s n="cog"/></l><r>Китарович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Klickoviç<s n="np"/><s n="cog"/></l><r>Клижкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Kljajeviç<s n="np"/><s n="cog"/></l><r>Кльаевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Knezeviç<s n="np"/><s n="cog"/></l><r>Кнезевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Komsiç<s n="np"/><s n="cog"/></l><r>Комсич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Konjikusiç<s n="np"/><s n="cog"/></l><r>Коньикусич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Kosanoviç<s n="np"/><s n="cog"/></l><r>Косанович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Kosteliç<s n="np"/><s n="cog"/></l><r>Костелич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Kostiç<s n="np"/><s n="cog"/></l><r>Костич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Kovaceviç<s n="np"/><s n="cog"/></l><r>Коважевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Kovaçeviç<s n="np"/><s n="cog"/></l><r>Ковачевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Kozariç<s n="np"/><s n="cog"/></l><r>Козарич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Krivokapiç<s n="np"/><s n="cog"/></l><r>Кривокапич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Krsmanoviç<s n="np"/><s n="cog"/></l><r>Крсманович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Krstajiç<s n="np"/><s n="cog"/></l><r>Крстажич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Krstiç<s n="np"/><s n="cog"/></l><r>Крстич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Krstoviç<s n="np"/><s n="cog"/></l><r>Крстович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Kuzmanoviç<s n="np"/><s n="cog"/></l><r>Кузманович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Lakceviç<s n="np"/><s n="cog"/></l><r>Лакжевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Lazareviç<s n="np"/><s n="cog"/></l><r>Лазаревич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Leposaviç<s n="np"/><s n="cog"/></l><r>Лепосавич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Liliç<s n="np"/><s n="cog"/></l><r>Лилич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Ljajiç<s n="np"/><s n="cog"/></l><r>Льайич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Ljubiç<s n="np"/><s n="cog"/></l><r>Льубич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Ljubiciç<s n="np"/><s n="cog"/></l><r>Льубижич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Lozanciç<s n="np"/><s n="cog"/></l><r>Лозанжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Luciç<s n="np"/><s n="cog"/></l><r>Лужич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Lukiç<s n="np"/><s n="cog"/></l><r>Лукич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Lukoviç<s n="np"/><s n="cog"/></l><r>Лукович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Mandiç<s n="np"/><s n="cog"/></l><r>Мандич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Margetiç<s n="np"/><s n="cog"/></l><r>Маргетич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Mariç<s n="np"/><s n="cog"/></l><r>Марич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Marinoviç<s n="np"/><s n="cog"/></l><r>Маринович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Markoviç<s n="np"/><s n="cog"/></l><r>Маркович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Maroeviç<s n="np"/><s n="cog"/></l><r>Мароевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Maroviç<s n="np"/><s n="cog"/></l><r>Марович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Martiç<s n="np"/><s n="cog"/></l><r>Мартич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Matiç<s n="np"/><s n="cog"/></l><r>Матич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Matijaseviç<s n="np"/><s n="cog"/></l><r>Матижасевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Mediç<s n="np"/><s n="cog"/></l><r>Медич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Medojeviç<s n="np"/><s n="cog"/></l><r>Медожевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Medvedev<s n="np"/><s n="cog"/></l><r>Медведев<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Mejakiç<s n="np"/><s n="cog"/></l><r>Межакич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Mektiç<s n="np"/><s n="cog"/></l><r>Мектич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Mesiç<s n="np"/><s n="cog"/></l><r>Месич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Miciç<s n="np"/><s n="cog"/></l><r>Мижич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Miçiç<s n="np"/><s n="cog"/></l><r>Мичич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Micunoviç<s n="np"/><s n="cog"/></l><r>Мижунович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Miçunoviç<s n="np"/><s n="cog"/></l><r>Мичунович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Mihayloviç<s n="np"/><s n="cog"/></l><r>Михайлович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Mikereviç<s n="np"/><s n="cog"/></l><r>Микеревич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Milakoviç<s n="np"/><s n="cog"/></l><r>Милакович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Milanoviç<s n="np"/><s n="cog"/></l><r>Миланович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Milenkoviç<s n="np"/><s n="cog"/></l><r>Миленкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Miletiç<s n="np"/><s n="cog"/></l><r>Милетич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Miliç<s n="np"/><s n="cog"/></l><r>Милич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Miliceviç<s n="np"/><s n="cog"/></l><r>Милижевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Milisiç<s n="np"/><s n="cog"/></l><r>Милисич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Milosavlyeviç<s n="np"/><s n="cog"/></l><r>Милосавлевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Miloseviç<s n="np"/><s n="cog"/></l><r>Милосевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Miloşeviç<s n="np"/><s n="cog"/></l><r>Милоşевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Milovanoviç<s n="np"/><s n="cog"/></l><r>Милованович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Milutinoviç<s n="np"/><s n="cog"/></l><r>Милутинович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Mitroviç<s n="np"/><s n="cog"/></l><r>Митрович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Mladiç<s n="np"/><s n="cog"/></l><r>Младич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Mrksiç<s n="np"/><s n="cog"/></l><r>Мрксич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Nikoliç<s n="np"/><s n="cog"/></l><r>Николич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Niksiç<s n="np"/><s n="cog"/></l><r>Никсич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Novakoviç<s n="np"/><s n="cog"/></l><r>Новакович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Noviç<s n="np"/><s n="cog"/></l><r>Нович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Obradoviç<s n="np"/><s n="cog"/></l><r>Обрадович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Obrenoviç<s n="np"/><s n="cog"/></l><r>Обренович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Oriç<s n="np"/><s n="cog"/></l><r>Орич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Pandureviç<s n="np"/><s n="cog"/></l><r>Пандуревич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Pantiç<s n="np"/><s n="cog"/></l><r>Пантич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Paridoviç<s n="np"/><s n="cog"/></l><r>Паридович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Paviç<s n="np"/><s n="cog"/></l><r>Павич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Pavkoviç<s n="np"/><s n="cog"/></l><r>Павкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Pavloviç<s n="np"/><s n="cog"/></l><r>Павлович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Pejiç<s n="np"/><s n="cog"/></l><r>Пежич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Periç<s n="np"/><s n="cog"/></l><r>Перич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Perisiç<s n="np"/><s n="cog"/></l><r>Перисич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Pesiç<s n="np"/><s n="cog"/></l><r>Песич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Petkoviç<s n="np"/><s n="cog"/></l><r>Петкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Petraseviç<s n="np"/><s n="cog"/></l><r>Петрасевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Petriç<s n="np"/><s n="cog"/></l><r>Петрич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Petroviç<s n="np"/><s n="cog"/></l><r>Петрович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Plavsiç<s n="np"/><s n="cog"/></l><r>Плавсич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Podziç<s n="np"/><s n="cog"/></l><r>Подзич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Popoviç<s n="np"/><s n="cog"/></l><r>Попович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Pukaniç<s n="np"/><s n="cog"/></l><r>Пуканич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Puljiç<s n="np"/><s n="cog"/></l><r>Пульич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Pusiç<s n="np"/><s n="cog"/></l><r>Пусич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Radetiç<s n="np"/><s n="cog"/></l><r>Радетич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Radiç<s n="np"/><s n="cog"/></l><r>Радич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Radmanoviç<s n="np"/><s n="cog"/></l><r>Радманович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Radojiciç<s n="np"/><s n="cog"/></l><r>Радожижич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Radoviç<s n="np"/><s n="cog"/></l><r>Радович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Raduloviç<s n="np"/><s n="cog"/></l><r>Радулович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Rajiç<s n="np"/><s n="cog"/></l><r>Ражич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Ramazanoviç<s n="np"/><s n="cog"/></l><r>Рамазанович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Ramiç<s n="np"/><s n="cog"/></l><r>Рамич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Raseviç<s n="np"/><s n="cog"/></l><r>Расевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Raskoviç<s n="np"/><s n="cog"/></l><r>Раскович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Raznatoviç<s n="np"/><s n="cog"/></l><r>Разнатович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Ristiç<s n="np"/><s n="cog"/></l><r>Ристич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Ronceviç<s n="np"/><s n="cog"/></l><r>Ронжевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Rudoviç<s n="np"/><s n="cog"/></l><r>Рудович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Sadoviç<s n="np"/><s n="cog"/></l><r>Садович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Sainoviç<s n="np"/><s n="cog"/></l><r>Саинович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Samarciç<s n="np"/><s n="cog"/></l><r>Самаржич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Samardziç<s n="np"/><s n="cog"/></l><r>Самардзич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Saroviç<s n="np"/><s n="cog"/></l><r>Сарович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Saviç<s n="np"/><s n="cog"/></l><r>Савич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Scekiç<s n="np"/><s n="cog"/></l><r>Сжекич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Scepanoviç<s n="np"/><s n="cog"/></l><r>Сжепанович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Serifoviç<s n="np"/><s n="cog"/></l><r>Серифович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Silayciç<s n="np"/><s n="cog"/></l><r>Силайжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Simatoviç<s n="np"/><s n="cog"/></l><r>Симатович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Simiç<s n="np"/><s n="cog"/></l><r>Симич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Simonoviç<s n="np"/><s n="cog"/></l><r>Симонович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Simoviç<s n="np"/><s n="cog"/></l><r>Симович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Simunoviç<s n="np"/><s n="cog"/></l><r>Симунович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Spasoyeviç<s n="np"/><s n="cog"/></l><r>Спасоевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Spiriç<s n="np"/><s n="cog"/></l><r>Спирич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Stakiç<s n="np"/><s n="cog"/></l><r>Стакич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Stamboliç<s n="np"/><s n="cog"/></l><r>Стамболич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Stanisiç<s n="np"/><s n="cog"/></l><r>Станисич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Stojanoviç<s n="np"/><s n="cog"/></l><r>Стожанович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Stojiç<s n="np"/><s n="cog"/></l><r>Стожич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Stojiciç<s n="np"/><s n="cog"/></l><r>Стожижич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Stoykoviç<s n="np"/><s n="cog"/></l><r>Стойкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Sturanoviç<s n="np"/><s n="cog"/></l><r>Стуранович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Svilanoviç<s n="np"/><s n="cog"/></l><r>Свиланович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Tanoviç<s n="np"/><s n="cog"/></l><r>Танович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Terziç<s n="np"/><s n="cog"/></l><r>Терзич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Tihiç<s n="np"/><s n="cog"/></l><r>Тихич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Todoroviç<s n="np"/><s n="cog"/></l><r>Тодорович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Todoviç<s n="np"/><s n="cog"/></l><r>Тодович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Tomciç<s n="np"/><s n="cog"/></l><r>Томжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Tomiç<s n="np"/><s n="cog"/></l><r>Томич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Topcagiç<s n="np"/><s n="cog"/></l><r>Топжагич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Topiç<s n="np"/><s n="cog"/></l><r>Топич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Traykoviç<s n="np"/><s n="cog"/></l><r>Трайкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Trbiç<s n="np"/><s n="cog"/></l><r>Трбич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vasiç<s n="np"/><s n="cog"/></l><r>Васич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vasiljkoviç<s n="np"/><s n="cog"/></l><r>Василькович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vaskoviç<s n="np"/><s n="cog"/></l><r>Васкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vekariç<s n="np"/><s n="cog"/></l><r>Векарич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Veljoviç<s n="np"/><s n="cog"/></l><r>Вельович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Veruoviç<s n="np"/><s n="cog"/></l><r>Веруович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vlahoviç<s n="np"/><s n="cog"/></l><r>Влахович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vlasiç<s n="np"/><s n="cog"/></l><r>Власич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vrankiç<s n="np"/><s n="cog"/></l><r>Вранкич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vucetiç<s n="np"/><s n="cog"/></l><r>Вужетич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vuciç<s n="np"/><s n="cog"/></l><r>Вужич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vuciniç<s n="np"/><s n="cog"/></l><r>Вужинич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vuckoviç<s n="np"/><s n="cog"/></l><r>Вужкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vujanoviç<s n="np"/><s n="cog"/></l><r>Вужанович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vukceviç<s n="np"/><s n="cog"/></l><r>Вукжевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vukeliç<s n="np"/><s n="cog"/></l><r>Вукелич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vukotiç<s n="np"/><s n="cog"/></l><r>Вукотич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vukoviç<s n="np"/><s n="cog"/></l><r>Вукович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vukoyeviç<s n="np"/><s n="cog"/></l><r>Вукоевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Vuyanoviç<s n="np"/><s n="cog"/></l><r>Вуянович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Yovanoviç<s n="np"/><s n="cog"/></l><r>Ёванович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Zelenoviç<s n="np"/><s n="cog"/></l><r>Зеленович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Zigiç<s n="np"/><s n="cog"/></l><r>Зигич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Zivkoviç<s n="np"/><s n="cog"/></l><r>Зивкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-        <e><p><l>Zvetkoviç<s n="np"/><s n="cog"/></l><r>Зветкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Adlesiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Адлесич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Anciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Анжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Andriç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Андрич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Antunoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Антунович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Babiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Бабич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Bajiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Бажич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Bandiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Бандич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Banoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Банович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Bariç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Барич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Basiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Басич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Batiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Батич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Bayramoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Байрамович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Bebiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Бебич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Bektaşeviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Бекташевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Belkiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Белкич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Bisceviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Бисжевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Blagojeviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Благожевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Blaskiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Бласкич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Bogdanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Богданович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Boskoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Боскович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Brankoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Бранкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Brkiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Бркич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Bukejloviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Букежлович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Bulatoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Булатович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Caciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жажич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Caferoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жаферович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Caviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жавич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Çaviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Чавич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Celiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Желич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Ceriç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жерич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Cidiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жидич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Cikotiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жикотич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Cinciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жинжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Çobankoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Чобанкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Cokoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жокович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Corceviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жоржевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Coviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Çoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Чович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Cukanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жуканович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Cukiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жукич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Curiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Журич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Curoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Журович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Cvijoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жвижович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Daciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Дажич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Davidoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Давидович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Daviniç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Давинич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Deliç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Делич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Deronjiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Деронжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Dinkiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Динкич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Djeliç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Джелич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Djukanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Джуканович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Dokiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Докич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Draskoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Драскович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Dudakoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Дудакович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Dukiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Дукич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Duliç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Дулич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Dyukanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Дюканович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Eyüpoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Эйүпович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Fazliç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Фазлич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Filipoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Филипович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Gasparoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Гаспарович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Graniç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Гранич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Grbiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Грбич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Haciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Хажич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Hacıpasiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Хажыпасич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Hadziç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Хадзич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Haliloviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Халилович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Iliç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Ылич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Ivaniç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Ыванич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>İvaniç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Иванич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Ivaniseviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Ыванисевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Ivanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Ыванович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>İvanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Иванович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>İzetbegoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Изетбегович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Jandrokoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жандрокович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Jankoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жанкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Jelasiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Желасич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Jelaviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Желавич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Jeliç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Желич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Jeremiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жеремич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Jevriç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жеврич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Jociç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жожич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Jokiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жокич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Jovanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жованович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Joviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Joviceviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Жовижевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Jurceviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Журжевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Jurciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Журжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Jurisiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Журисич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Kadıyeviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Кадыевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Kaliniç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Калинич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Kandiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Кандич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Karaciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Каражич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Karadziç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Карадзич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Kariç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Карич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Kitaroviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Китарович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Klickoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Клижкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Kljajeviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Кльаевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Knezeviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Кнезевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Komsiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Комсич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Konjikusiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Коньикусич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Kosanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Косанович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Kosteliç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Костелич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Kostiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Костич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Kovaceviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Коважевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Kovaçeviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Ковачевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Kozariç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Козарич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Krivokapiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Кривокапич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Krsmanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Крсманович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Krstajiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Крстажич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Krstiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Крстич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Krstoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Крстович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Kuzmanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Кузманович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Lakceviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Лакжевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Lazareviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Лазаревич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Leposaviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Лепосавич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Liliç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Лилич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Ljajiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Льайич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Ljubiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Льубич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Ljubiciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Льубижич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Lozanciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Лозанжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Luciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Лужич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Lukiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Лукич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Lukoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Лукович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Mandiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Мандич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Margetiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Маргетич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Mariç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Марич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Marinoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Маринович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Markoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Маркович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Maroeviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Мароевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Maroviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Марович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Martiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Мартич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Matiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Матич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Matijaseviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Матижасевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Mediç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Медич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Medojeviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Медожевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Medvedev<s n="np"/><s n="cog"/><s n="mf"/></l><r>Медведев<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Mejakiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Межакич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Mektiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Мектич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Mesiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Месич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Miciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Мижич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Miçiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Мичич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Micunoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Мижунович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Miçunoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Мичунович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Mihayloviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Михайлович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Mikereviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Микеревич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Milakoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Милакович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Milanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Миланович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Milenkoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Миленкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Miletiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Милетич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Miliç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Милич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Miliceviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Милижевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Milisiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Милисич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Milosavlyeviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Милосавлевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Miloseviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Милосевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Miloşeviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Милоşевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Milovanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Милованович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Milutinoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Милутинович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Mitroviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Митрович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Mladiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Младич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Mrksiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Мрксич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Nikoliç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Николич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Niksiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Никсич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Novakoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Новакович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Noviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Нович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Obradoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Обрадович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Obrenoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Обренович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Oriç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Орич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Pandureviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Пандуревич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Pantiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Пантич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Paridoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Паридович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Paviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Павич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Pavkoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Павкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Pavloviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Павлович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Pejiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Пежич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Periç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Перич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Perisiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Перисич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Pesiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Песич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Petkoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Петкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Petraseviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Петрасевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Petriç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Петрич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Petroviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Петрович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Plavsiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Плавсич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Podziç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Подзич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Popoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Попович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Pukaniç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Пуканич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Puljiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Пульич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Pusiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Пусич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Radetiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Радетич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Radiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Радич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Radmanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Радманович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Radojiciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Радожижич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Radoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Радович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Raduloviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Радулович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Rajiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Ражич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Ramazanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Рамазанович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Ramiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Рамич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Raseviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Расевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Raskoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Раскович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Raznatoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Разнатович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Ristiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Ристич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Ronceviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Ронжевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Rudoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Рудович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Sadoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Садович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Sainoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Саинович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Samarciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Самаржич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Samardziç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Самардзич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Saroviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Сарович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Saviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Савич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Scekiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Сжекич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Scepanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Сжепанович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Serifoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Серифович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Silayciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Силайжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Simatoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Симатович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Simiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Симич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Simonoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Симонович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Simoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Симович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Simunoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Симунович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Spasoyeviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Спасоевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Spiriç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Спирич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Stakiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Стакич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Stamboliç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Стамболич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Stanisiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Станисич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Stojanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Стожанович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Stojiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Стожич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Stojiciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Стожижич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Stoykoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Стойкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Sturanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Стуранович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Svilanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Свиланович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Tanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Танович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Terziç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Терзич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Tihiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Тихич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Todoroviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Тодорович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Todoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Тодович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Tomciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Томжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Tomiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Томич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Topcagiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Топжагич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Topiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Топич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Traykoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Трайкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Trbiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Трбич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vasiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Васич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vasiljkoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Василькович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vaskoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Васкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vekariç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Векарич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Veljoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Вельович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Veruoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Веруович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vlahoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Влахович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vlasiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Власич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vrankiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Вранкич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vucetiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Вужетич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vuciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Вужич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vuciniç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Вужинич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vuckoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Вужкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vujanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Вужанович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vukceviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Вукжевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vukeliç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Вукелич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vukotiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Вукотич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vukoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Вукович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vukoyeviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Вукоевич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Vuyanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Вуянович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Yovanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Ёванович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Zelenoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Зеленович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Zigiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Зигич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Zivkoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Зивкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+        <e><p><l>Zvetkoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Зветкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 
 
     
         <!-- SECTION: Adjectives -->
 
+	<e c="  0"><p><l>var<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
+        <e c="  0"><p><l>yok<s n="adj"/></l><r>жок<s n="adj"/></r></p></e>
+
 	<!--<e c="  0"><p><l>tüm<s n="adj"/></l><r>бүтүндөй<s n="adj"/></r></p></e>--> <!-- FMT: put this back when you know what it is -->
-        <e c="  0"><p><l>büsbütün<s n="adv"/></l><r>бүтүндөй<s n="adv"/></r></p></e>
 
 	<e c="  0"><p><l>güzel<s n="adj"/></l><r>сулуу<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>kız<s n="adj"/></l><r>кыз<s n="adj"/></r></p></e>
@@ -5271,7 +5268,6 @@
 	<e c="  0"><p><l>kuru<s n="adj"/></l><r>кургак<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>kuzey<s n="adj"/></l><r>түндүк<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>güneydoğu<s n="adj"/></l><r>түштүк<b/>чыгыш<s n="adj"/></r></p></e>
-	<e c="  0"><p><l>başka<s n="adj"/></l><r>башка<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>batı<s n="adj"/></l><r>батыш<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>güçlü<s n="adj"/></l><r>күчтүү<s n="adj"/></r></p></e>
 	<e c="  0"><p><l>küçük<s n="adj"/></l><r>кичинекей<s n="adj"/></r></p></e>
@@ -5948,6 +5944,7 @@
       <e slr="1"><p><l>gerek<s n="adj"/></l><r>зарыл<s n="adj"/></r></p></e>
         <!-- SECTION: Adverbs -->
 
+        <e c="  0"><p><l>büsbütün<s n="adv"/></l><r>бүтүндөй<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>yarın<s n="adv"/></l><r>эртең<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>en<s n="adv"/></l><r>эң<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>ertesi<s n="adv"/></l><r>эртеси<s n="adv"/></r></p></e>
@@ -6016,7 +6013,6 @@
 	<e c="  0"><p><l>nerede<s n="adv"/></l><r>кайакта<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>şimdilik<s n="adv"/></l><r>азырынча<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>birden<s n="adv"/></l><r>кокустан<s n="adv"/></r></p></e>
-	<e c="  0"><p><l>hayır<s n="adv"/></l><r>жок<s n="adv"/></r></p></e>  
 	<e c="  0"><p><l>böylece<s n="adv"/></l><r>ушундайча<s n="adv"/></r></p></e>  
 	<e c="  0"><p><l>nispeten<s n="adv"/></l><r>аз<b/>да<b/>болсо<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>muhtemelen<s n="adv"/></l><r>ыктымал<s n="adv"/></r></p></e>  
@@ -6073,7 +6069,7 @@
 	<e c="  0"><p><l>hepten<s n="adv"/></l><r>бардыгын<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>maalesef<s n="adv"/></l><r>тилеке<b/>каршы<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>evvel<s n="adv"/></l><r>алдында<s n="adv"/></r></p></e>
-	<e c="  0"><p><l>dün<s n="adv"/></l><r>кечээ<s n="adv"/></r></p></e>
+	<e c="  0"><p><l>dün<s n="n"/></l><r>кечээ<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>daima<s n="adv"/></l><r>дайыма<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>nadiren<s n="adv"/></l><r>анда-санда<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>işte<s n="adv"/></l><r>мына<s n="adv"/></r></p></e>
@@ -6207,23 +6203,17 @@
         <e c="  0"><p><l>zaman<s n="adv"/></l><r>заман<s n="adv"/></r></p></e>
         <e c="  0"><p><l>acaba<s n="adv"/></l><r>кызык<s n="adv"/></r></p></e>
         <e c="  0"><p><l>sene<s n="adv"/></l><r>жыл<s n="adv"/></r></p></e>
+
+
         <!-- SECTION: Verbs -->
 
-	<e c="  0"><p><l>var<s n="exist"/></l><r>бар<s n="v"/><s n="exi"/></r></p></e>
-        <e c="  0"><p><l>değil<s n="not"/></l><r>э<s n="cop"/><s n="neg"/></r></p></e>
-        <e c="  0"><p><l>yok<s n="nexist"/></l><r>жок<s n="v"/><s n="neg"/></r></p></e>
+        <e c="  0"><p><l>değil<s n="adj"/></l><r>э<s n="cop"/><s n="neg"/></r></p></e>
 
-<!--
-    <e><p><l>var<s n="exist"/></l><r>бар<s n="exist"/></r></p></e> 
-    <e><p><l>değil<s n="not"/></l><r>эмес<s n="not"/></r></p></e>
-    <e><p><l>yok<s n="nexist"/></l><r>жок<s n="nexist"/></r></p></e>
--->
-
-	<e c="  0"><p><l>gel<s n="v"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>ol<s n="v"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>iç<s n="v"/></l><r>ич<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>söyle<s n="v"/></l><r>айт<s n="v"/></r></p><par n="(t|i)v"/></e>
-	<e c="  0"><p><l>bil<s n="v"/></l><r>бил<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>gel<s n="v"/><s n="iv"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>ol<s n="v"/><s n="iv"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>iç<s n="v"/><s n="tv"/></l><r>ич<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>söyle<s n="v"/><s n="tv"/></l><r>айт<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>bil<s n="v"/><s n="tv"/></l><r>бил<s n="v"/><s n="tv"/></r></p></e>
 
 	<e c="  0"><p><l>öğren<s n="v"/></l><r>үйрөн<s n="v"/></r></p><par n="(t|i)v"/></e>
 
@@ -6245,13 +6235,13 @@
 	<e slr="1"><p><l>geç<s n="v"/></l><r>жаз<s n="v"/><s n="tv"/><s n="pass"/></r></p></e> 
 	<e slr="2"><p><l>geç<s n="v"/></l><r>кеч<s n="v"/><s n="tv"/></r></p></e> 
 
-	<e c="  0"><p><l>gül<s n="v"/></l><r>күл<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>uç<s n="v"/></l><r>уч<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>gül<s n="v"/><s n="iv"/></l><r>күл<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>uç<s n="v"/><s n="iv"/></l><r>уч<s n="v"/><s n="iv"/></r></p></e>
 
 	<e c="  0"><p><l>git<s n="v"/><s n="iv"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>arık<s n="v"/><s n="iv"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
 
-	<e c="  0"><p><l>çalış<s n="v"/></l><r>иште<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>çalış<s n="v"/><s n="iv"/></l><r>иште<s n="v"/><s n="iv"/></r></p></e>
 	<e slr="1"><p><l>çalış<s n="v"/></l><r>аракет<b/>кыл<s n="v"/><s n="iv"/></r></p></e> <!-- don't change this -->
 	<e slr="2"><p><l>çalış<s n="v"/></l><r>оку<s n="v"/></r></p><par n="(t|i)v"/></e>
 
@@ -6278,21 +6268,22 @@
 	<e slr="1"><p><l>boz<s n="v"/></l><r>талкала<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>buda<s n="v"/></l><r>бута<s n="v"/><s n="tv"/></r></p></e>
 		
-	<e c="  0"><p><l>sev<s n="v"/></l><r>сүй<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>sev<s n="v"/><s n="tv"/></l><r>сүй<s n="v"/><s n="tv"/></r></p></e>
 	<!-- From apertium tr-az-->
 	<e c="  0"><p><l>savun<s n="v"/></l><r>корго<s n="v"/><s n="tv"/></r></p></e>
-        <e c="  0"><p><l>iç<s n="v"/></l><r>ич<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>al<s n="v"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>ver<s n="v"/></l><r>бер<s n="v"/><s n="tv"/></r></p></e>
+        <e c="  0"><p><l>iç<s n="v"/><s n="tv"/></l><r>ич<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>al<s n="v"/><s n="tv"/></l><r>ал<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>al<s n="v"/><s n="iv"/></l><r>ал<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>ver<s n="v"/><s n="tv"/></l><r>бер<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>besle<s n="v"/></l><r>бак<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>hatırla<s n="v"/></l><r>эсте<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>de<s n="v"/></l><r>де<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>de<s n="v"/><s n="tv"/></l><r>де<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>şükret<s n="v"/></l><r>шүкүр<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>planla<s n="v"/></l><r>планда<s n="v"/></r></p><par n="(t|i)v"/></e>
 
-	<e c="  0"><p><l>et<s n="v"/></l><r>кыл<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>yap<s n="v"/></l><r>кыл<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>kıl<s n="v"/></l><r>кыл<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>et<s n="v"/><s n="tv"/></l><r>кыл<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>yap<s n="v"/><s n="tv"/></l><r>кыл<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>kıl<s n="v"/><s n="tv"/></l><r>кыл<s n="v"/><s n="tv"/></r></p></e>
 
 	<e c="  0"><p><l>ada<s n="v"/></l><r>арна<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ağla<s n="v"/></l><r>ыйла<s n="v"/><s n="iv"/></r></p></e>
@@ -6344,7 +6335,8 @@
 	<e c="  0"><p><l>dök<s n="v"/></l><r>төк<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e c="  0"><p><l>dön<s n="v"/></l><r>бур<s n="v"/><s n="tv"/><s n="pass"/></r></p></e>
 	<e c="  0"><p><l>döv<s n="v"/></l><r>саба<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>duy<s n="v"/></l><r>ук<s n="v"/></r></p><par n="(t|i)v"/></e>
+	<e c="  0"><p><l>duy<s n="v"/><s n="tv"/></l><r>ук<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>duy<s n="v"/><s n="iv"/></l><r>ук<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>düş<s n="v"/></l><r>жык<s n="v"/><s n="tv"/><s n="pass"/></r></p></e>
 	<e slr="1"><p><l>düş<s n="v"/></l><r>кула<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ekle<s n="v"/></l><r>кош<s n="v"/><s n="tv"/></r></p></e>
@@ -6397,7 +6389,7 @@
 	<e c="  0"><p><l>otla<s n="v"/></l><r>отто<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ovala<s n="v"/></l><r>ушала<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>oyla<s n="v"/></l><r>шайла<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>oyna<s n="v"/></l><r>ойно<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>oyna<s n="v"/><s n="tv"/></l><r>ойно<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>öde<s n="v"/></l><r>төлө<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>ölç<s n="v"/></l><r>өлчө<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>ör<s n="v"/></l><r>өр<s n="v"/><s n="tv"/></r></p></e>
@@ -6417,7 +6409,7 @@
 	<e c="  0"><p><l>sark<s n="v"/></l><r>салаңда<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>sav<s n="v"/></l><r>сыла<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>say<s n="v"/></l><r>сыйла<s n="v"/><s n="tv"/></r></p></e>
-	<e slr="1"><p><l>say<s n="v"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
+	<e slr="1"><p><l>say<s n="v"/><s n="tv"/></l><r>сана<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>seç<s n="v"/></l><r>танда<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="1"><p><l>seç<s n="v"/></l><r>чеч<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>sek<s n="v"/></l><r>акса<s n="v"/><s n="iv"/></r></p></e>
@@ -6461,7 +6453,7 @@
 	<e c="  0"><p><l>yavaşla<s n="v"/></l><r>акырында<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>yay<s n="v"/></l><r>жай<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>yaz<s n="v"/></l><r>жаз<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>ye<s n="v"/></l><r>же<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>ye<s n="v"/><s n="tv"/></l><r>же<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>yen<s n="v"/></l><r>жең<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e c="  0"><p><l>yığ<s n="v"/></l><r>жый<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>yık<s n="v"/></l><r>жык<s n="v"/><s n="tv"/></r></p></e>
@@ -6474,16 +6466,16 @@
 	<!--<e><p><l>zırla<s n="v"/></l><r>zırılda<s n="v"/><s n="TD"/></r></p></e>-->
 	<e c="  0"><p><l>zorla<s n="v"/></l><r>кыйна<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>üret<s n="v"/></l><r>пайда<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>gör<s n="v"/></l><r>көр<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>bul<s n="v"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>bak<s n="v"/></l><r>кара<s n="v"/></r></p><par n="(t|i)v"/></e>
+	<e c="  0"><p><l>gör<s n="v"/><s n="tv"/></l><r>көр<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>bul<s n="v"/><s n="tv"/></l><r>тап<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>bak<s n="v"/><s n="tv"/></l><r>кара<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>belir<s n="v"/></l><r>көрүн<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>düz<s n="v"/></l><r>тиз<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>getir<s n="v"/></l><r>алып<b/>кел<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>aç<s n="v"/></l><r>ач<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>kal<s n="v"/></l><r>кал<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>art<s n="v"/></l><r>көбөйт<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>konuş<s n="v"/></l><r>сүйлө<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>konuş<s n="v"/><s n="iv"/></l><r>сүйлө<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ilerle<s n="v"/></l><r>илгериле<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>sun<s n="v"/></l><r>сун<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>yaşa<s n="v"/></l><r>жаша<s n="v"/><s n="iv"/></r></p></e>
@@ -6498,7 +6490,7 @@
 	<e c="  0"><p><l>başar<s n="v"/></l><r>ишке<b/>ашыр<s n="v"/><s n="iv"/></r></p></e>
 	<e slr="1"><p><l>başar<s n="v"/></l><r>бүтүр<s n="v"/><s n="iv"/></r></p></e>
 	<e slr="2"><p><l>başar<s n="v"/></l><r>аткар<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>düşün<s n="v"/></l><r>ойлон<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>düşün<s n="v"/><s n="tv"/></l><r>ойлон<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>var<s n="v"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>unut<s n="v"/></l><r>унут<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>kullan<s n="v"/></l><r>колдон<s n="v"/><s n="tv"/></r></p></e>
@@ -6550,7 +6542,7 @@
 	<e slr="3"><p><l>kazan<s n="v"/></l><r>жең<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>topla<s n="v"/></l><r>чогул<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
 	<e slr="1"><p><l>topla<s n="v"/></l><r>кош<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>ara<s n="v"/></l><r>изде<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>ara<s n="v"/><s n="tv"/></l><r>изде<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>koru<s n="v"/></l><r>корго<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>öngör<s n="v"/></l><r>көз<b/>алдында<b/>тут<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="1"><p><l>öngör<s n="v"/></l><r>алдын<b/>көр<s n="v"/><s n="tv"/></r></p></e>
@@ -6662,7 +6654,7 @@
 	<e slr="2"><p><l>sok<s n="v"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>sakla<s n="v"/></l><r>жашыр<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="1"><p><l>sakla<s n="v"/></l><r>бекит<s n="v"/><s n="tv"/></r></p></e>
-	<e slr="2"><p><l>sakla<s n="v"/></l><r>кат<s n="v"/><s n="tv"/></r></p></e>
+	<e slr="2"><p><l>sakla<s n="v"/><s n="tv"/></l><r>кат<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>haberleş<s n="v"/></l><r>кабарлаш<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>kanıtla<s n="v"/></l><r>далилде<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>ilet<s n="v"/></l><r>жет<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
@@ -6715,7 +6707,7 @@
 	<e c="  0"><p><l>yararlan<s n="v"/></l><r>пайдалан<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>bulaş<s n="v"/></l><r>кирде<s n="v"/><s n="iv"/></r></p></e>
 	<e slr="1"><p><l>bulaş<s n="v"/></l><r>булган<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>otur<s n="v"/></l><r>отур<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>otur<s n="v"/><s n="iv"/></l><r>отур<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>tart<s n="v"/></l><r>тарт<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e slr="1"><p><l>tart<s n="v"/></l><r>өлчө<s n="v"/></r></p><par n="(t|i)v"/></e>
 	<e c="  0"><p><l>güven<s n="v"/></l><r>ишен<s n="v"/><s n="tv"/></r></p></e>
@@ -6739,7 +6731,7 @@
 	<e c="  0"><p><l>nitele<s n="v"/></l><r>мүнөздө<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>dire<s n="v"/></l><r>тире<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="1"><p><l>dire<s n="v"/></l><r>тая<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>koş<s n="v"/></l><r>чурка<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>koş<s n="v"/></l><r>чурка<s n="v"/><s n="iv"/></r></p></e>
 	<e slr="1"><p><l>koş<s n="v"/></l><r>жүгүр<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>hisset<s n="v"/></l><r>сез<s n="v"/><s n="iv"/></r></p></e>
 	<e slr="1"><p><l>hisset<s n="v"/></l><r>туй<s n="v"/><s n="iv"/></r></p></e>
@@ -6756,7 +6748,7 @@
 	<e slr="2"><p><l>kır<s n="v"/></l><r>көңул<b/>оорут<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>yorumla<s n="v"/></l><r>түшүндүр<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>gider<s n="v"/></l><r>кет<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
-	<e c="  0"><p><l>sor<s n="v"/></l><r>сура<s n="v"/><s n="tv"/></r></p></e> 
+	<e c="  0"><p><l>sor<s n="v"/><s n="tv"/></l><r>сура<s n="v"/><s n="tv"/></r></p></e> 
 	<e c="  0"><p><l>sar<s n="v"/></l><r>оро<s n="v"/><s n="tv"/></r></p></e>
 	<e slr="1"><p><l>sar<s n="v"/></l><r>таң<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>sars<s n="v"/></l><r>силкилдет<s n="v"/><s n="tv"/></r></p></e>
@@ -6771,8 +6763,8 @@
 	<e slr="1"><p><l>gez<s n="v"/></l><r>саякатта<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>naklet<s n="v"/></l><r>көч<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
 	<e c="  0"><p><l>eğ<s n="v"/></l><r>ий<s n="v"/><s n="tv"/></r></p></e>
-	<e c="  0"><p><l>seyret<s n="v"/></l><r>көр<s n="v"/><s n="tv"/></r></p></e>
-	<e slr="1"><p><l>seyret<s n="v"/></l><r>кара<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>seyret<s n="v"/><s n="tv"/></l><r>көр<s n="v"/><s n="tv"/></r></p></e>
+	<e slr="1"><p><l>seyret<s n="v"/><s n="tv"/></l><r>кара<s n="v"/><s n="tv"/></r></p></e>
 
      <e c="  0"><p><l>görüntüle<s n="v"/></l><r>көрсөт<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>göster<s n="v"/></l><r>көрсөт<s n="v"/><s n="tv"/></r></p></e>
@@ -6783,7 +6775,7 @@
 	<e slr="1"><p><l>benimse<s n="v"/></l><r>өзуңө<b/>ыйгар<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>tırman<s n="v"/></l><r>чык<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>tara<s n="v"/></l><r>тара<s n="v"/><s n="iv"/></r></p></e>
-	<e c="  0"><p><l>gizle<s n="v"/></l><r>кат<s n="v"/><s n="tv"/></r></p></e>
+	<e c="  0"><p><l>gizle<s n="v"/><s n="tv"/></l><r>кат<s n="v"/><s n="tv"/></r></p></e>
 	<e c="  0"><p><l>sığın<s n="v"/></l><r>жашын<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ak<s n="v"/></l><r>ак<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>dile<s n="v"/></l><r>тиле<s n="v"/><s n="tv"/></r></p></e>
@@ -6960,7 +6952,7 @@
      <e c="  0"><p><l>çoğal<s n="v"/></l><r>көбөй<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>çevrele<s n="v"/></l><r>курча<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>yakış<s n="v"/></l><r>жараш<s n="v"/><s n="iv"/></r></p></e>
-          <e c="  0"><p><l>varsay<s n="v"/></l><r>божомолдо<s n="v"/><s n="iv"/></r></p></e>
+     <e c="  0"><p><l>varsay<s n="v"/></l><r>божомолдо<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>sömür<s n="v"/></l><r>эз<s n="v"/><s n="tv"/></r></p></e>
      <e c="  0"><p><l>konakla<s n="v"/></l><r>жайгаш<s n="v"/><s n="iv"/></r></p></e>
      <e c="  0"><p><l>kana<s n="v"/></l><r>кана<s n="v"/><s n="iv"/></r></p></e>
@@ -7093,7 +7085,7 @@
       <e c="  0"><p><l>indirge<s n="v"/></l><r>жөнөкөйлөштүр<s n="v"/><s n="tv"/></r></p></e>
       <e c="  0"><p><l>duraksa<s n="v"/></l><r>тайсалда<s n="v"/><s n="iv"/></r></p></e>
       <e c="  0"><p><l>büyüle<s n="v"/></l><r>сыйкырдап<b/>ал<s n="v"/><s n="iv"/></r></p></e>
-      <e c="  0"><p><l>atfet<s n="v"/></l><r>көр<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
+      <e c="  0"><p><l>atfet<s n="v"/><s n="tv"/></l><r>көр<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
       <e c="  0"><p><l>yuhala<s n="v"/></l><r>шылдыңга<b/>ал<s n="v"/><s n="tv"/></r></p></e>
       <e c="  0"><p><l>yoğur<s n="v"/></l><r>жууру<s n="v"/><s n="tv"/></r></p></e>
       <e c="  0"><p><l>yılla<s n="v"/></l><r>жылдар<b/>бою<b/>бир<b/>жерде<b/>кал<s n="v"/><s n="iv"/></r></p></e>
