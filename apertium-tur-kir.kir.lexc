@@ -22,6 +22,7 @@ Multichar_Symbols
 %<cnjadv%>  ! Adverbial conjunction
 %<cnjsub%>  ! Subordinating conjunction
 %<cop%>     ! Copula
+%<pred%>    ! Predicative
 
 %<iv%>      ! Intransitive 
 %<tv%>      ! Transitive
@@ -33,7 +34,10 @@ Multichar_Symbols
 %<loc%>     ! Locative
 %<abl%>     ! Ablative
 
-%<locattr%>    ! Relativised locative -DAGI
+!%<locattr%>    ! Relativised locative -DAGI
+%<subst%>   ! substantive use of non-nouns
+%<attr%>    ! attributive use of non-adjectives
+%<advl%>    ! adverbial use of non adverbs
 
 %<m%>       ! Masculine
 %<f%>       ! Feminine
@@ -77,16 +81,15 @@ Multichar_Symbols
 %<neg%>     ! Negative
 %<exi%>     ! Existential
 
-%<mod_qst%> ! Question modal particle
+%<qst%>     ! Question modal particle
 %<mod_foc%> ! "what about ..." question particle
 %<mod_ass%> ! assumption-that-interlocutor-knows-something modal particle
 %<mod_tru%> ! assumption-that-statement-is-true modal particle
 
-%<pst%>     ! Positive level of comparison
 %<comp%>    ! Comparative level of comparison 
 %<sup%>	    ! Superlative level of comparison 
 %<ord%>     ! Ordinal
-%<apprx%>   ! Approximal
+%<sim%>     ! Similative
 %<attr%>    ! -KI suffix, adjectivaliser
 
 %<pass%>    ! Passive
@@ -102,13 +105,19 @@ Multichar_Symbols
 
 %<asif%>          ! a verbal affix adding "as if ..." to the meaning
 
-%<prt_plan%>
-%<prt_cond%>
-%<prt_perf%>
-%<prt_impf%>
-%<prt_vol%>   ! volitional
-%<prt_irre%>  ! irrealis
-%<prt_ala%>   ! "as long as" participle
+%<prc_plan%>
+%<prc_cond%>
+%<prc_perf%>
+%<prc_impf%>
+%<prc_vol%>   ! volitional
+%<prc_irre%>  ! irrealis
+%<prc_prp%>   ! purposive
+%<prc_real%>  ! realis
+
+%<gna_perf%>
+%<gna_prp%>
+%<gna_cnd%>
+%<gna_ala%>   ! "as long as"
 
 %<ger_fut%>
 %<ger_past%>
@@ -120,15 +129,15 @@ Multichar_Symbols
 %<ger_notyet%>    ! Not-yet gerund, -E элек
 %<ger_ppot%>      ! Perfective(?) potential gerund
 
-%<vadj_fut%>
-%<vadj_pot2%>
-%<vadj_perf%>
-%<vadj_past%>
-%<vadj%>
-%<vadj_pot%>
-%<vadj_impf%>
-%<vadj_hab%>
-%<vadj_notyet%>  ! Not-yet verbal adjective, -E элек
+%<glp_fut%>       ! verbal adjectives = глагольное прилагательное
+%<glp_pot2%>
+%<glp_perf%>
+%<glp_past%>
+%<glp%>
+%<glp_pot%>
+%<glp_impf%>
+%<glp_hab%>
+%<glp_notyet%>  ! Not-yet verbal adjective, -E элек
 
 %<imp%>     ! imperative
 
@@ -213,7 +222,7 @@ LEXICON CASES-DEFAULT
 %<dat%>:%>%{G%}%{A%} # ;       ! -га, -ка, -ге, -ке, -го, -ко, -гө, -кө
 %<acc%>:%>%{N%}%{I%} # ;       ! -ны, -ни, -ды, -ди, -ты, -ти, -ну, -нү, -ду, -дү, -ту, -тү
 %<loc%>:%>%{D%}%{A%} PRED ;  ! -да, -де, -та, -те, -до, -дө, -то, -тө
-%<apprx%>:%>%{D%}%{A%}й PRED ;  ! -дай, -дей, -дөй, -дой, -тай, -тей, -төй, той
+%<sim%>:%>%{D%}%{A%}й PRED ;  ! -дай, -дей, -дөй, -дой, -тай, -тей, -төй, той
 
 LEXICON CASES
 CASES-DEFAULT ;
@@ -246,14 +255,15 @@ CASES-DEFAULT ;
 LEXICON GEN-POS
 CASES ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
-%<locattr%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
+!%<locattr%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
+%<loc%>:%>%{D%}%{A%}г%{I%} DAGI ;
 !%<locattr%>:%>%{D%}%{A%}г%{I%} CASES ;
 !%<locattr%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
 
 LEXICON GEN-POS-PX12SG
 CASES-PX12SG ;
 %<px%>:%>%{N%}%{I%}к%{I%}%{n%} CASES ; !CASES-SHORT-ACC ; 
-%<locattr%>:%>%{D%}%{A%}г%{I%} ADJ-DAGI ;
+%<loc%>:%>%{D%}%{A%}г%{I%} DAGI ;
 ! %<locattr%>:%>%{D%}%{A%}г%{I%} CASES ;
 !%<locattr%>:%>%{D%}%{A%}г%{I%} V-ADJ ; ! FIXME: when we go recursive, use this
 
@@ -285,19 +295,50 @@ LEXICON VOL-ENDINGS
 %<p2%>%<pl%>%<frm%>:%{I%}ң%{I%}зд%{A%}р # ;
 %<p3%>%<pl%>:%>%{S%}%{I%}%{n%} # ;
 
-LEXICON N-INFL-COMMON
+LEXICON EXI
 
+%<adj%>: ATTR ;
+%<adj%>%<subst%>: POSSESSION ;
+
+LEXICON SUBST-COMMON
+
+%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+POSSESSION ;
+
+!LEXICON N-INFL-COMMON
+!
+!!%<n%>:%>%{L%}%{U%}%{U%} ADJ ;  ! Any noun can be made into an adjective like this, though it's basically derivation
+!! %<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
+
+LEXICON N-INFL-SG  ! nouns with no/irregular plural
+
+!%<n%>: N-INFL-COMMON ;
+%<n%>%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
 %<n%>: POSSESSION ;
-%<n%>:%>%{L%}%{U%}%{U%} ADJ ;  ! Any noun can be made into an adjective like this, though it's basically derivation
 
-LEXICON N-INFL-SG
+LEXICON N-INFL      ! Nouns that have a LUU attributive form
 
-N-INFL-COMMON ;
+%<n%>%<attr%>:%>%{L%}%{U%}%{U%} ATTR ;
+%<n%>: SUBST-COMMON ;
 
-LEXICON N-INFL
+LEXICON N-INFL-KI   ! Nouns that have a KI attributive form
 
-N-INFL-COMMON ;
-%<n%>%<pl%>:%>%{L%}%{A%}р POSSESSION ;
+%<n%>: KI ;
+%<n%>: SUBST-COMMON ;
+
+! LEXICON N-INFL-NO-ATTR  ! Used for nouns that have irregular <attr> forms
+! 
+! %<n%>: SUBST-COMMON ;
+! 
+! LEXICON N-INFL-JUST-KI  ! Used for nouns that have irregular KI forms
+! 
+! %<n%>: KI ;
+
+LEXICON N-INFL-NKI
+
+%<n%>:%{I%}н KI ; ! Dir/LR
+%<n%>:%{I%}ң KI ; 
+%<n%>: SUBST-COMMON ;
 
 LEXICON N-INFL-3PX-COMPOUND
 
@@ -360,48 +401,69 @@ LEXICON NP-AL
 
 LEXICON ADJ-LEVELS
 
-%<pst%>: # ;
+# ;
 %<comp%>:%>%{I%}р%{A%}%{A%}к # ;
 %<comp%>:%>%{I%}р%{A%}к # ;        ! Dir/LR
 
 LEXICON ADJ-COMMON
 
-%<adj%>%<pst%>: # ;
-%<n%>: POSSESSION ;  ! all adjectives can be used as nouns
+%<adj%>: # ;
+! %<n%>: POSSESSION ;  ! all adjectives can be used as nouns
+%<adj%>%<subst%>: SUBST-COMMON ;
 ! %<n%>: N-INFL ;  ! all adjectives can be used as nouns
 
-LEXICON ADJ-DAGI
+LEXICON DAGI
 
-!! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of CASES
-%<n%>: CASES ;
-! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of N-INFL
-!%<n%>: N-INFL ;
-%<adj%>%<pst%>: # ;
-# ;
+!!! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of CASES
+!%<n%>: CASES ;
+!! ADJ-COMMON ;  !!!! ! FIXME: when we go recursive, use this instead of N-INFL
+!!%<n%>: N-INFL ;
+!%<adj%>%<pst%>: # ;
+!# ;
+
+%<attr%>: # ;
+!%<subst%>: POSSESSION ;
+!%<subst%>%<pl%>:%{L%}%{A%}р POSSESSION ;  ! This is instead of the line below
+%<subst%>: SUBST-COMMON ;  ! Use/Circ  !! FIXME: when we go recursie, uncomment
+
 
 LEXICON V-ADJ
 
-ADJ-COMMON ; 
-%<pst%>:  # ; 
-# ; 
+! ADJ-COMMON ; 
+! %<pst%>:  # ; 
+! # ;
+ATTR ; 
+%<subst%>: SUBST-COMMON ;
+
+LEXICON ATTR
+
+# ;
+V-CLIT ;
+!ADJ-LEVELS ; ! In theory, there can be <pst> and <comp> readings, but depends what for
 
 LEXICON ADJ
 
 ADJ-COMMON ; 
 %<adj%>: ADJ-LEVELS ; 
+%<adj%>%<advl%>: ADVL ;
+%<adj%>: V-PERS-COP ;
 
-LEXICON ADJ-ORD
+! LEXICON ADJ-ORD
+! 
+! %<adj%>%<ord%>: # ;
+! %<adj%>%<ord%>%<subst%>: POSSESSION ;
+! 
+! LEXICON ADJ-KI
+!
+! %<attr%>:%>%{K%}%{I%} ADJ-COMMON ;
 
-%<adj%>%<ord%>: # ;
-%<adj%>%<ord%>%<n%>: POSSESSION ;
+LEXICON KI
 
-LEXICON ADJ-KI
+%<attr%>:%>%{K%}%{I%} ATTR ;
 
-%<attr%>:%>%{K%}%{I%} ADJ-COMMON ;
+LEXICON ADV-KI
 
-LEXICON ADV-ITG
-
-%<adv%>%<itg%>: # ;
+%<adv%>: KI ;
 
 LEXICON ADV-WITH-KI-ABL
 
@@ -424,10 +486,6 @@ LEXICON ADV-WITH-ABL-REG
 ADV ;
 ADV-ABL-REG ;
 
-LEXICON ADV-KI
-
-%<adv%>: ADJ-KI ;
-
 LEXICON ADV-ABL
 
 %<adv%>%<abl%>:%>т%{A%}н PRED ;
@@ -436,10 +494,18 @@ LEXICON ADV-ABL-REG
 
 %<adv%>%<abl%>:%>д%{A%}н PRED ;
 
+LEXICON ADVL
+
+# ;
+V-CLIT ;
+
 LEXICON ADV
 
-%<adv%>: # ;
-%<adv%>: V-CLIT ;
+%<adv%>: ADVL ;
+
+LEXICON ADV-ITG
+
+%<adv%>%<itg%>: # ;
 
 LEXICON POST
 
@@ -475,9 +541,9 @@ LEXICON PART-PERS-COP
 
 %<part%>: V-PERS-COP ;
 
-LEXICON PART-PERS-PAST 
-
-%<part%>: V-PERS-PAST ;
+! LEXICON PART-PERS-PAST 
+! 
+! %<part%>: V-PERS-PAST ;
 
 LEXICON ABBR
 
@@ -528,11 +594,11 @@ LEXICON NUM-ROMAN
 
 %<num%>: CASES ;
 
+
 LEXICON NUM
 
-%<num%>: POSSESSION ;
-%<num%>%<ord%>:%>%{I%}нч%{I%} POSSESSION ;
-%<num%>%<apprx%>:%>%{D%}%{A%}й POSSESSION ;
+NUM-COMMON ;
+
 
 LEXICON NUM-ONE
 
@@ -541,10 +607,16 @@ LEXICON NUM-ONE
 % миллион NUM ; ! "one million"
 % миллиард NUM ; ! "one billion"
 
-%<num%>: POSSESSION ;
-%<num%>%<ord%>:%>%{I%}нч%{I%} POSSESSION ;
-%<num%>%<apprx%>:%>%{D%}%{A%}й POSSESSION ;
+NUM-COMMON ;
 
+
+LEXICON NUM-COMMON
+
+%<num%>: POSSESSION ;
+! %<num%>%<sim%>:%>%{D%}%{A%}й POSSESSION ;  ! WTF is this?
+%<num%>%<ord%>:%>%{I%}нч%{I%} # ;
+%<num%>%<ord%>%<advl%>:%>%{I%}нч%{I%} ADVL ;
+%<num%>%<ord%>%<subst%>:%>%{I%}нч%{I%} SUBST-COMMON ;  ! yes, they can be plural
 
 
 LEXICON PRON-DEM-BUL
@@ -556,9 +628,9 @@ LEXICON PRON-DEM-BUL
 %<prn%>%<dem%>%<dat%>:буга # ;
 %<prn%>%<dem%>%<loc%>:мында PRED ;
 %<prn%>%<dem%>%<abl%>:мындан PRED ;
-%<prn%>%<dem%>%<apprx%>:мындай PRED ;  
+%<prn%>%<dem%>%<sim%>:мындай PRED ;  
 
-%<prn%>%<dem%>%<locattr%>:мындагы ADJ-DAGI ;
+%<prn%>%<dem%>%<loc%>:мындагы DAGI ;
 
 %<prn%>%<dem%>:муну POSSESSION-ENDINGS ;
 
@@ -573,9 +645,9 @@ LEXICON PRON-DEM-OSOL
 %<prn%>%<dem%>%<dat%>:го # ;
 %<prn%>%<dem%>%<loc%>:ндо PRED ;
 %<prn%>%<dem%>%<abl%>:ндон PRED ;
-%<prn%>%<dem%>%<apprx%>:ндой PRED ;
+%<prn%>%<dem%>%<sim%>:ндой PRED ;
 
-%<prn%>%<dem%>%<locattr%>:ндогу ADJ-DAGI ;
+%<prn%>%<dem%>%<loc%>:ндогу DAGI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
 
 %<prn%>%<dem%>:ну POSSESSION-ENDINGS ;
@@ -591,9 +663,9 @@ LEXICON PRON-DEM-USUL
 %<prn%>%<dem%>%<dat%>:га # ;
 %<prn%>%<dem%>%<loc%>:нда PRED ;
 %<prn%>%<dem%>%<abl%>:ндан PRED ;
-%<prn%>%<dem%>%<apprx%>:ндай PRED ;
+%<prn%>%<dem%>%<sim%>:ндай PRED ;
 
-%<prn%>%<dem%>%<locattr%>:ндагы ADJ-DAGI ;
+%<prn%>%<dem%>%<loc%>:ндагы DAGI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:ндуктан PRED ;  ! FIXME: need better name
 
 %<prn%>%<dem%>:ну POSSESSION-ENDINGS ;
@@ -609,9 +681,9 @@ LEXICON PRON-DEM-AL
 %<prn%>%<dem%>%<dat%>:га # ;
 %<prn%>%<dem%>%<loc%>:нда PRED ;
 %<prn%>%<dem%>%<abl%>:ндан PRED ;
-%<prn%>%<dem%>%<apprx%>:ндай PRED ;
+%<prn%>%<dem%>%<sim%>:ндай PRED ;
 
-%<prn%>%<dem%>%<locattr%>:ндагы ADJ-DAGI ;
+%<prn%>%<dem%>%<loc%>:ндагы DAGI ;
 %<prn%>%<dem%>%<reason%>%<abl%>:ндыктан PRED ;  ! FIXME: need better name
 
 %<prn%>%<dem%>:ны POSSESSION-ENDINGS ;
@@ -627,9 +699,9 @@ LEXICON PRON-DEM-TIGIL
 %<prn%>%<dem%>%<dat%>:ге # ;
 %<prn%>%<dem%>%<loc%>:нде PRED ;
 %<prn%>%<dem%>%<abl%>:нден PRED ;
-%<prn%>%<dem%>%<apprx%>:нндей PRED ;
+%<prn%>%<dem%>%<sim%>:нндей PRED ;
 
-%<prn%>%<dem%>%<locattr%>:ндеги ADJ-DAGI ;
+%<prn%>%<dem%>%<loc%>:ндеги DAGI ;
 
 %<prn%>%<dem%>:ни POSSESSION-ENDINGS ;
 
@@ -645,8 +717,8 @@ LEXICON PRON-PERS-EN
 %<dat%>:аа # ;    ! Dir/LR
 %<loc%>:енде PRED ;
 %<abl%>:енден PRED ;
-%<apprx%>:ендей PRED ;
-%<locattr%>:ендеги ADJ-DAGI ;
+%<sim%>:ендей PRED ;
+%<loc%>:ендеги DAGI ;
 
 LEXICON PRON-PERS-IZ
 
@@ -656,8 +728,8 @@ LEXICON PRON-PERS-IZ
 %<dat%>:ге # ;
 %<loc%>:де PRED ;
 %<abl%>:ден PRED ;
-%<apprx%>:дей PRED ;
-%<locattr%>:деги ADJ-DAGI ;
+%<sim%>:дей PRED ;
+%<loc%>:деги DAGI ;
 
 LEXICON PRON-PERS-AL
 
@@ -667,8 +739,8 @@ LEXICON PRON-PERS-AL
 %<dat%>:га # ;
 %<loc%>:нда PRED ;
 %<abl%>:ндан PRED ;
-%<apprx%>:ндай PRED ;
-%<locattr%>:ндагы ADJ-DAGI ;
+%<sim%>:ндай PRED ;
+%<loc%>:ндагы DAGI ;
 
 LEXICON PRON-PERS-PLURALS
 
@@ -678,8 +750,8 @@ LEXICON PRON-PERS-PLURALS
 %<dat%>:%>г%{A%} # ;
 %<loc%>:%>д%{A%} PRED ;
 %<abl%>:%>д%{A%}н PRED ;
-%<apprx%>:%>д%{A%}й PRED ;
-%<locattr%>:%>д%{A%}г%{I%} ADJ-DAGI ;
+%<sim%>:%>д%{A%}й PRED ;
+%<loc%>:%>д%{A%}г%{I%} DAGI ;
 
 LEXICON PRON-ITG
 
@@ -733,13 +805,13 @@ V-CLIT ;  ! TODO: I guess these aren't technically necessary?
 LEXICON V-CLIT-BI
 
 !! Modal/discourse particles
-%+бы%<mod_qst%>:%>%{B%}%{I%} V-PERS-COP ; ! CHECK
-%+бы%<mod_qst%>:%>%{B%}%{I%} # ;
+!!!!! %+бы%<qst%>:%>%{B%}%{I%} V-PERS-COP ; ! CHECK  !! CAUSING LOOPS!
+%+бы%<qst%>:%>%{B%}%{I%} # ;
 
 LEXICON V-CLIT-OTHER
 
-%+беле%<mod_qst%>:% беле # ;
-%+бекен%<mod_qst%>:% бекен # ;
+%+беле%<qst%>:% беле # ;
+%+бекен%<qst%>:% бекен # ;
 %+чы%<mod_foc%>:%>ч%{I%} # ;
 %+го%<mod_ass%>:% го # ;
 %+да%<mod_tru%>:% да # ;
@@ -752,23 +824,34 @@ LEXICON V-CLIT
 V-CLIT-OTHER ;
 V-CLIT-BI ;
 
-LEXICON V-PERS-POSS ! P_2
-
-@D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>м PRED ; 
-@D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>ң PRED ; 
-@D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>ң%{I%}з PRED ; 
-@D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@%>%{S%}%{I%} PRED ; 
-@D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>%б%{I%}з PRED ; 
-@D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>%ң%{A%}р PRED ;  
-@D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>%ң%{I%}зд%{A%}р PRED ;  
-%<p3%>%<pl%>:%>%{S%}%{I%} PRED ; 
+! LEXICON V-PERS-POSS ! P_2
+! 
+! @D.NEG.1@%<p1%>%<sg%>:@D.NEG.1@%>м PRED ; 
+! @D.NEG.1@%<p2%>%<sg%>:@D.NEG.1@%>ң PRED ; 
+! @D.NEG.1@%<p2%>%<frm%>%<sg%>:@D.NEG.1@%>ң%{I%}з PRED ; 
+! @D.NEG.1@%<p3%>%<sg%>:@D.NEG.1@%>%{S%}%{I%} PRED ; 
+! @D.NEG.1@%<p1%>%<pl%>:@D.NEG.1@%>%б%{I%}з PRED ; 
+! @D.NEG.1@%<p2%>%<pl%>:@D.NEG.1@%>%ң%{A%}р PRED ;  
+! @D.NEG.1@%<p2%>%<frm%>%<pl%>:@D.NEG.1@%>%ң%{I%}зд%{A%}р PRED ;  
+! %<p3%>%<pl%>:%>%{S%}%{I%} PRED ; 
 
 LEXICON V-PERS-COP ! P_3
 
-%+э%<cop%>: V-PERS-COP-SUF ; 
+%+э%<cop%>: V-PERS-COP-SUF-NOSG3 ; 
 !%+э%<cop%>%<neg%>:% эмес V-PERS-COP-SUF ; 
 !%+э%<cop%>%<evid%>:% экен V-PERS-COP-SUF ; 
 !%+э%<cop%>%<neg%>%<evid%>:% эмес% экен V-PERS-COP-SUF ; 
+
+LEXICON V-PERS-COP-SUF-NOSG3
+
+%<p1%>%<sg%>:%>м%{I%}н V-CLIT ; 
+%<p2%>%<sg%>:%>с%{I%}ң V-CLIT ; 
+%<p2%>%<frm%>%<sg%>:%>с%{I%}з V-CLIT ; 
+!%<p3%>%<sg%>: V-CLIT ;    ! P3 forms are null and look stupid
+%<p1%>%<pl%>:%>%{B%}%{I%}з V-CLIT ; 
+%<p2%>%<pl%>:%>с%{I%}ң%{A%}р V-CLIT ;  
+%<p2%>%<frm%>%<pl%>:%>с%{I%}зд%{A%}р V-CLIT ;  
+!%<p3%>%<pl%>: V-CLIT ; 
 
 LEXICON V-PERS-COP-SUF 
 
@@ -844,12 +927,15 @@ V-INFL-NON-FINITE-REG ;
 
 LEXICON V-INFL-NON-FINITE-IRREG
 
-! Adverbial Participles
-%<prt_perf%>:%>%{I%}п # ;
-%<neg%>%<prt_perf%>:%>%{B%}%{A%}%>%{E%} # ;
-%<prt_vol%>:%>%{G%}%{I%} VOL-ENDINGS ;     ! no negative form
-%<prt_ala%>:%>м%{A%}й%{I%}нч%{A%} #;       ! no negative form  ! rare IS
+! Participles
+%<prc_vol%>:%>%{G%}%{I%} VOL-ENDINGS ;     ! no negative form
+%<prc_real%>:%>%{I%}п # ;
+%<neg%>%<prc_real%>:%>%{B%}%{A%}%>%{E%} # ;
 
+! Verbal adverbs
+%<gna_ala%>:%>м%{A%}й%{I%}нч%{A%} #;       ! no negative form  ! rare IS
+%<gna_perf%>:%>%{I%}п # ;
+%<neg%>%<gna_perf%>:%>%{B%}%{A%}%>%{E%} # ;
 
 ! Gerunds
 %<ger_fut%>:%>%{A%}р GER-INFL ;     ! <coop> IS only ?
@@ -862,22 +948,25 @@ LEXICON V-INFL-NON-FINITE-IRREG
 
 
 ! Verbal Adjectives
-%<vadj_fut%>:%>%{A%}р V-ADJ ;
-%<vadj_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
-%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                  !
-%<neg%>%<vadj_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;              ! Dir/LR
-%<neg%>%<vadj_pot2%>:%>%{G%}%{I%}с V-ADJ ;
+%<glp_fut%>:%>%{A%}р V-ADJ ;
+%<glp_fut%>:%>%{A%}%{A%}р V-ADJ ;                            ! Dir/LR
+%<neg%>%<glp_fut%>:%>%{B%}%{A%}%>%с V-ADJ ;                  !
+%<neg%>%<glp_fut%>:%>%{B%}%{A%}%>%{A%}с V-ADJ ;              ! Dir/LR
+%<neg%>%<glp_pot2%>:%>%{G%}%{I%}с V-ADJ ;
 
 
 LEXICON V-INFL-NON-FINITE-REG
 
 %<plist%>:%>м%{A%}й # ;                                       ! huh? "-mAj is used mainly for listing"
 
-! Adverbial participles
-%<prt_plan%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
-%<prt_cond%>:%>с%{A%} V-PERS-COND ;
-%<prt_impf%>:%>%{E%} # ;   ! rare IS
-%<prt_irre%>:%>%{E%}т # ;
+! Participles
+%<prc_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
+%<prc_impf%>:%>%{E%} # ;   ! rare IS
+%<prc_irre%>:%>%{E%}т # ;
+
+! Verbal adverbs
+%<gna_prp%>:%>%{G%}%{A%}н%{I%} # ;  ! rare IS
+%<gna_cnd%>:%>с%{A%} V-PERS-COND ;
 
 ! Gerunds
 %<ger_past%>:%>%{G%}%{A%}н GER-INFL ; ! <coop> IS only ?
@@ -888,12 +977,12 @@ LEXICON V-INFL-NON-FINITE-REG
 %<ger_notyet%>:%>{E%}% элек GER-INFL ;
 
 ! Verbal adjectives 
-%<vadj_past%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay
-%<vadj%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay  ! both past (or perf?) and general
-%<vadj_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
+%<glp_past%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay
+%<glp%>:%>%{G%}%{A%}н V-ADJ ;  ! <pl> IS okay  ! both past (or perf?) and general
+%<glp_hab%>:%>ч%{U%} V-ADJ ;  ! <pl> IS okay
 !%<vadj_impf%>:%>%{E%}% турган V-ADJ ;       ! Done already by <prt_impf> тур<vaux><vadj_past>
-%<vadj_pot%>:%>%{U%}%{U%}%>ч%{U%} V-ADJ ;
-%<vadj_notyet%>:%>{E%}% элек V-ADJ ;
+%<glp_pot%>:%>%{U%}%{U%}%>ч%{U%} V-ADJ ;
+%<glp_notyet%>:%>{E%}% элек V-ADJ ;
 
 !  Imperatives
 
@@ -954,7 +1043,7 @@ LEXICON V-INFL-ASIF
 
 %<prt_perf%>:%>%{I%}п # ;
 %<ifi%>:%>%{D%}%{I%} V-PERS-PAST ;
-%<ger_past%>%<apprx%>:%>%{G%}%{A%}н%>%{D%}%{A%}й PRED ; 
+%<ger_past%>%<sim%>:%>%{G%}%{A%}н%>%{D%}%{A%}й PRED ; 
 %<aor%>:%>%{E%} V-PERS-PRES ;
 
 LEXICON V-INFL-TV-SHORT
@@ -967,13 +1056,13 @@ LEXICON V-INFL-TV-SHORT
 %<v%>%<tv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             
 %<v%>%<tv%>%<pass%>%<caus%>:%>%{I%}%{l%}%>%{D%}%{I%}р V-INFL-COMMON ;                             
 
-LEXICON V-INFL-IV-SHORT
-
-%<v%>%<iv%>: V-INFL-COMMON ;
-! FIXME: When we make it cyclical, this should really be V-INFL-IV
-%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             
-%<v%>%<iv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             
-%<v%>%<iv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             
+! LEXICON V-INFL-IV-SHORT
+! 
+! %<v%>%<iv%>: V-INFL-COMMON ;
+! ! FIXME: When we make it cyclical, this should really be V-INFL-IV
+! %<v%>%<iv%>%<caus%>:%>%{D%}%{I%}р V-INFL-COMMON ;                             
+! %<v%>%<iv%>%<caus%>%<caus%>:%>%{D%}%{I%}р%>%{D%}%{I%}р V-INFL-COMMON ;                             
+! %<v%>%<iv%>%<caus%>%<pass%>:%>%{D%}%{I%}р%>%{I%}%{l%} V-INFL-COMMON ;                             
 
 LEXICON V-INFL-TV
 
@@ -1011,6 +1100,10 @@ LEXICON VAUX-ELE
 
 %<vaux%>: V-PERS-COND ;
 
+!LEXICON PRED
+!
+!%<pred%>%<subst%>: SUBST-COMMON ;
+!%<pred%>: ATTR ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  L E X I C O N    E N T R I E S                         !!!
@@ -1090,7 +1183,7 @@ LEXICON Conjunctions
 башкача% айтканда CA ;
 тактап% айтканда CA ;
 тескерисинче CA ;
-жок CA ;
+! жок CA ;
 кокус CS ;
 болуптур CA ;
 ал% түгүл CA ;
@@ -1353,10 +1446,10 @@ XIX NUM-ROMAN ; ! ""
 
 
 LEXICON NounStems
-сырт N-INFL ;
+! сырт N-INFL ;
 факт N-INFL ;
 кубанычтуу N-INFL ;
-билимдүү N-INFL ;
+! билимдүү N-INFL ;
 абаачылык N-INFL ; 
 аалым N-INFL ; 
 поэзия N-INFL ; 
@@ -1372,8 +1465,8 @@ LEXICON NounStems
 автожол N-INFL ; 
 автомат N-INFL ; 
 автомобиль N-INFL ; 
-автоном N-INFL ; 
-автономия N-INFL ; 
+! автоном N-INFL ;  ! repeated
+! автономия N-INFL ;  ! repeated
 автопарк N-INFL ; 
 авторитет N-INFL ; 
 ага N-INFL ; 
@@ -1437,7 +1530,7 @@ LEXICON NounStems
 ала N-INFL ; 
 алака N-INFL ; 
 алгоритм N-INFL ; 
-алд N-INFL ; 
+! алд N-INFL ; 
 алкоголь N-INFL ; ! "alcohol"
 алкыш N-INFL ; 
 аллегория N-INFL ; ! "allegory"
@@ -1484,7 +1577,7 @@ LEXICON NounStems
 арматура N-INFL ; 
 арпа N-INFL ; 
 арстан N-INFL ; 
-арт N-INFL ; 
+! арт N-INFL ; 
 артист N-INFL ; 
 археолог N-INFL ; 
 архив N-INFL ; 
@@ -1689,7 +1782,7 @@ LEXICON NounStems
 билдирүү N-INFL ; 
 билек N-INFL ; 
 билерик N-INFL ; 
-билим N-INFL ; 
+! билим N-INFL ; 
 бирдик N-INFL ; 
 ! бирөө N-INFL ;   ! BAD: Pronoun
 ! бирөөсү N-INFL ; ! BAD: Pronoun
@@ -1710,13 +1803,13 @@ LEXICON NounStems
 дене N-INFL ; 
 дүйнө N-INFL ;  ! "world" (?)
 дүнүйө N-INFL ; ! "world" (?) FIXME
-жаз N-INFL ; ! "spring"
-жай N-INFL ; ! "summer"
+! жаз N-INFL ; ! "spring"
+! жай N-INFL ; ! "summer"
 жан N-INFL ; ! "jan"
 желек N-INFL ; 
 жол N-INFL ; ! "way"
 жыгач N-INFL ; 
-жыл N-INFL ; ! "year"
+! жыл N-INFL ; ! "year"
 жылдыз N-INFL ; ! "star"
 !жүз N-INFL ;  Not a noun, -- Numeral
 зайып N-INFL ; 
@@ -1863,7 +1956,7 @@ LEXICON NounStems
 бакыт N-INFL ; ! "happiness"
 тагдыр N-INFL ; ! "fate"
 балтыркан N-INFL ; 
-балдыз N-INFL ; 
+! балдыз N-INFL ; 
 балта N-INFL ; ! "axe"
 балчык N-INFL ; 
 ылай N-INFL ; ! "mud"
@@ -2301,7 +2394,7 @@ LEXICON NounStems
 күндөлүк N-INFL ; 
 көнүмүш N-INFL ; 
 күндүз N-INFL ; 
-күз N-INFL ; 
+! күз N-INFL ; 
 кубат N-INFL ; 
 ал N-INFL ; 
 кытык N-INFL ; 
@@ -2622,7 +2715,7 @@ LEXICON NounStems
 кыямат N-INFL ; 
 кыюу N-INFL ; 
 кызамык N-INFL ; 
-кыш N-INFL ; 
+! кыш N-INFL ; 
 кыштоо N-INFL ; 
 кыштак N-INFL ; 
 лабиринт N-INFL ; 
@@ -2920,7 +3013,7 @@ LEXICON NounStems
 автомобиль N-INFL ; 
 автоном N-INFL ; 
 !автономиялуу N-INFL ;  ! regular?
-автономия N-INFL ; 
+! автономия N-INFL ;  ! repeated
 автопарк N-INFL ; 
 авторитет N-INFL ; 
 автожол N-INFL ; 
@@ -3184,7 +3277,7 @@ LEXICON NounStems
 солист N-INFL ; 
 соло N-INFL ; 
 сөөлжан N-INFL ; 
-соң N-INFL ; 
+! соң N-INFL ; 
 сопрано N-INFL ; 
 суроо N-INFL ; 
 сосиска N-INFL ; 
@@ -3513,7 +3606,7 @@ LEXICON NounStems
 өлчөм N-INFL ; 
 өлчөө N-INFL ; 
 асты N-INFL ;  ! FIXME: probably not
-аст N-INFL ;  ! "bottom" (used as postposition "underneath, below")
+! аст N-INFL ;  ! "bottom" (used as postposition "underneath, below")
 өрдөк N-INFL ; 
 үрп% адат N-INFL ; 
 өрнөк N-INFL ; 
@@ -3536,7 +3629,7 @@ LEXICON NounStems
 үркүү N-INFL ; 
 уролог N-INFL ; 
 урология N-INFL ; 
-үст N-INFL ; ! "upper part, top", used as postposition
+! үст N-INFL ; ! "upper part, top", used as postposition
 уста N-INFL ; 
 устат N-INFL ; 
 утопия N-INFL ; 
@@ -3858,7 +3951,7 @@ LEXICON NounStems
 котормо N-INFL ; 
 элик N-INFL ; 
 чейрек N-INFL ; 
-жаза N-INFL ; 
+! жаза N-INFL ; 
 сыздоок N-INFL ; 
 гүл N-INFL ; 
 токтоо N-INFL ; 
@@ -4361,7 +4454,7 @@ LEXICON NounStems
 кыл N-INFL ;
 дан N-INFL ;
 калып N-INFL ;
-орто N-INFL ;
+! орто N-INFL ;
 салым N-INFL;
 орден N-INFL ;
 өзбек N-INFL ;
@@ -4397,7 +4490,7 @@ LEXICON NounStems
 фумигация N-INFL ;
 репрессия N-INFL ;
 кез N-INFL ;
-кыштак N-INFL ;
+! кыштак N-INFL ;
 котормочу N-INFL ;
 журналистика N-INFL ;
 маек N-INFL ;
@@ -4587,7 +4680,7 @@ LEXICON NounStems
 башмыйзам N-INFL ;
 булак N-INFL ;
 башат N-INFL ;
-орто N-INFL ;
+!орто N-INFL ;
 сентябрь N-INFL ;
 булчуң N-INFL ;
 максат N-INFL ;
@@ -4598,7 +4691,7 @@ LEXICON NounStems
 окуя N-INFL ;
 орток% ишкана N-INFL ;
 шериктик N-INFL ;
-бир N-INFL ;
+! бир N-INFL ;
 деңгээл N-INFL ;
 даража N-INFL ;
 уюм N-INFL ;
@@ -4642,7 +4735,7 @@ LEXICON NounStems
 ден N-INFL ;
 тергөө N-INFL ;
 сурамжылоо N-INFL ;
-арт N-INFL ;   ! postposition "back, behind, etc."
+! арт N-INFL ;   ! postposition "back, behind, etc."
 акчалуу N-INFL ;
 каражатту N-INFL ;
 акча N-INFL ;
@@ -4671,7 +4764,7 @@ LEXICON NounStems
 сүрөт N-INFL ;
 камтуу N-INFL ;
 даяр N-INFL ;
-курал N-INFL ;
+! курал N-INFL ;
 жаш N-INFL ;
 иш N-INFL ;
 түшүнбөстүк N-INFL ;
@@ -4787,7 +4880,7 @@ LEXICON NounStems
 салым N-INFL ;
 кошумча N-INFL ;
 күндөм N-INFL ;
-күн N-INFL ; ! "sun, day"
+күн N-INFL ; ! "sun" (see күн N-INFL-KI for "day")
 күн% тартиби N-INFL ;
 макулдашма N-INFL ;
 келишме N-INFL ;
@@ -4797,7 +4890,7 @@ LEXICON NounStems
 жооп N-INFL ;
 эркиндик N-INFL ;
 азаттык N-INFL ;
-төмөн N-INFL ;
+! төмөн N-INFL ;
 кылмыш N-INFL ;
 кагылыш N-INFL ;
 согуш N-INFL ;
@@ -5056,7 +5149,7 @@ LEXICON NounStems
 майрам N-INFL ;
 үстөмдүк N-INFL ;
 база N-INFL ;
-күз N-INFL ;
+! күз N-INFL ;
 башкаруучу N-INFL ;
 сыпат N-INFL ;
 жоктук N-INFL ;
@@ -5097,7 +5190,7 @@ LEXICON NounStems
 үрүн N-INFL ;
 чыгаруу N-INFL ;
 спортсмен N-INFL ;
-ич N-INFL ;
+! ич N-INFL ;
 чөнтөк N-INFL ;
 өкүл N-INFL ;
 бан N-INFL ;
@@ -5249,7 +5342,7 @@ LEXICON NounStems
 семинар N-INFL ;
 конуш N-INFL ;
 сапат N-INFL ;
-алдында N-INFL ;
+! алдында N-INFL ;
 таш N-INFL ;
 деталь N-INFL ;
 мыкты N-INFL ;
@@ -5273,7 +5366,7 @@ LEXICON NounStems
 аскер N-INFL ;
 туруктуу N-INFL ;
 гарантия N-INFL ;
-жок N-INFL ;
+! жок N-INFL ;
 чет% өлкөлүк N-INFL ;
 арноо N-INFL ;
 пайда N-INFL ;
@@ -5361,7 +5454,7 @@ LEXICON NounStems
 семинар N-INFL ;
 конуш N-INFL ;
 сапат N-INFL ;
-алдында N-INFL ;
+! алдында N-INFL ;
 таш N-INFL ;
 деталь N-INFL ;
 мыкты N-INFL ;
@@ -5385,7 +5478,7 @@ LEXICON NounStems
 аскер N-INFL ;
 туруктуу N-INFL ;
 гарантия N-INFL ;
-жок N-INFL ;
+! жок N-INFL ;
 чет% өлкөлүк N-INFL ;
 арноо N-INFL ;
 пайда N-INFL ;
@@ -5415,7 +5508,7 @@ LEXICON NounStems
 кыймылсыз% мүлк N-INFL ;
 ыр N-INFL ;
 өмүр N-INFL ;
-билим% берүү N-INFL ;
+! билим% берүү N-INFL ;
 байкоо N-INFL ;
 мекен N-INFL ;
 медицина N-INFL ;
@@ -5440,7 +5533,7 @@ LEXICON NounStems
 ак% пеилдүүлүк N-INFL ;
 төрт N-INFL ;
 көрсөтмө N-INFL ;
-жылдыз N-INFL ;
+! жылдыз N-INFL ;
 генерал N-INFL ;
 тиеше N-INFL ;
 куттуктоо N-INFL ;
@@ -5477,7 +5570,7 @@ LEXICON NounStems
 тамаки N-INFL ;
 негиз N-INFL ;
 сюрприз N-INFL ;
-жыл N-INFL ;
+! жыл N-INFL ;
 рак N-INFL ;
 импорт N-INFL ;
 баардык% нерсе N-INFL ;
@@ -5496,7 +5589,7 @@ LEXICON NounStems
 генерал N-INFL ;
 эларалык N-INFL ;
 бригада N-INFL ;
-куралдар N-INFL ;
+! куралдар N-INFL ;
 сан N-INFL ;
 маяна N-INFL ;
 түгөлдөмө N-INFL ;
@@ -5510,7 +5603,7 @@ LEXICON NounStems
 тумоо N-INFL ;
 которуу N-INFL ;
 бар N-INFL ;
-алды N-INFL ;
+! алды N-INFL ;
 арыз N-INFL ;
 чогуу N-INFL ;
 аны N-INFL ;
@@ -5604,10 +5697,10 @@ LEXICON NounStems
 туура N-INFL ;
 жэр N-INFL ;
 иш% оорду N-INFL ;
-соң N-INFL ;
+! соң N-INFL ;
 санак N-INFL ;
 кечил N-INFL ;
-kanal N-INFL ;
+!kanal N-INFL ;  ! FIXME wtf wtf
 аброй N-INFL ;
 консерватор N-INFL ;
 билет N-INFL ;
@@ -5701,7 +5794,7 @@ kanal N-INFL ;
 сумма N-INFL ;
 жарым% арал N-INFL ;
 ката N-INFL ;
-автономдуу N-INFL ;
+! автономдуу N-INFL ; ! FIXME: regular ADJ form
 чечкен% орган N-INFL ;
 ишкер N-INFL ;
 тилим N-INFL ;
@@ -5709,7 +5802,7 @@ kanal N-INFL ;
 колдонмо N-INFL ;
 өзгөрүш N-INFL ;
 санарип N-INFL ;
-орто N-INFL ;
+!орто N-INFL ;
 президент N-INFL ;
 сегиз N-INFL ;
 ыйык N-INFL ;
@@ -5825,7 +5918,7 @@ kanal N-INFL ;
 ак-куу N-INFL ;
 башталыш N-INFL ;
 камсыз% кылуу N-INFL ;
-орто N-INFL ;
+!орто N-INFL ;
 карольдук N-INFL ;
 пикирдеш N-INFL ;
 сыноо N-INFL ;
@@ -6305,13 +6398,13 @@ kanal N-INFL ;
 глобалдуу N-INFL ;
 хиррургиялык N-INFL ;
 дүң N-INFL ;
-бөлмө N-INFL ;
+! бөлмө N-INFL ;
 боксер N-INFL ;
 баглама N-INFL ;
 жөндөм N-INFL ;
 ыкма N-INFL ;
 тиран N-INFL ;
-билим N-INFL ;
+! билим N-INFL ;
 супермаркет N-INFL ;
 соода N-INFL ;
 рот N-INFL ;
@@ -6385,6 +6478,41 @@ kanal N-INFL ;
 калп N-INFL ; ! "falsehood/lie"
 жамгыр N-INFL ; ! "rain"
 кудук N-INFL ; ! "well"
+көпөлөк N-INFL ; ! "butterfly"
+
+
+!! these are nouns that take -KI for their <attr> form
+! баш N-KI ; ! "principle"
+башкы ADJ ; ! "principle"  ! we're going to just let this be a fixed form, since баштуу is the ATTR form of баш
+күз N-INFL-KI ; ! "fall"/"fall-time"
+кыш N-INFL-KI ; ! "winter"/"wintery"
+жаз N-INFL-KI ; ! "spring"/"spring-time"
+жай N-INFL-KI ; ! "summer"/"summery"
+соң N-INFL-KI ; ! "end"/"final"
+тыш N-INFL-KI ; ! "outside"/"outer"
+сырт N-INFL-KI ; ! "outside"/"outer"
+ич N-INFL-KI ; ! "inside"/"inner"
+төмөн N-INFL-KI ; ! "bottom"/"following/below"
+жыл N-INFL-KI ; ! "year"
+күн N-INFL-KI ; ! "day"
+! ай KI ; ! "month"  ! DOESN'T HAVE -KI FORM (takes LUU)
+кеч N-INFL-KI ; ! "evening"
+
+!аст:астын N-INFL-JUST-KI ; ! "lower"
+!алд:алдын N-INFL-JUST-KI ; ! "forward"
+!үст:үстүн N-INFL-JUST-KI ; ! "upper"
+!орто:ортоң N-INFL-JUST-KI ; ! "central"
+!аст N-INFL-NO-ATTR ; ! "bottom"
+!алд N-INFL-NO-ATTR ; ! "front/forward"
+!үст N-INFL-NO-ATTR ; ! "top"
+!орто N-INFL-NO-ATTR ; ! "middle/center"
+
+аст N-INFL-NKI ; ! "bottom", "lower"
+алд N-INFL-NKI ; ! "front/forward", "forward"
+үст N-INFL-NKI ; ! "top", "upper"
+орто N-INFL-NKI ; ! "middle/center", "central"
+арт N-INFL-NKI ; ! "back", "rear"
+
 
 LEXICON PropernounStems
 Нью-Дели:Нью% Дели NP-TOP ; ! Dir/LR
@@ -6776,6 +6904,7 @@ Tеңир NP-TOP ; ! ""
 Айгүл NP-ANT-F ;
 Гүлнара NP-ANT-F ;
 Айша NP-ANT-F ;
+Толгонай NP-ANT-F ;
 
 Солтоноев NP-COG-M ;
 Чороев NP-COG-M ;
@@ -7204,9 +7333,9 @@ Tеңир NP-TOP ; ! ""
 
 LEXICON AdjecStems
 кош ADJ ;
-алдыңкы ADJ ;
-алгачкы ADJ-ORD ; ! "first"
-экинчи ADJ-ORD ; ! "second"
+! алдыңкы ADJ ;
+! алгачкы ADJ-ORD ; ! "first"
+! экинчи ADJ-ORD ; ! "second"
 эркин ADJ ;
 эски ADJ ;
 бекем ADJ ;
@@ -7440,7 +7569,7 @@ LEXICON AdjecStems
 кошумча ADJ ; 
 катуу ADJ ; 
 жакын ADJ ; 
-оор ADJ ; 
+! оор ADJ ;  FIXME: duplicate
 даяр ADJ ; 
 жергиликтүү ADJ ; 
 конститутсиялык ADJ ; 
@@ -7502,7 +7631,7 @@ LEXICON AdjecStems
 мажбур ADJ ;
 нормалдуу ADJ ;
 бай ADJ ;
-биринчи ADJ-ORD ;
+! биринчи ADJ-ORD ;
 ысык ADJ ;
 терең ADJ ;
 ! өз ADJ ;   ! FIXME: might be in e.g., өз жакта
@@ -7516,7 +7645,7 @@ LEXICON AdjecStems
 макроэкономикалык ADJ ;
 нымдуу ADJ ;
 жарым ADJ ;
-бир ADJ ;
+! бир ADJ ;
 тунук ADJ ;
 кедей ADJ ;
 улуу ADJ ;
@@ -7545,7 +7674,7 @@ LEXICON AdjecStems
 сары ADJ ;
 ахлактык ADJ ;
 ашык ADJ ;
-көп ADJ ;
+! көп ADJ ;
 коюу ADJ ;
 пираттык ADJ ;
 курч ADJ ;
@@ -7609,8 +7738,8 @@ LEXICON AdjecStems
 жогору ADJ ;
 кыймылдуу ADJ ;
 күлкүнүчтүү ADJ ;
-абдан% чоң ADJ ;
-абдан% жаман ADJ ;
+! абдан% чоң ADJ ;
+! абдан% жаман ADJ ;
 жетилген ADJ ;
 бышкан ADJ ;
 атактуу ADJ ;
@@ -7875,9 +8004,9 @@ LEXICON AdjecStems
 түбөлүк ADJ ;
 сынчы ADJ ;
 келишкен ADJ ;
-тышкы ADJ ;
+! тышкы ADJ ;
 булганган ADJ ;
-сырткы ADJ ;
+! сырткы ADJ ;
 бирдиктүү ADJ ;
 саясый ADJ ;
 рухий ADJ ;
@@ -8000,7 +8129,7 @@ LEXICON AdjecStems
 жалаң ADJ ;
 жамгырдуу ADJ ;
 !жат ADJ ;
-орто ADJ ;
+!орто ADJ ;
 барболгон ADJ ;
 маданий ADJ ;
 кымындай ADJ ;
@@ -8090,7 +8219,7 @@ LEXICON AdjecStems
 кылдырак ADJ ;
 чатак ADJ ;
 ашкере% чектен% чыккан ADJ ;
-билимдүү ADJ ;
+! билимдүү ADJ ;
 еклектик ADJ ;
 шаңдуу ADJ ;
 ийилген ADJ ;
@@ -8125,7 +8254,7 @@ LEXICON AdjecStems
 айылдык ADJ ;
 акырын ADJ ;
 аралашкан ADJ ;
-биринчи ADJ ;
+! биринчи ADJ ; ! FIXME in DIX
 еврей ADJ ;
 жарылган ADJ ;
 заманбап ADJ ;
@@ -8218,24 +8347,6 @@ LEXICON AdjecStems
 ! кечөө N-INFL ; ! "yesterday"  ! NOT NOUNS!
 ! кечээ N-INFL ; ! "yesterday"  ! NOT NOUNS!
 
-!! FIXME: these are -KI forms of nouns
-башкы ADJ-COMMON ; ! "principle"
-күзгү ADJ-COMMON ; ! "fall-time"
-кышкы ADJ-COMMON ; ! "wintery"
-жазгы ADJ-COMMON ; ! "spring-time"
-жайкы ADJ-COMMON ; ! "summery"
-соңку ADJ-COMMON ; ! "final"
-тышкы ADJ-COMMON ; ! "outer"
-ички ADJ-COMMON ; ! "inner"
-төмөнкү ADJ-COMMON ; ! "following"
-аст:астын ADJ-KI ; ! "lower"
-алд:алдын ADJ-KI ; ! "forward"
-үст:үстүн ADJ-KI ; ! "upper"
-жыл ADJ-KI ; ! "year"            ! ""
-күн ADJ-KI ; ! "day"
-! ай KI ; ! "month"  ! DOESN'T HAVE -KI FORM
-кечки ADJ-COMMON ; ! "evening"
-
 ! кийин ADV-WITH-KI ; ! "later"
 ! мурда ADV-WITH-KI ; ! "long ago"
 ! азыр ADV-WITH-KI ; 
@@ -8277,7 +8388,7 @@ LEXICON AdvStems
 эртеси ADV ; 
 өзүнчө ADV ;  ! "by oneself"
 көп ADV ; 
-жок ADV ; ! FIXME: adv?
+! жок ADV ; ! FIXME: adv?
 ар% дайым ADV ; 
 ! төмөнкү ADV ;
 негизи ADV ; 
@@ -8286,7 +8397,7 @@ LEXICON AdvStems
 кыскача ADV ; ! "in short"
 бирдикте ADV ; 
 каршы ADV ; 
-биринчи ADV ; 
+! биринчи ADV ; 
 сырткары ADV ; 
 жаңыдан ADV ; 
 артка ADV ; 
@@ -8318,7 +8429,7 @@ LEXICON AdvStems
 эч ADV ; ! FIXME
 такыр ADV ; 
 жылдардан% бери ADV ; 
-тез ADV ; 
+!тез ADV ; 
 чынында ADV ; ! FIXME: not a lemma: "in truth"
 жай ADV ; 
 жартылай ADV ; 
@@ -8326,7 +8437,7 @@ LEXICON AdvStems
 көбүнчө ADV ; 
 кайакта ADV ; ! FIXME: INTERROGATIVE
 кокустан ADV ; ! "suddenly"
-жок ADV ; 
+! жок ADV ; 
 ушундайча ADV ; 
 аз% да% болсо ADV ; ! FIXME: compositional
 ыктымал ADV ; 
@@ -8380,7 +8491,7 @@ LEXICON AdvStems
 анда-санда ADV ; ! "occasionally"
 !мына ADV ; 
 күндөрдөн% бери ADV ;  ! FIXME: compositional
-кышында ADV ;  ! FIXME: compositional
+! кышында ADV ;  ! FIXME: compositional (DIX)
 орой ADV ; 
 көрсө ADV ; 
 дээри ADV ; 
@@ -8389,7 +8500,7 @@ LEXICON AdvStems
 түндөсү ADV ; 
 болоорунча ADV ; 
 өзүндөй ADV ; 
-көбүрөөк ADV ; ! FIXME: compositional
+! көбүрөөк ADV ; ! FIXME: compositional
 апачык ADV ; 
 ошондой ADV ; ! FIXME: compositional
 эсе ADV ; ! "_ times _-er" maybe N?  but fine for now
@@ -8411,15 +8522,15 @@ LEXICON AdvStems
 жаман ADV ;
 ачык ADV ;
 уруксаатсыз ADV ;
-жаман ADV ;
+! жаман ADV ;
 ачык% эле ADV ;
 кайрылуу% менен ADV ;
-жылкы ADV ; ! eh?
+! жылкы ADV ; ! eh?
 карай ADV ;
 почти ADV ;
 дээрлик ADV ;
 жай ADV ;
-күнкү ADV ; ! eh?
+! күнкү ADV ; ! eh?
 жалгыз% гана ADV ;
 пайдасыз ADV ;
 араң-араң ADV ;
@@ -8464,7 +8575,7 @@ LEXICON AdvStems
 жалгыз ADV ;
 артынан ADV ;
 чанда ADV ;
-жылкы ADV ;
+! жылкы ADV ;
 ! эртең% мененкисин ADV ;
 эртең% менен ADV ;
 ачык% эле ADV ;
@@ -8482,7 +8593,7 @@ LEXICON AdvStems
 дароо ADV ;
 үстүртөн ADV ;
 оюнда ADV ;
-жалпылап ADV ;
+! жалпылап ADV ; ! FIXME: compositional (DIX)
 кокус ADV ;
 атайлап ADV ;
 шар-шар ADV ;
@@ -8522,9 +8633,11 @@ LEXICON AdvStems
 
 LEXICON VerbStems
 
-бар%<v%>%<exi%>:бар # ;
-жок%<v%>%<neg%>%<exi%>:жок # ;
-жок%<v%>%<neg%>%<exi%>:жок V-PERS-COP-SUF ;
+! бар%<v%>%<exi%>:бар # ;
+! жок%<v%>%<neg%>%<exi%>:жок # ;
+! жок%<v%>%<neg%>%<exi%>:жок V-PERS-COP-SUF ;
+бар EXI ;
+жок EXI ;
 
 э%<cop%>%<neg%>:эмес V-PERS-COP-SUF ; 
 э%<cop%>%<evid%>:экен V-PERS-COP-SUF ; 
@@ -8552,7 +8665,7 @@ LEXICON VerbStems
 кел VAUX-INFL ; !
 
 эле VAUX-ELE ; !  
-эле%<mod_qst%>:беле VAUX-ELE ; ! CHECK: is this the right way to do this?
+эле%<qst%>:беле VAUX-ELE ; ! CHECK: is this the right way to do this?
 
 өс V-INFL-IV ;
 танда V-INFL-TV ;
@@ -8864,7 +8977,7 @@ LEXICON VerbStems
 эсте V-INFL-TV ; 
 эш V-INFL-TV ; 
 ээрчи V-INFL-TV ; 
-алдан V-INFL-TV ;
+! алдан V-INFL-TV ;  ! FIXME: VI, right?
 үйлө V-INFL-TV ; 
 үр V-INFL-IV ; 
 үрк V-INFL-IV ; 
@@ -9406,7 +9519,7 @@ LEXICON VerbStems
 току V-INFL-TV ;
 тий V-INFL-IV ;
 капта V-INFL-IV ;
-алда V-INFL-IV ;
+алда V-INFL-TV ;
 жолдо V-INFL-IV ;
 арзанда V-INFL-TV ;
 жулмала V-INFL-TV ;
@@ -9960,23 +10073,23 @@ LEXICON TO-REMOVE
 чейин N-INFL ; ! Dir/RL
 тышкары N-INFL ; ! Dir/RL
 түз N-INFL ; ! Dir/RL
-соңку N-INFL ; ! Dir/RL
-сөзү N-INFL ; ! Dir/RL
-оор N-INFL ; ! Dir/RL
-негизги N-INFL ; ! Dir/RL
+! соңку N-INFL ; ! Dir/RL  ! FIXME: compositional
+! сөзү N-INFL ; ! Dir/RL  ! FIXME: compositional
+! оор N-INFL ; ! Dir/RL   ! FIXME: ADJ
+! негизги N-INFL ; ! Dir/RL  ! FIXME: ADJ
 мурун N-INFL ; ! Dir/RL
 мом N-INFL ; ! Dir/RL
-кыска N-INFL ; ! Dir/RL
-күчү N-INFL ; ! Dir/RL
+! кыска N-INFL ; ! Dir/RL  ! FIXME: ADJ
+! күчү N-INFL ; ! Dir/RL   ! FIXME: compositional
 котор N-INFL ; ! Dir/RL
 коңгуроо N-INFL ; ! Dir/RL
 көзөмөл% тобу N-INFL ; ! Dir/RL
 керектүү N-INFL ; ! Dir/RL
-иши N-INFL ; ! Dir/RL
+! иши N-INFL ; ! Dir/RL    ! FIXME: compositional
 жол% багыты N-INFL ; ! Dir/RL
 жан% сакчы N-INFL ; ! Dir/RL
-жаман N-INFL ; ! Dir/RL
-жалпы N-INFL ; ! Dir/RL
+! жаман N-INFL ; ! Dir/RL  ! FIXME: ADJ
+! жалпы N-INFL ; ! Dir/RL  ! FIXME: ADJ
 документалдуу% тасма N-INFL ; ! Dir/RL
 гелин N-INFL ; ! Dir/RL
 ! бүтүн N-INFL ; ! Dir/RL
@@ -9985,12 +10098,12 @@ LEXICON TO-REMOVE
 башкы% эпископ N-INFL ; ! Dir/RL ! FIXME: compositional
 байланыштуу N-INFL ; ! Dir/RL
 байкалган N-INFL ; ! Dir/RL
-айуу N-INFL ; ! Dir/RL
+! айуу N-INFL ; ! Dir/RL  ! FIXME: spelled аюу
 аз N-INFL ; ! Dir/RL
-адабий N-INFL ; ! Dir/RL
-автономиялуу N-INFL ; ! Dir/RL
+! адабий N-INFL ; ! Dir/RL  ! FIXME: ADJ
+! автономиялуу N-INFL ; ! Dir/RL  ! FIXME: regular adjectival form
 
 
-бы%<mod_qst%>:бы V-PERS-COP ; ! Dir/RL ! CHECK
-бы%<mod_qst%>:бы # ; ! Dir/RL ! CHECK
+бы%<qst%>:бы V-PERS-COP ; ! Dir/RL ! CHECK
+бы%<qst%>:бы # ; ! Dir/RL ! CHECK
 
