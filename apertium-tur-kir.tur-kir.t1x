@@ -411,6 +411,8 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
+      <attr-item tags="adv.subst"/>
+      <attr-item tags="adj.subst"/>
       <attr-item tags="n.ki"/>
       <attr-item tags="n.attr"/>
       <attr-item tags="n.unc"/>

@@ -23,6 +23,7 @@
      <sdef n="cog"       c="Cognomen"/>
      <sdef n="pst"       c="Positive degree"/>
      <sdef n="top"       c="Toponym"/>
+     <sdef n="subst"     c="Substantivised"/>
      <sdef n="acr"       c="Acronym"/>
      <sdef n="al"        c="Other"/>
      <sdef n="org"       c="Organisation"/>
@@ -6070,7 +6071,7 @@
 	<e c="  0"><p><l>hepten<s n="adv"/></l><r>бардыгын<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>maalesef<s n="adv"/></l><r>тилеке<b/>каршы<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>evvel<s n="adv"/></l><r>алдында<s n="adv"/></r></p></e>
-	<e c="  0"><p><l>dün<s n="n"/></l><r>кечээ<s n="adv"/></r></p></e>
+	<e c="  0"><p><l>dün<s n="n"/></l><r>кечээ<s n="adv"/><s n="subst"/></r></p></e>
 	<e c="  0"><p><l>daima<s n="adv"/></l><r>дайыма<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>nadiren<s n="adv"/></l><r>анда-санда<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>işte<s n="adv"/></l><r>мына<s n="adv"/></r></p></e>

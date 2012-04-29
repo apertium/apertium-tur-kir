@@ -188,6 +188,11 @@ Multichar_Symbols
 @D.NEG.0@   ! Disallow if -{I}š is not present
 @D.NEG.1@   ! Disallow if -{I}š is present
 
+%>
+%+
+% 
+
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                  C O N T I N U A T I O N      L E X I C A               !!!
@@ -502,6 +507,7 @@ V-CLIT ;
 LEXICON ADV
 
 %<adv%>: ADVL ;
+%<adv%>%<subst%>: SUBST-COMMON ; 
 
 LEXICON ADV-ITG
 
