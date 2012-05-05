@@ -71,7 +71,6 @@ dev/midterm/article.tr.txt -text
 dev/missing-bidix-freq.sh -text
 dev/turmorph-conv-status.txt -text
 dev/verb-patterns.txt -text
-/kir-tur.prob -text svneol=unset#unset
 /lexchoicebil.xsl -text
 /modes.xml -text
 /pending-tests.sh -text
