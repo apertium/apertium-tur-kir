@@ -91,5 +91,4 @@ tests/ky-verbsaux.yaml -text
 tests/ky-verbsimp.yaml -text
 tests/ky-verbsopt.yaml -text
 tests/run-tests.sh -text
-/tur-kir.prob -text svneol=unset#unset
 /wiki-tests.sh -text

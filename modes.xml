@@ -9,12 +9,13 @@
     </pipeline>
   </mode>
  
-  <mode name="tur-kir-cg" install="no">
+  <mode name="tur-kir-disam" install="no">
     <pipeline>
-      <program name="hfst-proc">
+      <program name="hfst-proc -w">
         <file name="tur-kir.automorf.hfst"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-conv -a"/>
+      <program name="vislcg3 --trace --grammar">
         <file name="tur-kir.rlx.bin"/>
       </program>
     </pipeline>
@@ -22,14 +23,11 @@
 
   <mode name="tur-kir-tagger" install="no">
     <pipeline>
-      <program name="hfst-proc">
+      <program name="hfst-proc -w">
         <file name="tur-kir.automorf.hfst"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w -n -1">
         <file name="tur-kir.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tur-kir.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
@@ -37,11 +35,11 @@
 
   <mode name="tur-kir-biltrans" install="no">
     <pipeline>
-      <program name="hfst-proc">
+      <program name="hfst-proc -w">
         <file name="tur-kir.automorf.hfst"/>
       </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tur-kir.prob"/>
+      <program name="cg-proc -w -n -1">
+        <file name="tur-kir.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -52,14 +50,11 @@
 
   <mode name="tur-kir-transfer" install="no">
     <pipeline>
-      <program name="hfst-proc">
+      <program name="hfst-proc -w">
         <file name="tur-kir.automorf.hfst"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w -n -1">
         <file name="tur-kir.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tur-kir.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -74,14 +69,11 @@
 
   <mode name="tur-kir-debug" install="no">
     <pipeline>
-      <program name="hfst-proc">
+      <program name="hfst-proc -w">
         <file name="tur-kir.automorf.hfst"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w -n -1">
         <file name="tur-kir.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tur-kir.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -99,14 +91,11 @@
 
   <mode name="tur-kir" install="yes">
     <pipeline>
-      <program name="hfst-proc">
+      <program name="hfst-proc -w">
         <file name="tur-kir.automorf.hfst"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -w -n -1">
         <file name="tur-kir.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="tur-kir.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">

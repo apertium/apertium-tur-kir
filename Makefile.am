@@ -186,7 +186,7 @@ modes/$(PREFIX2).mode: modes.xml
 
 debug: .deps/$(LANG1).LR-debug.hfst .deps/$(LANG2).LR-debug.hfst
 
-EXTRA_DIST=$(PREFIX1).prob $(PREFIX2).prob \
+EXTRA_DIST= \
            $(BASENAME).$(PREFIX1).t1x \
            $(BASENAME).$(PREFIX2).t1x \
            modes.xml
@@ -195,7 +195,6 @@ apertium_tur_kirmodesdir=$(prefix)/share/apertium/modes/
 apertium_tur_kirdir=$(prefix)/share/apertium/$(BASENAME)/
 
 apertium_tur_kir_DATA=$(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
-                    $(PREFIX1).prob $(PREFIX2).prob \
 		    $(PREFIX1).autogen.hfst $(PREFIX2).autogen.hfst \
 		    $(PREFIX1).automorf.hfst $(PREFIX2).automorf.hfst \
 		    $(PREFIX1).t1x.bin $(PREFIX2).t1x.bin \

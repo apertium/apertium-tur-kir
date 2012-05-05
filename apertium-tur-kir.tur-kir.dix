@@ -5947,7 +5947,7 @@
         <!-- SECTION: Adverbs -->
 
         <e c="  0"><p><l>büsbütün<s n="adv"/></l><r>бүтүндөй<s n="adv"/></r></p></e>
-	<e c="  0"><p><l>yarın<s n="adv"/></l><r>эртең<s n="adv"/></r></p></e>
+	<e c="  0"><p><l>yarın<s n="n"/></l><r>эртең<s n="adv"/><s n="subst"/></r></p></e>
 	<e c="  0"><p><l>en<s n="adv"/></l><r>эң<s n="adv"/></r></p></e>
 	<e c="  0"><p><l>ertesi<s n="adv"/></l><r>эртеси<s n="adv"/></r></p></e>
 
