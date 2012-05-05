@@ -931,7 +931,31 @@
 
   <section-rules>
     <!-- SECTION: Nominal segments -->
-  
+   
+    <rule comment="regla: nom-noflex">
+      <pattern>
+        <pattern-item n="nom-noflex"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+                <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="n"/></equal>
+            </test>
+            <let><var n="c_post"/><lit-tag v="nom"/></let>
+          </when>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+            <var n="c_post"/>
+          </lu>
+        </out>
+        <let><var n="c_post"/><lit v=""/></let>
+      </action>
+    </rule>
+
+
     <rule comment="regla: nom-noflex saye">
       <pattern>
         <pattern-item n="nom-noflex"/>
