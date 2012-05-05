@@ -31,6 +31,10 @@
       <cat-item lemma="değil" tags="not.*"/>
     </def-cat>
      
+    <def-cat n="mi_pers">
+      <cat-item lemma="mi" tags="qst.*"/>
+    </def-cat>
+      
     <def-cat n="qst">
       <cat-item lemma="mi" tags="qst"/>
       <cat-item lemma="mi" tags="qst.*"/>
@@ -356,10 +360,8 @@
     </def-cat>
 
     <def-cat n="v_aor">
-      <cat-item tags="v.t_aor.*"/>
-      <cat-item tags="v.neg.t_aor.*"/>
-      <cat-item tags="v.*.t_aor.*"/>
-      <cat-item tags="v.*.neg.t_aor.*"/>
+      <cat-item tags="v.*.aor.*"/>
+      <cat-item tags="v.*.neg.aor.*"/>
     </def-cat>
    
      <def-cat n="prop">
@@ -424,7 +426,7 @@
       <attr-item tags="np.cog"/>
     </def-attr>
     
-    <def-attr n="pers">
+    <def-attr n="a_pers">
       <attr-item tags="p1"/>
       <attr-item tags="p2"/>
       <attr-item tags="p2.frm"/>
@@ -456,7 +458,7 @@
       <attr-item tags="px3pl"/>
     </def-attr>
     
-    <def-attr n="deriv">
+    <def-attr n="a_deriv">
       <attr-item tags="caus"/>
       <attr-item tags="pass"/>
       <attr-item tags="abil"/>
@@ -474,13 +476,13 @@
       <attr-item tags="abil"/>
     </def-attr>
  
-    <def-attr n="trans">
+    <def-attr n="a_trans">
       <attr-item tags="iv"/>
       <attr-item tags="TD"/>
       <attr-item tags="tv"/>
     </def-attr>
  
-    <def-attr n="tens">
+    <def-attr n="a_tense">
       <attr-item tags="aor"/>
       <attr-item tags="pres"/>
       <attr-item tags="ifi"/>
@@ -510,7 +512,7 @@
       <attr-item tags="GD"/>
     </def-attr>
     
-    <def-attr n="nbr">
+    <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="ND"/>
@@ -560,7 +562,7 @@
               <equal><clip pos="1" side="sl" part="pass"/><lit-tag v="pass"/></equal>
             </and>
           </test>
-          <let><clip pos="1" side="tl" part="trans"/><lit-tag v="tv"/></let> 
+          <let><clip pos="1" side="tl" part="a_trans"/><lit-tag v="tv"/></let> 
         </when>
       </choose>
       <choose>
@@ -568,7 +570,7 @@
           <test>
             <and>
               <not><in caseless="yes"><clip pos="1" side="tl" part="lem"/><list n="v_iv_with_pass"/></in></not>
-              <equal><clip pos="1" side="tl" part="trans"/><lit-tag v="iv"/></equal>
+              <equal><clip pos="1" side="tl" part="a_trans"/><lit-tag v="iv"/></equal>
               <equal><clip pos="1" side="sl" part="pass"/><lit-tag v="pass"/></equal>
             </and>
           </test>
@@ -627,51 +629,51 @@
       <choose>
         <when>
           <test>
-            <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_narr"/></equal>
+            <equal><clip pos="1" side="tl" part="a_tense"/><lit-tag v="t_narr"/></equal>
           </test>
-          <let><clip pos="1" side="tl" part="tens"/><lit-tag v="past"/></let>
+          <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="past"/></let>
           <let><var n="c_tens"/><lit-tag v="past"/></let>
         </when>
         <when>
           <test>
-            <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="past"/></equal>
+            <equal><clip pos="1" side="tl" part="a_tense"/><lit-tag v="past"/></equal>
           </test>
-          <let><clip pos="1" side="tl" part="tens"/><lit-tag v="ifi"/></let>
+          <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="ifi"/></let>
           <let><var n="c_tens"/><lit-tag v="ifi"/></let>
         </when>
         <when>
           <test>
-            <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_opt"/></equal>
+            <equal><clip pos="1" side="tl" part="a_tense"/><lit-tag v="t_opt"/></equal>
           </test>
-          <let><clip pos="1" side="tl" part="tens"/><lit-tag v="opt"/></let>
+          <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="opt"/></let>
           <let><var n="c_tens"/><lit-tag v="opt"/></let>
         </when>
         <when>
           <test>
-            <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_fut"/></equal>
+            <equal><clip pos="1" side="tl" part="a_tense"/><lit-tag v="t_fut"/></equal>
           </test>
-          <let><clip pos="1" side="tl" part="tens"/><lit-tag v="fut"/></let>
+          <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="fut"/></let>
           <let><var n="c_tens"/><lit-tag v="fut"/></let>
         </when>
         <when>
           <test>
-            <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="t_imp"/></equal>
+            <equal><clip pos="1" side="tl" part="a_tense"/><lit-tag v="t_imp"/></equal>
           </test>
-          <let><clip pos="1" side="tl" part="tens"/><lit-tag v="imp"/></let>
+          <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="imp"/></let>
           <let><var n="c_tens"/><lit-tag v="imp"/></let>
         </when>
         <when>
           <test>
             <or>
-              <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="aor"/></equal>
-              <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="cont"/></equal>
+              <equal><clip pos="1" side="tl" part="a_tense"/><lit-tag v="aor"/></equal>
+              <equal><clip pos="1" side="tl" part="a_tense"/><lit-tag v="cont"/></equal>
             </or>
           </test>
-          <let><clip pos="1" side="tl" part="tens"/><lit-tag v="aor"/></let>
+          <let><clip pos="1" side="tl" part="a_tense"/><lit-tag v="aor"/></let>
           <let><var n="c_tens"/><lit-tag v="aor"/></let>
         </when>
         <otherwise>
-          <let><var n="c_tens"/><clip pos="1" side="tl" part="tens"/></let>
+          <let><var n="c_tens"/><clip pos="1" side="tl" part="a_tense"/></let>
         </otherwise>
       </choose>
     </def-macro>  
@@ -680,12 +682,12 @@
       <choose>
         <when>
           <test>
-            <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="ND"/></equal>
+            <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="ND"/></equal>
           </test>
           <let><var n="c_num"/><lit-tag v="sg"/></let>
         </when>
         <otherwise>
-          <let><var n="c_num"/><clip pos="1" side="tl" part="nbr"/></let>
+          <let><var n="c_num"/><clip pos="1" side="tl" part="a_nbr"/></let>
         </otherwise>
       </choose>
     </def-macro>  
@@ -768,7 +770,7 @@
 
     <def-macro n="f_conv_pers_tens1" npar="1">
       <let><var n="c_pers"/><lit v=""/></let>
-      <let><var n="c_pers"/><concat><clip pos="1" side="sl" part="pers"/><clip pos="1" side="sl" part="nbr"/></concat></let>
+      <let><var n="c_pers"/><concat><clip pos="1" side="sl" part="a_pers"/><clip pos="1" side="sl" part="a_nbr"/></concat></let>
 
       <call-macro n="f_conv_tens1">
         <with-param pos="1"/>
@@ -780,16 +782,16 @@
         <when> 
           <test>
             <or>
-              <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="fut"/></equal>
-              <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="past"/></equal>
-              <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="pot"/></equal>
-              <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="pcond"/></equal>
+              <equal><clip pos="1" side="tl" part="a_tense"/><lit-tag v="fut"/></equal>
+              <equal><clip pos="1" side="tl" part="a_tense"/><lit-tag v="past"/></equal>
+              <equal><clip pos="1" side="tl" part="a_tense"/><lit-tag v="pot"/></equal>
+              <equal><clip pos="1" side="tl" part="a_tense"/><lit-tag v="pcond"/></equal>
               <and>
-                <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="pih"/></equal>
+                <equal><clip pos="1" side="tl" part="a_tense"/><lit-tag v="pih"/></equal>
                 <equal><clip pos="1" side="tl" part="neg"/><lit-tag v="neg"/></equal>
               </and>
               <and>
-                <equal><clip pos="1" side="tl" part="tens"/><lit-tag v="ifi"/></equal>
+                <equal><clip pos="1" side="tl" part="a_tense"/><lit-tag v="ifi"/></equal>
                 <equal><clip pos="1" side="tl" part="neg"/><lit-tag v="neg"/></equal>
               </and>
             </or>
@@ -877,7 +879,7 @@
     </def-macro>  
 
     <def-macro n="f_conv_pers1" npar="1">
-      <let><var n="c_pers"/><concat><clip pos="1" side="sl" part="pers"/><clip pos="1" side="sl" part="nbr"/></concat></let>
+      <let><var n="c_pers"/><concat><clip pos="1" side="sl" part="a_pers"/><clip pos="1" side="sl" part="a_nbr"/></concat></let>
 <!--
       <choose>
         <when>
@@ -1082,7 +1084,7 @@
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
               <clip pos="1" side="tl" part="gen"/>
-              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="a_nbr"/>
               <var n="c_poss"/>
               <var n="c_case"/>
             </lu>
@@ -1113,7 +1115,7 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_prn"/>
             <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
             <var n="c_poss"/>
             <var n="c_case"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -1139,7 +1141,7 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
             <var n="c_poss"/>
             <var n="c_case"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -1165,7 +1167,7 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
             <var n="c_poss"/>
             <var n="c_case"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -1217,7 +1219,7 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_prn"/>
-            <clip pos="1" side="tl" part="pers"/>
+            <clip pos="1" side="tl" part="a_pers"/>
             <clip pos="1" side="tl" part="gen"/>
             <var n="c_num"/>
             <var n="c_case"/>
@@ -1249,8 +1251,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <lit-tag v="ger_fut"/>
             <var n="c_poss"/>
             <lit-tag v="nom"/>
@@ -1275,8 +1277,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <lit-tag v="prc_impf"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
@@ -1302,8 +1304,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <lit-tag v="prc_perf"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
@@ -1330,8 +1332,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
             <lit-tag v="vadj_pot"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -1360,8 +1362,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
             <lit-tag v="prc_impf"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -1405,8 +1407,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
             <lit-tag v="ger_past.abl"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -1438,7 +1440,7 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="a_trans"/>
             <var n="c_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
             <lit-tag v="prc_impf"/>
@@ -1472,8 +1474,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
             <lit-tag v="ger_fut.abl"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -1483,7 +1485,7 @@
       </action>
     </rule>
 
-
+<!--
     <rule comment="regla: v_aor_cv_cesine">
       <pattern>
         <pattern-item n="v_aor_cv_cesine"/>
@@ -1502,8 +1504,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
             <lit-tag v="vadj_pot.n.apprx"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -1512,6 +1514,7 @@
         </out>
       </action>
     </rule>
+-->
 
     <rule comment="regla: v_cv_dan">
       <pattern>
@@ -1531,8 +1534,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
             <lit-tag v="prc_perf"/>
             <clip pos="1" side="tl" part="lemq"/>
@@ -1560,8 +1563,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <lit-tag v="ger_past"/>
             <var n="c_poss"/>
             <lit-tag v="loc"/>
@@ -1590,8 +1593,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <lit-tag v="ger_past"/>
             <var n="c_poss"/>
             <var n="c_case"/>
@@ -1624,7 +1627,7 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="a_trans"/>
             <var n="c_deriv"/>
             <lit-tag v="ger"/>
             <var n="c_poss"/>
@@ -1652,8 +1655,8 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="trans"/>
-              <clip pos="1" side="tl" part="deriv"/>
+              <clip pos="1" side="tl" part="a_trans"/>
+              <clip pos="1" side="tl" part="a_deriv"/>
               <clip pos="1" side="tl" part="neg"/>
               <lit-tag v="opt"/>
               <var n="c_pers"/>
@@ -1681,8 +1684,8 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="trans"/>
-              <clip pos="1" side="tl" part="deriv"/>
+              <clip pos="1" side="tl" part="a_trans"/>
+              <clip pos="1" side="tl" part="a_deriv"/>
               <clip pos="1" side="tl" part="neg"/>
               <lit-tag v="ger.loc"/>
             </lu>
@@ -1719,7 +1722,7 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="a_trans"/>
             <var n="c_deriv"/>
             <lit-tag v="ger"/>
             <var n="c_poss"/>
@@ -1749,8 +1752,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <lit-tag v="ger_past"/>
             <var n="c_poss"/>
             <var n="c_case"/>
@@ -1779,7 +1782,7 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="a_trans"/>
             <lit-tag v="ger_past"/>
             <var n="c_poss"/>
             <var n="c_case"/>
@@ -1808,8 +1811,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
             <lit-tag v="ger_past"/>
             <var n="c_poss"/>
@@ -1843,7 +1846,7 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="trans"/>
+              <clip pos="1" side="tl" part="a_trans"/>
               <lit-tag v="prc_perf"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -1876,8 +1879,8 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="trans"/>
-              <clip pos="1" side="tl" part="deriv"/>
+              <clip pos="1" side="tl" part="a_trans"/>
+              <clip pos="1" side="tl" part="a_deriv"/>
               <lit-tag v="prc_perf"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -1918,8 +1921,8 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="trans"/>
-              <clip pos="1" side="tl" part="deriv"/>
+              <clip pos="1" side="tl" part="a_trans"/>
+              <clip pos="1" side="tl" part="a_deriv"/>
               <lit-tag v="prc_impf"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -1966,8 +1969,8 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="trans"/>
-              <clip pos="1" side="tl" part="deriv"/>
+              <clip pos="1" side="tl" part="a_trans"/>
+              <clip pos="1" side="tl" part="a_deriv"/>
               <lit-tag v="prc_impf"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -2015,8 +2018,8 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="trans"/>
-              <clip pos="1" side="tl" part="deriv"/>
+              <clip pos="1" side="tl" part="a_trans"/>
+              <clip pos="1" side="tl" part="a_deriv"/>
               <lit-tag v="prc_impf"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -2032,6 +2035,44 @@
       </action>
     </rule>
 
+    <rule comment="regla: v_aor mi_pers">
+      <pattern>
+        <pattern-item n="v_aor"/>
+        <pattern-item n="mi_pers"/>
+      </pattern>
+      <action>
+<!--
+        <call-macro n="convpers1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="vconj1">
+          <with-param pos="1"/>
+        </call-macro>
+-->
+        <out>
+          <mlu>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="a_trans"/>
+              <clip pos="1" side="tl" part="a_deriv"/>
+              <clip pos="1" side="tl" part="a_neg"/>
+              <clip pos="1" side="tl" part="a_tense"/>
+              <clip pos="2" side="tl" part="a_pers"/>
+              <clip pos="2" side="tl" part="a_nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <lit-tag v="qst"/>
+            </lu>
+          </mlu>
+        </out>
+      </action>
+    </rule>
+
+
+<!--
     <rule comment="regla: v_aor qst">
       <pattern>
         <pattern-item n="v_aor"/>
@@ -2049,8 +2090,8 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="trans"/>
-              <clip pos="1" side="tl" part="deriv"/>
+              <clip pos="1" side="tl" part="a_trans"/>
+              <clip pos="1" side="tl" part="a_deriv"/>
               <clip pos="1" side="tl" part="neg"/>
               <lit-tag v="aor"/>
               <var n="c_pers"/>
@@ -2064,6 +2105,7 @@
         </out>
       </action>
     </rule>
+-->
 
     <rule comment="regla: v_fut">
       <pattern>
@@ -2081,8 +2123,8 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="trans"/>
-              <clip pos="1" side="tl" part="deriv"/>
+              <clip pos="1" side="tl" part="a_trans"/>
+              <clip pos="1" side="tl" part="a_deriv"/>
               <clip pos="1" side="tl" part="neg"/>
               <lit-tag v="fut"/>
               <var n="c_pers"/>
@@ -2108,8 +2150,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
             <lit-tag v="opt"/>
             <var n="c_pers"/>
@@ -2134,8 +2176,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
             <lit-tag v="imp"/>
             <var n="c_pers"/>
@@ -2151,10 +2193,6 @@
         <pattern-item n="v_aor"/>
       </pattern>
       <action>
-        <let>
-          <clip pos="1" side="tl" part="tens"/>
-          <lit-tag v="aor"/>
-        </let>
         <call-macro n="f_conv_pers_tens1">
           <with-param pos="1"/>
         </call-macro>
@@ -2165,10 +2203,10 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
-            <clip pos="1" side="tl" part="tens"/>
+            <clip pos="1" side="tl" part="a_tense"/>
             <var n="c_pers"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
@@ -2196,8 +2234,8 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
             <var n="c_tens"/>
             <var n="c_pers"/>
@@ -2214,7 +2252,7 @@
       </pattern>
       <action>
         <let>
-          <clip pos="1" side="tl" part="tens"/>
+          <clip pos="1" side="tl" part="a_tense"/>
           <lit-tag v="past"/>
         </let>
         <call-macro n="f_conv_pers_tens1">
@@ -2228,9 +2266,9 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="trans"/>
+              <clip pos="1" side="tl" part="a_trans"/>
               <clip pos="1" side="tl" part="neg"/>
-              <clip pos="1" side="tl" part="tens"/>
+              <clip pos="1" side="tl" part="a_tense"/>
               <var n="c_pers"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -2246,7 +2284,7 @@
       </pattern>
       <action>
         <let>
-          <clip pos="1" side="tl" part="tens"/>
+          <clip pos="1" side="tl" part="a_tense"/>
           <lit-tag v="ifi"/>
         </let>  
         <call-macro n="f_conv_pers_tens1">
@@ -2260,10 +2298,10 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="trans"/>
-              <clip pos="1" side="tl" part="deriv"/>
+              <clip pos="1" side="tl" part="a_trans"/>
+              <clip pos="1" side="tl" part="a_deriv"/>
               <clip pos="1" side="tl" part="neg"/>
-              <clip pos="1" side="tl" part="tens"/>
+              <clip pos="1" side="tl" part="a_tense"/>
               <var n="c_pers"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -2279,7 +2317,7 @@
       </pattern>
       <action>
         <let>
-          <clip pos="1" side="tl" part="tens"/>
+          <clip pos="1" side="tl" part="a_tense"/>
           <lit-tag v="ifi"/>
         </let>  
         <call-macro n="f_conv_pers_tens1">
@@ -2292,10 +2330,10 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
-            <clip pos="1" side="tl" part="tens"/>
+            <clip pos="1" side="tl" part="a_tense"/>
             <var n="c_pers"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
@@ -2322,7 +2360,7 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="a_trans"/>
             <var n="c_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
             <lit-tag v="ger"/>
@@ -2349,7 +2387,7 @@
           <with-param pos="1"/>
         </call-macro>
         <let>
-          <clip pos="1" side="tl" part="tens"/>
+          <clip pos="1" side="tl" part="a_tense"/>
           <lit-tag v="aor"/>
         </let>  
         <call-macro n="f_conv_pers_tens1">
@@ -2359,10 +2397,10 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
-            <clip pos="1" side="tl" part="tens"/>
+            <clip pos="1" side="tl" part="a_tense"/>
             <var n="c_pers"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
@@ -2377,7 +2415,7 @@
       </pattern>
       <action>
         <let>
-          <clip pos="1" side="tl" part="tens"/>
+          <clip pos="1" side="tl" part="a_tense"/>
           <lit-tag v="ifi"/>
         </let>  
         <call-macro n="f_conv_pers_tens1">
@@ -2391,10 +2429,10 @@
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="trans"/>
-              <clip pos="1" side="tl" part="deriv"/>
+              <clip pos="1" side="tl" part="a_trans"/>
+              <clip pos="1" side="tl" part="a_deriv"/>
               <clip pos="1" side="tl" part="neg"/>
-              <clip pos="1" side="tl" part="tens"/>
+              <clip pos="1" side="tl" part="a_tense"/>
               <var n="c_pers"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -2410,7 +2448,7 @@
       </pattern>
       <action>
         <let>
-          <clip pos="1" side="tl" part="tens"/>
+          <clip pos="1" side="tl" part="a_tense"/>
           <lit-tag v="ifi"/>
         </let>  
         <call-macro n="f_conv_pers_tens1">
@@ -2423,16 +2461,17 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
-            <clip pos="1" side="tl" part="trans"/>
-            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_trans"/>
+            <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
-            <clip pos="1" side="tl" part="tens"/>
+            <clip pos="1" side="tl" part="a_tense"/>
             <var n="c_pers"/>
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
       </action>
     </rule>
+
 
 
     <!-- SECTION: Copulas -->
