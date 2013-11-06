@@ -8,7 +8,7 @@ then
     GREP='WORKS'
 fi
 
-bash wiki-tests.sh Regression tr ky update | grep -C $C "$GREP"
+bash wiki-tests.sh Regression tur kir update | grep -C $C "$GREP"
 
-#bash wiki-tests.sh Regression ky tr update | grep -C $C "$GREP"
+#bash wiki-tests.sh Regression kir tur update | grep -C $C "$GREP"
 

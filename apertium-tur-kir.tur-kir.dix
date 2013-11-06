@@ -918,7 +918,7 @@
 
 	<e c="  0"><p><l>elim<s n="n"/></l><r>кол<s n="n"/></r></p></e>
 	
-	<!-- from apertium-tr-az d	 -->
+	<!-- from apertium-tr-az d -->
     <!--<e c="  0"><p><l>dadı<s n="n"/></l><r>daya<s n="n"/></r></p></e>-->  
     <e c="  0"><p><l>dağ<s n="n"/></l><r>тоо<s n="n"/></r></p></e>  
     <e c="  0"><p><l>daimi<s n="n"/></l><r>дайыма<s n="n"/></r></p></e>  
@@ -1098,7 +1098,7 @@
 	<e c="  0"><p><l>eğri<s n="n"/></l><r>чийин<s n="n"/></r></p></e>
 	<e c="  0"><p><l>eşek<s n="n"/></l><r>эшек<s n="n"/></r></p></e>
 	<e c="  0"><p><l>eşik<s n="n"/></l><r>эшик<s n="n"/></r></p></e>
-	<!-- from apertium-tr-az e	 -->
+	<!-- from apertium-tr-az e -->
 	<e c="  0"><p><l>ebat<s n="n"/></l><r>өлчөм<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>ebedi<s n="n"/></l><r>сонсуз<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>edebi<s n="n"/></l><r>адабий<s n="n"/></r></p></e>  
@@ -1243,7 +1243,7 @@
 	<e c="  0"><p><l>fırsat<s n="n"/></l><r>мүмкүнчүлүк<s n="n"/></r></p></e>
 	<e slr="1"><p><l>fırsat<s n="n"/></l><r>бурсат<s n="n"/></r></p></e>
 	<e c="  0"><p><l>fırıldak<s n="n"/></l><r>пырылдак<s n="n"/></r></p></e>
-	<!-- from apertium-tr-az f	 -->
+	<!-- from apertium-tr-az f -->
 	<e c="  0"><p><l>facia<s n="n"/></l><r>кырсык<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>fahişe<s n="n"/></l><r>сойку<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>fahri<s n="n"/></l><r>ардактуу<s n="n"/></r></p></e>  
@@ -1290,7 +1290,7 @@
 	<e c="  0"><p><l>fuhuş<s n="n"/></l><r>күнөө<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>füze<s n="n"/></l><r>ракета<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>fuzuli<s n="n"/></l><r>маанисиз<s n="n"/></r></p></e>
-	<!-- from apertium-tr-az f end	 -->
+	<!-- from apertium-tr-az f end -->
 	<e c="  0"><p><l>gaflet<s n="n"/></l><r>капилет<s n="n"/></r></p></e>
 	<e c="  0"><p><l>gaip<s n="n"/></l><r>кайып<s n="n"/></r></p></e>
 	<e c="  0"><p><l>galeri<s n="n"/></l><r>галерея<s n="n"/></r></p></e>
@@ -1372,7 +1372,7 @@
 	<e slr="3"><p><l>güç<s n="n"/></l><r>ал<s n="n"/></r></p></e>
 	<e c="  0"><p><l>gıdık<s n="n"/></l><r>кытык<s n="n"/></r></p></e>
 	<e slr="1"><p><l>gıdık<s n="n"/></l><r>кытыгы<s n="n"/></r></p></e>
-	<!-- from apertium-tr-az g	 -->
+	<!-- from apertium-tr-az g -->
 	<e c="  0"><p><l>gaf<s n="n"/></l><r>туура<b/>эмес<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>gaile<s n="n"/></l><r>кайгы<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>gala<s n="n"/></l><r>премия<s n="n"/></r></p></e>  
@@ -1446,7 +1446,7 @@
 	<e c="  0"><p><l>gurur<s n="n"/></l><r>намыс<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>güvercin<s n="n"/></l><r>көгүчкөн<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>güzergah<s n="n"/></l><r>жол<b/>багыты<s n="n"/></r></p></e>
-	<!-- from apertium-tr-az g	end -->
+	<!-- from apertium-tr-az gend -->
 	<e c="  0"><p><l>haber<s n="n"/></l><r>кабар<s n="n"/></r></p></e>
 	<e c="  0"><p><l>hac<s n="n"/></l><r>ажы<s n="n"/></r></p></e>
 	<e c="  0"><p><l>hacet<s n="n"/></l><r>кажет<s n="n"/></r></p></e>
@@ -1496,7 +1496,7 @@
 	<e c="  0"><p><l>hıyanet<s n="n"/></l><r>кыянаттык<s n="n"/></r></p></e>
 	<e c="  0"><p><l>hıçkırık<s n="n"/></l><r>ыктытма<s n="n"/></r></p></e>
 	<e slr="1"><p><l>hıçkırık<s n="n"/></l><r>эчкирик<s n="n"/></r></p></e>
-	<!-- from apertium-tr-az h	 -->
+	<!-- from apertium-tr-az h -->
 	<e c="  0"><p><l>hacı<s n="n"/></l><r>ажы<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>hacim<s n="n"/></l><r>көлөм<s n="n"/></r></p></e>  
 	<e c="  0"><p><l>had<s n="n"/></l><r>чек<s n="n"/></r></p></e>  
@@ -1550,7 +1550,7 @@
 	<e c="  0"><p><l>hayat<s n="n"/></l><r>жашоо<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>haydut<s n="n"/></l><r>каракчы<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>hayran<s n="n"/></l><r>таң<s n="n"/></r></p></e> 
-	<!-- from apertium-tr-az h	end -->
+	<!-- from apertium-tr-az hend -->
 	
 	<e c="  0"><p><l>idea<s n="n"/></l><r>идея<s n="n"/></r></p></e>
 	<e slr="1"><p><l>idea<s n="n"/></l><r>ой<s n="n"/></r></p></e>
@@ -1602,7 +1602,7 @@
 	<e slr="1"><p><l>iş<s n="n"/></l><r>жумуш<s n="n"/></r></p></e>
 	<e c="  0"><p><l>işaret<s n="n"/></l><r>ишарат<s n="n"/></r></p></e>
 	<e slr="1"><p><l>işaret<s n="n"/></l><r>сигнал<s n="n"/></r></p></e>
-	<!-- from apertium-tr-az i	 -->
+	<!-- from apertium-tr-az i -->
 	<e c="  0"><p><l>ibadet<s n="n"/></l><r>ибадат<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>ibaret<s n="n"/></l><r>байланыштуу<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>icap<s n="n"/></l><r>муктаждык<s n="n"/></r></p></e> 
@@ -1711,7 +1711,7 @@
 	<e c="  0"><p><l>izmarit<s n="n"/></l><r>пучок<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>jest<s n="n"/></l><r>жест<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>jet<s n="n"/></l><r>реактивдүү<s n="n"/></r></p></e> 
-	<!-- from apertium-tr-az i	end -->
+	<!-- from apertium-tr-az iend -->
 	<e c="  0"><p><l>jaguar<s n="n"/></l><r>ягуар<s n="n"/></r></p></e>
 	<e c="  0"><p><l>jaluzi<s n="n"/></l><r>жалюзи<s n="n"/></r></p></e>
 	<e c="  0"><p><l>jandarma<s n="n"/></l><r>жандарм<s n="n"/></r></p></e>
@@ -2177,7 +2177,7 @@
 	<e c="  0"><p><l>nörolog<s n="n"/></l><r>невролог<s n="n"/></r></p></e>
 	<e c="  0"><p><l>nöroloji<s n="n"/></l><r>неврология<s n="n"/></r></p></e>
 	<e c="  0"><p><l>nöron<s n="n"/></l><r>нейрон<s n="n"/></r></p></e>
-	<e c="  0"><p><l>nüans<s n="n"/></l><r>	нюанс<s n="n"/></r></p></e>
+	<e c="  0"><p><l>nüans<s n="n"/></l><r>нюанс<s n="n"/></r></p></e>
 	<e c="  0"><p><l>nüsha<s n="n"/></l><r>нуска<s n="n"/></r></p></e>
 
 	<e c="  0"><p><l>iyi<s n="n"/></l><r>жакшы<s n="n"/></r></p></e>

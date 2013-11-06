@@ -1,7 +1,7 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-tr-az], [0.1.0], [mipasov@gmail.com])
-AM_INIT_AUTOMAKE([apertium-tr-az], [0.1.0], no-define)
+AC_INIT([apertium-tur-kir], [0.2.0], [spectre360@users.sourceforge.net])
+AM_INIT_AUTOMAKE([apertium-tur-kir], [0.2.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 
@@ -9,37 +9,24 @@ m4_define([required_apertium_version], [3.2.0])
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
                           
 
-#AC_DEFUN([PKG_CHECK_HFST], [
-#  HFST_VER=0
-#  PKG_CHECK_MODULES(HFST, hfst-3.2 >= 3.2.0,
-#  [
-#      HFST_VER=32
-#  ],
-#  [
-#      PKG_CHECK_MODULES(HFST, hfst-3.1 >= 3.1.0,
-#      [
-#          HFST_VER=31
-#      ],
-#      [
-#          PKG_CHECK_MODULES(HFST, hfst-3.0 >= 3.0.0,
-#          [
-#              HFST_VER=30
-#          ])
-#      ])
-#  ])
-#  AC_SUBST(HFST_VER)
-#])
-#                          
-#PKG_CHECK_HFST
-
-AC_PATH_PROG(HFSTCALC, hfst-lexc, no)
-if test x$ac_cv_path_HFSTCALC = x
+AC_PATH_PROG(HFSTLEXC, hfst-lexc, no)
+if test x$ac_cv_path_HFSTLEXC = x
 then
-  AC_MSG_ERROR([You don't have hfst-calculate installed.])
+  AC_MSG_ERROR([You don't have hfst-lexc installed.])
 fi
-if test x$ac_cv_path_HFSTCALC = xno
+if test x$ac_cv_path_HFSTLEXC = xno
 then
-  AC_MSG_ERROR([You don't have hfst-calculate installed.])
+  AC_MSG_ERROR([You don't have hfst-lexc installed.])
+fi
+
+AC_PATH_PROG(HFSTTWOLC, hfst-twolc, no)
+if test x$ac_cv_path_HFSTTWOLC = x
+then
+  AC_MSG_ERROR([You don't have hfst-twolc installed.])
+fi
+if test x$ac_cv_path_HFSTTWOLC = xno
+then
+  AC_MSG_ERROR([You don't have hfst-twolc installed.])
 fi
 
 AC_PATH_PROG(CGCOMP, cg-comp, no)
@@ -47,7 +34,7 @@ if test x$ac_cv_path_CGCOMP = x
 then
   AC_MSG_ERROR([You don't have cg-comp installed.])
 fi
-if test x$ac_cv_path_CGPROC = xno
+if test x$ac_cv_path_CGCOMP = xno
 then
   AC_MSG_ERROR([You don't have cg-comp installed.])
 fi
@@ -62,4 +49,42 @@ then
   AC_MSG_ERROR([You don't have cg-proc installed.])
 fi
 
+AC_PATH_PROG(LRXCOMP, lrx-comp, no)
+if test x$ac_cv_path_LRXCOMP = x
+then
+  AC_MSG_ERROR([You don't have lrx-comp installed.])
+fi
+if test x$ac_cv_path_LRXCOMP = xno
+then
+  AC_MSG_ERROR([You don't have lrx-comp installed.])
+fi
+
+AC_PATH_PROG(LRXPROC, lrx-proc, no)
+if test x$ac_cv_path_LRXPROC = x
+then
+  AC_MSG_ERROR([You don't have lrx-proc installed.])
+fi
+if test x$ac_cv_path_LRXPROC = xno
+then
+  AC_MSG_ERROR([You don't have lrx-proc installed.])
+fi
+
+AC_PATH_PROG(GZCAT, gzcat, no)
+AC_PATH_PROG(ZCAT, zcat, no)
+
+if test x$ac_cv_path_GZCAT = xno
+then
+  if test x$ac_cv_path_ZCAT = xno
+  then
+    AC_MSG_ERROR([No working zcat installed.])
+  else
+    AC_SUBST(ZCAT,[zcat])
+  fi
+else
+  AC_SUBST(ZCAT,[gzcat])
+fi
+
+
+
 AC_OUTPUT([Makefile])
+

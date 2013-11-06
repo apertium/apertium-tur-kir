@@ -1,0 +1,7 @@
+<rules>
+  <rule>
+    <match lemma="хүн" tags="n.*"><select lemma="адам"/></match>
+    <match lemma="эрх" tags="n.*" />
+  </rule>
+
+</rules>
