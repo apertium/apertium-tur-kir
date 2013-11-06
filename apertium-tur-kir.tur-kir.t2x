@@ -33,6 +33,9 @@
       <cat-item tags="cop.p1.*"/>
       <cat-item tags="cop.p2.*"/>
       <cat-item tags="cop.p3.*"/>
+      <cat-item tags="cop.pres.p1.*"/>
+      <cat-item tags="cop.pres.p2.*"/>
+      <cat-item tags="cop.pres.p3.*"/>
       <cat-item lemma="сыз" tags="post.*"/>
     </def-cat>
 
