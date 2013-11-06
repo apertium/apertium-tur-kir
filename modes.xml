@@ -3,16 +3,16 @@
  
   <mode name="tur-kir-morph" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tur-kir.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-kir.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
  
   <mode name="tur-kir-disam" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tur-kir.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-kir.automorf.bin"/>
       </program>
       <program name="cg-conv -a"/>
       <program name="vislcg3 --trace --grammar">
@@ -23,8 +23,8 @@
 
   <mode name="tur-kir-tagger" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tur-kir.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-kir.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
         <file name="tur-kir.rlx.bin"/>
@@ -35,8 +35,8 @@
 
   <mode name="tur-kir-biltrans" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tur-kir.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-kir.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
         <file name="tur-kir.rlx.bin"/>
@@ -50,8 +50,8 @@
 
   <mode name="tur-kir-transfer" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tur-kir.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-kir.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
         <file name="tur-kir.rlx.bin"/>
@@ -69,8 +69,8 @@
 
   <mode name="tur-kir-debug" install="no">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tur-kir.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-kir.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
         <file name="tur-kir.rlx.bin"/>
@@ -83,16 +83,16 @@
         <file name="apertium-tur-kir.tur-kir.t1x"/>
         <file name="tur-kir.t1x.bin"/>
       </program>
-      <program name="hfst-proc -d">
-        <file name="tur-kir.autogen.hfst"/>
+      <program name="lt-proc -d">
+        <file name="tur-kir.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
   <mode name="tur-kir" install="yes">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="tur-kir.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="tur-kir.automorf.bin"/>
       </program>
       <program name="cg-proc -w -n -1">
         <file name="tur-kir.rlx.bin"/>
@@ -105,8 +105,8 @@
         <file name="apertium-tur-kir.tur-kir.t1x"/>
         <file name="tur-kir.t1x.bin"/>
       </program>
-      <program name="hfst-proc $1">
-        <file name="tur-kir.autogen.hfst"/>
+      <program name="lt-proc $1">
+        <file name="tur-kir.autogen.bin"/>
       </program>
     </pipeline>
   </mode>

@@ -5,15 +5,21 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/apertium-tur-kir.kir-tur.LR.att.gz -text
+/apertium-tur-kir.kir-tur.RL.att.gz -text
+/apertium-tur-kir.kir-tur.lrx -text
 /apertium-tur-kir.kir-tur.rlx -text
 /apertium-tur-kir.kir-tur.t1x -text
-/apertium-tur-kir.kir.lexc -text
-/apertium-tur-kir.kir.twol -text
+/apertium-tur-kir.kir-tur.t2x -text
+/apertium-tur-kir.post-kir.dix -text
+/apertium-tur-kir.post-tur.dix -text
+/apertium-tur-kir.tur-kir.LR.att.gz -text
+/apertium-tur-kir.tur-kir.RL.att.gz -text
 /apertium-tur-kir.tur-kir.dix -text
+/apertium-tur-kir.tur-kir.lrx -text
 /apertium-tur-kir.tur-kir.rlx -text
 /apertium-tur-kir.tur-kir.t1x -text
-/apertium-tur-kir.tur.lexc -text
-/apertium-tur-kir.tur.twol -text
+/apertium-tur-kir.tur-kir.t2x -text
 /autogen.sh -text
 /configure.ac -text
 /countstems.sh -text
@@ -75,7 +81,7 @@ dev/story.kir.1.txt -text
 dev/story.tur.txt -text
 dev/turmorph-conv-status.txt -text
 dev/verb-patterns.txt -text
-/lexchoicebil.xsl -text
+/kir-tur.prob -text svneol=unset#unset
 /modes.xml -text
 /pending-tests.sh -text
 /regression-tests.sh -text
@@ -94,4 +100,6 @@ tests/ky-verbsaux.yaml -text
 tests/ky-verbsimp.yaml -text
 tests/ky-verbsopt.yaml -text
 tests/run-tests.sh -text
+/tur-kir.prob -text svneol=unset#unset
+/update-morphs.bash -text
 /wiki-tests.sh -text
