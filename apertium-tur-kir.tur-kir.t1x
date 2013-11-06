@@ -8,10 +8,6 @@
       <cat-item tags="np.acr.*"/>
     </def-cat>
       
-    <def-cat n="nom-noflex">
-      <cat-item tags="n"/>
-    </def-cat>
-
     <def-cat n="saye">
       <cat-item lemma="saye" tags="n.p3s.loc"/>
       <cat-item lemma="saye" tags="n.p3p.loc"/>
@@ -931,67 +927,7 @@
 
   <section-rules>
     <!-- SECTION: Nominal segments -->
-   
-    <rule comment="regla: nom-noflex">
-      <pattern>
-        <pattern-item n="nom-noflex"/>
-      </pattern>
-      <action>
-        <choose>
-          <when>
-            <test>
-                <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="n"/></equal>
-            </test>
-            <let><var n="c_post"/><lit-tag v="nom"/></let>
-          </when>
-        </choose>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-            <var n="c_post"/>
-          </lu>
-        </out>
-        <let><var n="c_post"/><lit v=""/></let>
-      </action>
-    </rule>
-
-
-    <rule comment="regla: nom-noflex saye">
-      <pattern>
-        <pattern-item n="nom-noflex"/>
-        <pattern-item n="saye"/>
-      </pattern>
-      <action>
-        <call-macro n="f_conv_poss1">
-          <with-param pos="2"/>
-        </call-macro>
-        <let>
-          <var n="c_post"/>
-          <concat>
-            <lit v=" ^менен"/>
-            <lit-tag v="post"/>
-            <lit v="$"/>
-          </concat>
-        </let>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <lit-tag v="gen"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <lit v="жардам"/>
-            <lit-tag v="n"/>
-            <var n="c_poss"/>
-            <lit-tag v="nom"/>
-          </lu>
-          <var n="c_post"/>
-        </out>
-      </action>
-    </rule>
-
+  
 
  
     <rule comment="regla: saye">
