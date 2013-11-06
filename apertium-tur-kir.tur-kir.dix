@@ -92,8 +92,9 @@
    <section id="main" type="standard">
         <!-- SECTION: Particles -->
 
+        <e c="  0"><p><l>i<s n="cop"/></l><r>э<s n="cop"/></r></p></e>
 
-	<e c="  0"><p><l>mi<s n="qst"/></l><r>бы<s n="qst"/></r></p></e>
+	<e c="  0"><p><l>mı<s n="qst"/></l><r>бы<s n="qst"/></r></p></e>
 
 	<!-- SECTION: Interjections -->
     
@@ -4878,6 +4879,7 @@
         <e><p><l>Nikola<s n="np"/><s n="ant"/></l><r>Никола<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
         <e><p><l>Nemanja<s n="np"/><s n="ant"/></l><r>Неманя<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
+	<e><p><l>Ayşe<s n="np"/><s n="ant"/><s n="f"/></l><r>Айше<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Ana<s n="np"/><s n="ant"/><s n="f"/></l><r>Анна<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Anna<s n="np"/><s n="ant"/><s n="f"/></l><r>Анна<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Anja<s n="np"/><s n="ant"/><s n="f"/></l><r>Аня<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -6210,7 +6212,6 @@
 
         <!-- SECTION: Verbs -->
 
-        <e c="  0"><p><l>değil<s n="adj"/></l><r>э<s n="cop"/><s n="neg"/></r></p></e>
 
 	<e c="  0"><p><l>gel<s n="v"/><s n="iv"/></l><r>кел<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>ol<s n="v"/><s n="iv"/></l><r>бол<s n="v"/><s n="iv"/></r></p></e>

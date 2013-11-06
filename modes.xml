@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
+  <mode name="tur-kir" install="yes">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="tur-kir.automorf.bin"/>
+      </program>
+      <program name="cg-proc  -n -w -1">
+        <file name="tur-kir.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="tur-kir.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="tur-kir.lrx.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-tur-kir.tur-kir.t1x"/>
+        <file name="tur-kir.t1x.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-tur-kir.tur-kir.t2x"/>
+        <file name="tur-kir.t2x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="tur-kir.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="tur-kir.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="tur-kir-debug" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="tur-kir.automorf.bin"/>
+      </program>
+      <program name="cg-proc  -n -w -1">
+        <file name="tur-kir.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="tur-kir.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-tur-kir.tur-kir.t1x"/>
+        <file name="tur-kir.t1x.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-tur-kir.tur-kir.t2x"/>
+        <file name="tur-kir.t2x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="tur-kir.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="tur-kir.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
  
+  
   <mode name="tur-kir-morph" install="no">
     <pipeline>
       <program name="lt-proc -w">
@@ -8,7 +69,7 @@
       </program>
     </pipeline>
   </mode>
- 
+
   <mode name="tur-kir-disam" install="no">
     <pipeline>
       <program name="lt-proc -w">
@@ -21,12 +82,13 @@
     </pipeline>
   </mode>
 
+
   <mode name="tur-kir-tagger" install="no">
     <pipeline>
       <program name="lt-proc -w">
         <file name="tur-kir.automorf.bin"/>
       </program>
-      <program name="cg-proc -w -n -1">
+      <program name="cg-proc  -n -w -1">
         <file name="tur-kir.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -38,7 +100,7 @@
       <program name="lt-proc -w">
         <file name="tur-kir.automorf.bin"/>
       </program>
-      <program name="cg-proc -w -n -1">
+      <program name="cg-proc  -n -w -1">
         <file name="tur-kir.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -47,67 +109,250 @@
       </program>
     </pipeline>
   </mode>
+
+  <mode name="tur-kir-lex" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="tur-kir.automorf.bin"/>
+      </program>
+      <program name="cg-proc  -n -w -1">
+        <file name="tur-kir.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="tur-kir.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -t">
+        <file name="tur-kir.lrx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 
   <mode name="tur-kir-transfer" install="no">
     <pipeline>
       <program name="lt-proc -w">
         <file name="tur-kir.automorf.bin"/>
       </program>
-      <program name="cg-proc -w -n -1">
+      <program name="cg-proc -n -w -1">
         <file name="tur-kir.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="tur-kir.autobil.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="lrx-proc">
+        <file name="tur-kir.lrx.bin"/>
+      </program>
+      <program name="apertium-transfer -t -b">
         <file name="apertium-tur-kir.tur-kir.t1x"/>
         <file name="tur-kir.t1x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="tur-kir-debug" install="no">
+  <mode name="tur-kir-transfer2" install="no">
     <pipeline>
       <program name="lt-proc -w">
         <file name="tur-kir.automorf.bin"/>
       </program>
-      <program name="cg-proc -w -n -1">
+      <program name="cg-proc -n -w -1">
         <file name="tur-kir.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="tur-kir.autobil.bin"/>
       </program>
+      <program name="lrx-proc">
+        <file name="tur-kir.lrx.bin"/>
+      </program>
       <program name="apertium-transfer -b">
         <file name="apertium-tur-kir.tur-kir.t1x"/>
         <file name="tur-kir.t1x.bin"/>
       </program>
-      <program name="lt-proc -d">
-        <file name="tur-kir.autogen.bin"/>
+      <program name="apertium-transfer -n">
+        <file name="apertium-tur-kir.tur-kir.t2x"/>
+        <file name="tur-kir.t2x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="tur-kir" install="yes">
+  
+  <mode name="kir-tur" install="yes">
     <pipeline>
       <program name="lt-proc -w">
-        <file name="tur-kir.automorf.bin"/>
+        <file name="kir-tur.automorf.bin"/>
       </program>
-      <program name="cg-proc -w -n -1">
-        <file name="tur-kir.rlx.bin"/>
+      <program name="cg-proc  -n -w -1">
+        <file name="kir-tur.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="tur-kir.autobil.bin"/>
+        <file name="kir-tur.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="kir-tur.lrx.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-tur-kir.tur-kir.t1x"/>
-        <file name="tur-kir.t1x.bin"/>
+        <file name="apertium-tur-kir.kir-tur.t1x"/>
+        <file name="kir-tur.t1x.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-tur-kir.kir-tur.t2x"/>
+        <file name="kir-tur.t2x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="tur-kir.autogen.bin"/>
+        <file name="kir-tur.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="kir-tur.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
+
+  <mode name="kir-tur-debug" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="kir-tur.automorf.bin"/>
+      </program>
+      <program name="cg-proc  -n -w -1">
+        <file name="kir-tur.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="kir-tur.autobil.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-tur-kir.kir-tur.t1x"/>
+        <file name="kir-tur.t1x.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-tur-kir.kir-tur.t2x"/>
+        <file name="kir-tur.t2x.bin"/>
+      </program>
+      <program name="lt-proc -d">
+        <file name="kir-tur.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+ 
+  
+  <mode name="kir-tur-morph" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="kir-tur.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="kir-tur-disam" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="kir-tur.automorf.bin"/>
+      </program>
+      <program name="cg-conv -a "/>
+      <program name="vislcg3 --trace --grammar">
+        <file name="kir-tur.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="kir-tur-tagger" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="kir-tur.automorf.bin"/>
+      </program>
+      <program name="cg-proc  -n -w -1">
+        <file name="kir-tur.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+    </pipeline>
+  </mode>
+
+  <mode name="kir-tur-biltrans" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="kir-tur.automorf.bin"/>
+      </program>
+      <program name="cg-proc  -n -w -1">
+        <file name="kir-tur.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="kir-tur.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="kir-tur-lex" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="kir-tur.automorf.bin"/>
+      </program>
+      <program name="cg-proc  -n -w -1">
+        <file name="kir-tur.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="kir-tur.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -t">
+        <file name="kir-tur.lrx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="kir-tur-transfer" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="kir-tur.automorf.bin"/>
+      </program>
+      <program name="cg-proc -n -w -1">
+        <file name="kir-tur.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="kir-tur.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="kir-tur.lrx.bin"/>
+      </program>
+      <program name="apertium-transfer -t -b">
+        <file name="apertium-tur-kir.kir-tur.t1x"/>
+        <file name="kir-tur.t1x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="kir-tur-transfer2" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="kir-tur.automorf.bin"/>
+      </program>
+      <program name="cg-proc -n -w -1">
+        <file name="kir-tur.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="kir-tur.autobil.bin"/>
+      </program>
+      <program name="lrx-proc">
+        <file name="kir-tur.lrx.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-tur-kir.kir-tur.t1x"/>
+        <file name="kir-tur.t1x.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-tur-kir.kir-tur.t2x"/>
+        <file name="kir-tur.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
 </modes>
+
+
