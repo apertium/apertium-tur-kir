@@ -100,6 +100,9 @@ tests/ky-verbsaux.yaml -text
 tests/ky-verbsimp.yaml -text
 tests/ky-verbsopt.yaml -text
 tests/run-tests.sh -text
+texts/tur.küçükkuş.orig.txt -text
+texts/tur.küçükkuş.tur-kir-postedited.txt -text svneol=unset#application/octet-stream
+texts/tur.küçükkuş.tur-kir.txt -text
 /tur-kir.prob -text svneol=unset#unset
 /update-morphs.bash -text
 /wiki-tests.sh -text
