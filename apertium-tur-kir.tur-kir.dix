@@ -218,12 +218,12 @@
 
 	<!-- SECTION: Pronouns -->
 
-	<e c="  0"><p><l>ben<s n="prn"/></l><r>мен<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
-	<e c="  0"><p><l>sen<s n="prn"/></l><r>сен<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
-	<e c="  0"><p><l>o<s n="prn"/></l><r>ал<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
-	<e c="  0"><p><l>biz<s n="prn"/></l><r>биз<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
-	<e c="  0"><p><l>siz<s n="prn"/></l><r>силер<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
-	<e c="  0"><p><l>onlar<s n="prn"/></l><r>алар<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+	<e c="  0"><p><l>ben<s n="prn"/><s n="pers"/><s n="pers"/></l><r>мен<s n="prn"/><s n="pers"/></r></p></e>
+	<e c="  0"><p><l>sen<s n="prn"/><s n="pers"/></l><r>сен<s n="prn"/><s n="pers"/></r></p></e>
+	<e c="  0"><p><l>o<s n="prn"/><s n="pers"/></l><r>ал<s n="prn"/><s n="pers"/></r></p></e>
+	<e c="  0"><p><l>biz<s n="prn"/><s n="pers"/></l><r>биз<s n="prn"/><s n="pers"/></r></p></e>
+	<e c="  0"><p><l>siz<s n="prn"/><s n="pers"/></l><r>силер<s n="prn"/><s n="pers"/></r></p></e>
+	<e c="  0"><p><l>onlar<s n="prn"/><s n="pers"/></l><r>алар<s n="prn"/><s n="pers"/></r></p></e>
 
 	<e c="  0"><p><l>bu<s n="prn"/><s n="dem"/></l><r>бул<s n="prn"/><s n="dem"/></r></p></e>
 	<e c="  0"><p><l>kendi<s n="prn"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
