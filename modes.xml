@@ -13,7 +13,7 @@
         <file name="tur-kir.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="tur-kir.lrx.bin"/>
+        <file name="tur-kir.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-tur-kir.tur-kir.t1x"/>
@@ -123,7 +123,7 @@
         <file name="tur-kir.autobil.bin"/>
       </program>
       <program name="lrx-proc -t">
-        <file name="tur-kir.lrx.bin"/>
+        <file name="tur-kir.autolex.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -142,7 +142,7 @@
         <file name="tur-kir.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="tur-kir.lrx.bin"/>
+        <file name="tur-kir.autolex.bin"/>
       </program>
       <program name="apertium-transfer -t -b">
         <file name="apertium-tur-kir.tur-kir.t1x"/>
@@ -164,7 +164,7 @@
         <file name="tur-kir.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="tur-kir.lrx.bin"/>
+        <file name="tur-kir.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-tur-kir.tur-kir.t1x"/>
@@ -191,7 +191,7 @@
         <file name="kir-tur.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="kir-tur.lrx.bin"/>
+        <file name="kir-tur.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-tur-kir.kir-tur.t1x"/>
@@ -298,7 +298,7 @@
         <file name="kir-tur.autobil.bin"/>
       </program>
       <program name="lrx-proc -t">
-        <file name="kir-tur.lrx.bin"/>
+        <file name="kir-tur.autolex.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -317,7 +317,7 @@
         <file name="kir-tur.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="kir-tur.lrx.bin"/>
+        <file name="kir-tur.autolex.bin"/>
       </program>
       <program name="apertium-transfer -t -b">
         <file name="apertium-tur-kir.kir-tur.t1x"/>
@@ -339,7 +339,7 @@
         <file name="kir-tur.autobil.bin"/>
       </program>
       <program name="lrx-proc">
-        <file name="kir-tur.lrx.bin"/>
+        <file name="kir-tur.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-tur-kir.kir-tur.t1x"/>
