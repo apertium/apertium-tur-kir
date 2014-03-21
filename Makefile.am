@@ -25,7 +25,7 @@ TARGETS_COMMON = $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 .PRECIOUS: .deps/.d
 
 ###############################################################################
-## Turkish transducer
+## Turkish→Kyrgyz monolingual transducers
 ###############################################################################
 
 .deps/$(PREFIX1).autobil.prefixes: $(PREFIX1).autobil.bin .deps/.d
@@ -35,21 +35,20 @@ TARGETS_COMMON = $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
 	echo " ?* " | hfst-regexp2fst > .deps/any-symbol.hfst
 	hfst-concatenate -1 .deps/$(PREFIX1).autobil.upper -2 .deps/any-symbol.hfst -o .deps/$(PREFIX1).autobil.prefixes
 
-$(PREFIX1).automorf.bin: $(BASENAME).$(PREFIX1).LR.att.gz .deps/$(PREFIX1).autobil.prefixes .deps/.d
+$(PREFIX1).automorf.bin: $(AP_LIB1)/$(LANG1).automorf.att.gz .deps/$(PREFIX1).autobil.prefixes .deps/.d
 	$(ZCAT) $< | hfst-txt2fst > .deps/$(LANG1).automorf.hfst
 	hfst-compose-intersect -1 .deps/$(LANG1).automorf.hfst -2 .deps/$(PREFIX1).autobil.prefixes -o .deps/$(PREFIX1).automorf.trimmed
 	hfst-fst2txt -i .deps/$(PREFIX1).automorf.trimmed -o .deps/$(PREFIX1).automorf.trimmed.att
 	lt-comp lr .deps/$(PREFIX1).automorf.trimmed.att $@
 
-$(PREFIX1).autogen.hfst: $(BASENAME).$(PREFIX1).RL.att.gz
-	$(ZCAT) $< | hfst-txt2fst | hfst-fst2fst -O -o $@
+$(PREFIX1).autogen.hfst: $(AP_LIB2)/$(LANG2).autogen.hfst
+	cp $< $@
 
-$(PREFIX1).autogen.bin: $(BASENAME).$(PREFIX1).RL.att.gz .deps/.d
-	$(ZCAT) $< > .deps/$(PREFIX1).autogen.att
-	lt-comp lr .deps/$(PREFIX1).autogen.att $@
+$(PREFIX1).autogen.bin: $(AP_LIB2)/$(LANG2).autogen.bin
+	cp $< $@
 
 ###############################################################################
-## Kyrgyz transducer
+## Kyrgyz→Turkish monolingual transducers
 ###############################################################################
 
 .deps/$(PREFIX2).autobil.prefixes: $(PREFIX2).autobil.bin .deps/.d
@@ -59,19 +58,17 @@ $(PREFIX1).autogen.bin: $(BASENAME).$(PREFIX1).RL.att.gz .deps/.d
 	echo " ?* " | hfst-regexp2fst > .deps/any-symbol.hfst
 	hfst-concatenate -1 .deps/$(PREFIX2).autobil.upper -2 .deps/any-symbol.hfst -o .deps/$(PREFIX2).autobil.prefixes
 
-$(PREFIX2).automorf.bin: $(BASENAME).$(PREFIX2).LR.att.gz .deps/$(PREFIX2).autobil.prefixes .deps/.d
+$(PREFIX2).automorf.bin: $(AP_LIB2)/$(LANG2).automorf.att.gz .deps/$(PREFIX2).autobil.prefixes .deps/.d
 	$(ZCAT) $< | hfst-txt2fst > .deps/$(LANG2).automorf.hfst
 	hfst-compose-intersect -1 .deps/$(LANG2).automorf.hfst -2 .deps/$(PREFIX2).autobil.prefixes -o .deps/$(PREFIX2).automorf.trimmed
 	hfst-fst2txt -i .deps/$(PREFIX2).automorf.trimmed -o .deps/$(PREFIX2).automorf.trimmed.att
 	lt-comp lr .deps/$(PREFIX2).automorf.trimmed.att $@
 
-$(PREFIX2).autogen.hfst: $(BASENAME).$(PREFIX2).RL.att.gz
-	$(ZCAT) $< | hfst-txt2fst | hfst-fst2fst -O -o $@
+$(PREFIX2).autogen.hfst: $(AP_LIB1)/$(LANG1).autogen.hfst
+	cp $< $@
 
-$(PREFIX2).autogen.bin: $(BASENAME).$(PREFIX2).RL.att.gz .deps/.d
-	$(ZCAT) $< > .deps/$(PREFIX2).autogen.att
-	lt-comp lr .deps/$(PREFIX2).autogen.att $@
-
+$(PREFIX2).autogen.bin: $(AP_LIB1)/$(LANG1).autogen.bin
+	cp $< $@
 
 ###############################################################################
 ## Bilingual dictionaries
@@ -89,10 +86,10 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ## Disambiguation rules 
 ###############################################################################
 
-$(PREFIX1).rlx.bin: $(BASENAME).$(PREFIX1).rlx
+$(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx
 	cg-comp $< $@
 
-$(PREFIX2).rlx.bin: $(BASENAME).$(PREFIX2).rlx
+$(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
 	cg-comp $< $@
 
 
@@ -149,15 +146,9 @@ modes/$(PREFIX1).mode: modes.xml
 	cp *.mode modes/
 
 EXTRA_DIST=$(PREFIX1).prob $(PREFIX2).prob \
-           $(BASENAME).$(PREFIX1).rlx \
            $(BASENAME).$(PREFIX1).lrx \
-           $(BASENAME).$(PREFIX1).LR.att.gz \
-           $(BASENAME).$(PREFIX1).RL.att.gz \
-           $(BASENAME).$(PREFIX2).LR.att.gz \
-           $(BASENAME).$(PREFIX2).RL.att.gz \
            $(BASENAME).$(PREFIX1).dix \
            $(BASENAME).post-$(LANG1).dix \
-           $(BASENAME).$(PREFIX2).rlx \
            $(BASENAME).$(PREFIX2).lrx \
            $(BASENAME).post-$(LANG2).dix \
            $(BASENAME).$(PREFIX1).t1x \
@@ -178,15 +169,14 @@ noinst_DATA=modes/$(PREFIX1).mode
 
 
 install-data-local:
-	mv modes modes~
+	mv modes modes.bak
 	$(prefix)/bin/apertium-gen-modes modes.xml $(BASENAME)
 	rm -rf modes
-	mv modes~ modes
+	mv modes.bak modes
 	test -d $(DESTDIR)$(apertium_tur_kirmodesdir) || mkdir $(DESTDIR)$(apertium_tur_kirmodesdir)
-	$(INSTALL_DATA) $(PREFIX1).mode $(DESTDIR)$(apertium_tur_kirmodesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_tur_kirmodesdir)
-	rm $(PREFIX1).mode
-	rm $(PREFIX2).mode
+	modes=`xmllint --xpath '//mode[@install="yes"]/@name' modes.xml | sed 's/ *name="\([^"]*\)"/\1.mode /g'`; \
+		$(INSTALL_DATA) $$modes $(DESTDIR)$(apertium_modesdir); \
+		rm $$modes
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_tur_kirdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_tur_kirdir)
 	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_tur_kirdir)
