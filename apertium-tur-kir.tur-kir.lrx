@@ -508,4 +508,21 @@
   <rule><match lemma="bat" tags="v.*"><select lemma="чөк" tags="v.iv.*"/></match></rule>
   <rule><match lemma="sal" tags="v.*"><select lemma="сал" tags="v.tv.*"/></match></rule>
   <rule><match lemma="kap" tags="v.*"><select lemma="жулуп ал" tags="v.tv.*"/></match></rule>
+	<rule>
+		<match lemma="hayat" tags="n.*">
+			<select lemma="өмүр" tags="n.*"/>
+		</match>
+		<match lemma="dolu" tags="post" />
+	</rule>
+	<rule>
+		<match lemma="hayat" tags="n.*">
+			<select lemma="жашоо" tags="n.*"/>
+		</match>
+	</rule>
+	<rule>
+		<match lemma="kuş" tags="n.*">
+			<select lemma="чымчык" tags="n.*"/>
+		</match>
+	</rule>
+
 </rules>

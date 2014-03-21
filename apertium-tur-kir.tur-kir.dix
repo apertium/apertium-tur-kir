@@ -212,6 +212,7 @@
    <e c="  0"><p><l>yukarı<s n="post"/></l><r>өйдө<s n="post"/></r></p></e>
    <e c="  0"><p><l>ile<s n="post"/></l><r>менен<s n="post"/></r></p></e>
    <e c="  0"><p><l>ait<s n="post"/></l><r>караштуу<s n="post"/></r></p></e>
+	<e c="  0"><p><l>dolu<s n="post"/></l><r>бою<s n="post"/></r></p></e>
    <e c="  0"><p><l>orta<s n="n"/></l><r>орто<s n="n"/></r></p></e>
    <e c="  0"><p><l>üst<s n="n"/></l><r>үст<s n="n"/></r></p></e>
 
@@ -1549,6 +1550,7 @@
 	<e c="  0"><p><l>havuç<s n="n"/></l><r>сабиз<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>hayalet<s n="n"/></l><r>кыял<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>hayat<s n="n"/></l><r>жашоо<s n="n"/></r></p></e> 
+	<e c="  0"><p><l>hayat<s n="n"/></l><r>өмүр<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>haydut<s n="n"/></l><r>каракчы<s n="n"/></r></p></e> 
 	<e c="  0"><p><l>hayran<s n="n"/></l><r>таң<s n="n"/></r></p></e> 
 	<!-- from apertium-tr-az hend -->
@@ -1920,6 +1922,7 @@
 	<e c="  0"><p><l>kuyruk<s n="n"/></l><r>куйрук<s n="n"/></r></p></e>
 	<e slr="1"><p><l>kuyruk<s n="n"/></l><r>кезек<s n="n"/></r></p></e>
 	<e c="  0"><p><l>kuş<s n="n"/></l><r>куш<s n="n"/></r></p></e>
+	<e c="  0"><p><l>kuş<s n="n"/></l><r>чымчык<s n="n"/></r></p></e>
 	<e c="  0"><p><l>kömür<s n="n"/></l><r>көмүр<s n="n"/></r></p></e>
 	<e c="  0"><p><l>köprü<s n="n"/></l><r>көпүрө<s n="n"/></r></p></e>
 	<e c="  0"><p><l>köpük<s n="n"/></l><r>көбүк<s n="n"/></r></p></e>
@@ -2246,6 +2249,7 @@
 	<e slr="1"><p><l>oydaş<s n="n"/></l><r>санаалаш<s n="n"/></r></p></e>
 	<e c="  0"><p><l>oğlan<s n="n"/></l><r>улан<s n="n"/></r></p></e>
 	<e c="  0"><p><l>oğul<s n="n"/></l><r>уул<s n="n"/></r></p></e>
+	<e c="  0"><p><l>oğretmen<s n="n"/></l><r>мугалим<s n="n"/></r></p></e>
 	<e c="  0"><p><l>paganizm<s n="n"/></l><r>паганизм<s n="n"/></r></p></e>
 	<e c="  0"><p><l>paket<s n="n"/></l><r>пакет<s n="n"/></r></p></e>
 	<e c="  0"><p><l>pakt<s n="n"/></l><r>пакт<s n="n"/></r></p></e>
@@ -2708,6 +2712,7 @@
 	<e c="  0"><p><l>voltamper<s n="n"/></l><r>вольтампер<s n="n"/></r></p></e>
 	<e c="  0"><p><l>voltmetre<s n="n"/></l><r>вольтметр<s n="n"/></r></p></e>
 	<e c="  0"><p><l>voyvoda<s n="n"/></l><r>воевода<s n="n"/></r></p></e>
+	<e c="  0"><p><l>vücud<s n="n"/></l><r>дене<s n="n"/></r></p></e>
 	<e c="  0"><p><l>yamak<s n="n"/></l><r>жамак<s n="n"/></r></p></e>
 	<e c="  0"><p><l>yaradılış<s n="n"/></l><r>жаратылыш<s n="n"/></r></p></e>
 	<e c="  0"><p><l>yarak<s n="n"/></l><r>жарак<s n="n"/></r></p></e>
