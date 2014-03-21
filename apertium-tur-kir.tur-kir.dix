@@ -4884,12 +4884,14 @@
 	<e><p><l>Anna<s n="np"/><s n="ant"/><s n="f"/></l><r>Анна<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Anja<s n="np"/><s n="ant"/><s n="f"/></l><r>Аня<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 	<e><p><l>Sandra<s n="np"/><s n="ant"/><s n="f"/></l><r>Сандра<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+	<e><p><l>Mori<s n="np"/><s n="ant"/><s n="m"/></l><r>Мори<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
 	<e><p><l>Radovanoviç<s n="np"/><s n="cog"/></l><r>Радованович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 	<e><p><l>Stankoviç<s n="np"/><s n="cog"/></l><r>Станкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 	<e><p><l>Ruziç<s n="np"/><s n="cog"/></l><r>Рузич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 	<e><p><l>Tadiç<s n="np"/><s n="cog"/></l><r>Тадич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 	<e><p><l>Krneta<s n="np"/><s n="cog"/></l><r>Крнета<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+	<e><p><l>Schwartz<s n="np"/><s n="cog"/><s n="mf"/></l><r>Шварц<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 	<e><p><l>Super<s n="np"/></l><r>Супер<s n="np"/><s n="al"/></r></p></e>
 	<e><p><l>Super<b/>Galeb<s n="np"/></l><r>Супер<b/>Галеб<s n="np"/><s n="al"/></r></p></e>
 	<e><p><l>Galeb<s n="np"/></l><r>Галеб<s n="np"/><s n="al"/></r></p></e>
