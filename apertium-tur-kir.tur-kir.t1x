@@ -3,7 +3,16 @@
 <transfer>
   <section-def-cats>
     
-    <def-cat n="nom">
+    <def-cat n="bir">
+      <cat-item lemma="bir" tags="det.*"/>
+      <cat-item lemma="bir" tags="num.*"/>
+    </def-cat>
+
+    <def-cat n="nom-attr">
+      <cat-item tags="n.attr"/>
+    </def-cat>
+
+     <def-cat n="nom">
       <cat-item tags="n"/>
       <cat-item tags="n.*"/>
     </def-cat>
@@ -11,6 +20,10 @@
   </section-def-cats>
   
   <section-def-attrs>
+    <def-attr n="attr-gen">
+      <attr-item tags="attr"/>
+      <attr-item tags="gen"/>
+    </def-attr>
     
     <def-attr n="case">
       <attr-item tags="nom"/>
@@ -78,6 +91,56 @@
         </choose>
       </action>
     </rule>
-    
+
+    <rule comment=""> 
+      <pattern>
+        <pattern-item n="bir"/>
+        <pattern-item n="nom-attr"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <let><clip pos="2" side="tl" part="attr-gen"/><lit-tag v="gen"/></let> 
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="tl" part="case"/><lit-tag v="ins"/></equal></test>
+            <let><clip pos="1" side="tl" part="case"/><lit-tag v="nom"/></let> 
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+              <b pos="2"/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <lit v="менен"/> 
+                <lit-tag v="post"/>
+              </lu>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+              <b pos="2"/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+     
   </section-rules>
 </transfer>
