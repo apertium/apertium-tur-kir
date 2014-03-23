@@ -52,7 +52,7 @@
         <file name="apertium-tur-kir.tur-kir.t2x"/>
         <file name="tur-kir.t2x.bin"/>
       </program>
-      <program name="lt-proc -d">
+      <program name="hfst-proc -d">
         <file name="tur-kir.autogen.hfst"/>
       </program>
       <program name="lt-proc -p">
