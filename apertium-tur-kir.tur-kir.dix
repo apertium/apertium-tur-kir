@@ -1303,6 +1303,7 @@
 	<e c="  0"><p><l>garanti<s n="n"/></l><r>гарантия<s n="n"/></r></p></e>
 	<e c="  0"><p><l>garip<s n="n"/></l><r>карып<s n="n"/></r></p></e>
 	<e slr="1"><p><l>garip<s n="n"/></l><r>мусапыр<s n="n"/></r></p></e>
+	<e c="  0"><p><l>gariplik<s n="n"/></l><r>кызык<s n="n"/></r></p></e>
 	<e c="  0"><p><l>garnitür<s n="n"/></l><r>гарнитур<s n="n"/></r></p></e>
 	<e c="  0"><p><l>garnizon<s n="n"/></l><r>гарнизон<s n="n"/></r></p></e>
 	<e c="  0"><p><l>gastrit<s n="n"/></l><r>гастрит<s n="n"/></r></p></e>
@@ -6757,6 +6758,7 @@
     <e slr="1"><p><l>koş<s n="v"/><s n="iv"/></l><r>жүгүр<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>hisset<s n="v"/><s n="tv"/></l><r>сез<s n="v"/><s n="iv"/></r></p></e>
     <e slr="1"><p><l>hisset<s n="v"/><s n="tv"/></l><r>туй<s n="v"/><s n="iv"/></r></p></e>
+    <e slr="2"><p><l>hisset<s n="v"/><s n="tv"/></l><r>байка<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>kovuştur<s n="v"/><s n="tv"/></l><r>кубала<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>barın<s n="v"/><s n="iv"/></l><r>баш<b/>калкала<s n="v"/><s n="iv"/></r></p></e>
     <e slr="1"><p><l>barın<s n="v"/><s n="iv"/></l><r>жашын<s n="v"/><s n="iv"/></r></p></e>
