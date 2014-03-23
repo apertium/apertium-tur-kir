@@ -493,7 +493,13 @@
   <rule><match lemma="tak" tags="v.*"><select lemma="тирке" tags="v.tv.*"/></match></rule>
   <rule><match lemma="dire" tags="v.*"><select lemma="тире" tags="v.tv.*"/></match></rule>
   <rule><match lemma="koş" tags="v.*"><select lemma="чурка" tags="v.iv.*"/></match></rule>
-  <rule><match lemma="hisset" tags="v.*"><select lemma="сез" tags="v.iv.*"/></match></rule>
+  <rule><match lemma="hisset" tags="v.tv.*"><select lemma="сез" tags="v.tv.*"/></match></rule>
+	<rule>
+		<match lemma="gariplik" tags="n.*"/>
+		<match lemma="hisset" tags="v.tv.*">
+			<select lemma="байка" tags="v.tv.*"/>
+		</match>
+	</rule>
   <rule><match lemma="barın" tags="v.*"><select lemma="баш калкала" tags="v.iv.*"/></match></rule>
   <rule><match lemma="kır" tags="v.*"><select lemma="сындыр" tags="v.tv.*"/></match></rule>
   <rule><match lemma="sar" tags="v.*"><select lemma="оро" tags="v.tv.*"/></match></rule>
