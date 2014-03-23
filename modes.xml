@@ -23,8 +23,8 @@
         <file name="apertium-tur-kir.tur-kir.t2x"/>
         <file name="tur-kir.t2x.bin"/>
       </program>
-      <program name="lt-proc $1">
-        <file name="tur-kir.autogen.bin"/>
+      <program name="hfst-proc $1">
+        <file name="tur-kir.autogen.hfst"/>
       </program>
       <program name="lt-proc -p">
         <file name="tur-kir.autopgen.bin"/>
@@ -53,7 +53,7 @@
         <file name="tur-kir.t2x.bin"/>
       </program>
       <program name="lt-proc -d">
-        <file name="tur-kir.autogen.bin"/>
+        <file name="tur-kir.autogen.hfst"/>
       </program>
       <program name="lt-proc -p">
         <file name="tur-kir.autopgen.bin"/>
@@ -201,7 +201,7 @@
         <file name="apertium-tur-kir.kir-tur.t2x"/>
         <file name="kir-tur.t2x.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="hfst-proc $1">
         <file name="kir-tur.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
