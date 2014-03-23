@@ -16,8 +16,6 @@
      <sdef n="cnjcoo"    c="Coordinating conjunction"/>
      <sdef n="cnjsub"    c="Subordinating conjunction"/>
      <sdef n="cnjadv"    c="Adverbial conjunction"/>
-     <sdef n="q"         c="Question particle"/>
-     <sdef n="exi"       c="Existential"/>
      <sdef n="ref"       c="Reflexive"/>
      <sdef n="ant"       c="Anthroponym"/>
      <sdef n="cog"       c="Cognomen"/>
@@ -52,7 +50,6 @@
      <sdef n="f"         c="Feminine"/>
      <sdef n="mf"        c="Masculine / feminine"/>
 
-     <sdef n="ki"        c="-kI"/>
      <sdef n="locattr"      c="Relative locative"/>
 
      <sdef n="sg"        c="Singular"/>
@@ -60,6 +57,8 @@
      <sdef n="ND"        c="Number to be determined"/>
 
      <sdef n="sent"      c="Sentence marker"/>
+     <sdef n="lquot"     c=""/>
+     <sdef n="rquot"     c=""/>
      <sdef n="cm"        c="Comma"/>
      <sdef n="lpar"      c="Left parenthesis"/>
      <sdef n="rpar"      c="Right parenthesis"/>
@@ -7423,16 +7422,23 @@
       
       <!-- SECTION: Punctuation -->
 
-        <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
-        <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
-        <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
-        <e><p><l>[<s n="lpar"/></l><r>[<s n="lpar"/></r></p></e>
-        <e><p><l>]<s n="rpar"/></l><r>]<s n="rpar"/></r></p></e>
 
-        <e><re>[.\?;:!"]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-        <e><p>    <l>-<s n="guio"/></l>    <r>-<s n="guio"/></r>  </p>    </e>
-        <e><p><l>'<s n="apos"/></l><r>'<s n="apos"/></r></p></e>
-        <e><re>%?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+<e>       <p><l>,<s n="cm"/></l>                            <r>,<s n="cm"/></r></p></e>
+<e>       <p><l>(<s n="lpar"/></l>                          <r>(<s n="lpar"/></r></p></e>
+<e>       <p><l>)<s n="rpar"/></l>                          <r>)<s n="rpar"/></r></p></e>
+<e>       <p><l>[<s n="lpar"/></l>                          <r>[<s n="lpar"/></r></p></e>
+<e>       <p><l>]<s n="rpar"/></l>                          <r>]<s n="rpar"/></r></p></e>
+<e>       <p><l>«<s n="lquot"/></l>                         <r>«<s n="lquot"/></r></p></e>
+<e>       <p><l>»<s n="rquot"/></l>                         <r>»<s n="rquot"/></r></p></e>
+<e>       <p><l>“<s n="lquot"/></l>                         <r>“<s n="lquot"/></r></p></e>
+<e>       <p><l>”<s n="rquot"/></l>                         <r>”<s n="rquot"/></r></p></e>
+<e>       <p><l>-<s n="guio"/></l>                          <r>-<s n="guio"/></r></p></e>
+<e>       <p><l>—<s n="guio"/></l>                          <r>—<s n="guio"/></r></p></e>
+<e>       <p><l>'<s n="apos"/></l>                          <r>'<s n="apos"/></r></p></e>
+<e>       <re>[.\?;:!"]+</re><p><l><s n="sent"/></l>        <r><s n="sent"/></r></p></e>
+<e>       <re>[№%]?[0-9]+([.,][0-9]+)*[.,]*</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e> 
+
+
 
    </section>
 </dictionary>
