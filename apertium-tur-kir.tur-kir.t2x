@@ -109,7 +109,7 @@
 	    <test>
 	      <in caseless="yes">
 		<clip pos="3" side="tl" part="lem"/>
-		<list n="tatar-clitics"/>
+		<list n="kyrgyz-clitics"/>
 	      </in>
 	    </test>
 	    <out>
@@ -166,7 +166,7 @@
     </rule>
 
     <rule comment="REGLA:3;
-      makes stuff contained in list=tatar-clitics to clitics">
+      makes stuff contained in list=kyrgyz-clitics to clitics">
       <pattern>
 	<pattern-item n="main-reading"/>
 	<pattern-item n="sub-reading2"/>
@@ -177,7 +177,7 @@
 	    <test>
 	        <in caseless="yes">
 	     	  <clip pos="2" side="tl" part="lem"/>
-		  <list n="tatar-clitics"/>
+		  <list n="kyrgyz-clitics"/>
 	        </in>
 	    </test>
 	    <out>
