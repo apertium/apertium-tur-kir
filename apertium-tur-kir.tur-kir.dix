@@ -2440,6 +2440,7 @@
 	<e c="  0"><p><l>rulet<s n="n"/></l><r>рулет<s n="n"/></r></p></e>
 	<e c="  0"><p><l>röportaj<s n="n"/></l><r>маек<s n="n"/></r></p></e>
 	<e slr="1"><p><l>röportaj<s n="n"/></l><r>репортаж<s n="n"/></r></p></e>
+	<e slr="2"><p><l>röportaj<s n="n"/></l><r>маек<b />алуу<s n="n"/></r></p></e>
 	<e c="  0"><p><l>rövanş<s n="n"/></l><r>реванш<s n="n"/></r></p></e>
 	<e c="  0"><p><l>rızk<s n="n"/></l><r>ырыскы<s n="n"/></r></p></e>
 	<e c="  0"><p><l>saat<s n="n"/></l><r>саат<s n="n"/></r></p></e>
@@ -2484,6 +2485,8 @@
 	<e c="  0"><p><l>serenat<s n="n"/></l><r>серенада<s n="n"/></r></p></e>
 	<e c="  0"><p><l>servis<s n="n"/></l><r>сервис<s n="n"/></r></p></e>
 	<e c="  0"><p><l>sevap<s n="n"/></l><r>сооп<s n="n"/></r></p></e>
+	<e c="  0"><p><l>sevgi<s n="n"/></l><r>сүйүү<s n="n"/></r></p></e>
+	<e slr="1"><p><l>sevgi<s n="n"/></l><r>махабат<s n="n"/></r></p></e>
 	<e c="  0"><p><l>seyahat<s n="n"/></l><r>саякат<s n="n"/></r></p></e>
 	<e c="  0"><p><l>seyahatname<s n="n"/></l><r>саякатнаама<s n="n"/></r></p></e>
 	<e c="  0"><p><l>sezon<s n="n"/></l><r>сезон<s n="n"/></r></p></e>
@@ -2935,6 +2938,7 @@
 	
 	<e c="  0"><p><l>kız<s n="n"/></l><r>кыз<s n="n"/></r></p></e>
         <e c="  0"><p><l>dünya<s n="n"/></l><r>дүйнө<s n="n"/></r></p></e>
+	<e c="  0"><p><l>dünyanın<b />dört<b />bir<b />yanı<s n="n"/></l><r>дүйнөнүн<b />төрт<b />бурчу<s n="n"/></r></p></e>
         <e c="  0"><p><l>elma<s n="n"/></l><r>алма<s n="n"/></r></p></e>
         <e c="  0"><p><l>kitap<s n="n"/></l><r>китеп<s n="n"/></r></p></e>
         <e c="  0"><p><l>internet<s n="n"/></l><r>интернет<s n="n"/></r></p></e>
@@ -4924,6 +4928,7 @@
 	<e><p><l>Super<b/>G4<s n="np"/></l><r>Супер<b/>Г4<s n="np"/><s n="al"/></r></p></e>
 	<e><p><l>G4<s n="np"/></l><r>Г4<s n="np"/><s n="al"/></r></p></e>
 	<e><p><l>Sırp<b/>Ordusu<s n="np"/><s n="org"/></l><r>Серб<b/>Аскери<s n="np"/><s n="org"/></r></p></e>
+	<e><p><l>ABC<s n="np"/><s n="org"/></l><r>ABC<s n="np"/><s n="org"/></r></p></e>
 	<e><p><l>Gazela<s n="np"/></l><r>Газел<s n="np"/><s n="al"/></r></p></e>
 	
         <e><p><l>Adlesiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Адлесич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
@@ -6507,6 +6512,7 @@
     <!--<e><p><l>tüy<s n="v"/><s n="TD"/></l><r>yayın<s n="v"/><s n="TD"/></r></p></e>-->
     <e c="  0"><p><l>uğurla<s n="v"/><s n="tv"/></l><r>узат<s n="v"/><s n="tv"/></r></p></e>
     <!--<e><p><l>um<s n="v"/><s n="tv"/></l><r>um<s n="v"/><s n="TD"/></r></p></e>-->
+    <e c="  0"><p><l>üne<b />kavuş<s n="v"/><s n="iv"/></l><r>атактуу<b />бол<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>ürk<s n="v"/><s n="iv"/></l><r>үрк<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>ver<s n="v"/><s n="tv"/></l><r>бер<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>yağ<s n="v"/><s n="iv"/></l><r>жаа<s n="v"/><s n="iv"/></r></p></e>
