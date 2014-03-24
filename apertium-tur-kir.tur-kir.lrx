@@ -592,5 +592,10 @@
 		</match>
 		<match lemma="gel" tags="v.iv.*"/>
 	</rule>
+	<rule>
+		<match lemma="renk" tags="n.*">
+			<select lemma="өң" tags="n.*"/>
+		</match>
+	</rule>
 
 </rules>

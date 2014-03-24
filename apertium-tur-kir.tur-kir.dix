@@ -2408,8 +2408,9 @@
 	<e c="  0"><p><l>reklam<s n="n"/></l><r>реклама<s n="n"/></r></p></e>
 	<e slr="1"><p><l>reklam<s n="n"/></l><r>жарнама<s n="n"/></r></p></e>
 	<e c="  0"><p><l>rektör<s n="n"/></l><r>ректор<s n="n"/></r></p></e>
-	<e c="  0"><p><l>renk<s n="n"/></l><r>ирең<s n="n"/></r></p></e>
+	<e c="  0"><p><l>renk<s n="n"/></l><r>өң<s n="n"/></r></p></e>
 	<e slr="1"><p><l>renk<s n="n"/></l><r>ыраң<s n="n"/></r></p></e>
+	<e slr="2"><p><l>renk<s n="n"/></l><r>ирең<s n="n"/></r></p></e>
 	<e c="  0"><p><l>repertuar<s n="n"/></l><r>репертуар<s n="n"/></r></p></e>
 	<e c="  0"><p><l>reprodüksiyon<s n="n"/></l><r>репродукция<s n="n"/></r></p></e>
 	<e c="  0"><p><l>restoran<s n="n"/></l><r>ресторан<s n="n"/></r></p></e>
@@ -6396,6 +6397,7 @@
     <e c="  0"><p><l>damla<s n="v"/><s n="iv"/></l><r>там<s n="v"/><s n="iv"/></r></p></e>
     <!--<e><p><l>değin<s n="v"/><s n="tv"/></l><r> <b/>et<s n="v"/><s n="TD"/></r></p></e> -->
     <e c="  0"><p><l>del<s n="v"/><s n="tv"/></l><r>теш<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>değer<b />ver<s n="v"/><s n="tv"/></l><r>баала<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>derle<s n="v"/><s n="tv"/></l><r>топто<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>devir<s n="v"/><s n="tv"/></l><r>айлан<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
     <e c="  0"><p><l>dik<s n="v"/><s n="tv"/></l><r>тик<s n="v"/><s n="tv"/></r></p></e>
