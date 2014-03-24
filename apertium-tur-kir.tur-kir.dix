@@ -335,8 +335,9 @@
 	<e c="  0"><p><l>okul<s n="n"/></l><r>мектеп<s n="n"/></r></p></e>
         <e c="  0"><p><l>ahval<s n="n"/></l><r>акыбал<s n="n"/></r></p></e>
         <e slr="1"><p><l>ahval<s n="n"/></l><r>абал<s n="n"/></r></p></e>
-        <e c="  0"><p><l>ağaç<s n="n"/></l><r>жыгач<s n="n"/></r></p></e>
-        <e slr="1"><p><l>ağaç<s n="n"/></l><r>дарак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>ağaç<s n="n"/></l><r>жыгач<s n="n"/></r></p></e>
+	<e slr="1"><p><l>ağaç<s n="n"/></l><r>дарак<s n="n"/></r></p></e>
+	<e slr="2"><p><l>ağaç<s n="n"/></l><r>бак<s n="n"/></r></p></e>
 	<e c="  0"><p><l>orman<s n="n"/></l><r>токой<s n="n"/></r></p></e>
 	<e c="  0"><p><l>çiçek<s n="n"/></l><r>гүл<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ahir<s n="n"/></l><r>акыркы<s n="n"/></r></p></e>
@@ -405,7 +406,6 @@
 	<e c="  0"><p><l>af<s n="n"/></l><r>кечирим<s n="n"/></r></p></e>
 	<e c="  0"><p><l>afiş<s n="n"/></l><r>афиша<s n="n"/></r></p></e>
 	<e c="  0"><p><l>afyon<s n="n"/></l><r>апийим<s n="n"/></r></p></e>
-	<e c="  0"><p><l>ağaç<s n="n"/></l><r>бак<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ağ<s n="n"/></l><r>тор<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ağıt<s n="n"/></l><r>аза<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ağız<s n="n"/></l><r>ооз<s n="n"/></r></p></e>
@@ -5983,6 +5983,7 @@
       <e c="  0"><p><l>gerek<s n="adj"/></l><r>керек<s n="adj"/></r></p></e>	 
       <e slr="1"><p><l>gerek<s n="adj"/></l><r>зарыл<s n="adj"/></r></p></e>
       <e c="  0"><p><l>tekerlekli<s n="adj"/></l><r>дөңгөлөгү<b/>бар<s n="adj"/></r></p></e>	 
+      <e c="  0"><p><l>ağaçlıklı<s n="adj"/></l><r>дарагы<b/>бар<s n="adj"/></r></p></e>	 
         <!-- SECTION: Adverbs -->
 
         <e c="  0"><p><l>şu<b/>anda<s n="adv"/></l><r>азыр<s n="adv"/></r></p></e>
