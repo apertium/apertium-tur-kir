@@ -581,5 +581,16 @@
 			<select lemma="машине" tags="n.*"/>
 		</match>
 	</rule>
+	<rule>
+		<match lemma="röportaj" tags="n.*">
+			<select lemma="маек" tags="n.*"/>
+		</match>
+	</rule>
+	<rule>
+		<match lemma="röportaj" tags="n.*">
+			<select lemma="маек алуу" tags="n.*"/>
+		</match>
+		<match lemma="gel" tags="v.iv.*"/>
+	</rule>
 
 </rules>
