@@ -250,6 +250,7 @@
 	<e c="  0"><p><l>birisi<s n="prn"/></l><r>бир<s n="prn"/><s n="coll"/></r></p></e>
 	<e slr="1"><p><l>birisi<s n="prn"/><s n="ind"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
         <e c="  0"><p><l>kimse<s n="prn"/><s n="ind"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
+	<e c="  0"><p><l>başka<s n="prn"/><s n="ind"/></l><r>башка<s n="prn"/><s n="ind"/></r></p></e>
 
 	<!-- SECTION: Determiners -->
 	<e c="  0"><p><l>bu<s n="det"/><s n="dem"/></l><r>бул<s n="det"/><s n="dem"/></r></p></e>
@@ -266,7 +267,7 @@
         <e c="  0"><p><l>diğer<s n="det"/><s n="ind"/></l><r>башка<s n="det"/><s n="ind"/></r></p></e>
         <e slr="1"><p><l>diğer<s n="det"/><s n="ind"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
         <e c="  0"><p><l>birçok<s n="det"/><s n="qnt"/></l><r>бир<b/>далай<s n="det"/><s n="qnt"/></r></p></e>
-        <e c="  0"><p><l>bütün<s n="det"/><s n="ind"/></l><r>бүт<b/>баары<s n="det"/><s n="qnt"/></r></p></e>
+        <e c="  0"><p><l>bütün<s n="det"/><s n="qnt"/></l><r>бүт<b/>баары<s n="det"/><s n="qnt"/></r></p></e>
         <e slr="1"><p><l>bütün<s n="det"/><s n="ind"/></l><r>толук<s n="det"/><s n="ind"/></r></p></e>
         <e c="  0"><p><l>birkaç<s n="det"/><s n="qnt"/></l><r>бир<b/>канча<s n="det"/><s n="qnt"/></r></p></e>
         <e c="  0"><p><l>bir<b/>miktar<s n="det"/><s n="qnt"/></l><r>биртке<s n="det"/><s n="qnt"/></r></p></e>
@@ -415,6 +416,7 @@
 	<e c="  0"><p><l>ajans<s n="n"/></l><r>агенттик<s n="n"/></r></p></e>
 	<e c="  0"><p><l>akıbet<s n="n"/></l><r>акыбет<s n="n"/></r></p></e>
 	<e c="  0"><p><l>akıl<s n="n"/></l><r>акыл<s n="n"/></r></p></e>
+	<e slr="1"><p><l>akıl<s n="n"/></l><r>эс<s n="n"/></r></p></e>
 	<e c="  0"><p><l>akım<s n="n"/></l><r>агым<s n="n"/></r></p></e>
 	<e c="  0"><p><l>akın<s n="n"/></l><r>акын<s n="n"/></r></p></e>
 	<e c="  0"><p><l>akraba<s n="n"/></l><r>тууган<s n="n"/></r></p></e>
@@ -2338,6 +2340,7 @@
 	<e c="  0"><p><l>politeist<s n="n"/></l><r>политеист<s n="n"/></r></p></e>
 	<e c="  0"><p><l>politeizm<s n="n"/></l><r>политеизм<s n="n"/></r></p></e>
 	<e c="  0"><p><l>polka<s n="n"/></l><r>полька<s n="n"/></r></p></e>
+	<e c="  0"><p><l>popo<s n="n"/></l><r>көт<s n="n"/></r></p></e>
 	<e c="  0"><p><l>portre<s n="n"/></l><r>портрет<s n="n"/></r></p></e>
 	<e c="  0"><p><l>potansiyel<s n="n"/></l><r>потенциал<s n="n"/></r></p></e>
 	<e c="  0"><p><l>poz<s n="n"/></l><r>поза<s n="n"/></r></p></e>
@@ -3115,7 +3118,7 @@
     <e c="  0"><p><l>demeç<s n="n"/></l><r>билдирүү<s n="n"/></r></p></e>
     <e slr="1"><p><l>demeç<s n="n"/></l><r>маалымдоо<s n="n"/></r></p></e>
     <e c="  0"><p><l>zirve<s n="n"/></l><r>чоку<s n="n"/></r></p></e>
-    <e c="  0"><p><l>kendi<s n="n"/></l><r>өзү<s n="n"/></r></p></e>
+    <!-- e c="  0"><p><l>kendi<s n="n"/></l><r>өзү<s n="n"/></r></p></e -->
     <e c="  0"><p><l>girişim<s n="n"/></l><r>ишкерлик<s n="n"/></r></p></e>
     <e slr="1"><p><l>girişim<s n="n"/></l><r>ишке<b/>киришүү<s n="n"/></r></p></e>
     <e c="  0"><p><l>tur<s n="n"/></l><r>тур<s n="n"/></r></p></e>
@@ -3336,8 +3339,8 @@
     <e c="  0"><p><l>mülteci<s n="n"/></l><r>качкын<s n="n"/></r></p></e>
     <e slr="1"><p><l>mülteci<s n="n"/></l><r>эмигрант<s n="n"/></r></p></e>
     <e c="  0"><p><l>yaka<s n="n"/></l><r>жака<s n="n"/></r></p></e>	
-    <e c="  0"><p><l>sandalye<s n="n"/></l><r>орун<s n="n"/></r></p></e>
-    <e slr="1"><p><l>sandalye<s n="n"/></l><r>отургуч<s n="n"/></r></p></e>
+    <e c="  0"><p><l>sandalye<s n="n"/></l><r>отургуч<s n="n"/></r></p></e>
+    <e slr="1"><p><l>sandalye<s n="n"/></l><r>орун<s n="n"/></r></p></e>
     <e c="  0"><p><l>ortak<s n="n"/></l><r>партнер<s n="n"/></r></p></e>
     <e slr="1"><p><l>ortak<s n="n"/></l><r>орток<s n="n"/></r></p></e>
     <e c="  0"><p><l>etki<s n="n"/></l><r>таасир<s n="n"/></r></p></e>
@@ -4720,6 +4723,8 @@
       <e c="  0"><p><l>banknot<s n="n"/></l><r>банкнот<s n="n"/></r></p></e>
       <e c="  0"><p><l>argüman<s n="n"/></l><r>аргумент<s n="n"/></r></p></e>
       <e c="  0"><p><l>büyüklük<s n="n"/></l><r>чоңдук<s n="n"/></r></p></e>
+      <e c="  0"><p><l>bakıcı<s n="n"/></l><r>медайым<s n="n"/></r></p></e>
+      <e c="  0"><p><l>hastabakıcı<s n="n"/></l><r>медайым<s n="n"/></r></p></e>
 
 
 
@@ -5953,6 +5958,7 @@
       <e c="  0"><p><l>ala<s n="adj"/></l><r>ала<s n="adj"/></r></p></e>
       <e c="  0"><p><l>gerek<s n="adj"/></l><r>керек<s n="adj"/></r></p></e>	 
       <e slr="1"><p><l>gerek<s n="adj"/></l><r>зарыл<s n="adj"/></r></p></e>
+      <e c="  0"><p><l>tekerlekli<s n="adj"/></l><r>дөңгөлөгү<b/>бар<s n="adj"/></r></p></e>	 
         <!-- SECTION: Adverbs -->
 
         <e c="  0"><p><l>şu<b/>anda<s n="adv"/></l><r>азыр<s n="adv"/></r></p></e>
@@ -6335,6 +6341,8 @@
     <e c="  0"><p><l>ayıpla<s n="v"/><s n="tv"/></l><r>айыпта<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>az<s n="v"/><s n="iv"/></l><r>оз<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>başla<s n="v"/><s n="tv"/></l><r>башта<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>bağla<s n="v"/><s n="tv"/></l><r>байла<s n="v"/><s n="tv"/></r></p></e>
+    <e slr="1"><p><l>bağla<s n="v"/><s n="tv"/></l><r>отур<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
     <!-- <e c="  0"><p><l>benimse<s n="v"/><s n="tv"/></l><r>mənimsə<s n="v"/><s n="TD"/></r></p></e> -->
     <e c="  0"><p><l>benze<s n="v"/><s n="tv"/></l><r>окшо<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>bez<s n="v"/><s n="iv"/></l><r>без<s n="v"/><s n="iv"/></r></p></e>
@@ -6435,6 +6443,7 @@
     <e c="  0"><p><l>patla<s n="v"/><s n="iv"/></l><r>жар<s n="v"/><s n="tv"/><s n="pass"/></r></p></e>
     <e c="  0"><p><l>piş<s n="v"/><s n="iv"/></l><r>быш<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>pohpohla<s n="v"/><s n="tv"/></l><r>кошомат<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>pudrala<s n="v"/><s n="tv"/></l><r>айна<b/>сеп<s n="v"/><s n="tv"/></r></p></e>
     <!-- <e><p><l>rahatla<s n="v"/><s n="iv"/></l><r> <s n="v"/><s n="TD"/></r></p></e>-->
     <e c="  0"><p><l>saç<s n="v"/><s n="tv"/></l><r>чач<s n="v"/><s n="tv"/></r></p></e>
     <!-- <e><p><l>sağ<s n="v"/></l><r>sağ<s n="v"/><s n="TD"/></r></p></e>-->
