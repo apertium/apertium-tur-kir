@@ -10,6 +10,7 @@
 
     <def-cat n="n">
       <cat-item tags="n.*"/>
+      <cat-item tags="np.*"/>
     </def-cat>
 
     <def-cat n="n-nom">
