@@ -66,7 +66,7 @@
   </section-def-vars>
 
   <section-def-lists>
-    <def-list n="tatar-clitics">
+    <def-list n="kyrgyz-clitics">
       <list-item v="чы"/>
       <list-item v="сана"/>
       <list-item v="мы"/>
