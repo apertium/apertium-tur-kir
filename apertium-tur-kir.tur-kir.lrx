@@ -552,6 +552,34 @@
 			<select lemma="отур" tags="v.iv.caus.*"/>
 		</match>
 	</rule>
-
+	<rule>
+		<match lemma="akıl" tags="n.*">
+			<select lemma="акыл" tags="n.*"/>
+		</match>
+	</rule>
+	<rule>
+		<match lemma="akıl" tags="n.*">
+			<select lemma="эс" tags="n.*"/>
+		</match>
+		<match lemma="kal" tags="v.*"/>
+	</rule>
+	<rule>
+		<match lemma="yap" tags="v.tv*">
+			<select lemma="кыл" tags="v.tv*"/>
+		</match>
+	</rule>
+	<rule>
+		<match lemma="jimnastik" tags="n.*">
+			<select lemma="көнүгүү" tags="n.*" />
+		</match>
+		<match lemma="yap" tags="v.*">
+			<select lemma="жаса" tags="v.*" />
+		</match>
+	</rule>
+	<rule>
+		<match lemma="araba" tags="n.*">
+			<select lemma="машине" tags="n.*"/>
+		</match>
+	</rule>
 
 </rules>
