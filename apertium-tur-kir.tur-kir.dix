@@ -226,7 +226,7 @@
 	<e c="  0"><p><l>onlar<s n="prn"/><s n="pers"/></l><r>алар<s n="prn"/><s n="pers"/></r></p></e>
 
 	<e c="  0"><p><l>bu<s n="prn"/><s n="dem"/></l><r>бул<s n="prn"/><s n="dem"/></r></p></e>
-	<e c="  0"><p><l>kendi<s n="prn"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
+	<e c="  0"><p><l>kendi<s n="prn"/><s n="ref"/></l><r>өз<s n="prn"/><s n="ref"/></r></p></e>
 
         <e c="  0"><p><l>birbir<s n="n"/></l><r>бири-бир<s n="n"/></r></p></e> 
         <e c="  0"><p><l>şu<s n="prn"/><s n="dem"/></l><r>ушул<s n="prn"/><s n="dem"/></r></p></e>
@@ -262,6 +262,7 @@
         <e c="  0"><p><l>tek<s n="det"/></l><r>жалгыз<s n="adj"/><s n="pst"/></r></p></e> 
 
 <!-- TODO: Check -->
+	<e c="  0"><p><l>kendi<s n="det"/><s n="ref"/></l><r>өз<s n="det"/><s n="ref"/></r></p></e>
 	<e c="  0"><p><l>başka<s n="det"/><s n="ind"/></l><r>башка<s n="adj"/></r></p></e>
         <e c="  0"><p><l>herhangi<b/>bir<s n="det"/><s n="ind"/></l><r>кайсы<b/>бир<s n="det"/><s n="ind"/></r></p></e>
         <e c="  0"><p><l>diğer<s n="det"/><s n="ind"/></l><r>башка<s n="det"/><s n="ind"/></r></p></e>
