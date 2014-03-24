@@ -37,6 +37,7 @@
       <cat-item tags="cop.pres.p2.*"/>
       <cat-item tags="cop.pres.p3.*"/>
       <cat-item lemma="сыз" tags="post.*"/>
+      <cat-item tags="cop.aor.*"/>
     </def-cat>
 
     <def-cat n="sub-reading2">
