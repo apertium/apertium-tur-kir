@@ -238,7 +238,7 @@
 	 <e c="  0"><p><l>nere<s n="prn"/><s n="itg"/></l><r>кайсы<b/>жер<s n="prn"/><s n="itg"/></r></p></e>
 	 <e c="  0"><p><l>ne<s n="prn"/><s n="itg"/></l><r>эмне<s n="prn"/><s n="itg"/></r></p></e>
 	 <e c="  0"><p><l>hangi<s n="prn"/><s n="itg"/></l><r>кайсы<s n="prn"/><s n="itg"/></r></p></e>
-	 <e c="  0"><p><l>birbiri<s n="prn"/><s n="pers"/></l><r>бирин-бири<s n="prn"/><s n="recip"/></r></p></e>
+	 <e c="  0"><p><l>birbiri<s n="prn"/><s n="recip"/></l><r>бирин-бири<s n="prn"/><s n="recip"/></r></p></e>
 	 <e c="  0"><p><l>öteki<s n="prn"/><s n="dem"/></l><r>тиги<s n="prn"/><s n="dem"/></r></p></e>
          <e c="  0"><p><l>şura<s n="prn"/><s n="dem"/></l><r>ушу<b/>жер<s n="prn"/><s n="dem"/></r></p></e>
 
@@ -250,13 +250,13 @@
 	<e slr="1"><p><l>biri<s n="prn"/><s n="ind"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
 	<e c="  0"><p><l>birisi<s n="prn"/></l><r>бир<s n="prn"/><s n="coll"/></r></p></e>
 	<e slr="1"><p><l>birisi<s n="prn"/><s n="ind"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
-        <e c="  0"><p><l>kimse<s n="prn"/><s n="ind"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
+        <e c="  0"><p><l>kimse<s n="prn"/><s n="qnt"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
 	<e c="  0"><p><l>başka<s n="prn"/><s n="ind"/></l><r>башка<s n="prn"/><s n="ind"/></r></p></e>
 
 	<!-- SECTION: Determiners -->
 	<e c="  0"><p><l>bu<s n="det"/><s n="dem"/></l><r>бул<s n="det"/><s n="dem"/></r></p></e>
 	<e c="  0"><p><l>hiçbir<s n="det"/><s n="ind"/></l><r>эч<b/>бир<s n="det"/><s n="ind"/></r></p></e>
-        <e c="  0"><p><l>her<s n="det"/><s n="qnt"/></l><r>ар<s n="det"/><s n="ind"/></r></p></e> 
+        <e c="  0"><p><l>her<s n="det"/><s n="dem"/></l><r>ар<s n="det"/><s n="ind"/></r></p></e> 
         <e c="  0"><p><l>bazı<s n="det"/><s n="ind"/></l><r>кээбир<s n="det"/><s n="ind"/></r></p></e> 
         <e c="  0"><p><l>bir<s n="det"/><s n="ind"/></l><r>бир<s n="det"/><s n="ind"/></r></p></e> 
 
