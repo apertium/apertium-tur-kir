@@ -17,6 +17,13 @@
       <cat-item lemma="i" tags="cop.*"/>
     </def-cat>
 
+    <def-cat n="gpr-past">
+      <cat-item tags="v.*.gpr_rsub"/>
+      <cat-item tags="v.*.gpr_robj"/>
+      <cat-item tags="v.*.gpr_rsub.*"/>
+      <cat-item tags="v.*.gpr_robj.*"/>
+    </def-cat>
+
     <def-cat n="qst">
       <cat-item tags="qst"/>
     </def-cat>
@@ -67,6 +74,12 @@
        
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+    </def-attr>
+
+    <def-attr n="a_gpr">
+      <attr-item tags="gpr_past"/>
+      <attr-item tags="gpr_rsub"/>
+      <attr-item tags="gpr_robj"/>
     </def-attr>
     
   </section-def-attrs>
@@ -178,6 +191,20 @@
                 <clip pos="2" side="tl" part="whole"/>
               </lu>
             </out>
+      </action>
+    </rule>
+
+    <rule comment="gpr-past"> 
+      <pattern>
+        <pattern-item n="gpr-past"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_gpr"/><lit-tag v="gpr_past"/></let> 
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
       </action>
     </rule>
      
