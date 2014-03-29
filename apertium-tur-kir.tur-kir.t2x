@@ -11,6 +11,7 @@
       <cat-item tags="adj"/>
       <cat-item tags="adj.*"/>
       <cat-item tags="num.*"/>
+      <cat-item lemma="бүгүн" tags="adv"/>
       <cat-item tags="prn.*"/>
       <cat-item tags="det.*"/>
       <cat-item tags="v.*"/>
