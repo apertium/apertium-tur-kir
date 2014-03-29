@@ -13,6 +13,18 @@
       <cat-item tags="np.*"/>
     </def-cat>
 
+    <def-cat n="cop">
+      <cat-item lemma="i" tags="cop.*"/>
+    </def-cat>
+
+    <def-cat n="qst">
+      <cat-item tags="qst"/>
+    </def-cat>
+
+    <def-cat n="adj">
+      <cat-item tags="adj"/>
+    </def-cat>
+
     <def-cat n="n-nom">
       <cat-item tags="n.nom"/>
     </def-cat>
@@ -145,6 +157,30 @@
         </choose>
       </action>
     </rule>
+
+    <rule comment=""> 
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="qst"/>
+        <pattern-item n="cop"/>
+      </pattern>
+      <action>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/>
+              </lu>
+              <b pos="2"/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </out>
+      </action>
+    </rule>
+     
      
   </section-rules>
 </transfer>
