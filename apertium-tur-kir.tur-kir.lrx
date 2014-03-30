@@ -188,7 +188,7 @@
   <rule><match lemma="protesto" tags="n.*"><select lemma="нааразылык" tags="n.*"/></match></rule>
   <rule><match lemma="put" tags="n.*"><select lemma="бут" tags="n.*"/></match></rule>
   <rule><match lemma="reklam" tags="n.*"><select lemma="реклама" tags="n.*"/></match></rule>
-  <rule><match lemma="renk" tags="n.*"><select lemma="ирең" tags="n.*"/></match></rule>
+  <!-- rule><match lemma="renk" tags="n.*"><select lemma="ирең" tags="n.*"/></match></rule -->
   <rule><match lemma="ruh" tags="n.*"><select lemma="рух" tags="n.*"/></match></rule>
   <rule><match lemma="saltanat" tags="n.*"><select lemma="салтанат" tags="n.*"/></match></rule>
   <rule><match lemma="sarf" tags="n.*"><select lemma="чыгым" tags="n.*"/></match></rule>
