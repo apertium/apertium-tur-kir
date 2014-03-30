@@ -612,6 +612,7 @@
               <test><equal><clip pos="1" side="tl" part="mood"/><lit-tag v="abil"/></equal></test>
               <let><clip pos="1" side="tl" part="mood"/><lit-tag v="prc_impf"/></let>
               <let><clip pos="1" side="tl" part="neg"/><lit v=""/></let>
+              <let><clip pos="1" side="tl" part="tense"/><lit v=""/></let>
               <out>
                 <lu>
                   <clip pos="1" side="tl" part="whole"/>
@@ -621,7 +622,7 @@
                   <lit v="ал"/>
                   <lit-tag v="vaux"/>
                   <clip pos="1" side="sl" part="neg"/>
-                  <clip pos="2" side="tl" part="tense"/>
+                  <clip pos="1" side="sl" part="tense"/>
                   <clip pos="2" side="tl" part="person"/>
                   <clip pos="2" side="tl" part="num"/>
                 </lu>
