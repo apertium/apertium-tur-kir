@@ -11,6 +11,7 @@
     <def-cat n="n">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
+      <cat-item tags="*.subst.*"/>
     </def-cat>
 
     <def-cat n="cop">
