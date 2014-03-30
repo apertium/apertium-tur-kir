@@ -544,14 +544,18 @@
 			<select lemma="отургуч" tags="n.*"/>
 		</match>
 	</rule>
-	<rule>
-		<match lemma="sandalye" tags="n.*.dat"/>
+	<rule weight="2.0">
+		<match lemma="sandalye" tags="n.*.dat">
+			<select lemma="отургуч" tags="n.*"/>
+		</match>
 		<match lemma="bağla" tags="v.tv.*">
 			<select lemma="отур" tags="v.iv.caus.*"/>
 		</match>
 	</rule>
-	<rule>
-		<match lemma="sandalye" tags="n.dat"/>
+	<rule weight="2.0">
+		<match lemma="sandalye" tags="n.dat">
+			<select lemma="отургуч" tags="n.*"/>
+		</match>
 		<match lemma="bağla" tags="v.tv.*">
 			<select lemma="отур" tags="v.iv.caus.*"/>
 		</match>
@@ -617,7 +621,7 @@
 			<select lemma="түз" tags="v.tv.*"/>
 		</match>
 	</rule>
-	<rule>
+	<rule weight="2.0">
 		<!-- match lemma="zaman" tags="n.*" / -->
 		<!-- match lemma="en" tags="adv.*" / -->
 		<!-- match lemma="iyi" tags="adj.*" / -->
