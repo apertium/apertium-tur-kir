@@ -117,7 +117,7 @@
         <!--<e c="  0"><p><l>olsun<s n="cnjadv"/></l><r>мейли<s n="cnjadv"/></r></p></e>--> <!-- FMT: put this back when you know what it is -->
 
 	<e c="  0"><p><l>ve<s n="cnjcoo"/></l><r>жана<s n="cnjcoo"/></r></p></e>	
-	<e c="  0"><p><l>ise<s n="cnjcoo"/></l><r>болсо<s n="cnjcoo"/></r></p></e>
+	<e c="  0"><p><l>ise<s n="postadv"/></l><r>болсо<s n="postadv"/></r></p></e>
 	<e c="  0"><p><l>ama<s n="cnjcoo"/></l><r>бирок<s n="cnjcoo"/></r></p></e>
 	<e c="  0"><p><l>ile<s n="cnjcoo"/></l><r>менен<s n="cnjcoo"/></r></p></e>
  	<e c="  0"><p><l>fakat<s n="cnjadv"/></l><r>бирок<s n="cnjadv"/></r></p></e> 
@@ -6637,6 +6637,7 @@
     <e slr="1"><p><l>tartış<s n="v"/><s n="tv"/></l><r>тартыш<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>nitelendir<s n="v"/><s n="tv"/></l><r>мүнөздөмө<b/>бер<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>sat<s n="v"/><s n="tv"/></l><r>сат<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>satın<b />al<s n="v"/><s n="tv"/></l><r>сатып<b />ал<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>taşı<s n="v"/><s n="tv"/></l><r>ташы<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>eleştir<s n="v"/><s n="tv"/></l><r>сын<b/>пикир<b/>айт<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>kaybet<s n="v"/><s n="tv"/></l><r>жогот<s n="v"/><s n="tv"/></r></p></e>

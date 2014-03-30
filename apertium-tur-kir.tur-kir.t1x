@@ -25,6 +25,11 @@
       <cat-item tags="v.*.gpr_robj.*"/>
     </def-cat>
 
+	<def-cat n="v_abil">
+		<cat-item tags="v.*.abil"/>
+		<cat-item tags="v.*.abil.*"/>
+	</def-cat>
+
     <def-cat n="qst">
       <cat-item tags="qst"/>
     </def-cat>
@@ -83,6 +88,33 @@
       <attr-item tags="gpr_robj"/>
     </def-attr>
     
+	<def-attr n="tense">
+		<attr-item tags="aor"/>
+		<attr-item tags="fut"/>
+		<attr-item tags="past"/>
+		<attr-item tags="ifi"/>
+	</def-attr>
+
+	<def-attr n="person">
+		<attr-item tags="p1"/>
+		<attr-item tags="p2"/>
+		<attr-item tags="p3"/>
+	</def-attr>
+
+	<def-attr n="num">
+		<attr-item tags="sg"/>
+		<attr-item tags="pl"/>
+		<attr-item tags="frm"/>
+	</def-attr>
+
+	<def-attr n="neg">
+		<attr-item tags="neg"/>
+	</def-attr>
+
+	<def-attr n="mood">
+		<attr-item tags="abil"/>
+		<attr-item tags="prc_impf"/>
+	</def-attr>
   </section-def-attrs>
  
   <section-def-vars>
@@ -209,6 +241,35 @@
       </action>
     </rule>
      
-     
+	<rule comment="regla: abil">
+		<pattern>
+			<pattern-item n="v_abil"/>
+			<pattern-item n="cop"/>
+		</pattern>
+		<action>
+			<choose>
+				<when>
+					<test><equal><clip pos="1" side="tl" part="mood"/><lit-tag v="abil"/></equal></test>
+					<let><clip pos="1" side="tl" part="mood"/><lit-tag v="prc_impf"/></let>
+					<out>
+						<lu>
+							<clip pos="1" side="tl" part="whole"/>
+						</lu>
+						<b/>
+						<lu>
+							<lit v="ал"/>
+							<lit-tag v="vaux"/>
+							<clip pos="1" side="tl" part="neg"/>
+							<clip pos="2" side="tl" part="tense"/>
+							<clip pos="2" side="tl" part="person"/>
+							<clip pos="2" side="tl" part="num"/>
+						</lu>
+					</out>
+				</when>
+			</choose>
+		</action>
+	</rule>
+
+
   </section-rules>
 </transfer>
