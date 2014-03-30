@@ -22,6 +22,7 @@
      <sdef n="pst"       c="Positive degree"/>
      <sdef n="top"       c="Toponym"/>
      <sdef n="subst"     c="Substantivised"/>
+     <sdef n="advl"      c="Adverbial"/>
      <sdef n="acr"       c="Acronym"/>
      <sdef n="al"        c="Other"/>
      <sdef n="org"       c="Organisation"/>
@@ -5965,6 +5966,8 @@
       <e c="  0"><p><l>gücendirici<s n="adj"/></l><r>ардантуучу<s n="adj"/></r></p></e>
       <e c="  0"><p><l>gevrek<s n="adj"/></l><r>кылдырак<s n="adj"/></r></p></e>
       <e c="  0"><p><l>fesat<s n="adj"/></l><r>чатак<s n="adj"/></r></p></e>
+      <e c="  0"><p><l>farklı<s n="adj"/></l><r>түрдүү<s n="adj"/></r></p></e>
+      <e c="  0"><p><l>farklı<s n="adj"/><s n="advl"/></l><r>башкача<s n="adv"/></r></p></e>
       <e c="  0"><p><l>fahiş<s n="adj"/></l><r>ашкере<b/>чектен<b/>чыккан<s n="adj"/></r></p></e>
       <e c="  0"><p><l>entellektüel<s n="adj"/></l><r>билимдүү<s n="adj"/></r></p></e>
       <e c="  0"><p><l>eklektik<s n="adj"/></l><r>эклектик<s n="adj"/></r></p></e>
