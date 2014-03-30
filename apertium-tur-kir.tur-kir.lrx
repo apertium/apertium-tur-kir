@@ -606,4 +606,16 @@
 			<select lemma="жерге берүү" tags="n.*"/>
 		</match>
 	</rule>
+	<rule>
+		<match lemma="yarat" tags="v.tv.*">
+			<select lemma="жара" tags="v.tv.caus.*"/>
+		</match>
+	</rule>
+	<rule>
+		<match lemma="şans" tags="n.*" />
+		<match lemma="yarat" tags="v.tv.*">
+			<select lemma="түз" tags="v.tv.*"/>
+		</match>
+	</rule>
+
 </rules>
