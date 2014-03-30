@@ -44,6 +44,7 @@
 
     <def-cat n="iste-aor"> 
       <cat-item lemma="iste" tags="v.tv.aor"/>
+      <cat-item lemma="iste" tags="v.tv.aor.*"/>
     </def-cat>
 
     <def-cat n="iste"> 
@@ -430,13 +431,17 @@
       </action>
     </rule>
 
-    <rule comment="inf iste-aor cop-ifi"> 
+    <rule comment="inf iste-aor cop"> 
       <pattern>
         <pattern-item n="inf"/>
         <pattern-item n="iste-aor"/>
-        <pattern-item n="cop-ifi"/>
+        <pattern-item n="cop"/>
       </pattern>
       <action>
+			<call-macro n="nonfin1">
+				<with-param pos="3"/>
+			</call-macro>
+
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
