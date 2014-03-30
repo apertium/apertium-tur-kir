@@ -613,6 +613,8 @@
               <let><clip pos="1" side="tl" part="mood"/><lit-tag v="prc_impf"/></let>
               <let><clip pos="1" side="tl" part="neg"/><lit v=""/></let>
               <let><clip pos="1" side="tl" part="tense"/><lit v=""/></let>
+              <let><clip pos="1" side="tl" part="person"/><lit v=""/></let>
+              <let><clip pos="1" side="tl" part="num"/><lit v=""/></let>
               <out>
                 <lu>
                   <clip pos="1" side="tl" part="whole"/>
