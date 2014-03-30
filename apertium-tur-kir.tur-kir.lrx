@@ -345,7 +345,6 @@
   <rule><match lemma="sanık" tags="n.*"><select lemma="күнөөлнгөн" tags="n.*"/></match></rule>
   <rule><match lemma="tutuklama" tags="n.*"><select lemma="камоо" tags="n.*"/></match></rule>
   <rule><match lemma="mülteci" tags="n.*"><select lemma="качкын" tags="n.*"/></match></rule>
-  <rule><match lemma="sandalye" tags="n.*"><select lemma="отургуч" tags="n.*"/></match></rule>
   <rule><match lemma="ortak" tags="n.*"><select lemma="партнер" tags="n.*"/></match></rule>
   <rule><match lemma="büyüme" tags="n.*"><select lemma="чоңоюуу" tags="n.*"/></match></rule>
   <rule><match lemma="sorun" tags="n.*"><select lemma="проблема" tags="n.*"/></match></rule>
@@ -538,6 +537,11 @@
 	<rule>
 		<match lemma="bağla" tags="v.tv.*">
 			<select lemma="байла" tags="v.tv.*"/>
+		</match>
+	</rule>
+	<rule>
+		<match lemma="sandalye" tags="n.*">
+			<select lemma="отургуч" tags="n.*"/>
 		</match>
 	</rule>
 	<rule>

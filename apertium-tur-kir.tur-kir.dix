@@ -584,6 +584,7 @@
 	<e c="  0"><p><l>budak<s n="n"/></l><r>бутак<s n="n"/></r></p></e>
 	<e c="  0"><p><l>buhar<s n="n"/></l><r>буу<s n="n"/></r></p></e>
 	<e c="  0"><p><l>bulak<s n="n"/></l><r>булак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>buluşma<s n="n"/></l><r>жолугушуу<s n="n"/></r></p></e>
 	<e c="  0"><p><l>bulut<s n="n"/></l><r>булут<s n="n"/></r></p></e>
 	<e c="  0"><p><l>but<s n="n"/></l><r>сан<s n="n"/></r></p></e>
 	<e slr="1"><p><l>but<s n="n"/></l><r>жоон<b/>сан<s n="n"/></r></p></e>
@@ -3195,6 +3196,8 @@
     <e c="  0"><p><l>tasarı<s n="n"/></l><r>долбоор<s n="n"/></r></p></e>
     <e slr="1"><p><l>tasarı<s n="n"/></l><r>эскиз<s n="n"/></r></p></e>
     <e slr="2"><p><l>tasarı<s n="n"/></l><r>чийме<s n="n"/></r></p></e>
+    <e c="  0"><p><l>Salı<s n="n"/></l><r>экинчи<b />күнү<s n="n"/></r></p></e>
+    <e slr="1"><p><l>Salı<s n="n"/></l><r>шейшемби<s n="n"/></r></p></e>
     <e c="  0"><p><l>salı<b/>gün<s n="n"/></l><r>шейшемби<s n="n"/></r></p></e>
     <e slr="1"><p><l>salı<b/>gün<s n="n"/></l><r>вторник<s n="n"/></r></p></e>
     <e c="  0"><p><l>tören<s n="n"/></l><r>азем<s n="n"/></r></p></e>
@@ -4547,7 +4550,6 @@
     <e c="  0"><p><l>bağır<s n="n"/></l><r>боор<s n="n"/></r></p></e>
     <e c="  0"><p><l>kanal<s n="n"/></l><r>канал<s n="n"/></r></p></e>
      <e c="  0"><p><l>kala<s n="n"/></l><r>калганда<s n="n"/></r></p></e>
-     <e c="  0"><p><l>salı<s n="n"/></l><r>шейшемби<s n="n"/></r></p></e>
      <e c="  0"><p><l>hazar<s n="n"/></l><r>хазар<s n="n"/></r></p></e>
      <e c="  0"><p><l>danışma<s n="n"/></l><r>кабылдама<s n="n"/></r></p></e>
      <e c="  0"><p><l>marka<s n="n"/></l><r>марка<s n="n"/></r></p></e>
