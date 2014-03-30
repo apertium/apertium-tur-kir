@@ -35,6 +35,7 @@
 
     <def-cat n="past">
       <cat-item tags="v.*.past"/>
+      <cat-item tags="v.*.*.past"/>
     </def-cat>
 
     <def-cat n="cop-ifi">
@@ -155,6 +156,10 @@
 		<attr-item tags="frm"/>
 	</def-attr>
 
+	<def-attr n="deriv">
+		<attr-item tags="caus"/>
+		<attr-item tags="pass"/>
+	</def-attr>
 	<def-attr n="trans">
 		<attr-item tags="tv"/>
 		<attr-item tags="iv"/>
@@ -391,6 +396,7 @@
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>
             <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="deriv"/>
             <lit-tag v="past"/>
             <clip pos="2" side="tl" part="person"/>
             <clip pos="2" side="tl" part="num"/>
