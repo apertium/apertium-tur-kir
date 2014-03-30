@@ -52,6 +52,9 @@
 
      <sdef n="locattr"      c="Relative locative"/>
 
+     <sdef n="sim"       c="Simulative"/>
+     <sdef n="ger_past"  c="Past Gerund"/>
+
      <sdef n="sg"        c="Singular"/>
      <sdef n="pl"        c="Plural"/>
      <sdef n="ND"        c="Number to be determined"/>
@@ -130,6 +133,7 @@
 	<e c="  0"><p><l>çünkü<s n="cnjadv"/></l><r>анткени<s n="cnjadv"/></r></p></e>
 	<e c="  0"><p><l>olarak<s n="cnjsub"/></l><r>болуп<s n="cnjsub"/></r></p></e>
 	<e c="  0"><p><l>bile<s n="cnjadv"/></l><r>дагы<s n="adv"/></r></p></e> <!-- TODO: Check -->
+	<e c="  0"><p><l>yoksa<s n="cnjadv"/></l><r>же<s n="cnjcoo"/></r></p></e>
 	
 	<e c="  0"><p><l>da<s n="cnjcoo"/></l><r>да<s n="cnjcoo"/></r></p></e>
         <e c="  0"><p><l>ya<s n="cnjadv"/></l><r>га<s n="cnjadv"/></r></p></e>
@@ -6258,6 +6262,7 @@
         <e c="  0"><p><l>zaman<s n="adv"/></l><r>заман<s n="adv"/></r></p></e>
         <e c="  0"><p><l>acaba<s n="adv"/></l><r>кызык<s n="adv"/></r></p></e>
         <e c="  0"><p><l>sene<s n="adv"/></l><r>жыл<s n="adv"/></r></p></e>
+	<e c="  0"><p><l>gönlünce<s n="adv"/></l><r>каала<s n="v"/><s n="tv"/><s n="ger_past"/><s n="sim"/></r></p></e>
 
 
         <!-- SECTION: Verbs -->
@@ -6654,6 +6659,8 @@
     <e c="  0"><p><l>koy<s n="v"/><s n="tv"/></l><r>кой<s n="v"/><s n="tv"/></r></p></e>
     <e slr="1"><p><l>koy<s n="v"/><s n="tv"/></l><r>сал<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>yara<s n="v"/><s n="iv"/></l><r>жара<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>yarat<s n="v"/><s n="tv"/></l><r>жара<s n="v"/><s n="tv"/><s n="caus"/></r></p></e>
+    <e slr="1"><p><l>yarat<s n="v"/><s n="tv"/></l><r>түз<s n="v"/><s n="tv"/></r></p></e>
     <e slr="1"><p><l>yara<s n="v"/><s n="iv"/></l><r>ишке<b/>жара<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>güçlen<s n="v"/><s n="iv"/></l><r>күчтөн<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>çöz<s n="v"/><s n="tv"/></l><r>чеч<s n="v"/><s n="tv"/></r></p></e>
