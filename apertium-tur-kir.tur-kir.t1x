@@ -61,6 +61,11 @@
       <cat-item tags="v.*.inf"/>
     </def-cat>
 
+    <def-cat n="fut-dub">
+      <cat-item tags="v.*.fut.dub"/>
+    </def-cat>
+
+
     <def-cat n="prog">
       <cat-item tags="v.*.prog"/>
     </def-cat>
@@ -176,6 +181,7 @@
 	<def-attr n="tense">
 		<attr-item tags="aor"/>
 		<attr-item tags="fut"/>
+		<attr-item tags="fut.dub"/>
 		<attr-item tags="past"/>
 		<attr-item tags="ifi"/>
 	</def-attr>
@@ -482,6 +488,29 @@
             <clip pos="2" side="tl" part="neg"/>
             <clip pos="2" side="tl" part="tense"/>
             <lit-tag v="p3.sg"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="fut-dub cop-aor"> 
+      <pattern>
+        <pattern-item n="fut-dub"/>
+        <pattern-item n="cop-aor"/>
+      </pattern>
+      <action>
+        <let><clip pos="2" side="tl" part="tense"/><lit-tag v="ifi"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="deriv"/>
+            <lit-tag v="prc_pcond"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
           </lu>
         </out>
       </action>
