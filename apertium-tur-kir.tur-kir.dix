@@ -707,7 +707,8 @@
 	<e slr="1"><p><l>cemaat<s n="n"/></l><r>эл<s n="n"/></r></p></e>
 	<e slr="2"><p><l>cemaat<s n="n"/></l><r>журт<s n="n"/></r></p></e>
 	<e c="  0"><p><l>cemiyet<s n="n"/></l><r>жамаат<s n="n"/></r></p></e>
-	<e c="  0"><p><l>cenaze<s n="n"/></l><r>жаназа<s n="n"/></r></p></e>
+	<e c="  0"><p><l>cenaze<s n="n"/></l><r>жерге<b />берүү<s n="n"/></r></p></e>
+	<e slr="1"><p><l>cenaze<s n="n"/></l><r>жаназа<s n="n"/></r></p></e>
 	<e c="  0"><p><l>cerahat<s n="n"/></l><r>жаракат<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ceset<s n="n"/></l><r>жасат<s n="n"/></r></p></e>
 	<e slr="1"><p><l>ceset<s n="n"/></l><r>дене<s n="n"/></r></p></e>

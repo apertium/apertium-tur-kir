@@ -601,5 +601,9 @@
 			<select lemma="өң" tags="n.*"/>
 		</match>
 	</rule>
-
+	<rule>
+		<match lemma="cenaze" tags="n.*">
+			<select lemma="жерге берүү" tags="n.*"/>
+		</match>
+	</rule>
 </rules>
