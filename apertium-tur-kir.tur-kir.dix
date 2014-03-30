@@ -423,7 +423,7 @@
 	<e c="  0"><p><l>akım<s n="n"/></l><r>агым<s n="n"/></r></p></e>
 	<e c="  0"><p><l>akın<s n="n"/></l><r>акын<s n="n"/></r></p></e>
 	<e c="  0"><p><l>akraba<s n="n"/></l><r>тууган<s n="n"/></r></p></e>
-	<e c="  0"><p><l>akşam<s n="adv"/></l><r>кеч<s n="adv"/></r></p></e>
+	<e c="  0"><p><l>akşam<s n="n"/></l><r>кеч<s n="n"/></r></p></e>
 	<e slr="1"><p><l>akşam<s n="adv"/></l><r>кечинде<s n="adv"/></r></p></e>
 	<!-- e slr="2"><p><l>akşam<s n="n"/></l><r>шам<s n="n"/></r></p></e -->  <!-- FIXME: CHECK -->
 	<e c="  0"><p><l>aktör<s n="n"/></l><r>актер<s n="n"/></r></p></e>
@@ -964,7 +964,7 @@
     <e c="  0"><p><l>değnek<s n="n"/></l><r>таяк<s n="n"/></r></p></e>  
     <!--<e c="  0"><p><l>deha<s n="n"/></l><r>düha<s n="n"/></r></p></e>-->  
     <e c="  0"><p><l>dehşet<s n="n"/></l><r>коркунуч<s n="n"/></r></p></e>  
-    <e c="  0"><p><l>dek<s n="n"/></l><r>чейин<s n="n"/></r></p></e>  
+    <e c="  0"><p><l>dek<s n="post"/></l><r>чейин<s n="post"/></r></p></e>
     <e c="  0"><p><l>delalet<s n="n"/></l><r>далаалат<s n="n"/></r></p></e>  
     <e c="  0"><p><l>delege<s n="n"/></l><r>делегат<s n="n"/></r></p></e>  
     <e c="  0"><p><l>deli<s n="n"/></l><r>жинди<s n="n"/></r></p></e>  
@@ -2207,7 +2207,7 @@
 	<e c="  0"><p><l>ofis<s n="n"/></l><r>офис<s n="n"/></r></p></e>
 	<e c="  0"><p><l>oftalmolog<s n="n"/></l><r>офтальмолог<s n="n"/></r></p></e>
 	<e c="  0"><p><l>oftalmoloji<s n="n"/></l><r>офтальмология<s n="n"/></r></p></e>
-	<e c="  0"><p><l>öğle<b />yemek<s n="n"/></l><r>түшкү<b />тамак<s n="n"/></r></p></e>
+	<e c="  0"><p><l>öğle<b />yemeği<s n="n"/></l><r>түшкү<b />тамак<s n="n"/></r></p></e>
 	<e c="  0"><p><l>ok<s n="n"/></l><r>ок<s n="n"/></r></p></e>
 	<e slr="1"><p><l>ok<s n="n"/></l><r>жебе<s n="n"/></r></p></e>
 	<e c="  0"><p><l>oktav<s n="n"/></l><r>октава<s n="n"/></r></p></e>
