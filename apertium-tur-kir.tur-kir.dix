@@ -263,6 +263,7 @@
 	<e c="  0"><p><l>hiçbir<s n="det"/><s n="ind"/></l><r>эч<b/>бир<s n="det"/><s n="ind"/></r></p></e>
         <e c="  0"><p><l>her<s n="det"/><s n="dem"/></l><r>ар<s n="det"/><s n="ind"/></r></p></e> 
         <e c="  0"><p><l>bazı<s n="det"/><s n="ind"/></l><r>кээбир<s n="det"/><s n="ind"/></r></p></e> 
+        <e c="  0"><p><l>bazı<s n="det"/><s n="qnt"/></l><r>бир<b/>нече<s n="det"/><s n="qnt"/></r></p></e> 
         <e c="  0"><p><l>bir<s n="det"/><s n="ind"/></l><r>бир<s n="det"/><s n="ind"/></r></p></e> 
 
         <e c="  0"><p><l>tek<s n="det"/></l><r>жалгыз<s n="adj"/><s n="pst"/></r></p></e> 
@@ -2934,6 +2935,7 @@
 	<e c="  0"><p><l>kabul<s n="n"/></l><r>кабыл<s n="n"/></r></p></e>
 	<e c="  0"><p><l>yemek<s n="n"/></l><r>тамак<s n="n"/></r></p></e>
 	<e c="  0"><p><l>şey<s n="n"/></l><r>нерсе<s n="n"/></r></p></e>
+	<e slr="1"><p><l>şey<s n="n"/></l><r>иш<s n="n"/></r></p></e>
 	<e c="  0"><p><l>telefon<s n="n"/></l><r>телефон<s n="n"/></r></p></e>
 	<e c="  0"><p><l>hastane<s n="n"/></l><r>оорукана<s n="n"/></r></p></e>
 	<e c="  0"><p><l>dükkan<s n="n"/></l><r>дүкөн<s n="n"/></r></p></e>

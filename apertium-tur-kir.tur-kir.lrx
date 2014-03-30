@@ -626,4 +626,37 @@
 			<select lemma="өт" tags="v.iv.*"/>
 		</match>
 	</rule>
+	<rule>
+		<match lemma="şey" tags="n.*">
+			<select lemma="нерсе" tags="n.*" />
+		</match>
+	</rule>
+	<rule>
+		<match lemma="şey" tags="n.*">
+			<select lemma="иш" tags="n.*" />
+		</match>
+		<match lemma="yap" tags="v.*" />
+	</rule>
+	<rule>
+		<match lemma="şey" tags="n.*">
+			<select lemma="иш" tags="n.*" />
+		</match>
+		<match lemma="*" tags="adj.advl" />
+		<match lemma="yap" tags="v.*" />
+	</rule>
+	<rule>
+		<match lemma="şey" tags="n.*">
+			<select lemma="иш" tags="n.*" />
+		</match>
+		<match lemma="*" tags="adv" />
+		<match lemma="yap" tags="v.*" />
+	</rule>
+
+
+	<rule>
+		<match lemma="yap" tags="v.*" />
+		<match lemma="şey" tags="n.*">
+			<select lemma="иш" tags="n.*" />
+		</match>
+	</rule>
 </rules>
