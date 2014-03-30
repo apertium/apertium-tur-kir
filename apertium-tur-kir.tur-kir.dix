@@ -157,7 +157,7 @@
    <e c="  0"><p><l>başka<b/>bir<b/>deyişle<s n="cnjadv"/></l><r>башкача<b/>айтканда<s n="cnjadv"/></r></p></e>
      <e c="  0"><p><l>zaten<s n="cnjadv"/></l><r>тактап<b/>айтканда<s n="cnjadv"/></r></p></e>
       <e c="  0"><p><l>aksine<s n="cnjadv"/></l><r>тескерисинче<s n="cnjadv"/></r></p></e>
-      <e c="  0"><p><l>yok<s n="cnjadv"/></l><r>жок<s n="cnjadv"/></r></p></e>
+      <!--<e c="  0"><p><l>yok<s n="cnjadv"/></l><r>жок<s n="cnjadv"/></r></p></e>--> <!-- FIXME -->
       <e c="  0"><p><l>şayet<s n="cnjsub"/></l><r>кокус<s n="cnjsub"/></r></p></e>
       <e c="  0"><p><l>neyse<s n="cnjadv"/></l><r>болуптур<s n="cnjadv"/></r></p></e>
       <e c="  0"><p><l>hem<s n="cnjcoo"/></l><r>ал<b/>түгүл<s n="cnjadv"/></r></p></e>
