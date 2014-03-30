@@ -621,7 +621,9 @@
 		<!-- match lemma="zaman" tags="n.*" / -->
 		<!-- match lemma="en" tags="adv.*" / -->
 		<!-- match lemma="iyi" tags="adj.*" / -->
-		<match lemma="şekil" tags="n.*" />
+		<match lemma="şekil" tags="n.*">
+                        <select lemma="форма" tags="n.*"/>
+                </match>
 		<match lemma="değerlen" tags="v.iv.*">
 			<select lemma="өт" tags="v.iv.*"/>
 		</match>
