@@ -3,6 +3,10 @@
 <transfer>
   <section-def-cats>
     
+    <def-cat n="num-abstr">
+      <cat-item tags="num.abstr"/>
+    </def-cat>
+
     <def-cat n="bir">
       <cat-item lemma="bir" tags="det.*"/>
       <cat-item lemma="bir" tags="num"/>
@@ -135,6 +139,11 @@
   </section-def-cats>
   
   <section-def-attrs>
+
+    <def-attr n="a_abstr">
+      <attr-item tags="abstr"/>
+    </def-attr>
+ 
     <def-attr n="attr-gen">
       <attr-item tags="attr"/>
       <attr-item tags="gen"/>
@@ -313,6 +322,30 @@
     </rule>
 
   
+    <rule comment="num-abstr n"> 
+      <pattern>
+        <pattern-item n="num-abstr"/>
+        <pattern-item n="n"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_abstr"/><lit v=""/></let>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b/>
+              <lu>
+                <lit v="жаш"/>
+                <lit-tag v="n.loc.attr"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </out>
+      </action>
+    </rule>
+ 
     <rule comment=""> 
       <pattern>
         <pattern-item n="n"/>
