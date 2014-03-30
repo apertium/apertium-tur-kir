@@ -12,7 +12,7 @@
       <program name="lt-proc -b">
         <file name="tur-kir.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="tur-kir.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -122,7 +122,7 @@
       <program name="lt-proc -b">
         <file name="tur-kir.autobil.bin"/>
       </program>
-      <program name="lrx-proc -t">
+      <program name="lrx-proc -m -t">
         <file name="tur-kir.autolex.bin"/>
       </program>
     </pipeline>
@@ -141,7 +141,7 @@
       <program name="lt-proc -b">
         <file name="tur-kir.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="tur-kir.autolex.bin"/>
       </program>
       <program name="apertium-transfer -t -b">
@@ -163,7 +163,7 @@
       <program name="lt-proc -b">
         <file name="tur-kir.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="tur-kir.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -190,7 +190,7 @@
       <program name="lt-proc -b">
         <file name="kir-tur.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="kir-tur.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
@@ -297,7 +297,7 @@
       <program name="lt-proc -b">
         <file name="kir-tur.autobil.bin"/>
       </program>
-      <program name="lrx-proc -t">
+      <program name="lrx-proc -m -t">
         <file name="kir-tur.autolex.bin"/>
       </program>
     </pipeline>
@@ -316,7 +316,7 @@
       <program name="lt-proc -b">
         <file name="kir-tur.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="kir-tur.autolex.bin"/>
       </program>
       <program name="apertium-transfer -t -b">
@@ -338,7 +338,7 @@
       <program name="lt-proc -b">
         <file name="kir-tur.autobil.bin"/>
       </program>
-      <program name="lrx-proc">
+      <program name="lrx-proc -m">
         <file name="kir-tur.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
