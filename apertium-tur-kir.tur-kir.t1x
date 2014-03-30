@@ -29,6 +29,10 @@
       <cat-item tags="v.*.inf"/>
     </def-cat>
 
+    <def-cat n="prog">
+      <cat-item tags="v.*.prog"/>
+    </def-cat>
+
     <def-cat n="aor">
       <cat-item tags="v.*.aor"/>
     </def-cat>
@@ -163,6 +167,11 @@
 	<def-attr n="trans">
 		<attr-item tags="tv"/>
 		<attr-item tags="iv"/>
+	</def-attr>
+	<def-attr n="a_prog">
+		<attr-item tags="prog"/>
+		<attr-item tags="prc_perf"/>
+		<attr-item tags="prc_impf"/>
 	</def-attr>
 	<def-attr n="neg">
 		<attr-item tags="neg"/>
@@ -380,6 +389,44 @@
             <clip pos="2" side="tl" part="neg"/>
             <clip pos="2" side="tl" part="tense"/>
             <lit-tag v="p3.sg"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="prog cop-aor"> 
+      <pattern>
+        <pattern-item n="prog"/>
+        <pattern-item n="cop-aor"/>
+      </pattern>
+      <action>
+        <choose><when><test><or><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit-tag v="кел"/></equal>
+                                <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit-tag v="бар"/></equal></or>
+                      </test>
+                      <let><clip pos="1" side="tl" part="a_prog"/><lit-tag v="prc_impf"/></let>
+                </when>
+                <otherwise>
+                      <let><clip pos="1" side="tl" part="a_prog"/><lit-tag v="prc_perf"/></let>
+                </otherwise>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="a_prog"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <get-case-from pos="2">
+              <lit v="жат"/>
+            </get-case-from>
+            <lit-tag v="vaux"/>
+            <clip pos="2" side="tl" part="tense"/>
+            <clip pos="2" side="tl" part="person"/>
+            <clip pos="2" side="tl" part="num"/>
+            <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
       </action>
