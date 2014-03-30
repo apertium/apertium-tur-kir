@@ -14,6 +14,37 @@
       <cat-item tags="*.subst.*"/>
     </def-cat>
 
+    <def-cat n="iste"> 
+      <cat-item lemma="iste" tags="v.tv.aor.*"/>
+      <cat-item lemma="iste" tags="v.tv.*.aor.*"/>
+      <cat-item lemma="iste" tags="v.tv.fut.*"/>
+      <cat-item lemma="iste" tags="v.tv.*.fut.*"/>
+      <cat-item lemma="iste" tags="v.tv.ifi.*"/>
+      <cat-item lemma="iste" tags="v.tv.*.ifi.*"/>
+      <cat-item lemma="iste" tags="v.tv.past.*"/>
+      <cat-item lemma="iste" tags="v.tv.*.past.*"/>
+    </def-cat>
+
+    <def-cat n="inf">
+      <cat-item tags="v.*.inf"/>
+    </def-cat>
+
+    <def-cat n="aor">
+      <cat-item tags="v.*.aor"/>
+    </def-cat>
+
+    <def-cat n="past">
+      <cat-item tags="v.*.past"/>
+    </def-cat>
+
+    <def-cat n="cop-ifi">
+      <cat-item lemma="i" tags="cop.ifi.*"/>
+    </def-cat>
+
+    <def-cat n="cop-aor">
+      <cat-item lemma="i" tags="cop.aor.*"/>
+    </def-cat>
+
     <def-cat n="cop">
       <cat-item lemma="i" tags="cop.*"/>
     </def-cat>
@@ -90,6 +121,11 @@
       <attr-item tags="ND"/>
     </def-attr>
        
+    <def-attr n="a_verb">
+      <attr-item tags="v"/>
+      <attr-item tags="vaux"/>
+    </def-attr>
+
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
@@ -119,6 +155,10 @@
 		<attr-item tags="frm"/>
 	</def-attr>
 
+	<def-attr n="trans">
+		<attr-item tags="tv"/>
+		<attr-item tags="iv"/>
+	</def-attr>
 	<def-attr n="neg">
 		<attr-item tags="neg"/>
 	</def-attr>
@@ -308,36 +348,120 @@
         </out>
       </action>
     </rule>
-     
-	<rule comment="regla: abil">
-		<pattern>
-			<pattern-item n="v_abil"/>
-			<pattern-item n="cop"/>
-		</pattern>
-		<action>
-			<choose>
-				<when>
-					<test><equal><clip pos="1" side="tl" part="mood"/><lit-tag v="abil"/></equal></test>
-					<let><clip pos="1" side="tl" part="mood"/><lit-tag v="prc_impf"/></let>
-					<out>
-						<lu>
-							<clip pos="1" side="tl" part="whole"/>
-						</lu>
-						<b/>
-						<lu>
-							<lit v="ал"/>
-							<lit-tag v="vaux"/>
-							<clip pos="1" side="tl" part="neg"/>
-							<clip pos="2" side="tl" part="tense"/>
-							<clip pos="2" side="tl" part="person"/>
-							<clip pos="2" side="tl" part="num"/>
-						</lu>
-					</out>
-				</when>
-			</choose>
-		</action>
-	</rule>
 
+    <rule comment="inf iste"> 
+      <pattern>
+        <pattern-item n="inf"/>
+        <pattern-item n="iste"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_gpr"/><lit-tag v="gpr_past"/></let> 
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <lit-tag v="prc_vol"/>
+            <clip pos="2" side="tl" part="person"/>
+            <clip pos="2" side="tl" part="num"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <get-case-from pos="2">
+              <lit v="кел"/>
+            </get-case-from>
+            <lit-tag v="vaux"/>
+            <clip pos="2" side="tl" part="neg"/>
+            <clip pos="2" side="tl" part="tense"/>
+            <lit-tag v="p3.sg"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="past cop-aor"> 
+      <pattern>
+        <pattern-item n="past"/>
+        <pattern-item n="cop-aor"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <lit-tag v="past"/>
+            <clip pos="2" side="tl" part="person"/>
+            <clip pos="2" side="tl" part="num"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="aor cop-ifi"> 
+      <pattern>
+        <pattern-item n="aor"/>
+        <pattern-item n="cop-ifi"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <lit-tag v="pcond"/>
+            <clip pos="2" side="tl" part="person"/>
+            <clip pos="2" side="tl" part="num"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+ 
+      
+      <rule comment="regla: abil cop">
+        <pattern>
+          <pattern-item n="v_abil"/>
+          <pattern-item n="cop"/>
+        </pattern>
+        <action>
+          <choose>
+            <when>
+              <test><equal><clip pos="1" side="tl" part="mood"/><lit-tag v="abil"/></equal></test>
+              <let><clip pos="1" side="tl" part="mood"/><lit-tag v="prc_impf"/></let>
+              <let><clip pos="1" side="tl" part="neg"/><lit v=""/></let>
+              <out>
+                <lu>
+                  <clip pos="1" side="tl" part="whole"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <lit v="ал"/>
+                  <lit-tag v="vaux"/>
+                  <clip pos="1" side="sl" part="neg"/>
+                  <clip pos="2" side="tl" part="tense"/>
+                  <clip pos="2" side="tl" part="person"/>
+                  <clip pos="2" side="tl" part="num"/>
+                </lu>
+              </out>
+            </when>
+            <otherwise>
+              <out>
+                <lu>
+                  <clip pos="1" side="tl" part="whole"/>
+                </lu>
+                <b pos="1"/>
+                <lu>
+                  <clip pos="2" side="tl" part="whole"/>
+                </lu>
+              </out>
+            </otherwise>
+          </choose>
+        </action>
+      </rule>
+    
 	<rule comment="regla: verb forms">
 		<pattern>
 			<pattern-item n="v"/>
