@@ -18,6 +18,18 @@
       <cat-item lemma="i" tags="cop.*"/>
     </def-cat>
 
+	<def-cat n="v">
+		<cat-item tags="v.*"/>
+		<cat-item tags="vaux.*"/>
+		<cat-item tags="cop.*"/>
+	</def-cat>
+
+	<def-cat n="gna">
+		<cat-item tags="v.*.gna_impf"/>
+		<cat-item tags="v.*.gna_perf"/>
+		<cat-item tags="v.*.gna_when"/>
+	</def-cat>
+
     <def-cat n="gpr-past">
       <cat-item tags="v.*.gpr_rsub"/>
       <cat-item tags="v.*.gpr_robj"/>
@@ -115,11 +127,58 @@
 		<attr-item tags="abil"/>
 		<attr-item tags="prc_impf"/>
 	</def-attr>
+
+	<def-attr n="v_nonfin">
+		<attr-item tags="prc_impf"/>
+		<attr-item tags="prc_perf"/>
+		<attr-item tags="prc_plan"/>
+
+		<attr-item tags="gpr_past"/>
+		<attr-item tags="gpr_impf"/>
+		<attr-item tags="gpr_pot"/>
+		<attr-item tags="gpr_ppot"/>
+		<attr-item tags="gpr_fut"/>
+		<attr-item tags="gpr_fut2"/>
+		<attr-item tags="gpr_fut3"/>
+
+		<attr-item tags="inf"/>
+		<attr-item tags="ger1"/>
+		<attr-item tags="ger"/>
+		<attr-item tags="ger_past"/>
+		<attr-item tags="ger_perf"/>
+		<attr-item tags="ger_ppot"/>
+		<attr-item tags="ger_abs"/>
+		<attr-item tags="ger_fut"/>
+		<attr-item tags="ger_fut2"/>
+		<attr-item tags="ger_fut3"/>
+		<attr-item tags="ger_impf"/>
+		<attr-item tags="ger_abs"/>
+		
+		<attr-item tags="gna_impf"/>
+		<attr-item tags="gna_perf"/>
+		<attr-item tags="gna_when"/>
+	</def-attr>
+
   </section-def-attrs>
  
   <section-def-vars>
     <def-var n="number"/>
   </section-def-vars>  
+
+	<section-def-macros>
+		<def-macro n="nonfin1" npar="1">
+			<choose>
+				<when>
+					<test><equal><clip pos="1" side="sl" part="v_nonfin"/><lit-tag v="gna_when"/></equal></test>
+					<let>
+						<clip pos="1" side="tl" part="v_nonfin"/>
+						<lit-tag v="ger_past.loc"/>
+					</let>
+				</when>
+			</choose>
+		</def-macro>
+	</section-def-macros>
+
 
   <section-rules>
     
@@ -267,6 +326,22 @@
 					</out>
 				</when>
 			</choose>
+		</action>
+	</rule>
+
+	<rule comment="regla: verb forms">
+		<pattern>
+			<pattern-item n="v"/>
+		</pattern>
+		<action>
+			<call-macro n="nonfin1">
+				<with-param pos="1"/>
+			</call-macro>
+			<out>
+				<lu>
+					<clip pos="1" side="tl" part="whole"/>
+				</lu>
+			</out>
 		</action>
 	</rule>
 
