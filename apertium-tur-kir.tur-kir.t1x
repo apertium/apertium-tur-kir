@@ -14,6 +14,34 @@
       <cat-item tags="*.subst.*"/>
     </def-cat>
 
+    <def-cat n="iç-px-dat">
+      <cat-item lemma="iç" tags="n.px1sg.dat"/>
+      <cat-item lemma="iç" tags="n.px2sg.dat"/>
+      <cat-item lemma="iç" tags="n.px3sp.dat"/>
+      <cat-item lemma="iç" tags="n.px1pl.dat"/>
+      <cat-item lemma="iç" tags="n.px2pl.dat"/>
+    </def-cat>
+
+    <def-cat n="n-acc">
+      <cat-item tags="n.acc"/>
+      <cat-item tags="n.*.acc"/>
+      <cat-item tags="n.*.*.acc"/>
+    </def-cat>
+
+    <def-cat n="n-dat">
+      <cat-item tags="n.dat"/>
+      <cat-item tags="n.*.dat"/>
+      <cat-item tags="n.*.*.dat"/>
+    </def-cat>
+
+    <def-cat n="çek-aor"> 
+      <cat-item lemma="çek" tags="v.tv.aor"/>
+    </def-cat>
+
+    <def-cat n="sor"> 
+      <cat-item lemma="sor" tags="v.tv.*"/>
+    </def-cat>
+
     <def-cat n="iste-aor"> 
       <cat-item lemma="iste" tags="v.tv.aor"/>
     </def-cat>
@@ -248,7 +276,36 @@
 
 
   <section-rules>
-    
+  
+    <rule comment="n-acc iç-px-dat çek-aor cop-ifi"> 
+      <pattern>
+        <pattern-item n="n-acc"/>
+        <pattern-item n="iç-px-dat"/>
+        <pattern-item n="çek-aor"/>
+        <pattern-item n="cop-ifi"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="case"/><lit-tag v="dat"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <get-case-from pos="2">
+              <lit v="суктан"/>
+            </get-case-from>
+            <lit-tag v="v.iv"/>
+            <clip pos="4" side="tl" part="neg"/>
+            <lit-tag v="pcond"/>
+            <clip pos="4" side="tl" part="person"/>
+            <clip pos="4" side="tl" part="num"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+  
     <rule comment=""> 
       <pattern>
         <pattern-item n="n"/>
@@ -550,7 +607,27 @@
           </choose>
         </action>
       </rule>
-    
+     
+      <rule comment="regla: n-dat sor">
+        <pattern>
+          <pattern-item n="n-dat"/>
+          <pattern-item n="sor"/>
+        </pattern>
+        <action>
+          <let><clip pos="1" side="tl" part="case"/><lit-tag v="abl"/></let>
+          <out>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>         
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </out>
+        </action>
+      </rule>
+
+   
 	<rule comment="regla: verb forms">
 		<pattern>
 			<pattern-item n="v"/>
