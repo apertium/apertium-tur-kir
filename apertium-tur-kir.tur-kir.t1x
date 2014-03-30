@@ -75,6 +75,12 @@
       <cat-item tags="v.*.prog"/>
     </def-cat>
 
+    <def-cat n="opt">
+      <cat-item tags="v.*.opt"/>
+      <cat-item tags="v.*.*.opt"/>
+      <cat-item tags="v.*.*.*.opt"/>
+    </def-cat>
+
     <def-cat n="aor">
       <cat-item tags="v.*.aor"/>
       <cat-item tags="v.*.*.aor"/>
@@ -594,6 +600,28 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="opt cop-aor"> 
+      <pattern>
+        <pattern-item n="opt"/>
+        <pattern-item n="cop-aor"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="deriv"/>
+            <lit-tag v="opt"/>
+            <clip pos="2" side="tl" part="person"/>
+            <clip pos="2" side="tl" part="num"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="aor cop-aor"> 
       <pattern>
