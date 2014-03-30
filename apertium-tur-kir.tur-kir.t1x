@@ -14,6 +14,10 @@
       <cat-item tags="*.subst.*"/>
     </def-cat>
 
+    <def-cat n="iste-aor"> 
+      <cat-item lemma="iste" tags="v.tv.aor"/>
+    </def-cat>
+
     <def-cat n="iste"> 
       <cat-item lemma="iste" tags="v.tv.aor.*"/>
       <cat-item lemma="iste" tags="v.tv.*.aor.*"/>
@@ -362,6 +366,38 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="inf iste-aor cop-ifi"> 
+      <pattern>
+        <pattern-item n="inf"/>
+        <pattern-item n="iste-aor"/>
+        <pattern-item n="cop-ifi"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <lit-tag v="prc_vol"/>
+            <clip pos="3" side="tl" part="person"/>
+            <clip pos="3" side="tl" part="num"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <get-case-from pos="2">
+              <lit v="кел"/>
+            </get-case-from>
+            <lit-tag v="vaux"/>
+            <clip pos="2" side="tl" part="neg"/>
+            <lit-tag v="pcond"/>
+            <lit-tag v="p3.sg"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="inf iste"> 
       <pattern>
