@@ -157,6 +157,8 @@
 		<attr-item tags="gna_impf"/>
 		<attr-item tags="gna_perf"/>
 		<attr-item tags="gna_when"/>
+		<attr-item tags="cond"/>
+		<attr-item tags="gna_cond"/>
 	</def-attr>
 
   </section-def-attrs>
@@ -173,6 +175,13 @@
 					<let>
 						<clip pos="1" side="tl" part="v_nonfin"/>
 						<lit-tag v="ger_past.loc"/>
+					</let>
+				</when>
+				<when>
+					<test><equal><clip pos="1" side="sl" part="v_nonfin"/><lit-tag v="cond"/></equal></test>
+					<let>
+						<clip pos="1" side="tl" part="v_nonfin"/>
+						<lit-tag v="gna_cond"/>
 					</let>
 				</when>
 			</choose>
