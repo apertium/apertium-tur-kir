@@ -615,8 +615,10 @@
 			<select lemma="жара" tags="v.tv.caus.*"/>
 		</match>
 	</rule>
-	<rule>
-		<match lemma="şans" tags="n.*" />
+	<rule weight="2.0">
+		<match lemma="şans" tags="n.*">
+			<select lemma="шанс" tags="n.*"/>
+		</match>
 		<match lemma="yarat" tags="v.tv.*">
 			<select lemma="түз" tags="v.tv.*"/>
 		</match>
@@ -626,8 +628,8 @@
 		<!-- match lemma="en" tags="adv.*" / -->
 		<!-- match lemma="iyi" tags="adj.*" / -->
 		<match lemma="şekil" tags="n.*">
-                        <select lemma="форма" tags="n.*"/>
-                </match>
+			<select lemma="форма" tags="n.*"/>
+		</match>
 		<match lemma="değerlen" tags="v.iv.*">
 			<select lemma="өт" tags="v.iv.*"/>
 		</match>
