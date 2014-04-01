@@ -117,6 +117,24 @@
 		<cat-item tags="v.*.gna_when"/>
 	</def-cat>
 
+    <def-cat n="gpr-past-px">
+      <cat-item tags="v.*.gpr_past.px1sg"/>
+      <cat-item tags="v.*.gpr_past.px2sg"/>
+      <cat-item tags="v.*.gpr_past.px3sp"/>
+      <cat-item tags="v.*.gpr_past.px1pl"/>
+      <cat-item tags="v.*.gpr_past.px2pl"/>
+      <cat-item tags="v.*.gpr_rsub.px1sg"/>
+      <cat-item tags="v.*.gpr_rsub.px2sg"/>
+      <cat-item tags="v.*.gpr_rsub.px3sp"/>
+      <cat-item tags="v.*.gpr_rsub.px1pl"/>
+      <cat-item tags="v.*.gpr_rsub.px2pl"/>
+      <cat-item tags="v.*.gpr_robj.px1sg"/>
+      <cat-item tags="v.*.gpr_robj.px2sg"/>
+      <cat-item tags="v.*.gpr_robj.px3sp"/>
+      <cat-item tags="v.*.gpr_robj.px1pl"/>
+      <cat-item tags="v.*.gpr_robj.px2pl"/>
+    </def-cat>
+
     <def-cat n="gpr-past">
       <cat-item tags="v.*.gpr_rsub"/>
       <cat-item tags="v.*.gpr_robj"/>
@@ -331,7 +349,6 @@
       </action>
     </rule>
 
-  
     <rule comment="num-abstr n"> 
       <pattern>
         <pattern-item n="num-abstr"/>
@@ -719,7 +736,59 @@
         </action>
       </rule>
  
-    <rule comment=""> 
+    <rule comment="gpr-past-px n"> 
+      <pattern>
+        <pattern-item n="gpr-past-px"/>
+        <pattern-item n="n"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_gpr"/><lit-tag v="gpr_past"/></let> 
+        <let><clip pos="1" side="tl" part="poss"/><lit v=""/></let> 
+        <choose>
+          <when>
+            <test><equal><clip pos="2" side="tl" part="case"/><lit-tag v="ins"/></equal></test>
+            <let><clip pos="2" side="tl" part="case"/><lit-tag v="nom"/></let> 
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="lemh"/>
+                <clip pos="2" side="tl" part="a_nom"/>
+                <clip pos="2" side="tl" part="num"/>
+                <clip pos="1" side="tl" part="poss"/>
+                <clip pos="2" side="tl" part="case"/>
+                <clip pos="2" side="tl" part="lemq"/>
+              </lu>
+              <b/>
+              <lu>
+                <lit v="менен"/> 
+                <lit-tag v="post"/>
+              </lu>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="lemh"/>
+                <clip pos="2" side="tl" part="a_nom"/>
+                <clip pos="2" side="tl" part="num"/>
+                <clip pos="1" side="tl" part="poss"/>
+                <clip pos="2" side="tl" part="case"/>
+                <clip pos="2" side="tl" part="lemq"/>
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+    <rule comment="n"> 
       <pattern>
         <pattern-item n="n"/>
       </pattern>
