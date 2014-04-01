@@ -15,6 +15,7 @@
     <def-cat n="n">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
+      <cat-item tags="v.*.*.subst.*"/>
       <cat-item tags="*.subst.*"/>
     </def-cat>
 
@@ -717,24 +718,6 @@
           </out>
         </action>
       </rule>
-
-   
-	<rule comment="regla: verb forms">
-		<pattern>
-			<pattern-item n="v"/>
-		</pattern>
-		<action>
-			<call-macro n="nonfin1">
-				<with-param pos="1"/>
-			</call-macro>
-			<out>
-				<lu>
-					<clip pos="1" side="tl" part="whole"/>
-				</lu>
-			</out>
-		</action>
-	</rule>
-
  
     <rule comment=""> 
       <pattern>
@@ -766,6 +749,24 @@
         </choose>
       </action>
     </rule>
+
+   
+	<rule comment="regla: verb forms">
+		<pattern>
+			<pattern-item n="v"/>
+		</pattern>
+		<action>
+			<call-macro n="nonfin1">
+				<with-param pos="1"/>
+			</call-macro>
+			<out>
+				<lu>
+					<clip pos="1" side="tl" part="whole"/>
+				</lu>
+			</out>
+		</action>
+	</rule>
+
 
 
   </section-rules>
