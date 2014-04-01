@@ -3,6 +3,11 @@
 <transfer>
   <section-def-cats>
     
+    <def-cat n="inf">
+      <cat-item tags="v.*.inf"/>
+      <cat-item tags="v.*.*.inf"/>
+    </def-cat>
+
     <def-cat n="num-abstr">
       <cat-item tags="num.abstr"/>
     </def-cat>
@@ -61,10 +66,6 @@
       <cat-item lemma="iste" tags="v.tv.*.ifi.*"/>
       <cat-item lemma="iste" tags="v.tv.past.*"/>
       <cat-item lemma="iste" tags="v.tv.*.past.*"/>
-    </def-cat>
-
-    <def-cat n="inf">
-      <cat-item tags="v.*.inf"/>
     </def-cat>
 
     <def-cat n="fut-dub">
@@ -297,26 +298,39 @@
     <def-var n="number"/>
   </section-def-vars>  
 
-	<section-def-macros>
-		<def-macro n="nonfin1" npar="1">
-			<choose>
-				<when>
-					<test><equal><clip pos="1" side="sl" part="v_nonfin"/><lit-tag v="gna_when"/></equal></test>
-					<let>
-						<clip pos="1" side="tl" part="v_nonfin"/>
-						<lit-tag v="ger_past.loc"/>
-					</let>
-				</when>
-				<when>
-					<test><equal><clip pos="1" side="sl" part="v_nonfin"/><lit-tag v="cond"/></equal></test>
-					<let>
-						<clip pos="1" side="tl" part="v_nonfin"/>
-						<lit-tag v="gna_cond"/>
-					</let>
-				</when>
-			</choose>
-		</def-macro>
-	</section-def-macros>
+  <section-def-macros>
+    <def-macro n="nonfin1" npar="1">
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="sl" part="v_nonfin"/><lit-tag v="inf"/></equal></test>
+          <let>
+            <clip pos="1" side="tl" part="v_nonfin"/>
+            <concat>
+            <lit-tag v="ger_pres"/>
+            <lit-tag v="nom"/>
+            </concat>
+          </let>
+        </when>
+      <when>
+          <test><equal><clip pos="1" side="sl" part="v_nonfin"/><lit-tag v="gna_when"/></equal></test>
+          <let>
+            <clip pos="1" side="tl" part="v_nonfin"/>
+            <concat>
+            <lit-tag v="ger_past"/>
+            <lit-tag v="loc"/>
+            </concat>
+          </let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="sl" part="v_nonfin"/><lit-tag v="cond"/></equal></test>
+          <let>
+            <clip pos="1" side="tl" part="v_nonfin"/>
+            <lit-tag v="gna_cond"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+  </section-def-macros>
 
 
   <section-rules>
@@ -819,7 +833,24 @@
       </action>
     </rule>
 
-   
+    
+	<rule comment="regla: inf">
+		<pattern>
+			<pattern-item n="inf"/>
+		</pattern>
+		<action>
+			<call-macro n="nonfin1">
+				<with-param pos="1"/>
+			</call-macro>
+			<out>
+				<lu>
+					<clip pos="1" side="tl" part="whole"/>
+				</lu>
+			</out>
+		</action>
+	</rule>
+
+  
 	<rule comment="regla: verb forms">
 		<pattern>
 			<pattern-item n="v"/>
