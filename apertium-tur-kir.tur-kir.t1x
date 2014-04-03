@@ -57,6 +57,11 @@
       <cat-item lemma="iste" tags="v.tv.aor.*"/>
     </def-cat>
 
+    <def-cat n="iste-gpr_past"> 
+      <cat-item lemma="iste" tags="v.tv.gpr_past"/>
+      <cat-item lemma="iste" tags="v.tv.gpr_past.*"/>
+    </def-cat>
+
     <def-cat n="iste"> 
       <cat-item lemma="iste" tags="v.tv.aor.*"/>
       <cat-item lemma="iste" tags="v.tv.*.aor.*"/>
@@ -510,6 +515,55 @@
     </rule>
 
 
+    <rule comment="inf iste-gpr_past n"> 
+      <pattern>
+        <pattern-item n="inf"/>
+        <pattern-item n="iste-gpr_past"/>
+        <pattern-item n="n"/>
+        <pattern-item n="qst"/>
+        <pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <let><clip pos="2" side="tl" part="a_gpr"/><lit-tag v="gpr_past"/></let> 
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <lit-tag v="prc_vol"/>
+            <clip pos="5" side="tl" part="person"/>
+            <clip pos="5" side="tl" part="num"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <get-case-from pos="2">
+              <lit v="кел"/>
+            </get-case-from>
+            <lit-tag v="vaux"/>
+            <clip pos="2" side="tl" part="neg"/>
+            <clip pos="2" side="tl" part="a_gpr"/>
+          </lu>
+          <b pos="2"/>
+          <lu>
+            <clip pos="3" side="tl" part="lemh"/>
+            <clip pos="3" side="tl" part="a_nom"/>
+            <clip pos="3" side="tl" part="num"/>
+            <clip pos="2" side="tl" part="poss"/>
+            <clip pos="3" side="tl" part="case"/>
+          </lu>
+          <b pos="3"/>
+          <lu>
+            <clip pos="5" side="tl" part="whole"/>
+          </lu>
+          <b pos="4"/>
+          <lu>
+            <clip pos="4" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="inf iste"> 
       <pattern>
         <pattern-item n="inf"/>
@@ -867,6 +921,24 @@
 		</action>
 	</rule>
 
+
+    <rule comment=""> 
+      <pattern>
+        <pattern-item n="qst"/>
+        <pattern-item n="cop"/>
+      </pattern>
+      <action>
+            <out>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </out>
+      </action>
+    </rule>
 
 
   </section-rules>
