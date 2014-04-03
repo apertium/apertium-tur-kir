@@ -55,6 +55,8 @@
 
      <sdef n="sim"       c="Simulative"/>
      <sdef n="ger_past"  c="Past Gerund"/>
+     <sdef n="px3sp"     c="3rd person possessive"/>
+     <sdef n="abl"       c="ablative case"/>
 
      <sdef n="sg"        c="Singular"/>
      <sdef n="pl"        c="Plural"/>
@@ -285,6 +287,7 @@
         <e c="  0"><p><l>birçok<s n="det"/><s n="qnt"/></l><r>бир<b/>далай<s n="det"/><s n="qnt"/></r></p></e>
         <e c="  0"><p><l>aynı<s n="det"/><s n="ind"/></l><r>бирдей<s n="det"/><s n="ind"/></r></p></e>
         <e c="  0"><p><l>bu<b/>kadar<s n="det"/><s n="qnt"/></l><r>ушунчалык<s n="det"/><s n="qnt"/></r></p></e>
+        <e c="  0"><p><l>ne<b/>kadar<s n="det"/><s n="qnt"/></l><r>канчалык<s n="det"/><s n="qnt"/></r></p></e>
         <e c="  0"><p><l>birtakım<s n="det"/><s n="qnt"/></l><r>бир<b/>катар<s n="det"/><s n="qnt"/></r></p></e>
         
         <e c="  0"><p><l>bir<b/>kısım<s n="det"/></l><r>бир<b/>бөлүк<s n="det"/><s n="qnt"/></r></p></e>
@@ -3139,6 +3142,7 @@
     <e c="  0"><p><l>soruşturma<s n="n"/></l><r>тергөө<s n="n"/></r></p></e>
     <e slr="1"><p><l>soruşturma<s n="n"/></l><r>сурамжылоо<s n="n"/></r></p></e>
     <e c="  0"><p><l>art<s n="n"/></l><r>арт<s n="n"/></r></p></e>
+    <e slr="1"><p><l>art<s n="n"/><s n="px3sp"/><s n="abl"/></l><r>анан<s n="adv"/></r></p></e>
     <e c="  0"><p><l>mali<s n="n"/></l><r>акчалуу<s n="n"/></r></p></e>
     <e slr="1"><p><l>mali<s n="n"/></l><r>каражатту<s n="n"/></r></p></e>
     <e c="  0"><p><l>para<s n="n"/></l><r>акча<s n="n"/></r></p></e>
@@ -6295,7 +6299,8 @@
 	<e c="  0"><p><l>gül<s n="v"/><s n="iv"/></l><r>күл<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>uç<s n="v"/><s n="iv"/></l><r>уч<s n="v"/><s n="iv"/></r></p></e>
 
-	<e c="  0"><p><l>git<s n="v"/><s n="iv"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
+	<e c="  0"><p><l>git<s n="v"/><s n="iv"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
+	<e slr="1"><p><l>git<s n="v"/><s n="iv"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
 	<e c="  0"><p><l>arık<s n="v"/><s n="iv"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
 
 	<e c="  0"><p><l>çalış<s n="v"/><s n="iv"/></l><r>иште<s n="v"/><s n="iv"/></r></p></e>
