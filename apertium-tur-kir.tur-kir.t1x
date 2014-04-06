@@ -48,6 +48,15 @@
       <cat-item lemma="çek" tags="v.tv.aor"/>
     </def-cat>
 
+    <def-cat n="prc"> 
+      <cat-item  tags="v.*.prc"/>
+      <cat-item  tags="v.*.*.prc"/>
+    </def-cat>
+
+    <def-cat n="ol"> 
+      <cat-item lemma="ol" tags="v.iv.*"/>
+    </def-cat>
+
     <def-cat n="sor"> 
       <cat-item lemma="sor" tags="v.tv.*"/>
     </def-cat>
@@ -265,6 +274,7 @@
 	</def-attr>
 
 	<def-attr n="v_nonfin">
+		<attr-item tags="prc"/>
 		<attr-item tags="prc_impf"/>
 		<attr-item tags="prc_perf"/>
 		<attr-item tags="prc_plan"/>
@@ -617,6 +627,37 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="prc ol"> 
+      <pattern>
+        <pattern-item n="prc"/>
+        <pattern-item n="ol"/>
+        <pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="v_nonfin"/><lit-tag v="prc_perf"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="deriv"/>
+            <clip pos="1" side="tl" part="v_nonfin"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <get-case-from pos="2">
+              <lit v="жат"/>
+            </get-case-from>
+            <lit-tag v="vaux"/>
+            <clip pos="2" side="tl" part="tense"/>
+            <clip pos="3" side="tl" part="person"/>
+            <clip pos="3" side="tl" part="num"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="prog cop-aor"> 
       <pattern>
