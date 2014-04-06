@@ -81,6 +81,19 @@
       <cat-item lemma="iste" tags="v.tv.gpr_past.*"/>
     </def-cat>
 
+    <def-cat n="abil-ger_fut-nom"> 
+      <cat-item tags="v.*.abil.ger_fut.nom"/>
+      <cat-item tags="v.*.*.abil.ger_fut.nom"/>
+      <cat-item tags="v.*.*.*.abil.ger_fut.nom"/>
+    </def-cat>
+
+    <def-cat n="ger_fut-nom"> 
+      <cat-item tags="v.*.ger_fut.nom"/>
+      <cat-item tags="v.*.*.ger_fut.nom"/>
+      <cat-item tags="v.*.*.*.ger_fut.nom"/>
+      <cat-item tags="v.*.*.*.*.ger_fut.nom"/>
+    </def-cat>
+
     <def-cat n="kadar"> 
       <cat-item lemma="kadar" tags="post"/>
     </def-cat>
@@ -192,6 +205,8 @@
 	<def-cat n="v_abil">
 		<cat-item tags="v.*.abil"/>
 		<cat-item tags="v.*.abil.*"/>
+		<cat-item tags="v.*.*.abil.*"/>
+		<cat-item tags="v.*.*.*.abil.*"/>
 	</def-cat>
 
     <def-cat n="qst">
@@ -405,6 +420,60 @@
       </action>
     </rule>
 
+    <rule comment="abil-ger_fut-nom kadar">
+      <pattern>
+        <pattern-item n="abil-ger_fut-nom"/>
+        <pattern-item n="kadar"/>
+      </pattern>
+      <action>
+            <let><clip pos="1" side="tl" part="case"/><lit-tag v="dat"/></let>
+            <let><clip pos="1" side="tl" part="v_nonfin"/><lit-tag v="ger_past"/></let>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="a_verb"/>
+                <clip pos="1" side="tl" part="trans"/>
+                <clip pos="1" side="tl" part="deriv"/>
+                <clip pos="1" side="tl" part="a_neg"/>
+                <lit-tag v="prc_impf"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <lit v="ал"/>
+                <lit-tag v="vaux"/>
+                <clip pos="1" side="tl" part="v_nonfin"/>
+                <clip pos="1" side="tl" part="num"/>
+                <clip pos="1" side="tl" part="case"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </out>
+      </action>
+    </rule>
+
+
+    <rule comment="ger_fut-nom kadar">
+      <pattern>
+        <pattern-item n="ger_fut-nom"/>
+        <pattern-item n="kadar"/>
+      </pattern>
+      <action>
+            <let><clip pos="1" side="tl" part="case"/><lit-tag v="dat"/></let>
+            <let><clip pos="1" side="tl" part="v_nonfin"/><lit-tag v="ger_past"/></let>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </out>
+      </action>
+    </rule>
 
     <rule comment="iste-ger_past-px kadar">
       <pattern>
