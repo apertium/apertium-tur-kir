@@ -114,6 +114,10 @@
       <cat-item tags="v.*.*.past"/>
     </def-cat>
 
+    <def-cat n="cop-advl">
+      <cat-item lemma="i" tags="cop.advl"/>
+    </def-cat>
+
     <def-cat n="cop-ifi">
       <cat-item lemma="i" tags="cop.ifi.*"/>
     </def-cat>
@@ -754,6 +758,25 @@
       </action>
     </rule>
 
+
+    <rule comment="aor cop-advl"> 
+      <pattern>
+        <pattern-item n="aor"/>
+        <pattern-item n="cop-advl"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="trans"/>
+            <clip pos="1" side="tl" part="deriv"/>
+            <lit-tag v="ger_past.loc"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="aor cop-aor"> 
       <pattern>
