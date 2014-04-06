@@ -430,6 +430,7 @@
   <rule><match lemma="boz" tags="v.*"><select lemma="буз" tags="v.tv.*"/></match></rule>
   <rule><match lemma="buyur" tags="v.*"><select lemma="буйру" tags="v.iv.*"/></match></rule>
   <rule><match lemma="düş" tags="v.*"><select lemma="жык" tags="v.tv.pass.*"/></match></rule>
+  <!-- rule><match lemma="düş" tags="v.iv.ref"><select lemma="ойлон" tags="v.tv.*"/></match></rule -->
   <rule><match lemma="kat" tags="v.*"><select lemma="кат" tags="v.tv.*"/></match></rule>
   <rule><match lemma="seç" tags="v.*"><select lemma="танда" tags="v.tv.*"/></match></rule>
   <rule><match lemma="sür" tags="v.*"><select lemma="сүр" tags="v.tv.*"/></match></rule>
