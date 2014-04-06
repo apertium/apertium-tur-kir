@@ -668,4 +668,9 @@
 			<select lemma="иш" tags="n.*" />
 		</match>
 	</rule>
+	<rule>
+		<match lemma="güç" tags="n.*">
+			<select lemma="күч" tags="n.*" />
+		</match>
+	</rule>
 </rules>
