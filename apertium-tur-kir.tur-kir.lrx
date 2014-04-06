@@ -673,4 +673,10 @@
 			<select lemma="күч" tags="n.*" />
 		</match>
 	</rule>
+	<rule>
+		<match lemma="*" tags="v.*.ger_fut" />
+		<match lemma="kadar" tags="post">
+			<select lemma="чейин" tags="post"/>
+		</match>
+	</rule>
 </rules>
