@@ -48,6 +48,12 @@
       <cat-item lemma="çek" tags="v.tv.aor"/>
     </def-cat>
 
+    <def-cat n="gna-aor"> 
+      <cat-item  tags="v.*.gna_aor"/>
+      <cat-item  tags="v.*.*.gna_aor"/>
+    </def-cat>
+
+
     <def-cat n="prc"> 
       <cat-item  tags="v.*.prc"/>
       <cat-item  tags="v.*.*.prc"/>
@@ -300,6 +306,7 @@
 		<attr-item tags="ger_impf"/>
 		<attr-item tags="ger_abs"/>
 		
+		<attr-item tags="gna_aor"/>
 		<attr-item tags="gna_impf"/>
 		<attr-item tags="gna_perf"/>
 		<attr-item tags="gna_when"/>
@@ -627,6 +634,21 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="gna-aor"> 
+      <pattern>
+        <pattern-item n="gna-aor"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="v_nonfin"/><lit-tag v="gna_perf"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="prc"> 
       <pattern>
