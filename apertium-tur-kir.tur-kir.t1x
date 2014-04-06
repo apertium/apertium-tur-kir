@@ -628,6 +628,20 @@
       </action>
     </rule>
 
+    <rule comment="prc"> 
+      <pattern>
+        <pattern-item n="prc"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="v_nonfin"/><lit-tag v="prc_perf"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="prc ol"> 
       <pattern>
         <pattern-item n="prc"/>
