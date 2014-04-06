@@ -77,6 +77,18 @@
       <cat-item lemma="iste" tags="v.tv.gpr_past.*"/>
     </def-cat>
 
+    <def-cat n="kadar"> 
+      <cat-item lemma="kadar" tags="post"/>
+    </def-cat>
+
+    <def-cat n="iste-ger_past-px"> 
+      <cat-item lemma="iste" tags="v.tv.ger_past.px1sg.nom"/>
+      <cat-item lemma="iste" tags="v.tv.ger_past.px2sg.nom"/>
+      <cat-item lemma="iste" tags="v.tv.ger_past.px3sp.nom"/>
+      <cat-item lemma="iste" tags="v.tv.ger_past.px1pl.nom"/>
+      <cat-item lemma="iste" tags="v.tv.ger_past.px2pl.nom"/>
+    </def-cat>
+
     <def-cat n="iste"> 
       <cat-item lemma="iste" tags="v.tv.aor.*"/>
       <cat-item lemma="iste" tags="v.tv.*.aor.*"/>
@@ -360,6 +372,24 @@
 
 
   <section-rules>
+    <rule comment="iste-ger_past-px kadar">
+      <pattern>
+        <pattern-item n="iste-ger_past-px"/>
+        <pattern-item n="kadar"/>
+      </pattern>
+      <action>
+            <out>
+              <lu>
+                <get-case-from pos="1">
+                  <lit v="каалаганча"/>
+                </get-case-from>
+                <lit-tag v="det.qnt"/>
+              </lu>
+            </out>
+      </action>
+
+
+    </rule>
   
     <rule comment="n-acc iç-px-dat çek-aor cop-ifi"> 
       <pattern>
