@@ -8,6 +8,10 @@
       <cat-item tags="v.*.*.inf"/>
     </def-cat>
 
+    <def-cat n="sade">
+      <cat-item tags="adv"/>
+    </def-cat>
+
     <def-cat n="num-abstr">
       <cat-item tags="num.abstr"/>
     </def-cat>
@@ -190,6 +194,13 @@
 
     <def-cat n="adj">
       <cat-item tags="adj"/>
+    </def-cat>
+
+    <def-cat n="mod">
+      <cat-item tags="adj"/>
+      <cat-item tags="det.*"/>
+      <cat-item tags="num"/>
+      <cat-item tags="prn.pers.*.*.gen"/>
     </def-cat>
 
     <def-cat n="n-nom">
@@ -1051,6 +1062,24 @@
 		</action>
 	</rule>
 
+
+    <rule comment=""> 
+      <pattern>
+        <pattern-item n="sade"/>
+        <pattern-item n="mod"/>
+      </pattern>
+      <action>
+            <out>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </out>
+      </action>
+    </rule>
 
     <rule comment=""> 
       <pattern>
