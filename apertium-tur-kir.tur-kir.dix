@@ -6021,6 +6021,7 @@
 	<e c="  0"><p><l>neden<s n="adv"/></l><r>эмнеге<s n="adv"/><s n="itg"/></r></p></e>
 	<e c="  0"><p><l>niye<s n="adv"/></l><r>эмнеге<s n="adv"/><s n="itg"/></r></p></e>
 	<e c="  0"><p><l>nasıl<s n="adv"/></l><r>кандай<s n="adv"/><s n="itg"/></r></p></e>
+   <e c="  0"><p><l>hayattayken<s n="adv"/></l><r>тирүү<b />кезинде<s n="adv"/></r></p></e>
 
 	<!-- added from apertium-tr-az -->
 	<e c="  0"><p><l>yarın<s n="adv"/></l><r>эртең<s n="adv"/></r></p></e>
