@@ -50,8 +50,8 @@
       <cat-item tags="emph"/>
       <cat-item tags="mod"/>
       <cat-item tags="postadv"/>
-      <cat-item lemma="да" tags="postadv"/>
-      <cat-item lemma="да" tags="cnjcoo"/>
+      <!-- cat-item lemma="да" tags="postadv"/ -->
+      <!-- cat-item lemma="да" tags="cnjcoo"/ -->
     </def-cat>
 
   </section-def-cats>
