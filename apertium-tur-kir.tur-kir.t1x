@@ -9,7 +9,7 @@
     </def-cat>
 
     <def-cat n="sade">
-      <cat-item tags="adv"/>
+      <cat-item lemma="sade" tags="adv"/>
     </def-cat>
 
     <def-cat n="num-abstr">
