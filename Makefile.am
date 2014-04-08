@@ -2,6 +2,8 @@
 ## Makefile for Turkish--Kyrgyz
 ###############################################################################
 
+SUBDIRS=$(AP_SUBDIRS)
+
 VERSION=0.2.0
 LANG1=tur
 LANG2=kir
@@ -16,13 +18,8 @@ TARGETS_COMMON = $(PREFIX1).autobil.bin $(PREFIX2).autobil.bin \
         $(PREFIX1).rlx.bin $(PREFIX2).rlx.bin \
         $(PREFIX1).autolex.bin $(PREFIX2).autolex.bin
 
-# Use this goal for creating .deps, otherwise make -j2 will give problems:
-.deps/.d:
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	touch $@
-
-# Prevent the .d file from being removed automatically:
-.PRECIOUS: .deps/.d
+# This include defines goals for install-modes, .deps/.d and .mode files:
+@ap_include@
 
 ###############################################################################
 ## Turkish→Kyrgyz monolingual transducers
@@ -139,12 +136,6 @@ $(PREFIX2).autopgen.bin: $(AP_SRC1)/apertium-$(LANG1).post-$(LANG1).dix
 ## Translation modes
 ###############################################################################
 
-# All modes are created by this one goal
-modes/$(PREFIX1).mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
-
 EXTRA_DIST=$(PREFIX1).prob $(PREFIX2).prob \
            $(BASENAME).$(PREFIX1).lrx \
            $(BASENAME).$(PREFIX1).dix \
@@ -157,30 +148,24 @@ EXTRA_DIST=$(PREFIX1).prob $(PREFIX2).prob \
            $(BASENAME).$(PREFIX2).t2x \
            modes.xml
 
-apertium_tur_kirmodesdir=$(prefix)/share/apertium/modes/
 apertium_tur_kirdir=$(prefix)/share/apertium/$(BASENAME)/
 
 apertium_tur_kir_DATA=$(TARGETS_COMMON) \
-                    $(PREFIX1).prob $(PREFIX2).prob \
-		    modes.xml
+	$(BASENAME).$(PREFIX1).t1x \
+	$(BASENAME).$(PREFIX1).t2x \
+	$(BASENAME).$(PREFIX2).t1x \
+	$(BASENAME).$(PREFIX2).t2x \
+	$(PREFIX1).prob $(PREFIX2).prob
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
 
+install-data-local: install-modes
 
-install-data-local:
-	mv modes modes.bak
-	$(prefix)/bin/apertium-gen-modes modes.xml $(BASENAME)
-	rm -rf modes
-	mv modes.bak modes
-	test -d $(DESTDIR)$(apertium_tur_kirmodesdir) || mkdir $(DESTDIR)$(apertium_tur_kirmodesdir)
-	modes=`xmllint --xpath '//mode[@install="yes"]/@name' modes.xml | sed 's/ *name="\([^"]*\)"/\1.mode /g'`; \
-		$(INSTALL_DATA) $$modes $(DESTDIR)$(apertium_modesdir); \
-		rm $$modes
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t1x $(DESTDIR)$(apertium_tur_kirdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX1).t2x $(DESTDIR)$(apertium_tur_kirdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_tur_kirdir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_tur_kirdir)
+
+###############################################################################
+## Cleanup
+###############################################################################
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local: 
