@@ -4,14 +4,17 @@
   <section-def-cats>
      
     <def-cat n="fin">
+      <cat-item lemma="каала" tags="v.tv.prog.*"/>
       <cat-item lemma="каала" tags="v.tv.past.*"/>
       <cat-item lemma="каала" tags="v.tv.aor.*"/>
       <cat-item lemma="каала" tags="v.tv.ifi.*"/>
       <cat-item lemma="каала" tags="v.tv.fut.*"/>
+      <cat-item lemma="каала" tags="v.tv.*.prog.*"/>
       <cat-item lemma="каала" tags="v.tv.*.past.*"/>
       <cat-item lemma="каала" tags="v.tv.*.aor.*"/>
       <cat-item lemma="каала" tags="v.tv.*.ifi.*"/>
       <cat-item lemma="каала" tags="v.tv.*.fut.*"/>
+      <cat-item lemma="каала" tags="v.tv.*.*.prog.*"/>
       <cat-item lemma="каала" tags="v.tv.*.*.past.*"/>
       <cat-item lemma="каала" tags="v.tv.*.*.aor.*"/>
       <cat-item lemma="каала" tags="v.tv.*.*.ifi.*"/>
@@ -60,6 +63,10 @@
       <attr-item tags="TD"/>
     </def-attr>
 
+    <def-attr n="a_verb">
+      <attr-item tags="vaux"/>
+      <attr-item tags="v"/>
+    </def-attr>
 
     <def-attr n="a_prc">
       <attr-item tags="prc"/>
@@ -93,7 +100,8 @@
       <action>
         <let><clip pos="1" side="tl" part="a_prc"/><lit-tag v="prc_vol"/></let>
         <let><clip pos="2" side="tl" part="lem"/><get-case-from pos="2"><lit v="кел"/></get-case-from></let>
-        <let><clip pos="2" side="tl" part="a_trans"/><lit-tag v="iv"/></let>
+        <let><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vaux"/></let>
+        <let><clip pos="2" side="tl" part="a_trans"/><lit v=""/></let>
         <let><clip pos="2" side="tl" part="a_pers"/><lit-tag v="p3"/></let>
         <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
         <out>
