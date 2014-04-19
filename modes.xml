@@ -20,8 +20,8 @@
         <file name="tur-kir.t1x.bin"/>
       </program>
       <program name="apertium-transfer -n">
-        <file name="apertium-tur-kir.tur-kir.t2x"/>
-        <file name="tur-kir.t2x.bin"/>
+        <file name="apertium-tur-kir.tur-kir.t6x"/>
+        <file name="tur-kir.t6x.bin"/>
       </program>
       <program name="hfst-proc $1">
         <file name="tur-kir.autogen.hfst"/>
@@ -49,8 +49,8 @@
         <file name="tur-kir.t1x.bin"/>
       </program>
       <program name="apertium-transfer -n">
-        <file name="apertium-tur-kir.tur-kir.t2x"/>
-        <file name="tur-kir.t2x.bin"/>
+        <file name="apertium-tur-kir.tur-kir.t6x"/>
+        <file name="tur-kir.t6x.bin"/>
       </program>
       <program name="hfst-proc -d">
         <file name="tur-kir.autogen.hfst"/>
@@ -171,8 +171,8 @@
         <file name="tur-kir.t1x.bin"/>
       </program>
       <program name="apertium-transfer -n">
-        <file name="apertium-tur-kir.tur-kir.t2x"/>
-        <file name="tur-kir.t2x.bin"/>
+        <file name="apertium-tur-kir.tur-kir.t6x"/>
+        <file name="tur-kir.t6x.bin"/>
       </program>
     </pipeline>
   </mode>
