@@ -20,6 +20,10 @@
         <file name="tur-kir.t1x.bin"/>
       </program>
       <program name="apertium-transfer -n">
+        <file name="apertium-tur-kir.tur-kir.t2x"/>
+        <file name="tur-kir.t2x.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
         <file name="apertium-tur-kir.tur-kir.t6x"/>
         <file name="tur-kir.t6x.bin"/>
       </program>
@@ -47,6 +51,10 @@
       <program name="apertium-transfer -b">
         <file name="apertium-tur-kir.tur-kir.t1x"/>
         <file name="tur-kir.t1x.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-tur-kir.tur-kir.t2x"/>
+        <file name="tur-kir.t2x.bin"/>
       </program>
       <program name="apertium-transfer -n">
         <file name="apertium-tur-kir.tur-kir.t6x"/>
@@ -171,13 +179,44 @@
         <file name="tur-kir.t1x.bin"/>
       </program>
       <program name="apertium-transfer -n">
+        <file name="apertium-tur-kir.tur-kir.t2x"/>
+        <file name="tur-kir.t2x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+ 
+  <mode name="tur-kir-transfer6" install="no">
+    <pipeline>
+      <program name="lt-proc -w">
+        <file name="tur-kir.automorf.bin"/>
+      </program>
+      <program name="cg-proc -n -w -1">
+        <file name="tur-kir.rlx.bin"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="tur-kir.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="tur-kir.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-tur-kir.tur-kir.t1x"/>
+        <file name="tur-kir.t1x.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
+        <file name="apertium-tur-kir.tur-kir.t2x"/>
+        <file name="tur-kir.t2x.bin"/>
+      </program>
+      <program name="apertium-transfer -n">
         <file name="apertium-tur-kir.tur-kir.t6x"/>
         <file name="tur-kir.t6x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  
+  <!-- Kyrgyz → Turkish -->
+ 
   <mode name="kir-tur" install="yes">
     <pipeline>
       <program name="lt-proc -w">
