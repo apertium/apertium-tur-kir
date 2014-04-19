@@ -100,5 +100,4 @@ texts/küçükkuş.kir.txt -text svneol=unset#application/octet-stream
 texts/küçükkuş.tur-kir.txt -text
 texts/küçükkuş.tur.txt -text
 /tur-kir.prob -text svneol=unset#unset
-/update-morphs.bash -text
 /wiki-tests.sh -text
