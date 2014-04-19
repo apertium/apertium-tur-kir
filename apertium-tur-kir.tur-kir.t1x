@@ -546,7 +546,7 @@
       </action>
     </rule>
 
-    <rule comment=""> 
+    <rule comment="bir n-nom n-px3sp-nom"> 
       <pattern>
         <pattern-item n="bir"/>
         <pattern-item n="n-nom"/>
@@ -596,7 +596,7 @@
       </action>
     </rule>
 
-    <rule comment=""> 
+    <rule comment="adj qst cop"> 
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="qst"/>
@@ -1155,7 +1155,7 @@
 	</rule>
 
 
-    <rule comment=""> 
+    <rule comment="sade mod"> 
       <pattern>
         <pattern-item n="sade"/>
         <pattern-item n="mod"/>
@@ -1173,7 +1173,7 @@
       </action>
     </rule>
 
-    <rule comment=""> 
+    <rule comment="qst cop"> 
       <pattern>
         <pattern-item n="qst"/>
         <pattern-item n="cop"/>
