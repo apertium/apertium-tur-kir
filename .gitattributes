@@ -20,7 +20,7 @@
 /configure.ac -text
 /countstems.sh -text
 dev/apertium-tr-ky.tr-ky.t1x -text
-dev/apertium-tur-kir.tur-kir.t1x -text
+dev/apertium-tur-kir.tur-kir.t1x-2011 -text
 dev/bidix/bidix-with-context.sh -text
 dev/bidix/context_adjectives.txt -text
 dev/bidix/context_conjunctions.txt -text
