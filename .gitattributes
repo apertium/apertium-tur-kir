@@ -14,7 +14,7 @@
 /apertium-tur-kir.tur-kir.dix -text
 /apertium-tur-kir.tur-kir.lrx -text
 /apertium-tur-kir.tur-kir.t1x -text
-/apertium-tur-kir.tur-kir.t2x -text
+/apertium-tur-kir.tur-kir.t6x -text
 /autogen.sh -text
 /configure.ac -text
 /countstems.sh -text
