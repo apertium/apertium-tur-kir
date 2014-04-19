@@ -2,7 +2,13 @@
 
 <transfer>
   <section-def-cats>
-    <def-cat n="aor">
+    <def-cat n="prog">
+      <cat-item tags="v.*.prog"/>
+      <cat-item tags="v.*.*.prog"/>
+      <cat-item tags="v.*.*.*.prog"/>
+    </def-cat>
+
+     <def-cat n="aor">
       <cat-item tags="v.*.aor"/>
       <cat-item tags="v.*.*.aor"/>
       <cat-item tags="v.*.*.*.aor"/>
@@ -62,6 +68,22 @@
 
   <section-rules>
     
+    <rule comment="prog cop-aor"> 
+      <pattern>
+        <pattern-item n="prog"/>
+        <pattern-item n="cop-aor"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+            <clip pos="2" side="tl" part="a_pers"/>
+            <clip pos="2" side="tl" part="a_nbr"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="aor cop-aor"> 
       <pattern>
         <pattern-item n="aor"/>
