@@ -4739,10 +4739,10 @@
 
     <e><p><l>Sırb<s n="np"/></l><r>Серб<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sırp<s n="np"/></l><r>Серб<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Makedonya<s n="np"/></l><r>Македония<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Arnavutluk<s n="np"/></l><r>Албан<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Bosna<s n="np"/></l><r>Босня<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yunanistan<s n="np"/></l><r>Греция<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Makedonya<s n="np"/><s n="top"/></l><r>Македония<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Arnavutluk<s n="np"/><s n="top"/></l><r>Албан<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Bosna<s n="np"/><s n="top"/></l><r>Босня<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Yunanistan<s n="np"/><s n="top"/></l><r>Греция<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>AB<s n="np"/><s n="acr"/></l><r>ЕБ<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Türk<s n="np"/></l><r>Түрк<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Hırvat<s n="np"/></l><r>Харват<s n="np"/><s n="top"/></r></p></e>
@@ -4757,7 +4757,7 @@
     <e><p><l>Saraybosna<s n="np"/></l><r>Сарайбосня<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>Rusya<s n="np"/><s n="top"/></l><r>Орусия<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Zagreb<s n="np"/></l><r>Загреб<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Sofya<s n="np"/></l><r>София<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Sofya<s n="np"/><s n="top"/></l><r>София<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Anadolu<s n="np"/></l><r>Анадолу<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Almanya<s n="np"/><s n="top"/></l><r>Германия<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Slovenya<s n="np"/><s n="top"/></l><r>Словения<s n="np"/><s n="top"/></r></p></e>
