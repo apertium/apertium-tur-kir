@@ -17,7 +17,7 @@
     <def-cat n="cop-aor">
       <cat-item lemma="i" tags="cop.aor.*"/>
     </def-cat>
- 
+
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>

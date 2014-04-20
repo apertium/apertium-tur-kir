@@ -10,9 +10,23 @@
       <cat-item lemma="кел" tags="vaux.*"/>
     </def-cat>
 
+    <!-- *** -->
+ 
+    <def-cat n="nmod">
+      <cat-item tags="adj"/>
+      <cat-item tags="det.ind"/>
+      <cat-item tags="n.attr"/>
+    </def-cat>
+
+    <def-cat n="n">
+      <cat-item tags="n.nom"/>
+      <cat-item tags="n.*.nom"/>
+    </def-cat>
+
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
+
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_verb">
@@ -117,6 +131,29 @@
             <b pos="1"/>
             <lu>
               <var n="aux-verb"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: nmod n">
+      <pattern>
+        <pattern-item n="nmod"/>
+        <pattern-item n="n"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="m-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
