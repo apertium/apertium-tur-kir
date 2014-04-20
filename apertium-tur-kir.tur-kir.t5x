@@ -5,6 +5,9 @@
     <def-cat n="default">
       <cat-item name="default"/>
     </def-cat>
+    <def-cat n="x-n">
+      <cat-item name="m-n"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item name="punt"/>
     </def-cat>
@@ -27,46 +30,62 @@
   </section-def-attrs>
   <section-def-vars>
     <def-var n="paraula"/>
-    <def-var n="case"/>
+    <def-var n="postposition"/>
   </section-def-vars>
-  <section-rules>
-    <rule comment="default">
-      <pattern>
-        <pattern-item n="default"/>
-      </pattern>
+  <section-def-macros>
+    <def-macro n="instrumental1" npar="1">
       <!-- This default rule deals with the instrumental case, converting it 
              into a postposition 'менен' with the correct case on the thing it is 
              governing: accusative with pronouns, and nominative with other substantives -->
-      <action>
-        <let><var n="case"/><lit v=""/></let>
+        <let><var n="postposition"/><lit v=""/></let>
         <choose>
           <when><test><and><equal><clip pos="1" part="a_cas"/><lit-tag v="ins"/></equal>
                            <equal><clip pos="1" part="a_prn"/><lit-tag v="prn"/></equal></and>
                 </test>
                 <let><clip pos="1" part="a_cas"/><lit-tag v="acc"/></let>
-                <let><var n="case"/><lit-tag v="ins"/></let>
+                <let><var n="postposition"/><concat><lit v=" ^"/><lit v="менен"/><lit-tag v="post"/><lit v="$"/></concat></let>
           </when>
           <when><test><equal><clip pos="1" part="a_cas"/><lit-tag v="ins"/></equal></test>
                 <let><clip pos="1" part="a_cas"/><lit-tag v="nom"/></let>
-                <let><var n="case"/><lit-tag v="ins"/></let>
+                <let><var n="postposition"/><concat><lit v=" ^"/><lit v="менен"/><lit-tag v="post"/><lit v="$"/></concat></let>
           </when>
         </choose>
-        <choose>
-          <when><test><not><equal><var n="case"/><lit v=""/></equal></not></test> 
-                <out>
-                  <lu><clip pos="1" part="whole"/></lu>
-                  <b/>
-                  <lu><lit v="менен"/><lit-tag v="post"/></lu>
-                </out>
-          </when>
-          <otherwise>
-                <out>
-                  <lu><clip pos="1" part="whole"/></lu>
-                </out>
-          </otherwise>
-        </choose>
+    </def-macro>
+  </section-def-macros>
+  <section-rules>
+
+    <rule comment="default">
+      <pattern>
+        <pattern-item n="default"/>
+      </pattern>
+      <action>
+        <call-macro n="instrumental1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu><clip pos="1" part="whole"/></lu>
+          <var n="postposition"/>
+        </out>
       </action>
     </rule>
+
+    <rule comment="x-n">
+      <pattern>
+        <pattern-item n="x-n"/>
+      </pattern>
+      <action>
+        <call-macro n="instrumental1">
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <lu><clip pos="1" part="whole"/></lu>
+          <b pos="1"/>
+          <lu><clip pos="2" part="whole"/></lu>
+          <var n="postposition"/>
+        </out>
+      </action>
+    </rule>
+
 
   </section-rules>
 </postchunk>
