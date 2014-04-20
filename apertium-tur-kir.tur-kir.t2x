@@ -33,7 +33,15 @@
   
   <section-def-attrs>
     
-    <def-attr n="a_case">
+    <def-attr n="a_fin">
+      <attr-item tags="prog"/>
+      <attr-item tags="ifi"/>
+      <attr-item tags="fut"/>
+      <attr-item tags="aor"/>
+      <attr-item tags="past"/>
+    </def-attr>
+
+     <def-attr n="a_case">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
       <attr-item tags="dat"/>
@@ -63,6 +71,10 @@
       <attr-item tags="TD"/>
     </def-attr>
 
+    <def-attr n="a_neg">
+      <attr-item tags="neg"/>
+    </def-attr>
+
     <def-attr n="a_verb">
       <attr-item tags="vaux"/>
       <attr-item tags="v"/>
@@ -88,6 +100,7 @@
  
   <section-def-vars>
     <def-var n="number"/>
+    <def-var n="negatiu"/>
   </section-def-vars>  
 
   <section-rules>
@@ -98,12 +111,26 @@
         <pattern-item n="fin"/>
       </pattern>
       <action>
+        <choose>
+          <when><test><or><equal><clip pos="1" side="tl" part="a_neg"/><lit-tag v="neg"/></equal>
+                          <equal><clip pos="2" side="tl" part="a_neg"/><lit-tag v="neg"/></equal></or></test>
+                <let><var n="negatiu"/><lit-tag v="neg"/></let>
+          </when>
+          <otherwise>
+                <let><var n="negatiu"/><lit v=""/></let>
+          </otherwise>
+        </choose>
         <let><clip pos="1" side="tl" part="a_prc"/><lit-tag v="prc_vol"/></let>
-        <let><clip pos="2" side="tl" part="lem"/><get-case-from pos="2"><lit v="кел"/></get-case-from></let>
-        <let><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vaux"/></let>
-        <let><clip pos="2" side="tl" part="a_trans"/><lit v=""/></let>
-        <let><clip pos="2" side="tl" part="a_pers"/><lit-tag v="p3"/></let>
-        <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
+        <let><clip pos="2" side="tl" part="whole"/>
+             <concat>
+               <get-case-from pos="2"><lit v="кел"/></get-case-from>
+               <lit-tag v="vaux"/>
+               <var n="negatiu"/>
+               <clip pos="2" side="tl" part="a_fin"/>
+               <lit-tag v="p3.sg"/>
+             </concat>
+        </let>
+        <let><clip pos="1" side="tl" part="a_neg"/><lit v=""/></let>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
