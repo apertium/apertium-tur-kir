@@ -285,7 +285,8 @@
     <e c="  0"><p><l>o<b/>kadar<s n="det"/><s n="qnt"/></l><r>анчалык<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>tüm<s n="det"/><s n="qnt"/></l><r>бардык<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>herhangi<s n="det"/><s n="ind"/></l><r>ар<b/>ким<s n="det"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>aynı<s n="det"/><s n="ind"/></l><r>бирдей<s n="det"/><s n="ind"/></r></p></e>
+    <e c="  0"><p><l>aynı<s n="det"/><s n="dem"/></l><r>бирдей<s n="det"/><s n="ind"/></r></p></e>
+    <e c="  0"><p><l>aynı<s n="det"/><s n="dem"/></l><r>окшош<s n="adj"/></r></p></e>
     <e c="  0"><p><l>bu<b/>kadar<s n="det"/><s n="qnt"/></l><r>ушунчалык<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>ne<b/>kadar<s n="det"/><s n="qnt"/></l><r>канчалык<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>birtakım<s n="det"/><s n="qnt"/></l><r>бир<b/>катар<s n="det"/><s n="qnt"/></r></p></e>
@@ -5279,8 +5280,6 @@
     <e c="  0"><p><l>ana<s n="adj"/></l><r>башкы<s n="adj"/></r></p></e>
     <e c="  0"><p><l>uluslararası<s n="adj"/></l><r>эларалык<s n="adj"/></r></p></e>
     <e c="  0"><p><l>ulusal<s n="adj"/></l><r>улуттук<s n="adj"/></r></p></e>
-    <e c="  0"><p><l>aynı<s n="adj"/></l><r>окшош<s n="adj"/></r></p></e>
-    <e slr="1"><p><l>aynı<s n="adj"/></l><r>бирдей<s n="adj"/></r></p></e>
     <e c="  0"><p><l>ilişkin<s n="adj"/></l><r>байланыштуу<s n="adj"/></r></p></e>
     <e c="  0"><p><l>bazı<s n="adj"/></l><r>кээбир<s n="adj"/></r></p></e>
     <e slr="1"><p><l>bazı<s n="adj"/></l><r>айрым<s n="adj"/></r></p></e>
