@@ -15,9 +15,9 @@
     </def-cat>
 
      <def-cat n="past">
-      <cat-item tags="v.*.aor"/>
-      <cat-item tags="v.*.*.aor"/>
-      <cat-item tags="v.*.*.*.aor"/>
+      <cat-item tags="v.*.past"/>
+      <cat-item tags="v.*.*.past"/>
+      <cat-item tags="v.*.*.*.past"/>
     </def-cat>
           
     <def-cat n="cop-aor">
@@ -69,6 +69,11 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
+ 
+    <def-attr n="a_past">
+      <attr-item tags="past"/>
+      <attr-item tags="prc_past"/>
+    </def-attr>
     
   </section-def-attrs>
  
@@ -109,7 +114,26 @@
         </out>
       </action>
     </rule>
-     
+
+    <rule comment="past cop-ifi"> 
+      <pattern>
+        <pattern-item n="past"/>
+        <pattern-item n="cop-ifi"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_past"/><lit-tag v="prc_past"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+      
     <rule comment="sent"> 
       <pattern>
         <pattern-item n="sent"/>
