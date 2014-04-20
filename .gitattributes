@@ -21,6 +21,9 @@
 /apertium-tur-kir.tur-kir.t6x -text
 /autogen.sh -text
 /configure.ac -text
+corpus/corpus.tur.txt -text
+corpus/tur-kir-nova.txt -text
+corpus/tur-kir-origina.txt -text
 /countstems.sh -text
 dev/apertium-tr-ky.tr-ky.t1x -text
 dev/apertium-tur-kir.tur-kir.t1x -text
@@ -85,6 +88,7 @@ dev/verb-patterns.txt -text
 /kir-tur.prob -text svneol=unset#unset
 /modes.xml -text
 /pending-tests.sh -text
+/qa.sh -text
 /regression-tests.sh -text
 tests/HfstTester.py -text
 tests/README -text
@@ -101,6 +105,7 @@ tests/ky-verbsaux.yaml -text
 tests/ky-verbsimp.yaml -text
 tests/ky-verbsopt.yaml -text
 tests/run-tests.sh -text
+tests/tur-kir.test -text
 texts/küçükkuş.kir.txt -text svneol=unset#application/octet-stream
 texts/küçükkuş.tur-kir.txt -text
 texts/küçükkuş.tur.txt -text

@@ -13,9 +13,19 @@
       <cat-item tags="v.*.*.aor"/>
       <cat-item tags="v.*.*.*.aor"/>
     </def-cat>
-     
+
+     <def-cat n="past">
+      <cat-item tags="v.*.aor"/>
+      <cat-item tags="v.*.*.aor"/>
+      <cat-item tags="v.*.*.*.aor"/>
+    </def-cat>
+          
     <def-cat n="cop-aor">
       <cat-item lemma="i" tags="cop.aor.*"/>
+    </def-cat>
+
+    <def-cat n="cop-ifi">
+      <cat-item lemma="i" tags="cop.ifi.*"/>
     </def-cat>
 
     <def-cat n="sent">

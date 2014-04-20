@@ -2,6 +2,12 @@
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="prog">
+      <cat-item tags="v.*.prog.*"/>
+      <cat-item tags="v.*.*.prog.*"/>
+      <cat-item tags="v.*.*.*.prog.*"/>
+    </def-cat>
+
     <def-cat n="prc-vol">
       <cat-item tags="v.*.prc_vol.*"/>
     </def-cat>
@@ -109,6 +115,29 @@
     </def-macro>
   </section-def-macros>
   <section-rules>
+
+    <rule comment="REGLA: prog">
+      <pattern>
+        <pattern-item n="prog"/>
+      </pattern>
+      <action>
+        <let><var n="mainverb-lemma"/><clip pos="1" side="tl" part="lem"/></let>
+        <call-macro n="process-verb1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk namefrom="mainverb-lemma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <var n="aux-verb"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: prc-vol kel">
       <pattern>
