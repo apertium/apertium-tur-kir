@@ -117,6 +117,7 @@
 	
     <!-- SECTION: Miscellaneous -->
     <e c="  0"><p><l>ki<s n="cnjadv"/></l><r>эле<s n="postadv"/></r></p></e>
+    <e slr="1"><p><l>ki<s n="cnjadv"/></l><r>да<s n="cnjadv"/></r></p></e>
    
     <!-- SECTION: Conjunctions -->
     <e c="  0"><p><l>ki<s n="cnjsub"/></l><r></r></p></e>
