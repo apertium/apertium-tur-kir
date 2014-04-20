@@ -90,6 +90,8 @@ dev/verb-patterns.txt -text
 /pending-tests.sh -text
 /qa.sh -text
 /regression-tests.sh -text
+stats/history.log -text
+stats/regenerate-stats.sh -text
 tests/HfstTester.py -text
 tests/README -text
 tests/ky-adjectives.yaml -text

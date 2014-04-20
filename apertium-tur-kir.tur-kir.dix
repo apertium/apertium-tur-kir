@@ -4738,68 +4738,74 @@
     <e><p><l>Mezopotamya<s n="np"/><s n="top"/></l><r>Мезопотамия<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Romanya<s n="np"/><s n="top"/></l><r>Руминя<s n="np"/><s n="top"/></r></p></e>
 
-    <e><p><l>Sırb<s n="np"/></l><r>Серб<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Sırp<s n="np"/></l><r>Серб<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Yugoslavya<s n="np"/><s n="top"/></l><r>Югославия<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>İstanbul<s n="np"/><s n="top"/></l><r>Истанбул<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>İtalya<s n="np"/><s n="top"/></l><r>Италия<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>İngiltere<s n="np"/><s n="top"/></l><r>Англия<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Washington<s n="np"/><s n="top"/></l><r>Вашингтон<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Makedonya<s n="np"/><s n="top"/></l><r>Македония<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Arnavutluk<s n="np"/><s n="top"/></l><r>Албан<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bosna<s n="np"/><s n="top"/></l><r>Босня<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Yunanistan<s n="np"/><s n="top"/></l><r>Греция<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Saraybosna<s n="np"/></l><r>Сарайбосня<s n="np"/><s n="al"/></r></p></e>
+    <e><p><l>Üsküp<s n="np"/><s n="top"/></l><r>Үскүп<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Atina<s n="np"/><s n="top"/></l><r>Атина<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Rusya<s n="np"/><s n="top"/></l><r>Орусия<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Zagreb<s n="np"/></l><r>Загреб<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Sofya<s n="np"/><s n="top"/></l><r>София<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Anadolu<s n="np"/><s n="top"/></l><r>Анадолу<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Almanya<s n="np"/><s n="top"/></l><r>Германия<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Slovenya<s n="np"/><s n="top"/></l><r>Словения<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Rum<s n="np"/><s n="top"/></l><r>Рум<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Balkanlar<s n="np"/><s n="top"/></l><r>Балкандар<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Polonya<s n="np"/><s n="top"/></l><r>Польша<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Çin<s n="np"/><s n="top"/></l><r>Кытай<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Kürdistan<s n="np"/><s n="top"/></l><r>Курдистан<s n="np"/><s n="top"/></r></p></e>
+
+    <e><p><l>Fransız<s n="np"/><s n="top"/></l><r>Франция<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Viyana<s n="np"/><s n="top"/></l><r>Виена<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Macaristan<s n="np"/><s n="top"/></l><r>Венгрия<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Moskova<s n="np"/><s n="top"/></l><r>Москва<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>İspanya<s n="np"/><s n="top"/></l><r>Испания<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Ukrayna<s n="np"/><s n="top"/></l><r>Украина<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>İsveç<s n="np"/><s n="top"/></l><r>Швеция<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Arnavut<s n="np"/><s n="top"/></l><r>Албан<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>İsrail<s n="np"/><s n="top"/></l><r>Исраил<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>İran<s n="np"/><s n="top"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Mostar<s n="np"/><s n="top"/><s n="top"/></l><r>Мостар<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>İsviçre<s n="np"/><s n="top"/></l><r>Швецария<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Kosova<s n="np"/><s n="top"/></l><r>Косова<s n="np"/><s n="top"/></r></p></e>
+
+
+    <e><p><l>Sırb<s n="np"/></l><r>Серб<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Sırp<s n="np"/></l><r>Серб<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>AB<s n="np"/><s n="acr"/></l><r>ЕБ<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Türk<s n="np"/></l><r>Түрк<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Hırvat<s n="np"/></l><r>Харват<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bulgar<s n="np"/></l><r>Балгар<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Makedon<s n="np"/></l><r>Македониалык<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bosnalı<s n="np"/></l><r>Босниялык<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Lahey<s n="np"/></l><r>Лахей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Lahey<s n="np"/><s n="cog"/><s n="mf"/></l><r>Лахей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Boyner<s n="np"/><s n="cog"/><s n="mf"/></l><r>Бойнер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Bin<b/>Ladin<s n="np"/><s n="cog"/><s n="m"/></l><r>Бен<b/>Ладен<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
-    <e><p><l>Üsküp<s n="np"/><s n="top"/></l><r>Үскүп<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Atina<s n="np"/><s n="top"/></l><r>Атина<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Saraybosna<s n="np"/></l><r>Сарайбосня<s n="np"/><s n="al"/></r></p></e>
-    <e><p><l>Rusya<s n="np"/><s n="top"/></l><r>Орусия<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Zagreb<s n="np"/></l><r>Загреб<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Sofya<s n="np"/><s n="top"/></l><r>София<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Anadolu<s n="np"/></l><r>Анадолу<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Almanya<s n="np"/><s n="top"/></l><r>Германия<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Slovenya<s n="np"/><s n="top"/></l><r>Словения<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Rum<s n="np"/></l><r>Рум<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Balkanlar<s n="np"/></l><r>Балкандар<s n="np"/><s n="top"/></r></p></e>
+
     <e><p><l>Rumen<s n="np"/></l><r>Румын<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Romen<s n="np"/></l><r>Римдик<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Yugoslavya<s n="np"/><s n="top"/></l><r>Югославия<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>İstanbul<s n="np"/><s n="top"/></l><r>Истанбул<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>İtalya<s n="np"/><s n="top"/></l><r>Италия<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>İngiltere<s n="np"/><s n="top"/></l><r>Англия<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Washington<s n="np"/><s n="top"/></l><r>Вашингтон<s n="np"/><s n="top"/></r></p></e>
+
+    <e><p><l>İslam<s n="np"/></l><r>Ислам<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>IMF<s n="np"/></l><r>ИМФ<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Nisan<s n="np"/></l><r>Апрель<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Aralık<s n="np"/></l><r>Декабрь<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Ocak<s n="np"/></l><r>Январь<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Atlantik<s n="np"/></l><r>Атлантика<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Polonya<s n="np"/><s n="top"/></l><r>Польша<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Çin<s n="np"/></l><r>Кытай<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Kürt<s n="np"/></l><r>Күрт<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>İngiliz<s n="np"/></l><r>Англис<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Yugoslav<s n="np"/></l><r>Югослав<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Adriyatik<s n="np"/></l><r>Адриятика<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Kürdistan<s n="np"/></l><r>Курдистан<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Fransız<s n="np"/></l><r>Франция<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Viyana<s n="np"/></l><r>Виена<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Macaristan<s n="np"/><s n="top"/></l><r>Венгрия<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Moskova<s n="np"/><s n="top"/></l><r>Москва<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>İspanya<s n="np"/><s n="top"/></l><r>Испания<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ukrayna<s n="np"/><s n="top"/></l><r>Украина<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>İsveç<s n="np"/></l><r>Швеция<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>İslam<s n="np"/></l><r>Ислам<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Arnavut<s n="np"/></l><r>Албан<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>İsrail<s n="np"/><s n="top"/></l><r>Исраил<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>İran<s n="np"/><s n="top"/></l><r>Иран<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Mostar<s n="np"/><s n="top"/></l><r>Мостар<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>İsviçre<s n="np"/></l><r>Швецария<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Kosova<s n="np"/><s n="top"/></l><r>Косова<s n="np"/><s n="top"/></r></p></e>
+
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-    <e><p><l>Nikola<s n="np"/><s n="ant"/></l><r>Никола<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-    <e><p><l>Nemanja<s n="np"/><s n="ant"/></l><r>Неманя<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Nikola<s n="np"/><s n="ant"/><s n="m"/></l><r>Никола<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Nemanja<s n="np"/><s n="ant"/><s n="m"/></l><r>Неманя<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
     <e><p><l>Ayşe<s n="np"/><s n="ant"/><s n="f"/></l><r>Айше<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
     <e><p><l>Ana<s n="np"/><s n="ant"/><s n="f"/></l><r>Анна<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -4810,21 +4816,21 @@
     <e><p><l>Ted<s n="np"/><s n="ant"/><s n="m"/></l><r>Тэд<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Mitch<s n="np"/><s n="ant"/><s n="m"/></l><r>Митч<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
-    <e><p><l>Radovanoviç<s n="np"/><s n="cog"/></l><r>Радованович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-    <e><p><l>Stankoviç<s n="np"/><s n="cog"/></l><r>Станкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-    <e><p><l>Ruziç<s n="np"/><s n="cog"/></l><r>Рузич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-    <e><p><l>Tadiç<s n="np"/><s n="cog"/></l><r>Тадич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-    <e><p><l>Krneta<s n="np"/><s n="cog"/></l><r>Крнета<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Radovanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Радованович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Stankoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Станкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Ruziç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Рузич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Tadiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Тадич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Krneta<s n="np"/><s n="cog"/><s n="mf"/></l><r>Крнета<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Schwartz<s n="np"/><s n="cog"/><s n="mf"/></l><r>Шварц<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-    <e><p><l>Super<s n="np"/></l><r>Супер<s n="np"/><s n="al"/></r></p></e>
-    <e><p><l>Super<b/>Galeb<s n="np"/></l><r>Супер<b/>Галеб<s n="np"/><s n="al"/></r></p></e>
-    <e><p><l>Galeb<s n="np"/></l><r>Галеб<s n="np"/><s n="al"/></r></p></e>
-    <e><p><l>Super<b/>G4<s n="np"/></l><r>Супер<b/>Г4<s n="np"/><s n="al"/></r></p></e>
-    <e><p><l>G4<s n="np"/></l><r>Г4<s n="np"/><s n="al"/></r></p></e>
+
     <e><p><l>Sırp<b/>Ordusu<s n="np"/><s n="org"/></l><r>Серб<b/>Аскери<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>ABC<s n="np"/><s n="org"/></l><r>ABC<s n="np"/><s n="org"/></r></p></e>
-    <e><p><l>Gazela<s n="np"/></l><r>Газел<s n="np"/><s n="al"/></r></p></e>
 	
+    <e><p><l>Gazela<s n="np"/><s n="al"/></l><r>Газел<s n="np"/><s n="al"/></r></p></e>
+    <e><p><l>Super<b/>Galeb<s n="np"/></l><r>Супер<b/>Галеб<s n="np"/><s n="al"/></r></p></e>
+    <e><p><l>G4<s n="np"/></l><r>Г4<s n="np"/><s n="al"/></r></p></e>
+    <e><p><l>Super<b/>G4<s n="np"/></l><r>Супер<b/>Г4<s n="np"/><s n="al"/></r></p></e>
+
     <e><p><l>Adlesiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Адлесич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Anciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Анжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Andriç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Андрич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
