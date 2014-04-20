@@ -21,6 +21,7 @@
     <def-cat n="nmod">
       <cat-item tags="adj"/>
       <cat-item tags="det.ind"/>
+      <cat-item tags="det.ref"/>
       <cat-item tags="n.attr"/>
     </def-cat>
 
