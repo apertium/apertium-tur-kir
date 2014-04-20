@@ -679,4 +679,10 @@
 			<select lemma="чейин" tags="post"/>
 		</match>
 	</rule>
+
+	<rule weight="2.0">
+		<match lemma="git" tags="v.*.ifi.*">
+			<select lemma="кет" tags="v.*" />
+		</match>
+	</rule>
 </rules>
