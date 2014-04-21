@@ -4779,7 +4779,6 @@
 
     <e><p><l>Sırb<s n="np"/></l><r>Серб<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sırp<s n="np"/></l><r>Серб<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>AB<s n="np"/><s n="acr"/></l><r>ЕБ<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Türk<s n="np"/></l><r>Түрк<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Hırvat<s n="np"/></l><r>Харват<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bulgar<s n="np"/></l><r>Балгар<s n="np"/><s n="top"/></r></p></e>
@@ -4788,6 +4787,8 @@
     <e><p><l>Lahey<s n="np"/><s n="cog"/><s n="mf"/></l><r>Лахей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Boyner<s n="np"/><s n="cog"/><s n="mf"/></l><r>Бойнер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Bin<b/>Ladin<s n="np"/><s n="cog"/><s n="m"/></l><r>Бен<b/>Ладен<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
+
+    <e><p><l>AB<s n="np"/><s n="top"/></l><r>ЕБ<s n="np"/><s n="top"/></r></p></e>
 
     <e><p><l>Rumen<s n="np"/></l><r>Румын<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Romen<s n="np"/></l><r>Римдик<s n="np"/><s n="top"/></r></p></e>
@@ -4830,6 +4831,8 @@
     <e><p><l>Super<b/>Galeb<s n="np"/></l><r>Супер<b/>Галеб<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>G4<s n="np"/></l><r>Г4<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>SETimes<s n="np"/><s n="al"/></l><r>SETimes<s n="np"/><s n="al"/></r></p></e>
+    <e><p><l>Reuters<s n="np"/><s n="al"/></l><r>Reuters<s n="np"/><s n="al"/></r></p></e>
+    <e><p><l>Getty<b/>Images<s n="np"/><s n="org"/></l><r>Getty<b/>Images<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Super<b/>G4<s n="np"/></l><r>Супер<b/>Г4<s n="np"/><s n="al"/></r></p></e>
 
     <e><p><l>Adlesiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Адлесич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
