@@ -264,7 +264,7 @@
 
     <!-- SECTION: Determiners -->
     <e c="  0"><p><l>bu<s n="det"/><s n="dem"/></l><r>бул<s n="det"/><s n="dem"/></r></p></e>
-    <e c="  0"><p><l>hiçbir<s n="det"/><s n="ind"/></l><r>эч<b/>бир<s n="det"/><s n="ind"/></r></p></e>
+    <e c="  0"><p><l>hiçbir<s n="det"/><s n="qnt"/></l><r>эч<b/>бир<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>her<s n="det"/><s n="dem"/></l><r>ар<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>bazı<s n="det"/><s n="ind"/></l><r>кээбир<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>bazı<s n="det"/><s n="qnt"/></l><r>бир<b/>нече<s n="det"/><s n="qnt"/></r></p></e>
@@ -4784,6 +4784,7 @@
     <e><p><l>Bulgar<s n="np"/></l><r>Балгар<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Makedon<s n="np"/></l><r>Македониалык<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bosnalı<s n="np"/></l><r>Босниялык<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Erdoğan<s n="np"/><s n="cog"/><s n="mf"/></l><r>Эрдоган<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Lahey<s n="np"/><s n="cog"/><s n="mf"/></l><r>Лахей<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Boyner<s n="np"/><s n="cog"/><s n="mf"/></l><r>Бойнер<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Bin<b/>Ladin<s n="np"/><s n="cog"/><s n="m"/></l><r>Бен<b/>Ладен<s n="np"/><s n="cog"/><s n="m"/></r></p></e>
@@ -4806,6 +4807,7 @@
 
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Nikola<s n="np"/><s n="ant"/><s n="m"/></l><r>Никола<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+    <e><p><l>Boris<s n="np"/><s n="ant"/><s n="m"/></l><r>Борис<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Nemanja<s n="np"/><s n="ant"/><s n="m"/></l><r>Неманя<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
     <e><p><l>Ayşe<s n="np"/><s n="ant"/><s n="f"/></l><r>Айше<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -4820,6 +4822,8 @@
     <e><p><l>Radovanoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Радованович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Stankoviç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Станкович<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Ruziç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Рузич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Rehn<s n="np"/><s n="cog"/><s n="mf"/></l><r>Рен<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+    <e><p><l>Kostunica<s n="np"/><s n="cog"/><s n="mf"/></l><r>Костуница<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Tadiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Тадич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Krneta<s n="np"/><s n="cog"/><s n="mf"/></l><r>Крнета<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Schwartz<s n="np"/><s n="cog"/><s n="mf"/></l><r>Шварц<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
