@@ -36,6 +36,12 @@
       <cat-item tags="v.*.gpr_past.px2pl"/>
     </def-cat>
 
+    <def-cat n="qst-pers">
+      <cat-item tags="qst.p1.*"/>
+      <cat-item tags="qst.p2.*"/>
+      <cat-item tags="qst.p3.*"/>
+    </def-cat>
+ 
     <def-cat n="num-abstr">
       <cat-item tags="num.abstr"/>
     </def-cat>
@@ -161,6 +167,30 @@
           <b pos="1"/>
           <lu>
             <clip pos="2" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
+    <!-- RULES BELOW THIS LINE ARE HACKS THEY SHOULD BE EXPECTED TO BREAK -->
+
+    <rule comment="aor qst-pers"> 
+      <pattern>
+        <pattern-item n="aor"/>
+        <pattern-item n="qst-pers"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+            <clip pos="2" side="tl" part="a_pers"/>
+            <clip pos="2" side="tl" part="a_nbr"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="lem"/>
+            <lit-tag v="qst"/>
           </lu>
         </out>
       </action>
