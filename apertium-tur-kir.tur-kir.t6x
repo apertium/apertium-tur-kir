@@ -166,6 +166,56 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: 2b;
+      For sequence [stem + personal copula/abessive + other clitics]">
+      <pattern>
+        <pattern-item n="main-reading"/>
+        <pattern-item n="sub-reading2"/> <!-- All other clitics -->
+        <pattern-item n="sub-reading1"/> <!-- Personal copulas/Abessive -->
+      </pattern>
+      <action>
+	<choose>
+	  <when>
+	    <test>
+	      <in caseless="yes">
+		<clip pos="2" side="tl" part="lem"/>
+		<list n="kyrgyz-clitics"/>
+	      </in>
+	    </test>
+	    <out>
+	      <mlu>
+		<lu>
+		  <clip pos="1" side="tl" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="3" side="tl" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="2" side="tl" part="whole"/>
+		</lu>
+	      </mlu>
+	    </out>
+	  </when>
+	  <otherwise>
+	    <out>
+	      <mlu>
+		<lu>
+		  <clip pos="1" side="tl" part="whole"/>
+		</lu>
+		<lu>
+		  <clip pos="3" side="tl" part="whole"/>
+		</lu>
+	      </mlu>
+	      <b/>
+	      <lu>
+		<clip pos="2" side="tl" part="whole"/>
+	      </lu>
+	    </out>
+	  </otherwise>
+	</choose>
+      </action>
+    </rule>
+
     <rule comment="REGLA:3;
       makes stuff contained in list=kyrgyz-clitics to clitics">
       <pattern>
