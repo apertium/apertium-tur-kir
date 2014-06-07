@@ -28,6 +28,18 @@
       <cat-item lemma="i" tags="cop.ifi.*"/>
     </def-cat>
 
+    <def-cat n="gpr-px">
+      <cat-item tags="v.*.gpr_past.px1sg"/>
+      <cat-item tags="v.*.gpr_past.px2sg"/>
+      <cat-item tags="v.*.gpr_past.px3sp"/>
+      <cat-item tags="v.*.gpr_past.px1pl"/>
+      <cat-item tags="v.*.gpr_past.px2pl"/>
+    </def-cat>
+
+    <def-cat n="nom">
+      <cat-item tags="n.*"/>
+    </def-cat>
+   
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
@@ -151,6 +163,31 @@
     </rule>
 
       
+    <rule comment="gpr-px nom">  
+      <!-- TODO: This will break if the noun has any derivational suffixes or any pattern other than n.ND.PXD.CD -->
+      <pattern>
+        <pattern-item n="gpr-px"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_poss"/><lit v=""/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="lemh"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="a_nbr"/>
+            <clip pos="1" side="sl" part="a_poss"/>
+            <clip pos="2" side="tl" part="a_case"/>
+            <clip pos="2" side="tl" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+    
     <rule comment="sent"> 
       <pattern>
         <pattern-item n="sent"/>
