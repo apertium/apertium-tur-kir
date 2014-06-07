@@ -41,7 +41,21 @@
       <cat-item tags="v.*.gpr_past.px1pl"/>
       <cat-item tags="v.*.gpr_past.px2pl"/>
     </def-cat>
+ 
+    <def-cat n="gna-when">
+      <cat-item tags="v.*.gna_when"/>
+      <cat-item tags="v.*.*.gna_when"/>
+      <cat-item tags="v.*.*.*.gna_when"/>
+      <cat-item tags="v.*.*.*.*.gna_when"/>
+    </def-cat>
 
+     <def-cat n="gna-impf">
+      <cat-item tags="v.*.gna_impf"/>
+      <cat-item tags="v.*.*.gna_impf"/>
+      <cat-item tags="v.*.*.*.gna_impf"/>
+      <cat-item tags="v.*.*.*.*.gna_impf"/>
+    </def-cat>
+ 
     <def-cat n="qst-pers">
       <cat-item tags="qst.p1.*"/>
       <cat-item tags="qst.p2.*"/>
@@ -91,6 +105,10 @@
     <def-attr n="a_screeve">
       <attr-item tags="fut.dub"/>
       <attr-item tags="prc_pcond"/>
+      <attr-item tags="ger_past.loc"/>
+      <attr-item tags="gna_impf"/>
+      <attr-item tags="gna_when"/>
+      <attr-item tags="gna_perf"/>
     </def-attr>
 
 
@@ -121,7 +139,35 @@
   </section-def-vars>  
 
   <section-rules>
-    
+   
+    <rule comment="gna-when"> 
+      <pattern>
+        <pattern-item n="gna-when"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="ger_past.loc"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="gna-impf"> 
+      <pattern>
+        <pattern-item n="gna-impf"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="gna_perf"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+ 
     <rule comment="fut-dub cop-aor"> 
       <pattern>
         <pattern-item n="fut-dub"/>
