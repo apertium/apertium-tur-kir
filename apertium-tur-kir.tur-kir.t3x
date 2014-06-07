@@ -24,6 +24,7 @@
       <cat-item tags="det.ref"/>
       <cat-item tags="det.dem"/>
       <cat-item tags="n.attr"/>
+      <cat-item tags="v.*.gpr_past.*"/>
     </def-cat>
 
     <def-cat n="n">
