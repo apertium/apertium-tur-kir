@@ -376,6 +376,13 @@
       <cat-item tags="np.*"/>
     </def-cat>
    
+	
+		<def-cat n="v_HARGLE">
+			<cat-item tags="v.*.@HARGLE"/>
+			<cat-item tags="cop.*.@HARGLE"/>
+		</def-cat>
+
+
   </section-def-cats>
   
   <section-def-attrs>
@@ -2095,6 +2102,25 @@
       </action>
     </rule>
 
+		<rule comment="regla: HARGLE">
+			<pattern>
+				<pattern-item n="v_HARGLE" />
+			</pattern>
+			<action>
+				<out>
+					<mlu>
+						<lu>
+							<clip pos="1" side="tl" part="lemh"/>
+							<clip pos="1" side="tl" part="a_verb"/>
+							<clip pos="1" side="tl" part="a_trans"/>
+							<clip pos="1" side="tl" part="a_deriv"/>
+							<clip pos="1" side="tl" part="a_neg"/>
+							<lit-tag v="gna_perf"/>
+						</lu>
+					</mlu>
+				</out>
+			</action>
+		</rule>
 
 <!--
     <rule comment="regla: v_aor qst">
