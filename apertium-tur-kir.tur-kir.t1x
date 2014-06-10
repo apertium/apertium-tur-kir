@@ -52,6 +52,10 @@
       <cat-item tags="v.*.gpr_rsub"/>
     </def-cat>
  
+    <def-cat n="prc">
+      <cat-item tags="v.*.prc"/>
+    </def-cat>
+ 
     <def-cat n="ger-impf">
       <cat-item tags="v.*.ger_impf.*"/>
     </def-cat>
@@ -126,6 +130,7 @@
       <attr-item tags="fut.dub"/>
 
       <attr-item tags="prc_pcond"/>
+      <attr-item tags="prc"/>
 
       <attr-item tags="gna_impf"/>
       <attr-item tags="gna_when"/>
@@ -385,6 +390,21 @@
       </pattern>
       <action>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="gpr_past"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="prc"> 
+      <pattern>
+        <pattern-item n="prc"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="ger_pres.nom"/></let>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
