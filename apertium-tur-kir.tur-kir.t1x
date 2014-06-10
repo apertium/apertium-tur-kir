@@ -42,10 +42,13 @@
       <cat-item tags="v.*.gpr_past.px2pl"/>
     </def-cat>
  
+    <def-cat n="ger-impf">
+      <cat-item tags="v.*.ger_impf.*"/>
+    </def-cat>
+
     <def-cat n="ger-pabs">
       <cat-item tags="v.*.ger_pabs.*"/>
     </def-cat>
-
 
     <def-cat n="gna-when">
       <cat-item tags="v.*.gna_when"/>
@@ -116,6 +119,7 @@
       <attr-item tags="gna_when"/>
       <attr-item tags="gna_perf"/>
 
+      <attr-item tags="ger_impf"/>
       <attr-item tags="ger_past"/>
       <attr-item tags="ger_past.loc"/>
       <attr-item tags="ger_pabs"/>
@@ -150,6 +154,21 @@
 
   <section-rules>
    
+    <rule comment="ger-impf"> 
+      <pattern>
+        <pattern-item n="ger-impf"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="ger_past"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+ 
     <rule comment="ger-pabs"> 
       <pattern>
         <pattern-item n="ger-pabs"/>
