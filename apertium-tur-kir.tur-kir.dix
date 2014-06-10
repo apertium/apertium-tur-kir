@@ -196,7 +196,7 @@
     <e c="  0"><p><l>karşın<s n="post"/></l><r>карабай<s n="post"/></r></p></e>
     <e c="  0"><p><l>için<s n="post"/></l><r>үчүн<s n="post"/></r></p></e>
     <e c="  0"><p><l>bile<s n="post"/></l><r>дагы<s n="post"/></r></p></e>
-    <e c="  0"><p><l>bu<b/>yana<s n="post"/></l><r>ушуга<b/>чейин<s n="post"/></r></p></e>
+    <e c="  0"><p><l>bu<b/>yana<s n="adv"/></l><r>ушуга<b/>чейин<s n="adv"/></r></p></e>
     <e c="  0"><p><l>göre<s n="post"/></l><r>жараша<s n="post"/></r></p></e>
     <e c="  0"><p><l>ilgili<s n="post"/></l><r>байланыштуу<s n="post"/></r></p></e>
     <e c="  0"><p><l>üzere<s n="post"/></l><r>үчүн<s n="post"/></r></p></e>
@@ -4835,7 +4835,7 @@
     <e><p><l>Super<b/>Galeb<s n="np"/></l><r>Супер<b/>Галеб<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>G4<s n="np"/></l><r>Г4<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>SETimes<s n="np"/><s n="al"/></l><r>SETimes<s n="np"/><s n="al"/></r></p></e>
-    <e><p><l>Reuters<s n="np"/><s n="al"/></l><r>Reuters<s n="np"/><s n="al"/></r></p></e>
+    <e><p><l>Reuters<s n="np"/><s n="org"/></l><r>Рейтер<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Getty<b/>Images<s n="np"/><s n="org"/></l><r>Getty<b/>Images<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Super<b/>G4<s n="np"/></l><r>Супер<b/>Г4<s n="np"/><s n="al"/></r></p></e>
 
@@ -5914,7 +5914,7 @@
     <e c="  0"><p><l>önce<s n="adv"/></l><r>мурда<s n="adv"/></r></p></e>
     <e c="  0"><p><l>birlikte<s n="adv"/></l><r>бирдикте<s n="adv"/></r></p></e>
     <e c="  0"><p><l>karşı<s n="adv"/></l><r>каршы<s n="adv"/></r></p></e>
-    <e c="  0"><p><l>ilk<s n="adv"/></l><r>биринчи<s n="adv"/></r></p></e>
+    <!-- e c="  0"><p><l>ilk<s n="adv"/></l><r>биринчи<s n="adv"/></r></p></e -->
     <e c="  0"><p><l>ayrıca<s n="adv"/></l><r>сырткары<s n="adv"/></r></p></e>
     <e c="  0"><p><l>yeniden<s n="adv"/></l><r>жаңыдан<s n="adv"/></r></p></e> <!-- not sure it is an adv -->
     <e c="  0"><p><l>geri<s n="adv"/></l><r>артка<s n="adv"/></r></p></e>
