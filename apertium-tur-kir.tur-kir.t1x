@@ -8,6 +8,12 @@
       <cat-item tags="v.*.*.*.prog"/>
     </def-cat>
 
+     <def-cat n="aor-fin">
+      <cat-item tags="v.*.aor.*"/>
+      <cat-item tags="v.*.*.aor.*"/>
+      <cat-item tags="v.*.*.*.aor.*"/>
+    </def-cat>
+
      <def-cat n="aor">
       <cat-item tags="v.*.aor"/>
       <cat-item tags="v.*.*.aor"/>
@@ -286,6 +292,36 @@
       </action>
     </rule>
 
+
+
+    <rule comment="aor-fin"> 
+      <pattern>
+        <pattern-item n="aor-fin"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@HARGLE"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="gna_perf"/></let>
+            <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+            <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+            <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
 
 
     <rule comment="aor cop-aor"> 
