@@ -111,6 +111,8 @@
     </def-attr>
 
     <def-attr n="a_screeve">
+      <attr-item tags="past"/>
+      <attr-item tags="aor"/>
       <attr-item tags="fut.dub"/>
 
       <attr-item tags="prc_pcond"/>
@@ -137,6 +139,10 @@
       <attr-item tags="ND"/>
     </def-attr>
        
+    <def-attr n="a_func">
+      <attr-item tags="@HARGLE"/>
+    </def-attr>
+
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
@@ -251,35 +257,63 @@
       </action>
     </rule>
 
-    <rule comment="aor cop-aor"> 
-      <pattern>
-        <pattern-item n="aor"/>
-        <pattern-item n="cop-aor"/>
-      </pattern>
-      <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-            <clip pos="2" side="tl" part="a_pers"/>
-            <clip pos="2" side="tl" part="a_nbr"/>
-          </lu>
-        </out>
-      </action>
-    </rule>
-
     <rule comment="past cop-aor"> 
       <pattern>
         <pattern-item n="past"/>
         <pattern-item n="cop-aor"/>
       </pattern>
       <action>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-            <clip pos="2" side="tl" part="a_pers"/>
-            <clip pos="2" side="tl" part="a_nbr"/>
-          </lu>
-        </out>
+        <choose>
+          <when>
+            <test><equal><clip pos="2" side="sl" part="a_func"/><lit-tag v="@HARGLE"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="gna_perf"/></let>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+                <clip pos="2" side="tl" part="a_pers"/>
+                <clip pos="2" side="tl" part="a_nbr"/>
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
+      </action>
+    </rule>
+
+
+
+    <rule comment="aor cop-aor"> 
+      <pattern>
+        <pattern-item n="aor"/>
+        <pattern-item n="cop-aor"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test><equal><clip pos="2" side="sl" part="a_func"/><lit-tag v="@HARGLE"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="gna_perf"/></let>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+                <clip pos="2" side="tl" part="a_pers"/>
+                <clip pos="2" side="tl" part="a_nbr"/>
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 
