@@ -40,6 +40,10 @@
       <cat-item lemma="i" tags="cop.ifi.*"/>
     </def-cat>
 
+    <def-cat n="cop-advl">
+      <cat-item lemma="i" tags="cop.advl"/>
+    </def-cat>
+
     <def-cat n="gpr-px">
       <cat-item tags="v.*.gpr_past.px1sg"/>
       <cat-item tags="v.*.gpr_past.px2sg"/>
@@ -188,6 +192,20 @@
 
   <section-rules>
    
+    <rule comment="cop-advl"> 
+      <pattern>
+        <pattern-item n="cop-advl"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <get-case-from pos="1"><lit v="бол"/></get-case-from>
+            <lit-tag v="v.iv.ger_past.loc"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="ger-impf"> 
       <pattern>
         <pattern-item n="ger-impf"/>

@@ -5330,7 +5330,7 @@
     <e c="  0"><p><l>zorunlu<s n="adj"/></l><r>мажбур<s n="adj"/></r></p></e>
     <e c="  0"><p><l>normal<s n="adj"/></l><r>нормалдуу<s n="adj"/></r></p></e>
     <e c="  0"><p><l>zengin<s n="adj"/></l><r>бай<s n="adj"/></r></p></e>
-    <e c="  0"><p><l>ilk<s n="adj"/></l><r>биринчи<s n="adj"/></r></p></e>
+    <!--<e c="  0"><p><l>ilk<s n="adj"/></l><r>биринчи<s n="adj"/></r></p></e>-->
     <e c="  0"><p><l>sıcak<s n="adj"/></l><r>ысык<s n="adj"/></r></p></e>
     <e c="  0"><p><l>derin<s n="adj"/></l><r>терең<s n="adj"/></r></p></e>
     <!--
