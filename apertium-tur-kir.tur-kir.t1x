@@ -64,6 +64,14 @@
       <cat-item tags="v.*.ger_pabs.*"/>
     </def-cat>
 
+    <def-cat n="ger-abst">
+      <cat-item tags="v.*.ger_abst.*"/>
+    </def-cat>
+
+    <def-cat n="ger-aor">
+      <cat-item tags="v.*.ger_aor.*"/>
+    </def-cat>
+
     <def-cat n="gna-when">
       <cat-item tags="v.*.gna_when"/>
       <cat-item tags="v.*.*.gna_when"/>
@@ -140,6 +148,8 @@
       <attr-item tags="ger_past"/>
       <attr-item tags="ger_past.loc"/>
       <attr-item tags="ger_pabs"/>
+      <attr-item tags="ger_abst"/>
+      <attr-item tags="ger_aor"/>
 
       <attr-item tags="gpr_rsub"/>
       <attr-item tags="gpr_past"/>
@@ -207,7 +217,34 @@
       </action>
     </rule>
 
- 
+    <rule comment="ger-abst"> 
+      <pattern>
+        <pattern-item n="ger-abst"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="ger_pres"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="ger-aor"> 
+      <pattern>
+        <pattern-item n="ger-aor"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="ger_pres"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="gna-when"> 
       <pattern>
         <pattern-item n="gna-when"/>
