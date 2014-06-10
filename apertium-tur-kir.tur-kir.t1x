@@ -49,7 +49,7 @@
     </def-cat>
 
     <def-cat n="gpr-rsub">
-      <cat-item tags="v.*.gpr_rsub.*"/>
+      <cat-item tags="v.*.gpr_rsub"/>
     </def-cat>
  
     <def-cat n="ger-impf">
