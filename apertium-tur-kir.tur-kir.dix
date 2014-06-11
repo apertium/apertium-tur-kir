@@ -422,7 +422,6 @@
     <e c="  0"><p><l>ağ<s n="n"/></l><r>тор<s n="n"/></r></p></e>
     <e c="  0"><p><l>ağıt<s n="n"/></l><r>аза<s n="n"/></r></p></e>
     <e c="  0"><p><l>ağız<s n="n"/></l><r>ооз<s n="n"/></r></p></e>
-    <e c="  0"><p><l>ağustos<s n="n"/></l><r>август<s n="n"/></r></p></e>
     <e c="  0"><p><l>ahlak<s n="n"/></l><r>ахлак<s n="n"/></r></p></e>
     <e c="  0"><p><l>aile<s n="n"/></l><r>үй<b/>бүлөө<s n="n"/></r></p></e>
     <e c="  0"><p><l>ait<s n="n"/></l><r>таандык<s n="n"/></r></p></e>
@@ -2872,7 +2871,6 @@
     <e c="  0"><p><l>şükür<s n="n"/></l><r>шүгүр<s n="n"/></r></p></e>
     <e c="  0"><p><l>yer<s n="n"/></l><r>жер<s n="n"/></r></p></e>
     <e c="  0"><p><l>ön<s n="n"/></l><r>маңдай<s n="n"/></r></p></e>
-    <e c="  0"><p><l>mart<s n="n"/></l><r>март<s n="n"/></r></p></e>
     <e c="  0"><p><l>pazar<s n="n"/></l><r>базар<s n="n"/></r></p> </e>
     <e c="  0"><p><l>bakanlık<s n="n"/></l><r>министирлик<s n="n"/></r></p></e>
     <e c="  0"><p><l>sonra<s n="post"/></l><r>кийин<s n="post"/></r></p></e>
@@ -2967,26 +2965,20 @@
     <e c="  0"><p><l>yerel<s n="n"/></l><r>жергиликтүү<s n="n"/></r></p></e>
     <e c="  0"><p><l>süreç<s n="n"/></l><r>абал<s n="n"/></r></p></e>
     <e slr="1"><p><l>süreç<s n="n"/></l><r>процесс<s n="n"/></r></p></e>
-    <e c="  0"><p><l>mayıs<s n="n"/></l><r>май<s n="n"/></r></p></e>
     <e c="  0"><p><l>cumhurbaşkan<s n="n"/></l><r>президент<s n="n"/></r></p></e>
     <e c="  0"><p><l>savunma<s n="n"/></l><r>коргонуу<s n="n"/></r></p></e>
     <e c="  0"><p><l>mücadele<s n="n"/></l><r>күрөш<s n="n"/></r></p></e>
     <e c="  0"><p><l>katılım<s n="n"/></l><r>катышуу<s n="n"/></r></p></e>
     <e c="  0"><p><l>çağrı<s n="n"/></l><r>чакырык<s n="n"/></r></p></e>
-    <e c="  0"><p><l>haziran<s n="n"/></l><r>июнь<s n="n"/></r></p></e>
     
     <e c="  0"><p><l>konsey<s n="n"/></l><r>кеңеш<s n="n"/></r></p></e>
     <e c="  0"><p><l>sıra<s n="n"/></l><r>катар<s n="n"/></r></p></e>
     <e slr="1"><p><l>sıra<s n="n"/></l><r>кезек<s n="n"/></r></p></e>
     <e slr="2"><p><l>sıra<s n="n"/></l><r>парта<s n="n"/></r></p></e>
-    <e c="  0"><p><l>şubat<s n="n"/></l><r>февраль<s n="n"/></r></p></e>
-    <e c="  0"><p><l>temmuz<s n="n"/></l><r>июль<s n="n"/></r></p></e>
     <e c="  0"><p><l>süre<s n="n"/></l><r>мөөнөт<s n="n"/></r></p></e>
     <e c="  0"><p><l>ek<s n="n"/></l><r>кошумча<s n="n"/></r></p></e>
     <e c="  0"><p><l>muhalefet<s n="n"/></l><r>оппозиция<s n="n"/></r></p></e>
-    <e c="  0"><p><l>ocak<s n="n"/></l><r>январь<s n="n"/></r></p></e>
     <e c="  0"><p><l>sayı<s n="n"/></l><r>сан<s n="n"/></r></p></e>
-    <e c="  0"><p><l>nisan<s n="n"/></l><r>апрель<s n="n"/></r></p></e>
     <e c="  0"><p><l>yaklaşık<s n="n"/></l><r>болжол<b/>менен<s n="n"/></r></p></e>
     <e c="  0"><p><l>yasa<s n="n"/></l><r>жаша<s n="n"/></r></p></e>
     <e slr="1"><p><l>yasa<s n="n"/></l><r>жашасын<s n="n"/></r></p></e>
@@ -3000,7 +2992,6 @@
     <e c="  0"><p><l>sonuç<s n="n"/></l><r>жыйынтык<s n="n"/></r></p></e>
     <e slr="1"><p><l>sonuç<s n="n"/></l><r>натыйжа<s n="n"/></r></p></e>
     <e c="  0"><p><l>aralık<s n="n"/></l><r>аралык<s n="n"/></r></p></e>
-    <e slr="1"><p><l>aralık<s n="n"/></l><r>декабрь<s n="n"/></r></p></e>
     <e c="  0"><p><l>bas<s n="n"/></l><r>бас<s n="n"/></r></p></e>
     <e c="  0"><p><l>proje<s n="n"/></l><r>долбоор<s n="n"/></r></p></e>
     <e c="  0"><p><l>özel<s n="n"/></l><r>жеке<s n="n"/></r></p></e>
@@ -3011,7 +3002,6 @@
     <e c="  0"><p><l>anayasa<s n="n"/></l><r>башмыйзам<s n="n"/></r></p></e>
     <e c="  0"><p><l>kaynak<s n="n"/></l><r>булак<s n="n"/></r></p></e>
     <e slr="1"><p><l>kaynak<s n="n"/></l><r>башат<s n="n"/></r></p></e>
-    <e c="  0"><p><l>eylül<s n="n"/></l><r>сентябрь<s n="n"/></r></p></e>
     <e c="  0"><p><l>kas<s n="n"/></l><r>булчуң<s n="n"/></r></p></e>
     <e c="  0"><p><l>hedef<s n="n"/></l><r>максат<s n="n"/></r></p></e>
     <e c="  0"><p><l>bağımsızlık<s n="n"/></l><r>эгемендүүлүк<s n="n"/></r></p></e>
@@ -4790,15 +4780,25 @@
     <e><p><l>Romen<s n="np"/></l><r>Римдик<s n="np"/><s n="top"/></r></p></e>
 
     <e><p><l>İslam<s n="np"/></l><r>Ислам<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>IMF<s n="np"/></l><r>ИМФ<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Nisan<s n="np"/></l><r>Апрель<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Aralık<s n="np"/></l><r>Декабрь<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Ocak<s n="np"/></l><r>Январь<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>IMF<s n="np"/><s n="org"/></l><r>ИМФ<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Atlantik<s n="np"/></l><r>Атлантика<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Kürt<s n="np"/></l><r>Күрт<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>İngiliz<s n="np"/></l><r>Англис<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Yugoslav<s n="np"/></l><r>Югослав<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Adriyatik<s n="np"/></l><r>Адриятика<s n="np"/><s n="top"/></r></p></e>
+
+    <e c="  0"><p><l>Ocak<s n="n"/></l><r>январь<s n="n"/></r></p></e>
+    <e c="  0"><p><l>Şubat<s n="n"/></l><r>февраль<s n="n"/></r></p></e>
+    <e c="  0"><p><l>Mart<s n="n"/></l><r>март<s n="n"/></r></p></e>
+    <e c="  0"><p><l>Nisan<s n="n"/></l><r>апрель<s n="n"/></r></p></e>
+    <e c="  0"><p><l>Mayıs<s n="n"/></l><r>май<s n="n"/></r></p></e>
+    <e c="  0"><p><l>Haziran<s n="n"/></l><r>июнь<s n="n"/></r></p></e>
+    <e c="  0"><p><l>Temmuz<s n="n"/></l><r>июль<s n="n"/></r></p></e>
+    <e c="  0"><p><l>Ağustos<s n="n"/></l><r>август<s n="n"/></r></p></e>
+    <e c="  0"><p><l>Eylül<s n="n"/></l><r>сентябрь<s n="n"/></r></p></e>
+    <e c="  0"><p><l>Ekim<s n="n"/></l><r>октябрь<s n="n"/></r></p></e>
+    <e c="  0"><p><l>Kasım<s n="n"/></l><r>ноябрь<s n="n"/></r></p></e>
+    <e c="  0"><p><l>Aralık<s n="n"/></l><r>декабрь<s n="n"/></r></p></e>
 
     <e><p><l>Ahmet<s n="np"/><s n="ant"/><s n="m"/></l><r>Ахмет<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
     <e><p><l>Nikola<s n="np"/><s n="ant"/><s n="m"/></l><r>Никола<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -5213,10 +5213,10 @@
     <e c="  0"><p><l>fena<s n="adj"/></l><r>абдан<b/>жаман<s n="adj"/></r></p></e>
     <e c="  0"><p><l>kuru<s n="adj"/></l><r>кургак<s n="adj"/></r></p></e>
 
-    <e c="  0"><p><l>kuzey<s n="n"/></l><r>түндүк<s n="adj"/></r></p></e>
-    <e c="  0"><p><l>batı<s n="n"/></l><r>батыш<s n="adj"/></r></p></e>
-    <e c="  0"><p><l>doğu<s n="n"/></l><r>чыгыш<s n="adj"/></r></p></e>
-    <e c="  0"><p><l>güney<s n="n"/></l><r>түштүк<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>kuzey<s n="n"/></l><r>түндүк<s n="adj"/><s n="subst"/></r></p></e>
+    <e c="  0"><p><l>batı<s n="n"/></l><r>батыш<s n="adj"/><s n="subst"/></r></p></e>
+    <e c="  0"><p><l>doğu<s n="n"/></l><r>чыгыш<s n="adj"/><s n="subst"/></r></p></e>
+    <e c="  0"><p><l>güney<s n="n"/></l><r>түштүк<s n="adj"/><s n="subst"/></r></p></e>
     <e c="  0"><p><l>güneybatı<s n="n"/></l><r>түштүк<b/>батыш<s n="adj"/><s n="subst"/></r></p></e>
     <e c="  0"><p><l>güneydoğu<s n="n"/></l><r>түштүк<b/>чыгыш<s n="adj"/><s n="subst"/></r></p></e>
     <e c="  0"><p><l>kuzeybatı<s n="n"/></l><r>түндүк<b/>батыш<s n="adj"/><s n="subst"/></r></p></e>
@@ -5231,7 +5231,7 @@
     <e c="  0"><p><l>sonraki<s n="adj"/></l><r>кийинки<s n="adj"/></r></p></e>
     <e c="  0"><p><l>kaçak<s n="adj"/></l><r>качкын<s n="adj"/></r></p></e>
     <e slr="1"><p><l>kaçak<s n="adj"/></l><r>контрабанда<s n="adj"/></r></p></e>
-    <e c="  0"><p><l>önceki<s n="adj"/></l><r>мурдагы<s n="adj"/></r></p></e>
+    <!-- e c="  0"><p><l>önceki<s n="adj"/></l><r>мурдагы<s n="adj"/></r></p></e -->
     <e c="  0"><p><l>türlü<s n="adj"/></l><r>түрдүү<s n="adj"/></r></p></e>
     <e c="  0"><p><l>radikal<s n="adj"/></l><r>радикалдуу<s n="adj"/></r></p></e>
     <e c="  0"><p><l>mümkün<s n="adj"/></l><r>мүмкүн<s n="adj"/></r></p></e>

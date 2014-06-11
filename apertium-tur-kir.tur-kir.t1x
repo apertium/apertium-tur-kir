@@ -80,6 +80,10 @@
       <cat-item tags="v.*.ger_aor.*"/>
     </def-cat>
 
+    <def-cat n="ger6">
+      <cat-item tags="v.*.ger6.*"/>
+    </def-cat>
+
     <def-cat n="gna-when">
       <cat-item tags="v.*.gna_when"/>
       <cat-item tags="v.*.*.gna_when"/>
@@ -158,6 +162,7 @@
       <attr-item tags="ger_pabs"/>
       <attr-item tags="ger_abst"/>
       <attr-item tags="ger_aor"/>
+      <attr-item tags="ger6"/>
 
       <attr-item tags="gpr_rsub"/>
       <attr-item tags="gpr_past"/>
@@ -257,6 +262,20 @@
     <rule comment="ger-aor"> 
       <pattern>
         <pattern-item n="ger-aor"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="ger_pres"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="ger6"> 
+      <pattern>
+        <pattern-item n="ger6"/>
       </pattern>
       <action>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="ger_pres"/></let>
