@@ -19,7 +19,7 @@
      <sdef n="ref"       c="Reflexive"/>
      <sdef n="ant"       c="Anthroponym"/>
      <sdef n="cog"       c="Cognomen"/>
-     <sdef n="pst"       c="Positive degree"/>
+     <!-- sdef n="pst"       c="Positive degree"/ -->
      <sdef n="top"       c="Toponym"/>
      <sdef n="subst"     c="Substantivised"/>
      <sdef n="advl"      c="Adverbial"/>
@@ -270,7 +270,7 @@
     <e c="  0"><p><l>bazı<s n="det"/><s n="qnt"/></l><r>бир<b/>нече<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>bir<s n="det"/><s n="ind"/></l><r>бир<s n="det"/><s n="ind"/></r></p></e>
 
-    <e c="  0"><p><l>tek<s n="det"/></l><r>жалгыз<s n="adj"/><s n="pst"/></r></p></e>
+    <e c="  0"><p><l>tek<s n="det"/></l><r>жалгыз<s n="adj"/></r></p></e>
 
     <!-- TODO: Check -->
     <e c="  0"><p><l>kendi<s n="det"/><s n="ref"/></l><r>өз<s n="det"/><s n="ref"/></r></p></e>
