@@ -67,6 +67,7 @@
     </def-attr>
     <def-attr n="a_screeve">
       <attr-item tags="cond"/>
+      <attr-item tags="prc_cond"/>
     </def-attr>
     <def-attr n="a_prog">
       <attr-item tags="prog"/>

@@ -165,6 +165,7 @@
       <attr-item tags="fut"/>
       <attr-item tags="fut.dub"/>
 
+      <attr-item tags="prc_cond"/>
       <attr-item tags="prc_pcond"/>
       <attr-item tags="prc"/>
 
@@ -436,6 +437,7 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="2"/>
         </call-macro>
+        <let><clip pos="2" side="tl" part="a_screeve"/><lit-tag v="prc_cond"/></let>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
