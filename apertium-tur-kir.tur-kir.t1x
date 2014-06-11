@@ -161,6 +161,7 @@
       <attr-item tags="past"/>
       <attr-item tags="pcond"/>
       <attr-item tags="aor"/>
+      <attr-item tags="fut"/>
       <attr-item tags="fut.dub"/>
 
       <attr-item tags="prc_pcond"/>
@@ -413,6 +414,7 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="2"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="aor"/></let>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
