@@ -56,6 +56,10 @@
       <cat-item tags="v.*.gpr_rsub"/>
     </def-cat>
  
+    <def-cat n="gpr-aor">
+      <cat-item tags="v.*.gpr_aor"/>
+    </def-cat>
+
     <def-cat n="prc">
       <cat-item tags="v.*.prc"/>
     </def-cat>
@@ -157,6 +161,7 @@
 
       <attr-item tags="gpr_rsub"/>
       <attr-item tags="gpr_past"/>
+      <attr-item tags="gpr_aor"/>
     </def-attr>
 
 
@@ -452,6 +457,21 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="gpr-aor"> 
+      <pattern>
+        <pattern-item n="gpr-aor"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="gpr_fur"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
 
     <rule comment="prc"> 
