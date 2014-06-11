@@ -58,6 +58,7 @@
  
     <def-cat n="gpr-aor">
       <cat-item tags="v.*.gpr_aor"/>
+      <cat-item tags="v.*.gpr_aor.*"/>
     </def-cat>
 
     <def-cat n="prc">
@@ -167,6 +168,7 @@
       <attr-item tags="gpr_rsub"/>
       <attr-item tags="gpr_past"/>
       <attr-item tags="gpr_aor"/>
+      <attr-item tags="gpr_fut"/>
     </def-attr>
 
 
