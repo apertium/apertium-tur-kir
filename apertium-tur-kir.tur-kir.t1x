@@ -254,6 +254,7 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="1"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
@@ -271,6 +272,7 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="1"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
         <out>
           <lu>
             <get-case-from pos="1"><lit v="бол"/></get-case-from>
@@ -513,13 +515,13 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="1"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
         <choose>
           <when>
             <test><equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@HARGLE"/></equal></test>
             <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="gna_perf"/></let>
             <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
             <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-            <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
             <out>
               <lu>
                 <clip pos="1" side="tl" part="whole"/>
@@ -600,6 +602,7 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="2"/>
         </call-macro>
+        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_past"/><lit-tag v="prc_past"/></let>
         <out>
           <lu>
