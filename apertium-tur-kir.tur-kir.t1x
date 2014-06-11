@@ -463,7 +463,7 @@
         <pattern-item n="gpr-aor"/>
       </pattern>
       <action>
-        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="gpr_fur"/></let>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="gpr_fut"/></let>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
