@@ -3381,7 +3381,7 @@
     <e c="  0"><p><l>trafik<s n="n"/></l><r>трафик<s n="n"/></r></p></e>
     <e c="  0"><p><l>federal<s n="n"/></l><r>федералдык<s n="n"/></r></p></e>
     <e c="  0"><p><l>kanıt<s n="n"/></l><r>далил<s n="n"/></r></p></e>
-    <e c="  0"><p><l>demokrat<s n="n"/></l><r>демократ<s n="n"/><s n="attr"/></r></p></e>
+    <e c="  0"><p><l>demokrat<s n="n"/></l><r>демократ<s n="n"/></r></p></e>
     <e c="  0"><p><l>yargıç<s n="n"/></l><r>сот<s n="n"/></r></p></e>
     <e c="  0"><p><l>teşkil<s n="n"/></l><r>түзмө<s n="n"/></r></p></e>
     <e c="  0"><p><l>bor<s n="n"/></l><r>бор<s n="n"/></r></p></e>
@@ -3545,7 +3545,7 @@
     <e c="  0"><p><l>bünye<s n="n"/></l><r>дене<s n="n"/></r></p></e>
     <e c="  0"><p><l>temyiz<s n="n"/></l><r>кассация<s n="n"/></r></p></e>
     <e c="  0"><p><l>gelişim<s n="n"/></l><r>өнүгүү<s n="n"/></r></p></e>
-    <e c="  0"><p><l>var<s n="n"/></l><r>бар<s n="n"/></r></p></e>
+    <!-- e c="  0"><p><l>var<s n="n"/></l><r>бар<s n="n"/></r></p></e -->
     <e c="  0"><p><l>temel<s n="n"/></l><r>негиз<s n="n"/></r></p></e>
     <e c="  0"><p><l>işletme<s n="n"/></l><r>ишкана<s n="n"/></r></p></e>
     <e c="  0"><p><l>birleşik<s n="n"/></l><r>бириккен<s n="n"/></r></p></e>
@@ -5198,7 +5198,7 @@
     <e c="  0"><p><l>askeri<s n="adj"/></l><r>аскердик<s n="adj"/></r></p></e>
     <e c="  0"><p><l>ortak<s n="adj"/></l><r>орток<s n="adj"/></r></p></e>
     <e c="  0"><p><l>ekonomik<s n="adj"/></l><r>үнөмдүү<s n="adj"/></r></p></e>
-    <e c="  0"><p><l>demokrat<s n="adj"/></l><r>демократ<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>demokrat<s n="adj"/></l><r>демократ<s n="n"/><s n="attr"/></r></p></e>
     <e c="  0"><p><l>sorumlu<s n="adj"/></l><r>жоопкерчиликтүү<s n="adj"/></r></p></e>
     <e c="  0"><p><l>iyi<s n="adj"/></l><r>жакшы<s n="adj"/></r></p></e>
     <e c="  0"><p><l>tek<s n="adj"/></l><r>жалгыз<s n="adj"/></r></p></e>
