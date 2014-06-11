@@ -5214,13 +5214,21 @@
     <e c="  0"><p><l>kuru<s n="adj"/></l><r>кургак<s n="adj"/></r></p></e>
 
     <e c="  0"><p><l>kuzey<s n="n"/></l><r>түндүк<s n="adj"/><s n="subst"/></r></p></e>
+    <e c="  0"><p><l>kuzey<s n="n"/><s n="attr"/></l><r>түндүк<s n="adj"/></r></p></e>
     <e c="  0"><p><l>batı<s n="n"/></l><r>батыш<s n="adj"/><s n="subst"/></r></p></e>
+    <e c="  0"><p><l>batı<s n="n"/><s n="attr"/></l><r>батыш<s n="adj"/></r></p></e>
     <e c="  0"><p><l>doğu<s n="n"/></l><r>чыгыш<s n="adj"/><s n="subst"/></r></p></e>
+    <e c="  0"><p><l>doğu<s n="n"/><s n="attr"/></l><r>чыгыш<s n="adj"/></r></p></e>
     <e c="  0"><p><l>güney<s n="n"/></l><r>түштүк<s n="adj"/><s n="subst"/></r></p></e>
+    <e c="  0"><p><l>güney<s n="n"/><s n="attr"/></l><r>түштүк<s n="adj"/></r></p></e>
     <e c="  0"><p><l>güneybatı<s n="n"/></l><r>түштүк<b/>батыш<s n="adj"/><s n="subst"/></r></p></e>
+    <e c="  0"><p><l>güneybatı<s n="n"/><s n="attr"/></l><r>түштүк<b/>батыш<s n="adj"/></r></p></e>
     <e c="  0"><p><l>güneydoğu<s n="n"/></l><r>түштүк<b/>чыгыш<s n="adj"/><s n="subst"/></r></p></e>
+    <e c="  0"><p><l>güneydoğu<s n="n"/><s n="attr"/></l><r>түштүк<b/>чыгыш<s n="adj"/></r></p></e>
     <e c="  0"><p><l>kuzeybatı<s n="n"/></l><r>түндүк<b/>батыш<s n="adj"/><s n="subst"/></r></p></e>
+    <e c="  0"><p><l>kuzeybatı<s n="n"/><s n="attr"/></l><r>түндүк<b/>батыш<s n="adj"/></r></p></e>
     <e c="  0"><p><l>kuzeydoğu<s n="n"/></l><r>түндүк<b/>чыгыш<s n="adj"/><s n="subst"/></r></p></e>
+    <e c="  0"><p><l>kuzeydoğu<s n="n"/><s n="attr"/></l><r>түндүк<b/>чыгыш<s n="adj"/></r></p></e>
 
 
     <e c="  0"><p><l>güçlü<s n="adj"/></l><r>күчтүү<s n="adj"/></r></p></e>
