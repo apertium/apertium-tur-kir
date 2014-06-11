@@ -65,6 +65,9 @@
       <attr-item tags="pl"/>
       <attr-item tags="ND"/>
     </def-attr>
+    <def-attr n="a_screeve">
+      <attr-item tags="cond"/>
+    </def-attr>
     <def-attr n="a_prog">
       <attr-item tags="prog"/>
     </def-attr>
@@ -108,7 +111,8 @@
                      <lit-tag v="prc_perf"/>
                      <lit v="$ ^"/>
                      <get-case-from pos="1"><lit v="жат"/></get-case-from>
-                     <lit-tag v="vaux.aor"/>
+                     <lit-tag v="vaux"/>
+                     <clip pos="1" side="tl" part="a_screeve"/>
                      <clip pos="1" side="tl" part="a_pers"/>
                      <clip pos="1" side="tl" part="a_nbr"/>
                    </concat>
