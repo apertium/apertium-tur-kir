@@ -52,6 +52,7 @@
      <sdef n="mf"        c="Masculine / feminine"/>
 
      <sdef n="locattr"      c="Relative locative"/>
+     <sdef n="attr"      c="Attributive"/>
 
      <sdef n="sim"       c="Simulative"/>
      <sdef n="ger_past"  c="Past Gerund"/>
