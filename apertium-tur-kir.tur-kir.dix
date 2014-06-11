@@ -271,7 +271,7 @@
     <e c="  0"><p><l>bazı<s n="det"/><s n="qnt"/></l><r>бир<b/>нече<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>bir<s n="det"/><s n="ind"/></l><r>бир<s n="det"/><s n="ind"/></r></p></e>
 
-    <e c="  0"><p><l>tek<s n="det"/></l><r>жалгыз<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>tek<s n="det"/><s n="ind"/></l><r>жалгыз<s n="det"/><s n="ind"/></r></p></e>
 
     <!-- TODO: Check -->
     <e c="  0"><p><l>kendi<s n="det"/><s n="ref"/></l><r>өз<s n="det"/><s n="ref"/></r></p></e>
