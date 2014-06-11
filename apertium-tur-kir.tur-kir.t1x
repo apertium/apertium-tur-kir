@@ -36,6 +36,10 @@
       <cat-item lemma="i" tags="cop.aor.*"/>
     </def-cat>
 
+    <def-cat n="cop-cond">
+      <cat-item lemma="i" tags="cop.cond.*"/>
+    </def-cat>
+
     <def-cat n="cop-ifi">
       <cat-item lemma="i" tags="cop.ifi.*"/>
     </def-cat>
@@ -213,6 +217,22 @@
           <lu>
             <get-case-from pos="1"><lit v="бол"/></get-case-from>
             <lit-tag v="v.iv.ger_past.loc"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+ 
+    <rule comment="cop-cond"> 
+      <pattern>
+        <pattern-item n="cop-cond"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <get-case-from pos="1"><lit v="бол"/></get-case-from>
+            <lit-tag v="v.iv.prc_cond"/>
+            <clip pos="1" side="tl" part="a_pers"/>
+            <clip pos="1" side="tl" part="a_nbr"/>
           </lu>
         </out>
       </action>
