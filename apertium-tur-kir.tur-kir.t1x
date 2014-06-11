@@ -153,6 +153,7 @@
 
     <def-attr n="a_screeve">
       <attr-item tags="past"/>
+      <attr-item tags="pcond"/>
       <attr-item tags="aor"/>
       <attr-item tags="fut.dub"/>
 
@@ -200,6 +201,7 @@
     <def-attr n="a_past">
       <attr-item tags="past"/>
       <attr-item tags="prc_past"/>
+      <attr-item tags="pcond"/>
     </def-attr>
     
   </section-def-attrs>
@@ -513,6 +515,27 @@
         </choose>
       </action>
     </rule>
+
+    <rule comment="aor cop-ifi"> 
+      <pattern>
+        <pattern-item n="aor"/>
+        <pattern-item n="cop-ifi"/>
+      </pattern>
+      <action>
+        <call-macro n="modify-pers-nbr1"> 
+          <with-param pos="2"/>
+        </call-macro>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="pcond"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+            <clip pos="2" side="tl" part="a_pers"/>
+            <clip pos="2" side="tl" part="a_nbr"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="past cop-ifi"> 
       <pattern>
