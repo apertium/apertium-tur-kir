@@ -5912,6 +5912,7 @@
     <!-- added from apertium-tr-az -->
     <e c="  0"><p><l>yarın<s n="adv"/></l><r>эртең<s n="adv"/></r></p></e>
     <e c="  0"><p><l>çok<s n="adv"/></l><r>абдан<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>çok<s n="adv"/><s n="subst"/></l><r>көп<s n="adj"/><s n="subst"/></r></p></e>
     <e c="  0"><p><l>yok<s n="adv"/></l><r>жок<s n="adv"/></r></p></e>
     <e c="  0"><p><l>hep<s n="adv"/></l><r>ар<b/>дайым<s n="adv"/></r></p></e>
     <e c="  0"><p><l>sonra<s n="adv"/></l><r>кийин<s n="adv"/></r></p></e>
