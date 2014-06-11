@@ -4838,7 +4838,8 @@
     <e><p><l>SETimes<s n="np"/><s n="al"/></l><r>SETimes<s n="np"/><s n="al"/></r></p></e>
     <e><p><l>Reuters<s n="np"/><s n="org"/></l><r>Рейтер<s n="np"/><s n="org"/></r></p></e>
     <e><p><l>Getty<b/>Images<s n="np"/><s n="org"/></l><r>Getty<b/>Images<s n="np"/><s n="org"/></r></p></e>
-    <e><p><l>Super<b/>G4<s n="np"/></l><r>Супер<b/>Г4<s n="np"/><s n="al"/></r></p></e>
+    <e><p><l>Super<b/>G4<s n="np"/><s n="al"/></l><r>Супер<b/>Г4<s n="np"/><s n="al"/></r></p></e>
+    <e><p><l>Sovyet<s n="np"/><s n="al"/></l><r>Совет<s n="np"/><s n="al"/></r></p></e>
 
     <e><p><l>Adlesiç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Адлесич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
     <e><p><l>Anciç<s n="np"/><s n="cog"/><s n="mf"/></l><r>Анжич<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
