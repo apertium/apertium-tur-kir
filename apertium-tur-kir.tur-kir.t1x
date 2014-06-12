@@ -39,19 +39,19 @@
     </def-cat>
           
     <def-cat n="cop-aor">
-      <cat-item lemma="i" tags="cop.aor.*"/>
+      <cat-item tags="cop.aor.*"/>
     </def-cat>
 
     <def-cat n="cop-cond">
-      <cat-item lemma="i" tags="cop.cond.*"/>
+      <cat-item tags="cop.cond.*"/>
     </def-cat>
 
     <def-cat n="cop-ifi">
-      <cat-item lemma="i" tags="cop.ifi.*"/>
+      <cat-item tags="cop.ifi.*"/>
     </def-cat>
 
     <def-cat n="cop-advl">
-      <cat-item lemma="i" tags="cop.advl"/>
+      <cat-item tags="cop.advl"/>
     </def-cat>
 
     <def-cat n="gpr-px">
