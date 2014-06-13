@@ -65,6 +65,7 @@
       <cat-item tags="v.*.gpr_past.px1sg"/>
       <cat-item tags="v.*.gpr_past.px2sg"/>
       <cat-item tags="v.*.gpr_past.px3sp"/>
+      <cat-item tags="v.*.gpr_past.px3pl"/>
       <cat-item tags="v.*.gpr_past.px1pl"/>
       <cat-item tags="v.*.gpr_past.px2pl"/>
     </def-cat>
@@ -134,7 +135,7 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
-   
+    
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
@@ -156,6 +157,7 @@
       <attr-item tags="px1sg"/>
       <attr-item tags="px2sg"/>
       <attr-item tags="px3sp"/>
+      <attr-item tags="px3pl"/>
       <attr-item tags="px1pl"/>
       <attr-item tags="px2pl"/>
     </def-attr>
@@ -241,6 +243,15 @@
           </when>
       </choose>
     </def-macro>
+
+    <def-macro n="modify-poss1" npar="1">
+      <choose>
+          <when>
+            <test><equal><clip pos="1" side="sl" part="a_poss"/><lit-tag v="px3pl"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_poss"/><lit-tag v="px3sp"/></let>
+          </when>
+      </choose>
+    </def-macro>
   </section-def-macros>
 
   <section-rules>
@@ -320,6 +331,9 @@
         <pattern-item n="ger-impf"/>
       </pattern>
       <action>
+        <call-macro n="modify-poss1"> 
+          <with-param pos="1"/> 
+        </call-macro>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="ger_past"/></let>
         <out>
           <lu>
@@ -335,6 +349,9 @@
         <pattern-item n="ger-when"/>
       </pattern>
       <action>
+        <call-macro n="modify-poss1"> 
+          <with-param pos="1"/> 
+        </call-macro>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="ger_past"/></let>
         <out>
           <lu>
@@ -350,6 +367,9 @@
         <pattern-item n="ger-pabs"/>
       </pattern>
       <action>
+        <call-macro n="modify-poss1"> 
+          <with-param pos="1"/> 
+        </call-macro>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="ger_past"/></let>
         <out>
           <lu>
@@ -364,6 +384,9 @@
         <pattern-item n="ger-abst"/>
       </pattern>
       <action>
+        <call-macro n="modify-poss1"> 
+          <with-param pos="1"/> 
+        </call-macro>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="ger_pres"/></let>
         <out>
           <lu>
@@ -378,6 +401,9 @@
         <pattern-item n="ger-aor"/>
       </pattern>
       <action>
+        <call-macro n="modify-poss1"> 
+          <with-param pos="1"/> 
+        </call-macro>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="ger_pres"/></let>
         <out>
           <lu>
@@ -392,6 +418,9 @@
         <pattern-item n="ger6"/>
       </pattern>
       <action>
+        <call-macro n="modify-poss1"> 
+          <with-param pos="1"/> 
+        </call-macro>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="ger_pres"/></let>
         <out>
           <lu>
@@ -667,6 +696,9 @@
         <pattern-item n="gpr-rsub"/>
       </pattern>
       <action>
+        <call-macro n="modify-poss1"> 
+          <with-param pos="1"/> 
+        </call-macro>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="gpr_past"/></let>
         <out>
           <lu>
@@ -681,6 +713,9 @@
         <pattern-item n="gpr-aor"/>
       </pattern>
       <action>
+        <call-macro n="modify-poss1"> 
+          <with-param pos="1"/> 
+        </call-macro>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="gpr_fut"/></let>
         <out>
           <lu>
@@ -728,6 +763,23 @@
           <lu>
             <clip pos="2" side="tl" part="lem"/>
             <lit-tag v="qst"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+ 
+    <rule comment="nom">  
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="modify-poss1"> 
+          <with-param pos="1"/> 
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
           </lu>
         </out>
       </action>
