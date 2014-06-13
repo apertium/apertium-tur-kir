@@ -210,6 +210,7 @@
   <rule><match lemma="tertip" tags="n.*"><select lemma="тартип" tags="n.*"/></match></rule>
   <rule><match lemma="transport" tags="n.*"><select lemma="транспорт" tags="n.*"/></match></rule>
   <rule><match lemma="tamah" tags="n.*"><select lemma="ач көздүк" tags="n.*"/></match></rule>
+  <rule><match lemma="tüken" tags="v.iv.*"><select lemma="чарча" tags="v.iv.*"/></match></rule>
   <rule><match lemma="uçak" tags="n.*"><select lemma="учак" tags="n.*"/></match></rule>
   <rule><match lemma="yarak" tags="n.*"><select lemma="жарак" tags="n.*"/></match></rule>
   <rule><match lemma="yatak" tags="n.*"><select lemma="жатак" tags="n.*"/></match></rule>
