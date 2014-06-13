@@ -8,6 +8,13 @@
       <cat-item tags="v.*.*.*.prog"/>
     </def-cat>
 
+     <def-cat n="cond-fin">
+      <cat-item tags="v.*.cond.*"/>
+      <cat-item tags="v.*.*.cond.*"/>
+      <cat-item tags="v.*.*.*.cond.*"/>
+    </def-cat>
+
+
      <def-cat n="aor-fin">
       <cat-item tags="v.*.aor.*"/>
       <cat-item tags="v.*.*.aor.*"/>
@@ -264,6 +271,24 @@
     </rule>
 
  
+    <rule comment="cond-fin"> 
+      <pattern>
+        <pattern-item n="cond-fin"/>
+      </pattern>
+      <action>
+        <call-macro n="modify-pers-nbr1"> 
+          <with-param pos="1"/>
+        </call-macro>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="prc_cond"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="cop-cond"> 
       <pattern>
         <pattern-item n="cop-cond"/>
