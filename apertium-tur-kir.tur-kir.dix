@@ -3354,7 +3354,6 @@
     <e c="  0"><p><l>itiraz<s n="n"/></l><r>каршылык<s n="n"/></r></p></e>
     <e c="  0"><p><l>ihale<s n="n"/></l><r>тендер<s n="n"/></r></p></e>
     <e c="  0"><p><l>binlerce<s n="n"/></l><r>миңдеген<s n="n"/></r></p></e>
-    <e c="  0"><p><l>nükleer<s n="n"/></l><r>атомдук<s n="n"/></r></p></e>
     <e c="  0"><p><l>zafer<s n="n"/></l><r>жеңиш<s n="n"/></r></p></e>
     <e c="  0"><p><l>kriter<s n="n"/></l><r>критерия<s n="n"/></r></p></e>
     <e c="  0"><p><l>grev<s n="n"/></l><r>иш<b/>таштоо<s n="n"/></r></p></e>
@@ -5898,6 +5897,7 @@
     <e slr="1"><p><l>gerek<s n="adj"/></l><r>зарыл<s n="adj"/></r></p></e>
     <e c="  0"><p><l>tekerlekli<s n="adj"/></l><r>дөңгөлөгү<b/>бар<s n="adj"/></r></p></e>
     <e c="  0"><p><l>ağaçlıklı<s n="adj"/></l><r>дарагы<b/>бар<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>nükleer<s n="adj"/></l><r>атомдук<s n="adj"/></r></p></e>
     <!-- SECTION: Adverbs -->
 
     <e c="  0"><p><l>şu<b/>anda<s n="adv"/></l><r>азыр<s n="adv"/></r></p></e>
