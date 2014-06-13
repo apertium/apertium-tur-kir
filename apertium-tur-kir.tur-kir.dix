@@ -3659,7 +3659,7 @@
     <e c="  0"><p><l>seminer<s n="n"/></l><r>семинар<s n="n"/></r></p></e>
     <e c="  0"><p><l>konut<s n="n"/></l><r>конуш<s n="n"/></r></p></e>
     <e c="  0"><p><l>kalite<s n="n"/></l><r>сапат<s n="n"/></r></p></e>
-    <e c="  0"><p><l>huzur<s n="n"/></l><r>алдында<s n="n"/></r></p></e>
+    <e c="  0"><p><l>huzur<s n="n"/></l><r>тынчтык<s n="n"/></r></p></e>
     <e c="  0"><p><l>taş<s n="n"/></l><r>таш<s n="n"/></r></p></e>
     <e c="  0"><p><l>ayrıntı<s n="n"/></l><r>деталь<s n="n"/></r></p></e>
     <e c="  0"><p><l>uz<s n="n"/></l><r>мыкты<s n="n"/></r></p></e>
@@ -4761,10 +4761,11 @@
     <e><p><l>Kosova<s n="np"/><s n="top"/></l><r>Косова<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Marmara<s n="np"/><s n="top"/></l><r>Мармара<s n="np"/><s n="top"/></r></p></e>
 
+    <e><p><l>Türk<s n="adj"/></l><r>түрк<s n="adj"/></r></p></e>
+    <e><p><l>Musul<s n="np"/><s n="top"/></l><r>Мусул<s n="np"/><s n="top"/></r></p></e>
 
     <e><p><l>Sırb<s n="np"/></l><r>Серб<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sırp<s n="np"/></l><r>Серб<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Türk<s n="np"/></l><r>Түрк<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Hırvat<s n="np"/></l><r>Харват<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Bulgar<s n="np"/></l><r>Балгар<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Makedon<s n="np"/></l><r>Македониалык<s n="np"/><s n="top"/></r></p></e>
