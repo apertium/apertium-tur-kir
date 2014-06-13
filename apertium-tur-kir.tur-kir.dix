@@ -4735,7 +4735,7 @@
     <e><p><l>Üsküp<s n="np"/><s n="top"/></l><r>Үскүп<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Atina<s n="np"/><s n="top"/></l><r>Атина<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Rusya<s n="np"/><s n="top"/></l><r>Орусия<s n="np"/><s n="top"/></r></p></e>
-    <e><p><l>Zagreb<s n="np"/></l><r>Загреб<s n="np"/><s n="top"/></r></p></e>
+    <e><p><l>Zagreb<s n="np"/><s n="top"/></l><r>Загреб<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Sofya<s n="np"/><s n="top"/></l><r>София<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Anadolu<s n="np"/><s n="top"/></l><r>Анадолу<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Almanya<s n="np"/><s n="top"/></l><r>Германия<s n="np"/><s n="top"/></r></p></e>
@@ -4777,7 +4777,7 @@
 
     <e><p><l>AB<s n="np"/><s n="top"/></l><r>ЕБ<s n="np"/><s n="top"/></r></p></e>
 
-    <e><p><l>Rumen<s n="np"/></l><r>Румын<s n="np"/><s n="top"/></r></p></e>
+    <!--<e><p><l>Rumen<s n="np"/><s n="top"/></l><r>Румын<s n="np"/><s n="top"/></r></p></e>-->
     <e><p><l>Romen<s n="np"/></l><r>Римдик<s n="np"/><s n="top"/></r></p></e>
 
     <e><p><l>İslam<s n="np"/></l><r>Ислам<s n="np"/><s n="top"/></r></p></e>
