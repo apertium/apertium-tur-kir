@@ -5910,7 +5910,7 @@
 
     <e c="  0"><p><l>neden<s n="adv"/></l><r>эмнеге<s n="adv"/><s n="itg"/></r></p></e>
     <e c="  0"><p><l>niye<s n="adv"/></l><r>эмнеге<s n="adv"/><s n="itg"/></r></p></e>
-    <e c="  0"><p><l>nasıl<s n="adv"/></l><r>кандай<s n="adv"/><s n="itg"/></r></p></e>
+    <e c="  0"><p><l>nasıl<s n="adv"/><s n="itg"/></l><r>кандай<s n="adv"/><s n="itg"/></r></p></e>
     <e c="  0"><p><l>hayattayken<s n="adv"/></l><r>тирүү<b />кезинде<s n="adv"/></r></p></e>
 
     <!-- added from apertium-tr-az -->
@@ -6734,6 +6734,7 @@
     <e slr="1"><p><l>kır<s n="v"/><s n="tv"/></l><r>кыр<s n="v"/><s n="tv"/></r></p></e>
     <e slr="2"><p><l>kır<s n="v"/><s n="tv"/></l><r>көңул<b/>оорут<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>yorumla<s n="v"/><s n="tv"/></l><r>түшүндүр<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>açıkla<s n="v"/><s n="tv"/></l><r>түшүндүр<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>gider<s n="v"/><s n="tv"/></l><r>кет<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
     <e c="  0"><p><l>sar<s n="v"/><s n="tv"/></l><r>оро<s n="v"/><s n="tv"/></r></p></e>
     <e slr="1"><p><l>sar<s n="v"/><s n="tv"/></l><r>таң<s n="v"/><s n="tv"/></r></p></e>
