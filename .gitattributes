@@ -25,7 +25,6 @@
 corpus/corpus.tur.txt -text
 corpus/tur-kir-nova.txt -text
 corpus/tur-kir-origina.txt -text
-/countstems.sh -text
 dev/abil-with-context.txt -text
 dev/apertium-tr-ky.tr-ky.t1x -text
 dev/apertium-tur-kir.tur-kir.t1x -text
