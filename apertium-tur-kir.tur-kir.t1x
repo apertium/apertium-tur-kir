@@ -14,7 +14,6 @@
       <cat-item tags="v.*.*.*.cond.*"/>
     </def-cat>
 
-
      <def-cat n="aor-fin">
       <cat-item tags="v.*.aor.*"/>
       <cat-item tags="v.*.*.aor.*"/>
@@ -83,7 +82,11 @@
     <def-cat n="prc">
       <cat-item tags="v.*.prc"/>
     </def-cat>
- 
+  
+    <def-cat n="ger-past">
+      <cat-item tags="v.*.ger_past.*"/>
+    </def-cat>
+
     <def-cat n="ger-impf">
       <cat-item tags="v.*.ger_impf.*"/>
     </def-cat>
@@ -134,6 +137,8 @@
    
     <def-cat n="nom">
       <cat-item tags="n.*"/>
+      <cat-item tags="prn.*"/>
+      <cat-item tags="adj.subst.*"/>
     </def-cat>
     
     <def-cat n="sent">
@@ -144,6 +149,10 @@
   
   <section-def-attrs>
     
+    <def-attr n="a_attr">
+      <attr-item tags="attr"/>
+    </def-attr>
+
     <def-attr n="a_case">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
@@ -325,6 +334,23 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="ger-past"> 
+      <pattern>
+        <pattern-item n="ger-past"/>
+      </pattern>
+      <action>
+        <call-macro n="modify-poss1"> 
+          <with-param pos="1"/> 
+        </call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="ger-impf"> 
       <pattern>
@@ -767,7 +793,6 @@
         </out>
       </action>
     </rule>
-
  
     <rule comment="nom">  
       <pattern>
@@ -794,20 +819,36 @@
       </pattern>
       <action>
         <let><clip pos="1" side="tl" part="a_poss"/><lit v=""/></let>
-        <out>
-          <lu>
-            <clip pos="1" side="tl" part="whole"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <clip pos="2" side="tl" part="lemh"/>
-            <clip pos="2" side="tl" part="a_nom"/>
-            <clip pos="2" side="tl" part="a_nbr"/>
-            <clip pos="1" side="sl" part="a_poss"/>
-            <clip pos="2" side="tl" part="a_case"/>
-            <clip pos="2" side="tl" part="lemq"/>
-          </lu>
-        </out>
+        <choose> 
+          <when>
+            <test><equal><clip pos="2" side="tl" part="a_attr"/><lit-tag v="attr"/></equal></test>
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </out>
+          </when>
+          <otherwise> 
+            <out>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="lemh"/>
+                <clip pos="2" side="tl" part="a_nom"/>
+                <clip pos="2" side="tl" part="a_nbr"/>
+                <clip pos="1" side="sl" part="a_poss"/>
+                <clip pos="2" side="tl" part="a_case"/>
+                <clip pos="2" side="tl" part="lemq"/>
+              </lu>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
     
