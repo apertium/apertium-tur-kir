@@ -9,7 +9,8 @@ cat $CORP | apertium-destxt | apertium -f none -d ../ $PAIR-morph | sed 's/\$\W*
 	apertium-pretransfer | sed 's/\$\W*\^/$\n^/g' | tee /tmp/$PAIR.pretransfer |\
 	lt-proc -b ../$PAIR.autobil.bin | tee /tmp/$PAIR.biltrans |\
 	lrx-proc -m ../$PAIR.autolex.bin | tee /tmp/$PAIR.lextor |\
-	apertium-transfer -b ../apertium-tur-kir.tur-kir.t1x  ../tur-kir.t1x.bin |\
+	apertium-transfer -b ../apertium-tur-kir.tur-kir.t0x  ../tur-kir.t0x.bin |\
+	apertium-transfer -n ../apertium-tur-kir.tur-kir.t1x  ../tur-kir.t1x.bin |\
 	apertium-transfer -n ../apertium-tur-kir.tur-kir.t2x  ../tur-kir.t2x.bin |\
 	apertium-transfer -n ../apertium-tur-kir.tur-kir.t3x  ../tur-kir.t3x.bin |\
 	apertium-interchunk ../apertium-tur-kir.tur-kir.t4x  ../tur-kir.t4x.bin |\
