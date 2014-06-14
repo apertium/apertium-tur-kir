@@ -64,23 +64,11 @@ dev/corpora/source.tpl -text
 dev/corpora/transliterate.py -text
 dev/corpora/xml2txt.py -text
 dev/disambiguation-notes.txt -text
-dev/evaluation/README -text
-dev/evaluation/setimes.bulgar.ky.txt -text
-dev/evaluation/setimes.bulgar.tr.txt -text
-dev/evaluation/setimes.kosova.ky.txt -text
-dev/evaluation/setimes.kosova.tr.txt -text
-dev/evaluation/setimes.kosova_plate.ky.txt -text
-dev/evaluation/setimes.kosova_plate.tr.txt -text
-dev/evaluation/wikipedia.kadinlar_askerler.ky.txt -text
-dev/evaluation/wikipedia.kadinlar_askerler.tr.txt -text
 dev/generation-summary.tr-ky.txt -text
 dev/generation-test.tr-ky.sh -text
-dev/ky-nouns.txt -text svneol=unset#application/octet-stream
-dev/midterm/article.ky.txt -text
 dev/midterm/article.tr-ky.2011-07-12.txt -text svneol=unset#application/octet-stream
 dev/midterm/article.tr-ky.2011-08-13.txt -text svneol=unset#application/octet-stream
 dev/midterm/article.tr-ky.2011-08-17.txt -text svneol=unset#application/octet-stream
-dev/midterm/article.tr.txt -text
 dev/missing-bidix-freq.sh -text
 /kir-tur.prob -text svneol=unset#unset
 /modes.xml -text
@@ -105,11 +93,22 @@ tests/ky-verbsimp.yaml -text
 tests/ky-verbsopt.yaml -text
 tests/run-tests.sh -text
 tests/tur-kir.test -text
+texts/README -text
+texts/article.kir.txt -text
+texts/article.tur.txt -text
 texts/küçükkuş.kir.txt -text svneol=unset#application/octet-stream
 texts/küçükkuş.tur-kir.txt -text
 texts/küçükkuş.tur.txt -text
+texts/setimes-bulgar.kir.txt -text
+texts/setimes-bulgar.tur.txt -text
+texts/setimes-kosovo.kir.txt -text
+texts/setimes-kosovo.tur.txt -text
+texts/setimes-kosovo_plate.kir.txt -text
+texts/setimes-kosovo_plate.tur.txt -text
 texts/story.kir.0.txt -text svneol=unset#application/octet-stream
 texts/story.kir.1.txt -text
 texts/story.tur.txt -text
+texts/wikipedia-kadinlar_askerler.kir.txt -text
+texts/wikipedia-kadinlar_askerler.tur.txt -text
 /tur-kir.prob -text svneol=unset#unset
 /wiki-tests.sh -text
