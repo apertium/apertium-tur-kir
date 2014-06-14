@@ -45,6 +45,7 @@ dev/bidix/pending_pronouns.txt -text
 dev/bidix/pending_proper_nouns.txt -text
 dev/bidix/pending_verbs.txt -text
 dev/bilingual-summary.txt -text
+dev/category-consistency.py -text
 dev/corpora/azattyk-crp.py -text
 dev/corpora/bottle.py -text
 dev/corpora/convertcorpus.py -text
