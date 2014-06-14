@@ -28,8 +28,7 @@
     </def-cat>
 
     <def-cat n="n">
-      <cat-item tags="n.nom"/>
-      <cat-item tags="n.*.nom"/>
+      <cat-item tags="n.*"/>
     </def-cat>
 
     <def-cat n="sent">
@@ -169,6 +168,24 @@
             <b pos="1"/>
             <lu>
               <var n="aux-verb"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: n">
+      <pattern>
+        <pattern-item n="n"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
