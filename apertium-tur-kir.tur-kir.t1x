@@ -614,6 +614,8 @@
           <with-param pos="2"/>
         </call-macro>
         <let><clip pos="1" side="tl" part="a_nec"/><lit v=""/></let>
+        <let><clip pos="2" side="tl" part="a_pers"/><lit-tag v="p3"/></let>
+        <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
