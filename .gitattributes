@@ -93,21 +93,20 @@ tests/ky-verbsopt.yaml -text
 tests/run-tests.sh -text
 tests/tur-kir.test -text
 texts/README -text
-texts/article.kir.txt -text
+texts/article.kir.0.txt -text
 texts/article.tur.txt -text
-texts/küçükkuş.kir.txt -text svneol=unset#application/octet-stream
-texts/küçükkuş.tur-kir.txt -text
+texts/küçükkuş.kir.0.txt -text svneol=unset#application/octet-stream
 texts/küçükkuş.tur.txt -text
-texts/setimes-bulgar.kir.txt -text
+texts/setimes-bulgar.kir.0.txt -text
 texts/setimes-bulgar.tur.txt -text
 texts/setimes-kosovo.kir.txt -text
 texts/setimes-kosovo.tur.txt -text
-texts/setimes-kosovo_plate.kir.txt -text
+texts/setimes-kosovo_plate.kir.0.txt -text
 texts/setimes-kosovo_plate.tur.txt -text
 texts/story.kir.0.txt -text svneol=unset#application/octet-stream
 texts/story.kir.1.txt -text
 texts/story.tur.txt -text
-texts/wikipedia-kadinlar_askerler.kir.txt -text
+texts/wikipedia-kadinlar_askerler.kir.0.txt -text
 texts/wikipedia-kadinlar_askerler.tur.txt -text
 /tur-kir.prob -text svneol=unset#unset
 /wiki-tests.sh -text
