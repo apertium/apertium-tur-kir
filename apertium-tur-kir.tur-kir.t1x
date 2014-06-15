@@ -20,6 +20,18 @@
       <cat-item tags="v.*.*.*.aor.*"/>
     </def-cat>
 
+     <def-cat n="pot">
+      <cat-item tags="v.*.pot"/>
+      <cat-item tags="v.*.*.pot"/>
+      <cat-item tags="v.*.*.*.pot"/>
+    </def-cat>
+
+     <def-cat n="nec">
+      <cat-item tags="v.*.nec"/>
+      <cat-item tags="v.*.*.nec"/>
+      <cat-item tags="v.*.*.*.nec"/>
+    </def-cat>
+
      <def-cat n="aor">
       <cat-item tags="v.*.aor"/>
       <cat-item tags="v.*.*.aor"/>
@@ -212,6 +224,15 @@
     </def-attr>
 
 
+    <def-attr n="a_pot">
+      <attr-item tags="pot"/>
+    </def-attr>
+
+    <def-attr n="a_nec">
+      <attr-item tags="nec"/>
+    </def-attr>
+
+
     <def-attr n="a_trans">
       <attr-item tags="tv"/>
       <attr-item tags="iv"/>
@@ -225,6 +246,16 @@
        
     <def-attr n="a_func">
       <attr-item tags="@HARGLE"/>
+    </def-attr>
+
+    <def-attr n="a_pers_nbr">
+      <attr-item tags="p1.sg"/>
+      <attr-item tags="p2.sg"/>
+      <attr-item tags="p3.sg"/>
+      <attr-item tags="p3.sp"/>
+      <attr-item tags="p1.pl"/>
+      <attr-item tags="p2.pl"/>
+      <attr-item tags="p3.pl"/>
     </def-attr>
 
     <def-attr n="a_nom">
@@ -241,6 +272,7 @@
  
   <section-def-vars>
     <def-var n="number"/>
+    <def-var n="nec-poss"/>
   </section-def-vars>  
 
   <section-def-macros>
@@ -261,6 +293,33 @@
           </when>
       </choose>
     </def-macro>
+
+    <def-macro n="set-nec-poss1" npar="1">
+      <choose>
+          <when>
+            <test><equal><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p3"/></equal></test>
+            <let><var n="nec-poss"/><lit-tag v="px3sp"/></let>
+          </when>
+          <when>
+            <test><equal><clip pos="1" side="tl" part="a_pers_nbr"/><lit-tag v="p1.sg"/></equal></test>
+            <let><var n="nec-poss"/><lit-tag v="px1sg"/></let>
+          </when>
+          <when>
+            <test><equal><clip pos="1" side="tl" part="a_pers_nbr"/><lit-tag v="p2.sg"/></equal></test>
+            <let><var n="nec-poss"/><lit-tag v="px2sg"/></let>
+          </when>
+          <when>
+            <test><equal><clip pos="1" side="tl" part="a_pers_nbr"/><lit-tag v="p1.pl"/></equal></test>
+            <let><var n="nec-poss"/><lit-tag v="px1pl"/></let>
+          </when>
+          <when>
+            <test><equal><clip pos="1" side="tl" part="a_pers_nbr"/><lit-tag v="p2.pl"/></equal></test>
+            <let><var n="nec-poss"/><lit-tag v="px2pl"/></let>
+          </when>
+      </choose>
+    </def-macro>
+
+
   </section-def-macros>
 
   <section-rules>
@@ -504,6 +563,72 @@
             <lit-tag v="vaux"/>
             <clip pos="2" side="tl" part="a_pers"/>
             <clip pos="2" side="tl" part="a_nbr"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="pot cop-aor"> 
+      <pattern>
+        <pattern-item n="pot"/>
+        <pattern-item n="cop-aor"/>
+      </pattern>
+      <action>
+        <call-macro n="modify-pers-nbr1"> 
+          <with-param pos="2"/>
+        </call-macro>
+        <let><clip pos="1" side="tl" part="a_pot"/><lit v=""/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+            <lit-tag v="prc_cond"/>
+            <clip pos="2" side="tl" part="a_pers"/>
+            <clip pos="2" side="tl" part="a_nbr"/>
+          </lu>
+          <b/>
+          <lu>
+            <lit v="жакшы"/>
+            <lit-tag v="adj"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <lit v="бол"/>
+            <lit-tag v="v.iv.aor.p3.sg"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="nec cop-aor"> 
+      <pattern>
+        <pattern-item n="nec"/>
+        <pattern-item n="cop-aor"/>
+      </pattern>
+      <action>
+        <call-macro n="modify-pers-nbr1"> 
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set-nec-poss1"> 
+          <with-param pos="2"/>
+        </call-macro>
+        <let><clip pos="1" side="tl" part="a_nec"/><lit v=""/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+            <lit-tag v="ger_pres"/>
+            <var n="nec-poss"/>
+            <lit-tag v="nom"/>
+          </lu>
+          <b/>
+          <lu>
+            <lit v="керек"/>
+            <lit-tag v="adj"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
           </lu>
         </out>
       </action>
