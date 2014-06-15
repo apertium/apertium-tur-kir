@@ -4,8 +4,7 @@
   <section-def-cats>
     <def-cat n="prog">
       <cat-item tags="v.*.prog"/>
-      <cat-item tags="v.*.*.prog"/>
-      <cat-item tags="v.*.*.*.prog"/>
+      <cat-item tags="v.*.prog.*"/>
     </def-cat>
 
      <def-cat n="cond-fin">
@@ -15,33 +14,34 @@
     </def-cat>
 
      <def-cat n="aor-fin">
-      <cat-item tags="v.*.aor.*"/>
-      <cat-item tags="v.*.*.aor.*"/>
-      <cat-item tags="v.*.*.*.aor.*"/>
+      <cat-item tags="v.*.aor.p1.*"/>
+      <cat-item tags="v.*.aor.p2.*"/>
+      <cat-item tags="v.*.aor.p3.*"/>
     </def-cat>
 
      <def-cat n="pot">
       <cat-item tags="v.*.pot"/>
-      <cat-item tags="v.*.*.pot"/>
-      <cat-item tags="v.*.*.*.pot"/>
+      <cat-item tags="v.*.pot.*"/>
     </def-cat>
 
      <def-cat n="nec">
       <cat-item tags="v.*.nec"/>
-      <cat-item tags="v.*.*.nec"/>
-      <cat-item tags="v.*.*.*.nec"/>
+      <cat-item tags="v.*.nec.*"/>
     </def-cat>
 
      <def-cat n="aor">
       <cat-item tags="v.*.aor"/>
-      <cat-item tags="v.*.*.aor"/>
-      <cat-item tags="v.*.*.*.aor"/>
+      <cat-item tags="v.*.aor.*"/>
+    </def-cat>
+
+     <def-cat n="past">
+      <cat-item tags="v.*.past"/>
+      <cat-item tags="v.*.past.*"/>
     </def-cat>
 
      <def-cat n="fut">
       <cat-item tags="v.*.fut"/>
-      <cat-item tags="v.*.*.fut"/>
-      <cat-item tags="v.*.*.*.fut"/>
+      <cat-item tags="v.*.fut.*"/>
     </def-cat>
 
      <def-cat n="fut-dub">
@@ -50,12 +50,6 @@
       <cat-item tags="v.*.*.*.fut.dub"/>
     </def-cat>
 
-    <def-cat n="past">
-      <cat-item tags="v.*.past"/>
-      <cat-item tags="v.*.*.past"/>
-      <cat-item tags="v.*.*.*.past"/>
-    </def-cat>
-          
     <def-cat n="cop-aor">
       <cat-item tags="cop.aor.*"/>
     </def-cat>
@@ -332,11 +326,43 @@
 
   <section-rules>
 
+    <rule comment="past"> 
+      <pattern>
+        <pattern-item n="past"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="prc_perf"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="prog"> 
+      <pattern>
+        <pattern-item n="prog"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="prc_perf"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
     <rule comment="fut"> 
       <pattern>
         <pattern-item n="fut"/>
       </pattern>
       <action>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="prc_perf"/></let>
         <out>
           <lu>
@@ -352,6 +378,7 @@
         <pattern-item n="aor"/>
       </pattern>
       <action>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="prc_perf"/></let>
         <out>
           <lu>
@@ -771,8 +798,6 @@
       </action>
     </rule>
 
-
-
     <rule comment="aor-fin"> 
       <pattern>
         <pattern-item n="aor-fin"/>
@@ -1062,6 +1087,59 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="pot">
+      <pattern>
+        <pattern-item n="pot"/>
+      </pattern>
+      <action>
+        <call-macro n="modify-pers-nbr1"> 
+          <with-param pos="2"/>
+        </call-macro>
+        <let><clip pos="1" side="tl" part="a_pot"/><lit v=""/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+            <lit-tag v="prc_cond.p3.sg"/>
+          </lu>
+          <b/>
+          <lu>
+            <lit v="жакшы"/>
+            <lit-tag v="adj"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <lit v="бол"/>
+            <lit-tag v="v.iv.aor.p3.sg"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="nec cop-aor"> 
+      <pattern>
+        <pattern-item n="nec"/>
+      </pattern>
+      <action>
+        <call-macro n="modify-pers-nbr1"> 
+          <with-param pos="2"/>
+        </call-macro>
+        <let><clip pos="1" side="tl" part="a_nec"/><lit v=""/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+            <lit-tag v="ger_pres.px3sp.nom"/>
+          </lu>
+          <b/>
+          <lu>
+            <lit v="керек"/>
+            <lit-tag v="adj"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
 
     <rule comment="sent"> 
       <pattern>
