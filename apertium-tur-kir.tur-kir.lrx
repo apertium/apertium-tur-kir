@@ -587,6 +587,14 @@
 		</match>
 	</rule>
 	<rule>
+		<match lemma="pasta" tags="n.*">
+			<select lemma="торт" tags="n.*" />
+		</match>
+		<match lemma="yap" tags="v.*">
+			<select lemma="жаса" tags="v.*" />
+		</match>
+	</rule>
+	<rule>
 		<match lemma="araba" tags="n.*">
 			<select lemma="машине" tags="n.*"/>
 		</match>

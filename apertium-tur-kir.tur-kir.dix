@@ -6492,7 +6492,7 @@
     <e c="  0"><p><l>başvur<s n="v"/><s n="iv"/></l><r>заявления<b/>бер<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>ayrıl<s n="v"/><s n="iv"/></l><r>уза<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>umut<b/>et<s n="v"/><s n="tv"/></l><r>үмүт<b/>кыл<s n="v"/><s n="tv"/></r></p></e>
-    <e c="  0"><p><l>pasta<b/>yap<s n="v"/><s n="iv"/></l><r>торт<b/>жаса<s n="v"/><s n="tv"/></r></p></e>
+    <!-- e c="  0"><p><l>pasta<b/>yap<s n="v"/><s n="iv"/></l><r>торт<b/>жаса<s n="v"/><s n="tv"/></r></p></e --><!-- WTF -JNW -->
     <e c="  0"><p><l>yüz<s n="v"/><s n="tv"/></l><r>сүз<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>düzenle<s n="v"/><s n="tv"/></l><r>тартипте<s n="v"/><s n="tv"/></r></p></e>
     <e slr="1"><p><l>düzenle<s n="v"/><s n="tv"/></l><r>түздө<s n="v"/><s n="tv"/></r></p></e>
