@@ -256,9 +256,9 @@
 
     <!-- should be prn.recip -->
 
-    <e c="  0"><p><l>biri<s n="prn"/><s n="ind"/></l><r>бир<s n="prn"/><s n="coll"/></r></p></e>
+    <e c="  0"><p><l>biri<s n="prn"/><s n="ind"/></l><r>бир<s n="num"/><s n="coll"/></r></p></e>
     <e slr="1"><p><l>biri<s n="prn"/><s n="ind"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
-    <e c="  0"><p><l>birisi<s n="prn"/><s n="qnt"/></l><r>бир<s n="prn"/><s n="coll"/></r></p></e>
+    <e c="  0"><p><l>birisi<s n="prn"/><s n="qnt"/></l><r>бир<s n="num"/><s n="coll"/></r></p></e>
     <e slr="1"><p><l>birisi<s n="prn"/><s n="ind"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>kimse<s n="prn"/><s n="qnt"/></l><r>кимдир<b/>бирөө<s n="prn"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>başka<s n="prn"/><s n="ind"/></l><r>башка<s n="prn"/><s n="ind"/></r></p></e>
@@ -5202,7 +5202,7 @@
     <e c="  0"><p><l>askeri<s n="adj"/></l><r>аскердик<s n="adj"/></r></p></e>
     <e c="  0"><p><l>ortak<s n="adj"/></l><r>орток<s n="adj"/></r></p></e>
     <e c="  0"><p><l>ekonomik<s n="adj"/></l><r>үнөмдүү<s n="adj"/></r></p></e>
-    <e c="  0"><p><l>demokrat<s n="adj"/></l><r>демократ<s n="n"/><s n="attr"/></r></p></e>
+    <e c="  0"><p><l>demokrat<s n="adj"/></l><r>демократ<s n="adj"/></r></p></e>
     <e c="  0"><p><l>sorumlu<s n="adj"/></l><r>жоопкерчиликтүү<s n="adj"/></r></p></e>
     <e c="  0"><p><l>iyi<s n="adj"/></l><r>жакшы<s n="adj"/></r></p></e>
     <e c="  0"><p><l>tek<s n="adj"/></l><r>жалгыз<s n="adj"/></r></p></e>
