@@ -11,6 +11,11 @@
       <cat-item tags="v.*.prog.*"/>
     </def-cat>
 
+    <def-cat n="qst">
+      <cat-item tags="qst"/>
+      <cat-item tags="qst.*"/>
+    </def-cat>
+
     <def-cat n="cop">
       <cat-item tags="cop.*"/>
     </def-cat>
@@ -119,6 +124,27 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="qst cop"> 
+      <pattern>
+        <pattern-item n="qst"/>
+        <pattern-item n="cop"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+              <clip pos="2" side="tl" part="whole"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+              <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
+
      
   </section-rules>
 </transfer>
