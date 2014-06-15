@@ -106,7 +106,7 @@
     <!-- SECTION: Interjections -->
     
     <!--<e c="  0"><p><l>tabi<b/>ki<s n="ij"/></l><r>ананчы<s n="ij"/></r></p></e>-->
-    <e c="  0"><p><l>tabi<b/>ki<s n="ij"/></l><r>албетте<s n="ij"/></r></p></e>
+    <!-- e c="  0"><p><l>tabi<b/>ki<s n="ij"/></l><r>албетте<s n="ij"/></r></p></e -->
     <e c="  0"><p><l>tabii<b/>ki<s n="ij"/></l><r>албетте<s n="ij"/></r></p></e>
     <e c="  0"><p><l>şöyle<s n="ij"/></l><r>ушундай<s n="ij"/></r></p></e>
     <e c="  0"><p><l>peki<s n="ij"/></l><r>жарайт<s n="ij"/></r></p></e>
@@ -6194,6 +6194,7 @@
     <e c="  0"><p><l>arık<s n="v"/><s n="iv"/></l><r>кет<s n="v"/><s n="iv"/></r></p></e>
 
     <e c="  0"><p><l>çalış<s n="v"/><s n="iv"/></l><r>иште<s n="v"/><s n="iv"/></r></p></e>
+    <e c="  0"><p><l>sevin<s n="v"/><s n="iv"/></l><r>сүйүн<s n="v"/><s n="iv"/></r></p></e>
 
 
 		
@@ -6475,7 +6476,7 @@
     <e c="  0"><p><l>reddet<s n="v"/><s n="tv"/></l><r>тан<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>devam<b/>et<s n="v"/><s n="tv"/></l><r>улан<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
     <e c="  0"><p><l>başar<s n="v"/><s n="tv"/></l><r>ишке<b/>ашыр<s n="v"/><s n="iv"/></r></p></e>
-    <e slr="1"><p><l>başar<s n="v"/><s n="tv"/></l><r>бүтүр<s n="v"/><s n="iv"/></r></p></e>
+    <e slr="1"><p><l>başar<s n="v"/><s n="tv"/></l><r>бүт<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
     <e slr="2"><p><l>başar<s n="v"/><s n="tv"/></l><r>аткар<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>var<s n="v"/><s n="iv"/></l><r>бар<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>unut<s n="v"/><s n="tv"/></l><r>унут<s n="v"/><s n="tv"/></r></p></e>
