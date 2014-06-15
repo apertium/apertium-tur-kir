@@ -29,7 +29,7 @@ lexc_bidix = {
 
 # Correspondences between the bilingual dictionary and the lexc file
 bidix_lexc= { 
-	'<s n="v"/><s n="tv"/>': ['V-TV', 'V-INFL-TV'],
+	'<s n="v"/><s n="tv"/>': ['V-TV', 'V-INFL-TV', 'V-INFL-IV-IRREG-CAUS', 'V-INFL-TV-NO-CAUS'],
 	'<s n="v"/><s n="iv"/>': ['V-IV', 'V-INFL-IV'],
 	'<s n="n"/>': ['N-INFL', 'N-INFL-3PX-COMPOUND'],
 	'<s n="adj"/>': ['ADJ', 'A1', 'A2', 'A3', 'A4', 'A5'],

@@ -872,6 +872,7 @@
     <e c="  0"><p><l>diplomat<s n="n"/></l><r>дипломат<s n="n"/></r></p></e>
     <e c="  0"><p><l>direk<s n="n"/></l><r>тирек<s n="n"/></r></p></e>
     <e slr="1"><p><l>direk<s n="n"/></l><r>тирөөч<s n="n"/></r></p></e>
+    <!-- e slr="1"><p><l>direk<s n="n"/></l><r>түз<s n="n"/></r></p></e -->
     <e c="  0"><p><l>direktör<s n="n"/></l><r>директор<s n="n"/></r></p></e>
     <e c="  0"><p><l>dirlik<s n="n"/></l><r>тирилик<s n="n"/></r></p></e>
     <e slr="1"><p><l>dirlik<s n="n"/></l><r>тиричилик<s n="n"/></r></p></e>
@@ -995,7 +996,6 @@
     <e c="  0"><p><l>dilek<s n="n"/></l><r>тилек<s n="n"/></r></p></e>
     <e c="  0"><p><l>dil<s n="n"/></l><r>тил<s n="n"/></r></p></e>
     <e c="  0"><p><l>din<s n="n"/></l><r>дин<s n="n"/></r></p></e>
-    <e slr="1"><p><l>direk<s n="n"/></l><r>түз<s n="n"/></r></p></e>
     <e c="  0"><p><l>direnç<s n="n"/></l><r>каршылык<s n="n"/></r></p></e>
     <e c="  0"><p><l>dışarı<s n="n"/></l><r>сытркары<s n="n"/></r></p></e>
     <e c="  0"><p><l>divan<s n="n"/></l><r>диван<s n="n"/></r></p></e>
@@ -1328,7 +1328,8 @@
     <e c="  0"><p><l>guguk<s n="n"/></l><r>күкүк<s n="n"/></r></p></e>
     <e c="  0"><p><l>gurk<s n="n"/></l><r>күрп<s n="n"/></r></p></e>
     <e slr="1"><p><l>gurk<s n="n"/></l><r>үндүк<s n="n"/></r></p></e>
-    <e c="  0"><p><l>gök<s n="n"/></l><r>көк<s n="n"/></r></p></e>
+    <e c="  0"><p><l>gök<s n="n"/></l><r>көк<s n="adj"/><s n="subst"/></r></p></e>
+    <e c="  0"><p><l>gök<s n="n"/><s n="attr"/></l><r>көк<s n="adj"/></r></p></e>
     <e slr="1"><p><l>gök<s n="n"/></l><r>асман<s n="n"/></r></p></e>
     <e c="  0"><p><l>göl<s n="n"/></l><r>көл<s n="n"/></r></p></e>
     <e c="  0"><p><l>gölge<s n="n"/></l><r>көлөкө<s n="n"/></r></p></e>
@@ -1784,7 +1785,7 @@
     <e c="  0"><p><l>kek<s n="n"/></l><r>кекс<s n="n"/></r></p></e>
     <e c="  0"><p><l>kem<s n="n"/></l><r>жаман<s n="n"/></r></p></e>
     <e slr="1"><p><l>kem<s n="n"/></l><r>кем<s n="n"/></r></p></e>
-    <e slr="2"><p><l>kem<s n="n"/></l><r>аз<s n="n"/></r></p></e>
+    <!-- e slr="2"><p><l>kem<s n="n"/></l><r>аз<s n="n"/></r></p></e --><!-- wtf -JNW -->
     <e c="  0"><p><l>kemik<s n="n"/></l><r>сөөк<s n="n"/></r></p></e>
     <e c="  0"><p><l>kene<s n="n"/></l><r>кене<s n="n"/></r></p></e>
     <e c="  0"><p><l>kepek<s n="n"/></l><r>кебек<s n="n"/></r></p></e>
