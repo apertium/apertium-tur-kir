@@ -225,6 +225,7 @@
     <e c="  0"><p><l>dolu<s n="post"/></l><r>бою<s n="post"/></r></p></e>
     <e c="  0"><p><l>orta<s n="n"/></l><r>орто<s n="n"/></r></p></e>
     <e c="  0"><p><l>üst<s n="n"/></l><r>үст<s n="n"/></r></p></e>
+    <e c="  0"><p><l>mensup<s n="post"/></l><r>тиешелүү<s n="post"/></r></p></e>
 
 
     <!-- SECTION: Pronouns -->
@@ -3485,7 +3486,7 @@
     <e c="  0"><p><l>gücün<s n="n"/></l><r>эптеп-септеп<s n="n"/></r></p></e>
     <e c="  0"><p><l>kal<s n="n"/></l><r>коңүл<s n="n"/></r></p></e>
     <e c="  0"><p><l>müze<s n="n"/></l><r>музей<s n="n"/></r></p></e>
-    <e c="  0"><p><l>mensup<s n="n"/></l><r>тиешелүү<s n="n"/></r></p></e>
+    <e c="  0"><p><l>mensup<s n="n"/></l><r>мүчө<s n="n"/></r></p></e>
     <e c="  0"><p><l>hemşire<s n="n"/></l><r>медсестра<s n="n"/></r></p></e>
     <e c="  0"><p><l>veto<s n="n"/></l><r>тыйуу<s n="n"/></r></p></e>
     <e c="  0"><p><l>işadam<s n="n"/></l><r>ишкер<s n="n"/></r></p></e>
@@ -5338,7 +5339,7 @@
     <e c="  0"><p><l>yaygın<s n="adj"/></l><r>таралган<s n="adj"/></r></p></e>
     <e c="  0"><p><l>tıbbi<s n="adj"/></l><r>медициналык<s n="adj"/></r></p></e>
     <e c="  0"><p><l>mensup<s n="adj"/></l><r>таандык<s n="adj"/></r></p></e>
-    <e slr="1"><p><l>mensup<s n="adj"/></l><r>тиешелүү<s n="adj"/></r></p></e>
+    <!-- e slr="1"><p><l>mensup<s n="adj"/></l><r>тиешелүү<s n="adj"/></r></p></e -->
     <e c="  0"><p><l>dolu<s n="adj"/></l><r>толтура<s n="adj"/></r></p></e>
     <e c="  0"><p><l>yetersiz<s n="adj"/></l><r>жетишсиз<s n="adj"/></r></p></e>
     <e c="  0"><p><l>zorunlu<s n="adj"/></l><r>мажбур<s n="adj"/></r></p></e>
