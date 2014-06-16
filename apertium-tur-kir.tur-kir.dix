@@ -293,7 +293,7 @@
     <e c="  0"><p><l>ne<b/>kadar<s n="det"/><s n="qnt"/></l><r>канчалык<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>birtakım<s n="det"/><s n="qnt"/></l><r>бир<b/>катар<s n="det"/><s n="qnt"/></r></p></e>
         
-    <e c="  0"><p><l>bir<b/>kısım<s n="det"/></l><r>бир<b/>бөлүк<s n="det"/><s n="qnt"/></r></p></e>
+    <e c="  0"><p><l>bir<b/>kısım<s n="det"/><s n="qnt"/></l><r>бир<b/>бөлүк<s n="det"/><s n="qnt"/></r></p></e>
         
     <e c="  0"><p><l>birkaç<b/>tane<s n="det"/></l><r>бир<b/>канча<b/>даана<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>öteki<s n="det"/><s n="ind"/></l><r>берки<s n="det"/><s n="ind"/></r></p></e>
@@ -1137,8 +1137,7 @@
     <e c="  0"><p><l>et<s n="n"/></l><r>эт<s n="n"/></r></p></e>
     <e c="  0"><p><l>etiket<s n="n"/></l><r>этикетка<s n="n"/></r></p></e>
     <e c="  0"><p><l>etraf<s n="n"/></l><r>айлана<s n="n"/></r></p></e>
-    <e c="  0"><p><l>evrim<s n="n"/></l><r>эвалютсия<s n="n"/></r></p></e>
-    <e c="  0"><p><l>evrim<s n="n"/></l><r>эволюэия<s n="n"/></r></p></e>
+    <e c="  0"><p><l>evrim<s n="n"/></l><r>эволюция<s n="n"/></r></p></e>
     <e c="  0"><p><l>eylem<s n="n"/></l><r>иш<s n="n"/></r></p></e>
     <!-- from apertium-tr-az e end 	 -->
 	
