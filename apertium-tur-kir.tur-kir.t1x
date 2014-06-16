@@ -462,6 +462,7 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="1"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="prc_cond"/></let>
         <out>
           <lu>
@@ -650,6 +651,8 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="2"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="prc_pcond"/></let>
         <out>
           <lu>
@@ -676,6 +679,8 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="2"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_pot"/><lit v=""/></let>
         <out>
           <lu>
@@ -711,6 +716,8 @@
         <call-macro n="set-nec-poss1"> 
           <with-param pos="2"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_nec"/><lit v=""/></let>
         <let><clip pos="2" side="tl" part="a_pers"/><lit-tag v="p3"/></let>
         <let><clip pos="2" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
@@ -744,6 +751,8 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="2"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="aor"/></let>
         <out>
           <lu>
@@ -765,6 +774,8 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="2"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="2" side="tl" part="a_screeve"/><lit-tag v="prc_cond"/></let>
         <out>
           <lu>
@@ -788,6 +799,8 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="2"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>
@@ -819,6 +832,7 @@
             </out>
           </when>
           <otherwise>
+            <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
             <out>
               <lu>
                 <clip pos="1" side="tl" part="whole"/>
@@ -853,6 +867,7 @@
             </out>
           </when>
           <otherwise>
+            <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
             <out>
               <lu>
                 <clip pos="1" side="tl" part="whole"/>
@@ -884,6 +899,7 @@
             </out>
           </when>
           <otherwise>
+            <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
             <out>
               <lu>
                 <clip pos="1" side="tl" part="whole"/>
@@ -905,6 +921,7 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="2"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="pcond"/></let>
         <out>
           <lu>
@@ -926,6 +943,8 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="3"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="prc_irre"/></let>
         <let><clip pos="2" side="tl" part="a_screeve"/><lit-tag v="ifi"/></let>
         <out>
@@ -953,6 +972,7 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="2"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_past"/><lit-tag v="prc_past"/></let>
         <out>
@@ -1008,6 +1028,7 @@
         <pattern-item n="prc"/>
       </pattern>
       <action>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
         <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="ger_pres.nom"/></let>
         <out>
           <lu>
@@ -1029,6 +1050,7 @@
         <call-macro n="modify-pers-nbr1"> 
           <with-param pos="2"/>
         </call-macro>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
         <out>
           <lu>
             <clip pos="1" side="tl" part="whole"/>

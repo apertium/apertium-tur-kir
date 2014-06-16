@@ -16,6 +16,9 @@
     <def-attr n="a_prn">
       <attr-item tags="prn"/>
     </def-attr>
+    <def-attr n="a_func">
+      <attr-item tags="@HARGLE"/>
+    </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
@@ -62,6 +65,7 @@
         <call-macro n="instrumental1">
           <with-param pos="1"/>
         </call-macro>
+        <let><clip pos="1" part="a_func"/><lit v=""/></let>
         <out>
           <lu><clip pos="1" part="whole"/></lu>
           <var n="postposition"/>
