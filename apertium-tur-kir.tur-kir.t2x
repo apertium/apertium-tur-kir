@@ -94,6 +94,7 @@
        
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+      <attr-item tags="adj.subst"/>
     </def-attr>
     
   </section-def-attrs>
