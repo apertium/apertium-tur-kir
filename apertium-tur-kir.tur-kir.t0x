@@ -2,7 +2,10 @@
 
 <transfer>
   <section-def-cats>
-
+    <def-cat n="impers">
+      <cat-item tags="v.iv.pass.*"/>
+    </def-cat>
+ 
     <def-cat n="abil">
       <cat-item tags="v.*.abil.*"/>
     </def-cat>
@@ -57,6 +60,37 @@
 
   <section-rules>
 
+    <rule comment="impers"> 
+      <pattern>
+        <pattern-item n="impers"/>
+      </pattern>
+      <action>
+        <let><var n="verb-head"/><concat>
+                                   <clip pos="1" side="tl" part="lem"/>
+                                   <clip pos="1" side="tl" part="a_verb"/>
+                                   <clip pos="1" side="tl" part="a_trans"/>
+                                 </concat></let>
+        <let><clip pos="1" side="tl" part="lem"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_verb"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_deriv"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_trans"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p3"/></let>
+        <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
+        <out>
+          <lu>
+            <var n="verb-head"/>
+            <lit-tag v="prc_cond.p3.sg"/>
+          </lu>
+          <b/>
+          <lu>
+            <lit v="бол"/>
+            <lit-tag v="v.iv"/>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+     
     <rule comment="abil"> 
       <pattern>
         <pattern-item n="abil"/>
@@ -88,7 +122,42 @@
       </action>
     </rule>
      
-
+    <rule comment="impers"> 
+      <pattern>
+        <pattern-item n="impers"/>
+      </pattern>
+      <action>
+        <let><var n="verb-head"/><concat>
+                                   <clip pos="1" side="tl" part="lem"/>
+                                   <clip pos="1" side="tl" part="a_verb"/>
+                                 </concat></let>
+        <let><clip pos="1" side="tl" part="lem"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_verb"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_deriv"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_trans"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="p3"/></let>
+        <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
+        <out>
+          <lu>
+            <var n="verb-head"/>
+            <lit-tag v="prc_cond"/>
+            <clip pos="1" side="sl" part="a_pers"/>
+            <clip pos="1" side="sl" part="a_nbr"/>
+          </lu>
+          <b/>
+          <lu>
+            <lit v="бол"/>
+            <lit-tag v="vaux"/>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b/>
+          <lu>
+              <clip pos="2" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+ 
     <rule comment="abil cop"> 
       <pattern>
         <pattern-item n="abil"/>
