@@ -287,7 +287,7 @@
     <e c="  0"><p><l>bir<b/>miktar<s n="det"/><s n="qnt"/></l><r>биртке<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>o<b/>kadar<s n="det"/><s n="qnt"/></l><r>анчалык<s n="det"/><s n="qnt"/></r></p></e>
     <e c="  0"><p><l>tüm<s n="det"/><s n="qnt"/></l><r>бардык<s n="det"/><s n="qnt"/></r></p></e>
-    <e c="  0"><p><l>herhangi<s n="det"/><s n="ind"/></l><r>ар<b/>ким<s n="det"/><s n="ind"/></r></p></e>
+    <e c="  0"><p><l>herhangi<s n="det"/><s n="ind"/></l><r>каалаган<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>aynı<s n="det"/><s n="dem"/></l><r>бирдей<s n="det"/><s n="ind"/></r></p></e>
     <e c="  0"><p><l>aynı<s n="adj"/></l><r>окшош<s n="adj"/></r></p></e>
     <e c="  0"><p><l>bu<b/>kadar<s n="det"/><s n="qnt"/></l><r>ушунчалык<s n="det"/><s n="qnt"/></r></p></e>
@@ -5628,7 +5628,7 @@
     <e c="  0"><p><l>berbat<s n="adj"/></l><r>абдан<b/>жаман<s n="adj"/></r></p></e>
     <e c="  0"><p><l>azgın<s n="adj"/></l><r>каардуу<s n="adj"/></r></p></e>
     <e slr="1"><p><l>azgın<s n="adj"/></l><r>ачулуу<s n="adj"/></r></p></e>
-    <e c="  0"><p><l>acele<s n="adj"/></l><r>шашылыш<s n="adj"/></r></p></e>
+    <e slr="1"><p><l>acele<s n="adj"/></l><r>шашылыш<s n="adj"/></r></p></e>
     <e c="  0"><p><l>zarif<s n="adj"/></l><r>көркүү<s n="adj"/></r></p></e>
     <e c="  0"><p><l>vakur<s n="adj"/></l><r>оор<b/>басырыктуу<s n="adj"/></r></p></e>
     <e c="  0"><p><l>üzgün<s n="adj"/></l><r>капалуу<s n="adj"/></r></p></e>
