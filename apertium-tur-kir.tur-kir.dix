@@ -226,6 +226,7 @@
     <e c="  0"><p><l>orta<s n="n"/></l><r>орто<s n="n"/></r></p></e>
     <e c="  0"><p><l>üst<s n="n"/></l><r>үст<s n="n"/></r></p></e>
     <e c="  0"><p><l>mensup<s n="post"/></l><r>тиешелүү<s n="post"/></r></p></e>
+    <e c="  0"><p><l>hariç<s n="post"/></l><r>тышкары<s n="post"/></r></p></e>
 
 
     <!-- SECTION: Pronouns -->
@@ -1508,7 +1509,7 @@
     <e c="  0"><p><l>haraç<s n="n"/></l><r>салык<s n="n"/></r></p></e>
     <e c="  0"><p><l>sinagog<s n="n"/></l><r>синегог<s n="n"/></r></p></e>
     <e c="  0"><p><l>harç<s n="n"/></l><r>каржы<s n="n"/></r></p></e>
-    <e c="  0"><p><l>hariç<s n="n"/></l><r>тышкары<s n="n"/></r></p></e>
+    <e c="  0"><p><l>hariç<s n="n"/></l><r>чет<b/>өлкө<s n="n"/></r></p></e>
     <e c="  0"><p><l>harici<s n="n"/></l><r>бөлүнгөн<s n="n"/></r></p></e>
     <e c="  0"><p><l>harikulade<s n="n"/></l><r>мыкты<s n="n"/></r></p></e>
     <e c="  0"><p><l>harp<s n="n"/></l><r>согуш<s n="n"/></r></p></e>
@@ -5904,6 +5905,9 @@
     <e c="  0"><p><l>tekerlekli<s n="adj"/></l><r>дөңгөлөгү<b/>бар<s n="adj"/></r></p></e>
     <e c="  0"><p><l>ağaçlıklı<s n="adj"/></l><r>дарагы<b/>бар<s n="adj"/></r></p></e>
     <e c="  0"><p><l>nükleer<s n="adj"/></l><r>атомдук<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>hariç<s n="adj"/></l><r>кошумча<s n="adj"/></r></p></e>
+
+
     <!-- SECTION: Adverbs -->
 
     <e c="  0"><p><l>şu<b/>anda<s n="adv"/></l><r>азыр<s n="adv"/></r></p></e>
