@@ -5788,6 +5788,8 @@
     <e c="  0"><p><l>topyekün<s n="adj"/></l><r>жапырт<s n="adj"/></r></p></e>
     <e c="  0"><p><l>porno<s n="adj"/></l><r>порно<s n="adj"/></r></p></e>
     <e c="  0"><p><l>tez<s n="adj"/></l><r>тез<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>acele<s n="adj"/></l><r>тез<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>çabuk<s n="adj"/></l><r>тез<s n="adj"/></r></p></e>
     <e c="  0"><p><l>tetik<s n="adj"/></l><r>тетик<s n="adj"/></r></p></e>
     <e c="  0"><p><l>tertemiz<s n="adj"/></l><r>таптаза<s n="adj"/></r></p></e>
     <e c="  0"><p><l>taşkın<s n="adj"/></l><r>ташкын<s n="adj"/></r></p></e>
@@ -5966,12 +5968,11 @@
     <e c="  0"><p><l>hiç<s n="adv"/></l><r>эч<s n="adv"/></r></p></e>
     <e c="  0"><p><l>asla<s n="adv"/></l><r>такыр<s n="adv"/></r></p></e>
     <e c="  0"><p><l>yıllardır<s n="adv"/></l><r>жылдардан<b/>бери<s n="adv"/></r></p></e>
-    <e c="  0"><p><l>çabuk<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
     <e c="  0"><p><l>gerçekten<s n="adv"/></l><r>чынында<s n="adv"/></r></p></e>
     <e c="  0"><p><l>ortaklaşa<s n="adv"/></l><r>чогуу<s n="adv"/></r></p></e>
     <e c="  0"><p><l>yavaş<s n="adv"/></l><r>жай<s n="adv"/></r></p></e>
     <e c="  0"><p><l>kısmen<s n="adv"/></l><r>жартылай<s n="adv"/></r></p></e>
-    <e c="  0"><p><l>sık<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
+    <e c="  0"><p><l>sık<s n="adv"/></l><r>тез<s n="adj"/><s n="advl"/></r></p></e>
     <e c="  0"><p><l>halen<s n="adv"/></l><r>дагы<b/>эле<s n="adv"/></r></p></e>
     <e c="  0"><p><l>genelde<s n="adv"/></l><r>көбүнчө<s n="adv"/></r></p></e>
     <e c="  0"><p><l>nerede<s n="adv"/></l><r>кайакта<s n="adv"/></r></p></e>
@@ -6012,7 +6013,6 @@
     <e c="  0"><p><l>beraber<s n="adv"/></l><r>чогуу<s n="adv"/></r></p></e>
     <e c="  0"><p><l>genellikle<s n="adv"/></l><r>көбүнчө<s n="adv"/></r></p></e>
     <e c="  0"><p><l>gerçekte<s n="adv"/></l><r>чындыгында<s n="adv"/></r></p></e>
-    <e c="  0"><p><l>acele<s n="adv"/></l><r>тез<s n="adv"/></r></p></e>
     <e c="  0"><p><l>acilen<s n="adv"/></l><r>тезинен<s n="adv"/></r></p></e>
     <e c="  0"><p><l>fiilen<s n="adv"/></l><r>чынында<s n="adv"/></r></p></e>
     <e c="  0"><p><l>nice<s n="adv"/></l><r>канчалаган<s n="adv"/></r></p></e>
