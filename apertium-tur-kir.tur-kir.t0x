@@ -38,6 +38,8 @@
     </def-attr>
 
     <def-attr n="a_deriv">
+      <attr-item tags="coop.caus"/>
+      <attr-item tags="coop"/>
       <attr-item tags="caus"/>
       <attr-item tags="pass"/>
     </def-attr>
@@ -65,6 +67,12 @@
         <pattern-item n="impers"/>
       </pattern>
       <action>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="tl" part="a_deriv"/><lit-tag v="pass"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_deriv"/><lit v=""/></let>
+          </when>
+        </choose>
         <let><var n="verb-head"/><concat>
                                    <clip pos="1" side="tl" part="lem"/>
                                    <clip pos="1" side="tl" part="a_verb"/>
@@ -128,6 +136,12 @@
         <pattern-item n="cop"/>
       </pattern>
       <action>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="tl" part="a_deriv"/><lit-tag v="pass"/></equal></test>
+            <let><clip pos="1" side="tl" part="a_deriv"/><lit v=""/></let>
+          </when>
+        </choose>
         <let><var n="verb-head"/><concat>
                                    <clip pos="1" side="tl" part="lem"/>
                                    <clip pos="1" side="tl" part="a_verb"/>
