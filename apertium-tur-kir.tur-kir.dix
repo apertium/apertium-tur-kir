@@ -458,7 +458,8 @@
     <e c="  0"><p><l>alkol<s n="n"/></l><r>спирт<s n="n"/></r></p></e>
     <e c="  0"><p><l>altın<s n="n"/></l><r>алтын<s n="n"/></r></p></e>
     <e c="  0"><p><l>amaç<s n="n"/></l><r>максат<s n="n"/></r></p></e>
-    <e c="  0"><p><l>amatör<s n="n"/></l><r>баштапкы<s n="n"/></r></p></e>
+    <e c="  0"><p><l>amatör<s n="n"/></l><r>баштапкы<s n="adj"/><s n="subst"/></r></p></e>
+    <e c="  0"><p><l>amatör<s n="n"/><s n="attr"/></l><r>баштапкы<s n="adj"/></r></p></e>
     <e c="  0"><p><l>ambar<s n="n"/></l><r>амбар<s n="n"/></r></p></e>
     <e c="  0"><p><l>amblem<s n="n"/></l><r>эмблема<s n="n"/></r></p></e>
     <e c="  0"><p><l>amca<s n="n"/></l><r>байке<s n="n"/></r></p></e>
