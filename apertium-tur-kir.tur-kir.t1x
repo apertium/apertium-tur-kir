@@ -1084,6 +1084,22 @@
       </action>
     </rule>
 
+ 
+    <rule comment="gpr-px">  
+      <pattern>
+        <pattern-item n="gpr-px"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_poss"/><lit v=""/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+    
+
       
     <rule comment="gpr-px nom">  
       <!-- TODO: This will break if the noun has any derivational suffixes or any pattern other than n.ND.PXD.CD -->
