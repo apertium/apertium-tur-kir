@@ -1373,7 +1373,7 @@
     <e c="  0"><p><l>geçit<s n="n"/></l><r>өтмөк<s n="n"/></r></p></e>
     <e c="  0"><p><l>gelecek<s n="n"/></l><r>келечек<s n="n"/></r></p></e>
     <e c="  0"><p><l>gelenek<s n="n"/></l><r>салт<s n="n"/></r></p></e>
-    <e c="  0"><p><l>gelin<s n="n"/></l><r>гелин<s n="n"/></r></p></e>
+    <e c="  0"><p><l>gelin<s n="n"/></l><r>келин<s n="n"/></r></p></e>
     <e c="  0"><p><l>gelir<s n="n"/></l><r>киреше<s n="n"/></r></p></e>
     <e c="  0"><p><l>gemi<s n="n"/></l><r>кэме<s n="n"/></r></p></e>
     <e c="  0"><p><l>genç<s n="n"/></l><r>жаш<s n="n"/></r></p></e>
@@ -3177,8 +3177,6 @@
     <e c="  0"><p><l>dolar<s n="n"/></l><r>доллар<s n="n"/></r></p></e>
     <e c="  0"><p><l>güve<s n="n"/></l><r>күбө<s n="n"/></r></p></e>
     <e c="  0"><p><l>güven<s n="n"/></l><r>ишеним<s n="n"/></r></p></e>
-    <e c="  0"><p><l>nihai<s n="n"/></l><r>акыркы<s n="n"/></r></p></e>
-    <e slr="1"><p><l>nihai<s n="n"/></l><r>соңку<s n="n"/></r></p></e>
     <e c="  0"><p><l>uygun<s n="n"/></l><r>ылайык<s n="n"/></r></p></e>
     <e slr="1"><p><l>uygun<s n="n"/></l><r>ыктуу<s n="n"/></r></p></e>
     <e c="  0"><p><l>tartışma<s n="n"/></l><r>талаш<s n="n"/></r></p></e>
@@ -4011,7 +4009,6 @@
     <e c="  0"><p><l>atölye<s n="n"/></l><r>өнөркана<s n="n"/></r></p></e>
     <e c="  0"><p><l>tekne<s n="n"/></l><r>кайык<s n="n"/></r></p></e>
     <e c="  0"><p><l>takip<s n="n"/></l><r>изине<b/>түшүү<s n="n"/></r></p></e>
-    <e c="  0"><p><l>sonuncu<s n="n"/></l><r>акыркы<s n="n"/></r></p></e>
     <e c="  0"><p><l>ray<s n="n"/></l><r>чыйыр<s n="n"/></r></p></e>
     <e c="  0"><p><l>hibe<s n="n"/></l><r>багыш<s n="n"/></r></p></e>
     <e c="  0"><p><l>girişim<s n="n"/></l><r>демилге<s n="n"/></r></p></e>
@@ -5301,6 +5298,9 @@
     <e c="  0"><p><l>çalışkan<s n="adj"/></l><r>аракетчил<s n="adj"/></r></p></e>
     <e c="  0"><p><l>hazırlıklı<s n="adj"/></l><r>даярдыктуу<s n="adj"/></r></p></e>
     <e c="  0"><p><l>son<s n="adj"/></l><r>акыркы<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>sonuncu<s n="adj"/></l><r>акыркы<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>nihai<s n="adj"/></l><r>акыркы<s n="adj"/></r></p></e>
+    <e slr="1"><p><l>nihai<s n="adj"/></l><r>соңку<s n="n"/></r></p></e>
     <e c="  0"><p><l>tehlikeli<s n="adj"/></l><r>коркунучтуу<s n="adj"/></r></p></e>
     <e c="  0"><p><l>mutlu<s n="adj"/></l><r>кубанычтуу<s n="adj"/></r></p></e>
     <e slr="1"><p><l>mutlu<s n="adj"/></l><r>бактылуу<s n="adj"/></r></p></e>
