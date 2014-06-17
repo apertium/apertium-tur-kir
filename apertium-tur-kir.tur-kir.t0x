@@ -125,6 +125,7 @@
     <rule comment="impers"> 
       <pattern>
         <pattern-item n="impers"/>
+        <pattern-item n="cop"/>
       </pattern>
       <action>
         <let><var n="verb-head"/><concat>
