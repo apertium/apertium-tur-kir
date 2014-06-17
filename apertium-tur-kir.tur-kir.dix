@@ -3443,7 +3443,6 @@
     <e c="  0"><p><l>çift<s n="n"/></l><r>түгөй<s n="n"/></r></p></e>
     <e c="  0"><p><l>denetim<s n="n"/></l><r>текшерүү<s n="n"/></r></p></e>
     <e c="  0"><p><l>onaylama<s n="n"/></l><r>бекитүү<s n="n"/></r></p></e>
-    <e c="  0"><p><l>kültürel<s n="n"/></l><r>маданий<s n="n"/></r></p></e>
     <e c="  0"><p><l>kat<s n="n"/></l><r>кабат<s n="n"/></r></p></e>
     <e c="  0"><p><l>milliyet<s n="n"/></l><r>улут<s n="n"/></r></p></e>
     <e c="  0"><p><l>imza<s n="n"/></l><r>кол<b/>тамга<s n="n"/></r></p></e>
@@ -4451,7 +4450,6 @@
     <e c="  0"><p><l>pusula<s n="n"/></l><r>компас<s n="n"/></r></p></e>
     <e c="  0"><p><l>niş<s n="n"/></l><r>тикенек<s n="n"/></r></p></e>
     <e c="  0"><p><l>mühlet<s n="n"/></l><r>мөөнөт<s n="n"/></r></p></e>
-    <e c="  0"><p><l>medeni<s n="n"/></l><r>маданий<s n="n"/></r></p></e>
     <e c="  0"><p><l>konsensüs<s n="n"/></l><r>консенсус<s n="n"/></r></p></e>
     <e c="  0"><p><l>kolektif<s n="n"/></l><r>жамаат<s n="n"/></r></p></e>
     <e c="  0"><p><l>kaset<s n="n"/></l><r>касета<s n="n"/></r></p></e>
@@ -5783,6 +5781,8 @@
     <e c="  0"><p><l>yad<s n="adj"/></l><r>жат<s n="adj"/></r></p></e>
     <e c="  0"><p><l>vasat<s n="adj"/></l><r>орто<s n="adj"/></r></p></e>
     <e c="  0"><p><l>varolan<s n="adj"/></l><r>барболгон<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>medeni<s n="adj"/></l><r>маданий<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>kültürel<s n="adj"/></l><r>маданий<s n="adj"/></r></p></e>
     <e c="  0"><p><l>uygar<s n="adj"/></l><r>маданий<s n="adj"/></r></p></e>
     <e c="  0"><p><l>ufacık<s n="adj"/></l><r>кымындай<s n="adj"/></r></p></e>
     <e c="  0"><p><l>uçarı<s n="adj"/></l><r>оюнкараак<s n="adj"/></r></p></e>
