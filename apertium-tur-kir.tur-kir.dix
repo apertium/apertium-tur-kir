@@ -6654,8 +6654,8 @@
     <e slr="2"><p><l>karış<s n="v"/><s n="iv"/></l><r>чатыш<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>götür<s n="v"/><s n="tv"/></l><r>жет<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
     <e slr="1"><p><l>götür<s n="v"/><s n="tv"/></l><r>алып<b/>бар<s n="v"/><s n="tv"/></r></p></e>
-    <e c="  0"><p><l>çiz<s n="v"/><s n="tv"/></l><r>сыз<s n="v"/><s n="iv"/></r></p></e>
-    <e slr="1"><p><l>çiz<s n="v"/><s n="tv"/></l><r>чий<s n="v"/><s n="iv"/></r></p></e>
+    <!-- e c="  0"><p><l>çiz<s n="v"/><s n="tv"/></l><r>сыз<s n="v"/><s n="iv"/></r></p></e --><!-- FIXME: might be okay translation, but needs tv/iv work -->
+    <e slr="1"><p><l>çiz<s n="v"/><s n="tv"/></l><r>чий<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>davran<s n="v"/><s n="iv"/></l><r>аракет<b/>кыл<s n="v"/><s n="iv"/></r></p></e>
     <e slr="1"><p><l>davran<s n="v"/><s n="iv"/></l><r>эт<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>sok<s n="v"/><s n="tv"/></l><r>кир<s n="v"/><s n="iv"/><s n="caus"/></r></p></e>
