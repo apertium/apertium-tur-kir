@@ -3550,6 +3550,7 @@
     <e c="  0"><p><l>temel<s n="n"/></l><r>негиз<s n="n"/></r></p></e>
     <e c="  0"><p><l>işletme<s n="n"/></l><r>ишкана<s n="n"/></r></p></e>
     <e c="  0"><p><l>birleşik<s n="adj"/></l><r>бириккен<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>birleşik<s n="adj"/><s n="advl"/></l><r>бирге<s n="adv"/></r></p></e>
     <e c="  0"><p><l>unsur<s n="n"/></l><r>элемент<s n="n"/></r></p></e>
     <e c="  0"><p><l>erteleme<s n="n"/></l><r>кечиктирүү<s n="n"/></r></p></e>
     <e c="  0"><p><l>çekilme<s n="n"/></l><r>тартылуу<s n="n"/></r></p></e>
@@ -5116,6 +5117,7 @@
     <e c="  0"><p><l>saklı<s n="adj"/></l><r>жашыруун<s n="adj"/></r></p></e>
     <e c="  0"><p><l>ünlü<s n="adj"/></l><r>атактуу<s n="adj"/></r></p></e>
     <e c="  0"><p><l>güzel<s n="adj"/></l><r>сулуу<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>güzel<s n="adj"/><s n="advl"/></l><r>жакшы<s n="adj"/><s n="advl"/></r></p></e>
     <e c="  0"><p><l>kız<s n="adj"/></l><r>кыз<s n="adj"/></r></p></e>
     <e c="  0"><p><l>asterlik<s n="adj"/></l><r>аскерлик<s n="adj"/></r></p></e>
     <e c="  0"><p><l>bol<s n="adj"/></l><r>кеңири<s n="adj"/></r></p></e>
@@ -5337,6 +5339,7 @@
     <e c="  0"><p><l>belirgin<s n="adj"/></l><r>белгилүү<s n="adj"/></r></p></e>
     <e c="  0"><p><l>sıkı<s n="adj"/></l><r>тыгыз<s n="adj"/></r></p></e>
     <e slr="1"><p><l>sıkı<s n="adj"/></l><r>бекем<s n="adj"/></r></p></e>
+    <e slr="1"><p><l>sıkı<s n="adj"/><s n="advl"/></l><r>тыгыз<s n="adj"/><s n="advl"/></r></p></e>
     <e c="  0"><p><l>ölümcül<s n="adj"/></l><r>өлтүрүүчү<s n="adj"/></r></p></e>
     <e slr="1"><p><l>ölümcül<s n="adj"/></l><r>өлө<b/>турган<s n="adj"/></r></p></e>
     <e c="  0"><p><l>yaygın<s n="adj"/></l><r>таралган<s n="adj"/></r></p></e>
@@ -5376,6 +5379,7 @@
     <e slr="1"><p><l>hassas<s n="adj"/></l><r>сезгич<s n="n"/><s n="attr"/></r></p></e>
     <e c="  0"><p><l>sakin<s n="adj"/></l><r>акырын<s n="adj"/></r></p></e>
     <e slr="1"><p><l>sakin<s n="adj"/></l><r>жоош<s n="adj"/></r></p></e>
+    <e slr="1"><p><l>sakin<s n="adj"/><s n="advl"/></l><r>акырын<s n="adj"/><s n="advl"/></r></p></e>
     <e c="  0"><p><l>düzgün<s n="adj"/></l><r>тартимптүү<s n="adj"/></r></p></e>
     <e slr="1"><p><l>düzgün<s n="adj"/></l><r>системалуу<s n="adj"/></r></p></e>
     <e c="  0"><p><l>karışık<s n="adj"/></l><r>аралашкан<s n="adj"/></r></p></e>
@@ -5824,6 +5828,7 @@
     <e c="  0"><p><l>porselen<s n="adj"/></l><r>фарфор<s n="adj"/></r></p></e>
     <e c="  0"><p><l>pekiştirici<s n="adj"/></l><r>күчөтүүчү<s n="adj"/></r></p></e>
     <e c="  0"><p><l>pek<s n="adj"/></l><r>бекем<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>pek<s n="adj"/><s n="advl"/></l><r>абдан<s n="adv"/></r></p></e>
     <e c="  0"><p><l>paramparça<s n="adj"/></l><r>талкаланган<s n="adj"/></r></p></e>
     <e c="  0"><p><l>pagan<s n="adj"/></l><r>кудайсыз<s n="adj"/></r></p></e>
     <e c="  0"><p><l>oyuk<s n="adj"/></l><r>оюк<s n="adj"/></r></p></e>
