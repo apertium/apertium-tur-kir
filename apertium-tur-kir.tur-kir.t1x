@@ -19,6 +19,10 @@
       <cat-item tags="v.*.aor.p3.*"/>
     </def-cat>
 
+     <def-cat n="cond">
+      <cat-item tags="v.*.cond"/>
+    </def-cat>
+
      <def-cat n="pot">
       <cat-item tags="v.*.pot"/>
       <cat-item tags="v.*.pot.*"/>
@@ -1160,6 +1164,23 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="cond">
+      <pattern>
+        <pattern-item n="cond"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_screeve"/><lit-tag v="prc_cond"/></let>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+            <lit-tag v="p3.sg"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+
 
     <rule comment="pot">
       <pattern>
