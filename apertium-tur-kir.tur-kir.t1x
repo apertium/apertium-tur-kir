@@ -291,6 +291,7 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="nec-poss"/>
+    <def-var n="gpr-nom-poss"/>
   </section-def-vars>  
 
   <section-def-macros>
@@ -1112,6 +1113,10 @@
         <pattern-item n="nom"/>
       </pattern>
       <action>
+        <call-macro n="modify-poss1"> 
+          <with-param pos="1"/> 
+        </call-macro>
+        <let><var n="gpr-nom-poss"/><clip pos="1" side="tl" part="a_poss"/></let>
         <let><clip pos="1" side="tl" part="a_poss"/><lit v=""/></let>
         <choose> 
           <when>
@@ -1136,13 +1141,14 @@
                 <clip pos="2" side="tl" part="lemh"/>
                 <clip pos="2" side="tl" part="a_nom"/>
                 <clip pos="2" side="tl" part="a_nbr"/>
-                <clip pos="1" side="sl" part="a_poss"/>
+                <var n="gpr-nom-poss"/>
                 <clip pos="2" side="tl" part="a_case"/>
                 <clip pos="2" side="tl" part="lemq"/>
               </lu>
             </out>
           </otherwise>
         </choose>
+        <let><var n="gpr-nom-poss"/><lit-tag v=""/></let>
       </action>
     </rule>
     
