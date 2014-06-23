@@ -1106,7 +1106,7 @@
     <e c="  0"><p><l>ezgersiz<s n="n"/></l><r>машыгуу<s n="n"/></r></p></e>
     <e c="  0"><p><l>ehil<s n="n"/></l><r>уста<s n="n"/></r></p></e>
     <e c="  0"><p><l>ekin<s n="n"/></l><r>ээгин<s n="n"/></r></p></e>
-    <e c="  0"><p><l>ekmek<s n="n"/></l><r>экмек<s n="n"/></r></p></e>
+    <e c="  0"><p><l>ekmek<s n="n"/></l><r>нан<s n="n"/></r></p></e>
     <e c="  0"><p><l>eksen<s n="n"/></l><r>ок<s n="n"/></r></p></e>
     <e c="  0"><p><l>eksi<s n="n"/></l><r>бөксө<s n="n"/></r></p></e>
     <e c="  0"><p><l>eksik<s n="n"/></l><r>кем<s n="n"/></r></p></e>
@@ -1296,7 +1296,7 @@
     <e c="  0"><p><l>gazete<s n="n"/></l><r>газета<s n="n"/></r></p></e>
     <e slr="1"><p><l>gazete<s n="n"/></l><r>гезит<s n="n"/></r></p></e>
     <e c="  0"><p><l>gazino<s n="n"/></l><r>казино<s n="n"/></r></p></e>
-    <e c="  0"><p><l>gen<s n="n"/></l><r>кең<s n="n"/></r></p></e>
+    <e c="  0"><p><l>gen<s n="n"/></l><r>кеңдик<s n="n"/></r></p></e>
     <e slr="1"><p><l>gen<s n="n"/></l><r>ген<s n="n"/></r></p></e>
     <e c="  0"><p><l>general<s n="n"/></l><r>генерал<s n="n"/></r></p></e>
     <e c="  0"><p><l>genetik<s n="n"/></l><r>генетика<s n="n"/></r></p></e>
@@ -1522,7 +1522,7 @@
     <e c="  0"><p><l>hatip<s n="n"/></l><r>хатип<s n="n"/></r></p></e>
     <e c="  0"><p><l>hatır<s n="n"/></l><r>көңүл<s n="n"/></r></p></e>
     <e c="  0"><p><l>hava<s n="n"/></l><r>абаа<s n="n"/></r></p></e>
-    <e c="  0"><p><l>havale<s n="n"/></l><r>котор<s n="n"/></r></p></e>
+    <e c="  0"><p><l>havale<s n="n"/></l><r>которуу<s n="n"/></r></p></e>
     <e c="  0"><p><l>havuç<s n="n"/></l><r>сабиз<s n="n"/></r></p></e>
     <e c="  0"><p><l>hayalet<s n="n"/></l><r>кыял<s n="n"/></r></p></e>
     <e c="  0"><p><l>hayat<s n="n"/></l><r>жашоо<s n="n"/></r></p></e>
@@ -5251,6 +5251,7 @@
     <e c="  0"><p><l>mümkün<s n="adj"/></l><r>мүмкүн<s n="adj"/></r></p></e>
     <e c="  0"><p><l>alman<s n="adj"/></l><r>немис<s n="adj"/></r></p></e>
     <e c="  0"><p><l>teknik<s n="adj"/></l><r>техникалуу<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>teknik<s n="adj"/><s n="subst"/></l><r>ыкма<s n="n"/></r></p></e>
     <e c="  0"><p><l>doğru<s n="adj"/></l><r>туура<s n="adj"/></r></p></e>
     <e c="  0"><p><l>kötü<s n="adj"/></l><r>жаман<s n="adj"/></r></p></e>
     <e c="  0"><p><l>zor<s n="adj"/></l><r>оор<s n="adj"/></r></p></e>
@@ -5442,6 +5443,7 @@
     <e c="  0"><p><l>keskin<s n="adj"/></l><r>курч<s n="adj"/></r></p></e>
     <e c="  0"><p><l>gri<s n="adj"/></l><r>боз<s n="adj"/></r></p></e>
     <e c="  0"><p><l>sessiz<s n="adj"/></l><r>жоош<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>sessiz<s n="adj"/><s n="advl"/></l><r>акырын<s n="adj"/><s n="advl"/></r></p></e>
     <e slr="1"><p><l>sessiz<s n="adj"/></l><r>үнсүз<s n="adj"/></r></p></e>
     <e c="  0"><p><l>al<s n="adj"/></l><r>кызыл-кырман<s n="adj"/></r></p></e>
     <e c="  0"><p><l>zıt<s n="adj"/></l><r>карама-каршы<s n="adj"/></r></p></e>
@@ -5918,6 +5920,7 @@
     <e c="  0"><p><l>ağaçlıklı<s n="adj"/></l><r>дарагы<b/>бар<s n="adj"/></r></p></e>
     <e c="  0"><p><l>nükleer<s n="adj"/></l><r>атомдук<s n="adj"/></r></p></e>
     <e c="  0"><p><l>hariç<s n="adj"/></l><r>кошумча<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>gen<s n="adj"/></l><r>кең<s n="adj"/></r></p></e>
 
 
     <!-- SECTION: Adverbs -->
