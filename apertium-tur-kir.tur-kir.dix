@@ -5107,7 +5107,7 @@
     
     <!-- SECTION: Adjectives -->
 
-    <e c="  0"><p><l>var<s n="the adj"/></l><r>бар<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>var<s n="adj"/></l><r>бар<s n="adj"/></r></p></e>
     <e c="  0"><p><l>yok<s n="adj"/></l><r>жок<s n="adj"/></r></p></e>
 
     <!--<e c="  0"><p><l>tüm<s n="adj"/></l><r>бүтүндөй<s n="adj"/></r></p></e>--> <!-- FMT: put this back when you know what it is -->
@@ -5353,7 +5353,8 @@
     <e c="  0"><p><l>zorunlu<s n="adj"/></l><r>мажбур<s n="adj"/></r></p></e>
     <e c="  0"><p><l>normal<s n="adj"/></l><r>нормалдуу<s n="adj"/></r></p></e>
     <e c="  0"><p><l>zengin<s n="adj"/></l><r>бай<s n="adj"/></r></p></e>
-    <!--<e c="  0"><p><l>ilk<s n="adj"/></l><r>биринчи<s n="adj"/></r></p></e>-->
+    <e c="  0"><p><l>ilk<s n="adj"/></l><r>алгачкы<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>ilk<s n="adj"/><s n="advl"/></l><r>биринчи<s n="adv"/></r></p></e>
     <e c="  0"><p><l>sıcak<s n="adj"/></l><r>ысык<s n="adj"/></r></p></e>
     <e c="  0"><p><l>derin<s n="adj"/></l><r>терең<s n="adj"/></r></p></e>
     <!--
@@ -5406,7 +5407,7 @@
     <e c="  0"><p><l>kızıl<s n="adj"/></l><r>кызыл<s n="adj"/></r></p></e>
     <e c="  0"><p><l>köylü<s n="adj"/></l><r>айылдык<s n="adj"/></r></p></e>
     <e c="  0"><p><l>yedek<s n="adj"/></l><r>запас<s n="adj"/></r></p></e>
-    <e slr="1"><p><l>yedek<s n="adj"/></l><r>резерв<s n="n"><s n="attr"/></r></p></e>
+    <e slr="1"><p><l>yedek<s n="adj"/></l><r>резерв<s n="n"/><s n="attr"/></r></p></e>
     <e c="  0"><p><l>sıradan<s n="adj"/></l><r>катардагы<s n="adj"/></r></p></e>
     <e c="  0"><p><l>çetin<s n="adj"/></l><r>кыйын<s n="adj"/></r></p></e>
     <e c="  0"><p><l>yahudi<s n="adj"/></l><r>эврей<s n="adj"/></r></p></e>
@@ -5951,7 +5952,7 @@
     <e c="  0"><p><l>önce<s n="adv"/></l><r>мурда<s n="adv"/></r></p></e>
     <e c="  0"><p><l>birlikte<s n="adv"/></l><r>бирдикте<s n="adv"/></r></p></e>
     <e c="  0"><p><l>karşı<s n="adv"/></l><r>каршы<s n="adv"/></r></p></e>
-    <!-- e c="  0"><p><l>ilk<s n="adv"/></l><r>биринчи<s n="adv"/></r></p></e -->
+    <e c="  0"><p><l>ilk<s n="adv"/></l><r>биринчи<s n="adv"/></r></p></e>
     <e c="  0"><p><l>ayrıca<s n="adv"/></l><r>сырткары<s n="adv"/></r></p></e>
     <e c="  0"><p><l>yeniden<s n="adv"/></l><r>жаңыдан<s n="adv"/></r></p></e> <!-- not sure it is an adv -->
     <e c="  0"><p><l>geri<s n="adv"/></l><r>артка<s n="adv"/></r></p></e>
