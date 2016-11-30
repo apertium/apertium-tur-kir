@@ -121,7 +121,7 @@
     <e slr="1"><p><l>ki<s n="cnjadv"/></l><r>да<s n="cnjadv"/></r></p></e>
    
     <!-- SECTION: Conjunctions -->
-    <e c="  0"><p><l>ki<s n="cnjsub"/></l><r></r></p></e>
+    <e c="  0" r="LR"><p><l>ki<s n="cnjsub"/></l><r></r></p></e>
 
     <!--<e c="  0"><p><l>olsun<s n="cnjadv"/></l><r>мейли<s n="cnjadv"/></r></p></e>--> <!-- FMT: put this back when you know what it is -->
 
