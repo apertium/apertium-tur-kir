@@ -2601,7 +2601,7 @@
     </rule>
 
 <!-- coding challenge, rules for stat. training -->
-<rule comment="REGLA: n+post">
+<rule comment="REGLA: n+post -> n.nom+post">
       <pattern>
         <pattern-item n="nom"/>
         <pattern-item n="post"/>
@@ -2628,7 +2628,7 @@
       </action>
     </rule>
 
-<rule comment="REGLA: n+post">
+<rule comment="REGLA: n+post -> n.acc+post">
       <pattern>
         <pattern-item n="nom"/>
         <pattern-item n="post"/>
@@ -2655,7 +2655,7 @@
       </action>
     </rule>
 
-<rule comment="REGLA: n+post">
+<rule comment="REGLA: n+post -> n.dat+post">
       <pattern>
         <pattern-item n="nom"/>
         <pattern-item n="post"/>
@@ -2682,7 +2682,7 @@
       </action>
     </rule>
 
-<rule comment="REGLA: num+post">
+<rule comment="REGLA: num+post -> num.nom+post">
       <pattern>
         <pattern-item n="num"/>
         <pattern-item n="post"/>
@@ -2709,7 +2709,7 @@
       </action>
     </rule>
 
-<rule comment="REGLA: num+post">
+<rule comment="REGLA: num+post -> num.acc+post">
       <pattern>
         <pattern-item n="num"/>
         <pattern-item n="post"/>
@@ -2736,7 +2736,7 @@
       </action>
     </rule>
 
-<rule comment="REGLA: num+post">
+<rule comment="REGLA: num+post -> num.dat+post">
       <pattern>
         <pattern-item n="num"/>
         <pattern-item n="post"/>
