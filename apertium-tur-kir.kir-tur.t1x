@@ -2621,7 +2621,7 @@
             </lu>
 <b/>
 	<lu>
-		<lit-tag v="post"/>
+              <clip pos="2" side="tl" part="whole"/>
 	</lu>
           </chunk>
         </out>
@@ -2648,7 +2648,7 @@
             </lu>
 <b/>
 	<lu>
-		<lit-tag v="post"/>
+              <clip pos="2" side="tl" part="whole"/>
 	</lu>
           </chunk>
         </out>
@@ -2675,7 +2675,7 @@
             </lu>
 <b/>
 	<lu>
-		<lit-tag v="post"/>
+              <clip pos="2" side="tl" part="whole"/>
 	</lu>
           </chunk>
         </out>
@@ -2702,7 +2702,7 @@
             </lu>
 <b/>
 	<lu>
-		<lit-tag v="post"/>
+              <clip pos="2" side="tl" part="whole"/>
 	</lu>
           </chunk>
         </out>
@@ -2729,7 +2729,7 @@
             </lu>
 <b/>
 	<lu>
-		<lit-tag v="post"/>
+              <clip pos="2" side="tl" part="whole"/>
 	</lu>
           </chunk>
         </out>
@@ -2756,7 +2756,7 @@
             </lu>
 <b/>
 	<lu>
-		<lit-tag v="post"/>
+              <clip pos="2" side="tl" part="whole"/>
 	</lu>
           </chunk>
         </out>
