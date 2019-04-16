@@ -375,7 +375,7 @@
       <cat-item tags="np"/>
       <cat-item tags="np.*"/>
     </def-cat>
-   
+
 	
 		<def-cat n="v_HARGLE">
 			<cat-item tags="v.*.@HARGLE"/>
@@ -392,7 +392,8 @@
       <attr-item tags="v.neg"/>
 -->
     </def-attr>
-        
+    
+
     <def-attr n="a_prn">
       <attr-item tags="prn"/>
       <attr-item tags="prn.pers"/>
@@ -2598,6 +2599,171 @@
         </out>
       </action>
     </rule>
+
+<!-- coding challenge, rules for stat. training -->
+<rule comment="REGLA: n+post">
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="post"/>
+      </pattern>
+      <action>
+ <let>
+          <clip pos="1" side="tl" part="a_cas"/>
+	<lit-tag v="nom"/>
+        </let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag> 
+            </tags>
+		<lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+<b/>
+	<lu>
+		<lit-tag v="post"/>
+	</lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="REGLA: n+post">
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="post"/>
+      </pattern>
+      <action>
+ <let>
+          <clip pos="1" side="tl" part="a_cas"/>
+	<lit-tag v="acc"/>
+        </let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag> 
+            </tags>
+		<lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+<b/>
+	<lu>
+		<lit-tag v="post"/>
+	</lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="REGLA: n+post">
+      <pattern>
+        <pattern-item n="nom"/>
+        <pattern-item n="post"/>
+      </pattern>
+      <action>
+ <let>
+          <clip pos="1" side="tl" part="a_cas"/>
+	<lit-tag v="dat"/>
+        </let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag> 
+            </tags>
+		<lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+<b/>
+	<lu>
+		<lit-tag v="post"/>
+	</lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="REGLA: num+post">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="post"/>
+      </pattern>
+      <action>
+ <let>
+          <clip pos="1" side="tl" part="a_cas"/>
+	<lit-tag v="nom"/>
+        </let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag> 
+            </tags>
+		<lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+<b/>
+	<lu>
+		<lit-tag v="post"/>
+	</lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="REGLA: num+post">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="post"/>
+      </pattern>
+      <action>
+ <let>
+          <clip pos="1" side="tl" part="a_cas"/>
+	<lit-tag v="acc"/>
+        </let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag> 
+            </tags>
+		<lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+<b/>
+	<lu>
+		<lit-tag v="post"/>
+	</lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+<rule comment="REGLA: num+post">
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="post"/>
+      </pattern>
+      <action>
+ <let>
+          <clip pos="1" side="tl" part="a_cas"/>
+	<lit-tag v="dat"/>
+        </let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag> 
+            </tags>
+		<lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+<b/>
+	<lu>
+		<lit-tag v="post"/>
+	</lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+<!-- coding challenge, rules for stat. training -->
  
 
     <!-- SECTION: Punctuation -->
