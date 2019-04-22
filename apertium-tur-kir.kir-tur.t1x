@@ -940,7 +940,7 @@
   <section-rules>
     <!-- SECTION: Nominal segments -->
    
-    <rule comment="regla: nom-noflex">
+    <rule id="1" comment="regla: nom-noflex">
       <pattern>
         <pattern-item n="nom-noflex"/>
       </pattern>
@@ -964,7 +964,7 @@
     </rule>
 
 
-    <rule comment="regla: nom-noflex saye">
+    <rule id="2" comment="regla: nom-noflex saye">
       <pattern>
         <pattern-item n="nom-noflex"/>
         <pattern-item n="saye"/>
@@ -1002,7 +1002,7 @@
 
 
  
-    <rule comment="regla: saye">
+    <rule id="3" comment="regla: saye">
       <pattern>
         <pattern-item n="saye"/>
       </pattern>
@@ -1031,7 +1031,7 @@
     </rule>
 
 
-    <rule comment="regla: num">
+    <rule id="4" comment="regla: num">
       <pattern>
         <pattern-item n="num"/>
       </pattern>
@@ -1052,7 +1052,7 @@
     </rule>
 
     
-    <rule comment="regla: num ile num">
+    <rule id="5" comment="regla: num ile num">
       <pattern>
         <pattern-item n="num"/>
         <pattern-item n="ile"/>
@@ -1085,7 +1085,7 @@
       </action>
     </rule>
     
-    <rule comment="regla: adj">
+    <rule id="6" comment="regla: adj">
       <pattern>
         <pattern-item n="adj"/>
       </pattern>
@@ -1098,7 +1098,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: nom qst">
+    <rule id="7" comment="regla: nom qst">
       <pattern>
         <pattern-item n="nom"/>
         <pattern-item n="qst"/>
@@ -1131,7 +1131,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: birbiri">
+    <rule id="8" comment="regla: birbiri">
       <pattern>
         <pattern-item n="birbiri"/>
       </pattern>
@@ -1157,7 +1157,7 @@
       </action>
     </rule>
   
-    <rule comment="regla: prop">
+    <rule id="9" comment="regla: prop">
       <pattern>
         <pattern-item n="prop"/>
       </pattern>
@@ -1183,7 +1183,7 @@
       </action>
     </rule>
  
-    <rule comment="regla: nom">
+    <rule id="10" comment="regla: nom">
       <pattern>
         <pattern-item n="nom"/>
       </pattern>
@@ -1209,7 +1209,7 @@
       </action>
     </rule>
  
-    <rule comment="regla: pron_ref">
+    <rule id="11" comment="regla: pron_ref">
       <pattern>
         <pattern-item n="pron_ref"/>
       </pattern>
@@ -1236,7 +1236,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: pron">
+    <rule id="12" comment="regla: pron">
       <pattern>
         <pattern-item n="pron"/>
       </pattern>
@@ -1266,7 +1266,7 @@
 
     <!-- SECTION: Verbal segments -->
    
-    <rule comment="regla: v_cv_dik_poss gibi">
+    <rule id="13" comment="regla: v_cv_dik_poss gibi">
       <pattern>
         <pattern-item n="v_cv_dik_poss"/>
         <pattern-item n="gibi"/>
@@ -1297,7 +1297,7 @@
     </rule>
 
    
-    <rule comment="regla: v_cv_erek">
+    <rule id="14" comment="regla: v_cv_erek">
       <pattern>
         <pattern-item n="v_cv_erek"/>
       </pattern>
@@ -1318,7 +1318,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_cv_ip">
+    <rule id="15" comment="regla: v_cv_ip">
       <pattern>
         <pattern-item n="v_cv_ip"/>
       </pattern>
@@ -1346,7 +1346,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_Dvn_yIcI">
+    <rule id="16" comment="regla: v_Dvn_yIcI">
       <pattern>
         <pattern-item n="v_Dvn_yIcI"/>
       </pattern>
@@ -1376,7 +1376,7 @@
     </rule>
 
 
-    <rule comment="regla: v_vn_acak">
+    <rule id="17" comment="regla: v_vn_acak">
       <pattern>
         <pattern-item n="v_vn_acak"/>
       </pattern>
@@ -1413,7 +1413,7 @@
     </rule>
 
 
-    <rule comment="regla: v_cv_eli">
+    <rule id="18" comment="regla: v_cv_eli">
       <pattern>
         <pattern-item n="v_cv_eli"/>
       </pattern>
@@ -1451,7 +1451,7 @@
     </rule>
 
 
-    <rule comment="regla: v_cv_acak">
+    <rule id="19" comment="regla: v_cv_acak">
       <pattern>
         <pattern-item n="v_cv_acak"/>
       </pattern>
@@ -1488,7 +1488,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_cv_zdan">
+    <rule id="20" comment="regla: v_cv_zdan">
       <pattern>
         <pattern-item n="v_cv_zdan"/>
       </pattern>
@@ -1518,7 +1518,7 @@
     </rule>
 
 <!--
-    <rule comment="regla: v_aor_cv_cesine">
+    <rule id="21" comment="regla: v_aor_cv_cesine">
       <pattern>
         <pattern-item n="v_aor_cv_cesine"/>
       </pattern>
@@ -1548,7 +1548,7 @@
     </rule>
 -->
 
-    <rule comment="regla: v_cv_dan">
+    <rule id="22" comment="regla: v_cv_dan">
       <pattern>
         <pattern-item n="v_cv_dan"/>
       </pattern>
@@ -1577,7 +1577,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_cv_ince">
+    <rule id="23" comment="regla: v_cv_ince">
       <pattern>
         <pattern-item n="v_cv_ince"/>
       </pattern>
@@ -1607,7 +1607,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_ger1">
+    <rule id="24" comment="regla: v_ger1">
       <pattern>
         <pattern-item n="v_ger1"/>
       </pattern>
@@ -1638,7 +1638,7 @@
     </rule>
 
 
-    <rule comment="regla: v_cv_ma">
+    <rule id="25" comment="regla: v_cv_ma">
       <pattern>
         <pattern-item n="v_cv_ma"/>
       </pattern>
@@ -1671,7 +1671,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_imp_p23_pl">
+    <rule id="26" comment="regla: v_imp_p23_pl">
       <pattern>
         <pattern-item n="v_imp_p23_pl"/>
       </pattern>
@@ -1700,7 +1700,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_makta">
+    <rule id="27" comment="regla: v_makta">
       <pattern>
         <pattern-item n="v_makta"/>
       </pattern>
@@ -1733,7 +1733,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_vn_mak_yis">
+    <rule id="28" comment="regla: v_vn_mak_yis">
       <pattern>
         <pattern-item n="v_vn_mak_yis"/>
       </pattern>
@@ -1766,7 +1766,7 @@
       </action>
     </rule>
    
-    <rule comment="regla: v_pass_part_dik">
+    <rule id="29" comment="regla: v_pass_part_dik">
       <pattern>
         <pattern-item n="v_pass_part_dik"/>
       </pattern>
@@ -1796,7 +1796,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_part_yan">
+    <rule id="30" comment="regla: v_part_yan">
       <pattern>
         <pattern-item n="v_part_yan"/>
       </pattern>
@@ -1825,7 +1825,7 @@
       </action>
     </rule>
   
-    <rule comment="regla: v_ger3">
+    <rule id="31" comment="regla: v_ger3">
       <pattern>
         <pattern-item n="v_ger3"/>
       </pattern>
@@ -1856,7 +1856,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_vn_mak_loc">
+    <rule id="32" comment="regla: v_vn_mak_loc">
       <pattern>
         <pattern-item n="v_vn_mak_loc"/>
         <pattern-item n="v_ol_part_yan"/>
@@ -1893,7 +1893,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_cv_iyor">
+    <rule id="33" comment="regla: v_cv_iyor">
       <pattern>
         <pattern-item n="v_cv_iyor"/>
       </pattern>
@@ -1931,7 +1931,7 @@
     </rule>
 
 
-    <rule comment="regla: v_abil_cond">
+    <rule id="34" comment="regla: v_abil_cond">
       <pattern>
         <pattern-item n="v_abil_cond"/>
       </pattern>
@@ -1979,7 +1979,7 @@
 
 
 
-    <rule comment="regla: v_abil_obl">
+    <rule id="35" comment="regla: v_abil_obl">
       <pattern>
         <pattern-item n="v_abil_obl"/>
       </pattern>
@@ -2028,7 +2028,7 @@
 
 
 
-    <rule comment="regla: v_abil">
+    <rule id="36" comment="regla: v_abil">
       <pattern>
         <pattern-item n="v_abil"/>
       </pattern>
@@ -2067,7 +2067,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_aor mi_pers">
+    <rule id="37" comment="regla: v_aor mi_pers">
       <pattern>
         <pattern-item n="v_aor"/>
         <pattern-item n="mi_pers"/>
@@ -2103,7 +2103,7 @@
       </action>
     </rule>
 
-		<rule comment="regla: HARGLE">
+		<rule id="38" comment="regla: HARGLE">
 			<pattern>
 				<pattern-item n="v_HARGLE" />
 			</pattern>
@@ -2124,7 +2124,7 @@
 		</rule>
 
 <!--
-    <rule comment="regla: v_aor qst">
+    <rule id="39" comment="regla: v_aor qst">
       <pattern>
         <pattern-item n="v_aor"/>
         <pattern-item n="qst"/>
@@ -2158,7 +2158,7 @@
     </rule>
 -->
 
-    <rule comment="regla: v_fut">
+    <rule id="40" comment="regla: v_fut">
       <pattern>
         <pattern-item n="v_fut"/>
       </pattern>
@@ -2186,7 +2186,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_opt">
+    <rule id="41" comment="regla: v_opt">
       <pattern>
         <pattern-item n="v_opt"/>
       </pattern>
@@ -2212,7 +2212,7 @@
       </action>
     </rule>
 
-    <rule comment="regla: v_imp">
+    <rule id="42" comment="regla: v_imp">
       <pattern>
         <pattern-item n="v_imp"/>
       </pattern>
@@ -2239,7 +2239,7 @@
     </rule>
 
 
-    <rule comment="regla: v_aor">
+    <rule id="43" comment="regla: v_aor">
       <pattern>
         <pattern-item n="v_aor"/>
       </pattern>
@@ -2266,7 +2266,7 @@
     </rule>
 
 
-    <rule comment="regla: v_cond">
+    <rule id="44" comment="regla: v_cond">
       <pattern>
         <pattern-item n="v_cond"/>
       </pattern>
@@ -2297,7 +2297,7 @@
     </rule>
 
 
-    <rule comment="regla: v_t_narr">
+    <rule id="45" comment="regla: v_t_narr">
       <pattern>
         <pattern-item n="v_t_narr"/>
       </pattern>
@@ -2329,7 +2329,7 @@
     </rule>
 
 
-    <rule comment="regla: v_neg_t_narr_cpl_di">
+    <rule id="46" comment="regla: v_neg_t_narr_cpl_di">
       <pattern>
         <pattern-item n="v_neg_t_narr_cpl_di"/>
       </pattern>
@@ -2362,7 +2362,7 @@
     </rule>
 
 
-    <rule comment="regla: v_t_narr_cpl_di">
+    <rule id="47" comment="regla: v_t_narr_cpl_di">
       <pattern>
         <pattern-item n="v_t_narr_cpl_di"/>
       </pattern>
@@ -2393,7 +2393,7 @@
     </rule>
 
 
-    <rule comment="regla: v_oblig">
+    <rule id="48" comment="regla: v_oblig">
       <pattern>
         <pattern-item n="v_oblig"/>
       </pattern>
@@ -2429,7 +2429,7 @@
     </rule>
 
 
-    <rule comment="regla: v_cont">
+    <rule id="49" comment="regla: v_cont">
       <pattern>
         <pattern-item n="v_cont"/>
       </pattern>
@@ -2460,7 +2460,7 @@
     </rule>
 
 
-    <rule comment="regla: v_neg_past">
+    <rule id="50" comment="regla: v_neg_past">
       <pattern>
         <pattern-item n="v_neg_past"/>
       </pattern>
@@ -2493,7 +2493,7 @@
     </rule>
 
 
-    <rule comment="regla: v_past">
+    <rule id="51" comment="regla: v_past">
       <pattern>
         <pattern-item n="v_past"/>
       </pattern>
@@ -2527,7 +2527,7 @@
 
     <!-- SECTION: Copulas -->
 
-    <rule comment="regla: not">
+    <rule id="52" comment="regla: not">
       <pattern>
         <pattern-item n="not"/>
       </pattern>
@@ -2552,7 +2552,7 @@
   
     <!-- SECTION: Particles -->
  
-    <rule comment="regla: post">
+    <rule id="53" comment="regla: post">
       <pattern>
         <pattern-item n="post"/>
       </pattern>
@@ -2574,7 +2574,7 @@
       </action>
     </rule>
   
-    <rule comment="regla: qst">
+    <rule id="54" comment="regla: qst">
       <pattern>
         <pattern-item n="qst"/>
       </pattern>
@@ -2601,7 +2601,7 @@
     </rule>
 
 <!-- coding challenge, rules for stat. training -->
-<rule comment="REGLA: n+post -> n.nom+post">
+<rule id="55" comment="REGLA: n+post -> n.nom+post">
       <pattern>
         <pattern-item n="nom"/>
         <pattern-item n="post"/>
@@ -2628,7 +2628,7 @@
       </action>
     </rule>
 
-<rule comment="REGLA: n+post -> n.acc+post">
+<rule id="56" comment="REGLA: n+post -> n.acc+post">
       <pattern>
         <pattern-item n="nom"/>
         <pattern-item n="post"/>
@@ -2655,7 +2655,7 @@
       </action>
     </rule>
 
-<rule comment="REGLA: n+post -> n.dat+post">
+<rule id="57" comment="REGLA: n+post -> n.dat+post">
       <pattern>
         <pattern-item n="nom"/>
         <pattern-item n="post"/>
@@ -2682,7 +2682,7 @@
       </action>
     </rule>
 
-<rule comment="REGLA: num+post -> num.nom+post">
+<rule id="58" comment="REGLA: num+post -> num.nom+post">
       <pattern>
         <pattern-item n="num"/>
         <pattern-item n="post"/>
@@ -2709,7 +2709,7 @@
       </action>
     </rule>
 
-<rule comment="REGLA: num+post -> num.acc+post">
+<rule id="59" comment="REGLA: num+post -> num.acc+post">
       <pattern>
         <pattern-item n="num"/>
         <pattern-item n="post"/>
@@ -2736,7 +2736,7 @@
       </action>
     </rule>
 
-<rule comment="REGLA: num+post -> num.dat+post">
+<rule id="60" comment="REGLA: num+post -> num.dat+post">
       <pattern>
         <pattern-item n="num"/>
         <pattern-item n="post"/>
@@ -2770,3 +2770,4 @@
 
   </section-rules>
 </transfer>
+
