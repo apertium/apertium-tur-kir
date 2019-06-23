@@ -1,6 +1,7 @@
 import sys, os
 
 def monofy(line,left=True):
+    line = line.rstrip("\n")
     dic = { '<s n="adj"/>':'A1',
             '<s n="adv"/>':"ADV",
             '<s n="n"/>':"N-INFL",
@@ -31,8 +32,9 @@ def monofy(line,left=True):
 }
 
     if left:
-        word = line.partition("<l>")[2].partition("<s")[0]
-        tags= "".join(line.partition("<s")[1:]).partition("</l>")[0]
+        word = line.partition("<s")[0]
+        #word = line.partition("<l>")[2].partition("<s")[0]
+        tags= "".join(line.partition("<s")[1:]).partition("</r>")[0]
     else:
         word = line.partition("<s")[0]
         tags= "".join(line.partition("<s")[1:]).partition("</r>")[0]
