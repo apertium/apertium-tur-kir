@@ -53,12 +53,15 @@ if __name__=="__main__":
         filename = os.path.join(d, '../../apertium-kir/apertium-kir.kir.lexc')
     #text = "".join([x for x in open(filename).readlines() if "V-TD" not in x])
     present_entries = set()
-    entry_re = re.compile("([-\w]*):([-\w]*) *([\w-]*) ;")
+    entry_re = re.compile("([-\w%(?:% )]*):([-\w%(?:% )]*)(?:%\{.*%\})? +([\w-]*) ;")
     with open(filename) as infile:
         for line in infile.readlines():
             present_entry = re.match(entry_re, line)
             if present_entry is not None:
                 present_entries.add(present_entry.groups())
+    #for item in present_entries:
+    #    if "СССР" in item[0]:
+    #        print(item)
     for line in sys.stdin.readlines():
         if "<" in line:
             try:
