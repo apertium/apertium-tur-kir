@@ -53,7 +53,7 @@ if __name__=="__main__":
         filename = os.path.join(d, '../../apertium-kir/apertium-kir.kir.lexc')
     #text = "".join([x for x in open(filename).readlines() if "V-TD" not in x])
     present_entries = set()
-    entry_re = re.compile("([-\w%(?:% )]*):([-\w%(?:% )]*)(?:%\{.*%\})? +([\w-]*) ;")
+    entry_re = re.compile("([-\w%(?:% )\d]*):([-\w%(?:% )\d]*)(?:%\{.*%\})? +([\w-]*) ;")
     with open(filename) as infile:
         for line in infile.readlines():
             present_entry = re.match(entry_re, line)
