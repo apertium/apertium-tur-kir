@@ -1,0 +1,28 @@
+Test file: 'kazantr.txt'
+Reference file 'kazanturkce.txt'
+
+Statistics about input files
+-------------------------------------------------------
+Number of words in reference: 223
+Number of words in test: 227
+Number of unknown words (marked with a star) in test: 55
+Percentage of unknown words: 24.23 %
+
+Results when removing unknown-word marks (stars)
+-------------------------------------------------------
+Edit distance: 113
+Word error rate (WER): 50.67 %
+Number of position-independent correct words: 119
+Position-independent word error rate (PER): 48.43 %
+
+Results when unknown-word marks (stars) are not removed
+-------------------------------------------------------
+Edit distance: 108
+Word Error Rate (WER): 48.43 %
+Number of position-independent correct words: 124
+Position-independent word error rate (PER): 46.19 %
+
+Statistics about the translation of unknown words
+-------------------------------------------------------
+Number of unknown words which were free rides: -5
+Percentage of unknown words that were free rides: -9.09 %
