@@ -292,6 +292,14 @@
       <cat-item tags="v.prc_past.*"/>
       <cat-item tags="v.*.prc_past.*"/>
     </def-cat>
+
+    <def-cat n="ger_pres">
+      <cat-item tags="v.ger_pres"/>
+      <cat-item tags="v.*.ger_pres"/>
+      <cat-item tags="v.ger_pres.*"/>
+      <cat-item tags="v.*.ger_pres.*"/>
+
+    </def-cat>
  
     <def-cat n="pron">
       <cat-item tags="prn"/>
@@ -373,6 +381,7 @@
       <cat-item tags="v.*.aor.*"/>
       <cat-item tags="v.*.neg.aor.*"/>
     </def-cat>
+
    
      <def-cat n="prop">
       <cat-item tags="np"/>
@@ -522,6 +531,7 @@
       <attr-item tags="t_aor"/>
       <attr-item tags="t_opt"/>
       <attr-item tags="t_fut"/>
+      <attr-item tags="ger_pres"/>
     </def-attr>
 
     <def-attr n="gen">
@@ -2800,6 +2810,28 @@
       </action>
     </rule>
 
+   <rule id="62" comment="regla: ger_pres">
+      <pattern>
+        <pattern-item n="ger_pres"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" side="tl" part="a_tense"/>
+          <lit-tag v="ger_abst"/>
+        </let>  
+        <call-macro n="f_conv_pers_tens1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+              <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
 
     <!-- SECTION: Punctuation -->
 
