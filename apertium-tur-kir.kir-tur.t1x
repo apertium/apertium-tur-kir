@@ -461,6 +461,7 @@
       <attr-item tags="px1sg"/>
       <attr-item tags="px2sg"/>
       <attr-item tags="px3sg"/>
+      <attr-item tags="px3sp"/>
       <attr-item tags="px1pl"/>
       <attr-item tags="px2pl"/>
       <attr-item tags="px3pl"/>
@@ -1198,6 +1199,7 @@
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="poss"/>
             <clip pos="1" side="tl" part="gen"/>
             <clip pos="1" side="tl" part="a_nbr"/>
             <var n="c_poss"/>
