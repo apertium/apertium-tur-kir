@@ -293,12 +293,22 @@
       <cat-item tags="v.*.prc_past.*"/>
     </def-cat>
 
+    <def-cat n="prc_perf">
+      <cat-item tags="v.prc_perf"/>
+      <cat-item tags="v.*.prc_perf"/>
+      <cat-item tags="v.prc_perf.*"/>
+      <cat-item tags="v.*.prc_perf.*"/>
+     <cat-item tags="v.gna_perf"/>
+      <cat-item tags="v.*.gna_perf"/>
+      <cat-item tags="v.gna_perf.*"/>
+      <cat-item tags="v.*.gna_perf.*"/>
+    </def-cat>
+
     <def-cat n="ger_pres">
       <cat-item tags="v.ger_pres"/>
       <cat-item tags="v.*.ger_pres"/>
       <cat-item tags="v.ger_pres.*"/>
       <cat-item tags="v.*.ger_pres.*"/>
-
     </def-cat>
  
     <def-cat n="pron">
@@ -532,6 +542,8 @@
       <attr-item tags="t_opt"/>
       <attr-item tags="t_fut"/>
       <attr-item tags="ger_pres"/>
+      <attr-item tags="gna_perf"/>
+      <attr-item tags="prc_perf"/>
     </def-attr>
 
     <def-attr n="gen">
@@ -2834,6 +2846,29 @@
       </action>
     </rule>
 
+
+   <rule id="62" comment="regla: prc_perf">
+      <pattern>
+        <pattern-item n="prc_perf"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" side="tl" part="a_tense"/>
+          <lit-tag v="gna_perf"/>
+        </let>  
+        <call-macro n="f_conv_pers_tens1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+              <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
     <!-- SECTION: Punctuation -->
 
   </section-rules>
