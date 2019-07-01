@@ -1203,7 +1203,7 @@
         </out>
       </action>
     </rule>
- 
+ <!-- is this necessary?
     <rule id="10" comment="regla: nom">
       <pattern>
         <pattern-item n="nom"/>
@@ -1230,6 +1230,7 @@
         </out>
       </action>
     </rule>
+-->
  
     <rule id="11" comment="regla: pron_ref">
       <pattern>
