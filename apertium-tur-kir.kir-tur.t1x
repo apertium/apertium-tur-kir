@@ -283,10 +283,14 @@
  
 
     <def-cat n="v_ger3">
-      <cat-item tags="v.ger3"/>
-      <cat-item tags="v.*.ger3"/>
-      <cat-item tags="v.ger3.*"/>
-      <cat-item tags="v.*.ger3.*"/>
+      <cat-item tags="v.ger_past"/>
+      <cat-item tags="v.*.ger_past"/>
+      <cat-item tags="v.ger_past.*"/>
+      <cat-item tags="v.*.ger_past.*"/>
+    <cat-item tags="v.prc_past"/>
+      <cat-item tags="v.*.prc_past"/>
+      <cat-item tags="v.prc_past.*"/>
+      <cat-item tags="v.*.prc_past.*"/>
     </def-cat>
  
     <def-cat n="pron">
@@ -1848,7 +1852,7 @@
             <clip pos="1" side="tl" part="a_trans"/>
             <clip pos="1" side="tl" part="a_deriv"/>
             <clip pos="1" side="tl" part="neg"/>
-            <lit-tag v="ger_past"/>
+            <lit-tag v="ger_impf"/>
             <var n="c_poss"/>
             <var n="c_case"/>
             <clip pos="1" side="tl" part="lemq"/>
