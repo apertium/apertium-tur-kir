@@ -1031,7 +1031,7 @@
       </action>
     </rule>
 
-
+<!--
     <rule id="4" comment="regla: num">
       <pattern>
         <pattern-item n="num"/>
@@ -1051,7 +1051,7 @@
         </out>
       </action>
     </rule>
-
+-->
     
     <rule id="5" comment="regla: num ile num">
       <pattern>
