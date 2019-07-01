@@ -316,6 +316,12 @@
       <cat-item tags="v.past.*"/>
       <cat-item tags="v.*.past.*"/>
     </def-cat>
+
+    <def-cat n="prc_irre">
+      <cat-item tags="v.prc_irre.*"/>
+      <cat-item tags="v.*.prc_irre.*"/>
+      <cat-item tags="v.*.prc_irre"/>
+    </def-cat>
      
     <def-cat n="v_oblig">
       <cat-item tags="v.*.*.oblig.*"/>
@@ -506,7 +512,7 @@
       <attr-item tags="imp"/>
       <attr-item tags="opt"/>
       <attr-item tags="oblig"/>
-
+      <attr-item tags="prc_irre"/>
       <attr-item tags="t_obl"/>
       <attr-item tags="t_narr"/>
       <attr-item tags="cont"/>
@@ -2771,6 +2777,29 @@
 
 <!-- coding challenge, rules for stat. training -->
  
+   <rule id="61" comment="regla: prc_irre">
+      <pattern>
+        <pattern-item n="prc_irre"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" side="tl" part="a_tense"/>
+          <lit-tag v="aor"/>
+        </let>  
+        <call-macro n="f_conv_pers_tens1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="f_fix_trans1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <lu>
+              <clip pos="1" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
 
     <!-- SECTION: Punctuation -->
 
