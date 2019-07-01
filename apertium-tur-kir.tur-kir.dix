@@ -250,7 +250,7 @@
     <e c="  0"><p><l>bura<s n="prn"/><s n="dem"/></l><r>бул<b/>жер<s n="prn"/><s n="dem"/></r></p></e>
     <e c="  0"><p><l>ora<s n="prn"/><s n="adv"/></l><r>ал<b/>жак<s n="prn"/><s n="dem"/></r></p></e>
     <e c="  0"><p><l>kim<s n="prn"/><s n="qst"/></l><r>ким<s n="prn"/><s n="itg"/></r></p></e>
-<e c="  0"><p><l>nere<s n="prn"/><s n="qst"/></l><r>кай<s n="prn"/><s n="itg"/></r></p></e>
+<e c="  0"><p><l>nere<s n="prn"/><s n="itg"/></l><r>кай<s n="prn"/><s n="itg"/></r></p></e>
     <e c="  0"><p><l>nere<s n="prn"/><s n="itg"/></l><r>кайсы<b/>жер<s n="prn"/><s n="itg"/></r></p></e>
     <e c="  0"><p><l>ne<s n="prn"/><s n="itg"/></l><r>эмне<s n="prn"/><s n="itg"/></r></p></e>
     <e c="  0"><p><l>hangi<s n="prn"/><s n="itg"/></l><r>кайсы<s n="prn"/><s n="itg"/></r></p></e>
@@ -8025,7 +8025,7 @@
        <e><p><l>Rab<s n="n"/></l><r>Таксыр<s n="n"/></r></p></e>
        <e><p><l>günahkar<s n="n"/></l><r>күнөөкөр<s n="n"/></r></p></e>
        <e><p><l>iblis<s n="n"/></l><r>ибилис<s n="n"/></r></p></e>
-       <e><p><l>Tevrat<s n="n"/></l><r>Тоорат<s n="n"/></r></p></e>
+       <e><p><l>Tevrat<s n="n"/></l><r>Тоорат<s n="np"/><s n="al"/></r></p></e>
        <e><p><l>mucize<s n="n"/></l><r>керемет<s n="n"/></r></p></e>
        <e><p><l>kudret<s n="n"/></l><r>кудурет<s n="n"/></r></p></e>
        <e><p><l>arka<s n="n"/></l><r>сырт<s n="n"/></r></p></e>
@@ -8043,8 +8043,7 @@
        <e><p><l>Yeruşalem<s n="np"/><s n="top"/></l><r>Иерусалим<s n="np"/><s n="top"/></r></p></e>
        <e><p><l>Nasıra<s n="np"/><s n="top"/></l><r>назарет<s n="np"/><s n="top"/></r></p></e>
        <e><p><l>Celile<s n="np"/><s n="top"/></l><r>Галилея<s n="np"/><s n="top"/></r></p></e>
-       <e><p><l>hiçbir<s n="prn"/><s n="pers"/></l><r>кимиси<s n="prn"/><s n="pers"/></r></p></e>
-       <e><p><l>nere<s n="prn"/><s n="pers"/></l><r>кай<s n="prn"/><s n="pers"/></r></p></e>
+       <e><p><l>hiçbir<s n="prn"/><s n="qnt"/><s n="px3sp"/></l><r>кимиси<s n="prn"/><s n="qnt"/></r></p></e>
        <e><p><l>gibi<s n="post"/></l><r>окшоп<s n="post"/></r></p></e>
        <e><p><l>nerede<s n="adv"/></l><r>кайда<s n="adv"/></r></p></e>
        <e><p><l>nasıl<s n="adv"/></l><r>кандайча<s n="adv"/></r></p></e>
