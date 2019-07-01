@@ -1127,7 +1127,8 @@
     <e c="  0"><p><l>emniyet<s n="n"/></l><r>коопсуздук<s n="n"/></r></p></e>
     <e c="  0"><p><l>endişe<s n="n"/></l><r>сарсанаа<s n="n"/></r></p></e>
     <e c="  0"><p><l>engel<s n="n"/></l><r>тоскоолдук<s n="n"/></r></p></e>
-    <e c="  0"><p><l>enternasyonal<s n="n"/></l><r>эларалык<s n="n"/></r></p></e>
+    <e c="  0"><p><l>uluslararası<s n="adj"/></l><r>эларалык<s n="adj"/></r></p></e>
+    <e c="  0"><p><l>uluslararası<s n="adj"/></l><r>эл<b/>аралык<s n="adj"/></r></p></e>
     <e c="  0"><p><l>er<s n="n"/></l><r>эр<s n="n"/></r></p></e>
     <e c="  0"><p><l>erkek<s n="n"/></l><r>эркек<s n="n"/></r></p></e>
     <e c="  0"><p><l>erzak<s n="n"/></l><r>азык<s n="n"/></r></p></e>
@@ -6816,7 +6817,7 @@
     <e c="  0"><p><l>salla<s n="v"/><s n="tv"/></l><r>термелт<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>tasarla<s n="v"/><s n="tv"/></l><r>түз<s n="v"/><s n="tv"/></r></p></e>
     <e slr="1"><p><l>tasarla<s n="v"/><s n="tv"/></l><r>планда<s n="v"/><s n="iv"/></r></p></e>
-    <e c="  0"><p><l>dayan<s n="v"/><s n="iv"/></l><r>таян<s n="v"/><s n="tv"/></r></p></e>
+    <e c="  0"><p><l>dayan<s n="v"/><s n="iv"/></l><r>таян<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>kay<s n="v"/><s n="iv"/></l><r>сыйгалан<s n="v"/><s n="tv"/></r></p></e>
     <e c="  0"><p><l>yanıtla<s n="v"/><s n="tv"/></l><r>жооп<b/>бер<s n="v"/><s n="iv"/></r></p></e>
     <e c="  0"><p><l>parçala<s n="v"/><s n="tv"/></l><r>майдала<s n="v"/><s n="tv"/></r></p></e>
