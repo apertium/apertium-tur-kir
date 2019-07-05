@@ -2648,7 +2648,7 @@
       </action>
     </rule>
 
-<!-- coding challenge, rules for stat. training -->
+<!-- coding challenge, rules for stat. training 
 <rule id="55" comment="REGLA: n+post -> n.nom+post">
       <pattern>
         <pattern-item n="nom"/>
@@ -2811,7 +2811,7 @@
       </action>
     </rule>
 
-<!-- coding challenge, rules for stat. training -->
+coding challenge, rules for stat. training -->
  
    <rule id="61" comment="regla: prc_irre">
       <pattern>
