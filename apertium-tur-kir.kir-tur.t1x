@@ -1284,6 +1284,7 @@
       </action>
     </rule>
 
+<!-- not necessary, breaks tl
     <rule id="12" comment="regla: pron">
       <pattern>
         <pattern-item n="pron"/>
@@ -1309,6 +1310,7 @@
         </out>
       </action>
     </rule>
+-->
 
 
 
