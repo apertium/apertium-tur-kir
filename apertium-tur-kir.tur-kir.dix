@@ -249,7 +249,7 @@
     <e c="  0"><p><l>şu<s n="prn"/><s n="dem"/></l><r>ушул<s n="prn"/><s n="dem"/></r></p></e>
     <e c="  0"><p><l>bura<s n="prn"/><s n="dem"/></l><r>бул<b/>жер<s n="prn"/><s n="dem"/></r></p></e>
     <e c="  0"><p><l>ora<s n="prn"/><s n="adv"/></l><r>ал<b/>жак<s n="prn"/><s n="dem"/></r></p></e>
-    <e c="  0"><p><l>kim<s n="prn"/><s n="qst"/></l><r>ким<s n="prn"/><s n="itg"/></r></p></e>
+    <e c="  0"><p><l>kim<s n="prn"/><s n="itg"/></l><r>ким<s n="prn"/><s n="itg"/></r></p></e>
 <e c="  0"><p><l>nere<s n="prn"/><s n="itg"/><s n="abl"/></l><r>кайдан<s n="adv"/><s n="itg"/></r></p></e>
     <e c="  0"><p><l>nere<s n="prn"/><s n="itg"/></l><r>кайсы<b/>жер<s n="prn"/><s n="itg"/></r></p></e>
     <e c="  0"><p><l>ne<s n="prn"/><s n="itg"/></l><r>эмне<s n="prn"/><s n="itg"/></r></p></e>
@@ -8044,7 +8044,6 @@
        <e><p><l>Yeruşalem<s n="np"/><s n="top"/></l><r>Иерусалим<s n="np"/><s n="top"/></r></p></e>
        <e><p><l>Nasıra<s n="np"/><s n="top"/></l><r>Назарет<s n="np"/><s n="top"/></r></p></e>
        <e><p><l>Celile<s n="np"/><s n="top"/></l><r>Галилея<s n="np"/><s n="top"/></r></p></e>
-       <e><p><l>hiçbir<s n="prn"/><s n="qnt"/><s n="px3sp"/></l><r>кимиси<s n="prn"/><s n="qnt"/></r></p></e>
        <e><p><l>gibi<s n="post"/></l><r>окшоп<s n="post"/></r></p></e>
        <e><p><l>nerede<s n="adv"/></l><r>кайда<s n="adv"/><s n="itg"/></r></p></e>
        <e><p><l>nasıl<s n="adv"/></l><r>кандайча<s n="adv"/><s n="itg"/></r></p></e>
