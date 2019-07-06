@@ -7479,8 +7479,8 @@
        <e><p><l>cm<s n="abbr"/></l><r>см<s n="abbr"/></r></p></e>
        <e><p><l>epey<s n="adv"/></l><r>кыйла<s n="adv"/></r></p></e>
        <e><p><l>her<s n="adj"/></l><r>сайын<s n="post"/></r></p></e> <!-- this might need a transfer rule -->
-       <e><p><l>yer<b/>al<s n="v"/><s n="iv"/></l><r>ээле<s n="v"/><s n="iv"/></r></p></e>
-       <e><p><l>bulun<s n="v"/><s n="iv"/></l><r>ээле<s n="v"/><s n="iv"/></r></p></e>
+       <e><p><l>yer<b/>al<s n="v"/><s n="iv"/></l><r>ээле<s n="v"/><s n="tv"/></r></p></e>
+       <e><p><l>bulun<s n="v"/><s n="iv"/></l><r>ээле<s n="v"/><s n="tv"/></r></p></e>
        <e><p><l>yürütül<s n="v"/><s n="iv"/></l><r>жүргүзүл<s n="v"/><s n="iv"/></r></p></e>
        <e><p><l>büyü<s n="v"/><s n="iv"/></l><r>өс<s n="v"/><s n="iv"/></r></p></e>
        <e><p><l>ayır<s n="v"/><s n="tv"/></l><r>айырмала<s n="v"/><s n="tv"/></r></p></e>
@@ -7744,7 +7744,7 @@
        <e><p><l>Uzgen<s n="np"/><s n="top"/></l><r>Өзгөн<s n="np"/><s n="top"/></r></p></e>
        <e><p><l>Ohio<s n="np"/><s n="top"/></l><r>Огайо<s n="np"/><s n="top"/></r></p></e>
        <e><p><l>Idaho<s n="np"/><s n="top"/></l><r>Айдахо<s n="np"/><s n="top"/></r></p></e>
-       <e><p><l>New<b/>Hampshire<s n="np"/><s n="top"/></l><r>Нү-Гэмпшир<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>New<b/>Hampshire<s n="np"/><s n="top"/></l><r>Нью-Хемпшир<s n="np"/><s n="top"/></r></p></e>
        <e><p><l>Connecticut<s n="np"/><s n="top"/></l><r>Коннектикут<s n="np"/><s n="top"/></r></p></e>
        <e><p><l>Tom<s n="np"/><s n="top"/></l><r>Томь<s n="np"/><s n="top"/></r></p></e>
        <e><p><l>Tien-Şan<s n="np"/><s n="top"/></l><r>Тянь-Шань<s n="np"/><s n="top"/></r></p></e>
@@ -7759,7 +7759,7 @@
        <e><p><l>öncelikle<s n="adv"/></l><r>адегенде<s n="adv"/></r></p></e>
        <e><p><l>ilkin<s n="adv"/></l><r>адегенде<s n="adv"/></r></p></e>
        <e><p><l>kere<s n="adv"/></l><r>эсе<s n="adv"/></r></p></e>
-       <e><p><l>defalarca<s n="adv"/></l><r>ирет<s n="adv"/></r></p></e>
+       <e><p><l>kere<s n="n"/></l><r>ирет<s n="n"/></r></p></e>
        <e><p><l>rasgele<s n="adv"/></l><r>туш<s n="adv"/></r></p></e>
        <e><p><l>dokun<s n="v"/><s n="iv"/></l><r>тийгиз<s n="v"/><s n="iv"/></r></p></e>
        <e><p><l>değ<s n="v"/><s n="iv"/></l><r>тий<s n="v"/><s n="iv"/></r></p></e>
