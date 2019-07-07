@@ -7681,8 +7681,10 @@
        <e><p><l>elektronik<s n="adj"/></l><r>электрондук<s n="adj"/></r></p></e>
        <e><p><l>etnik<s n="adj"/></l><r>этностук<s n="adj"/></r></p></e>
        <e><p><l>bölgesel<s n="adj"/></l><r>облустук<s n="adj"/></r></p></e>
-       <e><p><l>bütün<s n="adj"/></l><r>баардык<s n="adj"/></r></p></e>
-       <e><p><l>her<s n="adj"/></l><r>баардык<s n="adj"/></r></p></e>
+       <e><p><l>bütün<s n="prn"/><s n="ind"/></l><r>бардык<s n="prn"/><s n="qnt"/></r></p></e>
+       <e><p><l>her<s n="adj"/></l><r>бардык<s n="prn"/><s n="qnt"/></r></p></e>
+       <e><p><l>bütün<s n="prn"/><s n="ind"/></l><r>баардык<s n="prn"/><s n="qnt"/></r></p></e>
+       <e><p><l>her<s n="adj"/></l><r>баардык<s n="prn"/><s n="qnt"/></r></p></e>
        <e><p><l>organik<s n="adj"/></l><r>органикалык<s n="adj"/></r></p></e>
        <e><p><l>epik<s n="adj"/></l><r>эпикалык<s n="adj"/></r></p></e>
        <e><p><l>klasik<s n="adj"/></l><r>классикалык<s n="adj"/></r></p></e>
@@ -7872,7 +7874,7 @@
        <e><p><l>Kanin<s n="np"/><s n="cog"/><s n="mf"/></l><r>Канин<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
        <e><p><l>Nos<s n="np"/><s n="cog"/><s n="mf"/></l><r>Нос<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
        <e><p><l>uzun<s n="adj"/></l><r>жанa<s n="adj"/></r></p></e>
-       <e><p><l>enjekte<s n="adj"/></l><r>сайма<s n="adj"/></r></p></e>
+       <e><p><l>enjekte<s n="adj"/></l><r>сайма<s n="n"/></r></p></e>
        <e><p><l>yuvarlak<s n="adj"/></l><r>тегерек<s n="adj"/></r></p></e>
        <e><p><l>profesyonel<s n="adj"/></l><r>кесиптик<s n="adj"/></r></p></e>
        <e><p><l>Sovyet<s n="adj"/></l><r>советтик<s n="adj"/></r></p></e>
@@ -7917,7 +7919,7 @@
        <e><p><l>alkış<s n="n"/></l><r>чаап<s n="n"/></r></p></e>
        <e><p><l>enstrüman<s n="n"/></l><r>аспаптар<s n="n"/></r></p></e>
        <e><p><l>usta<s n="n"/></l><r>чебер<s n="n"/></r></p></e>
-       <e><p><l>çayır<s n="n"/></l><r>шалбаалуу<s n="n"/></r></p></e>
+       <e><p><l>çayır<s n="n"/></l><r>шалба<s n="n"/></r></p></e>
        <e><p><l>kafes<s n="n"/></l><r>тушу<s n="n"/></r></p></e>
        <e><p><l>imparatorluk<s n="n"/></l><r>империя<s n="n"/></r></p></e>
        <e><p><l>ticaret<s n="n"/></l><r>коммерция<s n="n"/></r></p></e>
@@ -8040,7 +8042,7 @@
        <e><p><l>vaftiz<s n="n"/></l><r>чөмүлүү<s n="n"/></r></p></e>
        <e><p><l>vaftiz<s n="n"/></l><r>чөмүлдүрүү<s n="n"/></r></p></e>
        <e><p><l>güvey<s n="n"/></l><r>күйөө<s n="n"/></r></p></e>
-       <e><p><l>İsrail<s n="np"/><s n="top"/></l><r>Ысрайыл<s n="np"/><s n="top"/></r></p></e>
+       <e><p><l>İsrail<s n="np"/><s n="top"/></l><r>Ысрайыл<s n="n"/></r></p></e>
        <e><p><l>Yeruşalem<s n="np"/><s n="top"/></l><r>Иерусалим<s n="np"/><s n="top"/></r></p></e>
        <e><p><l>Nasıra<s n="np"/><s n="top"/></l><r>Назарет<s n="np"/><s n="top"/></r></p></e>
        <e><p><l>Celile<s n="np"/><s n="top"/></l><r>Галилея<s n="np"/><s n="top"/></r></p></e>
@@ -8050,8 +8052,8 @@
        <e><p><l>aniden<s n="adv"/></l><r>аңгыча<s n="adv"/></r></p></e>
        <e><p><l>hatta<s n="adv"/></l><r>тургай<s n="adv"/></r></p></e>
        <e><p><l>tam<s n="adv"/></l><r>дал<s n="adv"/></r></p></e>
-       <e><p><l>bu<b/>yüzden<s n="adv"/></l><r>ошон<s n="adv"/></r></p></e>
-       <e><p><l>yine<b/>de<s n="adv"/></l><r>ошого<s n="adv"/></r></p></e>
+       <e><p><l>bu<b/>yüzden<s n="adv"/></l><r>ошон<s n="det"/><s n="dem"/></r></p></e>
+       <e><p><l>yine<b/>de<s n="adv"/></l><r>ошол<s n="det"/><s n="dem"/></r></p></e>
        <e><p><l>gerçekten<s n="adv"/></l><r>чындап<s n="adv"/></r></p></e>
        <e><p><l>nasıl<s n="adv"/></l><r>кантип<s n="adv"/></r></p></e>
        <e><p><l>anında<s n="adv"/></l><r>замат<s n="adv"/></r></p></e>
