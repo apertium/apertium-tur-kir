@@ -15,33 +15,8 @@
       <program name="lrx-proc -m">
         <file name="tur-kir.autolex.bin"/>
       </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-tur-kir.tur-kir.t0x"/>
-        <file name="tur-kir.t0x.bin"/>
-      </program>
-      <program name="apertium-transfer -n">
-        <file name="apertium-tur-kir.tur-kir.t1x"/>
-        <file name="tur-kir.t1x.bin"/>
-      </program>
-      <program name="apertium-transfer -n">
-        <file name="apertium-tur-kir.tur-kir.t2x"/>
-        <file name="tur-kir.t2x.bin"/>
-      </program>
-      <program name="apertium-transfer -n">
-        <file name="apertium-tur-kir.tur-kir.t3x"/>
-        <file name="tur-kir.t3x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-tur-kir.tur-kir.t4x"/>
-        <file name="tur-kir.t4x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-tur-kir.tur-kir.t5x"/>
-        <file name="tur-kir.t5x.bin"/>
-      </program>
-      <program name="apertium-transfer -n">
-        <file name="apertium-tur-kir.tur-kir.t6x"/>
-        <file name="tur-kir.t6x.bin"/>
+      <program name="rtx-proc">
+        <file name="tur-kir.rtx.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="tur-kir.autogen.bin"/>
@@ -424,13 +399,8 @@
       <program name="lrx-proc -m">
         <file name="kir-tur.autolex.bin"/>
       </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-tur-kir.kir-tur.t1x"/>
-        <file name="kir-tur.t1x.bin"/>
-      </program>
-      <program name="apertium-transfer -n">
-        <file name="apertium-tur-kir.kir-tur.t2x"/>
-        <file name="kir-tur.t2x.bin"/>
+      <program name="rtx-proc">
+        <file name="kir-tur.rtx.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="kir-tur.autogen.bin"/>
