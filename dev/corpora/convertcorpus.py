@@ -20,7 +20,7 @@ files = os.listdir('.')
 ##root = etree.parse(f).getroot()
 ##etree.SubElement(root, "entry", id="whatever").text = "TIS IS MY CONTENT"
 ##etree(root).write(f)
-#root = etree.Element("corpus", xmlns="http://apertium.org/xml/corpus/0.9", language="ky", name="Kyrgyz News Corpus")
+#root = etree.Element("corpus", xmlns="https://apertium.org/xml/corpus/0.9", language="ky", name="Kyrgyz News Corpus")
 
 #tree = etree.parse(f)
 #root = tree.getroot()
@@ -41,12 +41,12 @@ def populateIds(which, root):
 	if which not in ids:
 		ids[which] = []
 	
-		for item in root.iter("{http://apertium.org/xml/corpus/0.9}entry"):
+		for item in root.iter("{https://apertium.org/xml/corpus/0.9}entry"):
 			ids[which] += [item.attrib['id']]
 
 def idInTree(id, which):
 	global ids
-	#for item in root.iter("{http://apertium.org/xml/corpus/0.9}entry"):
+	#for item in root.iter("{https://apertium.org/xml/corpus/0.9}entry"):
 	#	print(item.attrib['id'])
 	#	if item.attrib['id'] == id:
 	if id in ids[which]:
@@ -65,7 +65,7 @@ def addToCorpus(which, id, title, timestamp, content, url=None):
 	if os.path.isfile(outfile):
 		root = etree.parse(outfile).getroot()
 	else:
-		root = etree.Element("corpus", xmlns="http://apertium.org/xml/corpus/0.9", language="ky", name=corpusNames[which])
+		root = etree.Element("corpus", xmlns="https://apertium.org/xml/corpus/0.9", language="ky", name=corpusNames[which])
 	populateIds(which, root)
 
 	##source=which

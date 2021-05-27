@@ -20,7 +20,7 @@ for fn in files:
 	if xmlFile.match(fn):
 		print("Adding content from "+fn)
 		root = etree.parse(fn).getroot()
-		for item in root.getiterator("{http://apertium.org/xml/corpus/0.9}entry"):
+		for item in root.getiterator("{https://apertium.org/xml/corpus/0.9}entry"):
 			output.write(item.attrib['title']+'\n'+item.text+'\n\n')
 
 output.close()

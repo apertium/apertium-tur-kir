@@ -129,7 +129,7 @@ class Source(object):
 		self.ids = []
 		sys.stdout.write("\rPopulating ids.")
 		sys.stdout.flush()
-		for item in self.root.getiterator("{http://apertium.org/xml/corpus/0.9}entry"):
+		for item in self.root.getiterator("{https://apertium.org/xml/corpus/0.9}entry"):
 			self.ids += [item.attrib['id']]
 		sys.stdout.write(".\n")
 		sys.stdout.flush()
@@ -148,7 +148,7 @@ class Source(object):
 			if os.path.isfile(self.path):
 				self.root = etree.parse(self.path).getroot()
 			else:
-				self.root = etree.Element("corpus", xmlns="http://apertium.org/xml/corpus/0.9", language=lang, name=self.scraper.prefix)
+				self.root = etree.Element("corpus", xmlns="https://apertium.org/xml/corpus/0.9", language=lang, name=self.scraper.prefix)
 		else:
 			self.root = root
 		if not ids:
