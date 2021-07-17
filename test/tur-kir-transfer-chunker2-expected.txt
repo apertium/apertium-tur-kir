@@ -1,0 +1,26 @@
+[15jHKEotLW5a#0] ^бар<v><iv><ger_past><loc>$
+[/15jHKEotLW5a]
+[201pwtQG9qgy#0] ^бар<v><iv><prc_impf>$ ^ал<v><tv><aor><p1><sg>$
+[/201pwtQG9qgy]
+[3by5_ZowFPek#0] ^Мен<prn><pers><p1><sg><nom>$ ^бар<v><iv><prc_perf>$ ^э<cop><ifi><p1><sg>$^.<sent>$
+[/3by5_ZowFPek]
+[DVjoudWgb7_Z#0] ^көр<v><tv><neg><ger_inf><nom>$ ^э<cop><aor><p3><sg>$ ^каала<v><tv><prog><aor><p1><sg>$
+[/DVjoudWgb7_Z]
+[H3j_k30zcWQj#0] ^бар<v><iv><ger_past><px1sg><acc>$
+[/H3j_k30zcWQj]
+[H6TRE-SdjAiZ#0] ^көр<v><tv><ger_inf><nom>$ ^э<cop><aor><p3><sg>$ ^каала<v><tv><ifi><p1><sg>$
+[/H6TRE-SdjAiZ]
+[Othu8VfW6hUN#0] ^Мен<prn><pers><p1><sg><nom>$ ^бар<v><iv><prog><dub><aor><p1><sg>$^.<sent>$
+[/Othu8VfW6hUN]
+[PgjBKxNIVAft#0] ^Мен<prn><pers><p1><sg><nom>$ ^бар<v><iv><prog><prc_cond><p1><sg>$^.<sent>$
+[/PgjBKxNIVAft]
+[_H-gpZc3-8QB#0] ^*gidemezsem$
+[/_H-gpZc3-8QB]
+[_zy3QHV__8CZ#0] ^бар<v><iv><prc_impf>$ ^ал<v><tv><neg><aor><p1><sg>$
+[/_zy3QHV__8CZ]
+[bFX0z8eguowi#0] ^кет<v><iv><prc_impf>$ ^ал<v><tv><ifi><p1><sg>$
+[/bFX0z8eguowi]
+[uNQJHVphwwzH#0] ^көр<v><tv><ger_inf><nom>$ ^э<cop><aor><p3><sg>$ ^каала<v><tv><neg><prog><aor><p1><sg>$
+[/uNQJHVphwwzH]
+[x6_9LTNYKtJo#0] ^Тарт<v><tv><pcond><p1><sg>$
+[/x6_9LTNYKtJo]

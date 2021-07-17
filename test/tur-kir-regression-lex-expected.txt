@@ -1,0 +1,106 @@
+[-6Fg4pPgPh3E#0] ^Bira<n><px1sg><nom>/Сыра<n><px1sg><nom>$ ^yok<adj>/жок<adj>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^.<sent>/.<sent>$
+[/-6Fg4pPgPh3E]
+[-D8tXi1Ji9hv#0] ^Hayat<n><abl>/Жашоо<n><abl>$ ^iste<v><tv><gpr_past><px1sg>/каала<v><tv><gpr_past><px1sg>$ ^şey<n><nom>/нерсе<n><nom>$ ^bu<prn><dem><nom>/бул<prn><dem><nom>$ ^mı<qst>/бы<qst>$^?<sent>/?<sent>$
+[/-D8tXi1Ji9hv]
+[-VbUeaeA4o-P#0] ^Oku<v><tv><ger_inf><nom>/Оку<v><tv><ger_inf><nom>$ ^değil<adj>/@değil<adj>$ ^anla<v><tv><ger_inf><nom>/түшүн<v><tv><ger_inf><nom>$ ^zor<adj>/оор<adj>/кыйын<adj>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^.<sent>/.<sent>$
+[/-VbUeaeA4o-P]
+[0ktqiVXHJ3iG#0] ^Okul<n><nom>/Мектеп<n><nom>$ ^i<cop><aor><p3><pl>/э<cop><aor><p3><pl>$^.<sent>/.<sent>$
+[/0ktqiVXHJ3iG]
+[0lkO4jp2i1cj#0] ^Hayat<n><loc><attr>/Жашоо<n><loc><attr>$ ^son<adj>/акыркы<adj>$ ^ders<n><px3sp><nom>/сабак<n><px3sp><nom>$^,<cm>/,<cm>$ ^"<quot>/"<quot>$^kendi<prn><ref><nom>/өз<prn><ref><nom>$ ^ölüm<n><px3sp><nom>/өлүм<n><px3sp><nom>$^"<quot>/"<quot>$ ^ol<v><iv><fut><dub>/бол<v><iv><fut><dub>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^.<sent>/.<sent>$
+[/0lkO4jp2i1cj]
+[3by5_ZowFPek#0] ^Ben<prn><pers><p1><sg><nom>/Мен<prn><pers><p1><sg><nom>$ ^git<v><iv><prog>/бар<v><iv><prog>$ ^i<cop><ifi><p1><sg>/э<cop><ifi><p1><sg>$^.<sent>/.<sent>$
+[/3by5_ZowFPek]
+[7xQ1271S_16Z#0] ^Haber<n><acc><@obj>/Кабар<n><acc><@obj>$ ^al<v><tv><ger_past><px3sp><nom>/ал<v><tv><ger_past><px3sp><nom>$ ^gibi<adj>/сымал<adj>$ ^yol<n><dat>/жол<n><dat>/ыкма<n><dat>$ ^çık<v><iv><ifi><p3><sg>/чык<v><iv><ifi><p3><sg>$^.<sent>/.<sent>$
+[/7xQ1271S_16Z]
+[8SrKPn246aI7#0] ^En<adv>/Эң<adv>$ ^güzel<adj>/сулуу<adj>$ ^kız<n><attr>/кыз<n><attr>$ ^ev<n><px1sg><dat>/үй<n><px1sg><dat>$ ^gel<v><iv><ifi><p3><sg>/кел<v><iv><ifi><p3><sg>$^.<sent>/.<sent>$
+[/8SrKPn246aI7]
+[8t1Qn5RbPQDv#0] ^Herkes<prn><qnt><nom>/Ар ким<prn><ind><nom>/Бардыгы<prn><qnt><nom>$ ^öl<v><iv><gpr_fut><subst><px3sp><acc>/өл<v><iv><gpr_fut><subst><px3sp><acc>$ ^bil<v><tv><aor>/бил<v><tv><aor>$^,<cm>/,<cm>$ ^ama<cnjcoo>/бирок<cnjcoo>$ ^kimse<prn><qnt><nom>/кимдир бирөө<prn><ind><nom>$ ^bu<prn><dem><dat>/бул<prn><dem><dat>$ ^inan<v><tv><prc>/ишен<v><tv><prc>$ ^iste<v><tv><neg><aor>/каала<v><tv><neg><aor>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^.<sent>/.<sent>$
+[/8t1Qn5RbPQDv]
+[9Ety0Xmiajn0#0] ^Bu<prn><dem><nom>/Бул<prn><dem><nom>$ ^gibi<adj>/сымал<adj>$ ^iş<n><pl><px3sp><nom>/иш<n><pl><px3sp><nom>$ ^ben<prn><pers><p1><sg><dat>/мен<prn><pers><p1><sg><dat>$ ^söyle<v><tv><nec>/айт<v><tv><nec>$ ^i<cop><aor><p2><sg>/э<cop><aor><p2><sg>$^.<sent>/.<sent>$
+[/9Ety0Xmiajn0]
+[9P4MuzjTINtj#0] ^Bu<prn><dem><pl><nom>/Бул<prn><dem><pl><nom>$ ^ben<prn><pers><p1><sg><gen>/мен<prn><pers><p1><sg><gen>$ ^kitap<n><pl><nom>/китеп<n><pl><nom>$ ^i<cop><aor><p1><sg>/э<cop><aor><p1><sg>$^.<sent>/.<sent>$
+[/9P4MuzjTINtj]
+[AEtWHqtIgO2_#0] ^Başla<v><iv><fut>/@Başla<v><iv><fut>$ ^i<cop><aor><p1><sg>/э<cop><aor><p1><sg>$
+[/AEtWHqtIgO2_]
+[AvxPlFBn1QH6#0] ^git<v><iv><pot>/бар<v><iv><pot>$ ^i<cop><aor><p2><sg>/э<cop><aor><p2><sg>$
+[/AvxPlFBn1QH6]
+[Dy6GExKyHdjY#0] ^Uçak<n><dat>/Учак<n><dat>$ ^böyle<adj>/ушундай<adj>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$ ^bin<v><iv><pass><aor>/@bin<v><iv><pass><aor>$
+[/Dy6GExKyHdjY]
+[FesSnLY1eqnq#0] ^Deprem<adj>/@Deprem<adj>$ ^önce<n><abl>/@önce<n><abl>$ ^bilin<v><iv><aor>/@bilin<v><iv><aor>$ ^mı<qst>/бы<qst>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^?<sent>/?<sent>$
+[/FesSnLY1eqnq]
+[HL-e_HZvde3U#0] ^Bu<prn><dem><nom>/Бул<prn><dem><nom>$ ^elma<n><attr>/алма<n><attr>$ ^değil<adj>/@değil<adj>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^.<sent>/.<sent>$
+[/HL-e_HZvde3U]
+[HtjuOIS786YN#0] ^Ay<n><nom>/Ай<n><nom>$^'<apos>/'<apos>$^*a/*a$ ^gerçek<n><abl>/факт<n><abl>$ ^git<v><iv><pass><ifi><p3><sg>/кет<v><iv><pass><ifi><p3><sg>$ ^mı<qst>/бы<qst>$^?<sent>/?<sent>$
+[/HtjuOIS786YN]
+[IZmGr2CVRK2F#0] ^Uçak<n><attr>/Учак<n><attr>$ ^saat<n><attr>/саат<n><attr>$ ^5<num><subst><loc>/5<num><subst><loc>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$ ^bin<v><iv><pass><aor>/@bin<v><iv><pass><aor>$
+[/IZmGr2CVRK2F]
+[Jta9O6VreI9v#0] ^gitme<n>/@gitme<n>$ ^lı<post><p2><sg>/@lı<post><p2><sg>$
+[/Jta9O6VreI9v]
+[OBQWofdoP2Hu#0] ^Üniversite<n><attr>/Университет<n><attr>$ ^idare<n><px3sp><nom>/башкаруу<n><px3sp><nom>$ ^de<cnjcoo>/@de<cnjcoo>$ ^aynı<det><dem>/бирдей<det><ind>$ ^bölge<n><loc>/аймак<n><loc>/аянт<n><loc>/район<n><loc>/округуна<n><loc>$ ^yer al<v><iv><prog>/ээле<v><tv><prog>$ ^i<cop><ifi><p3><sg>/э<cop><ifi><p3><sg>$^.<sent>/.<sent>$
+[/OBQWofdoP2Hu]
+[Othu8VfW6hUN#0] ^Ben<prn><pers><p1><sg><nom>/Мен<prn><pers><p1><sg><nom>$ ^git<v><iv><prog><dub>/бар<v><iv><prog><dub>$ ^i<cop><aor><p1><sg>/э<cop><aor><p1><sg>$^.<sent>/.<sent>$
+[/Othu8VfW6hUN]
+[PCbST2n3QYC9#0] ^En<adv>/Эң<adv>$ ^sev<v><tv><gpr_past><px2sg>/сүй<v><tv><gpr_past><px2sg>$ ^şey<n><pl><nom>/нерсе<n><pl><nom>$ ^ne<prn><itg><nom>/эмне<prn><itg><nom>$ ^i<cop><aor><p3><sg><gm>/э<cop><aor><p3><sg><gm>$^?<sent>/?<sent>$
+[/PCbST2n3QYC9]
+[PfEm3DUiD8Fa#0] ^Hazır<adj>/Даяр<adj>$ ^mı<qst>/бы<qst>$ ^i<cop><aor><p1><sg>/э<cop><aor><p1><sg>$^?<sent>/?<sent>$
+[/PfEm3DUiD8Fa]
+[PgjBKxNIVAft#0] ^Ben<prn><pers><p1><sg><nom>/Мен<prn><pers><p1><sg><nom>$ ^git<v><iv><prog>/бар<v><iv><prog>$ ^i<cop><cond><p1><sg>/э<cop><cond><p1><sg>$^.<sent>/.<sent>$
+[/PgjBKxNIVAft]
+[Q7MFN9ViBb8g#0] ^Iki<prn><qnt><nom>/@Iki<prn><qnt><nom>$ ^bira<n><px1sg><nom>/сыра<n><px1sg><nom>$ ^var<adj>/бар<adj>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^.<sent>/.<sent>$
+[/Q7MFN9ViBb8g]
+[QhSz-vkyYOpa#0] ^Git<v><iv><ger_pabs><px1sg><nom>/Бар<v><iv><ger_pabs><px1sg><nom>$
+[/QhSz-vkyYOpa]
+[R-CPRn-u-GxT#0] ^Bu<prn><dem><acc>/Бул<prn><dem><acc>$ ^sev<v><tv><neg><ifi><p1><sg>/сүй<v><tv><neg><ifi><p1><sg>$^.<sent>/.<sent>$
+[/R-CPRn-u-GxT]
+[R2vLS2A2cR2_#0] ^Sen<prn><pers><p2><sg><acc>/Сен<prn><pers><p2><sg><acc>$ ^gör<v><tv><neg><prc>/көр<v><tv><neg><prc>$ ^iste<v><tv><ifi><p1><sg>/каала<v><tv><ifi><p1><sg>$^.<sent>/.<sent>$
+[/R2vLS2A2cR2_]
+[S7qDM1AjBz8t#0] ^*Gay/*Gay$ ^bar<n><dat>/бар<n><dat>$ ^git<v><iv><prog>/бар<v><iv><prog>$ ^i<cop><cond><p1><sg>/э<cop><cond><p1><sg>$ ^kim<prn><itg><dat>/ким<prn><itg><dat>$ ^ne<prn><itg><nom>/эмне<prn><itg><nom>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^?<sent>/?<sent>$
+[/S7qDM1AjBz8t]
+[SL-JrJ0YDn4w#0] ^Kova<n><ins>/Чака<n><ins>$ ^bira<n><attr>/сыра<n><attr>$ ^iç<v><iv><ger_aor><px1sg><nom>/@iç<v><iv><ger_aor><px1sg><nom>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^,<cm>/,<cm>$ ^ama<cnjcoo>/бирок<cnjcoo>$ ^sen<prn><pers><p2><sg><nom>/сен<prn><pers><p2><sg><nom>$ ^bil<v><tv><neg><aor>/бил<v><tv><neg><aor>$ ^i<cop><aor><p2><sg>/э<cop><aor><p2><sg>$^.<sent>/.<sent>$ ^Yarın<adv>/Эртең<adv>$ ^gel<v><iv><aor>/кел<v><iv><aor>$ ^mı<qst>/бы<qst>$ ^i<cop><aor><p2><sg>/э<cop><aor><p2><sg>$^?<sent>/?<sent>$
+[/SL-JrJ0YDn4w]
+[SUjDZ8i8rDqL#0] ^Kimse<prn><qnt><nom>/Кимдир бирөө<prn><ind><nom>$ ^bu<prn><dem><dat>/бул<prn><dem><dat>$ ^inan<v><tv><prc>/ишен<v><tv><prc>$ ^iste<v><tv><neg><aor>/каала<v><tv><neg><aor>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^.<sent>/.<sent>$
+[/SUjDZ8i8rDqL]
+[SwkU2xJOLImb#0] ^Ben<prn><pers><p1><sg><nom>/Мен<prn><pers><p1><sg><nom>$ ^bu<prn><dem><nom>/бул<prn><dem><nom>$ ^kitap<n><acc><@obj>/китеп<n><acc><@obj>$ ^oku<v><tv><past>/оку<v><tv><past>$ ^i<cop><ifi><p1><sg>/э<cop><ifi><p1><sg>$^.<sent>/.<sent>$
+[/SwkU2xJOLImb]
+[VnEeSohFVCH3#0] ^*Senmi/*Senmi$ ^gel<v><iv><ifi><p2><sg>/кел<v><iv><ifi><p2><sg>$^?<sent>/?<sent>$
+[/VnEeSohFVCH3]
+[Vzb6FN5Ln5rf#0] ^60<num><abstr>/60<num><abstr>$ ^vücud<n><px3sp><nom>/дене<n><px3sp><nom>$ ^artık<adj>/@artık<adj>$ ^dans<n><attr>/бий<n><attr>$ ^ders<n><pl><px3sp><acc><@obj>/сабак<n><pl><px3sp><acc><@obj>$ ^kaldır<v><tv><abil><neg><fut>/@kaldır<v><tv><abil><neg><fut>$ ^kadar<adv>/@kadar<adv>$ ^bitkinleş<v><iv><past>/чарча<v><iv><past>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^.<sent>/.<sent>$
+[/Vzb6FN5Ln5rf]
+[YJ5kgMeMbERZ#0] ^oku<v><tv><neg><nec>/оку<v><tv><neg><nec>$
+[/YJ5kgMeMbERZ]
+[Yaod7QSsPyUx#0] ^Londra<np><top><dat>/Лондон<np><top><dat>$ ^nasıl<adv><itg>/кандай<adv><itg>$ ^git<v><iv><pass><aor>/бар<v><iv><pass><aor>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^?<sent>/?<sent>$
+[/Yaod7QSsPyUx]
+[ZEFYWmRBn3CY#0] ^Bira<n><px1sg><nom>/Сыра<n><px1sg><nom>$ ^var<adj>/бар<adj>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^.<sent>/.<sent>$
+[/ZEFYWmRBn3CY]
+[ZKc80A0JplYy#0] ^Yat<v><iv><gna_impf>/Жат<v><iv><gna_impf>$ ^Kur<v><tv><ger_impf><nom>/Кур<v><tv><ger_impf><nom>/Кура<v><tv><ger_impf><nom>$ ^dinle<v><tv><pass><aor>/ук<v><tv><pass><aor>$ ^mı<qst>/бы<qst>$^?<sent>/?<sent>$
+[/ZKc80A0JplYy]
+[awIvOjD_pRsJ#0] ^Bu<prn><dem><nom>/Бул<prn><dem><nom>$ ^bir<det><ind>/бир<det><ind>$ ^ev<n><nom>/үй<n><nom>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^.<sent>/.<sent>$
+[/awIvOjD_pRsJ]
+[dUZwAo1it6_8#0] ^Inan<v><tv><prc>/Ишен<v><tv><prc>$ ^iste<v><tv><neg><prog>/каала<v><tv><neg><prog>$ ^i<cop><aor><p1><sg>/э<cop><aor><p1><sg>$^.<sent>/.<sent>$
+[/dUZwAo1it6_8]
+[eTIr-IwlztsI#0] ^Böyle<adj><subst><sim>/Ушундай<adj><subst><sim>$ ^ilişki<n><px1pl><acc><@obj>/катнаш<n><px1pl><acc><@obj>$ ^aile<n><pl><px1pl><abl>/үй бүлөө<n><pl><px1pl><abl>$ ^saklı<adj>/жашыруун<adj>$ ^tut<v><tv><ifi><p1><pl>/карма<v><tv><ifi><p1><pl>$^.<sent>/.<sent>$
+[/eTIr-IwlztsI]
+[eUpezDjUTkEO#0] ^Siz<prn><pers><p2><pl><dat>/Сиз<prn><pers><p2><pl><dat>/Силер<prn><pers><p2><pl><dat>$ ^son<adj>/акыркы<adj>$ ^kez<n><attr>/кезек<n><attr>$ ^bir<det><ind>/бир<det><ind>$ ^soru<n><nom><@obj>/суроо<n><nom><@obj>$ ^sor<v><tv><prog>/сура<v><tv><prog>$ ^i<cop><aor><p1><sg>/э<cop><aor><p1><sg>$^.<sent>/.<sent>$
+[/eUpezDjUTkEO]
+[foLUXqOuxSSL#0] ^okuma<n><dat>/@okuma<n><dat>$
+[/foLUXqOuxSSL]
+[kKEo68b3NKbY#0] ^Köprü<n><abl>/Көпүрө<n><abl>$ ^antik<adj>/@antik<adj>$ ^bir<det><ind>/бир<det><ind>$ ^kent<n><dat>/шаар<n><dat>$ ^git<v><iv><pass><prog>/бар<v><iv><pass><prog>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^.<sent>/.<sent>$
+[/kKEo68b3NKbY]
+[mLc4qtADqR9I#0] ^Hayat<n><px1sg><loc>/Жашоо<n><px1sg><loc>$ ^uçak<n><dat>/учак<n><dat>$ ^bin<v><iv><neg><past>/@bin<v><iv><neg><past>$ ^i<cop><ifi><p1><sg>/э<cop><ifi><p1><sg>$^.<sent>/.<sent>$
+[/mLc4qtADqR9I]
+[mUwESdrnMaZm#0] ^Kendi<prn><ref><px1sg><acc>/Өз<prn><ref><px1sg><acc>$ ^bırak<v><tv><gna_perf>/ташта<v><tv><gna_perf>$ ^yok ol<v><iv><ger><acc>/@yok ol<v><iv><ger><acc>$ ^mı<qst>/бы<qst>$ ^bekle<v><tv><imp><p1><sg>/күт<v><tv><imp><p1><sg>$^?<sent>/?<sent>$
+[/mUwESdrnMaZm]
+[ofnlbS7tND4c#0] ^Her şey<prn><qnt><nom>/@Her şey<prn><qnt><nom>$ ^sen<prn><pers><p2><sg><ins>/сен<prn><pers><p2><sg><ins>$ ^başla<v><iv><aor>/@başla<v><iv><aor>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^.<sent>/.<sent>$
+[/ofnlbS7tND4c]
+[p9HvRRqEfpgy#0] ^Oku<v><tv><ger_inf><nom>/Оку<v><tv><ger_inf><nom>$ ^için<post>/үчүн<post>/себептүү<post>$ ^al<adj>/кызыл-кырман<adj>$ ^i<cop><ifi><p1><sg>/э<cop><ifi><p1><sg>$^.<sent>/.<sent>$
+[/p9HvRRqEfpgy]
+[pUDdN_1aFhpe#0] ^Ahmet<np><ant><m><nom>/Ахмет<np><ant><m><nom>$ ^okul<n><dat>/мектеп<n><dat>$ ^git<v><iv><ifi><p3><sg>/кет<v><iv><ifi><p3><sg>$^.<sent>/.<sent>$
+[/pUDdN_1aFhpe]
+[qLKFdIdT-Q9B#0] ^Herkes<prn><qnt><acc>/Ар ким<prn><ind><acc>/Бардыгы<prn><qnt><acc>$ ^şaşırt<v><tv><fut>/@şaşırt<v><tv><fut>$ ^kadar<adv>/@kadar<adv>$ ^sade<adj>/@sade<adj>$ ^bir<det><ind>/бир<det><ind>$ ^cevap<n><nom><@obj>/жооп<n><nom><@obj>$ ^ver<v><tv><prog>/бер<v><tv><prog>/ыйгар<v><tv><prog>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^.<sent>/.<sent>$
+[/qLKFdIdT-Q9B]
+[t7D3baQsWqnH#0] ^Ben<prn><pers><p1><sg><nom>/Мен<prn><pers><p1><sg><nom>$ ^yap<v><tv><neg><ifi><p1><sg>/кыл<v><tv><neg><ifi><p1><sg>/жаса<v><tv><neg><ifi><p1><sg>$ ^ki<cnjadv>/да<cnjadv>/эле<postadv>$^.<sent>/.<sent>$
+[/t7D3baQsWqnH]
+[x6_9LTNYKtJo#0] ^Çek<v><tv><aor>/Тарт<v><tv><aor>$ ^i<cop><ifi><p1><sg>/э<cop><ifi><p1><sg>$
+[/x6_9LTNYKtJo]
+[xU2Rl5i0bzWo#0] ^Okul<n><nom>/Мектеп<n><nom>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$^.<sent>/.<sent>$
+[/xU2Rl5i0bzWo]

@@ -1,0 +1,64 @@
+[3gyaKxVPlBtB#0] ~^Дүйнө<n><gen>$ ^эң<adv>$ ~^сулуу<adj>$ ~^кыз<n><px3sp><nom>$ ~^үй<n><px1sg><dat>$ ~^кел<v><iv><ifi><p3><sg>$^.<sent>$
+[/3gyaKxVPlBtB]
+[4SC01ZJ-GP6k#0] ~^Ал<prn><dem><nom>$ ^@hiçbir zaman<adv>$ ~^апа<n><px3sp><acc><@obj>$ ~^ойлон<v><tv><neg><prc_perf>$ ^да<cnjadv>$^.<sent>$
+[/4SC01ZJ-GP6k]
+[6cfPDkhHYr7Y#0] ^*Nurdin$ ~^алыс<adj>$ ~^бир<det><ind>$ ~^жер<n><dat>$ ~^кара<v><iv><gna_perf>$^,<cm>$ ^@düşünceli<adj>+э<cop><aor><p3><sg>$^.<sent>$
+[/6cfPDkhHYr7Y]
+[6h5VzZoDLi7B#0] ~^Пальто<n><px3sp><gen>$ ~^жака<n><px3sp><acc><@obj>$ ~^@kaldır<v><tv><gna_perf>$ ~^@ağa<n><sim>$ ^сүйөн<v><tv><pass><ger_past><nom>+э<cop><aor><p3><sg>$^.<sent>$
+[/6h5VzZoDLi7B]
+[AQgD-4drI2XU#0] ~^@Hiç<prn><qnt><nom>$ ~^бир<det><ind>$ ~^нерсе<n><nom>$ ~^айт<v><tv><neg><ifi><p3><sg>$ ^да<cnjadv>$ ^*küzeyim$^.<sent>$
+[/AQgD-4drI2XU]
+[BaTFfZ6ahAwq#0] ~^Мен<prn><pers><p1><sg><dat>$ ~^жооп<n><attr>$ ^бер<v><tv><prc_perf>+бы<qst>$ ^да<cnjadv>$^.<sent>$
+[/BaTFfZ6ahAwq]
+[FNcWCdcYz-bo#0] ~^Ал<prn><dem><nom>$ ^*geleli$ ~^көп<adj>$ ~^бол<v><iv><ifi><p3><sg>$^.<sent>$
+[/FNcWCdcYz-bo]
+[JfovsefAVws1#0] ~^@Osmanlı<n><nom>$ ~^Сарай<n><acc><@obj>$ ~^бул<prn><dem><nom>$ ~^талап<n><acc><@obj>$ ~^кабыл<n><nom><@obj>$ ~^кыл<v><tv><ger_past><loc>$^,<cm>$ ^бир<num>$ ^*papazlık$ ~^бир<num><coll><px1sg><acc>$ ~^бирдей<det><ind>$ ~^жыл<n><attr>$ ~^ич<n><px3sp><loc>$ ~^кур<v><tv><pass><past><p3><sg>$^.<sent>$
+[/JfovsefAVws1]
+[O6eeU_jb4Sin#0] ~^Биз<prn><pers><p1><pl><dat>$ ~^ошондой<adj>$ ~^бир<det><ind>$ ~^же<v><tv><ger_inf><pl><nom>$ ~^кыл<v><tv><ifi><p3><sg>$ ^да<cnjadv>$^.<sent>$
+[/O6eeU_jb4Sin]
+[Pa-62HzuNyPi#0] ~^Сөз<n><attr>$ ~^тема<n><px3sp><nom>$ ^*olumsuzlukların$ ~^көр<v><tv><gpr_fut><neg><subst><abl>$ ~^кел<v><iv><prc_cond><p3><sg>$ ~^бол<v><iv><ger><px3sp><gen>$ ^@yoksulluk<n><nom>+э<cop><aor><p3><sg>$^.<sent>$
+[/Pa-62HzuNyPi]
+[RbDFvuBRHDhj#0] ~^Ал<prn><dem><pl><nom>$ ~^оку<v><tv><ger_pres><nom>$ ~^э<cop><gna_ken>$ ~^сен<prn><pers><p2><sg><nom>$ ~^ойно<v><tv><prc_perf>$ ~^жат<vaux><aor><p2><sg>$^.<sent>$
+[/RbDFvuBRHDhj]
+[Uhtx5jVLlu_L#0] ^8<num>$ ~^жаш<n><px3sp><loc><attr>$ ~^@Makedon<adj>$ ~^бир<det><ind>$ ~^бала<n><gen>$ ~^кыл<v><tv><gpr_past><subst><px3sp><nom>$ ~^сүрөттө<v><tv><prc_perf>$^,<cm>$ ~^@tüm<det><dem>$ ~^дүйнө<n><gen>$ ~^алака<n><px3sp><acc><@obj>$ ~^тарт<v><tv><prc_perf>$ ~^жат<vaux><aor><p3><sg>$^.<sent>$
+[/Uhtx5jVLlu_L]
+[WaQhsMzyTZPG#0] ^Беш<num>$ ^менен<cnjcoo>$ ^он<num>$ ^ара<n><px3sp><nom>+э<cop><aor><p3><sg>$^.<sent>$
+[/WaQhsMzyTZPG]
+[Wi7V9kiEQRWz#0] ~^Ошондой<adj>$ ~^чурка<v><iv><prc_perf>$ ^да<cnjadv>$ ^@arkasından<adv>$ ~^шамал<n><nom>$ ~^жетиш<v><iv><neg><aor><p3><sg>$^.<sent>$
+[/Wi7V9kiEQRWz]
+[WvUWcrf2XLYC#0] ~^Ук<v><tv><ifi><p1><sg>$ ^да<cnjadv>$ ~^сат<v><tv><pass><past><p3><sg>$^.<sent>$
+[/WvUWcrf2XLYC]
+[X-XNrSir9bO2#0] ~^Апа<n><px1sg><nom>$ ~^тер<v><tv><ifi><p3><sg>$ ^да<cnjadv>$ ^"<quot>$~^сиз<prn><pers><p2><pl><nom>$ ^@de<cnjcoo>$ ~^өс<v><iv><aor><p2><frm><pl>$ ~^адам<n><nom>$ ~^бол<v><iv><aor><p2><frm><pl>$^"<quot>$^.<sent>$
+[/X-XNrSir9bO2]
+[YV62U3qC-z8b#0] ^Мисалы<cnjadv>$ ~^Черногория<np><top><loc>$ ~^ысым<n><nom><@obj>$ ~^бер<v><tv><gna_neg>$ ^*HIV$ ~^тест<n><acc><@obj>$ ~^@yaptır<v><tv><ger_inf><nom>$ ~^@imkan<n>$ ^@sız<post>$^,<cm>$ ~^линия<n><loc>$ ^@yasadışı<adj>+э<cop><aor><p3><sg>$^.<sent>$
+[/YV62U3qC-z8b]
+[ZizHDZ63xJLm#0] ~^Ушундай<adj><subst><sim>$ ~^пенсионер<n><pl><px2sg><nom>$ ~^@emekli<adj>$ ~^маяна<n><pl><px3sp><acc><@obj>$ ~^ким<prn><itg><gen>$ ~^төлө<v><tv><gpr_fut><px3sp>$ ~^сарсанаа<n><px3sp><acc><@obj>$ ^*yaşamaksızın$ ~^үй<n><pl><px3sp><dat>$ ^артка<adv>$ ~^@dön<v><tv><prc_impf>$ ~^ал<v><tv><ger><px3sp><nom>$ ~^багытта<v><tv><pass><past><p3><sg>$^.<sent>$
+[/ZizHDZ63xJLm]
+[axcRUjPGGyXL#0] ~^Жай<n><attr>$ ~^каникул<n><px3sp><loc>$ ~^ал<v><tv><ger_past><px1pl><nom>$ ~^кордо<v><tv><ger_pres><nom>$ ~^эскер<v><tv><caus><ger_past><loc>$ ~^@mektuplaş<v><iv><neg><ifi><p1><pl>$^.<sent>$
+[/axcRUjPGGyXL]
+[bsUqSjKWZEPL#0] ~^Сен<prn><pers><p2><sg><nom>$ ~^@yüz<v><iv><ger_pres><nom>$ ~^э<cop><gna_ken>$ ~^алма<n><attr>$ ^жети<num><subst><px1sg><nom>+э<cop><aor><p3><sg>$^.<sent>$
+[/bsUqSjKWZEPL]
+[c3qWuDOfxKCe#0] ~^@Asıl<adj>$ ~^сура<v><tv><imp><p2><frm><pl>$ ~^көө<n><dat>$ ~^бул<prn><dem><gen>$^,<cm>$ ~^Жинжич<np><cog><mf><gen>$ ~^иш<n><px3sp><dat>$ ^@de<cnjcoo>$ ~^жара<v><tv><neg><gpr_fut>$ ^@olma<n><px3sp><nom>+э<cop><aor><p3><sg>$^.<sent>$
+[/c3qWuDOfxKCe]
+[f6Uce5K4s6Hd#0] ~^Сандра<np><ant><f><gen>$ ~^чач<n><pl><px3sp><nom>$ ^да<cnjcoo>$ ~^азайт<v><tv><prc_cond><p3><sg>$ ~^жакшы<adj>$ ~^бол<v><iv><aor><p3><sg>$ ~^мөөнөт<n><loc>$ ~^узар<v><iv><ifi><p3><sg>$^,<cm>$ ^жана<adv>$ ~^@eski<n><px3sp><nom>$ ^менен<post>$ ~^тара<v><iv><pass><gpr_fut>$ ~^акыбал<n><dat>$ ~^кел<v><iv><ifi><p3><sg>$^.<sent>$
+[/f6Uce5K4s6Hd]
+[h8EFUfjAM_fa#0] ^Беш<num>$ ^менен<cnjcoo>$ ^он<num>$ ^@kiş<n><px3sp><nom>+э<cop><aor><p3><sg>$^.<sent>$
+[/h8EFUfjAM_fa]
+[hpURLEPgvRio#0] ^Анда санда<adv>$ ~^конверт<n><pl><nom><@obj>$ ~^жибер<v><tv><ifi><p1><pl>$ ^бири-бири<prn><recip><px1pl><dat>+э<cop><aor><p3><sg>$^.<sent>$
+[/hpURLEPgvRio]
+[kMIUCphA46yo#0] ~^Аалам<n><gen>$ ~^ооз<n><px3sp><nom>$ ^*torba$ ~^@değil<adj>$ ^да<cnjadv>$ ^@büz<n><dat>+э<cop><aor><p2><sg>$^.<sent>$
+[/kMIUCphA46yo]
+[n_QC26hqkByn#0] ~^Көз<n><pl><px1sg><acc><@obj>$ ~^ач<v><tv><ifi><p1><sg>$ ^да<cnjadv>$ ^оорукана<n><loc>+э<cop><aor><p1><sg>$^.<sent>$
+[/n_QC26hqkByn]
+[qg2LeY_aQXCB#0] ~^@Beraberlik<n><px1pl><nom>$ ~^мектеп<n><nom>$ ^*kapanıncaya$ ^@kadar<adv>$ ~^сүр<v><tv><ifi><p3><sg>$^.<sent>$
+[/qg2LeY_aQXCB]
+[qixIQ1QQoGsy#0] ~^Тоо<n><attr>$ ~^баш<n><px3sp><loc>$ ~^булут<n><pl><nom>$ ~^гөч<n><nom><@obj>$ ~^кыл<v><tv><gna_perf>$^,<cm>$ ~^ызгардуу<adj>$ ~^шамал<n><attr>$ ~^жол<n><attr>$ ~^моюн<n><loc><attr>$ ~^@yalnız<adj>$ ~^жыгач<n><px2sg><nom>$ ~^@çıplak<adj>$ ~^бутак<n><pl><px3sp><acc><@obj>$ ^*sallıyourdu$^.<sent>$
+[/qixIQ1QQoGsy]
+[r9SOpl-vyo_u#0] ~^Үй<n><loc><subst><pl><nom>$ ~^@hâl<n><dat>$ ~^ук<v><tv><neg><prc_perf>$ ~^@olma<n>$ ~^@lı<post><p3><pl>$ ^да<cnjadv>$ ~^@hâl<n><dat>$ ^*aramadylar$^.<sent>$
+[/r9SOpl-vyo_u]
+[v3US0qNR_Ify#0] ~^Бул<prn><dem><gen>$ ~^эмнеге<adv><itg><itg><px3sp><nom>$ ~^ЕБ<np><top><nom>$^'<apos>$^*nin$^,<cm>$ ~^органикалык<adj>$ ~^бир<det><ind>$ ~^өсүү<n><nom>$ ^жана<cnjcoo>$ ^@titizlikle<adv>$ ~^түз<v><tv><pass><prc_perf>$ ~^@kurumsal<adj>$ ~^бир<det><ind>$ ~^имарат<n><gen>$ ~^үрүн<n><px3sp><nom>$ ^@olma<n><px3sp><nom>+э<cop><aor><p3><sg><gm>$^.<sent>$
+[/v3US0qNR_Ify]
+[vGbRhVz8Fe7S#0] ^*Büyüklüğü$ ^беш<num>$ ^менен<cnjcoo>$ ^он<num>$ ~^чарчы метр<n><attr>$ ~^ара<n><px3sp><loc>$ ~^@değiş<v><iv><gpr_past>$ ~^бир<det><ind>$ ^ал<v><tv><ger_past><loc>+э<cop><aor><p3><sg>$ ~^сүр<v><tv><prc_perf>$ ~^жат<vaux><aor><p3><pl>$
+[/vGbRhVz8Fe7S]
+[xxnLs2XjZmQd#0] ~^Бир<det><ind>$ ~^адам<n><nom>$ ^да<cnjadv>$ ~^сөз<n><nom><@obj>$ ~^ук<v><tv><neg><aor><p3><sg>$^.<sent>$
+[/xxnLs2XjZmQd]

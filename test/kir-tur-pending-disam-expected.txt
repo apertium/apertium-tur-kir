@@ -1,0 +1,4 @@
+[LQ0sUWcA-OEK#0] ^Кытай<n><nom>$ ^экономика<n><px3sp><gen>$ ^өс<v><iv><ger_pres><px3sp><nom>$ ^1990<num>$^-<guio>$^жыл<n><pl><loc><attr>$ ^деңгээл<n><dat>$ ^түш<v><iv><ifi><p3><sg>$^.<sent>$
+[/LQ0sUWcA-OEK]
+[SCsMLtmFZsea#0] ^Тырыш<n><pl><gen>$ ^пайда бол<v><iv><ger_pres><px3sp><acc>$ ^кантип<adv>$ ^токто<v><iv><caus><prc_cond><p3><sg>$ ^бол<vaux><ger_fut><px3sp><acc>$ ^бил<v><tv><prc_vol><p2><frm><sg>$ ^кел<vaux><aor><p3><sg>+бы<qst>$^?<sent>$
+[/SCsMLtmFZsea]

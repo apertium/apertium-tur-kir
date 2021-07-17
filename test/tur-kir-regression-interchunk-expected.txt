@@ -1,0 +1,106 @@
+[-6Fg4pPgPh3E#0] ^default<default>{^Сыра<n><px1sg><nom>$}$ ^default<default>{^жок<adj>$}$ ^default<default>{^э<cop><aor><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/-6Fg4pPgPh3E]
+[-D8tXi1Ji9hv#0] ^default<default>{^Жашоо<n><abl>$}$ ^default<default>{^каала<v><tv><gpr_past>$}$ ^default<default>{^нерсе<n><px1sg><nom>$}$ ^default<default>{^бул<prn><dem><nom>$}$ ^default<default>{^бы<qst>$}$^sent<SENT>{^?<sent>$}$
+[/-D8tXi1Ji9hv]
+[-VbUeaeA4o-P#0] ^default<default>{^Оку<v><tv><ger_inf><nom>$}$ ^default<default>{^@değil<adj>$}$ ^default<default>{^түшүн<v><tv><ger_inf><nom>$}$ ^default<default>{^оор<adj>$}$ ^default<default>{^э<cop><aor><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/-VbUeaeA4o-P]
+[0ktqiVXHJ3iG#0] ^default<default>{^Мектеп<n><nom>$}$ ^default<default>{^э<cop><aor><p3><pl>$}$^sent<SENT>{^.<sent>$}$
+[/0ktqiVXHJ3iG]
+[0lkO4jp2i1cj#0] ^default<default>{^Жашоо<n><loc><attr>$}$ ^m-n<SN>{^акыркы<adj>$ ^сабак<n><px3sp><nom>$}$^default<default>{^,<cm>$}$ ^default<default>{^"<quot>$}$^default<default>{^өз<prn><ref><nom>$}$ ^default<default>{^өлүм<n><px3sp><nom>$}$^default<default>{^"<quot>$}$ ^default<default>{^бол<v><iv><prc_pcond>$}$ ^default<default>{^эле<vaux><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/0lkO4jp2i1cj]
+[3by5_ZowFPek#0] ^default<default>{^Мен<prn><pers><p1><sg><nom>$}$ ^default<default>{^бар<v><iv><prc_perf>$}$ ^default<default>{^э<cop><ifi><p1><sg>$}$^sent<SENT>{^.<sent>$}$
+[/3by5_ZowFPek]
+[7xQ1271S_16Z#0] ^default<default>{^Кабар<n><acc><@obj>$}$ ^default<default>{^ал<v><tv><ger_past><px3sp><nom>$}$ ^m-n<SN>{^сымал<adj>$ ^жол<n><dat>$}$ ^default<default>{^чык<v><iv><ifi><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/7xQ1271S_16Z]
+[8SrKPn246aI7#0] ^default<default>{^Эң<adv>$}$ ^m-n<SN>{^сулуу<adj>$ ^кыз<n><attr>$}$ ^default<default>{^үй<n><px1sg><dat>$}$ ^default<default>{^кел<v><iv><ifi><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/8SrKPn246aI7]
+[8t1Qn5RbPQDv#0] ^default<default>{^Ар ким<prn><ind><nom>$}$ ^default<default>{^өл<v><iv><gpr_fut><subst><px3sp><acc>$}$ ^default<default>{^бил<v><tv><prc_perf>$}$^default<default>{^,<cm>$}$ ^default<default>{^бирок<cnjcoo>$}$ ^default<default>{^кимдир бирөө<prn><ind><nom>$}$ ^default<default>{^бул<prn><dem><dat>$}$ ^default<default>{^ишен<v><tv><ger_pres><nom>$}$ ^default<default>{^каала<v><tv><neg><aor><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/8t1Qn5RbPQDv]
+[9Ety0Xmiajn0#0] ^default<default>{^Бул<prn><dem><nom>$}$ ^m-n<SN>{^сымал<adj>$ ^иш<n><pl><px3sp><nom>$}$ ^default<default>{^мен<prn><pers><p1><sg><dat>$}$ ^default<default>{^айт<v><tv><ger_pres><px2sg><nom>$}$ ^default<default>{^керек<adj>$}$ ^default<default>{^э<cop><aor><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/9Ety0Xmiajn0]
+[9P4MuzjTINtj#0] ^default<default>{^Бул<prn><dem><pl><nom>$}$ ^default<default>{^мен<prn><pers><p1><sg><gen>$}$ ^default<default>{^китеп<n><pl><nom>$}$ ^default<default>{^э<cop><aor><p1><sg>$}$^sent<SENT>{^.<sent>$}$
+[/9P4MuzjTINtj]
+[AEtWHqtIgO2_#0] ^default<default>{^@Başla<v><iv><aor><p1><sg>$}$
+[/AEtWHqtIgO2_]
+[AvxPlFBn1QH6#0] ^default<default>{^бар<v><iv><prc_cond><p2><sg>$}$ ^default<default>{^жакшы<adj>$}$ ^default<default>{^бол<v><iv><aor><p3><sg>$}$
+[/AvxPlFBn1QH6]
+[Dy6GExKyHdjY#0] ^default<default>{^Учак<n><dat>$}$ ^default<default>{^ушундай<adj>$}$ ^default<default>{^э<cop><aor><p3><sg>$}$ ^default<default>{^@bin<v><iv><prc_cond><p3><sg>$}$ ^default<default>{^бол<v><iv><prc_perf>$}$
+[/Dy6GExKyHdjY]
+[FesSnLY1eqnq#0] ^m-n<SN>{^@Deprem<adj>$ ^@önce<n><abl>$}$ ^default<default>{^@bilin<v><iv><aor><p3><sg>$}$ ^default<default>{^бы<qst>$}$^sent<SENT>{^?<sent>$}$
+[/FesSnLY1eqnq]
+[HL-e_HZvde3U#0] ^default<default>{^Бул<prn><dem><nom>$}$ ^default<default>{^алма<n><attr>$}$ ^default<default>{^@değil<adj>$}$ ^default<default>{^э<cop><aor><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/HL-e_HZvde3U]
+[HtjuOIS786YN#0] ^default<default>{^Ай<n><nom>$}$^default<default>{^'<apos>$}$^unknown<unknown>{^*a$}$ ^default<default>{^факт<n><abl>$}$ ^default<default>{^кет<v><iv><prc_cond><p3><sg>$}$ ^default<default>{^бол<v><iv><ifi><p3><sg>$}$ ^default<default>{^бы<qst>$}$^sent<SENT>{^?<sent>$}$
+[/HtjuOIS786YN]
+[IZmGr2CVRK2F#0] ^m-n<SN>{^Учак<n><attr>$ ^саат<n><attr>$}$ ^default<default>{^5<num><subst><loc>$}$ ^default<default>{^э<cop><aor><p3><sg>$}$ ^default<default>{^@bin<v><iv><prc_cond><p3><sg>$}$ ^default<default>{^бол<v><iv><prc_perf>$}$
+[/IZmGr2CVRK2F]
+[Jta9O6VreI9v#0] ^default<default>{^@gitme<n>$}$ ^default<default>{^@lı<post><p2><sg>$}$
+[/Jta9O6VreI9v]
+[OBQWofdoP2Hu#0] ^m-n<SN>{^Университет<n><attr>$ ^башкаруу<n><px3sp><nom>$}$ ^default<default>{^@de<cnjcoo>$}$ ^m-n<SN>{^бирдей<det><ind>$ ^аймак<n><loc>$}$ ^default<default>{^ээле<v><tv><prc_perf>$}$ ^default<default>{^э<cop><ifi><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/OBQWofdoP2Hu]
+[Othu8VfW6hUN#0] ^default<default>{^Мен<prn><pers><p1><sg><nom>$}$ ^бар<SV>{^бар<v><iv><prc_perf>$ ^жат<vaux><aor><p1><sg>$}$^sent<SENT>{^.<sent>$}$
+[/Othu8VfW6hUN]
+[PCbST2n3QYC9#0] ^default<default>{^Эң<adv>$}$ ^default<default>{^сүй<v><tv><gpr_past>$}$ ^default<default>{^нерсе<n><pl><px2sg><nom>$}$ ^default<default>{^эмне<prn><itg><nom>$}$ ^default<default>{^э<cop><aor><p3><sg><gm>$}$^sent<SENT>{^?<sent>$}$
+[/PCbST2n3QYC9]
+[PfEm3DUiD8Fa#0] ^default<default>{^Даяр<adj>$}$ ^default<default>{^э<cop><aor><p1><sg>$}$ ^default<default>{^бы<qst>$}$^sent<SENT>{^?<sent>$}$
+[/PfEm3DUiD8Fa]
+[PgjBKxNIVAft#0] ^default<default>{^Мен<prn><pers><p1><sg><nom>$}$ ^бар<SV>{^бар<v><iv><prc_perf>$ ^жат<vaux><prc_cond><p1><sg>$}$^sent<SENT>{^.<sent>$}$
+[/PgjBKxNIVAft]
+[Q7MFN9ViBb8g#0] ^default<default>{^@Iki<prn><qnt><nom>$}$ ^default<default>{^сыра<n><px1sg><nom>$}$ ^default<default>{^бар<adj>$}$ ^default<default>{^э<cop><aor><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/Q7MFN9ViBb8g]
+[QhSz-vkyYOpa#0] ^default<default>{^Бар<v><iv><ger_past><px1sg><nom>$}$
+[/QhSz-vkyYOpa]
+[R-CPRn-u-GxT#0] ^default<default>{^Бул<prn><dem><acc>$}$ ^default<default>{^сүй<v><tv><neg><ifi><p1><sg>$}$^sent<SENT>{^.<sent>$}$
+[/R-CPRn-u-GxT]
+[R2vLS2A2cR2_#0] ^default<default>{^Сен<prn><pers><p2><sg><acc>$}$ ^default<default>{^көр<v><tv><neg><ger_pres><nom>$}$ ^default<default>{^каала<v><tv><ifi><p1><sg>$}$^sent<SENT>{^.<sent>$}$
+[/R2vLS2A2cR2_]
+[S7qDM1AjBz8t#0] ^unknown<unknown>{^*Gay$}$ ^default<default>{^бар<n><dat>$}$ ^бар<SV>{^бар<v><iv><prc_perf>$ ^жат<vaux><prc_cond><p1><sg>$}$ ^default<default>{^ким<prn><itg><dat>$}$ ^default<default>{^эмне<prn><itg><nom>$}$ ^default<default>{^э<cop><aor><p3><sg>$}$^sent<SENT>{^?<sent>$}$
+[/S7qDM1AjBz8t]
+[SL-JrJ0YDn4w#0] ^default<default>{^Чака<n><ins>$}$ ^default<default>{^сыра<n><attr>$}$ ^default<default>{^@iç<v><iv><ger_pres><px1sg><nom>$}$ ^default<default>{^э<cop><aor><p3><sg>$}$^default<default>{^,<cm>$}$ ^default<default>{^бирок<cnjcoo>$}$ ^default<default>{^сен<prn><pers><p2><sg><nom>$}$ ^default<default>{^бил<v><tv><neg><aor><p2><sg>$}$^sent<SENT>{^.<sent>$}$ ^default<default>{^Эртең<adv>$}$ ^default<default>{^кел<v><iv><aor><p2><sg>$}$ ^default<default>{^бы<qst>$}$^sent<SENT>{^?<sent>$}$
+[/SL-JrJ0YDn4w]
+[SUjDZ8i8rDqL#0] ^default<default>{^Кимдир бирөө<prn><ind><nom>$}$ ^default<default>{^бул<prn><dem><dat>$}$ ^default<default>{^ишен<v><tv><ger_pres><nom>$}$ ^default<default>{^каала<v><tv><neg><aor><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/SUjDZ8i8rDqL]
+[SwkU2xJOLImb#0] ^default<default>{^Мен<prn><pers><p1><sg><nom>$}$ ^default<default>{^бул<prn><dem><nom>$}$ ^default<default>{^китеп<n><acc><@obj>$}$ ^default<default>{^оку<v><tv><prc_past>$}$ ^default<default>{^э<cop><ifi><p1><sg>$}$^sent<SENT>{^.<sent>$}$
+[/SwkU2xJOLImb]
+[VnEeSohFVCH3#0] ^unknown<unknown>{^*Senmi$}$ ^default<default>{^кел<v><iv><ifi><p2><sg>$}$^sent<SENT>{^?<sent>$}$
+[/VnEeSohFVCH3]
+[Vzb6FN5Ln5rf#0] ^default<default>{^60<num>$}$ ^default<default>{^жаш<n><loc><attr>$}$ ^default<default>{^дене<n><px3sp><nom>$}$ ^m-n<SN>{^@artık<adj>$ ^бий<n><attr>$}$ ^default<default>{^сабак<n><pl><px3sp><acc><@obj>$}$ ^default<default>{^@kaldır<v><tv><prc_impf>$}$ ^default<default>{^ал<v><tv><neg><prc_perf>$}$ ^default<default>{^@kadar<adv>$}$ ^default<default>{^чарча<v><iv><past><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/Vzb6FN5Ln5rf]
+[YJ5kgMeMbERZ#0] ^default<default>{^оку<v><tv><neg><ger_pres><px3sp><nom>$}$ ^default<default>{^керек<adj>$}$
+[/YJ5kgMeMbERZ]
+[Yaod7QSsPyUx#0] ^default<default>{^Лондон<np><top><dat>$}$ ^default<default>{^кандай<adv><itg>$}$ ^default<default>{^бар<v><iv><prc_cond><p3><sg>$}$ ^default<default>{^бол<v><iv><aor><p3><sg>$}$^sent<SENT>{^?<sent>$}$
+[/Yaod7QSsPyUx]
+[ZEFYWmRBn3CY#0] ^default<default>{^Сыра<n><px1sg><nom>$}$ ^default<default>{^бар<adj>$}$ ^default<default>{^э<cop><aor><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/ZEFYWmRBn3CY]
+[ZKc80A0JplYy#0] ^default<default>{^Жат<v><iv><gna_perf>$}$ ^default<default>{^Кур<v><tv><ger_past><nom>$}$ ^default<default>{^ук<v><tv><pass><prc_perf>$}$ ^default<default>{^бы<qst>$}$^sent<SENT>{^?<sent>$}$
+[/ZKc80A0JplYy]
+[awIvOjD_pRsJ#0] ^default<default>{^Бул<prn><dem><nom>$}$ ^m-n<SN>{^бир<det><ind>$ ^үй<n><nom>$}$ ^default<default>{^э<cop><aor><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/awIvOjD_pRsJ]
+[dUZwAo1it6_8#0] ^default<default>{^Ишен<v><tv><ger_pres><nom>$}$ ^каала<SV>{^каала<v><tv><neg><prc_perf>$ ^жат<vaux><aor><p1><sg>$}$^sent<SENT>{^.<sent>$}$
+[/dUZwAo1it6_8]
+[eTIr-IwlztsI#0] ^default<default>{^Ушундай<adj><subst><sim>$}$ ^default<default>{^катнаш<n><px1pl><acc><@obj>$}$ ^default<default>{^үй бүлөө<n><pl><px1pl><abl>$}$ ^default<default>{^жашыруун<adj>$}$ ^default<default>{^карма<v><tv><ifi><p1><pl>$}$^sent<SENT>{^.<sent>$}$
+[/eTIr-IwlztsI]
+[eUpezDjUTkEO#0] ^default<default>{^Сиз<prn><pers><p2><pl><dat>$}$ ^m-n<SN>{^акыркы<adj>$ ^кезек<n><attr>$}$ ^m-n<SN>{^бир<det><ind>$ ^суроо<n><nom><@obj>$}$ ^сура<SV>{^сура<v><tv><prc_perf>$ ^жат<vaux><aor><p1><sg>$}$^sent<SENT>{^.<sent>$}$
+[/eUpezDjUTkEO]
+[foLUXqOuxSSL#0] ^default<default>{^@okuma<n><dat>$}$
+[/foLUXqOuxSSL]
+[kKEo68b3NKbY#0] ^default<default>{^Көпүрө<n><abl>$}$ ^default<default>{^@antik<adj>$}$ ^m-n<SN>{^бир<det><ind>$ ^шаар<n><dat>$}$ ^default<default>{^бар<v><iv><prc_cond><p3><sg>$}$ ^бол<SV>{^бол<v><iv><prc_perf>$ ^жат<vaux><aor><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/kKEo68b3NKbY]
+[mLc4qtADqR9I#0] ^default<default>{^Жашоо<n><px1sg><loc>$}$ ^default<default>{^учак<n><dat>$}$ ^default<default>{^@bin<v><iv><neg><prc_past>$}$ ^default<default>{^э<cop><ifi><p1><sg>$}$^sent<SENT>{^.<sent>$}$
+[/mLc4qtADqR9I]
+[mUwESdrnMaZm#0] ^default<default>{^Өз<prn><ref><px1sg><acc>$}$ ^default<default>{^ташта<v><tv><gna_perf>$}$ ^default<default>{^@yok ol<v><iv><ger><acc>$}$ ^default<default>{^бы<qst>$}$ ^default<default>{^күт<v><tv><imp><p1><sg>$}$^sent<SENT>{^?<sent>$}$
+[/mUwESdrnMaZm]
+[ofnlbS7tND4c#0] ^default<default>{^@Her şey<prn><qnt><nom>$}$ ^default<default>{^сен<prn><pers><p2><sg><ins>$}$ ^default<default>{^@başla<v><iv><aor><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/ofnlbS7tND4c]
+[p9HvRRqEfpgy#0] ^default<default>{^Оку<v><tv><ger_inf><nom>$}$ ^default<default>{^үчүн<post>$}$ ^default<default>{^кызыл-кырман<adj>$}$ ^default<default>{^э<cop><ifi><p1><sg>$}$^sent<SENT>{^.<sent>$}$
+[/p9HvRRqEfpgy]
+[pUDdN_1aFhpe#0] ^default<default>{^Ахмет<np><ant><m><nom>$}$ ^default<default>{^мектеп<n><dat>$}$ ^default<default>{^кет<v><iv><ifi><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/pUDdN_1aFhpe]
+[qLKFdIdT-Q9B#0] ^default<default>{^Ар ким<prn><ind><acc>$}$ ^default<default>{^@şaşırt<v><tv><prc_perf>$}$ ^default<default>{^@kadar<adv>$}$ ^default<default>{^@sade<adj>$}$ ^m-n<SN>{^бир<det><ind>$ ^жооп<n><nom><@obj>$}$ ^бер<SV>{^бер<v><tv><prc_perf>$ ^жат<vaux><aor><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/qLKFdIdT-Q9B]
+[t7D3baQsWqnH#0] ^default<default>{^Мен<prn><pers><p1><sg><nom>$}$ ^default<default>{^кыл<v><tv><neg><ifi><p1><sg>$}$ ^default<default>{^да<cnjadv>$}$^sent<SENT>{^.<sent>$}$
+[/t7D3baQsWqnH]
+[x6_9LTNYKtJo#0] ^default<default>{^Тарт<v><tv><pcond><p1><sg>$}$
+[/x6_9LTNYKtJo]
+[xU2Rl5i0bzWo#0] ^default<default>{^Мектеп<n><nom>$}$ ^default<default>{^э<cop><aor><p3><sg>$}$^sent<SENT>{^.<sent>$}$
+[/xU2Rl5i0bzWo]

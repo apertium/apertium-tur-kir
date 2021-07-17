@@ -1,0 +1,26 @@
+[15jHKEotLW5a#0] ^git<v><iv><gna_when>/бар<v><iv><gna_when>$
+[/15jHKEotLW5a]
+[201pwtQG9qgy#0] ^git<v><iv><abil><aor>/бар<v><iv><abil><aor>$ ^i<cop><aor><p1><sg>/э<cop><aor><p1><sg>$
+[/201pwtQG9qgy]
+[3by5_ZowFPek#0] ^Ben<prn><pers><p1><sg><nom>/Мен<prn><pers><p1><sg><nom>$ ^git<v><iv><prog>/бар<v><iv><prog>$ ^i<cop><ifi><p1><sg>/э<cop><ifi><p1><sg>$^.<sent>/.<sent>$
+[/3by5_ZowFPek]
+[DVjoudWgb7_Z#0] ^gör<v><tv><neg><ger_inf><nom>/көр<v><tv><neg><ger_inf><nom>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$ ^iste<v><tv><prog>/каала<v><tv><prog>$ ^i<cop><aor><p1><sg>/э<cop><aor><p1><sg>$
+[/DVjoudWgb7_Z]
+[H3j_k30zcWQj#0] ^git<v><iv><ger_pabs><px1sg><acc>/бар<v><iv><ger_pabs><px1sg><acc>$
+[/H3j_k30zcWQj]
+[H6TRE-SdjAiZ#0] ^gör<v><tv><ger_inf><nom>/көр<v><tv><ger_inf><nom>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$ ^iste<v><tv><ifi><p1><sg>/каала<v><tv><ifi><p1><sg>$
+[/H6TRE-SdjAiZ]
+[Othu8VfW6hUN#0] ^Ben<prn><pers><p1><sg><nom>/Мен<prn><pers><p1><sg><nom>$ ^git<v><iv><prog><dub>/бар<v><iv><prog><dub>$ ^i<cop><aor><p1><sg>/э<cop><aor><p1><sg>$^.<sent>/.<sent>$
+[/Othu8VfW6hUN]
+[PgjBKxNIVAft#0] ^Ben<prn><pers><p1><sg><nom>/Мен<prn><pers><p1><sg><nom>$ ^git<v><iv><prog>/бар<v><iv><prog>$ ^i<cop><cond><p1><sg>/э<cop><cond><p1><sg>$^.<sent>/.<sent>$
+[/PgjBKxNIVAft]
+[_H-gpZc3-8QB#0] ^*gidemezsem/*gidemezsem$
+[/_H-gpZc3-8QB]
+[_zy3QHV__8CZ#0] ^git<v><iv><abil><neg><aor>/бар<v><iv><abil><neg><aor>$ ^i<cop><aor><p1><sg>/э<cop><aor><p1><sg>$
+[/_zy3QHV__8CZ]
+[bFX0z8eguowi#0] ^git<v><iv><abil><ifi><p1><sg>/кет<v><iv><abil><ifi><p1><sg>$
+[/bFX0z8eguowi]
+[uNQJHVphwwzH#0] ^gör<v><tv><ger_inf><nom>/көр<v><tv><ger_inf><nom>$ ^i<cop><aor><p3><sg>/э<cop><aor><p3><sg>$ ^iste<v><tv><neg><prog>/каала<v><tv><neg><prog>$ ^i<cop><aor><p1><sg>/э<cop><aor><p1><sg>$
+[/uNQJHVphwwzH]
+[x6_9LTNYKtJo#0] ^Çek<v><tv><aor>/Тарт<v><tv><aor>$ ^i<cop><ifi><p1><sg>/э<cop><ifi><p1><sg>$
+[/x6_9LTNYKtJo]

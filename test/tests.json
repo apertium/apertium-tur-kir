@@ -1,0 +1,18 @@
+{
+    "kir-tur-pending": {
+        "input": "kir-tur-pending-input.txt",
+        "mode": "kir-tur"
+    },
+    "tur-kir-pending": {
+        "input": "tur-kir-pending-input.txt",
+        "mode": "tur-kir"
+    },
+    "tur-kir-regression": {
+        "input": "tur-kir-regression-input.txt",
+        "mode": "tur-kir"
+    },
+    "tur-kir-transfer": {
+        "input": "tur-kir-transfer-input.txt",
+        "mode": "tur-kir"
+    }
+}

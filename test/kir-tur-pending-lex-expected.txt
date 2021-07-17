@@ -1,0 +1,4 @@
+[LQ0sUWcA-OEK#0] ^Кытай<n><nom>/@Кытай<n><nom>$ ^экономика<n><px3sp><gen>/ekonomi<n><px3sp><gen>$ ^өс<v><iv><ger_pres><px3sp><nom>/büyü<v><iv><ger_pres><px3sp><nom>$ ^1990<num>/1990<num>$^-<guio>/-<guio>$^жыл<n><pl><loc><attr>/yıl<n><pl><loc><attr>/sene<n><pl><loc><attr>/fasıl<n><pl><loc><attr>$ ^деңгээл<n><dat>/düzey<n><dat>/seviye<n><dat>$ ^түш<v><iv><ifi><p3><sg>/in<v><tv><ifi><p3><sg>/bin<v><tv><ifi><p3><sg>$^.<sent>/.<sent>$
+[/LQ0sUWcA-OEK]
+[SCsMLtmFZsea#0] ^Тырыш<n><pl><gen>/@Тырыш<n><pl><gen>$ ^пайда бол<v><iv><ger_pres><px3sp><acc>/başgöster<v><iv><ger_pres><px3sp><acc>/türe<v><iv><ger_pres><px3sp><acc>$ ^кантип<adv>/nasıl<adv>$ ^токто<v><iv><caus><prc_cond><p3><sg>/eğle<v><iv><prc_cond><p3><sg>$ ^бол<vaux><ger_fut><px3sp><acc>/@бол<vaux><ger_fut><px3sp><acc>$ ^бил<v><tv><prc_vol><p2><frm><sg>/bil<v><tv><prc_vol><p2><frm><sg>$ ^кел<vaux><aor><p3><sg>/@кел<vaux><aor><p3><sg>$ ^бы<qst>/mı<qst>$^?<sent>/?<sent>$
+[/SCsMLtmFZsea]

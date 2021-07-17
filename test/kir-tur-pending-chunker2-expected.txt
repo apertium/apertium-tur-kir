@@ -1,0 +1,4 @@
+[LQ0sUWcA-OEK#0] ~^@Кытай<n><nom>$ ~^ekonomi<n><px3sp><gen>$ ~^büyü<v><iv><ger_abst><px3sp><nom>$ ^1990<num>$^-<guio>$~^yıl<n><pl><loc><attr>$ ~^düzey<n><dat>$ ~^in<v><tv><ifi><p3><sg>$^.<sent>$
+[/LQ0sUWcA-OEK]
+[SCsMLtmFZsea#0] ~^@Тырыш<n><pl><gen>$ ~^başgöster<v><iv><ger_abst><px3sp><acc>$ ^nasıl<adv>$ ~^eğle<v><iv><gna_cond><p3><sg>$ ~^@бол<vaux><ger_fut><px3sp><acc>$ ~^bil<v><tv><prc_vol><p2><frm><sg>$ ^@кел<vaux><aor><p3><sg>$ ^mı<qst>$^?<sent>$
+[/SCsMLtmFZsea]

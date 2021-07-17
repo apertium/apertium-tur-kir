@@ -1,0 +1,64 @@
+[3gyaKxVPlBtB#0] ^Dünya<n><gen>$ ^en<adv>$ ^güzel<adj>$ ^kız<n><px3sp><nom>$ ^ev<n><px1sg><dat>$ ^gel<v><iv><ifi><p3><sg>$^.<sent>$
+[/3gyaKxVPlBtB]
+[4SC01ZJ-GP6k#0] ^O<prn><dem><nom>$ ^hiçbir zaman<adv>$ ^anne<n><px3sp><acc><@obj>$ ^düşün<v><tv><neg><aor>$ ^ki<cnjadv>$^.<sent>$
+[/4SC01ZJ-GP6k]
+[6cfPDkhHYr7Y#0] ^*Nurdin$ ^uzak<adj>$ ^bir<det><ind>$ ^yer<n><dat>$ ^bak<v><iv><gna_perf>$^,<cm>$ ^düşünceli<adj>+i<cop><aor><p3><sg>$^.<sent>$
+[/6cfPDkhHYr7Y]
+[6h5VzZoDLi7B#0] ^Palto<n><px3sp><gen>$ ^yaka<n><px3sp><acc><@obj>$ ^kaldır<v><tv><gna_perf>$ ^ağa<n><sim>$ ^yasla<v><tv><pass><ger_impf><nom>+i<cop><aor><p3><sg>$^.<sent>$
+[/6h5VzZoDLi7B]
+[AQgD-4drI2XU#0] ^Hiç<prn><qnt><nom>$ ^bir<det><ind>$ ^şey<n><nom>$ ^söyle<v><tv><neg><ifi><p3><sg>$ ^ki<cnjadv>$ ^*küzeyim$^.<sent>$
+[/AQgD-4drI2XU]
+[BaTFfZ6ahAwq#0] ^Ben<prn><pers><p1><sg><dat>$ ^cevap<n><attr>$ ^ver<v><tv><aor>+mı<qst>$ ^ki<cnjadv>$^.<sent>$
+[/BaTFfZ6ahAwq]
+[FNcWCdcYz-bo#0] ^O<prn><dem><nom>$ ^*geleli$ ^çok<adj>$ ^ol<v><iv><ifi><p3><sg>$^.<sent>$
+[/FNcWCdcYz-bo]
+[JfovsefAVws1#0] ^Osmanlı<n><nom>$ ^Saray<n><acc><@obj>$ ^bu<prn><dem><nom>$ ^talep<n><acc><@obj>$ ^kabul<n><nom><@obj>$ ^et<v><tv><gna_when>$^,<cm>$ ^bir<num>$ ^*papazlık$ ^biri<prn><ind><px1sg><acc>$ ^aynı<det><dem>$ ^yıl<n><attr>$ ^iç<n><px3sp><loc>$ ^kur<v><tv><pass><past>+i<cop><aor><p3><sg>$^.<sent>$
+[/JfovsefAVws1]
+[O6eeU_jb4Sin#0] ^Biz<prn><pers><p1><pl><dat>$ ^öyle<adj>$ ^bir<det><ind>$ ^ye<v><tv><ger_inf><pl><nom>$ ^yap<v><tv><ifi><p3><sg>$ ^ki<cnjadv>$^.<sent>$
+[/O6eeU_jb4Sin]
+[Pa-62HzuNyPi#0] ^Söz<n><attr>$ ^konu<n><px3sp><nom>$ ^*olumsuzlukların$ ^gör<v><tv><gpr_aor><neg><subst><abl>$ ^gel<v><iv><pass><ger><px3sp><gen>$ ^yoksulluk<n><nom>+i<cop><aor><p3><sg>$^.<sent>$
+[/Pa-62HzuNyPi]
+[RbDFvuBRHDhj#0] ^O<prn><dem><pl><nom>$ ^oku<v><tv><ger_aor><nom>+i<cop><gna_ken>$ ^sen<prn><pers><p2><sg><nom>$ ^oyna<v><tv><prog>+i<cop><aor><p2><sg>$^.<sent>$
+[/RbDFvuBRHDhj]
+[Uhtx5jVLlu_L#0] ^8<num>$ ^yaş<n><px3sp><loc><attr>$ ^Makedon<adj>$ ^bir<det><ind>$ ^çocuk<n><gen>$ ^yap<v><tv><gpr_past><subst><px3sp><nom>$ ^resimle<v><tv><aor>$^,<cm>$ ^tüm<det><dem>$ ^dünya<n><gen>$ ^ilgi<n><px3sp><acc><@obj>$ ^çek<v><tv><prog>+i<cop><aor><p3><sg>$^.<sent>$
+[/Uhtx5jVLlu_L]
+[WaQhsMzyTZPG#0] ^Beş<num>$ ^ila<cnjcoo>$ ^on<num>$ ^ara<n><px3sp><nom>+i<cop><aor><p3><sg>$^.<sent>$
+[/WaQhsMzyTZPG]
+[Wi7V9kiEQRWz#0] ^Öyle<adj>$ ^koş<v><iv><aor>$ ^ki<cnjadv>$ ^arkasından<adv>$ ^rüzgar<n><nom>$ ^yetiş<v><iv><neg><aor>+i<cop><aor><p3><sg>$^.<sent>$
+[/Wi7V9kiEQRWz]
+[WvUWcrf2XLYC#0] ^Duy<v><tv><ifi><p1><sg>$ ^ki<cnjadv>$ ^sat<v><tv><pass><past>+i<cop><aor><p3><sg>$^.<sent>$
+[/WvUWcrf2XLYC]
+[X-XNrSir9bO2#0] ^Anne<n><px1sg><nom>$ ^der<v><tv><ifi><p3><sg>$ ^ki<cnjadv>$ ^"<quot>$^siz<prn><pers><p2><pl><nom>$ ^de<cnjcoo>$ ^büyü<v><iv><fut>+i<cop><aor><p2><pl>$ ^adam<n><nom>$ ^ol<v><iv><fut>+i<cop><aor><p2><pl>$^"<quot>$^.<sent>$
+[/X-XNrSir9bO2]
+[YV62U3qC-z8b#0] ^Örneğin<cnjadv>$ ^Karadağ<np><top><loc>$ ^isim<n><nom><@obj>$ ^ver<v><tv><gna_neg>$ ^*HIV$ ^test<n><acc><@obj>$ ^yaptır<v><tv><ger_inf><nom>$ ^imkan<n>+sız<post>$^,<cm>$ ^hat<n><loc>$ ^yasadışı<adj>+i<cop><aor><p3><sg>$^.<sent>$
+[/YV62U3qC-z8b]
+[ZizHDZ63xJLm#0] ^Böyle<adj><subst><sim>$ ^emekli<n><pl><px2sg><nom>$ ^emekli<adj>$ ^aylık<n><pl><px3sp><acc><@obj>$ ^kim<prn><itg><gen>$ ^öde<v><tv><gpr_fut><px3sp>$ ^endişe<n><px3sp><acc><@obj>$ ^*yaşamaksızın$ ^ev<n><pl><px3sp><dat>$ ^geri<adv>$ ^dön<v><tv><abil><ger><px3sp><nom>$ ^hedefle<v><tv><pass><past>+i<cop><aor><p3><sg>$^.<sent>$
+[/ZizHDZ63xJLm]
+[axcRUjPGGyXL#0] ^Yaz<n><attr>$ ^tatil<n><px3sp><loc>$ ^al<v><tv><ger_past><px1pl><nom>$ ^kara<v><iv><ger_aor><nom>$ ^uyar<v><tv><gna_when>$ ^mektuplaş<v><iv><neg><ifi><p1><pl>$^.<sent>$
+[/axcRUjPGGyXL]
+[bsUqSjKWZEPL#0] ^Sen<prn><pers><p2><sg><nom>$ ^yüz<v><iv><ger_aor><nom>+i<cop><gna_ken>$ ^elma<n><attr>$ ^yedi<num><subst><px1sg><nom>+i<cop><aor><p3><sg>$^.<sent>$
+[/bsUqSjKWZEPL]
+[c3qWuDOfxKCe#0] ^Asıl<adj>$ ^sor<v><tv><imp><p2><pl>$ ^is<n><dat>$ ^bu<prn><dem><gen>$^,<cm>$ ^Cinciç<np><cog><mf><gen>$ ^iş<n><px3sp><dat>$ ^de<cnjcoo>$ ^yara<v><iv><neg><gpr_fut>$ ^olma<n><px3sp><nom>+i<cop><aor><p3><sg>$^.<sent>$
+[/c3qWuDOfxKCe]
+[f6Uce5K4s6Hd#0] ^Sandra<np><ant><f><gen>$ ^saç<n><pl><px3sp><nom>$ ^da<cnjcoo>$ ^kıs<v><tv><pot>$ ^süre<n><loc>$ ^uza<v><iv><ifi><p3><sg>$^,<cm>$ ^yine<adv>$ ^eski<n><px3sp><nom>$ ^gibi<post>$ ^tara<v><tv><pass><gpr_fut>$ ^hal<n><dat>$ ^gel<v><iv><ifi><p3><sg>$^.<sent>$
+[/f6Uce5K4s6Hd]
+[h8EFUfjAM_fa#0] ^Beş<num>$ ^ila<cnjcoo>$ ^on<num>$ ^kiş<n><px3sp><nom>+i<cop><aor><p3><sg>$^.<sent>$
+[/h8EFUfjAM_fa]
+[hpURLEPgvRio#0] ^Ara sıra<adv>$ ^kart<n><pl><nom><@obj>$ ^gönder<v><tv><ifi><p1><pl>$ ^birbiri<prn><recip><px1pl><dat>+i<cop><aor><p3><sg>$^.<sent>$
+[/hpURLEPgvRio]
+[kMIUCphA46yo#0] ^Alem<n><gen>$ ^ağız<n><px3sp><nom>$ ^*torba$ ^değil<adj>$ ^ki<cnjadv>$ ^büz<n><dat>+i<cop><aor><p2><sg>$^.<sent>$
+[/kMIUCphA46yo]
+[n_QC26hqkByn#0] ^Göz<n><pl><px1sg><acc><@obj>$ ^aç<v><tv><ifi><p1><sg>$ ^ki<cnjadv>$ ^hastane<n><loc>+i<cop><aor><p1><sg>$^.<sent>$
+[/n_QC26hqkByn]
+[qg2LeY_aQXCB#0] ^Beraberlik<n><px1pl><nom>$ ^okul<n><nom>$ ^*kapanıncaya$ ^kadar<adv>$ ^sür<v><tv><ifi><p3><sg>$^.<sent>$
+[/qg2LeY_aQXCB]
+[qixIQ1QQoGsy#0] ^Dağ<n><attr>$ ^baş<n><px3sp><loc>$ ^bulut<n><pl><nom>$ ^göç<n><nom><@obj>$ ^et<v><tv><gna_perf>$^,<cm>$ ^şiddetli<adj>$ ^rüzgar<n><attr>$ ^yol<n><attr>$ ^boyun<n><loc><attr>$ ^yalnız<adj>$ ^ağaç<n><px2sg><nom>$ ^çıplak<adj>$ ^dal<n><pl><px3sp><acc><@obj>$ ^*sallıyourdu$^.<sent>$
+[/qixIQ1QQoGsy]
+[r9SOpl-vyo_u#0] ^Ev<n><loc><subst><pl><nom>$ ^hâl<n><dat>$ ^duy<v><tv><neg><past>$ ^olma<n>+lı<post><p3><pl>$ ^ki<cnjadv>$ ^hâl<n><dat>$ ^*aramadylar$^.<sent>$
+[/r9SOpl-vyo_u]
+[v3US0qNR_Ify#0] ^Bu<prn><dem><gen>$ ^neden<adv><itg><px3sp><nom>$ ^AB<np><top><nom>$^'<apos>$^*nin$^,<cm>$ ^organik<adj>$ ^bir<det><ind>$ ^gelişme<n><nom>$ ^ve<cnjcoo>$ ^titizlikle<adv>$ ^tasarla<v><tv><pass><past>$ ^kurumsal<adj>$ ^bir<det><ind>$ ^yapı<n><gen>$ ^ürün<n><px3sp><nom>$ ^olma<n><px3sp><nom>+i<cop><aor><p3><sg><gm>$^.<sent>$
+[/v3US0qNR_Ify]
+[vGbRhVz8Fe7S#0] ^*Büyüklüğü$ ^beş<num>$ ^ila<cnjcoo>$ ^on<num>$ ^metrekare<n><attr>$ ^ara<n><px3sp><loc>$ ^değiş<v><iv><gpr_rsub>$ ^bir<det><ind>$ ^al<v><tv><ger_impf><loc>+i<cop><aor><p3><sg>$ ^yaşa<v><tv><prog>+i<cop><aor><p3><pl>$
+[/vGbRhVz8Fe7S]
+[xxnLs2XjZmQd#0] ^Bir<det><ind>$ ^adam<n><nom>$ ^ki<cnjadv>$ ^söz<n><nom><@obj>$ ^dinle<v><tv><neg><aor>+i<cop><aor><p3><sg>$^.<sent>$
+[/xxnLs2XjZmQd]
